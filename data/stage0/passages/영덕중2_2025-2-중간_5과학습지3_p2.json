@@ -1,0 +1,36 @@
+{
+  "passage_id": "영덕중2_2025-2-중간_5과학습지3_p2",
+  "school": "영덕중학교",
+  "grade": 2,
+  "exam": "2025-2-중간",
+  "source_type": "배부프린트",
+  "source_detail": "5과 Understanding Others / 학습지 번호 3 / Grammar (1) to부정사(목적격 보어)",
+  "scan_file": "영덕중2 2학기 중간고사 외부지문.pdf",
+  "scan_page": 2,
+  "body_text": "One day, something unusual happened to me. While I was relaxing in my car, I heard a knock. I turned around and couldn't see anything. Then, I heard it again. I opened the window and saw a goose pecking at the car door. It wouldn't stop, so I got out of the car. Then the bird began to walk away. I wondered why and wanted to find the reason. As I followed the goose, it kept turning around to see if I was still behind. When it finally stopped, I saw a baby goose trapped in some strings. The goose needed my help to free its baby. After a few minutes, I freed the little bird, and it went to its mom. I was really moved.",
+  "body_text_sha256": "a609882028eab3c96fd566303db5fa8229210fff06fd175b2db72aa87e29e74b",
+  "word_count": 126,
+  "emphasis_spans": [
+    {
+      "start": 316,
+      "end": 341,
+      "surface": "wanted to find the reason",
+      "kind": "bold"
+    },
+    {
+      "start": 500,
+      "end": 531,
+      "surface": "needed my help to free its baby",
+      "kind": "bold"
+    }
+  ],
+  "transcription": {
+    "status": "confirmed",
+    "method": "single_pass_human_verified",
+    "note": "0단계 1차 검증. 이중 전사 미적용 — 육안 대조로 확정.",
+    "has_handwriting": true,
+    "handwriting_note": "페이지 하단 서술형 답란에 학생 손글씨. 지문 본문에는 없음.",
+    "has_cutoff": false,
+    "unreadable_spans": []
+  }
+}

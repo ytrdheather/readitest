@@ -1,0 +1,60 @@
+{
+  "worksheet_id": "영덕중2_2025-2-중간_5과학습지3",
+  "header": {
+    "school": "영덕중학교",
+    "grade": 2,
+    "lesson": "5. Understanding Others",
+    "worksheet_no": 3,
+    "topic": "Grammar (1) to부정사(목적격 보어)",
+    "page_range": "1-2",
+    "source_note": "헤더가 분류 정본. 파일명 '중간고사 외부지문.pdf'와 불일치 — 파일명은 힌트로만 사용."
+  },
+
+  "_comment_map_seed": "교사가 학습지 주제로 명시한 문법 포인트. 기출 없이 배부 시점에 확보되는 school_grammar_map 행.",
+  "map_seed": [
+    {
+      "school": "영덕중학교",
+      "grade": 2,
+      "textbook_unit": "Lesson 5",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "point_label": "to부정사 목적격 보어 (S + V + O + to부정사)",
+      "is_extension": null,
+      "evidence": "학습지 3 주제란 명시 + 본문 볼드 2곳",
+      "confidence": "high",
+      "note": "is_extension(교과서 범위 초과 여부)은 원장 판단 필요"
+    }
+  ],
+
+  "_comment_emphasis": "본문 볼드 = 교사가 사전에 지목한 출제 지점. 전수 태깅은 그대로 하되 이 구간은 confidence high로 가중.",
+  "emphasis_in_passage": [
+    "wanted to find the reason",
+    "needed my help to free its baby"
+  ],
+
+  "_comment_negative": "학습지에 취소선으로 제시된 '틀린 예문'. 교사가 직접 만든, 이 학교에서 실제로 가르친 오답 → 오답 선지 생성 시 우선 사용. 모델 생성분보다 신뢰도 높고 검수 불필요.",
+  "negative_examples": [
+    {
+      "wrong": "Do you want that I come with you?",
+      "correct": "Do you want me to come with you?",
+      "rule_ko": "want는 that절과 함께 쓰지 않는다",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND"
+    },
+    {
+      "wrong": "Jane suggested me to ask you for advice.",
+      "correct": "Jane suggested that I ask you for advice.",
+      "rule_ko": "suggest는 목적어 + to부정사 형태를 취하지 않는다",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND"
+    }
+  ],
+
+  "_comment_verbsets": "학습지 '참고'란의 동사 분류. 문항 생성 시 선지 재료로 직접 사용 가능.",
+  "verb_sets": {
+    "V_+_(O)_+_to부정사": ["want", "ask", "help", "expect", "beg", "would like", "would prefer", "mean (= intend)"],
+    "V_+_O_+_to부정사": ["tell", "remind", "force", "encourage", "teach", "enable", "order", "warn", "invite", "persuade", "get (= persuade)"],
+    "동명사_또는_O+to부정사_둘_다": ["advise", "allow"]
+  },
+
+  "passages": ["영덕중2_2025-2-중간_5과학습지3_p2"],
+  "transcribed_at": "2026-08-09",
+  "transcription_method": "single_pass_human_verified"
+}

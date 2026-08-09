@@ -1,0 +1,54 @@
+{
+  "review_id": "impulse-buying_전유형세트_유형검수결과",
+  "reviewed_at": "2026-08-09",
+  "reviewer": "원장",
+  "review_mode": "유형 검수 (§7.1.1 2층 설계의 1층)",
+  "type_count": 9,
+
+  "_gate": "유형 승인율",
+  "approved": 9,
+  "rejected": 0,
+  "approval_rate": 1.0,
+  "verbatim": "나머지는 모두 승인이야 문제는 아주 좋아",
+
+  "conditional": [
+    {"item": "Q5", "type": "주제찾기", "condition": "선지를 영어로", "status": "반영 완료"},
+    {"item": "Q6", "type": "내용일치", "condition": "선지를 영어로", "status": "반영 완료"}
+  ],
+
+  "approved_types": [
+    {"id": "T-GRAMMAR-INLINE", "label": "어법 — 지문 통째 밑줄, 틀린 것 있는 대로", "sample": "Q1"},
+    {"id": "T-GRAMMAR-USAGE", "label": "어법 — 쓰임이 다른 것 구별", "sample": "Q2"},
+    {"id": "T-VOCAB-CONTEXT", "label": "어휘추론 — 문맥상 부적절한 낱말", "sample": "Q3"},
+    {"id": "T-PHRASE-INFER", "label": "어구추론 — 밑줄 어구의 의미", "sample": "Q4"},
+    {"id": "T-TOPIC", "label": "주제찾기", "sample": "Q5", "option_lang": "en"},
+    {"id": "T-DETAIL", "label": "내용일치/불일치", "sample": "Q6", "option_lang": "en"},
+    {"id": "T-BLANK", "label": "빈칸추론 (주제문·결론문 자리)", "sample": "Q7"},
+    {"id": "T-WRITE-COND", "label": "서술형 — 조건영작", "sample": "Q8"},
+    {"id": "T-WRITE-FIX", "label": "서술형 — 오류수정", "sample": "Q9"}
+  ],
+
+  "_new_rule": "일회성 수정이 아니라 생성 규칙. 문항 형식 속성에 '선지 언어'를 추가한다.",
+  "design_rule_added": {
+    "id": "R-OPTION-LANG",
+    "statement": "선지 언어는 유형별 기본값을 갖고, 기본값은 기출 관측을 따른다.",
+    "defaults": {
+      "T-TOPIC": "en",
+      "T-DETAIL": "en",
+      "T-PHRASE-INFER": "ko (잠정 — 기출은 영어가 다수, 원장 승인은 한국어본)",
+      "T-GRAMMAR-INLINE": "n/a (선지가 기호)",
+      "T-VOCAB-CONTEXT": "n/a"
+    },
+    "evidence": {
+      "en": ["2025 문항5 글쓴이 의도", "2025 문항15 주제", "2025 문항17 내용불일치", "2026 문항11 대화 일치", "2026 문항15 내용불일치", "2026 문항19", "2026 문항20·21", "2026 문항23 어구 의미"],
+      "ko": ["2026 문항13 내용일치"]
+    },
+    "note": "기출은 영어 선지가 압도적. 한국어는 예외적."
+  },
+
+  "_open": "어구추론(Q4)은 한국어 선지로 승인받았으나 기출은 영어(2026 문항23)다. 훈련 목적(의미 이해 직접 측정)과 기출 형식(선지 독해 포함)이 갈리는 지점 — 원장 확인 필요.",
+
+  "_missing": "검수 소요 시간 미보고. §7.1.1 2층 설계의 유일한 검증 데이터이므로 재요청 필요.",
+  "review_seconds_per_item": null,
+  "gate_speed": "MEASUREMENT_PENDING"
+}

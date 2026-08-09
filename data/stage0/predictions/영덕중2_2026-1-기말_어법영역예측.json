@@ -1,0 +1,112 @@
+{
+  "prediction_id": "영덕중2_2026-1-기말_어법영역예측",
+  "sealed_at": "2026-08-09",
+  "blind": true,
+  "blind_note": "교과서 부교재(동아 윤정미 L3·L4)만 근거. 2026 기출·배부프린트 모두 미열람.",
+  "inputs_used": [
+    "동아(윤정미) 2022개정 중2 L3 내용정리 — Grammar+ 섹션 및 문장별 포인트 30종",
+    "동아(윤정미) 2022개정 중2 L4 내용정리 — Grammar+ 섹션 및 문장별 포인트 34종",
+    "2025-2 중간 기출에서 추출한 교사 행동 패턴 (§5.5)"
+  ],
+  "inputs_NOT_used": [
+    "2026-1 기말 기출 시험지",
+    "2026 1학기 배부 프린트 L3/L4"
+  ],
+  "_h1": "가설 A — 교사 패턴은 교과서가 바뀌어도 유지된다 (§5.5의 핵심 주장)",
+  "hypothesis_A": [
+    {
+      "id": "A1",
+      "claim": "어법 배점이 단원 핵심 문법 하나~둘로 수렴한다",
+      "basis": "2025-2 중간: 어법 29점 전부가 준동사·목적격보어 한 영역",
+      "test": "2026 기출 어법 문항이 수동태·관계대명사에 몰리는가"
+    },
+    {
+      "id": "A2",
+      "claim": "배부 외부지문을 변형해서 출제한다",
+      "basis": "2025-2: 오류 삽입·어휘 교체·접속사 교체·구문 제거 확인",
+      "test": "배부물 대조 필요 — 이번 턴 미검증"
+    },
+    {
+      "id": "A3",
+      "claim": "구조는 선택형 20 + 논술형 2, 100점 내외",
+      "basis": "2025-2 중간 구조",
+      "test": "기출 표지 확인"
+    },
+    {
+      "id": "A4",
+      "claim": "논술형에 어법을 낸다",
+      "basis": "2025-2 논술형 1 = 어법 6곳 밑줄 + 목적격보어 영작",
+      "test": "기출 논술형 확인"
+    }
+  ],
+  "_h2": "가설 B — 어법 출제 영역은 교과서 Grammar+ 섹션으로 예측된다",
+  "predicted_points_ranked": [
+    {
+      "rank": 1,
+      "point": "수동태 (be + p.p.)",
+      "code": "VOICE_ACTIVE_PASSIVE",
+      "basis": "L3 Grammar+ 정면 주제. 본문 3개 모두 등장(수동태 3회). 'by+행위자 생략'까지 별도 항목"
+    },
+    {
+      "rank": 2,
+      "point": "주격 관계대명사 (that/who/which)",
+      "code": "REL_PRON_VS_ADV",
+      "basis": "L4 Grammar+ 정면 주제. 'that의 다양한 용법'으로 별도 정리, 문장별 3회"
+    },
+    {
+      "rank": 3,
+      "point": "명사절 접속사 that (생략 포함)",
+      "code": "NOUN_CLAUSE_THAT",
+      "basis": "L4 최다 빈도(3회). 관계대명사 that과의 구별이 전형적 출제 지점"
+    },
+    {
+      "rank": 4,
+      "point": "종속 접속사 if",
+      "code": "NOUN_CLAUSE_IF",
+      "basis": "L4 Grammar+ 항목. 조건절 if / 명사절 if 구별"
+    },
+    {
+      "rank": 5,
+      "point": "수여동사의 수동태",
+      "code": "VOICE_ACTIVE_PASSIVE",
+      "basis": "L4 Grammar+ 항목. 4형식 수동태는 중2 최빈출"
+    },
+    {
+      "rank": 6,
+      "point": "have to / had to / will have to",
+      "code": "VERB_MODAL_USAGE",
+      "basis": "L3 Grammar+ 항목, L3 2회 + L4 1회"
+    },
+    {
+      "rank": 7,
+      "point": "전치사 + 동명사 (by -ing)",
+      "code": "NONFIN_TO_VS_GERUND",
+      "basis": "L3 Grammar+ 항목"
+    },
+    {
+      "rank": 8,
+      "point": "to부정사 부사적·형용사적 용법",
+      "code": "NONFIN_TO_VS_GERUND",
+      "basis": "L3 합계 5회로 문장별 최다"
+    },
+    {
+      "rank": 9,
+      "point": "감정 형용사 (-ing / -ed)",
+      "code": "VOICE_PARTICIPLE",
+      "basis": "L3 disappointing 항목. 수동태 단원의 단골 짝"
+    },
+    {
+      "rank": 10,
+      "point": "미래 표현 (will / be going to)",
+      "code": "VERB_TENSE",
+      "basis": "L4 Grammar+ 항목"
+    }
+  ],
+  "_h3": "정량 예측 — 맞고 틀림을 숫자로 판정하기 위해",
+  "quantitative": {
+    "P1": "어법 문항의 최다 포인트는 수동태 또는 주격 관계대명사일 것",
+    "P2": "어법 배점의 60% 이상이 예측 1~5위 안에서 나올 것",
+    "P3": "예측 1~10위가 실제 어법 출제 포인트의 80% 이상을 덮을 것 (커버리지)",
+    "P4": "2025년의 지배 영역(사역동사·목적격보어)은 어법 배점의 20% 미만일 것"
+  }
+}

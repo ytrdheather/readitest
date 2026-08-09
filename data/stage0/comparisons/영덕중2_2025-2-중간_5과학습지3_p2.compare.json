@@ -1,0 +1,132 @@
+{
+  "comparison_id": "영덕중2_2025-2-중간_5과학습지3_p2",
+  "compared_at": "2026-08-09",
+  "blind_verified": true,
+  "blind_note": "태깅 파일 확정·저장 후에 기출 시험지를 처음 열람. 순서는 세션 기록으로 검증 가능.",
+  "exam": {
+    "title": "2025학년도 2학기 1차 지필평가 (제2학년 영어)",
+    "date": "2025-09-30",
+    "structure": "선택형 20문항 + 논술형 2문항 / 100점 / 5쪽",
+    "passage_location": "논술형 1 [10점]"
+  },
+  "passage_diff": {
+    "note": "교사가 배부 지문을 시험 출제 시 변형함. 어법 포인트는 유지되나 표면형이 달라짐.",
+    "changes": [
+      {
+        "배부": "While I was relaxing",
+        "시험": "When I was relaxing"
+      },
+      {
+        "배부": "Then, I heard it again.",
+        "시험": "Then I heard it again."
+      },
+      {
+        "배부": "a baby goose trapped in some strings",
+        "시험": "a baby goose trapping in some strings",
+        "비고": "오류 삽입 — 이게 정답 지점"
+      },
+      {
+        "배부": "needed my help to free its baby",
+        "시험": "needed my help for its baby",
+        "비고": "to부정사 제거 → 서술형 (2)로 이동"
+      },
+      {
+        "배부": "I was really moved.",
+        "시험": "I was really touched.",
+        "비고": "어휘 교체, 포인트 동일"
+      }
+    ]
+  },
+  "metrics": {
+    "actual_points_A": 7,
+    "tagged_points_T": 18,
+    "hits": 7,
+    "coverage": 1.0,
+    "excess_ratio": 2.57,
+    "gate_coverage": {
+      "threshold": 0.9,
+      "pass": true
+    },
+    "gate_excess": {
+      "threshold": 3.0,
+      "pass": true
+    }
+  },
+  "details": [
+    {
+      "exam_label": "ⓐ",
+      "exam_surface": "relaxing",
+      "exam_point": "When I was relaxing — 과거진행 시제",
+      "grammar_point_code": "VERB_TENSE",
+      "is_exam_answer": false,
+      "matched_tag_no": 3,
+      "matched_tag_surface": "was relaxing",
+      "hit": true
+    },
+    {
+      "exam_label": "ⓑ",
+      "exam_surface": "pecking",
+      "exam_point": "saw a goose pecking — 지각동사 + 현재분사",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "is_exam_answer": false,
+      "matched_tag_no": 6,
+      "matched_tag_surface": "pecking",
+      "hit": true
+    },
+    {
+      "exam_label": "ⓒ",
+      "exam_surface": "to walk",
+      "exam_point": "began to walk — begin + to부정사",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_exam_answer": false,
+      "matched_tag_no": 7,
+      "matched_tag_surface": "began to walk",
+      "hit": true
+    },
+    {
+      "exam_label": "ⓓ",
+      "exam_surface": "turning",
+      "exam_point": "kept turning — keep + 동명사",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_exam_answer": false,
+      "matched_tag_no": 11,
+      "matched_tag_surface": "kept turning around",
+      "hit": true
+    },
+    {
+      "exam_label": "ⓔ",
+      "exam_surface": "trapping",
+      "exam_point": "a baby goose trapped — 과거분사 후치수식 (★정답: trapping→trapped)",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "is_exam_answer": true,
+      "matched_tag_no": 14,
+      "matched_tag_surface": "trapped in some strings",
+      "hit": true
+    },
+    {
+      "exam_label": "ⓕ",
+      "exam_surface": "touched",
+      "exam_point": "was really touched — 감정동사 수동태",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "is_exam_answer": false,
+      "matched_tag_no": 17,
+      "matched_tag_surface": "was really moved",
+      "hit": true
+    },
+    {
+      "exam_label": "논술(2)",
+      "exam_surface": "wanted the writer to free",
+      "exam_point": "want + O + to부정사 — 목적격 보어 영작",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_exam_answer": true,
+      "matched_tag_no": 15,
+      "matched_tag_surface": "needed my help to free its baby",
+      "hit": true
+    }
+  ],
+  "caveats": [
+    "표본 지문 1개. 기획서 §3은 3~5개 합산 판정을 요구 — 이 숫자는 잠정치.",
+    "태깅은 파이프라인 프롬프트가 아니라 수동 작성(0단계 개념 검증 단계의 정의된 방식).",
+    "시험 지문이 배부 지문과 다름. 표면형이 아니라 '같은 위치·같은 포인트' 기준으로 적중 판정."
+  ]
+}

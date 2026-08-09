@@ -1,0 +1,86 @@
+{
+  "comparison_id": "영덕중2_2026-1-기말_예측대조",
+  "compared_at": "2026-08-09",
+  "blind_verified": true,
+  "blind_note": "예측 파일(data/stage0/predictions/)을 봉인한 뒤 기출을 처음 열람. 근거는 교과서 부교재뿐이었고 배부 프린트도 보지 않았음.",
+
+  "exam": {
+    "title": "2026학년도 1학기 2차 정기시험 (제2학년 영어)",
+    "date": "2026-07-01",
+    "structure": "선택형 23문항 / 100점 / 5쪽",
+    "structure_change_vs_2025": "논술형 2문항이 사라지고 선택형이 20 → 23으로 늘었다"
+  },
+
+  "_c1": "실제 출제된 어법 문항 (문법을 직접 묻는 것만. 관계사절이 선지로 쓰인 독해 문항 22번은 제외 — 보수적 집계)",
+  "actual_grammar_items": [
+    {"no": 3,  "score": 4, "point": "수동태 (was made / were eaten / was broken)", "predicted_rank": 1,  "hit": true},
+    {"no": 4,  "score": 5, "point": "의문사+조동사 어순, 미래표현 (What will the weather be like?)", "predicted_rank": 10, "hit": "partial"},
+    {"no": 5,  "score": 3, "point": "비인칭주어 it vs 대명사 it", "predicted_rank": null, "hit": false},
+    {"no": 6,  "score": 3, "point": "조동사 have to / must / don't have to", "predicted_rank": 6,  "hit": true},
+    {"no": 8,  "score": 4, "point": "주격 관계대명사 + 시간·조건 부사절 시제", "predicted_rank": 2,  "hit": true},
+    {"no": 10, "score": 5, "point": "수동태 (교과서 Bicycle 본문 변형)", "predicted_rank": 1,  "hit": true},
+    {"no": 12, "score": 5, "point": "to부정사 용법 구별 (부사적 vs 명사적)", "predicted_rank": 8,  "hit": true},
+    {"no": 14, "score": 4, "point": "분사 (accepted / unexpected / selling)", "predicted_rank": 9,  "hit": true},
+    {"no": 16, "score": 5, "point": "동명사 · 병렬구조 · 수일치", "predicted_rank": 7,  "hit": "partial"},
+    {"no": 20, "score": 5, "point": "주격 관계대명사 who + 어순", "predicted_rank": 2,  "hit": true}
+  ],
+  "grammar_score_total": 43,
+  "grammar_score_share": 0.43,
+
+  "_c2": "봉인한 정량 예측의 판정",
+  "quantitative_results": {
+    "P1": {"claim": "최다 포인트는 수동태 또는 주격 관계대명사", "result": "PASS",
+           "detail": "수동태 9점(3·10번) / 주격 관계대명사 9점(8·20번) 공동 1위"},
+    "P2": {"claim": "어법 배점의 60% 이상이 예측 1~5위에서", "result": "FAIL",
+           "detail": "18/43 = 42%. 실제 출제가 예측보다 넓게 분산됨"},
+    "P3": {"claim": "예측 1~10위가 실제 어법 포인트의 80% 이상 커버", "result": "PASS",
+           "detail": "부분 적중을 제외하면 35/43 = 81%, 포함하면 40/43 = 93%"},
+    "P4": {"claim": "2025년 지배 영역(사역동사·목적격보어)은 20% 미만", "result": "PASS",
+           "detail": "0/43 = 0%. 해당 문항 없음"}
+  },
+  "score": "4개 중 3개 적중",
+
+  "_c3": "교사 행동 패턴 가설 검증 — §5.5의 핵심 주장",
+  "hypothesis_A_results": {
+    "A1": {"claim": "어법 배점이 단원 핵심 문법 하나~둘로 수렴한다", "result": "REJECTED",
+           "detail": "2025-2: 29점 전부 한 영역(준동사·목적격보어). 2026-1: 43점이 수동태9·관계대명사9·to부정사5·동명사병렬5·어순5·분사4·조동사3·it3으로 분산. 2025의 수렴은 일반 패턴이 아니라 그 시험의 특성이었다."},
+    "A2": {"claim": "지문을 변형해서 출제한다", "result": "CONFIRMED",
+           "detail": "교과서 Bicycle 본문에 오류 5곳 삽입 + 어휘 교체 1곳. 2025년 배부 지문에서 관찰된 것과 동일한 행동."},
+    "A3": {"claim": "구조는 선택형 20 + 논술형 2", "result": "REJECTED",
+           "detail": "선택형 23, 논술형 0. 시험 구조는 회차마다 달라진다."},
+    "A4": {"claim": "논술형에 어법을 낸다", "result": "N/A", "detail": "논술형이 없어 검증 불가"}
+  },
+
+  "_c4": "교과서 본문 변형 실례 — 문항 10 (Bicycle)",
+  "textbook_modifications": [
+    {"원문": "The explosion created a huge cloud of ash, so crops failed around the world.",
+     "시험": "A huge cloud of ash was created the explosion, so crops failed around the world.",
+     "성격": "능동→수동 전환 후 by 누락 (오류 삽입)"},
+    {"원문": "Surprisingly, this made traveling difficult.",
+     "시험": "Surprisingly, this made traveling hard.",
+     "성격": "어휘 교체 — 이 선지가 정답(어법상 옳음)"},
+    {"원문": "many horses were killed for food",
+     "시험": "many horses were died by food",
+     "성격": "자동사 die를 수동태로 (오류 삽입) + 전치사 교체"},
+    {"원문": "Karl von Drais invented the first bicycle",
+     "시험": "the first bicycle was inventing by Karl von Drais",
+     "성격": "수동태 형태 오류 삽입"},
+    {"원문": "riders simply pushed the bicycle forward with their feet",
+     "시험": "riders simply pushed the bicycle forward their feet",
+     "성격": "전치사 with 삭제 (오류 삽입)"}
+  ],
+
+  "_c5": "교과서 본문 의존도",
+  "textbook_dependency": {
+    "교과서_본문_대화_기반_배점": 46,
+    "해당문항": "10·11(Bicycle, Science Day 대화), 12·13(Whiteout+Webcam), 18·19(Hunger Marketing), 20·21(Viral Marketing), 22·23(Anchoring Effect)",
+    "초견_지문_배점_추정": 27,
+    "note": "교과서 본문 3개(L3)와 3개(L4)가 모두 출제됐다. 교과서 부교재만 확보해도 46점이 사정권."
+  },
+
+  "caveats": [
+    "배부 프린트 L3/L4를 아직 열지 않았다. 배부 외부지문 출제율(2025년 4/4)은 이번 턴 미검증.",
+    "2025년과 2026년의 담당 교사가 동일한지 확인되지 않았다. A1·A3 기각이 교사 교체 때문일 가능성이 남아 있다.",
+    "문항 16의 정답 선지 판독에 불확실성이 있어 세부 포인트는 잠정."
+  ]
+}

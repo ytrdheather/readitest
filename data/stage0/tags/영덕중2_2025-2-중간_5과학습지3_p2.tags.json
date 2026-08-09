@@ -1,0 +1,214 @@
+{
+  "passage_id": "영덕중2_2025-2-중간_5과학습지3_p2",
+  "body_text_sha256": "a609882028eab3c96fd566303db5fa8229210fff06fd175b2db72aa87e29e74b",
+  "tagged_at": "2026-08-09",
+  "blind": true,
+  "blind_note": "기출 시험지 미열람 상태에서 작성. 이 파일 확정 후에만 시험지를 연다.",
+  "tagger": "manual (0단계 개념 검증 — 파이프라인 프롬프트 대역)",
+  "tag_count": 18,
+  "new_code_candidates": [
+    "MOD_POSTPOSITIVE",
+    "NOUN_CLAUSE_IF",
+    "PRON_INDEFINITE"
+  ],
+  "tags": [
+    {
+      "tag_no": 1,
+      "grammar_point_code": "MOD_POSTPOSITIVE",
+      "is_new_code_candidate": true,
+      "span_start": 9,
+      "span_end": 26,
+      "surface": "something unusual",
+      "rationale": "-thing으로 끝나는 부정대명사는 형용사가 뒤에서 수식. unusual something 오류 유도 가능",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 2,
+      "grammar_point_code": "CONJ_VS_PREP",
+      "is_new_code_candidate": false,
+      "span_start": 43,
+      "span_end": 48,
+      "surface": "While",
+      "rationale": "접속사 while + 절 / 전치사 during + 명사구. during으로 바꾼 오답 전형",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 3,
+      "grammar_point_code": "VERB_TENSE",
+      "is_new_code_candidate": false,
+      "span_start": 51,
+      "span_end": 63,
+      "surface": "was relaxing",
+      "rationale": "주절 과거(heard)와 시제 일치. 과거진행 vs 단순과거",
+      "confidence": "medium",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 4,
+      "grammar_point_code": "CONJ_PARALLEL",
+      "is_new_code_candidate": false,
+      "span_start": 94,
+      "span_end": 133,
+      "surface": "turned around and couldn't see anything",
+      "rationale": "and로 연결된 과거시제 동사 병렬",
+      "confidence": "medium",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 5,
+      "grammar_point_code": "PRON_INDEFINITE",
+      "is_new_code_candidate": true,
+      "span_start": 125,
+      "span_end": 133,
+      "surface": "anything",
+      "rationale": "부정문의 anything (= nothing). something과 교체 오류",
+      "confidence": "medium",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 6,
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "is_new_code_candidate": false,
+      "span_start": 195,
+      "span_end": 202,
+      "surface": "pecking",
+      "rationale": "지각동사 saw + 목적어 + 현재분사(능동·진행). pecked / to peck와 구별",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 7,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 277,
+      "span_end": 290,
+      "surface": "began to walk",
+      "rationale": "begin + to부정사 / 동명사 모두 가능. 다른 동사와의 대조 지점",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 8,
+      "grammar_point_code": "CONJ_PARALLEL",
+      "is_new_code_candidate": false,
+      "span_start": 299,
+      "span_end": 341,
+      "surface": "wondered why and wanted to find the reason",
+      "rationale": "and로 연결된 과거시제 동사 병렬 (wondered / wanted)",
+      "confidence": "medium",
+      "teacher_emphasis": true
+    },
+    {
+      "tag_no": 9,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 316,
+      "span_end": 341,
+      "surface": "wanted to find the reason",
+      "rationale": "want + to부정사. that절·동명사 불가 (학습지 취소선 예문과 직결)",
+      "confidence": "high",
+      "teacher_emphasis": true
+    },
+    {
+      "tag_no": 10,
+      "grammar_point_code": "CONJ_VS_PREP",
+      "is_new_code_candidate": false,
+      "span_start": 343,
+      "span_end": 356,
+      "surface": "As I followed",
+      "rationale": "접속사 as (~하면서/~할 때) + 절",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 11,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 371,
+      "span_end": 390,
+      "surface": "kept turning around",
+      "rationale": "keep + 동명사. to부정사 불가 — want류와의 핵심 대조",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 12,
+      "grammar_point_code": "NOUN_CLAUSE_IF",
+      "is_new_code_candidate": true,
+      "span_start": 398,
+      "span_end": 419,
+      "surface": "if I was still behind",
+      "rationale": "명사절 접속사 if(~인지). whether로 교체 가능, 조건절 if와 구별",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 13,
+      "grammar_point_code": "CONJ_VS_PREP",
+      "is_new_code_candidate": false,
+      "span_start": 421,
+      "span_end": 444,
+      "surface": "When it finally stopped",
+      "rationale": "시간 접속사 when + 절",
+      "confidence": "medium",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 14,
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "is_new_code_candidate": false,
+      "span_start": 465,
+      "span_end": 488,
+      "surface": "trapped in some strings",
+      "rationale": "과거분사 후치수식(수동). trapping과 구별 — 명사가 동작을 당함",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 15,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 500,
+      "span_end": 531,
+      "surface": "needed my help to free its baby",
+      "rationale": "need + 목적어 + to부정사. 학습지 주제(목적격 보어)와 직결",
+      "confidence": "high",
+      "teacher_emphasis": true
+    },
+    {
+      "tag_no": 16,
+      "grammar_point_code": "PRON_AGREEMENT",
+      "is_new_code_candidate": false,
+      "span_start": 523,
+      "span_end": 531,
+      "surface": "its baby",
+      "rationale": "소유격 its vs it is 축약 it's",
+      "confidence": "medium",
+      "teacher_emphasis": true
+    },
+    {
+      "tag_no": 17,
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "is_new_code_candidate": false,
+      "span_start": 605,
+      "span_end": 621,
+      "surface": "was really moved",
+      "rationale": "감정동사 수동태. 주어가 사람이면 -ed, 사물이면 -ing (moving과 구별)",
+      "confidence": "high",
+      "teacher_emphasis": false
+    },
+    {
+      "tag_no": 18,
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "is_new_code_candidate": false,
+      "span_start": 609,
+      "span_end": 615,
+      "surface": "really",
+      "rationale": "부사 really가 분사 moved를 수식. real로 바꾼 오답 전형",
+      "confidence": "medium",
+      "teacher_emphasis": false
+    }
+  ]
+}
