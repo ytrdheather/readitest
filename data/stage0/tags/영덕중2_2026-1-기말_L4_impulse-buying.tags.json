@@ -1,0 +1,373 @@
+{
+  "passage_id": "영덕중2_2026-1-기말_L4_impulse-buying",
+  "body_text_sha256": "542eae6acf9b12bb194d9c70b9e33d024d9a73406c0f5f71c78e1eb1cb51461e",
+  "tagged_at": "2026-08-09",
+  "extracted_at": "2026-08-21",
+  "blind": false,
+  "blind_note": "생성자가 기출을 이미 열람한 상태였다. 검수지 말미의 한계 경고 참조 — 이 태깅의 7/7 재현율은 무편향 지표가 아니다.",
+  "tagger": "manual (0단계 개념 검증)",
+  "tag_count": 20,
+  "new_code_candidates": [
+    {
+      "code": "VERB_PERFECT",
+      "category": "동사",
+      "label_ko": "현재완료 (경험·계속·완료)",
+      "why": "태그1 'Have you ever bought'. 기존 28코드에 완료시제 항목이 없다. VERB_TENSE(시제 일치)와는 다른 축."
+    },
+    {
+      "code": "VERB_PREP_COLLOCATION",
+      "category": "기타",
+      "label_ko": "동사 + 전치사 결합 (help A with B 등)",
+      "why": "태그20 'help you with'. EI_PREP_DELETE 변형의 근거 포인트인데 대응 코드가 없다. CONJ_VS_PREP(접속사 vs 전치사)는 다른 현상."
+    }
+  ],
+  "_note": "위 2개는 원장 승인 전까지 is_candidate=true. 승인 없이는 인제스트가 해당 태그를 건너뛴다.",
+  "tags": [
+    {
+      "tag_no": 1,
+      "grammar_point_code": "VERB_PERFECT",
+      "is_new_code_candidate": true,
+      "span_start": 0,
+      "span_end": 20,
+      "surface": "Have you ever bought",
+      "sentence_no": 1,
+      "rationale": "현재완료 경험",
+      "confidence": "medium",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "EI_NONFIN_FORM"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 2,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 31,
+      "span_end": 47,
+      "surface": "without planning",
+      "sentence_no": 1,
+      "rationale": "전치사 + 동명사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "EI_NONFIN_FORM"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 3,
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "is_new_code_candidate": false,
+      "span_start": 62,
+      "span_end": 76,
+      "surface": "it looked nice",
+      "sentence_no": 1,
+      "rationale": "감각동사 + 형용사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 4,
+      "grammar_point_code": "CONJ_PARALLEL",
+      "is_new_code_candidate": false,
+      "span_start": 72,
+      "span_end": 83,
+      "surface": "nice or fun",
+      "sentence_no": 1,
+      "rationale": "등위 병렬",
+      "confidence": "medium",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 5,
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "is_new_code_candidate": false,
+      "span_start": 90,
+      "span_end": 99,
+      "surface": "is called",
+      "sentence_no": 2,
+      "rationale": "수동태",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
+      ],
+      "exam_underlined": "ⓐ called",
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 6,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 119,
+      "span_end": 131,
+      "surface": "means buying",
+      "sentence_no": 3,
+      "rationale": "mean + 동명사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 7,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 149,
+      "span_end": 165,
+      "surface": "without thinking",
+      "sentence_no": 3,
+      "rationale": "전치사 + 동명사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 8,
+      "grammar_point_code": "VERB_FINITE",
+      "is_new_code_candidate": false,
+      "span_start": 220,
+      "span_end": 234,
+      "surface": "while shopping",
+      "sentence_no": 4,
+      "rationale": "접속사 + 분사(동명사)",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB"
+      ],
+      "exam_underlined": "ⓑ shops",
+      "exam_wrong_form": "shops"
+    },
+    {
+      "tag_no": 9,
+      "grammar_point_code": "CONJ_PARALLEL",
+      "is_new_code_candidate": false,
+      "span_start": 236,
+      "span_end": 261,
+      "surface": "both in stores and online",
+      "sentence_no": 4,
+      "rationale": "both A and B 병렬",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ],
+      "exam_underlined": "ⓒ online",
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 10,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 337,
+      "span_end": 348,
+      "surface": "want to buy",
+      "sentence_no": 6,
+      "rationale": "want + to부정사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 11,
+      "grammar_point_code": "VERB_TENSE",
+      "is_new_code_candidate": false,
+      "span_start": 354,
+      "span_end": 368,
+      "surface": "while you wait",
+      "sentence_no": 6,
+      "rationale": "시간 부사절 현재시제",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_FUTURE_IN_SUBORD"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 12,
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "is_new_code_candidate": false,
+      "span_start": 413,
+      "span_end": 421,
+      "surface": "feel bad",
+      "sentence_no": 8,
+      "rationale": "감각동사 + 형용사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 13,
+      "grammar_point_code": "VERB_SVA",
+      "is_new_code_candidate": false,
+      "span_start": 475,
+      "span_end": 517,
+      "surface": "buying many small things over time can use",
+      "sentence_no": 9,
+      "rationale": "동명사 주어 + 단수 수일치",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 14,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 546,
+      "span_end": 569,
+      "surface": "stop you from following",
+      "sentence_no": 10,
+      "rationale": "stop A from -ing",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "EI_GERUND_TO_VERB"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 15,
+      "grammar_point_code": "CONJ_PARALLEL",
+      "is_new_code_candidate": false,
+      "span_start": 560,
+      "span_end": 598,
+      "surface": "following your spending plan or saving",
+      "sentence_no": 10,
+      "rationale": "병렬 (동명사)",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ],
+      "exam_underlined": "ⓓ saves",
+      "exam_wrong_form": "saves"
+    },
+    {
+      "tag_no": 16,
+      "grammar_point_code": "CONJ_PARALLEL",
+      "is_new_code_candidate": false,
+      "span_start": 640,
+      "span_end": 676,
+      "surface": "not only wastes money but also makes",
+      "sentence_no": 11,
+      "rationale": "상관접속사 병렬 + 수일치",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_PARALLEL_BREAK"
+      ],
+      "exam_underlined": "ⓔ make",
+      "exam_wrong_form": "make"
+    },
+    {
+      "tag_no": 17,
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "is_new_code_candidate": false,
+      "span_start": 671,
+      "span_end": 704,
+      "surface": "makes managing your budget harder",
+      "sentence_no": 11,
+      "rationale": "make + 목적어 + 형용사",
+      "confidence": "medium",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 18,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 706,
+      "span_end": 714,
+      "surface": "To avoid",
+      "sentence_no": 12,
+      "rationale": "to부정사 부사적(목적)",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_NONFIN_FORM"
+      ],
+      "exam_underlined": "ⓕ To avoid",
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 19,
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_new_code_candidate": false,
+      "span_start": 782,
+      "span_end": 795,
+      "surface": "try to follow",
+      "sentence_no": 12,
+      "rationale": "try + to부정사",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT"
+      ],
+      "exam_underlined": null,
+      "exam_wrong_form": null
+    },
+    {
+      "tag_no": 20,
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "is_new_code_candidate": true,
+      "span_start": 897,
+      "span_end": 910,
+      "surface": "help you with",
+      "sentence_no": 14,
+      "rationale": "help A with B",
+      "confidence": "high",
+      "teacher_emphasis": false,
+      "applicable_modifications": [
+        "EI_PREP_DELETE"
+      ],
+      "exam_underlined": "ⓖ with",
+      "exam_wrong_form": null
+    }
+  ],
+  "_exam_underline_note": "exam_underlined = 기출 문항16에서 밑줄이 그어진 지점. exam_wrong_form = 그중 실제로 오류가 삽입된 3곳(ⓑⓓⓔ). 나머지 4곳은 밑줄만 있고 원문 그대로였다."
+}

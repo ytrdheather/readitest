@@ -1,0 +1,110 @@
+{
+  "passage_id": "영덕중2_2026-1-기말_L4_impulse-buying",
+  "kind": "handout_external",
+  "title": "impulse buying",
+  "school": "영덕중학교",
+  "grade": 2,
+  "exam": "2026-1-기말",
+  "source_type": "배부프린트",
+  "source_detail": "L4 [4-11] More Reading",
+  "textbook_unit": "Lesson 4",
+  "body_text": "Have you ever bought something without planning, just because it looked nice or fun? This is called impulse buying. It means buying things suddenly, without thinking carefully. People often make impulse buying decisions while shopping, both in stores and online.\n\nStores place snacks, toys, or small items near the cashier. You probably want to buy them while you wait. Impulse buying can lead to regret. You may feel bad later because you didn't really need the item. Also, buying many small things over time can use a lot of your money. It can stop you from following your spending plan or saving for something important.\n\nImpulse buying not only wastes money but also makes managing your budget harder. To avoid impulse buying, make a shopping list before going to the store and try to follow it. You can also give yourself a short break before you decide. Sometimes, waiting a few minutes can help you with your decision. Being a smart shopper means thinking before buying. When you shop with a plan, you can save money and feel better about your choices.",
+  "body_text_sha256": "542eae6acf9b12bb194d9c70b9e33d024d9a73406c0f5f71c78e1eb1cb51461e",
+  "word_count": 182,
+  "sentence_spans": [
+    {
+      "no": 1,
+      "start": 0,
+      "end": 84
+    },
+    {
+      "no": 2,
+      "start": 85,
+      "end": 115
+    },
+    {
+      "no": 3,
+      "start": 116,
+      "end": 176
+    },
+    {
+      "no": 4,
+      "start": 177,
+      "end": 262
+    },
+    {
+      "no": 5,
+      "start": 264,
+      "end": 323
+    },
+    {
+      "no": 6,
+      "start": 324,
+      "end": 369
+    },
+    {
+      "no": 7,
+      "start": 370,
+      "end": 404
+    },
+    {
+      "no": 8,
+      "start": 405,
+      "end": 468
+    },
+    {
+      "no": 9,
+      "start": 469,
+      "end": 538
+    },
+    {
+      "no": 10,
+      "start": 539,
+      "end": 623
+    },
+    {
+      "no": 11,
+      "start": 625,
+      "end": 705
+    },
+    {
+      "no": 12,
+      "start": 706,
+      "end": 799
+    },
+    {
+      "no": 13,
+      "start": 800,
+      "end": 859
+    },
+    {
+      "no": 14,
+      "start": 860,
+      "end": 925
+    },
+    {
+      "no": 15,
+      "start": 926,
+      "end": 977
+    },
+    {
+      "no": 16,
+      "start": 978,
+      "end": 1059
+    }
+  ],
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "confirmed",
+    "method": "extracted_from_review_sheet",
+    "note": "검수지 markdown(2026-08-09)에서 1회 추출. 문장 텍스트는 두 검수지가 동일하며 문단 구분은 전유형세트 검수지를 따랐다. body_text는 이 해시로 확정 — 고치려면 새 레코드 (CLAUDE.md 설계원칙 7).",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "source_files": [
+    "data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying_검수지.md",
+    "data/stage0/items/impulse-buying_전유형세트_검수지.md"
+  ],
+  "word_count_note": "검수지 머리말은 152단어로 기재했으나 실측 182단어. 16문장 평균 11단어이므로 182가 맞다. 검수지 기재값 오류로 판단하고 실측을 채택."
+}

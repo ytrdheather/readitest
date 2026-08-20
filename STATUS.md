@@ -1,4 +1,4 @@
-# 진행 상황 — 2026-08-13
+# 진행 상황 — 2026-08-21
 
 > **새 세션은 이 파일 → [`CLAUDE.md`](CLAUDE.md) → [`docs/리디테스트_기획서_v0.1.md`](docs/리디테스트_기획서_v0.1.md) 순으로 읽으십시오.**
 > 원본 자료 위치는 [`data/sources.md`](data/sources.md).
@@ -6,8 +6,13 @@
 | 단계 | 상태 |
 |---|---|
 | **0단계 — DB 없이 검증** | ✅ **완료** (게이트 전부 통과) |
-| **1단계 — 스키마 + 검수 화면** | 🔨 스키마 완료 · **다음은 인제스트** |
+| **1단계 — 스키마 + 검수 화면** | 🔨 스키마 ✅ · 인제스트 ✅ · **다음은 인입/생성 파이프라인** |
 | 2단계 이후 | 미착수 |
+
+> ⚠️ **Supabase 무료 플랜은 7일 미사용 시 자동 일시정지된다.** 2026-08-21에 실제로 겪었다
+> (마지막 접속 8/9 → 12일). 증상은 **프로젝트 서브도메인만 DNS에서 사라지는 것** —
+> `supabase.co` 자체는 정상 응답하므로 네트워크 문제로 오진하기 쉽다.
+> 대시보드에서 Restore 한 번이면 복구된다. 진단: `python tools/diag_supabase.py`
 
 ---
 
@@ -44,21 +49,101 @@ Bicycle · Whiteout · Webcam · Anchoring · Hunger · Viral · Science Day 대
 - [x] Supabase 프로젝트 + `.env` + 연결 확인
 - [x] **스키마** — `db/001_schema.sql`, 18테이블 + 마스터 시드 + RLS
 - [x] GitHub private 저장소 (`ytrdheather/readitest`)
-- [ ] **← 다음: 0단계 JSON 인제스트** (`db/002_ingest.py`)
-- [ ] 인입 파이프라인 (방향 보정 · 헤더 판독 · 이중 전사 diff)
+- [x] **0단계 JSON 인제스트 완료** — 2026-08-21 적재. 사후 검증 통과 (`tools/check_ingest.py`)
+- [ ] **← 다음: 인입 파이프라인** (방향 보정 · 헤더 판독 · 이중 전사 diff)
 - [ ] 생성 파이프라인 (태깅 A/B · 변형 카탈로그 · 배치 API)
 - [ ] 원장 검수 화면 (큐 3분할)
 
-### 인제스트 대상
+### 인제스트 — 실행법
 
-| 원본 | 대상 테이블 |
-|---|---|
-| `data/stage0/passages/*.json` | `passage` |
-| `data/stage0/tags/*.tags.json` | `passage_tag` |
-| `data/stage0/items/*검수지.md` | `item`, `item_option`, `passage_logic` |
-| `data/stage0/items/검수결과*.json` | `item_check` (`review_seconds` 포함) |
-| `data/stage0/comparisons/*.json` | `exam`, `exam_observation` |
-| `data/stage0/worksheets/*.json` | `school_grammar_map`, `passage_variant` |
+```bash
+python db/002_ingest.py                        # 기본. 검증만, 네트워크도 안 씀
+python db/002_ingest.py --apply --allow-new-codes   # 실제 적재
+```
+
+`--reset`을 붙이면 **DELETE가 실행**됩니다 (대상 지문·시험의 자식 행만).
+붙이지 않으면 DELETE는 한 번도 돌지 않고, 이미 있는 행은 건너뜁니다. 여러 번 실행해도 안전합니다.
+
+### 적재 결과 (2026-08-21 · 전부 DB 확인됨)
+
+| 테이블 | 행수 | 원천 |
+|---|---:|---|
+| `passage` | 2 | 학습지 goose · L4 impulse-buying |
+| `passage_variant` | 1 | 영덕중 2025-2 시험 출제본 (배부본 대비 5곳 변형) |
+| `passage_tag` | 38 | 태깅 A |
+| `passage_logic` | 16 | 태깅 B |
+| `predicted_item_site` | 25 | 태그 × 적용 가능 변형 |
+| `item` / `item_option` / `item_check` | 21 / 99 / 21 | 검수지 2종 |
+| `exam` | 5 | 4개교 2026-1 기말 + 영덕 2025-2 중간 |
+| `exam_observation` | 5 | 교과서 출제율 7/7 · 어법 배점 43% |
+| `school_grammar_map` | 1 | 학습지 헤더 map_seed |
+| `grammar_point` / `question_type` | +2 / +2 | 후보 코드 (아래 ① — **미승인 상태로** 들어감) |
+
+두 번 돌려도 행수가 그대로다 (멱등성 확인). `--reset` 없이는 DELETE가 돌지 않는다.
+
+### markdown → JSON 추출을 먼저 했다
+
+검수지 markdown을 파이썬으로 파싱하지 않고, **구조화 JSON으로 1회 추출한 뒤** 그 JSON만 적재합니다.
+문항 하나를 행으로 바꾸는 데 판단이 40번쯤 들어가는데(유형 코드·위반 포인트·변형 코드),
+그걸 정규식 안에 숨기면 검토할 수가 없습니다. 파일로 빼두면 원장이 그냥 읽고 고칠 수 있습니다.
+다음 회차부터는 검수지를 JSON에서 **생성**하므로 파서가 아예 필요 없습니다.
+
+새로 만든 파일:
+`data/stage0/passages/영덕중2_2026-1-기말_L4_impulse-buying.json` ·
+`tags/….tags.json` · `logic/….logic.json` ·
+`items/….items.json` 2종 · `master_candidates.json`
+
+### 인제스트가 잡아내는 것 (네트워크 없이)
+
+`body_text` sha256 일치 · **태그 스팬이 `body_text[start:end] == surface` 인가** ·
+`span_end > span_start` · 코드가 마스터에 있는가 · 정답 선지 1개인가 · 논리태깅 문장번호 연속인가.
+스팬 검증은 설계원칙 7(「조용히 고치면 모든 span이 어긋난다」)의 자동 감지 장치다.
+스팬·해시를 일부러 깨뜨려 세 종류 전부 잡히는 것까지 확인했다.
+
+### 사후 검증 — `tools/check_ingest.py` (DB를 본다)
+
+인제스트의 검증은 **JSON 파일**을 봤고, 이건 **DB에 실제로 들어간 값**을 본다. 다른 질문이다 —
+전송 중 잘렸거나, 컬럼이 밀렸거나, 나중에 누가 `body_text`를 손대면 여기서만 잡힌다.
+해시·스팬·정답선지·검수기록·태그연결에 더해 **RLS까지 확인**한다:
+공개 키로 `item`·`item_option`·`passage`를 조회해 0행인지 (설계원칙 8).
+
+---
+
+## 원장 판단이 필요한 것
+
+### ① 마스터 코드 후보 4개 (`data/stage0/master_candidates.json`)
+
+0단계 자료를 행으로 바꾸다 보니 마스터 목록에 **없는 코드**가 필요해졌습니다.
+**이미 DB에 들어가 있되 미승인 표시가 붙어 있습니다** — 어법 2개는 `is_candidate = true`,
+유형 2개는 `value_approved = null`(미검수). 스키마가 이 상태를 위해 만들어 둔 칸입니다.
+반려하시면 해당 행 2개와 그걸 쓰는 태그·문항만 되돌리면 됩니다 (태그 2 · 문항 3).
+
+| 코드 | 무엇 | 왜 필요한가 |
+|---|---|---|
+| `VERB_PERFECT` | 현재완료 | 기존 28코드에 완료시제가 아예 없음. `Have you ever bought` |
+| `VERB_PREP_COLLOCATION` | 동사+전치사 결합 | `help A with B`. `EI_PREP_DELETE`가 겨냥하는 포인트인데 대응 코드가 없었음 |
+| `T-FORM-CHOICE` | 빈칸 어형 짝짓기 | 1차 Q4. `BO_FORM_CHOICE`에 대응하는 형식이 유형 마스터에 없음 |
+| `T-WORD-ORDER` | 어순 배열 | 1차 Q10. `BO_WORD_ORDER`에 대응 |
+
+유형 2개는 `value_approved = null`(미검수)로 넣습니다. 다만 둘 다 지문에서 떼어낸 형식이라
+`P-PASSAGE-EMBEDDED`와 충돌합니다 — **지문 안에 녹인 버전으로 다시 올려야** 승인 가치가 있을 것 같습니다.
+
+### ② 1차 검수지의 단문 나열형 8개를 어떻게 할 것인가
+
+1차 12문항 중 8개(Q1·Q2·Q6·Q7·Q8·Q9·Q11·Q12)가 단문 나열형입니다.
+검수 당시엔 승인됐지만, **그 검수 결과로 세워진 원칙**(`P-PASSAGE-EMBEDDED`)에 어긋납니다.
+인제스트는 **검수 기록 그대로** 넣습니다 (승인 10 / 반려 2). 조용히 바꾸지 않았습니다.
+이 8개를 `retired`로 내릴지는 원장 판단입니다. 내린다면 1차 세트는 사실상 기록용만 남습니다.
+
+### ③ 어구추론(T-PHRASE-INFER) 선지 언어 — 검수결과2의 미해결 항목
+
+원장 승인은 한국어본, 기출은 영어(2026 문항23). 훈련 목적과 기출 형식이 갈리는 지점입니다.
+`question_type.option_lang`은 일단 `ko`(원장 승인본)로 두었습니다.
+
+### ④ 수치 정정 — impulse-buying 지문은 152단어가 아니라 182단어
+
+검수지 머리말 기재값이 틀렸습니다. 16문장 평균 11단어이므로 182가 맞습니다.
+실측을 채택하고 `word_count_note`에 남겼습니다. 게이트 판정에는 영향 없습니다.
 
 ---
 
@@ -94,6 +179,9 @@ Bicycle · Whiteout · Webcam · Anchoring · Hunger · Viral · Science Day 대
 
 ## 원장님 대기 항목
 
+- [x] ~~Supabase 프로젝트 Restore~~ — 2026-08-21 완료
+- [ ] 마스터 코드 후보 4개 승인/반려 (위 ① 참조 — 미승인 상태로 DB에 있음)
+- [ ] 1차 단문 나열형 8개 retired 여부 (위 ② 참조)
 - [ ] 학원 컴퓨터 `.env` 생성 (`copy .env.example .env` + 학원용 키 발급)
 - [ ] 집 컴퓨터 키는 학원 세팅 후 폐기
 - [ ] 5과 HWP → PDF 변환 (선택, 정확도 향상)
@@ -103,5 +191,8 @@ Bicycle · Whiteout · Webcam · Anchoring · Hunger · Viral · Science Day 대
 
 ```bash
 python tools/check_env.py      # 키 4개 연결 확인 (값 출력 안 함)
-python tools/check_schema.py   # 테이블 18개 + 마스터 시드 확인
+python tools/diag_supabase.py  # 연결 실패 시 DNS/TCP/TLS/HTTP 중 어디서 막히는지
+python tools/check_schema.py   # 테이블 18개 + 마스터 시드 + 인제스트 행수
+python tools/check_ingest.py   # 적재된 값 검증 (해시·스팬·정답·RLS)
+python db/002_ingest.py        # 0단계 JSON 검증 (네트워크 안 씀). --apply 로 적재
 ```

@@ -1,0 +1,52 @@
+{
+  "_what": "0단계 자료를 구조화하다가 마스터 코드 목록에 없어서 새로 필요해진 코드들. 원장 승인 전까지는 인제스트되지 않는다.",
+  "_how": "python db/002_ingest.py --apply --allow-new-codes 를 붙여야 실제로 들어간다. 붙이지 않으면 이 코드를 쓰는 태그·문항은 건너뛴다.",
+  "proposed_at": "2026-08-21",
+
+  "grammar_point": [
+    {
+      "code": "VERB_PERFECT",
+      "category": "동사",
+      "label_ko": "현재완료 (경험·계속·완료)",
+      "is_candidate": true,
+      "note": "impulse-buying 태그1 'Have you ever bought'. 기존 28코드에 완료시제 항목이 아예 없다. VERB_TENSE(시제 일치)는 절 간 일치 문제라 다른 축.",
+      "evidence": ["data/stage0/tags/영덕중2_2026-1-기말_L4_impulse-buying.tags.json #1"]
+    },
+    {
+      "code": "VERB_PREP_COLLOCATION",
+      "category": "기타",
+      "label_ko": "동사 + 전치사 결합 (help A with B 등)",
+      "is_candidate": true,
+      "note": "impulse-buying 태그20 'help you with'. EI_PREP_DELETE 변형이 겨냥하는 포인트인데 대응 코드가 없었다. CONJ_VS_PREP(접속사 vs 전치사)는 다른 현상이다.",
+      "evidence": [
+        "data/stage0/tags/영덕중2_2026-1-기말_L4_impulse-buying.tags.json #20",
+        "modification_type EI_PREP_DELETE (실제 기출 문항16 ⓖ)"
+      ]
+    }
+  ],
+
+  "question_type": [
+    {
+      "code": "T-FORM-CHOICE",
+      "label_ko": "어법 — 빈칸 어형 짝짓기 ((a)(b)(c) 조합 선택)",
+      "option_lang": "na",
+      "value_approved": null,
+      "review_tier": "fast",
+      "tier_reason": null,
+      "note": "1차 검수지 Q4. 변형 BO_FORM_CHOICE에 대응하는 문항 형식인데 유형 마스터 10종에 없었다. 1차는 문항 검수였고 유형 승인을 받은 적이 없으므로 value_approved=null(미검수).",
+      "evidence": ["data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying.items.json Q4"]
+    },
+    {
+      "code": "T-WORD-ORDER",
+      "label_ko": "어순 배열 — 우리말 제시 + 주어진 단어 배열",
+      "option_lang": "na",
+      "value_approved": null,
+      "review_tier": "fast",
+      "tier_reason": null,
+      "note": "1차 검수지 Q10. 변형 BO_WORD_ORDER에 대응. 2차 전유형세트에는 이 형식이 없어 유형 검수를 못 받았다. 다음 유형 검수 때 함께 올릴 것.",
+      "evidence": ["data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying.items.json Q10"]
+    }
+  ],
+
+  "_open_question": "T-FORM-CHOICE·T-WORD-ORDER는 둘 다 지문에서 떼어낸 형식이라 P-PASSAGE-EMBEDDED와 충돌할 소지가 있다. 유형 검수 시 '지문 안에 녹인 버전'으로 다시 올려야 승인 가능성이 있다."
+}

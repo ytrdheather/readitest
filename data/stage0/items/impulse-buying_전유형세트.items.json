@@ -1,0 +1,530 @@
+{
+  "item_set_id": "impulse-buying_전유형세트_2차",
+  "passage_id": "영덕중2_2026-1-기말_L4_impulse-buying",
+  "body_text_sha256": "542eae6acf9b12bb194d9c70b9e33d024d9a73406c0f5f71c78e1eb1cb51461e",
+  "generated_at": "2026-08-09",
+  "extracted_at": "2026-08-21",
+  "source_sheet": "data/stage0/items/impulse-buying_전유형세트_검수지.md",
+  "review_result": "data/stage0/items/검수결과2_전유형세트.json",
+  "review_mode": "유형 검수 (§7.1.1 2층 설계의 1층) — 정오가 아니라 훈련가치만 판정",
+  "review_seconds_per_item": null,
+  "_warning": "검수 소요 시간 미보고. gate_speed = MEASUREMENT_PENDING.",
+  "principle": "P-PASSAGE-EMBEDDED 적용 — 9/9 전부 지문 연계형",
+  "items": [
+    {
+      "local_id": "Q1",
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "source_tags": [
+        3,
+        5,
+        8,
+        13,
+        15,
+        16,
+        20
+      ],
+      "stem": "ⓐ~ⓖ 중 어법상 틀린 것을 있는 대로 고른 것은?\n\nHave you ever bought something without planning, just because it ⓐlooked nice or fun? This is ⓑcalled impulse buying. People often make impulse buying decisions while ⓒshops, both in stores and online. Also, buying many small things over time ⓓcan use a lot of your money. It can stop you from following your spending plan or ⓔsaving for something important. Impulse buying not only wastes money but also ⓕmake managing your budget harder. Sometimes, waiting a few minutes can ⓖhelp you with your decision.",
+      "answer_key": "②",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "explanation": "ⓒ shopping(접속사+분사), ⓕ makes(wastes와 병렬·수일치). 어법 포인트 7개를 한 문항에 담는다. 1차 Q9(감각동사)가 ⓐ로 지문 안에 녹아들었다.",
+      "options": [
+        {
+          "label": "①",
+          "body": "ⓐ, ⓒ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ⓒ, ⓕ",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "ⓑ, ⓓ, ⓕ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "ⓐ, ⓔ, ⓖ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "ⓒ, ⓔ, ⓕ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 1
+    },
+    {
+      "local_id": "Q2",
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_tags": [
+        2,
+        7,
+        18
+      ],
+      "stem": "밑줄 친 부분의 쓰임이 나머지 넷과 다른 것은?\n\n… something without ⓐplanning … without ⓑthinking carefully … ⓒTo avoid impulse buying … before ⓓgoing to the store … means ⓔthinking before buying",
+      "answer_key": "ⓒ",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "ⓒ만 to부정사 부사적 용법(목적), 나머지는 전치사 뒤 동명사.",
+      "options": [
+        {
+          "label": "ⓐ",
+          "body": "planning",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "ⓑ",
+          "body": "thinking carefully",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "ⓒ",
+          "body": "To avoid",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "ⓓ",
+          "body": "going",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "ⓔ",
+          "body": "thinking",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 2
+    },
+    {
+      "local_id": "Q3",
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "source_logic": [
+        9,
+        10
+      ],
+      "stem": "문맥상 낱말의 쓰임이 적절하지 않은 것은?\n\n… Impulse buying can lead to ⓐregret. … buying many small things over time can ⓑsave a lot of your money. … not only wastes money but also makes managing your budget ⓒharder. … ⓓTo avoid impulse buying, make a shopping list … you can save money and ⓔfeel better about your choices.",
+      "answer_key": "ⓑ",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "부정적 결과를 나열하는 문맥이므로 use(쓰다)여야 한다. save는 논리 방향이 반대. 1차 Q7의 재출제 — 어휘를 지문 밖 단문이 아니라 문맥 논리로 판단하게 함. 태깅 B의 「부정적 결과 2」 표시가 근거.",
+      "options": [
+        {
+          "label": "ⓐ",
+          "body": "regret",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "ⓑ",
+          "body": "save",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "ⓒ",
+          "body": "harder",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "ⓓ",
+          "body": "To avoid",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "ⓔ",
+          "body": "feel better",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 3
+    },
+    {
+      "local_id": "Q4",
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_tags": [
+        14,
+        15
+      ],
+      "stem": "밑줄 친 부분이 의미하는 바로 가장 적절한 것은?\n\n> It can stop you from following your spending plan or saving for something important.",
+      "answer_key": "②",
+      "difficulty": "hard",
+      "option_lang": "ko",
+      "explanation": "stop A from -ing는 이미 하고 있는(하려는) 것을 못 하게 함. 뒤의 or saving과 병렬이므로 '계획 준수'와 '저축' 둘 다 방해받는 구조. 근거 축은 어휘가 아니라 구문 + 논리 방향.",
+      "options": [
+        {
+          "label": "①",
+          "body": "지출 계획을 아예 세우지 못하게 한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "지출 계획을 세웠더라도 지키지 못하게 한다",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "지출 계획을 더 자주 바꾸게 한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "지출 계획을 남에게 맡기게 한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "지출 계획보다 저축을 우선하게 한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved",
+        "note": "한국어 선지로 승인. 다만 기출(2026 문항23)은 영어 선지 — 검수결과2 _open 항목 미해결."
+      },
+      "ordinal": 4
+    },
+    {
+      "local_id": "Q5",
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "source_logic": [
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "stem": "윗글의 주제로 가장 적절한 것은?",
+      "answer_key": "②",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "explanation": "태깅 B의 구조가 그대로 답: 부정적 결과(2) + 해결책(2) + 주제문 [15]. 오답 ①④는 지문의 부분(문장 4·5)을 전체로 확대, ③⑤는 언급되지 않은 확장.",
+      "options": [
+        {
+          "label": "①",
+          "body": "why online shopping is more dangerous than shopping in stores",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the problems of impulse buying and ways to prevent it",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the exact steps for planning a monthly budget",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the types of tricks that stores use to display their products",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the importance of saving money for a regret-free life",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved",
+        "condition": "선지를 영어로",
+        "condition_status": "반영 완료"
+      },
+      "ordinal": 5
+    },
+    {
+      "local_id": "Q6",
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "source_logic": [
+        2,
+        3,
+        5,
+        9,
+        12,
+        13,
+        14
+      ],
+      "stem": "윗글의 내용과 일치하지 않는 것은?",
+      "answer_key": "③",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "explanation": "문장 [9] can use a lot of your money와 정면 배치. 오답 ①[2-3] ②[5] ④[12] ⑤[13-14] 각각 지문 문장 1개에 정확히 대응.",
+      "options": [
+        {
+          "label": "①",
+          "body": "Impulse buying means buying things suddenly without thinking carefully.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Stores place small items such as snacks or toys near the cashier.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Buying many small things over time does not cost much money.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Making a shopping list and trying to follow it can be helpful.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Taking a short break before you decide can also help.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved",
+        "condition": "선지를 영어로",
+        "condition_status": "반영 완료"
+      },
+      "ordinal": 6
+    },
+    {
+      "local_id": "Q7",
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "source_logic": [
+        15,
+        16
+      ],
+      "stem": "빈칸에 들어갈 말로 가장 적절한 것은?\n\n> [15] ________________. [16] When you shop with a plan, you can save money and feel better about your choices.",
+      "answer_key": "②",
+      "difficulty": "hard",
+      "option_lang": "en",
+      "explanation": "빈칸이 주제문 자리(태깅 B). 앞의 해결책 2개를 일반화하고 [16]의 조건절로 이어지는 위치. 계획서 9장 「빈칸은 아무 데나 안 뚫린다」.",
+      "options": [
+        {
+          "label": "①",
+          "body": "Saving money is harder than earning it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Being a smart shopper means thinking before buying",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Online shopping always leads to impulse buying",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Stores are responsible for your spending habits",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A shopping list is not always necessary",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 7
+    },
+    {
+      "local_id": "Q8",
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_logic": [
+        12
+      ],
+      "stem": "윗글의 내용에 맞게 빈칸을 완성하시오.\n\n> 조건 ① avoid, make, list를 반드시 사용할 것 ② to부정사를 포함할 것 ③ 완전한 한 문장으로 쓸 것\n\nQ: What is the first thing you should do to stop impulse buying?\nA: ____",
+      "answer_key": "To avoid impulse buying, you should make a shopping list before going to the store.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "채점 기준: 조건 3개 충족(각 1점) + 어법 정확성(1점).",
+      "options": [],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 8
+    },
+    {
+      "local_id": "Q9",
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "source_tags": [
+        8,
+        13,
+        16,
+        18
+      ],
+      "stem": "ⓐ~ⓓ 중 어법상 틀린 것을 하나 찾아 바르게 고쳐 쓰시오.\n\nPeople often make impulse buying decisions while ⓐshopping. Also, buying many small things over time ⓑcan use a lot of your money. Impulse buying not only wastes money but also ⓒmake managing your budget harder. ⓓTo avoid impulse buying, make a shopping list.\n\n틀린 것: (   ) → 고친 것: (   )",
+      "answer_key": "ⓒ → makes",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "2025 논술형 1과 동일 형식(밑줄 중 하나 찾아 고치기). 회차에 따라 논술형이 없기도 하나 훈련 가치는 유지.",
+      "options": [
+        {
+          "label": "ⓐ",
+          "body": "shopping",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "ⓑ",
+          "body": "can use",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "ⓒ",
+          "body": "make",
+          "is_answer": true,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "ⓓ",
+          "body": "To avoid",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 9
+    }
+  ],
+  "item_count": 9
+}

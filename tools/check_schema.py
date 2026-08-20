@@ -22,7 +22,9 @@ env = load_env()
 URL = env["SUPABASE_URL"].rstrip("/")
 KEY = env["SUPABASE_SERVICE_ROLE_KEY"]
 
-# (테이블, 기대 시드 행수 or None=콘텐츠 테이블이라 0이 정상)
+# (테이블, 최소 행수)
+# 마스터는 시드 행수가 하한. 후보 코드가 승인되면 그보다 늘어난다 (002_ingest --allow-new-codes).
+# 콘텐츠 테이블은 0이 하한 — 인제스트 전에는 비어 있는 게 정상이다.
 TABLES = [
     ("profile", 0), ("grammar_point", 28), ("modification_type", 21),
     ("question_type", 10), ("reject_reason", 9),
@@ -31,6 +33,8 @@ TABLES = [
     ("predicted_item_site", 0), ("item", 0), ("item_option", 0), ("item_check", 0),
     ("school_grammar_map", 0), ("exam_observation", 0),
 ]
+MASTER = {"grammar_point", "modification_type", "question_type", "reject_reason",
+          "textbook", "school"}
 
 def rows(table):
     req = urllib.request.Request(
@@ -49,11 +53,14 @@ for t, expect in TABLES:
     try:
         data = rows(t)
         n = len(data)
-        if expect and n != expect:
-            print(f"  !  {t:22} {n:>3}행   (기대 {expect}행)")
+        if n < expect:
+            print(f"  !  {t:22} {n:>3}행   (최소 {expect}행이어야 함 — 시드 누락)")
             ok = False
         else:
-            tag = "시드" if expect else "비어있음(정상)"
+            if t in MASTER:
+                tag = "시드" + (f" +{n - expect}" if n > expect else "")
+            else:
+                tag = "비어있음" if n == 0 else "인제스트됨"
             print(f"  O  {t:22} {n:>3}행   {tag}")
     except urllib.error.HTTPError as e:
         print(f"  X  {t:22} HTTP {e.code}  테이블 없음/접근 불가")
@@ -64,8 +71,9 @@ for t, expect in TABLES:
 
 print("\n[검수 유형 승인 상태]")
 try:
-    for q in sorted(rows("question_type"), key=lambda x: (not x["value_approved"], x["code"])):
-        mark = "승인" if q["value_approved"] else "반려"
+    for q in sorted(rows("question_type"),
+                    key=lambda x: ({True: 0, None: 1, False: 2}[x["value_approved"]], x["code"])):
+        mark = {True: "승인  ", None: "미검수", False: "반려  "}[q["value_approved"]]
         tier = q["review_tier"]
         print(f"  {mark}  {q['code']:24} {tier:5} {q['label_ko']}")
 except Exception as e:

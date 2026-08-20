@@ -1,0 +1,746 @@
+{
+  "item_set_id": "영덕중2_2026-1-기말_L4_impulse-buying_1차",
+  "passage_id": "영덕중2_2026-1-기말_L4_impulse-buying",
+  "body_text_sha256": "542eae6acf9b12bb194d9c70b9e33d024d9a73406c0f5f71c78e1eb1cb51461e",
+  "generated_at": "2026-08-09",
+  "extracted_at": "2026-08-21",
+  "source_sheet": "data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying_검수지.md",
+  "review_result": "data/stage0/items/검수결과_impulse-buying.json",
+  "review_mode": "문항 검수 (정오 + 훈련가치 혼합 — 이 혼합이 3~4분/문항의 원인)",
+  "review_seconds_per_item": {
+    "min": 180,
+    "max": 240,
+    "recorded": 210,
+    "note": "검수결과 JSON은 범위로만 기록. recorded는 중간값."
+  },
+  "_warning": "1차 12문항 중 8개(Q1·Q2·Q6·Q7·Q8·Q9·Q11·Q12)가 단문 나열형이다. 검수 시점에 승인됐으나 그 뒤 확립된 P-PASSAGE-EMBEDDED 원칙에 어긋난다. 여기서는 검수 기록 그대로 넣는다(승인 10 / 반려 2). 이 8개를 retired로 내릴지는 원장 판단.",
+  "items": [
+    {
+      "local_id": "Q1",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "source_tags": [
+        5
+      ],
+      "stem": "다음 중 어법상 틀린 것은? [수동태]",
+      "answer_key": "②",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "explanation": "주어 This는 '~라고 불리는' 대상이므로 수동태. is calling은 능동 진행형.",
+      "options": [
+        {
+          "label": "①",
+          "body": "Have you ever bought something without planning?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "This is calling impulse buying.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "It means buying things suddenly.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "People often make impulse buying decisions while shopping.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Stores place snacks near the cashier.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 1
+    },
+    {
+      "local_id": "Q2",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_tags": [
+        14
+      ],
+      "stem": "다음 중 어법상 옳은 것은?",
+      "answer_key": "④",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "stop A from -ing 구문. ①은 while shopping, ②는 want to buy, ③은 동명사 주어에 단수동사 can use, ⑤는 wastes와 병렬이므로 makes.",
+      "options": [
+        {
+          "label": "①",
+          "body": "People often make impulse buying decisions while shops.",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You probably want buying them while you wait.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Buying many small things over time can uses a lot of your money.",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It can stop you from following your spending plan.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Impulse buying not only wastes money but also make managing your budget harder.",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 2
+    },
+    {
+      "local_id": "Q3",
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "source_tags": [
+        8,
+        15,
+        16
+      ],
+      "stem": "ⓐ~ⓕ 중 어법상 틀린 것을 있는 대로 고른 것은?\n\nThis is ⓐcalled impulse buying. People often make impulse buying decisions while ⓑshops, both in stores and ⓒonline. It can stop you from following your spending plan or ⓓsaves for something important. Impulse buying not only wastes money but also ⓔmake managing your budget harder. ⓕTo avoid impulse buying, make a shopping list.",
+      "answer_key": "②",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "explanation": "ⓑ shopping(접속사+분사), ⓓ saving(following과 병렬), ⓔ makes(wastes와 병렬·수일치). 실제 기출 문항 16과 동일 지점·동일 정답.",
+      "options": [
+        {
+          "label": "①",
+          "body": "ⓐ, ⓒ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ⓑ, ⓓ, ⓔ",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "ⓑ, ⓔ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "ⓒ, ⓓ, ⓕ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "ⓓ, ⓔ, ⓕ",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 3
+    },
+    {
+      "local_id": "Q4",
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "source_tags": [
+        5,
+        14,
+        20
+      ],
+      "stem": "빈칸 (a)~(c)에 들어갈 말로 바르게 짝지어진 것은?\n\n- This is ____(a)____ impulse buying.\n- It can stop you from ____(b)____ your spending plan.\n- Waiting a few minutes can ____(c)____ you with your decision.",
+      "answer_key": "②",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "(a) 수동태 be+p.p. (b) 전치사 from + 동명사 (c) 조동사 can + 동사원형.",
+      "options": [
+        {
+          "label": "①",
+          "body": "call – follow – help",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "called – following – help",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "called – to follow – helps",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "calling – following – helps",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "called – following – helping",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 4
+    },
+    {
+      "local_id": "Q5",
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_tags": [
+        2,
+        7,
+        18
+      ],
+      "stem": "밑줄 친 부분 중 쓰임이 나머지 넷과 다른 것은?",
+      "answer_key": "③",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "③만 to부정사(부사적 용법·목적). 나머지는 전치사 뒤 동명사.",
+      "options": [
+        {
+          "label": "①",
+          "body": "without planning",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "without thinking carefully",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "To avoid impulse buying",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "before going to the store",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "thinking before buying",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 5
+    },
+    {
+      "local_id": "Q6",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_SVA",
+      "source_tags": [
+        13
+      ],
+      "stem": "빈칸에 들어갈 말로 알맞은 것은?\n\n____ many small things over time ____ a lot of your money.",
+      "answer_key": "②",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "주어 자리이므로 동명사. 조동사 can 뒤에는 동사원형.",
+      "options": [
+        {
+          "label": "①",
+          "body": "Buy – can use",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Buying – can use",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Buying – can uses",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "To buying – can use",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Bought – can uses",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 6
+    },
+    {
+      "local_id": "Q7",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "source_tags": [
+        4
+      ],
+      "stem": "어법상 옳지 않은 것은? [병렬]",
+      "answer_key": "④",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "explanation": "nice와 병렬이므로 형용사 fun. funny는 '웃긴'으로 의미가 달라짐.",
+      "options": [
+        {
+          "label": "①",
+          "body": "It can stop you from following your spending plan or saving for something important.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Impulse buying not only wastes money but also makes managing your budget harder.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Stores place snacks, toys, or small items near the cashier.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "it looked nice or funny  (원문: fun)",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "you can save money and feel better about your choices.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "self_flagged": "④는 어법 오류가 아니라 어휘·의미 문제일 수 있음. 생성 시 반려 후보로 표시.",
+      "review": {
+        "verdict": "rejected",
+        "reject_reason": "DETACHED_FROM_PASSAGE",
+        "verbatim": "어휘 의미 확인 문제를 이렇게 단순한 형태로, 지문과의 연계성 없이 출제하면 단순한 문제가 되어 아이들 훈련이 되지 않는다. 지문 안에 어휘 의미 문제로 넣는 건 좋다"
+      },
+      "ordinal": 7
+    },
+    {
+      "local_id": "Q8",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_TENSE",
+      "source_tags": [
+        11
+      ],
+      "stem": "어법상 옳은 것은? [시간·조건 부사절]",
+      "answer_key": "③",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "시간·조건의 부사절에서는 미래를 현재시제로 나타낸다.",
+      "options": [
+        {
+          "label": "①",
+          "body": "You probably want to buy them while you will wait.",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You can also give yourself a short break before you will decide.",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "When you shop with a plan, you can save money.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "When you will shop with a plan, you can save money.",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "before you are deciding",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 8
+    },
+    {
+      "local_id": "Q9",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "source_tags": [
+        3,
+        12,
+        17
+      ],
+      "stem": "어법상 틀린 것은? [감각동사 + 형용사]",
+      "answer_key": "④",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "explanation": "감각동사 look의 보어 자리에는 형용사. 부사 nicely 불가.",
+      "options": [
+        {
+          "label": "①",
+          "body": "it looked nice",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You may feel bad later",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "makes managing your budget harder",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "it looked nicely",
+          "is_answer": true,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "you can feel better",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "rejected",
+        "reject_reason": "DETACHED_FROM_PASSAGE",
+        "verbatim": "너무 단순한 어법 확인이라, 교과서 지문과 외부지문에 나오는 지문 안에 녹여놓고 거기서 골라서 판단하도록 유도하는 방식의 난이도로 조절하지 않으면 가치가 없다"
+      },
+      "ordinal": 9
+    },
+    {
+      "local_id": "Q10",
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_tags": [
+        18,
+        2
+      ],
+      "stem": "우리말과 일치하도록 주어진 단어를 배열할 때, (a)와 (b)에 들어갈 말은?\n\n> 충동구매를 피하려면, 가게에 가기 전에 쇼핑 목록을 만들어라.\n\n⇒ ____(a)____ impulse buying, make a shopping list before ____(b)____ to the store.\n\n(go / To / avoid / going / avoiding)",
+      "answer_key": "②",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "목적의 to부정사 + 전치사 before 뒤 동명사.",
+      "options": [
+        {
+          "label": "①",
+          "body": "Avoiding – go",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "To avoid – going",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "To avoiding – going",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Avoid – go",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "To avoid – go",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 10
+    },
+    {
+      "local_id": "Q11",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "source_tags": [
+        6,
+        10,
+        19
+      ],
+      "stem": "어법상 틀린 것은? [동사별 목적어 형태]",
+      "answer_key": "⑤",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "explanation": "want는 목적어로 to부정사만 취한다. mean은 동명사·to부정사 모두 가능하나 의미가 다르다.",
+      "options": [
+        {
+          "label": "①",
+          "body": "It means buying things suddenly.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You probably want to buy them.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "try to follow it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Being a smart shopper means thinking before buying.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You probably want buying them.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 5
+        }
+      ],
+      "self_flagged": "①④와 ⑤가 같은 지문 문장에서 나와 중복감이 있음.",
+      "review": {
+        "verdict": "approved",
+        "note": "자체 의심(중복감) 표시했으나 승인됨. self_flag_precision 0.5의 근거."
+      },
+      "ordinal": 11
+    },
+    {
+      "local_id": "Q12",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "source_tags": [
+        20
+      ],
+      "stem": "어법상 틀린 것은? [전치사]",
+      "answer_key": "④",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "explanation": "help A with B. 전치사 with 없이 목적어를 둘 나열할 수 없다.",
+      "options": [
+        {
+          "label": "①",
+          "body": "stop you from following your spending plan",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "help you with your decision",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "before going to the store",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "help you your decision",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "shop with a plan",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "review": {
+        "verdict": "approved"
+      },
+      "ordinal": 12
+    }
+  ],
+  "item_count": 12
+}

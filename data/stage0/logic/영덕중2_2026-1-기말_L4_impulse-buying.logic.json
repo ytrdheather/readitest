@@ -1,0 +1,155 @@
+{
+  "passage_id": "영덕중2_2026-1-기말_L4_impulse-buying",
+  "body_text_sha256": "542eae6acf9b12bb194d9c70b9e33d024d9a73406c0f5f71c78e1eb1cb51461e",
+  "tagged_at": "2026-08-09",
+  "source": "data/stage0/items/impulse-buying_전유형세트_검수지.md 「논리 구조 태깅」 표",
+  "note": "태깅 B. 주제·내용일치·어구추론·빈칸 문항은 전부 여기서 나온다 (§7.1.2). 빈칸 후보는 계획서 9장 「빈칸은 거의 항상 주제문 또는 결론문」에 따라 [11][15][16].",
+  "flow": "도입 → 정의 → 범위 → 원인 → 부정적결과(2회 누적) → 전환(To avoid) → 해결책(2) → 주제 → 결론",
+  "sentence_count": 16,
+  "sentences": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": "Have you ever ~?",
+      "is_blank_candidate": false,
+      "text": "Have you ever bought something without planning, just because it looked nice or fun?",
+      "span_start": 0,
+      "span_end": 84
+    },
+    {
+      "sentence_no": 2,
+      "role": "정의",
+      "signal": "This is called / It means",
+      "is_blank_candidate": false,
+      "text": "This is called impulse buying.",
+      "span_start": 85,
+      "span_end": 115
+    },
+    {
+      "sentence_no": 3,
+      "role": "정의",
+      "signal": "This is called / It means",
+      "is_blank_candidate": false,
+      "text": "It means buying things suddenly, without thinking carefully.",
+      "span_start": 116,
+      "span_end": 176
+    },
+    {
+      "sentence_no": 4,
+      "role": "범위",
+      "signal": "both A and B",
+      "is_blank_candidate": false,
+      "text": "People often make impulse buying decisions while shopping, both in stores and online.",
+      "span_start": 177,
+      "span_end": 262
+    },
+    {
+      "sentence_no": 5,
+      "role": "원인",
+      "signal": null,
+      "is_blank_candidate": false,
+      "text": "Stores place snacks, toys, or small items near the cashier.",
+      "span_start": 264,
+      "span_end": 323
+    },
+    {
+      "sentence_no": 6,
+      "role": "원인",
+      "signal": null,
+      "is_blank_candidate": false,
+      "text": "You probably want to buy them while you wait.",
+      "span_start": 324,
+      "span_end": 369
+    },
+    {
+      "sentence_no": 7,
+      "role": "부정적결과1",
+      "signal": "can lead to",
+      "is_blank_candidate": false,
+      "text": "Impulse buying can lead to regret.",
+      "span_start": 370,
+      "span_end": 404
+    },
+    {
+      "sentence_no": 8,
+      "role": "부정적결과1",
+      "signal": "can lead to",
+      "is_blank_candidate": false,
+      "text": "You may feel bad later because you didn't really need the item.",
+      "span_start": 405,
+      "span_end": 468
+    },
+    {
+      "sentence_no": 9,
+      "role": "부정적결과2",
+      "signal": "Also",
+      "is_blank_candidate": false,
+      "text": "Also, buying many small things over time can use a lot of your money.",
+      "span_start": 469,
+      "span_end": 538
+    },
+    {
+      "sentence_no": 10,
+      "role": "부정적결과2",
+      "signal": "Also",
+      "is_blank_candidate": false,
+      "text": "It can stop you from following your spending plan or saving for something important.",
+      "span_start": 539,
+      "span_end": 623
+    },
+    {
+      "sentence_no": 11,
+      "role": "결과요약",
+      "signal": "not only ~ but also",
+      "is_blank_candidate": true,
+      "text": "Impulse buying not only wastes money but also makes managing your budget harder.",
+      "span_start": 625,
+      "span_end": 705
+    },
+    {
+      "sentence_no": 12,
+      "role": "해결책1",
+      "signal": "To avoid",
+      "is_blank_candidate": false,
+      "text": "To avoid impulse buying, make a shopping list before going to the store and try to follow it.",
+      "span_start": 706,
+      "span_end": 799
+    },
+    {
+      "sentence_no": 13,
+      "role": "해결책2",
+      "signal": "also / Sometimes",
+      "is_blank_candidate": false,
+      "text": "You can also give yourself a short break before you decide.",
+      "span_start": 800,
+      "span_end": 859
+    },
+    {
+      "sentence_no": 14,
+      "role": "해결책2",
+      "signal": "also / Sometimes",
+      "is_blank_candidate": false,
+      "text": "Sometimes, waiting a few minutes can help you with your decision.",
+      "span_start": 860,
+      "span_end": 925
+    },
+    {
+      "sentence_no": 15,
+      "role": "주제문",
+      "signal": "Being ~ means ~",
+      "is_blank_candidate": true,
+      "text": "Being a smart shopper means thinking before buying.",
+      "span_start": 926,
+      "span_end": 977
+    },
+    {
+      "sentence_no": 16,
+      "role": "결론문",
+      "signal": "When",
+      "is_blank_candidate": true,
+      "text": "When you shop with a plan, you can save money and feel better about your choices.",
+      "span_start": 978,
+      "span_end": 1059
+    }
+  ]
+}

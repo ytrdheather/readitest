@@ -52,5 +52,11 @@ Supabase SQL Editor의 경고는 정상 동작이므로 근거를 보여주고 �
 
 ```bash
 python tools/check_env.py      # 키 4개 연결 확인 (값 출력 안 함)
-python tools/check_schema.py   # 테이블 18개 + 마스터 시드 확인
+python tools/diag_supabase.py  # 연결 실패 시 DNS/TCP/TLS/HTTP 중 어디서 막히는지
+python tools/check_schema.py   # 테이블 18개 + 마스터 시드 + 인제스트 행수
+python tools/check_ingest.py   # 적재된 값 검증 (해시·스팬·정답·RLS)
+python db/002_ingest.py        # 0단계 JSON 검증 (네트워크 안 씀). --apply 로 적재
 ```
+
+`002_ingest.py --reset`은 **DELETE를 실행한다** — 위 규칙 4가 그대로 적용된다.
+`--reset` 없이는 DELETE가 돌지 않고 이미 있는 행은 건너뛴다.
