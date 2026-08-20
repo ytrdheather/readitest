@@ -1,0 +1,84 @@
+======================================================================
+ 패스 A 평가 — 자동 태깅 vs 수동 태깅 vs 기출
+======================================================================
+
+판정: 「같은 위치 · 같은 포인트」 (0단계 수동 대조와 동일 규칙)
+
+======================================================================
+ goose (영덕중2 2025-2 중간 5과 학습지3 p2)
+======================================================================
+  기출 지점 7개 · 적합됨 (블라인드 아님)
+  이 지문으로 프롬프트를 2회 고쳤다. 커버리지는 적합된 수치이지 블라인드가 아니다.
+
+── 수동 태깅 (기준선) ──
+  태그 18개 vs 기출 지점 7개
+    O      ⓐ VERB_TENSE             ← 'was relaxing'
+    O      ⓑ VOICE_PARTICIPLE       ← 'pecking'
+    O      ⓒ NONFIN_TO_VS_GERUND    ← 'began to walk'
+    O      ⓓ NONFIN_TO_VS_GERUND    ← 'kept turning around'
+    O      ⓔ VOICE_PARTICIPLE       ← 'trapped in some strings'
+    O      ⓕ VOICE_ACTIVE_PASSIVE   ← 'was really moved'
+    O  논술(2) NONFIN_TO_VS_GERUND    ← 'needed my help to free its baby'
+  커버리지 1.00  (게이트 ≥0.90)  통과
+  과잉률   2.57  (게이트 ≤3.00)  통과
+
+── 자동 태깅 (패스 A) ──
+  태그 21개 vs 기출 지점 7개
+    O      ⓐ VERB_TENSE             ← 'was relaxing'
+    O      ⓑ VOICE_PARTICIPLE       ← 'saw a goose pecking at the car door'
+    O      ⓒ NONFIN_TO_VS_GERUND    ← 'began to walk away'
+    O      ⓓ NONFIN_TO_VS_GERUND    ← 'kept turning around'
+    O      ⓔ VOICE_PARTICIPLE       ← 'a baby goose trapped in some strings'
+    O      ⓕ VOICE_ACTIVE_PASSIVE   ← 'was really moved'
+    O  논술(2) NONFIN_TO_VS_GERUND    ← 'needed my help to free its baby'
+  커버리지 1.00  (게이트 ≥0.90)  통과
+  과잉률   3.00  (게이트 ≤3.00)  통과
+
+======================================================================
+ impulse buying (영덕중2 2026-1 기말 L4)
+======================================================================
+  기출 지점 7개 · 준-블라인드
+  프롬프트를 이 지문에 맞춰 고친 적이 없다. 준-블라인드 수치.
+
+── 수동 태깅 (기준선) ──
+  태그 20개 vs 기출 지점 7개
+    O      ⓐ VOICE_ACTIVE_PASSIVE   ← 'is called'
+    O      ⓑ VERB_FINITE            ← 'while shopping'
+    O      ⓒ CONJ_PARALLEL          ← 'both in stores and online'
+    O      ⓓ CONJ_PARALLEL          ← 'following your spending plan or saving'
+    O      ⓔ CONJ_PARALLEL          ← 'not only wastes money but also makes'
+    O      ⓕ NONFIN_TO_VS_GERUND    ← 'To avoid'
+    O      ⓖ VERB_PREP_COLLOCATION  ← 'help you with'
+  커버리지 1.00  (게이트 ≥0.90)  통과
+  과잉률   2.86  (게이트 ≤3.00)  통과
+
+── 자동 태깅 (패스 A) ──
+  태그 38개 vs 기출 지점 7개
+    O      ⓐ VOICE_ACTIVE_PASSIVE   ← 'This is called impulse buying'
+    O      ⓓ CONJ_PARALLEL          ← 'following your spending plan or saving'
+    O      ⓔ CONJ_PARALLEL          ← 'not only wastes money but also makes'
+    O      ⓕ NONFIN_TO_VS_GERUND    ← 'To avoid impulse buying'
+    O      ⓖ VERB_PREP_COLLOCATION  ← 'help you with your decision'
+    ~      ⓑ VERB_FINITE            위치만 겹침, 코드는 NONFIN_TO_VS_GERUND — 'while shopping'
+    X      ⓒ CONJ_PARALLEL          놓침 (both A and B 병렬)
+  커버리지 0.71  (게이트 ≥0.90)  실패
+  과잉률   5.43  (게이트 ≤3.00)  실패
+
+──────────────────────────────────────────────────────────────────────
+  지문                                           커버리지              과잉률
+                                       수동        자동      수동       자동
+  goose                              1.00      1.00    2.57     3.00
+  impulse buying                     1.00      0.71    2.86     5.43
+  ──────────────────────────────────────────────────────────────────
+  합산                                 1.00      0.86    2.71     4.21
+
+======================================================================
+ 합산 커버리지 0.86 (≥0.9) · 과잉률 4.21 (≤3.0)
+ 결과: 게이트 미달 — 프롬프트를 고쳐야 합니다
+======================================================================
+
+⚠️  한계
+    · 표본 2개. 기획서 §3은 3~5개 합산 판정을 요구하므로 잠정치입니다.
+    · goose 는 이 지문을 보고 프롬프트를 2회 고쳤습니다 — 블라인드 수치가 아닙니다.
+      최초 블라인드 실행은 커버리지 0.86 / 과잉률 2.86 이었습니다.
+    · 수동 기준선도 표본 1개짜리 잠정치라는 같은 한계를 갖습니다.

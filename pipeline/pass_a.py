@@ -1,0 +1,174 @@
+# -*- coding: utf-8 -*-
+"""패스 A — 태깅 A(어법) + 태깅 B(논리) + 문항 생성. Opus 5."""
+import json
+
+from . import prompts, schemas
+from .models import PASS_A_MODEL
+from .passage import SpanResolver, sentences_only
+
+
+def load_masters(rest):
+    """마스터를 DB에서 읽는다. 승인된 유형만 문항 생성에 쓴다 (value_approved=true)."""
+    grammar = rest.get("/grammar_point?select=code,category,label_ko,is_candidate,note")
+    mods = rest.get("/modification_type?select=code,category,label_ko,example_before,example_after")
+    qtypes = rest.get("/question_type?select=code,label_ko,option_lang,value_approved,review_tier")
+    approved = [q for q in qtypes if q["value_approved"] is True]
+    if not approved:
+        raise SystemExit("승인된 문항 유형이 없습니다. question_type.value_approved 를 확인하십시오.")
+    return {"grammar": grammar, "mods": mods, "qtypes": qtypes, "approved_qtypes": approved}
+
+
+def _catalogs(m):
+    """system 프롬프트에 붙일 카탈로그. 정렬 고정 — 캐시 프리픽스 안정성."""
+    return "\n\n".join([
+        prompts.render_catalog(
+            m["grammar"], ["code", "category", "label_ko"],
+            "# 어법 포인트 카탈로그 (grammar_point)\n\n"
+            "이 코드 밖으로 나갈 수 없습니다. 자유 텍스트 금지."),
+        prompts.render_catalog(
+            m["mods"], ["code", "category", "label_ko", "example_before", "example_after"],
+            "# 변형 유형 카탈로그 (modification_type)\n\n"
+            "교사가 지문을 시험에 낼 때 실제로 쓰는 방법들입니다. "
+            "두 학교·두 교사의 기출에서 관측된 것만 들어 있습니다."),
+        prompts.render_catalog(
+            m["approved_qtypes"], ["code", "label_ko", "option_lang"],
+            "# 문항 유형 (question_type) — **원장이 훈련 가치를 승인한 것만**\n\n"
+            "여기 없는 유형은 만들지 마십시오. 특히 '어법 — 단문 나열형'은 "
+            "지문 비연계를 이유로 이미 반려됐습니다."),
+    ])
+
+
+def build_params(passage, masters, batch=False):
+    """messages.create() 에 그대로 넘길 파라미터."""
+    sentences = sentences_only(passage["body_text"])
+    system = [
+        # ── 캐시 프리픽스: 지침 + 카탈로그. 지문마다 바뀌지 않는다 ──
+        {"type": "text", "text": prompts.PASS_A_SYSTEM},
+        {"type": "text", "text": _catalogs(masters),
+         "cache_control": {"type": "ephemeral"}},
+    ]
+    schema = schemas.pass_a_schema(
+        [g["code"] for g in masters["grammar"]],
+        [m["code"] for m in masters["mods"]],
+        [q["code"] for q in masters["approved_qtypes"]],
+    )
+    params = {
+        "model": PASS_A_MODEL,
+        "max_tokens": 32000,
+        "system": system,
+        "messages": [{
+            "role": "user",
+            "content": prompts.pass_a_user(
+                passage.get("title") or "(제목 없음)",
+                passage.get("source_detail") or "(출처 미상)",
+                sentences),
+        }],
+        "output_config": {"effort": "high", "format": {"type": "json_schema", "schema": schema}},
+        "thinking": {"type": "adaptive"},
+    }
+    return params
+
+
+def parse(raw_json, passage):
+    """
+    모델 출력을 DB 행으로 바꾼다. 여기서 걸러지는 것:
+      · 지문에 없는 surface (환각)
+      · 위치를 확정할 수 없는 surface
+      · 정답 선지가 0개이거나 2개 이상인 문항
+      · 존재하지 않는 태그를 가리키는 문항
+    """
+    body = passage["body_text"]
+    r = SpanResolver(body)
+    NONE = schemas.NONE
+
+    tags, tag_index_map = [], {}
+    for i, t in enumerate(raw_json.get("tags", [])):
+        span = r.resolve(t["surface"], t.get("sentence_no"), f"태그 #{i}")
+        if not span:
+            continue
+        tag_index_map[i] = len(tags)
+        tags.append({
+            "grammar_point_code": t["grammar_point_code"],
+            "span_start": span[0], "span_end": span[1],
+            "surface": t["surface"],
+            "sentence_no": r.sentence_of(span[0]),
+            "rationale": t["rationale"],
+            "confidence": t["confidence"],
+            "applicable_modifications": t.get("applicable_modifications", []),
+        })
+
+    n_sent = len(r.sentences)
+    logic, seen = [], set()
+    for l in raw_json.get("logic", []):
+        no = l["sentence_no"]
+        if no in seen or not (1 <= no <= n_sent):
+            continue
+        seen.add(no)
+        logic.append({
+            "sentence_no": no,
+            "role": l["role"],
+            "signal": None if l.get("signal") in (NONE, "", None) else l["signal"],
+            "is_blank_candidate": l["is_blank_candidate"],
+        })
+    logic.sort(key=lambda x: x["sentence_no"])
+    missing_logic = sorted(set(range(1, n_sent + 1)) - seen)
+
+    items, item_rejects = [], []
+    for i, it in enumerate(raw_json.get("items", [])):
+        opts = it.get("options", [])
+        answers = [o for o in opts if o["is_answer"]]
+        if opts and len(answers) != 1:
+            item_rejects.append((f"문항 #{i} {it['question_type_code']}",
+                                 f"정답 선지가 {len(answers)}개"))
+            continue
+        bad = [o["label"] for o in opts
+               if o["is_answer"] and o["violates_point_code"] != NONE
+               and it["question_type_code"] not in ("T-GRAMMAR-INLINE", "T-WRITE-FIX")]
+        items.append({
+            "question_type_code": it["question_type_code"],
+            "grammar_point_code": None if it["grammar_point_code"] == NONE
+                                  else it["grammar_point_code"],
+            "stem": it["stem"],
+            "answer_key": it["answer_key"],
+            "explanation": it["explanation"],
+            "difficulty": it["difficulty"],
+            "option_lang": it["option_lang"],
+            "source_tags": [tag_index_map[s] for s in it.get("source_tags", [])
+                            if s in tag_index_map],
+            "options": [{
+                "label": o["label"], "body": o["body"], "is_answer": o["is_answer"],
+                "violates_point_code": None if o["violates_point_code"] == NONE
+                                       else o["violates_point_code"],
+                "via_modification": None if o["via_modification"] == NONE
+                                    else o["via_modification"],
+                "ordinal": j + 1,
+            } for j, o in enumerate(opts)],
+            "_answer_violates_point": bad,
+        })
+
+    return {
+        "passage_id": passage.get("id"),
+        "body_text_sha256": passage["body_text_sha256"],
+        "tags": tags,
+        "logic": logic,
+        "items": items,
+        "diagnostics": {
+            "sentence_count": n_sent,
+            "tags_returned": len(raw_json.get("tags", [])),
+            "tags_kept": len(tags),
+            "span_rejects": [{"where": w, "reason": why, "surface": s}
+                             for w, why, s in r.rejects],
+            "logic_missing_sentences": missing_logic,
+            "items_returned": len(raw_json.get("items", [])),
+            "items_kept": len(items),
+            "item_rejects": [{"where": w, "reason": why} for w, why in item_rejects],
+        },
+    }
+
+
+def extract_json(message):
+    """output_config.format 이 걸려 있으면 첫 text 블록이 유효한 JSON이다."""
+    text = next((b.text for b in message.content if b.type == "text"), None)
+    if text is None:
+        raise SystemExit(f"text 블록이 없습니다. stop_reason={message.stop_reason}")
+    return json.loads(text)
