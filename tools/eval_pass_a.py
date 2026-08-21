@@ -60,6 +60,18 @@ CASES = [
         "passage": os.path.join(S0, "passages",
                                 "영덕중2_2026-1-기말_L4_impulse-buying.json"),
     },
+    {
+        "name": "Bicycle (교과서 L3 · 영덕중2 2026-1 기말 문항10)",
+        "gold": "gold_file",
+        "blind": True,
+        "blind_label": "완전 블라인드",
+        "blind_note": "이 지문으로 프롬프트를 고친 적이 없고, 정답지는 실행 전에 파일로 봉인했다.",
+        "generated": os.path.join(GEN, "Bicycle.pass_a.json"),
+        "manual_tags": None,
+        "gold_file": os.path.join(S0, "comparisons",
+                                  "교과서_L3_Bicycle_2026-1기말_정답지.json"),
+        "passage": os.path.join(S0, "passages", "교과서_동아윤정미_중2_L3_Bicycle.json"),
+    },
 ]
 
 
@@ -123,7 +135,7 @@ def show(r):
 def build_targets(case, body, manual):
     """기출 지점의 구간은 수동 태그의 스팬을 쓴다.
     시험 지문이 배부 지문과 달라(교사가 변형함) 기출 표면형으로는 배부본에서 위치를 못 잡는다."""
-    by_no = {t["tag_no"]: t for t in manual["tags"]}
+    by_no = {t["tag_no"]: t for t in manual["tags"]} if manual else {}
 
     def span_of(mt, ref):
         if body[mt["span_start"]:mt["span_end"]] != mt["surface"]:
@@ -138,6 +150,21 @@ def build_targets(case, body, manual):
                 raise SystemExit(f"수동 태그 {d['matched_tag_no']} 없음")
             s, e = span_of(mt, d["matched_tag_no"])
             targets.append({**d, "span_start": s, "span_end": e})
+    elif case["gold"] == "gold_file":
+        # 기출 정답지를 별도 파일로 봉인한 경우. surface 를 지문에서 찾아 스팬을 만든다.
+        for u in jload(case["gold_file"])["underlined"]:
+            i = body.find(u["surface"])
+            if i < 0:
+                raise SystemExit(f"정답지의 surface 가 지문에 없습니다: {u['surface']!r}")
+            if body.find(u["surface"], i + 1) >= 0:
+                raise SystemExit(f"정답지의 surface 가 지문에 여러 번 나옵니다: {u['surface']!r}")
+            targets.append({
+                "exam_label": u["label"],
+                "grammar_point_code": u["grammar_point_code"],
+                "exam_point": u["성격"],
+                "is_exam_answer": u["is_exam_answer"],
+                "span_start": i, "span_end": i + len(u["surface"]),
+            })
     else:  # exam_underlined — 기출에서 밑줄이 그어진 지점
         for t in manual["tags"]:
             if not t.get("exam_underlined"):
@@ -159,20 +186,24 @@ def run_case(case):
               f"\n    먼저:  python -m pipeline.run pass-a --all --run")
         return None
     passage = jload(case["passage"])
-    manual = jload(case["manual_tags"])
+    manual = jload(case["manual_tags"]) if case.get("manual_tags") else None
     gen = jload(case["generated"])
     targets = build_targets(case, passage["body_text"], manual)
 
     print("\n" + "=" * 70)
     print(f" {case['name']}")
     print("=" * 70)
-    tag = "준-블라인드" if case["blind"] else "적합됨 (블라인드 아님)"
+    tag = case.get("blind_label", "준-블라인드") if case["blind"] else "적합됨 (블라인드 아님)"
     print(f"  기출 지점 {len(targets)}개 · {tag}")
     print(f"  {case['blind_note']}")
 
-    man = score([{**t} for t in manual["tags"]], targets, "수동 태깅 (기준선)")
     auto = score(gen["tags"], targets, "자동 태깅 (패스 A)")
-    show(man)
+    man = None
+    if manual:
+        man = score([{**t} for t in manual["tags"]], targets, "수동 태깅 (기준선)")
+        show(man)
+    else:
+        print("\n   (수동 태깅 기준선 없음 — 교과서 본문이라 사람이 태깅한 적이 없다)")
     ok = show(auto)
     return {"case": case, "manual": man, "auto": auto, "ok": ok}
 
@@ -192,18 +223,24 @@ def main():
     print(f"  {'':30} {'수동':>8} {'자동':>9} {'수동':>7} {'자동':>8}")
     for r in results:
         n = r["case"]["name"].split(" (")[0]
-        print(f"  {n:30} {r['manual']['coverage']:>8.2f} {r['auto']['coverage']:>9.2f} "
-              f"{r['manual']['excess']:>7.2f} {r['auto']['excess']:>8.2f}")
+        mc = f"{r['manual']['coverage']:>8.2f}" if r["manual"] else f"{'—':>8}"
+        me = f"{r['manual']['excess']:>7.2f}" if r["manual"] else f"{'—':>7}"
+        print(f"  {n:30} {mc} {r['auto']['coverage']:>9.2f} "
+              f"{me} {r['auto']['excess']:>8.2f}")
 
     # 합산 (기획서 §3 은 3~5개 합산 판정을 요구한다)
     th = sum(len(r["auto"]["hits"]) for r in results)
     tt = sum(r["auto"]["n_targets"] for r in results)
     tg = sum(r["auto"]["n_tags"] for r in results)
     cov, exc = th / tt, tg / tt
-    mh = sum(len(r["manual"]["hits"]) for r in results)
+    withman = [r for r in results if r["manual"]]
+    mtt = sum(r["manual"]["n_targets"] for r in withman) or 1
+    mh = sum(len(r["manual"]["hits"]) for r in withman)
+    mtg = sum(r["manual"]["n_tags"] for r in withman)
     print(f"  {'─' * 66}")
-    print(f"  {'합산':30} {mh / tt:>8.2f} {cov:>9.2f} "
-          f"{sum(r['manual']['n_tags'] for r in results) / tt:>7.2f} {exc:>8.2f}")
+    print(f"  {'합산':30} {mh / mtt:>8.2f} {cov:>9.2f} "
+          f"{mtg / mtt:>7.2f} {exc:>8.2f}")
+    print(f"  {'(수동 열은 기준선이 있는 2개 지문만)':30}")
 
     ok = cov >= GATE_COVERAGE and exc <= GATE_EXCESS
     print("\n" + "=" * 70)
@@ -212,10 +249,16 @@ def main():
     print("=" * 70)
 
     print("\n⚠️  한계")
-    print("    · 표본 2개. 기획서 §3은 3~5개 합산 판정을 요구하므로 잠정치입니다.")
+    print(f"    · 표본 {len(results)}개. 기획서 §3의 3~5개 합산 판정 하한에 겨우 걸쳤습니다.")
     print("    · goose 는 이 지문을 보고 프롬프트를 2회 고쳤습니다 — 블라인드 수치가 아닙니다.")
-    print("      최초 블라인드 실행은 커버리지 0.86 / 과잉률 2.86 이었습니다.")
-    print("    · 수동 기준선도 표본 1개짜리 잠정치라는 같은 한계를 갖습니다.")
+    bl = [r for r in results if r["case"]["blind"]]
+    bh = sum(len(r["auto"]["hits"]) for r in bl)
+    bt = sum(r["auto"]["n_targets"] for r in bl)
+    bg = sum(r["auto"]["n_tags"] for r in bl)
+    print(f"      goose 를 빼면 — 블라인드 {len(bl)}개 합산 커버리지 {bh / bt:.2f} · "
+          f"과잉률 {bg / bt:.2f}")
+    print("    · Bicycle 의 grammar_point_code 매핑은 2026-08-22에 붙인 것이라")
+    print("      원장 판단과 다를 수 있습니다 (정답지 파일의 _code_mapping_note).")
     return 0 if ok else 1
 
 

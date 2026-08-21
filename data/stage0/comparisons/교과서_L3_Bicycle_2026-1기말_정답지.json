@@ -1,0 +1,77 @@
+{
+  "gold_id": "교과서_L3_Bicycle_2026-1기말_정답지",
+  "passage_id": "교과서_동아윤정미_중2_L3_Bicycle",
+  "body_text_sha256": "c31a7209d345",
+  "_sha_note": "앞 12자만 기록. 전체는 passages/교과서_동아윤정미_중2_L3_Bicycle.json 참조.",
+
+  "sealed_at": "2026-08-22",
+  "blind": true,
+  "blind_note": "패스 A를 이 지문에 돌리기 **전에** 작성·저장했다. 생성 결과를 보고 정답지를 손보면 채점이 무의미해진다. 순서는 세션 기록으로 검증 가능하다.",
+
+  "source": {
+    "exam": "영덕중2 2026-1 기말 문항 10",
+    "origin": "data/stage0/comparisons/영덕중2_2026-1-기말_예측대조.json 의 textbook_modifications",
+    "recorded_at": "2026-08-09",
+    "note": "원장이 기출 시험지를 보고 손으로 입력한 것. 이번 PDF 추출본과 원문 5/5 글자 일치를 확인했다."
+  },
+
+  "_code_mapping_note": "성격(변형 방식)은 기록돼 있었으나 grammar_point_code 는 없었다. 아래 코드는 2026-08-22에 붙인 것이며 판단이 갈릴 수 있다. 그래서 채점은 「같은 위치 + 같은 코드」와 「위치만」을 따로 보고한다.",
+
+  "underlined": [
+    {
+      "label": "①",
+      "surface": "The explosion created a huge cloud of ash",
+      "sentence_no": 2,
+      "exam_form": "A huge cloud of ash was created the explosion",
+      "성격": "능동→수동 전환 후 by 누락 (오류 삽입)",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "modification_type_code": "EI_ACTIVE_TO_PASSIVE_NO_BY",
+      "is_exam_answer": false
+    },
+    {
+      "label": "②",
+      "surface": "this made traveling difficult",
+      "sentence_no": 4,
+      "exam_form": "this made traveling hard",
+      "성격": "어휘 교체 — 이 선지가 정답(어법상 옳음)",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "modification_type_code": "CO_SYNONYM",
+      "is_exam_answer": true,
+      "_caveat": "어법 오류가 아니라 어휘 교체다. 태깅이 이 자리를 못 짚어도 어법 태깅의 실패라고 보긴 어렵다. 커버리지 분모에는 넣되 이 단서를 함께 읽을 것."
+    },
+    {
+      "label": "③",
+      "surface": "many horses were killed for food",
+      "sentence_no": 6,
+      "exam_form": "many horses were died by food",
+      "성격": "자동사 die를 수동태로 (오류 삽입) + 전치사 교체",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "modification_type_code": "EI_INTRANS_PASSIVIZED",
+      "is_exam_answer": false
+    },
+    {
+      "label": "④",
+      "surface": "Karl von Drais invented the first bicycle",
+      "sentence_no": 7,
+      "exam_form": "the first bicycle was inventing by Karl von Drais",
+      "성격": "수동태 형태 오류 삽입",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "modification_type_code": "EI_PASSIVE_FORM",
+      "is_exam_answer": false
+    },
+    {
+      "label": "⑤",
+      "surface": "riders simply pushed the bicycle forward with their feet",
+      "sentence_no": 10,
+      "exam_form": "riders simply pushed the bicycle forward their feet",
+      "성격": "전치사 with 삭제 (오류 삽입)",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "modification_type_code": "EI_PREP_DELETE",
+      "is_exam_answer": false,
+      "_caveat": "VERB_PREP_COLLOCATION 은 아직 미승인 후보 코드다 (master_candidates.json)."
+    }
+  ],
+
+  "count": 5,
+  "_expected_excess_note": "기출 지점 5개 기준. 게이트 과잉률 ≤3.0 이면 태그 15개가 상한이다."
+}

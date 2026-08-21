@@ -1,0 +1,53 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L4_본문1",
+  "kind": "textbook_reading",
+  "title": "본문1",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 4",
+  "source_type": "교과서",
+  "source_detail": "동아(윤정미) 중2 Lesson 4 READING 본문 — 본문1",
+  "body_text": "Do you think (that) you are a smart shopper? Well, you may think (that) you are, but hold on! There are various marketing strategies which influence your decisions. Learning about them will make you a smarter shopper.",
+  "body_text_sha256": "d7fe169ee0ff5420b1a6552eba37255acdaa4eb6fb40aeb85cf4b5fd88d34977",
+  "word_count": 37,
+  "sentence_count": 4,
+  "sentence_spans": [
+    {
+      "no": 1,
+      "start": 0,
+      "end": 44
+    },
+    {
+      "no": 2,
+      "start": 45,
+      "end": 93
+    },
+    {
+      "no": 3,
+      "start": 94,
+      "end": 164
+    },
+    {
+      "no": 4,
+      "start": 165,
+      "end": 217
+    }
+  ],
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "pending",
+    "method": "pdf_text_layer",
+    "note": "문장별 분석 블록에서 추출. 분석 블록이 없는 문장은 상단 본문 블록에서 한글 라벨을 걷어내 복구했고 needs_review 에 번호를 남겼다. 비전 전사 아님 — 원본이 이미 문자다.",
+    "needs_review_sentences": [],
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_4과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용으로만 저장. 외부 배포·상품화는 별도 확인 필요."
+}

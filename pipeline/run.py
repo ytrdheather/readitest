@@ -46,6 +46,17 @@ def fetch_passages(rest, needle=None):
     return rows
 
 
+def load_passage_file(path):
+    """전사가 아직 pending 인 지문은 DB에 넣지 않는다 — 확정 전에 적재하면
+    나중에 본문이 바뀔 때 span 이 전부 어긋난다 (설계원칙 7). 파일에서 바로 읽는다."""
+    with open(path, encoding="utf-8") as f:
+        d = json.load(f)
+    return {"id": d["passage_id"], "title": d.get("title"),
+            "source_detail": d.get("source_detail"), "body_text": d["body_text"],
+            "body_text_sha256": d["body_text_sha256"],
+            "word_count": d.get("word_count")}
+
+
 def save(passage, result):
     os.makedirs(OUT_DIR, exist_ok=True)
     path = os.path.join(OUT_DIR, f"{slug(passage)}.pass_a.json")
@@ -84,7 +95,10 @@ def cmd_pass_a(args):
     env = load_env()
     rest = Rest(env)
     masters = load_masters_cached(rest)
-    passages = fetch_passages(rest, None if args.all else args.passage)
+    if args.file:
+        passages = [load_passage_file(args.file)]
+    else:
+        passages = fetch_passages(rest, None if args.all else args.passage)
     if not passages:
         raise SystemExit("해당하는 지문이 없습니다. `python -m pipeline.run list` 로 확인하십시오.")
 
@@ -200,6 +214,7 @@ def main():
     a = sub.add_parser("pass-a", help="태깅 A/B + 문항 생성")
     a.add_argument("--passage", help="제목·id 부분 일치")
     a.add_argument("--all", action="store_true", help="DB의 모든 지문")
+    a.add_argument("--file", help="passage JSON 파일에서 직접 (전사 pending 인 지문용)")
     a.add_argument("--dry-run", action="store_true", help="호출하지 않고 프롬프트만 확인")
     a.add_argument("--count", action="store_true", help="토큰 수만 센다 (과금 없음)")
     a.add_argument("--run", action="store_true", help="동기 호출")
@@ -211,7 +226,7 @@ def main():
     c.set_defaults(fn=cmd_collect)
 
     args = ap.parse_args()
-    if args.cmd == "pass-a" and not (args.passage or args.all):
+    if args.cmd == "pass-a" and not (args.passage or args.all or args.file):
         ap.error("--passage 또는 --all 중 하나가 필요합니다")
     if args.cmd == "pass-a" and not (args.dry_run or args.count or args.run or args.batch):
         ap.error("--dry-run / --count / --run / --batch 중 하나를 고르십시오")
