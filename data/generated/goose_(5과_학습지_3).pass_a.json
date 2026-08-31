@@ -8,11 +8,11 @@
       "span_end": 26,
       "surface": "something unusual",
       "sentence_no": 1,
-      "rationale": "-thing 으로 끝나는 부정대명사는 형용사가 뒤에서 수식. unusual something 으로 어순을 바꾼 오답 유도 가능",
+      "rationale": "-thing 으로 끝나는 부정대명사는 형용사가 뒤에서 수식한다. unusual something 처럼 어순을 뒤집은 오답을 유도할 수 있는 대표 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_WORD_ORDER",
-        "EI_STRUCT_DELETE"
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -21,7 +21,7 @@
       "span_end": 41,
       "surface": "happened to me",
       "sentence_no": 1,
-      "rationale": "happen 은 자동사로 to + 사람과 결합. 전치사 삭제(happened me)나 수동태화(was happened) 오류 유도",
+      "rationale": "happen 은 자동사로 대상 앞에 to 를 취한다. happened me(전치사 삭제) 또는 was happened to me(자동사 수동태) 오류 유도가 가능.",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_PREP_DELETE",
@@ -31,14 +31,14 @@
     {
       "grammar_point_code": "CONJ_VS_PREP",
       "span_start": 43,
-      "span_end": 73,
-      "surface": "While I was relaxing in my car",
+      "span_end": 48,
+      "surface": "While",
       "sentence_no": 2,
-      "rationale": "While 뒤에는 절, During 뒤에는 명사구. During I was relaxing 형태의 오답 유도",
+      "rationale": "뒤에 'I was relaxing' 절이 오므로 접속사 while 이 맞다. during + 명사구와 구별시키는 전형적 출제 지점.",
       "confidence": "high",
       "applicable_modifications": [
         "CO_CONJ_SWAP",
-        "EI_GERUND_TO_VERB"
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -47,10 +47,11 @@
       "span_end": 63,
       "surface": "was relaxing",
       "sentence_no": 2,
-      "rationale": "주절 heard(과거)와 맞춘 과거진행. am relaxing / have relaxed 등 시제 불일치 오류 유도",
+      "rationale": "주절 heard(과거)와 맞춘 과거진행. am relaxing / have been relaxing 로 바꾼 시제 불일치 오류를 심을 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_AGREEMENT",
+        "EI_GERUND_TO_VERB",
         "BO_FORM_CHOICE"
       ]
     },
@@ -60,23 +61,23 @@
       "span_end": 133,
       "surface": "couldn't see anything",
       "sentence_no": 3,
-      "rationale": "부정문에서는 something 이 아니라 anything. couldn't see something 오류 유도",
+      "rationale": "부정문에서는 something 이 아니라 anything 을 쓴다. couldn't see something 형태의 오답 유도 자리.",
       "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "CO_SYNONYM"
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "VOICE_PARTICIPLE",
       "span_start": 183,
-      "span_end": 218,
-      "surface": "saw a goose pecking at the car door",
+      "span_end": 202,
+      "surface": "saw a goose pecking",
       "sentence_no": 5,
-      "rationale": "지각동사 saw + 목적어 + 현재분사(능동·진행). pecked(과거분사)로 뒤집는 오답 유도",
+      "rationale": "지각동사 saw + 목적어 + 현재분사(능동·진행). pecked / to peck 와 구별시키는 핵심 출제 지점.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PARTICIPLE_FLIP",
+        "EI_NONFIN_FORM",
         "BO_FORM_CHOICE"
       ]
     },
@@ -86,84 +87,74 @@
       "span_end": 218,
       "surface": "pecking at the car door",
       "sentence_no": 5,
-      "rationale": "peck at ~ (~를 쪼다). 전치사 at 삭제 오류 유도",
+      "rationale": "peck at ~ (쪼다) 고정 결합. 전치사 at 삭제 또는 on/in 으로 교체하는 오류 유도.",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_PREP_DELETE"
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
       ]
     },
     {
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "span_start": 223,
-      "span_end": 236,
-      "surface": "wouldn't stop",
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 243,
+      "span_end": 261,
+      "surface": "got out of the car",
       "sentence_no": 6,
-      "rationale": "would not 의 '한사코 ~하려 하지 않았다' 용법. didn't have to / couldn't 와 의미 구별",
+      "rationale": "get out of + 장소(밖으로 나오다). of 누락이나 from 으로 교체하는 전치사 빈칸 출제가 쉽다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "CO_SYNONYM"
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
       "span_start": 277,
-      "span_end": 295,
-      "surface": "began to walk away",
+      "span_end": 290,
+      "surface": "began to walk",
       "sentence_no": 7,
-      "rationale": "begin 은 to부정사·동명사 모두 가능하지만, began walked 같은 준동사 형태 오류 유도 지점",
+      "rationale": "begin 은 to부정사·동명사 모두 가능하지만 학습지 목표 문법(to부정사)과 연동되는 자리. began walk 처럼 형태 오류를 심을 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_NONFIN_FORM",
-        "EI_VERB_COMPLEMENT"
-      ]
-    },
-    {
-      "grammar_point_code": "CONJ_PARALLEL",
-      "span_start": 299,
-      "span_end": 330,
-      "surface": "wondered why and wanted to find",
-      "sentence_no": 8,
-      "rationale": "and 로 과거동사 wondered 와 wanted 병렬. wanting / wants 로 병렬 깨기 오류 유도",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_PARALLEL_BREAK",
-        "EI_AGREEMENT"
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
       "span_start": 316,
-      "span_end": 341,
-      "surface": "wanted to find the reason",
+      "span_end": 330,
+      "surface": "wanted to find",
       "sentence_no": 8,
-      "rationale": "want 는 목적어로 to부정사만 취함. wanted finding 오류 유도",
+      "rationale": "want 는 목적어로 to부정사만 받는다. wanted finding 오답 유도의 정석 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM",
         "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "CONJ_VS_PREP",
       "span_start": 343,
-      "span_end": 366,
-      "surface": "As I followed the goose",
+      "span_end": 345,
+      "surface": "As",
       "sentence_no": 9,
-      "rationale": "As 뒤에 절이 오는 접속사 용법. During/Despite + 명사구와 구별",
+      "rationale": "뒤에 'I followed the goose' 절이 오므로 접속사 As(~할 때). During/Despite + 명사구와 구별.",
       "confidence": "medium",
       "applicable_modifications": [
         "CO_CONJ_SWAP",
-        "EI_GERUND_TO_VERB"
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
       "span_start": 371,
-      "span_end": 390,
-      "surface": "kept turning around",
+      "span_end": 383,
+      "surface": "kept turning",
       "sentence_no": 9,
-      "rationale": "keep 은 동명사를 목적어로 취함. kept to turn 오류 유도",
+      "rationale": "keep 은 목적어로 동명사만 받는다. kept to turn 오답 유도의 대표 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_VERB_COMPLEMENT",
@@ -176,24 +167,11 @@
       "span_end": 419,
       "surface": "to see if I was still behind",
       "sentence_no": 9,
-      "rationale": "see 의 목적어 명사절 if(~인지 아닌지). that 으로 바꾸면 비문 — that/whether 와 구별",
+      "rationale": "see 의 목적어인 명사절 접속사 if(~인지). that 으로 바꾸면 비문이 되는 지점이며 whether 와의 교체도 물을 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
-        "CO_CONJ_SWAP",
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 421,
-      "span_end": 444,
-      "surface": "When it finally stopped",
-      "sentence_no": 10,
-      "rationale": "주절 saw(과거)와 시제 일치. will stop / stops 등 시간부사절 미래시제 오류 유도",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_FUTURE_IN_SUBORD",
-        "EI_AGREEMENT"
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
       ]
     },
     {
@@ -202,24 +180,11 @@
       "span_end": 488,
       "surface": "a baby goose trapped in some strings",
       "sentence_no": 10,
-      "rationale": "아기 거위가 '얽힌' 것이므로 과거분사 trapped. trapping 으로 뒤집는 오답 유도 — 5번 문장 pecking(현재분사)과 대비되는 핵심 지점",
+      "rationale": "새끼 거위가 '묶인' 것이므로 과거분사 trapped 가 명사를 후치수식. trapping 으로 뒤집는 EI_PARTICIPLE_FLIP 오류의 최우선 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PARTICIPLE_FLIP",
         "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "span_start": 500,
-      "span_end": 531,
-      "surface": "needed my help to free its baby",
-      "sentence_no": 11,
-      "rationale": "목적을 나타내는 to부정사 부사적 용법. for freeing / for its baby 로 구문 제거 오류 유도",
-      "confidence": "high",
-      "applicable_modifications": [
-        "EI_STRUCT_DELETE",
-        "EI_NONFIN_FORM"
       ]
     },
     {
@@ -228,23 +193,23 @@
       "span_end": 531,
       "surface": "its baby",
       "sentence_no": 11,
-      "rationale": "소유격 its 와 it's(it is) 혼동 유도. 지문 내 its mom 과 함께 반복 출현",
+      "rationale": "거위를 가리키는 소유격 its. it's(=it is)와 혼동시키는 대표 오답 유도 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
       ]
     },
     {
-      "grammar_point_code": "CONJ_PARALLEL",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
       "span_start": 554,
-      "span_end": 601,
-      "surface": "I freed the little bird, and it went to its mom",
+      "span_end": 577,
+      "surface": "I freed the little bird",
       "sentence_no": 12,
-      "rationale": "and 로 두 과거시제 절 연결. went → going 등 병렬·정동사 오류 유도",
-      "confidence": "low",
+      "rationale": "목적어를 가진 능동태 문장이라 수동으로 뒤집어 by 누락(the little bird was freed me)이나 형태 오류를 심기 쉽다.",
+      "confidence": "medium",
       "applicable_modifications": [
-        "EI_PARALLEL_BREAK",
-        "EI_GERUND_TO_VERB"
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
       ]
     },
     {
@@ -253,31 +218,19 @@
       "span_end": 621,
       "surface": "was really moved",
       "sentence_no": 13,
-      "rationale": "감정동사 move 는 사람이 주어일 때 수동(be moved). was really moving 오답 유도",
+      "rationale": "감정동사 move 는 사람 주어일 때 수동(be moved). was really moving 으로 바꾼 오류를 유도할 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PASSIVE_FORM",
         "EI_PARTICIPLE_FLIP",
         "BO_FORM_CHOICE"
       ]
-    },
-    {
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "span_start": 609,
-      "span_end": 615,
-      "surface": "really",
-      "sentence_no": 13,
-      "rationale": "분사 moved 를 수식하므로 부사 really. real 로 바꾼 형용사 오류 유도",
-      "confidence": "low",
-      "applicable_modifications": [
-        "EI_ADJ_TO_ADV"
-      ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "도입 — 사건 예고",
+      "role": "도입(주제 예고)",
       "signal": "One day",
       "is_blank_candidate": false
     },
@@ -289,67 +242,67 @@
     },
     {
       "sentence_no": 3,
-      "role": "세부 사실 — 1차 반응",
+      "role": "세부 사건",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "세부 사실 — 반복 발생",
+      "role": "세부 사건(반복)",
       "signal": "Then",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "세부 사실 — 원인 발견",
+      "role": "사건 발견",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "전환 — 화자의 행동 유발",
+      "role": "원인·행동",
       "signal": "so",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "전환 — 거위의 행동",
+      "role": "전환",
       "signal": "Then",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 8,
-      "role": "동기 — 화자의 의문",
+      "role": "동기 제시",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 9,
-      "role": "세부 사실 — 추적 과정",
+      "role": "세부 전개",
       "signal": "As",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 10,
-      "role": "절정 — 문제 상황 확인",
+      "role": "문제 확인(핵심 사건)",
       "signal": "When",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 11,
-      "role": "주제문 — 거위 행동의 이유 해명",
+      "role": "이유 설명(주제문)",
       "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 12,
-      "role": "해결책 — 문제 해소",
+      "role": "해결책·결과",
       "signal": "After a few minutes",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 13,
-      "role": "결론문 — 화자의 감정 정리",
+      "role": "결론(감정 요약)",
       "signal": null,
       "is_blank_candidate": true
     }
@@ -358,105 +311,43 @@
     {
       "question_type_code": "T-GRAMMAR-INLINE",
       "grammar_point_code": "VOICE_PARTICIPLE",
-      "stem": "위 지문의 밑줄 친 부분을 아래와 같이 옮겼을 때, 어법상 옳은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "① While 뒤에 절(I was relaxing)이 오고 주절 heard와 시제도 일치하므로 옳다. ② 부정문에서는 something이 아니라 anything을 써야 한다. ③ 지각동사 saw의 목적격보어로 거위가 '쪼고 있는' 능동·진행이므로 pecking이 옳다. ④ keep은 동명사를 목적어로 취하므로 kept turning이 옳다. ⑤ 사람이 감동을 '받은' 것이므로 was moved(수동)가 옳다.",
+      "stem": "위 지문의 문장을 옮긴 것 중, 어법상 <보기>와 같이 틀린 부분이 있는 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "새끼 거위는 줄에 '묶인' 대상이므로 수동 의미의 과거분사 trapped 가 명사를 뒤에서 수식해야 한다. trapping 은 능동(묶고 있는)이 되어 문맥과 충돌한다. ②의 pecking 은 지각동사 saw 의 목적격보어로 거위가 직접 쪼고 있으므로 현재분사가 맞고, ①④⑤는 원문 그대로 어법상 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        2,
-        4,
-        5,
-        12,
-        19
+        13,
+        5
       ],
       "options": [
         {
           "label": "①",
-          "body": "[2] While I was relaxing in my car, I heard a knock.",
-          "is_answer": true,
+          "body": "While I was relaxing in my car, I heard a knock.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "[3] I turned around and couldn't see something.",
+          "body": "I opened the window and saw a goose pecking at the car door.",
           "is_answer": false,
-          "violates_point_code": "PRON_INDEFINITE",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "[5] I opened the window and saw a goose pecked at the car door.",
-          "is_answer": false,
+          "body": "When it finally stopped, I saw a baby goose trapping in some strings.",
+          "is_answer": true,
           "violates_point_code": "VOICE_PARTICIPLE",
           "via_modification": "EI_PARTICIPLE_FLIP",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "[9] As I followed the goose, it kept to turn around to see if I was still behind.",
-          "is_answer": false,
-          "violates_point_code": "NONFIN_TO_VS_GERUND",
-          "via_modification": "EI_VERB_COMPLEMENT",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "[13] I was really moving.",
-          "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_PARTICIPLE_FLIP",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-GRAMMAR-USAGE",
-      "grammar_point_code": "VOICE_PARTICIPLE",
-      "stem": "지문 [5]의 saw a goose pecking at the car door 의 밑줄 친 pecking 과 쓰임(현재분사·능동)이 같은 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "[5]의 pecking은 목적어 a goose가 스스로 하는 동작을 나타내는 능동의 -ing 형태다. ②의 turning도 keep의 목적어 자리에 온 -ing로 거위가 스스로 도는 능동 동작을 나타낸다. ①의 trapped와 ③의 moved는 '당하는' 과거분사, ④의 relaxing은 be동사와 함께 쓰인 과거진행형 본동사의 일부, ⑤는 목적을 나타내는 to부정사다.",
-      "difficulty": "hard",
-      "option_lang": "na",
-      "source_tags": [
-        5,
-        12,
-        15,
-        19,
-        16
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "[10] I saw a baby goose trapped in some strings. (trapped)",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "[9] it kept turning around to see if I was still behind. (turning)",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "[13] I was really moved. (moved)",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "[2] While I was relaxing in my car (relaxing → 진행형 본동사의 일부)",
+          "body": "As I followed the goose, it kept turning around to see if I was still behind.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -464,7 +355,7 @@
         },
         {
           "label": "⑤",
-          "body": "[11] The goose needed my help to free its baby. (to free)",
+          "body": "After a few minutes, I freed the little bird, and it went to its mom.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -476,21 +367,20 @@
     {
       "question_type_code": "T-GRAMMAR-INLINE",
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "다음은 지문 [8]~[11]을 옮긴 것이다. 어법상 <보기>와 같이 어색한 것을 고르시오.",
+      "stem": "위 지문의 내용을 옮긴 다음 문장 중 어법상 옳지 않은 것을 고르시오.",
       "answer_key": "④",
-      "explanation": "④는 '아기를 풀어주기 위해' 라는 목적을 나타내야 하므로 to부정사 to free가 와야 한다. freeing으로 바꾸면 목적의 의미를 나타내는 구조가 무너진다. ①의 to find는 want의 목적어로 옳고, ②③의 turning은 keep의 목적어로 옳으며, ⑤의 trapped는 얽혀 있는 상태를 나타내는 과거분사로 옳다.",
+      "explanation": "keep 은 목적어로 동명사만 받으므로 kept turning 이 맞다. kept to turn 은 동사별 목적어 규칙 위반. ②의 begin, ③의 want 는 to부정사를 받을 수 있고, ⑤의 to free 는 '~하기 위해'의 부사적 용법으로 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        16,
-        12,
-        10,
-        15
+        11,
+        8,
+        9
       ],
       "options": [
         {
           "label": "①",
-          "body": "I wondered why and wanted to find the reason.",
+          "body": "One day, something unusual happened to me.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -498,7 +388,7 @@
         },
         {
           "label": "②",
-          "body": "As I followed the goose, it kept turning around.",
+          "body": "Then the bird began to walk away.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -506,7 +396,7 @@
         },
         {
           "label": "③",
-          "body": "it kept turning around to see if I was still behind.",
+          "body": "I wondered why and wanted to find the reason.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -514,15 +404,74 @@
         },
         {
           "label": "④",
-          "body": "The goose needed my help freeing its baby.",
+          "body": "As I followed the goose, it kept to turn around to see if I was still behind.",
           "is_answer": true,
           "violates_point_code": "NONFIN_TO_VS_GERUND",
-          "via_modification": "EI_STRUCT_DELETE",
+          "via_modification": "EI_VERB_COMPLEMENT",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "When it finally stopped, I saw a baby goose trapped in some strings.",
+          "body": "The goose needed my help to free its baby.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 지문에서 가져온 다음 밑줄 친 to 의 쓰임이 나머지와 다른 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "①의 to 는 뒤에 명사(me)가 오는 전치사이다(happen to ~). ②③은 동사의 목적어인 to부정사, ④⑤는 '~하기 위해'의 부사적 용법 to부정사로 모두 to + 동사원형 형태이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        8,
+        9,
+        12,
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "something unusual happened to me",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the bird began to walk away",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "wanted to find the reason",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "it kept turning around to see if I was still behind",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The goose needed my help to free its baby",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -534,18 +483,19 @@
     {
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "지문의 흐름상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
-      "answer_key": "③",
-      "explanation": "③ 화자는 궁금해서 거위를 '따라갔으므로' 이유를 무시(ignore)한 것이 아니라 찾고자(find) 한 것이다. 뒤 문장 As I followed the goose 와 모순된다. 나머지는 모두 이야기 흐름과 일치한다.",
+      "stem": "위 지문의 흐름으로 볼 때, 밑줄 친 낱말의 쓰임이 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "글쓴이는 줄에 묶인 새끼 거위를 '풀어 주었고(freed)' 그래서 새끼가 엄마에게 갔다. trapped(묶었다)는 뒤 절(it went to its mom)과 모순되므로 문맥상 부적절하다. 나머지는 사건 순서와 감정 흐름에 맞다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        10
+        13,
+        15
       ],
       "options": [
         {
           "label": "①",
-          "body": "[1] One day, something unusual happened to me.",
+          "body": "One day, something unusual happened to me.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -553,7 +503,7 @@
         },
         {
           "label": "②",
-          "body": "[6] It wouldn't stop, so I got out of the car.",
+          "body": "It wouldn't stop, so I got out of the car.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -561,23 +511,23 @@
         },
         {
           "label": "③",
-          "body": "[8] I wondered why and wanted to ignore the reason.",
-          "is_answer": true,
+          "body": "When it finally stopped, I saw a baby goose trapped in some strings.",
+          "is_answer": false,
           "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
+          "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "[10] I saw a baby goose trapped in some strings.",
-          "is_answer": false,
+          "body": "After a few minutes, I trapped the little bird, and it went to its mom.",
+          "is_answer": true,
           "violates_point_code": null,
-          "via_modification": null,
+          "via_modification": "CO_SYNONYM",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "[12] I freed the little bird, and it went to its mom.",
+          "body": "I was really moved.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -589,18 +539,19 @@
     {
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "[6] It wouldn't stop, so I got out of the car. 에서 밑줄 친 It wouldn't stop 이 의미하는 바로 가장 적절한 것은?",
+      "stem": "위 지문의 [9]에서 밑줄 친 it kept turning around to see if I was still behind 가 의미하는 것으로 가장 알맞은 것을 고르시오.",
       "answer_key": "②",
-      "explanation": "바로 앞 문장 [5]에서 거위가 차 문을 쪼고 있었으므로 It은 그 거위를 가리키며, wouldn't는 '한사코 ~하려 하지 않았다'는 강한 거부를 나타낸다. 아기 거위는 [10]에서야 처음 등장하므로 ⑤는 시점상 맞지 않다.",
+      "explanation": "[10]~[11]에서 거위가 멈춘 곳에 줄에 묶인 새끼가 있었고 거위는 새끼를 풀어 주기 위해 글쓴이의 도움이 필요했다. 따라서 뒤를 돌아본 것은 글쓴이가 계속 따라오는지 확인하려는 행동이다.",
       "difficulty": "medium",
       "option_lang": "ko",
       "source_tags": [
-        7
+        12,
+        14
       ],
       "options": [
         {
           "label": "①",
-          "body": "자동차가 멈추지 않고 계속 굴러갔다.",
+          "body": "거위가 글쓴이를 피해 도망가려고 계속 방향을 바꾸었다는 뜻이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -608,7 +559,7 @@
         },
         {
           "label": "②",
-          "body": "거위가 차 문을 쪼는 행동을 좀처럼 멈추려 하지 않았다.",
+          "body": "거위가 글쓴이를 자기 새끼에게 데려가려고 따라오는지 계속 확인했다는 뜻이다.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -616,7 +567,7 @@
         },
         {
           "label": "③",
-          "body": "두드리는 소리가 점점 작아지다가 사라졌다.",
+          "body": "거위가 차 문을 쪼은 것을 후회하며 눈치를 보았다는 뜻이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -624,7 +575,7 @@
         },
         {
           "label": "④",
-          "body": "화자가 휴식을 멈출 수 없었다.",
+          "body": "거위가 길을 잃어 방향을 찾으려고 두리번거렸다는 뜻이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -632,7 +583,7 @@
         },
         {
           "label": "⑤",
-          "body": "아기 거위가 줄에서 벗어나지 못했다.",
+          "body": "거위가 다른 거위들이 뒤따라오는지 살펴보았다는 뜻이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -644,18 +595,20 @@
     {
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "What is the best topic of the passage?",
+      "stem": "위 지문의 주제로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "[11] The goose needed my help to free its baby. 가 글 전체의 주제문으로, 어미 거위가 사람에게 도움을 청해 새끼를 구한 이야기다. 나머지는 지문의 일부 소재만 다루거나 지문에 없는 내용이다.",
+      "explanation": "거위가 차 문을 쪼아 글쓴이를 불러내고, 줄에 묶인 새끼에게 데려가 도움을 받은 이야기이므로 ①이 주제다. ②③⑤는 지문에 없는 초점이고, ④는 사실과 다르다(새끼는 엄마에게 돌아갔다).",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        16
+        5,
+        13,
+        14
       ],
       "options": [
         {
           "label": "①",
-          "body": "a mother goose asking a human for help to save her baby",
+          "body": "a goose that asked a person for help to save its baby",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -663,7 +616,7 @@
         },
         {
           "label": "②",
-          "body": "the danger of leaving strings near a bird's nest",
+          "body": "the danger of leaving strings near a car door",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -671,7 +624,7 @@
         },
         {
           "label": "③",
-          "body": "how to keep wild birds away from parked cars",
+          "body": "how geese protect their nests from cars",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -679,7 +632,7 @@
         },
         {
           "label": "④",
-          "body": "a writer's habit of relaxing in his car after work",
+          "body": "why the writer decided to keep a baby goose as a pet",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -687,19 +640,11 @@
         },
         {
           "label": "⑤",
-          "body": "why geese make knocking sounds in the wild",
+          "body": "the best way to relax quietly inside a car",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 5
-        },
-        {
-          "label": "⑥",
-          "body": "the best way to free animals caught in strings",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 6
         }
       ],
       "_answer_violates_point": []
@@ -707,14 +652,15 @@
     {
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "Which is NOT true according to the passage?",
-      "answer_key": "②",
-      "explanation": "[3]에서 화자는 처음 소리를 듣고 돌아보았지만 아무것도 보지 못했고, [4]에서 소리를 다시 들은 뒤 [5]에서 창문을 열고 거위를 보았다. 따라서 첫 소리 직후에 거위를 봤다는 ②는 사실이 아니다.",
-      "difficulty": "medium",
+      "stem": "위 지문의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "[12]에 After a few minutes 라고 했으므로 몇 분 만에 새끼를 풀어 주었다. 따라서 '몇 시간이 걸렸다'는 ⑤가 불일치. ①은 [2][4], ②는 [5], ③은 [6][7], ④는 [10]과 일치한다.",
+      "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        4,
-        5
+        5,
+        13,
+        15
       ],
       "options": [
         {
@@ -727,15 +673,15 @@
         },
         {
           "label": "②",
-          "body": "The writer saw the goose right after the first knock.",
-          "is_answer": true,
+          "body": "A goose was pecking at the door of the writer's car.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "The goose walked away after the writer got out of the car.",
+          "body": "The goose walked away as soon as the writer got out of the car.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -743,7 +689,7 @@
         },
         {
           "label": "④",
-          "body": "The goose looked back while the writer was following it.",
+          "body": "The writer found a baby goose caught in some strings.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -751,8 +697,8 @@
         },
         {
           "label": "⑤",
-          "body": "The writer set the baby goose free in a few minutes.",
-          "is_answer": false,
+          "body": "It took the writer several hours to free the baby goose.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 5
@@ -763,27 +709,26 @@
     {
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "빈칸에 들어갈 말로 가장 적절한 것은? — [11] The goose ________.",
-      "answer_key": "③",
-      "explanation": "[10]에서 줄에 얽힌 아기 거위를 발견하고 [12]에서 화자가 그 새끼를 풀어주므로, 어미 거위의 행동 목적은 새끼를 구하기 위한 도움 요청이었다. 따라서 ③이 앞뒤 문맥을 모두 잇는 주제문이다.",
-      "difficulty": "medium",
+      "stem": "위 지문의 [13] I was really ______ . 의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "거위가 새끼를 구하려고 사람에게 도움을 청했고 글쓴이가 새끼를 풀어 주어 엄마에게 돌아간 결말이므로 '감동받았다(moved)'가 결론에 맞다. 나머지 감정어는 사건의 긍정적 결말과 어울리지 않는다.",
+      "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        15,
         16
       ],
       "options": [
         {
           "label": "①",
-          "body": "was angry at the writer's car",
-          "is_answer": false,
+          "body": "moved",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "wanted to play with the writer",
+          "body": "bored",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -791,15 +736,15 @@
         },
         {
           "label": "③",
-          "body": "needed my help to free its baby",
-          "is_answer": true,
+          "body": "disappointed",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "was looking for food near the road",
+          "body": "annoyed",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -807,7 +752,7 @@
         },
         {
           "label": "⑤",
-          "body": "tried to guide the writer out of the woods",
+          "body": "jealous",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -818,29 +763,13 @@
     },
     {
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "다음은 지문 [10]과 [13]을 옮긴 것이다. 어법상 틀린 부분을 각각 찾아 바르게 고쳐 쓰시오.\n(a) When it finally stopped, I saw a baby goose trapping in some strings.\n(b) I was really moving.",
-      "answer_key": "(a) trapping → trapped  (b) moving → moved",
-      "explanation": "(a) 아기 거위는 줄에 스스로 얽는 것이 아니라 '얽혀 있는' 상태이므로 수동의 의미를 갖는 과거분사 trapped가 목적격보어로 와야 한다. (b) 감정동사 move는 사람이 주어일 때 감동을 '받는' 것이므로 be moved(수동)로 써야 한다. moving은 '감동을 주는'의 뜻이라 주어 I와 맞지 않는다.",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "다음은 위 지문 [10]을 옮긴 것이다. 어법상 틀린 한 곳을 찾아 바르게 고쳐 쓰시오.\n\nWhen it finally stopped, I saw a baby goose trapping in some strings.",
+      "answer_key": "trapping → trapped",
+      "explanation": "새끼 거위는 줄에 묶인 대상이므로 수동의 의미를 갖는 과거분사 trapped 가 명사 a baby goose 를 뒤에서 수식해야 한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        15,
-        19
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "NOUN_CLAUSE_IF",
-      "stem": "우리말과 같은 뜻이 되도록 <보기>의 단어를 모두 배열하여 문장을 완성하시오. (지문 [9] 참고)\n우리말: 내가 그 거위를 따라가자, 그것은 내가 여전히 뒤에 있는지 보기 위해 계속 뒤를 돌아보았다.\n<보기> turning / kept / to / if / see / around / was / I / still / behind / it\n→ As I followed the goose, ________________________.",
-      "answer_key": "As I followed the goose, it kept turning around to see if I was still behind.",
-      "explanation": "keep은 동명사를 목적어로 취하므로 kept turning, 목적을 나타내는 부사적 용법의 to see, 그리고 see의 목적어로 '~인지 아닌지'를 뜻하는 명사절 접속사 if가 이어져 if I was still behind가 된다. 주절이 과거이므로 종속절도 was로 시제를 맞춘다.",
-      "difficulty": "hard",
-      "option_lang": "na",
-      "source_tags": [
-        12,
         13
       ],
       "options": [],
@@ -848,16 +777,29 @@
     },
     {
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "MOD_POSTPOSITIVE",
-      "stem": "조건에 맞게 지문 [1]과 [3]의 내용을 한 문장으로 영작하시오.\n우리말: 어느 날 특이한 일이 나에게 일어났지만, 나는 아무것도 볼 수 없었다.\n조건 1: something, unusual, anything 을 반드시 쓸 것\n조건 2: but 으로 두 절을 연결할 것",
-      "answer_key": "One day, something unusual happened to me, but I couldn't see anything.",
-      "explanation": "-thing으로 끝나는 부정대명사는 형용사가 뒤에서 수식하므로 unusual something이 아니라 something unusual로 써야 한다. 또한 happen은 자동사로 사람 앞에 전치사 to가 필요하며, 부정문에서는 something이 아닌 anything을 쓴다.",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 지문 [11]의 내용을 다음 조건에 맞게 영어로 쓰시오.\n\n우리말: 그 거위는 자기 새끼를 풀어 주기 위해 내 도움이 필요했다.\n조건 1: needed, my help, free, its baby 를 모두 사용할 것\n조건 2: '~하기 위해'는 to부정사로 쓸 것\n조건 3: 8단어로 쓸 것",
+      "answer_key": "The goose needed my help to free its baby.",
+      "explanation": "목적을 나타내는 부사적 용법 to부정사(to free)를 사용하고, 거위를 가리키는 소유격 its 를 써야 한다(it's 는 it is 의 축약형이라 불가).",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0,
-        1,
-        4
+        14
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NOUN_CLAUSE_IF",
+      "stem": "위 지문 [9]의 후반부를 다음 조건에 맞게 완성하시오.\n\n우리말: 그것은 내가 아직 뒤에 있는지 보려고 계속 뒤를 돌아보았다.\nAs I followed the goose, it ______________________________ .\n조건 1: keep, turn around, see 를 알맞은 형태로 쓸 것\n조건 2: '~인지'를 나타내는 접속사 if 를 쓸 것",
+      "answer_key": "kept turning around to see if I was still behind",
+      "explanation": "keep 은 목적어로 동명사를 받으므로 kept turning, 목적을 나타내는 to see, see 의 목적어로는 '~인지'를 뜻하는 명사절 접속사 if 를 쓴다(that 은 불가).",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        11,
+        12
       ],
       "options": [],
       "_answer_violates_point": []
@@ -865,8 +807,8 @@
   ],
   "diagnostics": {
     "sentence_count": 13,
-    "tags_returned": 21,
-    "tags_kept": 21,
+    "tags_returned": 17,
+    "tags_kept": 17,
     "span_rejects": [],
     "logic_missing_sentences": [],
     "items_returned": 11,

@@ -1,0 +1,78 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L6_RecommendingaPerson",
+  "kind": "textbook_dialogue",
+  "title": "Recommending a Person",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "source_detail": "동아(윤정미) 중2 Lesson 6 DIALOGUE Practice 블록 C — Recommending a Person",
+  "body_text": "G: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!",
+  "body_text_sha256": "cddf9e40683fd18d274e892fa3fa51830a33dbc20eff522f3f4a09b273f14e95",
+  "word_count": 108,
+  "sentence_count": 9,
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "pending",
+    "method": "pdf_text_layer_dialogue_practice",
+    "note": "「Dialogue Practice」 쪽에서 추출. 같은 대화가 Communication 쪽에도 있으나 그쪽은 구문 번호가 본문에 박혀 있어 지저분하다. 화자 표시(G:/B:/이름)를 보존한다 — 기출도 화자 표시가 붙은 채로 출제된다.",
+    "needs_review_sentences": [],
+    "source_file": "l6.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용으로만 저장. 외부 배포·상품화는 별도 확인 필요.",
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Liam, can you please help me? I need to find some books for my homework."
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "What kinds of books are you looking for, Somi?"
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "I’m looking for books on famous people who helped others. I need to write an essay."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Who do you want to write about?"
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "I was thinking about Dr. Schweitzer, but can you recommend someone else for me?"
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "What about Audrey Hepburn?"
+    },
+    {
+      "no": 7,
+      "speaker": "G",
+      "text": "I know she was a famous actor, but what did she do to help others?"
+    },
+    {
+      "no": 8,
+      "speaker": "B",
+      "text": "She did a lot of volunteer work, especially for children."
+    },
+    {
+      "no": 9,
+      "speaker": "G",
+      "text": "Really? Then, I can write about her. Thank you!"
+    }
+  ]
+}

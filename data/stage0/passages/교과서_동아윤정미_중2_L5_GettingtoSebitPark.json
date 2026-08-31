@@ -1,0 +1,88 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L5_GettingtoSebitPark",
+  "kind": "textbook_dialogue",
+  "title": "Getting to Sebit Park",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "source_detail": "동아(윤정미) 중2 Lesson 5 DIALOGUE Practice 블록 C — Getting to Sebit Park",
+  "body_text": "B: Somi, I need help. What’s the best way to get to Sebit Park from here?\nG: Sebit Park? Well, you can get there by bus or by subway, but the subway is better.\nB: OK. Which line should I take?\nG: Take line 3, and get off at Sebit Station.\nB: Line 3 and get off at Sebit Station. How long will it take?\nG: It’ll take about 40 minutes.\nB: Is it that far?\nG: Yes. Anyway, why are you going to Sebit Park, Liam?\nB: Oh, there is an art fair this Saturday. You can come with me if you want.\nG: Really? I’m free this Saturday. Let’s go together.\nB: Perfect. Let’s meet here at 10.",
+  "body_text_sha256": "dead0a15bcbea1e88f938e42efddc1b934b93c53d4e7d6f52bd17600e130e174",
+  "word_count": 120,
+  "sentence_count": 11,
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "pending",
+    "method": "pdf_text_layer_dialogue_practice",
+    "note": "「Dialogue Practice」 쪽에서 추출. 같은 대화가 Communication 쪽에도 있으나 그쪽은 구문 번호가 본문에 박혀 있어 지저분하다. 화자 표시(G:/B:/이름)를 보존한다 — 기출도 화자 표시가 붙은 채로 출제된다.",
+    "needs_review_sentences": [],
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_5과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용으로만 저장. 외부 배포·상품화는 별도 확인 필요.",
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "Somi, I need help. What’s the best way to get to Sebit Park from here?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "Sebit Park? Well, you can get there by bus or by subway, but the subway is better."
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "OK. Which line should I take?"
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "Take line 3, and get off at Sebit Station."
+    },
+    {
+      "no": 5,
+      "speaker": "B",
+      "text": "Line 3 and get off at Sebit Station. How long will it take?"
+    },
+    {
+      "no": 6,
+      "speaker": "G",
+      "text": "It’ll take about 40 minutes."
+    },
+    {
+      "no": 7,
+      "speaker": "B",
+      "text": "Is it that far?"
+    },
+    {
+      "no": 8,
+      "speaker": "G",
+      "text": "Yes. Anyway, why are you going to Sebit Park, Liam?"
+    },
+    {
+      "no": 9,
+      "speaker": "B",
+      "text": "Oh, there is an art fair this Saturday. You can come with me if you want."
+    },
+    {
+      "no": 10,
+      "speaker": "G",
+      "text": "Really? I’m free this Saturday. Let’s go together."
+    },
+    {
+      "no": 11,
+      "speaker": "B",
+      "text": "Perfect. Let’s meet here at 10."
+    }
+  ]
+}

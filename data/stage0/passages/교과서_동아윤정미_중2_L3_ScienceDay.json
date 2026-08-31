@@ -1,0 +1,83 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L3_ScienceDay",
+  "kind": "textbook_dialogue",
+  "title": "Science Day",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 3",
+  "source_type": "교과서",
+  "source_detail": "동아(윤정미) 중2 Lesson 3 DIALOGUE Practice 블록 C — Science Day",
+  "body_text": "G: Look at this program, Liam. This Saturday is Science Day, and there are lots of interesting activities.\nB: You mean April 21?\nG: Yes. All the activities look fun, and they’re all free.\nB: All of them? Are you sure?\nG: Yes, I’m quite sure. I saw it on the poster. Anyway, which ones are you interested in?\nB: I want to go to the drone-flying class the most. How about you, Somi?\nG: Well, I want to go to Dr. Lee’s lecture on AI.\nB: Oh, I like that, too. Let’s go to both classes.\nG: Let’s see. The drone-flying class is on Saturday afternoon, and Dr. Lee’s lecture is on Sunday morning.\nB: Perfect. I can’t wait.",
+  "body_text_sha256": "f4284c20e12fde9a0444281bf7b18c5f3cc58bdad2bc29d587c889c3fa59564d",
+  "word_count": 120,
+  "sentence_count": 10,
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "pending",
+    "method": "pdf_text_layer_dialogue_practice",
+    "note": "「Dialogue Practice」 쪽에서 추출. 같은 대화가 Communication 쪽에도 있으나 그쪽은 구문 번호가 본문에 박혀 있어 지저분하다. 화자 표시(G:/B:/이름)를 보존한다 — 기출도 화자 표시가 붙은 채로 출제된다.",
+    "needs_review_sentences": [],
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_3과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용으로만 저장. 외부 배포·상품화는 별도 확인 필요.",
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Look at this program, Liam. This Saturday is Science Day, and there are lots of interesting activities."
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "You mean April 21?"
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "Yes. All the activities look fun, and they’re all free."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "All of them? Are you sure?"
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "Yes, I’m quite sure. I saw it on the poster. Anyway, which ones are you interested in?"
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "I want to go to the drone-flying class the most. How about you, Somi?"
+    },
+    {
+      "no": 7,
+      "speaker": "G",
+      "text": "Well, I want to go to Dr. Lee’s lecture on AI."
+    },
+    {
+      "no": 8,
+      "speaker": "B",
+      "text": "Oh, I like that, too. Let’s go to both classes."
+    },
+    {
+      "no": 9,
+      "speaker": "G",
+      "text": "Let’s see. The drone-flying class is on Saturday afternoon, and Dr. Lee’s lecture is on Sunday morning."
+    },
+    {
+      "no": 10,
+      "speaker": "B",
+      "text": "Perfect. I can’t wait."
+    }
+  ]
+}

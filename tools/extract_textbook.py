@@ -216,6 +216,122 @@ def build(lesson, title, sents, needs_review, src):
     }
 
 
+# ── 교과서 대화문 ────────────────────────────────────────────────────
+# 4개교 대조에서 「Science Day 대화」가 7/7 출제됐고 태장중은 교과서 대화 3종을 냈다.
+# 대화문은 지문의 한 종류다 (passage.kind = 'textbook_dialogue').
+#
+# 「내용정리 플러스」에는 대화가 두 번 실린다.
+#   · DIALOGUE Communication  — 구문 번호(1,2,3…)가 본문에 박혀 있어 지저분하다
+#   · DIALOGUE Dialogue Practice — 번호 없이 깨끗하다   ← 이쪽에서 뽑는다
+#
+# 화자 표시는 'G:' 'B:' 또는 이름('Suji:' 'Alru:')이고, 앞 발화 끝에 그대로 붙어 나온다:
+#   "…interesting activities.B: You mean April 21?G: Yes. All the activities…"
+DIALOG_BLOCK = re.compile(r"([A-D])\.\s*(Watch[A-Za-z, \-]*|Listen[A-Za-z, \-]*)")
+# 발화 경계. 자습서는 "homework. B: What" 처럼 공백이 있고,
+# 내용정리 플러스는 "activities.B: You" 처럼 붙어 있다. 둘 다 처리한다.
+TURN_SPLIT = re.compile(r"(?<=[.?!])\s*(?=[A-Z][A-Za-z]{0,8}:\s)")
+# 대화가 끝나고 연습문제가 시작되는 지점
+PRACTICE = re.compile(r"\d\.\s*(?:T/F|알맞은|빈칸|다음|우리말|내용)")
+
+
+# 자습서(L5.pdf / l6.pdf) 형식: 대화 안에 ➊➋➌ 표시가 박히고 뒤에 한글 설명이 붙는다.
+MARKER = re.compile(r"[①-⓿❶-➓]")
+WORKBOOK_BLOCK = re.compile(r"Watch and Talk\s*C\b")
+
+
+# 자습서는 양쪽 정렬 조판이라 추출하면 공백이 잘못 들어간다:
+#   "looking for , Somi?"  "Dr . Schweitzer"  "c an you"
+# 앞의 둘은 규칙으로 되돌릴 수 있다. 세 번째(낱말이 쪼개진 것)는 되돌리면 위험하므로
+# 고치지 않고 **경고만** 한다 — 전사를 조용히 추측으로 메우지 않는다 (설계원칙 7).
+# 아포스트로피 뒤 한 글자는 축약형이다 ("I'm looking" 의 m). 오탐이므로 제외한다.
+SPLIT_WORD = re.compile(r"(?<![’'\w])(?![aAI]\b)([a-zA-Z]) ([a-z]{2,})")
+
+
+# 원장이 육안으로 확인해 준 개별 정정. 추측이 아니라 **확인된 값**만 넣는다.
+# 도구를 다시 돌려도 같은 결과가 나오도록 코드에 남긴다 (JSON 만 손보면 재실행 때 되돌아간다).
+CONFIRMED_FIXES = [
+    ("but c an you recommend", "but can you recommend",
+     "L6 대화 · 자습서 조판으로 can 이 쪼개짐 · 원장 확인 2026-08-23"),
+]
+
+
+def normalize_typography(s):
+    s = re.sub(r"\s+([,.?!;:])", r"\1", s)          # " ," → ","  /  "Dr ." → "Dr."
+    s = re.sub(r"(\b(?:Dr|Mr|Mrs|Ms|St)\.)(?=[A-Z])", r"\1 ", s)   # "Dr.Schweitzer" 방지
+    for wrong, right, _why in CONFIRMED_FIXES:
+        s = s.replace(wrong, right)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def suspect_splits(s):
+    return [f"{m.group(1)} {m.group(2)}" for m in SPLIT_WORD.finditer(s)]
+
+
+def _turns_from(seg):
+    turns = []
+    for piece in TURN_SPLIT.split(seg):
+        piece = piece.strip()
+        sm = re.match(r"([A-Z][A-Za-z]{0,8}):\s*(.+)", piece, re.S)
+        if sm:
+            turns.append((sm.group(1), normalize_typography(sm.group(2))))
+    return turns
+
+
+def parse_workbook_dialogue(pages):
+    """자습서 형식. 표시를 걷어내고, 한글 설명이 시작되는 곳에서 자른다."""
+    for t in pages:
+        m = WORKBOOK_BLOCK.search(t)
+        if not m:
+            continue
+        seg = t[m.end():]
+        # 설명 블록은 '표시 + 공백 + 한글' 로 시작한다
+        cut = re.search(r"[①-⓿❶-➓]\s*[가-힣]", seg)
+        if cut:
+            seg = seg[:cut.start()]
+        seg = MARKER.sub(" ", seg)
+        first = re.search(r"[A-Z][A-Za-z]{0,8}:\s", seg)
+        if not first:
+            continue
+        seg = re.sub(r"\s+", " ", seg[first.start():]).strip()
+        if HANGUL.search(seg) or re.search(r"\([^)]{1,20}/[^)]{1,20}\)", seg):
+            continue
+        turns = _turns_from(seg)
+        if len(turns) >= 4:
+            return turns
+    return []
+
+
+def parse_dialogue(pages, block_letter="C"):
+    """Dialogue Practice 쪽에서 지정 블록의 대화를 (화자, 발화) 목록으로."""
+    for t in pages:
+        if "Dialogue Practice" not in t:
+            continue
+        m = None
+        for mm in DIALOG_BLOCK.finditer(t):
+            if mm.group(1) == block_letter:
+                m = mm
+        if not m:
+            continue
+        # 블록 제목 뒤 **첫 화자 표시**에서 시작한다.
+        # 제목을 문자 클래스로 먹으면 "Role-playG:" 의 G 까지 삼켜 첫 발화가 날아간다.
+        first = re.search(r"[A-Z][A-Za-z]{0,8}:\s", t[m.start():])
+        if not first:
+            continue
+        seg = t[m.start() + first.start():]
+        cut = PRACTICE.search(seg)
+        if cut:
+            seg = seg[:cut.start()]
+        seg = re.sub(r"\s+", " ", seg).strip()
+        # 같은 대화가 연습문제 버전으로도 실린다: "you can get there (on / by) bus".
+        # 괄호 안 슬래시가 그 표시다. 한글 해석이 붙은 것도 연습 지면이다. 둘 다 버린다.
+        if not seg or HANGUL.search(seg) or re.search(r"\([^)]{1,20}/[^)]{1,20}\)", seg):
+            continue
+        turns = _turns_from(seg)
+        if len(turns) >= 4:
+            return turns
+    return []
+
+
 # ── 본문만 있는 PDF (6과) ────────────────────────────────────────────
 # 「내용정리 플러스」가 아니라 본문 PDF는 구조가 다르다. 문장별 분석 블록이 없고,
 # 영문이 통짜로 나오는데 **문장 사이 공백이 없다**: "…house.A man: Dr. Schofield, …"
@@ -264,10 +380,63 @@ def main():
     ap.add_argument("--write", action="store_true")
     ap.add_argument("--plain", action="store_true",
                     help="「내용정리 플러스」가 아니라 본문만 있는 PDF (6과)")
-    ap.add_argument("--title", help="--plain 일 때 본문 제목")
+    ap.add_argument("--title", help="--plain / --dialogue 일 때 제목")
+    ap.add_argument("--dialogue", action="store_true", help="교과서 대화문을 뽑는다")
+    ap.add_argument("--block", default="C", help="대화 블록 (기본 C = 본 대화)")
     args = ap.parse_args()
 
     pages = page_texts(args.pdf)
+
+    if args.dialogue:
+        turns = parse_dialogue(pages, args.block) or parse_workbook_dialogue(pages)
+        print("=" * 74)
+        print(f" 교과서 대화문 추출 — Lesson {args.lesson} 블록 {args.block}")
+        print("=" * 74)
+        if not turns:
+            raise SystemExit("  대화 블록을 못 찾았습니다.")
+        for sp, line in turns:
+            print(f"   {sp:>5}: {line}")
+        body = "\n".join(f"{sp}: {line}" for sp, line in turns)
+        problems = []
+        if HANGUL.search(body):
+            problems.append("한글 혼입")
+        splits = suspect_splits(body)
+        if splits:
+            print(f"\n   ! 낱말이 쪼개진 것으로 의심되는 자리 {len(splits)}곳: {splits}")
+            print("     자습서 양쪽정렬 조판의 추출 부작용입니다. 추측으로 고치지 않았습니다.")
+            print("     원장 확인이 필요합니다.")
+        for p in problems:
+            print(f"   X {p}")
+        speakers = sorted({sp for sp, _ in turns})
+        print(f"\n   O 발화 {len(turns)}개 · 화자 {speakers}")
+        if problems or not args.write:
+            print("\n 저장하려면 --write 를 붙이십시오." if not problems else "")
+            return 1 if problems else 0
+        title = args.title or f"L{args.lesson}대화{args.block}"
+        d = build(args.lesson, title, {i: t for i, t in enumerate([body], 1)}, [],
+                  os.path.basename(args.pdf))
+        d["kind"] = "textbook_dialogue"
+        d["body_text"] = body
+        d["body_text_sha256"] = hashlib.sha256(body.encode("utf-8")).hexdigest()
+        d["word_count"] = len(body.split())
+        d["sentence_count"] = len(turns)
+        d["turns"] = [{"no": i, "speaker": sp, "text": ln}
+                      for i, (sp, ln) in enumerate(turns, 1)]
+        d.pop("sentence_spans", None)
+        d["source_detail"] = (f"동아(윤정미) 중2 Lesson {args.lesson} "
+                              f"DIALOGUE Practice 블록 {args.block} — {title}")
+        d["transcription"]["method"] = "pdf_text_layer_dialogue_practice"
+        d["transcription"]["note"] = (
+            "「Dialogue Practice」 쪽에서 추출. 같은 대화가 Communication 쪽에도 있으나 "
+            "그쪽은 구문 번호가 본문에 박혀 있어 지저분하다. 화자 표시(G:/B:/이름)를 보존한다 — "
+            "기출도 화자 표시가 붙은 채로 출제된다.")
+        os.makedirs(OUT, exist_ok=True)
+        path = os.path.join(OUT, d["passage_id"] + ".json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print(f"   저장  {os.path.basename(path)}  {d['word_count']}단어")
+        return 0
 
     if args.plain:
         title = args.title or f"L{args.lesson}본문"

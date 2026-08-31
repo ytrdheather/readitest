@@ -1,0 +1,83 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L4_SouvenirShop",
+  "kind": "textbook_dialogue",
+  "title": "Souvenir Shop",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 4",
+  "source_type": "교과서",
+  "source_detail": "동아(윤정미) 중2 Lesson 4 DIALOGUE Practice 블록 C — Souvenir Shop",
+  "body_text": "M: Hi, can I help you?\nG: Yes. I’m looking for a traditional Korean souvenir. It’s for my dad.\nM: How about this fan? It is really popular.\nG: Hmm... can you show me something else?\nM: How about this hat, then? This is a gat, a traditional Korean hat for men.\nG: Oh, it’s unique. I love it. How much is it?\nM: It’s 30,000 won.\nG: That’s a little expensive.\nM: We can give you a discount if you buy two. It’ll be 25,000 won each.\nG: That’s perfect! I’ll get two hats, then.",
+  "body_text_sha256": "137491914a6c31e1b13f5acb511a8cfd92f6e2fadf00f726936eda6e0e7e1d82",
+  "word_count": 96,
+  "sentence_count": 10,
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "pending",
+    "method": "pdf_text_layer_dialogue_practice",
+    "note": "「Dialogue Practice」 쪽에서 추출. 같은 대화가 Communication 쪽에도 있으나 그쪽은 구문 번호가 본문에 박혀 있어 지저분하다. 화자 표시(G:/B:/이름)를 보존한다 — 기출도 화자 표시가 붙은 채로 출제된다.",
+    "needs_review_sentences": [],
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_4과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용으로만 저장. 외부 배포·상품화는 별도 확인 필요.",
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "M",
+      "text": "Hi, can I help you?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "Yes. I’m looking for a traditional Korean souvenir. It’s for my dad."
+    },
+    {
+      "no": 3,
+      "speaker": "M",
+      "text": "How about this fan? It is really popular."
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "Hmm... can you show me something else?"
+    },
+    {
+      "no": 5,
+      "speaker": "M",
+      "text": "How about this hat, then? This is a gat, a traditional Korean hat for men."
+    },
+    {
+      "no": 6,
+      "speaker": "G",
+      "text": "Oh, it’s unique. I love it. How much is it?"
+    },
+    {
+      "no": 7,
+      "speaker": "M",
+      "text": "It’s 30,000 won."
+    },
+    {
+      "no": 8,
+      "speaker": "G",
+      "text": "That’s a little expensive."
+    },
+    {
+      "no": 9,
+      "speaker": "M",
+      "text": "We can give you a discount if you buy two. It’ll be 25,000 won each."
+    },
+    {
+      "no": 10,
+      "speaker": "G",
+      "text": "That’s perfect! I’ll get two hats, then."
+    }
+  ]
+}
