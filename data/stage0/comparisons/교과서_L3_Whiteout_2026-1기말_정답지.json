@@ -7,9 +7,10 @@
   "blind_note": "패스 A를 이 지문에 돌리기 전에 작성·저장했다. 순서는 세션 기록으로 검증 가능하다.",
   "_answer_note": "시험지의 동그라미·체크는 학생 답이지 정답이 아니다. 문항 12 정답 ⓑ는 원장이 확인했다(2026-08-23). 정답표는 존재하지 않는다.",
   "source": {
-    "exam": "영덕중2 2026-1 기말 문항 12",
+    "exam": "영덕중2 문항 12 + 청명중2 문항 12",
     "read_at": "2026-08-23",
-    "method": "스캔 PDF 비전 판독 (/Rotate 보정 후)"
+    "method": "스캔 PDF 비전 판독 (/Rotate 보정 후)",
+    "added_2026_09_01": "청명중 문항13 은 「흐름상 적절하지 않은 것」이라 어법이 아니다. 문항12(to부정사 용법 구별)의 선지 ② 만 Whiteout 문장이다."
   },
   "_code_note": "둘 다 to부정사 용법이라 코드가 같다. 코드 축은 변별력이 없고 위치 축만 의미가 있다.",
   "underlined": [
@@ -32,7 +33,23 @@
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
       "modification_type_code": "EI_VERB_COMPLEMENT",
       "is_exam_answer": true
+    },
+    {
+      "label": "청명12",
+      "surface": "used it to correct her typing mistakes",
+      "sentence_no": 7,
+      "exam_form": "(문항12 선지 ② — She used it to correct her typing mistakes)",
+      "성격": "to부정사 부사적 용법(목적)",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "modification_type_code": null,
+      "is_exam_answer": false
     }
   ],
-  "count": 2
+  "count": 3,
+  "_excluded": [
+    {
+      "label": "청명 문항13 ⓐ~ⓔ",
+      "why": "「밑줄 친 ⓐ~ⓔ 중 흐름상 적절하지 않은 것」 — 논리·문맥 문항이지 어법이 아니다. 태깅 A(어법) 채점 대상이 아니므로 제외. 태깅 B 평가 재료로는 쓸 수 있다."
+    }
+  ]
 }

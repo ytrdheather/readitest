@@ -3,20 +3,17 @@
   "passage_id": "교과서_동아윤정미_중2_L3_Bicycle",
   "body_text_sha256": "c31a7209d345",
   "_sha_note": "앞 12자만 기록. 전체는 passages/교과서_동아윤정미_중2_L3_Bicycle.json 참조.",
-
   "sealed_at": "2026-08-22",
   "blind": true,
   "blind_note": "패스 A를 이 지문에 돌리기 **전에** 작성·저장했다. 생성 결과를 보고 정답지를 손보면 채점이 무의미해진다. 순서는 세션 기록으로 검증 가능하다.",
-
   "source": {
-    "exam": "영덕중2 2026-1 기말 문항 10",
+    "exam": "영덕중2 문항 10 + 청명중2 문항 10·12",
     "origin": "data/stage0/comparisons/영덕중2_2026-1-기말_예측대조.json 의 textbook_modifications",
     "recorded_at": "2026-08-09",
-    "note": "원장이 기출 시험지를 보고 손으로 입력한 것. 이번 PDF 추출본과 원문 5/5 글자 일치를 확인했다."
+    "note": "원장이 기출 시험지를 보고 손으로 입력한 것. 이번 PDF 추출본과 원문 5/5 글자 일치를 확인했다.",
+    "added_2026_09_01": "청명중 기출을 열어 보강. 같은 지문에 영덕은 수동태 계열을, 청명은 수동태·전치사·형용사/부사·수일치를 냈다. 한 학교만 보면 분모가 과소평가된다."
   },
-
   "_code_mapping_note": "성격(변형 방식)은 기록돼 있었으나 grammar_point_code 는 없었다. 아래 코드는 2026-08-22에 붙인 것이며 판단이 갈릴 수 있다. 그래서 채점은 「같은 위치 + 같은 코드」와 「위치만」을 따로 보고한다.",
-
   "underlined": [
     {
       "label": "①",
@@ -69,9 +66,38 @@
       "modification_type_code": "EI_PREP_DELETE",
       "is_exam_answer": false,
       "_caveat": "VERB_PREP_COLLOCATION 은 아직 미승인 후보 코드다 (master_candidates.json)."
+    },
+    {
+      "label": "청명ⓐ",
+      "surface": "exploded in 1815",
+      "sentence_no": 1,
+      "exam_form": "[exploded / was exploded]",
+      "성격": "자동사 explode 를 수동태로 (빈칸 선택)",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "modification_type_code": "EI_INTRANS_PASSIVIZED",
+      "is_exam_answer": false
+    },
+    {
+      "label": "청명ⓑ",
+      "surface": "As a result",
+      "sentence_no": 3,
+      "exam_form": "[As / On] a result",
+      "성격": "전치사 as (빈칸 선택)",
+      "grammar_point_code": "PREP_USAGE",
+      "modification_type_code": "BO_FORM_CHOICE",
+      "is_exam_answer": false
+    },
+    {
+      "label": "청명12",
+      "surface": "People needed a new way to travel",
+      "sentence_no": 7,
+      "exam_form": "(문항12 선지 ① — 밑줄 (A) to eat 과 같은 용법 고르기)",
+      "성격": "to부정사 형용사적 용법",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "modification_type_code": null,
+      "is_exam_answer": true
     }
   ],
-
-  "count": 5,
+  "count": 8,
   "_expected_excess_note": "기출 지점 5개 기준. 게이트 과잉률 ≤3.0 이면 태그 15개가 상한이다."
 }
