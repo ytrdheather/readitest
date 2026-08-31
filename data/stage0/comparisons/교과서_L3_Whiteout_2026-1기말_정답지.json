@@ -1,0 +1,38 @@
+{
+  "gold_id": "교과서_L3_Whiteout_2026-1기말_정답지",
+  "passage_id": "교과서_동아윤정미_중2_L3_Whiteout",
+  "body_text_sha256": "8790314ea9df",
+  "sealed_at": "2026-08-23",
+  "blind": true,
+  "blind_note": "패스 A를 이 지문에 돌리기 전에 작성·저장했다. 순서는 세션 기록으로 검증 가능하다.",
+  "_answer_note": "시험지의 동그라미·체크는 학생 답이지 정답이 아니다. 문항 12 정답 ⓑ는 원장이 확인했다(2026-08-23). 정답표는 존재하지 않는다.",
+  "source": {
+    "exam": "영덕중2 2026-1 기말 문항 12",
+    "read_at": "2026-08-23",
+    "method": "스캔 PDF 비전 판독 (/Rotate 보정 후)"
+  },
+  "_code_note": "둘 다 to부정사 용법이라 코드가 같다. 코드 축은 변별력이 없고 위치 축만 의미가 있다.",
+  "underlined": [
+    {
+      "label": "ⓐ",
+      "surface": "to correct her typing mistakes",
+      "sentence_no": 7,
+      "exam_form": "(동일)",
+      "성격": "부사적 용법(목적)",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "modification_type_code": null,
+      "is_exam_answer": false
+    },
+    {
+      "label": "ⓑ",
+      "surface": "began using it",
+      "sentence_no": 9,
+      "exam_form": "began to use it",
+      "성격": "begin + 동명사 → 시험에서 to부정사로 바꿈. 이 선지가 정답(명사적 용법)",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "modification_type_code": "EI_VERB_COMPLEMENT",
+      "is_exam_answer": true
+    }
+  ],
+  "count": 2
+}

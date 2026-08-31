@@ -1,0 +1,699 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L3_Webcam",
+  "body_text_sha256": "179037aa88ceba6b7952e227bb612c9c12d1ce0812f2a35bad83031675ba01e9",
+  "tags": [
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 17,
+      "span_end": 29,
+      "surface": "was invented",
+      "sentence_no": 1,
+      "rationale": "주어 webcam이 '발명되는' 대상이므로 be+p.p. 수동태. invented → inventing(진행) / invents(능동)로 바꾼 오류 유도가 전형적",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 30,
+      "span_end": 51,
+      "surface": "to watch a coffee pot",
+      "sentence_no": 1,
+      "rationale": "'~하기 위해'라는 목적의 부사적 to부정사. for watching / watching 으로 바꾼 형태와 구별해야 함",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 113,
+      "span_end": 125,
+      "surface": "were working",
+      "sentence_no": 4,
+      "rationale": "In 1991이라는 과거 시점 부사구와 호응하는 과거진행. are working / have worked 로 바꾼 시제 불일치 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 126,
+      "span_end": 154,
+      "surface": "at a computer lab in England",
+      "sentence_no": 4,
+      "rationale": "비교적 좁은 장소(연구실)에는 at, 국가 앞에는 in. at/in 을 서로 바꾼 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_SYNONYM",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 156,
+      "span_end": 170,
+      "surface": "To work better",
+      "sentence_no": 5,
+      "rationale": "문두 목적의 부사적 to부정사. Working better / For work better 로 바꾼 오류와 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 164,
+      "span_end": 170,
+      "surface": "better",
+      "sentence_no": 5,
+      "rationale": "동사 work를 수식하는 부사 well의 비교급 better. more well / more better 같은 이중비교 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 209,
+      "span_end": 242,
+      "surface": "there was only one coffee machine",
+      "sentence_no": 6,
+      "rationale": "there구문은 뒤의 명사(one coffee machine)에 수일치 → was. were 로 바꾼 수일치 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 269,
+      "span_end": 280,
+      "surface": "had to make",
+      "sentence_no": 7,
+      "rationale": "과거의 의무·필요는 must의 과거형이 없어 had to로 표현. must to make / musted 오류 및 don't have to(불필요)와의 의미 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 281,
+      "span_end": 305,
+      "surface": "many disappointing trips",
+      "sentence_no": 7,
+      "rationale": "trips가 '실망시키는' 성질이므로 현재분사 disappointing. disappointed로 바꾼 분사 뒤집기가 최빈 출제",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 382,
+      "span_end": 393,
+      "surface": "in front of",
+      "sentence_no": 8,
+      "rationale": "'~앞에'는 in front of. in the front of / in front 로 바꾼 전치사구 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 366,
+      "span_end": 372,
+      "surface": "set up",
+      "sentence_no": 8,
+      "rationale": "'설치하다'는 set up. up 삭제 또는 set on/in 으로 바꾼 결합 오류 유도. 또한 과거형 set(원형과 동형) 인식 확인",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 425,
+      "span_end": 438,
+      "surface": "took pictures",
+      "sentence_no": 9,
+      "rationale": "앞 문장들과 같은 과거 서술. takes / has taken 으로 바꾼 시제 불일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 457,
+      "span_end": 477,
+      "surface": "three times a minute",
+      "sentence_no": 9,
+      "rationale": "빈도 표현에서 a = per의 의미. a → in/for/of 로 바꾼 오류, 또는 an hour로 바꿔 내용 불일치 선지 제작 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_SYNONYM",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 479,
+      "span_end": 500,
+      "surface": "With special software",
+      "sentence_no": 10,
+      "rationale": "수단·도구를 나타내는 with. By/In 으로 바꾼 전치사 선택 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_SYNONYM",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 502,
+      "span_end": 547,
+      "surface": "all the researchers in the building could see",
+      "sentence_no": 10,
+      "rationale": "주어 all the researchers 와 동사 사이에 전치사구(in the building)가 끼어 있어 수일치 착각 유도. was able to see / sees 형태 오류 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 538,
+      "span_end": 547,
+      "surface": "could see",
+      "sentence_no": 10,
+      "rationale": "과거의 가능(~할 수 있었다) could. can see / could saw 형태 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 564,
+      "span_end": 583,
+      "surface": "their local network",
+      "sentence_no": 10,
+      "rationale": "복수 선행 명사 the researchers를 가리키는 소유격 their. its/his 또는 they're 와의 혼동 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "CO_SYNONYM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "주제문 — 글 전체의 화제 제시",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경 — 시간 정보 제시",
+      "signal": "In 1991",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "배경 — 인물 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "배경 — 장소와 상황 서술",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "원인 — 커피가 많이 필요했던 이유",
+      "signal": "To work better",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "문제 상황 — 대조 제시",
+      "signal": "However",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "부정적 결과 — 문제의 구체적 불편",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "해결책 — 카메라 설치",
+      "signal": "As a solution",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "세부 사실 — 카메라 작동 방식",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "결과 요약 — 모두가 사진을 볼 수 있게 됨",
+      "signal": "With special software",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 11,
+      "role": "결론문 — 문제 해결 확인",
+      "signal": "No more",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "위 지문의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "trips(헛걸음)는 사람을 '실망시키는' 성질을 나타내므로 현재분사 disappointing이 옳다. disappointed는 사람이 '실망한' 감정을 받을 때 쓴다. ①은 webcam이 발명되는 대상이므로 was invented가 맞고, ②는 In 1991이라는 과거 시점과 호응하는 과거진행, ④는 '설치하다' set up의 과거형(set), ⑤는 과거의 가능을 나타내는 could로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        0,
+        2,
+        10,
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[1] The first webcam was invented to watch a coffee pot.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[4] Paul Jardetzky were working at a computer lab in England.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[7] So, they had to make many disappointed trips to the empty coffee pot.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[8] As a solution, the two researchers set up a camera in front of the coffee machine.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[10] all the researchers in the building could see the pictures on their local network",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문을 다시 쓴 아래 문장들 중, 어법상 틀린 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "webcam은 스스로 발명하는 것이 아니라 '발명되는' 대상이므로 was invented(be+과거분사)가 되어야 한다. was inventing은 능동 진행이라 문맥과 맞지 않는다. ②는 목적의 부사적 to부정사, ③은 there구문에서 뒤의 단수명사에 맞춘 was, ④는 과거시제 took과 빈도 표현 a minute, ⑤는 수단의 with와 과거 가능의 could로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        4,
+        6,
+        10,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The first webcam was inventing to watch a coffee pot.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "To work better, they needed lots of coffee.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "However, there was only one coffee machine in the building.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The camera took pictures of the coffee pot three times a minute.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "With special software, all the researchers in the building could see the pictures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름으로 볼 때, 밑줄 친 낱말 중 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "카메라를 설치한 것은 빈 커피포트로 헛걸음하는 '문제(problem)'가 아니라 그 문제에 대한 '해결책(solution)'이다. 따라서 As a solution이 되어야 한다. 나머지는 발명 목적(invented), 실망스러운 헛걸음(disappointing), 1분에 세 번 촬영(three times a minute), 특수 소프트웨어(special)로 모두 문맥에 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        8,
+        9,
+        11,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[1] The first webcam was invented to watch a coffee pot.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[7] they had to make many disappointing trips to the empty coffee pot",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[8] As a problem, the two researchers set up a camera in front of the coffee machine.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[9] The camera took pictures of the coffee pot three times a minute.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[10] With special software, all the researchers could see the pictures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "(해당 없음)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "글은 두 연구원이 빈 커피포트로 헛걸음하는 문제를 해결하려고 카메라를 설치한 것이 최초의 웹캠이 되었다는 내용이다. 따라서 ①이 주제다. 커피의 인기, 네트워크의 역사, 커피 만드는 법, 카페인의 위험은 글에서 다루지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how the first webcam was invented to check a coffee pot",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "why coffee is so popular among computer researchers",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the history of computer networks in England",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "how to make better coffee in a science lab",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the danger of drinking too much coffee at work",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "[9]에서 카메라는 1분에 세 번(three times a minute) 사진을 찍었다고 했으므로 '한 시간에 세 번'은 일치하지 않는다. ①은 [1], ②는 [2]~[4], ③은 [6], ⑤는 [10]과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        11,
+        0,
+        6,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The first webcam was made to watch a coffee pot.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The two researchers worked at a computer lab in England in 1991.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "There was only one coffee machine in the building.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The camera took pictures of the coffee pot three times an hour.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The researchers could see the pictures on their local network.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "[1]의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.  The first webcam was invented ________.",
+      "answer_key": "①",
+      "explanation": "뒤에 이어지는 내용이 모두 '커피포트가 비었는지 확인하기 위해' 카메라를 설치한 이야기이므로, 첫 웹캠의 발명 목적은 커피포트를 지켜보는 것이다. 판매·실험 기록·화상 대화·야간 경비는 글에 근거가 없다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "to watch a coffee pot",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to sell coffee machines online",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "to record the results of experiments",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "to talk with friends far away",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "to guard the computer lab at night",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "다음은 지문의 [7]을 옮겨 쓴 것이다. 어법상 틀린 한 곳을 찾아 밑줄을 긋고 바르게 고쳐 쓰시오.  So, they had to make many disappointed trips to the empty coffee pot.",
+      "answer_key": "disappointed → disappointing",
+      "explanation": "trips는 사람을 '실망시키는' 성질을 가진 것이므로 현재분사 disappointing으로 수식해야 한다. disappointed(실망한)는 감정을 느끼는 사람에게 쓴다. had to make(과거의 의무)와 empty는 어법상 문제가 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말과 같은 뜻이 되도록, 주어진 단어를 모두 한 번씩 사용하여 문장을 완성하시오. (필요하면 어형을 바꿀 것)  → 해결책으로, 그 두 연구원은 커피 머신 앞에 카메라를 설치했다.  As a solution, ______________________.  [ the two researchers / set / up / a camera / in front of / the coffee machine ]",
+      "answer_key": "As a solution, the two researchers set up a camera in front of the coffee machine.",
+      "explanation": "'설치하다'는 set up이며, 과거시제에서도 set의 형태는 변하지 않는다. '~앞에'는 in front of로 쓰고, 목적어 a camera는 set up 뒤에 놓는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        9
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 11,
+    "tags_returned": 17,
+    "tags_kept": 17,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 8,
+    "item_rejects": [
+      {
+        "where": "문항 #3 T-PHRASE-INFER",
+        "reason": "정답 선지가 0개"
+      }
+    ]
+  }
+}

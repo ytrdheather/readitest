@@ -72,6 +72,24 @@ CASES = [
                                   "교과서_L3_Bicycle_2026-1기말_정답지.json"),
         "passage": os.path.join(S0, "passages", "교과서_동아윤정미_중2_L3_Bicycle.json"),
     },
+    {
+        "name": "Whiteout (교과서 L3 · 영덕중2 문항12)",
+        "gold": "gold_file", "blind": True, "blind_label": "완전 블라인드",
+        "blind_note": "프롬프트 무수정. 정답지는 실행 전 봉인.",
+        "generated": os.path.join(GEN, "Whiteout.pass_a.json"),
+        "manual_tags": None,
+        "gold_file": os.path.join(S0, "comparisons", "교과서_L3_Whiteout_2026-1기말_정답지.json"),
+        "passage": os.path.join(S0, "passages", "교과서_동아윤정미_중2_L3_Whiteout.json"),
+    },
+    {
+        "name": "Webcam (교과서 L3 · 영덕 문항12 + 청명 문항5)",
+        "gold": "gold_file", "blind": True, "blind_label": "완전 블라인드",
+        "blind_note": "프롬프트 무수정. 정답지는 실행 전 봉인. 단 PREP_USAGE 코드는 기출을 본 뒤 추가했다 — 코드 축은 순수 블라인드가 아니다.",
+        "generated": os.path.join(GEN, "Webcam.pass_a.json"),
+        "manual_tags": None,
+        "gold_file": os.path.join(S0, "comparisons", "교과서_L3_Webcam_2026-1기말_정답지.json"),
+        "passage": os.path.join(S0, "passages", "교과서_동아윤정미_중2_L3_Webcam.json"),
+    },
 ]
 
 

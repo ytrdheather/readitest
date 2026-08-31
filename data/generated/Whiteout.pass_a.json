@@ -1,0 +1,771 @@
+{
+  "passage_id": "교과서_동아윤정미_중2_L3_Whiteout",
+  "body_text_sha256": "8790314ea9df75ed38279c29366ffffbcac87e884a4f7f94faabddd381a9b552",
+  "tags": [
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 9,
+      "span_end": 24,
+      "surface": "was invented by",
+      "sentence_no": 1,
+      "rationale": "주어 Whiteout이 발명'되는' 대상이므로 수동태 be+p.p. + by 행위자. invented / was inventing / invented by 혼동 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 55,
+      "span_end": 66,
+      "surface": "was working",
+      "sentence_no": 2,
+      "rationale": "1956년 특정 과거 시점의 진행 상황이므로 과거진행. is working / has worked 로 바꿔 시제 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 67,
+      "span_end": 85,
+      "surface": "at a bank in Texas",
+      "sentence_no": 2,
+      "rationale": "근무 장소는 at a bank, 넓은 지역은 in Texas. 전치사 in/at 교체 또는 삭제 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 113,
+      "span_end": 126,
+      "surface": "had to retype",
+      "sentence_no": 3,
+      "rationale": "must의 과거 표현은 had to. must retype / had to retyped 같은 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 142,
+      "span_end": 177,
+      "surface": "when they made even a small mistake",
+      "sentence_no": 3,
+      "rationale": "뒤에 절이 오므로 접속사 when. during + 명사구와 구별하는 문제로 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 106,
+      "span_end": 126,
+      "surface": "people had to retype",
+      "sentence_no": 3,
+      "rationale": "people은 복수 취급이므로 복수 동사. has to 로 바꾸는 수일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 204,
+      "span_end": 228,
+      "surface": "so she needed a solution",
+      "sentence_no": 4,
+      "rationale": "결과를 잇는 등위접속사 so. because/so 혼동 및 앞뒤 절 연결 판단 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 246,
+      "span_end": 270,
+      "surface": "saw some window painters",
+      "sentence_no": 5,
+      "rationale": "지각동사 saw의 목적격보어 자리에 painting(현재분사)을 넣는 변형 출제 가능. saw them painting / to paint 구별",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 316,
+      "span_end": 342,
+      "surface": "by simply painting over it",
+      "sentence_no": 6,
+      "rationale": "전치사 by 뒤에는 동명사. by simply paint / to paint 로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 298,
+      "span_end": 315,
+      "surface": "they corrected it",
+      "sentence_no": 6,
+      "rationale": "it은 앞의 a mistake를 지시. them/its 로 바꾸는 대명사 수·격 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_REFLEXIVE",
+      "span_start": 362,
+      "span_end": 386,
+      "surface": "made her own white paint",
+      "sentence_no": 7,
+      "rationale": "her own(소유격+own) 대신 herself를 넣는 재귀대명사 오용 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 391,
+      "span_end": 429,
+      "surface": "used it to correct her typing mistakes",
+      "sentence_no": 7,
+      "rationale": "목적을 나타내는 to부정사(부사적 용법). for correct / correcting 과 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 431,
+      "span_end": 459,
+      "surface": "Surprisingly, nobody noticed",
+      "sentence_no": 8,
+      "rationale": "문장 전체를 수식하는 부사 Surprisingly. Surprising 으로 바꾸는 형용사/부사 혼동 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 445,
+      "span_end": 459,
+      "surface": "nobody noticed",
+      "sentence_no": 8,
+      "rationale": "부정대명사 nobody 자체가 부정이므로 didn't notice anybody 형태와 구별. anybody noticed 로 바꾸는 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 489,
+      "span_end": 503,
+      "surface": "began using it",
+      "sentence_no": 9,
+      "rationale": "begin은 to부정사·동명사 모두 목적어로 취함. began used / began use 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "EI_GERUND_TO_VERB",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 467,
+      "span_end": 494,
+      "surface": "everybody at the bank began",
+      "sentence_no": 9,
+      "rationale": "주어 everybody는 단수, at the bank는 수식어구. 수식어구 뒤 동사 수일치 판단 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "주제문 (발명자 소개)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경 (시간·장소)",
+      "signal": "In 1956",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "문제 상황 (당시의 불편)",
+      "signal": "At that time",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "원인 (개인적 필요)",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "전환 (착안 계기)",
+      "signal": "One day",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "관찰 내용 (아이디어의 원천)",
+      "signal": "When",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "해결책 (적용)",
+      "signal": "The next day",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "결과 (성공 확인)",
+      "signal": "Surprisingly",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "결론문 (확산·결과요약)",
+      "signal": "Soon",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 위 지문의 문장들이다. 밑줄 친 부분 중 어법상 <보기>와 같이 어색한 것을 고르시오. (문맥은 위 지문을 따른다.)",
+      "answer_key": "③",
+      "explanation": "전치사 by 뒤에는 동명사가 와야 하므로 by simply painting over it 이 옳다. paint(원형)는 전치사의 목적어가 될 수 없다. ①은 수동태 be+p.p.+by, ②는 과거의 의무 had to + 원형, ④는 목적을 나타내는 to부정사, ⑤는 begin + 동명사로 모두 어법상 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        0,
+        3,
+        11,
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Whiteout was invented by Bette Graham.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "At that time, people had to retype the whole page when they made even a small mistake.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "When they made a mistake, they corrected it by simply paint over it.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The next day, she made her own white paint and used it to correct her typing mistakes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Soon, everybody at the bank began using it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문을 다시 쓴 아래 문장들 중 어법상 옳은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④는 지문 원문 그대로 어법상 옳다. ①은 수동태의 행위자 앞 by가 빠졌고, ②는 was 뒤에 진행형 working이 와야 하며, ③은 had to 뒤에 동사원형 retype이 와야 한다. ⑤는 문장 전체를 수식하는 부사 Surprisingly가 필요하다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Whiteout was invented Bette Graham.",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_ACTIVE_TO_PASSIVE_NO_BY",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "In 1956, Graham was work at a bank in Texas, USA.",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "At that time, people had to retyped the whole page.",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Graham was a bad typist, so she needed a solution.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Surprising, nobody noticed!",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 지문의 밑줄 친 to correct 와 to부정사의 쓰임(용법)이 같은 것을 고르시오. (7번 문장: she made her own white paint and used it to correct her typing mistakes.)",
+      "answer_key": "②",
+      "explanation": "지문의 to correct는 '~하기 위해'라는 목적을 나타내는 부사적 용법이다. ②의 to type도 목적을 나타내는 부사적 용법이다. ①은 a solution을 수식하는 형용사적 용법, ③은 가주어 It에 대응하는 진주어(명사적 용법), ④는 보어 역할의 명사적 용법, ⑤는 wanted의 목적어인 명사적 용법이다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Graham needed a solution to solve her typing problem.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "She went to the bank to type documents every morning.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "It was hard to retype the whole page.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Her plan was to paint over her mistakes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Everybody at the bank wanted to use her white paint.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "타자 실수를 종이 위에 덮어 감추려면 종이와 같은 흰색 페인트여야 하므로 black이 아니라 white가 적절하다(제품명도 Whiteout). 나머지는 문맥에 맞는 낱말이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        11,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[3] people had to retype the whole page when they made even a small mistake",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[4] Graham was a bad typist, so she needed a solution.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[6] they corrected it by simply painting over it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[7] she made her own black paint and used it to correct her typing mistakes",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[9] Soon, everybody at the bank began using it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 지문의 [8] Surprisingly, nobody noticed! 가 의미하는 바로 가장 적절한 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "바로 앞 문장에서 Graham이 흰 페인트로 타자 실수를 덮어 고쳤다고 했으므로, nobody noticed는 그 수정 흔적을 아무도 눈치채지 못했다는 뜻이다. ⑤는 다음 문장에서 모두가 사용하기 시작했다는 내용과 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        12,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "아무도 Graham이 은행에서 일한다는 사실을 몰랐다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Graham이 흰 페인트로 고친 자리를 아무도 알아채지 못할 만큼 자연스러웠다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "아무도 Graham의 타자 실력이 나쁘다는 것을 신경 쓰지 않았다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "창문 페인트공들이 실수를 고친 것을 아무도 보지 못했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "은행 사람들은 Graham의 발명품에 관심이 없었다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 지문의 주제로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "지문은 타자를 잘 못 치던 Graham이 창문 페인트공을 관찰한 데서 아이디어를 얻어 Whiteout을 만들게 된 과정을 서술한다. ②③④⑤는 지문에 부분적으로 등장하는 소재이거나 언급되지 않은 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how a typist's need and a simple observation led to an invention",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the history of banking jobs in Texas in the 1950s",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best way to become a fast and accurate typist",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "why window painters use white paint for their work",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the difficulty of selling a new product to a company",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 지문의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "[4]에서 Graham은 'a bad typist'였고 그래서 해결책이 필요했다고 했으므로 ④는 지문과 반대이다. ①은 [2], ②는 [3], ③은 [5]~[6], ⑤는 [9]와 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Bette Graham worked at a bank in Texas in 1956.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "In those days, a small typing mistake meant retyping the whole page.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Graham got her idea from watching window painters correct their mistakes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Graham was such a good typist that she rarely needed a solution.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "People at the bank soon started to use Graham's white paint.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 지문의 [9]가 다음과 같이 바뀔 때 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.\nSoon, everybody at the bank began ________.",
+      "answer_key": "①",
+      "explanation": "[7]~[8]에서 Graham의 흰 페인트가 실수를 감추는 데 성공했고 아무도 알아채지 못했다고 했으므로, 동료들이 시작한 것은 그 흰 페인트로 타자 실수를 감추는 일이다. 나머지는 지문 내용과 어긋난다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        14,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "using her white paint to hide typing mistakes",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "retyping every page by hand again",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "painting the windows of the bank white",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "asking Graham to type all their documents",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "selling white paint to window painters",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 지문 [3]을 아래와 같이 옮겨 적을 때 어법상 틀린 부분 두 곳을 찾아 바르게 고쳐 쓰시오.\nAt that time, people has to retyped the whole page when they made even a small mistake.",
+      "answer_key": "has to → had to, retyped → retype",
+      "explanation": "주어 people은 복수이고 과거의 일이므로 has to가 아니라 had to를 쓴다. 또한 had to 뒤에는 동사원형이 와야 하므로 retyped를 retype으로 고친다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문 [1]의 내용을 참고하여, 주어진 우리말을 <조건>에 맞게 영작하시오.\n우리말: Whiteout은 Bette Graham에 의해 발명되었다.\n<조건> 1) 수동태로 쓸 것 2) invent, by 를 사용할 것 3) 6단어로 쓸 것",
+      "answer_key": "Whiteout was invented by Bette Graham.",
+      "explanation": "주어가 동작을 당하므로 be동사 과거 was + 과거분사 invented, 행위자 앞에는 by를 써서 by Bette Graham으로 마무리한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 지문 [6]의 내용을 참고하여 빈칸을 완성하시오.\nWhen they made a mistake, they corrected it by simply ________ (paint) over it.\n<조건> 괄호 안의 단어를 알맞은 형태로 바꿔 한 단어로 쓸 것",
+      "answer_key": "painting",
+      "explanation": "전치사 by의 목적어 자리이므로 동명사 painting이 알맞다. 원형 paint나 to paint는 전치사 뒤에 올 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 9,
+    "tags_returned": 16,
+    "tags_kept": 16,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": []
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "gold_id": "교과서_L3_Webcam_2026-1기말_정답지",
+  "passage_id": "교과서_동아윤정미_중2_L3_Webcam",
+  "body_text_sha256": "179037aa88ce",
+  "sealed_at": "2026-08-23",
+  "blind": true,
+  "blind_note": "패스 A를 이 지문에 돌리기 전에 작성·저장했다. 순서는 세션 기록으로 검증 가능하다.",
+  "_answer_note": "시험지의 동그라미·체크는 학생 답이지 정답이 아니다. 문항 12 정답 ⓑ는 원장이 확인했다(2026-08-23). 정답표는 존재하지 않는다.",
+  "source": {
+    "exam": "영덕중2 문항 12 (ⓒⓓ) + 청명중2 문항 5 (ⓐ~ⓓ)",
+    "read_at": "2026-08-23",
+    "note": "같은 교과서 지문에 두 학교가 서로 다른 포인트를 냈다 — 영덕은 to부정사 용법, 청명은 전치사. §5.5.3 레버리지의 실례."
+  },
+  "_excluded": [
+    {
+      "label": "영덕 ⓔ",
+      "surface": "to check the amount of coffee",
+      "why": "교과서 본문에 없는 문자열. 영덕 교사가 밑줄 5개를 만들려고 덧붙인 것으로 보인다. 부교재 본문·국문 해석 양쪽에 없음을 확인했다. 지문에 위치가 없으므로 채점 대상에서 제외."
+    }
+  ],
+  "underlined": [
+    {
+      "label": "영덕ⓒ",
+      "surface": "to watch a coffee pot",
+      "sentence_no": 1,
+      "exam_form": "(동일)",
+      "성격": "부사적 용법(목적)",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_exam_answer": false
+    },
+    {
+      "label": "영덕ⓓ",
+      "surface": "To work better",
+      "sentence_no": 3,
+      "exam_form": "(동일)",
+      "성격": "부사적 용법(목적)",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "is_exam_answer": false
+    },
+    {
+      "label": "청명ⓐ",
+      "surface": "trips to the empty coffee pot",
+      "sentence_no": 5,
+      "exam_form": "trips ___ the empty coffee pot",
+      "성격": "방향 전치사 to (빈칸)",
+      "grammar_point_code": "PREP_USAGE",
+      "modification_type_code": "BO_FORM_CHOICE",
+      "is_exam_answer": false
+    },
+    {
+      "label": "청명ⓑ",
+      "surface": "As a solution",
+      "sentence_no": 6,
+      "exam_form": "___ a solution",
+      "성격": "전치사 as (~으로서) (빈칸)",
+      "grammar_point_code": "PREP_USAGE",
+      "modification_type_code": "BO_FORM_CHOICE",
+      "is_exam_answer": false
+    },
+    {
+      "label": "청명ⓒ",
+      "surface": "With special software",
+      "sentence_no": 8,
+      "exam_form": "___ special software",
+      "성격": "수단의 with (빈칸)",
+      "grammar_point_code": "PREP_USAGE",
+      "modification_type_code": "BO_FORM_CHOICE",
+      "is_exam_answer": false
+    },
+    {
+      "label": "청명ⓓ",
+      "surface": "on their local network",
+      "sentence_no": 8,
+      "exam_form": "___ their local network",
+      "성격": "장소의 on (빈칸)",
+      "grammar_point_code": "PREP_USAGE",
+      "modification_type_code": "BO_FORM_CHOICE",
+      "is_exam_answer": false
+    }
+  ],
+  "count": 6
+}
