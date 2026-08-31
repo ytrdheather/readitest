@@ -95,10 +95,9 @@ def cmd_pass_a(args):
     env = load_env()
     rest = Rest(env)
     masters = load_masters_cached(rest)
-    if args.file:
-        passages = [load_passage_file(args.file)]
-    else:
-        passages = fetch_passages(rest, None if args.all else args.passage)
+    passages = [load_passage_file(f) for f in args.file]
+    if args.all or args.passage:
+        passages += fetch_passages(rest, None if args.all else args.passage)
     if not passages:
         raise SystemExit("해당하는 지문이 없습니다. `python -m pipeline.run list` 로 확인하십시오.")
 
@@ -137,15 +136,21 @@ def cmd_pass_a(args):
     if args.batch:
         from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
         from anthropic.types.messages.batch_create_params import Request
+        # custom_id 는 ^[a-zA-Z0-9_-]{1,64}$ 만 허용한다 — 한글 지문 id 를 못 쓴다.
+        # 인덱스를 쓰고, 무엇이 몇 번인지는 매니페스트에 남긴다.
         batch = api.messages.batches.create(requests=[
-            Request(custom_id=f"pass-a::{p['id']}",
+            Request(custom_id=f"pass-a-{i}",
                     params=MessageCreateParamsNonStreaming(**params))
-            for p, params in built])
+            for i, (p, params) in enumerate(built)])
         print(f"\n[배치 제출] {batch.id}  상태 {batch.processing_status}")
         print(f"  수거:  python -m pipeline.run collect --batch-id {batch.id}")
-        with open(os.path.join(OUT_DIR if os.path.isdir(OUT_DIR) else ROOT,
-                               "last_batch.txt"), "w") as f:
-            f.write(batch.id)
+        # 파일에서 읽은 지문은 DB에 없다. 수거할 때 본문·해시가 있어야 파싱하므로
+        # 매니페스트가 없으면 --file 로 낸 배치를 수거할 수 없다.
+        os.makedirs(OUT_DIR, exist_ok=True)
+        with open(os.path.join(OUT_DIR, "last_batch.json"), "w", encoding="utf-8") as f:
+            json.dump({"batch_id": batch.id,
+                       "passages": {f"pass-a-{i}": p for i, (p, _) in enumerate(built)}},
+                      f, ensure_ascii=False)
         return
 
     cost = Cost()
@@ -178,11 +183,22 @@ def cmd_collect(args):
     print(f"[배치 종료] 성공 {batch.request_counts.succeeded} · "
           f"실패 {batch.request_counts.errored} · 만료 {batch.request_counts.expired}")
 
-    by_id = {p["id"]: p for p in fetch_passages(rest)}
+    manifest = os.path.join(OUT_DIR, "last_batch.json")
+    by_cid = {}
+    if os.path.exists(manifest):
+        with open(manifest, encoding="utf-8") as f:
+            m = json.load(f)
+        if m.get("batch_id") == bid:
+            by_cid = m["passages"]
+    if not by_cid:
+        raise SystemExit(
+            f"이 배치의 매니페스트가 없습니다 ({manifest}).\n"
+            "  custom_id 만으로는 어느 지문인지 알 수 없어 수거할 수 없습니다.")
+
     cost = Cost()
     for res in api.messages.batches.results(bid):
-        pid = res.custom_id.split("::", 1)[1]
-        p = by_id.get(pid)
+        pid = res.custom_id
+        p = by_cid.get(pid)
         if res.result.type != "succeeded":
             print(f"  X {pid} {res.result.type}")
             continue
@@ -214,7 +230,8 @@ def main():
     a = sub.add_parser("pass-a", help="태깅 A/B + 문항 생성")
     a.add_argument("--passage", help="제목·id 부분 일치")
     a.add_argument("--all", action="store_true", help="DB의 모든 지문")
-    a.add_argument("--file", help="passage JSON 파일에서 직접 (전사 pending 인 지문용)")
+    a.add_argument("--file", action="append", default=[],
+                   help="passage JSON 파일에서 직접 (전사 pending 인 지문용). 여러 번 지정 가능")
     a.add_argument("--dry-run", action="store_true", help="호출하지 않고 프롬프트만 확인")
     a.add_argument("--count", action="store_true", help="토큰 수만 센다 (과금 없음)")
     a.add_argument("--run", action="store_true", help="동기 호출")

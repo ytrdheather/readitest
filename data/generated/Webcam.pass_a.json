@@ -8,7 +8,7 @@
       "span_end": 29,
       "surface": "was invented",
       "sentence_no": 1,
-      "rationale": "주어 The first webcam이 '발명된' 대상이므로 수동태. invented / was inventing 으로 바꾼 오답 유도 가능(EI_PASSIVE_FORM).",
+      "rationale": "주어(webcam)가 '발명되는' 대상이므로 be동사+과거분사 수동태. was inventing / invented(능동) 형태로 바꿔 오류를 심기 쉬운 대표 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PASSIVE_FORM",
@@ -22,8 +22,8 @@
       "span_end": 51,
       "surface": "to watch a coffee pot",
       "sentence_no": 1,
-      "rationale": "목적을 나타내는 부사적 용법 to부정사. watching / for watch 등으로 바꾼 오답 유도 가능.",
-      "confidence": "high",
+      "rationale": "'~하기 위해'라는 목적을 나타내는 to부정사. for watching / watching 등으로 바꿔 형태 오류를 유도할 수 있음.",
+      "confidence": "medium",
       "applicable_modifications": [
         "EI_NONFIN_FORM",
         "BO_FORM_CHOICE"
@@ -35,7 +35,7 @@
       "span_end": 125,
       "surface": "were working",
       "sentence_no": 4,
-      "rationale": "In 1991이라는 과거 시점 부사구와 호응하는 과거진행. have worked / are working 으로 바꾼 시제 오류 유도.",
+      "rationale": "In 1991이라는 과거 시점 부사구와 호응하는 과거진행. are working / have worked 로 바꾸면 시제 불일치가 됨.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -43,30 +43,16 @@
       ]
     },
     {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 126,
-      "span_end": 143,
-      "surface": "at a computer lab",
-      "sentence_no": 4,
-      "rationale": "장소 전치사 at. in / on 과의 구별, 또는 전치사 삭제(EI_PREP_DELETE) 오답 유도.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_PREP_DELETE",
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "grammar_point_code": "NONFIN_SUBJECT",
       "span_start": 156,
       "span_end": 170,
       "surface": "To work better",
       "sentence_no": 5,
-      "rationale": "문두 목적 부사구 to부정사. Working better / For work better 로 바꾼 오답 유도.",
-      "confidence": "high",
+      "rationale": "문장 앞의 목적 부사구 to부정사로 의미상 주어가 주절 주어 they와 일치. Working better / For work better 로 바꿔 오류 유도 가능.",
+      "confidence": "medium",
       "applicable_modifications": [
         "EI_NONFIN_FORM",
-        "EI_GERUND_TO_VERB",
-        "BO_FORM_CHOICE"
+        "EI_GERUND_TO_VERB"
       ]
     },
     {
@@ -75,8 +61,8 @@
       "span_end": 170,
       "surface": "better",
       "sentence_no": 5,
-      "rationale": "동사 work를 수식하는 부사 well의 비교급. more well / best 로 바꾼 오답 유도.",
-      "confidence": "medium",
+      "rationale": "well의 비교급 부사 better. more well / gooder / more better 같은 오류형과 구별하는 자리.",
+      "confidence": "low",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_ADJ_TO_ADV"
@@ -88,8 +74,8 @@
       "span_end": 242,
       "surface": "there was only one coffee machine",
       "sentence_no": 6,
-      "rationale": "there be 구문의 수일치. 뒤 주어 one coffee machine이 단수이므로 was. were로 바꾼 수일치 오류 유도.",
-      "confidence": "medium",
+      "rationale": "there 구문에서 진주어 one coffee machine이 단수이므로 was. there were로 바꾸면 수일치 오류.",
+      "confidence": "high",
       "applicable_modifications": [
         "EI_AGREEMENT",
         "BO_FORM_CHOICE"
@@ -97,11 +83,11 @@
     },
     {
       "grammar_point_code": "VERB_MODAL_USAGE",
-      "span_start": 264,
+      "span_start": 269,
       "span_end": 280,
-      "surface": "they had to make",
+      "surface": "had to make",
       "sentence_no": 7,
-      "rationale": "과거의 의무 had to. must / didn't have to 와의 의미 구별, had to made 형태 오류 유도.",
+      "rationale": "과거의 의무 '~해야 했다'는 had to + 동사원형. had to made / must 과거형 표현으로 바꿔 오류 유도.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -114,7 +100,7 @@
       "span_end": 305,
       "surface": "disappointing trips",
       "sentence_no": 7,
-      "rationale": "명사 trips를 수식하며 '실망시키는' 능동 의미이므로 현재분사. disappointed로 뒤집는 EI_PARTICIPLE_FLIP 오답 유도.",
+      "rationale": "명사(trips)가 실망을 '주는' 것이므로 현재분사 disappointing. disappointed trips로 바꾸는 분사 뒤집기가 전형적 함정.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PARTICIPLE_FLIP",
@@ -127,7 +113,7 @@
       "span_end": 329,
       "surface": "trips to the empty coffee pot",
       "sentence_no": 7,
-      "rationale": "방향·도착점을 나타내는 to. for/at 으로 교체하거나 삭제하는 오답 유도.",
+      "rationale": "방향·도달점을 나타내는 전치사 to. 삭제하거나 for/at으로 교체해 빈칸 출제하기 쉬운 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_PREP_DELETE",
@@ -140,33 +126,20 @@
       "span_end": 344,
       "surface": "As a solution",
       "sentence_no": 8,
-      "rationale": "'~로서/해결책으로' 자격·역할의 전치사 as. 접속사 as(절 유도)와 혼동시키거나 like/for 로 교체하는 오답 유도.",
+      "rationale": "'~로서, 해결책으로'의 자격·역할을 나타내는 전치사 as. For/With/Like로 교체하거나 빈칸으로 만들기 쉬움.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "CO_CONJ_SWAP"
+        "CO_SYNONYM"
       ]
     },
     {
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 366,
-      "span_end": 412,
-      "surface": "set up a camera in front of the coffee machine",
+      "span_start": 346,
+      "span_end": 381,
+      "surface": "the two researchers set up a camera",
       "sentence_no": 8,
-      "rationale": "목적어 a camera를 가진 능동태 문장이라 수동 전환 변형(A camera was set up ~ / by 누락) 출제가 쉬운 자리.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_ACTIVE_TO_PASSIVE_NO_BY",
-        "EI_PASSIVE_FORM"
-      ]
-    },
-    {
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 425,
-      "span_end": 456,
-      "surface": "took pictures of the coffee pot",
-      "sentence_no": 9,
-      "rationale": "능동태 과거. Pictures were taken ~ 로 뒤집으며 by 누락·형태 오류를 심는 변형 가능.",
+      "rationale": "목적어(a camera)를 가진 능동태 문장이므로 수동으로 뒤집어 was set up 형태 오류나 by 누락을 심을 수 있는 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_ACTIVE_TO_PASSIVE_NO_BY",
@@ -179,11 +152,11 @@
       "span_end": 500,
       "surface": "With special software",
       "sentence_no": 10,
-      "rationale": "수단·도구의 with. by/in 으로 교체하거나 삭제하는 빈칸 출제가 잦은 자리.",
+      "rationale": "수단·도구를 나타내는 전치사 with. By/In으로 교체하거나 빈칸 처리하는 대표적 출제 지점.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
+        "CO_SYNONYM"
       ]
     },
     {
@@ -192,54 +165,79 @@
       "span_end": 547,
       "surface": "all the researchers in the building could see",
       "sentence_no": 10,
-      "rationale": "주어 all the researchers와 동사 사이에 수식어구 in the building이 끼어 있는 전형적 수일치 함정 자리.",
+      "rationale": "주어 all the researchers와 동사 사이에 수식어구(in the building)가 끼어 있어 수일치·조동사 뒤 원형 판단을 흐리게 하는 자리. sees / could sees 오류 유도.",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_AGREEMENT",
         "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 561,
+      "span_end": 583,
+      "surface": "on their local network",
+      "sentence_no": 10,
+      "rationale": "네트워크상(접촉·매체)을 나타내는 전치사 on. 삭제하거나 in/at으로 교체해 오류를 심기 쉬움.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 564,
+      "span_end": 583,
+      "surface": "their local network",
+      "sentence_no": 10,
+      "rationale": "복수 선행 명사 all the researchers를 받는 소유격 their. his/its/there로 바꿔 수·격 오류를 유도할 수 있음.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
       ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "주제문 · 도입",
+      "role": "주제문",
       "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 2,
-      "role": "배경 시점 제시",
+      "role": "배경 도입(시간·인물 제시 시작)",
       "signal": "In 1991",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "인물 소개",
+      "role": "인물 제시 연결",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "배경 상황 (장소·직업)",
+      "role": "배경 정보(장소·상황)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "필요·동기",
+      "role": "필요·동기 제시",
       "signal": "To work better",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "문제 상황 제시",
+      "role": "문제 상황(제약 조건)",
       "signal": "However",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "부정적 결과",
+      "role": "부정적결과",
       "signal": "So",
       "is_blank_candidate": false
     },
@@ -247,112 +245,54 @@
       "sentence_no": 8,
       "role": "해결책",
       "signal": "As a solution",
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     },
     {
       "sentence_no": 9,
-      "role": "세부 사실 (작동 방식)",
+      "role": "세부 작동 방식",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 10,
-      "role": "결과 요약",
+      "role": "결과(효과 확산)",
       "signal": "With special software",
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     },
     {
       "sentence_no": 11,
-      "role": "결론 · 강조",
+      "role": "결과요약(감탄형 마무리)",
       "signal": "No more",
-      "is_blank_candidate": false
+      "is_blank_candidate": true
     }
   ],
   "items": [
     {
       "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VOICE_PARTICIPLE",
-      "stem": "윗글의 흐름을 그대로 살렸을 때, 밑줄 친 부분이 어법상 옳은 문장을 고르시오.",
-      "answer_key": "②",
-      "explanation": "② 목적을 나타내는 부사적 용법의 to부정사 To work better가 바르게 쓰였고 나머지 요소도 원문 그대로다. ①은 웹캠이 '발명된' 것이므로 was invented여야 하는데 was inventing으로 태 형태를 틀렸다. ③ trips는 사람을 '실망시키는' 것이므로 현재분사 disappointing이 맞다. ④는 원문의 in front of에서 전치사가 빠진 형태로 제시된 오류 선지다(원문: in front of the coffee machine — 여기서는 어순·전치사 결합이 훼손됨). ⑤ 조동사 could 뒤에는 동사원형 see가 와야 한다.",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 Webcam 지문의 문장들을 옮긴 것이다. 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "웹캠은 '발명된' 대상이므로 수동태 was invented가 맞다. ①의 was inventing은 능동 진행형이어서 '웹캠이 무엇을 발명하고 있었다'는 뜻이 되어 틀렸다. ②는 과거 시점(In 1991)과 호응하는 과거진행, ③은 there 구문의 단수 주어 one coffee machine에 맞는 was, ④는 과거시제 took, ⑤는 조동사 could 뒤의 원형 see로 모두 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
         0,
-        4,
-        8,
-        10,
-        14
+        2,
+        5,
+        12
       ],
       "options": [
         {
           "label": "①",
           "body": "The first webcam was inventing to watch a coffee pot.",
-          "is_answer": false,
+          "is_answer": true,
           "violates_point_code": "VOICE_ACTIVE_PASSIVE",
           "via_modification": "EI_PASSIVE_FORM",
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "To work better, they needed lots of coffee.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "So, they had to make many disappointed trips to the empty coffee pot.",
-          "is_answer": false,
-          "violates_point_code": "VOICE_PARTICIPLE",
-          "via_modification": "EI_PARTICIPLE_FLIP",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "As a solution, the two researchers set up a camera in front of the coffee machine.",
-          "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "EI_PREP_DELETE",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "With special software, all the researchers in the building could saw the pictures on their local network.",
-          "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-GRAMMAR-USAGE",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "윗글의 밑줄 친 to 중, 쓰임이 나머지와 다른 하나는?",
-      "answer_key": "③",
-      "explanation": "③의 to는 '~로 향하는'이라는 방향을 나타내는 전치사로 뒤에 명사구 the empty coffee pot가 온다. 나머지 ①②④⑤는 모두 뒤에 동사원형이 이어지는 to부정사(목적·수식)이다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        1,
-        4,
-        9
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "The first webcam was invented (to) watch a coffee pot. — to watch",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "(To) work better, they needed lots of coffee. — To work",
+          "body": "In 1991, Dr. Quentin Stafford-Fraser and Dr. Paul Jardetzky were working at a computer lab in England.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -360,71 +300,15 @@
         },
         {
           "label": "③",
-          "body": "many disappointing trips (to) the empty coffee pot — to the empty coffee pot",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "They set up a camera (to) show the coffee pot. — to show",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "They needed a camera (to) take pictures every minute. — to take",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-VOCAB-CONTEXT",
-      "grammar_point_code": null,
-      "stem": "윗글의 흐름상 낱말의 쓰임이 적절하지 않은 것은?",
-      "answer_key": "③",
-      "explanation": "헛걸음이 '실망스러운' 이유는 커피포트가 비어 있었기 때문이므로 full이 아니라 empty가 맞다. 나머지는 문맥에 맞는 낱말이다.",
-      "difficulty": "easy",
-      "option_lang": "na",
-      "source_tags": [
-        8,
-        9
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "To work better, they needed lots of coffee.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
           "body": "However, there was only one coffee machine in the building.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "So, they had to make many disappointing trips to the full coffee pot.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "As a solution, the two researchers set up a camera in front of the coffee machine.",
+          "body": "The camera took pictures of the coffee pot three times a minute.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -442,37 +326,38 @@
       "_answer_violates_point": []
     },
     {
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": null,
-      "stem": "윗글의 밑줄 친 many disappointing trips가 의미하는 바로 가장 적절한 것은?",
-      "answer_key": "②",
-      "explanation": "바로 앞 문장에서 건물에 커피 머신이 하나뿐이라고 했고, 해당 어구 뒤에 to the empty coffee pot가 이어지므로 '커피를 마시러 갔는데 포트가 비어 있어 실망한 헛걸음'을 뜻한다.",
-      "difficulty": "easy",
-      "option_lang": "ko",
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "위 지문의 문장을 옮긴 것 중, 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "trips(걸음)는 실망을 '주는' 것이므로 현재분사 disappointing trips가 맞다. disappointed는 '실망을 느낀'이라는 뜻이어서 사람이 아닌 trips를 수식할 수 없다. ②의 To work better는 목적을 나타내는 to부정사, ③의 set up은 과거형, ④는 수동태, ⑤는 조동사+원형으로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
       "source_tags": [
-        8,
-        9
+        7,
+        3,
+        10
       ],
       "options": [
         {
           "label": "①",
-          "body": "커피 머신을 고치러 여러 번 다녀온 일",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "So, they had to make many disappointed trips to the empty coffee pot.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "커피를 마시러 갔지만 포트가 비어 있어 헛걸음한 일",
-          "is_answer": true,
+          "body": "To work better, they needed lots of coffee.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "연구실 밖 멀리 있는 카페까지 걸어간 일",
+          "body": "As a solution, the two researchers set up a camera in front of the coffee machine.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -480,7 +365,7 @@
         },
         {
           "label": "④",
-          "body": "카메라를 설치하기 위해 여러 층을 오르내린 일",
+          "body": "The first webcam was invented to watch a coffee pot.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -488,7 +373,178 @@
         },
         {
           "label": "⑤",
-          "body": "동료들에게 커피를 배달해 준 일",
+          "body": "With special software, all the researchers in the building could see the pictures on their local network.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 지문에서 밑줄 친 to 의 쓰임이 나머지와 다른 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "①②③⑤의 to는 뒤에 동사원형이 오는 to부정사의 to이다(①②⑤는 목적, ③은 had to의 일부). ④의 to는 뒤에 명사구 the empty coffee pot가 오는 '~쪽으로'라는 방향의 전치사이므로 쓰임이 다르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        3,
+        6,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The first webcam was invented <u>to</u> watch a coffee pot.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "<u>To</u> work better, they needed lots of coffee.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "So, they had <u>to</u> make many disappointing trips.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So, they had to make many disappointing trips <u>to</u> the empty coffee pot.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They needed a camera <u>to</u> check the coffee pot.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름으로 볼 때, 밑줄 친 낱말이 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "빈 커피포트까지 헛걸음을 하는 상황이므로 '실망스러운(disappointing)' 걸음이어야 한다. satisfying(만족스러운)은 뒤의 empty coffee pot 및 마지막 문장 No more disappointing trips!와 모순된다. 나머지는 모두 문맥에 맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        5,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "To work better, they needed <u>lots of</u> coffee.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "However, there was only <u>one</u> coffee machine in the building.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "So, they had to make many <u>satisfying</u> trips to the empty coffee pot.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "As a <u>solution</u>, the two researchers set up a camera in front of the coffee machine.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "With special software, all the researchers could <u>see</u> the pictures on their local network.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 지문의 마지막 문장 No more disappointing trips! 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "카메라가 1분에 세 번 커피포트를 찍고 그 사진을 네트워크로 볼 수 있게 되었으므로, 빈 포트까지 헛걸음하던 문제가 해결되었다는 뜻이다. 나머지는 지문 내용과 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "이제 커피포트가 비었는지 미리 확인할 수 있어 헛걸음을 하지 않아도 된다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "연구원들이 이제 커피를 전혀 마시지 않기로 결정했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "건물 안의 커피 기계가 모두 치워졌다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "연구원들이 더 이상 함께 여행을 갈 수 없게 되었다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "카메라가 고장 나서 사진을 더 이상 볼 수 없다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -500,18 +556,19 @@
     {
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "What is the passage mainly about?",
+      "stem": "위 지문의 주제로 가장 알맞은 것은?",
       "answer_key": "①",
-      "explanation": "첫 문장이 주제문으로, 최초의 웹캠이 커피포트를 지켜보기 위해 발명되었다는 탄생 과정을 시간 순으로 설명하는 글이다. 커피와 연구실은 배경 소재일 뿐이다.",
+      "explanation": "글은 커피포트를 지켜보기 위해 최초의 웹캠이 만들어진 과정을 설명한다. 커피 제조법(②), 네트워크의 역사(③), 카메라의 위험성(④), 최고의 소프트웨어(⑤)는 모두 글의 주제가 아니다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        0
+        0,
+        9
       ],
       "options": [
         {
           "label": "①",
-          "body": "how the first webcam came to be invented",
+          "body": "the reason why the first webcam was invented",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -519,7 +576,7 @@
         },
         {
           "label": "②",
-          "body": "why coffee is popular among computer researchers",
+          "body": "how to make delicious coffee in a computer lab",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -527,7 +584,7 @@
         },
         {
           "label": "③",
-          "body": "how to choose the best coffee machine for an office",
+          "body": "the history of computer networks in England",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -535,7 +592,7 @@
         },
         {
           "label": "④",
-          "body": "the history of computer labs in England",
+          "body": "the danger of using cameras at work",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -543,7 +600,7 @@
         },
         {
           "label": "⑤",
-          "body": "the dangers of using cameras on a local network",
+          "body": "the best software for taking pictures",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -555,15 +612,14 @@
     {
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "윗글의 내용과 일치하지 않는 것은?",
+      "stem": "위 지문의 내용과 일치하지 않는 것은?",
       "answer_key": "③",
-      "explanation": "[6]에서 건물에 커피 머신이 단 한 대(only one coffee machine)뿐이었다고 했으므로 여러 대였다는 ③은 일치하지 않는다. 나머지는 각각 [1], [2]~[4], [9], [10]과 일치한다.",
+      "explanation": "지문 [6]에 건물에 커피 기계가 단 하나(only one)뿐이었다고 나오므로 ③은 일치하지 않는다. ①은 [1], ②는 [2]~[4], ④는 [9], ⑤는 [10]과 일치한다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        6,
-        12,
-        13
+        5,
+        0
       ],
       "options": [
         {
@@ -576,7 +632,7 @@
         },
         {
           "label": "②",
-          "body": "The two doctors worked at a computer lab in England in 1991.",
+          "body": "Two researchers worked at a computer lab in England in 1991.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -612,18 +668,20 @@
     {
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "Which best fits in the blank?  \"_______, the two researchers set up a camera in front of the coffee machine.\"",
+      "stem": "다음 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nThe first webcam was invented ____________.",
       "answer_key": "①",
-      "explanation": "앞에서 '커피 머신이 하나뿐이라 헛걸음이 잦았다'는 문제 상황을 제시했고, 빈칸 뒤 문장은 카메라 설치라는 대응책이므로 '해결책으로'가 알맞다. 예시·대조·우연·추가의 연결어는 문맥과 맞지 않는다.",
-      "difficulty": "medium",
+      "explanation": "글 전체가 빈 커피포트로 헛걸음하는 문제를 해결하려고 커피 기계 앞에 카메라를 설치한 이야기이므로 빈칸에는 '커피포트를 지켜보기 위해'가 들어가야 한다. 나머지는 지문에 근거가 없다.",
+      "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        10
+        0,
+        1,
+        9
       ],
       "options": [
         {
           "label": "①",
-          "body": "As a solution",
+          "body": "to watch a coffee pot",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -631,7 +689,7 @@
         },
         {
           "label": "②",
-          "body": "For example",
+          "body": "to talk with researchers in other countries",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -639,7 +697,7 @@
         },
         {
           "label": "③",
-          "body": "In contrast",
+          "body": "to record a science experiment",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -647,7 +705,7 @@
         },
         {
           "label": "④",
-          "body": "By accident",
+          "body": "to protect the computer lab at night",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -655,7 +713,7 @@
         },
         {
           "label": "⑤",
-          "body": "In addition",
+          "body": "to take pictures of the building in England",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -665,45 +723,46 @@
       "_answer_violates_point": []
     },
     {
-      "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "다음은 윗글 [1]의 문장을 바꿔 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.  →  The first webcam was inventing to watch a coffee pot.",
-      "answer_key": "was inventing → was invented",
-      "explanation": "주어 The first webcam은 발명하는 주체가 아니라 발명되는 대상이므로 「be동사 + 과거분사」의 수동태 was invented가 되어야 한다. 목적을 나타내는 to watch는 옳다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        0,
-        1
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "윗글 [9]의 내용을 수동태 문장으로 바꿔 쓰시오. (조건: Pictures of the coffee pot 로 시작할 것, by the camera 를 포함할 것, 총 9단어)",
-      "answer_key": "Pictures of the coffee pot were taken by the camera.",
-      "explanation": "원문 The camera took pictures of the coffee pot의 목적어를 주어로 올리고 과거시제 수동태 were taken을 쓴 뒤 행위자를 by the camera로 표시한다. by를 빠뜨리거나 was taken으로 쓰면 감점이다.",
-      "difficulty": "hard",
-      "option_lang": "na",
-      "source_tags": [
-        12
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
       "question_type_code": "T-WRITE-COND",
       "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "우리말과 같도록 괄호 안의 단어를 바르게 배열하시오.  (그래서 그들은 텅 빈 커피포트로 실망스러운 걸음을 여러 번 해야 했다.)  → So, they ( make / to / had / many / trips / disappointing ) to the empty coffee pot.",
+      "stem": "위 지문 [7]의 내용을 참고하여, 우리말과 같은 뜻이 되도록 주어진 단어를 모두 사용해 영작하시오. (필요시 어형을 바꾸지 말 것)\n\n우리말: 그래서 그들은 빈 커피포트까지 실망스러운 걸음을 여러 번 해야 했다.\n주어진 단어: So, they / had to / make / many disappointing trips / to / the empty coffee pot",
       "answer_key": "So, they had to make many disappointing trips to the empty coffee pot.",
-      "explanation": "과거의 의무는 had to + 동사원형으로 나타내므로 had to make가 되고, 명사 trips는 '실망시키는' 능동의 의미이므로 현재분사 disappointing이 앞에서 수식한다.",
+      "explanation": "과거의 의무는 had to + 동사원형(make)으로 쓴다. trips는 실망을 '주는' 것이므로 현재분사 disappointing이 수식하고, 방향을 나타내는 전치사 to를 빠뜨리지 않아야 한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
+        6,
         7,
         8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문 [1]을 옮긴 다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nThe first webcam invented to watch a coffee pot.",
+      "answer_key": "invented → was invented",
+      "explanation": "주어 The first webcam은 발명하는 주체가 아니라 발명되는 대상이므로 be동사+과거분사의 수동태 was invented로 써야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 지문 [10]을 옮긴 다음 문장에서 빠진 한 단어를 찾아, 밑줄 친 부분을 바르게 고쳐 쓰시오.\n\nWith special software, all the researchers in the building could see the pictures their local network.",
+      "answer_key": "their local network → on their local network",
+      "explanation": "'그들의 지역 네트워크상에서'라는 뜻이므로 네트워크·매체 위를 나타내는 전치사 on이 필요하다. 원문은 on their local network이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        13,
+        11
       ],
       "options": [],
       "_answer_violates_point": []
@@ -715,8 +774,8 @@
     "tags_kept": 15,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 10,
-    "items_kept": 10,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": []
   }
 }

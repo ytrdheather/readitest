@@ -23,16 +23,16 @@
   과잉률   2.57  (게이트 ≤3.00)  통과
 
 ── 자동 태깅 (패스 A) ──
-  태그 21개 vs 기출 지점 7개
-    O      ⓐ VERB_TENSE             ← 'was relaxing'
+  태그 16개 vs 기출 지점 7개
     O      ⓑ VOICE_PARTICIPLE       ← 'saw a goose pecking at the car door'
     O      ⓒ NONFIN_TO_VS_GERUND    ← 'began to walk away'
     O      ⓓ NONFIN_TO_VS_GERUND    ← 'kept turning around'
     O      ⓔ VOICE_PARTICIPLE       ← 'a baby goose trapped in some strings'
     O      ⓕ VOICE_ACTIVE_PASSIVE   ← 'was really moved'
     O  논술(2) NONFIN_TO_VS_GERUND    ← 'needed my help to free its baby'
-  커버리지 1.00  (게이트 ≥0.90)  통과
-  과잉률   3.00  (게이트 ≤3.00)  통과
+    ~      ⓐ VERB_TENSE             위치만 겹침, 코드는 CONJ_VS_PREP — 'While I was relaxing in my car'
+  커버리지 0.86  (게이트 ≥0.90)  실패
+  과잉률   2.29  (게이트 ≤3.00)  통과
 
 ======================================================================
  impulse buying (영덕중2 2026-1 기말 L4)
@@ -53,16 +53,16 @@
   과잉률   2.86  (게이트 ≤3.00)  통과
 
 ── 자동 태깅 (패스 A) ──
-  태그 38개 vs 기출 지점 7개
-    O      ⓐ VOICE_ACTIVE_PASSIVE   ← 'This is called impulse buying'
+  태그 24개 vs 기출 지점 7개
+    O      ⓐ VOICE_ACTIVE_PASSIVE   ← 'is called'
+    O      ⓑ VERB_FINITE            ← 'while shopping'
     O      ⓓ CONJ_PARALLEL          ← 'following your spending plan or saving'
     O      ⓔ CONJ_PARALLEL          ← 'not only wastes money but also makes'
     O      ⓕ NONFIN_TO_VS_GERUND    ← 'To avoid impulse buying'
     O      ⓖ VERB_PREP_COLLOCATION  ← 'help you with your decision'
-    ~      ⓑ VERB_FINITE            위치만 겹침, 코드는 NONFIN_TO_VS_GERUND — 'while shopping'
     X      ⓒ CONJ_PARALLEL          놓침 (both A and B 병렬)
-  커버리지 0.71  (게이트 ≥0.90)  실패
-  과잉률   5.43  (게이트 ≤3.00)  실패
+  커버리지 0.86  (게이트 ≥0.90)  실패
+  과잉률   3.43  (게이트 ≤3.00)  실패
 
 ======================================================================
  Bicycle (교과서 L3 · 영덕중2 2026-1 기말 문항10)
@@ -73,14 +73,14 @@
    (수동 태깅 기준선 없음 — 교과서 본문이라 사람이 태깅한 적이 없다)
 
 ── 자동 태깅 (패스 A) ──
-  태그 20개 vs 기출 지점 5개
+  태그 15개 vs 기출 지점 5개
     O      ① VOICE_ACTIVE_PASSIVE   ← 'The explosion created a huge cloud of '
     O      ② MOD_ADJ_VS_ADV         ← 'this made traveling difficult'
-    O      ③ VOICE_ACTIVE_PASSIVE   ← 'were killed for food'
-    O      ⑤ VERB_PREP_COLLOCATION  ← 'pushed the bicycle forward with their '
-    ~      ④ VOICE_ACTIVE_PASSIVE   위치만 겹침, 코드는 VERB_TENSE — 'invented the first bicycle'
+    O      ③ VOICE_ACTIVE_PASSIVE   ← 'many horses were killed for food'
+    O      ④ VOICE_ACTIVE_PASSIVE   ← 'Karl von Drais invented the first bicy'
+    ~      ⑤ VERB_PREP_COLLOCATION  위치만 겹침, 코드는 PREP_USAGE — 'forward with their feet'
   커버리지 0.80  (게이트 ≥0.90)  실패
-  과잉률   4.00  (게이트 ≤3.00)  실패
+  과잉률   3.00  (게이트 ≤3.00)  통과
 
 ======================================================================
  Whiteout (교과서 L3 · 영덕중2 문항12)
@@ -91,11 +91,11 @@
    (수동 태깅 기준선 없음 — 교과서 본문이라 사람이 태깅한 적이 없다)
 
 ── 자동 태깅 (패스 A) ──
-  태그 16개 vs 기출 지점 2개
+  태그 14개 vs 기출 지점 2개
     O      ⓐ NONFIN_TO_VS_GERUND    ← 'used it to correct her typing mistakes'
     O      ⓑ NONFIN_TO_VS_GERUND    ← 'began using it'
   커버리지 1.00  (게이트 ≥0.90)  통과
-  과잉률   8.00  (게이트 ≤3.00)  실패
+  과잉률   7.00  (게이트 ≤3.00)  실패
 
 ======================================================================
  Webcam (교과서 L3 · 영덕 문항12 + 청명 문항5)
@@ -106,36 +106,36 @@
    (수동 태깅 기준선 없음 — 교과서 본문이라 사람이 태깅한 적이 없다)
 
 ── 자동 태깅 (패스 A) ──
-  태그 17개 vs 기출 지점 6개
+  태그 15개 vs 기출 지점 6개
     O    영덕ⓒ NONFIN_TO_VS_GERUND    ← 'to watch a coffee pot'
-    O    영덕ⓓ NONFIN_TO_VS_GERUND    ← 'To work better'
+    O    청명ⓐ PREP_USAGE             ← 'trips to the empty coffee pot'
+    O    청명ⓑ PREP_USAGE             ← 'As a solution'
     O    청명ⓒ PREP_USAGE             ← 'With special software'
-    ~    청명ⓐ PREP_USAGE             위치만 겹침, 코드는 VOICE_PARTICIPLE — 'many disappointing trips'
-    ~    청명ⓓ PREP_USAGE             위치만 겹침, 코드는 PRON_AGREEMENT — 'their local network'
-    X    청명ⓑ PREP_USAGE             놓침 (전치사 as (~으로서) (빈칸))
-  커버리지 0.50  (게이트 ≥0.90)  실패
-  과잉률   2.83  (게이트 ≤3.00)  통과
+    O    청명ⓓ PREP_USAGE             ← 'on their local network'
+    ~    영덕ⓓ NONFIN_TO_VS_GERUND    위치만 겹침, 코드는 NONFIN_SUBJECT — 'To work better'
+  커버리지 0.83  (게이트 ≥0.90)  실패
+  과잉률   2.50  (게이트 ≤3.00)  통과
 
 ──────────────────────────────────────────────────────────────────────
   지문                                           커버리지              과잉률
                                        수동        자동      수동       자동
-  goose                              1.00      1.00    2.57     3.00
-  impulse buying                     1.00      0.71    2.86     5.43
-  Bicycle                               —      0.80       —     4.00
-  Whiteout                              —      1.00       —     8.00
-  Webcam                                —      0.50       —     2.83
+  goose                              1.00      0.86    2.57     2.29
+  impulse buying                     1.00      0.86    2.86     3.43
+  Bicycle                               —      0.80       —     3.00
+  Whiteout                              —      1.00       —     7.00
+  Webcam                                —      0.83       —     2.50
   ──────────────────────────────────────────────────────────────────
-  합산                                 1.00      0.78    2.71     4.15
+  합산                                 1.00      0.85    2.71     3.11
   (수동 열은 기준선이 있는 2개 지문만)        
 
 ======================================================================
- 합산 커버리지 0.78 (≥0.9) · 과잉률 4.15 (≤3.0)
+ 합산 커버리지 0.85 (≥0.9) · 과잉률 3.11 (≤3.0)
  결과: 게이트 미달 — 프롬프트를 고쳐야 합니다
 ======================================================================
 
 ⚠️  한계
     · 표본 5개. 기획서 §3의 3~5개 합산 판정 하한에 겨우 걸쳤습니다.
     · goose 는 이 지문을 보고 프롬프트를 2회 고쳤습니다 — 블라인드 수치가 아닙니다.
-      goose 를 빼면 — 블라인드 4개 합산 커버리지 0.70 · 과잉률 4.55
+      goose 를 빼면 — 블라인드 4개 합산 커버리지 0.85 · 과잉률 3.40
     · Bicycle 의 grammar_point_code 매핑은 2026-08-22에 붙인 것이라
       원장 판단과 다를 수 있습니다 (정답지 파일의 _code_mapping_note).
