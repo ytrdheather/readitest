@@ -3,41 +3,56 @@
   "body_text_sha256": "c31a7209d3458a898ded8c159aa3daf9e94d96239330cde2a0c0278229e249c3",
   "tags": [
     {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 13,
-      "span_end": 35,
-      "surface": "a volcano in Indonesia",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 37,
+      "span_end": 45,
+      "surface": "exploded",
       "sentence_no": 2,
-      "rationale": "장소를 나타내는 전치사 in (국가·넓은 장소). at/on 으로 바꾸는 오류 유도 가능. 동격 삽입구 안의 전치사라 빈칸으로 만들기 쉬움",
-      "confidence": "medium",
+      "rationale": "explode는 목적어를 갖지 않는 자동사이므로 수동태(was exploded)가 불가능. [exploded / was exploded] 선지로 자동사 수동태 함정을 낼 수 있는 자리다.",
+      "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 55,
+      "span_start": 69,
       "span_end": 96,
-      "surface": "The explosion created a huge cloud of ash",
+      "surface": "created a huge cloud of ash",
       "sentence_no": 3,
-      "rationale": "목적어가 있는 능동태 문장 → 수동 전환 시 'A huge cloud of ash was created the explosion'처럼 by 누락 오류를 심기 쉬운 대표 자리",
+      "rationale": "목적어(a huge cloud of ash)가 있는 능동태이므로 수동태로 뒤집어 'A huge cloud of ash was created (by) the explosion'처럼 by 누락·형태 오류를 심을 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_ACTIVE_TO_PASSIVE_NO_BY",
-        "EI_PASSIVE_FORM"
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
       ]
     },
     {
-      "grammar_point_code": "CONJ_PARALLEL",
-      "span_start": 98,
-      "span_end": 113,
-      "surface": "so crops failed",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 101,
+      "span_end": 130,
+      "surface": "crops failed around the world",
       "sentence_no": 3,
-      "rationale": "결과를 나타내는 등위접속사 so. because/though 로 바꾸면 인과 방향이 뒤집혀 문맥 오류 발생",
+      "rationale": "fail(흉작이 되다)은 여기서 자동사. were failed 같은 수동형이 불가능함을 묻는 선지로 변형될 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "CO_CONJ_SWAP"
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 132,
+      "span_end": 143,
+      "surface": "As a result",
+      "sentence_no": 4,
+      "rationale": "굳어진 부사구의 전치사 as. [As / On / With] a result 처럼 앞 전치사를 빈칸으로 뚫는 전형적 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -46,36 +61,11 @@
       "span_end": 182,
       "surface": "enough food to eat",
       "sentence_no": 4,
-      "rationale": "enough + 명사 + to부정사 어순. 'food enough to eat' / 'too food to eat' 오류 유도",
+      "rationale": "enough + 명사 어순(food enough 아님)과 to부정사 연결. [enough food / food enough / too much food] 형태로 물을 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_WORD_ORDER",
-        "EI_NONFIN_FORM"
-      ]
-    },
-    {
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "span_start": 198,
-      "span_end": 227,
-      "surface": "this made traveling difficult",
-      "sentence_no": 5,
-      "rationale": "make + 목적어 + 형용사 보어. difficult 를 difficultly 로 바꾸는 오류 유도",
-      "confidence": "high",
-      "applicable_modifications": [
-        "EI_ADJ_TO_ADV"
-      ]
-    },
-    {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "span_start": 203,
-      "span_end": 217,
-      "surface": "made traveling",
-      "sentence_no": 5,
-      "rationale": "make 의 목적어 자리에 온 동명사 traveling. to travel / travel 로 바꾸는 오류와 구별",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_NONFIN_FORM",
-        "EI_GERUND_TO_VERB"
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -84,35 +74,65 @@
       "span_end": 196,
       "surface": "Surprisingly",
       "sentence_no": 5,
-      "rationale": "문장 전체를 수식하는 부사. Surprising 으로 바꾸는 오류 유도",
-      "confidence": "low",
+      "rationale": "문장 전체를 수식하는 부사. Surprising으로 바꾼 형용사↔부사 혼동 선지를 만들 수 있다.",
+      "confidence": "medium",
       "applicable_modifications": [
-        "EI_ADJ_TO_ADV"
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 208,
+      "span_end": 217,
+      "surface": "traveling",
+      "sentence_no": 5,
+      "rationale": "make의 목적어 자리에 온 동명사. travel(정동사)이나 to travel로 바꾼 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 208,
+      "span_end": 227,
+      "surface": "traveling difficult",
+      "sentence_no": 5,
+      "rationale": "make + 목적어 + 목적격보어 자리에는 형용사가 와야 함. difficultly로 바꾼 부사 오류가 대표적 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 234,
+      "span_end": 247,
+      "surface": "In those days",
+      "sentence_no": 7,
+      "rationale": "시간 표현 관용구의 전치사 in. [In / On / At] those days로 빈칸 처리되는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 273,
+      "span_start": 285,
       "span_end": 305,
-      "surface": "many horses were killed for food",
+      "surface": "were killed for food",
       "sentence_no": 7,
-      "rationale": "말이 죽임을 '당한' 것이므로 수동태 were killed. killed / were dying / were died 오류와 구별",
+      "rationale": "말이 죽임을 '당한' 것이므로 be + p.p. 수동태. were died by food(자동사 수동화)나 killed 능동형으로 바꾼 오류 선지가 실제로 출제된다.",
       "confidence": "high",
       "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
         "EI_PASSIVE_FORM",
-        "EI_INTRANS_PASSIVIZED"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 249,
-      "span_end": 272,
-      "surface": "people rode horses, but",
-      "sentence_no": 7,
-      "rationale": "과거 사실 서술이므로 과거시제 rode 유지. ride/have ridden 으로 바꾸는 시제 오류 유도",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_AGREEMENT"
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -121,23 +141,25 @@
       "span_end": 340,
       "surface": "a new way to travel",
       "sentence_no": 8,
-      "rationale": "명사 way 를 수식하는 형용사적 용법 to부정사. traveling / for travel 로 바꾸는 오류 유도",
+      "rationale": "명사를 수식하는 to부정사의 형용사적 용법. traveling / travel로 바꾼 형태 오류를 유도할 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_NONFIN_FORM"
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 346,
+      "span_start": 361,
       "span_end": 387,
-      "surface": "Karl von Drais invented the first bicycle",
+      "surface": "invented the first bicycle",
       "sentence_no": 8,
-      "rationale": "목적어를 가진 능동태. 'the first bicycle was inventing by ~' 처럼 수동태 형태 오류·by 누락 오류를 심는 대표 출제 자리",
+      "rationale": "목적어를 가진 능동태. 'the first bicycle was invented Karl von Drais'처럼 by 누락, 또는 was inventing 형태 오류로 변형되는 대표 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_ACTIVE_TO_PASSIVE_NO_BY",
-        "EI_PASSIVE_FORM"
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -146,10 +168,11 @@
       "span_end": 459,
       "surface": "two wooden wheels but no pedals",
       "sentence_no": 9,
-      "rationale": "but 으로 연결된 두 명사구의 병렬. 'but had no pedals' 처럼 병렬을 깨는 오류 유도",
+      "rationale": "had의 목적어 두 개가 but으로 병렬. no pedals를 not pedals나 didn't have pedals로 바꿔 병렬을 깨는 변형이 가능하다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_PARALLEL_BREAK"
+        "EI_PARALLEL_BREAK",
+        "CO_CONJ_SWAP"
       ]
     },
     {
@@ -158,7 +181,7 @@
       "span_end": 491,
       "surface": "without pedals",
       "sentence_no": 10,
-      "rationale": "결여를 나타내는 전치사 without. with/for 로 교체하거나 삭제하는 오류 유도, 빈칸 출제 빈도 높음",
+      "rationale": "'~없이'를 뜻하는 전치사 without. with / not으로 바꾸거나 전치사를 삭제하는 변형이 가능한 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -167,11 +190,11 @@
     },
     {
       "grammar_point_code": "PREP_USAGE",
-      "span_start": 532,
+      "span_start": 540,
       "span_end": 555,
-      "surface": "forward with their feet",
+      "surface": "with their feet",
       "sentence_no": 11,
-      "rationale": "수단·도구를 나타내는 전치사 with. 전치사 삭제(forward their feet) 또는 by 로 교체하는 오류가 실제 기출에 존재",
+      "rationale": "수단·도구를 나타내는 전치사 with. 실제 기출에서 'forward their feet'처럼 전치사 삭제형으로 출제된 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PREP_DELETE",
@@ -180,14 +203,15 @@
     },
     {
       "grammar_point_code": "VERB_SVA",
-      "span_start": 581,
-      "span_end": 618,
-      "surface": "is the result of many inventors’ work",
+      "span_start": 557,
+      "span_end": 583,
+      "surface": "The present-day bicycle is",
       "sentence_no": 12,
-      "rationale": "주어 The present-day bicycle(단수) 와 동사 is 의 수일치. of 이하 수식어구에 끌려 are 로 바꾸는 오류 유도",
+      "rationale": "단수 주어 The present-day bicycle에 맞춘 is. 뒤의 many inventors' work에 끌려 are로 바꾸는 수일치 오류를 유도할 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_AGREEMENT"
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
       ]
     }
   ],
@@ -200,25 +224,25 @@
     },
     {
       "sentence_no": 2,
-      "role": "도입 사건 제시(화산 폭발)",
+      "role": "도입 사건 제시",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "원인 → 1차 결과",
+      "role": "원인 — 폭발의 직접 결과",
       "signal": "so",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "부정적 결과 (식량 부족)",
+      "role": "부정적결과",
       "signal": "As a result",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "전환 — 예상 밖의 결과 제시(주제 연결)",
+      "role": "전환 — 의외의 결과 제시(중심 진술)",
       "signal": "Surprisingly",
       "is_blank_candidate": true
     },
@@ -230,20 +254,20 @@
     },
     {
       "sentence_no": 7,
-      "role": "원인 설명 (말이 식량으로 도살됨)",
-      "signal": "In those days, but",
+      "role": "원인 설명 — 말 부족",
+      "signal": "but",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 8,
       "role": "해결책 — 자전거의 발명",
       "signal": "and",
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     },
     {
       "sentence_no": 9,
-      "role": "세부 정보 (초기 자전거의 구조)",
-      "signal": "but",
+      "role": "세부 정보 — 초기 자전거의 구조",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
@@ -254,13 +278,13 @@
     },
     {
       "sentence_no": 11,
-      "role": "세부 정보 (주행 방식)",
+      "role": "세부 정보 — 이동 방식 설명",
       "signal": "Well",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 12,
-      "role": "결론요약 — 현대 자전거의 유래",
+      "role": "결론문 — 현대 자전거로의 발전 요약",
       "signal": null,
       "is_blank_candidate": true
     }
@@ -269,181 +293,113 @@
     {
       "question_type_code": "T-GRAMMAR-INLINE",
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "다음은 위 지문의 일부를 옮긴 것이다. 밑줄 친 부분 중 어법상 옳은 것을 고르시오.",
-      "answer_key": "③",
-      "explanation": "③은 '폭발이 재 구름을 만들었다'는 능동태로 원문 그대로 옳다. ①의 die는 자동사여서 수동태(were died)로 쓸 수 없고 원문은 were killed이다. ②는 능동·수동이 뒤섞였고 by도 없다. ④는 '재 구름이 폭발을 만들고 있었다'로 의미가 뒤집혔고 수동태 형태(was created by)도 아니다. ⑤ have는 상태동사로 수동태를 만들지 않는다.",
+      "stem": "위 지문의 문장을 그대로 옮긴 (a)~(e) 중, 어법상 <보기>가 틀린 것을 고르시오.",
+      "answer_key": "(d)",
+      "explanation": "(d)는 능동문(Karl von Drais invented the first bicycle)을 수동태로 바꾸면서 행위자 앞의 by를 빠뜨렸다. was invented by Karl von Drais가 되어야 한다. (a)의 exploded는 자동사로 수동태가 불가능한 올바른 형태, (c)의 were killed는 말이 죽임을 당한 것이므로 수동태가 맞고, (b)·(e)는 지문 원문 그대로 어법상 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        1,
-        7,
-        10,
-        11
+        11,
+        0,
+        9
       ],
       "options": [
         {
-          "label": "①",
-          "body": "In those days, people rode horses, but many horses were died for food.",
+          "label": "(a)",
+          "body": "Tambora, a volcano in Indonesia, exploded in 1815.",
           "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "Karl von Drais the first bicycle was invented in Germany in 1817.",
+          "label": "(b)",
+          "body": "The explosion created a huge cloud of ash, so crops failed around the world.",
           "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_ACTIVE_TO_PASSIVE_NO_BY",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "The explosion created a huge cloud of ash, so crops failed around the world.",
-          "is_answer": true,
+          "label": "(c)",
+          "body": "In those days, people rode horses, but many horses were killed for food.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
-          "label": "④",
-          "body": "A huge cloud of ash was creating the explosion.",
-          "is_answer": false,
+          "label": "(d)",
+          "body": "People needed a new way to travel, and the first bicycle was invented Karl von Drais in Germany in 1817.",
+          "is_answer": true,
           "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_PASSIVE_FORM",
+          "via_modification": "EI_ACTIVE_TO_PASSIVE_NO_BY",
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "Drais's bicycle was had two wooden wheels but no pedals.",
+          "label": "(e)",
+          "body": "Well, riders simply pushed the bicycle forward with their feet.",
           "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_PASSIVE_FORM",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 5
         }
       ],
       "_answer_violates_point": []
     },
     {
-      "question_type_code": "T-GRAMMAR-USAGE",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "위 지문의 밑줄 친 전치사에 관한 설명 중, 지문의 쓰임과 일치하지 않는 것을 고르시오.",
-      "answer_key": "⑤",
-      "explanation": "⑤의 in Germany는 발명이 이루어진 '장소(~에서)'를 나타내며 방향의 의미가 아니다. 방향은 to가 담당한다. ①~④는 각각 장소, 수단, 결여, 목적으로 지문의 쓰임과 일치한다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        0,
-        12,
-        13
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "a volcano in Indonesia — 넓은 장소 안을 나타내는 in",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "riders simply pushed the bicycle forward with their feet — 수단·도구를 나타내는 with",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "How did it move without pedals? — 결여(~ 없이)를 나타내는 without",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "many horses were killed for food — 목적(~을 위해)을 나타내는 for",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "invented the first bicycle in Germany in 1817 — Germany 앞의 in은 '~을 향하여'라는 방향을 나타낸다",
-          "is_answer": true,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "CO_SYNONYM",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": [
-        "⑤"
-      ]
-    },
-    {
       "question_type_code": "T-GRAMMAR-INLINE",
       "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "[5]와 [4]를 다시 쓴 것 중 어법상 옳은 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "make + 목적어 + 목적격보어 구문에서 보어 자리에는 형용사 difficult가 와야 하므로 ②가 옳다. ①·⑤는 부사 difficultly를 보어로 썼고, ③은 문장 전체를 수식하는 자리에 형용사 Surprising을 썼다. ④는 enough + 명사 + to부정사 어순과 to부정사 형태가 모두 어긋나며, ⑥은 '먹을 충분한 음식'이라는 의미에 too가 맞지 않는다.",
-      "difficulty": "medium",
+      "stem": "위 지문을 바탕으로 한 (a)~(e) 중, 어법상 어색한 것을 고르시오.",
+      "answer_key": "(b)",
+      "explanation": "make + 목적어 + 목적격보어 구문에서 보어 자리에는 형용사가 와야 하므로 difficultly가 아니라 difficult가 옳다. (a)의 enough food to eat은 enough + 명사 어순이 맞고, (e)의 단수 주어 The present-day bicycle에 is가 대응하며, (c)·(d)도 원문 그대로 옳다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
+        7,
         4,
-        6,
-        3
+        15
       ],
       "options": [
         {
-          "label": "①",
-          "body": "Surprisingly, this made traveling difficultly.",
+          "label": "(a)",
+          "body": "As a result, people didn’t have enough food to eat.",
           "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "Surprisingly, this made traveling difficult.",
+          "label": "(b)",
+          "body": "Surprisingly, this made traveling difficultly.",
           "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "Surprising, this made traveling difficult.",
+          "label": "(c)",
+          "body": "Drais’s bicycle had two wooden wheels but no pedals.",
           "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 3
         },
         {
-          "label": "④",
-          "body": "As a result, people didn't have food enough eat.",
+          "label": "(d)",
+          "body": "How did it move without pedals?",
           "is_answer": false,
-          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
-          "via_modification": "BO_WORD_ORDER",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "Surprisingly, this made travels difficultly.",
+          "label": "(e)",
+          "body": "The present-day bicycle is the result of many inventors’ work in the 19th century.",
           "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 5
-        },
-        {
-          "label": "⑥",
-          "body": "As a result, people didn't have too food to eat.",
-          "is_answer": false,
-          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
-          "via_modification": "CO_SYNONYM",
-          "ordinal": 6
         }
       ],
       "_answer_violates_point": []
@@ -451,117 +407,55 @@
     {
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "위 지문의 흐름상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
-      "answer_key": "③",
-      "explanation": "③ 식량이 부족해 말이 식량으로 '죽임을 당했다(killed)'는 흐름이므로 '구조되었다(saved)'는 문맥상 부적절하다. 말이 구조되었다면 이동이 어려워졌다는 뒤 내용과 연결되지 않는다. 나머지는 원인-결과 흐름에 맞는 낱말이다.",
-      "difficulty": "easy",
+      "stem": "위 지문의 흐름으로 볼 때, 밑줄 친 낱말의 쓰임이 문맥상 적절하지 <않은> 것을 고르시오.",
+      "answer_key": "(d)",
+      "explanation": "식량 부족으로 말이 식용으로 죽임을 당했고 그래서 사람들이 새로운 이동 수단을 찾아야 했다는 흐름이므로, 여행은 '더 쉬워진' 것이 아니라 '어려워진(difficult)' 것이다. 나머지는 화산 폭발 → 화산재 → 흉작 → 식량 부족 → 새 이동 수단 필요의 인과 흐름에 부합한다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        7
+        7,
+        2
       ],
       "options": [
         {
-          "label": "①",
-          "body": "[3] The explosion created a huge cloud of ash, so crops failed around the world.",
+          "label": "(a)",
+          "body": "The explosion created a huge cloud of ash.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "[4] As a result, people didn't have enough food to eat.",
+          "label": "(b)",
+          "body": "so crops failed around the world",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "[7] In those days, people rode horses, but many horses were saved for food.",
+          "label": "(c)",
+          "body": "people didn’t have enough food to eat",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "(d)",
+          "body": "Surprisingly, this made traveling easier.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "[8] People needed a new way to travel, and Karl von Drais invented the first bicycle.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "[12] The present-day bicycle is the result of many inventors' work in the 19th century.",
+          "label": "(e)",
+          "body": "People needed a new way to travel",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": null,
-      "stem": "[5] Surprisingly, this made traveling difficult. 에서 밑줄 친 this가 가리키는 내용으로 가장 알맞은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "this는 앞의 [3]~[4], 즉 폭발로 인한 흉작과 식량 부족을 가리킨다. 식량이 부족해 말이 도살되면서 이동이 어려워졌다는 [7]의 설명이 이를 뒷받침한다. ②·③·④는 this 이후에 나오는 내용이고, ⑤·⑥은 지문에 없다.",
-      "difficulty": "medium",
-      "option_lang": "ko",
-      "source_tags": [
-        4
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "화산 폭발로 재 구름이 생겨 전 세계 농작물이 흉작이 되고 먹을 식량이 부족해진 상황",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "Karl von Drais가 독일에서 최초의 자전거를 발명한 일",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "초기 자전거에 페달이 없어서 발로 밀어야 했던 점",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "19세기에 여러 발명가들이 자전거를 개량한 일",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "사람들이 말 대신 걸어서 이동하기로 결정한 일",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        },
-        {
-          "label": "⑥",
-          "body": "인도네시아의 Tambora 산이 1815년에 처음 발견된 일",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 6
         }
       ],
       "_answer_violates_point": []
@@ -570,50 +464,50 @@
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
       "stem": "위 글의 주제로 가장 알맞은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "글은 1815년 Tambora 화산 폭발 → 흉작·식량 부족 → 말 도살 → 새로운 이동 수단 필요 → 자전거 발명이라는 인과 사슬을 설명한다. 따라서 ①이 주제다. ②는 도입 소재일 뿐이고, ③·④·⑤는 글의 중심 내용이 아니다.",
+      "answer_key": "(a)",
+      "explanation": "글은 1815년 탐보라 화산 폭발 → 흉작과 식량 부족 → 말의 감소 → 새로운 이동 수단의 필요 → 최초의 자전거 발명이라는 인과 사슬을 서술한다. 따라서 (a)가 주제다. 화산의 위험, 말과 자전거의 비교, Drais의 생애, 현대 자전거 제조는 글의 초점이 아니다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        1,
-        10
+        0,
+        11
       ],
       "options": [
         {
-          "label": "①",
-          "body": "how a volcanic eruption led to the invention of the bicycle",
+          "label": "(a)",
+          "body": "how a volcanic eruption led to the invention of the first bicycle",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "the danger of volcanoes in Indonesia",
+          "label": "(b)",
+          "body": "the dangers of living near volcanoes in Indonesia",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "why horses are better than bicycles for travel",
+          "label": "(c)",
+          "body": "why horses were a better means of travel than bicycles",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
-          "label": "④",
-          "body": "the best way to grow crops after a natural disaster",
+          "label": "(d)",
+          "body": "the whole life story of Karl von Drais",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "how to ride a bicycle without using pedals",
+          "label": "(e)",
+          "body": "how bicycles are made in factories today",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -625,17 +519,18 @@
     {
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 글의 내용과 일치하지 않는 것을 고르시오.",
-      "answer_key": "④",
-      "explanation": "[9]에서 Drais의 자전거는 나무 바퀴 두 개는 있었지만 페달은 없었다(no pedals)고 했고, [11]에서 발로 밀어 움직였다고 했으므로 ④가 불일치다. ①·②·③·⑤는 각각 [2], [3], [8], [12]와 일치한다.",
+      "stem": "위 글의 내용과 일치하지 <않는> 것을 고르시오.",
+      "answer_key": "(d)",
+      "explanation": "[9]에서 Drais의 자전거는 나무 바퀴 두 개는 있었지만 페달이 없었다(no pedals)고 했으므로 (d)가 불일치다. (a)~(c)는 [2]·[3]·[7], (e)는 [11]과 일치한다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        11
+        12,
+        14
       ],
       "options": [
         {
-          "label": "①",
+          "label": "(a)",
           "body": "Mt. Tambora, a volcano in Indonesia, exploded in 1815.",
           "is_answer": false,
           "violates_point_code": null,
@@ -643,32 +538,32 @@
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "Because of the ash cloud, crops failed around the world.",
+          "label": "(b)",
+          "body": "Crops failed around the world because of a huge cloud of ash.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "Karl von Drais invented the first bicycle in Germany in 1817.",
+          "label": "(c)",
+          "body": "Many horses were killed for food when people had little to eat.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
-          "label": "④",
-          "body": "Drais's bicycle had two wooden wheels and pedals to push.",
+          "label": "(d)",
+          "body": "Drais’s first bicycle had two wooden wheels and two pedals.",
           "is_answer": true,
           "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
+          "via_modification": null,
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "The present-day bicycle is the result of many inventors' work in the 19th century.",
+          "label": "(e)",
+          "body": "Riders moved Drais’s bicycle by pushing it forward with their feet.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -680,104 +575,154 @@
     {
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "위 글의 마지막 문장 [12]의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nThe present-day bicycle is ________ in the 19th century.",
-      "answer_key": "①",
-      "explanation": "Drais의 초기 자전거에서 오늘날의 자전거로 발전했다는 흐름을 요약하는 결론문이므로 '여러 발명가들의 노력의 결과'가 알맞다. ③·④는 인과 관계가 거꾸로이고, ②·⑤·⑥은 지문 내용과 어긋난다.",
+      "stem": "위 글의 마지막 문장의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nThe present-day bicycle is ________________.",
+      "answer_key": "(a)",
+      "explanation": "글은 페달도 없던 1817년의 첫 자전거에서 시작해 오늘의 자전거에 이르는 발전 과정을 요약하며 끝난다. 따라서 여러 발명가들의 노력의 결과라는 (a)가 결론으로 적절하다. Drais 혼자 완성했다는 (b), 자전거가 말보다 못하다는 (c), 흉작의 원인이라는 (d), 1817년 이후 변한 것이 없다는 (e)는 모두 글의 내용과 어긋난다.",
       "difficulty": "medium",
       "option_lang": "en",
       "source_tags": [
-        14
+        15,
+        11
       ],
       "options": [
         {
-          "label": "①",
-          "body": "the result of many inventors' work",
+          "label": "(a)",
+          "body": "the result of many inventors’ work in the 19th century",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "the only invention made in Germany",
+          "label": "(b)",
+          "body": "a machine that Karl von Drais completed all by himself",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "the reason why many horses were killed",
+          "label": "(c)",
+          "body": "less useful than horses for traveling long distances",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
-          "label": "④",
-          "body": "the cause of the huge cloud of ash",
+          "label": "(d)",
+          "body": "the reason why crops failed around the world",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "a machine that needed no wheels",
+          "label": "(e)",
+          "body": "a vehicle that has never changed since 1817",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 5
-        },
-        {
-          "label": "⑥",
-          "body": "a way to grow more crops",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 6
         }
       ],
       "_answer_violates_point": []
     },
     {
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 Surprisingly, this made traveling difficult. 에서 this가 가리키는 내용으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "(b)",
+      "explanation": "this는 바로 앞 문장 [4] 'people didn’t have enough food to eat'을 가리킨다. 식량 부족 때문에 말이 식용으로 죽임을 당해([7]) 결국 이동이 어려워졌다는 흐름이다. (a)는 더 앞선 원인, (c)~(e)는 뒤에 나오는 별개의 내용이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        4,
+        6,
+        9
+      ],
+      "options": [
+        {
+          "label": "(a)",
+          "body": "화산재 구름이 하늘을 뒤덮은 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "(b)",
+          "body": "사람들이 먹을 음식을 충분히 갖지 못하게 된 것",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "(c)",
+          "body": "사람들이 말을 타고 먼 거리를 여행한 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "(d)",
+          "body": "Drais의 자전거에 페달이 없었던 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "(e)",
+          "body": "19세기에 여러 발명가들이 자전거를 개량한 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 우리말과 뜻이 같도록 주어진 표현을 모두 한 번씩 사용하여 문장을 완성하시오. (지문 [11] 참고)\n우리말: 타는 사람들은 그저 발로 자전거를 앞으로 밀었다.\n표현: simply / with their feet / pushed / forward / riders / the bicycle",
+      "answer_key": "Riders simply pushed the bicycle forward with their feet.",
+      "explanation": "'주어(Riders) + 부사(simply) + 동사(pushed) + 목적어(the bicycle) + 방향 부사(forward) + 수단 전치사구(with their feet)' 순서로 배열한다. 수단을 나타내는 전치사 with를 빠뜨리지 않는 것이 핵심이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        14
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 지문 [8]의 내용을 수동태로 바꾼 문장이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nThe first bicycle was invented Karl von Drais in Germany in 1817.",
+      "answer_key": "was invented → was invented by (The first bicycle was invented by Karl von Drais in Germany in 1817.)",
+      "explanation": "능동문 'Karl von Drais invented the first bicycle'을 수동태로 바꿀 때 행위자는 by + 행위자로 나타내야 한다. by가 빠지면 문장이 성립하지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        11
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
       "question_type_code": "T-WRITE-FIX",
       "grammar_point_code": "PREP_USAGE",
-      "stem": "다음은 [11]을 옮겨 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\nWell, riders simply pushed the bicycle forward their feet.",
-      "answer_key": "Well, riders simply pushed the bicycle forward with their feet.",
-      "explanation": "'발로(수단)'를 나타내려면 전치사 with가 필요하다. their feet 앞의 with가 삭제되어 명사구가 동사 pushed의 또 다른 목적어처럼 놓인 비문이 되었으므로 with를 넣어야 한다.",
-      "difficulty": "medium",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (지문 [11] 참고)\nWell, riders simply pushed the bicycle forward their feet.",
+      "answer_key": "forward their feet → forward with their feet",
+      "explanation": "'발로'라는 수단을 나타내려면 전치사 with가 필요하다. 전치사가 삭제되면 their feet이 아무 성분으로도 연결되지 않아 비문이 된다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        13
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "[8]의 내용을 아래 조건에 맞게 영작하시오.\n<조건> 1) the first bicycle 을 주어로 하는 수동태 문장으로 쓸 것 2) 행위자를 by 를 사용해 밝힐 것 3) in Germany in 1817 을 그대로 포함할 것",
-      "answer_key": "The first bicycle was invented by Karl von Drais in Germany in 1817.",
-      "explanation": "능동태 Karl von Drais invented the first bicycle 을 수동태로 바꾸면 목적어가 주어가 되고 동사는 be + p.p.(was invented)가 되며 행위자는 by + 목적어로 표시한다. was inventing 처럼 진행형을 쓰거나 by 를 빠뜨리면 안 된다.",
-      "difficulty": "hard",
-      "option_lang": "na",
-      "source_tags": [
-        10
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
-      "stem": "[4]의 우리말 뜻을 참고하여 주어진 단어를 모두 알맞은 순서로 배열하시오.\n(그 결과, 사람들은 먹을 충분한 음식을 갖지 못했다.)\n( eat / enough / to / food / didn't / people / have )",
-      "answer_key": "As a result, people didn't have enough food to eat.",
-      "explanation": "enough 는 명사를 앞에서 수식하므로 enough food 어순이 되고, 그 뒤에 명사를 수식하는 to부정사 to eat 이 온다. food enough to eat 이나 enough to eat food 는 어순이 어긋난다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        3
+        14
       ],
       "options": [],
       "_answer_violates_point": []
@@ -785,12 +730,12 @@
   ],
   "diagnostics": {
     "sentence_count": 12,
-    "tags_returned": 15,
-    "tags_kept": 15,
+    "tags_returned": 16,
+    "tags_kept": 16,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 11,
-    "items_kept": 11,
+    "items_returned": 10,
+    "items_kept": 10,
     "item_rejects": []
   }
 }

@@ -8,11 +8,11 @@
       "span_end": 20,
       "surface": "Have you ever bought",
       "sentence_no": 1,
-      "rationale": "ever와 함께 쓰인 현재완료 경험 용법. did you ever buy / have you ever buy 같은 형태 오류나 과거시제 교체를 유도할 수 있다.",
+      "rationale": "현재완료 경험 용법(ever). did you ever buy / Have you ever buy 같은 시제·형태 오류를 유도할 수 있는 자리",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM"
+        "EI_PASSIVE_FORM"
       ]
     },
     {
@@ -21,20 +21,21 @@
       "span_end": 47,
       "surface": "without planning",
       "sentence_no": 1,
-      "rationale": "전치사 without의 목적어로 동명사. without plan / without to plan 오류 유도 자리.",
-      "confidence": "medium",
+      "rationale": "전치사 without 뒤에는 동명사. without plan / without to plan 오류 유도 가능",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM"
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
       ]
     },
     {
       "grammar_point_code": "SENSE_VERB_ADJ",
-      "span_start": 62,
+      "span_start": 65,
       "span_end": 76,
-      "surface": "it looked nice",
+      "surface": "looked nice",
       "sentence_no": 1,
-      "rationale": "감각동사 look + 형용사 보어. looked nicely 로 바꾸는 부사 오류가 대표 출제 형태.",
+      "rationale": "감각동사 look + 형용사 보어. looked nicely 로 바꾸는 부사 오류가 대표적 출제 지점",
       "confidence": "high",
       "applicable_modifications": [
         "EI_ADJ_TO_ADV",
@@ -47,24 +48,25 @@
       "span_end": 99,
       "surface": "is called",
       "sentence_no": 2,
-      "rationale": "주어가 '불리는' 대상이므로 수동태. calls / is calling / is call 같은 능동·형태 오류 유도.",
+      "rationale": "주어가 '불리는' 수동. calls / is calling 로 능동화하거나 수동태 형태를 흐트러뜨릴 수 있음",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
         "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
       "span_start": 119,
-      "span_end": 147,
-      "surface": "means buying things suddenly",
+      "span_end": 131,
+      "surface": "means buying",
       "sentence_no": 3,
-      "rationale": "mean + 동명사(=~을 의미한다) vs mean + to부정사(=~할 작정이다) 구별. means to buy 로 바꾸면 의미가 달라진다.",
+      "rationale": "mean이 '~을 의미하다'일 때 목적어로 동명사. means to buy 로 바꾸는 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_VERB_COMPLEMENT",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
       ]
     },
     {
@@ -73,7 +75,7 @@
       "span_end": 234,
       "surface": "while shopping",
       "sentence_no": 4,
-      "rationale": "while + 현재분사(분사구문)로 접속사 뒤 주어+be 생략. while shops / while to shop 처럼 정동사·부정사를 넣는 오류 유도.",
+      "rationale": "부사절 축약(while + 현재분사). while shops / while to shop 처럼 정동사를 넣는 오류가 기출에서 관측됨",
       "confidence": "high",
       "applicable_modifications": [
         "EI_GERUND_TO_VERB",
@@ -81,16 +83,29 @@
       ]
     },
     {
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 264,
-      "span_end": 323,
-      "surface": "Stores place snacks, toys, or small items near the cashier.",
-      "sentence_no": 5,
-      "rationale": "목적어가 있는 능동태 문장이므로 수동으로 뒤집어 by 누락·형태 오류(Snacks are placing / are placed stores)를 심기 쉬운 자리.",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 236,
+      "span_end": 261,
+      "surface": "both in stores and online",
+      "sentence_no": 4,
+      "rationale": "both A and B 상관접속사. both ~ or / either ~ and 로 짝을 깨는 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_ACTIVE_TO_PASSIVE_NO_BY",
-        "EI_PASSIVE_FORM"
+        "CO_CONJ_SWAP",
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 306,
+      "span_end": 322,
+      "surface": "near the cashier",
+      "sentence_no": 5,
+      "rationale": "근접 위치를 나타내는 전치사 near. on/at/into 등으로 바꾸거나 빈칸으로 뚫기 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -99,8 +114,8 @@
       "span_end": 368,
       "surface": "while you wait",
       "sentence_no": 6,
-      "rationale": "시간 부사절에서는 미래 의미도 현재시제로. while you will wait 오류 유도.",
-      "confidence": "medium",
+      "rationale": "시간 부사절에서는 미래 대신 현재시제. while you will wait 오류 유도",
+      "confidence": "high",
       "applicable_modifications": [
         "EI_FUTURE_IN_SUBORD",
         "BO_FORM_CHOICE"
@@ -108,12 +123,12 @@
     },
     {
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "span_start": 385,
+      "span_start": 389,
       "span_end": 403,
-      "surface": "can lead to regret",
+      "surface": "lead to regret",
       "sentence_no": 7,
-      "rationale": "lead to + 명사(~로 이어지다)의 고정 전치사. to 삭제(lead regret)나 lead into 교체 오류 유도.",
-      "confidence": "medium",
+      "rationale": "lead to + 명사 고정 결합. 전치사 to 삭제나 lead into/for 로 교체하는 오류 유도",
+      "confidence": "high",
       "applicable_modifications": [
         "EI_PREP_DELETE",
         "BO_FORM_CHOICE"
@@ -125,7 +140,7 @@
       "span_end": 421,
       "surface": "feel bad",
       "sentence_no": 8,
-      "rationale": "감각동사 feel + 형용사 보어. feel badly 로 바꾸는 부사 오류가 전형적.",
+      "rationale": "감각동사 feel + 형용사 보어. feel badly 로 바꾸는 부사 오류가 전형적",
       "confidence": "high",
       "applicable_modifications": [
         "EI_ADJ_TO_ADV",
@@ -133,15 +148,15 @@
       ]
     },
     {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "grammar_point_code": "VERB_SVA",
       "span_start": 475,
       "span_end": 517,
       "surface": "buying many small things over time can use",
       "sentence_no": 9,
-      "rationale": "동명사구가 주어 자리. buy / buys 처럼 정동사로 바꾸면 주어가 사라진다는 점을 묻는 자리.",
-      "confidence": "medium",
+      "rationale": "동명사구 주어는 단수 취급이고 수식어(many small things over time)가 길어 복수 동사로 착각하기 쉬움. 조동사를 없애고 use/uses 를 묻는 변형 가능",
+      "confidence": "high",
       "applicable_modifications": [
-        "EI_GERUND_TO_VERB",
+        "EI_AGREEMENT",
         "BO_FORM_CHOICE"
       ]
     },
@@ -151,20 +166,21 @@
       "span_end": 569,
       "surface": "stop you from following",
       "sentence_no": 10,
-      "rationale": "stop A from -ing 의 고정 결합. from 삭제나 from to follow 오류 유도.",
+      "rationale": "stop A from -ing 고정 구문. from 삭제 또는 stop you to follow 오류 유도",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PREP_DELETE",
-        "EI_NONFIN_FORM"
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "CONJ_PARALLEL",
-      "span_start": 560,
-      "span_end": 622,
-      "surface": "following your spending plan or saving for something important",
+      "span_start": 589,
+      "span_end": 602,
+      "surface": "or saving for",
       "sentence_no": 10,
-      "rationale": "or로 연결된 두 동명사구의 병렬. saving → saves 로 바꾸는 병렬 파괴가 대표 오류.",
+      "rationale": "from following ~ or saving ~ 의 동명사 병렬. or saves for 로 병렬을 깨는 오류 유도",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PARALLEL_BREAK",
@@ -177,23 +193,10 @@
       "span_end": 622,
       "surface": "something important",
       "sentence_no": 10,
-      "rationale": "-thing 형 명사는 형용사가 뒤에서 수식. important something 어순 오류 유도.",
+      "rationale": "-thing 형 명사는 형용사가 뒤에서 수식. important something 어순 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_WORD_ORDER"
-      ]
-    },
-    {
-      "grammar_point_code": "CONJ_PARALLEL",
-      "span_start": 640,
-      "span_end": 676,
-      "surface": "not only wastes money but also makes",
-      "sentence_no": 11,
-      "rationale": "not only A but also B 구문에서 A·B가 같은 형태(동사원형+s)로 병렬. wasting / to waste 등 형태 불일치 오류 유도.",
-      "confidence": "high",
-      "applicable_modifications": [
-        "EI_PARALLEL_BREAK",
-        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -202,10 +205,11 @@
       "span_end": 676,
       "surface": "but also makes",
       "sentence_no": 11,
-      "rationale": "주어 Impulse buying(동명사 단수)에 맞춘 3인칭 단수 makes. but also make 로 바꾸는 수일치 오류가 실제 기출 형태.",
+      "rationale": "not only wastes but also makes — 주어 Impulse buying(단수)에 수일치. but also make 로 바꾸는 오류가 기출에 그대로 있음",
       "confidence": "high",
       "applicable_modifications": [
         "EI_AGREEMENT",
+        "EI_PARALLEL_BREAK",
         "BO_FORM_CHOICE"
       ]
     },
@@ -215,11 +219,11 @@
       "span_end": 729,
       "surface": "To avoid impulse buying",
       "sentence_no": 12,
-      "rationale": "목적을 나타내는 to부정사 부사적 용법. Avoiding / For avoid 로 바꾸는 오류 유도.",
+      "rationale": "목적을 나타내는 to부정사. Avoiding / For avoid 등으로 바꾸는 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_NONFIN_FORM",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
       ]
     },
     {
@@ -228,8 +232,8 @@
       "span_end": 777,
       "surface": "before going to the store",
       "sentence_no": 12,
-      "rationale": "before가 전치사로 쓰여 동명사를 목적어로 취함. before you going / before go 처럼 절·원형과 혼동시키는 오류 유도.",
-      "confidence": "high",
+      "rationale": "before가 전치사로 쓰여 동명사를 받음. before go / before you will go 처럼 절·정동사를 섞는 오류 유도",
+      "confidence": "medium",
       "applicable_modifications": [
         "EI_GERUND_TO_VERB",
         "CO_CONJ_SWAP"
@@ -241,7 +245,7 @@
       "span_end": 798,
       "surface": "try to follow it",
       "sentence_no": 12,
-      "rationale": "try to V(~하려고 노력하다) vs try -ing(시험 삼아 해보다) 구별. try following it 로 바꾸면 의미가 달라진다.",
+      "rationale": "try to V(노력하다) vs try -ing(시험 삼아 해보다) 구별. try following it 로 바꾸는 선지 가능",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_VERB_COMPLEMENT",
@@ -254,7 +258,7 @@
       "span_end": 826,
       "surface": "give yourself",
       "sentence_no": 13,
-      "rationale": "주어(You)와 목적어가 동일하므로 재귀대명사. give you / give your 로 바꾸는 오류가 전형적.",
+      "rationale": "주어 You와 목적어가 동일하므로 재귀대명사. give you / give yourselves 오류 유도",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
@@ -266,7 +270,7 @@
       "span_end": 924,
       "surface": "help you with your decision",
       "sentence_no": 14,
-      "rationale": "help A with B 의 고정 전치사. with 삭제나 help you for 교체 오류 유도.",
+      "rationale": "help A with B 고정 결합. with 삭제(help you your decision) 오류가 대표적",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PREP_DELETE",
@@ -276,36 +280,24 @@
     {
       "grammar_point_code": "VERB_SVA",
       "span_start": 926,
-      "span_end": 962,
-      "surface": "Being a smart shopper means thinking",
+      "span_end": 953,
+      "surface": "Being a smart shopper means",
       "sentence_no": 15,
-      "rationale": "동명사구 주어는 단수 취급하여 means. Being ~ mean 으로 바꾸는 수일치 오류 유도.",
-      "confidence": "medium",
+      "rationale": "동명사구 주어는 단수 → means. Being ~ mean 으로 수일치를 깨는 오류 유도",
+      "confidence": "high",
       "applicable_modifications": [
         "EI_AGREEMENT",
+        "EI_GERUND_TO_VERB",
         "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 992,
-      "span_end": 1003,
-      "surface": "with a plan",
-      "sentence_no": 16,
-      "rationale": "'~을 가지고(수단·상태)'의 with. in a plan / by a plan 으로 교체하는 전치사 빈칸 문항으로 만들기 쉬운 자리.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
       ]
     },
     {
       "grammar_point_code": "MOD_COMPARATIVE",
       "span_start": 1028,
-      "span_end": 1039,
-      "surface": "feel better",
+      "span_end": 1058,
+      "surface": "feel better about your choices",
       "sentence_no": 16,
-      "rationale": "good/well의 비교급 better. more good / more better 오류 유도.",
+      "rationale": "well/good의 비교급 better. more better / more good 오류 유도 가능",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
@@ -316,20 +308,20 @@
     {
       "sentence_no": 1,
       "role": "도입질문",
-      "signal": null,
+      "signal": "Have you ever",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 2,
-      "role": "용어제시",
-      "signal": "This",
+      "role": "정의(용어 제시)",
+      "signal": "This is called",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "정의",
+      "role": "정의 부연",
       "signal": "It means",
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
@@ -339,19 +331,19 @@
     },
     {
       "sentence_no": 5,
-      "role": "원인(상황 예시)",
+      "role": "세부 예시(원인)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "결과",
+      "role": "세부 결과",
       "signal": "probably",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "주제문(부정적결과)",
+      "role": "주제문(부정적 결과 제시)",
       "signal": "can lead to",
       "is_blank_candidate": true
     },
@@ -363,44 +355,44 @@
     },
     {
       "sentence_no": 9,
-      "role": "부정적결과 추가",
+      "role": "부정적 결과 추가",
       "signal": "Also",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 10,
-      "role": "부정적결과 상세",
+      "role": "부정적결과 부연",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 11,
-      "role": "결과요약",
+      "role": "요약(문제점 정리)",
       "signal": "not only ~ but also",
       "is_blank_candidate": true
     },
     {
       "sentence_no": 12,
-      "role": "해결책",
+      "role": "해결책1",
       "signal": "To avoid",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 13,
-      "role": "해결책 추가",
+      "role": "해결책2",
       "signal": "also",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 14,
-      "role": "해결책 근거",
+      "role": "해결책 부연",
       "signal": "Sometimes",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 15,
-      "role": "주제문",
-      "signal": null,
+      "role": "주제문(정의적 결론)",
+      "signal": "means",
       "is_blank_candidate": true
     },
     {
@@ -414,17 +406,17 @@
     {
       "question_type_code": "T-GRAMMAR-INLINE",
       "grammar_point_code": "VERB_FINITE",
-      "stem": "위 글의 밑줄 친 부분을 아래와 같이 옮겨 놓았을 때, 어법상 틀린 것은?",
+      "stem": "위 지문의 문장을 옮긴 것 중, 어법상 옳지 않은 것을 고르시오.",
       "answer_key": "②",
-      "explanation": "②의 while 뒤에는 '주어+be동사'가 생략된 분사구문이 와야 하므로 while shopping이 옳다. while shops는 접속사 뒤에 주어 없이 정동사가 온 잘못된 형태다. ①은 '~라고 불린다'는 수동태, ③은 lead to + 명사, ④는 feel + 형용사(bad), ⑤는 전치사 before + 동명사로 모두 옳다.",
+      "explanation": "②의 while 뒤는 부사절이 축약된 자리로 현재분사 shopping이 와야 한다(while shopping). shops처럼 정동사를 쓰면 주어 없는 절이 되어 틀린다. ①은 '~라고 불린다'는 수동태, ③은 stop A from -ing, ④는 전치사 before + 동명사와 try to V, ⑤는 동명사구 주어에 단수 means로 모두 올바르다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
         5,
         3,
-        8,
-        9,
-        17
+        12,
+        17,
+        21
       ],
       "options": [
         {
@@ -445,7 +437,7 @@
         },
         {
           "label": "③",
-          "body": "Impulse buying can lead to regret.",
+          "body": "It can stop you from following your spending plan or saving for something important.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -453,7 +445,184 @@
         },
         {
           "label": "④",
+          "body": "To avoid impulse buying, make a shopping list before going to the store and try to follow it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Being a smart shopper means thinking before buying.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 지문의 문장을 옮긴 것 중, 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④의 주어는 동명사구 Impulse buying(단수)이므로 not only wastes ~ but also makes ~ 로 두 동사 모두 3인칭 단수형이어야 한다. make는 수일치 위반. ①은 현재완료 경험, ②는 feel + 형용사 bad, ③은 동명사 주어 + can use, ⑤는 help A with B로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        15,
+        0,
+        10,
+        11,
+        20
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Have you ever bought something without planning?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
           "body": "You may feel bad later because you didn't really need the item.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Also, buying many small things over time can use a lot of your money.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Impulse buying not only wastes money but also make managing your budget harder.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Sometimes, waiting a few minutes can help you with your decision.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "위 지문에서 밑줄 친 -ing 형태 중, 쓰임이 나머지 넷과 다른 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "②의 shopping은 while이 이끄는 부사절이 축약된 형태의 현재분사(= while they are shopping)이다. ①③은 전치사 without/before의 목적어, ④⑤는 주어·목적어 자리에 쓰인 동명사로 모두 명사 역할을 한다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        1,
+        17,
+        21,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "bought something without planning ([1])",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "make impulse buying decisions while shopping ([4])",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "make a shopping list before going to the store ([12])",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Being a smart shopper means thinking before buying ([15])",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "buying many small things over time can use a lot of your money ([9])",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③은 충동구매의 부정적 결과를 말하는 문맥이므로 '돈을 많이 쓰게 된다(use)'가 맞다. save(절약하다)는 글의 흐름과 반대다. ①②④⑤는 후회, 불필요한 구매, 예산 관리의 어려움, 해결책이라는 흐름에 맞는 낱말이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        9,
+        10,
+        11,
+        15,
+        16
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Impulse buying can lead to regret.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You may feel bad later because you didn't really need the item.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Also, buying many small things over time can save a lot of your money.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Impulse buying not only wastes money but also makes managing your budget harder.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -471,83 +640,21 @@
       "_answer_violates_point": []
     },
     {
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "PRON_REFLEXIVE",
-      "stem": "위 글의 내용을 옮긴 다음 문장들 중, 어법상 틀린 것은?",
-      "answer_key": "②",
-      "explanation": "②는 주어 You와 목적어가 같은 사람이므로 재귀대명사 yourself를 써야 한다(give yourself a short break). ①은 현재완료 경험 용법과 전치사+동명사, ③은 stop A from -ing, ④는 help A with B, ⑤는 동명사구 주어에 맞춘 단수동사 means로 모두 옳다.",
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 give yourself a short break before you decide 가 이 글에서 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "바로 다음 문장 'waiting a few minutes can help you with your decision'이 근거로, 결정 전에 잠깐 멈추어 생각하라는 뜻이다. 쇼핑 자체를 금지하거나 남에게 결정을 맡기라는 말은 없다.",
       "difficulty": "easy",
-      "option_lang": "na",
+      "option_lang": "ko",
       "source_tags": [
         19,
-        0,
-        11,
-        20,
-        21
+        20
       ],
       "options": [
         {
           "label": "①",
-          "body": "Have you ever bought something without planning?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "You can also give you a short break before you decide.",
-          "is_answer": true,
-          "violates_point_code": "PRON_REFLEXIVE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "It can stop you from following your spending plan.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "Sometimes, waiting a few minutes can help you with your decision.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "Being a smart shopper means thinking before buying.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-GRAMMAR-USAGE",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "위 글에서 밑줄 친 -ing 중, 쓰임이 나머지 넷과 다른 것은?",
-      "answer_key": "①",
-      "explanation": "①의 shopping은 접속사 while이 남아 있는 분사구문의 현재분사로 부사 역할을 한다. ②는 주어, ③④는 전치사(from, before)의 목적어, ⑤는 동사 means의 목적어로 모두 명사 역할을 하는 동명사다.",
-      "difficulty": "hard",
-      "option_lang": "na",
-      "source_tags": [
-        5,
-        10,
-        11,
-        17,
-        21
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "People often make impulse buying decisions while shopping, both in stores and online.",
+          "body": "결정을 내리기 전에 잠시 시간을 두고 정말 필요한지 다시 생각해 본다",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -555,7 +662,7 @@
         },
         {
           "label": "②",
-          "body": "Also, buying many small things over time can use a lot of your money.",
+          "body": "쇼핑을 아예 하지 않고 가게에 가지 않는다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -563,7 +670,7 @@
         },
         {
           "label": "③",
-          "body": "It can stop you from following your spending plan.",
+          "body": "무엇을 살지 친구에게 대신 결정하게 한다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -571,7 +678,7 @@
         },
         {
           "label": "④",
-          "body": "make a shopping list before going to the store",
+          "body": "예산을 늘려 더 많은 물건을 살 수 있게 한다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -579,65 +686,7 @@
         },
         {
           "label": "⑤",
-          "body": "Being a smart shopper means thinking before buying.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-VOCAB-CONTEXT",
-      "grammar_point_code": null,
-      "stem": "위 글의 흐름으로 볼 때, 밑줄 친 낱말이 문맥상 적절하지 않은 것은?",
-      "answer_key": "④",
-      "explanation": "④는 충동구매의 부정적 결과를 말하는 문장이므로 예산 관리가 '더 어려워진다(harder)'가 문맥에 맞다. easier는 앞뒤의 '돈을 낭비한다'는 내용과 모순된다. 나머지는 후회·죄책감·돈 낭비·계획 구매의 이점으로 흐름에 맞는다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        14,
-        8,
-        10,
-        23
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "Impulse buying can lead to regret.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "You may feel bad later because you didn't really need the item.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "Buying many small things over time can use a lot of your money.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "Impulse buying not only wastes money but also makes managing your budget easier.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "When you shop with a plan, you can save money and feel better about your choices.",
+          "body": "계산대 근처의 물건을 미리 골라 둔다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -649,19 +698,19 @@
     {
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "위 글의 주제로 가장 알맞은 것은?",
+      "stem": "What is the topic of the passage?",
       "answer_key": "①",
-      "explanation": "글은 충동구매의 정의와 문제점을 설명한 뒤 쇼핑 목록 작성, 잠시 기다리기 같은 예방법을 제시하므로 ①이 주제다. ②③④⑤는 지문에 없거나 부분적인 세부 내용일 뿐이다.",
+      "explanation": "글은 충동구매의 정의와 후회·돈 낭비라는 문제점을 제시한 뒤 쇼핑 목록 작성, 잠시 멈추기 등 해결책을 제안한다. 따라서 ①이 주제다. 나머지는 지문에 없거나 부분적 소재에 불과하다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        4,
+        9,
         16
       ],
       "options": [
         {
           "label": "①",
-          "body": "what impulse buying is and how to avoid it",
+          "body": "the problems of impulse buying and ways to avoid it",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -669,7 +718,7 @@
         },
         {
           "label": "②",
-          "body": "the best websites for online shopping",
+          "body": "how stores decide the prices of small items",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -677,7 +726,7 @@
         },
         {
           "label": "③",
-          "body": "how stores decide where to put the cashier",
+          "body": "the best places to shop online for snacks",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -685,7 +734,7 @@
         },
         {
           "label": "④",
-          "body": "why snacks and toys are popular with children",
+          "body": "why saving money is harder than spending it",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -693,7 +742,7 @@
         },
         {
           "label": "⑤",
-          "body": "how to make a budget for a family trip",
+          "body": "the history of shopping lists and budgets",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -705,15 +754,14 @@
     {
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 글의 내용과 일치하지 않는 것은?",
+      "stem": "Which is NOT true according to the passage?",
       "answer_key": "③",
-      "explanation": "[11]에서 충동구매는 돈을 낭비할 뿐 아니라 예산 관리를 '더 어렵게' 만든다고 했으므로 ③은 일치하지 않는다. ①은 [3], ②는 [5], ④는 [12], ⑤는 [14]와 일치한다.",
+      "explanation": "[4]에서 충동구매 결정은 'both in stores and online'이라고 했으므로 ③은 지문과 반대다. ①은 [3], ②는 [5], ④는 [12], ⑤는 [14]와 일치한다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        4,
         6,
-        14,
+        7,
         16,
         20
       ],
@@ -728,7 +776,7 @@
         },
         {
           "label": "②",
-          "body": "Stores put snacks, toys, or small items near the cashier.",
+          "body": "Stores place small items near the cashier.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -736,7 +784,7 @@
         },
         {
           "label": "③",
-          "body": "Impulse buying makes it easier to manage your budget.",
+          "body": "Impulse buying happens only in stores, not online.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -744,7 +792,7 @@
         },
         {
           "label": "④",
-          "body": "Making a shopping list before shopping can help you avoid impulse buying.",
+          "body": "Making a shopping list can help you avoid impulse buying.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -764,14 +812,14 @@
     {
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "위 글의 [15] 문장을 다음과 같이 바꿀 때, 빈칸에 들어갈 말로 가장 알맞은 것은?  Being a smart shopper means ________.",
+      "stem": "빈칸에 들어갈 말로 가장 알맞은 것은?\n\nBeing a smart shopper means ______.",
       "answer_key": "①",
-      "explanation": "목록 작성·잠시 기다리기 등 '결정 전에 생각하기'를 권한 뒤 나오는 요약문이므로 ①이 알맞다. ②③④는 글이 경계하는 충동구매 행동이고 ⑤는 지문에 없는 내용이다.",
+      "explanation": "쇼핑 목록을 만들고 결정 전에 잠시 멈추라는 해결책들을 한 문장으로 정리하는 자리이므로 '사기 전에 생각하는 것'이 답이다. ②③④는 글이 경계하는 충동구매의 모습이고 ⑤는 언급되지 않았다.",
       "difficulty": "medium",
       "option_lang": "en",
       "source_tags": [
         21,
-        23
+        19
       ],
       "options": [
         {
@@ -784,7 +832,7 @@
         },
         {
           "label": "②",
-          "body": "buying whatever looks nice or fun",
+          "body": "buying whatever looks nice",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -800,7 +848,7 @@
         },
         {
           "label": "④",
-          "body": "spending more time near the cashier",
+          "body": "spending your money as fast as you can",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -808,63 +856,7 @@
         },
         {
           "label": "⑤",
-          "body": "paying only with cash",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": null,
-      "stem": "위 글의 밑줄 친 give yourself a short break before you decide가 뜻하는 바로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "바로 다음 문장에서 '몇 분 기다리는 것이 결정에 도움이 된다'고 했으므로 결정을 잠시 미루고 생각할 시간을 갖는다는 뜻이다. 나머지는 지문의 조언과 무관하다.",
-      "difficulty": "medium",
-      "option_lang": "ko",
-      "source_tags": [
-        19,
-        20
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "사기로 결정하기 전에 잠시 시간을 두고 다시 생각해 본다",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "쇼핑을 아예 하지 않고 집에 있는다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "계산대 근처의 물건을 먼저 살펴본다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "쇼핑 예산을 넉넉하게 늘려 잡는다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "물건을 살지 친구에게 대신 결정하게 한다",
+          "body": "visiting the store more often than before",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -875,30 +867,43 @@
     },
     {
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하여 문장을 완성하시오. (필요시 형태를 바꿀 것)\n\n우리말: 충동구매를 피하기 위해, 가게에 가기 전에 쇼핑 목록을 만들어라.\n주어진 말: avoid / impulse buying / make / a shopping list / before / go / to the store",
-      "answer_key": "To avoid impulse buying, make a shopping list before going to the store.",
-      "explanation": "'~하기 위해'는 목적을 나타내는 to부정사(To avoid)로 쓰고, 전치사 before 다음에는 동명사 going을 써야 한다. 명령문이므로 주어 없이 동사원형 make로 시작한다.",
-      "difficulty": "hard",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말을 [10]의 표현을 활용하여 영어로 쓰시오.\n\n우리말: 그것은 당신이 당신의 소비 계획을 따르는 것을 막을 수 있다.\n조건 1) stop, follow 를 반드시 사용할 것\n조건 2) stop A from -ing 구문을 쓸 것\n조건 3) 총 9단어로 쓸 것",
+      "answer_key": "It can stop you from following your spending plan.",
+      "explanation": "stop A from -ing(A가 ~하지 못하게 막다) 구문을 그대로 살려야 한다. from을 빼거나 stop you to follow로 쓰면 안 되며, 전치사 from 뒤에는 동명사 following이 와야 한다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        16,
-        17
+        12
       ],
       "options": [],
       "_answer_violates_point": []
     },
     {
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_SVA",
-      "stem": "다음은 위 글의 [11]번 문장을 옮긴 것이다. 어법상 틀린 부분 한 군데를 찾아 바르게 고쳐 쓰시오.\n\nImpulse buying not only wastes money but also make managing your budget harder.",
-      "answer_key": "make → makes",
-      "explanation": "주어 Impulse buying은 동명사구로 단수 취급하므로, not only A but also B의 B 자리 동사도 앞의 wastes와 같이 3인칭 단수형 makes가 되어야 한다.",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n\nSometimes, waiting a few minutes can help you your decision.",
+      "answer_key": "Sometimes, waiting a few minutes can help you with your decision.",
+      "explanation": "help A with B(A가 B하는 것을 돕다)에서 전치사 with가 빠졌다. help you your decision처럼 목적어를 두 개 나열할 수 없으므로 you 뒤에 with를 넣어야 한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        15,
-        14
+        20
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n\nHave you ever bought something without planning, just because it looked nicely or fun?",
+      "answer_key": "Have you ever bought something without planning, just because it looked nice or fun?",
+      "explanation": "look은 감각동사로 뒤에 형용사 보어가 와야 하므로 nicely가 아니라 nice가 맞다. 뒤의 fun과 병렬을 이루는 것도 형용사여야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0
       ],
       "options": [],
       "_answer_violates_point": []
@@ -906,12 +911,12 @@
   ],
   "diagnostics": {
     "sentence_count": 16,
-    "tags_returned": 24,
-    "tags_kept": 24,
+    "tags_returned": 23,
+    "tags_kept": 23,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 10,
-    "items_kept": 10,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": []
   }
 }
