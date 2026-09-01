@@ -71,7 +71,10 @@ Bicycle · Whiteout · Webcam · Anchoring · Hunger · Viral · Science Day 대
 - [x] **4개교 기출 전수 확인** (22쪽 중 20쪽) — 기획서 §5.5.9 정정. 대화문에도 어법이 나온다
 - [x] **1순위: 분석 정교화** — 커버리지 0.87 / 과잉률 2.77. 게이트에 0.03 남았으나
       **더 밀면 적합만 깊어져서 여기서 멈춤** (블라인드 표본 소진)
-- [ ] **← 2순위: 드릴 세트** — 문법 드릴 · 서술형 드릴. 출력물 렌더링이 여기 붙음
+- [x] **출력물 렌더링** — `tools/render_worksheet.py`. 학습지 + 정답지(별지) HTML.
+      로고·Pretendard 적용, A4 5쪽 인쇄 확인 완료 (2026-09-02)
+- [ ] **← 2순위: 드릴 세트** — 지금은 패스 A 한 세트를 종이로 옮긴 것뿐이다.
+      §5.5.8 의 「같은 포인트를 여러 방식으로 반복」은 **생성 쪽을 바꿔야** 한다
 - [ ] **3순위: 동형 모의고사** — 학교당 3세트. 재료(`predicted_item_site`)는 이미 있음
 - [ ] 패스 B (역방향 검증) · 패스 C (선지 유일성) — 스키마·프롬프트만 있고 실행부 없음
 - [ ] 인입 파이프라인 (방향 보정 · 헤더 판독 · 이중 전사 diff)
@@ -153,6 +156,7 @@ python -m pipeline.run pass-a --all --count              # 토큰 수만 (과금
 python -m pipeline.run pass-a --all --run                # 동기 호출
 python -m pipeline.run pass-a --all --batch              # 배치 (단가 50%)
 python tools/eval_pass_a.py                              # 기출 대비 채점
+python tools/render_worksheet.py data/generated/X.pass_a.json --school 영덕중
 ```
 
 ### 게이트 미달 — 블라인드 4개 합산 커버리지 0.70 (≥0.90) · 과잉률 4.55 (≤3.00)

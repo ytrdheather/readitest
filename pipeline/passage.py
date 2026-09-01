@@ -11,7 +11,13 @@
 """
 import re
 
-_SENT_END = re.compile(r"[.!?]+(?=\s|$)")
+# 닫는 따옴표는 문장부호 뒤에 온다: like a “virus.”  ← 여기서도 끊어야 한다
+_SENT_END = re.compile(r"[.!?]+[”\"'’]*(?=\s|$)")
+# 약어에서 문장을 끊으면 번호가 통째로 밀린다. 'Mt. Tambora' 가 두 문장이 되면
+# 논리 태깅의 sentence_no 와 태그의 sentence_no 가 전부 어긋난다.
+# (2026-09-01: Bicycle 이 11문장인데 12문장으로 잡히던 원인이었다.)
+ABBREV = ("Mt.", "Dr.", "Mr.", "Mrs.", "Ms.", "St.", "Prof.", "a.m.", "p.m.")
+_INITIAL = re.compile(r"\b[A-Z]\.$")          # Frank W. Schofield
 
 
 def split_sentences(body_text):
@@ -19,6 +25,9 @@ def split_sentences(body_text):
     spans, pos = [], 0
     for m in _SENT_END.finditer(body_text):
         end = m.end()
+        head = body_text[:end].rstrip()
+        if head.endswith(ABBREV) or _INITIAL.search(head):
+            continue                          # 약어·이니셜이었다. 아직 문장이 안 끝났다
         chunk = body_text[pos:end]
         stripped = chunk.strip()
         if stripped:

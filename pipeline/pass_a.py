@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """패스 A — 태깅 A(어법) + 태깅 B(논리) + 문항 생성. Opus 5."""
 import json
+import re
 
 from . import prompts, schemas
 from .models import PASS_A_MODEL
@@ -113,6 +114,40 @@ def parse(raw_json, passage):
     logic.sort(key=lambda x: x["sentence_no"])
     missing_logic = sorted(set(range(1, n_sent + 1)) - seen)
 
+    # 선지가 '지문 문장의 인용' 인 유형만. 주제·내용일치·빈칸·어구추론의 선지는
+    # 원래 새로 쓰는 문장이라 원문과 달라야 정상이다.
+    QUOTES_PASSAGE = {"T-GRAMMAR-INLINE", "T-GRAMMAR-USAGE",
+                      "T-GRAMMAR-STANDALONE", "T-WRITE-FIX"}
+    SENTENCES = {" ".join(s.split()) for _, _, _, s in r.sentences}
+
+    def verbatim_problem(it):
+        """지문 문장을 통째로 옮긴 선지가 정말 원문과 같은지.
+
+        실측 사례(Bicycle 2026-09-01): 발문에 「지문의 문장을 그대로 옮긴」이라 써놓고
+        선지 (a) 에서 맨 앞 'Mt.' 를 빠뜨렸다. 어떤 검증도 이걸 못 잡았다.
+
+        **부분 문자열 검사로는 안 잡힌다** — 앞이 잘려도 substring 은 통과한다.
+        그래서 규칙을 좁혔다: **완전한 문장처럼 보이는 선지**(대문자로 시작하고
+        문장부호로 끝남)는 **지문의 어느 문장과 정확히 같아야 한다.**
+        발췌형 선지(소문자로 시작)는 대상이 아니다 — 중간을 잘라 쓰는 게 정상이다.
+        오답 선지는 일부러 변형하므로 변형·위반 표시가 있으면 건너뛴다.
+        """
+        if it.get("question_type_code") not in QUOTES_PASSAGE:
+            return []
+        bad = []
+        for o in it.get("options", []):
+            if o.get("via_modification") != NONE or o.get("violates_point_code") != NONE:
+                continue
+            cand = " ".join(o["body"].split()).strip()
+            # 문장 번호 표시가 붙는 관행: "… over it ([6])"
+            cand = re.sub(r"\s*\(\[\d+\]\)\s*$", "", cand).strip()
+            if len(cand) < 20 or "___" in cand:
+                continue
+            looks_full = cand[0].isupper() and cand[-1] in ".?!"
+            if looks_full and cand not in SENTENCES:
+                bad.append(o["label"])
+        return bad
+
     items, item_rejects = [], []
     for i, it in enumerate(raw_json.get("items", [])):
         opts = it.get("options", [])
@@ -125,6 +160,7 @@ def parse(raw_json, passage):
                if o["is_answer"] and o["violates_point_code"] != NONE
                and it["question_type_code"] not in ("T-GRAMMAR-INLINE", "T-WRITE-FIX")]
         items.append({
+            "_verbatim_problem": verbatim_problem(it),
             "question_type_code": it["question_type_code"],
             "grammar_point_code": None if it["grammar_point_code"] == NONE
                                   else it["grammar_point_code"],
@@ -162,6 +198,9 @@ def parse(raw_json, passage):
             "items_returned": len(raw_json.get("items", [])),
             "items_kept": len(items),
             "item_rejects": [{"where": w, "reason": why} for w, why in item_rejects],
+            "verbatim_problems": [
+                {"item": i, "type": x["question_type_code"], "options": x["_verbatim_problem"]}
+                for i, x in enumerate(items) if x["_verbatim_problem"]],
         },
     }
 
