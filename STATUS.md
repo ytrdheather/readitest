@@ -68,6 +68,7 @@ Bicycle · Whiteout · Webcam · Anchoring · Hunger · Viral · Science Day 대
 - [x] **교과서 본문 12개 확보** — 내용정리 플러스 PDF에서 추출 (전사 `pending`)
 - [x] **Bicycle 완전 블라인드 측정** — 0.80 / 4.00. 게이트 미달
 - [x] **교과서 대화문 4개 추출** — Science Day · Souvenir Shop · Sebit Park · Recommending
+- [x] **4개교 기출 전수 확인** (22쪽 중 20쪽) — 기획서 §5.5.9 정정. 대화문에도 어법이 나온다
 - [ ] **← 1순위: 분석 정교화** — ⚠️ **API 크레딧 충전 후 재측정 필요**
       `python -m pipeline.run pass-a --all --batch` (배치 = 단가 50%)
 - [ ] **2순위: 드릴 세트** — 문법 드릴 · 서술형 드릴. 출력물 렌더링이 여기 붙음

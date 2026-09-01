@@ -85,19 +85,37 @@ PASS_A_SYSTEM = """\
 
 실측에서 반복적으로 빠뜨린 것들입니다. 의식적으로 확인하십시오.
 
-**① 전치사.** 전치사는 **빈칸으로 만들기 가장 쉬워서 자주 출제됩니다.**
-특정 의미를 갖고 쓰인 전치사는 그 자체가 출제 지점입니다 — 동사에 딸린 전치사
-(`help A with B`)든, 독립적으로 쓰인 것(`As a solution`의 as, `With special software`의
-with, `on their local network`의 on, `trips to the pot`의 to)이든 마찬가지입니다.
-지문을 훑을 때 **전치사를 한 번 따로 세어 보십시오.** 대명사·분사가 같은 구절에 있으면
-그쪽만 보고 전치사를 지나치기 쉽습니다.
+**① 전치사 — 굳어진 부사구 안의 것까지.**
+전치사는 **빈칸으로 만들기 가장 쉬워서 자주 출제됩니다.** 두 종류를 다 잡아야 합니다.
 
-**② 능동태 문장의 수동 전환 가능성.**
-`Karl von Drais invented the first bicycle` 처럼 **목적어가 있는 능동태 문장**은
-시험에서 수동으로 뒤집혀 나옵니다 (`was inventing by ~`, `was created ~` 처럼 by 누락이나
-형태 오류를 심어서). 원문만 보면 그냥 과거시제로 읽히지만, **변형 카탈로그의
-`EI_ACTIVE_TO_PASSIVE_NO_BY` · `EI_PASSIVE_FORM` 이 적용 가능한 자리**이므로
-`VOICE_ACTIVE_PASSIVE` 로 태깅하십시오. 「지금 어떤 형태인가」가 아니라
+- 동사에 딸린 것: `help A with B`, `stop A from -ing` → `VERB_PREP_COLLOCATION`
+- 그 밖의 전치사: `With special software`의 with, `on their local network`의 on,
+  `trips to the pot`의 to → `PREP_USAGE`
+
+**특히 굳어져서 한 덩어리로 읽히는 부사구를 놓치기 쉽습니다.**
+`As a result` · `As a solution` · `In those days` · `At that time` · `In many people's opinion`
+— 이런 것은 뜻이 통째로 외워져 있어서 전치사가 눈에 안 들어오는데, **시험은 바로 그
+전치사를 빈칸으로 뚫습니다** (`[As / On] a result`). 지문을 훑을 때 이런 부사구를
+발견하면 **맨 앞 전치사를 반드시 태깅 후보로 올리십시오.**
+
+지문을 다 읽은 뒤 **전치사만 한 번 따로 세어 보십시오.** 대명사·분사가 같은 구절에 있으면
+그쪽만 보고 전치사를 지나칩니다.
+
+**② 태(態) — 두 방향 다 출제됩니다.**
+
+*(가) 목적어가 있는 능동태 → 수동으로 뒤집기.*
+`Karl von Drais invented the first bicycle` 은 `was inventing by ~` 처럼 by 누락이나
+형태 오류를 심어 나옵니다. 원문만 보면 그냥 과거시제로 읽히지만 변형 카탈로그의
+`EI_ACTIVE_TO_PASSIVE_NO_BY` · `EI_PASSIVE_FORM` 이 걸리는 자리입니다.
+
+*(나) 자동사를 수동태로 만드는 함정.* ← **더 자주 놓칩니다**
+`explode` · `die` · `happen` · `arrive` · `rise` 처럼 **목적어를 안 갖는 동사는 수동태가
+불가능**합니다. 그런데 시험은 정확히 그걸 노려 `[exploded / was exploded]`,
+`were died by food` 같은 선지를 냅니다 (`EI_INTRANS_PASSIVIZED`).
+**지문에 자동사가 능동으로 쓰인 자리는 그 자체가 출제 지점입니다.**
+「이미 올바르니 물어볼 게 없다」고 넘기지 마십시오 — 올바르기 때문에 물어보는 것입니다.
+
+둘 다 `VOICE_ACTIVE_PASSIVE` 로 태깅합니다. 「지금 어떤 형태인가」가 아니라
 **「어떻게 변형될 수 있는가」**로 보는 것이 이 시스템의 태깅 기준입니다.
 
 ## 코드 경계 — 둘 다 맞아 보일 때
