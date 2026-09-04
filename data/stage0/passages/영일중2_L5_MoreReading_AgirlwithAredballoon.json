@@ -1,0 +1,133 @@
+{
+  "passage_id": "영일중2_L5_MoreReading_AgirlwithAredballoon",
+  "kind": "handout_external",
+  "title": "A girl with a red balloon",
+  "school": "영일중학교",
+  "grade": 2,
+  "textbook_unit": "Lesson 5",
+  "source_type": "배부프린트",
+  "source_detail": "영일중 2학년 배부물 「Lesson 5 More Reading」 — 교과서 밖 외부지문",
+  "body_text": "Have you ever seen this image of a girl with a red balloon? It was painted by Banksy, a world-famous street artist from the UK. His artworks are known for carrying social messages about issues such as war and inequality. Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery. His art appears on streets, walls, and bridges, and is often created without permission.\n\nGirl with Balloon is one of Banksy’s most well-known works. It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s. However, it is actually part of a series of paintings. In this artwork, a small child is reaching out toward a red balloon. There are different interpretations of the painting. According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope. If you think about it that way, the painting can be seen as a symbol of losing those things. The image is simple but has a strong emotional impact. That may be why so many people like it.",
+  "body_text_sha256": "f97dfd14789b97839d764c005674e96f94f2c64beb6a25796a3850119bd6879f",
+  "word_count": 183,
+  "sentence_count": 14,
+  "sentence_spans": [
+    {
+      "no": 1,
+      "start": 0,
+      "end": 59
+    },
+    {
+      "no": 2,
+      "start": 60,
+      "end": 127
+    },
+    {
+      "no": 3,
+      "start": 128,
+      "end": 220
+    },
+    {
+      "no": 4,
+      "start": 221,
+      "end": 328
+    },
+    {
+      "no": 5,
+      "start": 329,
+      "end": 417
+    },
+    {
+      "no": 6,
+      "start": 419,
+      "end": 478
+    },
+    {
+      "no": 7,
+      "start": 479,
+      "end": 576
+    },
+    {
+      "no": 8,
+      "start": 577,
+      "end": 631
+    },
+    {
+      "no": 9,
+      "start": 632,
+      "end": 700
+    },
+    {
+      "no": 10,
+      "start": 701,
+      "end": 753
+    },
+    {
+      "no": 11,
+      "start": 754,
+      "end": 874
+    },
+    {
+      "no": 12,
+      "start": 875,
+      "end": 967
+    },
+    {
+      "no": 13,
+      "start": 968,
+      "end": 1022
+    },
+    {
+      "no": 14,
+      "start": 1023,
+      "end": 1062
+    }
+  ],
+  "paragraphs": [
+    {
+      "no": 1,
+      "sentence_from": 1,
+      "sentence_to": 5
+    },
+    {
+      "no": 2,
+      "sentence_from": 6,
+      "sentence_to": 14
+    }
+  ],
+  "caption": "Girl with Balloon, South Bank, London, 2002",
+  "glossed": [
+    "interpretations",
+    "innocence",
+    "impact"
+  ],
+  "emphasis_spans": [],
+  "transcription": {
+    "status": "pending",
+    "method": "vision_single_pass",
+    "note": "원장이 올린 배부물 지면 이미지에서 전사. 텍스트 레이어가 없는 스캔이라 눈으로 읽었다 — 자습서 PDF 추출과 달리 오독 위험이 있으므로 전 문장이 확인 대상이다. 각주 별표는 body_text 에서 뗐고 glossed 에 남겼다.",
+    "needs_review_sentences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "source_file": "원장 업로드 이미지 (2026-09-05)",
+    "has_handwriting": true,
+    "handwriting_note": "지면 상단 문단에 학생 손필기(빨간펜 어법 메모·연필 해석)가 있다. 지문이 아니므로 전사하지 않았다 — 원장 지시 2026-09-05.",
+    "has_cutoff": false,
+    "unreadable_spans": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용으로만 저장."
+}

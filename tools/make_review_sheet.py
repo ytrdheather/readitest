@@ -82,6 +82,10 @@ def build(docs, logo):
                 meta.append(d["block"])
             if d.get("functions"):
                 meta.append(" + ".join(d["functions"]))
+            if d.get("school"):
+                meta.append(f"{d['school']} 배부")
+            if d.get("glossed"):
+                meta.append("낱말풀이 " + ", ".join(d["glossed"]))
             body = "".join(
                 f'<tr><td class="n">{n}</td><td class="sp">{esc(sp)}</td>'
                 f'<td>{esc(tx)}</td></tr>' for n, sp, tx in rows(d))
@@ -94,17 +98,24 @@ def build(docs, logo):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--glob", default="L[56]_*.json", help="대상 파일 패턴")
+    # 학교 배부 외부지문도 같은 확인지에 넣는다. 원장이 한 번에 훑는 편이 낫다.
+    ap.add_argument("--glob", action="append", default=None,
+                    help="대상 파일 패턴 (여러 번 줄 수 있음)")
     ap.add_argument("--out", default=os.path.join(ROOT, "data", "generated",
                                                   "전사확인지_L5_L6.html"))
     a = ap.parse_args()
 
-    docs = []
-    for f in sorted(glob.glob(os.path.join(PASSAGES, a.glob))):
-        with open(f, encoding="utf-8") as fh:
-            docs.append(json.load(fh))
+    pats = a.glob or ["L[56]_*.json", "영일중2_L[56]_*.json"]
+    docs, seen = [], set()
+    for pat in pats:
+        for f in sorted(glob.glob(os.path.join(PASSAGES, pat))):
+            if f in seen:
+                continue
+            seen.add(f)
+            with open(f, encoding="utf-8") as fh:
+                docs.append(json.load(fh))
     if not docs:
-        print(f"! {a.glob} 에 해당하는 지문이 없습니다")
+        print(f"! {pats} 에 해당하는 지문이 없습니다")
         return 1
     # 대화 → 본문 → Read More 순서. 같은 종류 안에서는 파일 이름 순.
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
