@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 5",
   "source_type": "교과서",
-  "body_text": "B: I’m sorry, but how can I get to the Sky Cinema?\nG: It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?\nB: OK. How long will it take?\nG: By taxi? About 20 minutes. a little",
-  "body_text_sha256": "26196d75e9bfc713f750a9e559d496e0b639f9baba11a037d065af1b30d103db",
-  "word_count": 44,
+  "body_text": "B: I’m sorry, but how can I get to the Sky Cinema?\nG: It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?\nB: OK. How long will it take?\nG: By taxi? About 20 minutes.",
+  "body_text_sha256": "14d962013893391b118016ddfa0ef0c3e54a956fe79d0777ac7edd6e17397e23",
+  "word_count": 42,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -49,7 +49,7 @@
     {
       "no": 4,
       "speaker": "G",
-      "text": "By taxi? About 20 minutes. a little"
+      "text": "By taxi? About 20 minutes."
     }
   ]
 }

@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 6",
   "source_type": "교과서",
-  "body_text": "B: What kinds of movies do you like?\nG: I like action movies. Spider-Man is my favorite.\nB: Oh, I didn’t see it.\nG: You didn’t? It’s really fun. I strongly recommend it. favorite",
-  "body_text_sha256": "0eb499d394cbaf8a1f310d70b18a99db6c07034908d868213a15a559bd1aeb91",
-  "word_count": 34,
+  "body_text": "B: What kinds of movies do you like?\nG: I like action movies. Spider-Man is my favorite.\nB: Oh, I didn’t see it.\nG: You didn’t? It’s really fun. I strongly recommend it.",
+  "body_text_sha256": "bea698794a4badb83601f51196a8391163931fdf13c47ca007bdeb390ca05d66",
+  "word_count": 33,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -48,7 +48,7 @@
     {
       "no": 4,
       "speaker": "G",
-      "text": "You didn’t? It’s really fun. I strongly recommend it. favorite"
+      "text": "You didn’t? It’s really fun. I strongly recommend it."
     }
   ]
 }

@@ -38,6 +38,9 @@ except Exception:
     pass
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
+from pipeline.passage import split_sentences  # noqa: E402  (문장 번호의 유일한 기준)
+
 S0 = os.path.join(ROOT, "data", "stage0", "passages")
 # 로고는 여기 두면 자동으로 들어간다. --logo 로 다른 파일을 지정할 수도 있다.
 DEFAULT_LOGO = os.path.join(ROOT, "assets", "logo.png")
@@ -127,25 +130,22 @@ def esc(s):
     return html.escape(s or "")
 
 
-# 'Mt.' 'Dr.' 에서 문장이 끊기면 번호가 밀린다. extract_textbook.py 와 같은 예외 목록.
-ABBREV = ("Mt.", "Dr.", "Mr.", "Mrs.", "Ms.", "St.", "Prof.", "a.m.", "p.m.")
-
-
 def number_passage(body):
-    """문장마다 위첨자 번호. 학생이 문항의 '문장 3' 을 바로 찾을 수 있게."""
-    pieces, buf = [], ""
-    for part in re.split(r"(?<=[.?!])(\s+)", body):
-        buf += part
-        if part.isspace():
-            continue
-        if buf.rstrip().endswith(ABBREV):
-            continue          # 약어였다. 아직 문장이 안 끝났다
-        pieces.append(buf)
-        buf = ""
-    if buf.strip():
-        pieces.append(buf)
-    return "".join(f'<span class="sn">{i}</span>{esc(x)}'
-                   for i, x in enumerate(pieces, 1))
+    """문장마다 위첨자 번호. 학생이 문항의 '문장 3' 을 바로 찾을 수 있게.
+
+    **분리기를 여기서 새로 짜지 않는다.** 학습지의 번호와 태그의 `sentence_no` 가
+    같아야 하는데, 규칙을 두 벌 두면 반드시 어긋난다 — 실제로 약어 예외 하나 때문에
+    같은 버그가 세 번 났다 (extract_textbook · pipeline/passage · 여기).
+    `pipeline.passage.split_sentences` 가 유일한 기준이다.
+    """
+    out, pos = [], 0
+    for i, (s, e, _) in enumerate(
+            ((s, e, t) for _, s, e, t in split_sentences(body)), 1):
+        out.append(esc(body[pos:s]))                   # 문장 사이의 공백을 살린다
+        out.append(f'<span class="sn">{i}</span>{esc(body[s:e])}')
+        pos = e
+    out.append(esc(body[pos:]))
+    return "".join(out)
 
 
 def render_item(it, no):

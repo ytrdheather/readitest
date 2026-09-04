@@ -50,6 +50,7 @@ except Exception:
     pass
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT)
 OUT = os.path.join(ROOT, "data", "stage0", "passages")
 
 STRUCT = "\u276e"          # ❮ — 문장별 분석 블록에만 나온다
@@ -336,7 +337,9 @@ def parse_dialogue(pages, block_letter="C"):
 # 「내용정리 플러스」가 아니라 본문 PDF는 구조가 다르다. 문장별 분석 블록이 없고,
 # 영문이 통짜로 나오는데 **문장 사이 공백이 없다**: "…house.A man: Dr. Schofield, …"
 # 마침표 뒤 대문자에서 끊되, 약어(Dr. 등)에서 끊기면 안 된다.
-ABBREV = ("Dr.", "Mr.", "Mrs.", "Ms.", "St.", "Prof.", "Mt.", "a.m.", "p.m.")
+# 예외 목록은 **한 군데**서만 관리한다. 목록이 두 벌이면 한쪽만 고치게 되고,
+# 실제로 그렇게 해서 같은 버그가 세 번 났다.
+from pipeline.passage import ABBREV          # noqa: E402
 INITIAL = re.compile(r"\b[A-Z]\.$")          # Frank W. Schofield
 # 문단 경계는 공백 없이 붙고("house.A man:"), 문단 안에서는 공백이 있다("outside. He began").
 # 둘 다 끊어야 하므로 공백을 선택적으로 둔다.

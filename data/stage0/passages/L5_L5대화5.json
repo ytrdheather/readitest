@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 5",
   "source_type": "교과서",
-  "body_text": "G: Excuse me, how can I get to the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will it take?\nB: I think it’ll take about 30 minutes. ‘",
-  "body_text_sha256": "1cbe165dff120e3c86c91d18709836b350bdfee0d81ed66bc16d5392a2f67632",
-  "word_count": 34,
+  "body_text": "G: Excuse me, how can I get to the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will it take?\nB: I think it’ll take about 30 minutes.",
+  "body_text_sha256": "947d8700b29d302cb8f29f9638112accfb9f8c2232f2928e972d20ad45750169",
+  "word_count": 33,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -49,7 +49,7 @@
     {
       "no": 4,
       "speaker": "B",
-      "text": "I think it’ll take about 30 minutes. ‘"
+      "text": "I think it’ll take about 30 minutes."
     }
   ]
 }

@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 6",
   "source_type": "교과서",
-  "body_text": "B: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good. ‘",
-  "body_text_sha256": "6a6b4be7f53f1d04fba1d60dc0b7bf8228ca5f103dccd79946fcb3b75c43d689",
-  "word_count": 45,
+  "body_text": "B: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good.",
+  "body_text_sha256": "de8a784a36235ce813e221daf55c1cfeb0a29a256e6db349fd54bc1edf2478d5",
+  "word_count": 44,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -54,7 +54,7 @@
     {
       "no": 5,
       "speaker": "B",
-      "text": "Well, why don’t you try tandoori chicken? It’s really good. ‘"
+      "text": "Well, why don’t you try tandoori chicken? It’s really good."
     }
   ]
 }

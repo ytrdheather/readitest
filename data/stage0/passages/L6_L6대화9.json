@@ -1,0 +1,62 @@
+{
+  "passage_id": "L6_L6대화9",
+  "kind": "textbook_dialogue",
+  "title": "L6 대화-9",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "A: Dr. Schofield, I hear you have a Korean name. Can you tell me about it?\nB: It’s Seok Hopil. I love it because it sounds similar to my English name. Also, it has a good meaning.\nA: I’d like to know why you helped the Korean independence movement.\nB: Well, I believe every country has the right to be independent.\nA: What did you do after you returned to Korea in 1958?\nB: I worked hard to help Koreans, especially poor students.",
+  "body_text_sha256": "cf831589e441f85bee1635dea871054e22068ed6132b596206e6df44807521d6",
+  "word_count": 83,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "l6.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [],
+  "block": "After You Read-B",
+  "textbook_page": 110,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "A",
+      "text": "Dr. Schofield, I hear you have a Korean name. Can you tell me about it?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "It’s Seok Hopil. I love it because it sounds similar to my English name. Also, it has a good meaning."
+    },
+    {
+      "no": 3,
+      "speaker": "A",
+      "text": "I’d like to know why you helped the Korean independence movement."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Well, I believe every country has the right to be independent."
+    },
+    {
+      "no": 5,
+      "speaker": "A",
+      "text": "What did you do after you returned to Korea in 1958?"
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "I worked hard to help Koreans, especially poor students."
+    }
+  ]
+}

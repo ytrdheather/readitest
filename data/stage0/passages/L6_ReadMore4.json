@@ -1,0 +1,31 @@
+{
+  "passage_id": "L6_ReadMore4",
+  "kind": "textbook_reading",
+  "title": "ReadMore-4",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "Nick Priest saw a car accident and ran to save the children on the bus. Kay Brown saw a homeless person in the subway and gave her own shoes to her. Eliot Middleton is a restaurant owner. He spends his free time fixing old cars and donating them to people in need.",
+  "body_text_sha256": "230617a399a2a7c73a7ddb532f66677dac6d2171155708e3404e48c9ab9fbc9a",
+  "word_count": 52,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "l6.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "read_more_no": 4,
+  "block": "Culture Project-Watch",
+  "heading": "",
+  "textbook_page": 115
+}

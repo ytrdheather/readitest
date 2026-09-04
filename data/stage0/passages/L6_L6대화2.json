@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 6",
   "source_type": "교과서",
-  "body_text": "G: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is good.\nB: OK. I’ll give it a try, then. usually",
-  "body_text_sha256": "7c847a754ebe900beebff833f0b95ffd9d37f78a93abf4322aee085dc1197018",
-  "word_count": 51,
+  "body_text": "G: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is good.\nB: OK. I’ll give it a try, then.",
+  "body_text_sha256": "5889cfbf280411730d0d6bb42cdd4fe0c98d05c81096c79edf3a5e8ba1fae547",
+  "word_count": 50,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -49,7 +49,7 @@
     {
       "no": 4,
       "speaker": "B",
-      "text": "OK. I’ll give it a try, then. usually"
+      "text": "OK. I’ll give it a try, then."
     }
   ]
 }

@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 5",
   "source_type": "교과서",
-  "body_text": "B: Somi, I need help. What’s the best way to get to Sebit Park from here?\nG: Sebit Park? Well, you can get there by bus or by subway, but the subway is better.\nB: OK. Which line should I take?\nG: Take line 3, and get off at Sebit Station.\nB: Line 3 and get off at Sebit Station. How long will it take?\nG: It’ll take about 40 minutes.\nB: Is it that far?\nG: Yes. Anyway, why are you going to Sebit Park, Liam?\nB: Oh, there is an art fair this Saturday. You can come with me if you want.\nG: Really? I’m free this Saturday. Let’s go together.\nB: Perfect. Let’s meet here at 10. 「A or B 」",
-  "body_text_sha256": "14a769b2545f8042c98a1630b6dc891506799109170fe05629e1053a061ed7c9",
-  "word_count": 124,
+  "body_text": "B: Somi, I need help. What’s the best way to get to Sebit Park from here?\nG: Sebit Park? Well, you can get there by bus or by subway, but the subway is better.\nB: OK. Which line should I take?\nG: Take line 3, and get off at Sebit Station.\nB: Line 3 and get off at Sebit Station. How long will it take?\nG: It’ll take about 40 minutes.\nB: Is it that far?\nG: Yes. Anyway, why are you going to Sebit Park, Liam?\nB: Oh, there is an art fair this Saturday. You can come with me if you want.\nG: Really? I’m free this Saturday. Let’s go together.\nB: Perfect. Let’s meet here at 10.",
+  "body_text_sha256": "dead0a15bcbea1e88f938e42efddc1b934b93c53d4e7d6f52bd17600e130e174",
+  "word_count": 120,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -84,7 +84,7 @@
     {
       "no": 11,
       "speaker": "B",
-      "text": "Perfect. Let’s meet here at 10. 「A or B 」"
+      "text": "Perfect. Let’s meet here at 10."
     }
   ]
 }

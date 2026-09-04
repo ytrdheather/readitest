@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 6",
   "source_type": "교과서",
-  "body_text": "Kim Mandeok and Her Selfless Love Kim Mandeok was born in Jeju-do in 1739. She was a successful businesswoman. In 1795, she saw many people dying from hunger. So, she bought rice with all her money and gave it away to poor people. Her love for others was so selfless that many people respected her. From her life, I learned that selfless love for others can make a big difference.",
-  "body_text_sha256": "f197a25a771cf459f59c503cd13040d25d66cba5b48d6690391d22a51ba83178",
-  "word_count": 70,
+  "body_text": "Frank W. Schofield was a Canadian doctor. He loved Korean people and helped the Korean independence movement. He took pictures of the March 1st Movement and wrote an article about it.",
+  "body_text_sha256": "b6fd3c9cd2112c400c492ab71e5084ee31fb3946c3aadfd6c66e717a98184acb",
+  "word_count": 31,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -25,6 +25,7 @@
   "distribution_scope": "internal_only",
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
   "read_more_no": 2,
-  "block": "Think and Write",
-  "textbook_page": 114
+  "block": "Before You Read-Watch",
+  "heading": "",
+  "textbook_page": 105
 }

@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 5",
   "source_type": "교과서",
-  "body_text": "G: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes. ‘",
-  "body_text_sha256": "031df5484ad479ef33f3a64af4d6278e7bc77fd4fb1ef78d7fc24f2eb3e14a4a",
-  "word_count": 59,
+  "body_text": "G: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes.",
+  "body_text_sha256": "c5cc4b9627f044bc20a7767627cf7236c39ee337f62f8709f6e64b5984eb1e90",
+  "word_count": 58,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -54,7 +54,7 @@
     {
       "no": 5,
       "speaker": "G",
-      "text": "Not very long. It’ll take less than 10 minutes. ‘"
+      "text": "Not very long. It’ll take less than 10 minutes."
     }
   ]
 }

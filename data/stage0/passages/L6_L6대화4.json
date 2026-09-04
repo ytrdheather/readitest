@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 6",
   "source_type": "교과서",
-  "body_text": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science. all kinds of ~",
-  "body_text_sha256": "e57ce429b0ce24e43ae6d1775ab4611dccddea9ae1f33d90d1bdcc65dd779b67",
-  "word_count": 41,
+  "body_text": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science.",
+  "body_text_sha256": "c76dea840f89c9ca9160634ffcf3529f7a6dca2085ae67911a520bc04d141fa5",
+  "word_count": 37,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -49,7 +49,7 @@
     {
       "no": 4,
       "speaker": "G",
-      "text": "Sure. You’ll love this one, Teen’s Science. all kinds of ~"
+      "text": "Sure. You’ll love this one, Teen’s Science."
     }
   ]
 }

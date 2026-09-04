@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 6",
   "source_type": "교과서",
-  "body_text": "1. Nick Priest saw a car accident and ran to save the children on the bus. 2. Kay Brown saw a homeless person in the subway and gave her own shoes to her. 3. Eliot Middleton is a restaurant owner. He spends his free time fixing old cars and donating them to people in need. 1. Nick Priest",
-  "body_text_sha256": "f828a85aa46dc1adbe18b622c2ccf3d4eff5ea110bd5590899aee715995f9ca7",
-  "word_count": 58,
+  "body_text": "Kim Mandeok was born in Jeju-do in 1739. She was a successful businesswoman. In 1795, she saw many people dying from hunger. So, she bought rice with all her money and gave it away to poor people. Her love for others was so selfless that many people respected her. From her life, I learned that selfless love for others can make a big difference.",
+  "body_text_sha256": "e7a7a4a1967a1dcd3023dcf892e53778d08436e70d0b7ffa2812901c5a696469",
+  "word_count": 64,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -25,6 +25,7 @@
   "distribution_scope": "internal_only",
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
   "read_more_no": 3,
-  "block": "Culture Project-Watch",
-  "textbook_page": 115
+  "block": "Think and Write",
+  "heading": "Kim Mandeok and Her Selfless Love",
+  "textbook_page": 114
 }

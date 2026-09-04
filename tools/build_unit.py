@@ -55,7 +55,8 @@ MARKER = re.compile(r"[①-⓿❶-➓]")
 TURN_SPLIT = re.compile(r"(?<=[.?!])\s*(?=[A-Z][A-Za-z]{0,8}:\s)")
 # 대화·More 블록 제목. '교과서 NN쪽' 이 뒤따르는 것이 블록의 시작 표시다.
 BLOCK = re.compile(r"(Watch and Talk[- ]?[A-D]?-?\d?|Speak Up|Talk and Play|Listen Up|"
-                   r"Review-\d+|Think and Write|Culture Project[-\w]*)\s*교과서\s*(\d+)쪽")
+                   r"Review-\d+|Think and Write|Culture Project[-\w]*|"
+                   r"Before You Read[-\w]*|After You Read[-\w]*)\s*교과서\s*(\d+)쪽")
 FUNC = re.compile(r"([가-힣]{2,10}(?:\s[가-힣]{1,6})?\s*(?:묻고 답하기|요청하고 답하기|"
                   r"제안하기|권유하기|표현하기))")
 # 본문은 번호가 붙어 나온다: '01 Modern street art comes in…'
@@ -93,6 +94,8 @@ CONFIRMED_FIXES = [
     ("this Satur day", "this Saturday", "L5 대화-7 (2군데)"),
     ("mak e a special artw ork", "make a special artwork", "L5 Read More 3"),
     ("He mo ves to", "He moves to", "L6 Read More 1"),
+    ("helped the K orean", "helped the Korean", "L6 Read More 2"),
+    ("of the Mar ch 1st", "of the March 1st", "L6 Read More 2"),
     # 조판이 마지막 줄을 한 번 더 흘렸다. 문장이 아니라 **꼬리 찌꺼기**다.
     ("recommend it. I’m going to introduce today", "recommend it.", "L6 Read More 1"),
 ]
@@ -117,6 +120,52 @@ def norm(s):
     s = _APOS_GAP.sub(r"\1\2", s)
     return s.strip()
 
+
+# 자습서는 블록 끝에 **어휘 표제어**를 흘려 놓는다 — 'Teen’s Science. all kinds of ~'
+# 의 'all kinds of ~' 처럼. 지문이 아니라 옆단 표제어인데 문자층에서는 이어져 나온다.
+# 마지막 문장부호 뒤에 남은 것은 지문이 아니라고 본다. 무엇을 버렸는지는 기록한다 —
+# 조용히 버리면 진짜 문장을 잘라도 아무도 모른다.
+_LAST_END = re.compile(r"[.!?][”\"'’]*(?=\s|$)")
+
+
+def drop_tail(s):
+    """마지막 문장부호 뒤의 찌꺼기를 떼고 (본문, 버린 것) 을 돌려준다.
+
+    한 가지를 더 본다: 조판이 **첫머리를 끝에 한 번 더 흘리는** 경우가 있다
+    ('… wrote an article about it. Frank W.'). 마지막 조각이 글의 첫머리와 같으면
+    그건 문장이 아니라 메아리다. 「첫머리와 같을 때만」으로 좁힌 이유는, 짧은 끝문장
+    ('It’s really good.') 을 잘못 버리지 않기 위해서다.
+    """
+    start, dropped = s, []
+    while True:
+        ends = list(_LAST_END.finditer(s))
+        if not ends:
+            break
+        tail = s[ends[-1].end():].strip()
+        if tail:                              # 문장부호 뒤에 남은 것 = 표제어
+            dropped.append(tail)
+            s = s[:ends[-1].end()]
+            continue
+        if len(ends) >= 2:                    # 첫머리가 끝에 한 번 더 흐른 경우
+            last = s[ends[-2].end():].strip()
+            if last and len(last) < len(start) / 2 and start.startswith(last):
+                dropped.append(last)
+                s = s[:ends[-2].end()]
+                continue
+        break
+    return s.strip(), " ".join(dropped).strip()
+
+
+# 목록 지문의 번호. '1. Nick Priest saw…' 의 '1.' 은 문장이 아니라 항목 번호다.
+# 그대로 두면 문장 분리기가 '1.' 을 한 문장으로 세어 번호가 통째로 밀린다.
+_LIST_NO = re.compile(r"(?:(?<=^)|(?<=\s))(?:\d{1,2}\.|[•▪·])\s+(?=[A-Z])")
+
+# 「Think and Write」는 제목이 본문 첫 줄에 붙어 나온다. 제목은 지문이 아니다 —
+# 붙여 두면 첫 문장이 'Kim Mandeok and Her Selfless Love Kim Mandeok was born…' 이 된다.
+HEADINGS = {
+    ("Think and Write", 96): "The Red Room by Henri Matisse",
+    ("Think and Write", 114): "Kim Mandeok and Her Selfless Love",
+}
 
 SPLIT_WORD = re.compile(r"(?<![’'\w])(?![aAI]\b)([a-zA-Z]) ([a-z]{2,})")
 
@@ -184,7 +233,7 @@ def turns_of(raw):
     seg = MARKER.sub(" ", seg)
     first = re.search(r"[A-Z][A-Za-z]{0,8}:\s", seg)
     if not first:
-        return []
+        return [], ""
     seg = re.sub(r"\s+", " ", seg[first.start():]).strip()
     if HANGUL.search(seg):
         seg = seg[:HANGUL.search(seg).start()]
@@ -193,11 +242,24 @@ def turns_of(raw):
         m = re.match(r"([A-Z][A-Za-z]{0,8}):\s*(.+)", piece.strip(), re.S)
         if m:
             out.append((m.group(1), norm(m.group(2))))
-    return out
+    tail = ""
+    # 마지막 발화가 문장부호로 끝나지 않으면 발화가 아니다 — 옆단 표제어가 화자 표시를
+    # 하나 더 만들어 낸 것이다 ('A: Schofield'). 발화째로 버린다.
+    while out and not _LAST_END.search(out[-1][1]):
+        tail = (out.pop()[1] + " " + tail).strip()
+    if out:                                   # 마지막 발화 뒤의 어휘 표제어를 뗀다
+        sp, tx = out[-1]
+        tx, more = drop_tail(tx)
+        out[-1] = (sp, tx)
+        tail = (more + " " + tail).strip()
+    return out, tail
 
 
-def prose_of(raw):
-    """대화가 아닌 More 지문(Speak Up, Think and Write 등)의 영문 산문."""
+def prose_of(raw, heading=""):
+    """대화가 아닌 More 지문(Speak Up, Think and Write 등)의 영문 산문.
+
+    돌려주는 것: (본문, 버린 꼬리). 꼬리는 확인지에 띄워 눈으로 보게 한다.
+    """
     seg = raw
     cut = re.search(r"[①-⓿❶-➓]\s*[가-힣]", seg)
     if cut:
@@ -207,7 +269,11 @@ def prose_of(raw):
     if h:
         seg = seg[:h.start()]
     seg = norm(seg)
-    return seg if len(seg.split()) >= 12 else ""
+    if heading and seg.startswith(heading):
+        seg = seg[len(heading):].lstrip()
+    seg = _LIST_NO.sub("", seg)
+    seg, tail = drop_tail(seg)
+    return (seg, tail) if len(seg.split()) >= 12 else ("", tail)
 
 
 def reading(plus_pdf):
@@ -288,16 +354,19 @@ def main():
 
     # ── 1. 대화문 ────────────────────────────────────────────────
     print(f"\n【지문종류 1 — 대화문】")
-    dlg = [(b, turns_of(b["raw"])) for b in blks]
-    dlg = [(b, t) for b, t in dlg if len(t) >= 2]   # 화자 교대가 있어야 대화문
+    dropped = []                                    # 버린 꼬리는 전부 모아서 보고한다
+    dlg = [(b, *turns_of(b["raw"])) for b in blks]
+    dlg = [(b, t, tail) for b, t, tail in dlg if len(t) >= 2]  # 화자 교대가 있어야 대화문
     # 이름은 **순번**, 기능은 **속성**으로만 기록한다 (원장 지정 2026-09-05).
     # 거의 모든 대화가 두 기능을 한 세트로 쓴다 — L5 는 「어떻게 가나요?」와
     # 「얼마나 걸려요?」가 같은 대화에 같이 나온다. 기능으로 이름을 나누면 억지가
     # 되고, 속성으로 두면 나중에 「이 기능만 연습」으로 골라 쓸 수 있다.
-    for i, (b, turns) in enumerate(dlg, 1):
+    for i, (b, turns, tail) in enumerate(dlg, 1):
         text = " ".join(l for _, l in turns)
         fs = functions_in(text, funcs)
         name = f"L{args.lesson} 대화-{i}"
+        if tail:
+            dropped.append((name, tail))
         body = "\n".join(f"{s}: {l}" for s, l in turns)
         print(f"   {i:>2}. {name:10} {b['name']:22} 교과서{b['page']}쪽 · 발화 {len(turns):>2}"
               f"   [{' + '.join(fs) if fs else '기능 미판정'}]")
@@ -325,21 +394,31 @@ def main():
     print(f"\n【지문종류 3 — Read More (교과서 추가자료)】")
     k = 0
     for b in blks:
-        if any(b is bb for bb, _ in dlg):
+        if any(b is bb for bb, _, _ in dlg):
             continue
-        prose = prose_of(b["raw"])
+        heading = HEADINGS.get((b["name"], b["page"]), "")
+        prose, tail = prose_of(b["raw"], heading)
         if not prose:
             continue
         k += 1
         name = f"지문 {k}"
-        print(f"   {k}. {name:8} {b['name']:22} 교과서{b['page']}쪽 · {len(prose.split())}단어")
+        if tail:
+            dropped.append((f"ReadMore-{k}", tail))
+        print(f"   {k}. {name:8} {b['name']:22} 교과서{b['page']}쪽 · {len(prose.split())}단어"
+              f"{'  · 제목 「' + heading + '」' if heading else ''}")
         print(f"      {prose[:90]}")
         docs.append(make(args.lesson, "textbook_reading", f"ReadMore-{k}", prose, src,
-                         {"read_more_no": k, "block": b["name"],
+                         {"read_more_no": k, "block": b["name"], "heading": heading,
                           "textbook_page": b["page"]}))
 
+    if dropped:
+        print(f"\n【버린 꼬리 {len(dropped)}개 — 마지막 문장부호 뒤에 남아 있던 것】")
+        print("   자습서 옆단의 어휘 표제어가 문자층에서 이어져 나온 것들이다. 확인 요망.")
+        for name, tail in dropped:
+            print(f"   {name:14} ← {tail!r}")
+
     print("\n" + "=" * 74)
-    print(f"  대화문 {len(dlg)} · 본문 {len(paras)}문단 · Read More {k}")
+    print(f"  대화문 {len(dlg)} · 본문 {len(paras)}문단 · Read More {k} · 버린 꼬리 {len(dropped)}")
     if not args.write:
         print("  저장하려면 --write")
         return 0

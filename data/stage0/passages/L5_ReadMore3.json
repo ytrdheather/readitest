@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 5",
   "source_type": "교과서",
-  "body_text": "• People take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. • People write their dreams and goals on a big wall. They share their stories and make a special artwork together. •",
-  "body_text_sha256": "2ccc85ecf09a8639112ddc2d804be5940266c406aa1740720eabccf5966762e3",
-  "word_count": 44,
+  "body_text": "People take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. People write their dreams and goals on a big wall. They share their stories and make a special artwork together.",
+  "body_text_sha256": "ac40be79caf8caa52f037655082b08a82ce6c992c6cdda9501cc98647818cc5b",
+  "word_count": 41,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -26,5 +26,6 @@
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
   "read_more_no": 3,
   "block": "Culture Project-Watch",
+  "heading": "",
   "textbook_page": 97
 }

@@ -10,9 +10,9 @@
   },
   "textbook_unit": "Lesson 5",
   "source_type": "교과서",
-  "body_text": "B: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus. 「Which is +",
-  "body_text_sha256": "06a2e5733cdbe156a95b86a5f0a57f1c53e7c52254e6ff53c1348c97ebee0799",
-  "word_count": 51,
+  "body_text": "B: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus.",
+  "body_text_sha256": "7df514d57c61d970d6aa8504b36997fdb964716d2afe267e5946c777733e76af",
+  "word_count": 48,
   "transcription": {
     "status": "pending",
     "method": "workbook_pdf_text_layer",
@@ -53,7 +53,7 @@
     {
       "no": 5,
       "speaker": "B",
-      "text": "Really? Then, I’ll take the bus. 「Which is +"
+      "text": "Really? Then, I’ll take the bus."
     }
   ]
 }

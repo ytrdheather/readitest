@@ -18,6 +18,10 @@ _SENT_END = re.compile(r"[.!?]+[”\"'’]*(?=\s|$)")
 # (2026-09-01: Bicycle 이 11문장인데 12문장으로 잡히던 원인이었다.)
 ABBREV = ("Mt.", "Dr.", "Mr.", "Mrs.", "Ms.", "St.", "Prof.", "a.m.", "p.m.")
 _INITIAL = re.compile(r"\b[A-Z]\.$")          # Frank W. Schofield
+# 'Take bus No. 12.' 의 'No.' 는 약어다. 그런데 대화문에서는 'No. I can’t.' 처럼
+# 진짜 문장 끝이기도 하다. **뒤에 숫자가 오는지**로 가른다 — 이게 유일한 구분점이다.
+# (2026-09-05: L5 대화-3 이 '12.' 를 한 문장으로 세고 있었다. Mt. 때와 같은 부류다.)
+_NO_NUM = re.compile(r"\bNo\.$")
 
 
 def split_sentences(body_text):
@@ -28,6 +32,8 @@ def split_sentences(body_text):
         head = body_text[:end].rstrip()
         if head.endswith(ABBREV) or _INITIAL.search(head):
             continue                          # 약어·이니셜이었다. 아직 문장이 안 끝났다
+        if _NO_NUM.search(head) and re.match(r"\s*\d", body_text[end:]):
+            continue                          # 'No. 12' — 번호지 문장 끝이 아니다
         chunk = body_text[pos:end]
         stripped = chunk.strip()
         if stripped:
