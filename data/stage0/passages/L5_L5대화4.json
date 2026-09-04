@@ -1,0 +1,60 @@
+{
+  "passage_id": "L5_L5대화4",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-4",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "B: Excuse me. I’m going to the National Art Museum. What’s the best way to get there?\nG: You can walk. Go straight for about 500 meters and turn left. It’ll be on your right.\nB: I see. How long will it take?\nG: Only about 15 minutes.\nB: Really? Thanks. What’s the best way to get to ~?",
+  "body_text_sha256": "fbafbf47e5855c659e36f35d1536c95d7ed96fb179e1da57ca7dc152071101d7",
+  "word_count": 59,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기",
+    "소요 시간 묻고 답하기"
+  ],
+  "block": "Watch and Talk A-4",
+  "textbook_page": 84,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "Excuse me. I’m going to the National Art Museum. What’s the best way to get there?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "You can walk. Go straight for about 500 meters and turn left. It’ll be on your right."
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "I see. How long will it take?"
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "Only about 15 minutes."
+    },
+    {
+      "no": 5,
+      "speaker": "B",
+      "text": "Really? Thanks. What’s the best way to get to ~?"
+    }
+  ]
+}

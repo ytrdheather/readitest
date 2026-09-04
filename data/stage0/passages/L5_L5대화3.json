@@ -1,0 +1,60 @@
+{
+  "passage_id": "L5_L5대화3",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "G: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes. ‘",
+  "body_text_sha256": "031df5484ad479ef33f3a64af4d6278e7bc77fd4fb1ef78d7fc24f2eb3e14a4a",
+  "word_count": 59,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기",
+    "소요 시간 묻고 답하기"
+  ],
+  "block": "Watch and Talk A-3",
+  "textbook_page": 84,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Do you need help?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Yes. How can I get to the Dream Shopping Mall from here? Can I walk?"
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "OK. How long will it take by bus?"
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "Not very long. It’ll take less than 10 minutes. ‘"
+    }
+  ]
+}

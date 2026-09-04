@@ -1,0 +1,55 @@
+{
+  "passage_id": "L5_L5대화5",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-5",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "G: Excuse me, how can I get to the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will it take?\nB: I think it’ll take about 30 minutes. ‘",
+  "body_text_sha256": "1cbe165dff120e3c86c91d18709836b350bdfee0d81ed66bc16d5392a2f67632",
+  "word_count": 34,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기",
+    "소요 시간 묻고 답하기"
+  ],
+  "block": "Review-1",
+  "textbook_page": 98,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Excuse me, how can I get to the Dream Zoo?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "You can take the subway."
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "I see. How long will it take?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "I think it’ll take about 30 minutes. ‘"
+    }
+  ]
+}

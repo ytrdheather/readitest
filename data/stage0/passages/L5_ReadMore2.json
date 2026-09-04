@@ -1,0 +1,30 @@
+{
+  "passage_id": "L5_ReadMore2",
+  "kind": "textbook_reading",
+  "title": "ReadMore-2",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "The Red Room by Henri Matisse The painting I want to write about is The Red Room by Henri Matisse. This painting shows a red room with a window. In the room, there are two chairs and a big table. We also see a woman who is setting the table. I like the red color of this painting. I think that the room feels warm because of it. Henri Matisse",
+  "body_text_sha256": "edb4857eabf6d1a8ee637ab5a629311fa11c7ffcfb5d84e7f8b40693cce2f025",
+  "word_count": 70,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "read_more_no": 2,
+  "block": "Think and Write",
+  "textbook_page": 96
+}

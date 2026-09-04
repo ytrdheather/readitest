@@ -1,0 +1,30 @@
+{
+  "passage_id": "L5_ReadMore1",
+  "kind": "textbook_reading",
+  "title": "ReadMore-1",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "I’ll explain how you can get to the City Library from the school. The best way to get there is to take the bus. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.",
+  "body_text_sha256": "075fe4aaa303b817e4cde59108c9afe35fcd2806fdc5b83a30edb730c4ef05ac",
+  "word_count": 39,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "read_more_no": 1,
+  "block": "Speak Up",
+  "textbook_page": 85
+}

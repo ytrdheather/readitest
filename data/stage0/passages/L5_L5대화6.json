@@ -1,0 +1,59 @@
+{
+  "passage_id": "L5_L5대화6",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-6",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "B: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus. 「Which is +",
+  "body_text_sha256": "06a2e5733cdbe156a95b86a5f0a57f1c53e7c52254e6ff53c1348c97ebee0799",
+  "word_count": 51,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기"
+  ],
+  "block": "Review-2",
+  "textbook_page": 98,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "Excuse me, how can I get to Seoul Museum from here?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "Seoul Museum? You can get there by bus or by subway."
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "Which is faster, the bus or the subway?"
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "Hmm, I think the bus is faster."
+    },
+    {
+      "no": 5,
+      "speaker": "B",
+      "text": "Really? Then, I’ll take the bus. 「Which is +"
+    }
+  ]
+}

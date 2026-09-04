@@ -1,0 +1,55 @@
+{
+  "passage_id": "L6_L6대화8",
+  "kind": "textbook_dialogue",
+  "title": "L6 대화-8",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "A: Can you recommend a restaurant for me?\nB: How about Morning in Venice?\nA: What kind of food do they have?\nB: They have Italian food. I strongly recommend their cheese pizza. It’s really good.",
+  "body_text_sha256": "5e9121f42ad26afd028e793f3d5b3e36a4538ef5e2e6aaec18edae0bf6daf2bb",
+  "word_count": 36,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "l6.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "종류 묻고 답하기",
+    "추천 요청하고 답하기"
+  ],
+  "block": "Talk and Play",
+  "textbook_page": 104,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "A",
+      "text": "Can you recommend a restaurant for me?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "How about Morning in Venice?"
+    },
+    {
+      "no": 3,
+      "speaker": "A",
+      "text": "What kind of food do they have?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "They have Italian food. I strongly recommend their cheese pizza. It’s really good."
+    }
+  ]
+}

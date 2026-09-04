@@ -1,0 +1,55 @@
+{
+  "passage_id": "L5_L5대화9",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-9",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "A: Excuse me, how can I get to the Brooklyn Bridge from SoHo?\nB: You can get there by subway.\nA: OK. How long will it take by subway?\nB: About 16 minutes.",
+  "body_text_sha256": "ccccba7fd1c2e7e5d149e9b30bf1ddaca1aa8df27e5f1a8f37f78f87b374443f",
+  "word_count": 33,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기",
+    "소요 시간 묻고 답하기"
+  ],
+  "block": "Talk and Play",
+  "textbook_page": 86,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "A",
+      "text": "Excuse me, how can I get to the Brooklyn Bridge from SoHo?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "You can get there by subway."
+    },
+    {
+      "no": 3,
+      "speaker": "A",
+      "text": "OK. How long will it take by subway?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "About 16 minutes."
+    }
+  ]
+}

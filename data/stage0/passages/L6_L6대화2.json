@@ -1,0 +1,55 @@
+{
+  "passage_id": "L6_L6대화2",
+  "kind": "textbook_dialogue",
+  "title": "L6 대화-2",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "G: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is good.\nB: OK. I’ll give it a try, then. usually",
+  "body_text_sha256": "7c847a754ebe900beebff833f0b95ffd9d37f78a93abf4322aee085dc1197018",
+  "word_count": 51,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "l6.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "종류 묻고 답하기",
+    "추천 요청하고 답하기"
+  ],
+  "block": "Watch and Talk A-2",
+  "textbook_page": 102,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "What kinds of soft drinks do you usually have?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?"
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "Try a cherry soda. The cherry soda here is good."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "OK. I’ll give it a try, then. usually"
+    }
+  ]
+}

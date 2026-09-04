@@ -1,0 +1,30 @@
+{
+  "passage_id": "L5_ReadMore3",
+  "kind": "textbook_reading",
+  "title": "ReadMore-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "• People take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. • People write their dreams and goals on a big wall. They share their stories and make a special artwork together. •",
+  "body_text_sha256": "2ccc85ecf09a8639112ddc2d804be5940266c406aa1740720eabccf5966762e3",
+  "word_count": 44,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "read_more_no": 3,
+  "block": "Culture Project-Watch",
+  "textbook_page": 97
+}

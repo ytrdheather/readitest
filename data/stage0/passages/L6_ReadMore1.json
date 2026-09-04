@@ -1,0 +1,30 @@
+{
+  "passage_id": "L6_ReadMore1",
+  "kind": "textbook_reading",
+  "title": "ReadMore-1",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "W: Hello, everyone. The movie I’m going to introduce today is The Song of Love. It’s a movie about a pianist who loses his love for music. He moves to a small town for a new start. There, he begins teaching music to children and finds his love for music again. This movie has great music and a touching story, so I strongly recommend it.",
+  "body_text_sha256": "ef7fe7b5a23dfdeeb4cd7ae8575ba623b58d151bba000493611fbabab3c0368b",
+  "word_count": 65,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "l6.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "read_more_no": 1,
+  "block": "Listen Up",
+  "textbook_page": 103
+}

@@ -1,0 +1,30 @@
+{
+  "passage_id": "L5_StreetArtinLondon3",
+  "kind": "textbook_reading",
+  "title": "Street Art in London-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "We are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling usthat nature is having a hard time. They think (that) he wants us to take better care of it.",
+  "body_text_sha256": "9a1609fbe8b99af82fe52bd036190402e2619d0e755b1c9b3a9e31cb5100dd83",
+  "word_count": 106,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_5과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Street Art in London",
+  "part_no": 3,
+  "sentence_count": 7
+}

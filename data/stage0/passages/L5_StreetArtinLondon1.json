@@ -1,0 +1,30 @@
+{
+  "passage_id": "L5_StreetArtinLondon1",
+  "kind": "textbook_reading",
+  "title": "Street Art in London-1",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.",
+  "body_text_sha256": "dfba7b0adfdbaf5ba6bd233d020aac0042305565f6c4bc8d231fb9ea27208713",
+  "word_count": 27,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_5과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Street Art in London",
+  "part_no": 1,
+  "sentence_count": 2
+}

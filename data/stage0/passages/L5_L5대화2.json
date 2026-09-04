@@ -1,0 +1,55 @@
+{
+  "passage_id": "L5_L5대화2",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-2",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "B: I’m sorry, but how can I get to the Sky Cinema?\nG: It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?\nB: OK. How long will it take?\nG: By taxi? About 20 minutes. a little",
+  "body_text_sha256": "26196d75e9bfc713f750a9e559d496e0b639f9baba11a037d065af1b30d103db",
+  "word_count": 44,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기",
+    "소요 시간 묻고 답하기"
+  ],
+  "block": "Watch and Talk A-2",
+  "textbook_page": 84,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "I’m sorry, but how can I get to the Sky Cinema?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?"
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "OK. How long will it take?"
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "By taxi? About 20 minutes. a little"
+    }
+  ]
+}

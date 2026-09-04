@@ -1,0 +1,30 @@
+{
+  "passage_id": "L5_StreetArtinLondon4",
+  "kind": "textbook_reading",
+  "title": "Street Art in London-4",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "The final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people.",
+  "body_text_sha256": "6a2066771eec8f567d251c36fea417bd1df6dca1eb930634a01abc498aa7a25d",
+  "word_count": 94,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(2022개정)2026년_중2_동아(윤정미)_5과_[01]내용정리 플러스.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Street Art in London",
+  "part_no": 4,
+  "sentence_count": 9
+}
