@@ -45,6 +45,35 @@ except Exception:
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+def render_page(pdf_path, page_no, max_width):
+    """임베드 이미지를 못 꺼낼 때 **페이지를 통째로 렌더링**한다.
+
+    청명중2 2026-1 기말 6쪽이 `/JBIG2Decode` 였다. Pillow 는 JBIG2 를 못 읽는다.
+    그런데 렌더러(pypdfium2 / PyMuPDF)는 자체 디코더가 있어서 그냥 그린다.
+    도구를 처음 짤 때 「poppler 가 없으니 임베드 이미지를 꺼낸다」고 판단했는데,
+    poppler 말고도 렌더러가 있었다 — 없다고 단정하기 전에 확인했어야 했다.
+
+    렌더러는 /Rotate 를 이미 적용해서 그리므로 호출하는 쪽에서 또 돌리면 안 된다.
+    """
+    try:
+        import pypdfium2
+        pdf = pypdfium2.PdfDocument(pdf_path)
+        page = pdf[page_no - 1]
+        scale = max(1.0, min(4.0, max_width / max(1.0, page.get_width())))
+        return page.render(scale=scale).to_pil()
+    except Exception:
+        pass
+    try:
+        import fitz
+        doc = fitz.open(pdf_path)
+        page = doc[page_no - 1]
+        scale = max(1.0, min(4.0, max_width / max(1.0, page.rect.width)))
+        pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale))
+        return Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    except Exception:
+        return None
+
+
 def extract(pdf_path, out_dir, prefix, max_width=1600, quality=88):
     if os.path.abspath(out_dir).startswith(os.path.abspath(REPO)):
         raise SystemExit(
@@ -57,19 +86,24 @@ def extract(pdf_path, out_dir, prefix, max_width=1600, quality=88):
 
     for i, page in enumerate(reader.pages, 1):
         rot = int(page.get("/Rotate", 0) or 0)
+        how = "임베드"
         try:
             images = list(page.images)
-        except Exception as e:                     # JBIG2 등 디코더 없는 경우
-            problems.append(f"p{i}: 이미지 디코드 실패 ({type(e).__name__})")
-            continue
+        except Exception:                          # JBIG2 등 Pillow 가 못 읽는 인코딩
+            images = []
         if not images:
-            problems.append(f"p{i}: 임베드 이미지 없음")
-            continue
-        raw = images[0]
-        h = hashlib.sha256(raw.data).hexdigest()[:12]
+            img = render_page(pdf_path, i, max_width)
+            if img is None:
+                problems.append(f"p{i}: 임베드 이미지도 렌더링도 실패")
+                continue
+            how, rot = "렌더", 0                   # 렌더러가 /Rotate 를 이미 적용한다
+            h = hashlib.sha256(img.tobytes()).hexdigest()[:12]
+        else:
+            raw = images[0]
+            h = hashlib.sha256(raw.data).hexdigest()[:12]
+            img = Image.open(io.BytesIO(raw.data))
         dup = seen.get(h)
         seen[h] = i
-        img = Image.open(io.BytesIO(raw.data))
         if rot:
             img = img.rotate(-rot, expand=True)    # /Rotate 는 시계방향 표시
         if img.width > max_width:
@@ -79,7 +113,7 @@ def extract(pdf_path, out_dir, prefix, max_width=1600, quality=88):
         img.convert("RGB").save(path, quality=quality)
         written.append(path)
         flag = f"  ★ p{dup} 와 동일 — 이 쪽은 스캔 누락" if dup else ""
-        print(f"  p{i}  /Rotate={rot:>3}  {img.size[0]}x{img.size[1]}  sha {h}{flag}")
+        print(f"  p{i}  {how}  /Rotate={rot:>3}  {img.size[0]}x{img.size[1]}  sha {h}{flag}")
         if dup:
             problems.append(f"p{i}: p{dup} 와 같은 이미지 (스캔 누락 의심)")
 
