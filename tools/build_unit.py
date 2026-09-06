@@ -167,6 +167,83 @@ HEADINGS = {
     ("Think and Write", 114): "Kim Mandeok and Her Selfless Love",
 }
 
+# ── 자습서 표제어 수확 ────────────────────────────────────────────
+# 자습서는 대화 옆단에 **핵심 표현·어휘**를 단다. 문자층에서는 본문에 이어져
+# 나오는데, 2026-09-06 까지는 이걸 「꼬리 찌꺼기」로 버리고 있었다.
+# 원장 지적: 「~ 라는 것은 거기에 장소 이름을 넣으라는 표식이야.」
+# 찌꺼기가 아니라 **대표 문형**이다. 버리지 않고 자리를 옮긴다.
+#
+#   '~' 가 있으면  → 패턴 (슬롯 있음).  'How can I get to ~?'
+#   없으면         → 어휘 표제어.        'usually' 'favorite'
+#
+# 슬롯 이름은 **규칙 표로만** 붙인다. 기능에서 추론하면 틀린다 —
+# 'all kinds of ~' 의 자리는 장소가 아니라 명사다. 표에 없으면 이름을 비우고
+# 화면에 찍어서 원장이 채우게 한다. 모르는 것을 아는 척하지 않는다.
+SLOT_RULES = [
+    (re.compile(r"\bget to ~"), "장소"),
+    (re.compile(r"\bway to ~"), "장소"),
+    (re.compile(r"\ball kinds of ~"), "명사"),
+    (re.compile(r"\bkinds? of ~"), "명사"),
+]
+
+
+def harvest(raw, body):
+    """떼어낸 표제어를 **패턴**과 **어휘**로 나눈다.
+
+    ── 판정 기준 ──
+      '~' 가 있다        → 대표 문형 (자리표시가 있는 틀)
+      소문자로 시작한다  → 어휘 표제어
+      그 밖              → 버린다
+
+    **「본문에 나오는가」로는 못 가른다.** 처음에 그렇게 짜 봤는데 어휘가 전부
+    버려졌다 — 표제어는 당연히 본문에 나온다. 그게 표제어인 이유다.
+
+    가르는 것은 **대문자로 시작하는가**다. 자습서의 어휘 표제어는 사전 표제형이라
+    소문자로 시작한다(usually · favorite · a little). 대문자로 시작하는 것은
+    등장인물 이름이거나(Henri Matisse · Nick Priest · Schofield) 잘린 조판
+    조각이다(「A or B」 「Which is +」). 어느 쪽도 어휘 드릴의 재료가 아니다.
+    """
+    pats, vocab, junk = [], [], []
+    for piece in re.split(r"\s*[「」]\s*", raw):
+        piece = piece.strip(" ·•‘’\"'")
+        if not piece:
+            continue
+        if "~" in piece:
+            text, slot = to_slot(piece)
+            pats.append({"pattern": text, "slot": slot})
+        elif re.fullmatch(r"[a-z][A-Za-z' -]{1,28}", piece):
+            vocab.append(piece)
+        else:
+            junk.append(piece)
+    return pats, vocab, junk
+
+
+def to_slot(pattern):
+    """'How can I get to ~?' → ('How can I get to {장소}?', '장소')"""
+    for rx, name in SLOT_RULES:
+        if rx.search(pattern):
+            return pattern.replace("~", "{" + name + "}"), name
+    return pattern.replace("~", "{빈칸}"), None
+
+
+# 대표 문형은 물음표로 끝나기도 해서 drop_tail 이 못 잡는다.
+# 마지막 문장에 '~' 가 있으면 그건 본문이 아니라 표제 문형이다 —
+# 영어 원문에 '~' 는 나오지 않는다.
+def split_pattern_tail(text):
+    """(본문, 떼어낸 표제 문형 또는 None)"""
+    parts = list(_LAST_END.finditer(text))
+    if "~" not in text:
+        return text, None
+    if not parts:
+        return "", text.strip()
+    for i, m in enumerate(parts):
+        seg_start = parts[i - 1].end() if i else 0
+        seg = text[seg_start:m.end()].strip()
+        if "~" in seg:
+            return (text[:seg_start] + text[m.end():]).strip(), seg
+    return text, None
+
+
 SPLIT_WORD = re.compile(r"(?<![’'\w])(?![aAI]\b)([a-zA-Z]) ([a-z]{2,})")
 
 
@@ -250,8 +327,10 @@ def turns_of(raw):
     if out:                                   # 마지막 발화 뒤의 어휘 표제어를 뗀다
         sp, tx = out[-1]
         tx, more = drop_tail(tx)
+        # 대표 문형은 물음표로 끝나 drop_tail 을 빠져나간다. 따로 뗀다.
+        tx, pat = split_pattern_tail(tx)
         out[-1] = (sp, tx)
-        tail = (more + " " + tail).strip()
+        tail = " ".join(x for x in (more, pat, tail) if x).strip()
     return out, tail
 
 
@@ -336,6 +415,9 @@ def main():
     ap.add_argument("--workbook", required=True, help="자습서 PDF (L5.pdf / l6.pdf)")
     ap.add_argument("--plus", help="「내용정리 플러스」 PDF — 본문은 여기서 가져온다")
     ap.add_argument("--reading-title", help="본문 제목 (예: Street Art in London)")
+    ap.add_argument("--out", default=OUT,
+                    help="저장 위치 (기본: data/stage0/passages). 확정된 파일을 "
+                         "덮어쓰지 않으려면 임시 폴더를 준다")
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args()
 
@@ -354,7 +436,8 @@ def main():
 
     # ── 1. 대화문 ────────────────────────────────────────────────
     print(f"\n【지문종류 1 — 대화문】")
-    dropped = []                                    # 버린 꼬리는 전부 모아서 보고한다
+    dropped = []            # 어느 쪽도 아닌 조판 부스러기
+    harvested = []          # 수확한 대표 문형·어휘
     dlg = [(b, *turns_of(b["raw"])) for b in blks]
     dlg = [(b, t, tail) for b, t, tail in dlg if len(t) >= 2]  # 화자 교대가 있어야 대화문
     # 이름은 **순번**, 기능은 **속성**으로만 기록한다 (원장 지정 2026-09-05).
@@ -365,14 +448,20 @@ def main():
         text = " ".join(l for _, l in turns)
         fs = functions_in(text, funcs)
         name = f"L{args.lesson} 대화-{i}"
-        if tail:
-            dropped.append((name, tail))
+        pats, vocab, junk = harvest(tail, text)   # text = 발화를 이어붙인 것
+        if junk:
+            dropped.append((name, " · ".join(junk)))
+        harvested.append((name, pats, vocab))
         body = "\n".join(f"{s}: {l}" for s, l in turns)
         print(f"   {i:>2}. {name:10} {b['name']:22} 교과서{b['page']}쪽 · 발화 {len(turns):>2}"
               f"   [{' + '.join(fs) if fs else '기능 미판정'}]")
         docs.append(make(args.lesson, "textbook_dialogue", name, body, src,
                          {"functions": fs, "block": b["name"],
                           "textbook_page": b["page"],
+                          # 자습서 옆단의 대표 문형·어휘. 지문이 아니므로 body_text 에
+                          # 넣지 않고 속성으로 둔다. 드릴을 만들 때 여기서 꺼내 쓴다.
+                          "key_expressions": pats,
+                          "vocab_headwords": vocab,
                           "turns": [{"no": j, "speaker": s, "text": l}
                                     for j, (s, l) in enumerate(turns, 1)]}))
 
@@ -402,33 +491,49 @@ def main():
             continue
         k += 1
         name = f"지문 {k}"
-        if tail:
-            dropped.append((f"ReadMore-{k}", tail))
+        pats, vocab, junk = harvest(tail, prose)
+        if junk:
+            dropped.append((f"ReadMore-{k}", " · ".join(junk)))
+        if pats or vocab:
+            harvested.append((f"ReadMore-{k}", pats, vocab))
         print(f"   {k}. {name:8} {b['name']:22} 교과서{b['page']}쪽 · {len(prose.split())}단어"
               f"{'  · 제목 「' + heading + '」' if heading else ''}")
         print(f"      {prose[:90]}")
         docs.append(make(args.lesson, "textbook_reading", f"ReadMore-{k}", prose, src,
                          {"read_more_no": k, "block": b["name"], "heading": heading,
-                          "textbook_page": b["page"]}))
+                          "textbook_page": b["page"],
+                          "key_expressions": pats, "vocab_headwords": vocab}))
 
+    pat_n = sum(len(p) for _, p, _ in harvested)
+    voc_n = sum(len(v) for _, _, v in harvested)
+    if harvested:
+        print(f"\n【수확한 표제어 — 대표 문형 {pat_n} · 어휘 {voc_n}】")
+        print("   자습서 옆단 항목이다. 지문이 아니므로 body_text 에는 넣지 않고")
+        print("   key_expressions / vocab_headwords 속성으로 담는다.")
+        for name, pats_, vocab_ in harvested:
+            for x in pats_:
+                mark = "" if x["slot"] else "   ← 슬롯 이름 미정. 원장 확인 요망"
+                print(f"   {name:14} 문형  {x['pattern']}{mark}")
+            for w in vocab_:
+                print(f"   {name:14} 어휘  {w}")
     if dropped:
-        print(f"\n【버린 꼬리 {len(dropped)}개 — 마지막 문장부호 뒤에 남아 있던 것】")
-        print("   자습서 옆단의 어휘 표제어가 문자층에서 이어져 나온 것들이다. 확인 요망.")
+        print(f"\n【버린 조판 부스러기 {len(dropped)}개】")
         for name, tail in dropped:
             print(f"   {name:14} ← {tail!r}")
 
     print("\n" + "=" * 74)
-    print(f"  대화문 {len(dlg)} · 본문 {len(paras)}문단 · Read More {k} · 버린 꼬리 {len(dropped)}")
+    print(f"  대화문 {len(dlg)} · 본문 {len(paras)}문단 · Read More {k}")
+    print(f"  대표 문형 {pat_n} · 어휘 표제어 {voc_n} · 버린 부스러기 {len(dropped)}")
     if not args.write:
         print("  저장하려면 --write")
         return 0
-    os.makedirs(OUT, exist_ok=True)
+    os.makedirs(args.out, exist_ok=True)
     for d in docs:
-        p = os.path.join(OUT, d["passage_id"] + ".json")
+        p = os.path.join(args.out, d["passage_id"] + ".json")
         with open(p, "w", encoding="utf-8") as f:
             json.dump(d, f, ensure_ascii=False, indent=2)
             f.write("\n")
-    print(f"  {len(docs)}개 저장 → {OUT}")
+    print(f"  {len(docs)}개 저장 → {args.out}")
     return 0
 
 

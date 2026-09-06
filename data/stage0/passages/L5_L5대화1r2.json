@@ -1,0 +1,68 @@
+{
+  "passage_id": "L5_L5대화1r2",
+  "kind": "textbook_dialogue",
+  "title": "L5 대화-1",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "B: Excuse me, how can I get to the Star Stadium?\nG: You can get there by subway. Take line 4, the green line, and get off at Hangang Station.\nB: Line 4 and Hangang Station. Got it. How long will it take?\nG: A little more than 30 minutes.",
+  "body_text_sha256": "ffc41a4453c6dd43c7c16ece8d807642a70595d01c0327c28945980d4a901dbc",
+  "word_count": 50,
+  "transcription": {
+    "status": "confirmed",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "L5.pdf",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "suspect_split_words": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-06T13:30:53.067399+00:00",
+    "confirmed_via": "전사확인지_L5_L6.html 육안 대조 · 「틀린곳 없다」 (2026-09-06)",
+    "note": "2026-09-06: 대화 끝에 자습서 대표 문형이 붙어 있었다 ('How can I get to ~?' / 'What’s the best way to get to ~?'). 원장 설명 — 「~ 라는 것은 거기에 장소 이름을 넣으라는 표식이야」. 지문이 아니라 옆단 표제 문형이므로 본문에서 떼고 key_expressions 로 옮겼다. 확정된 body_text 는 고치지 않는다는 원칙(설계원칙 7)에 따라 조용히 고치지 않고 **새 레코드**를 만들었다. 낡은 것은 _retired/ 에 남긴다. 떼어낸 줄 말고 나머지 본문은 원장이 확인한 것과 글자 하나 다르지 않다.",
+    "superseded_passage_id": "L5_L5대화1"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "functions": [
+    "교통수단 묻고 답하기",
+    "소요 시간 묻고 답하기"
+  ],
+  "block": "Watch and Talk A-1",
+  "textbook_page": 84,
+  "key_expressions": [
+    {
+      "pattern": "How can I get to {장소}?",
+      "slot": "장소"
+    }
+  ],
+  "vocab_headwords": [],
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "Excuse me, how can I get to the Star Stadium?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "You can get there by subway. Take line 4, the green line, and get off at Hangang Station."
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "Line 4 and Hangang Station. Got it. How long will it take?"
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "A little more than 30 minutes."
+    }
+  ],
+  "sentence_count": 7
+}

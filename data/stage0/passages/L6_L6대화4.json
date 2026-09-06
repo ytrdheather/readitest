@@ -54,5 +54,12 @@
       "speaker": "G",
       "text": "Sure. You’ll love this one, Teen’s Science."
     }
-  ]
+  ],
+  "key_expressions": [
+    {
+      "pattern": "all kinds of {명사}",
+      "slot": "명사"
+    }
+  ],
+  "vocab_headwords": []
 }

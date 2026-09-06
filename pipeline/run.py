@@ -36,9 +36,13 @@ def slug(passage):
     return (passage.get("title") or passage["id"])[:40].replace("/", "_").replace(" ", "_")
 
 
-def fetch_passages(rest, needle=None):
+def fetch_passages(rest, needle=None, include_disputed=False):
     rows = rest.get("/passage?select=id,title,source_detail,body_text,body_text_sha256,"
-                    "kind,textbook_unit,word_count&order=title")
+                    "kind,textbook_unit,word_count,transcription_status&order=title")
+    # 물러난 지문(disputed)은 태깅하지 않는다. 본문이 틀렸다고 판정된 것이라
+    # 그 위에 태그를 붙이면 돈만 쓰고 쓸 수 없는 태그가 남는다.
+    if not include_disputed:
+        rows = [p for p in rows if p.get("transcription_status") != "disputed"]
     if needle:
         low = needle.lower()
         rows = [p for p in rows
