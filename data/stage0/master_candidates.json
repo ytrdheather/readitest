@@ -1,67 +1,74 @@
 {
-  "_what": "0단계 자료를 구조화하다가 마스터 코드 목록에 없어서 새로 필요해진 코드들. 원장 승인 전까지는 인제스트되지 않는다.",
-  "_how": "python db/002_ingest.py --apply --allow-new-codes 를 붙여야 실제로 들어간다. 붙이지 않으면 이 코드를 쓰는 태그·문항은 건너뛴다.",
-  "proposed_at": "2026-08-21",
-  "grammar_point": [
-    {
-      "code": "VERB_PERFECT",
-      "category": "동사",
-      "label_ko": "현재완료 (경험·계속·완료)",
-      "is_candidate": true,
-      "note": "impulse-buying 태그1 'Have you ever bought'. 기존 28코드에 완료시제 항목이 아예 없다. VERB_TENSE(시제 일치)는 절 간 일치 문제라 다른 축.",
-      "evidence": [
-        "data/stage0/tags/영덕중2_2026-1-기말_L4_impulse-buying.tags.json #1"
-      ]
-    },
-    {
-      "code": "VERB_PREP_COLLOCATION",
-      "category": "기타",
-      "label_ko": "동사 + 전치사 결합 (help A with B 등)",
-      "is_candidate": true,
-      "note": "impulse-buying 태그20 'help you with'. EI_PREP_DELETE 변형이 겨냥하는 포인트인데 대응 코드가 없었다. CONJ_VS_PREP(접속사 vs 전치사)는 다른 현상이다.",
-      "evidence": [
-        "data/stage0/tags/영덕중2_2026-1-기말_L4_impulse-buying.tags.json #20",
-        "modification_type EI_PREP_DELETE (실제 기출 문항16 ⓖ)"
-      ]
-    },
-    {
-      "code": "PREP_USAGE",
-      "category": "기타",
-      "label_ko": "전치사 용법 (장소·수단·자격 등)",
-      "is_candidate": true,
-      "note": "마스터에 전치사 계열 코드가 CONJ_VS_PREP(접속사 vs 전치사) 하나뿐인데 그건 다른 현상이다. 「As a solution」의 as, 「With special software」의 with, 「on their local network」의 on 같은 일반 전치사 용법을 담을 코드가 없다. VERB_PREP_COLLOCATION(동사+전치사 결합)과도 구별된다.",
-      "evidence": [
-        "부교재 3과 Webcam 문장별 분석에 「전치사 as❮전치사(As)+명사구(a solution)❯」 항목이 있음",
-        "청명중2 2026-1 기말 문항 5 — 전치사 4곳 빈칸 (to/As/With/on)"
-      ],
-      "_leakage_note": "이 코드를 기출(청명 문항5)을 본 뒤에 추가했다. 다만 필요성은 부교재만 봐도 드러난다(위 evidence 1). 그래도 순수 블라인드는 아니므로, Webcam 채점은 「코드 일치」와 「위치만」을 반드시 함께 읽을 것."
-    }
-  ],
-  "question_type": [
-    {
-      "code": "T-FORM-CHOICE",
-      "label_ko": "어법 — 빈칸 어형 짝짓기 ((a)(b)(c) 조합 선택)",
-      "option_lang": "na",
-      "value_approved": null,
-      "review_tier": "fast",
-      "tier_reason": null,
-      "note": "1차 검수지 Q4. 변형 BO_FORM_CHOICE에 대응하는 문항 형식인데 유형 마스터 10종에 없었다. 1차는 문항 검수였고 유형 승인을 받은 적이 없으므로 value_approved=null(미검수).",
-      "evidence": [
-        "data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying.items.json Q4"
-      ]
-    },
-    {
-      "code": "T-WORD-ORDER",
-      "label_ko": "어순 배열 — 우리말 제시 + 주어진 단어 배열",
-      "option_lang": "na",
-      "value_approved": null,
-      "review_tier": "fast",
-      "tier_reason": null,
-      "note": "1차 검수지 Q10. 변형 BO_WORD_ORDER에 대응. 2차 전유형세트에는 이 형식이 없어 유형 검수를 못 받았다. 다음 유형 검수 때 함께 올릴 것.",
-      "evidence": [
-        "data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying.items.json Q10"
-      ]
-    }
-  ],
-  "_open_question": "T-FORM-CHOICE·T-WORD-ORDER는 둘 다 지문에서 떼어낸 형식이라 P-PASSAGE-EMBEDDED와 충돌할 소지가 있다. 유형 검수 시 '지문 안에 녹인 버전'으로 다시 올려야 승인 가능성이 있다."
+ "_what": "0단계 자료를 구조화하다가 마스터 코드 목록에 없어서 새로 필요해진 코드들. ★ 2026-09-06 원장이 5개 전부 승인했다 — 이 파일은 이제 '미결 목록'이 아니라 '무엇이 왜 필요해졌는지'의 기록이다.",
+ "_how": "python db/002_ingest.py --apply --allow-new-codes 를 붙여야 실제로 들어간다. 붙이지 않으면 이 코드를 쓰는 태그·문항은 건너뛴다.",
+ "proposed_at": "2026-08-21",
+ "grammar_point": [
+  {
+   "code": "VERB_PERFECT",
+   "category": "동사",
+   "label_ko": "현재완료 (경험·계속·완료)",
+   "is_candidate": false,
+   "note": "impulse-buying 태그1 'Have you ever bought'. 기존 28코드에 완료시제 항목이 아예 없다. VERB_TENSE(시제 일치)는 절 간 일치 문제라 다른 축.",
+   "evidence": [
+    "data/stage0/tags/영덕중2_2026-1-기말_L4_impulse-buying.tags.json #1"
+   ],
+   "approved_at": "2026-09-06"
+  },
+  {
+   "code": "VERB_PREP_COLLOCATION",
+   "category": "기타",
+   "label_ko": "동사 + 전치사 결합 (help A with B 등)",
+   "is_candidate": false,
+   "note": "impulse-buying 태그20 'help you with'. EI_PREP_DELETE 변형이 겨냥하는 포인트인데 대응 코드가 없었다. CONJ_VS_PREP(접속사 vs 전치사)는 다른 현상이다.",
+   "evidence": [
+    "data/stage0/tags/영덕중2_2026-1-기말_L4_impulse-buying.tags.json #20",
+    "modification_type EI_PREP_DELETE (실제 기출 문항16 ⓖ)"
+   ],
+   "approved_at": "2026-09-06"
+  },
+  {
+   "code": "PREP_USAGE",
+   "category": "기타",
+   "label_ko": "전치사 용법 (장소·수단·자격 등)",
+   "is_candidate": false,
+   "note": "마스터에 전치사 계열 코드가 CONJ_VS_PREP(접속사 vs 전치사) 하나뿐인데 그건 다른 현상이다. 「As a solution」의 as, 「With special software」의 with, 「on their local network」의 on 같은 일반 전치사 용법을 담을 코드가 없다. VERB_PREP_COLLOCATION(동사+전치사 결합)과도 구별된다.",
+   "evidence": [
+    "부교재 3과 Webcam 문장별 분석에 「전치사 as❮전치사(As)+명사구(a solution)❯」 항목이 있음",
+    "청명중2 2026-1 기말 문항 5 — 전치사 4곳 빈칸 (to/As/With/on)"
+   ],
+   "_leakage_note": "이 코드를 기출(청명 문항5)을 본 뒤에 추가했다. 다만 필요성은 부교재만 봐도 드러난다(위 evidence 1). 그래도 순수 블라인드는 아니므로, Webcam 채점은 「코드 일치」와 「위치만」을 반드시 함께 읽을 것.",
+   "approved_at": "2026-09-06"
+  }
+ ],
+ "question_type": [
+  {
+   "code": "T-FORM-CHOICE",
+   "label_ko": "어법 — 빈칸 어형 짝짓기 ((a)(b)(c) 조합 선택)",
+   "option_lang": "na",
+   "value_approved": true,
+   "review_tier": "fast",
+   "tier_reason": null,
+   "note": "1차 검수지 Q4. 변형 BO_FORM_CHOICE에 대응하는 문항 형식인데 유형 마스터 10종에 없었다. 1차는 문항 검수였고 유형 승인을 받은 적이 없으므로 value_approved=null(미검수).",
+   "evidence": [
+    "data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying.items.json Q4"
+   ],
+   "approved_at": "2026-09-06"
+  },
+  {
+   "code": "T-WORD-ORDER",
+   "label_ko": "어순 배열 — 우리말 제시 + 주어진 단어 배열",
+   "option_lang": "na",
+   "value_approved": true,
+   "review_tier": "fast",
+   "tier_reason": null,
+   "note": "1차 검수지 Q10. 변형 BO_WORD_ORDER에 대응. 2차 전유형세트에는 이 형식이 없어 유형 검수를 못 받았다. 다음 유형 검수 때 함께 올릴 것.",
+   "evidence": [
+    "data/stage0/items/영덕중2_2026-1-기말_L4_impulse-buying.items.json Q10"
+   ],
+   "approved_at": "2026-09-06"
+  }
+ ],
+ "_open_question": "~~T-FORM-CHOICE·T-WORD-ORDER는 둘 다 지문에서 떼어낸 형식이라 P-PASSAGE-EMBEDDED와 충돌할 소지가 있다~~ → 2026-09-06 해소. 기획서 §7.1.2 정정 참조: 원칙은 그대로 두되, 출제 빈도가 확인된 유형은 승인한다. 다만 만들 때 문장은 지문에서 가져온다는 경계선이 남는다.",
+ "resolved_at": "2026-09-06",
+ "resolved_note": "grammar_point 3종은 is_candidate=false 로 승격(db/006), question_type 2종은 value_approved=true 로 승인(db/004·005). VERB_PERFECT 는 4개교 96문항 기출에 직접 나오지 않았으나 원장 판단 「결과적으로 언젠간 다룬다」로 승인됐다 — 기출 표본이 1회차뿐이라 '이번에 안 나왔다'를 '안 나온다'로 읽으면 안 된다는 것."
 }
