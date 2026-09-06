@@ -1,0 +1,482 @@
+{
+  "passage_id": "94f1ed6f-13eb-46f8-aca0-20014863e823",
+  "body_text_sha256": "b6fd3c9cd2112c400c492ab71e5084ee31fb3946c3aadfd6c66e717a98184acb",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 19,
+      "span_end": 40,
+      "surface": "was a Canadian doctor",
+      "sentence_no": 1,
+      "rationale": "인물 소개 도입문의 과거시제 be동사. 뒤 문장들(loved, helped, took, wrote)이 모두 과거이므로 is / has been 으로 바꾼 시제 불일치 오류를 심기 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 45,
+      "span_end": 75,
+      "surface": "loved Korean people and helped",
+      "sentence_no": 2,
+      "rationale": "등위접속사 and 로 과거동사 loved 와 helped 가 병렬. helping / helps 로 바꾼 병렬 파괴가 전형적 출제 형태",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 113,
+      "span_end": 129,
+      "surface": "took pictures of",
+      "sentence_no": 3,
+      "rationale": "take pictures of ~ (~의 사진을 찍다) 고정 결합. of 를 for / at 으로 바꾸거나 아예 삭제하는 전치사 문항으로 뚫기 쉬움",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 110,
+      "span_end": 152,
+      "surface": "He took pictures of the March 1st Movement",
+      "sentence_no": 3,
+      "rationale": "목적어(pictures)를 가진 능동태. was taken / was took 처럼 수동으로 뒤집거나 by 를 누락시킨 오답 선지를 만들 수 있는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 163,
+      "span_end": 182,
+      "surface": "an article about it",
+      "sentence_no": 3,
+      "rationale": "it 의 선행 명사는 단수 the March 1st Movement. 앞의 pictures 를 받는 것으로 착각하게 them / they 로 바꾼 수·격 오류 선지가 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 · 인물 정의",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "주제문 — 인물의 핵심 행적",
+      "signal": "and",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "구체적 사례 (주제문의 근거)",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "윗글의 (a), (b), (c) 각 네모 안에서 어법상 알맞은 것끼리 짝지은 것은?\n\nHe loved Korean people and (a)[helped / helping] the Korean independence movement. He (b)[took / was taken] pictures of the March 1st Movement and wrote an article about (c)[it / them].",
+      "answer_key": "①",
+      "explanation": "(a) and 앞의 loved 와 병렬이므로 과거동사 helped. helping 은 병렬이 깨진다. (b) 뒤에 목적어 pictures 가 있으므로 능동태 took 가 맞다. was taken 은 목적어를 남긴 잘못된 수동태. (c) 기사의 대상은 단수인 the March 1st Movement 이므로 it. them 은 복수 pictures 를 가리키게 되어 문맥에 맞지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) helped – (b) took – (c) it",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) helping – (b) took – (c) it",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) helped – (b) was taken – (c) it",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) helped – (b) took – (c) them",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_REL_ANTECEDENT",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "윗글의 내용을 옮긴 다음 글에서 밑줄 친 부분 중 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "④ take pictures of ~ 는 '~의 사진을 찍다'라는 고정 결합으로 전치사 of 가 반드시 필요하다. took pictures of the March 1st Movement 가 되어야 한다. 나머지는 지문 그대로이며 어법상 문제가 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Frank W. Schofield was a Canadian doctor.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He loved Korean people",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "and helped the Korean independence movement.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He took pictures the March 1st Movement",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "and wrote an article about it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "윗글의 흐름으로 보아 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "글 전체가 Schofield 가 한국인을 사랑하고 독립운동을 '도왔다'는 내용이므로 ③의 blocked(막았다)는 문맥과 정반대이다. helped 가 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Frank W. Schofield was a Canadian doctor.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He loved Korean people",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "and blocked the Korean independence movement.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He took pictures of the March 1st Movement",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "and wrote an article about it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "글은 캐나다인 의사 Frank W. Schofield 가 한국인을 사랑하고 독립운동을 도왔으며 3·1 운동을 사진과 기사로 알렸다는 내용이므로 ①이 주제이다. 3·1 운동의 원인이나 사진의 역사, 캐나다 신문 기사 자체는 다루지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a Canadian doctor who supported Korea's independence movement",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how Korean doctors were trained in Canada",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the causes of the March 1st Movement",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the history of photography in Korea",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "famous newspaper articles written in Canada",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about Frank W. Schofield according to the passage?",
+      "answer_key": "④",
+      "explanation": "지문에는 그가 3·1 운동의 '사진을 찍고 기사를 썼다'고만 나와 있을 뿐 군인으로 참여했다는 내용은 없다. ①②는 첫 문장, ③은 둘째 문장, ⑤는 셋째 문장에서 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "He was from Canada.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He worked as a doctor.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He loved Korean people.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He took part in the March 1st Movement as a soldier.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "He wrote an article about the March 1st Movement.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "PRON_AGREEMENT",
+      "stem": "윗글의 밑줄 친 it 이 가리키는 것으로 가장 알맞은 것은?  (He took pictures of the March 1st Movement and wrote an article about it.)",
+      "answer_key": "①",
+      "explanation": "it 은 단수 명사를 받는 대명사이므로 복수인 pictures 나 Korean people 을 가리킬 수 없고, 바로 앞의 단수 명사구 the March 1st Movement 를 가리킨다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "3·1 운동",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "그가 찍은 사진들",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "캐나다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "한국인들",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "그가 쓴 기사",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음은 윗글의 한 문장을 옮겨 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nHe took pictures of the March 1st Movement and writing an article about it.",
+      "answer_key": "writing → wrote",
+      "explanation": "등위접속사 and 로 연결된 두 동사는 형태가 같아야 한다. 앞의 took 가 과거시제 정동사이므로 뒤도 과거동사 wrote 가 되어야 한다. writing 은 정동사 자리에 온 준동사라 문장이 성립하지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "윗글의 내용과 일치하도록 <조건>에 맞게 영작하시오.\n\n우리말: 그는 3·1 운동의 사진을 찍고 그것에 관한 기사를 썼다.\n<조건> 1) take a picture 의 표현과 알맞은 전치사를 쓸 것  2) 두 동사를 and 로 병렬 연결하고 모두 과거시제로 쓸 것",
+      "answer_key": "He took pictures of the March 1st Movement and wrote an article about it.",
+      "explanation": "'~의 사진을 찍다'는 take pictures of ~ 로 전치사 of 가 필요하고, and 로 연결된 두 동사는 took–wrote 로 시제와 형태를 일치시켜야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 어구를 바르게 배열하시오.\n\n그는 한국인들을 사랑했고 한국 독립운동을 도왔다.\n[ the Korean independence movement / He / and / Korean people / helped / loved ]",
+      "answer_key": "He loved Korean people and helped the Korean independence movement.",
+      "explanation": "주어 He 뒤에 과거동사 loved + 목적어 Korean people 을 두고, and 로 같은 과거동사 helped + 목적어 the Korean independence movement 를 병렬 연결한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 3,
+    "tags_returned": 5,
+    "tags_kept": 5,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

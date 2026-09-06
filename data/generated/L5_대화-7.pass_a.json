@@ -1,0 +1,798 @@
+{
+  "passage_id": "bd5a996d-1f50-4e08-a71f-d93d4b4a990c",
+  "body_text_sha256": "dead0a15bcbea1e88f938e42efddc1b934b93c53d4e7d6f52bd17600e130e174",
+  "tags": [
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 29,
+      "span_end": 41,
+      "surface": "the best way",
+      "sentence_no": 2,
+      "rationale": "the + 최상급(best) 형태. good-better-best 불규칙 변화를 물어 the better way / the most best way 같은 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 42,
+      "span_end": 62,
+      "surface": "to get to Sebit Park",
+      "sentence_no": 2,
+      "rationale": "명사 way를 뒤에서 수식하는 to부정사(형용사적 용법). getting / get 으로 바꾼 선지와 구별해야 한다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 95,
+      "span_end": 112,
+      "surface": "you can get there",
+      "sentence_no": 4,
+      "rationale": "there는 부사이므로 앞에 전치사 to를 쓸 수 없다. get to there 형태의 오답을 심기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 113,
+      "span_end": 132,
+      "surface": "by bus or by subway",
+      "sentence_no": 4,
+      "rationale": "교통수단을 나타내는 by + 무관사 명사. on bus / by the subway / with bus 같은 오류를 유도할 수 있는 대표적 빈칸 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 138,
+      "span_end": 158,
+      "surface": "the subway is better",
+      "sentence_no": 4,
+      "rationale": "두 수단을 비교하는 비교급 better. more good / best 로 바꾼 오답, 또는 문맥상 worse 로 바꾼 어휘 오답이 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 167,
+      "span_end": 191,
+      "surface": "Which line should I take",
+      "sentence_no": 6,
+      "rationale": "조언을 구하는 should + 동사원형. should to take / should took 같은 형태 오류와, must/have to 와의 의미 차이를 물을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 196,
+      "span_end": 220,
+      "surface": "Take line 3, and get off",
+      "sentence_no": 7,
+      "rationale": "and로 연결된 두 명령문의 병렬. 두 번째를 getting off / to get off 로 바꿔 병렬을 깨는 오답이 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 221,
+      "span_end": 237,
+      "surface": "at Sebit Station",
+      "sentence_no": 7,
+      "rationale": "지점(역)을 나타내는 at. in / on 으로 바꾼 오답을 만들 수 있고, get off at 이라는 결합 자체도 빈칸 후보다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 279,
+      "span_end": 300,
+      "surface": "How long will it take",
+      "sentence_no": 9,
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it. 앞의 the subway를 받는 대명사로 오해해 they/that 으로 바꾸는 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 337,
+      "span_end": 351,
+      "surface": "Is it that far",
+      "sentence_no": 11,
+      "rationale": "부사 that(그렇게)이 far를 수식. so/such 와의 구별, that far 대신 that farly 같은 형태 오류를 물을 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 369,
+      "span_end": 400,
+      "surface": "why are you going to Sebit Park",
+      "sentence_no": 13,
+      "rationale": "가까운 미래의 계획을 나타내는 현재진행형. will go / went 로 바꾼 선지와 구별하는 시제 문항이 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 415,
+      "span_end": 435,
+      "surface": "there is an art fair",
+      "sentence_no": 14,
+      "rationale": "There + be 구문에서 뒤에 오는 단수 명사(an art fair)에 수를 맞춘 is. there are 로 바꾸는 수일치 오류가 전형적이다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 472,
+      "span_end": 483,
+      "surface": "if you want",
+      "sentence_no": 15,
+      "rationale": "조건 부사절에서는 미래 대신 현재시제를 쓴다. if you will want 로 바꾼 오답이 대표적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_FUTURE_IN_SUBORD",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 459,
+      "span_end": 471,
+      "surface": "come with me",
+      "sentence_no": 15,
+      "rationale": "동반을 나타내는 with + 목적격 대명사. come to me / with I 같은 오류를 유도할 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 567,
+      "span_end": 572,
+      "surface": "at 10",
+      "sentence_no": 20,
+      "rationale": "시각 앞에는 at. on 10 / in 10 으로 바꾼 오답이 가능한 빈칸 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문",
+      "signal": "the best way",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "확인반문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "해결책",
+      "signal": "but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "수용반응",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "추가질문",
+      "signal": "Which",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부정보",
+      "signal": "and",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "확인반복",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "추가질문",
+      "signal": "How long",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "세부정보",
+      "signal": "about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "놀람반응",
+      "signal": "that",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "확인응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "전환",
+      "signal": "Anyway",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "원인",
+      "signal": "there is",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "제안",
+      "signal": "if",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "관심표현",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "수락근거",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "수락",
+      "signal": "Let’s",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "동의",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "결론문",
+      "signal": "Let’s",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "위 대화의 (a)~(c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\n· What’s the best way (a)[get / to get] to Sebit Park from here?\n· Take line 3, and (b)[get / getting] off at Sebit Station.\n· You can come with me if you (c)[want / will want].",
+      "answer_key": "①",
+      "explanation": "(a) 명사 way를 뒤에서 수식하려면 to부정사 to get이 필요하다. (b) 앞의 명령문 Take와 and로 병렬되므로 동사원형 get이 맞다(getting은 병렬 파괴). (c) 조건 부사절에서는 미래시제 대신 현재시제를 쓰므로 want. 따라서 ①.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        6,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to get — (b) get — (c) want",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) get — (b) get — (c) want",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to get — (b) getting — (c) want",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to get — (b) get — (c) will want",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "③"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "위 대화의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "⑤ if가 이끄는 조건 부사절에서는 미래의 뜻이라도 will을 쓰지 않고 현재시제로 표현한다(if you want). ①의 to get은 way를 수식하는 to부정사, ②의 by bus/by subway는 교통수단의 by와 부사 there(전치사 불필요), ③은 and로 이어진 명령문 병렬, ④는 There + is + 단수명사 수일치로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        12,
+        1,
+        3,
+        6,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What’s the best way to get to Sebit Park from here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "you can get there by bus or by subway",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Take line 3, and get off at Sebit Station.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "there is an art fair this Saturday",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You can come with me if you will want.",
+          "is_answer": true,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "소미는 이어서 지하철 노선과 하차 역을 알려 주며 지하철을 권하고 있으므로, 지하철이 '더 나쁘다(worse)'는 말은 문맥에 어긋난다. better가 되어야 한다. 나머지 낱말은 길 묻기·하차·거리·일정 표현으로 모두 자연스럽다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What’s the best way to get to Sebit Park from here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "you can get there by bus or by subway, but the subway is worse",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Take line 3, and get off at Sebit Station.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Is it that far?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I’m free this Saturday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 밑줄 친 Is it that far?에 담긴 의도로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 소미가 '약 40분 걸린다'고 했고, that far는 '그렇게 멀리'라는 뜻이므로 예상보다 멀다는 데 놀라 되묻는 말이다. 요금·도보·노선·시간 변경은 대화에 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "40분이나 걸린다는 말에 거리가 그렇게 먼지 놀라며 확인하는 말",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "공원까지 걸어갈 수 있는지 물어보는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "지하철 요금이 비싼지 묻는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "3호선이 어디까지 가는지 확인하는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "약속 시간을 늦추자고 제안하는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "Liam이 Sebit Park에 가는 방법을 묻고 소미가 지하철 3호선과 소요 시간을 알려 준 뒤, 토요일 미술 박람회에 함께 가기로 약속하는 대화이므로 ①이 주제다. 요금 비교, 온라인 예매, 관광지 추천, 지각 이유는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how to get to Sebit Park and a plan to go there together",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the reason why the subway is always cheaper than the bus",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "how to buy tickets for an art fair online",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best places to visit in the city on weekends",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "why Liam was late for the art class last Saturday",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "소미는 'the subway is better'라고 하여 지하철을 권했으므로 버스가 더 낫다는 ②는 일치하지 않는다. ①은 [2], ③은 [7], ④는 [10], ⑤는 [18][20]에서 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Liam wants to know how to get to Sebit Park.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Somi says taking the bus is better than taking the subway.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Liam has to get off at Sebit Station on line 3.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It takes about 40 minutes to get to the park.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Somi and Liam will meet at 10 to go to the art fair.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nG: Well, you can get there by bus or by subway, but ____________.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤에서 소미가 3호선을 타고 Sebit역에서 내리라고 지하철 이용법을 안내하므로, but 다음에는 지하철이 더 낫다는 내용이 와야 한다. ②③④는 소미의 안내와 모순되고, ⑤는 3호선을 타라는 조언과 정반대다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "the subway is better",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the bus is much faster",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "walking is the best way",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "you should take a taxi",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "line 3 is closed today",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n여기서 Sebit 공원에 가는 가장 좋은 방법은 무엇이니?\n( best / from / get / here / Sebit Park / the / to / to / way / What’s )",
+      "answer_key": "What’s the best way to get to Sebit Park from here?",
+      "explanation": "'가장 좋은 방법'은 the best way, 이를 뒤에서 수식하는 to부정사 to get, 목적지 앞의 to Sebit Park, 그리고 장소 부사구 from here 순으로 배열한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "소미가 Liam의 질문 How long will it take?에 답하는 말을 <조건>에 맞게 영작하시오.\n\n[내용] 약 40분 걸릴 것이다.\n<조건> 1) 비인칭 주어 it과 동사 take를 사용할 것  2) about과 40 minutes를 사용할 것  3) 미래시제로 쓸 것",
+      "answer_key": "It’ll take about 40 minutes. (= It will take about 40 minutes.)",
+      "explanation": "소요 시간을 말할 때는 비인칭 주어 it을 쓰고 동사는 take를 쓴다. 미래시제이므로 will take(축약형 It’ll take)로 쓰고, '약'은 about으로 표현한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음은 위 대화의 일부이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nG: Take line 3, and getting off at Sebit Station.",
+      "answer_key": "getting off → get off",
+      "explanation": "and로 연결된 두 부분은 문법적으로 같은 형태여야 한다. 앞이 명령문 Take(동사원형)이므로 뒤도 동사원형 get off가 되어야 병렬이 성립한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 문장에서 전치사가 잘못 쓰인 부분을 찾아 바르게 고쳐 쓰시오.\n\nG: Well, you can get there on bus or on subway, but the subway is better.",
+      "answer_key": "on bus or on subway → by bus or by subway",
+      "explanation": "교통수단을 나타낼 때는 by + 무관사 명사(by bus, by subway)를 쓴다. on을 쓰려면 on the bus처럼 관사가 필요하므로 여기서는 by가 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 20,
+    "tags_returned": 15,
+    "tags_kept": 15,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "③"
+        ]
+      }
+    ]
+  }
+}

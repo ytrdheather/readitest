@@ -1,0 +1,447 @@
+{
+  "passage_id": "a6b1ec9f-a52c-42ce-8536-66676b05225f",
+  "body_text_sha256": "dfba7b0adfdbaf5ba6bd233d020aac0042305565f6c4bc8d231fb9ea27208713",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 18,
+      "span_end": 26,
+      "surface": "comes in",
+      "sentence_no": 1,
+      "rationale": "'~한 형태로 나오다/존재하다'를 뜻하는 come in + 명사. 굳어진 표현이라 전치사가 눈에 안 들어오지만 [in / on / with] 형태의 빈칸으로 뚫기 가장 쉬운 자리. on/at 오답 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 56,
+      "span_end": 77,
+      "surface": "makes cities colorful",
+      "sentence_no": 1,
+      "rationale": "make + 목적어(cities) + 목적격보어. 보어 자리이므로 형용사 colorful 이 맞고 부사 colorfully 는 불가. 동사 makes 뒤라서 부사로 바꾸는 오류(EI_ADJ_TO_ADV)를 심기 쉬운 대표 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE",
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 122,
+      "span_end": 132,
+      "surface": "well-known",
+      "sentence_no": 2,
+      "rationale": "명사 street artworks 를 앞에서 수식하는 과거분사형 복합형용사. '널리 알려진'은 수동 의미이므로 well-knowing 으로 뒤집는 EI_PARTICIPLE_FLIP 오답 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "주제문 (현대 거리 예술의 다양성과 그 효과)",
+      "signal": "and",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입·전환 (앞으로 다룰 대상 예고)",
+      "signal": "Today",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음은 위 지문이다. (a), (b), (c)에 들어갈 말로 가장 적절한 것을 고르시오.\n\nModern street art comes (a)[in / on] many different forms, and it makes cities (b)[colorful / colorfully] and lively. Today, we are going to see some (c)[well-known / well-knowing] street artworks in London.",
+      "answer_key": "①",
+      "explanation": "(a) '~한 형태로 나오다'는 come in ~ 이 고정 표현이므로 in. (b) make + 목적어 + 목적격보어 구조에서 보어 자리에는 형용사가 오므로 colorful (부사 colorfully 불가). (c) '널리 알려진'은 수동의 의미이므로 과거분사형 복합형용사 well-known 이 맞고 well-knowing 은 틀림.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) in — (b) colorful — (c) well-known",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) on — (b) colorful — (c) well-known",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) in — (b) colorfully — (c) well-known",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) in — (b) colorful — (c) well-knowing",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 글의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nModern street art ①comes in many different forms, and it ②makes cities ③colorfully and lively. Today, we ④are going to see some ⑤well-known street artworks in London.",
+      "answer_key": "③",
+      "explanation": "③ makes 의 목적격보어 자리이므로 형용사 colorful 이어야 한다. 뒤의 lively(형용사)와 병렬을 이루는 점에서도 부사 colorfully 는 불가하다. ① come in ~ '~한 형태로 존재하다'로 전치사 in 이 맞고, ② 주어 it 에 맞는 3인칭 단수 makes, ④ Today 와 어울리는 가까운 미래 표현 be going to, ⑤ '널리 알려진'의 과거분사형 well-known 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "comes in",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "makes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "colorfully",
+          "is_answer": true,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "are going to see",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "well-known",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 글의 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것을 고르시오.\n\nModern street art comes in many different ①forms, and it makes cities ②colorful and ③dull. Today, we are going to see some ④well-known street artworks in ⑤London.",
+      "answer_key": "③",
+      "explanation": "거리 예술이 도시를 '다채롭고(colorful)' 만든다는 긍정적 흐름이므로 ③에는 '활기찬'을 뜻하는 lively 가 와야 한다. dull(지루한, 활기 없는)은 앞의 colorful 과 모순되어 문맥상 부적절하다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "forms",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "colorful",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "dull",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "well-known",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "[1]에서 현대 거리 예술이 여러 형태로 존재하며 도시를 다채롭고 활기차게 만든다고 했고, [2]에서 런던의 유명한 거리 예술 작품을 살펴보자고 예고한다. 따라서 거리 예술의 다양한 형태와 도시에 주는 영향이 주제이다. 낙서의 문제점(④)이나 미술관 회화의 역사(②)는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "the various forms of modern street art and its effect on cities",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the history of painting in European museums",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best way to become a professional artist in London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the problems caused by illegal graffiti on city walls",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the reason why people move to big cities",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "[1] 'comes in many different forms'와 일치하므로 ①이 정답. ②는 colorful and lively 와 반대이고, ③은 London 이므로 틀리며, ④는 many different forms 와 모순, ⑤는 well-known(널리 알려진)과 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Modern street art exists in many different forms.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Modern street art makes cities look boring and gray.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The writer will introduce street artworks in New York.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Only one style of street art is popular today.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The street artworks in London are not known to people.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 글의 밑줄 친 comes in many different forms 의 의미로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "come in ~ 은 '(제품·사물이) ~한 형태·크기·색으로 나온다, 존재한다'는 뜻이다. 따라서 '거리 예술은 다양한 형태로 나타난다'는 의미이며, form 을 '신청서'로 본 ③이나 수입·규칙과 연결한 ②·⑤는 문맥과 무관하다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "다양한 형태(모습)로 나타난다",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "여러 나라에서 수입된다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "많은 신청서를 작성해야 한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "자주 형태가 바뀌어 알아보기 어렵다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "정해진 규칙에 따라 그려진다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 문장에서 어법상 틀린 부분 한 군데를 찾아 바르게 고쳐 쓰시오.\n\nModern street art comes in many different forms, and it makes cities colorfully and lively.",
+      "answer_key": "colorfully → colorful",
+      "explanation": "make + 목적어 + 목적격보어 구조에서 보어 자리에는 형용사가 온다. 또한 and 뒤의 lively 가 형용사이므로 병렬을 맞추어 colorful 로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n현대의 거리 예술은 많은 다양한 형태로 나타난다.\n(art / comes / different / forms / in / many / modern / street)",
+      "answer_key": "Modern street art comes in many different forms.",
+      "explanation": "주어 Modern street art + 동사 comes + 전치사구 in many different forms 순서로 배열한다. '~한 형태로 나타나다'는 come in ~ 이므로 전치사 in 을 반드시 forms 앞에 둔다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n오늘, 우리는 런던에 있는 몇몇 유명한 거리 예술 작품을 볼 것이다.\n<조건> 1) be going to 를 사용할 것  2) '유명한'은 well-known 을 사용할 것  3) 지문의 어순을 그대로 따를 것",
+      "answer_key": "Today, we are going to see some well-known street artworks in London.",
+      "explanation": "가까운 미래 계획은 be going to + 동사원형(see)으로 쓴다. '널리 알려진'은 수동의 의미이므로 과거분사형 복합형용사 well-known 을 명사 street artworks 앞에 두어야 하며 well-knowing 은 쓸 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 2,
+    "tags_returned": 3,
+    "tags_kept": 3,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

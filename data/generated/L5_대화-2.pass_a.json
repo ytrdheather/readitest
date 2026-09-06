@@ -1,0 +1,547 @@
+{
+  "passage_id": "db001e26-66ba-48a9-ba48-014b193b2d21",
+  "body_text_sha256": "14d962013893391b118016ddfa0ef0c3e54a956fe79d0777ac7edd6e17397e23",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 28,
+      "span_end": 49,
+      "surface": "get to the Sky Cinema",
+      "sentence_no": 1,
+      "rationale": "'~에 도착하다'는 get to + 장소. 전치사 to를 빼거나 in/at으로 바꾸는 오류(get the Sky Cinema / get in the Sky Cinema)를 유도할 수 있는 자리. 빈칸 뚫기 가장 쉬운 전치사.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 22,
+      "span_end": 31,
+      "surface": "can I get",
+      "sentence_no": 1,
+      "rationale": "조동사 can 뒤에는 동사원형. can I getting / can I to get 같은 형태 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 54,
+      "span_end": 66,
+      "surface": "It’s not far",
+      "sentence_no": 2,
+      "rationale": "거리를 나타내는 비인칭 주어 it. There is not far / That's not far 로 바꾸는 오류, 또는 it의 지시대상을 묻는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 77,
+      "span_end": 95,
+      "surface": "a little difficult",
+      "sentence_no": 2,
+      "rationale": "형용사 difficult를 수식하는 정도 표현 a little. a few difficult / a little difficulty 처럼 수식 대상 혼동을 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 86,
+      "span_end": 103,
+      "surface": "difficult to find",
+      "sentence_no": 2,
+      "rationale": "'형용사 + to부정사' 구문. difficult finding / difficult for find 처럼 동명사·전치사구로 바꾸는 오류가 전형적으로 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 105,
+      "span_end": 123,
+      "surface": "Why don’t you take",
+      "sentence_no": 3,
+      "rationale": "제안 표현 Why don't you + 동사원형. Why don't you to take / Why don't you taking 오류 유도. 같은 뜻의 How about taking ~? 과의 형태 대비도 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "RU_FORMAT_RECAST"
+      ]
+    },
+    {
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 139,
+      "span_end": 160,
+      "surface": "How long will it take",
+      "sentence_no": 5,
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it. How long will you take / How long does it spend 같은 혼동을 유도할 수 있고, it의 지시대상을 묻기 좋다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 148,
+      "span_end": 160,
+      "surface": "will it take",
+      "sentence_no": 5,
+      "rationale": "미래 표현 will + 동사원형. will it takes / will it took 처럼 수일치·시제 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 165,
+      "span_end": 173,
+      "surface": "By taxi?",
+      "sentence_no": 6,
+      "rationale": "교통수단을 나타내는 by + 무관사 명사. by a taxi / with taxi / on taxi 오류를 유도하는 굳어진 전치사구.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 — 길 묻기",
+      "signal": "how can I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "정보 제공 — 거리와 문제점 제시",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "해결책 제안",
+      "signal": "Why don’t you",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "수락",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "추가질문 — 소요 시간",
+      "signal": "How long",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "확인 질문 — 조건 명시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "결과 요약 — 소요 시간 답변",
+      "signal": "About",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\nB: I’m sorry, but how can I (a)[get / getting] to the Sky Cinema?\nG: It’s not far, but it’s a little difficult (b)[to find / finding].\n   Why don’t you (c)[take / to take] a taxi?\nB: OK. How long will it take?",
+      "answer_key": "①",
+      "explanation": "(a) 조동사 can 뒤에는 동사원형이므로 get. (b) '형용사 + to부정사' 구문이므로 difficult to find. (c) 제안 표현 Why don’t you 뒤에도 동사원형이 오므로 take. ②는 can 뒤 -ing, ③은 형용사 뒤 동명사, ④는 Why don’t you 뒤 to부정사가 각각 틀렸다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) get — (b) to find — (c) take",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) getting — (b) to find — (c) take",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) get — (b) finding — (c) take",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) get — (b) to find — (c) to take",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 대화의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nB: I’m sorry, but ① how can I get to the Sky Cinema?\nG: It’s not far, but it’s ② a little difficult finding.\n   ③ Why don’t you take a taxi?\nB: OK. ④ How long will it take?\nG: ⑤ By taxi? About 20 minutes.",
+      "answer_key": "②",
+      "explanation": "②는 '형용사 + to부정사' 구문이 필요한 자리이므로 finding을 to find로 고쳐야 한다(a little difficult to find). ①의 get to(~에 도착하다), ③의 Why don’t you + 동사원형, ④의 will + 동사원형 및 소요 시간의 비인칭 it, ⑤의 by + 무관사 교통수단은 모두 어법상 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        0,
+        5,
+        6,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how can I get to",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "a little difficult finding",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Why don’t you take",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "How long will it take",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "By taxi?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "대화 중 밑줄 친 It(it)의 쓰임이 나머지와 다른 것을 고르시오.\n\nG: ① It’s not far, but ② it’s a little difficult to find.\nB: How long will ③ it take?\nG: About 20 minutes. ④ It’s a very famous cinema, so you’ll find it easily.",
+      "answer_key": "④",
+      "explanation": "①은 거리, ②는 그곳(가는 길)에 대한 상황, ③은 소요 시간을 나타내는 비인칭·상황 주어 it이다. ④의 It은 Sky Cinema라는 구체적인 대상을 가리키는 대명사이므로 쓰임이 다르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "It’s not far",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "it’s a little difficult to find",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "How long will it take?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It’s a very famous cinema",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "RU_FORMAT_RECAST",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "대화의 밑줄 친 How long will it take?가 뜻하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "take는 여기서 '(시간이) 걸리다'의 뜻이고 it은 소요 시간을 나타내는 비인칭 주어이다. 바로 뒤 G의 답 About 20 minutes.가 시간임을 확인해 준다. ②는 요금(How much), ③은 거리(How far), ④는 상영 시간에 대한 질문이므로 알맞지 않다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "택시를 타면 (거기까지) 시간이 얼마나 걸리나요?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "택시 요금은 얼마나 드나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "그 영화관은 얼마나 멀리 있나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "영화는 몇 시간 동안 상영되나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which of the following is true about the dialogue?",
+      "answer_key": "①",
+      "explanation": "①은 첫 문장 how can I get to the Sky Cinema?와 일치한다. ②는 It’s not far와 반대이고, ③은 take a taxi(택시)를 제안했으므로 틀렸으며, ④는 About 20 minutes.와 어긋난다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy wants to know how to get to the Sky Cinema.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The Sky Cinema is very far from where they are talking.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl tells the boy to take a bus.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It takes about two hours to get there by taxi.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
+      "answer_key": "①",
+      "explanation": "소년은 Sky Cinema에 가는 방법을 묻고, 소녀는 택시를 제안하며 소요 시간(About 20 minutes)을 알려 준다. 즉 길 안내와 소요 시간이 대화의 중심 내용이다. 영화 선택·택시 요금·예약 방법은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "How to get to a place and how long it takes",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Which movie they will watch at the cinema",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Why taxi fares are getting more expensive",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "How to make a reservation for a taxi",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (물음표 포함)\n\n(시간이) 얼마나 오래 걸릴까요?\n[ it / long / take / will / how ]",
+      "answer_key": "How long will it take?",
+      "explanation": "소요 시간을 묻는 표현은 비인칭 주어 it을 쓰고, 의문사구 How long + 조동사 will + 주어 it + 동사원형 take 순서로 배열한다. takes(수일치 오류)나 How far로 바꾸면 안 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 상황에서 소녀가 할 말을 조건에 맞게 영작하시오.\n\n[상황] 소녀는 Sky Cinema를 찾기 어렵다고 말한 뒤, 택시를 타라고 제안한다.\n[조건] 1) Why don’t you ~? 형태의 제안문으로 쓸 것  2) take, a taxi를 사용할 것  3) 총 6단어로 쓸 것 (물음표 제외)",
+      "answer_key": "Why don’t you take a taxi?",
+      "explanation": "제안 표현 Why don’t you 뒤에는 반드시 동사원형이 오므로 take를 그대로 쓴다. to take나 taking으로 쓰면 조건과 어법 모두에 어긋난다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 위 대화의 일부를 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nG: It’s not far, but it’s a little difficult finding.",
+      "answer_key": "finding → to find",
+      "explanation": "'~하기에 (조금) 어렵다'는 「형용사 + to부정사」로 쓰므로 difficult 뒤에는 동명사 finding이 아니라 to find가 와야 한다. It’s not far와 a little difficult는 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 대화에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nB: How long will it take?\nG: With a taxi? About 20 minutes.",
+      "answer_key": "With a taxi → By taxi",
+      "explanation": "교통수단을 나타낼 때는 「by + 관사 없는 명사」를 쓰므로 With a taxi가 아니라 By taxi가 되어야 한다. 수단을 뜻하더라도 교통수단에는 with를 쓰지 않으며 관사도 붙이지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 7,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

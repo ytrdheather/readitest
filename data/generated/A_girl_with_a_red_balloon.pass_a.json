@@ -1,0 +1,827 @@
+{
+  "passage_id": "a8f6cb05-0cd0-4106-a32e-cbf42721ffa6",
+  "body_text_sha256": "f97dfd14789b97839d764c005674e96f94f2c64beb6a25796a3850119bd6879f",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_PERFECT",
+      "span_start": 0,
+      "span_end": 18,
+      "surface": "Have you ever seen",
+      "sentence_no": 1,
+      "rationale": "현재완료 경험 용법(ever와 호흡). Did you ever see / Have you ever saw 같은 형태 오류를 유도할 수 있는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 63,
+      "span_end": 84,
+      "surface": "was painted by Banksy",
+      "sentence_no": 2,
+      "rationale": "주어 It(그림)이 그려지는 대상이므로 수동태. painted / was painting / was painted by 누락 등으로 변형 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 141,
+      "span_end": 163,
+      "surface": "are known for carrying",
+      "sentence_no": 3,
+      "rationale": "be known for(~로 유명하다) 고정 결합. be known as / be known to 와 혼동 유도, 전치사 삭제도 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 151,
+      "span_end": 179,
+      "surface": "for carrying social messages",
+      "sentence_no": 3,
+      "rationale": "전치사 for의 목적어이므로 동명사 carrying. to carry / carry 로 바꾸는 오류 선지가 흔하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 221,
+      "span_end": 232,
+      "surface": "Even though",
+      "sentence_no": 4,
+      "rationale": "뒤에 절(he is ~)이 오므로 접속사 Even though. Despite / In spite of + 명사구와 구별하는 전형적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 239,
+      "span_end": 265,
+      "surface": "internationally well-known",
+      "sentence_no": 4,
+      "rationale": "형용사 well-known을 수식하므로 부사 internationally. international well-known 처럼 형용사로 바꾸는 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 267,
+      "span_end": 279,
+      "surface": "nobody knows",
+      "sentence_no": 4,
+      "rationale": "부정대명사 nobody는 단수 취급 → knows. nobody know 로 수일치를 깨는 오류 선지 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 308,
+      "span_end": 327,
+      "surface": "adds to his mystery",
+      "sentence_no": 4,
+      "rationale": "add to(~를 더하다/키우다)의 고정 전치사. add 만 남기거나 add on 으로 바꾸는 변형이 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 337,
+      "span_end": 355,
+      "surface": "appears on streets",
+      "sentence_no": 5,
+      "rationale": "표면 접촉을 나타내는 on. in / at 과 짝짓는 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 377,
+      "span_end": 397,
+      "surface": "and is often created",
+      "sentence_no": 5,
+      "rationale": "주어 His art에 대한 두 술어 appears ~ and is created 의 병렬. and being created / and often creating 으로 병렬을 깨는 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 381,
+      "span_end": 416,
+      "surface": "is often created without permission",
+      "sentence_no": 5,
+      "rationale": "작품이 만들어지는 대상이므로 수동. often creates / is often creating 형태 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 437,
+      "span_end": 477,
+      "surface": "is one of Banksy’s most well-known works",
+      "sentence_no": 6,
+      "rationale": "주어는 작품명 Girl with Balloon(단수)이고 one of + 복수명사가 뒤따라 are 로 잘못 고치기 쉬운 수일치 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 479,
+      "span_end": 501,
+      "surface": "It originally appeared",
+      "sentence_no": 7,
+      "rationale": "appear는 목적어를 갖지 않는 자동사로 수동태 불가. was appeared 로 만드는 함정 선지가 대표적.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_INTRANS_PASSIVIZED"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 663,
+      "span_end": 685,
+      "surface": "is reaching out toward",
+      "sentence_no": 9,
+      "rationale": "reach out toward(~쪽으로 손을 뻗다)의 전치사. reach out to / for, 혹은 전치사 삭제와 구별하는 빈칸 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 754,
+      "span_end": 770,
+      "surface": "According to one",
+      "sentence_no": 11,
+      "rationale": "according to(~에 따르면)의 굳어진 전치사구. According with / By 로 바꾸는 빈칸 출제가 잦다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_WHAT_VS_THAT",
+      "span_start": 813,
+      "span_end": 837,
+      "surface": "everything it represents",
+      "sentence_no": 11,
+      "rationale": "선행사 everything이 있으므로 목적격 관계대명사 that(생략)이며 what은 불가. everything what it represents 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 875,
+      "span_end": 905,
+      "surface": "If you think about it that way",
+      "sentence_no": 12,
+      "rationale": "조건 부사절에서는 미래 대신 현재시제. if you will think 로 바꾸는 전형적 오류 선지.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_FUTURE_IN_SUBORD"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 920,
+      "span_end": 934,
+      "surface": "can be seen as",
+      "sentence_no": 12,
+      "rationale": "조동사 + be + p.p. 수동. can see / can be seeing / can been seen 형태 오류를 심을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 935,
+      "span_end": 966,
+      "surface": "a symbol of losing those things",
+      "sentence_no": 12,
+      "rationale": "전치사 of의 목적어이므로 동명사 losing. to lose / lose 로 바꾸는 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 978,
+      "span_end": 995,
+      "surface": "is simple but has",
+      "sentence_no": 13,
+      "rationale": "but으로 이어진 두 술어 is ~ / has ~ 의 병렬. but having / but to have 로 병렬을 깨는 변형이 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 1035,
+      "span_end": 1061,
+      "surface": "why so many people like it",
+      "sentence_no": 14,
+      "rationale": "이유(the reason)를 나타내는 관계부사 why. which / because 와 구별하는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경정보(작가 소개)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "정의(작품 특징)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "대조 부연(유명함 vs 익명성)",
+      "signal": "Even though",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "범위(작품이 놓이는 장소·방식)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "전환(대표작 소개)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부사실(최초 등장 장소·시기)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "반전 보충(연작의 일부)",
+      "signal": "However",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "세부묘사(그림 내용)",
+      "signal": "In this artwork",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "화제제시(해석의 다양성)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "해석 예시(상징 설명)",
+      "signal": "According to one",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "해석의 결과 정리",
+      "signal": "If",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 13,
+      "role": "주제문(단순함과 강한 정서적 힘)",
+      "signal": "but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 14,
+      "role": "결론문(인기의 이유)",
+      "signal": "That may be why",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문의 밑줄 친 부분을 아래와 같이 옮겼을 때, 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "appear는 목적어를 취하지 않는 자동사여서 수동태(was appeared)로 쓸 수 없다. 원문대로 It originally appeared 가 옳다. ①은 be known for + 동명사, ②는 절을 이끄는 접속사 Even though와 nobody(단수)+knows, ③은 appears와 is created의 병렬, ⑤는 선행사 everything 뒤 목적격 관계대명사 that이 생략된 형태로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        4,
+        9,
+        12,
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "His artworks are known for carrying social messages",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Even though he is internationally well-known, nobody knows his real identity",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "His art appears on streets, walls, and bridges, and is often created without permission",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It originally was appeared on a wall in London’s South Bank",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the red balloon symbolizes childhood and everything it represents",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "지문의 (a)~(c) 자리에 들어갈 어형으로 알맞게 짝지어진 것은?\n(3) His artworks are known for (a)[carry] social messages ...\n(12) If you (b)[think] about it that way, the painting can be seen as a symbol of losing those things.\n(13) The image is simple but (c)[have] a strong emotional impact.",
+      "answer_key": "③",
+      "explanation": "(a) 전치사 for의 목적어이므로 동명사 carrying (to carry·carry 불가). (b) if가 이끄는 조건 부사절에서는 미래를 현재시제로 쓰므로 think. (c) but으로 is와 병렬되는 정동사가 필요하고 주어가 The image(단수)이므로 has. 따라서 ③.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        16,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) carry — (b) think — (c) has",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) carrying — (b) will think — (c) has",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) carrying — (b) think — (c) has",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) carrying — (b) think — (c) having",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) to carry — (b) think — (c) has",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 지문 [7]번 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 고쳐 쓰시오.\nIt originally was appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s.",
+      "answer_key": "was appeared → appeared",
+      "explanation": "appear는 목적어를 갖지 않는 자동사이므로 수동태로 쓸 수 없다. 과거 사실이므로 능동 과거형 appeared로 고친다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        12
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n우리말: 그의 예술은 거리, 벽, 그리고 다리에 나타나며, 흔히 허락 없이 만들어진다.\n<조건> 1) appear, create, without permission을 모두 사용할 것 2) and로 두 술어를 병렬로 연결하고 뒤 술어는 수동태로 쓸 것 3) 주어는 His art로 시작할 것",
+      "answer_key": "His art appears on streets, walls, and bridges, and is often created without permission.",
+      "explanation": "주어 His art에 대해 자동사 appears(능동)와 수동태 is created를 and로 병렬 연결한다. 장소 앞에는 접촉의 on을 쓰고, 뒤 술어를 being created나 creating으로 쓰면 병렬이 깨진다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        9,
+        10
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 모두 배열하시오.\n우리말: 그것이 아마도 그토록 많은 사람들이 그것을 좋아하는 이유일 것이다.\n주어진 말: ( it / why / that / like / be / so many people / may )",
+      "answer_key": "That may be why so many people like it.",
+      "explanation": "「That may be + 관계부사 why + 절」 구조로, why 앞에 the reason이 생략된 형태다. 이유를 나타내므로 which가 아니라 why를 써야 하며, so many people이 why절의 주어가 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        20
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "지문의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "원문은 The image is simple but has a strong emotional impact. 즉 '단순하지만 강한 정서적 힘을 지닌다'는 대조 구조다. complex(복잡한)로 바꾸면 but으로 연결되는 대조가 성립하지 않고 글의 요지와도 어긋난다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "His artworks are known for carrying social messages about issues such as war and inequality.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The image is complex but has a strong emotional impact.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "His art appears on streets, walls, and bridges, and is often created without permission.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 a symbol of losing those things가 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞 문장에서 빨간 풍선이 childhood와 그것이 대변하는 innocence, dreams, hope를 상징한다고 했으므로 those things는 이 가치들을 가리킨다. 따라서 그것을 '잃는 것'의 상징이라는 뜻이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        18,
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "순수함과 꿈, 희망 같은 어린 시절의 가치를 잃어버리는 것을 상징한다",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "작가가 자신의 실제 신분을 숨기려 한다는 것을 상징한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "거리 예술이 허락 없이 지워질 수 있다는 것을 상징한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "전쟁과 불평등이 곧 끝날 것이라는 희망을 상징한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "연작의 나머지 그림들이 사라졌다는 사실을 상징한다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "글은 Banksy를 소개한 뒤 대표작 Girl with Balloon의 등장 배경과 그림에 대한 해석, 그리고 단순하지만 강한 정서적 힘 때문에 사랑받는다는 점을 말한다. 따라서 ①이 주제다. ②③④⑤는 지문에 언급된 소재를 이용한 세부·무관 진술이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Banksy's Girl with Balloon and the meanings people find in it",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how street artists get permission to paint on public walls",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the history of bridges in London's South Bank area",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "why war and inequality should be taught in art classes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the best ways to discover an artist's real identity",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하지 않는 것은?",
+      "answer_key": "③",
+      "explanation": "[8]에서 it is actually part of a series of paintings 라고 했으므로 단독 작품이라는 ③은 일치하지 않는다. ①은 [2]·[4], ②는 [3], ④는 [7], ⑤는 [9]와 일치한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        12,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Banksy is a street artist from the UK whose real identity is unknown.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "His works often deal with social issues like war and inequality.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Girl with Balloon is a single, independent work, not part of any series.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The work first appeared under Waterloo Bridge in the early 2000s.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "In the artwork, a small child reaches out toward a red balloon.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 적절한 것은?\nThe image is simple but ______. That may be why so many people like it.",
+      "answer_key": "①",
+      "explanation": "뒤 문장에서 '그래서 많은 사람이 좋아한다'고 했으므로 단순함과 대조되면서 인기의 이유가 되는 내용, 즉 강한 정서적 힘이 들어가야 한다. ③④⑤는 각각 [4]의 익명성, [10]의 다양한 해석, [5]의 허락 없이 제작된다는 내용과 정면으로 어긋난다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        19,
+        20
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "has a strong emotional impact",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "needs expert knowledge to enjoy",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "reveals the artist's real identity",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "allows only one correct interpretation",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "was painted with the city's permission",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 14,
+    "tags_returned": 21,
+    "tags_kept": 21,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

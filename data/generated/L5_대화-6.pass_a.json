@@ -1,0 +1,641 @@
+{
+  "passage_id": "575b794e-c497-435b-92d5-f7b097c222e4",
+  "body_text_sha256": "7df514d57c61d970d6aa8504b36997fdb964716d2afe267e5946c777733e76af",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 24,
+      "span_end": 43,
+      "surface": "get to Seoul Museum",
+      "sentence_no": 1,
+      "rationale": "'~에 도착하다'는 get to + 장소. 전치사 to를 빼거나(get Seoul Museum) at/in으로 바꾸는 오류를 유도할 수 있는 자리. 길묻기 표현의 핵심 결합이라 빈칸 출제 빈도가 매우 높다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 44,
+      "span_end": 53,
+      "surface": "from here",
+      "sentence_no": 1,
+      "rationale": "출발점을 나타내는 from. 굳어진 부사구라 눈에 잘 안 들어오지만 [from / at / of] here 형태로 전치사만 빈칸 처리하기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 80,
+      "span_end": 89,
+      "surface": "get there",
+      "sentence_no": 3,
+      "rationale": "there는 부사이므로 앞에 to를 쓰지 않는다(get to there 오류). 앞 문장의 get to Seoul Museum과 대조시켜 to의 유무를 묻는 함정이 만들어진다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 90,
+      "span_end": 96,
+      "surface": "by bus",
+      "sentence_no": 3,
+      "rationale": "교통수단을 나타내는 by + 무관사 명사. [by / with / on] bus, by a bus 같은 오류를 유도할 수 있는 대표적 전치사 빈칸 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 90,
+      "span_end": 109,
+      "surface": "by bus or by subway",
+      "sentence_no": 3,
+      "rationale": "or로 연결된 두 전치사구가 같은 형태로 병렬. by subway를 subway를 타고(taking subway)처럼 형태가 다른 어구로 바꿔 병렬을 깨는 변형이 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 114,
+      "span_end": 129,
+      "surface": "Which is faster",
+      "sentence_no": 4,
+      "rationale": "둘 중 하나를 고르는 비교이므로 비교급 faster. more faster(이중 비교급)나 fastest(최상급)로 바꾸는 오류를 심기 가장 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 162,
+      "span_end": 187,
+      "surface": "I think the bus is faster",
+      "sentence_no": 5,
+      "rationale": "think의 목적어절을 이끄는 접속사 that이 생략된 구조. that/what 선택을 묻거나 that 삽입 가능 여부를 묻는 변형이 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 170,
+      "span_end": 187,
+      "surface": "the bus is faster",
+      "sentence_no": 5,
+      "rationale": "than 없이 쓰인 비교급. more fast / most faster 같은 형태 오류나 원급 fast로 바꾸는 변형이 가능하고, 문맥상 slower로 바꾸면 어휘추론 함정이 된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 206,
+      "span_end": 223,
+      "surface": "I’ll take the bus",
+      "sentence_no": 7,
+      "rationale": "즉석에서 결정한 일을 말하는 will. 과거시제(took)나 현재시제(take)로 바꾸면 대화 흐름과 시제가 어긋난다. take a bus/ride the bus 등 동사 선택과 함께 물을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 (길 묻기)",
+      "signal": "Excuse me",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "되묻기 (확인)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "정보제공 (교통수단 범위 제시)",
+      "signal": "or",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "비교질문 (추가 정보 요청)",
+      "signal": "Which",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "핵심답변 (판단 제시)",
+      "signal": "I think",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "반응 (확인)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "결론문 (결정)",
+      "signal": "Then",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nB: Excuse me, how can I get (a)_____ Seoul Museum from here?\nG: You can get there (b)_____ bus or by subway.\nB: Which is (c)_____, the bus or the subway?",
+      "answer_key": "①",
+      "explanation": "(a) '~에 도착하다'는 get to + 장소이므로 to. at은 get at으로 쓰이지 않는다. (b) 교통수단은 by + 무관사 명사(by bus)로 나타내며 with는 도구·수단이라도 교통수단에는 쓰지 않는다. (c) 버스와 지하철 둘 중 하나를 고르는 비교이므로 비교급 faster가 맞고, fastest(최상급)나 more faster(이중 비교급)는 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to  (b) by  (c) faster",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) at  (b) by  (c) faster",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to  (b) with  (c) faster",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to  (b) by  (c) fastest",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) to  (b) by  (c) more faster",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "③"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "위 대화의 문장을 옮긴 것 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④ fast의 비교급은 faster이므로 앞에 more를 다시 붙일 수 없다(이중 비교급). the bus is faster가 옳다. ①은 get to + 장소, ②는 there가 부사이므로 to 없이 get there, ③은 둘을 비교하는 비교급 faster, ⑤는 즉석 결정을 나타내는 will로 모두 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        5,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Excuse me, how can I get to Seoul Museum from here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You can get there by bus or by subway.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Which is faster, the bus or the subway?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Hmm, I think the bus is more faster.",
+          "is_answer": true,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Then, I’ll take the bus.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "소년이 '어느 것이 더 빠른가'를 물은 뒤 소녀의 대답을 듣고 버스를 타겠다고 결정하므로, 소녀는 버스가 더 '빠르다(faster)'고 말해야 한다. slower는 뒤이어 버스를 선택하는 흐름과 모순되므로 부적절하다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how can I get to Seoul Museum from here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You can get there by bus or by subway.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Which is faster, the bus or the subway?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Hmm, I think the bus is slower.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Then, I’ll take the bus.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think _____________.\nB: Really? Then, I’ll take the bus.",
+      "answer_key": "①",
+      "explanation": "소년이 어느 것이 더 빠른지 물었고, 대답을 듣고 나서 버스를 타겠다고 결정했다. 따라서 빈칸에는 버스가 더 빠르다는 판단이 들어가야 한다. ②·⑤는 버스를 선택한 결론과 모순되고, ③·④는 질문인 '속도'에 대한 답이 아니다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6,
+        7,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "the bus is faster",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the subway is faster",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "walking is the best way",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the bus is more expensive",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "there is no bus today",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 Then, I’ll take the bus.가 의미하는 바로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "will은 말하는 순간의 결정을 나타내며, 앞에서 '버스가 더 빠르다'는 답을 들은 직후이므로 버스를 타겠다는 결정을 표현한 것이다. ③·⑤는 대화 내용과 반대이고, ②·④는 문장에 없는 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "버스가 더 빠르다고 들었으니 버스를 타고 가겠다는 결정을 말한 것이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "버스를 타 본 경험이 있다고 말한 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "지하철이 더 빠르니 지하철을 타겠다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "버스 요금이 얼마인지 묻는 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "버스를 타지 않고 걸어가겠다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소년이 박물관에 가는 방법을 묻고, 소녀가 버스와 지하철을 알려 준 뒤 더 빠른 쪽을 골라 버스를 타기로 결정하는 대화이다. 요금(③), 표 구매(②), 방문 계획(④)은 언급되지 않았고 ⑤는 대화 내용과 반대이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        3,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "asking the way to a museum and choosing how to get there",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "buying tickets for a museum exhibition",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "comparing bus fares and subway fares",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "making a plan to visit a museum next weekend",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "explaining why the subway is always the best choice",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "소년은 마지막에 'I’ll take the bus.'라고 말하므로 ②가 일치한다. ①은 소녀가 버스가 더 빠르다고 했으므로 반대, ③은 버스와 지하철 두 가지가 제시되었으므로 불일치, ④·⑤는 대화에 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl says the subway is faster than the bus.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy decides to go to the museum by bus.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "There is only one way to get to Seoul Museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl takes the boy to Seoul Museum herself.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy already knows how long the bus ride takes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n→ You can get to there by bus or by subway.",
+      "answer_key": "get to there → get there",
+      "explanation": "there는 부사이므로 앞에 전치사 to를 쓸 수 없다. '~에 도착하다'가 장소 명사와 함께 쓰일 때는 get to Seoul Museum처럼 to가 필요하지만, there/here/home 같은 부사 앞에서는 to를 쓰지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n우리말: 버스와 지하철 중 어느 것이 더 빠른가요?\n<조건> 1) Which로 시작할 것 2) fast의 비교급을 사용할 것 3) the bus, the subway를 모두 쓸 것",
+      "answer_key": "Which is faster, the bus or the subway?",
+      "explanation": "둘 중 하나를 고르는 비교이므로 최상급 fastest가 아니라 비교급 faster를 쓴다. fast는 -er를 붙여 비교급을 만들므로 more fast나 more faster는 틀리다. 두 대상은 or로 병렬 연결한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 바르게 배열하시오.\n우리말: 여기서 서울 박물관까지 어떻게 갈 수 있나요?\n(I / how / get / can / to / from here / Seoul Museum)",
+      "answer_key": "How can I get to Seoul Museum from here?",
+      "explanation": "의문사 How + 조동사 can + 주어 I + 동사원형 get 순으로 배열한다. '~에 도착하다'는 get to + 장소이므로 to Seoul Museum이 이어지고, 출발점을 나타내는 from here를 문장 끝에 놓는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 7,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "①",
+          "③"
+        ]
+      }
+    ]
+  }
+}

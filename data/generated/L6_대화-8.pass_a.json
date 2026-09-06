@@ -1,0 +1,618 @@
+{
+  "passage_id": "24d67ce2-be3d-4e3b-859a-fef370fd604e",
+  "body_text_sha256": "5e9121f42ad26afd028e793f3d5b3e36a4538ef5e2e6aaec18edae0bf6daf2bb",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 20,
+      "surface": "Can you recommend",
+      "sentence_no": 1,
+      "rationale": "요청·부탁을 나타내는 조동사 can. 뒤에는 반드시 동사원형(recommend)이 와야 하므로 'Can you recommended / Can you recommending' 형태 오류나 'Must you recommend'처럼 조동사 의미 혼동 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 34,
+      "span_end": 40,
+      "surface": "for me",
+      "sentence_no": 1,
+      "rationale": "'나를 위해' 이익·대상을 나타내는 전치사 for. 시험에서는 [for / to / with] me 처럼 전치사를 빈칸으로 뚫거나 전치사를 삭제해 'recommend me a restaurant' 와 대비시킨다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 45,
+      "span_end": 54,
+      "surface": "How about",
+      "sentence_no": 2,
+      "rationale": "제안 표현 How about + 명사/동명사. 뒤에 to부정사가 올 수 없으므로 'How about to go ~' 형태의 오답 선지를 만들 수 있고, What about / How to 와의 구별도 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 95,
+      "span_end": 107,
+      "surface": "do they have",
+      "sentence_no": 3,
+      "rationale": "주어 they(복수)에 맞는 조동사 do. 'does they have' 또는 'do they has' 처럼 수일치·동사원형 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 138,
+      "span_end": 146,
+      "surface": "strongly",
+      "sentence_no": 5,
+      "rationale": "동사 recommend를 수식하므로 부사 strongly. 형용사 strong으로 바꾼 'I strong recommend' 오답이 전형적으로 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 157,
+      "span_end": 175,
+      "surface": "their cheese pizza",
+      "sentence_no": 5,
+      "rationale": "명사 앞이므로 소유격 their. 소유대명사 theirs나 목적격 them으로 바꾼 선지와 구별해야 한다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 177,
+      "span_end": 181,
+      "surface": "It’s",
+      "sentence_no": 6,
+      "rationale": "It is의 축약형 It’s와 소유격 Its의 구별. 'Its really good.' 처럼 동사가 사라지는 오류를 심는 것이 단골 출제 지점이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 182,
+      "span_end": 193,
+      "surface": "really good",
+      "sentence_no": 6,
+      "rationale": "부사 really가 형용사 good을 수식하는 구조. 'real good' 또는 보어 자리에 부사를 넣은 'really well' 로 바꾼 오답을 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 (추천 요청)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "제안 (해결책 제시)",
+      "signal": "How about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "추가질문 (세부 정보 요구)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "정보제공 (세부 사실)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "주제문 (핵심 추천)",
+      "signal": "strongly",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "결론문 (추천 근거 요약)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말이 알맞게 짝지어진 것은?\nB: I (a)[strong / strongly] recommend (b)[their / theirs / them] cheese pizza. (c)[It’s / Its] really good.",
+      "answer_key": "②",
+      "explanation": "(a) 동사 recommend를 수식하므로 부사 strongly가 맞다. 형용사 strong은 동사를 수식할 수 없다. (b) 명사 cheese pizza 앞이므로 소유격 their. theirs(소유대명사)·them(목적격)은 명사 앞에 올 수 없다. (c) 뒤에 형용사 보어 good이 있으므로 동사가 필요하다. It’s(=It is)가 맞고 소유격 Its는 동사가 없어 문장이 성립하지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) strong — (b) their — (c) It’s",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) strongly — (b) their — (c) It’s",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) strongly — (b) theirs — (c) It’s",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) strongly — (b) their — (c) Its",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) strongly — (b) them — (c) It’s",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "④"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "PRON_AGREEMENT",
+      "stem": "위 대화를 아래와 같이 다시 썼을 때, 밑줄 친 부분 중 어법상 틀린 것은?",
+      "answer_key": "⑤",
+      "explanation": "⑤는 형용사 보어 good 앞에 동사가 있어야 하므로 It is의 축약형 It’s가 되어야 한다. Its는 '그것의'라는 소유격이어서 동사가 없는 비문이 된다. ①의 Can you + 동사원형, ②의 How about + 명사, ③의 복수주어 they에 맞춘 do, ④의 부사 strongly와 소유격 their는 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        0,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A: Can you recommend a restaurant for me?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "B: How about Morning in Venice?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A: What kind of food do they have?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B: I strongly recommend their cheese pizza.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "B: Its really good.",
+          "is_answer": true,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름으로 보아 낱말의 쓰임이 문맥상 적절하지 않은 것은?",
+      "answer_key": "⑤",
+      "explanation": "⑤는 바로 뒤에서 '정말 맛있다(It’s really good.)'라고 말하므로 '권하지 않는다'는 뜻의 discourage는 문맥에 어긋난다. 원문의 recommend(추천하다)가 알맞다. 나머지는 식당을 묻고 답하는 대화 흐름과 자연스럽게 이어진다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A: Can you recommend a restaurant for me?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "B: How about Morning in Venice?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A: What kind of food do they have?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B: They have Italian food.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "B: I strongly discourage their cheese pizza. It’s really good.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 I strongly recommend their cheese pizza. 가 의미하는 것으로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "recommend는 '추천하다'이고 strongly가 그 정도를 강조한다. 뒤 문장 It’s really good.이 근거가 되므로 ①이 알맞다. ②는 정반대의 뜻이고, ③④⑤는 대화에 근거가 없다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그 식당의 치즈 피자를 꼭 먹어 보라고 강하게 권하는 것이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "치즈 피자는 주문하지 않는 편이 좋다고 충고하는 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "치즈 피자 값이 너무 비싸다고 불평하는 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "치즈 피자를 직접 만들어 보라고 제안하는 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "치즈 피자가 다 팔렸다고 알려 주는 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "A가 식당을 추천해 달라고 부탁하고 B가 식당과 메뉴를 추천하는 대화이므로 ①이 알맞다. 전화 주문(②), 불만 제기(③), 요리법(④), 호텔 예약(⑤)은 대화에 나오지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "asking for and giving a restaurant recommendation",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ordering Italian food on the phone",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "complaining about bad service at a restaurant",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "learning how to cook cheese pizza",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "making a reservation at a hotel in Venice",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "[1]에서 A가 식당을 추천해 달라고 부탁하므로 ①이 일치한다. ② 그 식당은 Italian food를 판다. ③ 치즈 피자를 추천한 사람은 B다. ④ B는 It’s really good.이라고 했다. ⑤ 집에서 요리하자는 말은 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A asks B to suggest a place to eat.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Morning in Venice serves Chinese food.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A recommends the cheese pizza to B.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B says the cheese pizza does not taste good.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "B suggests cooking Italian food at home.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 알맞은 것은?\nB: They have Italian food. I strongly ________ their cheese pizza. It’s really good.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤 It’s really good.이 긍정적 평가이므로 '추천하다'라는 recommend가 알맞다. avoid(피하다)·dislike(싫어하다)는 흐름과 반대이고, return(반납하다)·cancel(취소하다)은 문맥에 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "recommend",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "avoid",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "return",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "cancel",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "dislike",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하시오.\n그들은 어떤 종류의 음식을 파나요(가지고 있나요)?\n( have / kind / do / of / they / What / food )",
+      "answer_key": "What kind of food do they have?",
+      "explanation": "의문사구 What kind of food를 먼저 놓고, 복수 주어 they에 맞는 조동사 do + 동사원형 have의 어순으로 쓴다. does they나 do they has는 수일치·동사형이 틀린다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n제게 식당 하나 추천해 주실 수 있나요?\n<조건> ① Can으로 시작하는 의문문으로 쓸 것 ② recommend, a restaurant, for me를 모두 사용할 것 ③ 6단어 이상으로 쓸 것",
+      "answer_key": "Can you recommend a restaurant for me?",
+      "explanation": "요청을 나타내는 Can you 뒤에는 동사원형 recommend가 오고, '나를 위해'는 전치사 for를 써서 for me로 표현한다. recommended·recommending 같은 형태나 for를 빠뜨린 표현은 조건에 맞지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nI strong recommend their cheese pizza.",
+      "answer_key": "strong → strongly",
+      "explanation": "동사 recommend를 수식하는 자리이므로 형용사 strong이 아니라 부사 strongly를 써야 한다. their는 명사 cheese pizza 앞의 소유격으로 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 8,
+    "tags_kept": 8,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "④"
+        ]
+      }
+    ]
+  }
+}

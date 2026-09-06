@@ -1,0 +1,693 @@
+{
+  "passage_id": "fdc7647e-1b0e-4552-b303-63d2d548f3c7",
+  "body_text_sha256": "6a2066771eec8f567d251c36fea417bd1df6dca1eb930634a01abc498aa7a25d",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 0,
+      "span_end": 35,
+      "surface": "The final stop of our tour today is",
+      "sentence_no": 1,
+      "rationale": "주어 핵은 단수 The final stop이고 of our tour today는 수식어구. 수식어의 명사(tour/today)에 끌려 are로 바꾸는 수일치 오류를 유도할 수 있음",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 60,
+      "span_end": 79,
+      "surface": "any street artworks",
+      "sentence_no": 2,
+      "rationale": "부정·의문문에서는 some이 아니라 any를 쓴다. [some / any] 선택형 또는 some으로 바꾼 오류 선지로 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 101,
+      "span_end": 113,
+      "surface": "look closely",
+      "sentence_no": 3,
+      "rationale": "동사 look을 수식하므로 부사 closely가 맞다. 형용사 close 또는 '가까이'의 close와 혼동시키는 [close / closely] 선지 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 137,
+      "span_end": 158,
+      "surface": "chewing gum paintings",
+      "sentence_no": 4,
+      "rationale": "chewing gum(씹는 껌)은 현재분사 형태의 굳은 표현. chewed로 바꾼 과거분사 오류 선지를 심기 쉬움",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 165,
+      "span_end": 182,
+      "surface": "are by the artist",
+      "sentence_no": 5,
+      "rationale": "작품의 작자를 나타내는 전치사 by. from/of/with 등으로 바꾸거나 빈칸으로 뚫기 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 202,
+      "span_end": 215,
+      "surface": "is well known",
+      "sentence_no": 6,
+      "rationale": "be known 수동태 구문. is well knowing / knows well 처럼 능동으로 바꾼 형태 오류를 유도할 수 있음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 210,
+      "span_end": 228,
+      "surface": "known for painting",
+      "sentence_no": 6,
+      "rationale": "be known for(~로 알려져 있다) 고정 결합. be known as / be known to 와 구별시키거나 전치사를 삭제하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 216,
+      "span_end": 237,
+      "surface": "for painting pictures",
+      "sentence_no": 6,
+      "rationale": "전치사 for의 목적어이므로 동명사 painting. for to paint / for paint 로 바꾼 준동사 형태 오류가 대표적 함정",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 245,
+      "span_end": 275,
+      "surface": "that people drop on the street",
+      "sentence_no": 6,
+      "rationale": "선행사 gum을 받는 목적격 관계대명사 that(=which). 뒤에 목적어가 빠져 있으므로 관계부사 where나 what은 불가",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_REL_ANTECEDENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 330,
+      "span_end": 352,
+      "surface": "people (that) he meets",
+      "sentence_no": 7,
+      "rationale": "사람 선행사 + 목적격 관계대명사 that(생략 가능). he meets them처럼 목적어를 남기거나 what/where로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 281,
+      "span_end": 306,
+      "surface": "gum paintings often carry",
+      "sentence_no": 7,
+      "rationale": "복수 주어 gum paintings에 맞춘 동사 carry. carries로 바꾼 수일치 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 428,
+      "span_end": 439,
+      "surface": "a loved one",
+      "sentence_no": 8,
+      "rationale": "'사랑하는 사람'은 사랑을 받는 대상이므로 과거분사 loved. loving으로 바꾼 분사 뒤집기 오류가 전형적",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 483,
+      "span_end": 517,
+      "surface": "give great pleasure to many people",
+      "sentence_no": 9,
+      "rationale": "give A to B 구문의 전치사 to. for로 바꾸거나 전치사를 삭제하는 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 화제(장소) 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문 — 독자 반응 유도",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환 — 관찰 방법 지시",
+      "signal": "Well",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "도입질문 — 대상 확인",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "정보 제시 — 작가 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "주제문 — 작가의 작업 방식 정의",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 7,
+      "role": "부연 — 작품의 내용적 특징",
+      "signal": "often",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "예시",
+      "signal": "For example",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "결론문 — 작품의 의의 요약",
+      "signal": "but",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "④"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 지문의 문장들을 옮겨 놓은 것이다. 어법상 틀린 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ 전치사 for의 목적어 자리이므로 동명사 painting이 와야 한다(is well known for painting). paint(원형)는 올 수 없다. ①의 closely는 동사 look을 수식하는 부사로 옳고, ②의 chewing gum은 굳은 표현, ④는 목적격 관계대명사 that이 생략된 형태로 옳으며, ⑤의 give A to B도 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        2,
+        3,
+        9,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Well, look down and look closely.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Do you see the little chewing gum paintings?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Wilson is well known for paint pictures on gum that people drop on the street.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "His gum paintings often carry personal messages from people he meets on the street.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Wilson’s gum paintings are tiny, but they give great pleasure to many people.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "위 지문의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\n· Do you see the little (a)[chewing / chewed] gum paintings?\n· Wilson is well known for painting pictures on gum (b)[that / what] people drop on the street.\n· For example, the one over here is a happy birthday wish for a (c)[loved / loving] one.",
+      "answer_key": "①",
+      "explanation": "(a) '씹는 껌'은 chewing gum으로 굳은 표현이므로 현재분사 chewing. (b) 선행사 gum이 있고 drop의 목적어가 빠진 불완전한 절이므로 관계대명사 that(=which)이며, 선행사를 포함하는 what은 쓸 수 없다. (c) '사랑하는 사람'은 사랑을 받는 대상이므로 과거분사 loved를 써서 a loved one.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        8,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) chewing – (b) that – (c) loved",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) chewed – (b) that – (c) loved",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) chewing – (b) what – (c) loved",
+          "is_answer": false,
+          "violates_point_code": "REL_WHAT_VS_THAT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) chewing – (b) that – (c) loving",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름으로 보아, 밑줄 친 낱말 중 문맥상 적절하지 않은 것을 고르시오.\n\nThe ①final stop of our tour today is Muswell Hill. Well, look down and look ②closely. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry ③personal messages from people he meets on the street. Wilson’s gum paintings are ④huge, but they give great ⑤pleasure to many people.",
+      "answer_key": "④",
+      "explanation": "껌 위에 그린 아주 작은 그림이라는 내용이고, '내려다보고 자세히 보라'는 안내와 but으로 이어지는 대조 구조로 보아 ④는 huge가 아니라 tiny(아주 작은)여야 한다. 나머지 낱말은 문맥에 맞는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "final",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "closely",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "personal",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "huge",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "pleasure",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 지문의 밑줄 친 look down and look closely가 의미하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "바로 뒤에 '작은 껌 그림이 보이나요?'라는 질문이 이어지므로, 이 말은 시선을 아래로 내려 길바닥에 붙은 아주 작은 껌 그림을 가까이서 자세히 보라는 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "길바닥을 내려다보며 아주 작은 작품을 자세히 살펴보라는 뜻",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "작품을 멀리 떨어져서 전체적으로 감상하라는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "고개를 숙여 예술가에게 인사하라는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "거리의 예술 작품을 낮게 평가하지 말라는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "길에 껌을 버리는 사람들을 조심하라는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 지문의 주제로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "지문은 Muswell Hill에서 볼 수 있는 Ben Wilson의 껌 그림, 즉 길에 버려진 껌 위에 작은 그림을 그리는 예술가를 소개하고 있다. 껌 처리 방법이나 예술가가 되는 방법은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "an artist who paints tiny pictures on gum dropped on the street",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the long history of street art in Muswell Hill",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "ways to keep city streets clean of chewing gum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "reasons why people should not drop gum on the street",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "how to become a famous street artist in London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 지문의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "마지막 문장에서 그의 껌 그림은 tiny(아주 작다)하다고 했고, 그래서 '내려다보고 자세히 보라'고 안내한다. 따라서 멀리서도 보일 만큼 크다는 ⑤는 지문과 일치하지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Muswell Hill is the last stop of today’s tour.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Ben Wilson paints pictures on gum that people drop on the street.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "His gum paintings often include personal messages from people he meets.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "One of the paintings is a birthday wish for someone’s loved one.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Wilson’s gum paintings are so big that visitors can see them from far away.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "RU_EXERCISE_OPTIONS",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 지문의 마지막 문장의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.\n\nWilson’s gum paintings are tiny, but they ______________.",
+      "answer_key": "①",
+      "explanation": "작품이 사람들의 개인적인 메시지(생일 축하 등)를 담고 있다는 앞 내용과, 크기는 작지만(but) 의미는 크다는 대조 구조로 보아 '많은 사람에게 큰 기쁨을 준다'가 결론으로 알맞다. 가격·박물관·소멸에 관한 언급은 지문에 없다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "give great pleasure to many people",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "are sold at very high prices in London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "are too difficult for other artists to copy",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "disappear from the street in a few hours",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "are kept safely inside a large museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 위 지문의 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n\nWilson is well known for paint pictures on gum that people drop on the street.",
+      "answer_key": "paint → painting",
+      "explanation": "be known for의 for는 전치사이므로 그 목적어로는 동명사가 와야 한다. 따라서 paint를 painting으로 고쳐 is well known for painting pictures가 되어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "위 지문의 내용을 바탕으로, 다음 우리말을 <조건>에 맞게 영작하시오.\n\n우리말: Wilson은 사람들이 길에 버리는 껌 위에 그림을 그리는 것으로 잘 알려져 있다.\n<조건> 1) be well known for를 쓸 것  2) 관계대명사 that을 쓸 것  3) 지문의 표현을 활용해 한 문장으로 쓸 것",
+      "answer_key": "Wilson is well known for painting pictures on gum that people drop on the street.",
+      "explanation": "'~로 잘 알려져 있다'는 be well known for로 쓰고, 전치사 for 뒤에는 동명사 painting을 쓴다. gum을 선행사로 하는 목적격 관계대명사 that을 이용해 that people drop on the street를 연결한다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n우리말: 그의 껌 그림들은 흔히 그가 길에서 만나는 사람들로부터 온 개인적인 메시지를 담고 있다.\n주어진 단어: often / carry / personal messages / from / people / that / he / meets / on the street / His gum paintings",
+      "answer_key": "His gum paintings often carry personal messages from people that he meets on the street.",
+      "explanation": "주어 His gum paintings 뒤에 빈도부사 often, 그 다음 동사 carry(복수 주어에 맞는 형태)를 쓴다. 목적어 personal messages 뒤에 from people을 붙이고, people을 선행사로 하는 목적격 관계대명사 that이 이끄는 절 that he meets on the street를 이어 쓴다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        9,
+        10
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 9,
+    "tags_returned": 13,
+    "tags_kept": 13,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "④"
+        ]
+      }
+    ]
+  }
+}

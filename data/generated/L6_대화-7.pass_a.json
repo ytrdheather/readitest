@@ -1,0 +1,502 @@
+{
+  "passage_id": "e6c3d5af-c9e8-4df4-b7e0-a4ad985f7bc5",
+  "body_text_sha256": "722aef99980d5bdee6af83f926658eb586f506938c918b67b531e6b7d7042ed7",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 3,
+      "span_end": 23,
+      "surface": "What kinds of movies",
+      "sentence_no": 1,
+      "rationale": "'kind(s) of + 복수명사' 구조에서 전치사 of를 묻는 자리. What kinds movies(전치사 삭제) / What kinds for movies 같은 오류를 유도할 수 있고, kind of movie ↔ kinds of movies 수 대응도 함께 확인된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 65,
+      "span_end": 73,
+      "surface": "Me, too.",
+      "sentence_no": 3,
+      "rationale": "동의 표현의 대명사 격. 'Me, too.'가 관용형이며 'I, too.'/'My, too.'로 바꾼 오답을 만들 수 있다. 또한 'Me, neither.'와의 구별(긍정문 동의)도 출제 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 74,
+      "span_end": 91,
+      "surface": "Can you recommend",
+      "sentence_no": 4,
+      "rationale": "부탁 표현 조동사 Can you + 동사원형. Can you recommending / Can you to recommend / Do you can recommend 형태 오류나, Could you와의 교체 가능성을 묻는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 92,
+      "span_end": 111,
+      "surface": "a good sci-fi movie",
+      "sentence_no": 4,
+      "rationale": "명사 movie를 수식하는 형용사 good. a well sci-fi movie처럼 부사로 바꾼 오답(EI_ADJ_TO_ADV)이 전형적으로 심어진다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 112,
+      "span_end": 118,
+      "surface": "for me",
+      "sentence_no": 4,
+      "rationale": "recommend A for/to B의 전치사 결합. of me / with me 같은 오답 선지나 전치사 삭제(recommend a movie me)를 유도할 수 있어 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 123,
+      "span_end": 126,
+      "surface": "Try",
+      "sentence_no": 5,
+      "rationale": "권유 표현 명령문 Try + 목적어(영화 제목). Trying / To try 로 바꾼 오류, 또는 try -ing vs try to부정사(Try watching / Try to watch)의 구별을 묻는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 134,
+      "span_end": 147,
+      "surface": "to the Future",
+      "sentence_no": 5,
+      "rationale": "방향·도달을 나타내는 전치사 to. for the Future / at the Future 로 교체한 오답이나 전치사 삭제를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 154,
+      "span_end": 165,
+      "surface": "really good",
+      "sentence_no": 6,
+      "rationale": "be동사의 보어 자리에는 형용사 good. really(부사)가 형용사를 수식하는 구조로, really well / real good 로 바꾼 오답이 자주 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 149,
+      "span_end": 153,
+      "surface": "It’s",
+      "sentence_no": 6,
+      "rationale": "앞 문장의 영화(Travel to the Future)를 받는 주어 it + be동사 축약. 소유격 Its 와의 혼동(Its really good)을 유도하는 전형적 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": "What kinds of",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "답변(정보 제공)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "동의·공감",
+      "signal": "Me, too",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "요청(대화의 핵심 기능)",
+      "signal": "Can you",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "해결책(추천 제시)",
+      "signal": "Try",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "추천 근거·마무리 평가",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 알맞은 말을 짝지은 것을 고르시오.\n\nB: What kinds of movies do you like?\nG: I like sci-fi movies.\nB: Me, too. Can you recommend a (a)[good / well] sci-fi movie (b)[for / of] me?\nG: Try Travel to the Future. It’s really (c)[good / well].",
+      "answer_key": "①",
+      "explanation": "(a) 명사 movie를 앞에서 수식하므로 형용사 good이 맞다(well은 부사). (b) recommend A for me(= to me)의 결합으로 of me는 쓰지 않는다. (c) be동사의 보어 자리이므로 형용사 good이 맞고, really는 그 형용사를 수식하는 부사다. well을 쓰면 '건강하다/잘한다'는 뜻이 되어 영화를 평가하는 문맥에 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) good — (b) for — (c) good",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) well — (b) for — (c) good",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) good — (b) of — (c) good",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) good — (b) for — (c) well",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 대화의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nB: ① What kinds of movies do you like?\nG: ② I like sci-fi movies.\nB: Me, too. ③ Can you recommend a good sci-fi movie for me?\nG: ④ Try Travel to the Future. ⑤ It’s really well.",
+      "answer_key": "⑤",
+      "explanation": "⑤ It’s의 보어 자리이므로 형용사 good이 와야 한다(It’s really good). well은 부사여서 be동사의 보어로 '좋다'는 뜻을 나타낼 수 없다. ①은 kinds of + 복수명사, ③은 Can you + 동사원형과 recommend ~ for me, ④는 명령문 Try + 목적어로 모두 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        0,
+        2,
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What kinds of movies",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I like sci-fi movies",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Can you recommend a good sci-fi movie for me",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Try Travel to the Future",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "It’s really well",
+          "is_answer": true,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 소년이 말한 밑줄 친 Me, too.가 뜻하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 소녀가 I like sci-fi movies.라고 했으므로 Me, too.는 'I like sci-fi movies, too.'의 줄임말로 같은 취향을 나타낸다. ④처럼 부정문에 동의할 때는 Me, neither.를 쓴다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "나도 공상과학 영화를 좋아한다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "나도 그 영화를 이미 봤다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "나도 영화를 추천해 주겠다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "나도 공상과학 영화를 좋아하지 않는다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "나도 영화관에 같이 가고 싶다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소년의 부탁(Can you recommend a good sci-fi movie for me?)에 소녀가 Try Travel to the Future.라고 답하므로 추천하는 쪽은 소녀다(①). 소년은 Me, too.로 같은 취향을 밝혔으므로 ②는 틀리고, ③은 추천의 주체가 바뀌었다. 소녀는 It’s really good.이라고 했으므로 ④도 틀리며, 함께 보러 가자는 내용은 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl recommends a sci-fi movie to the boy.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy does not like sci-fi movies.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy recommends Travel to the Future to the girl.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl thinks Travel to the Future is boring.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They decide to watch a movie together tonight.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "좋아하는 영화 장르를 묻고(1~3행), 추천을 부탁하고(4행), 구체적인 작품을 추천하며 평가하는(5~6행) 흐름이므로 '영화 추천을 부탁하고 해 주기'가 주제다. 나머지는 대화에 언급되지 않은 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Asking for and giving a movie recommendation",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Buying tickets at a movie theater",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Explaining how sci-fi movies are made",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Comparing a movie with its original book",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Planning a weekend trip to the future",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음은 위 대화의 마지막 두 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nG: Try Travel to the Future. Its really well.",
+      "answer_key": "Its → It’s, well → good (Try Travel to the Future. It’s really good.)",
+      "explanation": "'그것은 ~이다'라는 뜻이므로 소유격 Its가 아니라 It is의 축약형 It’s를 써야 한다. 또한 be동사의 보어 자리에는 형용사가 오므로 부사 well을 형용사 good으로 고쳐 It’s really good.이 되어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오. (위 대화의 소년의 부탁 문장과 같게 쓸 것)\n\n나에게 좋은 공상과학 영화 한 편을 추천해 줄 수 있니?\n\n<조건> 1. Can you로 시작할 것  2. recommend, for, a good sci-fi movie를 사용할 것  3. 물음표를 포함해 총 9단어로 쓸 것",
+      "answer_key": "Can you recommend a good sci-fi movie for me?",
+      "explanation": "조동사 Can you 뒤에는 동사원형 recommend가 오고, '~에게 추천해 주다'는 recommend + 목적어 + for(to) me로 표현한다. 명사 movie를 수식하므로 형용사 good을 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        4,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n너는 어떤 종류의 영화를 좋아하니?\n( do / of / kinds / movies / like / you / what )",
+      "answer_key": "What kinds of movies do you like?",
+      "explanation": "의문사구 What kinds of movies가 맨 앞에 오고, 그 뒤에 do + 주어(you) + 동사원형(like)의 어순이 온다. '~의 종류'는 kinds of + 복수명사로 쓰므로 of를 빠뜨리면 안 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 8,
+    "items_kept": 8,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

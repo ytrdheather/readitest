@@ -1,0 +1,728 @@
+{
+  "passage_id": "fab0d872-6559-4d68-a909-abb1a255d675",
+  "body_text_sha256": "ef28e8802a6b972890247d3f414a09f10715b260612defdfcc22f2a9b0c5017b",
+  "tags": [
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 10,
+      "span_end": 36,
+      "surface": "that we are going to visit",
+      "sentence_no": 1,
+      "rationale": "선행사가 place(장소)라서 where를 고르게 유도하지만, visit이 타동사이고 목적어가 비어 있으므로 관계대명사 that(=which)이 맞다. [that / where / what] 선지로 자주 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 65,
+      "span_end": 77,
+      "surface": "used to live",
+      "sentence_no": 2,
+      "rationale": "'과거에 ~했었다'는 used to + 동사원형. be used to -ing(~에 익숙하다), be used to V(~하는 데 쓰인다)와 혼동시켜 used to living / was used to live 같은 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 106,
+      "span_end": 130,
+      "surface": "one of the hippest areas",
+      "sentence_no": 2,
+      "rationale": "one of + the 최상급 + 복수명사 구조. hippest → most hip / hipper, areas → area 로 바꾼 오답이 흔하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 154,
+      "span_end": 174,
+      "surface": "so many great pieces",
+      "sentence_no": 3,
+      "rationale": "so + many/much + 명사 vs such + a/an + 형용사 + 명사 구별. [so / such] many 선지로 빈칸 출제 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 237,
+      "span_end": 255,
+      "surface": "by the artist STIK",
+      "sentence_no": 5,
+      "rationale": "작품의 작자를 나타내는 by(~에 의한 작품). from / of / with 로 바꾼 선지가 빈칸으로 출제된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 263,
+      "span_end": 273,
+      "surface": "famous for",
+      "sentence_no": 6,
+      "rationale": "be famous for(~로 유명하다)의 고정 전치사. be famous as(~로서 유명하다)/of/with 와 구별시키는 빈칸 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 274,
+      "span_end": 299,
+      "surface": "using only lines and dots",
+      "sentence_no": 6,
+      "rationale": "전치사 for의 목적어 자리이므로 동명사 using. use / to use 로 바꾼 오답(전치사 뒤 동사원형·to부정사)이 대표적 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 334,
+      "span_end": 346,
+      "surface": "According to",
+      "sentence_no": 7,
+      "rationale": "'~에 따르면'을 뜻하는 굳어진 전치사구. According with / According of / According 로 뒤 전치사를 빼거나 바꾼 선지가 빈칸으로 나온다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 353,
+      "span_end": 380,
+      "surface": "the three figures represent",
+      "sentence_no": 7,
+      "rationale": "주어가 복수(the three figures)이므로 represent. represents로 바꾼 수일치 오류를 심기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 381,
+      "span_end": 410,
+      "surface": "the past, present, and future",
+      "sentence_no": 7,
+      "rationale": "and로 연결된 세 명사의 병렬. future 를 to be future / futuring 등 다른 품사로 바꿔 병렬을 깨는 변형이 가능하다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 426,
+      "span_end": 456,
+      "surface": "Which figure represents which?",
+      "sentence_no": 8,
+      "rationale": "의문사 주어 Which figure가 단수이므로 represents. represent로 바꾼 수일치 오류 유도 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 463,
+      "span_end": 475,
+      "surface": "look closely",
+      "sentence_no": 9,
+      "rationale": "동사 look(보다)을 수식하므로 부사 closely. 감각동사 보어로 착각해 형용사 close를 고르게 하는 함정이 대표적.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 468,
+      "span_end": 487,
+      "surface": "closely at the eyes",
+      "sentence_no": 9,
+      "rationale": "look at(~을 보다)의 전치사 at. 전치사 삭제(look closely the eyes)나 in/on 교체 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 510,
+      "span_end": 528,
+      "surface": "They are just dots",
+      "sentence_no": 10,
+      "rationale": "앞 문장의 the eyes of the three figures를 받는 복수 대명사 They. It is just dots 처럼 수 불일치를 심어 출제할 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 화제 제시(방문 장소)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경 대조 — 과거와 현재의 지역 변화(주제문)",
+      "signal": "but now",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "주제 뒷받침 — 거리 예술이 많음",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "전환 — 청자의 주의를 특정 작품으로 유도",
+      "signal": "over there",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "세부 정보 — 작가 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "세부 정보 — 작가의 화풍 설명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부 정보 — 작품의 의미(세 인물의 상징)",
+      "signal": "According to",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "질문 제기 — 청자에게 생각할 과제 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "해결책 안내 — 관찰 포인트 제시",
+      "signal": "Well",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "결론문 — 작은 점이 단서가 된다는 마무리",
+      "signal": "but",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 글의 내용을 그대로 옮긴 다음 ①~⑤ 중, 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④ be famous for의 for는 전치사이므로 뒤에는 동명사가 와야 한다(use → using). ①은 선행사 place 뒤에 visit의 목적어가 빠져 있어 관계대명사 that이 옳고, ②는 'used to + 동사원형'과 'one of the + 최상급 + 복수명사'가 모두 정확하며, ③은 'so many + 복수명사'가 맞다. ⑤는 동사 look을 수식하는 부사 closely와 look at의 전치사가 맞고, ⑥은 앞 문장의 복수 명사를 받는 They가 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        0,
+        1,
+        2,
+        3,
+        11,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The place that we are going to visit is Shoreditch.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Poor workers used to live in this area, but now it is one of the hippest areas in London.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "We can find so many great pieces of street art here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He is famous for use only lines and dots in his paintings of human bodies.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Well, look closely at the eyes of the three figures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "They are just dots, but they will give you a clue.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 글의 (a), (b), (c)에 들어갈 말로 가장 적절한 것을 고르시오.\n\n· We can find (a)[so / such] many great pieces of street art here.\n· According to STIK, the three figures (b)[represent / represents] the past, present, and future of Shoreditch.\n· Well, look (c)[closely / close] at the eyes of the three figures.",
+      "answer_key": "①",
+      "explanation": "(a) 'many + 복수명사'를 강조할 때는 so many가 맞고 such many는 쓰지 않는다. (b) 주어가 복수 the three figures이므로 represent. (c) 여기서 look은 '보다'라는 일반동사이므로 부사 closely가 수식해야 한다(형용사 close는 보어 자리에만 가능).",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        8,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) so — (b) represent — (c) closely",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) such — (b) represent — (c) closely",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) so — (b) represents — (c) closely",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) so — (b) represent — (c) close",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 글의 흐름으로 볼 때, 밑줄 친 낱말의 쓰임이 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ Shoreditch가 런던에서 가장 힙한 지역 중 하나이고 곧바로 STIK의 작품을 소개하는 흐름이므로 거리 예술 작품이 '거의 없다(so few)'는 말은 모순이다. 원문의 so many가 문맥에 맞다. 나머지는 과거의 가난한 노동자 거주지 → 현재의 힙한 지역, 선과 점만 쓰는 화풍, 점이 단서가 된다는 흐름과 모두 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Poor workers used to live in this area",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "now it is one of the hippest areas in London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "We can find so few great pieces of street art here.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He is famous for using only lines and dots",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They are just dots, but they will give you a clue.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "the three figures represent the past, present, and future",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 글의 밑줄 친 they will give you a clue가 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 '어느 인물이 무엇을 나타내는가(Which figure represents which?)'라고 물은 뒤 세 인물의 눈을 자세히 보라고 했으므로, 점으로 표현된 눈이 과거·현재·미래를 구별하는 단서라는 의미다. 나머지는 작품 가격, 작가의 사연, 노동자 수, 감상 거리 등 글에 없는 내용이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        10,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "세 인물의 눈(점)의 모습이 각 인물이 과거·현재·미래 중 무엇을 상징하는지 알려 준다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "점의 개수가 많을수록 작품의 가격이 높아진다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "화가가 점만으로 그림을 그리게 된 개인적 사연을 알 수 있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Shoreditch에 살았던 가난한 노동자들의 수를 알 수 있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "그림은 가까이서 보면 안 되고 멀리서 보아야 한다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "글은 방문할 장소인 Shoreditch를 소개하고, 그곳에 있는 STIK의 그림과 세 인물의 의미를 설명하는 안내(가이드)의 말이다. ②는 배경 정보의 일부일 뿐이고, ③·④·⑤는 글에서 다루지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "a guide's introduction to Shoreditch and a street artwork by STIK",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the hard lives of poor workers in old London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "steps to follow to become a famous street artist",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best way to draw human bodies with lines and dots",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "reasons why street art should be removed from city walls",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하지 않는 것은?",
+      "answer_key": "⑤",
+      "explanation": "⑤ 화자는 어느 인물이 무엇을 나타내는지 직접 알려 주지 않고, 세 인물의 눈을 자세히 보면 단서를 얻을 것이라고만 말한다. ①②는 2번 문장, ③은 6번 문장, ④는 7번 문장, ⑥은 9~10번 문장과 일치한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        2,
+        6,
+        8,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Shoreditch was once an area where poor workers lived.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Shoreditch is now one of the hippest areas in London.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "STIK paints human bodies with only lines and dots.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The three figures stand for the past, present, and future of Shoreditch.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The speaker clearly tells which figure represents the past.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "The eyes of the figures are painted as dots.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 글의 마지막 문장 'They are just dots, but they will give you a ______.'의 빈칸에 들어갈 말로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "'어느 인물이 무엇을 상징하는가'라는 질문에 대해 눈을 자세히 보라고 했으므로, 점으로 된 눈이 답을 찾는 '단서(clue)'가 된다는 흐름이다. 경고·할인·약속·두통은 문맥과 무관하다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "clue",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "warning",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "discount",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "promise",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "headache",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 위 글의 한 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nHe is famous for use only lines and dots in his paintings of human bodies.",
+      "answer_key": "use → using",
+      "explanation": "be famous for의 for는 전치사이므로 목적어 자리에는 동명사가 와야 한다. 따라서 use를 using으로 고쳐 'famous for using'이 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 모두 바르게 배열하시오.\n\n우리가 방문할 장소는 Shoreditch이다.\n(is / that / to / the place / we / are / visit / going / Shoreditch)",
+      "answer_key": "The place that we are going to visit is Shoreditch.",
+      "explanation": "선행사 the place 뒤에 visit의 목적어가 빠진 관계대명사절 that we are going to visit이 이어지고, 그 뒤에 문장의 본동사 is가 온다. visit의 목적어가 없으므로 관계부사 where는 쓸 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n가난한 노동자들이 이 지역에 살았었지만, 지금 그곳은 런던에서 가장 힙한 지역 중 하나이다.\n<조건> 1. 'used to'를 사용할 것  2. 'one of the + 최상급 + 복수명사' 구조를 사용할 것  3. but으로 두 절을 연결할 것",
+      "answer_key": "Poor workers used to live in this area, but now it is one of the hippest areas in London.",
+      "explanation": "과거의 습관·상태는 'used to + 동사원형'으로 쓴다(used to live). '가장 ~한 것들 중 하나'는 one of the + 최상급 + 복수명사이므로 the hippest areas가 되어야 하며, area로 쓰면 틀린다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 10,
+    "tags_returned": 14,
+    "tags_kept": 14,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

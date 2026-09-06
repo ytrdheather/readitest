@@ -1,0 +1,622 @@
+{
+  "passage_id": "f6c323cc-6c7f-4ee7-ba9c-4ff61f66f465",
+  "body_text_sha256": "ef7fe7b5a23dfdeeb4cd7ae8575ba623b58d151bba000493611fbabab3c0368b",
+  "tags": [
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 20,
+      "span_end": 58,
+      "surface": "The movie I’m going to introduce today",
+      "sentence_no": 2,
+      "rationale": "movie 뒤에 목적격 관계대명사(which/that)가 생략된 구조. 선행사가 사물이고 뒤 절에 introduce의 목적어가 없으므로 where(관계부사)나 what은 불가. [which / where]로 물어 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 59,
+      "span_end": 78,
+      "surface": "is The Song of Love",
+      "sentence_no": 2,
+      "rationale": "주어가 단수 The movie이고 그 뒤에 관계절(I'm going to introduce today)이 길게 붙어 있어 are로 잘못 쓰기 쉬운 자리. 수식어구 뒤 본동사 수일치 확인 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 109,
+      "span_end": 137,
+      "surface": "who loses his love for music",
+      "sentence_no": 3,
+      "rationale": "선행사 a pianist(사람)에 대한 주격 관계대명사 who. which/whose/where로 바꾼 오답, 또는 주격이므로 동사 loses가 필요한 점(수일치 lose)까지 물을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 142,
+      "span_end": 163,
+      "surface": "moves to a small town",
+      "sentence_no": 4,
+      "rationale": "이동 방향을 나타내는 전치사 to. move in/at/into 등으로 바꾸거나 전치사를 삭제(moves a small town)하는 변형이 쉽게 만들어지는 빈칸 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 191,
+      "span_end": 212,
+      "surface": "begins teaching music",
+      "sentence_no": 5,
+      "rationale": "begin은 to부정사와 동명사를 모두 목적어로 취하는 동사. teach(원형)나 taught 같은 형태 오류를 심는 변형이 가능하다(정동사 자리 아님).",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 198,
+      "span_end": 224,
+      "surface": "teaching music to children",
+      "sentence_no": 5,
+      "rationale": "teach A to B 형태의 고정 전치사. to를 for로 바꾸거나(teaching music for children) 전치사를 삭제하는 오류가 대표적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 225,
+      "span_end": 259,
+      "surface": "and finds his love for music again",
+      "sentence_no": 5,
+      "rationale": "begins와 finds가 and로 병렬된 구조. finding / to find 로 바꾸어 병렬을 깨거나, 주어 he에 맞지 않는 find로 수일치를 깨는 오답을 만들 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 292,
+      "span_end": 308,
+      "surface": "a touching story",
+      "sentence_no": 6,
+      "rationale": "story가 감동을 '주는' 주체이므로 현재분사 touching. touched(감동을 받은)로 바꾼 오답이 전형적인 분사 구별 문항.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 313,
+      "span_end": 336,
+      "surface": "I strongly recommend it",
+      "sentence_no": 6,
+      "rationale": "동사 recommend를 수식하므로 부사 strongly. strong으로 바꾼 형용사·부사 혼동 오답을 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 인사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "주제문 — 소개 대상 제시",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "정의 — 영화의 소재·주인공 설명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "전개 — 줄거리 세부 사실",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "전환·해결 — 주인공의 변화",
+      "signal": "There",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "결론문 — 이유 제시 후 추천",
+      "signal": "so",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "위 지문의 (a), (b), (c) 자리에 들어갈 알맞은 말을 바르게 짝지은 것은?\n\n[3] It’s a movie about a pianist who (a)[loses / lose] his love for music.\n[5] There, he begins teaching music to children and (b)[finds / finding] his love for music again.\n[6] This movie has great music and a (c)[touching / touched] story, so I strongly recommend it.",
+      "answer_key": "①",
+      "explanation": "(a) 주격 관계대명사 who의 선행사가 단수 a pianist이므로 loses. (b) and로 begins와 병렬되므로 정동사 finds가 맞고 finding은 병렬을 깬다. (c) story가 감동을 주는 주체이므로 현재분사 touching이며 touched는 '감동을 받은'이 되어 어색하다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        6,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) loses — (b) finds — (c) touching",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) lose — (b) finds — (c) touching",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) loses — (b) finding — (c) touching",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) loses — (b) finds — (c) touched",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) lose — (b) finding — (c) touched",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 5
+        },
+        {
+          "label": "na",
+          "body": "(선지 없음)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "위 지문의 밑줄 친 부분 중 어법상 틀린 것은?\n\nThe movie ①I’m going to introduce today is The Song of Love. It’s a movie about a pianist ②who loses his love for music. He ③moves to a small town for a new start. There, he begins ④teaching music for children and finds his love for music again. This movie has great music and ⑤a touching story.",
+      "answer_key": "④",
+      "explanation": "teach는 'teach A to B(A를 B에게 가르치다)' 형태를 쓰므로 for children이 아니라 to children이 맞다. ①은 introduce의 목적어가 빠진 목적격 관계대명사 생략, ②는 사람 선행사에 대한 주격 who와 단수 동사 loses, ③은 이동 방향의 to, ⑤는 감동을 주는 주체를 나타내는 현재분사로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        2,
+        3,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I’m going to introduce today (목적격 관계대명사 which/that 생략)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "who loses his love for music",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "moves to a small town",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "teaching music for children",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "a touching story",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?\n\nIt’s a movie about a ①pianist who ②loses his love for music. He moves to a ③small town for a new ④start. There, he begins teaching music to children and ⑤loses his love for music again.",
+      "answer_key": "⑤",
+      "explanation": "주인공은 아이들에게 음악을 가르치며 음악에 대한 사랑을 '다시 찾는다'는 흐름이므로 ⑤는 loses가 아니라 finds가 되어야 한다. again이 있는 점도 회복의 의미를 뒷받침한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "pianist",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "loses (his love for music)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "small (town)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "start (a new start)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "loses (his love for music again)",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "na",
+          "body": "(선지 없음)",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the woman mainly doing in the talk?",
+      "answer_key": "①",
+      "explanation": "화자는 The Song of Love라는 영화를 소개하고 마지막에 강력히 추천하고 있으므로 ①이 알맞다. 음악 수업 광고나 영화 비교, 불만 표현은 지문에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Introducing and recommending a movie about a pianist",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Explaining how to become a professional pianist",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Advertising a music class for children in a small town",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Complaining about the poor music of a new movie",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Comparing two movies with touching stories",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about the movie The Song of Love?",
+      "answer_key": "③",
+      "explanation": "[4]에서 주인공은 새 출발을 위해 'a small town(작은 마을)'으로 이사한다고 했으므로 big city는 지문과 불일치한다. 나머지는 [3]~[6]과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Its main character is a pianist.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The pianist loses his love for music.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The pianist moves to a big city for a new start.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The pianist teaches music to children.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The movie has great music and a touching story.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 지문의 마지막 문장의 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nThis movie has great music and a touching story, so ______.",
+      "answer_key": "①",
+      "explanation": "앞에 great music과 touching story라는 긍정적 근거가 so로 연결되므로 추천하는 결론이 와야 한다. ②③④는 앞의 긍정적 근거와 논리적으로 모순되고 ⑤는 영화 추천이라는 글의 목적과 무관하다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I strongly recommend it",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I decided not to watch it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "few people enjoyed it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "it is hard to understand the music",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I want to learn the piano in a small town",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "[4]의 밑줄 친 for a new start가 이 글에서 의미하는 것으로 가장 알맞은 것은?\n\nHe moves to a small town for a new start.",
+      "answer_key": "①",
+      "explanation": "[3]에서 주인공은 음악에 대한 사랑을 잃은 피아니스트로 소개되고, [5]에서 그곳에서 아이들을 가르치며 사랑을 되찾는다. 따라서 for a new start는 잃어버린 것을 회복하기 위한 새 출발을 뜻한다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "음악에 대한 사랑을 잃은 뒤 삶을 다시 시작해 보려고",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "작은 마을에서 새 피아노를 사려고",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "아이들에게 음악을 가르쳐 돈을 벌려고",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "새로운 영화를 촬영하기 위해",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "유명한 피아니스트가 되기 위해",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음은 위 지문의 [5]를 옮겨 쓴 것이다. 어법상 틀린 부분 한 군데를 찾아 바르게 고쳐 쓰시오.\n\nThere, he begins teaching music to children and finding his love for music again.",
+      "answer_key": "finding → finds",
+      "explanation": "and는 앞의 정동사 begins와 대등하게 연결하는 접속사이므로 뒤에도 주어 he에 맞는 정동사 finds가 와야 한다. finding으로 쓰면 병렬 구조가 깨진다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n제가 오늘 소개할 영화는 The Song of Love입니다.\n(is / I’m / today / introduce / the movie / going to / The Song of Love)",
+      "answer_key": "The movie I’m going to introduce today is The Song of Love.",
+      "explanation": "the movie 뒤에 목적격 관계대명사(which/that)가 생략된 관계절 I'm going to introduce today가 오고, 그 뒤에 단수 주어에 맞는 본동사 is가 온다. 관계절 안에는 introduce의 목적어가 없어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

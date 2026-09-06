@@ -1,0 +1,519 @@
+{
+  "passage_id": "8bf5a978-ff01-4a3e-a21d-65bdc43e262c",
+  "body_text_sha256": "7d498372b4584b5c99373d324d9c1f50d21eac394ea4e3a30b424ec5574524a9",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 0,
+      "span_end": 11,
+      "surface": "In the past",
+      "sentence_no": 1,
+      "rationale": "시간을 나타내는 굳어진 부사구 'in the past'. 뜻이 통째로 외워져 전치사가 눈에 안 들어오지만 시험은 [In / On / At] the past 형태로 빈칸을 뚫는다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 29,
+      "span_end": 41,
+      "surface": "used to live",
+      "sentence_no": 1,
+      "rationale": "'~하곤 했다(과거의 습관·상태)'의 used to + 동사원형. used to living / was used to live 처럼 뒤에 동명사를 붙이거나 be used to와 혼동시키는 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 42,
+      "span_end": 56,
+      "surface": "in the country",
+      "sentence_no": 1,
+      "rationale": "'시골에'는 in the country. on the country 처럼 전치사를 바꾸거나 삭제하는 변형이 가능하고, 뒤 문장의 on the farm과 짝지어 [in/on] 고르기로 출제되기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 114,
+      "span_end": 125,
+      "surface": "on the farm",
+      "sentence_no": 3,
+      "rationale": "'농장에서 일하다'는 work on the farm. in the farm / at the farm 로 바꾼 선지를 만들 수 있고, in the country와 대조시켜 전치사 짝짓기로 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 158,
+      "span_end": 173,
+      "surface": "enjoy traveling",
+      "sentence_no": 4,
+      "rationale": "enjoy는 목적어로 동명사만 취하는 동사. enjoy to travel 로 바꾼 오답 선지가 전형적으로 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 58,
+      "span_end": 81,
+      "surface": "Now they live in a city",
+      "sentence_no": 2,
+      "rationale": "Now(현재)와 In the past(과거)의 시제 대조. lived로 바꿔 시제 불일치를 심거나 lives로 수일치 오류를 넣을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 과거 상황 제시(거주지)",
+      "signal": "In the past",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "전환 — 현재 상황 대조(거주지)",
+      "signal": "Now",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "과거 상황 추가 제시(직업)",
+      "signal": "In the past",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "결과요약 — 현재 상황 대조 및 마무리(직업·여가)",
+      "signal": "Now, and",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 지문의 (a), (b), (c)에 들어갈 말로 가장 알맞게 짝지어진 것을 고르시오.\n\nIn the past, my grandparents (a)_______ in the country. (b)_______ they _______ in a city. In the past, they used to work on the farm. Now they do not work, and they enjoy (c)_______.",
+      "answer_key": "①",
+      "explanation": "(a) 과거의 습관·상태를 나타내는 used to 뒤에는 동사원형이 온다(used to live). ②는 used to living으로 be used to -ing와 혼동한 오류. (c) enjoy는 동명사만 목적어로 받으므로 traveling이 맞고, ③의 to travel은 틀리다. (b) 주어 they는 복수이므로 live가 맞고, ④의 lives는 수일치 오류.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) used to live — (b) Now they live — (c) traveling",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) used to living — (b) Now they live — (c) traveling",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) used to live — (b) Now they live — (c) to travel",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) used to live — (b) Now they lives — (c) traveling",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 지문의 빈칸 (a), (b), (c)에 들어갈 전치사로 알맞게 짝지어진 것을 고르시오.\n\n(a)_______ the past, my grandparents used to live (b)_______ the country. Now they live in a city. In the past, they used to work (c)_______ the farm.",
+      "answer_key": "①",
+      "explanation": "'과거에'는 in the past, '시골에 살다'는 live in the country, '농장에서 일하다'는 work on the farm이다. ②는 On the past, ③은 on the country, ④는 in the farm으로 각각 전치사가 잘못되었다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) In — (b) in — (c) on",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) On — (b) in — (c) on",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) In — (b) on — (c) on",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) In — (b) in — (c) in",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 지문의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nIn the past, my grandparents ①In the past ②used to live in the country. Now they live in a city. In the past, they ③used to work on the farm. Now they ④do not work, and they ⑤enjoy to travel.",
+      "answer_key": "⑤",
+      "explanation": "enjoy는 목적어로 to부정사를 취하지 못하고 동명사만 취하므로 enjoy to travel → enjoy traveling이 되어야 한다. ①의 in the past, ③의 on the farm은 올바른 전치사이며, ②는 used to + 동사원형, ④는 현재시제 부정문으로 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "In the past",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "used to live",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "used to work on the farm",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "do not work",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "enjoy to travel",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 중 지문의 흐름상 낱말의 쓰임이 적절하지 않은 문장을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④는 '지금은 일을 하지 않는다'고 하면서 '일하는 것을 즐긴다'고 하여 앞뒤가 모순된다. 원문의 traveling(여행하는 것)이 문맥에 맞다. ①~③은 과거와 현재를 대조하는 글의 흐름에 맞게 쓰였다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "In the past, my grandparents used to live in the country.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Now they live in a city.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "In the past, they used to work on the farm.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Now they do not work, and they enjoy working.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "지문의 밑줄 친 they used to work on the farm 이 뜻하는 바로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "used to + 동사원형은 '(과거에) ~하곤 했다(지금은 아니다)'라는 과거의 습관·상태를 나타낸다. 바로 뒤 문장 Now they do not work가 이를 뒷받침한다. ②는 be used to -ing, ③은 be used to + 동사원형(수동), ④는 미래 표현과 혼동한 것이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "예전에는 농장에서 일했지만 지금은 그렇지 않다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "농장 일에 이제 완전히 익숙해졌다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "농장에서 일하는 데 이용되었다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "앞으로 농장에서 일할 계획이라는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "다음 글의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "글은 In the past와 Now를 반복 대조하며 조부모의 사는 곳과 하는 일이 어떻게 달라졌는지를 말한다. ②의 농장 일의 어려움, ③의 여행지 소개, ④의 시골로 이사하는 이유(글은 반대 방향)는 모두 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "the changes in the writer's grandparents' life",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how hard farm work in the country is",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best places to travel in a big city",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "reasons for moving from a city to the country",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "다음 중 글의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "[2]에서 Now they live in a city라고 했으므로 ①이 일치한다. ②는 Now they do not work와 어긋나고, ③은 과거에 시골(the country)에 살았다는 [1]과 어긋나며, ④는 they enjoy traveling과 반대다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The writer's grandparents live in a city now.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The writer's grandparents still work on the farm.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The writer's grandparents used to live in a city.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The writer's grandparents do not like traveling.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 지문의 마지막 문장을 고쳐 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nNow they do not work, and they enjoy to travel.",
+      "answer_key": "to travel → traveling",
+      "explanation": "enjoy는 목적어로 동명사만 취하는 동사이므로 to travel을 traveling으로 고쳐야 한다. (want, hope 등은 to부정사를 받지만 enjoy, finish, mind 등은 동명사를 받는다.)",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 <조건>에 맞게 영작하시오.\n\n우리말: 과거에 그들은 농장에서 일하곤 했다.\n<조건> 1) used to를 쓸 것  2) 지문에 쓰인 전치사 표현(in the past, on the farm)을 활용할 것",
+      "answer_key": "In the past, they used to work on the farm.",
+      "explanation": "과거의 습관·상태는 'used to + 동사원형'으로 나타내므로 used to work가 되어야 한다. '과거에'는 in the past, '농장에서'는 on the farm이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        0,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n우리말: 이제 그들은 일을 하지 않고, 여행하는 것을 즐긴다.\n[ enjoy / they / work, / and / do / traveling / not / they ]  (Now로 시작할 것)",
+      "answer_key": "Now they do not work, and they enjoy traveling.",
+      "explanation": "현재시제 부정문은 do not + 동사원형(do not work)이고, and 뒤에 다시 주어 they를 두어 병렬로 연결한다. enjoy의 목적어는 동명사 traveling이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 4,
+    "tags_returned": 6,
+    "tags_kept": 6,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

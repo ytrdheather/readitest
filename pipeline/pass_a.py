@@ -34,8 +34,14 @@ def _catalogs(m):
         prompts.render_catalog(
             m["approved_qtypes"], ["code", "label_ko", "option_lang"],
             "# 문항 유형 (question_type) — **원장이 훈련 가치를 승인한 것만**\n\n"
-            "여기 없는 유형은 만들지 마십시오. 특히 '어법 — 단문 나열형'은 "
-            "지문 비연계를 이유로 이미 반려됐습니다."),
+            "여기 없는 유형은 만들지 마십시오.\n\n"
+            # 2026-09-06: 예전에는 여기에 「단문 나열형은 반려됐다」고 적혀 있었다.
+            # 그날 그 유형이 승인되면서 카탈로그에는 실리는데 지침은 만들지 말라고
+            # 하는 모순이 됐다. 승인 상태는 카탈로그가 이미 말해 주므로, 지침은
+            # **어떻게 만들어야 하는가**만 말한다.
+            "'어법 — 단문 나열형'을 만들 때는 **문장을 지문에서 가져오십시오.** "
+            "아이가 이미 읽은 본문 문장을 한 자리만 건드린 것과, 아무 데서나 끌어온 "
+            "문장을 나열한 것은 다릅니다. 앞은 훈련이 되고 뒤는 되지 않습니다."),
     ])
 
 
@@ -68,6 +74,21 @@ def build_params(passage, masters, batch=False):
         "thinking": {"type": "adaptive"},
     }
     return params
+
+
+# 화자 표시는 한 낱말이 아닐 수 있다 — 'A man:' 'Dr. Schofield:' 도 화자다.
+_SPEAKER = re.compile(r"^[A-Z][A-Za-z.]{0,10}(?: [A-Za-z.]{1,12}){0,2}:\s*")
+_MARKUP = re.compile(r"</?u>|[①-⑳ⓐ-ⓩ㉑-㊿]")
+_PAREN_OPT = re.compile(r"\(([A-Za-z][A-Za-z' ]{0,20})\)\s*")
+
+def _canon(s, drop_paren=False):
+    s = _MARKUP.sub("", s)
+    s = _SPEAKER.sub("", s)
+    s = s.replace("’", "'").replace("‘", "'")
+    s = s.replace("“", '"').replace("”", '"')
+    if drop_paren:                       # '(that) he meets' → 'he meets'
+        s = _PAREN_OPT.sub("", s)
+    return " ".join(s.split()).strip()
 
 
 def parse(raw_json, passage):
@@ -118,7 +139,21 @@ def parse(raw_json, passage):
     # 원래 새로 쓰는 문장이라 원문과 달라야 정상이다.
     QUOTES_PASSAGE = {"T-GRAMMAR-INLINE", "T-GRAMMAR-USAGE",
                       "T-GRAMMAR-STANDALONE", "T-WRITE-FIX"}
-    SENTENCES = {" ".join(s.split()) for _, _, _, s in r.sentences}
+    # 원문과 선지를 견주기 전에 **조판 차이를 걷어낸다.** 2026-09-06 에 32개 지문을
+    # 태깅했더니 27건이 걸렸는데 **전부 오탐**이었다. 정답 선지는 하나도 안 걸렸고,
+    # 걸린 것은 전부 이런 차이였다:
+    #
+    #   'B: Excuse me…'  vs  'Excuse me…'      화자 표시 (대화문 선지에는 안 붙인다)
+    #   '<u>held</u>'                          밑줄 태그
+    #   'ⓐWhat kinds…'                         밑줄 기호
+    #   'don’t'  vs  "don't"                   아포스트로피 종류
+    #   'people (that) he meets'               교과서의 「생략 가능」 괄호 표기
+    #
+    # 처음 이 검사를 만들 때(2026-09-01)는 서술형 지문만 봤고 대화문이 없었다.
+    # 오탐이 27건이면 검사가 아니라 소음이다 — 진짜 훼손(앞이 잘리거나 낱말이
+    # 바뀐 것)만 남기려면 이 차이들을 먼저 지워야 한다.
+    SENTENCES = {_canon(s) for _, _, _, s in r.sentences}
+    SENTENCES_NOPAREN = {_canon(s, True) for _, _, _, s in r.sentences}
 
     def verbatim_problem(it):
         """지문 문장을 통째로 옮긴 선지가 정말 원문과 같은지.
@@ -144,8 +179,12 @@ def parse(raw_json, passage):
             if len(cand) < 20 or "___" in cand:
                 continue
             looks_full = cand[0].isupper() and cand[-1] in ".?!"
-            if looks_full and cand not in SENTENCES:
-                bad.append(o["label"])
+            if not looks_full:
+                continue
+            c1 = _canon(cand)
+            if c1 in SENTENCES or _canon(cand, True) in SENTENCES_NOPAREN:
+                continue
+            bad.append(o["label"])
         return bad
 
     items, item_rejects = [], []

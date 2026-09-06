@@ -1,0 +1,592 @@
+{
+  "passage_id": "796c6774-361e-4291-bf6a-8f8e4af6ef19",
+  "body_text_sha256": "8861b2b03db8481d7aa578058cd131a6238dd3671073d7a08a08bba3df3229ed",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 23,
+      "span_end": 42,
+      "surface": "do you usually read",
+      "sentence_no": 1,
+      "rationale": "습관을 나타내는 현재시제 의문문. 주어 you에 맞는 조동사 do를 써야 하며 does/are reading/did 로 바꾼 오답을 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 86,
+      "span_end": 103,
+      "surface": "can you recommend",
+      "sentence_no": 3,
+      "rationale": "부탁·요청의 조동사 can + 동사원형. can you recommending / can you to recommend 같은 형태 오류나 must/have to로 바꿔 의미를 틀리게 하는 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 124,
+      "span_end": 130,
+      "surface": "for me",
+      "sentence_no": 3,
+      "rationale": "'나를 위해'라는 대상·수혜 표시 전치사 for. to me / with me / of me 로 바꾸거나 전치사를 삭제(EI_PREP_DELETE)하는 빈칸 출제가 쉽다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 135,
+      "span_end": 144,
+      "surface": "How about",
+      "sentence_no": 4,
+      "rationale": "제안 표현 How about 뒤에는 명사(구)나 동명사가 온다. How about to read ~ 처럼 to부정사를 넣은 오답이 대표적 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 163,
+      "span_end": 184,
+      "surface": "I think it’s the best",
+      "sentence_no": 5,
+      "rationale": "think 뒤 목적어 명사절 접속사 that이 생략된 구조. that을 what으로 바꾸거나 접속사 자리를 묻는 문항으로 변형 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 171,
+      "span_end": 175,
+      "surface": "it’s",
+      "sentence_no": 5,
+      "rationale": "it is의 축약형 it’s와 소유격 its의 구별. its the best 로 바꾼 오답이 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 176,
+      "span_end": 184,
+      "surface": "the best",
+      "sentence_no": 5,
+      "rationale": "최상급은 the를 동반하며 good의 최상급은 best. more good / the better / the goodest 같은 오답을 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "정보제공(응답)",
+      "signal": "usually",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환(요청)",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "해결책(제안)",
+      "signal": "How about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "결론문(의견 제시)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": null,
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nB: What kinds of books (a)[do / does] you usually read?\nG: I usually read sci-fi novels.\nB: Then, can you recommend a good sci-fi novel for me?\nG: (b)[How about / How about to] The Time Machine? I think (c)[it’s / its] the best.",
+      "answer_key": "①",
+      "explanation": "(a) 주어가 you이므로 조동사는 do. (b) How about 뒤에는 명사(구)나 동명사가 오므로 to를 붙이지 않는다. (c) '그것은 ~이다'의 뜻이므로 it is의 축약형 it’s가 맞고, 소유격 its는 뒤에 명사가 와야 한다. ②는 수일치, ③⑤는 How about 뒤 형태, ④는 it’s/its 구별에서 틀렸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) do — (b) How about — (c) it’s",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) does — (b) How about — (c) it’s",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) do — (b) How about to — (c) it’s",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) do — (b) How about — (c) its",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) does — (b) How about to — (c) its",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "②",
+        "③"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장들을 다시 쓴 것 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④ How about은 전치사 about을 포함하므로 뒤에 명사(구)나 동명사가 와야 한다. to read → reading (또는 원문처럼 How about The Time Machine?). 나머지는 모두 대화의 원문 그대로 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What kinds of books do you usually read?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I usually read sci-fi novels.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Then, can you recommend a good sci-fi novel for me?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "How about to read The Time Machine?",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I think it’s the best.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "소년은 좋은 공상과학 소설을 '추천해' 달라고 부탁하는 상황이므로 refuse(거절하다)는 문맥에 맞지 않는다. recommend가 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What kinds of books do you usually read?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I usually read sci-fi novels.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Then, can you refuse a good sci-fi novel for me?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "How about The Time Machine?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I think it’s the best.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소녀가 'I usually read sci-fi novels.'라고 했으므로 ①이 일치한다. 추천을 부탁한 사람은 소년이고 추천한 사람은 소녀이므로 ②⑤는 반대다. 소녀는 The Time Machine이 최고라고 했으므로 ③도 틀리며, 소년이 읽는 책 종류는 대화에 나오지 않아 ④도 알 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl usually reads sci-fi novels.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy recommends a novel to the girl.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl thinks The Time Machine is boring.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The boy usually reads history books.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl asks the boy for a book recommendation.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소년이 어떤 종류의 책을 읽는지 묻고, 소녀가 공상과학 소설을 읽는다고 답한 뒤 The Time Machine을 추천하는 대화이므로 ①이 주제다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "asking about book tastes and recommending a novel",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to write a science fiction novel",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the way to borrow books from a library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the difference between movies and novels",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the history of time machines",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nG: How about The Time Machine? I think ______.",
+      "answer_key": "①",
+      "explanation": "소녀는 공상과학 소설을 추천해 달라는 부탁에 The Time Machine을 제안하고 있으므로, 그 책을 긍정적으로 평가하는 ①이 알맞다. ②③④⑤는 추천하는 흐름과 어긋난다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "it’s the best",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "it’s too difficult for you",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "you shouldn’t read it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "it isn’t a sci-fi novel",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "nobody likes it",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 How about The Time Machine? 이 뜻하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "How about + 명사(구)는 '~은 어때?'라는 제안 표현이다. 책 추천을 부탁받은 상황이므로 그 소설을 읽어 보라는 권유의 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "『타임머신』을 읽어 보는 게 어때?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "타임머신에 대해 무엇을 알고 있니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "타임머신은 어디에서 만들어졌니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "『타임머신』은 왜 그렇게 유명하니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "타임머신을 타 본 적이 있니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n너는 보통 어떤 종류의 책을 읽니?\n(read / do / books / kinds / usually / of / what / you)",
+      "answer_key": "What kinds of books do you usually read?",
+      "explanation": "의문사구 What kinds of books를 맨 앞에 두고, 현재시제 의문문이므로 조동사 do + 주어 you + 빈도부사 usually + 동사원형 read 순서로 배열한다. 주어가 you이므로 does가 아니라 do를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n그러면, 나를 위해 좋은 공상과학 소설을 추천해 줄 수 있니?\n<조건> 1) can, recommend, for 를 반드시 쓸 것  2) Then, 으로 시작할 것  3) 물음표까지 8단어 이상으로 쓸 것",
+      "answer_key": "Then, can you recommend a good sci-fi novel for me?",
+      "explanation": "요청은 조동사 can + 주어 + 동사원형(recommend)으로 나타내고, '나를 위해'는 대상을 나타내는 전치사 for me로 쓴다. recommend 뒤에는 목적어 a good sci-fi novel이 온다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n\nHow about to read The Time Machine?",
+      "answer_key": "to read → reading",
+      "explanation": "How about의 about은 전치사이므로 뒤에는 명사(구)나 동명사가 와야 한다. 따라서 to read를 reading으로 고쳐야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "①",
+          "②",
+          "③"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "passage_id": "dc091baa-c8be-449f-8b22-a5d347df8f24",
+  "body_text_sha256": "230617a399a2a7c73a7ddb532f66677dac6d2171155708e3404e48c9ab9fbc9a",
+  "tags": [
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 12,
+      "span_end": 38,
+      "surface": "saw a car accident and ran",
+      "sentence_no": 1,
+      "rationale": "등위접속사 and로 과거시제 동사 saw와 ran이 병렬 연결된 자리. ran을 running / to run 으로 바꿔 병렬을 깨는 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 39,
+      "span_end": 46,
+      "surface": "to save",
+      "sentence_no": 1,
+      "rationale": "'~하기 위해 달려갔다'는 목적의 to부정사. saving / for save / save 로 바꾼 형태 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 35,
+      "span_end": 38,
+      "surface": "ran",
+      "sentence_no": 1,
+      "rationale": "run(달려가다)은 목적어를 갖지 않는 자동사여서 수동태가 불가능하다. was run 처럼 수동으로 바꾼 선지를 만들어 [ran / was run] 을 묻는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 60,
+      "span_end": 70,
+      "surface": "on the bus",
+      "sentence_no": 1,
+      "rationale": "버스에 '타고 있는' 아이들을 뜻하는 접촉·탑승의 on. in the bus / at the bus 와 구별하는 빈칸으로 뚫기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 104,
+      "span_end": 117,
+      "surface": "in the subway",
+      "sentence_no": 2,
+      "rationale": "'지하철(역) 안에서'를 나타내는 장소의 in. on the subway / at the subway 와 혼동시키는 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 127,
+      "span_end": 147,
+      "surface": "her own shoes to her",
+      "sentence_no": 2,
+      "rationale": "소유격 her + own(자기 자신의) 구조와 give A to B 의 목적어 her(목적격). hers / herself / she 로 바꾼 격 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 191,
+      "span_end": 218,
+      "surface": "spends his free time fixing",
+      "sentence_no": 4,
+      "rationale": "spend + 시간 + -ing 구문. to fix 로 바꾼 선지가 전형적인 함정이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 212,
+      "span_end": 240,
+      "surface": "fixing old cars and donating",
+      "sentence_no": 4,
+      "rationale": "spend time -ing 의 -ing 두 개가 and로 병렬. donate / donates / to donate 로 바꿔 병렬을 깨는 오답을 만들 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 256,
+      "span_end": 263,
+      "surface": "in need",
+      "sentence_no": 4,
+      "rationale": "'어려움에 처한'을 뜻하는 굳은 전치사구 in need. of need / at need 등으로 바꾼 빈칸 출제 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "사례 제시 1 (선행을 베푼 인물의 구체적 행동)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "사례 제시 2 (병렬 나열)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "인물 소개 (사례 3의 도입)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "사례 3의 구체화 및 전체를 아우르는 요약적 진술",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음은 위 지문의 일부이다. (a), (b), (c)에 들어갈 어형으로 알맞게 짝지어진 것을 고르시오.\n\nNick Priest saw a car accident and (a)[ran / running] to save the children on the bus. ... He spends his free time (b)[fixing / to fix] old cars and (c)[donating / donate] them to people in need.",
+      "answer_key": "①",
+      "explanation": "(a) and로 연결된 앞 동사 saw가 과거시제이므로 병렬을 맞춰 ran이 옳다. running은 정동사 자리에 준동사가 온 오류다. (b) spend + 시간 + -ing 구문이므로 fixing이 옳고 to fix는 쓸 수 없다. (c) fixing과 and로 병렬되므로 donating이어야 하며, donate나 to donate는 병렬이 깨진다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        6,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) ran － (b) fixing － (c) donating",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) running － (b) fixing － (c) donating",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) ran － (b) to fix － (c) donating",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) ran － (b) fixing － (c) donate",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) ran － (b) fixing － (c) to donate",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 글의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nNick Priest saw a car accident and ①ran ②to save the children ③on the bus. Kay Brown saw a homeless person ④in the subway and gave her own shoes to her. Eliot Middleton is a restaurant owner. He spends his free time ⑤to fix old cars and donating them to people in need.",
+      "answer_key": "⑤",
+      "explanation": "⑤ spend + 시간 + -ing 형태를 취하므로 to fix가 아니라 fixing이어야 하고, 뒤의 donating과도 병렬이 맞는다. ①은 saw와 병렬된 과거동사로 옳고, ②는 목적을 나타내는 to부정사, ③은 버스에 타고 있음을 나타내는 on, ④는 장소를 나타내는 in으로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        0,
+        1,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "ran",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to save",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "on the bus",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "in the subway",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "to fix",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문의 [1]번 문장을 바탕으로 만든 다음 문장 중 어법상 옳은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "① 원문 그대로 옳다. ② run은 목적어를 갖지 않는 자동사이므로 수동태(was run)로 쓸 수 없다. ③ and 뒤에 정동사가 와야 하는데 준동사 running이 왔다. ④ 버스에 '타고 있는' 아이들은 on the bus로 쓴다. ⑤ '구하기 위해 달려갔다'는 목적의 의미이므로 to save가 맞다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Nick Priest saw a car accident and ran to save the children on the bus.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Nick Priest saw a car accident and was run to save the children on the bus.",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Nick Priest saw a car accident and running to save the children on the bus.",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Nick Priest saw a car accident and ran to save the children in the bus.",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Nick Priest saw a car accident and ran saving the children on the bus.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 글의 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것을 고르시오.\n\nNick Priest saw a car accident and ran to ①save the children on the bus. Kay Brown saw a ②homeless person in the subway and ③gave her own shoes to her. Eliot Middleton is a restaurant owner. He spends his free time ④fixing old cars and donating them to people in ⑤wealth.",
+      "answer_key": "⑤",
+      "explanation": "글 전체가 어려운 처지의 사람들을 돕는 선행을 소개하고 있으므로, 고친 차를 주는 대상은 '부유한(wealth)' 사람이 아니라 '도움이 필요한(need)' 사람이어야 한다. 따라서 ⑤ wealth를 need로 바꿔야 한다. 나머지 낱말은 모두 문맥에 맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "save",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "homeless",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "gave",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "fixing",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "wealth",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 지문의 밑줄 친 people in need가 의미하는 바로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "in need는 '어려움에 처한, 도움이 필요한'의 뜻이다. 앞선 사례들(사고 현장의 아이들, 노숙인)과 마찬가지로 도움이 절실한 사람들을 가리키므로 ①이 적절하다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "도움이나 지원이 필요한 어려운 처지의 사람들",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "중고차를 싸게 사고 싶어 하는 사람들",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "식당에서 함께 일하는 동료 직원들",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "자동차 수리 기술을 배우고 싶은 사람들",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "지하철을 자주 이용하는 사람들",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "세 인물의 사례가 모두 어려운 처지의 사람을 돕는 선행이므로 ①이 주제이다. ②③④⑤는 각 문장에 등장한 소재(버스, 자동차 수리, 노숙인, 식당)를 이용한 오답으로, 글 전체를 아우르지 못한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "ordinary people who help others in need through kind actions",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the dangers of driving near school buses",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "useful tips for repairing old cars at low cost",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the growing number of homeless people in big cities",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "how to run a successful restaurant business",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "⑤ Eliot Middleton은 새 차를 사서 파는 것이 아니라, 여가 시간에 낡은 차를 고쳐서 도움이 필요한 사람들에게 기부한다(fixing old cars and donating them). 나머지는 모두 본문과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Nick Priest ran to save the children on the bus after seeing a car accident.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Kay Brown met a homeless person in the subway.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Kay Brown gave her own shoes to the homeless person.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Eliot Middleton owns a restaurant.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Eliot Middleton buys new cars and sells them to people in need.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 지문 [4]번 문장을 다음과 같이 바꿔 썼다. 어법상 틀린 부분을 찾아 한 단어로 바르게 고쳐 쓰시오.\n\nHe spends his free time to fix old cars and donating them to people in need.\n\n→ 틀린 부분: __________  →  고친 표현: __________",
+      "answer_key": "틀린 부분: to fix / 고친 표현: fixing",
+      "explanation": "'spend + 시간 + -ing'가 올바른 구문이므로 to fix를 fixing으로 고쳐야 한다. 또한 and 뒤의 donating과 병렬을 이루기 위해서도 fixing이 되어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "위 지문 [2]번 문장의 내용을 다음 조건에 맞게 영작하시오.\n\n〈우리말〉 Kay Brown은 지하철에서 한 노숙인을 보고 자신의 신발을 그녀에게 주었다.\n〈조건〉 ① and로 두 개의 과거시제 동사를 병렬로 연결할 것 ② 장소를 나타내는 전치사 in을 쓸 것 ③ her own shoes와 give A to B 구조를 쓸 것",
+      "answer_key": "Kay Brown saw a homeless person in the subway and gave her own shoes to her.",
+      "explanation": "saw와 gave를 and로 병렬 연결하고, 장소는 in the subway로, '~에게 …을 주다'는 gave her own shoes to her로 표현한다. gave를 giving이나 gives로 쓰면 병렬·시제가 깨진다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오. (필요시 형태를 바꿀 것)\n\n그는 여가 시간을 낡은 차를 고치고 그것들을 도움이 필요한 사람들에게 기부하는 데 쓴다.\n(spends / his free time / fix / old cars / and / donate / them / to people / in need / He)",
+      "answer_key": "He spends his free time fixing old cars and donating them to people in need.",
+      "explanation": "spend + 시간 + -ing 구문이므로 fix는 fixing으로, and 뒤의 donate도 병렬을 맞춰 donating으로 바꾼다. 마지막은 to people in need 순서로 쓴다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        7,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 4,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

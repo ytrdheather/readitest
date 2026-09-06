@@ -1,0 +1,1071 @@
+{
+  "passage_id": "aff6043b-b7d6-469b-9f85-6f1b8aa2c4e5",
+  "body_text_sha256": "03a0e192d3e8d0a3f964c4d9ac11a94b895dc6acdf54d82f12f109fd4faee61a",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 0,
+      "span_end": 20,
+      "surface": "On February 28, 1919",
+      "sentence_no": 1,
+      "rationale": "구체적 날짜 앞에는 on. In/At 으로 바꿔 넣는 빈칸(On/In February 28) 출제 가능. 연도만 있을 때(in 1916)와 대조시키기 쉬움",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 173,
+      "span_end": 201,
+      "surface": "are going to gather tomorrow",
+      "sentence_no": 4,
+      "rationale": "tomorrow와 호응하는 미래표현(be going to). gathered / are gathered 등 과거·수동 오류를 심을 수 있는 자리",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 274,
+      "span_end": 299,
+      "surface": "share them with the world",
+      "sentence_no": 5,
+      "rationale": "share A with B 고정 결합. with를 to/for로 바꾸거나 전치사를 삭제하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 337,
+      "span_end": 369,
+      "surface": "was hiding in a building and saw",
+      "sentence_no": 6,
+      "rationale": "and로 was hiding과 saw(과거)가 병렬. seeing / sees 로 바꿔 병렬 깨기 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 387,
+      "span_end": 411,
+      "surface": "people gathering outside",
+      "sentence_no": 6,
+      "rationale": "지각동사 saw + 목적어 + 현재분사(능동·진행). gathered / to gather 와 구별시키는 대표 출제 지점",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 416,
+      "span_end": 438,
+      "surface": "began to take pictures",
+      "sentence_no": 7,
+      "rationale": "begin은 to부정사·동명사 모두 가능하지만 시험은 took/take 같은 정동사 오류나 to 삭제로 물음",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 469,
+      "span_end": 478,
+      "surface": "There are",
+      "sentence_no": 9,
+      "rationale": "There + be 구문은 뒤의 many people에 수일치. is / was 로 바꾼 수일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 479,
+      "span_end": 493,
+      "surface": "so many people",
+      "sentence_no": 9,
+      "rationale": "셀 수 있는 명사 복수 앞 so many. such many / too many 와 구별하는 선지 구성 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 500,
+      "span_end": 527,
+      "surface": "I hope the world will learn",
+      "sentence_no": 10,
+      "rationale": "hope의 목적어절에서 접속사 that 생략. what/if 로 바꾼 오답 선지 구성 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 645,
+      "span_end": 669,
+      "surface": "he loved his Korean name",
+      "sentence_no": 12,
+      "rationale": "소유격 his가 Schofield를 지시. its / him 등 격·수 오류 유도 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 671,
+      "span_end": 689,
+      "surface": "It sounded similar",
+      "sentence_no": 13,
+      "rationale": "감각동사 sound + 형용사 보어. similarly 로 바꾼 부사 오류가 전형적 출제",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 834,
+      "span_end": 859,
+      "surface": "wanted to teach in Korean",
+      "sentence_no": 15,
+      "rationale": "want는 목적어로 to부정사만 취함. teaching 으로 바꾼 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 850,
+      "span_end": 859,
+      "surface": "in Korean",
+      "sentence_no": 15,
+      "rationale": "'한국어로'는 in Korean. with/by Korean 으로 바꾼 전치사 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 912,
+      "span_end": 945,
+      "surface": "so hard that he was able to teach",
+      "sentence_no": 16,
+      "rationale": "so+부사+that 결과절 구문. such/too ~ to 로 바꾸거나 that을 삭제하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE",
+        "RU_FORMAT_RECAST"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 983,
+      "span_end": 1014,
+      "surface": "believed that every country has",
+      "sentence_no": 17,
+      "rationale": "believe의 목적어절 접속사 that. what 으로 바꾸면 불완전절이 아니어서 오류가 되는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 997,
+      "span_end": 1014,
+      "surface": "every country has",
+      "sentence_no": 17,
+      "rationale": "every + 단수명사는 단수 취급 → has. have 로 바꾼 수일치 오류가 대표적 출제",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 1123,
+      "span_end": 1144,
+      "surface": "heard people shouting",
+      "sentence_no": 18,
+      "rationale": "지각동사 hear + 목적어 + 현재분사(능동·진행). shouted / to shout 와 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1215,
+      "span_end": 1230,
+      "surface": "with his camera",
+      "sentence_no": 19,
+      "rationale": "도구·수단의 with. by/in 으로 바꾼 전치사 선택 빈칸 출제 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 1240,
+      "span_end": 1293,
+      "surface": "wrote an article about the historic event and sent it",
+      "sentence_no": 20,
+      "rationale": "and로 wrote와 sent(과거) 병렬. sending / sends 로 병렬 깨기 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 1335,
+      "span_end": 1392,
+      "surface": "Dr. Schofield’s fight for Korean independence didn’t stop",
+      "sentence_no": 21,
+      "rationale": "주어 fight(단수)와 긴 수식어구 for Korean independence 사이의 수일치. didn't → don't/weren't 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 1393,
+      "span_end": 1426,
+      "surface": "even after the March 1st Movement",
+      "sentence_no": 21,
+      "rationale": "명사구 앞이므로 전치사 after. 절을 이끄는 접속사 형태나 during/while 혼동 선지 구성 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 1431,
+      "span_end": 1455,
+      "surface": "continued to write about",
+      "sentence_no": 22,
+      "rationale": "continue + to부정사. wrote 같은 정동사나 to 삭제 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 1569,
+      "span_end": 1596,
+      "surface": "he had to go back to Canada",
+      "sentence_no": 23,
+      "rationale": "과거의 의무 had to. must(과거형 없음) / didn't have to 와 의미 구별시키는 출제",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1519,
+      "span_end": 1564,
+      "surface": "under the watchful eye of the Japanese police",
+      "sentence_no": 23,
+      "rationale": "'~의 감시 아래'라는 굳어진 부사구의 under. on/in 으로 바꾼 빈칸 출제가 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1636,
+      "span_end": 1678,
+      "surface": "at the invitation of the Korean government",
+      "sentence_no": 24,
+      "rationale": "'~의 초청으로'는 at the invitation of. 굳어진 부사구여서 앞 전치사를 빈칸으로 뚫기 쉬움(in/by 오답)",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1618,
+      "span_end": 1635,
+      "surface": "returned to Korea",
+      "sentence_no": 24,
+      "rationale": "return은 자동사여서 was returned 형태의 수동태가 불가능. 자동사 수동화 함정 선지 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 1730,
+      "span_end": 1757,
+      "surface": "worked hard to help Koreans",
+      "sentence_no": 25,
+      "rationale": "hard(열심히)와 hardly(거의 ~않다)의 구별. hardly로 바꾸면 의미가 반대가 되는 대표 함정",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1799,
+      "span_end": 1817,
+      "surface": "died in April 1970",
+      "sentence_no": 26,
+      "rationale": "die는 목적어를 갖지 않아 수동태 불가. was died 형태의 자동사 수동화 오답 선지가 자주 나옴",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1823,
+      "span_end": 1863,
+      "surface": "he was buried in Seoul National Cemetery",
+      "sentence_no": 26,
+      "rationale": "주어가 매장되는 대상이므로 be + p.p. 수동. buried / was burying 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 장면 설정(날짜·인물)",
+      "signal": "On February 28, 1919",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입 — 방문자의 부탁 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답 질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "배경 정보(다음 날 일어날 일)",
+      "signal": "tomorrow",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "요청 내용 — 사건의 발단",
+      "signal": "Could you",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "전환 — 실제 사건 장면",
+      "signal": "At 2 p.m. on March 1",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부 행동",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "감탄 — 반응",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "세부 묘사(군중 규모)",
+      "signal": "so many",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "의도 진술 — 사진의 목적",
+      "signal": "I hope",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 11,
+      "role": "도입 질문 — 인물 소개 시작",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "정의 — 한국 이름 설명",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "원인 — 그 이름을 좋아한 이유",
+      "signal": "and it also",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "배경 — 국적·방한 시기와 목적",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "세부 — 한국어 학습 동기",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "결과 — 노력의 성과",
+      "signal": "so ~ that",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "주제문 — 신념과 독립운동 지원",
+      "signal": "so",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 18,
+      "role": "세부 사실 — 3·1운동 목격",
+      "signal": "On March 1, 1919",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "세부 사실 — 사진 촬영",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "세부 사실 — 기사 작성·해외 송고",
+      "signal": "then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 21,
+      "role": "전환·주제 강화 — 이후에도 계속된 활동",
+      "signal": "even after",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 22,
+      "role": "세부 — 지속적 기고",
+      "signal": "continued",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 23,
+      "role": "원인과 부정적 결과 — 감시와 귀국",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 24,
+      "role": "전환 — 재방한과 정착",
+      "signal": "In 1958",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 25,
+      "role": "결과 요약 — 남은 생의 헌신",
+      "signal": "For the rest of his life",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 26,
+      "role": "결론문 — 사망과 안장",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 지문의 문장을 옮긴 것 중, 어법상 어색한 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ every + 단수명사는 단수 취급이므로 have가 아니라 has가 맞다(every country has). ①은 지각동사 saw + 목적어 + 현재분사(gathering)로 옳고, ②는 so + 부사 + that 결과절로 옳다. ④는 wrote와 sent가 and로 올바르게 병렬되었고, ⑤는 자동사 died(능동)와 매장되는 대상인 he에 대한 수동태 was buried가 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        15,
+        4,
+        13,
+        18,
+        27
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He studied so hard that he was able to teach in Korean after only a few years.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He believed that every country have the right to be independent, so he helped the Korean independence movement.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He then wrote an article about the historic event and sent it to foreign newspapers with his pictures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "위 지문의 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것을 고르시오.\n\n· [6] ... saw a large group of people (a)[gathering / gathered] outside.\n· [25] For the rest of his life, he worked (b)[hard / hardly] to help Koreans, especially poor students.\n· [26] Dr. Schofield (c)[died / was died] in April 1970, and he was buried in Seoul National Cemetery.",
+      "answer_key": "①",
+      "explanation": "(a) 지각동사 saw의 목적격보어 자리에서 people이 모여드는 동작을 능동·진행으로 하고 있으므로 현재분사 gathering. (b) '열심히'는 hard이며 hardly는 '거의 ~않다'로 문맥과 반대가 된다. (c) die는 목적어를 갖지 않는 자동사여서 수동태 was died가 불가능하다. 따라서 ①.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        26,
+        27
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) gathering — (b) hard — (c) died",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) gathered — (b) hard — (c) died",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) gathering — (b) hardly — (c) died",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) gathering — (b) hard — (c) was died",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "③"
+      ],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 지문에서 밑줄 친 to의 쓰임이 나머지와 다른 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "①~④의 to는 모두 뒤에 동사원형이 오는 to부정사(① 형용사적 용법, ② 목적의 부사적 용법, ③④ 동사의 목적어)이다. ⑤의 to는 뒤에 명사구(foreign newspapers)가 오는 전치사로 '~에게'의 방향을 나타내므로 쓰임이 다르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        21,
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I have a special favor <u>to</u> ask you.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "he first came to Korea in 1916 <u>to</u> teach medicine",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He began <u>to</u> take pictures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He continued <u>to</u> write about the terrible situation in Korea",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "sent it <u>to</u> foreign newspapers with his pictures",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름으로 보아, 밑줄 친 낱말이 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "Schofield는 평생 한국인, 특히 가난한 학생들을 '돕기 위해' 애썼으므로 ⑤의 ignore(무시하다)는 문맥과 정반대이며 help가 되어야 한다. ①은 Seok Hopil이 Schofield와 비슷하게 들렸다는 설명, ②는 노력의 결과로 가르칠 수 있게 된 것, ③은 그가 알린 한국의 참혹한 상황, ④는 일본 경찰의 감시라는 문맥에 모두 맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        13,
+        21,
+        23,
+        26
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "It sounded <u>similar</u> to his real name, and it also had a good meaning.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He studied so hard that he was <u>able</u> to teach in Korean after only a few years.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He continued to write about the <u>terrible</u> situation in Korea for foreign newspapers.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He was under the <u>watchful</u> eye of the Japanese police, so he had to go back to Canada in 1920.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "For the rest of his life, he worked hard to <u>ignore</u> Koreans, especially poor students.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "글은 캐나다인 의사 Schofield가 한국어를 배우고 3·1운동을 사진과 기사로 세계에 알리며 평생 한국인을 도운 삶을 소개한다. 따라서 ①이 주제다. ②③④⑤는 글에 부분적으로 언급되거나 아예 다루지 않은 세부·무관한 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        14,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a Canadian doctor who devoted his life to Korea and its independence",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the medical technology that Western doctors brought to Korea",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "how the March 1st Movement started in Tapgol Park",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "why Korean names often sound similar to English names",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the history of foreign newspapers published in Seoul",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "[21]~[22]에서 그의 활동은 3·1운동 이후에도 멈추지 않았고 계속 한국의 상황에 대해 기고했다고 했으므로 ④는 일치하지 않는다. ①은 [14], ②는 [15]~[16], ③은 [20], ⑤는 [24]와 [26]으로 확인된다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        19,
+        21,
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Dr. Schofield came to Korea in 1916 to teach medicine.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He learned Korean so that he could teach his students in Korean.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He sent both an article and pictures about the March 1st Movement to foreign newspapers.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He stopped writing about Korea right after the March 1st Movement.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "He came back to Korea in 1958 and stayed there until he died.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 글의 [17] 문장의 빈칸에 들어갈 말로 가장 적절한 것을 고르시오.\n\nHe believed that every country has the right to ______, so he helped the Korean independence movement.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤의 'so he helped the Korean independence movement'가 근거다. 독립운동을 도운 이유가 되는 신념은 '모든 나라는 독립할 권리가 있다'는 것이므로 ①이 정답이다. ②~⑤는 글에 나온 낱말을 이용했을 뿐 독립운동 지원의 이유가 되지 못한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "be independent",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "choose its own doctors",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "send its students abroad",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "punish foreign police",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "publish foreign newspapers",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "[23] He was <u>under the watchful eye of the Japanese police</u>, so he had to go back to Canada in 1920. 밑줄 친 부분의 의미로 가장 적절한 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "under the (watchful) eye of ~는 '~의 감시 아래에 있다'는 뜻이다. 그 결과 1920년에 캐나다로 돌아가야 했다(so he had to go back)는 문맥이 이를 뒷받침한다. ②④는 우호적 관계로 잘못 읽은 것이고, ③은 주어와 대상을 뒤바꾼 해석이며 ⑤는 글에 없는 내용이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        23,
+        22
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "일본 경찰의 감시를 받고 있었다",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "일본 경찰의 보호를 받고 있었다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "일본 경찰을 몰래 지켜보고 있었다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "일본 경찰의 신뢰를 얻고 있었다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "일본 경찰에게 도움을 요청했다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "다음은 위 지문 [6]을 옮긴 것이다. 어법상 틀린 부분을 찾아 한 단어로 바르게 고쳐 쓰시오.\n\nAt 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathered outside.",
+      "answer_key": "gathered → gathering",
+      "explanation": "지각동사 saw의 목적격보어 자리다. people이 밖에서 '모여들고 있는' 능동·진행의 동작을 하므로 과거분사 gathered가 아니라 현재분사 gathering을 써야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "stem": "다음 우리말과 같은 뜻이 되도록 조건에 맞게 영작하시오.\n\n우리말: 그는 너무 열심히 공부해서 몇 년 만에 한국어로 가르칠 수 있었다.\n조건 1) so ~ that 구문을 사용할 것\n조건 2) studied, hard, was able to 를 활용할 것\n조건 3) after only a few years 로 끝낼 것\n\nHe ______________________________________ after only a few years.",
+      "answer_key": "He studied so hard that he was able to teach in Korean after only a few years.",
+      "explanation": "'너무 ~해서 ...하다'는 so + 부사(hard) + that + 주어 + 동사 구문으로 쓴다. 주절이 과거이므로 studied, 결과절도 과거인 was able to teach를 쓰고, '한국어로'는 in Korean으로 표현한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        13,
+        12
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하시오.\n\n우리말: 그는 모든 나라가 독립할 권리를 가지고 있다고 믿었다.\n주어진 말: (believed / that / every country / has / the right / to be independent / He)",
+      "answer_key": "He believed that every country has the right to be independent.",
+      "explanation": "believe의 목적어는 접속사 that이 이끄는 명사절이다. 절 안의 주어 every country는 단수 취급이므로 동사는 has이고, the right를 뒤에서 수식하는 to부정사 to be independent가 이어진다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        14,
+        15
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 26,
+    "tags_returned": 29,
+    "tags_kept": 29,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-USAGE",
+        "options": [
+          "①",
+          "③"
+        ]
+      }
+    ]
+  }
+}
