@@ -79,6 +79,26 @@ try:
 except Exception as e:
     print("  조회 실패:", type(e).__name__)
 
+# 후보 코드는 **파일이 아니라 DB 가 정답이다.** 2026-09-06 에
+# master_candidates.json 만 보고 「후보 3개」라고 답했다가, DB 에는 10종이
+# 있는 것을 뒤늦게 발견했다. 파일에 안 적힌 채 시드·인제스트로 들어간
+# 것들이었다. 그 뒤로 이 줄을 항상 찍는다.
+print("\n[미승인 후보 코드 — 파일 말고 여기가 정답]")
+try:
+    cand = [g for g in rows("grammar_point") if g.get("is_candidate")]
+    if cand:
+        print(f"  어법 포인트 후보 {len(cand)}종 — 원장 승인 전")
+        for g in sorted(cand, key=lambda x: x["code"]):
+            print(f"     {g['code']:24} {g['label_ko']}")
+    else:
+        print("  없음 — 어법 포인트 전부 정식 승인 상태")
+    q = rows("question_type")
+    pend = [x for x in q if x["value_approved"] is None]
+    print(f"  문항 유형 미검수 {len(pend)}종"
+          + (f" — {[x['code'] for x in pend]}" if pend else " (전부 검수됨)"))
+except Exception as e:
+    print("  조회 실패:", type(e).__name__)
+
 print("\n" + "=" * 62)
 print(" 결과:", "스키마 정상" if ok else f"문제 있음 {missing}")
 print("=" * 62)
