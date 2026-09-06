@@ -98,6 +98,21 @@ def cmd_pass_a(args):
     passages = [load_passage_file(f) for f in args.file]
     if args.all or args.passage:
         passages += fetch_passages(rest, None if args.all else args.passage)
+
+    # 이미 태그가 붙은 지문은 기본으로 건너뛴다. 다시 돌리면 같은 지문에 태그가 두 벌
+    # 쌓이는데, 그러면 커버리지·과잉률이 조용히 두 배로 잡힌다. 일부러 다시 하려면
+    # --retag 를 붙인다.
+    if passages and not args.retag:
+        tagged = {t["passage_id"] for t in rest.get("/passage_tag?select=passage_id")}
+        before = len(passages)
+        skipped = [p for p in passages if p.get("id") in tagged]
+        passages = [p for p in passages if p.get("id") not in tagged]
+        if skipped:
+            print(f"[건너뜀] 이미 태깅된 지문 {len(skipped)}개 "
+                  f"— {', '.join(p['title'] for p in skipped)}")
+            print("         다시 태깅하려면 --retag\n")
+        del before
+
     if not passages:
         raise SystemExit("해당하는 지문이 없습니다. `python -m pipeline.run list` 로 확인하십시오.")
 
@@ -230,6 +245,8 @@ def main():
     a = sub.add_parser("pass-a", help="태깅 A/B + 문항 생성")
     a.add_argument("--passage", help="제목·id 부분 일치")
     a.add_argument("--all", action="store_true", help="DB의 모든 지문")
+    a.add_argument("--retag", action="store_true",
+                   help="이미 태깅된 지문도 다시 태깅 (기본은 건너뜀)")
     a.add_argument("--file", action="append", default=[],
                    help="passage JSON 파일에서 직접 (전사 pending 인 지문용). 여러 번 지정 가능")
     a.add_argument("--dry-run", action="store_true", help="호출하지 않고 프롬프트만 확인")
