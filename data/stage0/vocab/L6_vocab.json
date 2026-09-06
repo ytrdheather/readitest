@@ -1,0 +1,575 @@
+{
+  "lesson": 6,
+  "unit_title": "The Greatest Love for All",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "source_file": "l6.pdf",
+  "source_detail": "자습서 「Words 만점 노트」 + Words 영영풀이 쪽",
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer"
+  },
+  "words": [
+    {
+      "word": "essay",
+      "pos": "명",
+      "gloss_ko": "에세이, 과제물",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "introduce",
+      "pos": "동",
+      "gloss_ko": "소개하다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "lose",
+      "pos": "동",
+      "gloss_ko": "잃어버리다; 지다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "magazine",
+      "pos": "명",
+      "gloss_ko": "잡지",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "move",
+      "pos": "동",
+      "gloss_ko": "이사하다; 움직이다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "novel",
+      "pos": "명",
+      "gloss_ko": "(장편) 소설",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "recommend",
+      "pos": "동",
+      "gloss_ko": "추천하다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "sci-fi",
+      "pos": "형",
+      "gloss_ko": "공상 과학 소설의",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "strongly",
+      "pos": "부",
+      "gloss_ko": "강(력)하게, 튼튼하게",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "touching",
+      "pos": "형",
+      "gloss_ko": "감동적인(= moving)",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "volunteer",
+      "pos": "형명",
+      "gloss_ko": "자발적인;  자원봉사자",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "be interested in",
+      "pos": null,
+      "gloss_ko": "~에 관심이 있다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "do volunteer work",
+      "pos": null,
+      "gloss_ko": "자원봉사를 하다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "give it a try",
+      "pos": null,
+      "gloss_ko": "시도하다, 한번 해 보다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "cry",
+      "pos": "동",
+      "gloss_ko": "울다",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "catch",
+      "pos": "동",
+      "gloss_ko": "(붙)잡다; 받다",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "whole",
+      "pos": "형",
+      "gloss_ko": "전체〔전부〕의, 모든",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "lots〔a lot〕 of",
+      "pos": null,
+      "gloss_ko": "많은",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "respect",
+      "pos": "동",
+      "gloss_ko": "존경하다",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "selfless",
+      "pos": "형",
+      "gloss_ko": "이타적인",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "successful",
+      "pos": "형",
+      "gloss_ko": "성공한",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "success",
+      "pos": "명",
+      "gloss_ko": "성공",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "be born",
+      "pos": null,
+      "gloss_ko": "태어나다",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "die from",
+      "pos": null,
+      "gloss_ko": "~로 죽다",
+      "section": "Think and Write & Culture Project",
+      "definition_en": "to stop living and become dead",
+      "definition_matched_by": "첫 낱말"
+    },
+    {
+      "word": "give away",
+      "pos": null,
+      "gloss_ko": "나누어 주다, 거저 주다",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "restaurant",
+      "pos": "명",
+      "gloss_ko": "식당",
+      "section": "Talk and Play",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "dish",
+      "pos": "명",
+      "gloss_ko": "요리; 접시",
+      "section": "Talk and Play",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "straight",
+      "pos": "형",
+      "gloss_ko": "연속된, 끊이지 않는",
+      "section": "Review",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "loud",
+      "pos": "형",
+      "gloss_ko": "(소리가) 큰, 시끄러운",
+      "section": "Review",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "article",
+      "pos": "명",
+      "gloss_ko": "(신문·잡지의) 글, 기사",
+      "section": "Reading",
+      "definition_en": "a piece of writing on a particular subject in a newspaper",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "bury",
+      "pos": "동",
+      "gloss_ko": "묻다, 매장하다",
+      "section": "Reading",
+      "definition_en": "to put something into a hole in the ground and cover it",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "cemetery",
+      "pos": "명",
+      "gloss_ko": "묘지",
+      "section": "Reading",
+      "definition_en": "a place where people put dead bodies in the ground",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "continue",
+      "pos": "동",
+      "gloss_ko": "계속하다",
+      "section": "Reading",
+      "definition_en": "to keep doing something without stopping",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "die",
+      "pos": "동",
+      "gloss_ko": "죽다",
+      "section": "Reading",
+      "definition_en": "to stop living and become dead",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "event",
+      "pos": "명",
+      "gloss_ko": "사건, 일; 행사",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "favor",
+      "pos": "명",
+      "gloss_ko": "부탁, 호의",
+      "section": "Reading",
+      "definition_en": "something helpful that you do for someone",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "foreign",
+      "pos": "형",
+      "gloss_ko": "외국의",
+      "section": "Reading",
+      "definition_en": "in or from a country that is not your own",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "foreigner",
+      "pos": "명",
+      "gloss_ko": "외국인",
+      "section": "Reading",
+      "definition_en": "a person who comes from another country",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "gather",
+      "pos": "동",
+      "gloss_ko": "모이다; 모으다",
+      "section": "Reading",
+      "definition_en": "to come together in a group in one place",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "government",
+      "pos": "명",
+      "gloss_ko": "정부",
+      "section": "Reading",
+      "definition_en": "the group of people who officially control a country",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "hide",
+      "pos": "동",
+      "gloss_ko": "숨다 (과거형: hid)",
+      "section": "Reading",
+      "definition_en": "to go to a place where no one will see or find you",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "historic",
+      "pos": "형",
+      "gloss_ko": "역사적인",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "independence",
+      "pos": "명",
+      "gloss_ko": "독립",
+      "section": "Reading",
+      "definition_en": "freedom from political control by other countries",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "independent",
+      "pos": "형",
+      "gloss_ko": "독립된 (↔ dependent)",
+      "section": "Reading",
+      "definition_en": "not governed or ruled by another country",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "invitation",
+      "pos": "명",
+      "gloss_ko": "초청, 초대",
+      "section": "Reading",
+      "definition_en": "the act of inviting someone",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "meaning",
+      "pos": "명",
+      "gloss_ko": "의미, 뜻",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "medicine",
+      "pos": "명",
+      "gloss_ko": "의학",
+      "section": "Reading",
+      "definition_en": "the study of diseases and their treatment",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "movement",
+      "pos": "명",
+      "gloss_ko": "(조직적인) 운동",
+      "section": "Reading",
+      "definition_en": "an action that a group of people take to change something",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "real",
+      "pos": "형",
+      "gloss_ko": "진짜의; 정말의",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "rest",
+      "pos": "명",
+      "gloss_ko": "(어떤 것의) 나머지",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "return",
+      "pos": "동",
+      "gloss_ko": "돌아오다, 돌아가다",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "right",
+      "pos": "명",
+      "gloss_ko": "권리",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "shout",
+      "pos": "동",
+      "gloss_ko": "외치다, 소리치다",
+      "section": "Reading",
+      "definition_en": "to say something very loudly",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "situation",
+      "pos": "명",
+      "gloss_ko": "상황",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "terrible",
+      "pos": "형",
+      "gloss_ko": "끔찍한, 참혹한",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "unbelievable",
+      "pos": "형",
+      "gloss_ko": "믿기 어려울 정도인",
+      "section": "Reading",
+      "definition_en": "very difficult to believe and unlikely to be true",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "at the invitation of",
+      "pos": null,
+      "gloss_ko": "~의 초청으로",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "for the rest of one’s life",
+      "pos": null,
+      "gloss_ko": "~의 여생 동안",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "share A with B",
+      "pos": null,
+      "gloss_ko": "A를 B와 공유하다〔함께 쓰다〕",
+      "section": "Reading",
+      "definition_en": "to have or use something with others",
+      "definition_matched_by": "첫 낱말"
+    },
+    {
+      "word": "similar to",
+      "pos": null,
+      "gloss_ko": "~와 비슷한",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "under the watchful eye of",
+      "pos": null,
+      "gloss_ko": "~의 감시 아래에서,",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    }
+  ],
+  "derivations": [
+    {
+      "base": "dependent",
+      "base_ko": "의존하는",
+      "derived": "independent",
+      "derived_ko": "독립된"
+    },
+    {
+      "base": "believable",
+      "base_ko": "믿을 수 있는",
+      "derived": "unbelievable",
+      "derived_ko": "믿기 어려울 정도인"
+    },
+    {
+      "base": "continue",
+      "base_ko": "계속하다",
+      "derived": "stop",
+      "derived_ko": "멈추다"
+    },
+    {
+      "base": "real",
+      "base_ko": "진짜의",
+      "derived": "fake",
+      "derived_ko": "가짜의"
+    },
+    {
+      "base": "history",
+      "base_ko": "역사",
+      "derived": "historic",
+      "derived_ko": "역사적인"
+    },
+    {
+      "base": "success",
+      "base_ko": "성공",
+      "derived": "successful",
+      "derived_ko": "성공적인"
+    },
+    {
+      "base": "nation",
+      "base_ko": "국가",
+      "derived": "national",
+      "derived_ko": "국가의"
+    },
+    {
+      "base": "situation",
+      "base_ko": "상황",
+      "derived": "situational",
+      "derived_ko": "상황에 따른"
+    },
+    {
+      "base": "real",
+      "base_ko": "진짜의; 정말의",
+      "derived": "really",
+      "derived_ko": "진짜로; 정말로"
+    },
+    {
+      "base": "terrible",
+      "base_ko": "끔찍한, 잔혹한",
+      "derived": "terribly",
+      "derived_ko": "몹시, 지독하게"
+    },
+    {
+      "base": "similar",
+      "base_ko": "비슷한",
+      "derived": "similarly",
+      "derived_ko": "비슷하게"
+    }
+  ],
+  "distribution_scope": "internal_only"
+}

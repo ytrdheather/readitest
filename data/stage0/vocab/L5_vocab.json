@@ -1,0 +1,519 @@
+{
+  "lesson": 5,
+  "unit_title": "The City as a Canvas",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "source_file": "L5.pdf",
+  "source_detail": "자습서 「Words 만점 노트」 + Words 영영풀이 쪽",
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer"
+  },
+  "words": [
+    {
+      "word": "anyway",
+      "pos": "부",
+      "gloss_ko": "그런데, 어쨌든",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "fair",
+      "pos": "명",
+      "gloss_ko": "박람회",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "far",
+      "pos": "부",
+      "gloss_ko": "멀리 (↔ near)",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "free",
+      "pos": "형",
+      "gloss_ko": "한가한; 자유로운",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "national",
+      "pos": "형",
+      "gloss_ko": "국가의",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "perfect",
+      "pos": "형",
+      "gloss_ko": "완벽한, 완전한",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "straight",
+      "pos": "부",
+      "gloss_ko": "똑바로, 곧장",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "subway",
+      "pos": "명",
+      "gloss_ko": "지하철",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "get off",
+      "pos": null,
+      "gloss_ko": "(말·차 등에서) 내리다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "turn left",
+      "pos": null,
+      "gloss_ko": "왼쪽으로 돌다, 좌회전하다",
+      "section": "Watch and Talk",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "bakery",
+      "pos": "명",
+      "gloss_ko": "빵집, 제과점",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "chef",
+      "pos": "명",
+      "gloss_ko": "요리사",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "healthy",
+      "pos": "형",
+      "gloss_ko": "건강에 좋은; 건강한",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "subject",
+      "pos": "명",
+      "gloss_ko": "과목; 주제",
+      "section": "Language in Use",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "ballet",
+      "pos": "명",
+      "gloss_ko": "발레",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "create",
+      "pos": "동",
+      "gloss_ko": "창작하다, 만들어 내다",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "warm",
+      "pos": "형",
+      "gloss_ko": "따뜻한",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "set the table",
+      "pos": null,
+      "gloss_ko": "상을 차리다",
+      "section": "Think and Write & Culture Project",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "classical",
+      "pos": "형",
+      "gloss_ko": "고전적인, 클래식의",
+      "section": "Review",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "country",
+      "pos": "명",
+      "gloss_ko": "나라; 시골",
+      "section": "Review",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "solve",
+      "pos": "동",
+      "gloss_ko": "풀다, 해결하다",
+      "section": "Review",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "village",
+      "pos": "명",
+      "gloss_ko": "마을",
+      "section": "Review",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "bridge",
+      "pos": "명",
+      "gloss_ko": "다리",
+      "section": "Talk and Play",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "minute",
+      "pos": "명",
+      "gloss_ko": "(시간 단위의) 분",
+      "section": "Talk and Play",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "area",
+      "pos": "명",
+      "gloss_ko": "지역; 구역",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "artwork",
+      "pos": "명",
+      "gloss_ko": "예술 작품, 미술품",
+      "section": "Reading",
+      "definition_en": "something made by an artist, like a drawing, painting, or sculpture",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "chew",
+      "pos": "동",
+      "gloss_ko": "(음식을) 씹다",
+      "section": "Reading",
+      "definition_en": "to break food into smaller, softer pieces with the teeth",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "clue",
+      "pos": "명",
+      "gloss_ko": "단서, 실마리",
+      "section": "Reading",
+      "definition_en": "a hint that helps you to solve a puzzle, problem, or question",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "colorful",
+      "pos": "형",
+      "gloss_ko": "형형색색의, (색이) 다채로운",
+      "section": "Reading",
+      "definition_en": "having bright colors or many different colors",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "dot",
+      "pos": "명",
+      "gloss_ko": "점",
+      "section": "Reading",
+      "definition_en": "a very small round mark",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "drop",
+      "pos": "동",
+      "gloss_ko": "떨어뜨리다",
+      "section": "Reading",
+      "definition_en": "to let or make something fall",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "figure",
+      "pos": "명",
+      "gloss_ko": "인물, 모습",
+      "section": "Reading",
+      "definition_en": "a person or an animal in a drawing, painting, etc.",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "final",
+      "pos": "형",
+      "gloss_ko": "마지막의, 최종적인",
+      "section": "Reading",
+      "definition_en": "happening at the end of a process",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "form",
+      "pos": "명",
+      "gloss_ko": "형태, 방식",
+      "section": "Reading",
+      "definition_en": "the shape of something",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "hip",
+      "pos": "형",
+      "gloss_ko": "세련된, 최신 유행에 밝은",
+      "section": "Reading",
+      "definition_en": "following the latest fashions in music and clothes",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "hold",
+      "pos": "동",
+      "gloss_ko": "잡고〔들고, 쥐고, 안고〕 있다",
+      "section": "Reading",
+      "definition_en": "to take and keep something in one’s hand",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "internationally",
+      "pos": "부",
+      "gloss_ko": "국제적으로",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "leafless",
+      "pos": "형",
+      "gloss_ko": "잎이 없는, 잎이 떨어진",
+      "section": "Reading",
+      "definition_en": "having no leaves",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "lively",
+      "pos": "형",
+      "gloss_ko": "활기찬, 생기 넘치는",
+      "section": "Reading",
+      "definition_en": "full of life and energy",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "modern",
+      "pos": "형",
+      "gloss_ko": "현대의, 근대의",
+      "section": "Reading",
+      "definition_en": "of the present or recent times",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "opinion",
+      "pos": "명",
+      "gloss_ko": "의견, 견해",
+      "section": "Reading",
+      "definition_en": "a thought or belief about something or someone",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "personal",
+      "pos": "형",
+      "gloss_ko": "개인적인",
+      "section": "Reading",
+      "definition_en": "belonging or relating to a particular person",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "piece",
+      "pos": "명",
+      "gloss_ko": "작품; (미술·음악 등의 작품) 한 점",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "pleasure",
+      "pos": "명",
+      "gloss_ko": "기쁨, 즐거움",
+      "section": "Reading",
+      "definition_en": "a feeling of happiness or enjoyment",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "represent",
+      "pos": "동",
+      "gloss_ko": "나타내다, 상징하다",
+      "section": "Reading",
+      "definition_en": "to show something or someone, especially in a picture",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "social",
+      "pos": "형",
+      "gloss_ko": "사회의, 사회적인",
+      "section": "Reading",
+      "definition_en": "relating to society or its organization",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "spray",
+      "pos": "동",
+      "gloss_ko": "(분무기로) 뿌리다, 살포하다",
+      "section": "Reading",
+      "definition_en": "to spread liquid in small drops over an area",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "tiny",
+      "pos": "형",
+      "gloss_ko": "아주 작은",
+      "section": "Reading",
+      "definition_en": "very small",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "well-known",
+      "pos": "형",
+      "gloss_ko": "잘 알려진, 유명한",
+      "section": "Reading",
+      "definition_en": "known by many people",
+      "definition_matched_by": "표제어"
+    },
+    {
+      "word": "according to",
+      "pos": null,
+      "gloss_ko": "~에 따르면, ~에 따라",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "be famous for",
+      "pos": null,
+      "gloss_ko": "~로 유명하다",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "be known for",
+      "pos": null,
+      "gloss_ko": "~로 알려져 있다",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "for example",
+      "pos": null,
+      "gloss_ko": "예를 들면",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    },
+    {
+      "word": "take care of",
+      "pos": null,
+      "gloss_ko": "~을 돌보다",
+      "section": "Reading",
+      "definition_en": null,
+      "definition_matched_by": null
+    }
+  ],
+  "derivations": [
+    {
+      "base": "friend",
+      "base_ko": "친구",
+      "derived": "friendly",
+      "derived_ko": "친절한"
+    },
+    {
+      "base": "luck",
+      "base_ko": "운",
+      "derived": "lucky",
+      "derived_ko": "운이 좋은"
+    },
+    {
+      "base": "person",
+      "base_ko": "사람, 개인",
+      "derived": "personal",
+      "derived_ko": "개인적인"
+    },
+    {
+      "base": "care",
+      "base_ko": "조심, 주의",
+      "derived": "careful",
+      "derived_ko": "조심스러운"
+    },
+    {
+      "base": "act",
+      "base_ko": "행동하다",
+      "derived": "active",
+      "derived_ko": "활동적인"
+    },
+    {
+      "base": "enjoy",
+      "base_ko": "즐기다",
+      "derived": "enjoyable",
+      "derived_ko": "즐거운"
+    },
+    {
+      "base": "create",
+      "base_ko": "만들다",
+      "derived": "creative",
+      "derived_ko": "창의적인"
+    },
+    {
+      "base": "please",
+      "base_ko": "기쁘게 하다",
+      "derived": "pleasure",
+      "derived_ko": "기쁨"
+    },
+    {
+      "base": "solve",
+      "base_ko": "해결하다",
+      "derived": "solution",
+      "derived_ko": "해결"
+    },
+    {
+      "base": "create",
+      "base_ko": "창작하다",
+      "derived": "creation",
+      "derived_ko": "창작물"
+    },
+    {
+      "base": "represent",
+      "base_ko": "나타내다",
+      "derived": "representation",
+      "derived_ko": "표현"
+    }
+  ],
+  "distribution_scope": "internal_only"
+}
