@@ -1,0 +1,166 @@
+{
+  "school": "태장중",
+  "grade": 2,
+  "lesson": 5,
+  "unit_title": "The City as a Canvas",
+  "kind": "vocab_handout_example",
+  "source_type": "배부프린트",
+  "source_detail": "태장중 2학년 Lesson 5 Vocabulary — 단어·뜻·예문 (빈칸 채우기)",
+  "transcription": {
+    "status": "pending",
+    "method": "vision_single_pass",
+    "note": "단어 칸과 뜻 칸이 번갈아 비어 있고 학생이 채우는 형식이라 두 칸 다 절반이 손글씨다. 예문은 전부 인쇄돼 있고 대상 낱말이 굵게 나오므로 단어와 예문만 옮겼다. 한국어 뜻은 자습서에 이미 있어 잃는 것이 없다.",
+    "has_handwriting": true,
+    "handwriting_note": "학생 손글씨가 있다. 인쇄된 부분만 옮겼다 (원장 지시 2026-09-05).",
+    "source_file": "원장 업로드 이미지 (2026-09-06)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용.",
+  "words": [
+    {
+      "word": "area",
+      "example_en": "This area is famous for its beautiful beaches.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "artwork",
+      "example_en": "I saw many interesting artworks at the museum.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "behind",
+      "example_en": "There is a small garden behind the school.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "chew",
+      "example_en": "You should chew your food slowly.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "closely",
+      "example_en": "Look closely at the picture.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "clue",
+      "example_en": "This letter is an important clue.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "dot",
+      "example_en": "There are many blue dots on the map.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "example",
+      "example_en": "This picture is a good example of modern art.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "figure",
+      "example_en": "I saw a dark figure in the distance.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "final",
+      "example_en": "This is the final question on the test.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "form",
+      "example_en": "Clouds can take many different forms.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "hip",
+      "example_en": "She put her hands on her hips.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "internationally",
+      "example_en": "The singer is internationally famous.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "leafless",
+      "example_en": "The trees are leafless in winter.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "lively",
+      "example_en": "The market is always lively on weekends.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "modern",
+      "example_en": "This building has a modern design.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "nature",
+      "example_en": "We should protect nature.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "opinion",
+      "example_en": "What is your opinion about this idea?",
+      "in_workbook_list": true
+    },
+    {
+      "word": "past",
+      "example_en": "We can learn many things from the past.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "personal",
+      "example_en": "Please do not share your personal information.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "pleasure",
+      "example_en": "Reading books gives me great pleasure.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "poor",
+      "example_en": "The family was poor, but they were happy.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "present",
+      "example_en": "We need to think about the present situation.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "represent",
+      "example_en": "The white dove represents peace.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "spray",
+      "example_en": "She sprayed water on the flowers.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "tiny",
+      "example_en": "A tiny bird was sitting on the tree.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "be well known for",
+      "example_en": "Jeju Island is well known for its beautiful scenery.",
+      "in_workbook_list": false
+    },
+    {
+      "word": "according to",
+      "example_en": "According to the news, it will rain tomorrow.",
+      "in_workbook_list": true
+    },
+    {
+      "word": "for example",
+      "example_en": "We can exercise in many ways. For example, we can walk or ride a bike.",
+      "in_workbook_list": true
+    }
+  ]
+}

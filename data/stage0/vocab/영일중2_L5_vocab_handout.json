@@ -1,0 +1,193 @@
+{
+  "school": "영일중",
+  "grade": 2,
+  "lesson": 5,
+  "unit_title": "The City as a Canvas",
+  "kind": "vocab_handout_definition",
+  "source_type": "배부프린트",
+  "source_detail": "영일중 2학년 Lesson 5 Vocabulary — 영영풀이 (빈칸 채우기)",
+  "transcription": {
+    "status": "pending",
+    "method": "vision_single_pass",
+    "note": "영영풀이의 한 낱말을 비워 학생이 채우는 형식. 빈칸은 '( ____ )' 로 남겼다 — 학생이 적은 답은 정답의 근거가 아니다. 「뜻」 칸은 전부 손글씨라 옮기지 않았다.",
+    "has_handwriting": true,
+    "handwriting_note": "학생 손글씨가 있다. 인쇄된 부분만 옮겼다 (원장 지시 2026-09-05).",
+    "source_file": "원장 업로드 이미지 (2026-09-06)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용.",
+  "words": [
+    {
+      "word": "artwork",
+      "definition_en_with_blanks": "n. something made by an artist, like a drawing, painting, or ( ____ )",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "something made by an artist, like a drawing, painting, or sculpture"
+    },
+    {
+      "word": "ballet",
+      "definition_en_with_blanks": "n. a style of dancing that tells a dramatic story with music",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "canvas",
+      "definition_en_with_blanks": "n. a piece of strong, ( ____ ) cloth used by artists to paint on",
+      "blank_count": 1,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "chew",
+      "definition_en_with_blanks": "v. to break food ( ____ ) smaller, softer pieces with the teeth",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "to break food into smaller, softer pieces with the teeth"
+    },
+    {
+      "word": "cinema",
+      "definition_en_with_blanks": "n. a place where movies are shown",
+      "blank_count": 0,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "clue",
+      "definition_en_with_blanks": "n. a sign or some information that helps you to find the answer to a problem or question",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "a hint that helps you to solve a puzzle, problem, or question"
+    },
+    {
+      "word": "dirty",
+      "definition_en_with_blanks": "a. not clean",
+      "blank_count": 0,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "dot",
+      "definition_en_with_blanks": "n. a very small ( ____ ) mark",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "a very small round mark"
+    },
+    {
+      "word": "figure",
+      "definition_en_with_blanks": "n. a person or an animal in a drawing, painting, etc.",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "a person or an animal in a drawing, painting, etc."
+    },
+    {
+      "word": "final",
+      "definition_en_with_blanks": "a. being or happening at the end of a ( ____ ) of events, actions, etc.",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "happening at the end of a process"
+    },
+    {
+      "word": "hall",
+      "definition_en_with_blanks": "n. a building or large room for public meetings, meals, concerts, etc.",
+      "blank_count": 0,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "hip",
+      "definition_en_with_blanks": "a. following the ( ____ ) fashions in music and clothes",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "following the latest fashions in music and clothes"
+    },
+    {
+      "word": "leafless",
+      "definition_en_with_blanks": "a. having no leaves",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "having no leaves"
+    },
+    {
+      "word": "lively",
+      "definition_en_with_blanks": "a. ( ____ ) of life and energy",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "full of life and energy"
+    },
+    {
+      "word": "modern",
+      "definition_en_with_blanks": "a. of the present or ( ____ ) times",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "of the present or recent times"
+    },
+    {
+      "word": "opinion",
+      "definition_en_with_blanks": "n. a thought or belief about something or someone",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "a thought or belief about something or someone"
+    },
+    {
+      "word": "past",
+      "definition_en_with_blanks": "n. the ( ____ ) of time before now",
+      "blank_count": 1,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "pleasure",
+      "definition_en_with_blanks": "n. a state of feeling or being happy",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "a feeling of happiness or enjoyment"
+    },
+    {
+      "word": "represent",
+      "definition_en_with_blanks": "v. to show something or someone, especially in a picture",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "to show something or someone, especially in a picture"
+    },
+    {
+      "word": "spray",
+      "definition_en_with_blanks": "v. to spread a liquid in small ( ____ ) over an area",
+      "blank_count": 1,
+      "in_workbook_list": true,
+      "workbook_definition_en": "to spread liquid in small drops over an area"
+    },
+    {
+      "word": "sprayer",
+      "definition_en_with_blanks": "n. a ( ____ ) that spreads liquid in small ( ____ )",
+      "blank_count": 2,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "stadium",
+      "definition_en_with_blanks": "n. a playing area that is ( ____ ) by seats, for sports, concerts, and other events",
+      "blank_count": 1,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "station",
+      "definition_en_with_blanks": "n. a building where buses or trains stop ( ____ ) ( ____ ) people can get on or off",
+      "blank_count": 2,
+      "in_workbook_list": false,
+      "workbook_definition_en": null
+    },
+    {
+      "word": "tiny",
+      "definition_en_with_blanks": "a. very small",
+      "blank_count": 0,
+      "in_workbook_list": true,
+      "workbook_definition_en": "very small"
+    }
+  ],
+  "post_activity": {
+    "name": "Crazy Story Chain",
+    "note": "4인 1모둠. 각자 겹치지 않게 3~4개 단어를 골라 이어지는 문장을 쓴다."
+  }
+}
