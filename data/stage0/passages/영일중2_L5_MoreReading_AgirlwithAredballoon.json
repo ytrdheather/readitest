@@ -103,10 +103,18 @@
   ],
   "emphasis_spans": [],
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "vision_single_pass",
     "note": "원장이 올린 배부물 지면 이미지에서 전사. 텍스트 레이어가 없는 스캔이라 눈으로 읽었다 — 자습서 PDF 추출과 달리 오독 위험이 있으므로 전 문장이 확인 대상이다. 각주 별표는 body_text 에서 뗐고 glossed 에 남겼다.",
-    "needs_review_sentences": [
+    "source_file": "원장 업로드 이미지 (2026-09-05)",
+    "has_handwriting": true,
+    "handwriting_note": "지면 상단 문단에 학생 손필기(빨간펜 어법 메모·연필 해석)가 있다. 지문이 아니므로 전사하지 않았다 — 원장 지시 2026-09-05.",
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-06T13:30:53.067399+00:00",
+    "confirmed_via": "전사확인지_L5_L6.html 육안 대조 · 「틀린곳 없다」 (2026-09-06)",
+    "reviewed_sentences": [
       1,
       2,
       3,
@@ -121,12 +129,7 @@
       12,
       13,
       14
-    ],
-    "source_file": "원장 업로드 이미지 (2026-09-05)",
-    "has_handwriting": true,
-    "handwriting_note": "지면 상단 문단에 학생 손필기(빨간펜 어법 메모·연필 해석)가 있다. 지문이 아니므로 전사하지 않았다 — 원장 지시 2026-09-05.",
-    "has_cutoff": false,
-    "unreadable_spans": []
+    ]
   },
   "distribution_scope": "internal_only",
   "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용으로만 저장."

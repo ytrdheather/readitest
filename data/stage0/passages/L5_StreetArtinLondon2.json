@@ -14,13 +14,16 @@
   "body_text_sha256": "ef28e8802a6b972890247d3f414a09f10715b260612defdfcc22f2a9b0c5017b",
   "word_count": 107,
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "workbook_pdf_text_layer",
     "source_file": "(2022개정)2026년_중2_동아(윤정미)_5과_[01]내용정리 플러스.pdf",
     "has_handwriting": false,
     "has_cutoff": false,
     "unreadable_spans": [],
-    "suspect_split_words": []
+    "suspect_split_words": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-06T13:30:53.067399+00:00",
+    "confirmed_via": "전사확인지_L5_L6.html 육안 대조 · 「틀린곳 없다」 (2026-09-06)"
   },
   "distribution_scope": "internal_only",
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",

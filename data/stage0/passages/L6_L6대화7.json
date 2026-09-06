@@ -14,13 +14,16 @@
   "body_text_sha256": "722aef99980d5bdee6af83f926658eb586f506938c918b67b531e6b7d7042ed7",
   "word_count": 34,
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "workbook_pdf_text_layer",
     "source_file": "l6.pdf",
     "has_handwriting": false,
     "has_cutoff": false,
     "unreadable_spans": [],
-    "suspect_split_words": []
+    "suspect_split_words": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-06T13:30:53.067399+00:00",
+    "confirmed_via": "전사확인지_L5_L6.html 육안 대조 · 「틀린곳 없다」 (2026-09-06)"
   },
   "distribution_scope": "internal_only",
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
