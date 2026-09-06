@@ -1,3 +1,21 @@
-
 # 파이썬 의존성
+#
+#   pip install -r requirements.txt
+#
+# 확인:  python tools/check_env.py     (키 4개 연결)
+#        python tools/check_schema.py  (DB 테이블·마스터)
+
+# 모델 호출 — pipeline/ 전체
 anthropic>=0.125
+
+# PDF 문자층 읽기 — 자습서·교과서 자료에서 지문과 어휘를 뽑는다
+#   tools/extract_textbook.py · build_unit.py · extract_vocab.py · extract_exam_pages.py
+pypdf>=4.0
+
+# 스캔본 페이지를 이미지로 꺼낼 때 — tools/extract_exam_pages.py
+pillow>=10.0
+
+# 스캔본 렌더링 폴백. 임베드 이미지가 JBIG2 같은 인코딩이면 Pillow 가 못 읽는데,
+# 렌더러는 자체 디코더로 그냥 그린다 (청명중 2026-1 기말 6쪽이 그랬다).
+# 둘 중 하나만 있으면 된다 — pypdfium2 를 먼저 쓰고 없으면 PyMuPDF.
+pypdfium2>=4.0
