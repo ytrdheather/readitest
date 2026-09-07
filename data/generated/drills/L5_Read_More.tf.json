@@ -1,0 +1,302 @@
+{
+  "unit": "L5 Read More",
+  "parts": [
+    "L5 ReadMore-1",
+    "L5 ReadMore-2",
+    "L5 ReadMore-3",
+    "L5 ReadMore-4"
+  ],
+  "passage_ids": [
+    "8c5ee82f-187d-4d4f-a053-f2de781ec1dd",
+    "fdbb105d-b683-4a9a-85e9-f483ca7d2545",
+    "c7f7c5dd-d012-4e7e-822e-b3d3acac75ac",
+    "8bf5a978-ff01-4a3e-a21d-65bdc43e262c"
+  ],
+  "para_breaks": [
+    3,
+    9,
+    13,
+    17
+  ],
+  "turn_breaks": [
+    3,
+    9,
+    13,
+    17
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "I’ll explain how you can get to the City Library from the school.",
+    "The best way to get there is to take the bus.",
+    "You can take bus No. 2 or 5, and it’ll only take about 10 minutes.",
+    "The painting I want to write about is The Red Room by Henri Matisse.",
+    "This painting shows a red room with a window.",
+    "In the room, there are two chairs and a big table.",
+    "We also see a woman who is setting the table.",
+    "I like the red color of this painting.",
+    "I think that the room feels warm because of it.",
+    "People take pictures of their faces and stick them on the street.",
+    "The pictures come together to create a huge artwork.",
+    "People write their dreams and goals on a big wall.",
+    "They share their stories and make a special artwork together.",
+    "In the past, my grandparents used to live in the country.",
+    "Now they live in a city.",
+    "In the past, they used to work on the farm.",
+    "Now they do not work, and they enjoy traveling."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "화자는 학교에서 시립 도서관까지 가는 방법을 설명하고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "학교에서 City Library까지 가는 법을 설명한다고 했다.",
+      "_evidence_text": [
+        "I’ll explain how you can get to the City Library from the school."
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker is telling someone how to go from the school to the City Library."
+    },
+    {
+      "type": "content",
+      "statement_ko": "거기에 가는 가장 좋은 방법은 지하철을 타는 것이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "가장 좋은 방법은 버스를 타는 것이라고 했다.",
+      "_evidence_text": [
+        "The best way to get there is to take the bus."
+      ],
+      "_repeat": false,
+      "statement_en": "According to the speaker, the best way to get there is by subway."
+    },
+    {
+      "type": "content",
+      "statement_ko": "2번이나 5번 버스를 타면 약 10분 정도 걸린다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "bus No. 2 or 5로 약 10분이 걸린다고 했다.",
+      "_evidence_text": [
+        "You can take bus No. 2 or 5, and it’ll only take about 10 minutes."
+      ],
+      "_repeat": false,
+      "statement_en": "If you ride bus No. 2 or No. 5, the trip takes only about 10 minutes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "화자가 글로 쓰고 싶은 그림은 앙리 마티스의 'The Red Room'이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "The Red Room by Henri Matisse라고 밝혔다.",
+      "_evidence_text": [
+        "The painting I want to write about is The Red Room by Henri Matisse."
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker wants to write about Henri Matisse's painting 'The Red Room.'"
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 그림은 창문이 하나도 없는 빨간 방을 보여 준다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "창문이 있는 빨간 방을 보여 준다고 했다.",
+      "_evidence_text": [
+        "This painting shows a red room with a window."
+      ],
+      "_repeat": false,
+      "statement_en": "The painting shows a red room that has no window at all."
+    },
+    {
+      "type": "content",
+      "statement_ko": "방 안에는 의자 두 개와 큰 탁자가 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "two chairs and a big table이 있다고 했다.",
+      "_evidence_text": [
+        "In the room, there are two chairs and a big table."
+      ],
+      "_repeat": false,
+      "statement_en": "Inside the room, you can find two chairs and a large table."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그림 속에서 상을 차리고 있는 사람은 한 남자이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "상을 차리는 사람은 a woman이다.",
+      "_evidence_text": [
+        "We also see a woman who is setting the table."
+      ],
+      "_repeat": false,
+      "statement_en": "The person putting the food and dishes on the table in the painting is a man."
+    },
+    {
+      "type": "content",
+      "statement_ko": "화자는 이 그림의 파란색을 좋아한다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "화자는 빨간색(red color)을 좋아한다고 했다.",
+      "_evidence_text": [
+        "I like the red color of this painting."
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker says that he likes the blue color of this painting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "화자는 그 색 때문에 방이 따뜻하게 느껴진다고 생각한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "그 색 때문에 방이 warm하게 느껴진다고 했다.",
+      "_evidence_text": [
+        "I think that the room feels warm because of it."
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker feels that the color makes the room seem warm."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 자기 얼굴 사진을 찍어 거리에 붙인다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "얼굴 사진을 찍어 거리에 붙인다고 했다.",
+      "_evidence_text": [
+        "People take pictures of their faces and stick them on the street."
+      ],
+      "_repeat": false,
+      "statement_en": "People take photos of their own faces and put them up on the street."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 사진들이 모여서 거대한 예술 작품을 만든다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "사진들이 모여 huge artwork를 만든다고 했다.",
+      "_evidence_text": [
+        "The pictures come together to create a huge artwork."
+      ],
+      "_repeat": false,
+      "statement_en": "All those photos are put together and become one very big artwork."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 자신의 꿈과 목표를 작은 종이에 적어 나눠 준다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "큰 벽(a big wall)에 꿈과 목표를 쓴다고 했다.",
+      "_evidence_text": [
+        "People write their dreams and goals on a big wall."
+      ],
+      "_repeat": false,
+      "statement_en": "People write their dreams and goals on small pieces of paper and hand them out."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 서로 이야기를 나누며 함께 특별한 작품을 만든다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "이야기를 공유하고 함께 특별한 작품을 만든다고 했다.",
+      "_evidence_text": [
+        "They share their stories and make a special artwork together."
+      ],
+      "_repeat": false,
+      "statement_en": "People tell each other their stories and build one special artwork together."
+    },
+    {
+      "type": "content",
+      "statement_ko": "화자의 조부모는 예전에 도시에 살았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "예전에는 시골(the country)에 살았다고 했다.",
+      "_evidence_text": [
+        "In the past, my grandparents used to live in the country."
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker's grandparents lived in a city a long time ago."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조부모는 지금 도시에 살고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "Now they live in a city라고 했다.",
+      "_evidence_text": [
+        "Now they live in a city."
+      ],
+      "_repeat": false,
+      "statement_en": "These days the grandparents live in a city."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조부모는 예전에 공장에서 일했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "예전에는 농장(on the farm)에서 일했다고 했다.",
+      "_evidence_text": [
+        "In the past, they used to work on the farm."
+      ],
+      "_repeat": false,
+      "statement_en": "In the past, the grandparents worked in a factory."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조부모는 지금도 일을 계속하고 있어서 여행을 즐기지 못한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "지금은 일을 하지 않고 여행을 즐긴다고 했다.",
+      "_evidence_text": [
+        "Now they do not work, and they enjoy traveling."
+      ],
+      "_repeat": false,
+      "statement_en": "The grandparents still work now, so they cannot enjoy traveling."
+    }
+  ],
+  "diagnostics": {
+    "returned": 17,
+    "kept": 17,
+    "by_type": {
+      "content": 17
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 9,
+      "X": 8
+    },
+    "sentences_covered": 17,
+    "sentence_count": 17,
+    "repeated": 0
+  }
+}

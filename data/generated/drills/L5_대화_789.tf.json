@@ -1,0 +1,509 @@
+{
+  "unit": "L5 대화 ⑦⑧⑨",
+  "parts": [
+    "L5 대화-7",
+    "L5 대화-8",
+    "L5 대화-9"
+  ],
+  "passage_ids": [
+    "bd5a996d-1f50-4e08-a71f-d93d4b4a990c",
+    "6ea1824b-663e-4443-810d-9a1bec8fe898",
+    "4a5acbe6-5200-41b1-ad3b-0b7772254eec"
+  ],
+  "para_breaks": [
+    20,
+    25,
+    30
+  ],
+  "turn_breaks": [
+    2,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    15,
+    18,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: Somi, I need help.",
+    "What’s the best way to get to Sebit Park from here?",
+    "G: Sebit Park?",
+    "Well, you can get there by bus or by subway, but the subway is better.",
+    "B: OK.",
+    "Which line should I take?",
+    "G: Take line 3, and get off at Sebit Station.",
+    "B: Line 3 and get off at Sebit Station.",
+    "How long will it take?",
+    "G: It’ll take about 40 minutes.",
+    "B: Is it that far?",
+    "G: Yes.",
+    "Anyway, why are you going to Sebit Park, Liam?",
+    "B: Oh, there is an art fair this Saturday.",
+    "You can come with me if you want.",
+    "G: Really?",
+    "I’m free this Saturday.",
+    "Let’s go together.",
+    "B: Perfect.",
+    "Let’s meet here at 10.",
+    "A: How can I get to the hospital?",
+    "B: You can get there by bus.",
+    "A: OK.",
+    "How long will it take?",
+    "B: It’ll take about 25 minutes.",
+    "A: Excuse me, how can I get to the Brooklyn Bridge from SoHo?",
+    "B: You can get there by subway.",
+    "A: OK.",
+    "How long will it take by subway?",
+    "B: About 16 minutes."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 소미에게 도움이 필요하다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번에서 소미의 이름을 부르며 도움이 필요하다고 말한다.",
+      "_evidence_text": [
+        "B: Somi, I need help."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy tells Somi that he needs some help."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 여기서 세빛 공원에 가는 가장 좋은 방법을 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "2번에서 세빛 공원까지 가는 최선의 방법을 묻는다.",
+      "_evidence_text": [
+        "What’s the best way to get to Sebit Park from here?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks about the best way to reach Sebit Park from where they are."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 '세빛 공원?'이라고 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번에서 소미가 장소를 되묻는다.",
+      "_evidence_text": [
+        "G: Sebit Park?"
+      ],
+      "_repeat": false,
+      "statement_en": "Somi repeats the name \"Sebit Park?\" as a question."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 버스가 지하철보다 더 낫다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "소미는 지하철이 더 낫다고 했다.",
+      "_evidence_text": [
+        "Well, you can get there by bus or by subway, but the subway is better."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi says that taking the bus is better than taking the subway."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 소미의 말을 듣고 알겠다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번에서 OK라고 답한다.",
+      "_evidence_text": [
+        "B: OK."
+      ],
+      "_repeat": false,
+      "statement_en": "After hearing Somi's answer, the boy says \"OK.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 어느 호선을 타야 하는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "6번에서 타야 할 노선을 묻는다.",
+      "_evidence_text": [
+        "Which line should I take?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks which subway line he should take."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 4호선을 타라고 알려 주었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "소미는 3호선을 타라고 했다.",
+      "_evidence_text": [
+        "G: Take line 3, and get off at Sebit Station."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi tells him to take line 4."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 소미가 알려 준 노선과 내릴 역을 다시 말하며 확인했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "8번에서 3호선과 세빛역을 되짚어 말한다.",
+      "_evidence_text": [
+        "B: Line 3 and get off at Sebit Station."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy checks the information by saying the line number and the station again."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 요금이 얼마인지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "요금이 아니라 시간이 얼마나 걸리는지 물었다.",
+      "_evidence_text": [
+        "How long will it take?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks how much the ride costs."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 약 40분 걸릴 것이라고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번에서 about 40 minutes라고 답한다.",
+      "_evidence_text": [
+        "G: It’ll take about 40 minutes."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi says the trip will take around 40 minutes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 그렇게 먼지 놀라며 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번에서 '그렇게 멀어?'라고 되묻는다.",
+      "_evidence_text": [
+        "B: Is it that far?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy is surprised and asks if it is really that far."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 그렇게 멀지 않다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "소미는 Yes라고 하며 멀다고 인정했다.",
+      "_evidence_text": [
+        "G: Yes."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi answers that it is not that far."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 리암에게 왜 세빛 공원에 가는지 이유를 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "13번에서 이름을 부르며 가는 이유를 묻는다.",
+      "_evidence_text": [
+        "Anyway, why are you going to Sebit Park, Liam?"
+      ],
+      "_repeat": false,
+      "statement_en": "Somi asks Liam the reason he is going to Sebit Park."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이번 주 토요일에 세빛 공원에서 미술 박람회가 열린다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "14번에서 이번 토요일에 art fair가 있다고 했다.",
+      "_evidence_text": [
+        "B: Oh, there is an art fair this Saturday."
+      ],
+      "_repeat": false,
+      "statement_en": "There will be an art fair at Sebit Park this Saturday."
+    },
+    {
+      "type": "content",
+      "statement_ko": "함께 가자고 먼저 말을 꺼낸 사람은 소미였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "리암이 먼저 원하면 같이 와도 된다고 제안했다.",
+      "_evidence_text": [
+        "You can come with me if you want."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi was the first one to say that they should go together."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 리암의 제안을 듣고 '정말?'이라고 반응했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "16번에서 Really?라고 되묻는다.",
+      "_evidence_text": [
+        "G: Really?"
+      ],
+      "_repeat": false,
+      "statement_en": "Somi answers \"Really?\" when she hears Liam's idea."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 이번 주 토요일에 다른 일이 있어 시간이 없다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "소미는 토요일에 한가하다고 했다.",
+      "_evidence_text": [
+        "I’m free this Saturday."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi says she has other plans and no free time this Saturday."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소미는 리암에게 같이 가자고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "18번에서 Let's go together라고 말한다.",
+      "_evidence_text": [
+        "Let’s go together."
+      ],
+      "_repeat": false,
+      "statement_en": "Somi tells Liam that they should go together."
+    },
+    {
+      "type": "content",
+      "statement_ko": "리암은 함께 가자는 소미의 말을 부담스러워하며 거절했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "리암은 Perfect라고 하며 반겼다.",
+      "_evidence_text": [
+        "B: Perfect."
+      ],
+      "_repeat": false,
+      "statement_en": "Liam feels uncomfortable about going together and says no to Somi."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 사람은 이곳에서 11시에 만나기로 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "만나기로 한 시각은 10시다.",
+      "_evidence_text": [
+        "Let’s meet here at 10."
+      ],
+      "_repeat": false,
+      "statement_en": "They decide to meet at this place at 11 o'clock."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 번째 대화에서 A는 병원에 가는 방법을 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "21번에서 병원 가는 방법을 묻는다.",
+      "_evidence_text": [
+        "A: How can I get to the hospital?"
+      ],
+      "_repeat": false,
+      "statement_en": "In the second dialogue, A asks how to get to the hospital."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 병원에 지하철로 갈 수 있다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "B는 버스로 갈 수 있다고 했다.",
+      "_evidence_text": [
+        "B: You can get there by bus."
+      ],
+      "_repeat": false,
+      "statement_en": "B answers that A can go to the hospital by subway."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 B의 대답을 듣고 걸어서 가겠다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "A는 그냥 OK라고만 답했다.",
+      "_evidence_text": [
+        "A: OK."
+      ],
+      "_repeat": false,
+      "statement_en": "After hearing B's answer, A says he will walk there instead."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 시간이 얼마나 걸리는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "24번에서 How long will it take?이라고 묻는다.",
+      "_evidence_text": [
+        "How long will it take?"
+      ],
+      "_repeat": false,
+      "statement_en": "A wants to know how much time the trip takes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 병원까지 약 15분 걸린다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "약 25분이라고 했다.",
+      "_evidence_text": [
+        "B: It’ll take about 25 minutes."
+      ],
+      "_repeat": false,
+      "statement_en": "B says it takes about 15 minutes to the hospital."
+    },
+    {
+      "type": "content",
+      "statement_ko": "세 번째 대화에서 A는 소호에서 브루클린 브리지까지 가는 방법을 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "26번에서 SoHo에서 Brooklyn Bridge까지 가는 방법을 묻는다.",
+      "_evidence_text": [
+        "A: Excuse me, how can I get to the Brooklyn Bridge from SoHo?"
+      ],
+      "_repeat": false,
+      "statement_en": "In the third dialogue, A asks how to go from SoHo to the Brooklyn Bridge."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 브루클린 브리지까지 버스로 갈 수 있다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "B는 지하철로 갈 수 있다고 했다.",
+      "_evidence_text": [
+        "B: You can get there by subway."
+      ],
+      "_repeat": false,
+      "statement_en": "B answers that A can get to the Brooklyn Bridge by bus."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 B의 답을 듣고 다른 교통수단을 알려 달라고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        28
+      ],
+      "why_ko": "A는 OK라고만 답했다.",
+      "_evidence_text": [
+        "A: OK."
+      ],
+      "_repeat": false,
+      "statement_en": "After B's answer, A asks B to tell him another way to travel."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 지하철로 얼마나 걸리는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        29
+      ],
+      "why_ko": "29번에서 지하철로 걸리는 시간을 묻는다.",
+      "_evidence_text": [
+        "How long will it take by subway?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asks how long the trip takes by subway."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 지하철로 약 60분 걸린다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        30
+      ],
+      "why_ko": "약 16분이라고 했다.",
+      "_evidence_text": [
+        "B: About 16 minutes."
+      ],
+      "_repeat": false,
+      "statement_en": "B says the subway ride takes about 60 minutes."
+    }
+  ],
+  "diagnostics": {
+    "returned": 30,
+    "kept": 30,
+    "by_type": {
+      "content": 30
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 16,
+      "X": 14
+    },
+    "sentences_covered": 30,
+    "sentence_count": 30,
+    "repeated": 0
+  }
+}

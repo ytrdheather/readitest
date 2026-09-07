@@ -1,0 +1,448 @@
+{
+  "unit": "L6 대화 ④⑤⑥",
+  "parts": [
+    "L6 대화-4",
+    "L6 대화-5",
+    "L6 대화-6"
+  ],
+  "passage_ids": [
+    "a104a677-f53a-498a-87aa-67b84a4bd484",
+    "972cb577-55d5-4dd9-873f-83630275ab17",
+    "ea138422-7b43-4dec-88ee-93334211ea8a"
+  ],
+  "para_breaks": [
+    6,
+    19,
+    26
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    19,
+    20,
+    22,
+    23,
+    24,
+    26
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: What kinds of magazines do you have?",
+    "G: We have all kinds of magazines.",
+    "B: I’m really interested in science.",
+    "Can you recommend a science magazine for me?",
+    "G: Sure.",
+    "You’ll love this one, Teen’s Science.",
+    "G: Liam, can you please help me?",
+    "I need to find some books for my homework.",
+    "B: What kinds of books are you looking for, Somi?",
+    "G: I’m looking for books on famous people who helped others.",
+    "I need to write an essay.",
+    "B: Who do you want to write about?",
+    "G: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?",
+    "B: What about Audrey Hepburn?",
+    "G: I know she was a famous actor, but what did she do to help others?",
+    "B: She did a lot of volunteer work, especially for children.",
+    "G: Really?",
+    "Then, I can write about her.",
+    "Thank you!",
+    "B: What kind of food do you like, Amy?",
+    "G: I like Italian food.",
+    "How about you, Tom?",
+    "B: I love Indian food.",
+    "G: Can you recommend a good Indian dish for me?",
+    "B: Well, why don’t you try tandoori chicken?",
+    "It’s really good."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "소년은 그곳에 어떤 종류의 잡지들이 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "소년이 어떤 종류의 잡지가 있는지 묻고 있다.",
+      "_evidence_text": [
+        "B: What kinds of magazines do you have?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked what types of magazines the place had."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 모든 종류의 잡지가 다 있다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "소녀가 모든 종류의 잡지가 있다고 말한다.",
+      "_evidence_text": [
+        "G: We have all kinds of magazines."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said that every type of magazine was there."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 자신이 역사에 정말 관심이 많다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "소년이 관심 있다고 말한 분야는 역사가 아니라 과학이다.",
+      "_evidence_text": [
+        "B: I’m really interested in science."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy said he was very interested in history."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 자신에게 과학 잡지를 추천해 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "소년이 과학 잡지를 추천해 줄 수 있는지 묻는다.",
+      "_evidence_text": [
+        "Can you recommend a science magazine for me?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked the girl to suggest a science magazine to him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 추천해 줄 수 없다고 거절했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "소녀는 'Sure.'라고 하며 흔쾌히 응했다.",
+      "_evidence_text": [
+        "G: Sure."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said no and refused to recommend anything."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀가 추천한 잡지의 이름은 Science Today였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "추천한 잡지 이름은 Teen's Science이다.",
+      "_evidence_text": [
+        "You’ll love this one, Teen’s Science."
+      ],
+      "_repeat": false,
+      "statement_en": "The magazine the girl suggested was called Science Today."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 Liam에게 도와달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "소녀가 Liam에게 도움을 요청하고 있다.",
+      "_evidence_text": [
+        "G: Liam, can you please help me?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked Liam for his help."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 시험 공부를 하려고 책을 찾고 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "숙제를 위해 책을 찾아야 한다고 말했다.",
+      "_evidence_text": [
+        "I need to find some books for my homework."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl is looking for books because she has to study for a test."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀의 이름을 Somi라고 불렀다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "소년이 'Somi'라고 부르며 어떤 책을 찾는지 물었다.",
+      "_evidence_text": [
+        "B: What kinds of books are you looking for, Somi?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy called the girl by the name Somi."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 위대한 과학자들에 관한 책을 찾고 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "다른 사람들을 도운 유명한 사람들에 관한 책을 찾고 있다.",
+      "_evidence_text": [
+        "G: I’m looking for books on famous people who helped others."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl wants books about great scientists."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 수업 시간에 발표를 해야 한다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "소녀는 에세이를 써야 한다고 말했다.",
+      "_evidence_text": [
+        "I need to write an essay."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said she had to give a presentation in class."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀에게 누구에 대해 쓰고 싶은지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "소년이 누구에 대해 쓰고 싶은지 질문한다.",
+      "_evidence_text": [
+        "B: Who do you want to write about?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked the girl which person she wanted to write about."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 슈바이처 박사를 생각하고 있었지만 다른 사람을 추천해 달라고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "슈바이처를 생각했지만 다른 사람을 추천해 줄 수 있는지 물었다.",
+      "_evidence_text": [
+        "G: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl had Dr. Schweitzer in mind, but she asked for a different person."
+    },
+    {
+      "type": "content",
+      "statement_ko": "오드리 헵번을 먼저 제안한 사람은 소미다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "오드리 헵번을 제안한 사람은 소년(Liam)이다.",
+      "_evidence_text": [
+        "B: What about Audrey Hepburn?"
+      ],
+      "_repeat": false,
+      "statement_en": "Somi was the one who brought up Audrey Hepburn first."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 오드리 헵번이 유명한 가수였다는 것을 알고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "소녀는 그녀가 유명한 배우였다고 알고 있었다.",
+      "_evidence_text": [
+        "G: I know she was a famous actor, but what did she do to help others?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl knew that Audrey Hepburn had been a famous singer."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 오드리 헵번이 특히 노인들을 위해 봉사했다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "특히 아이들을 위해 많은 봉사 활동을 했다고 말했다.",
+      "_evidence_text": [
+        "B: She did a lot of volunteer work, especially for children."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy said Audrey Hepburn helped old people in particular."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 사실을 듣고 놀라며 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "소녀가 'Really?'라고 되물으며 놀라움을 나타낸다.",
+      "_evidence_text": [
+        "G: Really?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl was surprised by this and asked about it again."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 결국 오드리 헵번에 대해 쓸 수 있겠다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "그녀에 대해 쓸 수 있다고 말했다.",
+      "_evidence_text": [
+        "Then, I can write about her."
+      ],
+      "_repeat": false,
+      "statement_en": "In the end, the girl said she could write about Audrey Hepburn."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 마지막에 소년에게 고맙다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "소녀가 'Thank you!'라고 말한다.",
+      "_evidence_text": [
+        "Thank you!"
+      ],
+      "_repeat": false,
+      "statement_en": "At the end, the girl thanked the boy."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 Amy에게 어떤 종류의 음식을 좋아하는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "소년이 Amy에게 좋아하는 음식 종류를 묻는다.",
+      "_evidence_text": [
+        "B: What kind of food do you like, Amy?"
+      ],
+      "_repeat": false,
+      "statement_en": "Tom asked Amy what kind of food she liked."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Amy는 인도 음식을 좋아한다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "Amy가 좋아한다고 말한 것은 이탈리아 음식이다.",
+      "_evidence_text": [
+        "G: I like Italian food."
+      ],
+      "_repeat": false,
+      "statement_en": "Amy answered that she liked Indian food."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Amy는 Tom에게도 같은 질문을 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "Amy가 'How about you, Tom?'이라고 되묻는다.",
+      "_evidence_text": [
+        "How about you, Tom?"
+      ],
+      "_repeat": false,
+      "statement_en": "Amy asked Tom the same question back."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 인도 음식을 정말 좋아한다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "Tom이 인도 음식을 아주 좋아한다고 말한다.",
+      "_evidence_text": [
+        "B: I love Indian food."
+      ],
+      "_repeat": false,
+      "statement_en": "Tom said he really loved food from India."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom이 Amy에게 좋은 인도 음식을 추천해 달라고 부탁했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "추천을 부탁한 사람은 Amy이다.",
+      "_evidence_text": [
+        "G: Can you recommend a good Indian dish for me?"
+      ],
+      "_repeat": false,
+      "statement_en": "Tom asked Amy to recommend a good Indian dish to him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 Amy에게 커리를 먹어 보라고 제안했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "Tom이 제안한 음식은 탄두리 치킨이다.",
+      "_evidence_text": [
+        "B: Well, why don’t you try tandoori chicken?"
+      ],
+      "_repeat": false,
+      "statement_en": "Tom told Amy that she should try curry."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 자신이 추천한 음식이 정말 맛있다고 덧붙였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "'It's really good.'이라고 말했다.",
+      "_evidence_text": [
+        "It’s really good."
+      ],
+      "_repeat": false,
+      "statement_en": "Tom added that the dish he suggested tasted really good."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "by_type": {
+      "content": 26
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 14,
+      "X": 12
+    },
+    "sentences_covered": 26,
+    "sentence_count": 26,
+    "repeated": 0
+  }
+}

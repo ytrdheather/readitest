@@ -70,7 +70,8 @@
       "_evidence_text": [
         "B: Excuse me, how can I get to the Star Stadium?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy's first question is about the way to the Star Stadium."
     },
     {
       "type": "content",
@@ -83,7 +84,8 @@
       "_evidence_text": [
         "G: You can get there by subway."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl tells him that he can reach the Star Stadium by bus."
     },
     {
       "type": "content",
@@ -96,7 +98,8 @@
       "_evidence_text": [
         "Take line 4, the green line, and get off at Hangang Station."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "According to the girl, line 4 is the green one."
     },
     {
       "type": "content",
@@ -109,7 +112,8 @@
       "_evidence_text": [
         "B: Line 4 and Hangang Station."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy repeats what he heard as \"Line 3 and Hangang Station.\""
     },
     {
       "type": "content",
@@ -122,7 +126,8 @@
       "_evidence_text": [
         "Got it."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy says that he understands the directions."
     },
     {
       "type": "content",
@@ -135,7 +140,8 @@
       "_evidence_text": [
         "How long will it take?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy asks how much time the trip will take."
     },
     {
       "type": "content",
@@ -148,7 +154,8 @@
       "_evidence_text": [
         "G: A little more than 30 minutes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says the trip to the Star Stadium takes exactly 30 minutes."
     },
     {
       "type": "content",
@@ -161,7 +168,8 @@
       "_evidence_text": [
         "B: I’m sorry, but how can I get to the Sky Cinema?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "After asking about the Star Stadium, the boy also asks the way to the Sky Cinema."
     },
     {
       "type": "content",
@@ -174,7 +182,8 @@
       "_evidence_text": [
         "G: It’s not far, but it’s a little difficult to find."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says the Sky Cinema is far away but easy to find."
     },
     {
       "type": "content",
@@ -187,7 +196,8 @@
       "_evidence_text": [
         "Why don’t you take a taxi?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl suggests taking a taxi to get to the Sky Cinema."
     },
     {
       "type": "content",
@@ -200,7 +210,8 @@
       "_evidence_text": [
         "B: OK."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy says no to the idea of taking a taxi."
     },
     {
       "type": "content",
@@ -213,7 +224,8 @@
       "_evidence_text": [
         "How long will it take?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy also asks how long it takes to reach the Sky Cinema."
     },
     {
       "type": "content",
@@ -226,7 +238,8 @@
       "_evidence_text": [
         "G: By taxi?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl checks again whether he means going by taxi."
     },
     {
       "type": "content",
@@ -239,7 +252,8 @@
       "_evidence_text": [
         "About 20 minutes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says a taxi ride will take about 30 minutes."
     },
     {
       "type": "content",
@@ -252,7 +266,8 @@
       "_evidence_text": [
         "G: Do you need help?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "In the third talk, the girl is the first to ask if he needs help."
     },
     {
       "type": "content",
@@ -265,7 +280,8 @@
       "_evidence_text": [
         "B: Yes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy answers that he does not need any help."
     },
     {
       "type": "content",
@@ -278,7 +294,8 @@
       "_evidence_text": [
         "How can I get to the Dream Shopping Mall from here?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The place the boy wants to go to is the Dream Shopping Mall."
     },
     {
       "type": "content",
@@ -291,7 +308,8 @@
       "_evidence_text": [
         "Can I walk?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy asks if going there on foot is possible."
     },
     {
       "type": "content",
@@ -304,7 +322,8 @@
       "_evidence_text": [
         "G: You can, but it’s a little far."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says walking is possible, but the place is a little far."
     },
     {
       "type": "content",
@@ -317,7 +336,8 @@
       "_evidence_text": [
         "Why don’t you go by bus?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl tells him to take the subway to the Dream Shopping Mall."
     },
     {
       "type": "content",
@@ -330,7 +350,8 @@
       "_evidence_text": [
         "Take bus No. 12."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl tells him to take bus number 21."
     },
     {
       "type": "content",
@@ -343,7 +364,8 @@
       "_evidence_text": [
         "B: OK."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "After hearing about the bus, the boy says OK."
     },
     {
       "type": "content",
@@ -356,7 +378,8 @@
       "_evidence_text": [
         "How long will it take by bus?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy asks how much time the bus ride will take."
     },
     {
       "type": "content",
@@ -369,7 +392,8 @@
       "_evidence_text": [
         "G: Not very long."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says the bus takes a very long time."
     },
     {
       "type": "content",
@@ -382,7 +406,8 @@
       "_evidence_text": [
         "It’ll take less than 10 minutes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says the bus ride will take more than 10 minutes."
     }
   ],
   "diagnostics": {

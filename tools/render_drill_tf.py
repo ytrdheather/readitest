@@ -72,9 +72,15 @@ ol.q.ans { column-count: 1; }
 .ans-tag { display: inline-block; width: 6mm; font-weight: 700; }
 .O { color: #1f7a4d; } .X { color: #b3261e; }
 .ev { color: #667; font-size: 8.5pt; }
+/* 2차 정답지: 영어 진술 밑에 1차 때 쓴 우리말을 같이 둔다 */
+.ko2 { color: #5b6b80; font-size: 9pt; }
 .tag { font-size: 7.5pt; color: #6b7a90; background: #eef2f7; border-radius: 2px;
        padding: 0.3mm 1.2mm; margin-right: 1.5mm; white-space: nowrap; }
 .tag.p { background: #fdf0e6; color: #9a5b1e; }
+.round { font-size: 9.5pt; font-weight: 600; color: #5b6b80; margin-left: 2mm; }
+/* 영어 진술은 한국어보다 길다. 2단이 좁으면 줄이 많이 접힌다. */
+ol.q.en { column-gap: 6mm; }
+ol.q.en li { font-size: 9pt; }
 .newpage { break-before: page; }
 .foot { font-size: 8.5pt; color: #889; margin-top: 5mm; }
 """
@@ -128,13 +134,22 @@ def numbered(sentences, breaks=None, turns=None, dialogue=False):
     return "".join(blocks)
 
 
-def build(d, logo):
+def build(d, logo, lang="ko"):
+    """lang: ko = 1차(한국어 진술) · en = 2차(영어 진술)
+
+    원장 지시(2026-09-07): 한국어판을 먼저 보고 **1주일 뒤** 영어판을 다시 본다.
+    같은 문항이므로 번호도 같다 — 아이가 1차 때 틀린 번호를 그대로 짚을 수 있다.
+    """
     unit = d["unit"]
     items = d["items"]
+    if lang == "en":
+        items = [x for x in items if x.get("statement_en")]
     n = len(items)
     n_para = sum(1 for x in items if x.get("type") == "paraphrase")
     para_note = f" (그중 바꿔쓰기 {n_para}문항)" if n_para else ""
-    head = (f'<div class="head"><div>{logo}<h1>{esc(unit)} — 내용 확인</h1>'
+    round_no = "2차 (영어)" if lang == "en" else "1차 (우리말)"
+    head = (f'<div class="head"><div>{logo}'
+            f'<h1>{esc(unit)} — 내용 확인 <span class="round">{round_no}</span></h1>'
             f'<div class="sub" style="margin:0">읽고 맞으면 O, 틀리면 X 하시오. '
             f'· 총 {n}문항{para_note}</div></div>'
             f'<div class="name">이름 ______________</div></div>')
@@ -143,9 +158,12 @@ def build(d, logo):
         # 바꿔쓰기 문항만 표시한다. 내용 확인이 기본이라 굳이 이름을 안 붙인다.
         return '<span class="tag p">바꿔쓰기</span>' if it.get("type") == "paraphrase" else ""
 
+    def text(it):
+        return it["statement_en"] if lang == "en" else it["statement_ko"]
+
     q = "".join(
         f'<li><span class="no">{i}</span><span class="ox">O X</span>'
-        f'<span class="st">{tag(it)}{esc(it["statement_ko"])}</span></li>'
+        f'<span class="st">{tag(it)}{esc(text(it))}</span></li>'
         for i, it in enumerate(items, 1))
 
     sheet = (head
@@ -153,10 +171,22 @@ def build(d, logo):
              + f'<ol class="q">{q}</ol>'
              + '<div class="foot">리디튜드 · 학원 내부 지도용</div>')
 
+    def ans_body(it):
+        """2차(영어)는 영어를 위에, 우리말을 아래에 둔다.
+
+        아이 답안지에는 영어 진술이 찍혀 있는데 정답지가 우리말만 보이면
+        강사가 눈으로 짝을 못 맞춘다. 1차와 같은 문항이라 번호는 같지만,
+        틀린 이유를 짚어 주려면 영어 문장 그대로가 손에 있어야 한다.
+        """
+        if lang == "en":
+            return (f'{esc(it["statement_en"])}<br>'
+                    f'<span class="ko2">{esc(it["statement_ko"])}</span>')
+        return esc(it["statement_ko"])
+
     a = "".join(
         f'<li><span class="no">{i}</span>'
         f'<span class="st"><span class="ans-tag {it["answer"]}">{it["answer"]}</span>'
-        f'{tag(it)}{esc(it["statement_ko"])}<br>'
+        f'{tag(it)}{ans_body(it)}<br>'
         f'<span class="ev">본문 {", ".join(map(str, it["evidence_sentences"]))}번 · '
         f'{esc(it["why_ko"])}</span></span></li>'
         for i, it in enumerate(items, 1))
@@ -170,14 +200,20 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("drill", help="tools/make_drill_tf.py 가 만든 .tf.json")
     ap.add_argument("--out")
+    ap.add_argument("--lang", choices=["ko", "en"], default="ko",
+                    help="ko=1차(한국어) · en=2차(영어). 같은 문항의 두 판이다")
     a = ap.parse_args()
 
     with open(a.drill, encoding="utf-8") as f:
         d = json.load(f)
-    out = a.out or a.drill.replace(".tf.json", ".tf.html")
+    suffix = ".en.html" if a.lang == "en" else ".html"
+    out = a.out or a.drill.replace(".json", suffix)
+    n = len([x for x in d["items"] if x.get("statement_en")]) if a.lang == "en"         else len(d["items"])
+    if a.lang == "en" and n == 0:
+        raise SystemExit("영어 진술이 없습니다. 먼저 tools/make_drill_en.py 를 돌리십시오")
     with open(out, "w", encoding="utf-8") as f:
-        f.write(build(d, logo_tag(DEFAULT_LOGO)))
-    print(f"  {d['unit']} · 문항 {len(d['items'])} · 지문 {len(d['sentences'])}문장")
+        f.write(build(d, logo_tag(DEFAULT_LOGO), a.lang))
+    print(f"  {d['unit']} · {a.lang} · 문항 {n} · 지문 {len(d['sentences'])}문장")
     print(f"  → {out}")
     return 0
 

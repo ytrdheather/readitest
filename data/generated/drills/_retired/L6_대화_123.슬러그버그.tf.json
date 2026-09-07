@@ -1,0 +1,337 @@
+{
+  "unit": "L6 대화 ①②③",
+  "parts": [
+    "L6 대화-1",
+    "L6 대화-2",
+    "L6 대화-3"
+  ],
+  "passage_ids": [
+    "796c6774-361e-4291-bf6a-8f8e4af6ef19",
+    "36ce3caa-2abb-4f3b-b3a8-d30713e4e71f",
+    "09022bd0-25b3-40a7-9d2f-1ad993a813a5"
+  ],
+  "para_breaks": [
+    5,
+    12,
+    19
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    10,
+    12,
+    13,
+    15,
+    16,
+    19
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: What kinds of books do you usually read?",
+    "G: I usually read sci-fi novels.",
+    "B: Then, can you recommend a good sci-fi novel for me?",
+    "G: How about The Time Machine?",
+    "I think it’s the best.",
+    "G: What kinds of soft drinks do you usually have?",
+    "B: I usually drink apple soda, but today, I want to try something else.",
+    "Can you recommend some new soft drinks?",
+    "G: Try a cherry soda.",
+    "The cherry soda here is good.",
+    "B: OK.",
+    "I’ll give it a try, then.",
+    "B: What kinds of movies do you like?",
+    "G: I like action movies.",
+    "Spider-Man is my favorite.",
+    "B: Oh, I didn’t see it.",
+    "G: You didn’t?",
+    "It’s really fun.",
+    "I strongly recommend it."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀에게 평소 어떤 종류의 책을 읽는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "소년이 어떤 종류의 책을 읽는지 먼저 물었다.",
+      "_evidence_text": [
+        "B: What kinds of books do you usually read?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked the girl what kinds of books she reads these days."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 주로 추리 소설을 읽는다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "소녀는 공상과학(sci-fi) 소설을 주로 읽는다고 했다.",
+      "_evidence_text": [
+        "G: I usually read sci-fi novels."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answered that she mostly reads mystery novels."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀에게 좋은 SF 소설을 추천해 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "소년이 SF 소설을 추천해 달라고 요청했다.",
+      "_evidence_text": [
+        "B: Then, can you recommend a good sci-fi novel for me?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked the girl to tell him a good sci-fi novel to read."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀가 추천한 책은 The Little Prince였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "소녀가 추천한 책은 The Time Machine이다.",
+      "_evidence_text": [
+        "G: How about The Time Machine?"
+      ],
+      "_repeat": false,
+      "statement_en": "The book the girl suggested was The Little Prince."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 책이 그저 그렇다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "소녀는 그 책이 최고라고 생각한다고 말했다.",
+      "_evidence_text": [
+        "I think it’s the best."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said the book was just so-so."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 번째 대화에서 어떤 청량음료를 즐겨 마시는지 물은 사람은 소년이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "질문한 사람은 소녀이다.",
+      "_evidence_text": [
+        "G: What kinds of soft drinks do you usually have?"
+      ],
+      "_repeat": false,
+      "statement_en": "In the second talk, it was the boy who asked what soft drinks the other person usually has."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 평소 사과 소다를 마시지만 오늘은 다른 것을 마셔 보고 싶어 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "평소 사과 소다를 마시지만 오늘은 다른 것을 시도하고 싶다고 했다.",
+      "_evidence_text": [
+        "B: I usually drink apple soda, but today, I want to try something else."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy normally has apple soda, but he feels like trying a different drink today."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 새로운 청량음료를 추천해 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "새로운 청량음료를 추천해 달라고 요청했다.",
+      "_evidence_text": [
+        "Can you recommend some new soft drinks?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked for a new soft drink to be recommended to him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 오렌지 소다를 마셔 보라고 권했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "소녀는 체리 소다를 권했다.",
+      "_evidence_text": [
+        "G: Try a cherry soda."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl told him to try an orange soda."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 이곳의 체리 소다가 맛있다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "여기 체리 소다가 좋다고 말했다.",
+      "_evidence_text": [
+        "The cherry soda here is good."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said that the cherry soda at that place tastes good."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀의 말에 OK라고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "소년이 OK라고 답했다.",
+      "_evidence_text": [
+        "B: OK."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy said \"OK\" to what the girl told him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 결국 체리 소다를 마셔 보지 않겠다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "소년은 한번 마셔 보겠다고 했다.",
+      "_evidence_text": [
+        "I’ll give it a try, then."
+      ],
+      "_repeat": false,
+      "statement_en": "In the end, the boy said he would not try the cherry soda."
+    },
+    {
+      "type": "content",
+      "statement_ko": "세 번째 대화에서 어떤 영화를 좋아하는지 물은 사람은 소녀이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "질문한 사람은 소년이다.",
+      "_evidence_text": [
+        "B: What kinds of movies do you like?"
+      ],
+      "_repeat": false,
+      "statement_en": "In the third talk, the girl was the one who asked about the kinds of movies the other person likes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 액션 영화를 좋아한다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "소녀는 액션 영화를 좋아한다고 했다.",
+      "_evidence_text": [
+        "G: I like action movies."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said that action movies are the kind she likes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀가 가장 좋아하는 영화는 배트맨이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "소녀가 가장 좋아하는 영화는 Spider-Man이다.",
+      "_evidence_text": [
+        "Spider-Man is my favorite."
+      ],
+      "_repeat": false,
+      "statement_en": "Batman is the girl's favorite movie."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 그 영화를 아직 보지 못했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "소년은 그것을 보지 못했다고 말했다.",
+      "_evidence_text": [
+        "B: Oh, I didn’t see it."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy has not watched that movie yet."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 소년이 그 영화를 보지 않았다는 말에 놀라 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "소녀가 \"You didn't?\"라고 되물었다.",
+      "_evidence_text": [
+        "G: You didn’t?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked back in surprise when the boy said he hadn't seen the movie."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 영화가 지루하다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "소녀는 그 영화가 정말 재미있다고 했다.",
+      "_evidence_text": [
+        "It’s really fun."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said that the movie is boring."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 영화를 강력히 추천했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "강력히 추천한다고 말했다.",
+      "_evidence_text": [
+        "I strongly recommend it."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl told the boy she really recommends that movie."
+    }
+  ],
+  "diagnostics": {
+    "returned": 19,
+    "kept": 19,
+    "by_type": {
+      "content": 19
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 10,
+      "X": 9
+    },
+    "sentences_covered": 19,
+    "sentence_count": 19,
+    "repeated": 0
+  }
+}

@@ -66,11 +66,12 @@
       "evidence_sentences": [
         1
       ],
-      "why_ko": "\b\ncdots 둘 다 목적지까지 가는 방법(길)을 묻는 표현이다.",
+      "why_ko": "둘 다 목적지까지 가는 방법(길)을 묻는 표현이다.",
       "_evidence_text": [
         "B: Excuse me, how can I get to the Star Stadium?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"How can I get to the Star Stadium?\" has the same meaning as \"What's the best way to get to the Star Stadium?\""
     },
     {
       "type": "paraphrase",
@@ -83,7 +84,8 @@
       "_evidence_text": [
         "G: You can get there by subway."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"You can get there by subway.\" can be changed to \"You can take the subway to get there.\""
     },
     {
       "type": "paraphrase",
@@ -96,7 +98,8 @@
       "_evidence_text": [
         "Take line 4, the green line, and get off at Hangang Station."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"Get off at Hangang Station\" means the same as \"get on at Hangang Station.\""
     },
     {
       "type": "paraphrase",
@@ -109,7 +112,8 @@
       "_evidence_text": [
         "How long will it take?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"How long will it take?\" can be replaced with \"How can I get there?\""
     },
     {
       "type": "paraphrase",
@@ -122,7 +126,8 @@
       "_evidence_text": [
         "G: A little more than 30 minutes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"A little more than 30 minutes.\" has the same meaning as \"It takes a bit over 30 minutes.\""
     },
     {
       "type": "paraphrase",
@@ -135,7 +140,8 @@
       "_evidence_text": [
         "Why don’t you take a taxi?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"Why don't you take a taxi?\" can be changed to \"How about taking a taxi?\""
     },
     {
       "type": "paraphrase",
@@ -148,7 +154,8 @@
       "_evidence_text": [
         "G: Do you need help?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"Do you need help?\" can be replaced with \"May I help you?\""
     },
     {
       "type": "paraphrase",
@@ -161,7 +168,8 @@
       "_evidence_text": [
         "How can I get to the Dream Shopping Mall from here?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"How can I get to the Dream Shopping Mall from here?\" means the same as \"How far is the Dream Shopping Mall from here?\""
     },
     {
       "type": "paraphrase",
@@ -174,7 +182,8 @@
       "_evidence_text": [
         "Can I walk?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"Can I walk?\" can be changed to \"Can I get there on foot?\""
     },
     {
       "type": "paraphrase",
@@ -187,7 +196,8 @@
       "_evidence_text": [
         "G: You can, but it’s a little far."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"It's a little far\" has the same meaning as \"it's not very far.\""
     },
     {
       "type": "paraphrase",
@@ -200,7 +210,8 @@
       "_evidence_text": [
         "Why don’t you go by bus?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"Why don't you go by bus?\" can be replaced with \"You'd better not take the bus.\""
     },
     {
       "type": "paraphrase",
@@ -213,7 +224,8 @@
       "_evidence_text": [
         "Take bus No. 12."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"Take bus No. 12.\" means the same as \"Get on bus No. 12.\""
     },
     {
       "type": "paraphrase",
@@ -226,7 +238,8 @@
       "_evidence_text": [
         "It’ll take less than 10 minutes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "\"It'll take less than 10 minutes.\" can be changed to \"It'll take more than 10 minutes.\""
     }
   ],
   "diagnostics": {

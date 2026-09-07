@@ -1,0 +1,332 @@
+{
+  "unit": "L6 Read More",
+  "parts": [
+    "L6 ReadMore-1",
+    "L6 ReadMore-2",
+    "L6 ReadMore-3",
+    "L6 ReadMore-4"
+  ],
+  "passage_ids": [
+    "f6c323cc-6c7f-4ee7-ba9c-4ff61f66f465",
+    "94f1ed6f-13eb-46f8-aca0-20014863e823",
+    "ec5502f4-a3d8-4e11-9e66-7fb2e074ca5e",
+    "dc091baa-c8be-449f-8b22-a5d347df8f24"
+  ],
+  "para_breaks": [
+    6,
+    9,
+    15,
+    19
+  ],
+  "turn_breaks": [
+    6,
+    9,
+    15,
+    19
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "W: Hello, everyone.",
+    "The movie I’m going to introduce today is The Song of Love.",
+    "It’s a movie about a pianist who loses his love for music.",
+    "He moves to a small town for a new start.",
+    "There, he begins teaching music to children and finds his love for music again.",
+    "This movie has great music and a touching story, so I strongly recommend it.",
+    "Frank W. Schofield was a Canadian doctor.",
+    "He loved Korean people and helped the Korean independence movement.",
+    "He took pictures of the March 1st Movement and wrote an article about it.",
+    "Kim Mandeok was born in Jeju-do in 1739.",
+    "She was a successful businesswoman.",
+    "In 1795, she saw many people dying from hunger.",
+    "So, she bought rice with all her money and gave it away to poor people.",
+    "Her love for others was so selfless that many people respected her.",
+    "From her life, I learned that selfless love for others can make a big difference.",
+    "Nick Priest saw a car accident and ran to save the children on the bus.",
+    "Kay Brown saw a homeless person in the subway and gave her own shoes to her.",
+    "Eliot Middleton is a restaurant owner.",
+    "He spends his free time fixing old cars and donating them to people in need."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "여자는 인사말로 발표를 시작한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "'Hello, everyone.'이라고 인사하며 시작한다.",
+      "_evidence_text": [
+        "W: Hello, everyone."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman opens her presentation by greeting everyone."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자가 소개하는 영화의 제목은 The Song of Life이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "영화 제목은 The Song of Love이다.",
+      "_evidence_text": [
+        "The movie I’m going to introduce today is The Song of Love."
+      ],
+      "_repeat": false,
+      "statement_en": "The title of the movie the woman introduces is The Song of Life."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 영화는 음악에 대한 사랑을 잃어버린 피아니스트에 관한 이야기이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "음악에 대한 사랑을 잃은 피아니스트에 관한 영화라고 했다.",
+      "_evidence_text": [
+        "It’s a movie about a pianist who loses his love for music."
+      ],
+      "_repeat": false,
+      "statement_en": "The movie tells the story of a pianist who no longer loves music."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 새 출발을 위해 큰 도시로 이사한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "큰 도시가 아니라 작은 마을(a small town)로 이사한다.",
+      "_evidence_text": [
+        "He moves to a small town for a new start."
+      ],
+      "_repeat": false,
+      "statement_en": "He moves to a big city to make a new start."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 그곳에서 아이들에게 음악을 가르치면서 음악에 대한 사랑을 다시 찾는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "아이들을 가르치며 음악에 대한 사랑을 되찾는다고 했다.",
+      "_evidence_text": [
+        "There, he begins teaching music to children and finds his love for music again."
+      ],
+      "_repeat": false,
+      "statement_en": "While teaching music to kids there, he finds his love for music once more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 이 영화의 훌륭한 음악과 감동적인 이야기를 이유로 강력히 추천한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "great music과 touching story 때문에 강력히 추천한다고 했다.",
+      "_evidence_text": [
+        "This movie has great music and a touching story, so I strongly recommend it."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman recommends the movie strongly because of its wonderful music and moving story."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Frank W. Schofield는 미국인 의사였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "미국인이 아니라 캐나다인(Canadian) 의사였다.",
+      "_evidence_text": [
+        "Frank W. Schofield was a Canadian doctor."
+      ],
+      "_repeat": false,
+      "statement_en": "Frank W. Schofield was a doctor from America."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한국인을 사랑했고 한국의 독립운동을 도왔다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "한국인을 사랑하고 독립운동을 도왔다고 나온다.",
+      "_evidence_text": [
+        "He loved Korean people and helped the Korean independence movement."
+      ],
+      "_repeat": false,
+      "statement_en": "He had great love for Korean people and gave help to Korea's independence movement."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 3·1 운동의 사진을 찍었지만 그에 관한 글은 쓰지 않았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "사진도 찍고 그에 관한 기사도 썼다.",
+      "_evidence_text": [
+        "He took pictures of the March 1st Movement and wrote an article about it."
+      ],
+      "_repeat": false,
+      "statement_en": "He took photos of the March 1st Movement, but he never wrote anything about it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "김만덕은 1795년에 제주도에서 태어났다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "태어난 해는 1739년이다.",
+      "_evidence_text": [
+        "Kim Mandeok was born in Jeju-do in 1739."
+      ],
+      "_repeat": false,
+      "statement_en": "Kim Mandeok was born in Jeju-do in the year 1795."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀는 성공한 사업가였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "successful businesswoman이었다고 했다.",
+      "_evidence_text": [
+        "She was a successful businesswoman."
+      ],
+      "_repeat": false,
+      "statement_en": "She did well in business and became rich."
+    },
+    {
+      "type": "content",
+      "statement_ko": "1795년에 그녀는 많은 사람들이 전염병으로 죽어 가는 것을 보았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "전염병이 아니라 굶주림(hunger)으로 죽어 가는 것을 보았다.",
+      "_evidence_text": [
+        "In 1795, she saw many people dying from hunger."
+      ],
+      "_repeat": false,
+      "statement_en": "In 1795, she watched many people dying because of a disease."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀는 자신의 전 재산으로 쌀을 사서 가난한 사람들에게 나누어 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "전 재산으로 쌀을 사서 가난한 사람들에게 주었다고 했다.",
+      "_evidence_text": [
+        "So, she bought rice with all her money and gave it away to poor people."
+      ],
+      "_repeat": false,
+      "statement_en": "She used all the money she had to buy rice and shared it with poor people."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀의 이타적인 사랑 때문에 많은 사람들이 그녀를 비난했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "비난한 것이 아니라 많은 사람들이 그녀를 존경했다.",
+      "_evidence_text": [
+        "Her love for others was so selfless that many people respected her."
+      ],
+      "_repeat": false,
+      "statement_en": "Many people blamed her because of her selfless love."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 그녀의 삶에서 남을 위한 이타적인 사랑이 큰 변화를 만들 수 있다는 것을 배웠다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "그녀의 삶에서 그것을 배웠다고 직접 언급된다.",
+      "_evidence_text": [
+        "From her life, I learned that selfless love for others can make a big difference."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer learned from her life that loving others selflessly can make a big difference."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Kay Brown은 자동차 사고를 보고 버스에 탄 아이들을 구하러 달려갔다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "아이들을 구하러 달려간 사람은 Nick Priest이다.",
+      "_evidence_text": [
+        "Nick Priest saw a car accident and ran to save the children on the bus."
+      ],
+      "_repeat": false,
+      "statement_en": "Kay Brown saw a car accident and ran to help the children who were on the bus."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Kay Brown은 지하철에서 노숙자를 보고 자신의 신발을 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "자신의 신발을 그 사람에게 주었다고 했다.",
+      "_evidence_text": [
+        "Kay Brown saw a homeless person in the subway and gave her own shoes to her."
+      ],
+      "_repeat": false,
+      "statement_en": "When Kay Brown found a homeless woman in the subway, she gave the woman her own shoes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Eliot Middleton은 자동차 정비소 주인이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "그는 식당(restaurant) 주인이다.",
+      "_evidence_text": [
+        "Eliot Middleton is a restaurant owner."
+      ],
+      "_repeat": false,
+      "statement_en": "Eliot Middleton owns a car repair shop."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 여가 시간에 낡은 차를 고쳐서 도움이 필요한 사람들에게 기부한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "여가 시간에 낡은 차를 고쳐 필요한 사람들에게 기부한다고 했다.",
+      "_evidence_text": [
+        "He spends his free time fixing old cars and donating them to people in need."
+      ],
+      "_repeat": false,
+      "statement_en": "In his free time, he repairs old cars and gives them to people who need help."
+    }
+  ],
+  "diagnostics": {
+    "returned": 19,
+    "kept": 19,
+    "by_type": {
+      "content": 19
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 10,
+      "X": 9
+    },
+    "sentences_covered": 19,
+    "sentence_count": 19,
+    "repeated": 0
+  }
+}

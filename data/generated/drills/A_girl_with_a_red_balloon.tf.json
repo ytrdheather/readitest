@@ -1,0 +1,246 @@
+{
+  "unit": "A girl with a red balloon",
+  "parts": [
+    "A girl with a red balloon"
+  ],
+  "passage_ids": [
+    "a8f6cb05-0cd0-4106-a32e-cbf42721ffa6"
+  ],
+  "para_breaks": [
+    14
+  ],
+  "turn_breaks": [
+    5,
+    14
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "Have you ever seen this image of a girl with a red balloon?",
+    "It was painted by Banksy, a world-famous street artist from the UK.",
+    "His artworks are known for carrying social messages about issues such as war and inequality.",
+    "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery.",
+    "His art appears on streets, walls, and bridges, and is often created without permission.",
+    "Girl with Balloon is one of Banksy’s most well-known works.",
+    "It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s.",
+    "However, it is actually part of a series of paintings.",
+    "In this artwork, a small child is reaching out toward a red balloon.",
+    "There are different interpretations of the painting.",
+    "According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope.",
+    "If you think about it that way, the painting can be seen as a symbol of losing those things.",
+    "The image is simple but has a strong emotional impact.",
+    "That may be why so many people like it."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 빨간 풍선을 든 소녀 그림을 본 적이 있는지 독자에게 묻고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 그 이미지를 본 적 있냐고 묻고 있다.",
+      "_evidence_text": [
+        "Have you ever seen this image of a girl with a red balloon?"
+      ],
+      "_repeat": false,
+      "statement_en": "The writer asks readers whether they have ever seen the picture of a girl holding a red balloon."
+    },
+    {
+      "type": "content",
+      "statement_ko": "뱅크시(Banksy)는 미국 출신의 세계적으로 유명한 거리 예술가이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "뱅크시는 미국이 아니라 영국(UK) 출신이다.",
+      "_evidence_text": [
+        "It was painted by Banksy, a world-famous street artist from the UK."
+      ],
+      "_repeat": false,
+      "statement_en": "Banksy is a world-famous street artist who comes from the United States."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그의 작품은 전쟁과 불평등 같은 사회 문제에 대한 메시지를 담은 것으로 알려져 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에 전쟁과 불평등 같은 사회적 메시지를 담는다고 나온다.",
+      "_evidence_text": [
+        "His artworks are known for carrying social messages about issues such as war and inequality."
+      ],
+      "_repeat": false,
+      "statement_en": "His works are known for holding messages about social problems like war and inequality."
+    },
+    {
+      "type": "content",
+      "statement_ko": "뱅크시는 국제적으로 유명해지면서 그의 진짜 신분도 널리 알려지게 되었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "유명하지만 아무도 그의 진짜 정체를 모르며, 그것이 신비로움을 더한다고 했다.",
+      "_evidence_text": [
+        "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
+      ],
+      "_repeat": false,
+      "statement_en": "As Banksy became famous around the world, his true identity also became widely known."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그의 작품은 거리, 벽, 다리 등에 나타나며 종종 허가 없이 만들어진다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "장소는 맞지만 '허가 없이' 만들어진다고 했으므로 허가를 받는다는 식의 진술은 틀리다 — 이 문장은 without permission이 핵심이다.",
+      "_evidence_text": [
+        "His art appears on streets, walls, and bridges, and is often created without permission."
+      ],
+      "_repeat": false,
+      "statement_en": "His works show up on streets, walls, and bridges, and they are often made without permission."
+    },
+    {
+      "type": "content",
+      "statement_ko": "「Girl with Balloon」은 뱅크시의 가장 잘 알려진 작품 중 하나이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "6번 문장에 가장 잘 알려진 작품 중 하나라고 나온다.",
+      "_evidence_text": [
+        "Girl with Balloon is one of Banksy’s most well-known works."
+      ],
+      "_repeat": false,
+      "statement_en": "\"Girl with Balloon\" is one of the best-known pieces made by Banksy."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 작품은 2000년대 초 런던 사우스뱅크의 워털루 다리 아래 벽에 처음 나타났다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장의 시기와 장소가 그대로 일치한다.",
+      "_evidence_text": [
+        "It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s."
+      ],
+      "_repeat": false,
+      "statement_en": "The work first showed up on a wall under Waterloo Bridge in London's South Bank in the early 2000s."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 그림은 시리즈에 속하지 않는 단 하나뿐인 독립 작품이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "사실은 연작(시리즈) 그림의 일부라고 했다.",
+      "_evidence_text": [
+        "However, it is actually part of a series of paintings."
+      ],
+      "_repeat": false,
+      "statement_en": "This painting is a single independent work and does not belong to any series."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그림 속에서 작은 아이가 빨간 풍선을 향해 손을 뻗고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "9번 문장과 그대로 일치한다.",
+      "_evidence_text": [
+        "In this artwork, a small child is reaching out toward a red balloon."
+      ],
+      "_repeat": false,
+      "statement_en": "In the picture, a little child is stretching out a hand toward a red balloon."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 그림에 대한 해석은 오직 한 가지뿐이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "이 그림에는 서로 다른 여러 해석이 있다고 했다.",
+      "_evidence_text": [
+        "There are different interpretations of the painting."
+      ],
+      "_repeat": false,
+      "statement_en": "There is only one single way to interpret this painting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "한 해석에 따르면 빨간 풍선은 순수함, 꿈, 희망 같은 어린 시절을 상징한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번 문장에 그렇게 설명되어 있다.",
+      "_evidence_text": [
+        "According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope."
+      ],
+      "_repeat": false,
+      "statement_en": "In one interpretation, the red balloon stands for childhood and things like innocence, dreams, and hope."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그렇게 생각하면 이 그림은 그런 것들을 잃어버리는 것의 상징으로 볼 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "12번 문장과 일치한다.",
+      "_evidence_text": [
+        "If you think about it that way, the painting can be seen as a symbol of losing those things."
+      ],
+      "_repeat": false,
+      "statement_en": "Seen in that way, the painting can be understood as a symbol of losing those things."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 그림은 매우 복잡하지만 감정적인 울림은 약한 편이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "그림은 단순하지만 강한 감정적 영향을 준다고 했다.",
+      "_evidence_text": [
+        "The image is simple but has a strong emotional impact."
+      ],
+      "_repeat": false,
+      "statement_en": "The painting is very complicated, but its emotional power is rather weak."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 그 점이 많은 사람들이 이 그림을 좋아하는 이유일지도 모른다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "14번 문장에서 그것이 많은 사람이 좋아하는 이유일 수 있다고 했다.",
+      "_evidence_text": [
+        "That may be why so many people like it."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer says that this may be the reason why so many people like the picture."
+    }
+  ],
+  "diagnostics": {
+    "returned": 14,
+    "kept": 14,
+    "by_type": {
+      "content": 14
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 8,
+      "X": 6
+    },
+    "sentences_covered": 14,
+    "sentence_count": 14,
+    "repeated": 0
+  }
+}

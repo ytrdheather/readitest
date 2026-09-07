@@ -27,6 +27,8 @@ DB 에는 `Street Art in London-1~4` 로 문단이 나뉘어 있다. 드릴은 �
 지문에 없는 내용을 근거로 든 문항은 여기서 걸린다 — 태깅에서 surface 로 환각을
 잡는 것과 같은 장치다 (설계원칙 7).
 """
+import re
+
 from . import prompts
 from .models import PASS_A_MODEL
 
@@ -169,12 +171,30 @@ def build_params(title, kind, sentences, n_items, mode="content"):
     }
 
 
+_CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]+")
+
+
+def clean_text(s):
+    """모델이 낸 JSON 이스케이프가 제어문자로 풀린 자리를 지운다.
+
+    실제로 한 번 났다 — `why_ko` 가 `\\bcdots 둘 다 …` 로 와서 JSON 파서가
+    `\\b` 를 0x08 로 풀었고, 인쇄물에는 「cdots」 라는 글자가 남았다.
+    빈도는 낮지만 강사 손에 가는 종이라 여기서 막는다.
+    """
+    if not isinstance(s, str):
+        return s
+    return " ".join(_CTRL.sub(" ", s).split()).strip()
+
+
 def parse(raw, sentences):
     """근거 문장 번호가 지문 범위를 벗어난 문항은 버린다."""
     n = len(sentences)
     kept, rejects = [], []
     used = set()
     for i, it in enumerate(raw.get("items", [])):
+        for k in ("statement_ko", "statement_en", "why_ko"):
+            if k in it:
+                it[k] = clean_text(it[k])
         ev = [e for e in it["evidence_sentences"] if 1 <= e <= n]
         if not ev:
             rejects.append((i, f"근거 문장 번호가 범위 밖 {it['evidence_sentences']}"))
@@ -197,3 +217,99 @@ def parse(raw, sentences):
                                 "X": sum(1 for x in kept if x["answer"] == "X")},
                             "sentences_covered": len(used), "sentence_count": n,
                             "repeated": sum(1 for x in kept if x["_repeat"])}}
+
+
+# ═══════════════════════════════════════════════════════════════════
+#  영어판 — 같은 문항을 영어 진술로 (원장 지시 2026-09-07)
+#
+#  「한국어로 한 것을 1차로 본 후에 1주일 뒤에 영어로 한 것을 다시 보라고 하면
+#   완전학습이 되잖아.」
+#
+#  그래서 **새로 만들지 않고 옮긴다.** 문항이 달라지면 「같은 것을 다시」가 아니라
+#  「다른 것을 또」가 되고, 간격 반복의 값이 사라진다. 정답과 근거 문장은 그대로 두고
+#  진술만 영어로 쓴다.
+#
+#  실물 근거: 영일중 「L5. The Street as a Canvas — Fact Check」 20문항이 영어다.
+#  기출도 영어 선지를 쓴다 (청명 21 · 태장 9 내용일치).
+# ═══════════════════════════════════════════════════════════════════
+
+EN_SYSTEM = """\
+You write True/False statements for Korean middle-school students (Grade 8, age 14).
+
+# Your task
+
+You are given Korean True/False statements about an English passage. **Rewrite each one
+as an English statement** that means exactly the same thing.
+
+# Rules
+
+1. **Keep the answer identical.** If the Korean statement is false, the English one must
+   be false for the same reason. Do not fix, soften, or change what is being claimed.
+2. **Do not copy the passage sentence.** Reword it. If a student can match the statement
+   to a passage sentence word-for-word, they answer without reading.
+   Passage:   `we are going to see some well-known street artworks in London`
+   Statement: `This tour takes people to see famous street art in the city of London.`
+3. **Use vocabulary a Grade 8 Korean student knows.** Words from the passage and its
+   word list are best. Avoid words that need a dictionary.
+4. **Keep it to one sentence** where possible. Two short sentences are acceptable when
+   the Korean statement joins two facts.
+5. For false statements, the wrong part must be **visible in the English** — a changed
+   name, number, place, or relationship. Do not make it false by leaving something out.
+
+Return one English statement per input item, in the same order, keyed by `index`.
+"""
+
+
+def en_schema():
+    return {
+        "type": "object",
+        "properties": {
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "index": {"type": "integer", "description": "1부터. 입력 순서"},
+                        "statement_en": {"type": "string"},
+                    },
+                    "required": ["index", "statement_en"],
+                    "additionalProperties": False,
+                },
+            },
+        },
+        "required": ["items"],
+        "additionalProperties": False,
+    }
+
+
+def build_en_params(title, sentences, items):
+    body = prompts.number_sentences(sentences)
+    lines = "\n".join(
+        f'{i}. [{it["answer"]}] {it["statement_ko"]}  '
+        f'(근거 문장 {", ".join(map(str, it["evidence_sentences"]))})'
+        for i, it in enumerate(items, 1))
+    user = (f"# Passage: {title}\n\n{body}\n\n"
+            f"# Korean statements to rewrite in English ({len(items)})\n\n{lines}")
+    return {
+        "model": PASS_A_MODEL,
+        "max_tokens": 16000,
+        "system": [{"type": "text", "text": EN_SYSTEM,
+                    "cache_control": {"type": "ephemeral"}}],
+        "messages": [{"role": "user", "content": user}],
+        "output_config": {"effort": "medium",
+                          "format": {"type": "json_schema", "schema": en_schema()}},
+        "thinking": {"type": "adaptive"},
+    }
+
+
+def merge_en(items, raw):
+    """영어 진술을 한국어 문항에 붙인다. 빠진 것은 표시하고 넘어간다."""
+    by_i = {x["index"]: x["statement_en"] for x in raw.get("items", [])}
+    missing = []
+    for i, it in enumerate(items, 1):
+        en = by_i.get(i)
+        if not en:
+            missing.append(i)
+            continue
+        it["statement_en"] = clean_text(en)
+    return missing

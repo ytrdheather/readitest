@@ -123,7 +123,14 @@ def main():
         print(f"      근거 {it['evidence_sentences']} · {it['why_ko']}")
 
     os.makedirs(OUT, exist_ok=True)
-    slug = re.sub(r"[^0-9A-Za-z가-힣]+", "_", u["title"])[:40]
+    # 제목에 원문자(④⑤⑥)나 로마숫자가 들어가면 이전 규칙이 통째로 지워서
+    # 서로 다른 세트가 **같은 파일명**이 됐다 — 「L5 대화 ④⑤⑥」→「L5_대화_」.
+    # 백그라운드로 9개를 돌리다 첫 결과에서 발견했다. 원문자를 숫자로 바꾼 뒤 자른다.
+    CIRCLED = {chr(0x2460 + i): str(i + 1) for i in range(20)}          # ①~⑳
+    t = "".join(CIRCLED.get(c, c) for c in u["title"])
+    slug = re.sub(r"[^0-9A-Za-z가-힣]+", "_", t).strip("_")[:40]
+    if not slug:
+        raise SystemExit(f"제목에서 파일명을 못 만들었습니다: {u['title']!r}")
     suffix = ".tf.json" if a.mode == "content" else ".para.json"
     path = os.path.join(OUT, f"{slug}{suffix}")
     with open(path, "w", encoding="utf-8") as f:

@@ -1,0 +1,399 @@
+{
+  "unit": "L5 대화 ④⑤⑥",
+  "parts": [
+    "L5 대화-4",
+    "L5 대화-5",
+    "L5 대화-6"
+  ],
+  "passage_ids": [
+    "fbdf520a-f72a-437f-b43e-27267c16ba24",
+    "1fa04f53-c0b1-408f-b624-582d1a99f884",
+    "575b794e-c497-435b-92d5-f7b097c222e4"
+  ],
+  "para_breaks": [
+    11,
+    16,
+    23
+  ],
+  "turn_breaks": [
+    3,
+    6,
+    8,
+    9,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    23
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: Excuse me.",
+    "I’m going to the National Art Museum.",
+    "What’s the best way to get there?",
+    "G: You can walk.",
+    "Go straight for about 500 meters and turn left.",
+    "It’ll be on your right.",
+    "B: I see.",
+    "How long will it take?",
+    "G: Only about 15 minutes.",
+    "B: Really?",
+    "Thanks.",
+    "G: Excuse me, how can I get to the Dream Zoo?",
+    "B: You can take the subway.",
+    "G: I see.",
+    "How long will it take?",
+    "B: I think it’ll take about 30 minutes.",
+    "B: Excuse me, how can I get to Seoul Museum from here?",
+    "G: Seoul Museum?",
+    "You can get there by bus or by subway.",
+    "B: Which is faster, the bus or the subway?",
+    "G: Hmm, I think the bus is faster.",
+    "B: Really?",
+    "Then, I’ll take the bus."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "소년이 먼저 \"실례합니다\"라고 말을 걸며 대화를 시작한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "소년(B)이 Excuse me.라고 먼저 말을 건다.",
+      "_evidence_text": [
+        "B: Excuse me."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy starts the talk by saying \"Excuse me.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 국립도서관에 가려고 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "국립도서관이 아니라 국립미술관(National Art Museum)에 간다.",
+      "_evidence_text": [
+        "I’m going to the National Art Museum."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy wants to go to the National Library."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 그곳에 가는 가장 좋은 방법이 무엇인지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "What's the best way to get there?라고 물었다.",
+      "_evidence_text": [
+        "What’s the best way to get there?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks what the best way to get there is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 택시를 타라고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "소녀는 걸어갈 수 있다(You can walk.)고 답했다.",
+      "_evidence_text": [
+        "G: You can walk."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl tells him to take a taxi."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 약 500미터 직진한 뒤 왼쪽으로 돌라고 알려 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "Go straight for about 500 meters and turn left.라고 했다.",
+      "_evidence_text": [
+        "Go straight for about 500 meters and turn left."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl tells him to go straight about 500 meters and then turn left."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 건물이 왼편에 있을 것이라고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "오른편에 있을 것(on your right)이라고 했다.",
+      "_evidence_text": [
+        "It’ll be on your right."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says the place will be on his left side."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 설명을 듣고 \"알겠습니다\"라고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "I see.라고 답했다.",
+      "_evidence_text": [
+        "B: I see."
+      ],
+      "_repeat": false,
+      "statement_en": "After hearing the directions, the boy answers, \"I see.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 이어서 요금이 얼마인지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "요금이 아니라 시간이 얼마나 걸리는지(How long will it take?) 물었다.",
+      "_evidence_text": [
+        "How long will it take?"
+      ],
+      "_repeat": false,
+      "statement_en": "Next, the boy asks how much the fare is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 약 50분쯤 걸린다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "약 15분(about 15 minutes)이라고 답했다.",
+      "_evidence_text": [
+        "G: Only about 15 minutes."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answers that it takes about 50 minutes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 걸리는 시간을 듣고 \"정말요?\"라고 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "Really?라고 반응했다.",
+      "_evidence_text": [
+        "B: Really?"
+      ],
+      "_repeat": false,
+      "statement_en": "When he hears how long it takes, the boy says, \"Really?\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 마지막에 고맙다고 인사했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "Thanks.라고 말했다.",
+      "_evidence_text": [
+        "Thanks."
+      ],
+      "_repeat": false,
+      "statement_en": "At the end, the boy says thank you."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 번째 대화에서는 소녀가 드림 동물원에 가는 방법을 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "소녀(G)가 how can I get to the Dream Zoo?라고 물었다.",
+      "_evidence_text": [
+        "G: Excuse me, how can I get to the Dream Zoo?"
+      ],
+      "_repeat": false,
+      "statement_en": "In the second talk, the girl asks how to get to the Dream Zoo."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 버스를 타면 된다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "지하철을 타면 된다(take the subway)고 답했다.",
+      "_evidence_text": [
+        "B: You can take the subway."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy answers that she can take the bus."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 소년의 답을 듣고 \"알겠어\"라고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "G가 I see.라고 답했다.",
+      "_evidence_text": [
+        "G: I see."
+      ],
+      "_repeat": false,
+      "statement_en": "After hearing the boy's answer, the girl says, \"I see.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀도 시간이 얼마나 걸리는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "How long will it take?라고 물었다.",
+      "_evidence_text": [
+        "How long will it take?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl also asks how long it will take."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 약 13분쯤 걸릴 것 같다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "약 30분(about 30 minutes)이라고 답했다.",
+      "_evidence_text": [
+        "B: I think it’ll take about 30 minutes."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says he thinks it will take about 13 minutes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "세 번째 대화에서 소년은 여기에서 서울 박물관에 가는 방법을 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "how can I get to Seoul Museum from here?라고 물었다.",
+      "_evidence_text": [
+        "B: Excuse me, how can I get to Seoul Museum from here?"
+      ],
+      "_repeat": false,
+      "statement_en": "In the third talk, the boy asks how to get to Seoul Museum from where they are."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 \"서울 박물관요?\"라고 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "G가 Seoul Museum?이라고 확인했다.",
+      "_evidence_text": [
+        "G: Seoul Museum?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl repeats the question, \"Seoul Museum?\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 버스나 지하철로 갈 수 있다고 알려 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "by bus or by subway로 갈 수 있다고 했다.",
+      "_evidence_text": [
+        "You can get there by bus or by subway."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl tells him he can go there by bus or by subway."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 버스와 지하철 중 어느 것이 더 싼지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "더 싼 것이 아니라 어느 것이 더 빠른지(Which is faster) 물었다.",
+      "_evidence_text": [
+        "B: Which is faster, the bus or the subway?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks which one is cheaper, the bus or the subway."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 지하철이 더 빠른 것 같다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "버스가 더 빠른 것 같다(the bus is faster)고 답했다.",
+      "_evidence_text": [
+        "G: Hmm, I think the bus is faster."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answers that she thinks the subway is faster."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀의 대답에 \"정말요?\"라고 반응했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "B가 Really?라고 말했다.",
+      "_evidence_text": [
+        "B: Really?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy reacts to the girl's answer by saying, \"Really?\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 결국 지하철을 타기로 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "버스를 타겠다(I'll take the bus)고 했다.",
+      "_evidence_text": [
+        "Then, I’ll take the bus."
+      ],
+      "_repeat": false,
+      "statement_en": "In the end, the boy decides to take the subway."
+    }
+  ],
+  "diagnostics": {
+    "returned": 23,
+    "kept": 23,
+    "by_type": {
+      "content": 23
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 13,
+      "X": 10
+    },
+    "sentences_covered": 23,
+    "sentence_count": 23,
+    "repeated": 0
+  }
+}

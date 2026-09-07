@@ -1,0 +1,369 @@
+{
+  "unit": "L6 대화 ⑦⑧⑨",
+  "parts": [
+    "L6 대화-7",
+    "L6 대화-8",
+    "L6 대화-9"
+  ],
+  "passage_ids": [
+    "e6c3d5af-c9e8-4df4-b7e0-a4ad985f7bc5",
+    "24d67ce2-be3d-4e3b-859a-fef370fd604e",
+    "c48193a6-493f-4c40-ac03-96e6e716881f"
+  ],
+  "para_breaks": [
+    6,
+    12,
+    21
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    12,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: What kinds of movies do you like?",
+    "G: I like sci-fi movies.",
+    "B: Me, too.",
+    "Can you recommend a good sci-fi movie for me?",
+    "G: Try Travel to the Future.",
+    "It’s really good.",
+    "A: Can you recommend a restaurant for me?",
+    "B: How about Morning in Venice?",
+    "A: What kind of food do they have?",
+    "B: They have Italian food.",
+    "I strongly recommend their cheese pizza.",
+    "It’s really good.",
+    "A: Dr. Schofield, I hear you have a Korean name.",
+    "Can you tell me about it?",
+    "B: It’s Seok Hopil.",
+    "I love it because it sounds similar to my English name.",
+    "Also, it has a good meaning.",
+    "A: I’d like to know why you helped the Korean independence movement.",
+    "B: Well, I believe every country has the right to be independent.",
+    "A: What did you do after you returned to Korea in 1958?",
+    "B: I worked hard to help Koreans, especially poor students."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "B는 G에게 어떤 종류의 영화를 좋아하는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "B가 What kinds of movies do you like?라고 물었다.",
+      "_evidence_text": [
+        "B: What kinds of movies do you like?"
+      ],
+      "_repeat": false,
+      "statement_en": "B asked G which type of movies she enjoys."
+    },
+    {
+      "type": "content",
+      "statement_ko": "G는 공포 영화를 좋아한다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "G는 공상과학(sci-fi) 영화를 좋아한다고 했다.",
+      "_evidence_text": [
+        "G: I like sci-fi movies."
+      ],
+      "_repeat": false,
+      "statement_en": "G answered that she likes horror movies."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B도 같은 종류의 영화를 좋아한다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "B가 Me, too.라고 답했다.",
+      "_evidence_text": [
+        "B: Me, too."
+      ],
+      "_repeat": false,
+      "statement_en": "B said that he likes the same kind of movies."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 G에게 좋은 공상과학 영화를 추천해 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "Can you recommend a good sci-fi movie for me?라고 부탁했다.",
+      "_evidence_text": [
+        "Can you recommend a good sci-fi movie for me?"
+      ],
+      "_repeat": false,
+      "statement_en": "B asked G to suggest a good sci-fi movie to him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "G가 추천한 영화 제목은 Travel to the Future이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "G가 Try Travel to the Future.라고 말했다.",
+      "_evidence_text": [
+        "G: Try Travel to the Future."
+      ],
+      "_repeat": false,
+      "statement_en": "The movie G suggested is called Travel to the Future."
+    },
+    {
+      "type": "content",
+      "statement_ko": "G는 그 영화가 그저 그렇다고 평가했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "G는 It's really good.이라며 아주 좋다고 했다.",
+      "_evidence_text": [
+        "It’s really good."
+      ],
+      "_repeat": false,
+      "statement_en": "G said the movie was just so-so."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 B에게 식당을 추천해 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "A가 Can you recommend a restaurant for me?라고 물었다.",
+      "_evidence_text": [
+        "A: Can you recommend a restaurant for me?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asked B to recommend a place to eat."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Morning in Venice라는 식당을 제안한 사람은 A이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "How about Morning in Venice?라고 제안한 사람은 B이다.",
+      "_evidence_text": [
+        "B: How about Morning in Venice?"
+      ],
+      "_repeat": false,
+      "statement_en": "A is the one who suggested the restaurant Morning in Venice."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 그 식당에 어떤 종류의 음식이 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "A가 What kind of food do they have?라고 물었다.",
+      "_evidence_text": [
+        "A: What kind of food do they have?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asked what kind of food the restaurant serves."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 식당은 프랑스 음식을 판다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "이탈리아 음식(Italian food)을 판다고 했다.",
+      "_evidence_text": [
+        "B: They have Italian food."
+      ],
+      "_repeat": false,
+      "statement_en": "The restaurant sells French food."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 그곳의 치즈 피자를 강력히 추천했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "I strongly recommend their cheese pizza.라고 말했다.",
+      "_evidence_text": [
+        "I strongly recommend their cheese pizza."
+      ],
+      "_repeat": false,
+      "statement_en": "B said the cheese pizza there is really worth trying."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 그 음식이 정말 맛있다고 덧붙였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "It's really good.이라고 말했다.",
+      "_evidence_text": [
+        "It’s really good."
+      ],
+      "_repeat": false,
+      "statement_en": "B added that the food is really good."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 Schofield 박사에게 한국 이름이 있다는 이야기를 들었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "I hear you have a Korean name.이라고 말했다.",
+      "_evidence_text": [
+        "A: Dr. Schofield, I hear you have a Korean name."
+      ],
+      "_repeat": false,
+      "statement_en": "A heard that Dr. Schofield has a Korean name."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 그 한국 이름에 대해 이야기해 달라고 요청했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "Can you tell me about it?이라고 부탁했다.",
+      "_evidence_text": [
+        "Can you tell me about it?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asked him to talk about that Korean name."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Schofield 박사의 한국 이름은 석호열이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "한국 이름은 Seok Hopil(석호필)이다.",
+      "_evidence_text": [
+        "B: It’s Seok Hopil."
+      ],
+      "_repeat": false,
+      "statement_en": "Dr. Schofield's Korean name is Seok Hoyeol."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 아버지가 지어 준 이름이라서 그 이름을 좋아한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "자신의 영어 이름과 발음이 비슷해서 좋아한다고 했다.",
+      "_evidence_text": [
+        "I love it because it sounds similar to my English name."
+      ],
+      "_repeat": false,
+      "statement_en": "He loves the name because his father gave it to him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 그 이름에 좋은 뜻도 담겨 있다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "Also, it has a good meaning.이라고 했다.",
+      "_evidence_text": [
+        "Also, it has a good meaning."
+      ],
+      "_repeat": false,
+      "statement_en": "He said the name also carries a good meaning."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 그가 한국 독립운동을 도운 '방법'을 알고 싶다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "방법이 아니라 도운 '이유(why)'를 알고 싶다고 했다.",
+      "_evidence_text": [
+        "A: I’d like to know why you helped the Korean independence movement."
+      ],
+      "_repeat": false,
+      "statement_en": "A said he wanted to know how he helped the Korean independence movement."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 모든 나라가 독립할 권리를 가진다고 믿는다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "every country has the right to be independent라고 말했다.",
+      "_evidence_text": [
+        "B: Well, I believe every country has the right to be independent."
+      ],
+      "_repeat": false,
+      "statement_en": "He answered that he believes every country has the right to be independent."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 1968년에 한국으로 돌아왔다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "1958년에 한국으로 돌아왔다고 했다.",
+      "_evidence_text": [
+        "A: What did you do after you returned to Korea in 1958?"
+      ],
+      "_repeat": false,
+      "statement_en": "He came back to Korea in 1968."
+    },
+    {
+      "type": "content",
+      "statement_ko": "한국에 돌아온 뒤 그는 특히 부유한 사업가들을 도왔다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "특히 가난한 학생들(poor students)을 돕기 위해 열심히 일했다.",
+      "_evidence_text": [
+        "B: I worked hard to help Koreans, especially poor students."
+      ],
+      "_repeat": false,
+      "statement_en": "After returning to Korea, he especially helped rich businessmen."
+    }
+  ],
+  "diagnostics": {
+    "returned": 21,
+    "kept": 21,
+    "by_type": {
+      "content": 21
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 12,
+      "X": 9
+    },
+    "sentences_covered": 21,
+    "sentence_count": 21,
+    "repeated": 0
+  }
+}

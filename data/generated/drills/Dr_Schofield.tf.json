@@ -1,0 +1,425 @@
+{
+  "unit": "Dr. Schofield",
+  "parts": [
+    "Dr. Schofield, a Foreigner Who Loved Korea"
+  ],
+  "passage_ids": [
+    "aff6043b-b7d6-469b-9f85-6f1b8aa2c4e5"
+  ],
+  "para_breaks": [
+    26
+  ],
+  "turn_breaks": [
+    26
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "On February 28, 1919, a man came to Dr. Schofield’s house.",
+    "A man: Dr. Schofield, I have a special favor to ask you.",
+    "Dr. Schofield: What can I do for you?",
+    "A man: Many people are going to gather tomorrow for the independence of Korea.",
+    "Could you take pictures of the event and share them with the world?",
+    "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside.",
+    "He began to take pictures.",
+    "Dr. Schofield: Unbelievable!",
+    "There are so many people here.",
+    "I hope the world will learn about this important event through my pictures.",
+    "Do you know Seok Hopil?",
+    "His English name was Frank W. Schofield, but he loved his Korean name.",
+    "It sounded similar to his real name, and it also had a good meaning.",
+    "Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine.",
+    "He wanted to teach in Korean, so he began to learn Korean right away.",
+    "He studied so hard that he was able to teach in Korean after only a few years.",
+    "He believed that every country has the right to be independent, so he helped the Korean independence movement.",
+    "On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park.",
+    "He took pictures of the event with his camera.",
+    "He then wrote an article about the historic event and sent it to foreign newspapers with his pictures.",
+    "Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement.",
+    "He continued to write about the terrible situation in Korea for foreign newspapers.",
+    "He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920.",
+    "In 1958, he returned to Korea at the invitation of the Korean government and never left again.",
+    "For the rest of his life, he worked hard to help Koreans, especially poor students.",
+    "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "1919년 2월 28일, 한 남자가 Schofield 박사의 집으로 찾아왔다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1919년 2월 28일에 한 남자가 박사의 집에 왔다고 나온다.",
+      "_evidence_text": [
+        "On February 28, 1919, a man came to Dr. Schofield’s house."
+      ],
+      "_repeat": false,
+      "statement_en": "A man visited Dr. Schofield's house on February 28, 1919."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 박사에게 특별히 부탁할 일이 있다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "남자가 '특별한 부탁이 있다'고 직접 말한다.",
+      "_evidence_text": [
+        "A man: Dr. Schofield, I have a special favor to ask you."
+      ],
+      "_repeat": false,
+      "statement_en": "The man told the doctor that he had a special favor to ask."
+    },
+    {
+      "type": "content",
+      "statement_ko": "\"무엇을 도와드릴까요?\"라고 물은 사람은 찾아온 남자였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "그 말을 한 사람은 남자가 아니라 Schofield 박사이다.",
+      "_evidence_text": [
+        "Dr. Schofield: What can I do for you?"
+      ],
+      "_repeat": false,
+      "statement_en": "It was the visiting man who asked, \"What can I do for you?\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 다음 날 한국의 독립을 위해 많은 사람들이 모일 것이라고 알려 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "남자가 내일 많은 사람이 독립을 위해 모인다고 말한다.",
+      "_evidence_text": [
+        "A man: Many people are going to gather tomorrow for the independence of Korea."
+      ],
+      "_repeat": false,
+      "statement_en": "The man said that many people would come together the next day for Korea's independence."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 박사에게 그 사건의 사진을 찍어 세계에 알려 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "사진을 찍어 세계와 공유해 달라고 부탁했다.",
+      "_evidence_text": [
+        "Could you take pictures of the event and share them with the world?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man asked the doctor to take photos of the event and let the world know about it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "3월 1일 오후 2시에 박사는 사람들 사이에 섞여 거리에 서 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "박사는 건물 안에 숨어서 바깥에 모인 사람들을 보았다.",
+      "_evidence_text": [
+        "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside."
+      ],
+      "_repeat": false,
+      "statement_en": "At 2 p.m. on March 1, the doctor was standing on the street among the crowd."
+    },
+    {
+      "type": "content",
+      "statement_ko": "박사는 사람들이 모인 모습을 보고 사진을 찍기 시작했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "그는 사진을 찍기 시작했다고 나온다.",
+      "_evidence_text": [
+        "He began to take pictures."
+      ],
+      "_repeat": false,
+      "statement_en": "After seeing the crowd of people, the doctor started taking photos."
+    },
+    {
+      "type": "content",
+      "statement_ko": "박사는 그 광경을 보고 \"믿을 수 없다!\"고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "'Unbelievable!'이라고 말한다.",
+      "_evidence_text": [
+        "Dr. Schofield: Unbelievable!"
+      ],
+      "_repeat": false,
+      "statement_en": "Looking at the scene, the doctor said it was unbelievable."
+    },
+    {
+      "type": "content",
+      "statement_ko": "박사는 모인 사람이 생각보다 너무 적다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "사람이 아주 많다(so many people)고 말했다.",
+      "_evidence_text": [
+        "There are so many people here."
+      ],
+      "_repeat": false,
+      "statement_en": "The doctor said that far fewer people had come than he had expected."
+    },
+    {
+      "type": "content",
+      "statement_ko": "박사는 자신의 사진을 통해 세계가 이 중요한 사건을 알게 되기를 바랐다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "사진을 통해 세계가 알게 되기를 바란다고 했다.",
+      "_evidence_text": [
+        "I hope the world will learn about this important event through my pictures."
+      ],
+      "_repeat": false,
+      "statement_en": "The doctor hoped the world would find out about this important event from his photos."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글은 독자에게 '석호필'이라는 사람을 아는지 묻고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "'Do you know Seok Hopil?'이라고 묻는다.",
+      "_evidence_text": [
+        "Do you know Seok Hopil?"
+      ],
+      "_repeat": false,
+      "statement_en": "The writing asks readers whether they know a person named Seok Hopil."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그의 영어 이름은 Frank W. Schofield였고, 그는 한국 이름을 별로 좋아하지 않았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "그는 자신의 한국 이름을 매우 좋아했다.",
+      "_evidence_text": [
+        "His English name was Frank W. Schofield, but he loved his Korean name."
+      ],
+      "_repeat": false,
+      "statement_en": "His English name was Frank W. Schofield, and he did not really like his Korean name."
+    },
+    {
+      "type": "content",
+      "statement_ko": "한국 이름 '석호필'은 그의 본래 이름과 소리가 비슷하고 뜻도 좋았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "실제 이름과 발음이 비슷하고 좋은 의미도 있었다고 했다.",
+      "_evidence_text": [
+        "It sounded similar to his real name, and it also had a good meaning."
+      ],
+      "_repeat": false,
+      "statement_en": "The Korean name Seok Hopil sounded like his real name and also had a nice meaning."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Schofield 박사는 미국인 의사였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "그는 캐나다인 의사였다.",
+      "_evidence_text": [
+        "Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine."
+      ],
+      "_repeat": false,
+      "statement_en": "Dr. Schofield was a doctor from the United States."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한국어로 가르치고 싶어서 곧바로 한국어를 배우기 시작했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "한국어로 가르치기를 원해 바로 한국어를 배우기 시작했다.",
+      "_evidence_text": [
+        "He wanted to teach in Korean, so he began to learn Korean right away."
+      ],
+      "_repeat": false,
+      "statement_en": "Because he wanted to teach in Korean, he started studying the language at once."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한국어로 가르칠 수 있게 되기까지 20년이 넘게 걸렸다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "열심히 공부해서 단 몇 년 만에 한국어로 가르칠 수 있었다.",
+      "_evidence_text": [
+        "He studied so hard that he was able to teach in Korean after only a few years."
+      ],
+      "_repeat": false,
+      "statement_en": "It took him more than twenty years before he could teach in Korean."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 모든 나라가 독립할 권리를 가진다고 믿어서 한국의 독립운동을 도왔다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "그런 신념 때문에 독립운동을 도왔다고 나온다.",
+      "_evidence_text": [
+        "He believed that every country has the right to be independent, so he helped the Korean independence movement."
+      ],
+      "_repeat": false,
+      "statement_en": "He helped Korea's independence movement because he believed every country has the right to be independent."
+    },
+    {
+      "type": "content",
+      "statement_ko": "1919년 3월 1일, 그는 남산에서 독립을 외치는 사람들의 소리를 들었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "장소는 남산이 아니라 탑골공원이었다.",
+      "_evidence_text": [
+        "On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park."
+      ],
+      "_repeat": false,
+      "statement_en": "On March 1, 1919, he heard people shouting for independence at Namsan."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 자신의 카메라로 그 사건을 사진에 담았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "카메라로 사진을 찍었다고 했다.",
+      "_evidence_text": [
+        "He took pictures of the event with his camera."
+      ],
+      "_repeat": false,
+      "statement_en": "He recorded the event in photos with his own camera."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 기사를 써서 사진과 함께 한국 신문에만 보냈다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "기사와 사진을 외국 신문에 보냈다.",
+      "_evidence_text": [
+        "He then wrote an article about the historic event and sent it to foreign newspapers with his pictures."
+      ],
+      "_repeat": false,
+      "statement_en": "He wrote an article and sent it with his photos only to Korean newspapers."
+    },
+    {
+      "type": "content",
+      "statement_ko": "3·1운동이 끝난 뒤 그의 한국 독립을 위한 싸움도 멈추었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "3·1운동 이후에도 그의 싸움은 멈추지 않았다.",
+      "_evidence_text": [
+        "Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement."
+      ],
+      "_repeat": false,
+      "statement_en": "His fight for Korean independence also came to an end after the March 1st Movement."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한국의 끔찍한 상황에 대해 외국 신문에 계속 글을 썼다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "계속해서 외국 신문에 한국 상황을 썼다고 나온다.",
+      "_evidence_text": [
+        "He continued to write about the terrible situation in Korea for foreign newspapers."
+      ],
+      "_repeat": false,
+      "statement_en": "He kept writing for foreign newspapers about the terrible situation in Korea."
+    },
+    {
+      "type": "content",
+      "statement_ko": "일본 경찰의 감시를 받게 되어 그는 1920년에 캐나다로 돌아가야 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "일본 경찰의 감시 때문에 1920년에 캐나다로 돌아갔다.",
+      "_evidence_text": [
+        "He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920."
+      ],
+      "_repeat": false,
+      "statement_en": "Because the Japanese police were watching him, he had to return to Canada in 1920."
+    },
+    {
+      "type": "content",
+      "statement_ko": "1958년 그는 한국 정부의 초청으로 한국에 돌아왔지만 곧 다시 캐나다로 떠났다.",
+      "answer": "X",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "1958년에 돌아온 뒤 다시는 한국을 떠나지 않았다.",
+      "_evidence_text": [
+        "In 1958, he returned to Korea at the invitation of the Korean government and never left again."
+      ],
+      "_repeat": false,
+      "statement_en": "In 1958 he came back to Korea after the Korean government invited him, but he soon left for Canada again."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 남은 생애 동안 특히 부유한 학생들을 돕는 일에 힘썼다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "그는 특히 가난한 학생들을 도왔다.",
+      "_evidence_text": [
+        "For the rest of his life, he worked hard to help Koreans, especially poor students."
+      ],
+      "_repeat": false,
+      "statement_en": "For the rest of his life, he worked hard especially to help rich students."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 1970년 4월에 세상을 떠나 캐나다의 고향에 묻혔다.",
+      "answer": "X",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "그는 서울 국립현충원에 묻혔다.",
+      "_evidence_text": [
+        "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+      ],
+      "_repeat": false,
+      "statement_en": "He died in April 1970 and was buried in his hometown in Canada."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "by_type": {
+      "content": 26
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 14,
+      "X": 12
+    },
+    "sentences_covered": 26,
+    "sentence_count": 26,
+    "repeated": 0
+  }
+}
