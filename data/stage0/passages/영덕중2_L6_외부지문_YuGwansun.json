@@ -1,0 +1,119 @@
+{
+  "passage_id": "영덕중2_L6_외부지문_YuGwansun",
+  "kind": "handout_external",
+  "title": "Yu Gwansun",
+  "school": "영덕중학교",
+  "grade": 2,
+  "textbook_unit": "Lesson 6",
+  "source_type": "배부프린트",
+  "source_detail": "영덕중 2학년 L6 배부물 12쪽 (Basic) — 교과서 밖 외부지문",
+  "body_text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times.",
+  "body_text_sha256": "e33584292a1c8e176f7ce3ea37977b3ccbe869f72c890af256b5c97b66166fec",
+  "word_count": 147,
+  "sentence_count": 11,
+  "sentence_spans": [
+    {
+      "no": 1,
+      "start": 0,
+      "end": 56
+    },
+    {
+      "no": 2,
+      "start": 57,
+      "end": 118
+    },
+    {
+      "no": 3,
+      "start": 119,
+      "end": 199
+    },
+    {
+      "no": 4,
+      "start": 200,
+      "end": 303
+    },
+    {
+      "no": 5,
+      "start": 304,
+      "end": 359
+    },
+    {
+      "no": 6,
+      "start": 360,
+      "end": 414
+    },
+    {
+      "no": 7,
+      "start": 415,
+      "end": 481
+    },
+    {
+      "no": 8,
+      "start": 482,
+      "end": 575
+    },
+    {
+      "no": 9,
+      "start": 576,
+      "end": 643
+    },
+    {
+      "no": 10,
+      "start": 644,
+      "end": 745
+    },
+    {
+      "no": 11,
+      "start": 746,
+      "end": 824
+    }
+  ],
+  "paragraphs": [
+    {
+      "no": 1,
+      "sentence_from": 1,
+      "sentence_to": 3
+    },
+    {
+      "no": 2,
+      "sentence_from": 4,
+      "sentence_to": 11
+    }
+  ],
+  "glossed": [
+    "inspire",
+    "forceful",
+    "remind"
+  ],
+  "emphasis_spans": [],
+  "handout_questions": [
+    "윗글의 빈칸에 공통으로 들어갈 단어로 가장 알맞은 것은? ⓐ freedom ⓑ control ⓒ courage ⓓ difficulty",
+    "윗글을 읽고 답할 수 없는 질문은? ⓐ What were Yu Gwansun's last words? ⓑ What did Yu Gwansun do on March 1, 1919? ⓒ What did Yu Gwansun tell her friends and neighbors? ⓓ What message does Yu Gwansun's story give us today?",
+    "윗글의 유관순에 관한 내용과 일치하도록 다음 문장을 완성하시오. (1) She bravely fought against ______ ______ over Korea. (2) Although she had many difficulties, she never ______ ______."
+  ],
+  "transcription": {
+    "status": "pending",
+    "method": "vision_single_pass",
+    "note": "영덕중 2학년 L6 배부물(15쪽) 12·13쪽을 비전으로 전사. 텍스트 레이어가 없는 스캔이라 눈으로 읽었다 — 전 문장이 확인 대상이다. 각주 별표는 body_text 에서 떼고 glossed 로 옮겼다. ★ 원본은 **빈칸 3개**가 뚫린 문제지다 (1번: 빈칸에 공통으로 들어갈 단어). 지문으로 쓰려면 채워야 하므로 문항 1 의 정답 ⓒ courage 를 넣었다 — 원장 확인이 필요한 판단이다. 채운 자리는 1문장·3문장·11문장.",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/영덕중2 L6.pdf",
+    "has_handwriting": true,
+    "handwriting_note": "지면 상단에 학생 이름·학번 손글씨가 있다. 전사하지 않았다 — 원장 지시 2026-09-05.",
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용으로만 저장."
+}

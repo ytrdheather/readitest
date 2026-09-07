@@ -1,0 +1,141 @@
+{
+  "passage_id": "영덕중2_L6_외부지문_HomerHulbert",
+  "kind": "handout_external",
+  "title": "Homer B. Hulbert",
+  "school": "영덕중학교",
+  "grade": 2,
+  "textbook_unit": "Lesson 6",
+  "source_type": "배부프린트",
+  "source_detail": "영덕중 2학년 L6 배부물 13쪽 (Advanced) — 교과서 밖 외부지문",
+  "body_text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries.",
+  "body_text_sha256": "0f76f3339682673f62fbb0b382ad48d7d59772d2d31006ba4e504a110179d24a",
+  "word_count": 184,
+  "sentence_count": 13,
+  "sentence_spans": [
+    {
+      "no": 1,
+      "start": 0,
+      "end": 108
+    },
+    {
+      "no": 2,
+      "start": 109,
+      "end": 225
+    },
+    {
+      "no": 3,
+      "start": 226,
+      "end": 313
+    },
+    {
+      "no": 4,
+      "start": 314,
+      "end": 404
+    },
+    {
+      "no": 5,
+      "start": 405,
+      "end": 490
+    },
+    {
+      "no": 6,
+      "start": 491,
+      "end": 559
+    },
+    {
+      "no": 7,
+      "start": 560,
+      "end": 625
+    },
+    {
+      "no": 8,
+      "start": 626,
+      "end": 718
+    },
+    {
+      "no": 9,
+      "start": 719,
+      "end": 773
+    },
+    {
+      "no": 10,
+      "start": 774,
+      "end": 859
+    },
+    {
+      "no": 11,
+      "start": 860,
+      "end": 926
+    },
+    {
+      "no": 12,
+      "start": 927,
+      "end": 1000
+    },
+    {
+      "no": 13,
+      "start": 1001,
+      "end": 1082
+    }
+  ],
+  "paragraphs": [
+    {
+      "no": 1,
+      "sentence_from": 1,
+      "sentence_to": 2
+    },
+    {
+      "no": 2,
+      "sentence_from": 3,
+      "sentence_to": 5
+    },
+    {
+      "no": 3,
+      "sentence_from": 6,
+      "sentence_to": 8
+    },
+    {
+      "no": 4,
+      "sentence_from": 9,
+      "sentence_to": 13
+    }
+  ],
+  "glossed": [
+    "missionary",
+    "logical",
+    "praise",
+    "promote"
+  ],
+  "emphasis_spans": [],
+  "handout_questions": [
+    "Which is NOT correct about Homer B. Hulbert? ⓐ He was a missionary who taught at a royal school. ⓑ He believed that Hangeul was a logical writing system. ⓒ He spoke out against Japan's control over Korea. ⓓ He died in the United States in 1949.",
+    "Answer the following questions in complete English sentences. (1) What did Hulbert believe could make Koreans stronger? (2) What does Hulbert's story teach us about friendship and love?"
+  ],
+  "transcription": {
+    "status": "pending",
+    "method": "vision_single_pass",
+    "note": "영덕중 2학년 L6 배부물(15쪽) 12·13쪽을 비전으로 전사. 텍스트 레이어가 없는 스캔이라 눈으로 읽었다 — 전 문장이 확인 대상이다. 각주 별표는 body_text 에서 떼고 glossed 로 옮겼다. 빈칸 없이 온전한 지문이다.",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/영덕중2 L6.pdf",
+    "has_handwriting": true,
+    "handwriting_note": "지면 상단에 학생 이름·학번 손글씨가 있다. 전사하지 않았다 — 원장 지시 2026-09-05.",
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용으로만 저장."
+}
