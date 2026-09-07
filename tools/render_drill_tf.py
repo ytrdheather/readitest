@@ -50,7 +50,13 @@ h1 { font-size: 15pt; margin: 0 0 0.5mm; }
 /* 대화문은 발화마다 한 줄. 둘째 줄부터 들여써서 화자 표시가 눈에 걸리게 한다. */
 .passage p.turn { margin: 0 0 0.6mm; padding-left: 6mm; text-indent: -6mm;
                   line-height: 1.55; }
-.passage p.turn.gap { margin-bottom: 2.6mm; }
+/* 묶인 대화는 서로 다른 대화라는 것이 한눈에 보여야 한다 — 원장 지시 2026-09-07.
+   간격만으로는 같은 대화의 문단처럼 읽힌다. 이름표를 달고 선으로 가른다. */
+.dlg { border-top: 1px dashed #c9d2dd; padding-top: 2.2mm; margin-top: 2.6mm; }
+.dlg:first-child { border-top: 0; padding-top: 0; margin-top: 0; }
+.dlg-label { font-size: 8.5pt; font-weight: 700; color: #1f2d3d;
+             background: #e8edf3; border-radius: 2px; padding: 0.4mm 2mm;
+             display: inline-block; margin-bottom: 1.2mm; }
 .sn { font-size: 7pt; color: #8a94a6; vertical-align: super; margin-right: 0.6mm; }
 .howto { font-size: 9pt; color: #555; margin-bottom: 3mm; }
 /* 문항은 한국어 한 줄이라 2단이 들어간다. 한 장에 담으면 아이가 지문과 함께 본다. */
@@ -84,20 +90,42 @@ def numbered(sentences, breaks=None, turns=None, dialogue=False):
     본문은 **문단**에서, 대화문은 **발화**에서 끊는다. 대화문을 이어 붙이면
     누가 무슨 말을 했는지 눈으로 따라가기 어렵다 — 원장 지시(2026-09-07):
     「한 명의 대사가 한 줄에 자리잡도록. 세로로 3단을 차지하는 한이 있어도.」
+
+    그리고 대화문 여러 편을 묶었을 때는 **어디까지가 한 대화인지** 이름표를 단다.
+    간격만 두면 같은 대화의 문단처럼 읽힌다 —
+    「각기 다른 대화문의 경우는 줄이나 칸 나눔으로 분리해서 <대화 1> <대화 2>」.
     """
     cut = set((turns if dialogue and turns else breaks) or [])
-    para = set(breaks or []) if dialogue else set()
-    out, cur = [], []
+    para = list(breaks or [])
+    if not dialogue:
+        out, cur = [], []
+        for i, s in enumerate(sentences, 1):
+            cur.append(f'<span class="sn">{i}</span>{esc(s)}')
+            if i in cut:
+                out.append(f'<p class="line">{" ".join(cur)}</p>')
+                cur = []
+        if cur:
+            out.append(f'<p class="line">{" ".join(cur)}</p>')
+        return "".join(out)
+
+    # ── 대화문: 대화 한 편씩 상자로 묶고 그 안에서 발화마다 줄을 바꾼다 ──
+    blocks, cur, lines, n_dlg = [], [], [], 0
     for i, s in enumerate(sentences, 1):
         cur.append(f'<span class="sn">{i}</span>{esc(s)}')
         if i in cut:
-            cls = " turn" if dialogue else ""
-            gap = " gap" if i in para else ""
-            out.append(f'<p class="line{cls}{gap}">{" ".join(cur)}</p>')
+            lines.append(f'<p class="line turn">{" ".join(cur)}</p>')
             cur = []
+        if i in para:                       # 대화 한 편이 끝났다
+            n_dlg += 1
+            label = (f'<span class="dlg-label">대화 {n_dlg}</span>'
+                     if len(para) > 1 else "")
+            blocks.append(f'<div class="dlg">{label}{"".join(lines)}</div>')
+            lines = []
     if cur:
-        out.append(f'<p class="line">{" ".join(cur)}</p>')
-    return "".join(out)
+        lines.append(f'<p class="line turn">{" ".join(cur)}</p>')
+    if lines:
+        blocks.append(f'<div class="dlg">{"".join(lines)}</div>')
+    return "".join(blocks)
 
 
 def build(d, logo):
