@@ -96,6 +96,11 @@ CONFIRMED_FIXES = [
     ("He mo ves to", "He moves to", "L6 Read More 1"),
     ("helped the K orean", "helped the Korean", "L6 Read More 2"),
     ("of the Mar ch 1st", "of the March 1st", "L6 Read More 2"),
+    # 지금까지는 「공백이 끼어든 것」(w as)만 봤다. 그 반대 —「공백이 빠져 붙은 것」도
+    # 있다. 자습서 원본에 'telling us that' 과 'telling usthat' 이 둘 다 있는데
+    # 추출기가 손상된 쪽을 골랐다. 붙어 있는 것은 눈으로 더 놓치기 쉽다 —
+    # 확인지에도 이대로 실렸고 아무도 못 봤다.
+    ("telling usthat", "telling us that", "L5 본문 3문단 · 2026-09-07 발견"),
     # 조판이 마지막 줄을 한 번 더 흘렸다. 문장이 아니라 **꼬리 찌꺼기**다.
     ("recommend it. I’m going to introduce today", "recommend it.", "L6 Read More 1"),
 ]
@@ -376,6 +381,10 @@ def reading(plus_pdf):
     for i, pg in enumerate(marks):
         hi = marks[i + 1] if i + 1 < len(marks) else len(pgs)
         sents = ext.parse_clean_blocks(pgs, pg, hi)
+        # 본문도 정정 표를 태운다. 2026-09-07 까지 이 경로만 norm() 을 안 거쳤고,
+        # 그래서 'telling usthat' 이 CONFIRMED_FIXES 에 있는데도 안 고쳐졌다.
+        # 정정 표는 **모든 경로**가 타야 한다 — 한 곳만 빠지면 그 곳만 조용히 틀린다.
+        sents = {k: norm(v) for k, v in sents.items()}
         if sents:
             out.append((i + 1, sents))
     return out

@@ -8,7 +8,7 @@
 각 줄에 **고유 번호**를 박는다. 원장이 「L5 대화-3 · 4」 라고만 말하면 그 줄이
 특정되게 하려는 것이다. 번호는 body_text 의 문장/발화 번호와 같다.
 """
-import argparse, glob, html, json, os, sys
+import argparse, glob, html, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
@@ -50,6 +50,15 @@ HOW = """<div class="how">
 
 def esc(s):
     return html.escape(s, quote=False)
+
+
+# 공백이 빠져 두 낱말이 붙은 자리. 'telling usthat' 처럼 눈으로 놓치기 쉽다.
+GLUED = re.compile(r"(us|it|him|her|them|me|you|we|they)"
+                   r"(that|to|and|but|for|in|on|at|with|is|are|was|were)")
+
+
+def glued(text):
+    return [m.group(0) for m in GLUED.finditer(text)]
 
 
 def rows(d):
