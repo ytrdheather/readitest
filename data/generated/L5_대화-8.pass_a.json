@@ -3,29 +3,29 @@
   "body_text_sha256": "a679251a573c80fb76c58d1e00577c18ce695f67db4f3654f5c2f803f77538aa",
   "tags": [
     {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 7,
+      "span_end": 16,
+      "surface": "can I get",
+      "sentence_no": 1,
+      "rationale": "가능·방법을 묻는 조동사 can + 동사원형. 'can I got / can I to get' 같은 조동사 뒤 형태 오류나 'must/have to'와의 의미 혼동을 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
       "grammar_point_code": "VERB_PREP_COLLOCATION",
       "span_start": 13,
-      "span_end": 19,
-      "surface": "get to",
+      "span_end": 32,
+      "surface": "get to the hospital",
       "sentence_no": 1,
-      "rationale": "'~에 도착하다'는 get to + 장소. 전치사 to를 삭제한 'get the hospital' 이나 'get in/at the hospital' 로 바꾼 오답을 유도할 수 있는 자리. 빈칸으로 뚫기 가장 쉬운 지점.",
+      "rationale": "'~에 도착하다·가다'는 get to + 장소명사. get at / get in / arrive to 처럼 전치사를 바꾸거나 to를 삭제하는 오류(EI_PREP_DELETE)의 대표 자리로, 빈칸으로 뚫기 가장 쉽다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_PREP_DELETE"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "span_start": 3,
-      "span_end": 16,
-      "surface": "How can I get",
-      "sentence_no": 1,
-      "rationale": "의문사+조동사 can+주어+동사원형 어순. 'How I can get' 어순 오류나 'How can I getting / to get' 처럼 조동사 뒤 원형 위반을 유도할 수 있다.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "BO_WORD_ORDER",
-        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -34,11 +34,10 @@
       "span_end": 54,
       "surface": "get there",
       "sentence_no": 2,
-      "rationale": "there는 부사이므로 앞에 to를 쓸 수 없다. 'get to there' 로 전치사를 덧붙인 오답이 단골 함정.",
+      "rationale": "there는 부사이므로 앞에 to를 쓸 수 없다. 'get to there'로 전치사를 넣는 오류를 유도하는 전형적 자리(앞 문장 get to the hospital과 짝지어 출제됨).",
       "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -47,44 +46,44 @@
       "span_end": 61,
       "surface": "by bus",
       "sentence_no": 2,
-      "rationale": "교통수단을 나타내는 by + 무관사 명사. 'by a bus', 'with bus', 'on bus' 같은 오답 선지로 빈칸 출제 가능.",
-      "confidence": "high",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 79,
-      "span_end": 91,
-      "surface": "will it take",
-      "sentence_no": 4,
-      "rationale": "소요 시간을 묻는 미래시제 의문문. 조동사 will 뒤 원형이므로 'will it takes / will it took' 오류, 또는 'How long it will take?' 어순 오류를 유도할 수 있다.",
+      "rationale": "교통수단을 나타내는 by + 무관사 단수명사. 'by a bus / on bus / with bus'처럼 관사 삽입이나 전치사 교체로 오답 선지를 만들 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "BO_WORD_ORDER",
-        "EI_AGREEMENT"
+        "EI_PREP_DELETE"
       ]
     },
     {
       "grammar_point_code": "IT_CLEFT",
-      "span_start": 96,
-      "span_end": 123,
-      "surface": "It’ll take about 25 minutes",
-      "sentence_no": 5,
-      "rationale": "시간을 나타내는 비인칭 주어 it + take. 'There'll take' 나 수동태 'It’ll be taken about 25 minutes' 처럼 주어·태를 바꾼 오답을 유도할 수 있다.",
+      "span_start": 79,
+      "span_end": 91,
+      "surface": "will it take",
+      "sentence_no": 4,
+      "rationale": "소요 시간을 나타내는 비인칭(무의미) 주어 it. 'How long will they take / How long does it take you'처럼 주어를 바꾸거나, will 뒤에 takes를 두는 형태 오류를 유도할 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_INTRANS_PASSIVIZED"
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 96,
+      "span_end": 106,
+      "surface": "It’ll take",
+      "sentence_no": 5,
+      "rationale": "질문의 미래시제(will take)에 맞춘 응답의 미래시제 It will take. 'It took / It takes'로 시제를 흔들거나 조동사 뒤 형태를 바꾸는 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
       ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "도입질문 — 목적지까지 가는 방법을 물음",
+      "role": "도입질문 — 목적지까지 가는 방법 문의",
       "signal": "How",
       "is_blank_candidate": false
     },
@@ -96,21 +95,21 @@
     },
     {
       "sentence_no": 3,
-      "role": "호응 — 수락 표시",
+      "role": "반응 — 수용 표현",
       "signal": "OK",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "추가질문 — 소요 시간 확인",
+      "role": "추가질문 — 소요 시간 문의",
       "signal": "How long",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "결과요약 — 소요 시간 답변",
+      "role": "결과요약 — 소요 시간 정보 제공",
       "signal": null,
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     }
   ],
   "items": [
@@ -118,20 +117,20 @@
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
       "grammar_point_code": "PREP_USAGE",
-      "stem": "위 대화의 (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\nA: How can I get (a)[to / at] the hospital?\nB: You can get there by (b)[bus / a bus].\nA: OK. How long will it (c)[take / takes]?",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\nA: How can I get (a)[to / at] the hospital?\nB: You can get (b)[there / to there] (c)[by bus / by a bus].\nA: OK. How long will it take?\nB: It’ll take about 25 minutes.",
       "answer_key": "①",
-      "explanation": "(a) '~에 도착하다'는 get to + 장소이므로 to. get at은 이 뜻으로 쓰지 않는다. (b) 교통수단은 by + 무관사 명사이므로 by bus (by a bus ✗). (c) 조동사 will 뒤에는 동사원형이 오므로 take (takes ✗). 따라서 ①.",
-      "difficulty": "easy",
+      "explanation": "(a) '~에 가다·도착하다'는 get to + 장소명사이므로 to가 맞다(get at은 불가). (b) there는 부사여서 앞에 to를 쓸 수 없으므로 get there. (c) 교통수단은 by + 무관사 단수명사이므로 by bus이며 by a bus는 틀리다. ②는 (a)의 전치사, ③은 (b)의 to 삽입, ④는 (c)의 관사 삽입이 각각 잘못되었다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0,
-        3,
-        4
+        1,
+        2,
+        3
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) to – (b) bus – (c) take",
+          "body": "(a) to – (b) there – (c) by bus",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -139,15 +138,15 @@
         },
         {
           "label": "②",
-          "body": "(a) at – (b) bus – (c) take",
+          "body": "(a) at – (b) there – (c) by bus",
           "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
+          "violates_point_code": "VERB_PREP_COLLOCATION",
           "via_modification": "BO_FORM_CHOICE",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) to – (b) a bus – (c) take",
+          "body": "(a) to – (b) to there – (c) by bus",
           "is_answer": false,
           "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
@@ -155,31 +154,26 @@
         },
         {
           "label": "④",
-          "body": "(a) to – (b) bus – (c) takes",
+          "body": "(a) to – (b) there – (c) by a bus",
           "is_answer": false,
-          "violates_point_code": "VERB_TENSE",
-          "via_modification": "EI_AGREEMENT",
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 4
         }
       ],
       "_answer_violates_point": []
     },
     {
-      "_verbatim_problem": [
-        "①",
-        "②"
-      ],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "위 대화를 아래와 같이 옮겨 적었을 때, 밑줄 친 부분 중 어법상 틀린 것을 고르시오.",
-      "answer_key": "④",
-      "explanation": "④ 시간이 걸린다는 뜻의 'It takes + 시간'은 비인칭 주어 it을 쓰는 능동 표현으로, 수동태(be taken)로 쓸 수 없다. It’ll take about 25 minutes.가 옳다. ①은 조동사 can 뒤 원형과 get to + 장소가 모두 맞고, ②는 there가 부사이므로 to 없이 get there, 교통수단 by bus가 맞으며, ③은 의문사+조동사+주어+원형 어순이 맞다.",
-      "difficulty": "medium",
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 <보기>가 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③ 조동사 will 뒤에는 동사원형이 와야 하므로 takes가 아니라 take가 되어 'How long will it take?'가 맞다. ①②④는 본문 그대로이며 get to + 장소, get there(부사 앞 to 없음), by bus, It’ll take 모두 올바르다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        5,
         0,
-        2,
         4
       ],
       "options": [
@@ -201,104 +195,57 @@
         },
         {
           "label": "③",
-          "body": "How long will it take?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "How long will it takes?",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_AGREEMENT",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "It’ll be taken about 25 minutes.",
-          "is_answer": true,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_INTRANS_PASSIVIZED",
-          "ordinal": 4
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-BLANK",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "빈칸에 들어갈 말로 가장 적절한 것을 고르시오.\nA: How can I get to the hospital?\nB: You can get there ____________.",
-      "answer_key": "①",
-      "explanation": "교통수단을 나타낼 때는 'by + 관사 없는 단수 명사'를 쓴다. 따라서 by bus. ② 관사 a를 붙이면 안 되고, ③ 수단의 전치사로 with는 쓰지 않으며, ④ 복수형 buses도 이 관용 표현에 맞지 않는다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        3
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "by bus",
-          "is_answer": true,
+          "body": "It’ll take about 25 minutes.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "by a bus",
-          "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "with bus",
-          "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "by buses",
-          "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 4
         }
       ],
-      "_answer_violates_point": []
+      "_answer_violates_point": [
+        "③"
+      ]
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "위 대화의 주제로 가장 적절한 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "A는 병원에 가는 방법(How can I get to the hospital?)과 소요 시간(How long will it take?)을 묻고 B가 답한다. 따라서 '가는 방법과 걸리는 시간을 묻는 것'이 주제다. 진료 예약(②), 요금 불만(③), 노선 변경(④)은 대화에 언급되지 않았다.",
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "위 대화의 밑줄 친 How long will it take?가 의미하는 것으로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "it은 소요 시간을 나타내는 비인칭 주어이고 take는 '(시간이) 걸리다'의 뜻이므로 '얼마나 걸리나요?'라는 소요 시간 질문이다. 바로 뒤 B의 대답이 'about 25 minutes'인 것이 근거이며, 요금·거리·배차 간격을 묻는 말이 아니다.",
       "difficulty": "easy",
-      "option_lang": "en",
+      "option_lang": "ko",
       "source_tags": [
-        1,
         4
       ],
       "options": [
         {
           "label": "①",
-          "body": "asking about a way to a place and how long it takes",
-          "is_answer": true,
+          "body": "버스 요금이 얼마나 드는지 묻고 있다.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "making an appointment at a hospital",
-          "is_answer": false,
+          "body": "병원까지 가는 데 시간이 얼마나 걸리는지 묻고 있다.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "complaining about an expensive bus fare",
+          "body": "버스 정류장이 얼마나 먼지 묻고 있다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -306,7 +253,7 @@
         },
         {
           "label": "④",
-          "body": "explaining why a bus route was changed",
+          "body": "버스가 얼마나 자주 오는지 묻고 있다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -319,19 +266,19 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "stem": "위 대화의 내용과 일치하는 것은?",
       "answer_key": "①",
-      "explanation": "A의 첫 질문이 병원에 가는 방법이므로 ①이 일치한다. B가 제시한 수단은 지하철이 아니라 버스이므로 ②는 틀리고, 소요 시간은 약 25분이므로 ③도 틀리며, B가 차로 데려다준다는 내용은 없으므로 ④도 틀리다.",
+      "explanation": "A가 'How can I get to the hospital?'이라고 물었으므로 병원에 가려는 사람은 A이다. ② B는 버스(by bus)를 권했고 지하철은 언급되지 않았다. ③ 소요 시간은 약 25분이다. ④ 함께 걸어간다는 내용은 없다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        3,
+        1,
         5
       ],
       "options": [
         {
           "label": "①",
-          "body": "A wants to know how to get to the hospital.",
+          "body": "A wants to go to the hospital.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -347,7 +294,7 @@
         },
         {
           "label": "③",
-          "body": "It takes about 15 minutes to get to the hospital.",
+          "body": "It takes about 15 minutes to get there.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -355,7 +302,7 @@
         },
         {
           "label": "④",
-          "body": "B will drive A to the hospital.",
+          "body": "A will walk to the hospital with B.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -366,21 +313,21 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-PHRASE-INFER",
+      "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "위 대화의 밑줄 친 How long will it take?가 의미하는 것으로 가장 적절한 것을 고르시오.",
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
       "answer_key": "①",
-      "explanation": "'How long does/will it take?'는 비인칭 주어 it과 take를 써서 '(시간이) 얼마나 걸리나요?'를 묻는 표현이다. B가 'It’ll take about 25 minutes.'라고 시간으로 답한 것이 근거다. 요금은 How much, 거리는 How far, 도착 시각은 When으로 묻는다.",
+      "explanation": "대화는 병원까지 가는 방법(by bus)과 걸리는 시간(about 25 minutes)을 묻고 답하는 내용이다. 병원 예약, 표 구매, 버스 지연에 대한 불평은 언급되지 않았다.",
       "difficulty": "easy",
-      "option_lang": "ko",
+      "option_lang": "en",
       "source_tags": [
-        4,
-        5
+        1,
+        4
       ],
       "options": [
         {
           "label": "①",
-          "body": "거기까지 가는 데 시간이 얼마나 걸리는지 묻는 말",
+          "body": "asking how to get to a place and how long it takes",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -388,7 +335,7 @@
         },
         {
           "label": "②",
-          "body": "버스 요금이 얼마인지 묻는 말",
+          "body": "making an appointment at the hospital",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -396,7 +343,7 @@
         },
         {
           "label": "③",
-          "body": "병원이 여기서 몇 킬로미터 떨어져 있는지 묻는 말",
+          "body": "buying a bus ticket at the station",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -404,7 +351,7 @@
         },
         {
           "label": "④",
-          "body": "버스가 몇 시에 오는지 묻는 말",
+          "body": "complaining about a late bus",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -415,16 +362,16 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "위 대화의 B의 첫 번째 말을 아래와 같이 잘못 쓴 학생이 있다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ You can get to there by bus.",
-      "answer_key": "get to there → get there",
-      "explanation": "there는 '거기에'라는 뜻의 부사이므로 앞에 전치사 to를 쓸 수 없다. 장소를 나타내는 명사가 올 때만 get to the hospital처럼 to가 필요하다. 따라서 get to there를 get there로 고쳐야 한다.",
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 알맞게 배열하시오.\n\n병원에 어떻게 갈 수 있나요?\n( the hospital / how / I / can / to / get )",
+      "answer_key": "How can I get to the hospital?",
+      "explanation": "의문사 How + 조동사 can + 주어 I + 동사원형 get 의 어순이고, '~에 가다'는 get to + 장소명사이므로 to the hospital을 뒤에 붙인다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        2,
-        0
+        0,
+        1
       ],
       "options": [],
       "_answer_violates_point": []
@@ -432,30 +379,30 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n우리말: 약 25분 정도 걸릴 거예요.\n<조건> 1) it, take, about을 사용할 것  2) 미래를 나타내는 will의 축약형(It’ll)으로 시작할 것  3) 총 5단어로 쓸 것",
-      "answer_key": "It’ll take about 25 minutes.",
-      "explanation": "시간이 걸린다고 말할 때는 비인칭 주어 it을 주어로 하여 'It takes + 시간'을 쓰고, 미래는 will을 붙여 It will(=It’ll) take로 나타낸다. 조동사 will 뒤에는 동사원형 take를 써야 하며, be taken 같은 수동태는 쓸 수 없다.",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "<조건>에 맞게 빈칸에 알맞은 문장을 쓰시오.\n\nA: How can I get to the hospital?\nB: ____________________\n\n<조건> 1) '너는 버스로 거기에 갈 수 있어.'라는 뜻이 되도록 쓸 것  2) can, get, there, bus를 모두 사용할 것  3) 6단어로 쓸 것",
+      "answer_key": "You can get there by bus.",
+      "explanation": "조동사 can 뒤에는 동사원형 get을 쓰고, there는 부사이므로 to를 붙이지 않는다. 교통수단은 by + 무관사 명사이므로 by bus로 쓴다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        5
+        2,
+        3
       ],
       "options": [],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (물음표 포함)\n우리말: 병원에 어떻게 갈 수 있나요?\n단어: (I / can / get / how / to / the hospital)",
-      "answer_key": "How can I get to the hospital?",
-      "explanation": "의문사 how를 맨 앞에 두고 조동사 can + 주어 I + 동사원형 get의 어순으로 쓴다. 'How I can get ~?'처럼 조동사를 주어 뒤에 두면 안 된다. 또한 '~에 도착하다/가다'는 get to + 장소이므로 to the hospital이 이어진다.",
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화를 다음과 같이 바꾸어 썼을 때, 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nB: You can get to there by bus. It’ll take about 25 minutes.",
+      "answer_key": "get to there → get there",
+      "explanation": "there는 '거기에'라는 뜻의 부사이므로 앞에 전치사 to를 쓸 수 없다. 따라서 get to there를 get there로 고쳐야 한다. 뒤의 by bus와 It’ll take는 어법상 올바르다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        1,
-        0
+        2
       ],
       "options": [],
       "_answer_violates_point": []
@@ -467,18 +414,9 @@
     "tags_kept": 6,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 9,
-    "items_kept": 9,
+    "items_returned": 8,
+    "items_kept": 8,
     "item_rejects": [],
-    "verbatim_problems": [
-      {
-        "item": 1,
-        "type": "T-GRAMMAR-INLINE",
-        "options": [
-          "①",
-          "②"
-        ]
-      }
-    ]
+    "verbatim_problems": []
   }
 }

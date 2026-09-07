@@ -3,42 +3,16 @@
   "body_text_sha256": "5889cfbf280411730d0d6bb42cdd4fe0c98d05c81096c79edf3a5e8ba1fae547",
   "tags": [
     {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 3,
-      "span_end": 28,
-      "surface": "What kinds of soft drinks",
-      "sentence_no": 1,
-      "rationale": "'kind(s) of + 명사' 구문의 전치사 of. [of / for / in] 형태로 빈칸 처리하기 가장 쉬운 자리이며, kinds of 뒤 명사의 복수형(soft drinks)도 함께 물을 수 있다.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 53,
-      "span_end": 79,
-      "surface": "I usually drink apple soda",
+      "grammar_point_code": "MOD_POSTPOSITIVE",
+      "span_start": 106,
+      "span_end": 120,
+      "surface": "something else",
       "sentence_no": 2,
-      "rationale": "usually(빈도부사)와 함께 쓰인 습관의 현재시제. am drinking / drank 로 바꾸는 시제 오류를 유도할 수 있고, 빈도부사의 위치(usually drink)도 함께 확인된다.",
-      "confidence": "medium",
+      "rationale": "-thing 으로 끝나는 부정대명사는 형용사·else 가 뒤에서 수식한다. 'else something' 처럼 어순을 뒤집는 오류를 유도할 수 있는 자리.",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "BO_WORD_ORDER"
-      ]
-    },
-    {
-      "grammar_point_code": "CONJ_PARALLEL",
-      "span_start": 81,
-      "span_end": 98,
-      "surface": "but today, I want",
-      "sentence_no": 2,
-      "rationale": "등위접속사 but이 '평소 습관'과 '오늘의 예외'라는 두 절을 대조로 연결. so/and 등으로 바꾸면 논리가 깨지는 접속사 교체형 출제 지점.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "CO_CONJ_SWAP",
-        "EI_PARALLEL_BREAK"
       ]
     },
     {
@@ -47,7 +21,7 @@
       "span_end": 105,
       "surface": "want to try",
       "sentence_no": 2,
-      "rationale": "want는 목적어로 to부정사만 취한다. want trying / want to trying 같은 오답 선지를 만들기 쉬운 대표 자리.",
+      "rationale": "want 는 목적어로 to부정사만 받는다. 'want trying' 으로 바꾼 오답 선지가 전형적으로 출제된다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -56,16 +30,27 @@
       ]
     },
     {
-      "grammar_point_code": "MOD_POSTPOSITIVE",
-      "span_start": 106,
-      "span_end": 120,
-      "surface": "something else",
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 53,
+      "span_end": 68,
+      "surface": "I usually drink",
       "sentence_no": 2,
-      "rationale": "-thing 으로 끝나는 부정대명사는 수식어가 뒤에 온다. else something 처럼 어순을 뒤집은 선지로 출제된다.",
-      "confidence": "high",
+      "rationale": "usually 와 어울리는 습관 표현은 현재시제. 'am drinking' 같은 진행형 오류로 변형될 수 있다.",
+      "confidence": "medium",
       "applicable_modifications": [
-        "BO_WORD_ORDER",
         "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 81,
+      "span_end": 84,
+      "surface": "but",
+      "sentence_no": 2,
+      "rationale": "앞 절(습관)과 뒤 절(오늘의 희망)을 대조로 잇는 등위접속사. so/and 등으로 교체하면 논리가 깨지는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP"
       ]
     },
     {
@@ -74,8 +59,8 @@
       "span_end": 139,
       "surface": "Can you recommend",
       "sentence_no": 3,
-      "rationale": "조동사 Can 뒤에는 반드시 동사원형. recommending / to recommend 로 바꾼 오류 선지 및 요청 표현(Could you ~?) 교체가 가능하다.",
-      "confidence": "high",
+      "rationale": "조동사 can 뒤에는 동사원형이 온다. 'Can you to recommend' 처럼 to부정사를 넣는 오류를 유도할 수 있다.",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_NONFIN_FORM"
@@ -87,23 +72,36 @@
       "span_end": 160,
       "surface": "some new soft drinks",
       "sentence_no": 3,
-      "rationale": "권유·요청의 의문문에서는 any 대신 some을 쓴다. [some / any] 짝짓기 선지로 자주 출제되는 부정수량형용사 자리.",
-      "confidence": "medium",
+      "rationale": "권유·요청 의문문에서는 any 대신 some 을 쓰는 것이 자연스럽다. some/any 짝짓기 빈칸으로 나올 수 있는 자리.",
+      "confidence": "low",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
       ]
     },
     {
+      "grammar_point_code": "VERB_FINITE",
+      "span_start": 165,
+      "span_end": 183,
+      "surface": "Try a cherry soda.",
+      "sentence_no": 4,
+      "rationale": "권유·명령을 나타내는 명령문은 동사원형으로 시작한다. 'Trying a cherry soda.' 처럼 준동사로 바꾸면 본동사가 없는 비문이 된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
       "grammar_point_code": "VERB_SVA",
-      "span_start": 184,
+      "span_start": 200,
       "span_end": 212,
-      "surface": "The cherry soda here is good",
+      "surface": "here is good",
       "sentence_no": 5,
-      "rationale": "주어 The cherry soda 뒤에 부사 here가 끼어 있어 수일치를 흐린다. is → are 로 바꾼 수일치 오류 선지가 가능.",
+      "rationale": "주어는 단수 The cherry soda 이고 here 는 뒤에서 수식하는 부사. 부사 here 에 끌려 'are' 로 잘못 쓰는 수일치 오류를 유도한다.",
       "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_AGREEMENT"
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -112,24 +110,24 @@
       "span_end": 212,
       "surface": "is good",
       "sentence_no": 5,
-      "rationale": "be동사의 보어 자리이므로 형용사 good. well(부사)로 바꾼 형용사↔부사 교체 오류를 유도할 수 있다.",
+      "rationale": "be동사의 보어 자리이므로 형용사 good. 부사 well 로 바꾼 오류 선지와 구별해야 한다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_ADJ_TO_ADV"
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
       ]
     },
     {
-      "grammar_point_code": "PRON_AGREEMENT",
+      "grammar_point_code": "SVOO_DATIVE",
       "span_start": 226,
       "span_end": 239,
       "surface": "give it a try",
       "sentence_no": 7,
-      "rationale": "it은 앞서 언급된 단수 a cherry soda를 대신한다. them/they로 바꾼 수·격 불일치 선지가 가능하고 'give + 간접목적어 + 직접목적어' 어순도 함께 확인된다.",
-      "confidence": "medium",
+      "rationale": "give + 간접목적어(it) + 직접목적어(a try) 의 4형식. 'give a try to it' 같은 3형식 전환 오류나 어순 오류를 물을 수 있다.",
+      "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "BO_WORD_ORDER"
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
       ]
     }
   ],
@@ -142,37 +140,37 @@
     },
     {
       "sentence_no": 2,
-      "role": "응답 + 전환(평소 습관 대비 오늘의 희망)",
-      "signal": "but today",
+      "role": "현황 진술 + 전환(오늘은 다른 것)",
+      "signal": "but",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
       "role": "요청(추천 부탁)",
-      "signal": "Can you",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "해결책(추천 제시)",
+      "role": "해결책(추천)",
       "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 5,
-      "role": "근거(추천 이유)",
+      "role": "원인·근거(추천 이유)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "수락 반응",
+      "role": "수용 반응",
       "signal": "OK",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "결론문(제안 수용)",
+      "role": "결론(시도 결심)",
       "signal": "then",
       "is_blank_candidate": true
     }
@@ -181,22 +179,22 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "다음 대화의 (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nG: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want (a)[to try / trying] something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here (b)[is / are / was] good.\nB: OK. I'll give (c)[it / them] a try, then.",
+      "grammar_point_code": "MOD_POSTPOSITIVE",
+      "stem": "위 대화의 (a)~(d) 자리에 들어갈 알맞은 어형끼리 짝지어진 것을 고르시오.\n\nB: I usually drink apple soda, but today, I want (a)[something else / else something] . Can you (b)[recommend / to recommend] some new soft drinks?\nG: Try a cherry soda. The cherry soda here (c)[is / are] good.\n※ (d)는 (a)에 이어지는 동사 형태: I want (d)[to try / trying] ...",
       "answer_key": "①",
-      "explanation": "(a) want는 목적어로 to부정사만 취하므로 to try. (b) 주어가 단수 The cherry soda이고 지금 이 가게의 현재 사실을 말하므로 is. (c) 앞에서 추천한 a cherry soda(단수)를 가리키므로 it. ②는 want trying으로 동사 목적보어 규칙 위반, ③은 단수 주어에 are로 수일치 위반, ④는 단수 선행사를 them으로 받은 대명사 수 불일치, ⑤는 현재 사실을 과거시제로 말해 시제가 맞지 않는다.",
+      "explanation": "(a) -thing 형 부정대명사는 else 가 뒤에서 수식하므로 something else. (b) 조동사 Can 뒤에는 동사원형 recommend. (c) 주어가 단수 The cherry soda 이고 here 는 부사이므로 is. (d) want 는 to부정사를 목적어로 받으므로 to try. ②는 어순, ③은 조동사 뒤 형태, ④는 수일치, ⑤는 동사 목적보어 규칙을 각각 어긴다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        3,
-        7,
-        9,
-        1
+        0,
+        1,
+        4,
+        7
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) to try - (b) is - (c) it",
+          "body": "(a) something else (b) recommend (c) is (d) to try",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -204,57 +202,50 @@
         },
         {
           "label": "②",
-          "body": "(a) trying - (b) is - (c) it",
+          "body": "(a) else something (b) recommend (c) is (d) to try",
           "is_answer": false,
-          "violates_point_code": "NONFIN_TO_VS_GERUND",
-          "via_modification": "EI_VERB_COMPLEMENT",
+          "violates_point_code": "MOD_POSTPOSITIVE",
+          "via_modification": "BO_WORD_ORDER",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) to try - (b) are - (c) it",
+          "body": "(a) something else (b) to recommend (c) is (d) to try",
           "is_answer": false,
-          "violates_point_code": "VERB_SVA",
-          "via_modification": "EI_AGREEMENT",
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) to try - (b) is - (c) them",
+          "body": "(a) something else (b) recommend (c) are (d) to try",
           "is_answer": false,
-          "violates_point_code": "PRON_AGREEMENT",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "(a) to try - (b) was - (c) it",
+          "body": "(a) something else (b) recommend (c) is (d) trying",
           "is_answer": false,
-          "violates_point_code": "VERB_TENSE",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
           "ordinal": 5
         }
       ],
       "_answer_violates_point": []
     },
     {
-      "_verbatim_problem": [
-        "①",
-        "⑤"
-      ],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "다음 대화의 밑줄 친 ①~⑤ 중 어법상 틀린 것을 고르시오.\n\nG: ①What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, ②but today, I want to try something else. ③Can you recommending some new soft drinks?\nG: Try a cherry soda. ④The cherry soda here is good.\nB: OK. ⑤I'll give it a try, then.",
-      "answer_key": "③",
-      "explanation": "조동사 can 뒤에는 동사원형이 와야 하므로 recommending → recommend 로 고쳐야 한다. ①의 kinds of + 복수명사, ②의 등위접속사 but과 want to try, something else의 후치수식, ④의 단수 주어-is 수일치, ⑤의 축약형과 give it a try 어순은 모두 올바르다.",
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_FINITE",
+      "stem": "위 대화에서 가져온 다음 문장 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④는 상대에게 권하는 명령문이므로 동사원형 Try 로 시작해야 한다(Try a cherry soda.). 현재분사 Trying 만 쓰면 본동사가 없는 비문이다. ①②③⑤는 본문 그대로의 올바른 문장이다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        5,
-        0,
-        3,
-        7,
-        9
+        6
       ],
       "options": [
         {
@@ -267,7 +258,7 @@
         },
         {
           "label": "②",
-          "body": "but today, I want to try something else",
+          "body": "I usually drink apple soda, but today, I want to try something else.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -275,10 +266,128 @@
         },
         {
           "label": "③",
-          "body": "Can you recommending some new soft drinks?",
+          "body": "Can you recommend some new soft drinks?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Trying a cherry soda.",
           "is_answer": true,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I'll give it a try, then.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음은 위 대화의 일부이다. 밑줄 친 ①~⑤ 중 어법상 어색한 것을 고르시오.\n\nB: I ①usually drink apple soda, but today, I ②want to try something else. ③Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda ④here are good.\nB: OK. I'll ⑤give it a try, then.",
+      "answer_key": "④",
+      "explanation": "주어는 단수명사 The cherry soda 이고 here 는 명사를 뒤에서 수식하는 부사이므로 동사는 is 여야 한다(here is good). ①은 습관을 나타내는 현재시제, ②는 want + to부정사, ③은 조동사 뒤 동사원형, ⑤는 give + it + a try 의 4형식으로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        2,
+        1,
+        4,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "usually drink",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "want to try",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Can you recommend",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "here are good",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "give it a try",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름으로 볼 때, 밑줄 친 낱말의 쓰임이 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③은 새 음료를 '추천해 줄 수 있니'라고 부탁하는 맥락이므로 refuse(거절하다)가 아니라 recommend(추천하다)가 맞다. 나머지는 본문 문맥과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What kinds of soft drinks do you usually have?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Today, I want to try something else.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Can you refuse some new soft drinks?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
           "ordinal": 3
         },
         {
@@ -302,20 +411,20 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-VOCAB-CONTEXT",
+      "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "다음 대화의 밑줄 친 낱말 중 문맥상 적절하지 않은 것을 고르시오.\n\nG: What kinds of soft drinks do you ①have?\nB: I usually drink apple soda, but today, I want to try ②something else. Can you ③recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is ④terrible.\nB: OK. I'll give it a ⑤try, then.",
+      "stem": "Which is NOT true about the dialogue?",
       "answer_key": "④",
-      "explanation": "G가 체리 소다를 권하면서 그 이유를 말하는 자리이므로 '맛이 형편없다(terrible)'는 문맥과 어긋난다. 원문의 good(맛이 좋다)이 알맞다. 나머지 낱말은 '마시다(have)', '다른 것(something else)', '추천하다(recommend)', '시도(try)'로 모두 문맥에 맞는다.",
+      "explanation": "마지막에 소년은 'OK. I'll give it a try, then.' 이라고 하며 체리 소다를 마셔 보겠다고 했으므로 ④는 대화 내용과 다르다. ①은 [2], ②는 [2], ③은 [4], ⑤는 [3]에서 확인된다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        8
+        9
       ],
       "options": [
         {
           "label": "①",
-          "body": "have",
+          "body": "The boy usually drinks apple soda.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -323,7 +432,7 @@
         },
         {
           "label": "②",
-          "body": "something else",
+          "body": "The boy wants to try a different drink today.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -331,7 +440,7 @@
         },
         {
           "label": "③",
-          "body": "recommend",
+          "body": "The girl recommends a cherry soda.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -339,71 +448,15 @@
         },
         {
           "label": "④",
-          "body": "terrible",
+          "body": "The boy refuses to try the drink the girl recommends.",
           "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "try",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-BLANK",
-      "grammar_point_code": null,
-      "stem": "다음 대화의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: ______________ The cherry soda here is good.\nB: OK. I'll give it a try, then.",
-      "answer_key": "①",
-      "explanation": "빈칸 뒤에서 '여기 체리 소다가 맛있다'는 이유를 덧붙이고, B가 '그럼 그것을 마셔 보겠다'고 답하므로 빈칸에는 체리 소다를 권하는 말이 와야 한다. ②③④는 추천을 거부·반대하는 말이어서 뒤 문장과 연결되지 않고, ⑤는 가격 질문으로 화제가 어긋난다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        8
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "Try a cherry soda.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "I don't drink any soft drinks.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "You should keep drinking apple soda.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "Sorry, I can't recommend anything.",
-          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "How much is the apple soda?",
+          "body": "The boy asks the girl for a recommendation.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -416,13 +469,13 @@
       "_verbatim_problem": [],
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "stem": "What is the dialogue mainly about?",
       "answer_key": "①",
-      "explanation": "B가 평소와 다른 새 음료를 마시고 싶다며 추천을 부탁하고 G가 체리 소다를 권하는 대화이므로 ①이 주제다. 가격 비교, 제조법, 과음 경고는 언급되지 않았고, B는 사과 소다의 맛을 불평한 적이 없다.",
+      "explanation": "소년이 새로운 음료를 추천해 달라고 하고 소녀가 체리 소다를 권하는 대화이므로 주제는 ①이다. 맛 불평, 제조법, 가격 비교, 경고는 대화에 없다.",
       "difficulty": "easy",
-      "option_lang": "en",
+      "option_lang": "na",
       "source_tags": [
-        5
+        1
       ],
       "options": [
         {
@@ -443,7 +496,7 @@
         },
         {
           "label": "③",
-          "body": "comparing the prices of soft drinks",
+          "body": "explaining how to make cherry soda at home",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -451,7 +504,7 @@
         },
         {
           "label": "④",
-          "body": "explaining how to make cherry soda at home",
+          "body": "comparing the prices of two soft drinks",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -470,69 +523,12 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-DETAIL",
-      "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "B는 '오늘은 다른 것을 마셔 보고 싶다'고 했으므로 ②가 일치한다. ① 평소 마시는 것은 사과 소다이고, ③ 추천을 부탁한 사람은 소년이며, ④ 소년은 'I'll give it a try'로 제안을 받아들였고, ⑤ 소녀는 체리 소다가 맛있다고 말했다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        1,
-        3
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "The boy usually drinks cherry soda.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "The boy wants to try a new soft drink today.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "The girl asks the boy to recommend a drink.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "The boy refuses the girl's suggestion.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "The girl says the cherry soda here is not good.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "위 대화의 밑줄 친 I'll give it a try, then. 이 의미하는 것으로 가장 알맞은 것을 고르시오.",
+      "stem": "위 대화의 밑줄 친 I'll give it a try 가 뜻하는 것으로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "give it a try는 '한번 시도해 보다'라는 뜻이고 it은 G가 추천한 체리 소다를 가리킨다. 따라서 '그럼 그것을 한번 마셔 보겠다'는 수락의 표현이다. 주다·포기하다·재주문·거절의 뜻은 모두 이 관용 표현과 무관하다.",
-      "difficulty": "medium",
+      "explanation": "give it a try 는 '한번 해 보다, 시도해 보다'라는 표현이고, 여기서 it 은 소녀가 추천한 체리 소다를 가리키므로 ①이 알맞다. give 를 '주다'로 직역한 ②나 포기·추천·재방문으로 본 ③④⑤는 문맥에 맞지 않는다.",
+      "difficulty": "easy",
       "option_lang": "ko",
       "source_tags": [
         9
@@ -540,7 +536,7 @@
       "options": [
         {
           "label": "①",
-          "body": "그럼 그것을 한번 마셔 볼게.",
+          "body": "그것을 한번 마셔 보겠다.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -548,7 +544,7 @@
         },
         {
           "label": "②",
-          "body": "그럼 그것을 너에게 줄게.",
+          "body": "그것을 선물로 주겠다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -556,7 +552,7 @@
         },
         {
           "label": "③",
-          "body": "그럼 그것은 포기할게.",
+          "body": "시도하는 것을 포기하겠다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -564,7 +560,7 @@
         },
         {
           "label": "④",
-          "body": "그럼 사과 소다를 다시 주문할게.",
+          "body": "다른 음료를 추천해 주겠다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -572,7 +568,7 @@
         },
         {
           "label": "⑤",
-          "body": "그럼 아무것도 마시지 않을게.",
+          "body": "다음에 다시 사러 오겠다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -583,32 +579,15 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "MOD_POSTPOSITIVE",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n오늘은 다른 것을 마셔 보고 싶어.\n(today, / want, / I, / else, / try, / something, / to)",
-      "answer_key": "Today, I want to try something else.",
-      "explanation": "want는 to부정사를 목적어로 취하므로 want to try 순서가 되고, -thing으로 끝나는 부정대명사 something은 수식어 else를 뒤에 두어 something else가 된다. else something은 틀린 어순이다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        3,
-        4
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nCan you recommending some new soft drinks?",
-      "answer_key": "recommending → recommend",
-      "explanation": "조동사 can 뒤에는 동사원형이 와야 하므로 recommending을 recommend로 고쳐야 한다. 요청의 의문문이므로 any가 아니라 some을 쓴 것은 올바르다.",
+      "grammar_point_code": "MOD_POSTPOSITIVE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nToday, I want to try else something.",
+      "answer_key": "else something → something else",
+      "explanation": "something 처럼 -thing 으로 끝나는 부정대명사는 형용사나 else 가 뒤에서 수식하므로 something else 로 써야 한다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        5,
-        6
+        0
       ],
       "options": [],
       "_answer_violates_point": []
@@ -616,15 +595,30 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "VERB_SVA",
-      "stem": "다음 조건에 맞게 우리말을 영어로 옮기시오.\n\n우리말: 여기 체리 소다는 맛있어.\n조건 1: The cherry soda here 로 시작할 것\n조건 2: be동사와 형용사 good 을 사용할 것\n조건 3: 총 6 단어로 쓸 것",
-      "answer_key": "The cherry soda here is good.",
-      "explanation": "주어가 단수 The cherry soda이므로 be동사는 is를 쓴다(here는 주어를 뒤에서 꾸미는 부사이므로 수일치에 영향을 주지 않는다). be동사의 보어 자리이므로 부사 well이 아닌 형용사 good을 써야 한다.",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n그럼 그것을 한번 마셔 볼게요.\n<조건> 1) give, try, then 을 모두 사용할 것 2) I'll 로 시작할 것 3) give 를 4형식(간접목적어 + 직접목적어)으로 쓸 것",
+      "answer_key": "I'll give it a try, then.",
+      "explanation": "give 를 4형식으로 쓰면 give + 간접목적어(it) + 직접목적어(a try) 어순이 되어 'I'll give it a try, then.' 이 된다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        7,
-        8
+        9
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n오늘은 다른 것을 마셔 보고 싶어요.\n(else / I / to / want / something / try)",
+      "answer_key": "I want to try something else",
+      "explanation": "want 는 목적어로 to부정사를 받으므로 want to try 로 쓰고, -thing 형 부정대명사는 else 가 뒤에서 수식하므로 something else 순서가 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        0
       ],
       "options": [],
       "_answer_violates_point": []
@@ -639,15 +633,6 @@
     "items_returned": 10,
     "items_kept": 10,
     "item_rejects": [],
-    "verbatim_problems": [
-      {
-        "item": 1,
-        "type": "T-GRAMMAR-INLINE",
-        "options": [
-          "①",
-          "⑤"
-        ]
-      }
-    ]
+    "verbatim_problems": []
   }
 }

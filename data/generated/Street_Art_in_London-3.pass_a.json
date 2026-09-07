@@ -3,55 +3,56 @@
   "body_text_sha256": "9a1609fbe8b99af82fe52bd036190402e2619d0e755b1c9b3a9e31cb5100dd83",
   "tags": [
     {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 28,
+      "span_end": 34,
+      "surface": "to see",
+      "sentence_no": 1,
+      "rationale": "'~하기 위해'라는 목적을 나타내는 부사적 용법의 to부정사. for seeing / for see / seeing 등으로 바꿔 오답 유도 가능하며, 빈칸 어형 짝짓기 자리로 쓰기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
       "grammar_point_code": "MOD_ADJ_VS_ADV",
       "span_start": 60,
       "span_end": 82,
       "surface": "internationally famous",
       "sentence_no": 1,
-      "rationale": "형용사 famous를 수식하므로 부사 internationally가 맞다. 'international famous'처럼 형용사를 넣는 오류를 유도할 수 있는 자리.",
+      "rationale": "형용사 famous를 수식하므로 부사 internationally가 맞다. international famous 처럼 형용사로 바꿔 놓는 전형적 함정.",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_ADJ_TO_ADV",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
       ]
     },
     {
       "grammar_point_code": "VERB_SVA",
-      "span_start": 122,
+      "span_start": 107,
       "span_end": 127,
-      "surface": "carry",
+      "surface": "artworks often carry",
       "sentence_no": 2,
-      "rationale": "주어가 복수 Banksy’s artworks이므로 carry. often 같은 부사가 끼어 있어 carries로 바꾸는 수일치 오류를 심기 쉬운 자리.",
-      "confidence": "high",
+      "rationale": "주어 Banksy's artworks가 복수이므로 동사원형 carry. 소유격 Banksy's에 이끌려 carries로 고쳐 놓는 수일치 오류를 심기 쉬운 자리.",
+      "confidence": "medium",
       "applicable_modifications": [
-        "EI_AGREEMENT",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
       ]
     },
     {
-      "grammar_point_code": "REL_PRON_VS_ADV",
+      "grammar_point_code": "REL_OBJECT",
       "span_start": 164,
       "span_end": 189,
       "surface": "(that) you see over there",
       "sentence_no": 2,
-      "rationale": "선행사 the green tree가 see의 목적어이므로 목적격 관계대명사 that(생략 가능). 뒤에 목적어가 없다는 점을 근거로 where 등 관계부사로 바꾸는 오류를 유도할 수 있다.",
-      "confidence": "medium",
+      "rationale": "선행사 the green tree를 받는 목적격 관계대명사로 생략 가능. you see it over there 처럼 목적어를 중복시키거나 what/where로 바꿔 오답 유도.",
+      "confidence": "high",
       "applicable_modifications": [
+        "BO_FORM_CHOICE",
         "EI_REL_ANTECEDENT",
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "CONJ_VS_PREP",
-      "span_start": 209,
-      "span_end": 223,
-      "surface": "As you can see",
-      "sentence_no": 3,
-      "rationale": "뒤에 절(you can see)이 오므로 접속사 As가 맞다. 명사구를 받는 전치사구 표현으로 교체하는 함정이 가능한 자리.",
-      "confidence": "low",
-      "applicable_modifications": [
-        "CO_CONJ_SWAP",
-        "BO_FORM_CHOICE"
+        "EI_STRUCT_DELETE"
       ]
     },
     {
@@ -60,25 +61,64 @@
       "span_end": 260,
       "surface": "by spraying",
       "sentence_no": 3,
-      "rationale": "수단을 나타내는 전치사 by 뒤에는 동명사가 와야 한다. by spray / by to spray 같은 형태 오류를 심기 쉬운 대표적 빈칸 자리.",
+      "rationale": "수단·방법의 전치사 by + 동명사. by spray / by sprayed / with spraying 처럼 전치사 뒤 형태나 전치사 자체를 바꿔 출제하기 쉽다.",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_NONFIN_FORM",
-        "EI_PREP_DELETE",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 225,
+      "span_end": 248,
+      "surface": "he created a green tree",
+      "sentence_no": 3,
+      "rationale": "목적어를 가진 능동태이므로 A green tree was created by him 으로 전환 가능. 시험은 was created / was creating 형태 오류나 by 누락형으로 변형해 낸다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
       ]
     },
     {
       "grammar_point_code": "REL_PRON_VS_ADV",
-      "span_start": 343,
+      "span_start": 334,
       "span_end": 357,
-      "surface": "who is holding",
+      "surface": "a person who is holding",
       "sentence_no": 4,
-      "rationale": "선행사가 사람(a person)이고 뒤에 동사가 바로 오므로 주격 관계대명사 who. which/where로 바꾸는 선행사 불일치 오류를 유도할 수 있다.",
+      "rationale": "선행사가 사람(a person)이고 관계절 안에서 주어 역할이므로 주격 관계대명사 who. which/where/whose 로 바꾼 선지가 전형적 오답.",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_REL_ANTECEDENT",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 394,
+      "span_end": 406,
+      "surface": "want to give",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사를 취한다. want giving / want give 로 바꾼 선지로 동사별 목적어 규칙을 묻기 좋다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOO_DATIVE",
+      "span_start": 402,
+      "span_end": 409,
+      "surface": "give us",
+      "sentence_no": 5,
+      "rationale": "수여동사 give + 간접목적어(us) 구조. 3형식 전환 시 give ~ to us 가 되므로 give to us / give for us 형태로 오답을 심을 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -87,7 +127,7 @@
       "span_end": 457,
       "surface": "In many people’s opinion",
       "sentence_no": 6,
-      "rationale": "굳어진 부사구의 첫 전치사 In. 뜻으로 통째 외워져 눈에 안 들어오지만 [In / On / At] 형태로 빈칸이 자주 뚫리는 자리.",
+      "rationale": "'~의 의견으로는'을 뜻하는 굳어진 부사구. 통째로 외워져 전치사가 눈에 안 들어오지만 [In / On / At] a ~ 형태로 전치사만 빈칸 뚫는 출제가 흔하다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -100,7 +140,7 @@
       "span_end": 508,
       "surface": "that nature is having a hard time",
       "sentence_no": 6,
-      "rationale": "tell A that절 구조의 직접목적어 명사절 접속사 that. what으로 바꾸면 뒤 절에 빠진 성분이 없어 틀리게 되는 what vs that 함정이 가능.",
+      "rationale": "tell + 간접목적어 + that절(직접목적어)의 명사절 접속사 that. what/which로 바꾸거나 that을 삭제해 오답을 만든다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -108,73 +148,60 @@
       ]
     },
     {
-      "grammar_point_code": "NONFIN_SUBJECT",
-      "span_start": 528,
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 531,
       "span_end": 547,
-      "surface": "he wants us to take",
+      "surface": "wants us to take",
       "sentence_no": 7,
-      "rationale": "want + 목적어 + to부정사 구조로 us가 to take의 의미상 주어. wants us take / wants us taking 같은 목적보어 형태 오류를 유도할 수 있다.",
+      "rationale": "want + 목적어 + to부정사(목적격보어) 구조. want us take / want us taking 처럼 to를 빼거나 -ing로 바꾼 선지가 대표적 함정.",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_VERB_COMPLEMENT",
-        "EI_NONFIN_FORM",
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "MOD_COMPARATIVE",
-      "span_start": 548,
-      "span_end": 565,
-      "surface": "better care of it",
-      "sentence_no": 7,
-      "rationale": "take good care of의 비교급 표현 take better care of. more good care / more better 같은 비교급 오류를 심을 수 있고 of 삭제 함정도 가능.",
-      "confidence": "medium",
-      "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
       ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "도입 — 장소·대상 소개",
+      "role": "도입 — 장소·인물 소개",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 2,
-      "role": "주제문 — Banksy 작품은 사회적 메시지를 담는다",
+      "role": "주제문 — 뱅크시 작품의 성격 제시",
       "signal": "and",
       "is_blank_candidate": true
     },
     {
       "sentence_no": 3,
-      "role": "세부 설명 — 그림이 만들어진 방식",
+      "role": "부연 — 작품 제작 방식 묘사",
       "signal": "As you can see",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "세부 묘사 — 그림 속 인물",
+      "role": "부연 — 그림 속 세부 요소",
       "signal": "Next to the tree",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "도입질문 — 메시지에 대한 문제 제기",
+      "role": "도입질문 — 작품의 메시지 제기",
       "signal": "What message",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "해석 제시 — 사람들이 읽어낸 메시지",
+      "role": "해석 — 메시지의 내용 제시",
       "signal": "In many people’s opinion",
       "is_blank_candidate": true
     },
     {
       "sentence_no": 7,
-      "role": "결론문 — 작가의 요청(자연을 더 잘 돌보라)",
+      "role": "결론 — 작가의 요구 요약",
       "signal": "They think",
       "is_blank_candidate": true
     }
@@ -183,58 +210,58 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VERB_SVA",
-      "stem": "다음 글의 밑줄 친 ①~⑤ 중, 어법상 틀린 것을 고르시오.\n\nWe are now in Finsbury Park to see a painting by Banksy, ①an internationally famous street artist. Banksy’s artworks often ②carries social messages, and the green tree you see over there is a good example. As you can see, he created a green tree ③by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person ④who is holding a sprayer. In many people’s opinion, he is telling us that nature is having a hard time. They think he ⑤wants us to take better care of it.",
-      "answer_key": "②",
-      "explanation": "주어가 복수인 Banksy’s artworks이므로 동사는 carry가 되어야 한다. often 같은 부사에 시선이 가서 수일치를 놓치기 쉬운 자리다. ①은 형용사 famous를 수식하는 부사로 적절, ③은 수단의 전치사 by 뒤 동명사로 적절, ④는 사람 선행사 a person에 대한 주격 관계대명사 who로 적절, ⑤는 want+목적어+to부정사 구조로 적절하다.",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "위 지문의 밑줄 친 (a)~(e) 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "(e)",
+      "explanation": "want는 목적격보어로 to부정사를 취하므로 wants us to take 가 되어야 한다. (a)는 목적을 나타내는 부사적 to부정사, (b)는 생략 가능한 목적격 관계대명사, (c)는 수단의 by+동명사, (d)는 사람 선행사를 받는 주격 관계대명사 who로 모두 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
+        11,
         0,
-        1,
         3,
-        5,
-        8
+        4,
+        6
       ],
       "options": [
         {
-          "label": "①",
-          "body": "an internationally famous street artist",
+          "label": "(a)",
+          "body": "We are now in Finsbury Park to see a painting by Banksy",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
-          "label": "②",
-          "body": "carries",
-          "is_answer": true,
-          "violates_point_code": "VERB_SVA",
-          "via_modification": "EI_AGREEMENT",
+          "label": "(b)",
+          "body": "the green tree (that) you see over there is a good example",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 2
         },
         {
-          "label": "③",
-          "body": "by spraying",
+          "label": "(c)",
+          "body": "he created a green tree by spraying green paint on a wall",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
-          "label": "④",
-          "body": "who is holding",
+          "label": "(d)",
+          "body": "there is a person who is holding a sprayer",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
-          "label": "⑤",
-          "body": "wants us to take better care of it",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "label": "(e)",
+          "body": "he wants us take better care of it",
+          "is_answer": true,
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 5
         }
       ],
@@ -244,66 +271,149 @@
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
       "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "다음 글의 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것을 고르시오.\n\nWe are now in Finsbury Park to see a painting by Banksy, an (a)[international / internationally] famous street artist. As you can see, he created a green tree by (b)[spraying / to spray] green paint on a wall behind a leafless tree. Next to the tree, there is a person (c)[who / which] is holding a sprayer.",
-      "answer_key": "②",
-      "explanation": "(a) 형용사 famous를 수식하므로 부사 internationally. (b) 전치사 by의 목적어 자리이므로 동명사 spraying(to부정사는 전치사의 목적어가 될 수 없다). (c) 선행사가 사람 a person이고 뒤에 동사가 이어지므로 주격 관계대명사 who. 따라서 ②가 정답이다.",
+      "stem": "지문의 흐름에 맞게 (a), (b), (c)에 들어갈 말을 바르게 짝지은 것을 고르시오.\n· a painting by Banksy, an (a)[international / internationally] famous street artist\n· Banksy’s artworks often (b)[carry / carries] social messages\n· there is a person (c)[who / where] is holding a sprayer",
+      "answer_key": "①",
+      "explanation": "(a) 형용사 famous를 수식하므로 부사 internationally. (b) 주어 Banksy’s artworks가 복수이므로 carry. (c) 선행사가 사람 a person이고 관계절의 주어 자리이므로 who. 관계부사 where는 장소 선행사에 쓰인다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0,
-        4,
-        5
+        1,
+        2,
+        6
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) international — (b) spraying — (c) who",
-          "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
+          "body": "internationally – carry – who",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "(a) internationally — (b) spraying — (c) who",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "international – carry – who",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) internationally — (b) to spray — (c) who",
+          "body": "internationally – carries – who",
           "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) internationally — (b) spraying — (c) which",
+          "body": "internationally – carry – where",
           "is_answer": false,
           "violates_point_code": "REL_PRON_VS_ADV",
           "via_modification": "EI_REL_ANTECEDENT",
           "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "international – carries – where",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "④"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 지문에서 가져온 다음 문장 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "수단을 나타내는 전치사 by 뒤에는 동명사가 와야 하므로 by spraying이 맞다. by sprayed는 전치사 뒤에 과거분사를 놓은 오류다. 나머지 문장은 지문 그대로이며 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        6,
+        9,
+        11,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "We are now in Finsbury Park to see a painting by Banksy.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "As you can see, he created a green tree by sprayed green paint on a wall.",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Next to the tree, there is a person who is holding a sprayer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "In many people’s opinion, he is telling us that nature is having a hard time.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They think he wants us to take better care of it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "What message does Banksy want to give us through this painting?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
     },
     {
       "_verbatim_problem": [],
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "다음 글의 밑줄 친 ①~⑤ 중, 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.\n\nWe are now in Finsbury Park to see a painting by Banksy, an internationally ①famous street artist. Banksy’s artworks often carry ②social messages, and the green tree you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a ③leafy tree. Next to the tree, there is a person who is holding a ④sprayer. In many people’s opinion, he is telling us that nature is having a hard time. They think he wants us to take ⑤better care of it.",
-      "answer_key": "③",
-      "explanation": "잎이 없는 나무(leafless tree) 뒤 벽에 초록 물감을 뿌려 초록 나무를 만들어 낸 것이 이 그림의 핵심이다. 이미 잎이 무성한 leafy tree라면 초록 나무를 그려 넣을 이유가 없으므로 ③은 문맥에 맞지 않는다. 나머지 낱말은 모두 문맥에 적절하다.",
+      "stem": "다음은 위 지문의 내용을 옮긴 것이다. 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "자연을 더 잘 돌보라는 메시지를 담은 그림이므로 자연이 '힘든 시간을 보내고 있다(having a hard time)'가 문맥에 맞다. wonderful time은 뒤 문장의 '더 잘 돌보라'는 요구와 논리적으로 충돌한다.",
       "difficulty": "medium",
       "option_lang": "na",
-      "source_tags": [],
+      "source_tags": [
+        10
+      ],
       "options": [
         {
           "label": "①",
-          "body": "famous",
+          "body": "Banksy’s artworks often carry social messages.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -311,7 +421,7 @@
         },
         {
           "label": "②",
-          "body": "social",
+          "body": "He created a green tree by spraying green paint on a wall behind a leafless tree.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -319,187 +429,23 @@
         },
         {
           "label": "③",
-          "body": "leafy",
+          "body": "Next to the tree, there is a person who is holding a sprayer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He is telling us that nature is having a wonderful time.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "sprayer",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "better",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "다음 글의 주제로 가장 알맞은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "글은 Finsbury Park에 있는 Banksy의 초록 나무 그림을 소개하고, 그것이 어려움에 처한 자연을 더 잘 돌보라는 메시지를 담고 있다고 설명한다. 따라서 ①이 주제다. 거리 예술의 역사(②), 물감 제작법(③), 불법성(④), 나무만 그리는 화가(⑤)는 언급되지 않았다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [],
-      "options": [
-        {
-          "label": "①",
-          "body": "a Banksy painting in Finsbury Park and its message about nature",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "the history of street art in London parks",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "how to make green spray paint for wall painting",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "the reason street art is not allowed in big cities",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "a famous artist who only paints trees and flowers",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-DETAIL",
-      "grammar_point_code": null,
-      "stem": "위 글의 내용과 일치하지 않는 것을 고르시오.",
-      "answer_key": "④",
-      "explanation": "그림 속 나무 옆의 인물이 들고 있는 것은 카메라가 아니라 분무기(a sprayer)이므로 ④가 일치하지 않는다. ①은 an internationally famous street artist, ②는 by spraying green paint on a wall, ③은 a leafless tree, ⑤는 nature is having a hard time에서 확인된다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [],
-      "options": [
-        {
-          "label": "①",
-          "body": "Banksy is a street artist known all over the world.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "The green tree was made with green paint sprayed on a wall.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "The real tree in front of the wall has no leaves.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "The person in the painting is holding a camera.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "Many people think the painting is about nature in trouble.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-BLANK",
-      "grammar_point_code": null,
-      "stem": "위 글의 마지막 문장 「They think he wants us to ______.」의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "바로 앞 문장에서 그림이 '자연이 어려움을 겪고 있다'는 메시지를 전한다고 했으므로, 결론은 자연(it = nature)을 더 잘 돌보라는 요청이다. 따라서 ①이 알맞다. 나머지는 글에서 근거를 찾을 수 없다.",
-      "difficulty": "medium",
-      "option_lang": "en",
-      "source_tags": [
-        9
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "take better care of nature",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "buy more of his paintings",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "paint green trees on city walls",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "visit Finsbury Park more often",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "become street artists like him",
+          "body": "He wants us to take better care of it.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -512,34 +458,35 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "위 글의 밑줄 친 nature is having a hard time이 의미하는 바로 가장 알맞은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "잎 없는 나무 뒤 벽에 초록 나무를 뿌려 그린 그림은 사라져 가는 자연을 가리키며, 이어지는 문장에서 '자연을 더 잘 돌보라'고 하므로 밑줄 어구는 자연이 훼손되어 힘든 상태에 있다는 뜻이다.",
-      "difficulty": "medium",
+      "stem": "밑줄 친 nature is having a hard time 이 이 지문에서 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "잎이 없는 나무 뒤에 초록 나무를 그려 넣은 그림과, 마지막 문장의 '자연을 더 잘 돌보기를 원한다'는 진술로 볼 때 자연이 훼손되어 고통받고 있다는 뜻이다.",
+      "difficulty": "easy",
       "option_lang": "ko",
       "source_tags": [
-        7
+        10,
+        11
       ],
       "options": [
         {
           "label": "①",
-          "body": "자연이 사람의 손길로 훼손되어 어려움을 겪고 있다",
-          "is_answer": true,
+          "body": "자연이 사람들에게 큰 즐거움을 주고 있다",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "자연을 그리는 화가들이 힘든 시간을 보내고 있다",
-          "is_answer": false,
+          "body": "자연이 파괴되어 어려움에 처해 있다",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "공원에서 나무를 찾기가 점점 즐거워지고 있다",
+          "body": "자연을 그림으로 표현하기가 어렵다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -547,7 +494,7 @@
         },
         {
           "label": "④",
-          "body": "거리 예술이 사람들에게 인정받기 어렵다",
+          "body": "공원에 나무를 심는 일이 오래 걸린다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -555,7 +502,177 @@
         },
         {
           "label": "⑤",
-          "body": "초록색 물감을 구하는 일이 어려워졌다",
+          "body": "거리 예술가들이 힘든 시기를 겪고 있다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "글은 뱅크시의 작품이 사회적 메시지를 담는다는 주제문(문장 2)을 제시하고, 초록 나무 그림이 자연 보호 메시지를 전한다는 해석으로 마무리된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a Banksy painting that delivers a social message about nature",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to become an internationally famous street artist",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the history of Finsbury Park in London",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best way to spray paint on city walls",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "why leafless trees die during the winter",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the passage?",
+      "answer_key": "④",
+      "explanation": "문장 4에서 나무 옆의 사람은 카메라가 아니라 분무기(a sprayer)를 들고 있다. 나머지는 각각 문장 1, 1, 3, 6의 내용과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Banksy is an internationally famous street artist.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The painting can be seen in Finsbury Park.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Banksy sprayed green paint on a wall behind a leafless tree.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The person next to the tree is holding a camera.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Many people think the painting shows that nature is suffering.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "In many people’s opinion, he is telling us that ______.  빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "잎 없는 나무 뒤에 초록 나무를 그렸다는 묘사와, 이어지는 '자연을 더 잘 돌보기를 원한다'는 문장으로 보아 자연이 힘든 상황에 있다는 메시지가 들어가야 한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        10,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "nature is having a hard time",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "street art should be sold at high prices",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "painting on walls is always a crime",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "trees grow best in city parks",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "artists need more places to work in",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -567,14 +684,14 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_SVA",
-      "stem": "위 글의 내용을 옮겨 쓴 다음 문장에는 어법상 틀린 곳이 한 군데 있다. 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nBanksy’s artworks often carries social messages, and the green tree you see over there is a good example.",
-      "answer_key": "carries → carry",
-      "explanation": "주어가 복수 명사구 Banksy’s artworks이므로 동사는 원형 carry를 써야 한다. 뒤의 the green tree ... is는 단수 주어에 맞는 형태로 옳다.",
-      "difficulty": "easy",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "다음은 지문의 마지막 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ They think he wants us taking better care of it.",
+      "answer_key": "taking → to take (he wants us to take better care of it)",
+      "explanation": "want는 목적격보어로 to부정사를 취하는 동사이므로 「want + 목적어 + to부정사」 형태인 wants us to take 로 고쳐야 한다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        1
+        11
       ],
       "options": [],
       "_answer_violates_point": []
@@ -582,15 +699,14 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "NONFIN_SUBJECT",
-      "stem": "위 글의 내용에 맞게, 다음 우리말을 <조건>에 맞추어 영어로 쓰시오.\n\n우리말: 그들은 그가 우리에게 그것을 더 잘 돌봐 주기를 원한다고 생각한다.\n<조건> 1) think, want, take better care of 를 활용할 것  2) want 다음에는 「목적어 + to부정사」 형태를 쓸 것  3) 12단어 이내의 한 문장으로 쓸 것",
-      "answer_key": "They think (that) he wants us to take better care of it.",
-      "explanation": "want는 목적어 뒤에 to부정사를 취하므로 wants us to take가 되어야 하며(wants us take / wants us taking 은 불가), take good care of의 비교급은 take better care of이다. think 뒤의 that은 생략할 수 있다.",
+      "grammar_point_code": "REL_OBJECT",
+      "stem": "다음 우리말과 같은 뜻이 되도록 조건에 맞게 영작하시오.\n· 우리말: 네가 저기서 보는 초록 나무가 좋은 예이다.\n· 조건 1: 목적격 관계대명사 that을 쓸 것\n· 조건 2: the green tree, over there, a good example 을 모두 사용할 것",
+      "answer_key": "The green tree that you see over there is a good example.",
+      "explanation": "선행사 the green tree가 관계절 동사 see의 목적어이므로 목적격 관계대명사 that을 쓴다. 관계절 안에 it 같은 목적어를 다시 쓰면 안 된다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        8,
-        9
+        3
       ],
       "options": [],
       "_answer_violates_point": []
@@ -599,13 +715,13 @@
       "_verbatim_problem": [],
       "question_type_code": "T-WORD-ORDER",
       "grammar_point_code": "REL_PRON_VS_ADV",
-      "stem": "위 글의 그림 설명에 맞게, 주어진 단어를 모두 배열하여 우리말과 같은 뜻의 문장을 완성하시오. (필요하면 어형은 그대로 사용)\n\n우리말: 그 나무 옆에는 분무기를 들고 있는 사람이 있다.\n주어진 말: is / a person / who / holding / Next to the tree, / there / a sprayer / is",
+      "stem": "다음 우리말에 맞게 주어진 단어를 모두 배열하여 문장을 완성하시오.\n· 우리말: 그 나무 옆에는 분무기를 들고 있는 사람이 있다.\n· 주어진 말: (a person / who / is / holding / a sprayer / there / is / Next to the tree,)",
       "answer_key": "Next to the tree, there is a person who is holding a sprayer.",
-      "explanation": "there is + 단수 주어(a person) 구조 뒤에, 사람 선행사를 수식하는 주격 관계대명사 who + is holding을 이어 쓴다. 선행사가 사람이므로 which/where는 쓸 수 없다.",
+      "explanation": "there is + 단수 주어(a person) 뒤에 사람 선행사를 받는 주격 관계대명사 who가 이끄는 관계절을 붙인다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        5
+        6
       ],
       "options": [],
       "_answer_violates_point": []
@@ -613,13 +729,22 @@
   ],
   "diagnostics": {
     "sentence_count": 7,
-    "tags_returned": 10,
-    "tags_kept": 10,
+    "tags_returned": 12,
+    "tags_kept": 12,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 10,
-    "items_kept": 10,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": [],
-    "verbatim_problems": []
+    "verbatim_problems": [
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "①",
+          "④"
+        ]
+      }
+    ]
   }
 }

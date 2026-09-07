@@ -4,11 +4,11 @@
   "tags": [
     {
       "grammar_point_code": "PREP_USAGE",
-      "span_start": 18,
-      "span_end": 26,
-      "surface": "comes in",
+      "span_start": 24,
+      "span_end": 47,
+      "surface": "in many different forms",
       "sentence_no": 1,
-      "rationale": "'~한 형태로 나오다/존재하다'를 뜻하는 come in + 명사. 굳어진 표현이라 전치사가 눈에 안 들어오지만 [in / on / with] 형태의 빈칸으로 뚫기 가장 쉬운 자리. on/at 오답 유도 가능",
+      "rationale": "'come in + 형태/종류' 관용 전치사. 빈칸으로 뚫어 on / with / at 등과 혼동시키기 가장 쉬운 자리이며, 전치사 삭제(EI_PREP_DELETE)로도 변형 가능",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -16,43 +16,43 @@
       ]
     },
     {
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
       "span_start": 56,
-      "span_end": 77,
-      "surface": "makes cities colorful",
+      "span_end": 88,
+      "surface": "makes cities colorful and lively",
       "sentence_no": 1,
-      "rationale": "make + 목적어(cities) + 목적격보어. 보어 자리이므로 형용사 colorful 이 맞고 부사 colorfully 는 불가. 동사 makes 뒤라서 부사로 바꾸는 오류(EI_ADJ_TO_ADV)를 심기 쉬운 대표 자리",
+      "rationale": "make + 목적어(cities) + 목적격보어(형용사 colorful and lively)의 5형식. 보어 자리에 부사 colorfully/lively를 넣는 오류(EI_ADJ_TO_ADV)를 유도할 수 있고, 보어 두 개가 and로 병렬된 점도 함께 건드릴 수 있다",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_ADJ_TO_ADV",
         "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV",
         "EI_PARALLEL_BREAK"
       ]
     },
     {
-      "grammar_point_code": "VOICE_PARTICIPLE",
-      "span_start": 122,
-      "span_end": 132,
-      "surface": "well-known",
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 100,
+      "span_end": 116,
+      "surface": "are going to see",
       "sentence_no": 2,
-      "rationale": "명사 street artworks 를 앞에서 수식하는 과거분사형 복합형용사. '널리 알려진'은 수동 의미이므로 well-knowing 으로 뒤집는 EI_PARTICIPLE_FLIP 오답 유도 가능",
+      "rationale": "Today와 호응하는 be going to 미래표현. to 뒤 동사원형이 원칙이므로 'are going to seeing' / 'are going see' 같은 형태 오류를 심을 수 있다",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_PARTICIPLE_FLIP",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
       ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "주제문 (현대 거리 예술의 다양성과 그 효과)",
-      "signal": "and",
+      "role": "주제문 (현대 거리 예술의 다양성과 효과를 일반화)",
+      "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 2,
-      "role": "도입·전환 (앞으로 다룰 대상 예고)",
+      "role": "전환 · 전개 예고 (런던의 구체적 작품 소개로 이어짐)",
       "signal": "Today",
       "is_blank_candidate": false
     }
@@ -61,10 +61,10 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "다음은 위 지문이다. (a), (b), (c)에 들어갈 말로 가장 적절한 것을 고르시오.\n\nModern street art comes (a)[in / on] many different forms, and it makes cities (b)[colorful / colorfully] and lively. Today, we are going to see some (c)[well-known / well-knowing] street artworks in London.",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "다음은 위 지문을 옮긴 것이다. (a), (b), (c)의 각 네모 안에서 어법상 알맞은 것끼리 짝지은 것을 고르시오.\n\nModern street art comes (a)[in / on] many different forms, and it makes cities (b)[colorful / colorfully] and lively. Today, we are going (c)[to see / to seeing] some well-known street artworks in London.",
       "answer_key": "①",
-      "explanation": "(a) '~한 형태로 나오다'는 come in ~ 이 고정 표현이므로 in. (b) make + 목적어 + 목적격보어 구조에서 보어 자리에는 형용사가 오므로 colorful (부사 colorfully 불가). (c) '널리 알려진'은 수동의 의미이므로 과거분사형 복합형용사 well-known 이 맞고 well-knowing 은 틀림.",
+      "explanation": "(a) '~한 형태로 나오다'는 come in many forms로 전치사 in을 쓴다. (b) make + 목적어 + 목적격보어(형용사) 구조이므로 부사 colorfully가 아니라 형용사 colorful이 와야 한다. (c) be going to 뒤에는 동사원형이 오므로 to see가 맞다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
@@ -75,7 +75,7 @@
       "options": [
         {
           "label": "①",
-          "body": "(a) in — (b) colorful — (c) well-known",
+          "body": "(a) in - (b) colorful - (c) to see",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -83,7 +83,7 @@
         },
         {
           "label": "②",
-          "body": "(a) on — (b) colorful — (c) well-known",
+          "body": "(a) on - (b) colorful - (c) to see",
           "is_answer": false,
           "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
@@ -91,19 +91,27 @@
         },
         {
           "label": "③",
-          "body": "(a) in — (b) colorfully — (c) well-known",
+          "body": "(a) in - (b) colorfully - (c) to see",
           "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
           "via_modification": "EI_ADJ_TO_ADV",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) in — (b) colorful — (c) well-knowing",
+          "body": "(a) in - (b) colorful - (c) to seeing",
           "is_answer": false,
-          "violates_point_code": "VOICE_PARTICIPLE",
-          "via_modification": "EI_PARTICIPLE_FLIP",
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) on - (b) colorfully - (c) to seeing",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
@@ -111,10 +119,10 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "다음 글의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nModern street art ①comes in many different forms, and it ②makes cities ③colorfully and lively. Today, we ④are going to see some ⑤well-known street artworks in London.",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "위 지문의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\n①Modern street art comes ②in many different forms, and ③it makes cities colorfully and lively. Today, ④we are going to see some ⑤well-known street artworks in London.",
       "answer_key": "③",
-      "explanation": "③ makes 의 목적격보어 자리이므로 형용사 colorful 이어야 한다. 뒤의 lively(형용사)와 병렬을 이루는 점에서도 부사 colorfully 는 불가하다. ① come in ~ '~한 형태로 존재하다'로 전치사 in 이 맞고, ② 주어 it 에 맞는 3인칭 단수 makes, ④ Today 와 어울리는 가까운 미래 표현 be going to, ⑤ '널리 알려진'의 과거분사형 well-known 모두 옳다.",
+      "explanation": "③ make는 5형식으로 목적어 cities 뒤에 목적격보어로 형용사가 와야 하므로 colorfully를 colorful로 고쳐야 한다. ①의 단수주어-단수동사 수일치, ②의 관용 전치사 in, ④의 be going to + 동사원형, ⑤의 과거분사형 복합형용사 well-known은 모두 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
@@ -123,7 +131,7 @@
       "options": [
         {
           "label": "①",
-          "body": "comes in",
+          "body": "Modern street art comes",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -131,7 +139,7 @@
         },
         {
           "label": "②",
-          "body": "makes",
+          "body": "in many different forms",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -139,15 +147,15 @@
         },
         {
           "label": "③",
-          "body": "colorfully",
+          "body": "it makes cities colorfully and lively",
           "is_answer": true,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
           "via_modification": "EI_ADJ_TO_ADV",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "are going to see",
+          "body": "we are going to see",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -155,7 +163,7 @@
         },
         {
           "label": "⑤",
-          "body": "well-known",
+          "body": "well-known street artworks",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -168,9 +176,9 @@
       "_verbatim_problem": [],
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "다음 글의 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것을 고르시오.\n\nModern street art comes in many different ①forms, and it makes cities ②colorful and ③dull. Today, we are going to see some ④well-known street artworks in ⑤London.",
+      "stem": "위 지문의 내용을 바탕으로 다음 글을 다시 썼을 때, 밑줄 친 낱말 중 문맥상 적절하지 않은 것을 고르시오.\n\n①Modern street art comes in many ②different forms, and it makes cities ③dull and ④lively. Today, we are going to see some ⑤well-known street artworks in London.",
       "answer_key": "③",
-      "explanation": "거리 예술이 도시를 '다채롭고(colorful)' 만든다는 긍정적 흐름이므로 ③에는 '활기찬'을 뜻하는 lively 가 와야 한다. dull(지루한, 활기 없는)은 앞의 colorful 과 모순되어 문맥상 부적절하다.",
+      "explanation": "원문은 거리 예술이 도시를 '다채롭고(colorful) 활기차게(lively)' 만든다고 했다. dull(단조로운, 지루한)은 lively와 모순되고 글의 긍정적 서술과 반대되므로 문맥상 부적절하다. colorful이 들어가야 한다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
@@ -179,7 +187,7 @@
       "options": [
         {
           "label": "①",
-          "body": "forms",
+          "body": "Modern",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -187,7 +195,7 @@
         },
         {
           "label": "②",
-          "body": "colorful",
+          "body": "different",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -203,7 +211,7 @@
         },
         {
           "label": "④",
-          "body": "well-known",
+          "body": "lively",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -211,7 +219,63 @@
         },
         {
           "label": "⑤",
-          "body": "London",
+          "body": "well-known",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 적절한 것은?\n\nModern street art comes in many different forms, and it makes cities ______________.",
+      "answer_key": "①",
+      "explanation": "이어지는 내용에서 런던의 유명한 거리 예술 작품을 소개하려 하고, 첫 문장은 거리 예술의 긍정적 효과를 말하는 주제문이다. 따라서 도시를 '다채롭고 활기차게' 만든다는 ①이 알맞다. 나머지는 모두 부정적이거나 글의 흐름과 무관하다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "colorful and lively",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "quiet and empty",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "dark and dirty",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "old and traditional",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "crowded and dangerous",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -224,12 +288,14 @@
       "_verbatim_problem": [],
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "위 글의 주제로 가장 적절한 것을 고르시오.",
+      "stem": "위 글의 주제로 가장 적절한 것은?",
       "answer_key": "①",
-      "explanation": "[1]에서 현대 거리 예술이 여러 형태로 존재하며 도시를 다채롭고 활기차게 만든다고 했고, [2]에서 런던의 유명한 거리 예술 작품을 살펴보자고 예고한다. 따라서 거리 예술의 다양한 형태와 도시에 주는 영향이 주제이다. 낙서의 문제점(④)이나 미술관 회화의 역사(②)는 언급되지 않았다.",
+      "explanation": "글은 현대 거리 예술이 여러 형태로 나타나며 도시를 다채롭고 활기차게 만든다고 말한 뒤, 런던의 유명 작품을 보러 가자고 안내한다. 따라서 ①이 주제로 알맞다. 나머지는 글에서 언급되지 않은 내용이다.",
       "difficulty": "easy",
       "option_lang": "en",
-      "source_tags": [],
+      "source_tags": [
+        1
+      ],
       "options": [
         {
           "label": "①",
@@ -249,7 +315,7 @@
         },
         {
           "label": "③",
-          "body": "the best way to become a professional artist in London",
+          "body": "the best way to become a famous artist in London",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -257,7 +323,7 @@
         },
         {
           "label": "④",
-          "body": "the problems caused by illegal graffiti on city walls",
+          "body": "the problems caused by drawing on city walls",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -265,7 +331,7 @@
         },
         {
           "label": "⑤",
-          "body": "the reason why people move to big cities",
+          "body": "the difficulty of protecting old buildings in cities",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -278,19 +344,19 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 글의 내용과 일치하는 것을 고르시오.",
+      "stem": "위 글의 내용과 일치하는 것은?",
       "answer_key": "①",
-      "explanation": "[1] 'comes in many different forms'와 일치하므로 ①이 정답. ②는 colorful and lively 와 반대이고, ③은 London 이므로 틀리며, ④는 many different forms 와 모순, ⑤는 well-known(널리 알려진)과 모순된다.",
+      "explanation": "첫 문장에서 현대 거리 예술이 many different forms로 나타난다고 했으므로 ①이 일치한다. ②는 colorful and lively와 반대, ③은 London이므로 틀리고, ④는 many different forms와 모순, ⑤는 well-known과 모순이다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
         0,
-        2
+        1
       ],
       "options": [
         {
           "label": "①",
-          "body": "Modern street art exists in many different forms.",
+          "body": "Modern street art appears in many different forms.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -298,7 +364,7 @@
         },
         {
           "label": "②",
-          "body": "Modern street art makes cities look boring and gray.",
+          "body": "Street art makes cities look boring and gray.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -314,7 +380,7 @@
         },
         {
           "label": "④",
-          "body": "Only one style of street art is popular today.",
+          "body": "Only one form of street art is popular today.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -333,67 +399,26 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": null,
-      "stem": "위 글의 밑줄 친 comes in many different forms 의 의미로 가장 적절한 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "come in ~ 은 '(제품·사물이) ~한 형태·크기·색으로 나온다, 존재한다'는 뜻이다. 따라서 '거리 예술은 다양한 형태로 나타난다'는 의미이며, form 을 '신청서'로 본 ③이나 수입·규칙과 연결한 ②·⑤는 문맥과 무관하다.",
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오. (필요시 어형 변화 없이 그대로 사용)\n\n오늘, 우리는 런던의 몇몇 유명한 거리 예술 작품들을 볼 것이다.\n(are / going / we / see / to / some well-known street artworks / Today, / in London)",
+      "answer_key": "Today, we are going to see some well-known street artworks in London.",
+      "explanation": "'~할 것이다'는 be going to로 나타내며 주어 we에 맞추어 are going to를 쓰고, to 뒤에는 동사원형 see가 온다. 목적어 some well-known street artworks 뒤에 장소를 나타내는 in London을 붙인다.",
       "difficulty": "medium",
-      "option_lang": "ko",
+      "option_lang": "na",
       "source_tags": [
-        0
+        2
       ],
-      "options": [
-        {
-          "label": "①",
-          "body": "다양한 형태(모습)로 나타난다",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "여러 나라에서 수입된다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "많은 신청서를 작성해야 한다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "자주 형태가 바뀌어 알아보기 어렵다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "정해진 규칙에 따라 그려진다",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
+      "options": [],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "다음 문장에서 어법상 틀린 부분 한 군데를 찾아 바르게 고쳐 쓰시오.\n\nModern street art comes in many different forms, and it makes cities colorfully and lively.",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (틀린 표현 → 고친 표현)\n\nModern street art comes in many different forms, and it makes cities colorfully and lively.",
       "answer_key": "colorfully → colorful",
-      "explanation": "make + 목적어 + 목적격보어 구조에서 보어 자리에는 형용사가 온다. 또한 and 뒤의 lively 가 형용사이므로 병렬을 맞추어 colorful 로 고쳐야 한다.",
+      "explanation": "make가 '~을 …하게 만들다'의 5형식으로 쓰였으므로 목적어 cities 뒤의 목적격보어는 형용사여야 한다. 따라서 부사 colorfully를 형용사 colorful로 고쳐야 하고, 뒤의 lively와도 형용사로 병렬을 이룬다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
@@ -404,30 +429,15 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
+      "question_type_code": "T-WRITE-COND",
       "grammar_point_code": "PREP_USAGE",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n현대의 거리 예술은 많은 다양한 형태로 나타난다.\n(art / comes / different / forms / in / many / modern / street)",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n현대 거리 예술은 많은 다양한 형태로 나타난다.\n<조건>\n1. 지문에 쓰인 표현 comes와 forms를 그대로 사용할 것\n2. 알맞은 전치사를 빠뜨리지 말 것\n3. 총 8단어로 쓸 것",
       "answer_key": "Modern street art comes in many different forms.",
-      "explanation": "주어 Modern street art + 동사 comes + 전치사구 in many different forms 순서로 배열한다. '~한 형태로 나타나다'는 come in ~ 이므로 전치사 in 을 반드시 forms 앞에 둔다.",
+      "explanation": "'~한 형태로 나타나다'는 come in ~ forms로 표현하며 전치사 in을 빠뜨리면 안 된다. 주어가 3인칭 단수 Modern street art이므로 동사는 comes를 쓴다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
         0
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "VOICE_PARTICIPLE",
-      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n오늘, 우리는 런던에 있는 몇몇 유명한 거리 예술 작품을 볼 것이다.\n<조건> 1) be going to 를 사용할 것  2) '유명한'은 well-known 을 사용할 것  3) 지문의 어순을 그대로 따를 것",
-      "answer_key": "Today, we are going to see some well-known street artworks in London.",
-      "explanation": "가까운 미래 계획은 be going to + 동사원형(see)으로 쓴다. '널리 알려진'은 수동의 의미이므로 과거분사형 복합형용사 well-known 을 명사 street artworks 앞에 두어야 하며 well-knowing 은 쓸 수 없다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        2
       ],
       "options": [],
       "_answer_violates_point": []

@@ -3,12 +3,25 @@
   "body_text_sha256": "075fe4aaa303b817e4cde59108c9afe35fcd2806fdc5b83a30edb730c4ef05ac",
   "tags": [
     {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 25,
+      "span_end": 31,
+      "surface": "get to",
+      "sentence_no": 1,
+      "rationale": "'~에 도착하다'는 get to + 장소. 전치사 to를 빈칸으로 뚫거나 for/in 등으로 바꾸거나(EI_PREP_DELETE) 통째로 삭제해 'get the City Library'로 만드는 오류 유도가 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
       "grammar_point_code": "REL_PRON_VS_ADV",
       "span_start": 13,
       "span_end": 28,
       "surface": "how you can get",
       "sentence_no": 1,
-      "rationale": "explain의 목적어인 간접의문문(명사절). 의문부사 how 뒤에는 「주어+동사」 어순이 와야 하므로 how can you get(직접의문문 어순)이나 방법을 뜻하지 못하는 which/that 로 바꿔 오답을 유도할 수 있다.",
+      "rationale": "explain의 목적어인 간접의문문(명사절). 의문부사 how 뒤는 '주어+동사' 어순이므로 'how can you get'으로 뒤집는 어순 오류를 유도할 수 있다. what/that과의 구별도 가능",
       "confidence": "high",
       "applicable_modifications": [
         "BO_WORD_ORDER",
@@ -16,38 +29,25 @@
       ]
     },
     {
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "span_start": 25,
-      "span_end": 48,
-      "surface": "get to the City Library",
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 49,
+      "span_end": 64,
+      "surface": "from the school",
       "sentence_no": 1,
-      "rationale": "「~에 도착하다」는 get to + 장소. 전치사 to를 삭제하거나(get the City Library) in/at으로 바꾸는 오류를 심기 쉽다.",
-      "confidence": "high",
-      "applicable_modifications": [
-        "EI_PREP_DELETE",
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "MOD_COMPARATIVE",
-      "span_start": 66,
-      "span_end": 78,
-      "surface": "The best way",
-      "sentence_no": 2,
-      "rationale": "최상급 the best(good의 최상급) + 단수명사. best/better, the most best 같은 비교급·최상급 혼동 선지를 만들 수 있다.",
+      "rationale": "출발점을 나타내는 from. 'to the City Library ~ from the school'의 to/from 짝을 뒤바꾸거나 of/at으로 교체하는 빈칸 출제가 흔하다",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "CO_SYNONYM"
+        "EI_PREP_DELETE"
       ]
     },
     {
       "grammar_point_code": "VERB_SVA",
-      "span_start": 75,
+      "span_start": 66,
       "span_end": 94,
-      "surface": "way to get there is",
+      "surface": "The best way to get there is",
       "sentence_no": 2,
-      "rationale": "주어는 The best way(단수)이고 to get there는 수식하는 to부정사구. 수식어구에 끌려 are로 바꾸는 수일치 오류를 유도하기 쉽다.",
+      "rationale": "주어 The best way 뒤에 to부정사 수식어(to get there)가 끼어 있어 단수 is를 are로 바꾸는 수일치 오류를 심기 쉬운 자리. best(최상급) 형태도 함께 물을 수 있다",
       "confidence": "high",
       "applicable_modifications": [
         "EI_AGREEMENT",
@@ -55,12 +55,12 @@
       ]
     },
     {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "span_start": 92,
-      "span_end": 110,
-      "surface": "is to take the bus",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 79,
+      "span_end": 91,
+      "surface": "to get there",
       "sentence_no": 2,
-      "rationale": "be동사의 주격보어로 쓰인 to부정사(명사적 용법). is take / is to taking / is took 같은 준동사 형태 오류를 심을 수 있다.",
+      "rationale": "앞의 명사 way를 수식하는 to부정사의 형용사적 용법. getting / get으로 바꾼 형태 오류, 또는 보어 자리 'is to take'와 용법이 같은지 다른지를 묻는 문항으로 확장 가능",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_NONFIN_FORM",
@@ -73,30 +73,30 @@
       "span_end": 177,
       "surface": "it’ll only take about 10 minutes",
       "sentence_no": 3,
-      "rationale": "소요 시간을 나타내는 비인칭 주어 it + take. 앞 문장의 the bus를 가리키는 대명사로 오해해 they’ll로 바꾸거나, 목적어가 남아 있는데 수동태(be taken)로 뒤집는 오답을 만들 수 있다.",
-      "confidence": "high",
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it + take + 시간. it을 that/there로 바꾸거나 '10 minutes will be taken'처럼 수동으로 비틀거나, 의미를 '버스가 10분 후에 온다'로 오해하게 하는 어구추론 자리",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PASSIVE_FORM"
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
       ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "도입 — 글의 목적 제시(도서관 가는 길 안내)",
+      "role": "주제문 (글의 목적 제시 — 도서관 가는 길 안내)",
       "signal": null,
-      "is_blank_candidate": false
+      "is_blank_candidate": true
     },
     {
       "sentence_no": 2,
-      "role": "주제문 — 최선의 이동 수단 제시",
+      "role": "해결책 (최선의 교통수단 제시)",
       "signal": "The best way",
       "is_blank_candidate": true
     },
     {
       "sentence_no": 3,
-      "role": "세부정보 — 버스 번호와 소요 시간 보충",
+      "role": "세부정보 (버스 번호·소요 시간)",
       "signal": "and",
       "is_blank_candidate": false
     }
@@ -106,20 +106,20 @@
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
       "grammar_point_code": "VERB_SVA",
-      "stem": "다음 글의 (a), (b), (c)의 각 네모 안에서 어법상 알맞은 것끼리 짝지은 것은?\n\nI’ll explain (a)[how you can get / how can you get] to the City Library from the school. The best way to get there (b)[is / are] to take the bus. You can take bus No. 2 or 5, and it’ll only (c)[take / be taken] about 10 minutes.",
+      "stem": "위 지문의 (a)~(c)에 들어갈 말이 바르게 짝지어진 것을 고르시오.\n\nI’ll explain how you can get (a)[to / for] the City Library from the school. The best way to get there (b)[is / are] (c)[to take / take] the bus.",
       "answer_key": "①",
-      "explanation": "(a) explain의 목적어인 간접의문문이므로 「의문사+주어+동사」 어순인 how you can get이 맞다. (b) 주어가 단수 The best way이고 to get there는 수식어구이므로 is. (c) 비인칭 주어 it + take + 시간 구문은 뒤에 목적어(about 10 minutes)가 있으므로 수동태 be taken이 올 수 없다. ②는 (a)에서 직접의문문 어순, ③⑤는 (b)에서 수일치, ④는 (c)에서 태가 틀렸다.",
+      "explanation": "(a) '~에 도착하다'는 get to이므로 to. (b) 주어는 The best way(단수)이고 to get there는 way를 수식하는 수식어구일 뿐이므로 is. (c) be동사의 보어 자리에는 to부정사(to take)가 와야 하며 동사원형 take는 올 수 없다. ②는 전치사, ③은 수일치, ④는 본동사/준동사 구별에서 각각 틀렸다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
         0,
         3,
-        5
+        4
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) how you can get — (b) is — (c) take",
+          "body": "(a) to – (b) is – (c) to take",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -127,15 +127,15 @@
         },
         {
           "label": "②",
-          "body": "(a) how can you get — (b) is — (c) take",
+          "body": "(a) for – (b) is – (c) to take",
           "is_answer": false,
-          "violates_point_code": "REL_PRON_VS_ADV",
-          "via_modification": "BO_WORD_ORDER",
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) how you can get — (b) are — (c) take",
+          "body": "(a) to – (b) are – (c) to take",
           "is_answer": false,
           "violates_point_code": "VERB_SVA",
           "via_modification": "EI_AGREEMENT",
@@ -143,43 +143,31 @@
         },
         {
           "label": "④",
-          "body": "(a) how you can get — (b) is — (c) be taken",
+          "body": "(a) to – (b) is – (c) take",
           "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_PASSIVE_FORM",
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "(a) how you can get — (b) are — (c) be taken",
-          "is_answer": false,
-          "violates_point_code": "VERB_SVA",
-          "via_modification": "EI_AGREEMENT",
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "다음 글의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 것은?\n\nI’ll explain ⓐhow you can get ⓑthe City Library from the school. ⓒThe best way to get there ⓓis to take the bus. You can take bus No. 2 or 5, and ⓔit’ll only take about 10 minutes.",
-      "answer_key": "②",
-      "explanation": "「~에 도착하다」는 get to + 장소이므로 ⓑ는 to the City Library가 되어야 한다. ⓐ는 간접의문문의 「의문사+주어+동사」 어순으로 옳고, ⓒ는 good의 최상급 the best, ⓓ는 be동사의 보어로 쓰인 to부정사, ⓔ는 소요 시간을 나타내는 비인칭 주어 it + take 구문으로 모두 옳다.",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "stem": "위 지문의 문장을 옮긴 것 중, 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④는 explain의 목적어인 간접의문문이므로 '의문사 + 주어 + 동사' 어순이어야 한다(how you can get). 의문문 어순 how can you get은 쓸 수 없다. 나머지는 지문 문장 그대로이거나 어법상 문제가 없다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        1,
-        0,
-        2,
-        4,
-        5
+        1
       ],
       "options": [
         {
           "label": "①",
-          "body": "ⓐ how you can get",
+          "body": "I’ll explain how you can get to the City Library from the school.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -187,15 +175,15 @@
         },
         {
           "label": "②",
-          "body": "ⓑ the City Library",
-          "is_answer": true,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "EI_PREP_DELETE",
+          "body": "The best way to get there is to take the bus.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "ⓒ The best way",
+          "body": "You can take bus No. 2 or 5, and it’ll only take about 10 minutes.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -203,39 +191,41 @@
         },
         {
           "label": "④",
-          "body": "ⓓ is to take",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "I’ll explain how can you get to the City Library from the school.",
+          "is_answer": true,
+          "violates_point_code": "REL_PRON_VS_ADV",
+          "via_modification": "BO_WORD_ORDER",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "ⓔ it’ll only take",
+          "body": "The best way to get there is to take bus No. 2 or 5.",
           "is_answer": false,
           "violates_point_code": null,
-          "via_modification": null,
+          "via_modification": "CO_SYNONYM",
           "ordinal": 5
         }
       ],
-      "_answer_violates_point": []
+      "_answer_violates_point": [
+        "④"
+      ]
     },
     {
       "_verbatim_problem": [],
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "다음 글의 밑줄 친 ⓐ~ⓔ 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?\n\nI’ll ⓐexplain how you can get to the City Library from the school. The ⓑlongest way to get there is to ⓒtake the bus. You can take ⓓbus No. 2 or 5, and it’ll only take about 10 ⓔminutes.",
+      "stem": "위 지문의 내용에 비추어 볼 때, 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
       "answer_key": "②",
-      "explanation": "뒤에서 버스로 10분밖에 걸리지 않는다고 했으므로 버스를 타는 것은 '가장 좋은(best)' 방법이다. longest(가장 오래 걸리는)는 문맥에 어긋난다.",
+      "explanation": "글쓴이는 버스를 '가장 좋은' 방법으로 권하고 있으므로 worst(가장 나쁜)는 문맥에 어긋난다. best로 바꿔야 한다. 나머지는 지문 내용과 일치한다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        2
+        3
       ],
       "options": [
         {
           "label": "①",
-          "body": "ⓐ explain",
+          "body": "I’ll explain how you can get to the City Library from the school.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -243,7 +233,7 @@
         },
         {
           "label": "②",
-          "body": "ⓑ longest",
+          "body": "The worst way to get there is to take the bus.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
@@ -251,7 +241,7 @@
         },
         {
           "label": "③",
-          "body": "ⓒ take",
+          "body": "You can take bus No. 2 or 5.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -259,19 +249,11 @@
         },
         {
           "label": "④",
-          "body": "ⓓ bus",
+          "body": "It’ll only take about 10 minutes.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "ⓔ minutes",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
@@ -280,18 +262,19 @@
       "_verbatim_problem": [],
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "다음 글의 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nI’ll explain how you can get to the City Library from the school. The best way to get there is to ______. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.",
+      "stem": "위 지문의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nThe best way to get there is ________.",
       "answer_key": "①",
-      "explanation": "바로 다음 문장에서 'bus No. 2 or 5'를 탈 수 있다고 했으므로 빈칸에는 버스를 타는 것이 최선의 방법이라는 내용이 와야 한다. 지하철·자전거·도보·택시는 글에 언급되지 않았다.",
+      "explanation": "바로 뒤 문장에서 버스 번호(No. 2 or 5)와 소요 시간을 안내하므로 빈칸에는 버스를 타는 것이 최선이라는 내용이 와야 한다. 지하철·자전거·도보는 지문에 언급되지 않았다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
+        3,
         4
       ],
       "options": [
         {
           "label": "①",
-          "body": "take the bus",
+          "body": "to take the bus",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -299,7 +282,7 @@
         },
         {
           "label": "②",
-          "body": "walk along the river",
+          "body": "to walk for an hour",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -307,7 +290,7 @@
         },
         {
           "label": "③",
-          "body": "ride your bike",
+          "body": "to ride a bike to school",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -315,7 +298,7 @@
         },
         {
           "label": "④",
-          "body": "take the subway",
+          "body": "to call your teacher",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -323,7 +306,7 @@
         },
         {
           "label": "⑤",
-          "body": "call a taxi",
+          "body": "to take the subway",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -336,14 +319,12 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 글의 내용과 일치하지 않는 것은?",
-      "answer_key": "⑤",
-      "explanation": "걸어서 걸리는 시간은 글에 전혀 언급되지 않았으므로 ⑤가 일치하지 않는다. ①~④는 각각 첫 문장, 두 번째 문장, 세 번째 문장에서 확인할 수 있다.",
+      "stem": "위 지문의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "지문은 'it’ll only take about 10 minutes'라고 하여 약 10분이 걸린다고 했으므로 한 시간이 걸린다는 ④는 일치하지 않는다. ①②③⑤는 모두 지문에 근거가 있다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        0,
-        4,
         5
       ],
       "options": [
@@ -357,7 +338,7 @@
         },
         {
           "label": "②",
-          "body": "Taking the bus is the best way to get to the library.",
+          "body": "Taking the bus is recommended as the best way.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -373,72 +354,15 @@
         },
         {
           "label": "④",
-          "body": "The bus ride takes about ten minutes.",
-          "is_answer": false,
+          "body": "The bus ride takes about an hour.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "It takes more than an hour to walk to the library.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "위 글의 주제로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "글은 학교에서 시립 도서관까지 버스를 이용해 가는 방법과 소요 시간을 안내하고 있으므로 ①이 주제이다. 도서관의 장점, 요금, 학교 버스 규칙, 대출 도서는 언급되지 않았다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        0,
-        4
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "how to get to the City Library by bus",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "why the City Library is a good place to study",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "the cheapest way to travel around the city",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "rules for using the school bus",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "books you can borrow from the City Library",
+          "body": "The trip by bus takes only about ten minutes.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -451,9 +375,9 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": "IT_CLEFT",
-      "stem": "위 글의 밑줄 친 it’ll only take about 10 minutes 가 뜻하는 바로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "「it takes + 시간」은 어떤 일에 시간이 얼마나 걸리는지를 나타내는 비인칭 주어 구문이다. 앞에서 버스 2번이나 5번을 타라고 했으므로 버스 이동 시간이 약 10분이라는 뜻이다. 배차 간격·대기 시간·도보 시간과는 무관하다.",
+      "stem": "위 지문의 밑줄 친 it’ll only take about 10 minutes 가 뜻하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "여기서 it은 시간을 나타내는 비인칭 주어이고 'take + 시간'은 '(시간이) 걸리다'라는 뜻이므로, 버스로 이동하는 데 약 10분이 걸린다는 의미다. 배차 간격·대기 시간·체류 시간과는 관계없다.",
       "difficulty": "medium",
       "option_lang": "ko",
       "source_tags": [
@@ -462,23 +386,23 @@
       "options": [
         {
           "label": "①",
-          "body": "버스를 타고 가면 10분 정도면 도착할 만큼 가깝다는 뜻이다.",
-          "is_answer": true,
+          "body": "버스는 10분마다 한 대씩 온다.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "버스가 10분마다 한 대씩 온다는 뜻이다.",
-          "is_answer": false,
+          "body": "버스로 도서관까지 가는 데 약 10분밖에 걸리지 않는다.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "버스를 10분 이상 기다려야 한다는 뜻이다.",
+          "body": "10분 뒤에 버스를 타야 한다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -486,65 +410,93 @@
         },
         {
           "label": "④",
-          "body": "도서관이 10분 후에 문을 닫는다는 뜻이다.",
+          "body": "도서관에서 10분 동안만 머물 수 있다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "걸어서 가면 10분밖에 걸리지 않는다는 뜻이다.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "REL_PRON_VS_ADV",
-      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오.\n\n우리말: 학교에서 시립 도서관까지 네가 어떻게 갈 수 있는지 설명해 줄게.\n단어: (can / explain / get / how / I’ll / you) to the City Library from the school.",
-      "answer_key": "I’ll explain how you can get to the City Library from the school.",
-      "explanation": "explain의 목적어로 간접의문문이 오므로 「의문사(how) + 주어(you) + 조동사(can) + 동사(get)」 어순으로 쓴다. how can you get처럼 직접의문문 어순으로 쓰지 않도록 주의한다.",
-      "difficulty": "medium",
-      "option_lang": "na",
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 지문의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "글쓴이는 학교에서 시립 도서관까지 가는 길을 설명하며 버스를 이용하는 방법과 소요 시간을 안내하고 있다. 도서관의 인기·책 추천·버스 문제점은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
       "source_tags": [
-        0,
-        1
+        1,
+        3
       ],
-      "options": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "how to get to the City Library by bus",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "why the City Library is popular with students",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best books to borrow from the library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the problems of the city bus system",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
       "grammar_point_code": "VERB_SVA",
-      "stem": "다음은 위 글의 두 번째 문장을 바꿔 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nThe best way to get there are to take the bus.",
+      "stem": "다음은 위 지문의 문장을 옮긴 것이다. 어법상 틀린 한 곳을 찾아 바르게 고쳐 쓰시오.\n\nThe best way to get there are to take the bus.",
       "answer_key": "are → is",
-      "explanation": "주어는 단수명사 The best way이고 to get there는 주어를 수식하는 to부정사구이므로 동사는 is가 되어야 한다. 수식어구의 there나 앞의 복수 느낌에 끌려 are를 쓰지 않도록 한다.",
+      "explanation": "주어는 단수 명사 The best way이고 to get there는 way를 수식하는 to부정사(형용사적 용법)일 뿐이므로 동사는 단수형 is가 되어야 한다. 주어 뒤 수식어구에 이끌려 복수 동사를 쓰지 않도록 주의한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        3
+        3,
+        4
       ],
       "options": [],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "위 글의 내용과 일치하도록 <조건>에 맞게 문장을 완성하시오.\n\n<조건> 1) 비인칭 주어 it과 동사 take를 사용할 것  2) about 10 minutes를 사용할 것  3) 6단어로 쓸 것\n\nIf you take bus No. 2, ______________________.",
-      "answer_key": "it will only take about 10 minutes (또는 it takes about 10 minutes by bus)",
-      "explanation": "소요 시간은 「it + take + 시간」의 비인칭 주어 구문으로 나타낸다. 목적어(about 10 minutes)가 있으므로 be taken 같은 수동태는 쓸 수 없고, they will take처럼 버스를 주어로 받아서도 안 된다.",
-      "difficulty": "hard",
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하시오.\n\n학교에서 시립 도서관까지 네가 어떻게 갈 수 있는지 설명해 줄게.\n( how / you / can / get / explain / to the City Library / from the school / I’ll )",
+      "answer_key": "I’ll explain how you can get to the City Library from the school.",
+      "explanation": "explain의 목적어로 간접의문문이 오므로 '의문사(how) + 주어(you) + 동사(can get)' 어순을 지켜야 한다. '~에 도착하다'는 get to이므로 to the City Library, 출발점은 from the school로 뒤에 붙인다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        5
+        1,
+        0,
+        2
       ],
       "options": [],
       "_answer_violates_point": []
@@ -556,8 +508,8 @@
     "tags_kept": 6,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 10,
-    "items_kept": 10,
+    "items_returned": 9,
+    "items_kept": 9,
     "item_rejects": [],
     "verbatim_problems": []
   }

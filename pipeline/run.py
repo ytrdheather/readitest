@@ -106,6 +106,19 @@ def cmd_pass_a(args):
     # 이미 태그가 붙은 지문은 기본으로 건너뛴다. 다시 돌리면 같은 지문에 태그가 두 벌
     # 쌓이는데, 그러면 커버리지·과잉률이 조용히 두 배로 잡힌다. 일부러 다시 하려면
     # --retag 를 붙인다.
+    # --retag 를 붙여도 **검수를 거친 태그가 있는 지문은 건너뛴다.** approved 태그에는
+    # 문항·예상지점이 걸려 있고(on delete cascade), 다시 만들면 그 이력이 끊긴다.
+    # 다시 하려면 그 지문만 따로 지목해야 한다 — 실수로 지나가지 않게.
+    if passages:
+        appr = {t["passage_id"] for t in rest.get("/passage_tag?select=passage_id,status")
+                if t["status"] == "approved"}
+        locked = [p for p in passages if p.get("id") in appr]
+        if locked:
+            passages = [p for p in passages if p.get("id") not in appr]
+            print(f"[잠김] 검수 완료 태그가 있는 지문 {len(locked)}개 — "
+                  f"{', '.join(p['title'] for p in locked)}")
+            print("       문항이 참조하므로 다시 만들지 않는다\n")
+
     if passages and not args.retag:
         tagged = {t["passage_id"] for t in rest.get("/passage_tag?select=passage_id")}
         before = len(passages)

@@ -5,14 +5,27 @@
     {
       "grammar_point_code": "VERB_TENSE",
       "span_start": 14,
-      "span_end": 50,
-      "surface": "I’m going to the National Art Museum",
+      "span_end": 26,
+      "surface": "I’m going to",
       "sentence_no": 2,
-      "rationale": "현재진행형이 가까운 미래(예정)를 나타내는 자리. will go / go / am going 중 고르게 하거나, 진행형 be동사를 빠뜨린 'I going to' 형태로 오류를 심을 수 있다.",
+      "rationale": "현재진행형이 가까운 미래(예정)를 나타내는 자리. am going / will go / go 형태 혼동을 유도할 수 있고, be동사 수일치(I am vs I are) 오류도 심을 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_GERUND_TO_VERB"
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 24,
+      "span_end": 50,
+      "surface": "to the National Art Museum",
+      "sentence_no": 2,
+      "rationale": "go + to + 장소명사. 전치사 to를 삭제하거나(go the museum) in/for로 바꾸는 빈칸 출제가 매우 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -21,20 +34,20 @@
       "span_end": 71,
       "surface": "the best way",
       "sentence_no": 3,
-      "rationale": "최상급 앞의 정관사 the. 'a best way' 또는 비교급 'the better way'로 바꿔 오답을 만들기 쉬운 자리.",
-      "confidence": "medium",
+      "rationale": "good의 최상급 best + 정관사 the. better(비교급)나 most best 같은 이중 최상급 오류를 유도할 수 있다.",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "CO_SYNONYM"
       ]
     },
     {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
       "span_start": 72,
       "span_end": 84,
       "surface": "to get there",
       "sentence_no": 3,
-      "rationale": "way를 뒤에서 수식하는 to부정사의 형용사적 용법. getting there / get there 와 구별시키는 전형적 출제 지점.",
+      "rationale": "앞의 명사 way를 수식하는 형용사적 용법의 to부정사. getting / get / for getting 등과 구별시키는 어형 선택 문항으로 나오기 쉽다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -47,11 +60,11 @@
       "span_end": 101,
       "surface": "can walk",
       "sentence_no": 4,
-      "rationale": "조동사 can 뒤 동사원형. can walking / can to walk 형태 오류 또는 must/have to와의 의미 구별로 물을 수 있다.",
+      "rationale": "조동사 can 뒤에는 동사원형. can to walk / can walking 같은 형태 오류를 심는 대표 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "CO_SYNONYM"
+        "EI_NONFIN_FORM"
       ]
     },
     {
@@ -60,11 +73,11 @@
       "span_end": 114,
       "surface": "Go straight",
       "sentence_no": 5,
-      "rationale": "straight는 그 자체로 부사. 'go straightly'처럼 -ly를 붙인 형태로 오류를 유도할 수 있다.",
-      "confidence": "medium",
+      "rationale": "straight는 형태 변화 없이 부사로 쓰인다. straightly로 바꾸는 형용사↔부사 교체 오류가 자주 출제된다.",
+      "confidence": "high",
       "applicable_modifications": [
-        "EI_ADJ_TO_ADV",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
       ]
     },
     {
@@ -73,8 +86,8 @@
       "span_end": 135,
       "surface": "for about 500 meters",
       "sentence_no": 5,
-      "rationale": "거리·기간을 나타내는 전치사 for. during/in 으로 바꾸거나 전치사를 통째로 삭제하는 변형이 가능한 빈칸 1순위 자리.",
-      "confidence": "high",
+      "rationale": "거리·기간을 나타내는 전치사 for. during/in/at 등으로 바꾸거나 삭제하는 빈칸 출제 지점.",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_PREP_DELETE"
@@ -86,10 +99,22 @@
       "span_end": 149,
       "surface": "and turn left",
       "sentence_no": 5,
-      "rationale": "명령문 Go ~ and turn ~ 의 병렬. 'and turning left' / 'and turns left'로 병렬을 깨는 오답을 만들기 쉽다.",
+      "rationale": "Go ~ and turn ~ 로 명령문 두 개가 and로 병렬. turns / turning / to turn 으로 바꿔 병렬을 깨는 오류를 심을 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 151,
+      "span_end": 159,
+      "surface": "It’ll be",
+      "sentence_no": 6,
+      "rationale": "It’ll = It will (대명사+조동사 축약)로 앞의 the museum을 가리킨다. 소유격 Its나 3인칭 수일치(It’ll be vs It’s will) 혼동을 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
         "BO_FORM_CHOICE"
       ]
     },
@@ -99,7 +124,7 @@
       "span_end": 173,
       "surface": "on your right",
       "sentence_no": 6,
-      "rationale": "위치를 나타내는 관용 전치사구 on one's right. in/at your right 로 바꾼 오답이 자주 출제된다.",
+      "rationale": "방향을 나타내는 굳어진 부사구 on your right. in/at/to로 바꾸는 전치사 빈칸이 전형적으로 뚫리는 자리.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -107,27 +132,29 @@
       ]
     },
     {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 151,
-      "span_end": 159,
-      "surface": "It’ll be",
-      "sentence_no": 6,
-      "rationale": "길 안내에서 앞으로의 상황을 말하는 미래시제 will. 현재시제 is 나 was 로 바꾸면 문맥상 부자연스러워지는 자리.",
-      "confidence": "low",
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 185,
+      "span_end": 206,
+      "surface": "How long will it take",
+      "sentence_no": 8,
+      "rationale": "소요 시간을 묻는 비인칭 주어 it. 지시대명사 it(사물)과 구별시키거나 there/this로 바꾸는 오류를 심을 수 있다.",
+      "confidence": "medium",
       "applicable_modifications": [
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
       ]
     },
     {
-      "grammar_point_code": "IT_CLEFT",
-      "span_start": 185,
-      "span_end": 207,
-      "surface": "How long will it take?",
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 194,
+      "span_end": 206,
+      "surface": "will it take",
       "sentence_no": 8,
-      "rationale": "소요 시간을 묻는 비인칭 주어 it. 'How long will there take / How long does it takes' 같은 오류나 it 대신 there 를 넣은 선지로 물을 수 있다.",
+      "rationale": "미래 조동사 will 뒤 동사원형 + 의문문 어순(will + 주어 + 동사원형). takes / took / taking 으로 바꾸는 형태·시제 오류 출제 지점.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
+        "EI_AGREEMENT",
         "BO_WORD_ORDER"
       ]
     }
@@ -136,91 +163,91 @@
     {
       "sentence_no": 1,
       "role": "대화 시작(주의 환기)",
-      "signal": "Excuse me",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 2,
-      "role": "상황 제시 — 목적지 밝힘",
+      "role": "목적 진술(상황 제시)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "도입질문 — 대화의 핵심 요청",
-      "signal": "What’s the best way",
+      "role": "도입질문(대화의 핵심 요청)",
+      "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 4,
-      "role": "해결책 — 이동 수단 제시",
+      "role": "해결책 제시(핵심 답변)",
       "signal": null,
-      "is_blank_candidate": false
+      "is_blank_candidate": true
     },
     {
       "sentence_no": 5,
-      "role": "세부 안내 — 구체적 경로",
+      "role": "세부 지시(길 안내 1)",
       "signal": "and",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "세부 안내 — 최종 위치",
+      "role": "세부 지시(길 안내 2 · 위치 확인)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "이해 표시(호응)",
-      "signal": "I see",
+      "role": "이해 반응",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 8,
-      "role": "추가 질문 — 소요 시간",
-      "signal": "How long",
+      "role": "추가 질문(소요 시간)",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 9,
-      "role": "응답 — 소요 시간 정보",
+      "role": "세부 정보 답변",
       "signal": "Only",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 10,
       "role": "반응(놀람)",
-      "signal": "Really",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 11,
-      "role": "대화 마무리 — 감사",
-      "signal": "Thanks",
+      "role": "대화 마무리(감사)",
+      "signal": null,
       "is_blank_candidate": false
     }
   ],
   "items": [
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "question_type_code": "T-GRAMMAR-INLINE",
       "grammar_point_code": "CONJ_PARALLEL",
-      "stem": "위 대화의 문장을 옮긴 것이다. 어법상 틀린 것은?",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 틀린 것을 고르시오.",
       "answer_key": "③",
-      "explanation": "③ 명령문 Go ~ and (        ) ~ 구조이므로 and 뒤에도 동사원형 turn 이 와야 한다. turns 는 3인칭 단수 현재형으로 명령문 병렬이 깨진다. ①은 way를 수식하는 to부정사 형용사적 용법, ②는 조동사 can+동사원형, ④는 미래 will+위치 전치사구 on your right, ⑤는 소요 시간을 묻는 비인칭 주어 it 으로 모두 옳다.",
-      "difficulty": "easy",
+      "explanation": "③은 명령문 Go와 and로 연결된 두 번째 명령문이므로 동사원형 turn이 와야 한다. turns로 쓰면 병렬구조가 깨진다. ①의 be going to는 예정을 나타내는 현재진행, ②의 the best way to get there는 최상급+형용사적 용법 to부정사, ④의 It’ll be on your right는 방향 전치사구, ⑤의 will it take는 미래 의문문 어순으로 모두 옳다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        6,
-        2,
-        3,
         7,
-        8
+        0,
+        2,
+        9,
+        11
       ],
       "options": [
         {
           "label": "①",
-          "body": "What’s the best way to get there?",
+          "body": "I’m going to the National Art Museum.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -228,7 +255,7 @@
         },
         {
           "label": "②",
-          "body": "You can walk.",
+          "body": "What’s the best way to get there?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -259,28 +286,26 @@
           "ordinal": 5
         }
       ],
-      "_answer_violates_point": [
-        "③"
-      ]
+      "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\nB: What’s the best way (a)[to get / getting] there?\nG: Go straight for about 500 meters and (b)[turn / turning] left.\nB: How long will (c)[it / there] take?",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nG: Go (a)[straight / straightly] for about 500 meters and turn left. It’ll be (b)[on / in] your right.\nB: I see. How long will it (c)[take / takes / taking]?",
       "answer_key": "①",
-      "explanation": "(a) way 를 뒤에서 수식하는 to부정사 to get 이 맞다. (b) 앞의 Go 와 and 로 연결된 명령문이므로 동사원형 turn. (c) 소요 시간을 나타낼 때는 비인칭 주어 it 을 쓴다(There takes ~ 는 불가). 따라서 ①.",
+      "explanation": "(a) straight는 그 자체가 '똑바로'라는 부사여서 -ly를 붙이지 않는다. (b) 방향을 말할 때는 on your right로 굳어져 있으므로 in은 쓰지 않는다. (c) 조동사 will 뒤에는 동사원형 take가 와야 하므로 takes·taking은 불가능하다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        2,
-        6,
-        8
+        5,
+        9,
+        11
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) to get — (b) turn — (c) it",
+          "body": "(a) straight — (b) on — (c) take",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -288,86 +313,102 @@
         },
         {
           "label": "②",
-          "body": "(a) getting — (b) turn — (c) it",
+          "body": "(a) straightly — (b) on — (c) take",
           "is_answer": false,
-          "violates_point_code": "NONFIN_TO_VS_GERUND",
-          "via_modification": "EI_NONFIN_FORM",
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) to get — (b) turning — (c) it",
+          "body": "(a) straight — (b) in — (c) take",
           "is_answer": false,
-          "violates_point_code": "CONJ_PARALLEL",
-          "via_modification": "EI_PARALLEL_BREAK",
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) to get — (b) turn — (c) there",
+          "body": "(a) straight — (b) on — (c) takes",
           "is_answer": false,
-          "violates_point_code": "IT_CLEFT",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_AGREEMENT",
           "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) straight — (b) on — (c) taking",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "(a) straightly — (b) in — (c) takes",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 6
         }
       ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-INLINE",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
       "grammar_point_code": "PREP_USAGE",
-      "stem": "밑줄 친 (a)~(e) 중 어법상 틀린 것끼리 짝지은 것은?\nB: (a)I’m going to the National Art Museum. What’s (b)the best way getting there?\nG: You (c)can walk. Go straight (d)for about 500 meters and turn left. It’ll be (e)in your right.",
-      "answer_key": "②",
-      "explanation": "(b) the best way getting there → the best way to get there. way 를 수식할 때는 to부정사를 쓴다. (e) in your right → on your right. 위치를 말할 때는 on one's right 가 관용 표현이다. (a) 현재진행형이 가까운 미래를 나타내는 옳은 쓰임, (c) can+동사원형, (d) 거리를 나타내는 for 는 모두 어법상 맞다.",
-      "difficulty": "medium",
+      "stem": "위 대화의 문장을 바탕으로 만든 다음 중, 어법상 옳은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④는 본문 그대로의 올바른 문장이다. ①은 go 뒤 장소 앞에 전치사 to가 필요하고, ②는 most best처럼 최상급을 겹쳐 쓸 수 없으며, ③은 조동사 can 뒤에 동사원형 walk가 와야 하고, ⑤는 will 뒤에 원형 take가 와야 한다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
+        1,
         2,
-        7,
-        0,
-        3,
-        5
+        4,
+        9,
+        11
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a), (b)",
+          "body": "I’m going the National Art Museum.",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_PREP_DELETE",
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "(b), (e)",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "What’s the most best way to get there?",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a), (d)",
+          "body": "You can to walk.",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(c), (e)",
-          "is_answer": false,
+          "body": "It’ll be on your right.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "(b), (d)",
+          "body": "How long will it took?",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 5
         }
       ],
@@ -377,19 +418,18 @@
       "_verbatim_problem": [],
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "밑줄 친 낱말의 쓰임이 문맥상 적절하지 않은 것은?",
+      "stem": "다음은 위 대화를 다시 옮긴 것이다. 밑줄 친 낱말(구) 중 문맥상 적절하지 않은 것을 고르시오.\nB: What’s the ⓐbest way to get there? / G: You can ⓑwalk. Go straight for about 500 meters and ⓒturn left. It’ll be ⓓon your right. / B: ⓔHow far will it take? / G: Only about 15 minutes.",
       "answer_key": "⑤",
-      "explanation": "⑤ How long will it take? 는 걸리는 '시간'을 묻는 말이므로 답에는 minutes 같은 시간 단위가 와야 한다. 거리 단위 meters 는 문맥에 맞지 않는다. 나머지는 목적지·최상급 표현·직진 안내·위치 표현으로 모두 자연스럽다.",
-      "difficulty": "easy",
+      "explanation": "뒤에서 여자가 'Only about 15 minutes.'라고 시간을 답하고 있으므로, 거리를 묻는 How far가 아니라 소요 시간을 묻는 How long이 와야 문맥에 맞다. 나머지는 길 안내 흐름과 모두 일치한다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        8,
-        5
+        10
       ],
       "options": [
         {
           "label": "①",
-          "body": "I’m going to the National Art Museum. (museum)",
+          "body": "ⓐ best",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -397,7 +437,7 @@
         },
         {
           "label": "②",
-          "body": "What’s the best way to get there? (best)",
+          "body": "ⓑ walk",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -405,7 +445,7 @@
         },
         {
           "label": "③",
-          "body": "Go straight for about 500 meters and turn left. (straight)",
+          "body": "ⓒ turn left",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -413,7 +453,7 @@
         },
         {
           "label": "④",
-          "body": "It’ll be on your right. (right)",
+          "body": "ⓓ on your right",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -421,11 +461,19 @@
         },
         {
           "label": "⑤",
-          "body": "How long will it take? — Only about 15 meters. (meters)",
+          "body": "ⓔ How far will it take?",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
           "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "틀린 것이 없다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
         }
       ],
       "_answer_violates_point": []
@@ -434,19 +482,19 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "밑줄 친 It’ll be on your right. 가 뜻하는 바로 가장 알맞은 것은?",
+      "stem": "밑줄 친 It’ll be on your right.가 뜻하는 것으로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "앞 문장에서 '500m 직진 후 좌회전'이라고 안내했고, It 은 the National Art Museum 을 가리킨다. 따라서 그 길을 따라가면 미술관이 오른편에 보일 것이라는 뜻이다.",
+      "explanation": "It은 앞에서 언급된 the National Art Museum을 가리키고, on your right는 '너의 오른편에'라는 위치를 나타낸다. 앞 문장에서 500미터 직진 후 좌회전하라고 했으므로 그 뒤 오른편에 미술관이 있다는 뜻이다.",
       "difficulty": "easy",
       "option_lang": "ko",
       "source_tags": [
-        7,
-        6
+        8,
+        9
       ],
       "options": [
         {
           "label": "①",
-          "body": "500m 직진 후 왼쪽으로 돌면 미술관이 오른편에 있을 것이다.",
+          "body": "왼쪽으로 돈 다음 오른편에 미술관이 보일 것이다.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -454,7 +502,7 @@
         },
         {
           "label": "②",
-          "body": "오른쪽으로 돌면 버스 정류장이 나올 것이다.",
+          "body": "오른쪽으로 500미터를 더 걸어가야 한다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -462,7 +510,7 @@
         },
         {
           "label": "③",
-          "body": "미술관은 오른쪽 길로만 갈 수 있다.",
+          "body": "오른쪽 길이 미술관으로 가는 더 빠른 길이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -470,7 +518,7 @@
         },
         {
           "label": "④",
-          "body": "오른쪽으로 500m 더 걸어가야 한다.",
+          "body": "미술관은 오른쪽으로 옮겨질 예정이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -478,7 +526,7 @@
         },
         {
           "label": "⑤",
-          "body": "미술관이 오른편에 새로 지어질 예정이다.",
+          "body": "오른쪽에서 표를 살 수 있다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -491,19 +539,19 @@
       "_verbatim_problem": [],
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "What is the boy mainly asking about?",
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "소년은 What’s the best way to get there? 로 길을, How long will it take? 로 소요 시간을 묻고 있다. 표 값·버스·개관 시간·식당은 대화에 없다.",
+      "explanation": "소년이 미술관에 가는 가장 좋은 길을 묻고 소녀가 직진·좌회전·소요 시간을 알려 주는 내용이므로 ①이 주제다. 표 구입, 교통수단 비교, 그림 소개, 함께 방문 계획은 대화에 없다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        1,
-        8
+        2,
+        7
       ],
       "options": [
         {
           "label": "①",
-          "body": "The way to the museum and how long it takes",
+          "body": "asking for and giving directions to a museum",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -511,7 +559,7 @@
         },
         {
           "label": "②",
-          "body": "The price of the museum tickets",
+          "body": "buying tickets for an art exhibition",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -519,7 +567,7 @@
         },
         {
           "label": "③",
-          "body": "The best bus to take downtown",
+          "body": "choosing between a bus and a subway",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -527,7 +575,7 @@
         },
         {
           "label": "④",
-          "body": "The opening hours of the art museum",
+          "body": "introducing famous paintings in a museum",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -535,7 +583,7 @@
         },
         {
           "label": "⑤",
-          "body": "A good place to eat near the museum",
+          "body": "making plans to visit a museum together",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -548,19 +596,20 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것은?",
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "소녀가 You can walk. 라고 했으므로 ①이 일치한다. ② 지하철 언급 없음, ③ 좌회전 후 미술관은 오른편(on your right), ④ 약 15분, ⑤ 소녀가 함께 간다는 말은 없다.",
+      "explanation": "소녀는 걸어갈 수 있다고 하며 약 15분이 걸린다고 답했으므로 ①이 맞다. ②는 버스 언급이 없고, ③은 좌회전(turn left)이며, ④는 오른편(on your right)이고, ⑤는 소녀가 길을 정확히 안내하므로 틀리다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        3,
-        7
+        4,
+        7,
+        9
       ],
       "options": [
         {
           "label": "①",
-          "body": "The boy can walk to the National Art Museum.",
+          "body": "The boy can get to the museum on foot in about 15 minutes.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -568,7 +617,7 @@
         },
         {
           "label": "②",
-          "body": "The boy has to take the subway to the museum.",
+          "body": "The girl tells the boy to take a bus for 500 meters.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -576,7 +625,7 @@
         },
         {
           "label": "③",
-          "body": "The museum will be on the boy’s left.",
+          "body": "The boy has to turn right after walking 500 meters.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -584,7 +633,7 @@
         },
         {
           "label": "④",
-          "body": "It will take about 50 minutes to get there.",
+          "body": "The museum is on the boy’s left after he turns.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -592,7 +641,7 @@
         },
         {
           "label": "⑤",
-          "body": "The girl is also going to the museum.",
+          "body": "The girl does not know where the museum is.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -603,16 +652,16 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 바르게 배열한 것은?\n거기에 가는 가장 좋은 방법은 무엇인가요?\n(way / to / the / get / best / there / What’s)",
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nB: Excuse me. I’m going to the National Art Museum. ______________\nG: You can walk. Go straight for about 500 meters and turn left. It’ll be on your right.",
       "answer_key": "①",
-      "explanation": "최상급 the best 가 명사 way 앞에 오고, way 를 뒤에서 수식하는 to부정사 to get there 가 이어진다. 따라서 What’s the best way to get there? 가 옳다.",
-      "difficulty": "medium",
-      "option_lang": "na",
+      "explanation": "빈칸 뒤에서 소녀가 걸어가는 방법과 길을 안내하므로, 빈칸에는 가는 방법(길)을 묻는 말이 와야 한다. 가격·폐관 시간·동행자·함께 가자는 제안은 뒤 답변과 연결되지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
       "source_tags": [
-        1,
-        2
+        2,
+        3
       ],
       "options": [
         {
@@ -625,57 +674,82 @@
         },
         {
           "label": "②",
-          "body": "What’s the way best to get there?",
+          "body": "How much does the ticket cost?",
           "is_answer": false,
-          "violates_point_code": "MOD_COMPARATIVE",
-          "via_modification": "BO_WORD_ORDER",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "What’s the best to get way there?",
+          "body": "When does the museum close?",
           "is_answer": false,
-          "violates_point_code": "NONFIN_TO_VS_GERUND",
-          "via_modification": "BO_WORD_ORDER",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "What’s the best way there to get?",
+          "body": "Who is going there with you?",
           "is_answer": false,
-          "violates_point_code": "MOD_POSTPOSITIVE",
-          "via_modification": "BO_WORD_ORDER",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Why don’t you visit the museum with me?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "CONJ_PARALLEL",
-      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 한 단어로 바르게 고쳐 쓰시오.\nGo straight for about 500 meters and turning left.",
-      "answer_key": "turning → turn",
-      "explanation": "and 로 연결된 두 명령문은 형태가 같아야 한다. 앞이 동사원형 Go 이므로 뒤도 동사원형 turn 을 써야 병렬이 맞는다.",
-      "difficulty": "easy",
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "다음 우리말과 같은 뜻이 되도록, 주어진 단어를 모두 사용하여 영어로 쓰시오. (5단어)\n우리말: (거기까지) 얼마나 오래 걸릴까요?\n주어진 단어: it / long / will / how / take",
+      "answer_key": "How long will it take?",
+      "explanation": "소요 시간을 묻는 표현은 비인칭 주어 it과 동사 take를 쓴다. 의문사구 How long을 맨 앞에 두고 will + 주어(it) + 동사원형(take) 어순으로 배열한다. takes·took은 will 뒤에 올 수 없다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        6
+        10,
+        11
       ],
       "options": [],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "다음 조건에 맞게 우리말을 영작하시오.\n[우리말] (거기까지) 얼마나 걸릴까요?\n[조건 1] how long, will, take 를 모두 사용할 것\n[조건 2] 비인칭 주어 it 을 사용할 것\n[조건 3] 4단어로 쓰고 물음표로 끝낼 것",
-      "answer_key": "How long will it take?",
-      "explanation": "소요 시간을 물을 때는 비인칭 주어 it 과 동사 take 를 쓴다. 의문사 How long 뒤에 조동사 will + 주어 it + 동사원형 take 순서로 배열한다.",
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 문장에서 어법상 틀린 부분 한 군데를 찾아 바르게 고쳐 쓰시오.\nGo straightly for about 500 meters and turn left.",
+      "answer_key": "straightly → straight",
+      "explanation": "straight는 형태를 바꾸지 않고 그대로 '똑바로'라는 부사로 쓰이는 낱말이므로 -ly를 붙이지 않는다. 나머지 for(거리), and turn(명령문 병렬)은 모두 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        8
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 바르게 배열하시오.\n우리말: 거기에 가는 가장 좋은 방법은 무엇인가요?\n주어진 말: (way / the / to / What’s / there / best / get)",
+      "answer_key": "What’s the best way to get there?",
+      "explanation": "의문사 What’s 다음에 최상급 표현 the best way를 놓고, 그 명사 way를 뒤에서 수식하는 형용사적 용법의 to부정사 to get there를 붙인다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
       ],
       "options": [],
       "_answer_violates_point": []
@@ -683,12 +757,12 @@
   ],
   "diagnostics": {
     "sentence_count": 11,
-    "tags_returned": 10,
-    "tags_kept": 10,
+    "tags_returned": 12,
+    "tags_kept": 12,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 10,
-    "items_kept": 10,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": [],
     "verbatim_problems": []
   }

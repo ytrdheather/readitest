@@ -8,21 +8,34 @@
       "span_end": 20,
       "surface": "was born",
       "sentence_no": 1,
-      "rationale": "bear의 수동형 be born(태어나다). born 앞의 be동사 누락(Kim Mandeok born ~)이나 was boring/was borned 같은 형태 오류를 유도할 수 있다.",
+      "rationale": "be born(태어나다)은 항상 수동형으로 쓰이는 관용 표현. bore / borning / was bearing 같은 능동·형태 오류를 심어 물을 수 있고, 반대로 'born'만 남기고 be동사를 빼는 변형도 가능하다.",
       "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
         "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE",
         "EI_STRUCT_DELETE"
       ]
     },
     {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 49,
+      "span_end": 75,
+      "surface": "a successful businesswoman",
+      "sentence_no": 2,
+      "rationale": "명사 businesswoman을 수식하는 자리이므로 형용사 successful. successfully(부사)로 바꾼 선지를 내기 쉬운 전형적 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
       "grammar_point_code": "PREP_USAGE",
-      "span_start": 21,
-      "span_end": 31,
-      "surface": "in Jeju-do",
-      "sentence_no": 1,
-      "rationale": "넓은 장소 앞의 전치사 in. at/on Jeju-do 와 구별하는 빈칸 출제가 쉽다.",
+      "span_start": 77,
+      "span_end": 84,
+      "surface": "In 1795",
+      "sentence_no": 3,
+      "rationale": "연도 앞에는 in, 특정 날짜 앞에는 on. 'On 1795 / At 1795'로 바꾼 빈칸 선지가 자주 나온다. 굳어진 시간 부사구라 전치사를 놓치기 쉬운 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -30,26 +43,26 @@
       ]
     },
     {
-      "grammar_point_code": "VOICE_PARTICIPLE",
-      "span_start": 106,
-      "span_end": 123,
-      "surface": "dying from hunger",
+      "grammar_point_code": "PERCEPTION_VERB_OC",
+      "span_start": 90,
+      "span_end": 111,
+      "surface": "saw many people dying",
       "sentence_no": 3,
-      "rationale": "지각동사 saw + 목적어(many people) + 현재분사(능동·진행). died / to die / to dying 과 구별하는 대표 출제 지점.",
+      "rationale": "지각동사 see + 목적어 + 현재분사(진행·능동). to die / to dying 같은 to부정사형이나 died(과거형)로 바꾼 오답을 만들기 좋다.",
       "confidence": "high",
       "applicable_modifications": [
+        "EI_NONFIN_FORM",
         "BO_FORM_CHOICE",
-        "EI_PARTICIPLE_FLIP",
-        "EI_NONFIN_FORM"
+        "EI_PARTICIPLE_FLIP"
       ]
     },
     {
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "span_start": 112,
+      "span_start": 106,
       "span_end": 123,
-      "surface": "from hunger",
+      "surface": "dying from hunger",
       "sentence_no": 3,
-      "rationale": "die from(간접 원인)의 고정 전치사. die of/by/with 로 바꾸거나 전치사를 삭제하는 오류를 심을 수 있다.",
+      "rationale": "die from/of ~로 죽다. die by / die with 로 바꾸거나 전치사를 삭제하는 변형이 가능하다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -62,8 +75,8 @@
       "span_end": 163,
       "surface": "with all her money",
       "sentence_no": 4,
-      "rationale": "수단·도구를 나타내는 with. by/for/of 로 바꾼 선지가 빈칸으로 자주 나온다.",
-      "confidence": "medium",
+      "rationale": "수단·도구를 나타내는 with. for/by/in 으로 바꾼 선지를 만들기 쉬운 빈칸 자리.",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_PREP_DELETE"
@@ -71,14 +84,15 @@
     },
     {
       "grammar_point_code": "CONJ_PARALLEL",
-      "span_start": 133,
-      "span_end": 180,
-      "surface": "bought rice with all her money and gave it away",
+      "span_start": 164,
+      "span_end": 195,
+      "surface": "and gave it away to poor people",
       "sentence_no": 4,
-      "rationale": "and로 연결된 과거동사 bought와 gave의 병렬. gives / giving 으로 바꿔 병렬을 깨는 오류를 유도할 수 있다.",
+      "rationale": "등위접속사 and로 bought와 gave가 병렬. giving / gives 로 바꿔 병렬을 깨는 오답이 전형적이다. 또한 give it away to 처럼 대명사 목적어는 away 앞에 오는 어순도 함께 확인 가능.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT",
         "BO_WORD_ORDER"
       ]
     },
@@ -88,11 +102,11 @@
       "span_end": 237,
       "surface": "so selfless that",
       "sentence_no": 5,
-      "rationale": "so + 형용사 + that 구문. 형용사 단독 앞이므로 such 는 불가. such selfless that / so selfless as to 형태와 구별.",
+      "rationale": "so + 형용사 + that절(너무 ~해서 ~하다). 뒤에 형용사만 오므로 such는 불가. such/too/very 로 바꾼 선지가 단골이다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_STRUCT_DELETE"
+        "RU_EXERCISE_OPTIONS"
       ]
     },
     {
@@ -101,24 +115,11 @@
       "span_end": 308,
       "surface": "learned that selfless love",
       "sentence_no": 6,
-      "rationale": "learn의 목적어절을 이끄는 명사절 접속사 that. 뒤에 완전한 절이 오므로 what 은 불가 — what/that 구별 출제 지점.",
+      "rationale": "learned의 목적어절을 이끄는 명사절 접속사 that(생략 가능). what으로 바꾸면 뒤 절이 완전하므로 불가 — what/that 구별 오답을 만들 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "CO_CONJ_SWAP"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_SVA",
-      "span_start": 304,
-      "span_end": 328,
-      "surface": "love for others can make",
-      "sentence_no": 6,
-      "rationale": "주어는 단수 love이고 for others는 수식어구. others에 끌려 make/makes 수일치 오류(can makes, make)를 심기 쉽다.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "EI_AGREEMENT",
-        "BO_FORM_CHOICE"
+        "EI_STRUCT_DELETE"
       ]
     }
   ],
@@ -131,31 +132,31 @@
     },
     {
       "sentence_no": 2,
-      "role": "세부 정보 — 인물의 신분",
+      "role": "배경 부연 — 인물의 신분",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "원인 — 당시의 배경 상황",
+      "role": "상황·계기(원인)",
       "signal": "In 1795",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "해결책 — 인물의 행동",
+      "role": "행동·해결책",
       "signal": "So",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "결과 요약 — 행동에 대한 평가",
+      "role": "결과 — 사람들의 반응",
       "signal": "so ~ that",
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "결론문 — 필자가 얻은 교훈",
+      "role": "결론문 — 글쓴이가 얻은 교훈",
       "signal": "From her life",
       "is_blank_candidate": true
     }
@@ -163,57 +164,59 @@
   "items": [
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "VOICE_PARTICIPLE",
-      "stem": "지문의 (a)~(c)에 들어갈 말로 알맞은 것끼리 짝지어진 것을 고르시오.\n\nKim Mandeok (a)[was born / born] in Jeju-do in 1739. ... In 1795, she saw many people (b)[dying / died] from hunger. ... From her life, I learned (c)[that / what] selfless love for others can make a big difference.",
-      "answer_key": "①",
-      "explanation": "(a) '태어나다'는 be born이므로 was born. born만 쓰면 문장에 본동사가 없다. (b) 지각동사 saw의 목적격보어 자리에 목적어(many people)가 능동으로 '죽어가는' 진행 상태이므로 현재분사 dying. (c) 뒤에 'selfless love ... can make a big difference'라는 완전한 절이 오므로 명사절 접속사 that. what은 뒤에 불완전한 절이 와야 한다.",
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "PERCEPTION_VERB_OC",
+      "stem": "위 지문의 밑줄 친 부분 중, 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "지각동사 see는 목적격보어로 동사원형이나 현재분사를 취한다. 진행 중인 모습을 나타내므로 dying이 맞고 to die는 쓸 수 없다. ①의 be born은 관용적 수동, ③의 with는 수단, ④의 so+형용사+that, ⑤의 목적어절 that은 모두 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
         0,
-        2,
-        7
+        3,
+        5,
+        7,
+        8
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) was born — (b) dying — (c) that",
-          "is_answer": true,
+          "body": "Kim Mandeok was born in Jeju-do",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "(a) was born — (b) died — (c) that",
-          "is_answer": false,
-          "violates_point_code": "VOICE_PARTICIPLE",
-          "via_modification": "EI_PARTICIPLE_FLIP",
+          "body": "she saw many people to die from hunger",
+          "is_answer": true,
+          "violates_point_code": "PERCEPTION_VERB_OC",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) born — (b) dying — (c) that",
+          "body": "she bought rice with all her money",
           "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_STRUCT_DELETE",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) was born — (b) dying — (c) what",
+          "body": "so selfless that many people respected her",
           "is_answer": false,
-          "violates_point_code": "NOUN_CLAUSE_THAT",
-          "via_modification": "CO_CONJ_SWAP",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "(a) born — (b) died — (c) what",
+          "body": "I learned that selfless love for others can make a big difference",
           "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_STRUCT_DELETE",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 5
         }
       ],
@@ -221,20 +224,140 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VERB_SVA",
-      "stem": "다음 중 지문의 내용을 옮긴 문장 가운데 어법상 틀린 것을 고르시오.",
-      "answer_key": "⑤",
-      "explanation": "⑤ 조동사 can 뒤에는 동사원형이 와야 하므로 can makes → can make. 주어는 for others의 복수 명사가 아니라 단수 명사 love이며, 조동사가 있으므로 수일치 표시 자체가 불필요하다. ①~④는 각각 be born 수동형, 지각동사+현재분사, bought and gave 병렬, so+형용사+that 구문이 모두 올바르다.",
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "stem": "지문의 (a)~(c) 자리에 들어갈 말로 알맞은 것끼리 짝지은 것을 고르시오.\nIn 1795, she saw many people (a)[dying / to die] from hunger. So, she bought rice (b)[with / for] all her money and gave it away to poor people. Her love for others was (c)[so / such / too] selfless that many people respected her.",
+      "answer_key": "①",
+      "explanation": "(a) 지각동사 saw + 목적어 + 현재분사 dying. (b) '자기 돈을 다 들여서'라는 수단이므로 with. (c) 뒤에 형용사 selfless만 있고 that절이 이어지므로 so ~ that 구문. such는 명사구를 받고, too는 that절과 어울리지 않는다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
+        3,
+        5,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) dying — (b) with — (c) so",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) to die — (b) with — (c) so",
+          "is_answer": false,
+          "violates_point_code": "PERCEPTION_VERB_OC",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) dying — (b) for — (c) so",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) dying — (b) with — (c) such",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) dying — (b) with — (c) too",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 위 지문의 문장들이다. 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "'태어나다'는 be born(be동사 + 과거분사)의 수동 형태로 써야 하므로 was born이 옳다. was borning은 수동태 형태 자체가 잘못된 것이다. 나머지는 지문 원문 그대로 옳은 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3,
+        6,
         8
       ],
       "options": [
         {
           "label": "①",
-          "body": "Kim Mandeok was born in Jeju-do in 1739.",
+          "body": "She was a successful businesswoman.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Kim Mandeok was borning in Jeju-do in 1739.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "In 1795, she saw many people dying from hunger.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So, she bought rice with all her money and gave it away to poor people.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "From her life, I learned that selfless love for others can make a big difference.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 중 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "자기 재산을 모두 들여 가난한 사람을 도운 행동이고 사람들이 그를 존경했으므로 '이기적인(selfish)'이 아니라 '이타적인(selfless)'이 되어야 문맥에 맞는다. 나머지 낱말은 모두 문맥에 적절하다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "She was a successful businesswoman.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -250,7 +373,7 @@
         },
         {
           "label": "③",
-          "body": "So, she bought rice with all her money and gave it away to poor people.",
+          "body": "She bought rice with all her money and gave it away to poor people.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -258,61 +381,7 @@
         },
         {
           "label": "④",
-          "body": "Her love for others was so selfless that many people respected her.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "From her life, I learned that selfless love for others can makes a big difference.",
-          "is_answer": true,
-          "violates_point_code": "VERB_SVA",
-          "via_modification": "EI_AGREEMENT",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-VOCAB-CONTEXT",
-      "grammar_point_code": null,
-      "stem": "다음 지문에서 밑줄 친 낱말 중 문맥상 쓰임이 적절하지 않은 것을 고르시오.\n\nKim Mandeok was born in Jeju-do in 1739. She was a ①successful businesswoman. In 1795, she saw many people ②dying from hunger. So, she bought rice with all her money and gave it away to ③poor people. Her love for others was so ④selfish that many people respected her. From her life, I learned that selfless love for others can make a big ⑤difference.",
-      "answer_key": "④",
-      "explanation": "전 재산으로 쌀을 사서 가난한 사람들에게 나누어 주었고 그래서 사람들이 그녀를 존경했다는 흐름이므로, '이기적인(selfish)'이 아니라 '이타적인·사심 없는(selfless)'이 와야 한다. 마지막 문장에서도 selfless love라고 반복된다.",
-      "difficulty": "easy",
-      "option_lang": "na",
-      "source_tags": [],
-      "options": [
-        {
-          "label": "①",
-          "body": "successful",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "dying",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "poor",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "selfish",
+          "body": "Her love for others was so selfish that many people respected her.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
@@ -320,7 +389,7 @@
         },
         {
           "label": "⑤",
-          "body": "difference",
+          "body": "Selfless love for others can make a big difference.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -333,16 +402,18 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "지문의 마지막 문장에서 밑줄 친 can make a big difference가 의미하는 바로 가장 알맞은 것을 고르시오.",
+      "stem": "지문 [6]의 밑줄 친 can make a big difference가 의미하는 바로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "make a difference는 '변화를 가져오다, 영향을 주다'라는 뜻의 관용 표현이다. 김만덕이 전 재산으로 굶주린 사람들을 도운 일을 두고 얻은 교훈이므로 '(세상에) 큰 변화를 만들어 낼 수 있다'는 의미이다. difference를 '차이'로 직역한 ②④는 문맥에 맞지 않는다.",
+      "explanation": "make a difference는 '변화를 가져오다, 영향을 주다'라는 뜻이다. 굶주린 사람들을 살린 김만덕의 삶에서 얻은 교훈이므로 '이타적인 사랑이 세상에 의미 있는 변화를 만든다'는 의미다. difference를 '차이'로 직역한 ②·⑤나 부·명성과 연결한 ③·④는 문맥에 맞지 않는다.",
       "difficulty": "medium",
       "option_lang": "ko",
-      "source_tags": [],
+      "source_tags": [
+        8
+      ],
       "options": [
         {
           "label": "①",
-          "body": "큰 변화를 만들어 낼 수 있다",
+          "body": "큰 변화를 만들어 낼 수 있다, 즉 세상에 의미 있는 영향을 줄 수 있다",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -350,7 +421,7 @@
         },
         {
           "label": "②",
-          "body": "큰 차이점을 발견할 수 있다",
+          "body": "사람들 사이의 차이를 더 크게 벌려 놓을 수 있다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -358,7 +429,7 @@
         },
         {
           "label": "③",
-          "body": "큰 돈을 벌 수 있다",
+          "body": "많은 돈을 벌어 부자가 될 수 있다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -366,7 +437,7 @@
         },
         {
           "label": "④",
-          "body": "서로 크게 다를 수 있다",
+          "body": "남들과 다른 특별한 사람으로 보일 수 있다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -374,7 +445,7 @@
         },
         {
           "label": "⑤",
-          "body": "큰 실수를 피할 수 있다",
+          "body": "의견 차이 때문에 갈등이 생길 수 있다",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -387,16 +458,18 @@
       "_verbatim_problem": [],
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "What is the passage mainly about?",
+      "stem": "위 글의 주제로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "글은 김만덕이 굶주린 사람들을 위해 전 재산을 내놓았고, 그 이타적인 사랑이 큰 변화를 만든다는 교훈으로 끝난다. 기근의 원인(③), 사업 성공법(④), 제주도 소개(⑤)는 글의 중심이 아니다.",
+      "explanation": "글은 김만덕의 출생과 성공, 1795년 굶주린 사람들을 위해 전 재산으로 쌀을 사 나눈 일, 그리고 그 이타적 사랑에서 얻은 교훈을 말한다. 따라서 ①이 주제다. ②·⑤는 사업 성공 비법이 아니고, ③은 기근의 원인을 설명하지 않으며, ④는 언급이 없다.",
       "difficulty": "easy",
       "option_lang": "en",
-      "source_tags": [],
+      "source_tags": [
+        7
+      ],
       "options": [
         {
           "label": "①",
-          "body": "a businesswoman whose selfless love for others changed many lives",
+          "body": "Kim Mandeok's life and her selfless love for people in need",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -404,7 +477,7 @@
         },
         {
           "label": "②",
-          "body": "how people in Jeju-do made money by selling rice",
+          "body": "how to succeed in the rice business in Jeju-do",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -412,7 +485,7 @@
         },
         {
           "label": "③",
-          "body": "the causes of the great hunger of 1795",
+          "body": "the main causes of hunger in Korea in 1795",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -420,7 +493,7 @@
         },
         {
           "label": "④",
-          "body": "the best way to become a successful businesswoman",
+          "body": "the history of women's education in Jeju-do",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -428,7 +501,7 @@
         },
         {
           "label": "⑤",
-          "body": "why Jeju-do is famous for its long history",
+          "body": "useful ways to save money as a businesswoman",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -441,16 +514,18 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "Which is NOT true about Kim Mandeok according to the passage?",
+      "stem": "위 글의 내용과 일치하지 않는 것을 고르시오.",
       "answer_key": "④",
-      "explanation": "지문 [4]에서 그녀는 전 재산으로 쌀을 사서 가난한 사람들에게 '나누어 주었다(gave it away)'고 했으므로, 돈을 빌려주고 나중에 돌려받았다는 ④는 일치하지 않는다.",
+      "explanation": "지문 [4]에서 그는 자기 돈을 모두 써서 쌀을 사 가난한 사람들에게 '나누어 주었다(gave it away)'고 했으므로 비싸게 팔았다는 ④는 일치하지 않는다. ①·②는 [1]·[2], ③은 [3], ⑤는 [5]와 일치한다.",
       "difficulty": "easy",
       "option_lang": "en",
-      "source_tags": [],
+      "source_tags": [
+        6
+      ],
       "options": [
         {
           "label": "①",
-          "body": "She was born in Jeju-do in 1739.",
+          "body": "Kim Mandeok was born in Jeju-do in 1739.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -458,7 +533,7 @@
         },
         {
           "label": "②",
-          "body": "She was a successful businesswoman.",
+          "body": "She was successful in business.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -466,7 +541,7 @@
         },
         {
           "label": "③",
-          "body": "In 1795, she saw many people dying from hunger.",
+          "body": "In 1795, many people were suffering from hunger.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -474,7 +549,7 @@
         },
         {
           "label": "④",
-          "body": "She lent her money to poor people and got it back later.",
+          "body": "She sold rice to poor people at a high price.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -482,7 +557,7 @@
         },
         {
           "label": "⑤",
-          "body": "Many people respected her for her selfless love.",
+          "body": "Many people respected her because of her selfless love.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -495,16 +570,18 @@
       "_verbatim_problem": [],
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nFrom her life, I learned that ______ can make a big difference.",
+      "stem": "위 글의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nFrom her life, I learned that selfless love for others can ______________.",
       "answer_key": "①",
-      "explanation": "[4][5]에서 김만덕은 전 재산으로 쌀을 사서 가난한 사람들에게 나누어 주었고 그 사랑이 사심 없었기에 많은 사람이 그녀를 존경했다고 했다. 따라서 필자가 얻은 교훈은 '타인을 향한 이타적인 사랑'이 큰 변화를 만든다는 것이다. ③은 글의 내용과 반대된다.",
+      "explanation": "전 재산으로 쌀을 사 굶주린 사람들을 구한 김만덕의 삶에서 얻은 교훈이므로, 이타적인 사랑이 '큰 변화를 만든다'는 ①이 글의 결론으로 알맞다. 이익·부(②·⑤)나 감정 숨김(③), 노력 대체(④)는 글에서 다루지 않는다.",
       "difficulty": "medium",
       "option_lang": "en",
-      "source_tags": [],
+      "source_tags": [
+        8
+      ],
       "options": [
         {
           "label": "①",
-          "body": "selfless love for others",
+          "body": "make a big difference",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -512,7 +589,7 @@
         },
         {
           "label": "②",
-          "body": "being born in a rich family",
+          "body": "bring quick profits to a business",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -520,7 +597,7 @@
         },
         {
           "label": "③",
-          "body": "saving money for yourself",
+          "body": "hide our true feelings",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -528,7 +605,7 @@
         },
         {
           "label": "④",
-          "body": "starting a business early",
+          "body": "take the place of hard work",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -536,7 +613,7 @@
         },
         {
           "label": "⑤",
-          "body": "living a long and quiet life",
+          "body": "help us become rich quickly",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -548,10 +625,10 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
-      "stem": "다음은 지문 [5]를 옮긴 문장이다. 어법상 틀린 부분 한 군데를 찾아 바르게 고쳐 쓰시오.\n\nHer love for others was such selfless that many people respected her.",
-      "answer_key": "such → so",
-      "explanation": "such는 「such + (a/an) + 형용사 + 명사」 형태로 명사를 수반해야 한다. 여기서는 형용사 selfless만 뒤따르고 that절이 이어지므로 「so + 형용사 + that ~(너무 …해서 ~하다)」 구문의 so를 써야 한다.",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음은 지문 [4]를 바꿔 쓴 것이다. 어법상 틀린 부분 한 곳을 찾아 바르게 고쳐 쓰시오.\nSo, she bought rice with all her money and giving it away to poor people.",
+      "answer_key": "giving → gave (등위접속사 and로 bought와 병렬을 이루는 과거시제 동사여야 한다)",
+      "explanation": "and는 문법적으로 대등한 것을 연결한다. 앞의 bought가 과거시제 본동사이므로 뒤에도 과거시제 gave가 와야 병렬이 성립한다. giving은 정동사 자리에 온 준동사로 병렬을 깨뜨린다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
@@ -562,16 +639,31 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "CONJ_PARALLEL",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n그래서 그녀는 자신의 모든 돈으로 쌀을 사서 그것을 가난한 사람들에게 나누어 주었다.\n(rice / all / with / bought / and / her / it / gave / money / away)\n→ So, she ______________________________ to poor people.",
-      "answer_key": "So, she bought rice with all her money and gave it away to poor people.",
-      "explanation": "'~로(수단)'는 전치사 with를 써서 with all her money로 나타내고, and로 과거동사 bought와 gave를 병렬로 연결한다. give away는 대명사 목적어를 쓸 때 gave it away처럼 동사와 부사 사이에 it을 넣어야 한다.",
-      "difficulty": "hard",
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n우리말: 그녀의 다른 사람들에 대한 사랑은 너무나 이타적이어서 많은 사람들이 그녀를 존경했다.\n<조건> 1) so ~ that 구문을 쓸 것 2) selfless, respected 를 활용할 것 3) 지문 [5]와 같은 문장으로 완성할 것",
+      "answer_key": "Her love for others was so selfless that many people respected her.",
+      "explanation": "'너무 ~해서 ~하다'는 so + 형용사 + that + 절로 쓴다. 뒤에 형용사 selfless만 오므로 such가 아니라 so를 쓰고, that절의 동사는 과거시제 respected로 맞춘다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        4,
-        5
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PERCEPTION_VERB_OC",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n우리말: 1795년에, 그녀는 많은 사람들이 굶주림으로 죽어 가는 것을 보았다.\n단어: ( saw / many / from / dying / she / hunger / people ) — 문장은 In 1795, 로 시작할 것",
+      "answer_key": "In 1795, she saw many people dying from hunger.",
+      "explanation": "지각동사 saw 뒤에는 목적어(many people) + 현재분사(dying)가 와서 '~가 …하고 있는 것을 보다'를 나타낸다. '굶주림으로 죽다'는 die from hunger이므로 from hunger를 뒤에 붙인다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4
       ],
       "options": [],
       "_answer_violates_point": []
@@ -583,8 +675,8 @@
     "tags_kept": 9,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 9,
-    "items_kept": 9,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": [],
     "verbatim_problems": []
   }

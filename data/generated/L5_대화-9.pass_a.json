@@ -4,16 +4,29 @@
   "tags": [
     {
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "span_start": 14,
-      "span_end": 50,
-      "surface": "how can I get to the Brooklyn Bridge",
+      "span_start": 18,
+      "span_end": 30,
+      "surface": "can I get to",
       "sentence_no": 1,
-      "rationale": "'get to + 장소' 는 고정 결합. 전치사 to 를 빼고 'get the Brooklyn Bridge' 로 만들거나 'get for/into' 로 바꾸는 오류를 유도할 수 있다.",
+      "rationale": "'get to + 장소'(~에 도착하다)의 고정 결합. 전치사 to를 빼고 'can I get the Brooklyn Bridge'로 만들거나 'get in/at'으로 바꾸는 오류를 유도할 수 있음.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_PREP_DELETE",
         "BO_FORM_CHOICE",
-        "BO_WORD_ORDER"
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 14,
+      "span_end": 27,
+      "surface": "how can I get",
+      "sentence_no": 1,
+      "rationale": "의문사 how + 조동사 can + 주어 + 동사원형 어순. 'how I can get' 같은 어순 오류나 'can I got/getting' 형태 오류를 심을 수 있음.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -22,11 +35,24 @@
       "span_end": 60,
       "surface": "from SoHo",
       "sentence_no": 1,
-      "rationale": "출발점을 나타내는 from. 'to SoHo / in SoHo' 로 바꿔 방향을 뒤집는 선지를 만들기 쉬운 빈칸 자리.",
+      "rationale": "출발점을 나타내는 전치사 from. 'to SoHo / at SoHo'로 바꾸면 방향이 반대가 되어 내용이 틀어짐. 빈칸 뚫기 쉬운 자리.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 73,
+      "span_end": 82,
+      "surface": "get there",
+      "sentence_no": 2,
+      "rationale": "there는 부사이므로 앞에 to를 쓰지 않음. 'get to there'로 만드는 전형적 오류 유도 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
       ]
     },
     {
@@ -35,48 +61,24 @@
       "span_end": 92,
       "surface": "by subway",
       "sentence_no": 2,
-      "rationale": "교통수단을 나타내는 수단의 by (+무관사 명사). 'with subway / by a subway / on subway' 로 바꾸는 오류를 유도할 수 있다.",
+      "rationale": "교통수단의 by + 무관사 명사. 'by a subway / by the subway / with subway'로 바꾸는 오류를 심을 수 있는 대표 자리.",
       "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 69,
-      "span_end": 82,
-      "surface": "can get there",
-      "sentence_no": 2,
-      "rationale": "there 는 부사이므로 앞에 to 를 쓸 수 없다. 'get to there' 처럼 전치사를 덧붙이는 오류가 전형적 함정.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
       "grammar_point_code": "IT_CLEFT",
-      "span_start": 101,
-      "span_end": 122,
-      "surface": "How long will it take",
-      "sentence_no": 4,
-      "rationale": "소요 시간을 묻는 비인칭 주어 it. 'How long will they take / How long does it takes' 처럼 주어·형태를 바꾸는 오류를 유도할 수 있다.",
-      "confidence": "high",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "BO_WORD_ORDER"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_MODAL_USAGE",
       "span_start": 110,
       "span_end": 122,
       "surface": "will it take",
       "sentence_no": 4,
-      "rationale": "조동사 will 뒤에는 동사원형. 'will it takes / will it took' 로 바꾸는 오류를 심기 쉬운 자리.",
-      "confidence": "medium",
+      "rationale": "시간을 나타내는 비인칭 주어 it + take 구문. 'How long will they take / will you take'처럼 주어를 바꾸거나 'How long it will take'로 어순을 흐트러뜨리는 오류 유도 가능.",
+      "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_AGREEMENT"
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
       ]
     }
   ],
@@ -89,26 +91,26 @@
     },
     {
       "sentence_no": 2,
-      "role": "해결책 — 교통수단 제시",
+      "role": "해결책 — 교통수단 안내(핵심 정보)",
       "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 3,
-      "role": "수용 반응",
+      "role": "반응 — 수락",
       "signal": "OK",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "추가질문 — 소요 시간",
+      "role": "전환 — 소요 시간 추가 질문",
       "signal": "How long",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "정보 제공 — 소요 시간 답변",
-      "signal": "About",
+      "role": "결과요약 — 소요 시간 답변",
+      "signal": null,
       "is_blank_candidate": false
     }
   ],
@@ -117,20 +119,20 @@
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
       "grammar_point_code": "PREP_USAGE",
-      "stem": "위 대화의 빈칸 (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\nA: Excuse me, how can I get (a)_____ the Brooklyn Bridge from SoHo?\nB: You can get there (b)_____ subway.\nA: OK. How long will it (c)_____ by subway?\nB: About 16 minutes.",
+      "stem": "위 대화의 (a)~(c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\nA: Excuse me, how can I (a)______ the Brooklyn Bridge from SoHo?\nB: You can get there (b)______.\nA: OK. How long (c)______ by subway?",
       "answer_key": "①",
-      "explanation": "'get to + 장소'가 고정 결합이므로 (a)는 to. 교통수단은 수단의 전치사 by + 무관사 명사이므로 (b)는 by(with subway 불가). 조동사 will 뒤에는 동사원형이 오므로 (c)는 take(takes 불가).",
-      "difficulty": "easy",
+      "explanation": "(a) '~에 도착하다'는 get to + 장소이므로 to가 필요하다. ② 는 to를 빠뜨렸다. (b) 교통수단은 'by + 무관사 명사'이므로 by subway가 맞고, ③ 의 by a subway는 관사를 붙여 틀렸다. (c) 의문문이므로 조동사 will이 주어 it 앞에 와야 하는데 ④ 는 평서문 어순(it will take)이라 틀렸다.",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
         0,
-        2,
+        4,
         5
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) to – (b) by – (c) take",
+          "body": "(a) get to – (b) by subway – (c) will it take",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -138,15 +140,15 @@
         },
         {
           "label": "②",
-          "body": "(a) for – (b) by – (c) take",
+          "body": "(a) get – (b) by subway – (c) will it take",
           "is_answer": false,
           "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "BO_FORM_CHOICE",
+          "via_modification": "EI_PREP_DELETE",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) to – (b) with – (c) take",
+          "body": "(a) get to – (b) by a subway – (c) will it take",
           "is_answer": false,
           "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
@@ -154,10 +156,10 @@
         },
         {
           "label": "④",
-          "body": "(a) to – (b) by – (c) takes",
+          "body": "(a) get to – (b) by subway – (c) it will take",
           "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "IT_CLEFT",
+          "via_modification": "BO_WORD_ORDER",
           "ordinal": 4
         }
       ],
@@ -165,34 +167,34 @@
     },
     {
       "_verbatim_problem": [
-        "②"
+        "④"
       ],
-      "question_type_code": "T-GRAMMAR-INLINE",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "위 대화의 문장을 옮긴 것 중 어법상 <보기> 어색한 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "①은 'get to the Brooklyn Bridge'에서 전치사 to가 빠졌다. get은 장소 명사와 함께 쓸 때 to가 필요하다. 반면 ②의 there는 부사이므로 to 없이 'get there'가 옳고, ③의 will 뒤 원형 take, ④는 모두 원문 그대로 어법상 옳다.",
-      "difficulty": "medium",
+      "stem": "위 대화의 문장을 옮긴 것 중 어법상 <보기>가 틀린 것은?",
+      "answer_key": "②",
+      "explanation": "there는 '그곳으로'라는 뜻을 이미 가진 부사이므로 앞에 전치사 to를 쓸 수 없다. get there가 옳다. ①은 명사 the Brooklyn Bridge 앞이라 to가 필요하고, ③은 비인칭 주어 it + take 구문의 의문문 어순이 맞으며, ④도 시간을 나타내는 it과 by subway가 바르게 쓰였다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        0,
-        3
+        3,
+        0
       ],
       "options": [
         {
           "label": "①",
-          "body": "Excuse me, how can I get the Brooklyn Bridge from SoHo?",
-          "is_answer": true,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "EI_PREP_DELETE",
+          "body": "Excuse me, how can I get to the Brooklyn Bridge from SoHo?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "You can get there by subway.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "You can get to there by subway.",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_VERB_COMPLEMENT",
           "ordinal": 2
         },
         {
@@ -205,31 +207,34 @@
         },
         {
           "label": "④",
-          "body": "B: About 16 minutes.",
+          "body": "It will take about 16 minutes by subway.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         }
       ],
-      "_answer_violates_point": []
+      "_answer_violates_point": [
+        "②"
+      ]
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "위 대화의 밑줄 친 How long will it take by subway? 가 묻는 것은?",
-      "answer_key": "②",
-      "explanation": "'How long will it take ~?'는 비인칭 주어 it을 써서 소요 시간을 묻는 표현이다. B가 'About 16 minutes.'라고 시간으로 답한 것에서도 확인된다. 요금은 How much, 거리는 How far, 시각은 What time으로 묻는다.",
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?\nA: Excuse me, how can I ①get to the Brooklyn Bridge ②from SoHo?\nB: You can get there ③by subway.\nA: OK. How ④far will it take by subway?\nB: About 16 minutes.",
+      "answer_key": "④",
+      "explanation": "대답이 'About 16 minutes.'(시간)이므로 소요 시간을 묻는 How long이 와야 한다. How far는 거리를 묻는 표현이라 문맥에 맞지 않는다. 나머지는 출발지(from), 수단(by), 도착(get to), 시간 단위(minutes)로 모두 적절하다.",
       "difficulty": "easy",
-      "option_lang": "ko",
+      "option_lang": "na",
       "source_tags": [
-        4
+        5,
+        2
       ],
       "options": [
         {
           "label": "①",
-          "body": "지하철 요금이 얼마인지",
+          "body": "get to",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -237,15 +242,15 @@
         },
         {
           "label": "②",
-          "body": "지하철로 가는 데 걸리는 시간",
-          "is_answer": true,
+          "body": "from",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "지하철역까지의 거리",
+          "body": "by",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -253,15 +258,15 @@
         },
         {
           "label": "④",
-          "body": "지하철을 몇 번 갈아타야 하는지",
-          "is_answer": false,
+          "body": "far",
+          "is_answer": true,
           "violates_point_code": null,
-          "via_modification": null,
+          "via_modification": "CO_SYNONYM",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "지하철이 몇 시에 출발하는지",
+          "body": "minutes",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -272,16 +277,64 @@
     },
     {
       "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 How long will it take by subway?가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "「How long does[will] it take ~?」는 소요 시간을 묻는 표현이고, 바로 뒤 B의 대답이 'About 16 minutes.'라는 점에서도 시간을 묻는 말임을 알 수 있다. 거리(How far), 요금(How much), 횟수(How many times)를 묻는 표현이 아니다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "지하철로 가면 시간이 얼마나 걸리나요?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "지하철역이 여기서 얼마나 먼가요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "지하철 요금은 얼마인가요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "지하철을 몇 번 갈아타야 하나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것은?",
+      "stem": "Which is true according to the dialogue?",
       "answer_key": "①",
-      "explanation": "A는 SoHo에서 Brooklyn Bridge까지 가는 방법을 물었으므로 ①이 일치한다. B는 지하철(subway)을 추천했으므로 ②는 틀리고, 소요 시간은 약 16분이므로 ③도 틀리다. B는 방법을 알려 주었으므로 ④도, 출발지와 도착지가 뒤바뀐 ⑤도 틀리다.",
+      "explanation": "A는 SoHo에서 Brooklyn Bridge로 가는 길을 물었으므로 ①이 맞다. B가 권한 것은 택시가 아니라 지하철(by subway)이므로 ②는 틀리고, 걸리는 시간은 약 16분이므로 ③도 틀리며, 방향이 반대이고 걸어가는 것도 아니므로 ④도 틀리다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        1,
-        2
+        2,
+        4
       ],
       "options": [
         {
@@ -294,7 +347,7 @@
         },
         {
           "label": "②",
-          "body": "B tells A to take a taxi.",
+          "body": "B tells A to take a taxi to the bridge.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -310,76 +363,11 @@
         },
         {
           "label": "④",
-          "body": "B doesn't know how to get to the Brooklyn Bridge.",
+          "body": "A is walking to SoHo from the Brooklyn Bridge.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "A is going to SoHo from the Brooklyn Bridge.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "위 대화의 주제로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "A가 길을 묻고(how can I get to ~) 소요 시간을 물으며(How long will it take ~) B가 교통수단과 시간을 알려 주는 대화이므로 ①이 주제다. 표 구매, 여행 계획, 다리의 역사, 분실물은 언급되지 않았다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        0,
-        4
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "asking for directions and travel time",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "buying a subway ticket",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "making a plan for a trip to Europe",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "the history of the Brooklyn Bridge",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "looking for a lost bag in the subway",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
@@ -387,15 +375,15 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 모두 배열하여 문장을 완성하시오.\n(우리말) SoHo에서 브루클린 브리지까지 어떻게 갈 수 있나요?\n(주어진 말) I / get / can / to / how / from SoHo / the Brooklyn Bridge",
-      "answer_key": "How can I get to the Brooklyn Bridge from SoHo?",
-      "explanation": "의문사 How + 조동사 can + 주어 I + 동사원형 get 순서로 배열하고, 장소 명사 앞에는 전치사 to를 써서 'get to the Brooklyn Bridge'로 쓴 뒤 출발점 from SoHo를 붙인다.",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n(지하철로 얼마나 걸릴까요?)\n[ take / will / how / by / it / long / subway ]",
+      "answer_key": "How long will it take by subway?",
+      "explanation": "소요 시간을 묻는 표현은 「How long + 조동사 will + 비인칭 주어 it + take ~?」 어순이다. 의문문이므로 will이 주어 it 앞에 오고, 교통수단은 by + 무관사 명사로 문미에 붙인다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0,
-        1
+        5,
+        4
       ],
       "options": [],
       "_answer_violates_point": []
@@ -403,14 +391,14 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "다음은 위 대화의 문장을 잘못 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\nHow long will it takes by subway?",
-      "answer_key": "How long will it take by subway?",
-      "explanation": "조동사 will 뒤에는 반드시 동사원형이 오므로 takes를 take로 고쳐야 한다. 소요 시간을 묻는 비인칭 주어 it과 수단의 by subway는 원문 그대로 옳다.",
-      "difficulty": "easy",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\nYou can get to there by subway.",
+      "answer_key": "get to there → get there",
+      "explanation": "there는 '그곳으로'라는 방향의 의미를 포함한 부사이므로 전치사 to와 함께 쓰지 않는다. 따라서 get to there가 아니라 get there로 써야 한다. (there 대신 명사 the Brooklyn Bridge를 쓸 때에만 get to가 필요하다.)",
+      "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        5
+        3
       ],
       "options": [],
       "_answer_violates_point": []
@@ -418,15 +406,16 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "다음 조건에 맞게 B의 답을 완성하시오.\nA: Excuse me, how can I get to the Brooklyn Bridge from SoHo?\nB: You _________________________.\n<조건> ① can, get, there, subway를 모두 사용할 것 ② 교통수단을 나타내는 전치사를 쓸 것 ③ 총 5단어로 쓸 것",
-      "answer_key": "can get there by subway",
-      "explanation": "교통수단은 '수단의 by + 무관사 명사'로 나타내어 by subway로 쓴다. there는 부사이므로 앞에 to를 쓰지 않고 'get there'로 쓴다.",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n(SoHo에서 브루클린 다리까지 어떻게 갈 수 있나요?)\n<조건> 1) how, can, get to, from을 반드시 사용할 것  2) 의문문 어순으로 쓰고 물음표로 끝낼 것  3) 8단어로 쓸 것",
+      "answer_key": "How can I get to the Brooklyn Bridge from SoHo?",
+      "explanation": "의문사 how 뒤에 조동사 can + 주어 I + 동사원형 get 순서로 쓰고, 장소 명사 앞에는 to를 붙여 get to the Brooklyn Bridge로 쓴다. 출발지는 from SoHo로 문미에 놓는다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        2,
-        3
+        1,
+        0,
+        2
       ],
       "options": [],
       "_answer_violates_point": []
@@ -444,9 +433,9 @@
     "verbatim_problems": [
       {
         "item": 1,
-        "type": "T-GRAMMAR-INLINE",
+        "type": "T-GRAMMAR-STANDALONE",
         "options": [
-          "②"
+          "④"
         ]
       }
     ]

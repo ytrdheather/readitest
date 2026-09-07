@@ -3,17 +3,29 @@
   "body_text_sha256": "c76dea840f89c9ca9160634ffcf3529f7a6dca2085ae67911a520bc04d141fa5",
   "tags": [
     {
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 78,
-      "span_end": 99,
-      "surface": "I’m really interested",
-      "sentence_no": 3,
-      "rationale": "감정동사 interest는 사람이 주어일 때 be interested(수동) 형태. interesting(현재분사·능동)으로 바꾼 오답을 유도하기 가장 쉬운 자리",
-      "confidence": "high",
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 3,
+      "span_end": 26,
+      "surface": "What kinds of magazines",
+      "sentence_no": 1,
+      "rationale": "'kind(s) of + 복수명사' 구조. of를 삭제하거나(what kinds magazines) kind/kinds 수를 틀리게 하는 오류를 유도할 수 있는 자리. 굳어진 표현이라 전치사 of가 눈에 안 들어와 빈칸으로 자주 뚫린다.",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PASSIVE_FORM",
-        "EI_PARTICIPLE_FLIP"
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 43,
+      "span_end": 50,
+      "surface": "We have",
+      "sentence_no": 2,
+      "rationale": "주어 We에 대한 일반동사 현재형 have. has로 바꾸는 수일치 오류를 심을 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -22,20 +34,33 @@
       "span_end": 88,
       "surface": "really",
       "sentence_no": 3,
-      "rationale": "분사형 형용사 interested를 수식하므로 부사 really. real로 바꾼 형용사↔부사 교체 오답 가능",
-      "confidence": "medium",
+      "rationale": "분사형 형용사 interested를 수식하는 부사 자리. real / really 로 형용사-부사를 바꿔치기하는 전형적 오류 지점.",
+      "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_ADJ_TO_ADV"
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 89,
+      "span_end": 99,
+      "surface": "interested",
+      "sentence_no": 3,
+      "rationale": "감정동사 interest의 수동형(be interested). 주어가 사람이므로 interesting(능동·현재분사)로 바꾸면 오류. interested/interesting 짝짓기가 중1~중2 최다 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "span_start": 89,
+      "span_start": 100,
       "span_end": 110,
-      "surface": "interested in science",
+      "surface": "in science",
       "sentence_no": 3,
-      "rationale": "be interested in 고정 결합. of / at / with 로 바꾸거나 전치사를 삭제하는 빈칸 출제가 흔함",
+      "rationale": "be interested 에 고정된 전치사 in. on/at/about 등으로 교체하거나 삭제하는 오류를 유도할 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -48,49 +73,24 @@
       "span_end": 129,
       "surface": "Can you recommend",
       "sentence_no": 4,
-      "rationale": "요청의 조동사 Can 뒤에는 동사원형. recommending / to recommend / recommends 형태 오류 유도",
-      "confidence": "high",
+      "rationale": "요청을 나타내는 조동사 Can + 동사원형. recommended / to recommend / recommending 으로 바꾸는 형태 오류를 심을 수 있다.",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM",
-        "EI_AGREEMENT"
+        "EI_NONFIN_FORM"
       ]
     },
     {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 130,
+      "grammar_point_code": "SVOO_DATIVE",
+      "span_start": 149,
       "span_end": 155,
-      "surface": "a science magazine for me",
+      "surface": "for me",
       "sentence_no": 4,
-      "rationale": "recommend + 목적어 + for/to + 사람. 전치사 for를 삭제하거나 다른 전치사로 바꾸는 빈칸 자리",
+      "rationale": "recommend의 대상을 전치사구로 표시한 자리. 전치사를 삭제해 4형식처럼 쓰거나(recommend a magazine me) to/for 선택을 묻는 오류 유도가 가능.",
       "confidence": "medium",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
-      ]
-    },
-    {
-      "grammar_point_code": "PRON_AGREEMENT",
-      "span_start": 178,
-      "span_end": 186,
-      "surface": "this one",
-      "sentence_no": 6,
-      "rationale": "앞에 언급된 magazine을 대신하는 부정대명사 one(단수). it / ones 로 바꾼 수·용법 오류 유도, 지시 대상 파악 문항으로도 사용",
-      "confidence": "medium",
-      "applicable_modifications": [
+        "EI_PREP_DELETE",
         "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_SVA",
-      "span_start": 43,
-      "span_end": 73,
-      "surface": "We have all kinds of magazines",
-      "sentence_no": 2,
-      "rationale": "주어 We에 맞는 동사 have. has로 바꾼 수일치 오류 유도",
-      "confidence": "low",
-      "applicable_modifications": [
-        "EI_AGREEMENT"
       ]
     },
     {
@@ -99,11 +99,22 @@
       "span_end": 177,
       "surface": "You’ll love",
       "sentence_no": 6,
-      "rationale": "추천 결과에 대한 미래 예측 will + 동사원형. will loved / will loving 형태 오류 유도",
+      "rationale": "will + 동사원형(미래 예측). loved / will loving / are loving 등 시제·형태 오류를 심을 수 있는 자리.",
       "confidence": "low",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM"
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 178,
+      "span_end": 186,
+      "surface": "this one",
+      "sentence_no": 6,
+      "rationale": "앞서 언급된 명사(magazine)를 대신하는 부정대명사 one. it / that / ones 와의 구별을 묻거나 지시 대상을 묻는 문항으로 연결된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
       ]
     }
   ],
@@ -116,31 +127,31 @@
     },
     {
       "sentence_no": 2,
-      "role": "범위",
+      "role": "범위 응답",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "원인(관심 표명)",
+      "role": "원인(관심 분야 제시)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
       "role": "요청",
-      "signal": null,
+      "signal": "Can you",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "전환(수락)",
+      "role": "수락",
       "signal": "Sure",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "해결책(추천 결론)",
+      "role": "해결책·결론(구체적 추천)",
       "signal": null,
       "is_blank_candidate": true
     }
@@ -150,114 +161,55 @@
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "위 대화의 (a)~(c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\nB: I’m (a)[real / really] (b)[interested / interesting] in science. Can you (c)[recommend / recommending] a science magazine for me?",
-      "answer_key": "③",
-      "explanation": "(a) 분사형 형용사 interested를 수식하므로 부사 really. (b) 사람이 주어이고 감정을 느끼는 것이므로 수동형 interested(interesting은 '흥미를 주는' 대상에 씀). (c) 조동사 Can 뒤에는 동사원형 recommend. ①은 (a), ②는 (b), ④·⑤는 (c)가 틀렸다.",
-      "difficulty": "medium",
+      "stem": "지문의 [3]번 문장을 다음과 같이 나타낼 때, (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nB: I’m (a)[real / really] (b)[interested / interesting] (c)[in / on] science.",
+      "answer_key": "①",
+      "explanation": "(a) 뒤의 형용사 interested를 수식하므로 부사 really가 맞다. (b) 주어 I가 '관심을 느끼는' 사람이므로 감정동사의 수동형 interested를 쓴다(interesting은 '관심을 끄는' 대상에 씀). (c) be interested는 전치사 in과 결합한다. ②는 분사 선택 오류, ③은 부사 자리에 형용사, ④는 전치사 오류, ⑤는 둘 이상 어긋난다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        0,
-        1,
-        3
+        2,
+        3,
+        4
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) real – (b) interested – (c) recommend",
+          "body": "(a) really - (b) interested - (c) in",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) really - (b) interesting - (c) in",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) real - (b) interested - (c) in",
           "is_answer": false,
           "violates_point_code": "MOD_ADJ_VS_ADV",
           "via_modification": "EI_ADJ_TO_ADV",
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "(a) really – (b) interesting – (c) recommend",
-          "is_answer": false,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_PASSIVE_FORM",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "(a) really – (b) interested – (c) recommend",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) really – (b) interested – (c) recommending",
+          "body": "(a) really - (b) interested - (c) on",
           "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "(a) real – (b) interested – (c) recommending",
-          "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [
-        "③",
-        "⑤"
-      ],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "위 대화의 문장을 아래와 같이 다시 썼을 때, 어법상 <보기> 밑줄 부분이 틀린 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "②는 be interested in이 고정 결합이므로 of가 아니라 in을 써야 한다(I’m really interested in science.). 나머지는 모두 대화 원문 그대로이며 어법상 옳다.",
-      "difficulty": "easy",
-      "option_lang": "na",
-      "source_tags": [
-        2
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "G: We have all kinds of magazines.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "B: I’m really interested of science.",
-          "is_answer": true,
           "violates_point_code": "VERB_PREP_COLLOCATION",
           "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "B: Can you recommend a science magazine for me?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "B: What kinds of magazines do you have?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "G: You’ll love this one, Teen’s Science.",
+          "body": "(a) real - (b) interesting - (c) on",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
           "ordinal": 5
         }
       ],
@@ -265,257 +217,15 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "다음은 위 대화의 [3]번 문장을 잘못 쓴 것이다. 어법상 틀린 한 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n\nB: I’m really interested at science.",
-      "answer_key": "I’m really interested in science. (at → in)",
-      "explanation": "'~에 관심이 있다'는 be interested in이다. 전치사 at을 in으로 고쳐야 한다.",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "지문의 문장을 옮긴 것 중, 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "조동사 can 뒤에는 반드시 동사원형이 오므로 recommended가 아니라 recommend가 맞다. ①②③⑤는 지문 원문 그대로 어법상 올바르다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        2
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-BLANK",
-      "grammar_point_code": null,
-      "stem": "위 대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nG: Sure. ______________",
-      "answer_key": "①",
-      "explanation": "소년이 과학에 관심이 있다며 과학 잡지를 추천해 달라고 했고 소녀가 Sure.라고 수락했으므로, 특정 과학 잡지를 추천하는 ①이 알맞다. ②③은 앞의 '모든 종류의 잡지가 있다'와 Sure.에 어긋나고, ④⑤는 추천 요청을 거절·부정하는 내용이라 흐름에 맞지 않는다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        5,
-        7
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "You’ll love this one, Teen’s Science.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "Sorry, we don’t have any magazines here.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "I don’t know anything about magazines.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "You should read a history magazine instead.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "Science magazines are too difficult for you.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": "PRON_AGREEMENT",
-      "stem": "위 대화의 밑줄 친 this one이 가리키는 것으로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "one은 앞에 언급된 명사 magazine을 대신하는 부정대명사이고, 바로 뒤에 Teen’s Science라는 이름이 이어지므로 소녀가 추천하는 그 과학 잡지를 가리킨다.",
-      "difficulty": "easy",
-      "option_lang": "ko",
-      "source_tags": [
         5
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "Teen’s Science라는 과학 잡지",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "가게에 있는 모든 종류의 잡지",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "소년이 이미 읽어 본 잡지",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "소녀가 가장 좋아하는 소설책",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "과학 잡지를 파는 서점",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-DETAIL",
-      "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것은?",
-      "answer_key": "②",
-      "explanation": "소년은 과학에 관심이 있다고 말하고 과학 잡지를 추천해 달라고 요청했으므로 ②가 일치한다. ①은 all kinds of magazines가 있다고 했으므로 틀리고, ③은 Sure.라고 수락했으므로 틀리다. ④는 구입 사실이 언급되지 않았고, ⑤는 추천한 것이 과학 잡지 Teen’s Science이다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        6,
-        3
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "The girl says the store has only science magazines.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "The boy is interested in science and asks for a recommendation.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "The girl refuses to recommend a magazine.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "The boy already bought Teen’s Science.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "The girl recommends a history magazine to the boy.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "위 대화의 주제로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "소년의 관심 분야(과학)를 듣고 소녀가 그에 맞는 잡지를 추천하는 대화이므로 ①이 알맞다. 가격·기사 작성·도서 대출·동아리 선택은 언급되지 않았다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [
-        3,
-        5
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "recommending a magazine that fits someone’s interest",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "the price of science magazines",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "how to write an article for a school magazine",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "borrowing books from the school library",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "choosing a club to join at school",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-VOCAB-CONTEXT",
-      "grammar_point_code": null,
-      "stem": "위 대화를 아래와 같이 바꾸어 썼을 때, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
-      "answer_key": "⑤",
-      "explanation": "⑤는 추천을 수락한 뒤 건네는 말이므로 hate(싫어하다)가 아니라 love(아주 좋아하다)가 문맥에 맞다. 나머지는 모두 대화 흐름에 맞는 낱말이다.",
-      "difficulty": "easy",
-      "option_lang": "na",
-      "source_tags": [
-        7
       ],
       "options": [
         {
@@ -544,7 +254,186 @@
         },
         {
           "label": "④",
-          "body": "B: Can you recommend a science magazine for me?",
+          "body": "B: Can you recommended a science magazine for me?",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "G: You’ll love this one, Teen’s Science.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "지문의 [4]번 문장을 바꾸어 쓴 것 중, 어법상 옳은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "recommend는 대상을 전치사구로 나타내므로 for me가 필요하다(②처럼 전치사를 빼고 바로 목적어 두 개를 쓸 수 없다). ③은 조동사 뒤 to부정사, ④는 조동사 뒤 -ing, ⑤는 전치사 선택이 잘못되었다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Can you recommend a science magazine for me?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Can you recommend a science magazine me?",
+          "is_answer": false,
+          "violates_point_code": "SVOO_DATIVE",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Can you to recommend a science magazine for me?",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Can you recommending a science magazine for me?",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Can you recommend a science magazine in me?",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음은 지문의 대화를 다시 옮긴 것이다. 밑줄 친 낱말이 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "소년은 과학에 관심이 있어 잡지를 '추천해(recommend)' 달라고 부탁하는 상황이다. avoid(피하다)는 문맥에 맞지 않는다. 나머지는 원문대로 자연스럽다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "B: What kinds of magazines do you have?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "G: We have all kinds of magazines.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "B: I’m really interested in science.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B: Can you avoid a science magazine for me?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "G: Sure. You’ll love this one, Teen’s Science.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "PRON_INDEFINITE",
+      "stem": "[6]번 문장의 밑줄 친 this one이 가리키는 것으로 알맞은 것을 고르시오.\n\nG: You’ll love this one, Teen’s Science.",
+      "answer_key": "②",
+      "explanation": "one은 앞에서 언급된 magazine을 대신하는 부정대명사이고, 바로 뒤에 그 이름 Teen’s Science가 이어져 소녀가 추천하는 과학 잡지를 가리킨다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "소년이 이미 읽어 본 잡지",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "소녀가 소년에게 추천하는 과학 잡지 Teen’s Science",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "가게에 있는 모든 종류의 잡지",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "소년이 정기 구독하고 있는 신문",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -552,10 +441,124 @@
         },
         {
           "label": "⑤",
-          "body": "G: You’ll hate this one, Teen’s Science.",
+          "body": "소녀가 학교에서 쓰는 과학 교과서",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소년이 과학에 관심이 있다고 말하며 잡지 추천을 부탁하고, 소녀가 Teen’s Science를 추천하는 대화이므로 ①이 적절하다. 가격 불만, 도서 대출, 기사 작성, 길 묻기는 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "recommending a magazine that matches a customer’s interest",
           "is_answer": true,
           "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "complaining about the high price of science magazines",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "borrowing a science textbook from a school library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "writing an article for a school science magazine",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "asking for directions to a bookstore downtown",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소녀는 \"We have all kinds of magazines.\"라고 했으므로 과학 잡지만 판다는 ①은 일치하지 않는다. ②는 [3], ③은 [4], ④는 [6], ⑤는 [5]의 Sure.로 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The store sells only science magazines.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy is interested in science.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy asks the girl for a recommendation.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl recommends a magazine called Teen’s Science.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl agrees to help the boy.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 5
         }
       ],
@@ -564,15 +567,14 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (대화의 [4]번 문장)\n\n저에게 과학 잡지 한 권을 추천해 주실 수 있나요?\n( for / a science magazine / you / can / me / recommend )",
-      "answer_key": "Can you recommend a science magazine for me?",
-      "explanation": "요청의 조동사 Can을 문장 맨 앞에 두고 주어 you, 동사원형 recommend, 목적어 a science magazine, 그리고 대상을 나타내는 for me를 순서대로 배열한다. 조동사 뒤에는 반드시 동사원형이 온다.",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (물음표 포함)\n\n너희는 어떤 종류의 잡지들을 가지고 있니?\n( do / kinds / magazines / of / what / you / have )",
+      "answer_key": "What kinds of magazines do you have?",
+      "explanation": "'어떤 종류의 ~'는 what kind(s) of + 명사로 쓰고, 뒤에 의문문 어순 do you have를 붙인다. of를 빠뜨리지 않도록 주의한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        3,
-        4
+        0
       ],
       "options": [],
       "_answer_violates_point": []
@@ -580,16 +582,31 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "다음 조건에 맞게 우리말을 영어로 쓰시오.\n\n우리말: 나는 과학에 정말 관심이 있다.\n조건 1: interest를 알맞은 형태로 바꿔 쓸 것\n조건 2: really와 알맞은 전치사를 포함할 것\n조건 3: 5단어로 쓸 것 (I’m은 한 단어로 봄)",
-      "answer_key": "I’m really interested in science.",
-      "explanation": "사람이 감정을 느끼는 주체이므로 수동형 interested를 쓰고, be interested in의 전치사 in을 함께 써야 한다. interested를 수식하는 말은 부사 really이다.",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n저에게 과학 잡지 한 권을 추천해 주실 수 있나요?\n<조건> 1) Can으로 시작하는 의문문으로 쓸 것 2) recommend, for를 반드시 사용할 것 3) 7단어로 쓸 것(물음표 제외)",
+      "answer_key": "Can you recommend a science magazine for me?",
+      "explanation": "요청은 Can you + 동사원형 ~?으로 표현하므로 recommend를 원형으로 쓴다. recommend의 대상은 전치사 for를 써서 for me로 나타낸다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0,
-        1,
-        2
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 지문의 [3]번 문장을 잘못 쓴 것이다. 어법상 틀린 한 부분을 찾아 바르게 고쳐 쓰시오.\n\nB: I’m really interesting in science.",
+      "answer_key": "interesting → interested",
+      "explanation": "주어 I는 관심을 '느끼는' 주체이므로 감정동사 interest의 수동형 interested를 써야 한다. interesting은 '관심을 끄는(대상)'의 뜻이다. be interested in의 전치사 in은 그대로 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4
       ],
       "options": [],
       "_answer_violates_point": []
@@ -597,22 +614,13 @@
   ],
   "diagnostics": {
     "sentence_count": 6,
-    "tags_returned": 8,
-    "tags_kept": 8,
+    "tags_returned": 9,
+    "tags_kept": 9,
     "span_rejects": [],
     "logic_missing_sentences": [],
     "items_returned": 10,
     "items_kept": 10,
     "item_rejects": [],
-    "verbatim_problems": [
-      {
-        "item": 1,
-        "type": "T-GRAMMAR-INLINE",
-        "options": [
-          "③",
-          "⑤"
-        ]
-      }
-    ]
+    "verbatim_problems": []
   }
 }

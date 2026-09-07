@@ -8,63 +8,51 @@
       "span_end": 30,
       "surface": "get to",
       "sentence_no": 1,
-      "rationale": "'~에 도착하다'는 get to + 장소. 전치사 to를 for/in으로 바꾸거나 삭제하는(EI_PREP_DELETE) 오류를 유도할 수 있는 대표적 빈칸 자리",
+      "rationale": "'~에 도착하다/가다'는 get to 로 전치사 to가 반드시 필요. 목적지 앞 전치사를 빼거나(get the Dream Zoo) for/at 등으로 바꾸는 오류를 유도하기 쉬운 자리(EI_PREP_DELETE).",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
+        "EI_PREP_DELETE",
+        "RU_EXERCISE_OPTIONS"
       ]
     },
     {
       "grammar_point_code": "VERB_MODAL_USAGE",
-      "span_start": 18,
+      "span_start": 14,
       "span_end": 27,
-      "surface": "can I get",
+      "surface": "how can I get",
       "sentence_no": 1,
-      "rationale": "조동사 can 뒤에는 동사원형. 의문문 어순(how + can + 주어 + 동사원형)도 함께 확인. can I got / can I to get / can I getting 같은 오류 유도 가능",
+      "rationale": "의문사+조동사+주어+동사원형 어순. can 뒤 원형(get)이 와야 하며, 'how I can get'(도치 누락), 'how can I to get'(원형 위반) 등의 오류를 심을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 57,
+      "span_end": 72,
+      "surface": "take the subway",
+      "sentence_no": 2,
+      "rationale": "교통수단 표현에서 take + the + 수단(무전치사) vs go by subway(전치사 by, 무관사)의 구별. 'take by the subway'처럼 전치사를 끼워 넣는 오류를 유도할 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "BO_WORD_ORDER"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "span_start": 49,
-      "span_end": 61,
-      "surface": "You can take",
-      "sentence_no": 2,
-      "rationale": "조동사 can + 동사원형. can to take / can taking 처럼 준동사 형태를 넣는 오류를 심을 수 있는 자리",
-      "confidence": "high",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 93,
-      "span_end": 105,
-      "surface": "will it take",
-      "sentence_no": 4,
-      "rationale": "소요 시간을 묻는 미래시제 will + 동원. will it takes(수일치 오류)나 does it take(시제 변경)로 바꿔 물을 수 있음",
-      "confidence": "high",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_AGREEMENT"
+        "CO_SYNONYM"
       ]
     },
     {
       "grammar_point_code": "IT_CLEFT",
-      "span_start": 98,
+      "span_start": 93,
       "span_end": 105,
-      "surface": "it take",
+      "surface": "will it take",
       "sentence_no": 4,
-      "rationale": "시간·거리를 나타내는 비인칭 주어 it. 지시대명사로 오해해 that/this로 바꾸거나 it을 생략하는 오류 유도 가능",
-      "confidence": "medium",
+      "rationale": "시간이 걸린다는 뜻의 비인칭 주어 it. they/there 등으로 바꾸는 오류(대명사 오인)를 유도하는 대표 자리이고, 조동사 will 뒤 원형 take 도 함께 확인 대상.",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_STRUCT_DELETE"
+        "EI_AGREEMENT"
       ]
     },
     {
@@ -73,11 +61,11 @@
       "span_end": 128,
       "surface": "I think it’ll take",
       "sentence_no": 5,
-      "rationale": "think 뒤 목적어 명사절 접속사 that이 생략된 구조. that/what/if 중 고르게 하거나 what으로 바꾸는 오류를 심을 수 있음",
+      "rationale": "think 뒤 목적어 명사절 접속사 that 이 생략된 구조. that 을 what 으로 바꾸거나, 정동사 자리를 'it'll to take / it'll taking' 처럼 준동사로 만드는 오류를 심을 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "CO_CONJ_SWAP"
+        "EI_NONFIN_FORM"
       ]
     },
     {
@@ -86,11 +74,11 @@
       "span_end": 145,
       "surface": "about 30 minutes",
       "sentence_no": 5,
-      "rationale": "'약 ~' 대략의 수를 나타내는 about. in/for/during 등으로 바꾸거나 삭제하는 빈칸 출제 자리",
+      "rationale": "'약, 대략'의 about. during/for/in 등 시간 전치사로 바꿔 빈칸 처리하기 쉬운 자리(during 30 minutes 오류 유도).",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
+        "CO_SYNONYM"
       ]
     }
   ],
@@ -105,7 +93,7 @@
       "sentence_no": 2,
       "role": "해결책 — 교통수단 제안",
       "signal": null,
-      "is_blank_candidate": false
+      "is_blank_candidate": true
     },
     {
       "sentence_no": 3,
@@ -121,7 +109,7 @@
     },
     {
       "sentence_no": 5,
-      "role": "결론문 — 소요 시간 답변",
+      "role": "결과요약 — 소요 시간 답변",
       "signal": "I think",
       "is_blank_candidate": true
     }
@@ -129,98 +117,39 @@
   "items": [
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "위 대화의 (a)~(c)에 들어갈 말로 알맞게 짝지어진 것은?\n\nG: Excuse me, how can I (a)[get / got] to the Dream Zoo?\nB: You can (b)[take / to take] the subway.\nG: I see. How long (c)[will it take / will it takes]?",
-      "answer_key": "①",
-      "explanation": "조동사 can 뒤에는 항상 동사원형이 오므로 (a) get, (b) take가 맞다. (c)도 조동사 will 뒤이므로 원형 take를 써 'will it take'가 옳다. got·to take·takes는 모두 조동사 뒤 형태 규칙을 어긴다.",
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 대화의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.\n\nG: Excuse me, how ①can I get ②get the Dream Zoo?\nB: You ③can take the subway.\nG: I see. How long ④will it take?\nB: I think ⑤it’ll take about 30 minutes.\n\n(※ ②는 원문의 'get to the Dream Zoo' 부분을 밑줄 친 것입니다.)",
+      "answer_key": "②",
+      "explanation": "'~에 가다/도착하다'는 get to 이므로 목적지 앞에 전치사 to 가 반드시 필요하다. get the Dream Zoo → get to the Dream Zoo. ①은 의문사+조동사+주어+원형 어순으로 옳고, ③도 조동사 can 뒤 원형 take 로 옳다. ④는 시간이 걸린다는 뜻의 비인칭 주어 it 과 will+원형으로 옳으며, ⑤는 think 뒤 that 생략 절의 정동사 형태로 옳다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
+        0,
         1,
-        2,
-        3
+        3,
+        4
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) get — (b) take — (c) will it take",
-          "is_answer": true,
+          "body": "can I get",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "(a) got — (b) take — (c) will it take",
-          "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "(a) get — (b) to take — (c) will it take",
-          "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "(a) get — (b) take — (c) will it takes",
-          "is_answer": false,
-          "violates_point_code": "VERB_TENSE",
-          "via_modification": "EI_AGREEMENT",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "(a) got — (b) to take — (c) will it takes",
-          "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "다음 대화의 밑줄 친 부분 중 어법상 어색한 것은?\n\nG: Excuse me, how can I ①get the Dream Zoo?\nB: You ②can take the subway.\nG: I see. How long ③will it take?\nB: I think ④it’ll take ⑤about 30 minutes.",
-      "answer_key": "①",
-      "explanation": "'~에 도착하다'는 get to + 장소이므로 get to the Dream Zoo가 되어야 한다. 전치사 to가 빠져 ①이 틀렸다. ②는 조동사+원형, ③은 미래시제 의문문 어순, ④는 시간을 나타내는 비인칭 주어 it, ⑤는 '약 ~'의 about으로 모두 옳다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        0,
-        2,
-        3,
-        4,
-        6
-      ],
-      "options": [
-        {
-          "label": "①",
           "body": "get the Dream Zoo",
           "is_answer": true,
           "violates_point_code": "VERB_PREP_COLLOCATION",
           "via_modification": "EI_PREP_DELETE",
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "can take",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "will it take",
+          "body": "can take",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -228,7 +157,7 @@
         },
         {
           "label": "④",
-          "body": "it’ll take",
+          "body": "will it take",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -236,7 +165,7 @@
         },
         {
           "label": "⑤",
-          "body": "about 30 minutes",
+          "body": "it’ll take",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -247,14 +176,65 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-VOCAB-CONTEXT",
-      "grammar_point_code": null,
-      "stem": "다음 중 대화의 흐름상 낱말의 쓰임이 적절하지 않은 것은?",
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nG: Excuse me, how can I get (a)[to / for] the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will (b)[it / they] take?\nB: I think (c)[it’ll take / it’ll to take] about 30 minutes.",
+      "answer_key": "①",
+      "explanation": "(a) 목적지 앞에서는 get to 를 쓴다. (b) 시간이 걸린다고 할 때 주어는 비인칭 it 이며 they 는 쓸 수 없다. (c) 조동사 will 뒤에는 동사원형이 오므로 it’ll take 가 맞고 it’ll to take 는 준동사가 정동사 자리에 온 오류다. 따라서 to – it – it’ll take.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "to – it – it’ll take",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to – they – it’ll take",
+          "is_answer": false,
+          "violates_point_code": "IT_CLEFT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "for – it – it’ll take",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "to – it – it’ll to take",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화에서 가져온 다음 문장 중 어법상 틀린 것을 고르시오.",
       "answer_key": "②",
-      "explanation": "'지하철을 타다'는 take the subway이다. make the subway는 '지하철을 만들다'가 되어 문맥에 맞지 않는다. 나머지는 길 묻기·소요 시간 묻기·답하기의 자연스러운 표현이다.",
+      "explanation": "조동사 can 뒤에는 항상 동사원형이 온다. took → take. 나머지는 모두 본문 그대로의 옳은 문장이다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
+        1,
         2
       ],
       "options": [
@@ -268,10 +248,10 @@
         },
         {
           "label": "②",
-          "body": "You can make the subway.",
+          "body": "You can took the subway.",
           "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 2
         },
         {
@@ -289,35 +269,29 @@
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "I see.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
-      "_answer_violates_point": []
+      "_answer_violates_point": [
+        "②"
+      ]
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-PHRASE-INFER",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "위 대화의 밑줄 친 How long will it take?가 뜻하는 것으로 가장 알맞은 것은?",
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
       "answer_key": "①",
-      "explanation": "「How long does/will it take?」는 소요 시간을 묻는 표현이고, 여기서 it은 시간을 나타내는 비인칭 주어이다. take를 '가져가다'로, long을 '길이'로 해석하면 안 된다. 답변이 'about 30 minutes'인 것도 시간을 묻는 질문임을 보여 준다.",
+      "explanation": "소녀는 Dream Zoo에 가는 방법과 소요 시간을 묻고, 소년은 지하철을 타라고 안내하며 약 30분 걸린다고 답한다. 동물, 요금, 지도는 대화에 언급되지 않았다.",
       "difficulty": "easy",
-      "option_lang": "ko",
+      "option_lang": "en",
       "source_tags": [
-        4,
+        0,
         3
       ],
       "options": [
         {
           "label": "①",
-          "body": "거기까지 가는 데 시간이 얼마나 걸리나요?",
+          "body": "How to get to the Dream Zoo and how long it takes",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -325,7 +299,7 @@
         },
         {
           "label": "②",
-          "body": "그것은 길이가 얼마나 되나요?",
+          "body": "Which animals people can see at the Dream Zoo",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -333,7 +307,7 @@
         },
         {
           "label": "③",
-          "body": "지하철 요금이 얼마인가요?",
+          "body": "How much a subway ticket to the zoo costs",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -341,19 +315,11 @@
         },
         {
           "label": "④",
-          "body": "그것을 누가 가져갈까요?",
+          "body": "Where the girl can buy a subway map",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "동물원은 얼마나 먼가요?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
@@ -362,20 +328,20 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것은?",
+      "stem": "Which of the following is TRUE about the dialogue?",
       "answer_key": "①",
-      "explanation": "소녀는 Dream Zoo에 가는 방법을 묻고 있으므로 ①이 일치한다. 소년이 권한 것은 지하철(subway)이므로 ②는 틀리고, 소녀는 소요 시간을 몰라서 물었으므로 ③도 틀리다. 소요 시간은 약 30분이므로 ④도 틀리며, 함께 간다는 언급은 없다.",
+      "explanation": "소녀가 'how can I get to the Dream Zoo?'라고 길을 묻고 있으므로 ①이 맞다. ② 소년은 지하철(subway)을 권했고, ③ 약 30분이며, ④ 소녀는 길을 몰라서 묻고 있다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
         0,
         2,
-        6
+        5
       ],
       "options": [
         {
           "label": "①",
-          "body": "The girl wants to know how to get to the Dream Zoo.",
+          "body": "The girl asks the boy how to get to the Dream Zoo.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -391,7 +357,7 @@
         },
         {
           "label": "③",
-          "body": "The girl already knows how long the trip takes.",
+          "body": "The trip will take about thirteen minutes.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -399,40 +365,32 @@
         },
         {
           "label": "④",
-          "body": "It takes about 30 hours to get to the zoo.",
+          "body": "The girl already knows the way to the zoo.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "The boy is going to the Dream Zoo with the girl.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "위 대화의 밑줄 친 How long will it take? 가 뜻하는 것으로 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "대화는 Dream Zoo로 가는 방법(How can I get to ~?)과 소요 시간(How long will it take?)을 묻고 답하는 내용이다. 표 구입·동물 선택·불만 제기·여행 계획은 언급되지 않았다.",
-      "difficulty": "easy",
-      "option_lang": "en",
+      "explanation": "take 는 '(시간이) 걸리다'의 뜻이고 it 은 시간을 나타내는 비인칭 주어이므로 소요 시간을 묻는 표현이다. 바로 뒤에서 'about 30 minutes'라고 시간으로 답하는 것이 근거다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
       "source_tags": [
-        0,
-        3
+        3,
+        5
       ],
       "options": [
         {
           "label": "①",
-          "body": "asking the way to a place and how long it takes",
+          "body": "거기까지 가는 데 시간이 얼마나 걸리는지 묻는 말",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -440,7 +398,7 @@
         },
         {
           "label": "②",
-          "body": "buying tickets for the zoo",
+          "body": "동물원까지의 거리가 몇 킬로미터인지 묻는 말",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -448,7 +406,7 @@
         },
         {
           "label": "③",
-          "body": "choosing an animal to see at the zoo",
+          "body": "지하철 요금이 얼마인지 묻는 말",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -456,19 +414,11 @@
         },
         {
           "label": "④",
-          "body": "complaining about the subway service",
+          "body": "무엇을 가지고 가야 하는지 묻는 말",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "making a plan for a school trip",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
@@ -476,15 +426,64 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "VERB_TENSE",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (물음표 포함)\n\n(얼마나 오래 걸릴까요?)\n[ take / it / long / will / how ]",
-      "answer_key": "How long will it take?",
-      "explanation": "소요 시간을 묻는 표현은 「How long + will + 주어(비인칭 it) + 동사원형 take?」 순서이다. 조동사 will이 주어 it 앞으로 나가고 동사는 원형 take를 쓴다.",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 바르게 배열한 것을 고르시오.\n\n「Dream Zoo에 어떻게 갈 수 있나요?」\n( how / can / I / get / to / the Dream Zoo )",
+      "answer_key": "①",
+      "explanation": "의문사 의문문은 「의문사+조동사+주어+동사원형」 순서다. ②는 조동사와 주어의 도치가 빠졌고, ③은 get to 의 전치사 to 가 빠졌으며, ④는 조동사 뒤에 to부정사가 와서 틀렸다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        3,
-        4
+        0,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "How can I get to the Dream Zoo?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How I can get to the Dream Zoo?",
+          "is_answer": false,
+          "violates_point_code": "INVERSION",
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "How can I get the Dream Zoo?",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "How can I to get to the Dream Zoo?",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n「약 30분 정도 걸릴 것 같아요.」\n<조건> 1) I think 로 시작할 것 2) 접속사 that 은 생략할 것 3) 시간을 나타내는 비인칭 주어 it 과 will 의 축약형(it’ll)을 쓸 것 4) about, 30 minutes, take 를 사용할 것",
+      "answer_key": "I think it’ll take about 30 minutes.",
+      "explanation": "think 의 목적어 명사절에서 that 을 생략하고, 소요 시간을 나타내는 비인칭 주어 it 과 will 의 축약형 it’ll 을 쓴다. 조동사 뒤에는 동사원형 take 가 오며, '약'의 의미로 about 을 30 minutes 앞에 둔다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
       ],
       "options": [],
       "_answer_violates_point": []
@@ -493,29 +492,14 @@
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nExcuse me, how can I get for the Dream Zoo?",
-      "answer_key": "get for → get to",
-      "explanation": "'~에 도착하다, ~로 가다'는 get to + 장소이다. 따라서 get for를 get to로 고쳐 'how can I get to the Dream Zoo?'가 되어야 한다.",
+      "stem": "다음 두 문장에서 어법상 틀린 부분을 각각 찾아 바르게 고쳐 쓰시오.\n\n(1) Excuse me, how can I get the Dream Zoo?\n(2) How long will they take?",
+      "answer_key": "(1) get → get to  (2) they → it",
+      "explanation": "(1) '~에 가다'는 get to 이므로 목적지 앞에 전치사 to 가 필요하다. (2) 시간이 걸린다고 말할 때는 비인칭 주어 it 을 쓰므로 they 를 it 으로 고쳐야 한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "NOUN_CLAUSE_THAT",
-      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n나는 그것이 약 30분 걸릴 것이라고 생각해.\n<조건> 1) I think로 시작할 것  2) will, take, about을 사용할 것  3) 접속사 that은 생략할 것",
-      "answer_key": "I think it will take about 30 minutes.",
-      "explanation": "think의 목적어인 명사절 접속사 that을 생략하고 「I think + 주어 + 동사」로 쓴다. 시간을 나타내는 비인칭 주어 it을 쓰고, 미래 will 뒤에는 동사원형 take를, '약 ~'에는 about을 쓴다. (it will은 it'll로 줄여 써도 됨)",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        5,
-        6
+        0,
+        3
       ],
       "options": [],
       "_answer_violates_point": []
@@ -523,8 +507,8 @@
   ],
   "diagnostics": {
     "sentence_count": 5,
-    "tags_returned": 7,
-    "tags_kept": 7,
+    "tags_returned": 6,
+    "tags_kept": 6,
     "span_rejects": [],
     "logic_missing_sentences": [],
     "items_returned": 9,

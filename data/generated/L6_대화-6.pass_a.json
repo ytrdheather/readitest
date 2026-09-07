@@ -4,11 +4,11 @@
   "tags": [
     {
       "grammar_point_code": "PREP_USAGE",
-      "span_start": 8,
+      "span_start": 3,
       "span_end": 20,
-      "surface": "kind of food",
+      "surface": "What kind of food",
       "sentence_no": 1,
-      "rationale": "'what kind of + 무관사 명사' 형태. of를 for/with로 바꾸거나 통째로 삭제(kind food)하는 오류를 유도할 수 있고, 빈칸으로 뚫기 가장 쉬운 자리",
+      "rationale": "'kind of + 명사(불가산·무관사)' 형태. what kind for food / a kind food 처럼 전치사 of 를 빼거나 다른 전치사로 바꾸는 오류를 유도할 수 있는 자리",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -16,28 +16,30 @@
       ]
     },
     {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "span_start": 63,
-      "span_end": 72,
-      "surface": "How about",
-      "sentence_no": 3,
-      "rationale": "How about은 전치사 about 뒤에 명사·대명사·동명사가 오는 구문. 'How about to you / How about you are'처럼 to부정사·절을 넣는 오류, 또는 'What about'과의 구별로 출제 가능",
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 21,
+      "span_end": 32,
+      "surface": "do you like",
+      "sentence_no": 1,
+      "rationale": "주어 you 에 맞는 조동사 do + 동사원형. does you like / do you likes 처럼 수일치·어형 오류를 심을 수 있음",
       "confidence": "medium",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM"
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
       ]
     },
     {
-      "grammar_point_code": "VERB_TENSE",
-      "span_start": 86,
-      "span_end": 105,
-      "surface": "I love Indian food.",
-      "sentence_no": 4,
-      "rationale": "기호·상태를 나타내는 love는 현재시제로 쓰며 진행형(am loving)이 불가. 'I am loving Indian food'로 바꾼 선지를 만들 수 있다",
-      "confidence": "low",
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 63,
+      "span_end": 76,
+      "surface": "How about you",
+      "sentence_no": 3,
+      "rationale": "'How about + 명사(대명사)' 되묻기 표현. How for you / How about are you 같은 전치사·구조 오류를 유도. 굳어진 표현이라 전치사가 눈에 안 들어오는 대표 자리",
+      "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
       ]
     },
     {
@@ -46,50 +48,25 @@
       "span_end": 126,
       "surface": "Can you recommend",
       "sentence_no": 5,
-      "rationale": "요청을 나타내는 조동사 Can/Could + 동사원형. 'Can you recommending / Can you to recommend'처럼 원형이 아닌 형태를 넣는 오류 유도",
-      "confidence": "medium",
+      "rationale": "요청의 Can you + 동사원형. Can you to recommend / Can you recommending 처럼 조동사 뒤 원형 규칙 위반을 심을 수 있음",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_NONFIN_FORM"
       ]
     },
     {
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "span_start": 127,
-      "span_end": 145,
-      "surface": "a good Indian dish",
-      "sentence_no": 5,
-      "rationale": "명사 dish를 앞에서 수식하는 형용사 good. 부사 well로 바꾼 'a well Indian dish' 오류가 전형적인 선지",
-      "confidence": "high",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_ADJ_TO_ADV"
-      ]
-    },
-    {
-      "grammar_point_code": "PREP_USAGE",
+      "grammar_point_code": "SVOO_DATIVE",
       "span_start": 146,
       "span_end": 152,
       "surface": "for me",
       "sentence_no": 5,
-      "rationale": "recommend 뒤 대상을 나타내는 전치사 for/to 선택 자리. 전치사 삭제(recommend me) 또는 with/of 교체 오류로 출제되기 쉬움",
+      "rationale": "수여 의미의 3형식 전환에서 쓰이는 전치사. of me / with me 로 바꾸는 전치사 선택 오류, 또는 전치사 삭제(recommend me a dish 와의 비교) 출제 가능",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_PREP_DELETE"
-      ]
-    },
-    {
-      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 117,
-      "span_end": 152,
-      "surface": "recommend a good Indian dish for me",
-      "sentence_no": 5,
-      "rationale": "목적어(a good Indian dish)를 갖는 타동사 능동태이므로 수동 전환 함정을 심을 수 있다. 'a good Indian dish be recommended for me'로 바꾸며 be동사·by 누락 오류 유도",
-      "confidence": "low",
-      "applicable_modifications": [
-        "EI_ACTIVE_TO_PASSIVE_NO_BY",
-        "EI_PASSIVE_FORM"
+        "EI_PREP_DELETE",
+        "RU_FORMAT_RECAST"
       ]
     },
     {
@@ -98,11 +75,12 @@
       "span_end": 180,
       "surface": "why don’t you try",
       "sentence_no": 6,
-      "rationale": "제안 표현 Why don't you + 동사원형. 'why don’t you to try / trying / tried'처럼 원형 이외의 형태를 넣는 오류가 단골 선지",
+      "rationale": "제안 표현 Why don't you + 동사원형. don't you tried / don't you to try / trying 처럼 원형 자리 어형 오류, How about trying 과의 전환도 자주 출제",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_NONFIN_FORM"
+        "EI_NONFIN_FORM",
+        "RU_FORMAT_RECAST"
       ]
     },
     {
@@ -111,8 +89,8 @@
       "span_end": 203,
       "surface": "It’s",
       "sentence_no": 7,
-      "rationale": "It is의 축약형. 소유격 Its와 혼동시키는 'Its really good' 오류로 출제 가능",
-      "confidence": "medium",
+      "rationale": "It is 의 축약형. 소유격 Its 와의 혼동(Its really good)을 노리는 대표적 출제 지점",
+      "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
       ]
@@ -123,11 +101,11 @@
       "span_end": 215,
       "surface": "really good",
       "sentence_no": 7,
-      "rationale": "부사 really가 형용사 good을 수식하고 good은 be동사의 보어. 'real good'(형용사가 형용사 수식) 또는 'really well'(보어 자리에 부사) 오류를 유도",
-      "confidence": "high",
+      "rationale": "부사 really 가 형용사 good 을 수식. real good / really well 처럼 형용사·부사 교체 오류를 심을 수 있음",
+      "confidence": "medium",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_ADJ_TO_ADV"
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
       ]
     }
   ],
@@ -140,37 +118,37 @@
     },
     {
       "sentence_no": 2,
-      "role": "응답 — 정보제공",
+      "role": "응답(정보 제시)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "전환 — 되질문",
+      "role": "전환(되묻기)",
       "signal": "How about",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "응답 — 정보제공",
+      "role": "응답(정보 제시)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "요청 — 추천 부탁",
+      "role": "요청",
       "signal": "Can you",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "해결책 — 제안(대화의 핵심)",
+      "role": "해결책(제안)",
       "signal": "Well, why don’t you",
       "is_blank_candidate": true
     },
     {
       "sentence_no": 7,
-      "role": "부연 — 제안의 근거",
+      "role": "근거(평가)",
       "signal": null,
       "is_blank_candidate": false
     }
@@ -178,78 +156,23 @@
   "items": [
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nG: Can you recommend a (a)[good / well] Indian dish for me?\nB: Well, why don’t you (b)[try / to try] tandoori chicken?\nIt’s (c)[real / really] good.",
-      "answer_key": "①",
-      "explanation": "(a) 명사 dish를 수식하므로 형용사 good이 맞다(well은 부사). (b) 제안 표현 why don’t you 뒤에는 동사원형 try가 온다. (c) 형용사 good을 수식하므로 부사 really가 필요하다(real은 형용사여서 형용사를 수식할 수 없다). 따라서 ①.",
-      "difficulty": "medium",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④ Why don't you 뒤에는 동사원형이 와야 하므로 tried → try 가 맞다. ①은 kind of + 명사, ③은 recommend ~ for me(3형식), ⑤는 It's + 부사 really + 형용사 good 으로 모두 어법상 옳다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        4,
-        7,
-        9
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "good – try – really",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "good – to try – really",
-          "is_answer": false,
-          "violates_point_code": "VERB_MODAL_USAGE",
-          "via_modification": "EI_NONFIN_FORM",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "well – try – really",
-          "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "good – try – real",
-          "is_answer": false,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
-          "ordinal": 4
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [
-        "①",
-        "③",
-        "④"
-      ],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "위 대화의 밑줄 친 부분 중 어법상 틀린 것을 고르시오.",
-      "answer_key": "⑤",
-      "explanation": "⑤ be동사 뒤 보어 자리에는 형용사가 와야 하므로 well이 아니라 good이어야 한다(It’s really good). ①의 kind of, ②의 How about + 대명사, ③의 recommend ~ for me, ④의 why don’t you + 동사원형은 모두 올바른 표현이다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        9,
-        0,
-        1,
         5,
+        0,
+        4,
         7
       ],
       "options": [
         {
           "label": "①",
-          "body": "What ⓐkind of food do you like, Amy?",
+          "body": "What kind of food do you like, Amy?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -257,7 +180,7 @@
         },
         {
           "label": "②",
-          "body": "ⓑHow about you, Tom?",
+          "body": "I like Italian food.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -265,7 +188,7 @@
         },
         {
           "label": "③",
-          "body": "Can you recommend a good Indian dish ⓒfor me?",
+          "body": "Can you recommend a good Indian dish for me?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -273,19 +196,71 @@
         },
         {
           "label": "④",
-          "body": "Well, ⓓwhy don’t you try tandoori chicken?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "Well, why don’t you tried tandoori chicken?",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "ⓔIt’s really well.",
-          "is_answer": true,
-          "violates_point_code": "MOD_ADJ_VS_ADV",
-          "via_modification": "EI_ADJ_TO_ADV",
+          "body": "It’s really good.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "위 대화를 바탕으로 (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\nG: Can you recommend a good Indian dish (a)[for / of] me?\nB: Well, why don’t you (b)[try / to try] tandoori chicken?\n(c)[It’s / Its] really good.",
+      "answer_key": "①",
+      "explanation": "recommend 는 3형식 전환 시 'for + 사람'을 쓰므로 for me, Why don't you 뒤에는 동사원형 try, '그것은 ~하다'는 It is 의 축약형 It's 이다. ②는 전치사 오류, ③은 조동사 뒤 to부정사 오류, ④는 소유격 Its 를 잘못 쓴 것이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) for – (b) try – (c) It’s",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) of – (b) try – (c) It’s",
+          "is_answer": false,
+          "violates_point_code": "SVOO_DATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) for – (b) to try – (c) It’s",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) for – (b) try – (c) Its",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
         }
       ],
       "_answer_violates_point": []
@@ -294,9 +269,9 @@
       "_verbatim_problem": [],
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
-      "answer_key": "③",
-      "explanation": "③ Amy는 좋은 인도 음식을 '추천해' 달라고 부탁하는 상황이므로 refuse(거절하다)는 문맥에 맞지 않고 recommend(추천하다)가 알맞다. 나머지는 대화 흐름에 자연스럽다.",
+      "stem": "위 대화를 옮긴 것 중, 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④는 뒤에서 Tom 이 탄두리 치킨을 권해 주는 흐름이므로 '거절하다(refuse)'가 아니라 '추천하다(recommend)'가 와야 한다. 나머지는 대화 흐름에 맞는 낱말이다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
@@ -305,7 +280,7 @@
       "options": [
         {
           "label": "①",
-          "body": "G: I like Italian food.",
+          "body": "B: What kind of food do you like, Amy?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -313,7 +288,7 @@
         },
         {
           "label": "②",
-          "body": "B: I love Indian food.",
+          "body": "G: I like Italian food.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -321,18 +296,18 @@
         },
         {
           "label": "③",
-          "body": "G: Can you refuse a good Indian dish for me?",
-          "is_answer": true,
+          "body": "B: I love Indian food.",
+          "is_answer": false,
           "violates_point_code": null,
-          "via_modification": "CO_SYNONYM",
+          "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "B: Well, why don’t you try tandoori chicken?",
-          "is_answer": false,
+          "body": "G: Can you refuse a good Indian dish for me?",
+          "is_answer": true,
           "violates_point_code": null,
-          "via_modification": null,
+          "via_modification": "CO_SYNONYM",
           "ordinal": 4
         },
         {
@@ -350,18 +325,18 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "위 대화의 밑줄 친 why don’t you try tandoori chicken?이 뜻하는 바로 가장 알맞은 것을 고르시오.",
+      "stem": "위 대화의 밑줄 친 why don’t you try tandoori chicken? 이 뜻하는 것으로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "Why don’t you ~?는 형태는 의문문이지만 '~하는 게 어때?'라는 제안·권유의 표현이다. 바로 뒤에서 It’s really good.이라며 이유를 덧붙이는 것으로도 권유임을 알 수 있다.",
+      "explanation": "Why don't you ~? 는 이유를 묻는 말이 아니라 '~하는 게 어때?'라는 제안 표현이다. 따라서 ②처럼 문자 그대로 이유를 묻는 해석은 알맞지 않다.",
       "difficulty": "easy",
       "option_lang": "ko",
       "source_tags": [
-        7
+        5
       ],
       "options": [
         {
           "label": "①",
-          "body": "탄두리 치킨을 한번 먹어 보라고 권하는 말",
+          "body": "탄두리 치킨을 한번 먹어 보는 게 어때?",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -369,7 +344,7 @@
         },
         {
           "label": "②",
-          "body": "탄두리 치킨을 왜 먹지 않느냐고 이유를 따지는 말",
+          "body": "너는 왜 탄두리 치킨을 먹지 않는 거야?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -377,7 +352,7 @@
         },
         {
           "label": "③",
-          "body": "탄두리 치킨을 만들 수 있는지 묻는 말",
+          "body": "탄두리 치킨은 내 입맛에 맞지 않아.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -385,7 +360,7 @@
         },
         {
           "label": "④",
-          "body": "탄두리 치킨이 맛이 없다고 알려 주는 말",
+          "body": "내가 탄두리 치킨을 만들어 줄까?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -393,7 +368,7 @@
         },
         {
           "label": "⑤",
-          "body": "탄두리 치킨을 사 달라고 부탁하는 말",
+          "body": "탄두리 치킨은 어디서 파는지 아니?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -408,17 +383,17 @@
       "grammar_point_code": null,
       "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
       "answer_key": "①",
-      "explanation": "두 사람이 좋아하는 음식을 말한 뒤 Amy가 인도 음식 추천을 부탁하고 Tom이 탄두리 치킨을 권하는 대화이므로 ①이 주제다. 주문·요리법·불평·가격 비교는 대화에 나오지 않는다.",
+      "explanation": "두 사람은 좋아하는 음식을 서로 묻고 답한 뒤, Tom 이 인도 음식 하나(tandoori chicken)를 추천하고 있다. 주문·요리·가격·여행 이야기는 나오지 않는다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        3,
-        7
+        0,
+        3
       ],
       "options": [
         {
           "label": "①",
-          "body": "asking for and giving a food recommendation",
+          "body": "asking about food preferences and recommending a dish",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -426,7 +401,7 @@
         },
         {
           "label": "②",
-          "body": "ordering food at an Indian restaurant",
+          "body": "ordering dinner at an Indian restaurant",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -434,7 +409,7 @@
         },
         {
           "label": "③",
-          "body": "learning how to cook tandoori chicken",
+          "body": "learning how to cook Italian food at home",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -442,7 +417,7 @@
         },
         {
           "label": "④",
-          "body": "complaining about very spicy food",
+          "body": "comparing the prices of foreign dishes",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -450,7 +425,7 @@
         },
         {
           "label": "⑤",
-          "body": "comparing the prices of Italian dishes",
+          "body": "planning a trip to India with friends",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -464,14 +439,13 @@
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
       "stem": "위 대화의 내용과 일치하지 않는 것을 고르시오.",
-      "answer_key": "⑤",
-      "explanation": "Tom은 인도 음식을 좋아한다고 말했을 뿐 이탈리아 음식과 맛을 비교한 내용은 대화에 없다. ①~④는 모두 대화에서 확인된다.",
+      "answer_key": "④",
+      "explanation": "Amy 는 이탈리아 음식을 좋아한다고만 말했고, 음식을 추천한 사람은 Tom 이다. 따라서 ④가 대화 내용과 다르다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        2,
         3,
-        7
+        5
       ],
       "options": [
         {
@@ -500,16 +474,16 @@
         },
         {
           "label": "④",
-          "body": "Tom recommends tandoori chicken to Amy.",
-          "is_answer": false,
+          "body": "Amy recommends an Italian dish to Tom.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "Tom says that Italian food tastes better than Indian food.",
-          "is_answer": true,
+          "body": "Tom says that tandoori chicken is really good.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 5
@@ -520,19 +494,20 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-BLANK",
-      "grammar_point_code": null,
-      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nG: Can you recommend a good Indian dish for me?\nB: Well, ____________? It’s really good.",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 흐름과 어법을 모두 고려할 때, 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nG: Can you recommend a good Indian dish for me?\nB: Well, ______ tandoori chicken? It’s really good.",
       "answer_key": "①",
-      "explanation": "인도 음식을 추천해 달라는 부탁에 대한 답이므로 인도 요리를 권하는 ①이 알맞다. ②는 이탈리아 요리라 부탁 내용과 어긋나고, ③④⑤는 추천이 아니어서 뒤의 It’s really good.과 연결되지 않는다.",
+      "explanation": "음식을 추천하는 제안 표현은 'Why don't you + 동사원형 ~?' 이다. ②⑤는 원형 자리에 tried/to try 를 써서 틀리고, ③은 How about 뒤에 동명사(trying)가 와야 하며, ④는 의문문 어순이 아니다.",
       "difficulty": "medium",
       "option_lang": "en",
       "source_tags": [
-        7
+        5,
+        2
       ],
       "options": [
         {
           "label": "①",
-          "body": "why don’t you try tandoori chicken",
+          "body": "why don’t you try",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -540,34 +515,34 @@
         },
         {
           "label": "②",
-          "body": "why don’t you cook Italian pasta",
+          "body": "why don’t you tried",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "how much does an Indian dish cost",
+          "body": "how about try",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "where did you learn to cook",
+          "body": "why you don’t try",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_WORD_ORDER",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "what kind of food do you hate",
+          "body": "why don’t you to try",
           "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 5
         }
       ],
@@ -575,31 +550,15 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 대화의 첫 문장을 완성하시오.\n우리말: Amy, 너는 어떤 종류의 음식을 좋아하니?\n주어진 단어: (like / kind / do / what / food / you / of)",
-      "answer_key": "What kind of food do you like, Amy?",
-      "explanation": "'어떤 종류의 ~'는 what kind of + 명사로 쓰고, 의문사구 뒤에 조동사 do + 주어 you + 동사원형 like의 순서로 배열한다. of를 빠뜨리면 안 된다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        0
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "VERB_MODAL_USAGE",
-      "stem": "대화의 흐름에 맞게 아래 조건에 따라 영작하시오.\n우리말: 저에게 좋은 인도 음식을 추천해 주시겠어요?\n조건 1) Can으로 시작하는 의문문으로 쓸 것\n조건 2) recommend, a good Indian dish, for me를 모두 사용할 것\n조건 3) 총 8단어로 쓸 것",
-      "answer_key": "Can you recommend a good Indian dish for me?",
-      "explanation": "요청을 나타내는 Can you + 동사원형(recommend)을 쓰고, 명사 dish를 수식하는 형용사 good, 대상을 나타내는 전치사구 for me를 그대로 살려 쓴다. for를 빼고 recommend me a good Indian dish로 쓰면 조건 2)를 어긴다.",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화의 B의 제안 why don’t you try tandoori chicken? 과 같은 뜻이 되도록, How about 으로 시작하는 문장을 완성하시오. (3단어 추가)\n→ How about ____________________?",
+      "answer_key": "How about trying tandoori chicken?",
+      "explanation": "Why don't you + 동사원형 ~? 은 How about + 동명사 ~? 로 바꿔 쓸 수 있다. about 이 전치사이므로 try 가 아니라 trying 을 써야 한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        3,
-        4,
+        2,
         5
       ],
       "options": [],
@@ -608,15 +567,31 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "MOD_ADJ_VS_ADV",
-      "stem": "대화의 마지막 문장을 아래와 같이 바꾸어 썼다. 어법상 틀린 부분을 찾아 한 단어만 바르게 고쳐 쓰시오.\n→ Its really well.",
-      "answer_key": "Its → It’s (It is) / well → good  (정답 문장: It’s really good.)",
-      "explanation": "보어 자리에는 형용사가 와야 하므로 부사 well을 형용사 good으로 고쳐야 한다(또한 소유격 Its는 It is의 축약형 It’s여야 한다). 원문은 It’s really good.이다.",
+      "grammar_point_code": "PRON_AGREEMENT",
+      "stem": "위 대화를 아래와 같이 옮겨 적었다. 밑줄 친 두 곳을 어법에 맞게 고쳐 쓰시오.\nB: Well, why don’t you (a) trying tandoori chicken? (b) Its really good.",
+      "answer_key": "(a) trying → try  (b) Its → It’s",
+      "explanation": "(a) Why don't you 뒤에는 동사원형이 오므로 try 로 고친다. (b) '그것은 정말 맛있다'는 It is 의 축약형 It's 를 써야 하며 Its 는 소유격이다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        8,
-        9
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n저에게 좋은 인도 음식을 추천해 주시겠어요?\n( me / recommend / can / for / a good Indian dish / you )",
+      "answer_key": "Can you recommend a good Indian dish for me?",
+      "explanation": "요청은 'Can you + 동사원형'으로 시작하고, recommend 는 사람 앞에 전치사 for 를 써서 'recommend + 사물 + for + 사람' 순서로 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4
       ],
       "options": [],
       "_answer_violates_point": []
@@ -624,23 +599,13 @@
   ],
   "diagnostics": {
     "sentence_count": 7,
-    "tags_returned": 10,
-    "tags_kept": 10,
+    "tags_returned": 8,
+    "tags_kept": 8,
     "span_rejects": [],
     "logic_missing_sentences": [],
     "items_returned": 10,
     "items_kept": 10,
     "item_rejects": [],
-    "verbatim_problems": [
-      {
-        "item": 1,
-        "type": "T-GRAMMAR-INLINE",
-        "options": [
-          "①",
-          "③",
-          "④"
-        ]
-      }
-    ]
+    "verbatim_problems": []
   }
 }

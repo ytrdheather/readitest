@@ -8,11 +8,11 @@
       "span_end": 47,
       "surface": "how can I get to the Star Stadium",
       "sentence_no": 1,
-      "rationale": "get to + 장소 = ~에 도착하다. get 뒤 전치사 to 삭제(EI_PREP_DELETE)나 get in/at 으로 바꾸는 오류 유도 가능. 길 묻기 표현의 핵심 자리라 출제 가능성 높음",
+      "rationale": "get to + 장소 = ~에 도착하다. get 뒤 전치사 to 삭제(EI_PREP_DELETE)나 get in/at 오답 유도 가능. 목적지 앞 to가 빈칸으로 뚫리기 쉬운 자리",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_PREP_DELETE",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -21,7 +21,7 @@
       "span_end": 79,
       "surface": "by subway",
       "sentence_no": 2,
-      "rationale": "교통수단을 나타내는 by + 무관사 명사. by a subway / with subway / on subway 등으로 바꾸는 오류 유도. 빈칸 뚫기 가장 쉬운 자리",
+      "rationale": "교통수단을 나타내는 by + 무관사 명사. by a subway / with subway / on subway 오답 유도. 빈칸 출제 최빈 자리",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -31,40 +31,27 @@
     {
       "grammar_point_code": "CONJ_PARALLEL",
       "span_start": 81,
-      "span_end": 141,
-      "surface": "Take line 4, the green line, and get off at Hangang Station.",
+      "span_end": 121,
+      "surface": "Take line 4, the green line, and get off",
       "sentence_no": 3,
-      "rationale": "명령문 두 개(Take ~ / get off ~)가 and로 병렬. get off를 getting off나 gets off로 바꾸는 병렬 파괴 오류 유도",
+      "rationale": "명령문 두 개(Take ~ and get off ~)의 병렬. and 뒤를 getting off / gets off 로 바꾸면 병렬 파괴",
       "confidence": "medium",
       "applicable_modifications": [
         "EI_PARALLEL_BREAK",
-        "BO_FORM_CHOICE"
+        "EI_GERUND_TO_VERB"
       ]
     },
     {
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "grammar_point_code": "PREP_USAGE",
       "span_start": 114,
       "span_end": 140,
       "surface": "get off at Hangang Station",
       "sentence_no": 3,
-      "rationale": "get off at + 역 이름(하차 지점). at을 in/on/to로 바꾸거나 삭제하는 오류 유도",
+      "rationale": "역·지점을 나타내는 at. get off in/on/to Hangang Station 오답 유도, at 삭제도 가능",
       "confidence": "high",
       "applicable_modifications": [
-        "EI_PREP_DELETE",
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
-      "grammar_point_code": "MOD_POSTPOSITIVE",
-      "span_start": 94,
-      "span_end": 108,
-      "surface": "the green line",
-      "sentence_no": 3,
-      "rationale": "line 4 뒤 콤마로 이어지는 동격 명사구. 동격 구조를 관계사절(which is the green line)로 바꾸거나 삭제하는 변형 가능",
-      "confidence": "low",
-      "applicable_modifications": [
-        "EI_STRUCT_DELETE",
-        "CO_SYNONYM"
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -73,11 +60,11 @@
       "span_end": 202,
       "surface": "How long will it take",
       "sentence_no": 6,
-      "rationale": "소요 시간을 묻는 비인칭 주어 it. it을 that/there로 바꾸거나 주어를 생략하는 오류 유도. take가 '시간이 걸리다'로 쓰인 자리",
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it. does it take/is it take 등 형태 혼동 및 it 대신 that 사용 오류 유도",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_STRUCT_DELETE"
+        "BO_WORD_ORDER"
       ]
     },
     {
@@ -86,7 +73,7 @@
       "span_end": 202,
       "surface": "will it take",
       "sentence_no": 6,
-      "rationale": "미래 소요 시간이므로 조동사 will + 동사원형. will it takes / will it took 형태 오류 유도",
+      "rationale": "미래 소요 시간을 묻는 will + 동사원형. will it takes / will it took 형태 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -99,7 +86,7 @@
       "span_end": 236,
       "surface": "A little more than 30 minutes",
       "sentence_no": 7,
-      "rationale": "비교급 more than을 강조하는 a little. very/much/many 등과의 구별, more를 most로 바꾸는 오류 유도",
+      "rationale": "비교급 more than 앞의 강조 부사 a little. much/a few/very 등과 구별하며 비교급 수식 부사 출제 자리",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -107,12 +94,12 @@
       ]
     },
     {
-      "grammar_point_code": "PREP_USAGE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
       "span_start": 52,
       "span_end": 69,
       "surface": "You can get there",
       "sentence_no": 2,
-      "rationale": "there는 부사이므로 앞에 to를 쓰지 않음. get to there 로 만드는 전치사 과잉 오류 유도(문장1의 get to the Star Stadium과 대조)",
+      "rationale": "가능·방법을 알려주는 can + 동사원형. can to get / can gets 오류, 또한 there 앞 전치사 to 삽입(get to there) 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
@@ -122,43 +109,43 @@
   "logic": [
     {
       "sentence_no": 1,
-      "role": "도입질문 — 길 묻기",
-      "signal": "Excuse me",
+      "role": "도입질문",
+      "signal": "how can I",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 2,
-      "role": "해결책 — 교통수단 제시",
+      "role": "해결책(교통수단 제시)",
       "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 3,
-      "role": "세부 안내 — 노선과 하차역",
-      "signal": null,
+      "role": "세부정보(구체적 경로)",
+      "signal": "and",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "확인 반복",
+      "role": "확인(되풀이)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "이해 표현",
+      "role": "이해표현",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "추가질문 — 소요 시간",
+      "role": "추가질문(소요시간)",
       "signal": "How long",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "답변 — 소요 시간 명시",
+      "role": "응답요약",
       "signal": null,
       "is_blank_candidate": false
     }
@@ -166,37 +153,38 @@
   "items": [
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "question_type_code": "T-FORM-CHOICE",
       "grammar_point_code": "PREP_USAGE",
-      "stem": "위 대화의 문장을 옮긴 것이다. 밑줄 친 부분이 어법상 옳은 것을 고르시오.",
+      "stem": "위 대화의 빈칸 (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nB: Excuse me, how can I get (a) the Star Stadium?\nG: You can get there (b) subway. Take line 4, the green line, and get off (c) Hangang Station.",
       "answer_key": "①",
-      "explanation": "교통수단은 「by + 무관사 명사」로 쓴다. ②는 관사 a가 들어가 틀렸고, ③⑤는 by 대신 with/on을 써서 틀렸다. ④의 there는 부사이므로 앞에 전치사 to를 쓸 수 없다(get there). 따라서 원문 그대로인 ①이 정답.",
+      "explanation": "(a) 'get to + 장소'가 '~에 도착하다'이므로 to. (b) 교통수단은 'by + 무관사 명사'이므로 by subway (with는 도구·수단의 물건에 쓰임). (c) 특정 역·지점에서 내리는 것은 get off at. ④는 (c)가 to로 방향만 나타내어 '내리다'의 장소를 표시하지 못한다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
+        0,
         1,
-        8
+        3
       ],
       "options": [
         {
           "label": "①",
-          "body": "You can get there by subway.",
+          "body": "(a) to — (b) by — (c) at",
           "is_answer": true,
           "violates_point_code": null,
-          "via_modification": null,
+          "via_modification": "BO_FORM_CHOICE",
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "You can get there by a subway.",
+          "body": "(a) in — (b) by — (c) at",
           "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
+          "violates_point_code": "VERB_PREP_COLLOCATION",
           "via_modification": "BO_FORM_CHOICE",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "You can get there with subway.",
+          "body": "(a) to — (b) with — (c) at",
           "is_answer": false,
           "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
@@ -204,7 +192,7 @@
         },
         {
           "label": "④",
-          "body": "You can get to there by subway.",
+          "body": "(a) to — (b) by — (c) to",
           "is_answer": false,
           "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
@@ -212,7 +200,7 @@
         },
         {
           "label": "⑤",
-          "body": "You can get there on subway.",
+          "body": "(a) at — (b) on — (c) in",
           "is_answer": false,
           "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
@@ -224,63 +212,65 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-GRAMMAR-STANDALONE",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "위 대화에서 가져온 문장이다. 어법상 <보기>와 같이 옳게 쓰인 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "「get to + 장소」(~에 도착하다), 「get off at + 역」(~역에서 내리다)이 옳은 결합이다. ①⑤는 전치사를 빠뜨렸고, ③은 get off to, ④⑥은 get in/on으로 잘못된 전치사를 썼다. 원문 그대로인 ②가 정답.",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "위 대화의 문장을 고친 것 중 어법상 옳은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "① 시간의 소요를 묻는 비인칭 주어 it과 조동사 will + 동사원형 take가 모두 옳다. ②는 will 뒤에 takes(3인칭 단수형)가 와서 틀림. ③ there는 부사이므로 앞에 to를 쓸 수 없다. ④ 명령문 Take와 and로 병렬되어야 하므로 getting off가 아니라 get off. ⑤ 시간·거리·금액은 단수 취급이므로 are가 아니라 is.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        0,
-        3
+        4,
+        5,
+        2,
+        7
       ],
       "options": [
         {
           "label": "①",
-          "body": "Excuse me, how can I get the Star Stadium?",
-          "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "EI_PREP_DELETE",
+          "body": "How long will it take?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "Take line 4, the green line, and get off at Hangang Station.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
+          "body": "How long will it takes?",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_AGREEMENT",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "Take line 4, the green line, and get off to Hangang Station.",
+          "body": "You can get to there by subway.",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "violates_point_code": "PREP_USAGE",
           "via_modification": "BO_FORM_CHOICE",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "Excuse me, how can I get in the Star Stadium?",
+          "body": "Take line 4, the green line, and getting off at Hangang Station.",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "Take line 4, the green line, and get off Hangang Station.",
+          "body": "A little more than 30 minutes are needed.",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "EI_PREP_DELETE",
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
           "ordinal": 5
         },
         {
           "label": "⑥",
-          "body": "Excuse me, how can I get on the Star Stadium?",
+          "body": "How long will take it?",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "IT_CLEFT",
+          "via_modification": "BO_WORD_ORDER",
           "ordinal": 6
         }
       ],
@@ -288,218 +278,52 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "CONJ_PARALLEL",
-      "stem": "다음은 위 대화의 일부이다. (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\nG: You can get there (a)[by / with] subway. Take line 4, the green line, and (b)[get / getting] off at Hangang Station.\nB: How long will it (c)[take / takes]?",
-      "answer_key": "①",
-      "explanation": "(a) 교통수단은 by subway. (b) 앞의 명령문 Take와 and로 병렬되므로 동사원형 get. (c) 조동사 will 뒤에는 동사원형 take. 모두 만족하는 것은 ①이다.",
-      "difficulty": "medium",
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "지하철에서 '내리다'는 get off이므로 buy off는 문맥상 전혀 맞지 않는다. 나머지는 길 안내 대화의 흐름에 자연스럽게 맞는 표현이다.",
+      "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        1,
-        2,
-        6
+        3
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) by … (b) get … (c) take",
-          "is_answer": true,
+          "body": "how can I get to the Star Stadium?",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "(a) with … (b) get … (c) take",
+          "body": "You can get there by subway.",
           "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) by … (b) getting … (c) take",
+          "body": "Take line 4, the green line",
           "is_answer": false,
-          "violates_point_code": "CONJ_PARALLEL",
-          "via_modification": "EI_PARALLEL_BREAK",
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) by … (b) get … (c) takes",
-          "is_answer": false,
-          "violates_point_code": "VERB_TENSE",
-          "via_modification": "BO_FORM_CHOICE",
+          "body": "and buy off at Hangang Station",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "(a) with … (b) getting … (c) takes",
-          "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-INLINE",
-      "grammar_point_code": "MOD_COMPARATIVE",
-      "stem": "위 대화의 마지막 대답을 아래와 같이 바꾸었다. 어법상 옳은 것을 고르시오.",
-      "answer_key": "①",
-      "explanation": "「more than + 수량」은 '~보다 많이'이고 a little은 비교급 강조 부사이다. ②는 최상급 most를 비교급 자리에 썼고, ③은 비교급 뒤에 as를, ④는 비교급 아닌 many를 썼으며, ⑤는 30 뒤에 복수 minutes가 와야 한다. 원문 그대로인 ①이 정답.",
-      "difficulty": "easy",
-      "option_lang": "na",
-      "source_tags": [
-        7
-      ],
-      "options": [
-        {
-          "label": "①",
           "body": "A little more than 30 minutes.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "A little most than 30 minutes.",
-          "is_answer": false,
-          "violates_point_code": "MOD_COMPARATIVE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "A little more as 30 minutes.",
-          "is_answer": false,
-          "violates_point_code": "MOD_COMPARATIVE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "A little many than 30 minutes.",
-          "is_answer": false,
-          "violates_point_code": "MOD_COMPARATIVE",
-          "via_modification": "BO_FORM_CHOICE",
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "A little more than 30 minute.",
-          "is_answer": false,
-          "violates_point_code": "VERB_SVA",
-          "via_modification": "EI_AGREEMENT",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-DETAIL",
-      "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것은?",
-      "answer_key": "①",
-      "explanation": "소년은 Star Stadium에 가는 길을 묻고 있으므로 ①이 일치한다. ② 소녀는 지하철(subway)을 안내했고, ③ 하차역은 Hangang Station이며, ④ 4호선은 green line이고, ⑤ 소요 시간은 30분보다 조금 '더' 걸린다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [],
-      "options": [
-        {
-          "label": "①",
-          "body": "The boy wants to know the way to the Star Stadium.",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "The girl tells the boy to take a bus.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "The boy has to get off at Star Station.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "Line 4 is the blue line.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "The trip takes less than 30 minutes.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-TOPIC",
-      "grammar_point_code": null,
-      "stem": "What is the dialogue mainly about?",
-      "answer_key": "①",
-      "explanation": "소년이 길을 묻고 소녀가 지하철 노선과 하차역, 소요 시간을 알려 주는 대화이므로 ①이 주제이다. 표 구매·경기 관람·불평·약속은 대화에 없다.",
-      "difficulty": "easy",
-      "option_lang": "en",
-      "source_tags": [],
-      "options": [
-        {
-          "label": "①",
-          "body": "Giving directions to a place by subway",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "Buying a subway ticket at a station",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "Watching a soccer game at a stadium",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "Complaining about a late train",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "Making plans to meet a friend",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -512,32 +336,32 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "위 대화의 밑줄 친 Got it. 이 뜻하는 바로 가장 알맞은 것은?",
-      "answer_key": "①",
-      "explanation": "Got it.은 앞의 안내(4호선, 한강역)를 되뇌어 확인한 뒤 나온 말로 '알겠다, 이해했다'는 뜻이다. 나머지는 문맥과 맞지 않는다.",
+      "stem": "위 대화의 밑줄 친 Got it. 이 뜻하는 바로 가장 알맞은 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "Got it.은 앞에서 들은 4호선·한강역 정보를 되풀이한 뒤 '알겠다, 이해했다'는 의미로 쓰인 표현이다. 물건을 얻었다는 뜻이 아니다.",
       "difficulty": "easy",
       "option_lang": "ko",
       "source_tags": [],
       "options": [
         {
           "label": "①",
-          "body": "알겠어. (이해했다는 뜻)",
-          "is_answer": true,
+          "body": "물건을 방금 손에 넣었다는 뜻이다.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "그것을 가져갔어.",
-          "is_answer": false,
+          "body": "상대의 설명을 알아들었다는 뜻이다.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "다시 말해 줄래?",
+          "body": "설명을 다시 해 달라는 뜻이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -545,7 +369,7 @@
         },
         {
           "label": "④",
-          "body": "나는 그것을 잃어버렸어.",
+          "body": "길을 잘못 들었다는 뜻이다.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -553,7 +377,61 @@
         },
         {
           "label": "⑤",
-          "body": "나도 같이 갈게.",
+          "body": "시간이 부족하다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the dialogue?",
+      "answer_key": "④",
+      "explanation": "대화에서 내려야 할 역은 Hangang Station이지 Star Station이 아니다. 나머지는 모두 대화 내용과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy wants to go to the Star Stadium.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl suggests taking the subway.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Line 4 is the green line.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The boy should get off at Star Station.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The trip takes a little more than 30 minutes.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -566,12 +444,14 @@
       "_verbatim_problem": [],
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "Choose the best expression for the blank.\n\nB: Excuse me, how can I get to the Star Stadium?\nG: ______ Take line 4, the green line, and get off at Hangang Station.",
+      "stem": "위 대화의 문맥상 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nB: Excuse me, how can I get to the Star Stadium?\nG: ______________ Take line 4, the green line, and get off at Hangang Station.",
       "answer_key": "①",
-      "explanation": "빈칸 뒤에 지하철 노선(line 4)과 하차역 안내가 이어지므로 지하철로 갈 수 있다는 ①이 알맞다. ②는 길을 모른다는 뜻이라 뒤 문장과 모순되고, ③④⑤는 지하철 안내와 연결되지 않는다.",
+      "explanation": "빈칸 다음에 지하철 노선(line 4)과 하차역이 이어지므로 지하철로 갈 수 있다는 ①이 알맞다. ②는 안내를 못 한다는 말이어서 뒤 문장과 모순되고, ④·⑤는 지하철 안내와 어긋난다.",
       "difficulty": "easy",
       "option_lang": "en",
-      "source_tags": [],
+      "source_tags": [
+        1
+      ],
       "options": [
         {
           "label": "①",
@@ -583,7 +463,7 @@
         },
         {
           "label": "②",
-          "body": "I'm sorry, I'm a stranger here.",
+          "body": "I'm sorry, I'm new here.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -591,7 +471,7 @@
         },
         {
           "label": "③",
-          "body": "It's on your left.",
+          "body": "The stadium is closed today.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -599,7 +479,7 @@
         },
         {
           "label": "④",
-          "body": "You should walk for two hours.",
+          "body": "You'd better take a taxi instead.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -607,7 +487,7 @@
         },
         {
           "label": "⑤",
-          "body": "Why don't you take a taxi?",
+          "body": "It takes only five minutes on foot.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -618,14 +498,31 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "stem": "다음은 위 대화를 옮긴 것이다. 어법상 틀린 부분을 하나 찾아 밑줄을 긋고 바르게 고쳐 쓰시오.\n\nTake line 4, the green line, and get off Hangang Station.",
-      "answer_key": "get off Hangang Station → get off at Hangang Station",
-      "explanation": "「get off at + 역 이름」으로 하차 지점을 나타내므로 역 이름 앞에 전치사 at이 필요하다.",
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 쓰시오.\n\n(시간이) 얼마나 걸릴까요?\n[ take / it / long / will / how ]",
+      "answer_key": "How long will it take?",
+      "explanation": "소요 시간을 묻는 표현은 「How long + will + 비인칭 주어 it + 동사원형 take?」 순서다. 주어 it을 빠뜨리거나 will take it 처럼 어순을 바꾸면 안 된다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음은 위 대화를 옮겨 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (2곳)\n\nG: You can get there by a subway. Take line 4, the green line, and get off on Hangang Station.",
+      "answer_key": "by a subway → by subway / get off on → get off at",
+      "explanation": "교통수단을 나타낼 때는 관사 없이 'by subway'로 쓴다. 또 특정 역에서 내릴 때는 지점을 나타내는 전치사 at을 써서 'get off at Hangang Station'이 되어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
         3
       ],
       "options": [],
@@ -633,32 +530,15 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "IT_CLEFT",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n얼마나 오래 걸릴까요?\n(take / how / will / long / it)",
-      "answer_key": "How long will it take?",
-      "explanation": "소요 시간을 묻는 표현은 「How long + will + 비인칭 주어 it + 동사원형 take?」 순서이다. 시간을 나타내는 비인칭 주어 it을 쓰고, 조동사 will 뒤에는 동사원형 take가 온다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        5,
-        6
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "<조건>에 맞게 소녀의 답을 영작하시오.\n\n[상황] 소년이 Star Stadium에 가는 방법을 물었고, 소녀는 지하철로 갈 수 있다고 답한다.\n[조건] 1) get there를 쓸 것  2) 교통수단을 나타내는 전치사와 subway를 쓸 것  3) can을 포함한 6단어로 쓸 것",
-      "answer_key": "You can get there by subway.",
-      "explanation": "교통수단은 「by + 무관사 명사」로 by subway가 되고, there는 부사이므로 get 뒤에 to를 쓰지 않는다. You / can / get / there / by / subway 의 6단어.",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음 조건에 맞게 소녀의 마지막 대답을 완성하시오.\n\n[조건] 1) 'more than'을 포함할 것 2) 비교급을 강조하는 a little을 쓸 것 3) 30 minutes를 사용할 것\n\nB: How long will it take?\nG: ______________________",
+      "answer_key": "A little more than 30 minutes.",
+      "explanation": "비교급 more than 앞에서 '조금'의 뜻으로 강조하는 부사는 a little이다. very는 비교급을 수식할 수 없고, a few는 셀 수 있는 복수명사를 수식하므로 쓸 수 없다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        1,
-        8
+        6
       ],
       "options": [],
       "_answer_violates_point": []
@@ -666,13 +546,18 @@
   ],
   "diagnostics": {
     "sentence_count": 7,
-    "tags_returned": 9,
-    "tags_kept": 9,
+    "tags_returned": 8,
+    "tags_kept": 8,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 11,
-    "items_kept": 11,
-    "item_rejects": [],
+    "items_returned": 10,
+    "items_kept": 9,
+    "item_rejects": [
+      {
+        "where": "문항 #5 T-TOPIC",
+        "reason": "정답 선지가 0개"
+      }
+    ],
     "verbatim_problems": []
   }
 }

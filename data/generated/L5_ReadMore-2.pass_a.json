@@ -3,44 +3,44 @@
   "body_text_sha256": "022e271322ba4c0519c63223fd2b0216f0abfd598cfcebf39273ed3b8aeba588",
   "tags": [
     {
-      "grammar_point_code": "REL_PRON_VS_ADV",
+      "grammar_point_code": "REL_OBJECT",
       "span_start": 0,
-      "span_end": 34,
-      "surface": "The painting I want to write about",
+      "span_end": 37,
+      "surface": "The painting I want to write about is",
       "sentence_no": 1,
-      "rationale": "선행사 The painting(사물) + 전치사 about의 목적어 자리 → 목적격 관계대명사 which/that이 생략된 구조. where(관계부사)나 what으로 바꾸는 오답, 또는 about을 삭제하는 오답(EI_PREP_DELETE)을 유도할 수 있다.",
+      "rationale": "주어 'The painting' 뒤에 목적격 관계대명사(which/that)가 생략된 관계절 'I want to write about'이 삽입된 구조. 관계절 안에 목적어를 다시 넣은 'I want to write about it', 또는 which를 넣되 뒤에 목적어를 중복시키는 오류를 유도할 수 있다. 또한 긴 수식어구 뒤 본동사 is의 수일치 자리이기도 하다.",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE",
         "EI_REL_ANTECEDENT",
-        "EI_PREP_DELETE"
+        "BO_WORD_ORDER"
       ]
     },
     {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "span_start": 15,
-      "span_end": 28,
-      "surface": "want to write",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 23,
+      "span_end": 34,
+      "surface": "write about",
       "sentence_no": 1,
-      "rationale": "want는 목적어로 to부정사만 취한다. want writing / want write 형태로 바꾸는 오답 유도가 가능하다.",
-      "confidence": "high",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_VERB_COMPLEMENT",
-        "EI_NONFIN_FORM"
-      ]
-    },
-    {
-      "grammar_point_code": "VERB_SVA",
-      "span_start": 35,
-      "span_end": 50,
-      "surface": "is The Red Room",
-      "sentence_no": 1,
-      "rationale": "주어가 The painting(단수)이고 관계절 I want to write about이 길게 끼어 있어 are로 바꾸는 수일치 오답을 심기 쉽다.",
+      "rationale": "'write about ~(에 대해 쓰다)'의 고정 전치사. 관계절 끝에 남은 전치사라서 about을 삭제한 'I want to write is ~' 형태로 오류를 심기 쉽다.",
       "confidence": "medium",
       "applicable_modifications": [
-        "EI_AGREEMENT",
+        "EI_PREP_DELETE",
         "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 100,
+      "span_end": 113,
+      "surface": "with a window",
+      "sentence_no": 2,
+      "rationale": "'~이 딸린/있는'의 소유·부대 상황을 나타내는 전치사 with. in/of/for 등으로 바꾸는 빈칸 선택형으로 자주 출제된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
       ]
     },
     {
@@ -49,7 +49,7 @@
       "span_end": 126,
       "surface": "In the room",
       "sentence_no": 3,
-      "rationale": "장소를 나타내는 전치사 in. 문두에 굳어진 부사구로 읽혀 넘기기 쉬우나 [In / On / At]처럼 빈칸으로 뚫기 가장 쉬운 자리다.",
+      "rationale": "장소 내부를 나타내는 전치사 in. 문두 부사구라 통째로 외워 읽기 쉬워 전치사 자체(On/At/To)를 빈칸으로 뚫는 자리다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -62,7 +62,7 @@
       "span_end": 164,
       "surface": "there are two chairs and a big table",
       "sentence_no": 3,
-      "rationale": "there + be 구문은 뒤에 오는 명사에 수를 맞춘다. 첫 명사만 보거나 등위 주어를 단수로 착각해 there is로 바꾸는 오답을 유도한다.",
+      "rationale": "there be 구문의 수일치. 진주어가 복수(two chairs and a big table)이므로 are가 맞고, 바로 뒤 명사만 보고 'there is'로 잘못 쓰는 오류를 유도하기 최적인 자리다.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_AGREEMENT",
@@ -75,24 +75,24 @@
       "span_end": 210,
       "surface": "a woman who is setting the table",
       "sentence_no": 4,
-      "rationale": "선행사 a woman(사람) + 주격 → who. which/what/where로 바꾸는 선행사 불일치 오답, 또는 who is를 whose로 바꾸는 오답 유도가 가능하다.",
+      "rationale": "선행사가 사람(a woman)이고 관계절에서 주어 역할이므로 주격 관계대명사 who. which/where/whose로 바꾸는 선행사 불일치 오류를 유도할 수 있다.",
       "confidence": "high",
       "applicable_modifications": [
-        "BO_FORM_CHOICE",
-        "EI_REL_ANTECEDENT"
+        "EI_REL_ANTECEDENT",
+        "BO_FORM_CHOICE"
       ]
     },
     {
       "grammar_point_code": "NOUN_CLAUSE_THAT",
-      "span_start": 253,
-      "span_end": 272,
-      "surface": "think that the room",
+      "span_start": 259,
+      "span_end": 283,
+      "surface": "that the room feels warm",
       "sentence_no": 6,
-      "rationale": "think의 목적어인 명사절 접속사 that(생략 가능). what/if로 바꾸면 뒤에 완전한 절이 오므로 오류가 된다.",
+      "rationale": "think의 목적어절을 이끄는 명사절 접속사 that(생략 가능). what으로 바꾸면 절 안에 빠진 성분이 없어 틀리므로 what/that 구별 문항으로 쓸 수 있다.",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "EI_STRUCT_DELETE"
+        "CO_CONJ_SWAP"
       ]
     },
     {
@@ -101,7 +101,7 @@
       "span_end": 283,
       "surface": "feels warm",
       "sentence_no": 6,
-      "rationale": "감각동사 feel + 형용사 보어. warmly(부사)로 바꾸는 EI_ADJ_TO_ADV 오답이 전형적으로 출제된다.",
+      "rationale": "감각동사 feel + 형용사 보어. 부사 warmly로 바꾸는 형용사↔부사 교체 오류가 전형적으로 출제된다.",
       "confidence": "high",
       "applicable_modifications": [
         "EI_ADJ_TO_ADV",
@@ -114,48 +114,48 @@
       "span_end": 297,
       "surface": "because of it",
       "sentence_no": 6,
-      "rationale": "because of + 명사(대명사) vs because + 절. because it으로 바꾸거나 뒤에 절을 붙이는 오답을 유도할 수 있다.",
-      "confidence": "medium",
+      "rationale": "뒤에 명사(대명사 it)가 오므로 전치사구 because of가 맞다. 접속사 because로 바꾸면 절이 없어 틀리는 전형적 함정 자리이며, it이 앞 문장의 the red color를 가리키는 대명사 확인 지점도 겹친다.",
+      "confidence": "high",
       "applicable_modifications": [
-        "CO_CONJ_SWAP",
-        "BO_FORM_CHOICE"
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
       ]
     }
   ],
   "logic": [
     {
       "sentence_no": 1,
-      "role": "주제문 — 글의 소재(감상할 그림)를 밝힘",
+      "role": "도입 — 글감(그림) 제시",
       "signal": null,
-      "is_blank_candidate": true
+      "is_blank_candidate": false
     },
     {
       "sentence_no": 2,
-      "role": "정의·개괄 — 그림의 전체 인상 제시",
+      "role": "전체 묘사 — 그림의 큰 구성",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "세부묘사 — 방 안의 사물 열거",
+      "role": "세부 묘사 — 방 안의 사물",
       "signal": "In the room",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "세부묘사 추가 — 인물 묘사",
+      "role": "세부 묘사 추가 — 인물",
       "signal": "also",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 5,
-      "role": "전환 — 개인적 선호 표명",
+      "role": "개인 감상 — 선호 표현",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "결론문 — 선호의 이유와 느낌 요약",
+      "role": "결론문 — 감상의 이유와 마무리",
       "signal": "because of",
       "is_blank_candidate": true
     }
@@ -163,65 +163,19 @@
   "items": [
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "위 지문의 (a)~(c) 자리에 들어갈 말로 가장 적절한 것끼리 짝지은 것은?\n\n[1] The painting I want (a)[to write / writing] about is The Red Room by Henri Matisse.\n[4] We also see a woman (b)[who / which] is setting the table.\n[6] I think that the room feels (c)[warm / warmly] because of it.",
-      "answer_key": "①",
-      "explanation": "(a) want는 목적어로 to부정사를 취하므로 to write. (b) 선행사가 a woman(사람)이고 주격이므로 who. (c) 감각동사 feel의 보어 자리이므로 형용사 warm. ②는 want writing으로 동사 보어 규칙 위반, ③은 사람 선행사에 which를 써 선행사 불일치, ④는 감각동사 뒤에 부사 warmly를 써서 틀렸다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        1,
-        5,
-        7
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "(a) to write — (b) who — (c) warm",
-          "is_answer": true,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "(a) writing — (b) who — (c) warm",
-          "is_answer": false,
-          "violates_point_code": "NONFIN_TO_VS_GERUND",
-          "via_modification": "EI_VERB_COMPLEMENT",
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "(a) to write — (b) which — (c) warm",
-          "is_answer": false,
-          "violates_point_code": "REL_PRON_VS_ADV",
-          "via_modification": "EI_REL_ANTECEDENT",
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "(a) to write — (b) who — (c) warmly",
-          "is_answer": false,
-          "violates_point_code": "SENSE_VERB_ADJ",
-          "via_modification": "EI_ADJ_TO_ADV",
-          "ordinal": 4
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-GRAMMAR-INLINE",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
       "grammar_point_code": "VERB_SVA",
-      "stem": "위 지문의 문장을 옮겨 쓴 것 중, 어법상 <보기>가 틀린 것은?",
+      "stem": "다음은 본문의 문장들이다. 어법상 <보기> 중 틀린 것을 고르시오.",
       "answer_key": "③",
-      "explanation": "there + be 구문은 뒤에 오는 명사에 동사의 수를 맞춘다. two chairs and a big table은 복수이므로 there is → there are가 되어야 한다. 나머지는 모두 지문 원문과 같아 어법상 옳다.",
+      "explanation": "③ there be 구문의 주어는 'two chairs and a big table'로 복수이므로 is가 아니라 are를 써야 한다(there are). 나머지는 본문 그대로이며 어법상 옳다: ①은 painting 뒤에 목적격 관계대명사(which/that)가 생략된 형태, ④는 사람 선행사 a woman에 주격 who, ⑤는 감각동사 feel+형용사 warm과 명사 앞의 because of가 모두 바르다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
-        4
+        4,
+        0,
+        5,
+        7,
+        8
       ],
       "options": [
         {
@@ -265,15 +219,127 @@
           "ordinal": 5
         }
       ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "본문의 (a), (b), (c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nIn the room, there (a)[is / are] two chairs and a big table. We also see a woman (b)[who / which] is setting the table. ... I think that the room feels (c)[warm / warmly] because of it.",
+      "answer_key": "①",
+      "explanation": "(a) 주어가 복수이므로 there are. (b) 선행사가 사람 a woman이고 관계절의 주어 자리이므로 who. (c) 감각동사 feel의 보어는 형용사이므로 warm. ②는 수일치, ③은 선행사 불일치, ④는 형용사 자리에 부사를 써서 각각 틀렸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) are — (b) who — (c) warm",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) is — (b) who — (c) warm",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) are — (b) which — (c) warm",
+          "is_answer": false,
+          "violates_point_code": "REL_PRON_VS_ADV",
+          "via_modification": "EI_REL_ANTECEDENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) are — (b) who — (c) warmly",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "CONJ_VS_PREP",
+      "stem": "본문에서 밑줄 친 부분 중 어법상 옳지 않은 것을 고르시오.\n\nThe painting ①I want to write about is The Red Room. This painting shows a red room ②with a window. We also see a woman ③who is setting the table. I like the red color of this painting. I think that the room ④feels warm ⑤because it.",
+      "answer_key": "⑤",
+      "explanation": "⑤ 뒤에 절이 아니라 대명사 it 하나만 오므로 접속사 because를 쓸 수 없고 전치사구 because of it이 되어야 한다. ①은 목적격 관계대명사가 생략된 관계절이며 write about의 전치사 about이 그대로 남아 있어 옳고, ②는 '~이 있는'의 with, ③은 사람 선행사에 대한 주격 who, ④는 감각동사+형용사로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        0,
+        2,
+        5,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I want to write about",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "with a window",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "who is setting",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "feels warm",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "because it",
+          "is_answer": true,
+          "violates_point_code": "CONJ_VS_PREP",
+          "via_modification": "CO_CONJ_SWAP",
+          "ordinal": 5
+        }
+      ],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
       "question_type_code": "T-VOCAB-CONTEXT",
       "grammar_point_code": null,
-      "stem": "위 지문의 흐름으로 볼 때, 밑줄 친 낱말의 쓰임이 문맥상 적절하지 않은 것은?",
+      "stem": "본문의 흐름상 밑줄 친 부분이 문맥에 맞지 않는 것을 고르시오.",
       "answer_key": "⑤",
-      "explanation": "글쓴이는 빨간색을 좋아하고 그 색 때문에 방이 '따뜻하게(warm)' 느껴진다고 했다. 따라서 cold는 문맥에 맞지 않으며 warm이 적절하다. 나머지는 모두 지문 내용과 일치하는 표현이다.",
+      "explanation": "글쓴이는 빨간색을 좋아하고 그 색 때문에 방이 '따뜻하게(warm)' 느껴진다고 말한다. 따라서 ⑤의 cold는 문맥에 맞지 않으며 warm이 알맞다. 나머지는 그림의 묘사와 감상으로 자연스럽다.",
       "difficulty": "easy",
       "option_lang": "na",
       "source_tags": [
@@ -282,7 +348,7 @@
       "options": [
         {
           "label": "①",
-          "body": "This painting shows a red room with a window.",
+          "body": "This painting ①shows a red room with a window.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -290,7 +356,7 @@
         },
         {
           "label": "②",
-          "body": "In the room, there are two chairs and a big table.",
+          "body": "In the room, there are ②two chairs and a big table.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -298,7 +364,7 @@
         },
         {
           "label": "③",
-          "body": "We also see a woman who is setting the table.",
+          "body": "We also see a woman who is ③setting the table.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -306,7 +372,7 @@
         },
         {
           "label": "④",
-          "body": "I like the red color of this painting.",
+          "body": "I ④like the red color of this painting.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -314,7 +380,7 @@
         },
         {
           "label": "⑤",
-          "body": "I think that the room feels cold because of it.",
+          "body": "I think that the room feels ⑤cold because of it.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
@@ -327,10 +393,10 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "[4]의 밑줄 친 a woman who is setting the table이 뜻하는 것으로 가장 적절한 것은?",
-      "answer_key": "②",
-      "explanation": "set the table은 '상을 차리다, 식탁을 차리다'라는 뜻의 관용 표현이다. 따라서 '식탁을 차리고 있는 여자'가 알맞다.",
-      "difficulty": "easy",
+      "stem": "본문의 밑줄 친 a woman who is setting the table 이 뜻하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "set the table은 '상을 차리다, 식탁을 준비하다'라는 뜻의 표현이다. 따라서 '식탁을 차리고 있는 여자'가 알맞다. 옮기다(move), 앉다(sit at), 만들다(make), 닦다(wipe)는 모두 set의 의미가 아니다.",
+      "difficulty": "medium",
       "option_lang": "ko",
       "source_tags": [
         5
@@ -338,23 +404,23 @@
       "options": [
         {
           "label": "①",
-          "body": "식탁을 치우고 있는 여자",
-          "is_answer": false,
+          "body": "식탁을 차리고 있는 여자",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "식탁을 차리고 있는 여자",
-          "is_answer": true,
+          "body": "탁자를 옮기고 있는 여자",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "식탁을 만들고 있는 여자",
+          "body": "탁자에 앉아 있는 여자",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -362,7 +428,7 @@
         },
         {
           "label": "④",
-          "body": "식탁 위에 앉아 있는 여자",
+          "body": "탁자를 만들고 있는 여자",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -370,7 +436,7 @@
         },
         {
           "label": "⑤",
-          "body": "식탁을 옮기고 있는 여자",
+          "body": "탁자를 닦고 있는 여자",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -383,18 +449,19 @@
       "_verbatim_problem": [],
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "위 글의 주제로 가장 적절한 것은?",
+      "stem": "What is the passage mainly about?",
       "answer_key": "①",
-      "explanation": "글쓴이는 Matisse의 The Red Room을 소개하고 그림 속 사물과 인물을 묘사한 뒤, 빨간색이 좋아서 방이 따뜻하게 느껴진다는 감상을 밝히고 있다. 화가의 생애나 색 선택 방법, 미술사는 언급되지 않았다.",
+      "explanation": "글쓴이는 Matisse의 The Red Room을 소개하고(문장 1), 방·사물·인물을 묘사한 뒤(2~4), 빨간색이 좋고 그 때문에 방이 따뜻하게 느껴진다는 감상을 덧붙인다(5~6). 따라서 '한 그림에 대한 묘사와 감상'이 주제다. 화가의 생애, 페인트칠 방법, 가구 선택, 두 그림 비교는 언급되지 않았다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        0
+        0,
+        7
       ],
       "options": [
         {
           "label": "①",
-          "body": "a description of a painting and the writer's feeling about it",
+          "body": "a writer's description of a painting and his feelings about it",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -402,7 +469,7 @@
         },
         {
           "label": "②",
-          "body": "the life story of the painter Henri Matisse",
+          "body": "the life and history of Henri Matisse",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -410,7 +477,7 @@
         },
         {
           "label": "③",
-          "body": "how to choose the right color for a living room",
+          "body": "how to paint a room in red",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -418,7 +485,7 @@
         },
         {
           "label": "④",
-          "body": "tips for drawing chairs and tables well",
+          "body": "tips for choosing chairs and tables for a dining room",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -426,7 +493,7 @@
         },
         {
           "label": "⑤",
-          "body": "the history of red paint in Western art",
+          "body": "a comparison between two famous paintings",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -439,18 +506,20 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 글의 내용과 일치하지 않는 것은?",
+      "stem": "Which is NOT true about the painting in the passage?",
       "answer_key": "③",
-      "explanation": "[3]에서 방 안에 두 개의 의자(two chairs)와 큰 탁자가 있다고 했으므로 의자가 하나뿐이라는 ③은 일치하지 않는다. ①②는 [1], ④는 [2], ⑤는 [5]와 일치한다.",
+      "explanation": "본문 문장 3에 방 안에는 '의자 두 개와 큰 탁자(two chairs and a big table)'가 있다고 했으므로 ③은 사실과 다르다. ①은 문장 1, ②는 문장 2, ④는 문장 4, ⑤는 문장 5와 일치한다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        4
+        4,
+        2,
+        5
       ],
       "options": [
         {
           "label": "①",
-          "body": "The painting the writer writes about is The Red Room.",
+          "body": "It was painted by Henri Matisse.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -458,7 +527,7 @@
         },
         {
           "label": "②",
-          "body": "The painting was made by Henri Matisse.",
+          "body": "There is a window in the red room.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -466,7 +535,7 @@
         },
         {
           "label": "③",
-          "body": "There is only one chair in the room.",
+          "body": "There are three chairs and a small table in the room.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -474,7 +543,7 @@
         },
         {
           "label": "④",
-          "body": "There is a window in the red room.",
+          "body": "A woman is setting the table in it.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -482,7 +551,7 @@
         },
         {
           "label": "⑤",
-          "body": "The writer likes the red color of the painting.",
+          "body": "The writer likes its red color.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -495,9 +564,9 @@
       "_verbatim_problem": [],
       "question_type_code": "T-BLANK",
       "grammar_point_code": null,
-      "stem": "위 글의 [6] I think that the room feels ______ because of it. 의 빈칸에 들어갈 말로 가장 적절한 것은?",
+      "stem": "글의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nI like the red color of this painting. I think that the room ______ because of it.",
       "answer_key": "①",
-      "explanation": "바로 앞 문장에서 글쓴이는 그림의 빨간색을 좋아한다고 했고, because of it의 it은 그 빨간색을 가리킨다. 빨간색이 주는 느낌은 '따뜻함'이므로 warm이 적절하다. empty, dark, noisy, cold는 빨간색을 좋아하는 이유가 되지 못한다.",
+      "explanation": "앞 문장에서 빨간색이 좋다고 했고, it은 the red color를 가리킨다. 빨간색이 주는 긍정적 인상이므로 '방이 따뜻하게 느껴진다(feels warm)'가 알맞다. 더럽다·냄새가 나쁘다·시끄럽다·비어 있다는 색에 대한 호감과 이어지지 않는다.",
       "difficulty": "medium",
       "option_lang": "en",
       "source_tags": [
@@ -507,7 +576,7 @@
       "options": [
         {
           "label": "①",
-          "body": "warm",
+          "body": "feels warm",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -515,7 +584,7 @@
         },
         {
           "label": "②",
-          "body": "empty",
+          "body": "looks dirty",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -523,7 +592,7 @@
         },
         {
           "label": "③",
-          "body": "dark",
+          "body": "smells bad",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -531,7 +600,7 @@
         },
         {
           "label": "④",
-          "body": "noisy",
+          "body": "sounds noisy",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -539,7 +608,7 @@
         },
         {
           "label": "⑤",
-          "body": "cold",
+          "body": "feels empty",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -550,33 +619,16 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "VERB_SVA",
-      "stem": "다음은 위 지문의 [3]과 [6]을 옮겨 쓴 것이다. 각 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n(1) In the room, there is two chairs and a big table.\n(2) I think that the room feels warmly because of it.",
-      "answer_key": "(1) is → are  (2) warmly → warm",
-      "explanation": "(1) there + be 구문은 뒤에 오는 명사(two chairs and a big table, 복수)에 수를 맞추므로 are가 맞다. (2) feel은 감각동사이므로 보어로 형용사 warm을 써야 하며 부사 warmly는 쓸 수 없다.",
-      "difficulty": "medium",
-      "option_lang": "na",
-      "source_tags": [
-        4,
-        7
-      ],
-      "options": [],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
       "question_type_code": "T-WORD-ORDER",
-      "grammar_point_code": "REL_PRON_VS_ADV",
-      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n내가 (그것에) 관해 쓰고 싶은 그림은 Henri Matisse의 The Red Room이다.\n(about / I / is / painting / to / want / write / the / The Red Room / by Henri Matisse)",
+      "grammar_point_code": "REL_OBJECT",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n내가 그것에 대해 쓰고 싶은 그림은 Henri Matisse의 The Red Room이다.\n( about / I / is / the painting / to / want / write ) The Red Room by Henri Matisse.",
       "answer_key": "The painting I want to write about is The Red Room by Henri Matisse.",
-      "explanation": "목적격 관계대명사(which/that)가 생략된 관계절 I want to write about이 The painting을 뒤에서 수식하고, 전치사 about은 문장 끝에 남는다. 주어가 단수 The painting이므로 동사는 is이며, want의 목적어는 to write이다.",
+      "explanation": "주어 the painting 뒤에 목적격 관계대명사(which/that)가 생략된 관계절 'I want to write about'이 와서 주어를 수식하고, 그 뒤에 본동사 is가 온다. write about의 전치사 about은 관계절 끝에 그대로 남겨 쓴다.",
       "difficulty": "hard",
       "option_lang": "na",
       "source_tags": [
         0,
-        1,
-        2
+        1
       ],
       "options": [],
       "_answer_violates_point": []
@@ -584,14 +636,31 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "REL_PRON_VS_ADV",
-      "stem": "위 지문의 [4]를 참고하여, 아래 우리말을 <조건>에 맞게 영작하시오.\n\n우리말: 우리는 또한 상을 차리고 있는 한 여자를 본다.\n<조건> 1) 관계대명사 who를 사용할 것  2) also를 포함할 것  3) set the table을 진행형으로 쓸 것",
-      "answer_key": "We also see a woman who is setting the table.",
-      "explanation": "선행사 a woman이 사람이고 관계절 안에서 주어 역할을 하므로 주격 관계대명사 who를 쓴다. '상을 차리고 있는'은 현재진행형 is setting the table으로 표현하며, also는 일반동사 see 앞에 온다.",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n나는 그것 때문에 그 방이 따뜻하게 느껴진다고 생각한다.\n<조건> 1) think, feel, warm, because of 를 모두 사용할 것  2) 접속사 that을 넣어 쓸 것  3) 총 9단어로 쓸 것",
+      "answer_key": "I think that the room feels warm because of it.",
+      "explanation": "think의 목적어절을 that으로 연결하고, 감각동사 feel 뒤에는 부사 warmly가 아니라 형용사 warm을 쓴다. 뒤에 대명사 it만 오므로 접속사 because가 아니라 전치사구 because of를 써야 한다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        5
+        6,
+        7,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nIn the room, there is two chairs and a big table.",
+      "answer_key": "is → are",
+      "explanation": "there be 구문에서 be동사는 뒤에 오는 진주어에 수를 일치시킨다. 진주어가 'two chairs and a big table'로 복수이므로 is를 are로 고쳐 'there are two chairs and a big table'이 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
       ],
       "options": [],
       "_answer_violates_point": []
@@ -603,8 +672,8 @@
     "tags_kept": 9,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 10,
-    "items_kept": 10,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": [],
     "verbatim_problems": []
   }

@@ -8,8 +8,8 @@
       "span_end": 31,
       "surface": "can you please help me",
       "sentence_no": 1,
-      "rationale": "부탁을 나타내는 조동사 can + 동사원형. 'can you please helping / to help me' 처럼 뒤 형태를 바꾸거나 'must/should' 로 교체하는 오류를 유도할 수 있다.",
-      "confidence": "low",
+      "rationale": "요청을 나타내는 조동사 can + 동사원형. can you please helping / can you please to help 같은 형태 오류나 must/have to 로 바꿔치기 유도 가능",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_NONFIN_FORM"
@@ -17,11 +17,11 @@
     },
     {
       "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "span_start": 35,
+      "span_start": 40,
       "span_end": 47,
-      "surface": "need to find",
+      "surface": "to find",
       "sentence_no": 2,
-      "rationale": "need는 목적어로 to부정사를 취한다. 'need finding' 처럼 동명사로 바꾼 선지가 자주 나온다.",
+      "rationale": "need 는 목적어로 to부정사를 받는 동사. need finding / need find 로 바꾼 오답 선지가 자주 나옴",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -35,7 +35,7 @@
       "span_end": 74,
       "surface": "for my homework",
       "sentence_no": 2,
-      "rationale": "용도·목적을 나타내는 for. 'to my homework / of my homework' 로 바꿔 빈칸 선지로 만들기 쉽다.",
+      "rationale": "목적·용도를 나타내는 for. 전치사를 통째로 빈칸으로 뚫거나(for/to/of) 삭제하는 변형이 쉬움",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -48,7 +48,7 @@
       "span_end": 118,
       "surface": "are you looking for",
       "sentence_no": 3,
-      "rationale": "look for(~을 찾다)의 고정 전치사. look at / look after / for 삭제로 오답을 만들 수 있다.",
+      "rationale": "look for(~을 찾다) 고정 결합. 의문문 끝의 for 를 삭제하거나 look after/look at 으로 바꾼 선지 유도",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -61,7 +61,7 @@
       "span_end": 167,
       "surface": "books on famous people",
       "sentence_no": 4,
-      "rationale": "'~에 관한'의 의미로 쓰인 on. of / in / for 와 구별하는 빈칸 문항으로 출제되기 쉽다.",
+      "rationale": "'~에 관한'의 on(=about). on 삭제나 in/at 으로 교체하는 변형이 빈칸 출제 1순위",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -74,7 +74,7 @@
       "span_end": 185,
       "surface": "who helped others",
       "sentence_no": 4,
-      "rationale": "선행사가 사람(famous people)인 주격 관계대명사 who. which/where/whose 로 바꾼 선행사 불일치 오답을 유도할 수 있다.",
+      "rationale": "선행사 famous people(사람) + 주격 관계대명사 who. which/where 로 바꾼 선행사 불일치 오답 유도",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -82,12 +82,38 @@
       ]
     },
     {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 179,
+      "span_end": 185,
+      "surface": "others",
+      "sentence_no": 4,
+      "rationale": "'다른 사람들'을 뜻하는 부정대명사 others. other / the other / another 와 구별시키는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 194,
+      "span_end": 211,
+      "surface": "to write an essay",
+      "sentence_no": 5,
+      "rationale": "need 의 목적어로 쓰인 명사적 용법 to부정사. writing / write 형태 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
       "grammar_point_code": "VERB_PREP_COLLOCATION",
-      "span_start": 232,
+      "span_start": 235,
       "span_end": 246,
-      "surface": "to write about",
+      "surface": "write about",
       "sentence_no": 6,
-      "rationale": "write about(~에 관해 쓰다)의 전치사. 의문사 who가 about의 목적어이므로 about을 삭제하면 비문이 된다.",
+      "rationale": "write about ~(~에 대해 쓰다). 의문사 Who 가 전치사 about 의 목적어이므로 about 삭제 시 비문. EI_PREP_DELETE 표적",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -100,19 +126,19 @@
       "span_end": 271,
       "surface": "was thinking about",
       "sentence_no": 7,
-      "rationale": "과거진행으로 완곡하게 생각을 밝히는 표현. 'am thinking / thought' 로 바꾼 시제 오류 선지를 만들 수 있다.",
+      "rationale": "과거진행으로 완곡하게 말하는 표현. am thinking / thought 로 바꿔 시제 일치를 묻는 변형 가능",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE"
       ]
     },
     {
-      "grammar_point_code": "PRON_INDEFINITE",
+      "grammar_point_code": "MOD_POSTPOSITIVE",
       "span_start": 310,
       "span_end": 322,
       "surface": "someone else",
       "sentence_no": 7,
-      "rationale": "부정대명사 someone + else 후치 수식. 'else someone / anyone else' 로 어순·형태를 흔들 수 있다.",
+      "rationale": "-one/-thing 계열 부정대명사는 수식어가 뒤에 옴. else someone / other someone 처럼 어순을 뒤집은 오답 유도",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_WORD_ORDER",
@@ -125,7 +151,7 @@
       "span_end": 329,
       "surface": "for me",
       "sentence_no": 7,
-      "rationale": "recommend 뒤 대상 표시 전치사 for. to me / me 로 바꾼 선지와 구별해야 한다.",
+      "rationale": "'나를 위해'의 이익 대상 for. for/to/of 중 고르게 하는 빈칸 자리이며 목적격 me 도 함께 확인 가능",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -133,37 +159,25 @@
       ]
     },
     {
-      "grammar_point_code": "PREP_USAGE",
-      "span_start": 334,
-      "span_end": 344,
-      "surface": "What about",
-      "sentence_no": 8,
-      "rationale": "제안 표현 What about + 명사(구). 'What about to ~ / How for ~' 처럼 전치사·뒤 형태를 흔드는 출제가 가능하다.",
-      "confidence": "medium",
-      "applicable_modifications": [
-        "BO_FORM_CHOICE"
-      ]
-    },
-    {
       "grammar_point_code": "NOUN_CLAUSE_THAT",
       "span_start": 364,
-      "span_end": 378,
-      "surface": "I know she was",
+      "span_end": 393,
+      "surface": "I know she was a famous actor",
       "sentence_no": 9,
-      "rationale": "know의 목적어절을 이끄는 접속사 that이 생략된 구조. what/which로 바꾼 오답이나 that 복원 서술형으로 낼 수 있다.",
+      "rationale": "know 뒤 목적어절을 이끄는 접속사 that 이 생략된 구조. what/if 로 바꾼 오답이나 that 삽입 가능 여부를 묻는 자리",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
-        "RU_FORMAT_RECAST"
+        "CO_CONJ_SWAP"
       ]
     },
     {
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
       "span_start": 415,
       "span_end": 429,
       "surface": "to help others",
       "sentence_no": 9,
-      "rationale": "'돕기 위해'라는 목적의 부사적 to부정사. helping / for help / to helping 으로 바꾼 형태 오류를 유도할 수 있다.",
+      "rationale": "'돕기 위해'라는 목적의 부사적 용법 to부정사. helping / for help / to helping 오답 유도",
       "confidence": "high",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -176,11 +190,12 @@
       "span_end": 465,
       "surface": "did a lot of volunteer work",
       "sentence_no": 10,
-      "rationale": "목적어(a lot of volunteer work)를 가진 능동태이므로 수동 전환 시 by가 필요하다. 'was done her' 처럼 by 누락 오답을 심기 좋다.",
+      "rationale": "목적어가 있는 능동태 → 수동으로 뒤집을 수 있는 자리. was done by her 가 정상이나 was did / was doing / by 누락 형태로 변형되어 출제됨",
       "confidence": "high",
       "applicable_modifications": [
+        "EI_PASSIVE_FORM",
         "EI_ACTIVE_TO_PASSIVE_NO_BY",
-        "EI_PASSIVE_FORM"
+        "BO_FORM_CHOICE"
       ]
     },
     {
@@ -189,8 +204,8 @@
       "span_end": 490,
       "surface": "especially for children",
       "sentence_no": 10,
-      "rationale": "대상·수혜를 나타내는 for. to / with 로 바꾼 빈칸 선지를 만들 수 있다.",
-      "confidence": "low",
+      "rationale": "대상을 나타내는 for. 굳어진 부사구라 전치사가 눈에 안 들어오지만 for/to/with 빈칸으로 자주 뚫림",
+      "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
         "EI_PREP_DELETE"
@@ -198,11 +213,11 @@
     },
     {
       "grammar_point_code": "PRON_AGREEMENT",
-      "span_start": 515,
+      "span_start": 521,
       "span_end": 530,
-      "surface": "write about her",
+      "surface": "about her",
       "sentence_no": 12,
-      "rationale": "전치사 about의 목적어이므로 목적격 her. she / hers 로 바꾼 격 오류 선지가 가능하다.",
+      "rationale": "전치사 about 의 목적어이므로 목적격 her. she / hers 로 바꾼 격 오류 유도",
       "confidence": "medium",
       "applicable_modifications": [
         "BO_FORM_CHOICE",
@@ -213,73 +228,73 @@
   "logic": [
     {
       "sentence_no": 1,
-      "role": "도입질문 (도움 요청)",
+      "role": "도입-요청",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 2,
-      "role": "목적 제시 (요청 이유)",
+      "role": "요청 이유(목적 제시)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 3,
-      "role": "범위 확인 질문",
-      "signal": "What kinds of",
+      "role": "확인질문(범위 좁히기)",
+      "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 4,
-      "role": "조건 구체화 (찾는 책의 주제)",
+      "role": "조건 명시(찾는 책의 종류)",
       "signal": null,
       "is_blank_candidate": true
     },
     {
       "sentence_no": 5,
-      "role": "원인·배경 (에세이 과제)",
+      "role": "목적 보충",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 6,
-      "role": "세부 확인 질문 (대상 인물)",
+      "role": "추가 질문(대상 확인)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 7,
-      "role": "전환 (기존 후보 언급 + 추천 요청)",
+      "role": "전환(기존 후보 제시 + 대안 요청)",
       "signal": "but",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 8,
-      "role": "해결책 제안 (인물 추천)",
+      "role": "해결책 제안",
       "signal": "What about",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 9,
-      "role": "반문 (정보 요구)",
+      "role": "의문 제기(근거 요구)",
       "signal": "but",
       "is_blank_candidate": false
     },
     {
       "sentence_no": 10,
-      "role": "근거 제시 (추천 이유)",
+      "role": "근거 제시(핵심 정보)",
       "signal": "especially",
       "is_blank_candidate": true
     },
     {
       "sentence_no": 11,
-      "role": "반응 (놀람)",
+      "role": "반응(놀람)",
       "signal": null,
       "is_blank_candidate": false
     },
     {
       "sentence_no": 12,
-      "role": "결론 (대상 인물 결정)",
+      "role": "결론(결정 요약)",
       "signal": "Then",
       "is_blank_candidate": true
     },
@@ -294,21 +309,21 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-FORM-CHOICE",
-      "grammar_point_code": "PREP_USAGE",
-      "stem": "위 대화의 (a)~(c)에 들어갈 말이 알맞게 짝지어진 것을 고르시오.\n\nB: What kinds of books are you looking (a) ______, Somi?\nG: I'm looking for books (b) ______ famous people who helped others.\nB: Who do you want to write (c) ______?",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a)~(c)에 들어갈 알맞은 말을 짝지은 것은?\n\n[2] I need (a)[to find / finding] some books for my homework.\n[4] I'm looking for books on famous people (b)[who / which] helped others.\n[9] ... but what did she do (c)[to help / helping] others?",
       "answer_key": "①",
-      "explanation": "(a) '~을 찾다'는 look for이므로 for. look at은 '보다', look after는 '돌보다'로 문맥에 맞지 않는다. (b) '~에 관한 책'은 books on[about] famous people이므로 on. books of는 소유·소재를 뜻해 부적절하다. (c) '~에 관해 쓰다'는 write about이며 의문사 Who가 about의 목적어이므로 about이 필요하다.",
+      "explanation": "(a) need는 목적어로 to부정사를 취하므로 to find. (b) 선행사가 famous people(사람)이므로 주격 관계대명사 who. (c) '돕기 위해'라는 목적의 뜻이므로 부사적 용법 to help. ②는 need finding으로 동사 보충어 규칙 위반, ③은 사람 선행사에 which를 써 선행사 불일치, ④·⑤는 목적을 나타내는 to부정사 형태 오류.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        3,
-        4,
-        6
+        1,
+        5,
+        13
       ],
       "options": [
         {
           "label": "①",
-          "body": "(a) for  —  (b) on  —  (c) about",
+          "body": "(a) to find – (b) who – (c) to help",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
@@ -316,38 +331,100 @@
         },
         {
           "label": "②",
-          "body": "(a) at  —  (b) on  —  (c) about",
+          "body": "(a) finding – (b) who – (c) to help",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "(a) for  —  (b) of  —  (c) about",
+          "body": "(a) to find – (b) which – (c) to help",
           "is_answer": false,
-          "violates_point_code": "PREP_USAGE",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "REL_PRON_VS_ADV",
+          "via_modification": "EI_REL_ANTECEDENT",
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "(a) for  —  (b) on  —  (c) for",
+          "body": "(a) to find – (b) who – (c) helping",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 4
         },
         {
           "label": "⑤",
-          "body": "(a) after  —  (b) in  —  (c) about",
+          "body": "(a) to find – (b) who – (c) help",
           "is_answer": false,
-          "violates_point_code": "VERB_PREP_COLLOCATION",
-          "via_modification": "BO_FORM_CHOICE",
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
           "ordinal": 5
         }
       ],
       "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "④는 '~에 관한 책'을 뜻하는 전치사 on(=about)이 빠졌다. books on famous people 이 되어야 한다. ①의 look for, ②의 write about, ③의 for children, ⑤의 for my homework 는 모두 전치사가 올바르게 쓰였다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        3,
+        8,
+        15,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What kinds of books are you looking for, Somi?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Who do you want to write about?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "She did a lot of volunteer work, especially for children.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I'm looking for books famous people who helped others.",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I need to find some books for my homework.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
     },
     {
       "_verbatim_problem": [
@@ -355,18 +432,76 @@
         "③",
         "④"
       ],
-      "question_type_code": "T-GRAMMAR-INLINE",
+      "question_type_code": "T-GRAMMAR-STANDALONE",
       "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
-      "stem": "위 대화의 문장을 옮겨 적은 것 중, 어법상 틀린 것을 고르시오.",
+      "stem": "위 대화의 내용을 바탕으로 쓴 문장 중, 어법상 틀린 것은?",
       "answer_key": "⑤",
-      "explanation": "⑤는 능동문 She did a lot of volunteer work를 수동태로 바꾼 것인데 행위자 앞에 by가 빠졌다. was done by her가 되어야 한다. ①의 need to find(need+to부정사), ②의 who(사람 선행사 주격 관계대명사), ③의 someone else와 recommend ~ for me, ④의 목적을 나타내는 to help는 모두 올바르다.",
+      "explanation": "수동태는 be동사 + 과거분사이므로 was did 가 아니라 was done 이어야 한다. ②가 올바른 수동태 문장이다. ①은 능동태 원문, ③은 과거진행, ④는 접속사 that이 생략된 목적어절로 모두 옳다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        13,
-        1,
+        14,
+        12,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "She did a lot of volunteer work, especially for children.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "A lot of volunteer work was done by her.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I was thinking about Dr. Schweitzer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I know she was a famous actor.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A lot of volunteer work was did by her.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "⑤"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 낱말 중, 문맥상 쓰임이 적절하지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "소미는 '다른 사람들을 도운(helped)' 유명한 사람들에 관한 책을 찾고 있고, 그래서 봉사활동을 많이 한 Audrey Hepburn을 추천받는다. 따라서 ignored(무시했다)는 문맥에 어긋나며 helped 가 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
         5,
-        12
+        14
       ],
       "options": [
         {
@@ -379,7 +514,7 @@
         },
         {
           "label": "②",
-          "body": "I'm looking for books on famous people who helped others.",
+          "body": "What kinds of books are you looking for, Somi?",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -387,82 +522,26 @@
         },
         {
           "label": "③",
-          "body": "I was thinking about Dr. Schweitzer, but can you recommend someone else for me?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "I know she was a famous actor, but what did she do to help others?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "A lot of volunteer work was done her, especially for children.",
-          "is_answer": true,
-          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
-          "via_modification": "EI_ACTIVE_TO_PASSIVE_NO_BY",
-          "ordinal": 5
-        }
-      ],
-      "_answer_violates_point": []
-    },
-    {
-      "_verbatim_problem": [],
-      "question_type_code": "T-VOCAB-CONTEXT",
-      "grammar_point_code": null,
-      "stem": "위 대화의 내용을 바탕으로 다시 쓴 아래 문장들에서, 밑줄 친([ ] 안의) 낱말의 쓰임이 문맥상 적절하지 않은 것을 고르시오.",
-      "answer_key": "⑤",
-      "explanation": "⑤ 아이들을 위해 남을 돕는 활동을 했다는 내용이므로 '이기적인(selfish)'은 문맥에 어긋난다. volunteer(자원봉사의)가 알맞다. 나머지는 과제(homework), 유명한(famous), 추천하다(recommend), 배우(actor)로 모두 문맥에 맞다.",
-      "difficulty": "easy",
-      "option_lang": "na",
-      "source_tags": [
-        13
-      ],
-      "options": [
-        {
-          "label": "①",
-          "body": "I need to find some books for my [homework].",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 1
-        },
-        {
-          "label": "②",
-          "body": "I'm looking for books on [famous] people who helped others.",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 2
-        },
-        {
-          "label": "③",
-          "body": "Can you [recommend] someone else for me?",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 3
-        },
-        {
-          "label": "④",
-          "body": "I know she was a famous [actor].",
-          "is_answer": false,
-          "violates_point_code": null,
-          "via_modification": null,
-          "ordinal": 4
-        },
-        {
-          "label": "⑤",
-          "body": "She did a lot of [selfish] work, especially for children.",
+          "body": "I'm looking for books on famous people who ignored others.",
           "is_answer": true,
           "violates_point_code": null,
           "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Can you recommend someone else for me?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "She did a lot of volunteer work, especially for children.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
           "ordinal": 5
         }
       ],
@@ -472,34 +551,34 @@
       "_verbatim_problem": [],
       "question_type_code": "T-PHRASE-INFER",
       "grammar_point_code": null,
-      "stem": "위 대화의 [7]에서 밑줄 친 can you recommend someone else for me? 가 의미하는 것으로 가장 알맞은 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "소미는 남을 도운 유명한 인물에 관한 책을 찾아 에세이를 쓰려 하고, 처음 떠올린 인물은 Dr. Schweitzer였다. 따라서 그 인물 대신 글감이 될 '다른 인물'을 추천해 달라는 요청이며, 뒤이어 Liam이 Audrey Hepburn을 제안하는 흐름과도 이어진다.",
+      "stem": "[7]의 밑줄 친 someone else 가 뜻하는 것으로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "소미는 Dr. Schweitzer를 생각하고 있었지만 다른 인물을 추천해 달라고 부탁하고, Liam이 Audrey Hepburn을 제안한다. 따라서 someone else 는 '에세이에 쓸 또 다른 인물'을 뜻한다.",
       "difficulty": "easy",
       "option_lang": "ko",
       "source_tags": [
-        8
+        10
       ],
       "options": [
         {
           "label": "①",
-          "body": "나 대신 에세이를 써 줄 사람을 소개해 달라는 뜻이다.",
-          "is_answer": false,
+          "body": "Dr. Schweitzer 말고 에세이의 소재가 될 다른 인물",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "글의 소재로 삼을 다른 인물을 추천해 달라는 뜻이다.",
-          "is_answer": true,
+          "body": "소미의 숙제를 대신 해 줄 다른 친구",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "함께 도서관에 가 줄 친구를 찾아 달라는 뜻이다.",
+          "body": "책을 함께 찾아 줄 도서관 사서",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -507,7 +586,7 @@
         },
         {
           "label": "④",
-          "body": "자신이 읽을 책을 대신 빌려 달라는 뜻이다.",
+          "body": "Liam 대신 추천을 해 줄 다른 학생",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -515,7 +594,7 @@
         },
         {
           "label": "⑤",
-          "body": "봉사활동에 함께 참여할 사람을 모아 달라는 뜻이다.",
+          "body": "아이들을 돕는 봉사 단체의 다른 회원",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -528,35 +607,35 @@
       "_verbatim_problem": [],
       "question_type_code": "T-TOPIC",
       "grammar_point_code": null,
-      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
-      "answer_key": "②",
-      "explanation": "소미는 에세이 과제를 위해 남을 도운 유명 인물에 관한 책을 찾고 있고, Liam이 Audrey Hepburn을 추천해 결국 그 인물로 정한다. 즉 '에세이로 쓸 인물 고르기'가 주제다. 도서 대출 규정이나 봉사활동 신청, 배우가 되는 법은 언급되지 않았다.",
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "소미가 에세이를 쓰기 위해 다른 사람을 도운 유명 인물에 관한 책을 찾으며 Liam에게 인물 추천을 부탁하는 대화이다.",
       "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        1,
-        5
+        5,
+        7
       ],
       "options": [
         {
           "label": "①",
-          "body": "how to become a famous actor",
-          "is_answer": false,
+          "body": "Asking for a book recommendation about a famous person who helped others",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "choosing a person to write an essay about",
-          "is_answer": true,
+          "body": "Planning a volunteer program for children in the library",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 2
         },
         {
           "label": "③",
-          "body": "rules for borrowing books from the library",
+          "body": "Explaining how to become a famous actor",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -564,7 +643,7 @@
         },
         {
           "label": "④",
-          "body": "signing up for volunteer work for children",
+          "body": "Comparing the movies of Audrey Hepburn and other actors",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -572,7 +651,7 @@
         },
         {
           "label": "⑤",
-          "body": "the life and movies of Dr. Schweitzer",
+          "body": "Complaining about too much English homework",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -585,27 +664,27 @@
       "_verbatim_problem": [],
       "question_type_code": "T-DETAIL",
       "grammar_point_code": null,
-      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
-      "answer_key": "③",
-      "explanation": "③은 [10]의 내용과 일치한다. ① 소미는 이제 에세이를 써야 한다. ② Dr. Schweitzer는 소미가 생각했던 인물이고 Liam은 다른 인물을 추천했다. ④ 소미가 찾는 것은 남을 도운 유명 인물에 관한 책이다. ⑤ 도움을 요청한 사람은 소미다. ⑥ 소미는 마지막에 그녀에 대해 쓰겠다고 말한다.",
-      "difficulty": "medium",
+      "stem": "Which is TRUE according to the dialogue?",
+      "answer_key": "①",
+      "explanation": "[10]에서 그녀가 특히 아이들을 위해 많은 봉사활동을 했다고 했다. ② 소미는 에세이를 아직 써야 한다. ③ Liam은 Audrey Hepburn을 추천했다. ④ 다른 사람을 도운 유명 인물에 관한 책이다. ⑤ 도움을 요청한 사람은 소미다.",
+      "difficulty": "easy",
       "option_lang": "en",
       "source_tags": [
-        13,
+        14,
         7
       ],
       "options": [
         {
           "label": "①",
-          "body": "Somi has already finished writing her essay.",
-          "is_answer": false,
+          "body": "Audrey Hepburn did a lot of volunteer work, especially for children.",
+          "is_answer": true,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 1
         },
         {
           "label": "②",
-          "body": "Liam wants Somi to write about Dr. Schweitzer.",
+          "body": "Somi has already finished writing her essay.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -613,15 +692,15 @@
         },
         {
           "label": "③",
-          "body": "Audrey Hepburn did a lot of volunteer work, especially for children.",
-          "is_answer": true,
+          "body": "Liam tells Somi to write about Dr. Schweitzer.",
+          "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 3
         },
         {
           "label": "④",
-          "body": "Somi is looking for books about famous movies.",
+          "body": "Somi is looking for books about famous singers.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
@@ -629,19 +708,68 @@
         },
         {
           "label": "⑤",
-          "body": "Liam asks Somi to help him with his homework.",
+          "body": "Liam needs Somi's help with his homework.",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
           "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 알맞은 것은?\n\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can ____________. Thank you!",
+      "answer_key": "①",
+      "explanation": "소미는 다른 사람을 도운 인물에 대해 에세이를 써야 하므로, 봉사활동을 많이 한 Audrey Hepburn에 대해 쓸 수 있다는 결론이 자연스럽다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        16,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "write about her",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
         },
         {
-          "label": "⑥",
-          "body": "Somi decides not to write about Audrey Hepburn.",
+          "label": "②",
+          "body": "meet her in person",
           "is_answer": false,
           "violates_point_code": null,
           "via_modification": null,
-          "ordinal": 6
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "become a famous actor",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "borrow her movies",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "do volunteer work with you",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
         }
       ],
       "_answer_violates_point": []
@@ -649,27 +777,26 @@
     {
       "_verbatim_problem": [],
       "question_type_code": "T-WRITE-FIX",
-      "grammar_point_code": "NONFIN_TO_VS_GERUND",
-      "stem": "다음은 위 대화의 일부를 바꾸어 쓴 것이다. 어법상 틀린 부분을 찾아 밑줄을 긋고 바르게 고쳐 쓰시오.\n\nG: I need finding some books for my homework.\nG: I know she was a famous actor, but what did she do to helping others?",
-      "answer_key": "(1) need finding → need to find  (2) to helping → to help",
-      "explanation": "(1) need는 목적어로 to부정사를 취하므로 need to find가 맞다. (2) '~하기 위해'라는 목적의 뜻은 to부정사로 나타내며 to 뒤에는 동사원형이 오므로 to help가 맞다.",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음은 [9]를 옮겨 쓴 문장이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nI know she was a famous actor, but what did she do to helping others?",
+      "answer_key": "to helping → to help",
+      "explanation": "'다른 사람들을 돕기 위해'라는 목적의 뜻이므로 부사적 용법의 to부정사 to help 를 써야 한다. to 뒤에는 동사원형이 온다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        1,
-        12
+        13
       ],
       "options": [],
       "_answer_violates_point": []
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WORD-ORDER",
+      "question_type_code": "T-WRITE-COND",
       "grammar_point_code": "REL_PRON_VS_ADV",
-      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n나는 다른 사람들을 도운 유명한 사람들에 관한 책을 찾고 있어.\n(looking / others / for / famous / on / people / helped / who / books / I'm)",
+      "stem": "다음 우리말을 조건에 맞게 영작하시오.\n\n우리말: 나는 다른 사람들을 도운 유명한 사람들에 관한 책을 찾고 있어.\n조건 1: look for 와 관계대명사 who 를 사용할 것\n조건 2: 현재진행형으로 쓸 것\n조건 3: books on ~ 형태를 사용할 것",
       "answer_key": "I'm looking for books on famous people who helped others.",
-      "explanation": "'~을 찾다'는 look for, '~에 관한 책'은 books on, 사람 선행사 famous people을 수식하는 주격 관계대명사절은 who helped others 순으로 배열한다.",
-      "difficulty": "medium",
+      "explanation": "현재진행형 am looking for + 전치사 on(~에 관한) + 사람 선행사 famous people 에 이어지는 주격 관계대명사 who + 과거동사 helped 로 쓴다.",
+      "difficulty": "hard",
       "option_lang": "na",
       "source_tags": [
         3,
@@ -681,15 +808,17 @@
     },
     {
       "_verbatim_problem": [],
-      "question_type_code": "T-WRITE-COND",
-      "grammar_point_code": "PRON_AGREEMENT",
-      "stem": "위 대화의 마지막 부분에서 소미가 한 말을 <조건>에 맞게 영작하시오.\n\n<우리말> 그러면, 나는 그녀에 대해 쓸 수 있겠다.\n<조건> 1) Then, 으로 시작할 것  2) can, write, about 을 반드시 사용할 것  3) 대명사는 알맞은 격으로 쓸 것  4) 총 6단어로 쓸 것",
-      "answer_key": "Then, I can write about her.",
-      "explanation": "조동사 can 뒤에는 동사원형 write를 쓰고, '~에 대해 쓰다'는 write about이다. about은 전치사이므로 뒤에는 목적격 her를 써야 하며 she나 hers는 쓸 수 없다.",
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "MOD_POSTPOSITIVE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n우리말: 저를 위해 다른 누군가를 추천해 주실 수 있나요?\n단어: (can / recommend / else / for / someone / you / me)",
+      "answer_key": "Can you recommend someone else for me?",
+      "explanation": "조동사 can 을 문두에 두어 의문문을 만들고(Can you + 동사원형), someone 처럼 -one 으로 끝나는 부정대명사는 수식어 else 를 뒤에 두어 someone else 로 쓴다. 마지막에 '나를 위해'를 뜻하는 for me 를 붙인다.",
       "difficulty": "medium",
       "option_lang": "na",
       "source_tags": [
-        15
+        10,
+        11,
+        0
       ],
       "options": [],
       "_answer_violates_point": []
@@ -697,17 +826,17 @@
   ],
   "diagnostics": {
     "sentence_count": 13,
-    "tags_returned": 16,
-    "tags_kept": 16,
+    "tags_returned": 17,
+    "tags_kept": 17,
     "span_rejects": [],
     "logic_missing_sentences": [],
-    "items_returned": 9,
-    "items_kept": 9,
+    "items_returned": 11,
+    "items_kept": 11,
     "item_rejects": [],
     "verbatim_problems": [
       {
-        "item": 1,
-        "type": "T-GRAMMAR-INLINE",
+        "item": 2,
+        "type": "T-GRAMMAR-STANDALONE",
         "options": [
           "②",
           "③",

@@ -53,7 +53,12 @@ def main():
     by_id = {p["id"]: p for p in pgs}
     by_title = {p["title"]: p for p in pgs}
     points = {g["code"] for g in r.get("/grammar_point?select=code")}
-    tagged = {t["passage_id"] for t in r.get("/passage_tag?select=passage_id")}
+    # 물러난 태그(rejected)는 「있는 것」으로 세지 않는다. 그래야 재태깅한 지문을
+    # 다시 넣을 수 있다. 물러난 것은 무엇이 있었는지의 기록으로만 남는다.
+    tagged = {t["passage_id"] for t in r.get("/passage_tag?select=passage_id,status")
+              if t["status"] != "rejected"}
+    # 논리 태깅은 (passage_id, sentence_no) 가 unique 라 두 번 넣으면 충돌한다.
+    # 재태깅해도 문장 번호는 그대로이므로 이미 있으면 건너뛴다.
     logged = {l["passage_id"] for l in r.get("/passage_logic?select=passage_id")}
 
     print("=" * 74)
