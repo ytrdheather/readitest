@@ -1,0 +1,247 @@
+{
+  "unit": "L5 대화 ①②③ — 길 묻고 답하기",
+  "parts": [
+    "L5 대화-1",
+    "L5 대화-2",
+    "L5 대화-3"
+  ],
+  "passage_ids": [
+    "d372ec20-cf12-4633-bd07-96cb351b2000",
+    "db001e26-66ba-48a9-ba48-014b193b2d21",
+    "01868ce7-25d3-4939-8562-aad910d79142"
+  ],
+  "para_breaks": [
+    7,
+    14,
+    25
+  ],
+  "turn_breaks": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    15,
+    18,
+    21,
+    23,
+    25
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: Excuse me, how can I get to the Star Stadium?",
+    "G: You can get there by subway.",
+    "Take line 4, the green line, and get off at Hangang Station.",
+    "B: Line 4 and Hangang Station.",
+    "Got it.",
+    "How long will it take?",
+    "G: A little more than 30 minutes.",
+    "B: I’m sorry, but how can I get to the Sky Cinema?",
+    "G: It’s not far, but it’s a little difficult to find.",
+    "Why don’t you take a taxi?",
+    "B: OK.",
+    "How long will it take?",
+    "G: By taxi?",
+    "About 20 minutes.",
+    "G: Do you need help?",
+    "B: Yes.",
+    "How can I get to the Dream Shopping Mall from here?",
+    "Can I walk?",
+    "G: You can, but it’s a little far.",
+    "Why don’t you go by bus?",
+    "Take bus No. 12.",
+    "B: OK.",
+    "How long will it take by bus?",
+    "G: Not very long.",
+    "It’ll take less than 10 minutes."
+  ],
+  "items": [
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"How can I get to the Star Stadium?\" 는 \"What's the best way to get to the Star Stadium?\" 으로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "\b\ncdots 둘 다 목적지까지 가는 방법(길)을 묻는 표현이다.",
+      "_evidence_text": [
+        "B: Excuse me, how can I get to the Star Stadium?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"You can get there by subway.\" 는 \"You can take the subway to get there.\" 로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "'by+교통수단'과 'take the+교통수단'은 같은 뜻으로 쓸 수 있다.",
+      "_evidence_text": [
+        "G: You can get there by subway."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"get off at Hangang Station\" 은 \"get on at Hangang Station\" 으로 바꿔 쓸 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "get off는 '내리다', get on은 '타다'로 뜻이 반대이다.",
+      "_evidence_text": [
+        "Take line 4, the green line, and get off at Hangang Station."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"How long will it take?\" 는 \"How can I get there?\" 로 바꿔 쓸 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "앞은 걸리는 시간을 묻고, 뒤는 가는 방법(교통수단)을 묻는 표현이다.",
+      "_evidence_text": [
+        "How long will it take?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"A little more than 30 minutes.\" 는 \"It takes a bit over 30 minutes.\" 로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "a little more than과 a bit over는 모두 '~보다 조금 더'라는 뜻이다.",
+      "_evidence_text": [
+        "G: A little more than 30 minutes."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"Why don't you take a taxi?\" 는 \"How about taking a taxi?\" 로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "둘 다 상대에게 무언가를 권유·제안하는 표현이다.",
+      "_evidence_text": [
+        "Why don’t you take a taxi?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"Do you need help?\" 는 \"May I help you?\" 로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "둘 다 상대에게 도움이 필요한지 묻고 도움을 주려는 표현이다.",
+      "_evidence_text": [
+        "G: Do you need help?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"How can I get to the Dream Shopping Mall from here?\" 는 \"How far is the Dream Shopping Mall from here?\" 로 바꿔 쓸 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "앞은 가는 방법(길)을 묻고, 뒤는 거리가 얼마나 먼지를 묻는 표현이다.",
+      "_evidence_text": [
+        "How can I get to the Dream Shopping Mall from here?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"Can I walk?\" 는 \"Can I get there on foot?\" 으로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "walk와 go on foot(걸어서 가다)은 같은 뜻이다.",
+      "_evidence_text": [
+        "Can I walk?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"it's a little far\" 는 \"it's not very far\" 로 바꿔 쓸 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "앞은 '조금 멀다'는 뜻이고 뒤는 '그다지 멀지 않다'는 뜻이라 의미가 반대이다.",
+      "_evidence_text": [
+        "G: You can, but it’s a little far."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"Why don't you go by bus?\" 는 \"You'd better not take the bus.\" 로 바꿔 쓸 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "앞은 버스를 타라는 권유이고, 뒤는 버스를 타지 말라는 충고라서 뜻이 반대이다.",
+      "_evidence_text": [
+        "Why don’t you go by bus?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"Take bus No. 12.\" 는 \"Get on bus No. 12.\" 로 바꿔 쓸 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "take a bus와 get on a bus는 모두 '버스를 타다'라는 뜻이다.",
+      "_evidence_text": [
+        "Take bus No. 12."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "paraphrase",
+      "statement_ko": "\"It'll take less than 10 minutes.\" 는 \"It'll take more than 10 minutes.\" 로 바꿔 쓸 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "less than은 '~보다 적게', more than은 '~보다 많게'로 뜻이 반대이다.",
+      "_evidence_text": [
+        "It’ll take less than 10 minutes."
+      ],
+      "_repeat": false
+    }
+  ],
+  "diagnostics": {
+    "returned": 13,
+    "kept": 13,
+    "by_type": {
+      "paraphrase": 13
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 7,
+      "X": 6
+    },
+    "sentences_covered": 13,
+    "sentence_count": 25,
+    "repeated": 0
+  }
+}

@@ -55,13 +55,21 @@ def gather(rest, units):
     body = "\n".join(p["body_text"] for p in rows)
     # 문단 경계를 문장 번호로 남긴다. 합쳐 놓고 나면 어디서 끊겼는지 알 수 없는데,
     # 학습지에서는 원래 문단대로 보여야 아이가 교과서와 같은 모양으로 읽는다.
-    breaks, acc = [], 0
+    breaks, turns, acc = [], [], 0
     for p_ in rows:
-        acc += len(split_sentences(p_["body_text"]))
+        # 대화문은 **발화마다 줄을 바꾼다** (원장 지시 2026-09-07: 「한 명의 대사가
+        # 한 줄에 자리잡도록. 세로로 3단을 차지하는 한이 있어도 눈에 잘 보이게」).
+        # 한 발화에 문장이 여럿일 수 있으므로(‘…to find. Why don’t you take a taxi?’)
+        # 발화 경계도 문장 번호로 따로 세어 둔다.
+        for line in p_["body_text"].split("\n"):
+            if line.strip():
+                acc += len(split_sentences(line))
+                turns.append(acc)
         breaks.append(acc)
     title = units[0] if len(units) == 1 else f"{units[0]} 외 {len(units)-1}"
     return {"title": title, "kind": rows[0]["kind"], "parts": [p["title"] for p in rows],
-            "ids": [p["id"] for p in rows], "body": body, "para_breaks": breaks}
+            "ids": [p["id"] for p in rows], "body": body,
+            "para_breaks": breaks, "turn_breaks": turns}
 
 
 def main():
@@ -70,6 +78,8 @@ def main():
                     help="지문 제목 (앞부분 일치). 여러 번 주면 묶는다")
     ap.add_argument("--title", help="학습지 제목 (기본: 첫 --unit)")
     ap.add_argument("--items", type=int, help="문항 수 (기본: 문장 수)")
+    ap.add_argument("--mode", choices=["content", "paraphrase"], default="content",
+                    help="content=내용 확인(전 문장) · paraphrase=표현 바꿔쓰기")
     ap.add_argument("--run", action="store_true")
     a = ap.parse_args()
 
@@ -84,12 +94,12 @@ def main():
     n = a.items or len(sents)          # 원장 지정: 문장 하나당 대략 한 문항
 
     print("=" * 74)
-    print(f" 내용일치 O/X 드릴 — {u['title']}")
+    print(f" {'표현 바꿔쓰기' if a.mode == 'paraphrase' else '내용 확인'} O/X 드릴 — {u['title']}")
     print("=" * 74)
     print(f"  묶은 지문 {len(u['parts'])}개: {' · '.join(u['parts'])}")
     print(f"  문장 {len(sents)} · 만들 문항 {n}개 안팎\n")
 
-    params = drill_tf.build_params(u["title"], u["kind"], sents, n)
+    params = drill_tf.build_params(u["title"], u["kind"], sents, n, a.mode)
     if not a.run:
         print("  [미리보기] 호출하지 않습니다. 실제로 만들려면 --run")
         print(f"  system {len(params['system'][0]['text']):,}자 · "
@@ -114,10 +124,12 @@ def main():
 
     os.makedirs(OUT, exist_ok=True)
     slug = re.sub(r"[^0-9A-Za-z가-힣]+", "_", u["title"])[:40]
-    path = os.path.join(OUT, f"{slug}.tf.json")
+    suffix = ".tf.json" if a.mode == "content" else ".para.json"
+    path = os.path.join(OUT, f"{slug}{suffix}")
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"unit": u["title"], "parts": u["parts"], "passage_ids": u["ids"],
-                   "para_breaks": u["para_breaks"], "sentences": sents, **result},
+                   "para_breaks": u["para_breaks"], "turn_breaks": u["turn_breaks"],
+                   "kind": u["kind"], "sentences": sents, **result},
                   f, ensure_ascii=False, indent=2)
         f.write("\n")
     cost = Cost()

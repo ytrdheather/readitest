@@ -15,6 +15,22 @@
     14,
     25
   ],
+  "turn_breaks": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    15,
+    18,
+    21,
+    23,
+    25
+  ],
+  "kind": "textbook_dialogue",
   "sentences": [
     "B: Excuse me, how can I get to the Star Stadium?",
     "G: You can get there by subway.",
@@ -45,116 +61,77 @@
   "items": [
     {
       "type": "content",
-      "statement_ko": "소년은 처음에 Star Stadium에 가는 방법을 물었다.",
+      "statement_ko": "소년은 Star Stadium에 가는 방법을 먼저 물었다.",
       "answer": "O",
       "evidence_sentences": [
         1
       ],
-      "why_ko": "소년이 'how can I get to the Star Stadium?'이라고 물었다.",
+      "why_ko": "소년이 첫 문장에서 Star Stadium 가는 길을 물었다.",
       "_evidence_text": [
         "B: Excuse me, how can I get to the Star Stadium?"
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"how can I get to the Star Stadium?\" 은 \"What's the best way to get to the Star Stadium?\" 으로 바꿔 쓸 수 있다.",
-      "answer": "O",
-      "evidence_sentences": [
-        1
-      ],
-      "why_ko": "둘 다 목적지까지 가는 방법을 묻는 표현이다.",
-      "_evidence_text": [
-        "B: Excuse me, how can I get to the Star Stadium?"
-      ],
-      "_repeat": true
-    },
-    {
       "type": "content",
-      "statement_ko": "소녀는 Star Stadium까지 버스로 갈 수 있다고 했다.",
+      "statement_ko": "여자아이는 Star Stadium까지 버스로 갈 수 있다고 알려 주었다.",
       "answer": "X",
       "evidence_sentences": [
         2
       ],
-      "why_ko": "소녀는 지하철(by subway)로 갈 수 있다고 했다.",
+      "why_ko": "버스가 아니라 지하철(subway)로 갈 수 있다고 했다.",
       "_evidence_text": [
         "G: You can get there by subway."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"You can get there by subway.\" 는 \"You can take the subway to get there.\" 로 바꿔 쓸 수 있다.",
-      "answer": "O",
-      "evidence_sentences": [
-        2
-      ],
-      "why_ko": "둘 다 지하철을 이용해 갈 수 있다는 같은 뜻이다.",
-      "_evidence_text": [
-        "G: You can get there by subway."
-      ],
-      "_repeat": true
-    },
-    {
       "type": "content",
-      "statement_ko": "소녀는 4호선을 타고 Hangang역에서 내리라고 했다.",
+      "statement_ko": "여자아이가 말한 4호선은 초록색 노선이다.",
       "answer": "O",
       "evidence_sentences": [
         3
       ],
-      "why_ko": "'Take line 4 ... get off at Hangang Station'이라고 안내했다.",
+      "why_ko": "line 4, the green line이라고 했다.",
       "_evidence_text": [
         "Take line 4, the green line, and get off at Hangang Station."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"get off at Hangang Station\" 은 \"get on at Hangang Station\" 으로 바꿔 쓸 수 있다.",
-      "answer": "X",
-      "evidence_sentences": [
-        3
-      ],
-      "why_ko": "get off는 '내리다', get on은 '타다'로 뜻이 반대다.",
-      "_evidence_text": [
-        "Take line 4, the green line, and get off at Hangang Station."
-      ],
-      "_repeat": true
-    },
-    {
       "type": "content",
-      "statement_ko": "소년은 소녀가 말한 노선과 역 이름을 되풀이해 확인했다.",
-      "answer": "O",
+      "statement_ko": "소년은 들은 내용을 \"3호선과 한강역\"이라고 되뇌었다.",
+      "answer": "X",
       "evidence_sentences": [
         4
       ],
-      "why_ko": "소년이 'Line 4 and Hangang Station.'이라고 반복해 확인했다.",
+      "why_ko": "소년은 4호선(Line 4)과 한강역이라고 되뇌었다.",
       "_evidence_text": [
         "B: Line 4 and Hangang Station."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"Got it.\" 은 \"I understand.\" 로 바꿔 쓸 수 있다.",
+      "type": "content",
+      "statement_ko": "소년은 설명을 이해했다고 말했다.",
       "answer": "O",
       "evidence_sentences": [
         5
       ],
-      "why_ko": "둘 다 '알겠다'는 이해를 나타내는 표현이다.",
+      "why_ko": "\"Got it.\"이라고 답했다.",
       "_evidence_text": [
         "Got it."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"How long will it take?\" 은 \"How much does it cost?\" 로 바꿔 쓸 수 있다.",
-      "answer": "X",
+      "type": "content",
+      "statement_ko": "소년은 지하철로 시간이 얼마나 걸리는지 물었다.",
+      "answer": "O",
       "evidence_sentences": [
         6
       ],
-      "why_ko": "앞은 걸리는 시간을, 뒤는 요금(비용)을 묻는 표현이다.",
+      "why_ko": "\"How long will it take?\"라고 물었다.",
       "_evidence_text": [
         "How long will it take?"
       ],
@@ -162,12 +139,12 @@
     },
     {
       "type": "content",
-      "statement_ko": "Star Stadium까지 지하철로 30분이 조금 넘게 걸린다.",
-      "answer": "O",
+      "statement_ko": "여자아이는 Star Stadium까지 정확히 30분이 걸린다고 했다.",
+      "answer": "X",
       "evidence_sentences": [
         7
       ],
-      "why_ko": "소녀가 'A little more than 30 minutes.'라고 답했다.",
+      "why_ko": "30분보다 조금 더 걸린다(a little more than 30 minutes)고 했다.",
       "_evidence_text": [
         "G: A little more than 30 minutes."
       ],
@@ -175,51 +152,38 @@
     },
     {
       "type": "content",
-      "statement_ko": "소년이 두 번째로 물은 곳은 Sky Cinema이다.",
+      "statement_ko": "소년은 Star Stadium에 대해 물은 뒤 Sky Cinema 가는 길도 물었다.",
       "answer": "O",
       "evidence_sentences": [
         8
       ],
-      "why_ko": "소년이 'how can I get to the Sky Cinema?'라고 물었다.",
+      "why_ko": "이어서 Sky Cinema 가는 방법을 물었다.",
       "_evidence_text": [
         "B: I’m sorry, but how can I get to the Sky Cinema?"
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"I'm sorry, but\" 은 \"Excuse me, but\" 으로 바꿔 쓸 수 있다.",
-      "answer": "O",
-      "evidence_sentences": [
-        8
-      ],
-      "why_ko": "둘 다 말을 조심스럽게 꺼낼 때 쓰는 표현이다.",
-      "_evidence_text": [
-        "B: I’m sorry, but how can I get to the Sky Cinema?"
-      ],
-      "_repeat": true
-    },
-    {
       "type": "content",
-      "statement_ko": "소녀는 Sky Cinema가 멀지만 찾기는 쉽다고 말했다.",
+      "statement_ko": "여자아이는 Sky Cinema가 멀지만 찾기는 쉽다고 말했다.",
       "answer": "X",
       "evidence_sentences": [
         9
       ],
-      "why_ko": "멀지 않지만 찾기가 조금 어렵다고 했으므로 반대다.",
+      "why_ko": "멀지 않지만 찾기가 조금 어렵다고 했다.",
       "_evidence_text": [
         "G: It’s not far, but it’s a little difficult to find."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"Why don't you take a taxi?\" 는 \"How about taking a taxi?\" 로 바꿔 쓸 수 있다.",
+      "type": "content",
+      "statement_ko": "여자아이는 Sky Cinema까지 택시를 타는 것을 제안했다.",
       "answer": "O",
       "evidence_sentences": [
         10
       ],
-      "why_ko": "둘 다 제안하는 표현이다.",
+      "why_ko": "\"Why don't you take a taxi?\"라고 제안했다.",
       "_evidence_text": [
         "Why don’t you take a taxi?"
       ],
@@ -232,20 +196,20 @@
       "evidence_sentences": [
         11
       ],
-      "why_ko": "소년은 'OK.'라고 대답하며 받아들였다.",
+      "why_ko": "소년은 \"OK.\"라고 하며 제안을 받아들였다.",
       "_evidence_text": [
         "B: OK."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"How long will it take?\" 은 \"How much time will it take?\" 로 바꿔 쓸 수 있다.",
+      "type": "content",
+      "statement_ko": "소년은 Sky Cinema까지 걸리는 시간도 물었다.",
       "answer": "O",
       "evidence_sentences": [
         12
       ],
-      "why_ko": "둘 다 소요 시간을 묻는 표현이다.",
+      "why_ko": "다시 \"How long will it take?\"라고 물었다.",
       "_evidence_text": [
         "How long will it take?"
       ],
@@ -253,27 +217,38 @@
     },
     {
       "type": "content",
-      "statement_ko": "Sky Cinema까지 택시로 약 20분 걸린다.",
+      "statement_ko": "여자아이는 택시로 가는 것이 맞는지 되물었다.",
       "answer": "O",
       "evidence_sentences": [
-        13,
+        13
+      ],
+      "why_ko": "\"By taxi?\"라고 확인했다.",
+      "_evidence_text": [
+        "G: By taxi?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 택시로 약 30분 걸린다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
         14
       ],
-      "why_ko": "소녀가 택시로 약 20분이라고 답했다.",
+      "why_ko": "약 20분(About 20 minutes)이라고 했다.",
       "_evidence_text": [
-        "G: By taxi?",
         "About 20 minutes."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"Do you need help?\" 는 \"May I help you?\" 로 바꿔 쓸 수 있다.",
+      "type": "content",
+      "statement_ko": "세 번째 대화에서는 여자아이가 먼저 도움이 필요한지 물었다.",
       "answer": "O",
       "evidence_sentences": [
         15
       ],
-      "why_ko": "둘 다 도움을 주겠다고 제안하는 표현이다.",
+      "why_ko": "여자아이가 \"Do you need help?\"라고 먼저 말했다.",
       "_evidence_text": [
         "G: Do you need help?"
       ],
@@ -281,55 +256,64 @@
     },
     {
       "type": "content",
-      "statement_ko": "세 번째 대화에서는 소녀가 먼저 도움이 필요한지 물었다.",
-      "answer": "O",
+      "statement_ko": "소년은 도움이 필요하지 않다고 답했다.",
+      "answer": "X",
       "evidence_sentences": [
-        15,
         16
       ],
-      "why_ko": "소녀가 'Do you need help?'라고 먼저 말했고 소년이 'Yes.'라고 답했다.",
+      "why_ko": "소년은 \"Yes.\"라고 답했다.",
       "_evidence_text": [
-        "G: Do you need help?",
         "B: Yes."
       ],
-      "_repeat": true
+      "_repeat": false
     },
     {
       "type": "content",
-      "statement_ko": "소년은 Dream Shopping Mall에 걸어갈 수 있는지 물었다.",
+      "statement_ko": "소년이 가려는 곳은 Dream Shopping Mall이다.",
       "answer": "O",
       "evidence_sentences": [
-        17,
+        17
+      ],
+      "why_ko": "Dream Shopping Mall 가는 방법을 물었다.",
+      "_evidence_text": [
+        "How can I get to the Dream Shopping Mall from here?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 걸어갈 수 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
         18
       ],
-      "why_ko": "소년이 'Can I walk?'라고 물었다.",
+      "why_ko": "\"Can I walk?\"라고 물었다.",
       "_evidence_text": [
-        "How can I get to the Dream Shopping Mall from here?",
         "Can I walk?"
       ],
       "_repeat": false
     },
     {
       "type": "content",
-      "statement_ko": "소녀는 걸어갈 수는 있지만 조금 멀다고 했다.",
+      "statement_ko": "여자아이는 걸어갈 수는 있지만 조금 멀다고 했다.",
       "answer": "O",
       "evidence_sentences": [
         19
       ],
-      "why_ko": "'You can, but it's a little far.'라고 답했다.",
+      "why_ko": "걸을 수 있지만 조금 멀다(a little far)고 했다.",
       "_evidence_text": [
         "G: You can, but it’s a little far."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"Why don't you go by bus?\" 는 \"You should take the bus.\" 로 바꿔 쓸 수 있다.",
-      "answer": "O",
+      "type": "content",
+      "statement_ko": "여자아이는 Dream Shopping Mall까지 지하철로 가라고 제안했다.",
+      "answer": "X",
       "evidence_sentences": [
         20
       ],
-      "why_ko": "둘 다 버스를 타라고 권하는 표현이다.",
+      "why_ko": "버스로 가는 것(go by bus)을 제안했다.",
       "_evidence_text": [
         "Why don’t you go by bus?"
       ],
@@ -337,43 +321,65 @@
     },
     {
       "type": "content",
-      "statement_ko": "소녀는 12번 버스를 타라고 했다.",
-      "answer": "O",
+      "statement_ko": "여자아이는 21번 버스를 타라고 했다.",
+      "answer": "X",
       "evidence_sentences": [
         21
       ],
-      "why_ko": "'Take bus No. 12.'라고 말했다.",
+      "why_ko": "12번 버스(bus No. 12)를 타라고 했다.",
       "_evidence_text": [
         "Take bus No. 12."
       ],
       "_repeat": false
     },
     {
-      "type": "paraphrase",
-      "statement_ko": "\"How long will it take by bus?\" 는 \"Which bus should I take?\" 로 바꿔 쓸 수 있다.",
-      "answer": "X",
+      "type": "content",
+      "statement_ko": "소년은 버스 안내를 듣고 알겠다고 답했다.",
+      "answer": "O",
       "evidence_sentences": [
-        22,
+        22
+      ],
+      "why_ko": "\"OK.\"라고 답했다.",
+      "_evidence_text": [
+        "B: OK."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 버스로 얼마나 걸리는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
         23
       ],
-      "why_ko": "앞은 버스로 걸리는 시간을, 뒤는 어느 버스를 타야 하는지를 묻는다.",
+      "why_ko": "\"How long will it take by bus?\"라고 물었다.",
       "_evidence_text": [
-        "B: OK.",
         "How long will it take by bus?"
       ],
       "_repeat": false
     },
     {
       "type": "content",
-      "statement_ko": "Dream Shopping Mall까지 버스로 10분보다 적게 걸린다.",
-      "answer": "O",
+      "statement_ko": "여자아이는 버스로 아주 오래 걸린다고 말했다.",
+      "answer": "X",
       "evidence_sentences": [
-        24,
+        24
+      ],
+      "why_ko": "\"Not very long.\" 즉 그리 오래 걸리지 않는다고 했다.",
+      "_evidence_text": [
+        "G: Not very long."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 버스로 10분보다 더 걸릴 것이라고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
         25
       ],
-      "why_ko": "소녀가 'less than 10 minutes'라고 답했다.",
+      "why_ko": "10분보다 적게(less than 10 minutes) 걸린다고 했다.",
       "_evidence_text": [
-        "G: Not very long.",
         "It’ll take less than 10 minutes."
       ],
       "_repeat": false
@@ -383,16 +389,15 @@
     "returned": 25,
     "kept": 25,
     "by_type": {
-      "content": 14,
-      "paraphrase": 11
+      "content": 25
     },
     "rejects": [],
     "answer_balance": {
-      "O": 19,
-      "X": 6
+      "O": 14,
+      "X": 11
     },
     "sentences_covered": 25,
     "sentence_count": 25,
-    "repeated": 5
+    "repeated": 0
   }
 }

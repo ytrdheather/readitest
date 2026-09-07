@@ -45,7 +45,11 @@ SYSTEM = """\
    될 수 없습니다. 「알 수 없음」이 정답인 문항도 만들지 마십시오.
 3. **근거 문장을 반드시 답니다.** `evidence_sentences` 에 그 문항의 근거가 되는
    문장 번호를 넣습니다. 두 문장을 합쳐야 판단되면 둘 다 넣습니다.
-4. **참과 거짓을 섞습니다.** 한쪽으로 몰리면 아이가 찍습니다. 대략 절반씩.
+4. **거짓(X) 문항 개수를 사용자 지시대로 정확히 맞추십시오.**
+   「대략 절반씩」이나 「45% 안팎」이라고만 하면 참(O)이 65~75% 로 몰립니다 —
+   두 번 재서 확인한 결과입니다. 그래서 **개수를 숫자로 지정**합니다.
+   만들고 나서 X 가 몇 개인지 **세어 보고**, 모자라면 O 문항 몇 개를 X 로 바꾸십시오.
+   O 가 많으면 아이가 다 O 로 찍고 절반을 맞힙니다.
 5. **거짓 문항은 지문을 살짝 비틀어 만듭니다.** 숫자·이름·장소·인과관계·순서를
    바꾸는 식입니다. 지문과 아무 상관 없는 엉뚱한 진술은 변별력이 없습니다.
 6. **지문 순서대로 냅니다.** 아이가 지문을 훑으며 풀 수 있게, 근거 문장 번호가
@@ -58,22 +62,28 @@ SYSTEM = """\
 좋은 문항이 됩니다. 화자를 바꿔치기하는 것이 가장 흔한 거짓 문항입니다.
 """
 
-DIALOGUE_EXTRA = """
-# 대화문에서는 **표현 바꿔쓰기**를 절반쯤 섞습니다
+CONTENT_ONLY = """
+# 이 세트는 **내용 확인만** 합니다
 
-대화문은 의사소통 기능을 익히는 자료입니다. 내용만 묻지 말고 **같은 뜻의 다른
-표현**을 함께 외우게 하십시오. 원장 지시(2026-09-07): 「단순 내용일치 말고,
-xxxx 표현은 xxxx 표현으로 바꿀 수 있다, 이런 식으로 비슷한 표현들을 같이 암기할
-수 있도록.」
+표현 바꿔쓰기 문항은 만들지 마십시오. 그건 따로 만듭니다. 여기서는 **지문의 모든
+문장을 빠짐없이** 확인하는 것이 목적입니다 — 한 문장도 건너뛰지 마십시오.
+모든 문항의 `type` 은 `content` 입니다.
+"""
+
+DIALOGUE_EXTRA = """
+# 이 세트는 **표현 바꿔쓰기만** 합니다
+
+대화문은 의사소통 기능을 익히는 자료입니다. **같은 뜻의 다른 표현**을 함께 외우게
+하는 것이 목적입니다. 원장 지시(2026-09-07): 「단순 내용일치 말고, xxxx 표현은
+xxxx 표현으로 바꿀 수 있다, 이런 식으로 비슷한 표현들을 같이 암기할 수 있도록.」
+
+**내용 확인 문항은 만들지 마십시오.** 그건 앞 세트에서 이미 다 했습니다.
+모든 문항의 `type` 은 `paraphrase` 입니다.
 
 형식은 이렇습니다.
 
     "How can I get to the Star Stadium?" 은
     "What's the best way to get to the Star Stadium?" 으로 바꿔 쓸 수 있다.   → O
-
-**각 문항의 `type` 을 정확히 정하십시오.**
-  · `content`    — 대화 내용을 묻는 것
-  · `paraphrase` — 표현을 바꿔 쓸 수 있는지 묻는 것
 
 ## 바꿔쓰기 문항을 만들 때 지켜야 할 것
 
@@ -126,16 +136,28 @@ def schema(n_items):   # noqa: ARG001 — 개수는 프롬프트가 통제한다
     }
 
 
-def build_params(title, kind, sentences, n_items):
+def build_params(title, kind, sentences, n_items, mode="content"):
+    """mode: content = 내용 확인 (지문 전 문장) · paraphrase = 표현 바꿔쓰기
+
+    원장 지시(2026-09-07): 「바꿔쓰기 없이 전체 내용을 확인하는 거 100% 낸 이후에
+    바꿔쓰기를 추가로 내도록.」 두 세트를 한 번에 만들면 내용 확인이 성글어진다 —
+    실제로 섞어 만들었더니 25문장 중 내용 확인이 14개뿐이었다.
+    """
     body = prompts.number_sentences(sentences)
-    dialog = kind == "textbook_dialogue"
-    label = "대화문" if dialog else "지문"
-    extra = ("\n**바꿔쓰기(`paraphrase`) 문항을 절반쯤 섞으십시오.** "
-             f"{n_items}개 중 대략 {n_items // 2}개입니다." if dialog else "")
-    user = (f"# {label}: {title}\n\n{body}\n\n"
-            f"위 {label}으로 O/X 문항을 **{n_items}개 안팎** 만드십시오.\n"
-            f"문장이 {len(sentences)}개이므로 문장 하나당 대략 한 문항입니다.{extra}")
-    system = SYSTEM + (DIALOGUE_EXTRA if dialog else "")
+    label = "대화문" if kind == "textbook_dialogue" else "지문"
+    if mode == "paraphrase":
+        ask = (f"위 {label}에 나온 표현으로 **바꿔쓰기** O/X 문항을 "
+               f"**{n_items}개 안팎** 만드십시오.\n\n"
+               f"**그중 {round(n_items * 0.45)}개는 정답이 X 여야 합니다.**")
+        system = SYSTEM + DIALOGUE_EXTRA
+    else:
+        ask = (f"위 {label}으로 **내용 확인** O/X 문항을 **{n_items}개 안팎** "
+               f"만드십시오.\n문장이 {len(sentences)}개입니다. "
+               f"**모든 문장을 빠짐없이** 확인하십시오.\n\n"
+               f"**그중 {round(n_items * 0.45)}개는 정답이 X 여야 합니다.** "
+               f"다 만든 뒤 X 개수를 세어 확인하십시오.")
+        system = SYSTEM + CONTENT_ONLY
+    user = f"# {label}: {title}\n\n{body}\n\n{ask}"
     return {
         "model": PASS_A_MODEL,
         "max_tokens": 16000,

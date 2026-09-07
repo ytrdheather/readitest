@@ -18,6 +18,13 @@
     19,
     28
   ],
+  "turn_breaks": [
+    2,
+    12,
+    19,
+    28
+  ],
+  "kind": "textbook_reading",
   "sentences": [
     "Modern street art comes in many different forms, and it makes cities colorful and lively.",
     "Today, we are going to see some well-known street artworks in London.",
@@ -50,105 +57,125 @@
   ],
   "items": [
     {
+      "type": "content",
       "statement_ko": "현대 거리 예술은 여러 가지 형태로 나타나며 도시를 다채롭고 활기차게 만든다.",
       "answer": "O",
       "evidence_sentences": [
         1
       ],
-      "why_ko": "1번 문장에서 거리 예술이 도시를 다채롭고 활기차게 만든다고 했다.",
+      "why_ko": "1번 문장에서 여러 형태로 나타나 도시를 colorful하고 lively하게 만든다고 했다.",
       "_evidence_text": [
         "Modern street art comes in many different forms, and it makes cities colorful and lively."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "오늘 둘러볼 유명한 거리 예술 작품들은 뉴욕에 있는 것들이다.",
+      "type": "content",
+      "statement_ko": "오늘 일행이 보러 가는 것은 파리의 유명한 거리 예술 작품이다.",
       "answer": "X",
       "evidence_sentences": [
         2
       ],
-      "why_ko": "뉴욕이 아니라 런던의 작품들을 보러 간다.",
+      "why_ko": "파리가 아니라 런던의 거리 예술 작품을 보러 간다.",
       "_evidence_text": [
         "Today, we are going to see some well-known street artworks in London."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "첫 번째로 방문하는 장소는 쇼디치(Shoreditch)이다.",
+      "type": "content",
+      "statement_ko": "일행이 방문할 첫 장소는 Shoreditch이다.",
       "answer": "O",
       "evidence_sentences": [
         3
       ],
-      "why_ko": "3번 문장에서 방문할 장소가 쇼디치라고 했다.",
+      "why_ko": "3번 문장에서 방문할 곳이 Shoreditch라고 밝혔다.",
       "_evidence_text": [
         "The place that we are going to visit is Shoreditch."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "쇼디치는 예전에 가난한 노동자들이 살던 곳이었지만 지금은 런던에서 가장 유행하는 지역 중 하나이다.",
-      "answer": "O",
+      "type": "content",
+      "statement_ko": "Shoreditch에는 예전에 부유한 상인들이 살았다.",
+      "answer": "X",
       "evidence_sentences": [
         4
       ],
-      "why_ko": "4번 문장의 내용과 일치한다.",
+      "why_ko": "예전에는 가난한 노동자들이 살던 지역이었다.",
       "_evidence_text": [
         "Poor workers used to live in this area, but now it is one of the hippest areas in London."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "쇼디치에서는 거리 예술 작품을 거의 찾아볼 수 없다.",
+      "type": "content",
+      "statement_ko": "Shoreditch에서는 거리 예술 작품을 거의 찾아볼 수 없다.",
       "answer": "X",
       "evidence_sentences": [
         5
       ],
-      "why_ko": "이곳에서 아주 많은 훌륭한 거리 예술 작품을 볼 수 있다고 했다.",
+      "why_ko": "이곳에서 아주 많은 훌륭한 거리 예술 작품을 찾을 수 있다고 했다.",
       "_evidence_text": [
         "We can find so many great pieces of street art here."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "저쪽에 보이는 그림은 STIK이라는 예술가의 작품이다.",
+      "type": "content",
+      "statement_ko": "화자는 저쪽에 있는 그림이 보이는지 묻는다.",
       "answer": "O",
       "evidence_sentences": [
-        6,
+        6
+      ],
+      "why_ko": "6번 문장에서 저쪽 그림이 보이냐고 물었다.",
+      "_evidence_text": [
+        "Do you see the painting over there?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Shoreditch에서 본 그 그림은 Banksy의 작품이다.",
+      "answer": "X",
+      "evidence_sentences": [
         7
       ],
-      "why_ko": "7번 문장에서 그 그림이 STIK의 작품이라고 했다.",
+      "why_ko": "그 그림은 예술가 STIK의 작품이다.",
       "_evidence_text": [
-        "Do you see the painting over there?",
         "It is by the artist STIK."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "STIK은 인체를 그릴 때 다양한 색을 화려하게 쓰는 것으로 유명하다.",
-      "answer": "X",
+      "type": "content",
+      "statement_ko": "STIK은 사람의 몸을 선과 점만으로 그리는 것으로 유명하다.",
+      "answer": "O",
       "evidence_sentences": [
         8
       ],
-      "why_ko": "STIK은 선과 점만을 사용하는 것으로 유명하다.",
+      "why_ko": "8번 문장에서 선과 점만 사용하는 것으로 유명하다고 했다.",
       "_evidence_text": [
         "He is famous for using only lines and dots in his paintings of human bodies."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "STIK에 따르면 세 인물은 쇼디치의 과거, 현재, 미래를 나타낸다.",
+      "type": "content",
+      "statement_ko": "STIK에 따르면 세 인물은 Shoreditch의 과거, 현재, 미래를 나타낸다.",
       "answer": "O",
       "evidence_sentences": [
         9
       ],
-      "why_ko": "9번 문장에 그대로 나와 있다.",
+      "why_ko": "9번 문장의 내용과 일치한다.",
       "_evidence_text": [
         "According to STIK, the three figures represent the past, present, and future of Shoreditch."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "어떤 인물이 무엇을 나타내는지는 글에서 질문으로 던져진다.",
+      "type": "content",
+      "statement_ko": "화자는 어느 인물이 무엇을 나타내는지 질문을 던진다.",
       "answer": "O",
       "evidence_sentences": [
         10
@@ -160,7 +187,8 @@
       "_repeat": false
     },
     {
-      "statement_ko": "세 인물이 무엇을 나타내는지 알려면 인물들의 손을 자세히 보라고 했다.",
+      "type": "content",
+      "statement_ko": "화자는 세 인물의 손을 자세히 보라고 말한다.",
       "answer": "X",
       "evidence_sentences": [
         11
@@ -172,151 +200,177 @@
       "_repeat": false
     },
     {
-      "statement_ko": "인물들의 눈은 그저 점이지만 단서를 준다.",
+      "type": "content",
+      "statement_ko": "인물들의 눈은 점에 불과하지만 단서를 줄 것이다.",
       "answer": "O",
       "evidence_sentences": [
         12
       ],
-      "why_ko": "12번 문장에서 점이지만 단서를 줄 것이라고 했다.",
+      "why_ko": "12번 문장에서 점일 뿐이지만 단서를 준다고 했다.",
       "_evidence_text": [
         "They are just dots, but they will give you a clue."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "두 번째로 간 곳은 핀스버리 파크이고, 거기서 뱅크시의 그림을 본다.",
-      "answer": "O",
+      "type": "content",
+      "statement_ko": "일행은 Finsbury Park에서 STIK의 그림을 보고 있다.",
+      "answer": "X",
       "evidence_sentences": [
         13
       ],
-      "why_ko": "13번 문장에서 핀스버리 파크에서 뱅크시의 그림을 본다고 했다.",
+      "why_ko": "Finsbury Park에서 보는 것은 Banksy의 그림이다.",
       "_evidence_text": [
         "We are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "뱅크시의 작품은 사회적 메시지를 담고 있는 경우가 많다.",
+      "type": "content",
+      "statement_ko": "Banksy의 작품은 종종 사회적 메시지를 담고 있다.",
       "answer": "O",
       "evidence_sentences": [
         14
       ],
-      "why_ko": "14번 문장의 내용과 일치한다.",
+      "why_ko": "14번 문장에서 사회적 메시지를 담는다고 했다.",
       "_evidence_text": [
         "Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "뱅크시는 잎이 없는 나무 뒤 벽에 초록색 페인트를 뿌려 초록 나무를 만들었다.",
-      "answer": "O",
+      "type": "content",
+      "statement_ko": "Banksy는 잎이 무성한 나무 앞의 벽에 초록색 물감을 뿌려 나무를 만들었다.",
+      "answer": "X",
       "evidence_sentences": [
         15
       ],
-      "why_ko": "15번 문장에 그대로 나와 있다.",
+      "why_ko": "잎이 없는 나무 뒤에 있는 벽에 초록 물감을 뿌렸다.",
       "_evidence_text": [
         "As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "나무 옆에는 물뿌리개를 들고 있는 사람이 그려져 있다.",
-      "answer": "X",
+      "type": "content",
+      "statement_ko": "나무 옆에는 분무기를 들고 있는 사람이 그려져 있다.",
+      "answer": "O",
       "evidence_sentences": [
         16
       ],
-      "why_ko": "물뿌리개가 아니라 스프레이(분무기)를 들고 있는 사람이다.",
+      "why_ko": "16번 문장의 내용과 일치한다.",
       "_evidence_text": [
         "Next to the tree, there is a person who is holding a sprayer."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "글쓴이는 이 그림을 통해 뱅크시가 어떤 메시지를 주려 하는지 질문한다.",
+      "type": "content",
+      "statement_ko": "화자는 Banksy가 이 그림을 통해 어떤 메시지를 주려 하는지 묻는다.",
       "answer": "O",
       "evidence_sentences": [
         17
       ],
-      "why_ko": "17번 문장에서 뱅크시가 주려는 메시지를 묻고 있다.",
+      "why_ko": "17번 문장에서 그 질문을 던진다.",
       "_evidence_text": [
         "What message does Banksy want to give us through this painting?"
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "많은 사람들은 뱅크시가 자연이 힘든 시기를 겪고 있다고 말한다고 생각한다.",
-      "answer": "O",
+      "type": "content",
+      "statement_ko": "많은 사람들은 Banksy가 자연이 잘 회복되고 있다고 말한다고 생각한다.",
+      "answer": "X",
       "evidence_sentences": [
         18
       ],
-      "why_ko": "18번 문장의 내용과 일치한다.",
+      "why_ko": "많은 사람들은 자연이 힘든 시간을 겪고 있다는 말이라고 본다.",
       "_evidence_text": [
         "In many people’s opinion, he is telling us that nature is having a hard time."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "사람들은 뱅크시가 우리에게 자연을 더 잘 돌보기를 바란다고 생각한다.",
+      "type": "content",
+      "statement_ko": "사람들은 Banksy가 우리에게 자연을 더 잘 돌보기를 바란다고 생각한다.",
       "answer": "O",
       "evidence_sentences": [
         19
       ],
-      "why_ko": "19번 문장에서 자연을 더 잘 돌보길 원한다고 했다.",
+      "why_ko": "19번 문장의 내용과 일치한다.",
       "_evidence_text": [
         "They think (that) he wants us to take better care of it."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "오늘 투어의 마지막 장소는 쇼디치이다.",
+      "type": "content",
+      "statement_ko": "오늘 투어의 마지막 장소는 Shoreditch이다.",
       "answer": "X",
       "evidence_sentences": [
         20
       ],
-      "why_ko": "마지막 장소는 쇼디치가 아니라 머스웰 힐이다.",
+      "why_ko": "마지막 장소는 Muswell Hill이다.",
       "_evidence_text": [
         "The final stop of our tour today is Muswell Hill."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "머스웰 힐에서는 작품이 잘 안 보이면 위를 올려다보라고 했다.",
+      "type": "content",
+      "statement_ko": "화자는 거리 예술 작품이 보이지 않느냐고 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "21번 문장에서 작품이 안 보이냐고 물었다.",
+      "_evidence_text": [
+        "Can’t see any street artworks?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "화자는 위를 올려다보고 자세히 보라고 말한다.",
       "answer": "X",
       "evidence_sentences": [
         22
       ],
-      "why_ko": "올려다보는 것이 아니라 아래를 내려다보고 자세히 보라고 했다.",
+      "why_ko": "아래를 내려다보고 자세히 보라고 했다.",
       "_evidence_text": [
         "Well, look down and look closely."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "머스웰 힐에서 볼 수 있는 것은 아주 작은 껌 그림들이다.",
+      "type": "content",
+      "statement_ko": "Muswell Hill에서 볼 수 있는 것은 작은 껌 그림들이다.",
       "answer": "O",
       "evidence_sentences": [
         23
       ],
-      "why_ko": "23번 문장에서 작은 껌 그림들을 보라고 했다.",
+      "why_ko": "23번 문장에서 작은 껌 그림이 보이냐고 물었다.",
       "_evidence_text": [
         "Do you see the little chewing gum paintings?"
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "껌 그림들은 예술가 벤 윌슨의 작품이다.",
-      "answer": "O",
+      "type": "content",
+      "statement_ko": "그 껌 그림들은 STIK의 작품이다.",
+      "answer": "X",
       "evidence_sentences": [
         24
       ],
-      "why_ko": "24번 문장에서 벤 윌슨의 작품이라고 했다.",
+      "why_ko": "껌 그림은 예술가 Ben Wilson의 작품이다.",
       "_evidence_text": [
         "They are by the artist Ben Wilson."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "윌슨은 사람들이 거리에 버린 껌 위에 그림을 그리는 것으로 잘 알려져 있다.",
+      "type": "content",
+      "statement_ko": "Wilson은 사람들이 길에 버린 껌 위에 그림을 그리는 것으로 잘 알려져 있다.",
       "answer": "O",
       "evidence_sentences": [
         25
@@ -328,36 +382,39 @@
       "_repeat": false
     },
     {
-      "statement_ko": "윌슨의 껌 그림은 주로 정치인들의 사회적 구호를 담고 있다.",
+      "type": "content",
+      "statement_ko": "그의 껌 그림은 주로 정치적인 메시지를 담고 있다.",
       "answer": "X",
       "evidence_sentences": [
         26
       ],
-      "why_ko": "거리에서 만난 사람들의 개인적인 메시지를 담고 있다.",
+      "why_ko": "길에서 만난 사람들의 개인적인 메시지를 담는다.",
       "_evidence_text": [
         "His gum paintings often carry personal messages from people (that) he meets on the street."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "여기 있는 껌 그림 하나는 사랑하는 사람에게 보내는 생일 축하 메시지이다.",
+      "type": "content",
+      "statement_ko": "여기 있는 껌 그림 하나는 사랑하는 사람을 위한 생일 축하 메시지이다.",
       "answer": "O",
       "evidence_sentences": [
         27
       ],
-      "why_ko": "27번 문장에서 사랑하는 사람을 위한 생일 축하라고 했다.",
+      "why_ko": "27번 문장의 내용과 일치한다.",
       "_evidence_text": [
         "For example, the one over here is a happy birthday wish for a loved one."
       ],
       "_repeat": false
     },
     {
-      "statement_ko": "윌슨의 껌 그림은 크기가 아주 커서 많은 사람이 쉽게 알아본다.",
+      "type": "content",
+      "statement_ko": "Wilson의 껌 그림은 크기가 매우 커서 많은 사람에게 큰 기쁨을 준다.",
       "answer": "X",
       "evidence_sentences": [
         28
       ],
-      "why_ko": "껌 그림은 아주 작지만 많은 사람에게 큰 기쁨을 준다고 했다.",
+      "why_ko": "그의 껌 그림은 아주 작지만 큰 기쁨을 준다.",
       "_evidence_text": [
         "Wilson’s gum paintings are tiny, but they give great pleasure to many people."
       ],
@@ -365,14 +422,17 @@
     }
   ],
   "diagnostics": {
-    "returned": 26,
-    "kept": 26,
+    "returned": 28,
+    "kept": 28,
+    "by_type": {
+      "content": 28
+    },
     "rejects": [],
     "answer_balance": {
-      "O": 17,
-      "X": 9
+      "O": 15,
+      "X": 13
     },
-    "sentences_covered": 27,
+    "sentences_covered": 28,
     "sentence_count": 28,
     "repeated": 0
   }

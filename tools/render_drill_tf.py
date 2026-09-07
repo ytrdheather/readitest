@@ -47,6 +47,10 @@ h1 { font-size: 15pt; margin: 0 0 0.5mm; }
            break-inside: avoid; font-size: 10pt; }
 .passage p { margin: 0 0 1.8mm; }
 .passage p:last-child { margin-bottom: 0; }
+/* 대화문은 발화마다 한 줄. 둘째 줄부터 들여써서 화자 표시가 눈에 걸리게 한다. */
+.passage p.turn { margin: 0 0 0.6mm; padding-left: 6mm; text-indent: -6mm;
+                  line-height: 1.55; }
+.passage p.turn.gap { margin-bottom: 2.6mm; }
 .sn { font-size: 7pt; color: #8a94a6; vertical-align: super; margin-right: 0.6mm; }
 .howto { font-size: 9pt; color: #555; margin-bottom: 3mm; }
 /* 문항은 한국어 한 줄이라 2단이 들어간다. 한 장에 담으면 아이가 지문과 함께 본다. */
@@ -74,17 +78,26 @@ def esc(s):
     return html.escape(s or "", quote=False)
 
 
-def numbered(sentences, breaks=None):
-    """문장마다 번호를 달고, 문단 경계에서 끊는다."""
-    breaks = set(breaks or [])
-    paras, cur = [], []
+def numbered(sentences, breaks=None, turns=None, dialogue=False):
+    """문장마다 번호를 달고 끊는다.
+
+    본문은 **문단**에서, 대화문은 **발화**에서 끊는다. 대화문을 이어 붙이면
+    누가 무슨 말을 했는지 눈으로 따라가기 어렵다 — 원장 지시(2026-09-07):
+    「한 명의 대사가 한 줄에 자리잡도록. 세로로 3단을 차지하는 한이 있어도.」
+    """
+    cut = set((turns if dialogue and turns else breaks) or [])
+    para = set(breaks or []) if dialogue else set()
+    out, cur = [], []
     for i, s in enumerate(sentences, 1):
         cur.append(f'<span class="sn">{i}</span>{esc(s)}')
-        if i in breaks:
-            paras.append(" ".join(cur)); cur = []
+        if i in cut:
+            cls = " turn" if dialogue else ""
+            gap = " gap" if i in para else ""
+            out.append(f'<p class="line{cls}{gap}">{" ".join(cur)}</p>')
+            cur = []
     if cur:
-        paras.append(" ".join(cur))
-    return "".join(f"<p>{x}</p>" for x in paras)
+        out.append(f'<p class="line">{" ".join(cur)}</p>')
+    return "".join(out)
 
 
 def build(d, logo):
@@ -108,7 +121,7 @@ def build(d, logo):
         for i, it in enumerate(items, 1))
 
     sheet = (head
-             + f'<div class="passage">{numbered(d["sentences"], d.get("para_breaks"))}</div>'
+             + f'<div class="passage">{numbered(d["sentences"], d.get("para_breaks"), d.get("turn_breaks"), d.get("kind") == "textbook_dialogue")}</div>'
              + f'<ol class="q">{q}</ol>'
              + '<div class="foot">리디튜드 · 학원 내부 지도용</div>')
 
