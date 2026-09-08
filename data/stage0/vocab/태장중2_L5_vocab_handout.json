@@ -18,6 +18,11 @@
   "_copyright": "학교 배부물에서 전사. 기획서 §6.6 — 학원 내부 지도용.",
   "words": [
     {
+      "word": "according to",
+      "example_en": "According to the news, it will rain tomorrow.",
+      "in_workbook_list": true
+    },
+    {
       "word": "area",
       "example_en": "This area is famous for its beautiful beaches.",
       "in_workbook_list": true
@@ -25,7 +30,21 @@
     {
       "word": "artwork",
       "example_en": "I saw many interesting artworks at the museum.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "n. 미술품",
+      "def_en": "something made by an artist, like a drawing, painting, or sculpture"
+    },
+    {
+      "word": "ballet",
+      "ko": "n. 발레",
+      "def_en": "a style of dancing that tells a dramatic story with music",
+      "source_page": 2,
+      "in_workbook_list": null
+    },
+    {
+      "word": "be well known for",
+      "example_en": "Jeju Island is well known for its beautiful scenery.",
+      "in_workbook_list": false
     },
     {
       "word": "behind",
@@ -33,9 +52,25 @@
       "in_workbook_list": false
     },
     {
+      "word": "canvas",
+      "ko": "n. 캔버스",
+      "def_en": "a piece of strong, rough cloth used by artists to paint on",
+      "source_page": 2,
+      "in_workbook_list": null
+    },
+    {
       "word": "chew",
       "example_en": "You should chew your food slowly.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "v. (음식을) 씹다",
+      "def_en": "to break food into smaller, softer pieces with the teeth"
+    },
+    {
+      "word": "cinema",
+      "ko": "n. 영화관",
+      "def_en": "a place where movies are shown",
+      "source_page": 2,
+      "in_workbook_list": null
     },
     {
       "word": "closely",
@@ -45,12 +80,23 @@
     {
       "word": "clue",
       "example_en": "This letter is an important clue.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "n. 단서",
+      "def_en": "a sign or some information that helps you to find the answer to a problem or question"
+    },
+    {
+      "word": "dirty",
+      "ko": "a. 더러운",
+      "def_en": "not clean",
+      "source_page": 2,
+      "in_workbook_list": null
     },
     {
       "word": "dot",
       "example_en": "There are many blue dots on the map.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "n. 점",
+      "def_en": "a very small round mark"
     },
     {
       "word": "example",
@@ -60,11 +106,20 @@
     {
       "word": "figure",
       "example_en": "I saw a dark figure in the distance.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "n. 인물 (모습)",
+      "def_en": "a person or an animal in a drawing, painting, etc."
     },
     {
       "word": "final",
       "example_en": "This is the final question on the test.",
+      "in_workbook_list": true,
+      "ko": "a. 마지막의",
+      "def_en": "being or happening at the end of a series of events, actions, etc."
+    },
+    {
+      "word": "for example",
+      "example_en": "We can exercise in many ways. For example, we can walk or ride a bike.",
       "in_workbook_list": true
     },
     {
@@ -73,9 +128,18 @@
       "in_workbook_list": true
     },
     {
+      "word": "hall",
+      "ko": "n. (공공의) 건물",
+      "def_en": "a building or large room for public meetings, meals, concerts, etc.",
+      "source_page": 2,
+      "in_workbook_list": null
+    },
+    {
       "word": "hip",
       "example_en": "She put her hands on her hips.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "a. 세련된, 최신 유행에 밝은",
+      "def_en": "following the latest fashions in music and clothes"
     },
     {
       "word": "internationally",
@@ -85,17 +149,23 @@
     {
       "word": "leafless",
       "example_en": "The trees are leafless in winter.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "a. 잎이 없는",
+      "def_en": "having no leaves"
     },
     {
       "word": "lively",
       "example_en": "The market is always lively on weekends.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "a. 활기 넘치는",
+      "def_en": "full of life and energy"
     },
     {
       "word": "modern",
       "example_en": "This building has a modern design.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "a. 현대의",
+      "def_en": "of the present or recent times"
     },
     {
       "word": "nature",
@@ -105,12 +175,16 @@
     {
       "word": "opinion",
       "example_en": "What is your opinion about this idea?",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "n. 의견",
+      "def_en": "a thought or belief about something or someone"
     },
     {
       "word": "past",
       "example_en": "We can learn many things from the past.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "n. 과거",
+      "def_en": "the period of time before now"
     },
     {
       "word": "personal",
@@ -120,7 +194,9 @@
     {
       "word": "pleasure",
       "example_en": "Reading books gives me great pleasure.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "n. 기쁨, 즐거움",
+      "def_en": "a state of feeling or being happy"
     },
     {
       "word": "poor",
@@ -135,32 +211,69 @@
     {
       "word": "represent",
       "example_en": "The white dove represents peace.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "v. 나타내다",
+      "def_en": "to show something or someone, especially in a picture"
     },
     {
       "word": "spray",
       "example_en": "She sprayed water on the flowers.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "v. 뿌리다",
+      "def_en": "to spread a liquid in small drops over an area"
+    },
+    {
+      "word": "sprayer",
+      "ko": "n. 분무기",
+      "def_en": "a tool that spreads liquid in small drops",
+      "source_page": 2,
+      "in_workbook_list": null
+    },
+    {
+      "word": "stadium",
+      "ko": "n. 경기장",
+      "def_en": "a playing area that is surrounded by seats, for sports, concerts, and other events",
+      "source_page": 2,
+      "in_workbook_list": null
+    },
+    {
+      "word": "station",
+      "ko": "n. 역",
+      "def_en": "a building where buses or trains stop so that people can get on or off",
+      "source_page": 2,
+      "in_workbook_list": null
     },
     {
       "word": "tiny",
       "example_en": "A tiny bird was sitting on the tree.",
-      "in_workbook_list": true
-    },
-    {
-      "word": "be well known for",
-      "example_en": "Jeju Island is well known for its beautiful scenery.",
-      "in_workbook_list": false
-    },
-    {
-      "word": "according to",
-      "example_en": "According to the news, it will rain tomorrow.",
-      "in_workbook_list": true
-    },
-    {
-      "word": "for example",
-      "example_en": "We can exercise in many ways. For example, we can walk or ride a bike.",
-      "in_workbook_list": true
+      "in_workbook_list": true,
+      "ko": "a. 아주 작은",
+      "def_en": "very small"
     }
-  ]
+  ],
+  "cloze_ko_en": [
+    {
+      "ko": "나는 최종 결과를 기다리고 있다.",
+      "en": "I'm waiting for the ___ result.",
+      "answer": "final"
+    },
+    {
+      "ko": "제 가방을 대신 들고 있어 주시겠어요?",
+      "en": "Could you ___ my bag for me?",
+      "answer": "hold"
+    },
+    {
+      "ko": "그는 그 문제에 대해 의견을 내지 않았다.",
+      "en": "He didn't give his ___ on the matter.",
+      "answer": "opinion"
+    },
+    {
+      "ko": "과거에 대해 걱정하지 말고 현재를 살아라.",
+      "en": "Stop worrying about the past and live in the ___.",
+      "answer": "present"
+    }
+  ],
+  "source": "태장중2 L5 배부물 1쪽 «Worksheet 5-1 Words and Phrases» + 2쪽 «영영풀이»",
+  "read_at": "2026-09-09",
+  "note": "2쪽 영영풀이 24개가 통째로 빠져 있던 것을 채웠다 (2026-09-09). 1쪽은 예문, 2쪽은 영영풀이라 서로 다른 정보다."
 }

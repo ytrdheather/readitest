@@ -1,0 +1,183 @@
+{
+  "school": "영덕중",
+  "grade": 2,
+  "lesson": 6,
+  "source": "영덕중2 L6 배부물 1쪽 «Vocabulary Warm-Up» · 2쪽 «Vocabulary Basic»",
+  "source_note": "평가문제집류 552·554쪽을 복사한 것. 학생 손글씨는 옮기지 않았다 (원장 지시 2026-09-05).",
+  "read_at": "2026-09-09",
+  "format_observed": {
+    "warm_up": "30단어를 양방향 60칸으로 묻는다 (01~30 영→한, 31~60 한→영)",
+    "basic_A": "영영풀이 ↔ 영어 단어 ↔ 우리말 뜻 3단 연결 (4문항)",
+    "basic_B": "보기에서 골라 문맥 빈칸 (4문항)",
+    "basic_C": "구(句) 빈칸 — 보기 낱말을 조합해 채운다 (3문항)"
+  },
+  "words": [
+    {
+      "no": 1,
+      "word": "accident",
+      "ko": "사고"
+    },
+    {
+      "no": 2,
+      "word": "article",
+      "ko": "(신문·잡지의) 글, 기사"
+    },
+    {
+      "no": 3,
+      "word": "bury",
+      "ko": "묻다, 매장하다"
+    },
+    {
+      "no": 4,
+      "word": "Canadian",
+      "ko": "캐나다의"
+    },
+    {
+      "no": 5,
+      "word": "cemetery",
+      "ko": "묘지"
+    },
+    {
+      "no": 6,
+      "word": "continue",
+      "ko": "계속하다"
+    },
+    {
+      "no": 7,
+      "word": "favor",
+      "ko": "호의, 친절, 부탁"
+    },
+    {
+      "no": 8,
+      "word": "fight",
+      "ko": "싸움, 투쟁; 싸우다"
+    },
+    {
+      "no": 9,
+      "word": "foreign",
+      "ko": "외국의"
+    },
+    {
+      "no": 10,
+      "word": "foreigner",
+      "ko": "외국인"
+    },
+    {
+      "no": 11,
+      "word": "gather",
+      "ko": "모이다"
+    },
+    {
+      "no": 12,
+      "word": "government",
+      "ko": "정부"
+    },
+    {
+      "no": 13,
+      "word": "hide",
+      "ko": "숨다"
+    },
+    {
+      "no": 14,
+      "word": "historic",
+      "ko": "역사적으로 중요한"
+    },
+    {
+      "no": 15,
+      "word": "independence",
+      "ko": "독립"
+    },
+    {
+      "no": 16,
+      "word": "independent",
+      "ko": "독립적인"
+    },
+    {
+      "no": 17,
+      "word": "invitation",
+      "ko": "초청, 초대"
+    },
+    {
+      "no": 18,
+      "word": "medicine",
+      "ko": "의학"
+    },
+    {
+      "no": 19,
+      "word": "movement",
+      "ko": "운동"
+    },
+    {
+      "no": 20,
+      "word": "novel",
+      "ko": "(장편) 소설"
+    },
+    {
+      "no": 21,
+      "word": "real",
+      "ko": "진짜의"
+    },
+    {
+      "no": 22,
+      "word": "recommend",
+      "ko": "추천하다"
+    },
+    {
+      "no": 23,
+      "word": "research",
+      "ko": "조사하다"
+    },
+    {
+      "no": 24,
+      "word": "right",
+      "ko": "권리"
+    },
+    {
+      "no": 25,
+      "word": "selfless",
+      "ko": "이타적인"
+    },
+    {
+      "no": 26,
+      "word": "share",
+      "ko": "공유하다"
+    },
+    {
+      "no": 27,
+      "word": "unbelievable",
+      "ko": "믿기 어려울 정도인"
+    },
+    {
+      "no": 28,
+      "word": "volunteer",
+      "ko": "자원봉사자; 자원봉사하다"
+    },
+    {
+      "no": 29,
+      "word": "right away",
+      "ko": "곧바로, 즉시"
+    },
+    {
+      "no": 30,
+      "word": "under the watchful eye of",
+      "ko": "~의 감시 아래에서"
+    }
+  ],
+  "phrases": [
+    {
+      "phrase": "a special favor",
+      "ko": "특별한 부탁",
+      "from": "Vocabulary Basic C-1"
+    },
+    {
+      "phrase": "under the watchful eye of",
+      "ko": "~의 감시 아래에서",
+      "from": "Vocabulary Basic C-2"
+    },
+    {
+      "phrase": "right away",
+      "ko": "곧바로, 즉시",
+      "from": "Vocabulary Basic C-3"
+    }
+  ]
+}

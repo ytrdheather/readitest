@@ -77,6 +77,9 @@ def main():
     ap.add_argument("--unit", action="append", required=True,
                     help="지문 제목 (앞부분 일치). 여러 번 주면 묶는다")
     ap.add_argument("--title", help="학습지 제목 (기본: 첫 --unit)")
+    ap.add_argument("--book", default="동아 윤정미",
+                    help="교과서·출처. 학습지 제목 앞에 붙는다 (원장 지시 2026-09-08). "
+                         "외부지문은 교과서가 아니므로 「영일중 배부물」처럼 준다")
     ap.add_argument("--items", type=int, help="문항 수 (기본: 문장 수)")
     ap.add_argument("--mode", choices=["content", "paraphrase"], default="content",
                     help="content=내용 확인(전 문장) · paraphrase=표현 바꿔쓰기")
@@ -134,7 +137,8 @@ def main():
     suffix = ".tf.json" if a.mode == "content" else ".para.json"
     path = os.path.join(OUT, f"{slug}{suffix}")
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"unit": u["title"], "parts": u["parts"], "passage_ids": u["ids"],
+        json.dump({"book": a.book, "unit": u["title"],
+                   "parts": u["parts"], "passage_ids": u["ids"],
                    "para_breaks": u["para_breaks"], "turn_breaks": u["turn_breaks"],
                    "kind": u["kind"], "sentences": sents, **result},
                   f, ensure_ascii=False, indent=2)

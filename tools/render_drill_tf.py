@@ -147,16 +147,24 @@ def build(d, logo, lang="ko", part="both"):
     원장 지시(2026-09-07): 한국어판을 먼저 보고 **1주일 뒤** 영어판을 다시 본다.
     같은 문항이므로 번호도 같다 — 아이가 1차 때 틀린 번호를 그대로 짚을 수 있다.
     """
-    unit = d["unit"]
+    # 제목에 **교과서와 과**가 드러나야 한다 — 원장 지시 2026-09-08:
+    # 「제목을 Lesson 몇인지, 동아 윤정미인지 아닌지 이런 정보가 드러나게 하자.」
+    # 학교마다 진도와 시험 범위가 갈리므로(§11) 종이만 봐도 어느 과인지 알아야
+    # 잘못된 학년·과의 학습지를 나눠 주는 일이 없다.
+    # 외부지문은 동아 교과서가 아니라 학교 배부물이라 `book` 이 다르다.
+    unit = " ".join(x for x in (d.get("book", ""), d["unit"]) if x)
     items = d["items"]
     if lang == "en":
         items = [x for x in items if x.get("statement_en")]
     n = len(items)
     n_para = sum(1 for x in items if x.get("type") == "paraphrase")
-    para_note = f" (그중 바꿔쓰기 {n_para}문항)" if n_para else ""
+    # 전부 바꿔쓰기면 그게 그 학습지의 이름이다. 「내용 확인」이라 적으면 거짓말이다.
+    all_para = n_para == n and n > 0
+    kind_label = "표현 바꿔쓰기" if all_para else "내용 확인"
+    para_note = "" if all_para else (f" (그중 바꿔쓰기 {n_para}문항)" if n_para else "")
     round_no = "2차 (영어)" if lang == "en" else "1차 (우리말)"
     head = (f'<div class="head"><div>{logo}'
-            f'<h1>{esc(unit)} — 내용 확인 <span class="round">{round_no}</span></h1>'
+            f'<h1>{esc(unit)} — {kind_label} <span class="round">{round_no}</span></h1>'
             f'<div class="sub" style="margin:0">읽고 맞으면 O, 틀리면 X 하시오. '
             f'· 총 {n}문항{para_note}</div></div>'
             f'<div><div class="name">이름 ______________</div>'
