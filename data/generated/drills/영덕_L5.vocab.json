@@ -1,0 +1,577 @@
+{
+  "set": "영덕_L5",
+  "title": "동아 윤정미 L5 어휘 — 영덕 (배부물 미도착, 자습서 전체)",
+  "sources": {
+    "school": [],
+    "jasup": "L5_vocab"
+  },
+  "parts": [
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "동아 윤정미 L5 어휘 — 영덕 (배부물 미도착, 자습서 전체)",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "anyway",
+              "answer": "그런데, 어쨌든"
+            },
+            {
+              "word": "fair",
+              "answer": "박람회"
+            },
+            {
+              "word": "far",
+              "answer": "멀리 (↔ near)"
+            },
+            {
+              "word": "free",
+              "answer": "한가한; 자유로운"
+            },
+            {
+              "word": "national",
+              "answer": "국가의"
+            },
+            {
+              "word": "perfect",
+              "answer": "완벽한, 완전한"
+            },
+            {
+              "word": "straight",
+              "answer": "똑바로, 곧장"
+            },
+            {
+              "word": "subway",
+              "answer": "지하철"
+            },
+            {
+              "word": "get off",
+              "answer": "(말·차 등에서) 내리다"
+            },
+            {
+              "word": "turn left",
+              "answer": "왼쪽으로 돌다, 좌회전하다"
+            },
+            {
+              "word": "bakery",
+              "answer": "빵집, 제과점"
+            },
+            {
+              "word": "chef",
+              "answer": "요리사"
+            },
+            {
+              "word": "healthy",
+              "answer": "건강에 좋은; 건강한"
+            },
+            {
+              "word": "subject",
+              "answer": "과목; 주제"
+            },
+            {
+              "word": "ballet",
+              "answer": "발레"
+            },
+            {
+              "word": "create",
+              "answer": "창작하다, 만들어 내다"
+            },
+            {
+              "word": "warm",
+              "answer": "따뜻한"
+            },
+            {
+              "word": "set the table",
+              "answer": "상을 차리다"
+            },
+            {
+              "word": "classical",
+              "answer": "고전적인, 클래식의"
+            },
+            {
+              "word": "country",
+              "answer": "나라; 시골"
+            },
+            {
+              "word": "solve",
+              "answer": "풀다, 해결하다"
+            },
+            {
+              "word": "village",
+              "answer": "마을"
+            },
+            {
+              "word": "bridge",
+              "answer": "다리"
+            },
+            {
+              "word": "minute",
+              "answer": "(시간 단위의) 분"
+            },
+            {
+              "word": "area",
+              "answer": "지역; 구역"
+            },
+            {
+              "word": "artwork",
+              "answer": "예술 작품, 미술품"
+            },
+            {
+              "word": "chew",
+              "answer": "(음식을) 씹다"
+            },
+            {
+              "word": "clue",
+              "answer": "단서, 실마리"
+            },
+            {
+              "word": "colorful",
+              "answer": "형형색색의, (색이) 다채로운"
+            },
+            {
+              "word": "dot",
+              "answer": "점"
+            },
+            {
+              "word": "drop",
+              "answer": "떨어뜨리다"
+            },
+            {
+              "word": "figure",
+              "answer": "인물, 모습"
+            },
+            {
+              "word": "final",
+              "answer": "마지막의, 최종적인"
+            },
+            {
+              "word": "form",
+              "answer": "형태, 방식"
+            },
+            {
+              "word": "hip",
+              "answer": "세련된, 최신 유행에 밝은"
+            },
+            {
+              "word": "hold",
+              "answer": "잡고〔들고, 쥐고, 안고〕 있다"
+            },
+            {
+              "word": "internationally",
+              "answer": "국제적으로"
+            },
+            {
+              "word": "leafless",
+              "answer": "잎이 없는, 잎이 떨어진"
+            },
+            {
+              "word": "lively",
+              "answer": "활기찬, 생기 넘치는"
+            },
+            {
+              "word": "modern",
+              "answer": "현대의, 근대의"
+            },
+            {
+              "word": "opinion",
+              "answer": "의견, 견해"
+            },
+            {
+              "word": "personal",
+              "answer": "개인적인"
+            },
+            {
+              "word": "piece",
+              "answer": "작품; (미술·음악 등의 작품) 한 점"
+            },
+            {
+              "word": "pleasure",
+              "answer": "기쁨, 즐거움"
+            },
+            {
+              "word": "represent",
+              "answer": "나타내다, 상징하다"
+            },
+            {
+              "word": "social",
+              "answer": "사회의, 사회적인"
+            },
+            {
+              "word": "spray",
+              "answer": "(분무기로) 뿌리다, 살포하다"
+            },
+            {
+              "word": "tiny",
+              "answer": "아주 작은"
+            },
+            {
+              "word": "well-known",
+              "answer": "잘 알려진, 유명한"
+            },
+            {
+              "word": "according to",
+              "answer": "~에 따르면, ~에 따라"
+            },
+            {
+              "word": "be famous for",
+              "answer": "~로 유명하다"
+            },
+            {
+              "word": "be known for",
+              "answer": "~로 알려져 있다"
+            },
+            {
+              "word": "for example",
+              "answer": "예를 들면"
+            },
+            {
+              "word": "take care of",
+              "answer": "~을 돌보다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "고전적인, 클래식의",
+              "answer": "classical"
+            },
+            {
+              "ko": "떨어뜨리다",
+              "answer": "drop"
+            },
+            {
+              "ko": "잡고〔들고, 쥐고, 안고〕 있다",
+              "answer": "hold"
+            },
+            {
+              "ko": "멀리 (↔ near)",
+              "answer": "far"
+            },
+            {
+              "ko": "건강에 좋은; 건강한",
+              "answer": "healthy"
+            },
+            {
+              "ko": "단서, 실마리",
+              "answer": "clue"
+            },
+            {
+              "ko": "박람회",
+              "answer": "fair"
+            },
+            {
+              "ko": "형형색색의, (색이) 다채로운",
+              "answer": "colorful"
+            },
+            {
+              "ko": "(음식을) 씹다",
+              "answer": "chew"
+            },
+            {
+              "ko": "~로 알려져 있다",
+              "answer": "be known for"
+            },
+            {
+              "ko": "~로 유명하다",
+              "answer": "be famous for"
+            },
+            {
+              "ko": "지역; 구역",
+              "answer": "area"
+            },
+            {
+              "ko": "활기찬, 생기 넘치는",
+              "answer": "lively"
+            },
+            {
+              "ko": "~에 따르면, ~에 따라",
+              "answer": "according to"
+            },
+            {
+              "ko": "(분무기로) 뿌리다, 살포하다",
+              "answer": "spray"
+            },
+            {
+              "ko": "점",
+              "answer": "dot"
+            },
+            {
+              "ko": "발레",
+              "answer": "ballet"
+            },
+            {
+              "ko": "잎이 없는, 잎이 떨어진",
+              "answer": "leafless"
+            },
+            {
+              "ko": "마지막의, 최종적인",
+              "answer": "final"
+            },
+            {
+              "ko": "나라; 시골",
+              "answer": "country"
+            },
+            {
+              "ko": "아주 작은",
+              "answer": "tiny"
+            },
+            {
+              "ko": "상을 차리다",
+              "answer": "set the table"
+            },
+            {
+              "ko": "마을",
+              "answer": "village"
+            },
+            {
+              "ko": "창작하다, 만들어 내다",
+              "answer": "create"
+            },
+            {
+              "ko": "똑바로, 곧장",
+              "answer": "straight"
+            },
+            {
+              "ko": "과목; 주제",
+              "answer": "subject"
+            },
+            {
+              "ko": "의견, 견해",
+              "answer": "opinion"
+            },
+            {
+              "ko": "~을 돌보다",
+              "answer": "take care of"
+            },
+            {
+              "ko": "한가한; 자유로운",
+              "answer": "free"
+            },
+            {
+              "ko": "현대의, 근대의",
+              "answer": "modern"
+            },
+            {
+              "ko": "풀다, 해결하다",
+              "answer": "solve"
+            },
+            {
+              "ko": "왼쪽으로 돌다, 좌회전하다",
+              "answer": "turn left"
+            },
+            {
+              "ko": "나타내다, 상징하다",
+              "answer": "represent"
+            },
+            {
+              "ko": "인물, 모습",
+              "answer": "figure"
+            },
+            {
+              "ko": "작품; (미술·음악 등의 작품) 한 점",
+              "answer": "piece"
+            },
+            {
+              "ko": "형태, 방식",
+              "answer": "form"
+            },
+            {
+              "ko": "잘 알려진, 유명한",
+              "answer": "well-known"
+            },
+            {
+              "ko": "세련된, 최신 유행에 밝은",
+              "answer": "hip"
+            },
+            {
+              "ko": "예술 작품, 미술품",
+              "answer": "artwork"
+            },
+            {
+              "ko": "(말·차 등에서) 내리다",
+              "answer": "get off"
+            },
+            {
+              "ko": "개인적인",
+              "answer": "personal"
+            },
+            {
+              "ko": "요리사",
+              "answer": "chef"
+            },
+            {
+              "ko": "완벽한, 완전한",
+              "answer": "perfect"
+            },
+            {
+              "ko": "그런데, 어쨌든",
+              "answer": "anyway"
+            },
+            {
+              "ko": "예를 들면",
+              "answer": "for example"
+            },
+            {
+              "ko": "국제적으로",
+              "answer": "internationally"
+            },
+            {
+              "ko": "다리",
+              "answer": "bridge"
+            },
+            {
+              "ko": "사회의, 사회적인",
+              "answer": "social"
+            },
+            {
+              "ko": "(시간 단위의) 분",
+              "answer": "minute"
+            },
+            {
+              "ko": "기쁨, 즐거움",
+              "answer": "pleasure"
+            },
+            {
+              "ko": "빵집, 제과점",
+              "answer": "bakery"
+            },
+            {
+              "ko": "국가의",
+              "answer": "national"
+            },
+            {
+              "ko": "따뜻한",
+              "answer": "warm"
+            },
+            {
+              "ko": "지하철",
+              "answer": "subway"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "something made by an artist, like a drawing, painting, or sculpture",
+              "ko": "예술 작품, 미술품",
+              "answer": "artwork"
+            },
+            {
+              "def_en": "to break food into smaller, softer pieces with the teeth",
+              "ko": "(음식을) 씹다",
+              "answer": "chew"
+            },
+            {
+              "def_en": "a hint that helps you to solve a puzzle, problem, or question",
+              "ko": "단서, 실마리",
+              "answer": "clue"
+            },
+            {
+              "def_en": "having bright colors or many different colors",
+              "ko": "형형색색의, (색이) 다채로운",
+              "answer": "colorful"
+            },
+            {
+              "def_en": "a very small round mark",
+              "ko": "점",
+              "answer": "dot"
+            },
+            {
+              "def_en": "to let or make something fall",
+              "ko": "떨어뜨리다",
+              "answer": "drop"
+            },
+            {
+              "def_en": "a person or an animal in a drawing, painting, etc.",
+              "ko": "인물, 모습",
+              "answer": "figure"
+            },
+            {
+              "def_en": "happening at the end of a process",
+              "ko": "마지막의, 최종적인",
+              "answer": "final"
+            },
+            {
+              "def_en": "the shape of something",
+              "ko": "형태, 방식",
+              "answer": "form"
+            },
+            {
+              "def_en": "following the latest fashions in music and clothes",
+              "ko": "세련된, 최신 유행에 밝은",
+              "answer": "hip"
+            },
+            {
+              "def_en": "to take and keep something in one’s hand",
+              "ko": "잡고〔들고, 쥐고, 안고〕 있다",
+              "answer": "hold"
+            },
+            {
+              "def_en": "having no leaves",
+              "ko": "잎이 없는, 잎이 떨어진",
+              "answer": "leafless"
+            },
+            {
+              "def_en": "full of life and energy",
+              "ko": "활기찬, 생기 넘치는",
+              "answer": "lively"
+            },
+            {
+              "def_en": "of the present or recent times",
+              "ko": "현대의, 근대의",
+              "answer": "modern"
+            },
+            {
+              "def_en": "a thought or belief about something or someone",
+              "ko": "의견, 견해",
+              "answer": "opinion"
+            },
+            {
+              "def_en": "belonging or relating to a particular person",
+              "ko": "개인적인",
+              "answer": "personal"
+            },
+            {
+              "def_en": "a feeling of happiness or enjoyment",
+              "ko": "기쁨, 즐거움",
+              "answer": "pleasure"
+            },
+            {
+              "def_en": "to show something or someone, especially in a picture",
+              "ko": "나타내다, 상징하다",
+              "answer": "represent"
+            },
+            {
+              "def_en": "relating to society or its organization",
+              "ko": "사회의, 사회적인",
+              "answer": "social"
+            },
+            {
+              "def_en": "to spread liquid in small drops over an area",
+              "ko": "(분무기로) 뿌리다, 살포하다",
+              "answer": "spray"
+            },
+            {
+              "def_en": "very small",
+              "ko": "아주 작은",
+              "answer": "tiny"
+            },
+            {
+              "def_en": "known by many people",
+              "ko": "잘 알려진, 유명한",
+              "answer": "well-known"
+            }
+          ]
+        }
+      ],
+      "n_words": 54,
+      "counts": {
+        "both": 108,
+        "def": 22
+      }
+    }
+  ]
+}

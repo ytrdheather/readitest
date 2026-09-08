@@ -1,0 +1,1253 @@
+{
+  "set": "태장_L5",
+  "title": "동아 윤정미 L5 어휘 — 영일·태장·청명",
+  "sources": {
+    "school": [
+      "태장중2_L5_vocab_handout",
+      "영일중2_L5_vocab_handout"
+    ],
+    "jasup": "L5_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 L5 어휘 — 영일·태장·청명",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "according to",
+              "answer": "~에 따르면, ~에 따라"
+            },
+            {
+              "word": "area",
+              "answer": "지역; 구역"
+            },
+            {
+              "word": "artwork",
+              "answer": "n. 미술품"
+            },
+            {
+              "word": "ballet",
+              "answer": "n. 발레"
+            },
+            {
+              "word": "be well known for",
+              "answer": "~로 잘 알려져 있다"
+            },
+            {
+              "word": "behind",
+              "answer": "~뒤에"
+            },
+            {
+              "word": "canvas",
+              "answer": "n. 캔버스"
+            },
+            {
+              "word": "chew",
+              "answer": "v. (음식을) 씹다"
+            },
+            {
+              "word": "cinema",
+              "answer": "n. 영화관"
+            },
+            {
+              "word": "closely",
+              "answer": "자세히, 면밀히"
+            },
+            {
+              "word": "clue",
+              "answer": "n. 단서"
+            },
+            {
+              "word": "dirty",
+              "answer": "a. 더러운"
+            },
+            {
+              "word": "dot",
+              "answer": "n. 점"
+            },
+            {
+              "word": "example",
+              "answer": "예, 보기"
+            },
+            {
+              "word": "figure",
+              "answer": "n. 인물 (모습)"
+            },
+            {
+              "word": "final",
+              "answer": "a. 마지막의"
+            },
+            {
+              "word": "for example",
+              "answer": "예를 들면"
+            },
+            {
+              "word": "form",
+              "answer": "형태, 방식"
+            },
+            {
+              "word": "hall",
+              "answer": "n. (공공의) 건물"
+            },
+            {
+              "word": "hip",
+              "answer": "a. 세련된, 최신 유행에 밝은"
+            },
+            {
+              "word": "internationally",
+              "answer": "국제적으로"
+            },
+            {
+              "word": "leafless",
+              "answer": "a. 잎이 없는"
+            },
+            {
+              "word": "lively",
+              "answer": "a. 활기 넘치는"
+            },
+            {
+              "word": "modern",
+              "answer": "a. 현대의"
+            },
+            {
+              "word": "nature",
+              "answer": "자연"
+            },
+            {
+              "word": "opinion",
+              "answer": "n. 의견"
+            },
+            {
+              "word": "past",
+              "answer": "n. 과거"
+            },
+            {
+              "word": "personal",
+              "answer": "개인적인"
+            },
+            {
+              "word": "pleasure",
+              "answer": "n. 기쁨, 즐거움"
+            },
+            {
+              "word": "poor",
+              "answer": "가난한"
+            },
+            {
+              "word": "present",
+              "answer": "현재의; 현재"
+            },
+            {
+              "word": "represent",
+              "answer": "v. 나타내다"
+            },
+            {
+              "word": "spray",
+              "answer": "v. 뿌리다"
+            },
+            {
+              "word": "sprayer",
+              "answer": "n. 분무기"
+            },
+            {
+              "word": "stadium",
+              "answer": "n. 경기장"
+            },
+            {
+              "word": "station",
+              "answer": "n. 역"
+            },
+            {
+              "word": "tiny",
+              "answer": "a. 아주 작은"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "n. 영화관",
+              "answer": "cinema"
+            },
+            {
+              "ko": "n. 기쁨, 즐거움",
+              "answer": "pleasure"
+            },
+            {
+              "ko": "n. 미술품",
+              "answer": "artwork"
+            },
+            {
+              "ko": "지역; 구역",
+              "answer": "area"
+            },
+            {
+              "ko": "a. 세련된, 최신 유행에 밝은",
+              "answer": "hip"
+            },
+            {
+              "ko": "n. 역",
+              "answer": "station"
+            },
+            {
+              "ko": "예를 들면",
+              "answer": "for example"
+            },
+            {
+              "ko": "n. 경기장",
+              "answer": "stadium"
+            },
+            {
+              "ko": "자연",
+              "answer": "nature"
+            },
+            {
+              "ko": "국제적으로",
+              "answer": "internationally"
+            },
+            {
+              "ko": "형태, 방식",
+              "answer": "form"
+            },
+            {
+              "ko": "n. 의견",
+              "answer": "opinion"
+            },
+            {
+              "ko": "n. 과거",
+              "answer": "past"
+            },
+            {
+              "ko": "개인적인",
+              "answer": "personal"
+            },
+            {
+              "ko": "n. 발레",
+              "answer": "ballet"
+            },
+            {
+              "ko": "예, 보기",
+              "answer": "example"
+            },
+            {
+              "ko": "a. 더러운",
+              "answer": "dirty"
+            },
+            {
+              "ko": "v. 뿌리다",
+              "answer": "spray"
+            },
+            {
+              "ko": "a. 아주 작은",
+              "answer": "tiny"
+            },
+            {
+              "ko": "n. 캔버스",
+              "answer": "canvas"
+            },
+            {
+              "ko": "n. 인물 (모습)",
+              "answer": "figure"
+            },
+            {
+              "ko": "n. 점",
+              "answer": "dot"
+            },
+            {
+              "ko": "a. 마지막의",
+              "answer": "final"
+            },
+            {
+              "ko": "n. (공공의) 건물",
+              "answer": "hall"
+            },
+            {
+              "ko": "a. 현대의",
+              "answer": "modern"
+            },
+            {
+              "ko": "가난한",
+              "answer": "poor"
+            },
+            {
+              "ko": "n. 분무기",
+              "answer": "sprayer"
+            },
+            {
+              "ko": "v. 나타내다",
+              "answer": "represent"
+            },
+            {
+              "ko": "a. 활기 넘치는",
+              "answer": "lively"
+            },
+            {
+              "ko": "a. 잎이 없는",
+              "answer": "leafless"
+            },
+            {
+              "ko": "자세히, 면밀히",
+              "answer": "closely"
+            },
+            {
+              "ko": "~에 따르면, ~에 따라",
+              "answer": "according to"
+            },
+            {
+              "ko": "현재의; 현재",
+              "answer": "present"
+            },
+            {
+              "ko": "v. (음식을) 씹다",
+              "answer": "chew"
+            },
+            {
+              "ko": "n. 단서",
+              "answer": "clue"
+            },
+            {
+              "ko": "~로 잘 알려져 있다",
+              "answer": "be well known for"
+            },
+            {
+              "ko": "~뒤에",
+              "answer": "behind"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "something made by an artist, like a drawing, painting, or sculpture",
+              "ko": "n. 미술품",
+              "answer": "artwork"
+            },
+            {
+              "def_en": "a style of dancing that tells a dramatic story with music",
+              "ko": "n. 발레",
+              "answer": "ballet"
+            },
+            {
+              "def_en": "a piece of strong, rough cloth used by artists to paint on",
+              "ko": "n. 캔버스",
+              "answer": "canvas"
+            },
+            {
+              "def_en": "to break food into smaller, softer pieces with the teeth",
+              "ko": "v. (음식을) 씹다",
+              "answer": "chew"
+            },
+            {
+              "def_en": "a place where movies are shown",
+              "ko": "n. 영화관",
+              "answer": "cinema"
+            },
+            {
+              "def_en": "a sign or some information that helps you to find the answer to a problem or question",
+              "ko": "n. 단서",
+              "answer": "clue"
+            },
+            {
+              "def_en": "not clean",
+              "ko": "a. 더러운",
+              "answer": "dirty"
+            },
+            {
+              "def_en": "a very small round mark",
+              "ko": "n. 점",
+              "answer": "dot"
+            },
+            {
+              "def_en": "a person or an animal in a drawing, painting, etc.",
+              "ko": "n. 인물 (모습)",
+              "answer": "figure"
+            },
+            {
+              "def_en": "being or happening at the end of a series of events, actions, etc.",
+              "ko": "a. 마지막의",
+              "answer": "final"
+            },
+            {
+              "def_en": "the shape of something",
+              "ko": "형태, 방식",
+              "answer": "form"
+            },
+            {
+              "def_en": "a building or large room for public meetings, meals, concerts, etc.",
+              "ko": "n. (공공의) 건물",
+              "answer": "hall"
+            },
+            {
+              "def_en": "following the latest fashions in music and clothes",
+              "ko": "a. 세련된, 최신 유행에 밝은",
+              "answer": "hip"
+            },
+            {
+              "def_en": "having no leaves",
+              "ko": "a. 잎이 없는",
+              "answer": "leafless"
+            },
+            {
+              "def_en": "full of life and energy",
+              "ko": "a. 활기 넘치는",
+              "answer": "lively"
+            },
+            {
+              "def_en": "of the present or recent times",
+              "ko": "a. 현대의",
+              "answer": "modern"
+            },
+            {
+              "def_en": "a thought or belief about something or someone",
+              "ko": "n. 의견",
+              "answer": "opinion"
+            },
+            {
+              "def_en": "the period of time before now",
+              "ko": "n. 과거",
+              "answer": "past"
+            },
+            {
+              "def_en": "belonging or relating to a particular person",
+              "ko": "개인적인",
+              "answer": "personal"
+            },
+            {
+              "def_en": "a state of feeling or being happy",
+              "ko": "n. 기쁨, 즐거움",
+              "answer": "pleasure"
+            },
+            {
+              "def_en": "to show something or someone, especially in a picture",
+              "ko": "v. 나타내다",
+              "answer": "represent"
+            },
+            {
+              "def_en": "to spread a liquid in small drops over an area",
+              "ko": "v. 뿌리다",
+              "answer": "spray"
+            },
+            {
+              "def_en": "a tool that spreads liquid in small drops",
+              "ko": "n. 분무기",
+              "answer": "sprayer"
+            },
+            {
+              "def_en": "a playing area that is surrounded by seats, for sports, concerts, and other events",
+              "ko": "n. 경기장",
+              "answer": "stadium"
+            },
+            {
+              "def_en": "a building where buses or trains stop so that people can get on or off",
+              "ko": "n. 역",
+              "answer": "station"
+            },
+            {
+              "def_en": "very small",
+              "ko": "a. 아주 작은",
+              "answer": "tiny"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "station",
+                  "ko": "n. 역",
+                  "def_en": "a building where buses or trains stop so that people can get on or off",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "dirty",
+                  "ko": "a. 더러운",
+                  "def_en": "not clean",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "leafless",
+                  "ko": "a. 잎이 없는",
+                  "def_en": "having no leaves",
+                  "example_en": "The trees are leafless in winter.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "figure",
+                  "ko": "n. 인물 (모습)",
+                  "def_en": "a person or an animal in a drawing, painting, etc.",
+                  "example_en": "I saw a dark figure in the distance.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "station",
+                "figure",
+                "dirty",
+                "leafless"
+              ],
+              "kos": [
+                "a. 잎이 없는",
+                "a. 더러운",
+                "n. 역",
+                "n. 인물 (모습)"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "cinema",
+                  "ko": "n. 영화관",
+                  "def_en": "a place where movies are shown",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "chew",
+                  "ko": "v. (음식을) 씹다",
+                  "def_en": "to break food into smaller, softer pieces with the teeth",
+                  "example_en": "You should chew your food slowly.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "form",
+                  "ko": "형태, 방식",
+                  "def_en": "the shape of something",
+                  "example_en": "Clouds can take many different forms.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "dot",
+                  "ko": "n. 점",
+                  "def_en": "a very small round mark",
+                  "example_en": "There are many blue dots on the map.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "chew",
+                "dot",
+                "cinema",
+                "form"
+              ],
+              "kos": [
+                "v. (음식을) 씹다",
+                "형태, 방식",
+                "n. 점",
+                "n. 영화관"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "spray",
+                  "ko": "v. 뿌리다",
+                  "def_en": "to spread a liquid in small drops over an area",
+                  "example_en": "She sprayed water on the flowers.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "sprayer",
+                  "ko": "n. 분무기",
+                  "def_en": "a tool that spreads liquid in small drops",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "opinion",
+                  "ko": "n. 의견",
+                  "def_en": "a thought or belief about something or someone",
+                  "example_en": "What is your opinion about this idea?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "personal",
+                  "ko": "개인적인",
+                  "def_en": "belonging or relating to a particular person",
+                  "example_en": "Please do not share your personal information.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "opinion",
+                "personal",
+                "sprayer",
+                "spray"
+              ],
+              "kos": [
+                "n. 분무기",
+                "v. 뿌리다",
+                "n. 의견",
+                "개인적인"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "canvas",
+                  "ko": "n. 캔버스",
+                  "def_en": "a piece of strong, rough cloth used by artists to paint on",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "hall",
+                  "ko": "n. (공공의) 건물",
+                  "def_en": "a building or large room for public meetings, meals, concerts, etc.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "hip",
+                  "ko": "a. 세련된, 최신 유행에 밝은",
+                  "def_en": "following the latest fashions in music and clothes",
+                  "example_en": "She put her hands on her hips.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "stadium",
+                  "ko": "n. 경기장",
+                  "def_en": "a playing area that is surrounded by seats, for sports, concerts, and other events",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "stadium",
+                "canvas",
+                "hall",
+                "hip"
+              ],
+              "kos": [
+                "n. 경기장",
+                "n. (공공의) 건물",
+                "a. 세련된, 최신 유행에 밝은",
+                "n. 캔버스"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "artwork",
+                  "ko": "n. 미술품",
+                  "def_en": "something made by an artist, like a drawing, painting, or sculpture",
+                  "example_en": "I saw many interesting artworks at the museum.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "modern",
+                  "ko": "a. 현대의",
+                  "def_en": "of the present or recent times",
+                  "example_en": "This building has a modern design.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "past",
+                  "ko": "n. 과거",
+                  "def_en": "the period of time before now",
+                  "example_en": "We can learn many things from the past.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "represent",
+                  "ko": "v. 나타내다",
+                  "def_en": "to show something or someone, especially in a picture",
+                  "example_en": "The white dove represents peace.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "artwork",
+                "modern",
+                "past",
+                "represent"
+              ],
+              "kos": [
+                "n. 과거",
+                "n. 미술품",
+                "v. 나타내다",
+                "a. 현대의"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "pleasure",
+                  "ko": "n. 기쁨, 즐거움",
+                  "def_en": "a state of feeling or being happy",
+                  "example_en": "Reading books gives me great pleasure.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "final",
+                  "ko": "a. 마지막의",
+                  "def_en": "being or happening at the end of a series of events, actions, etc.",
+                  "example_en": "This is the final question on the test.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "lively",
+                  "ko": "a. 활기 넘치는",
+                  "def_en": "full of life and energy",
+                  "example_en": "The market is always lively on weekends.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "tiny",
+                  "ko": "a. 아주 작은",
+                  "def_en": "very small",
+                  "example_en": "A tiny bird was sitting on the tree.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "lively",
+                "tiny",
+                "pleasure",
+                "final"
+              ],
+              "kos": [
+                "a. 활기 넘치는",
+                "n. 기쁨, 즐거움",
+                "a. 마지막의",
+                "a. 아주 작은"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "We need to think about the __________ situation.",
+                "answer": "present",
+                "ko": ""
+              },
+              {
+                "sentence": "We can exercise in many ways. __________, we can walk or ride a bike.",
+                "answer": "for example",
+                "ko": ""
+              },
+              {
+                "sentence": "You should __________ your food slowly.",
+                "answer": "chew",
+                "ko": ""
+              },
+              {
+                "sentence": "Reading books gives me great __________.",
+                "answer": "pleasure",
+                "ko": ""
+              },
+              {
+                "sentence": "There are many blue __________ on the map.",
+                "answer": "dot",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "Jeju Island is __________ its beautiful scenery.",
+                "answer": "be well known for",
+                "ko": ""
+              },
+              {
+                "sentence": "The white dove __________ peace.",
+                "answer": "represent",
+                "ko": ""
+              },
+              {
+                "sentence": "__________ the news, it will rain tomorrow.",
+                "answer": "according to",
+                "ko": ""
+              },
+              {
+                "sentence": "This __________ is famous for its beautiful beaches.",
+                "answer": "area",
+                "ko": ""
+              },
+              {
+                "sentence": "I saw a dark __________ in the distance.",
+                "answer": "figure",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "This building has a __________ design.",
+                "answer": "modern",
+                "ko": ""
+              },
+              {
+                "sentence": "What is your __________ about this idea?",
+                "answer": "opinion",
+                "ko": ""
+              },
+              {
+                "sentence": "The market is always __________ on weekends.",
+                "answer": "lively",
+                "ko": ""
+              },
+              {
+                "sentence": "We should protect __________.",
+                "answer": "nature",
+                "ko": ""
+              },
+              {
+                "sentence": "This letter is an important __________.",
+                "answer": "clue",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "Please do not share your __________ information.",
+                "answer": "personal",
+                "ko": ""
+              },
+              {
+                "sentence": "She __________ water on the flowers.",
+                "answer": "spray",
+                "ko": ""
+              },
+              {
+                "sentence": "The trees are __________ in winter.",
+                "answer": "leafless",
+                "ko": ""
+              },
+              {
+                "sentence": "I saw many interesting __________ at the museum.",
+                "answer": "artwork",
+                "ko": ""
+              },
+              {
+                "sentence": "She put her hands on her __________.",
+                "answer": "hip",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "This picture is a good __________ of modern art.",
+                "answer": "example",
+                "ko": ""
+              },
+              {
+                "sentence": "This is the __________ question on the test.",
+                "answer": "final",
+                "ko": ""
+              },
+              {
+                "sentence": "We can learn many things from the __________.",
+                "answer": "past",
+                "ko": ""
+              },
+              {
+                "sentence": "A __________ bird was sitting on the tree.",
+                "answer": "tiny",
+                "ko": ""
+              },
+              {
+                "sentence": "Clouds can take many different __________.",
+                "answer": "form",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "Look __________ at the picture.",
+                "answer": "closely",
+                "ko": ""
+              },
+              {
+                "sentence": "The family was __________, but they were happy.",
+                "answer": "poor",
+                "ko": ""
+              },
+              {
+                "sentence": "There is a small garden __________ the school.",
+                "answer": "behind",
+                "ko": ""
+              },
+              {
+                "sentence": "The singer is __________ famous.",
+                "answer": "internationally",
+                "ko": ""
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 37,
+      "counts": {
+        "both": 74,
+        "def": 26,
+        "match": 24,
+        "cloze": 29
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "동아 윤정미 L5 어휘 — 영일·태장·청명",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "anyway",
+              "answer": "그런데, 어쨌든"
+            },
+            {
+              "word": "fair",
+              "answer": "박람회"
+            },
+            {
+              "word": "far",
+              "answer": "멀리 (↔ near)"
+            },
+            {
+              "word": "free",
+              "answer": "한가한; 자유로운"
+            },
+            {
+              "word": "national",
+              "answer": "국가의"
+            },
+            {
+              "word": "perfect",
+              "answer": "완벽한, 완전한"
+            },
+            {
+              "word": "straight",
+              "answer": "똑바로, 곧장"
+            },
+            {
+              "word": "subway",
+              "answer": "지하철"
+            },
+            {
+              "word": "get off",
+              "answer": "(말·차 등에서) 내리다"
+            },
+            {
+              "word": "turn left",
+              "answer": "왼쪽으로 돌다, 좌회전하다"
+            },
+            {
+              "word": "bakery",
+              "answer": "빵집, 제과점"
+            },
+            {
+              "word": "chef",
+              "answer": "요리사"
+            },
+            {
+              "word": "healthy",
+              "answer": "건강에 좋은; 건강한"
+            },
+            {
+              "word": "subject",
+              "answer": "과목; 주제"
+            },
+            {
+              "word": "create",
+              "answer": "창작하다, 만들어 내다"
+            },
+            {
+              "word": "warm",
+              "answer": "따뜻한"
+            },
+            {
+              "word": "set the table",
+              "answer": "상을 차리다"
+            },
+            {
+              "word": "classical",
+              "answer": "고전적인, 클래식의"
+            },
+            {
+              "word": "country",
+              "answer": "나라; 시골"
+            },
+            {
+              "word": "solve",
+              "answer": "풀다, 해결하다"
+            },
+            {
+              "word": "village",
+              "answer": "마을"
+            },
+            {
+              "word": "bridge",
+              "answer": "다리"
+            },
+            {
+              "word": "minute",
+              "answer": "(시간 단위의) 분"
+            },
+            {
+              "word": "colorful",
+              "answer": "형형색색의, (색이) 다채로운"
+            },
+            {
+              "word": "drop",
+              "answer": "떨어뜨리다"
+            },
+            {
+              "word": "hold",
+              "answer": "잡고〔들고, 쥐고, 안고〕 있다"
+            },
+            {
+              "word": "piece",
+              "answer": "작품; (미술·음악 등의 작품) 한 점"
+            },
+            {
+              "word": "social",
+              "answer": "사회의, 사회적인"
+            },
+            {
+              "word": "well-known",
+              "answer": "잘 알려진, 유명한"
+            },
+            {
+              "word": "be famous for",
+              "answer": "~로 유명하다"
+            },
+            {
+              "word": "be known for",
+              "answer": "~로 알려져 있다"
+            },
+            {
+              "word": "take care of",
+              "answer": "~을 돌보다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "상을 차리다",
+              "answer": "set the table"
+            },
+            {
+              "ko": "형형색색의, (색이) 다채로운",
+              "answer": "colorful"
+            },
+            {
+              "ko": "똑바로, 곧장",
+              "answer": "straight"
+            },
+            {
+              "ko": "한가한; 자유로운",
+              "answer": "free"
+            },
+            {
+              "ko": "창작하다, 만들어 내다",
+              "answer": "create"
+            },
+            {
+              "ko": "과목; 주제",
+              "answer": "subject"
+            },
+            {
+              "ko": "사회의, 사회적인",
+              "answer": "social"
+            },
+            {
+              "ko": "빵집, 제과점",
+              "answer": "bakery"
+            },
+            {
+              "ko": "마을",
+              "answer": "village"
+            },
+            {
+              "ko": "왼쪽으로 돌다, 좌회전하다",
+              "answer": "turn left"
+            },
+            {
+              "ko": "고전적인, 클래식의",
+              "answer": "classical"
+            },
+            {
+              "ko": "~을 돌보다",
+              "answer": "take care of"
+            },
+            {
+              "ko": "따뜻한",
+              "answer": "warm"
+            },
+            {
+              "ko": "박람회",
+              "answer": "fair"
+            },
+            {
+              "ko": "잡고〔들고, 쥐고, 안고〕 있다",
+              "answer": "hold"
+            },
+            {
+              "ko": "떨어뜨리다",
+              "answer": "drop"
+            },
+            {
+              "ko": "건강에 좋은; 건강한",
+              "answer": "healthy"
+            },
+            {
+              "ko": "국가의",
+              "answer": "national"
+            },
+            {
+              "ko": "풀다, 해결하다",
+              "answer": "solve"
+            },
+            {
+              "ko": "잘 알려진, 유명한",
+              "answer": "well-known"
+            },
+            {
+              "ko": "~로 유명하다",
+              "answer": "be famous for"
+            },
+            {
+              "ko": "그런데, 어쨌든",
+              "answer": "anyway"
+            },
+            {
+              "ko": "~로 알려져 있다",
+              "answer": "be known for"
+            },
+            {
+              "ko": "나라; 시골",
+              "answer": "country"
+            },
+            {
+              "ko": "작품; (미술·음악 등의 작품) 한 점",
+              "answer": "piece"
+            },
+            {
+              "ko": "(시간 단위의) 분",
+              "answer": "minute"
+            },
+            {
+              "ko": "요리사",
+              "answer": "chef"
+            },
+            {
+              "ko": "다리",
+              "answer": "bridge"
+            },
+            {
+              "ko": "완벽한, 완전한",
+              "answer": "perfect"
+            },
+            {
+              "ko": "멀리 (↔ near)",
+              "answer": "far"
+            },
+            {
+              "ko": "(말·차 등에서) 내리다",
+              "answer": "get off"
+            },
+            {
+              "ko": "지하철",
+              "answer": "subway"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "having bright colors or many different colors",
+              "ko": "형형색색의, (색이) 다채로운",
+              "answer": "colorful"
+            },
+            {
+              "def_en": "to let or make something fall",
+              "ko": "떨어뜨리다",
+              "answer": "drop"
+            },
+            {
+              "def_en": "to take and keep something in one’s hand",
+              "ko": "잡고〔들고, 쥐고, 안고〕 있다",
+              "answer": "hold"
+            },
+            {
+              "def_en": "relating to society or its organization",
+              "ko": "사회의, 사회적인",
+              "answer": "social"
+            },
+            {
+              "def_en": "known by many people",
+              "ko": "잘 알려진, 유명한",
+              "answer": "well-known"
+            }
+          ]
+        }
+      ],
+      "n_words": 32,
+      "counts": {
+        "both": 64,
+        "def": 5
+      }
+    }
+  ]
+}

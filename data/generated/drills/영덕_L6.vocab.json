@@ -1,0 +1,1235 @@
+{
+  "set": "영덕_L6",
+  "title": "동아 윤정미 L6 어휘 — 네 학교",
+  "sources": {
+    "school": [
+      "영덕중2_L6_vocab_handout",
+      "영덕중2_L6_warmup"
+    ],
+    "jasup": "L6_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 L6 어휘 — 네 학교",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "article",
+              "answer": "(신문·잡지의) 글, 기사"
+            },
+            {
+              "word": "bury",
+              "answer": "묻다"
+            },
+            {
+              "word": "cemetery",
+              "answer": "묘지"
+            },
+            {
+              "word": "continue",
+              "answer": "계속하다"
+            },
+            {
+              "word": "curry",
+              "answer": "카레"
+            },
+            {
+              "word": "foreign",
+              "answer": "외국의"
+            },
+            {
+              "word": "foreigner",
+              "answer": "외국인"
+            },
+            {
+              "word": "gather",
+              "answer": "모이다"
+            },
+            {
+              "word": "government",
+              "answer": "정부"
+            },
+            {
+              "word": "hide",
+              "answer": "숨다"
+            },
+            {
+              "word": "historic",
+              "answer": "역사적으로 중요한"
+            },
+            {
+              "word": "independence",
+              "answer": "독립"
+            },
+            {
+              "word": "independent",
+              "answer": "독립적인"
+            },
+            {
+              "word": "invitation",
+              "answer": "초청"
+            },
+            {
+              "word": "medicine",
+              "answer": "의학"
+            },
+            {
+              "word": "movement",
+              "answer": "운동"
+            },
+            {
+              "word": "novel",
+              "answer": "(장편) 소설"
+            },
+            {
+              "word": "recommend",
+              "answer": "추천하다"
+            },
+            {
+              "word": "research",
+              "answer": "조사하다"
+            },
+            {
+              "word": "selfless",
+              "answer": "이타적인"
+            },
+            {
+              "word": "stress",
+              "answer": "강세"
+            },
+            {
+              "word": "unbelievable",
+              "answer": "믿기 어려울 정도의"
+            },
+            {
+              "word": "under the watchful eye of",
+              "answer": "~의 감시 아래에서"
+            },
+            {
+              "word": "volunteer",
+              "answer": "자원봉사하다 · 자원봉사자"
+            },
+            {
+              "word": "accident",
+              "answer": "사고"
+            },
+            {
+              "word": "Canadian",
+              "answer": "캐나다의"
+            },
+            {
+              "word": "favor",
+              "answer": "호의, 친절, 부탁"
+            },
+            {
+              "word": "fight",
+              "answer": "싸움, 투쟁; 싸우다"
+            },
+            {
+              "word": "real",
+              "answer": "진짜의"
+            },
+            {
+              "word": "right",
+              "answer": "권리"
+            },
+            {
+              "word": "share",
+              "answer": "공유하다"
+            },
+            {
+              "word": "right away",
+              "answer": "곧바로, 즉시"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "(장편) 소설",
+              "answer": "novel"
+            },
+            {
+              "ko": "정부",
+              "answer": "government"
+            },
+            {
+              "ko": "싸움, 투쟁; 싸우다",
+              "answer": "fight"
+            },
+            {
+              "ko": "묻다",
+              "answer": "bury"
+            },
+            {
+              "ko": "초청",
+              "answer": "invitation"
+            },
+            {
+              "ko": "자원봉사하다 · 자원봉사자",
+              "answer": "volunteer"
+            },
+            {
+              "ko": "역사적으로 중요한",
+              "answer": "historic"
+            },
+            {
+              "ko": "강세",
+              "answer": "stress"
+            },
+            {
+              "ko": "~의 감시 아래에서",
+              "answer": "under the watchful eye of"
+            },
+            {
+              "ko": "호의, 친절, 부탁",
+              "answer": "favor"
+            },
+            {
+              "ko": "이타적인",
+              "answer": "selfless"
+            },
+            {
+              "ko": "독립",
+              "answer": "independence"
+            },
+            {
+              "ko": "권리",
+              "answer": "right"
+            },
+            {
+              "ko": "카레",
+              "answer": "curry"
+            },
+            {
+              "ko": "공유하다",
+              "answer": "share"
+            },
+            {
+              "ko": "외국인",
+              "answer": "foreigner"
+            },
+            {
+              "ko": "의학",
+              "answer": "medicine"
+            },
+            {
+              "ko": "독립적인",
+              "answer": "independent"
+            },
+            {
+              "ko": "캐나다의",
+              "answer": "Canadian"
+            },
+            {
+              "ko": "조사하다",
+              "answer": "research"
+            },
+            {
+              "ko": "모이다",
+              "answer": "gather"
+            },
+            {
+              "ko": "진짜의",
+              "answer": "real"
+            },
+            {
+              "ko": "믿기 어려울 정도의",
+              "answer": "unbelievable"
+            },
+            {
+              "ko": "숨다",
+              "answer": "hide"
+            },
+            {
+              "ko": "(신문·잡지의) 글, 기사",
+              "answer": "article"
+            },
+            {
+              "ko": "운동",
+              "answer": "movement"
+            },
+            {
+              "ko": "계속하다",
+              "answer": "continue"
+            },
+            {
+              "ko": "추천하다",
+              "answer": "recommend"
+            },
+            {
+              "ko": "사고",
+              "answer": "accident"
+            },
+            {
+              "ko": "곧바로, 즉시",
+              "answer": "right away"
+            },
+            {
+              "ko": "묘지",
+              "answer": "cemetery"
+            },
+            {
+              "ko": "외국의",
+              "answer": "foreign"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "a piece of writing on a particular subject in a newspaper or magazine",
+              "ko": "(신문·잡지의) 글, 기사",
+              "answer": "article"
+            },
+            {
+              "def_en": "to put something into a hole in the ground and cover it",
+              "ko": "묻다",
+              "answer": "bury"
+            },
+            {
+              "def_en": "a place where people put dead bodies in the ground",
+              "ko": "묘지",
+              "answer": "cemetery"
+            },
+            {
+              "def_en": "to keep doing something without stopping",
+              "ko": "계속하다",
+              "answer": "continue"
+            },
+            {
+              "def_en": "a South Asian dish of meat, vegetables, etc., cooked in a hot spicy sauce",
+              "ko": "카레",
+              "answer": "curry"
+            },
+            {
+              "def_en": "in or from a country that is not your own",
+              "ko": "외국의",
+              "answer": "foreign"
+            },
+            {
+              "def_en": "a person who comes from another country",
+              "ko": "외국인",
+              "answer": "foreigner"
+            },
+            {
+              "def_en": "to come together in a group in one place",
+              "ko": "모이다",
+              "answer": "gather"
+            },
+            {
+              "def_en": "the group of people who officially control a country",
+              "ko": "정부",
+              "answer": "government"
+            },
+            {
+              "def_en": "to go somewhere where you hope you will not be seen or found",
+              "ko": "숨다",
+              "answer": "hide"
+            },
+            {
+              "def_en": "important in history",
+              "ko": "역사적으로 중요한",
+              "answer": "historic"
+            },
+            {
+              "def_en": "freedom from political control by other countries",
+              "ko": "독립",
+              "answer": "independence"
+            },
+            {
+              "def_en": "not governed or ruled by another country",
+              "ko": "독립적인",
+              "answer": "independent"
+            },
+            {
+              "def_en": "a written or spoken request for asking someone to come to an event",
+              "ko": "초청",
+              "answer": "invitation"
+            },
+            {
+              "def_en": "the study and treatment of diseases and injuries",
+              "ko": "의학",
+              "answer": "medicine"
+            },
+            {
+              "def_en": "an action that a group of people take to change something in society",
+              "ko": "운동",
+              "answer": "movement"
+            },
+            {
+              "def_en": "a long story about imaginary characters and events",
+              "ko": "(장편) 소설",
+              "answer": "novel"
+            },
+            {
+              "def_en": "to suggest that someone or something would be good",
+              "ko": "추천하다",
+              "answer": "recommend"
+            },
+            {
+              "def_en": "to collect information about or for something",
+              "ko": "조사하다",
+              "answer": "research"
+            },
+            {
+              "def_en": "caring more about other people's needs and interests than about your own",
+              "ko": "이타적인",
+              "answer": "selfless"
+            },
+            {
+              "def_en": "an extra force used when pronouncing a particular word or syllable",
+              "ko": "강세",
+              "answer": "stress"
+            },
+            {
+              "def_en": "not able to be believed because it is unlikely",
+              "ko": "믿기 어려울 정도의",
+              "answer": "unbelievable"
+            },
+            {
+              "def_en": "while being watched carefully by somebody",
+              "ko": "~의 감시 아래에서",
+              "answer": "under the watchful eye of"
+            },
+            {
+              "def_en": "to do a job without being paid for it / a person who does a job without being paid for it",
+              "ko": "자원봉사하다 · 자원봉사자",
+              "answer": "volunteer"
+            },
+            {
+              "def_en": "something helpful that you do for someone",
+              "ko": "호의, 친절, 부탁",
+              "answer": "favor"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "historic",
+                  "ko": "역사적으로 중요한",
+                  "def_en": "important in history",
+                  "example_en": "Rome is famous for its historic buildings.",
+                  "example_ko": "로마는 역사적인 건물들로 유명하다.",
+                  "page": 105,
+                  "src": "학교"
+                },
+                {
+                  "word": "continue",
+                  "ko": "계속하다",
+                  "def_en": "to keep doing something without stopping",
+                  "example_en": "They continued to play soccer in the rain.",
+                  "example_ko": "그들은 빗속에서도 축구를 계속했다.",
+                  "page": 108,
+                  "src": "학교"
+                },
+                {
+                  "word": "under the watchful eye of",
+                  "ko": "~의 감시 아래에서",
+                  "def_en": "while being watched carefully by somebody",
+                  "example_en": "The soccer players trained under the watchful eye of their coach.",
+                  "example_ko": "축구 선수들은 코치의 감시 아래에서 훈련을 했다.",
+                  "page": 108,
+                  "src": "학교"
+                },
+                {
+                  "word": "novel",
+                  "ko": "(장편) 소설",
+                  "def_en": "a long story about imaginary characters and events",
+                  "example_en": "She enjoys reading historical novels in her free time.",
+                  "example_ko": "그녀는 여가 시간에 역사 소설을 읽는 것을 즐긴다.",
+                  "page": 102,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "historic",
+                "continue",
+                "under the watchful eye of",
+                "novel"
+              ],
+              "kos": [
+                "역사적으로 중요한",
+                "(장편) 소설",
+                "~의 감시 아래에서",
+                "계속하다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "volunteer",
+                  "ko": "자원봉사하다 · 자원봉사자",
+                  "def_en": "to do a job without being paid for it / a person who does a job without being paid for it",
+                  "example_en": "He plans to volunteer at the hospital next summer. / The volunteers worked together to clean up the beach.",
+                  "example_ko": "그는 내년 여름에 병원에서 자원봉사를 할 계획이다. / 자원봉사자들은 해변을 청소하기 위해 함께 일했다.",
+                  "page": 103,
+                  "src": "학교"
+                },
+                {
+                  "word": "independence",
+                  "ko": "독립",
+                  "def_en": "freedom from political control by other countries",
+                  "example_en": "Students played an important role in the independence movement.",
+                  "example_ko": "학생들은 독립운동에서 중요한 역할을 했다.",
+                  "page": 100,
+                  "src": "학교"
+                },
+                {
+                  "word": "unbelievable",
+                  "ko": "믿기 어려울 정도의",
+                  "def_en": "not able to be believed because it is unlikely",
+                  "example_en": "We had an unbelievable time in London.",
+                  "example_ko": "우리는 런던에서 믿기 어려울 정도로 멋진 시간을 보냈다.",
+                  "page": 106,
+                  "src": "학교"
+                },
+                {
+                  "word": "cemetery",
+                  "ko": "묘지",
+                  "def_en": "a place where people put dead bodies in the ground",
+                  "example_en": "There is an old cemetery near my house.",
+                  "example_ko": "내 집 근처에 오래된 묘지가 있다.",
+                  "page": 105,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "unbelievable",
+                "cemetery",
+                "independence",
+                "volunteer"
+              ],
+              "kos": [
+                "독립",
+                "묘지",
+                "자원봉사하다 · 자원봉사자",
+                "믿기 어려울 정도의"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "independent",
+                  "ko": "독립적인",
+                  "def_en": "not governed or ruled by another country",
+                  "example_en": "India became an independent country in 1947.",
+                  "example_ko": "인도는 1947년에 독립적인 나라가 되었다.",
+                  "page": 107,
+                  "src": "학교"
+                },
+                {
+                  "word": "article",
+                  "ko": "(신문·잡지의) 글, 기사",
+                  "def_en": "a piece of writing on a particular subject in a newspaper or magazine",
+                  "example_en": "I read an interesting article about space travel.",
+                  "example_ko": "나는 우주여행에 관한 흥미로운 기사를 하나 읽었다.",
+                  "page": 105,
+                  "src": "학교"
+                },
+                {
+                  "word": "selfless",
+                  "ko": "이타적인",
+                  "def_en": "caring more about other people's needs and interests than about your own",
+                  "example_en": "She is a selfless person who always helps others.",
+                  "example_ko": "그녀는 항상 다른 사람을 돕는 이타적인 사람이다.",
+                  "page": 101,
+                  "src": "학교"
+                },
+                {
+                  "word": "government",
+                  "ko": "정부",
+                  "def_en": "the group of people who officially control a country",
+                  "example_en": "The government decided to build a new hospital.",
+                  "example_ko": "정부는 새로운 병원을 짓기로 결정했다.",
+                  "page": 109,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "article",
+                "selfless",
+                "government",
+                "independent"
+              ],
+              "kos": [
+                "정부",
+                "독립적인",
+                "(신문·잡지의) 글, 기사",
+                "이타적인"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "invitation",
+                  "ko": "초청",
+                  "def_en": "a written or spoken request for asking someone to come to an event",
+                  "example_en": "He gave me an invitation to the party.",
+                  "example_ko": "그는 나에게 파티 초대장을 줬다.",
+                  "page": 109,
+                  "src": "학교"
+                },
+                {
+                  "word": "hide",
+                  "ko": "숨다",
+                  "def_en": "to go somewhere where you hope you will not be seen or found",
+                  "example_en": "The children were hiding under the bed.",
+                  "example_ko": "그 아이들은 침대 아래에 숨어 있었다.",
+                  "page": 106,
+                  "src": "학교"
+                },
+                {
+                  "word": "curry",
+                  "ko": "카레",
+                  "def_en": "a South Asian dish of meat, vegetables, etc., cooked in a hot spicy sauce",
+                  "example_en": "I love eating curry with rice.",
+                  "example_ko": "나는 밥과 함께 카레를 먹는 것을 좋아한다.",
+                  "page": 104,
+                  "src": "학교"
+                },
+                {
+                  "word": "medicine",
+                  "ko": "의학",
+                  "def_en": "the study and treatment of diseases and injuries",
+                  "example_en": "She decided to study medicine to become a doctor.",
+                  "example_ko": "그녀는 의사가 되기 위해 의학을 공부하기로 결심했다.",
+                  "page": 107,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "hide",
+                "invitation",
+                "curry",
+                "medicine"
+              ],
+              "kos": [
+                "의학",
+                "숨다",
+                "초청",
+                "카레"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "research",
+                  "ko": "조사하다",
+                  "def_en": "to collect information about or for something",
+                  "example_en": "They researched many restaurants before they ate out.",
+                  "example_ko": "그들은 외식하기 전에 많은 레스토랑을 조사했다.",
+                  "page": 103,
+                  "src": "학교"
+                },
+                {
+                  "word": "foreign",
+                  "ko": "외국의",
+                  "def_en": "in or from a country that is not your own",
+                  "example_en": "I want to work in a foreign country in the future.",
+                  "example_ko": "나는 미래에 외국에서 일하고 싶다.",
+                  "page": 108,
+                  "src": "학교"
+                },
+                {
+                  "word": "bury",
+                  "ko": "묻다",
+                  "def_en": "to put something into a hole in the ground and cover it",
+                  "example_en": "Tommy and I buried the time capsule under the tree.",
+                  "example_ko": "Tommy와 나는 나무 아래에 타임캡슐을 묻었다.",
+                  "page": 105,
+                  "src": "학교"
+                },
+                {
+                  "word": "gather",
+                  "ko": "모이다",
+                  "def_en": "to come together in a group in one place",
+                  "example_en": "We will gather at the park for running.",
+                  "example_ko": "우리는 달리기를 하러 공원에 모일 것이다.",
+                  "page": 105,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "research",
+                "bury",
+                "foreign",
+                "gather"
+              ],
+              "kos": [
+                "묻다",
+                "모이다",
+                "조사하다",
+                "외국의"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "stress",
+                  "ko": "강세",
+                  "def_en": "an extra force used when pronouncing a particular word or syllable",
+                  "example_en": "The teacher explained the importance of stress in speaking clearly.",
+                  "example_ko": "선생님은 명확하게 말하는 데 있어 강세의 중요성을 설명했다.",
+                  "page": 104,
+                  "src": "학교"
+                },
+                {
+                  "word": "foreigner",
+                  "ko": "외국인",
+                  "def_en": "a person who comes from another country",
+                  "example_en": "Jisu spoke to the foreigner in English.",
+                  "example_ko": "지수는 그 외국인에게 영어로 말했다.",
+                  "page": 100,
+                  "src": "학교"
+                },
+                {
+                  "word": "favor",
+                  "ko": "호의, 친절, 부탁",
+                  "def_en": "something helpful that you do for someone",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "recommend",
+                  "ko": "추천하다",
+                  "def_en": "to suggest that someone or something would be good",
+                  "example_en": "Which dish do you recommend for lunch?",
+                  "example_ko": "점심으로 어떤 요리를 추천하시나요?",
+                  "page": 100,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "recommend",
+                "foreigner",
+                "stress",
+                "favor"
+              ],
+              "kos": [
+                "강세",
+                "호의, 친절, 부탁",
+                "추천하다",
+                "외국인"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "The children were __________ under the bed.",
+                "answer": "hide",
+                "ko": "그 아이들은 침대 아래에 숨어 있었다."
+              },
+              {
+                "sentence": "He gave me an __________ to the party.",
+                "answer": "invitation",
+                "ko": "그는 나에게 파티 초대장을 줬다."
+              },
+              {
+                "sentence": "Rome is famous for its __________ buildings.",
+                "answer": "historic",
+                "ko": "로마는 역사적인 건물들로 유명하다."
+              },
+              {
+                "sentence": "Tommy and I __________ the time capsule under the tree.",
+                "answer": "bury",
+                "ko": "Tommy와 나는 나무 아래에 타임캡슐을 묻었다."
+              },
+              {
+                "sentence": "I read an interesting __________ about space travel.",
+                "answer": "article",
+                "ko": "나는 우주여행에 관한 흥미로운 기사를 하나 읽었다."
+              }
+            ],
+            [
+              {
+                "sentence": "He plans to __________ at the hospital next summer. / The volunteers worked together to clean up the beach.",
+                "answer": "volunteer",
+                "ko": "그는 내년 여름에 병원에서 자원봉사를 할 계획이다. / 자원봉사자들은 해변을 청소하기 위해 함께 일했다."
+              },
+              {
+                "sentence": "She is a __________ person who always helps others.",
+                "answer": "selfless",
+                "ko": "그녀는 항상 다른 사람을 돕는 이타적인 사람이다."
+              },
+              {
+                "sentence": "The soccer players trained __________ their coach.",
+                "answer": "under the watchful eye of",
+                "ko": "축구 선수들은 코치의 감시 아래에서 훈련을 했다."
+              },
+              {
+                "sentence": "The teacher explained the importance of __________ in speaking clearly.",
+                "answer": "stress",
+                "ko": "선생님은 명확하게 말하는 데 있어 강세의 중요성을 설명했다."
+              },
+              {
+                "sentence": "She decided to study __________ to become a doctor.",
+                "answer": "medicine",
+                "ko": "그녀는 의사가 되기 위해 의학을 공부하기로 결심했다."
+              }
+            ],
+            [
+              {
+                "sentence": "They __________ many restaurants before they ate out.",
+                "answer": "research",
+                "ko": "그들은 외식하기 전에 많은 레스토랑을 조사했다."
+              },
+              {
+                "sentence": "We had an __________ time in London.",
+                "answer": "unbelievable",
+                "ko": "우리는 런던에서 믿기 어려울 정도로 멋진 시간을 보냈다."
+              },
+              {
+                "sentence": "India became an __________ country in 1947.",
+                "answer": "independent",
+                "ko": "인도는 1947년에 독립적인 나라가 되었다."
+              },
+              {
+                "sentence": "There is an old __________ near my house.",
+                "answer": "cemetery",
+                "ko": "내 집 근처에 오래된 묘지가 있다."
+              },
+              {
+                "sentence": "We will __________ at the park for running.",
+                "answer": "gather",
+                "ko": "우리는 달리기를 하러 공원에 모일 것이다."
+              }
+            ],
+            [
+              {
+                "sentence": "I love eating __________ with rice.",
+                "answer": "curry",
+                "ko": "나는 밥과 함께 카레를 먹는 것을 좋아한다."
+              },
+              {
+                "sentence": "Let's join the environmental __________ to protect the Earth.",
+                "answer": "movement",
+                "ko": "지구를 보호하기 위해 환경 운동에 참여하자."
+              },
+              {
+                "sentence": "She enjoys reading historical __________ in her free time.",
+                "answer": "novel",
+                "ko": "그녀는 여가 시간에 역사 소설을 읽는 것을 즐긴다."
+              },
+              {
+                "sentence": "Jisu spoke to the __________ in English.",
+                "answer": "foreigner",
+                "ko": "지수는 그 외국인에게 영어로 말했다."
+              },
+              {
+                "sentence": "Students played an important role in the __________ movement.",
+                "answer": "independence",
+                "ko": "학생들은 독립운동에서 중요한 역할을 했다."
+              }
+            ],
+            [
+              {
+                "sentence": "I want to work in a __________ country in the future.",
+                "answer": "foreign",
+                "ko": "나는 미래에 외국에서 일하고 싶다."
+              },
+              {
+                "sentence": "They __________ to play soccer in the rain.",
+                "answer": "continue",
+                "ko": "그들은 빗속에서도 축구를 계속했다."
+              },
+              {
+                "sentence": "Which dish do you __________ for lunch?",
+                "answer": "recommend",
+                "ko": "점심으로 어떤 요리를 추천하시나요?"
+              },
+              {
+                "sentence": "The __________ decided to build a new hospital.",
+                "answer": "government",
+                "ko": "정부는 새로운 병원을 짓기로 결정했다."
+              }
+            ]
+          ]
+        },
+        {
+          "kind": "phrase",
+          "title": "우리말과 뜻이 같도록 빈칸을 채우시오.",
+          "items": [
+            {
+              "phrase": "a special favor",
+              "ko": "특별한 부탁"
+            },
+            {
+              "phrase": "under the watchful eye of",
+              "ko": "~의 감시 아래에서"
+            },
+            {
+              "phrase": "right away",
+              "ko": "곧바로, 즉시"
+            }
+          ]
+        }
+      ],
+      "n_words": 32,
+      "counts": {
+        "both": 64,
+        "def": 25,
+        "match": 24,
+        "cloze": 24,
+        "phrase": 3
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "동아 윤정미 L6 어휘 — 네 학교",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "essay",
+              "answer": "에세이, 과제물"
+            },
+            {
+              "word": "introduce",
+              "answer": "소개하다"
+            },
+            {
+              "word": "lose",
+              "answer": "잃어버리다; 지다"
+            },
+            {
+              "word": "magazine",
+              "answer": "잡지"
+            },
+            {
+              "word": "move",
+              "answer": "이사하다; 움직이다"
+            },
+            {
+              "word": "sci-fi",
+              "answer": "공상 과학 소설의"
+            },
+            {
+              "word": "strongly",
+              "answer": "강(력)하게, 튼튼하게"
+            },
+            {
+              "word": "touching",
+              "answer": "감동적인(= moving)"
+            },
+            {
+              "word": "be interested in",
+              "answer": "~에 관심이 있다"
+            },
+            {
+              "word": "do volunteer work",
+              "answer": "자원봉사를 하다"
+            },
+            {
+              "word": "give it a try",
+              "answer": "시도하다, 한번 해 보다"
+            },
+            {
+              "word": "cry",
+              "answer": "울다"
+            },
+            {
+              "word": "catch",
+              "answer": "(붙)잡다; 받다"
+            },
+            {
+              "word": "whole",
+              "answer": "전체〔전부〕의, 모든"
+            },
+            {
+              "word": "lots〔a lot〕 of",
+              "answer": "많은"
+            },
+            {
+              "word": "respect",
+              "answer": "존경하다"
+            },
+            {
+              "word": "successful",
+              "answer": "성공한"
+            },
+            {
+              "word": "success",
+              "answer": "성공"
+            },
+            {
+              "word": "be born",
+              "answer": "태어나다"
+            },
+            {
+              "word": "die from",
+              "answer": "~로 죽다"
+            },
+            {
+              "word": "give away",
+              "answer": "나누어 주다, 거저 주다"
+            },
+            {
+              "word": "restaurant",
+              "answer": "식당"
+            },
+            {
+              "word": "dish",
+              "answer": "요리; 접시"
+            },
+            {
+              "word": "straight",
+              "answer": "연속된, 끊이지 않는"
+            },
+            {
+              "word": "loud",
+              "answer": "(소리가) 큰, 시끄러운"
+            },
+            {
+              "word": "die",
+              "answer": "죽다"
+            },
+            {
+              "word": "event",
+              "answer": "사건, 일; 행사"
+            },
+            {
+              "word": "meaning",
+              "answer": "의미, 뜻"
+            },
+            {
+              "word": "rest",
+              "answer": "(어떤 것의) 나머지"
+            },
+            {
+              "word": "return",
+              "answer": "돌아오다, 돌아가다"
+            },
+            {
+              "word": "shout",
+              "answer": "외치다, 소리치다"
+            },
+            {
+              "word": "situation",
+              "answer": "상황"
+            },
+            {
+              "word": "terrible",
+              "answer": "끔찍한, 참혹한"
+            },
+            {
+              "word": "at the invitation of",
+              "answer": "~의 초청으로"
+            },
+            {
+              "word": "for the rest of one’s life",
+              "answer": "~의 여생 동안"
+            },
+            {
+              "word": "share A with B",
+              "answer": "A를 B와 공유하다〔함께 쓰다〕"
+            },
+            {
+              "word": "similar to",
+              "answer": "~와 비슷한"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "~와 비슷한",
+              "answer": "similar to"
+            },
+            {
+              "ko": "의미, 뜻",
+              "answer": "meaning"
+            },
+            {
+              "ko": "식당",
+              "answer": "restaurant"
+            },
+            {
+              "ko": "외치다, 소리치다",
+              "answer": "shout"
+            },
+            {
+              "ko": "강(력)하게, 튼튼하게",
+              "answer": "strongly"
+            },
+            {
+              "ko": "전체〔전부〕의, 모든",
+              "answer": "whole"
+            },
+            {
+              "ko": "돌아오다, 돌아가다",
+              "answer": "return"
+            },
+            {
+              "ko": "(소리가) 큰, 시끄러운",
+              "answer": "loud"
+            },
+            {
+              "ko": "잡지",
+              "answer": "magazine"
+            },
+            {
+              "ko": "소개하다",
+              "answer": "introduce"
+            },
+            {
+              "ko": "많은",
+              "answer": "lots〔a lot〕 of"
+            },
+            {
+              "ko": "~의 초청으로",
+              "answer": "at the invitation of"
+            },
+            {
+              "ko": "~로 죽다",
+              "answer": "die from"
+            },
+            {
+              "ko": "자원봉사를 하다",
+              "answer": "do volunteer work"
+            },
+            {
+              "ko": "끔찍한, 참혹한",
+              "answer": "terrible"
+            },
+            {
+              "ko": "존경하다",
+              "answer": "respect"
+            },
+            {
+              "ko": "(어떤 것의) 나머지",
+              "answer": "rest"
+            },
+            {
+              "ko": "A를 B와 공유하다〔함께 쓰다〕",
+              "answer": "share A with B"
+            },
+            {
+              "ko": "울다",
+              "answer": "cry"
+            },
+            {
+              "ko": "성공",
+              "answer": "success"
+            },
+            {
+              "ko": "나누어 주다, 거저 주다",
+              "answer": "give away"
+            },
+            {
+              "ko": "(붙)잡다; 받다",
+              "answer": "catch"
+            },
+            {
+              "ko": "~의 여생 동안",
+              "answer": "for the rest of one’s life"
+            },
+            {
+              "ko": "상황",
+              "answer": "situation"
+            },
+            {
+              "ko": "죽다",
+              "answer": "die"
+            },
+            {
+              "ko": "공상 과학 소설의",
+              "answer": "sci-fi"
+            },
+            {
+              "ko": "잃어버리다; 지다",
+              "answer": "lose"
+            },
+            {
+              "ko": "에세이, 과제물",
+              "answer": "essay"
+            },
+            {
+              "ko": "사건, 일; 행사",
+              "answer": "event"
+            },
+            {
+              "ko": "~에 관심이 있다",
+              "answer": "be interested in"
+            },
+            {
+              "ko": "태어나다",
+              "answer": "be born"
+            },
+            {
+              "ko": "요리; 접시",
+              "answer": "dish"
+            },
+            {
+              "ko": "연속된, 끊이지 않는",
+              "answer": "straight"
+            },
+            {
+              "ko": "시도하다, 한번 해 보다",
+              "answer": "give it a try"
+            },
+            {
+              "ko": "이사하다; 움직이다",
+              "answer": "move"
+            },
+            {
+              "ko": "성공한",
+              "answer": "successful"
+            },
+            {
+              "ko": "감동적인(= moving)",
+              "answer": "touching"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "to stop living and become dead",
+              "ko": "~로 죽다",
+              "answer": "die from"
+            },
+            {
+              "def_en": "to stop living and become dead",
+              "ko": "죽다",
+              "answer": "die"
+            },
+            {
+              "def_en": "to say something very loudly",
+              "ko": "외치다, 소리치다",
+              "answer": "shout"
+            },
+            {
+              "def_en": "to have or use something with others",
+              "ko": "A를 B와 공유하다〔함께 쓰다〕",
+              "answer": "share A with B"
+            }
+          ]
+        }
+      ],
+      "n_words": 37,
+      "counts": {
+        "both": 74,
+        "def": 4
+      }
+    }
+  ]
+}

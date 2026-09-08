@@ -44,12 +44,16 @@
     {
       "word": "be well known for",
       "example_en": "Jeju Island is well known for its beautiful scenery.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "~로 잘 알려져 있다",
+      "ko_src": "리디튜드"
     },
     {
       "word": "behind",
       "example_en": "There is a small garden behind the school.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "~뒤에",
+      "ko_src": "학교(인쇄)"
     },
     {
       "word": "canvas",
@@ -75,7 +79,9 @@
     {
       "word": "closely",
       "example_en": "Look closely at the picture.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "자세히, 면밀히",
+      "ko_src": "리디튜드"
     },
     {
       "word": "clue",
@@ -101,7 +107,9 @@
     {
       "word": "example",
       "example_en": "This picture is a good example of modern art.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "예, 보기",
+      "ko_src": "리디튜드"
     },
     {
       "word": "figure",
@@ -170,7 +178,9 @@
     {
       "word": "nature",
       "example_en": "We should protect nature.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "자연",
+      "ko_src": "학교(인쇄)"
     },
     {
       "word": "opinion",
@@ -201,12 +211,16 @@
     {
       "word": "poor",
       "example_en": "The family was poor, but they were happy.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "가난한",
+      "ko_src": "리디튜드"
     },
     {
       "word": "present",
       "example_en": "We need to think about the present situation.",
-      "in_workbook_list": false
+      "in_workbook_list": false,
+      "ko": "현재의; 현재",
+      "ko_src": "리디튜드"
     },
     {
       "word": "represent",
@@ -275,5 +289,6 @@
   ],
   "source": "태장중2 L5 배부물 1쪽 «Worksheet 5-1 Words and Phrases» + 2쪽 «영영풀이»",
   "read_at": "2026-09-09",
-  "note": "2쪽 영영풀이 24개가 통째로 빠져 있던 것을 채웠다 (2026-09-09). 1쪽은 예문, 2쪽은 영영풀이라 서로 다른 정보다."
+  "note": "2쪽 영영풀이 24개가 통째로 빠져 있던 것을 채웠다 (2026-09-09). 1쪽은 예문, 2쪽은 영영풀이라 서로 다른 정보다.",
+  "ko_src_note": "1쪽 「뜻」 칸은 낱말마다 인쇄/손글씨가 갈린다. 손글씨는 학생 답이라 옮기지 않았다. 빈 자리 중 인쇄본이 있던 2개는 `학교(인쇄)`, 손글씨였던 5개는 일반 사전 뜻을 넣고 `리디튜드`로 표시했다. 학교가 정확히 무슨 뜻을 줬는지는 관측되지 않았다."
 }

@@ -43,6 +43,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from pypdf import PdfReader, PdfWriter                                # noqa: E402
 from tools.render_drill_tf import build                               # noqa: E402
+from tools.render_drill_vocab import build as build_vocab             # noqa: E402
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO             # noqa: E402
 
 try:
@@ -68,6 +69,15 @@ BOOKS = [
     ("en", "answers",   "4_2차_영어_정답지"),
 ]
 
+# 어휘는 우리말/영어 두 판이 없다 — 낱말은 한 번만 묻는다. 그래서 두 권이다.
+VOCAB_BOOKS = [
+    ("worksheet", "5_어휘_문제"),
+    ("answers",   "6_어휘_정답지"),
+]
+
+# 어휘 세트를 뽑는 순서. 학교가 많은 쪽(L5 세 학교)을 앞에 둔다.
+VOCAB_ORDER = ["태장_L5.vocab", "영덕_L5.vocab", "영덕_L6.vocab"]
+
 # 학습지를 뽑는 순서. 대화문 → Read More → 본문 → 외부지문.
 # 아이가 받는 차례이자 교과서 차례다. 파일명 사전순으로는 이 순서가 안 나온다.
 ORDER = [
@@ -90,6 +100,16 @@ def find_chrome():
     raise SystemExit("Chrome 을 못 찾았습니다. 경로를 CHROME 목록에 추가하십시오")
 
 
+def ordered_vocab():
+    have = {os.path.basename(p)[:-5]: p
+            for p in glob.glob(os.path.join(DRILLS, "*.vocab.json"))}
+    out = [have[n] for n in VOCAB_ORDER if n in have]
+    for k in sorted(k for k in have if k not in VOCAB_ORDER):
+        print(f"  ! VOCAB_ORDER 에 없어 뒤에 붙임: {k}")
+        out.append(have[k])
+    return out
+
+
 def ordered_drills():
     """ORDER 순으로 늘어놓고, 목록에 없는 파일은 뒤에 붙인다.
 
@@ -97,7 +117,8 @@ def ordered_drills():
     빠진 채로 인쇄되면 알아채기 어렵다.
     """
     have = {os.path.basename(p)[:-5]: p
-            for p in glob.glob(os.path.join(DRILLS, "*.json"))}
+            for p in glob.glob(os.path.join(DRILLS, "*.json"))
+            if not p.endswith(".vocab.json")}
     out, seen = [], set()
     for name in ORDER:
         if name in have:
@@ -146,6 +167,28 @@ def main():
                 pdf = os.path.join(tmp, f"{book}_{i:02d}.pdf")
                 with open(html, "w", encoding="utf-8") as f:
                     f.write(build(d, logo, lang, part))
+                to_pdf(chrome, html, pdf)
+                r = PdfReader(pdf)
+                for pg in r.pages:
+                    writer.add_page(pg)
+                n_set += 1
+                n_page += len(r.pages)
+            dest = os.path.join(a.out, f"{book}.pdf")
+            with open(dest, "wb") as f:
+                writer.write(f)
+            print(f"  {book:24} {n_set:>2}세트 · {n_page:>2}쪽  →  {dest}")
+
+        vocab = ordered_vocab()
+        for part, book in VOCAB_BOOKS:
+            writer = PdfWriter()
+            n_set = n_page = 0
+            for i, p in enumerate(vocab):
+                with open(p, encoding="utf-8") as f:
+                    d = json.load(f)
+                html = os.path.join(tmp, f"{book}_{i:02d}.html")
+                pdf = os.path.join(tmp, f"{book}_{i:02d}.pdf")
+                with open(html, "w", encoding="utf-8") as f:
+                    f.write(build_vocab(d, logo, part))
                 to_pdf(chrome, html, pdf)
                 r = PdfReader(pdf)
                 for pg in r.pages:
