@@ -32,7 +32,7 @@ except Exception:
     pass
 
 CSS = FONT + """
-@page { size: A4; margin: 13mm 12mm 12mm; }
+@page { size: A4; margin: 11mm 12mm 7mm; }
 body { font-family: Pretendard, 'Malgun Gothic', sans-serif; font-size: 10.5pt;
        line-height: 1.5; color: #111; }
 .logo { height: 10mm; margin-bottom: 1mm; }
@@ -82,7 +82,14 @@ ol.q.ans { column-count: 1; }
 ol.q.en { column-gap: 6mm; }
 ol.q.en li { font-size: 9pt; }
 .newpage { break-before: page; }
-.foot { font-size: 8.5pt; color: #889; margin-top: 5mm; }
+/* 「리디튜드 · 학원 내부 지도용」을 **꼬리말에서 머리말로 옮겼다.**
+
+   12세트를 한 권으로 묶어 보니 이 한 줄 때문에 장이 새로 생긴 세트가 셋 있었다.
+   아이 손에 거의 빈 종이가 한 장 더 가고 인쇄 사고처럼 보인다.
+   `height: 0` + `transform` 으로 지면을 안 차지하게 해 봤지만 소용없었다 —
+   Chrome 은 넘쳐 나온 글줄을 보고 그대로 장을 넘긴다.
+   흐름에서 빼는 수밖에 없어 이름칸 밑으로 보냈다. 머리말은 어차피 첫 장에 있다. */
+.mark { font-size: 7.5pt; color: #9aa3b0; text-align: right; margin-top: 1.2mm; }
 """
 
 
@@ -134,7 +141,7 @@ def numbered(sentences, breaks=None, turns=None, dialogue=False):
     return "".join(blocks)
 
 
-def build(d, logo, lang="ko"):
+def build(d, logo, lang="ko", part="both"):
     """lang: ko = 1차(한국어 진술) · en = 2차(영어 진술)
 
     원장 지시(2026-09-07): 한국어판을 먼저 보고 **1주일 뒤** 영어판을 다시 본다.
@@ -152,7 +159,8 @@ def build(d, logo, lang="ko"):
             f'<h1>{esc(unit)} — 내용 확인 <span class="round">{round_no}</span></h1>'
             f'<div class="sub" style="margin:0">읽고 맞으면 O, 틀리면 X 하시오. '
             f'· 총 {n}문항{para_note}</div></div>'
-            f'<div class="name">이름 ______________</div></div>')
+            f'<div><div class="name">이름 ______________</div>'
+            f'<div class="mark">리디튜드 · 학원 내부 지도용</div></div></div>')
 
     def tag(it):
         # 바꿔쓰기 문항만 표시한다. 내용 확인이 기본이라 굳이 이름을 안 붙인다.
@@ -168,8 +176,7 @@ def build(d, logo, lang="ko"):
 
     sheet = (head
              + f'<div class="passage">{numbered(d["sentences"], d.get("para_breaks"), d.get("turn_breaks"), d.get("kind") == "textbook_dialogue")}</div>'
-             + f'<ol class="q">{q}</ol>'
-             + '<div class="foot">리디튜드 · 학원 내부 지도용</div>')
+             + f'<ol class="q">{q}</ol>')
 
     def ans_body(it):
         """2차(영어)는 영어를 위에, 우리말을 아래에 둔다.
@@ -190,9 +197,16 @@ def build(d, logo, lang="ko"):
         f'<span class="ev">본문 {", ".join(map(str, it["evidence_sentences"]))}번 · '
         f'{esc(it["why_ko"])}</span></span></li>'
         for i, it in enumerate(items, 1))
-    ans = (f'<div class="newpage">{logo}<h1>{esc(unit)} — 정답 및 해설</h1>'
+    # 정답지를 따로 뽑을 때는 `newpage` 를 떼야 한다 — 첫 요소에 break-before 가
+    # 걸려 있으면 PDF 맨 앞에 빈 장이 하나 생긴다.
+    cls = "" if part == "answers" else ' class="newpage"'
+    ans = (f'<div{cls}>{logo}<h1>{esc(unit)} — 정답 및 해설</h1>'
            f'<div class="sub">강사용 별지. 학생에게 배부하지 마십시오.</div>'
            f'<ol class="q ans">{a}</ol></div>')
+    if part == "worksheet":
+        return f"<style>{CSS}</style>{sheet}"
+    if part == "answers":
+        return f"<style>{CSS}</style>{ans}"
     return f"<style>{CSS}</style>{sheet}{ans}"
 
 
@@ -202,18 +216,21 @@ def main():
     ap.add_argument("--out")
     ap.add_argument("--lang", choices=["ko", "en"], default="ko",
                     help="ko=1차(한국어) · en=2차(영어). 같은 문항의 두 판이다")
+    ap.add_argument("--part", choices=["both", "worksheet", "answers"], default="both",
+                    help="both=학습지+정답지 · worksheet=학습지만 · answers=정답지만")
     a = ap.parse_args()
 
     with open(a.drill, encoding="utf-8") as f:
         d = json.load(f)
-    suffix = ".en.html" if a.lang == "en" else ".html"
+    part = "" if a.part == "both" else f".{a.part}"
+    suffix = f"{part}.en.html" if a.lang == "en" else f"{part}.html"
     out = a.out or a.drill.replace(".json", suffix)
     n = len([x for x in d["items"] if x.get("statement_en")]) if a.lang == "en"         else len(d["items"])
     if a.lang == "en" and n == 0:
         raise SystemExit("영어 진술이 없습니다. 먼저 tools/make_drill_en.py 를 돌리십시오")
     with open(out, "w", encoding="utf-8") as f:
-        f.write(build(d, logo_tag(DEFAULT_LOGO), a.lang))
-    print(f"  {d['unit']} · {a.lang} · 문항 {n} · 지문 {len(d['sentences'])}문장")
+        f.write(build(d, logo_tag(DEFAULT_LOGO), a.lang, a.part))
+    print(f"  {d['unit']} · {a.lang} · {a.part} · 문항 {n} · 지문 {len(d['sentences'])}문장")
     print(f"  → {out}")
     return 0
 
