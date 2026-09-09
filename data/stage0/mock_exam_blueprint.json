@@ -1,0 +1,136 @@
+{
+  "_": "3층 동형 모의고사 설계도. 2026-2학기 중간 대비.",
+  "_근거": "data/stage0/comparisons/4개교_2026-1기말_문항분석.md (96문항 전수 분류)",
+  "_원칙": [
+    "구조는 그 학교 2026-1 기말을 그대로 따른다 — 문항 수·서술형 유무·배점.",
+    "어법을 담는 그릇이 학교마다 다르다. 포인트만 맞추고 형식을 하나로 가면 헛훈련이다.",
+    "범위는 네 학교 다 L5·L6 (영덕은 6과 먼저·5과 나중이지만 범위는 같다 · §11).",
+    "지문은 교과서 본문·대화문·Read More + 그 학교 외부지문만 쓴다."
+  ],
+  "_주의": [
+    "2026-1 기말은 범위가 L3~L4 였다. 구조는 이어지지만 포인트는 갈린다 —",
+    "「포인트는 단원이 바뀌면 갈리고, 형식·규칙은 이어진다」."
+  ],
+  "sets_per_school": 3,
+  "_sets_근거": "원장 2026-09-05: 「동형 모의고사를 2~3SET 정도 양질로」",
+
+  "schools": {
+    "영덕중": {
+      "students": 8,
+      "exam_date": "2026-10 둘째 주",
+      "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+      "total_points": 100,
+      "selective": 23,
+      "essay": 0,
+      "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+      "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+      "signature": [
+        "어순 배열 2문항 10점 (T-WORD-ORDER · 문항 4·20)",
+        "본문을 캠페인 포스터·광고 문구로 형식 전환 (문항 17·18)",
+        "본문 어휘를 창작 지문에 심음 (문항 9 My Money Plan)"
+      ],
+      "vocab_items": 2,
+      "vocab_points": 8,
+      "form_choice": 1,
+      "standalone": 2,
+      "standalone_points": 8,
+      "external_passages": ["Yu Gwansun", "Homer B. Hulbert"]
+    },
+    "영일중": {
+      "students": 4,
+      "exam_date": "2026-09-29",
+      "priority": "1순위 — 가장 이르고 학생 수 2위",
+      "total_points": 100,
+      "selective": 21,
+      "essay": 4,
+      "essay_points": 20,
+      "grammar_vessel": "교사 자작 단락 (교과서 밖 짧은 글)",
+      "vessel_note": "2026-1 문항 2·10·11·12. 본문을 그대로 쓰지 않는다",
+      "signature": [
+        "서술형에 **어법 포인트를 조건으로 지정**한다 — 예측 가능하다",
+        "논술1에 「제시문의 3단어 이상 연속 표현 사용 금지」 — 통암기 차단",
+        "외부지문을 낸다 (A girl with a red balloon)"
+      ],
+      "essay_rule": "필수 어휘 지정 + 단어 수 범위 + 노리는 어법 지정",
+      "essay_blueprint": [
+        {"필수어휘": "지정", "단어수": "9~11", "노리는 어법": "L5 목적격 관계대명사"},
+        {"필수어휘": "지정", "단어수": "3~5", "노리는 어법": "L5 used to 계열"},
+        {"필수어휘": "지정", "단어수": "6~8", "노리는 어법": "L6 지각동사+목적보어"},
+        {"필수어휘": "제시문 단어만", "단어수": "8~10", "노리는 어법": "L6 so ~ that"}
+      ],
+      "vocab_items": 2,
+      "vocab_points": 6,
+      "form_choice": 1,
+      "standalone": 0,
+      "external_passages": ["A girl with a red balloon"]
+    },
+    "청명중": {
+      "students": 1,
+      "exam_date": "2026-09-30",
+      "priority": "학생 1명이라 마지막. 다만 단문 나열 대비가 꼭 필요",
+      "total_points": 100,
+      "selective": 25,
+      "essay": 0,
+      "grammar_vessel": "단문 나열형 (문장 5개 나열)",
+      "vessel_note": "2026-1 문항 9·15·24·25 = 20점/100점. 우리가 반려했던 형식이다",
+      "signature": [
+        "**단문 나열형이 20점**이다. 네 학교 중 압도적으로 많다",
+        "설명문 + 대화문을 연결해 한 문항군으로 (문항 19~21)",
+        "본문 어휘를 창작 지문에 심음 (문항 18)"
+      ],
+      "vocab_items": 3,
+      "vocab_points": 9,
+      "form_choice": 1,
+      "standalone": 4,
+      "standalone_points": 20,
+      "external_passages": []
+    },
+    "태장중": {
+      "students": 2,
+      "exam_date": "2026-10-01",
+      "priority": "서술형이 있어 준비 시간이 든다",
+      "total_points": 100,
+      "selective": 19,
+      "essay": 4,
+      "essay_points": 20,
+      "grammar_vessel": "긴 외부지문",
+      "vessel_note": "2026-1 문항 11·15·18. 지문이 길고 밑줄이 여럿이다",
+      "signature": [
+        "서술형이 **단어 세트 + 단어 수 제한**이다 (어법 지정이 아니다)",
+        "지문 둘을 [A][B] 로 묶고 표로 대조 (문항 9~10)",
+        "본문을 에세이 형식으로 전환 (문항 14)"
+      ],
+      "essay_rule": "주어진 단어 전부 포함 + 단어 수 상한",
+      "essay_blueprint": [
+        {"조건": "완전한 한 문장 · 시제 변형 · 주어진 단어 전부 포함", "단어수": "제한 없음"},
+        {"조건": "지정 단어 포함", "단어수": "9단어 이하"},
+        {"조건": "지정 단어 포함", "단어수": "8단어 이하"},
+        {"조건": "본문 단어만", "단어수": "네 단어"}
+      ],
+      "vocab_items": 3,
+      "vocab_points": 12,
+      "form_choice": 1,
+      "standalone": 1,
+      "standalone_points": 4,
+      "external_passages": []
+    }
+  },
+
+  "common": {
+    "_": "네 학교가 예외 없이 내는 것. 2026-1 기말 관측.",
+    "always": [
+      {"code": "T-FORM-CHOICE", "note": "4개교가 딱 1문항씩. 원장 확인 2026-09-06"},
+      {"code": "T-VOCAB-CONTEXT", "note": "영영풀이. 4개교 합계 35점"}
+    ],
+    "range_2026_2": {
+      "L5": "목적격 관계대명사 (REL_OBJECT) + used to 계열 (VERB_USED_TO)",
+      "L6": "지각동사+목적보어 (PERCEPTION_VERB_OC) + so ~ that (SO_SUCH_TOO_ENOUGH)",
+      "note": "L6 는 축이 둘이다. 영덕 배부물 문법 6쪽 중 4쪽이 so~that"
+    },
+    "prep_in_essay": {
+      "note": "원장 2026-09-09: 「서술형에 문제로도 1개 정도는 출제 될 수 있어」",
+      "action": "조건 영작에 전치사를 묻는 자리를 넣는다. 굳어진 결합을 쓴다",
+      "examples": ["get off at ~ Station", "by subway", "In many people's opinion"]
+    }
+  }
+}
