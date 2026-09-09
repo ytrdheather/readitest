@@ -1,0 +1,438 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L6 본문 — Dr. Schofield",
+  "kind": "textbook_reading",
+  "parts": [
+    "Dr. Schofield, a Foreigner Who Loved Korea"
+  ],
+  "body": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "529c1249-05ad-4042-b1f2-73cec53fa2df",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 88,
+      "span_end": 114,
+      "correct": "a special favor to ask you",
+      "wrong": [
+        "a special favor to ask it you",
+        "a special favor for asking you"
+      ],
+      "why_ko": "명사 favor를 뒤에서 꾸미는 to부정사(형용사적 용법)로, ask의 목적어가 favor이므로 it을 또 쓰면 안 되고 for asking도 쓸 수 없어요.",
+      "rationale": "명사 favor를 뒤에서 수식하는 to부정사의 형용사적 용법. ask 뒤에 목적어(favor)를 중복해 'to ask it you'로 쓰거나 'for asking'으로 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 2,
+      "sentence": "A man: Dr. Schofield, I have a special favor to ask you."
+    },
+    {
+      "tag_id": "c8381a0a-7887-4e52-a43e-c9a5c012d186",
+      "point": "VERB_TENSE",
+      "span_start": 173,
+      "span_end": 201,
+      "correct": "are going to gather tomorrow",
+      "wrong": [
+        "are going to gathering tomorrow",
+        "gathered tomorrow"
+      ],
+      "why_ko": "tomorrow가 있으니 미래표현 be going to를 쓰고, to 뒤에는 동사원형이 와야 해요.",
+      "rationale": "tomorrow와 호응하는 미래 표현(be going to). 'are going to gathering' 또는 과거시제 'gathered'로 바꿔 시제·형태 오류를 심을 수 있다.",
+      "sentence_no": 4,
+      "sentence": "A man: Many people are going to gather tomorrow for the independence of Korea."
+    },
+    {
+      "tag_id": "595b98a9-4b12-4599-8739-6d42df19be6b",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 274,
+      "span_end": 299,
+      "correct": "share them with the world",
+      "wrong": [
+        "share them to the world",
+        "share them the world"
+      ],
+      "why_ko": "share A with B가 고정 표현이라 to로 바꾸거나 전치사를 빼면 안 돼요.",
+      "rationale": "share A with B 고정 결합. with를 to/for로 바꾸거나 전치사를 삭제(EI_PREP_DELETE)하는 전형적 출제 자리.",
+      "sentence_no": 5,
+      "sentence": "Could you take pictures of the event and share them with the world?"
+    },
+    {
+      "tag_id": "8e9a3587-1113-469f-ac5c-be0dfb8ff48d",
+      "point": "PREP_USAGE",
+      "span_start": 301,
+      "span_end": 321,
+      "correct": "At 2 p.m. on March 1",
+      "wrong": [
+        "On 2 p.m. at March 1",
+        "At 2 p.m. in March 1"
+      ],
+      "why_ko": "시각 앞에는 at, 특정 날짜 앞에는 on을 써요.",
+      "rationale": "시각에는 at, 특정 날짜에는 on. in/at/on을 뒤섞은 빈칸 선지로 만들기 쉬운 자리.",
+      "sentence_no": 6,
+      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside."
+    },
+    {
+      "tag_id": "c35cca41-34e7-46df-a11f-9deda7348e3f",
+      "point": "CONJ_PARALLEL",
+      "span_start": 337,
+      "span_end": 369,
+      "correct": "was hiding in a building and saw",
+      "wrong": [
+        "was hiding in a building and seeing",
+        "was hiding in a building and sees"
+      ],
+      "why_ko": "and로 연결된 두 동사는 형태·시제를 맞춰야 하므로 과거형 saw가 맞아요.",
+      "rationale": "and로 두 술어(was hiding / saw)가 병렬. 'and seeing' 또는 'and sees'로 병렬을 깨는 오류를 심을 수 있다.",
+      "sentence_no": 6,
+      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside."
+    },
+    {
+      "tag_id": "ab1bf4ef-c077-4050-826b-55b919ed41a1",
+      "point": "PERCEPTION_VERB_OC",
+      "span_start": 366,
+      "span_end": 411,
+      "correct": "saw a large group of people gathering outside",
+      "wrong": [
+        "saw a large group of people gathered outside",
+        "saw a large group of people to gather outside"
+      ],
+      "why_ko": "지각동사 saw 뒤 목적어가 스스로 모이는 중이므로 현재분사 gathering을 써요.",
+      "rationale": "지각동사 saw + 목적어 + 현재분사(능동·진행). gathered(과거분사) / to gather 와 구별시키는 고빈도 출제 자리.",
+      "sentence_no": 6,
+      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside."
+    },
+    {
+      "tag_id": "fd4b98cc-e54c-442c-9140-c95cc5f8e50a",
+      "point": "VERB_SVA",
+      "span_start": 469,
+      "span_end": 498,
+      "correct": "There are so many people here",
+      "wrong": [
+        "There is so many people here",
+        "There be so many people here"
+      ],
+      "why_ko": "There be 구문은 뒤에 오는 명사에 수를 맞추는데 people이 복수라 are예요.",
+      "rationale": "There + be 구문의 수일치. 뒤의 복수 people에 맞춰 are. 'There is so many people'로 수일치 오류를 심는 자리.",
+      "sentence_no": 9,
+      "sentence": "There are so many people here."
+    },
+    {
+      "tag_id": "ba8daa03-0aa2-4902-a94b-b5650c9a4911",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 500,
+      "span_end": 527,
+      "correct": "I hope the world will learn",
+      "wrong": [
+        "I hope what the world will learn",
+        "I hope the world will learning"
+      ],
+      "why_ko": "hope 뒤 목적어절은 완전한 문장이라 that(생략 가능)을 쓰고 what은 쓸 수 없어요.",
+      "rationale": "hope의 목적어절에서 접속사 that이 생략된 형태. that/what 구별 또는 접속사 삽입 여부를 묻기 쉽다.",
+      "sentence_no": 10,
+      "sentence": "I hope the world will learn about this important event through my pictures."
+    },
+    {
+      "tag_id": "4eaa37fe-897b-4f3f-b265-782da8a5c814",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 671,
+      "span_end": 706,
+      "correct": "It sounded similar to his real name",
+      "wrong": [
+        "It sounded similarly to his real name",
+        "It was sounded similar to his real name"
+      ],
+      "why_ko": "감각동사 sound 뒤에는 부사가 아니라 형용사 보어가 와요.",
+      "rationale": "감각동사 sound 뒤에는 형용사 보어. similarly(부사)로 바꾸는 EI_ADJ_TO_ADV 오류가 거의 확실히 출제되는 자리.",
+      "sentence_no": 13,
+      "sentence": "It sounded similar to his real name, and it also had a good meaning."
+    },
+    {
+      "tag_id": "a05059aa-53d7-4c90-82ac-2fa49a54cbd4",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 790,
+      "span_end": 829,
+      "correct": "came to Korea in 1916 to teach medicine",
+      "wrong": [
+        "came to Korea in 1916 for teaching medicine",
+        "came to Korea in 1916 teaching medicine"
+      ],
+      "why_ko": "'가르치기 위해'라는 목적은 to부정사로 나타내요.",
+      "rationale": "'가르치기 위해'라는 목적을 나타내는 부사적 용법. for teaching / teaching 으로 바꾸거나 다른 to부정사와 용법 구별을 묻는 자리.",
+      "sentence_no": 14,
+      "sentence": "Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine."
+    },
+    {
+      "tag_id": "c6865667-57cd-4ccd-b69b-8963e9d40d26",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 831,
+      "span_end": 859,
+      "correct": "He wanted to teach in Korean",
+      "wrong": [
+        "He wanted teaching in Korean",
+        "He wanted teach in Korean"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 취해요.",
+      "rationale": "want는 목적어로 to부정사만 취한다. 'wanted teaching'으로 바꾸는 EI_VERB_COMPLEMENT 오류 유도 자리.",
+      "sentence_no": 15,
+      "sentence": "He wanted to teach in Korean, so he began to learn Korean right away."
+    },
+    {
+      "tag_id": "230096cb-2827-42ef-bc07-43e925929b46",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 912,
+      "span_end": 945,
+      "correct": "so hard that he was able to teach",
+      "wrong": [
+        "too hard that he was able to teach",
+        "such hard that he was able to teach"
+      ],
+      "why_ko": "so+부사+that은 '너무 ~해서 …하다'라는 결과 구문이고, too/such는 이 자리에 못 써요.",
+      "rationale": "so + 부사 + that 결과절 구문. such/too/enough로 바꾸거나 'too hard that'으로 만드는 오류, 어순 배열 문제로도 자주 나온다.",
+      "sentence_no": 16,
+      "sentence": "He studied so hard that he was able to teach in Korean after only a few years."
+    },
+    {
+      "tag_id": "8b343690-0d50-45aa-b7ac-19911f4ecd6e",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 983,
+      "span_end": 996,
+      "correct": "believed that",
+      "wrong": [
+        "believed what",
+        "believed which"
+      ],
+      "why_ko": "뒤에 완전한 문장이 오므로 명사절 접속사 that을 써요.",
+      "rationale": "believe의 목적어인 명사절 접속사 that. what으로 바꾸면 뒤 절이 완전하므로 오류가 되는 REL_WHAT_VS_THAT 유형 선지로 변형 가능.",
+      "sentence_no": 17,
+      "sentence": "He believed that every country has the right to be independent, so he helped the Korean independence movement."
+    },
+    {
+      "tag_id": "989af48d-191f-4d51-94cd-860c055e6f5c",
+      "point": "VERB_SVA",
+      "span_start": 997,
+      "span_end": 1014,
+      "correct": "every country has",
+      "wrong": [
+        "every country have",
+        "every countries have"
+      ],
+      "why_ko": "every + 단수명사는 단수 취급이라 has를 써요.",
+      "rationale": "every + 단수명사는 단수 취급. 'every country have'로 수일치를 깨는 전형적 오답 선지 자리.",
+      "sentence_no": 17,
+      "sentence": "He believed that every country has the right to be independent, so he helped the Korean independence movement."
+    },
+    {
+      "tag_id": "3e325e64-7867-4be4-9e98-e760ad14db8c",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 1015,
+      "span_end": 1042,
+      "correct": "the right to be independent",
+      "wrong": [
+        "the right being independent",
+        "the right of be independent"
+      ],
+      "why_ko": "명사 right를 뒤에서 꾸밀 때는 to부정사를 써요.",
+      "rationale": "명사 right를 수식하는 형용사적 용법. 'the right being independent' / 'the right of be independent'로 형태 오류를 심을 수 있다.",
+      "sentence_no": 17,
+      "sentence": "He believed that every country has the right to be independent, so he helped the Korean independence movement."
+    },
+    {
+      "tag_id": "02158e34-8023-4d78-a6db-fb683cbd2bf0",
+      "point": "PERCEPTION_VERB_OC",
+      "span_start": 1123,
+      "span_end": 1168,
+      "correct": "heard people shouting for Korean independence",
+      "wrong": [
+        "heard people shouted for Korean independence",
+        "heard people to shout for Korean independence"
+      ],
+      "why_ko": "지각동사 heard 뒤에는 목적격보어로 현재분사(또는 동사원형)를 쓰고 to부정사는 못 써요.",
+      "rationale": "지각동사 heard + 목적어 + 현재분사. shouted / to shout 과 구별. 6번 문장과 함께 짝지어 출제되기 쉽다.",
+      "sentence_no": 18,
+      "sentence": "On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park."
+    },
+    {
+      "tag_id": "ea38be42-60e7-4365-a245-e7f309b28449",
+      "point": "PREP_USAGE",
+      "span_start": 1215,
+      "span_end": 1230,
+      "correct": "with his camera",
+      "wrong": [
+        "by his camera",
+        "in his camera"
+      ],
+      "why_ko": "도구·수단을 나타낼 때는 with를 써요.",
+      "rationale": "수단·도구를 나타내는 with. by/in으로 바꾼 빈칸 선지가 흔하고, 전치사 삭제로도 변형된다.",
+      "sentence_no": 19,
+      "sentence": "He took pictures of the event with his camera."
+    },
+    {
+      "tag_id": "09f5fa00-f559-4f11-9bdf-8584c5950fb2",
+      "point": "CONJ_PARALLEL",
+      "span_start": 1240,
+      "span_end": 1293,
+      "correct": "wrote an article about the historic event and sent it",
+      "wrong": [
+        "wrote an article about the historic event and sending it",
+        "wrote an article about the historic event and sends it"
+      ],
+      "why_ko": "and로 연결된 동사는 앞의 wrote와 같은 과거형 sent로 맞춰야 해요.",
+      "rationale": "and로 과거시제 동사 두 개(wrote / sent)가 병렬. 'and sending it'으로 병렬을 깨는 오류를 심는 자리.",
+      "sentence_no": 20,
+      "sentence": "He then wrote an article about the historic event and sent it to foreign newspapers with his pictures."
+    },
+    {
+      "tag_id": "389ee28d-9096-49f5-b2d5-4bc0261519f3",
+      "point": "SVOO_DATIVE",
+      "span_start": 1286,
+      "span_end": 1315,
+      "correct": "sent it to foreign newspapers",
+      "wrong": [
+        "sent it foreign newspapers",
+        "sent foreign newspapers it"
+      ],
+      "why_ko": "직접목적어(it)를 먼저 쓰면 반드시 to를 붙여 to+사람(대상) 순으로 써요.",
+      "rationale": "send의 3형식(직접목적어 + to + 간접목적어) 형태. to 삭제나 'sent foreign newspapers it' 같은 어순 오류로 변형 가능.",
+      "sentence_no": 20,
+      "sentence": "He then wrote an article about the historic event and sent it to foreign newspapers with his pictures."
+    },
+    {
+      "tag_id": "dac8fb1a-5d56-4982-acb9-a424abbde02d",
+      "point": "VERB_SVA",
+      "span_start": 1351,
+      "span_end": 1392,
+      "correct": "fight for Korean independence didn’t stop",
+      "wrong": [
+        "fight for Korean independence weren’t stop",
+        "fight for Korean independence don’t stop"
+      ],
+      "why_ko": "주어는 단수 fight이고 과거 이야기라 didn't가 맞아요.",
+      "rationale": "주어는 단수 fight이고 for Korean independence는 수식어구. 'didn't'를 'weren't/don't'로 바꾸는 수일치·시제 오류 유도 자리.",
+      "sentence_no": 21,
+      "sentence": "Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement."
+    },
+    {
+      "tag_id": "72ad98c4-d131-4b4c-b9ca-3861feba9b47",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1381,
+      "span_end": 1403,
+      "correct": "didn’t stop even after",
+      "wrong": [
+        "wasn’t stopped even after",
+        "didn’t stopped even after"
+      ],
+      "why_ko": "여기서 stop은 목적어가 없는 자동사라 수동태가 안 되고, didn't 뒤엔 동사원형이 와요.",
+      "rationale": "여기서 stop은 목적어가 없는 자동사이므로 수동태 불가. 'wasn't stopped'처럼 자동사를 수동태로 만든 선지가 함정으로 쓰인다.",
+      "sentence_no": 21,
+      "sentence": "Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement."
+    },
+    {
+      "tag_id": "1d528d86-7aca-4a02-acb4-9a3bf56b64a2",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 1431,
+      "span_end": 1455,
+      "correct": "continued to write about",
+      "wrong": [
+        "continued write about",
+        "continued to writing about"
+      ],
+      "why_ko": "continue 뒤에는 to부정사(또는 동명사)가 오고, to 뒤엔 동사원형을 써요.",
+      "rationale": "continue는 to부정사·동명사 모두 가능하지만 'continued write'처럼 원형을 쓰는 오류를 심을 수 있는 자리.",
+      "sentence_no": 22,
+      "sentence": "He continued to write about the terrible situation in Korea for foreign newspapers."
+    },
+    {
+      "tag_id": "42411da8-09d5-44f1-8c7b-7b8e3d49c287",
+      "point": "PREP_USAGE",
+      "span_start": 1515,
+      "span_end": 1544,
+      "correct": "was under the watchful eye of",
+      "wrong": [
+        "was in the watchful eye of",
+        "was on the watchful eye of"
+      ],
+      "why_ko": "'감시를 받다'는 under the watchful eye of로 굳어진 표현이에요.",
+      "rationale": "'감시를 받는' 뜻의 굳어진 표현 under the watchful eye of. under를 in/on으로 바꾼 빈칸이 만들어지기 쉽다.",
+      "sentence_no": 23,
+      "sentence": "He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920."
+    },
+    {
+      "tag_id": "02b1ce2b-2e9a-402d-a99a-4e9f4828c48c",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 1569,
+      "span_end": 1596,
+      "correct": "he had to go back to Canada",
+      "wrong": [
+        "he musted to go back to Canada",
+        "he had to went back to Canada"
+      ],
+      "why_ko": "must는 과거형이 없어 had to를 쓰고, to 뒤에는 동사원형이 와요.",
+      "rationale": "과거의 의무·불가피함은 had to. must의 과거형이 없다는 점을 이용해 'musted to go' / 'had to went'로 오류를 심는 자리.",
+      "sentence_no": 23,
+      "sentence": "He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920."
+    },
+    {
+      "tag_id": "fae181e9-a0c3-4bcc-80d4-33c1c56dbf1b",
+      "point": "PREP_USAGE",
+      "span_start": 1636,
+      "span_end": 1678,
+      "correct": "at the invitation of the Korean government",
+      "wrong": [
+        "in the invitation of the Korean government",
+        "on the invitation of the Korean government"
+      ],
+      "why_ko": "'~의 초청으로'는 at the invitation of로 정해진 표현이에요.",
+      "rationale": "굳어진 부사구 at the invitation of(~의 초청으로). 뜻이 통째로 외워져 전치사를 놓치기 쉬워 in/on/by 로 바꾼 빈칸 선지가 자주 나온다.",
+      "sentence_no": 24,
+      "sentence": "In 1958, he returned to Korea at the invitation of the Korean government and never left again."
+    },
+    {
+      "tag_id": "978a029d-4509-4771-ae06-d3506ff4e004",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 1727,
+      "span_end": 1757,
+      "correct": "he worked hard to help Koreans",
+      "wrong": [
+        "he worked hardly to help Koreans",
+        "he worked hardly to helping Koreans"
+      ],
+      "why_ko": "hard는 '열심히', hardly는 '거의 ~않다'라 뜻이 정반대가 돼요.",
+      "rationale": "hard(열심히)와 hardly(거의 ~않다)의 구별. 'worked hardly'로 바꾸면 의미가 정반대가 되는 고빈도 출제 자리.",
+      "sentence_no": 25,
+      "sentence": "For the rest of his life, he worked hard to help Koreans, especially poor students."
+    },
+    {
+      "tag_id": "35f9c7c7-5411-4f8d-91a3-770cd058f847",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1799,
+      "span_end": 1817,
+      "correct": "died in April 1970",
+      "wrong": [
+        "was died in April 1970",
+        "was dying in April 1970"
+      ],
+      "why_ko": "die는 자동사라 수동태(was died)로 쓸 수 없어요.",
+      "rationale": "die는 목적어를 갖지 않는 자동사여서 수동태가 불가능하다. 'was died'로 만든 선지가 전형적 함정.",
+      "sentence_no": 26,
+      "sentence": "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "tag_id": "05eeb932-2290-473d-9d94-f37908904d8b",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1823,
+      "span_end": 1863,
+      "correct": "he was buried in Seoul National Cemetery",
+      "wrong": [
+        "he buried in Seoul National Cemetery",
+        "he was burying in Seoul National Cemetery"
+      ],
+      "why_ko": "그는 묻힌 대상이므로 수동태 be + p.p.인 was buried를 써요.",
+      "rationale": "주어가 '묻힌' 대상이므로 수동태(be + p.p.). 'he buried' 또는 'was burying'으로 태·형태 오류를 심는 자리로, 앞의 died(능동)와 대조되어 함께 출제되기 쉽다.",
+      "sentence_no": 26,
+      "sentence": "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    }
+  ],
+  "diagnostics": {
+    "returned": 28,
+    "kept": 28,
+    "given": 28,
+    "rejects": []
+  }
+}

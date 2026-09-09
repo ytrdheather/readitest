@@ -1,0 +1,410 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L5 대화 ①②③ — 길 묻고 답하기",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "L5 대화-1",
+    "L5 대화-2",
+    "L5 대화-3"
+  ],
+  "body": "B: Excuse me, how can I get to the Star Stadium?\nG: You can get there by subway. Take line 4, the green line, and get off at Hangang Station.\nB: Line 4 and Hangang Station. Got it. How long will it take?\nG: A little more than 30 minutes.\nB: I’m sorry, but how can I get to the Sky Cinema?\nG: It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?\nB: OK. How long will it take?\nG: By taxi? About 20 minutes.\nG: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "99985765-d052-4cae-aba3-634546fe12fd",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 14,
+      "span_end": 47,
+      "correct": "how can I get to the Star Stadium",
+      "wrong": [
+        "how can I get the Star Stadium",
+        "how can I get in the Star Stadium"
+      ],
+      "why_ko": "'~에 도착하다'는 get to + 장소로 굳어진 표현이라 to를 빼거나 in으로 바꾸면 틀립니다.",
+      "rationale": "get to + 장소 = ~에 도착하다. get 뒤 전치사 to 삭제(EI_PREP_DELETE)나 get in/at 오답 유도 가능. 목적지 앞 to가 빈칸으로 뚫리기 쉬운 자리",
+      "sentence_no": 1,
+      "sentence": "B: Excuse me, how can I get to the Star Stadium?"
+    },
+    {
+      "tag_id": "6361af34-cd3c-4dcc-bbe6-62d857d20779",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 52,
+      "span_end": 69,
+      "correct": "You can get there",
+      "wrong": [
+        "You can to get there",
+        "You can get to there"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형이 오고, there는 부사라서 앞에 to를 쓰지 않습니다.",
+      "rationale": "가능·방법을 알려주는 can + 동사원형. can to get / can gets 오류, 또한 there 앞 전치사 to 삽입(get to there) 오류 유도",
+      "sentence_no": 2,
+      "sentence": "G: You can get there by subway."
+    },
+    {
+      "tag_id": "40c62c7d-b603-4ec0-8246-d9a54a6259a4",
+      "point": "PREP_USAGE",
+      "span_start": 70,
+      "span_end": 79,
+      "correct": "by subway",
+      "wrong": [
+        "by a subway",
+        "with subway"
+      ],
+      "why_ko": "교통수단은 by + 관사 없는 명사로 씁니다.",
+      "rationale": "교통수단을 나타내는 by + 무관사 명사. by a subway / with subway / on subway 오답 유도. 빈칸 출제 최빈 자리",
+      "sentence_no": 2,
+      "sentence": "G: You can get there by subway."
+    },
+    {
+      "tag_id": "60849b4d-0e2f-4986-be85-e672638bcf6e",
+      "point": "CONJ_PARALLEL",
+      "span_start": 81,
+      "span_end": 121,
+      "correct": "Take line 4, the green line, and get off",
+      "wrong": [
+        "Take line 4, the green line, and getting off",
+        "Take line 4, the green line, and gets off"
+      ],
+      "why_ko": "and로 이어진 두 명령문이라 뒤에도 동사원형 get off가 와야 합니다.",
+      "rationale": "명령문 두 개(Take ~ and get off ~)의 병렬. and 뒤를 getting off / gets off 로 바꾸면 병렬 파괴",
+      "sentence_no": 3,
+      "sentence": "Take line 4, the green line, and get off at Hangang Station."
+    },
+    {
+      "tag_id": "fe9bf40a-891c-4010-b431-2e280ace75b9",
+      "point": "PREP_USAGE",
+      "span_start": 114,
+      "span_end": 140,
+      "correct": "get off at Hangang Station",
+      "wrong": [
+        "get off in Hangang Station",
+        "get off to Hangang Station"
+      ],
+      "why_ko": "역·정류장 같은 지점에는 전치사 at을 씁니다.",
+      "rationale": "역·지점을 나타내는 at. get off in/on/to Hangang Station 오답 유도, at 삭제도 가능",
+      "sentence_no": 3,
+      "sentence": "Take line 4, the green line, and get off at Hangang Station."
+    },
+    {
+      "tag_id": "823487d8-b833-4101-bc7e-7e872ef1889b",
+      "point": "IT_CLEFT",
+      "span_start": 181,
+      "span_end": 202,
+      "correct": "How long will it take",
+      "wrong": [
+        "How long will that take",
+        "How long will take"
+      ],
+      "why_ko": "시간이 걸린다고 말할 때는 비인칭 주어 it을 쓰고, 주어를 빼면 안 됩니다.",
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it. does it take/is it take 등 형태 혼동 및 it 대신 that 사용 오류 유도",
+      "sentence_no": 6,
+      "sentence": "How long will it take?"
+    },
+    {
+      "tag_id": "4d29a285-7208-48eb-a967-0f61577d605b",
+      "point": "VERB_TENSE",
+      "span_start": 190,
+      "span_end": 202,
+      "correct": "will it take",
+      "wrong": [
+        "will it takes",
+        "will it took"
+      ],
+      "why_ko": "조동사 will 뒤에는 항상 동사원형 take가 옵니다.",
+      "rationale": "미래 소요 시간을 묻는 will + 동사원형. will it takes / will it took 형태 오류 유도",
+      "sentence_no": 6,
+      "sentence": "How long will it take?"
+    },
+    {
+      "tag_id": "f3845d11-4ba6-430c-a618-18efc667657d",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 207,
+      "span_end": 236,
+      "correct": "A little more than 30 minutes",
+      "wrong": [
+        "A few more than 30 minutes",
+        "Very more than 30 minutes"
+      ],
+      "why_ko": "비교급 more는 a little/much로 강조하고, a few나 very로는 수식할 수 없습니다.",
+      "rationale": "비교급 more than 앞의 강조 부사 a little. much/a few/very 등과 구별하며 비교급 수식 부사 출제 자리",
+      "sentence_no": 7,
+      "sentence": "G: A little more than 30 minutes."
+    },
+    {
+      "tag_id": "d362fc18-9450-47e6-9c5d-58a3f8f9fdda",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 256,
+      "span_end": 287,
+      "correct": "how can I get to the Sky Cinema",
+      "wrong": [
+        "how can I get the Sky Cinema",
+        "how can I get on the Sky Cinema"
+      ],
+      "why_ko": "장소에 도착한다는 뜻은 get to로 쓰며 to를 빼거나 on으로 바꾸면 틀립니다.",
+      "rationale": "길 묻기 관용표현 'get to + 장소(~에 도착하다)'. get on / get in / get 뒤 전치사 삭제(EI_PREP_DELETE)로 오류를 심을 수 있는 자리이며 빈칸으로 가장 자주 뚫린다.",
+      "sentence_no": 8,
+      "sentence": "B: I’m sorry, but how can I get to the Sky Cinema?"
+    },
+    {
+      "tag_id": "111c0428-3bc5-4344-a1c6-6f0edca1167d",
+      "point": "IT_CLEFT",
+      "span_start": 292,
+      "span_end": 304,
+      "correct": "It’s not far",
+      "wrong": [
+        "There is not far",
+        "That’s not far"
+      ],
+      "why_ko": "거리를 말할 때는 비인칭 주어 it을 씁니다.",
+      "rationale": "거리를 나타내는 비인칭 주어 it. 'There is not far' 나 'That's not far' 같은 오류 유도 가능. 비인칭 it 용법 구별(T-GRAMMAR-USAGE) 소재.",
+      "sentence_no": 9,
+      "sentence": "G: It’s not far, but it’s a little difficult to find."
+    },
+    {
+      "tag_id": "5629d59a-4832-4bc1-95c6-5ebf772952f0",
+      "point": "IT_CLEFT",
+      "span_start": 310,
+      "span_end": 341,
+      "correct": "it’s a little difficult to find",
+      "wrong": [
+        "is a little difficult to find",
+        "to find it’s a little difficult"
+      ],
+      "why_ko": "to부정사가 진주어일 때 가주어 it을 앞에 두어야 합니다.",
+      "rationale": "가주어 it + 형용사 + 진주어 to부정사 구문. 'to find it is difficult' 어순 변형이나 가주어 삭제로 물을 수 있다.",
+      "sentence_no": 9,
+      "sentence": "G: It’s not far, but it’s a little difficult to find."
+    },
+    {
+      "tag_id": "b781a035-fdbd-4f51-a26d-76d56486e278",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 315,
+      "span_end": 333,
+      "correct": "a little difficult",
+      "wrong": [
+        "a few difficult",
+        "a little difficultly"
+      ],
+      "why_ko": "형용사 difficult는 a little로 수식하며, a few는 셀 수 있는 명사에 씁니다.",
+      "rationale": "형용사 difficult를 수식하는 부사구 a little. 'a few difficult' 또는 'little difficultly' 처럼 수식어·품사 교체(EI_ADJ_TO_ADV)로 오류를 심을 수 있다.",
+      "sentence_no": 9,
+      "sentence": "G: It’s not far, but it’s a little difficult to find."
+    },
+    {
+      "tag_id": "7eec556e-8da2-4c5f-af61-122df04157fa",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 324,
+      "span_end": 341,
+      "correct": "difficult to find",
+      "wrong": [
+        "difficult finding",
+        "difficult for find"
+      ],
+      "why_ko": "형용사 뒤에서 '~하기에'를 나타낼 때는 to부정사를 씁니다.",
+      "rationale": "형용사를 한정하는 to부정사(부사적 용법). finding / found / for find 등 준동사 형태 오류(EI_NONFIN_FORM)로 오답 선지를 만들기 쉽다.",
+      "sentence_no": 9,
+      "sentence": "G: It’s not far, but it’s a little difficult to find."
+    },
+    {
+      "tag_id": "3d56c423-c521-4408-9226-2588043b96cb",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 343,
+      "span_end": 361,
+      "correct": "Why don’t you take",
+      "wrong": [
+        "Why don’t you taking",
+        "Why you don’t take"
+      ],
+      "why_ko": "Why don't you 뒤에는 동사원형이 오고 어순도 don't you로 고정입니다.",
+      "rationale": "제안 표현 Why don't you + 동사원형. taking / to take / takes 로 바꾸거나 'Why you don't take' 어순 오류를 심을 수 있는 대표적 배열·오류수정 자리.",
+      "sentence_no": 10,
+      "sentence": "Why don’t you take a taxi?"
+    },
+    {
+      "tag_id": "1c07af97-f2c5-43ca-a658-af4fa959b88d",
+      "point": "IT_CLEFT",
+      "span_start": 377,
+      "span_end": 398,
+      "correct": "How long will it take",
+      "wrong": [
+        "How long will it takes",
+        "How long it will take"
+      ],
+      "why_ko": "will 뒤 동사원형이 오고, 의문문이므로 will it 어순이어야 합니다.",
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it + take. 'How long will it takes' 처럼 조동사 뒤 동사형 오류나 'How long does it take' 시제 변형으로 출제된다.",
+      "sentence_no": 12,
+      "sentence": "How long will it take?"
+    },
+    {
+      "tag_id": "25072360-4f71-480b-ba05-5cacb6bda722",
+      "point": "PREP_USAGE",
+      "span_start": 403,
+      "span_end": 410,
+      "correct": "By taxi",
+      "wrong": [
+        "By a taxi",
+        "With taxi"
+      ],
+      "why_ko": "교통수단은 by + 무관사 명사로 씁니다.",
+      "rationale": "교통수단을 나타내는 전치사 by (무관사). With taxi / By a taxi / On taxi 로 바꾼 오답 선지를 만들 수 있는 전치사 빈칸 자리.",
+      "sentence_no": 13,
+      "sentence": "G: By taxi?"
+    },
+    {
+      "tag_id": "fe9a3882-5c50-4a01-be8d-9ce619d5232b",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 469,
+      "span_end": 475,
+      "correct": "get to",
+      "wrong": [
+        "get in",
+        "get for"
+      ],
+      "why_ko": "'~에 도착하다'는 get to로 굳어진 표현입니다.",
+      "rationale": "'~에 도착하다'는 get to + 장소로 굳어진 결합. get in / get for / get 무전치사(get the mall)로 바꿔 오답을 유도할 수 있는 자리. 전치사 삭제(EI_PREP_DELETE)도 그대로 걸린다.",
+      "sentence_no": 17,
+      "sentence": "How can I get to the Dream Shopping Mall from here?"
+    },
+    {
+      "tag_id": "2972f5d1-c5d3-44a5-b819-21e07a49c670",
+      "point": "PREP_USAGE",
+      "span_start": 500,
+      "span_end": 509,
+      "correct": "from here",
+      "wrong": [
+        "at here",
+        "to here"
+      ],
+      "why_ko": "출발점을 나타낼 때는 from을 씁니다.",
+      "rationale": "출발점을 나타내는 from. 'in here / at here / to here'로 교체하거나 빈칸으로 뚫기 가장 쉬운 자리. 굳어진 부사구라 눈에 안 들어오기 쉽다.",
+      "sentence_no": 17,
+      "sentence": "How can I get to the Dream Shopping Mall from here?"
+    },
+    {
+      "tag_id": "7ae0642e-5eec-46d3-9cca-fbb9b521919a",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 511,
+      "span_end": 521,
+      "correct": "Can I walk",
+      "wrong": [
+        "Can I walking",
+        "Can I to walk"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형이 옵니다.",
+      "rationale": "가능·허가를 묻는 조동사 can + 동사원형. 'Can I walking / Can I to walk' 형태 오류, 또는 must/have to와의 의미 구별로 출제 가능.",
+      "sentence_no": 18,
+      "sentence": "Can I walk?"
+    },
+    {
+      "tag_id": "454f986d-8995-47bc-bcb4-d194ea780cf4",
+      "point": "PRON_AGREEMENT",
+      "span_start": 539,
+      "span_end": 543,
+      "correct": "it’s",
+      "wrong": [
+        "its",
+        "it"
+      ],
+      "why_ko": "'그것은 ~이다'는 it is의 축약형 it's이고 its는 소유격입니다.",
+      "rationale": "it is의 축약형 it's. 소유격 its로 바꿔 쓰는 대표적 함정(its a little far). 거리를 나타내는 비인칭 it이라는 점도 함께 물을 수 있다.",
+      "sentence_no": 19,
+      "sentence": "G: You can, but it’s a little far."
+    },
+    {
+      "tag_id": "724df9b1-7600-4ce6-8fe2-a0a36e7e8a53",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 544,
+      "span_end": 556,
+      "correct": "a little far",
+      "wrong": [
+        "a few far",
+        "a little farly"
+      ],
+      "why_ko": "형용사 far는 a little이 수식하며, a few는 셀 수 있는 명사에 씁니다.",
+      "rationale": "정도부사 a little이 형용사 far를 수식. 'a few far'(셀 수 있는 명사용)나 'a little farly'처럼 부사·수량표현 혼동을 유도하는 자리.",
+      "sentence_no": 19,
+      "sentence": "G: You can, but it’s a little far."
+    },
+    {
+      "tag_id": "cb312047-44ca-4686-a3d1-239f85ae0f06",
+      "point": "VERB_FINITE",
+      "span_start": 558,
+      "span_end": 574,
+      "correct": "Why don’t you go",
+      "wrong": [
+        "Why don’t you going",
+        "Why don’t you to go"
+      ],
+      "why_ko": "Why don't you 뒤에는 동사원형 go가 옵니다.",
+      "rationale": "제안 표현 Why don't you + 동사원형. going / goes / to go로 바꾸면 준동사가 정동사 자리를 침범하는 오류(EI_GERUND_TO_VERB)가 되어 대표적 출제 지점.",
+      "sentence_no": 20,
+      "sentence": "Why don’t you go by bus?"
+    },
+    {
+      "tag_id": "625d6790-e3ca-407e-9d1d-15d8671c268e",
+      "point": "PREP_USAGE",
+      "span_start": 575,
+      "span_end": 581,
+      "correct": "by bus",
+      "wrong": [
+        "by a bus",
+        "on bus"
+      ],
+      "why_ko": "교통수단은 by + 무관사 명사로 씁니다.",
+      "rationale": "교통수단을 나타내는 by + 무관사 명사. with bus / on bus / by a bus 로 바꾸는 전치사·관사 오류를 유도하기 쉬운 빈칸 자리.",
+      "sentence_no": 20,
+      "sentence": "Why don’t you go by bus?"
+    },
+    {
+      "tag_id": "cea41e14-7dd5-44a5-886a-d15fa1225e19",
+      "point": "VERB_FINITE",
+      "span_start": 583,
+      "span_end": 599,
+      "correct": "Take bus No. 12.",
+      "wrong": [
+        "Taking bus No. 12.",
+        "To take bus No. 12."
+      ],
+      "why_ko": "명령문은 주어 없이 동사원형으로 시작합니다.",
+      "rationale": "주어 없이 동사원형으로 시작하는 명령문. Taking / To take / You take 로 바꾼 형태와 구별시키는 문항이 가능.",
+      "sentence_no": 21,
+      "sentence": "Take bus No. 12."
+    },
+    {
+      "tag_id": "96074e2b-1872-4b35-a407-978cd6565e13",
+      "point": "IT_CLEFT",
+      "span_start": 607,
+      "span_end": 628,
+      "correct": "How long will it take",
+      "wrong": [
+        "How long will there take",
+        "How long it will take"
+      ],
+      "why_ko": "소요 시간은 비인칭 주어 it을 쓰고, 의문문 어순은 will it입니다.",
+      "rationale": "소요 시간을 나타내는 비인칭 주어 it + take 구문. it을 there나 the bus로 바꾸거나, 의문문 어순(will it ↔ it will)을 흔드는 배열 문제로 출제된다.",
+      "sentence_no": 23,
+      "sentence": "How long will it take by bus?"
+    },
+    {
+      "tag_id": "4586ec26-1d8d-4c92-8afa-756800272f78",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 666,
+      "span_end": 686,
+      "correct": "less than 10 minutes",
+      "wrong": [
+        "least than 10 minutes",
+        "less then 10 minutes"
+      ],
+      "why_ko": "'~보다 적게'는 비교급 less than이며 최상급 least나 then은 쓸 수 없습니다.",
+      "rationale": "little의 비교급 less + than. 셀 수 있는 명사에 쓰는 fewer, 또는 more/least와 혼동시키는 선지로 자주 출제된다.",
+      "sentence_no": 25,
+      "sentence": "It’ll take less than 10 minutes."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "given": 26,
+    "rejects": []
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L6 대화 ①②③",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "L6 대화-1",
+    "L6 대화-2",
+    "L6 대화-3"
+  ],
+  "body": "B: What kinds of books do you usually read?\nG: I usually read sci-fi novels.\nB: Then, can you recommend a good sci-fi novel for me?\nG: How about The Time Machine? I think it’s the best.\nG: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is good.\nB: OK. I’ll give it a try, then.\nB: What kinds of movies do you like?\nG: I like action movies. Spider-Man is my favorite.\nB: Oh, I didn’t see it.\nG: You didn’t? It’s really fun. I strongly recommend it.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "8d4c2866-0d8b-42ae-aec5-992d27d63121",
+      "point": "VERB_TENSE",
+      "span_start": 23,
+      "span_end": 42,
+      "correct": "do you usually read",
+      "wrong": [
+        "do you usually reading",
+        "does you usually read"
+      ],
+      "why_ko": "조동사 do 뒤에는 동사원형이 오고, 주어가 you이므로 does가 아니라 do를 씁니다.",
+      "rationale": "습관을 나타내는 현재시제 의문문. 조동사 do 뒤에는 동사원형이 와야 하므로 do you usually reading / does you read 같은 형태 오류를 유도할 수 있다.",
+      "sentence_no": 1,
+      "sentence": "B: What kinds of books do you usually read?"
+    },
+    {
+      "tag_id": "1ca8ea59-7dfd-436f-893e-74c0a658aab3",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 86,
+      "span_end": 103,
+      "correct": "can you recommend",
+      "wrong": [
+        "can you to recommend",
+        "can you recommending"
+      ],
+      "why_ko": "조동사 can 뒤에는 반드시 동사원형이 오므로 to부정사나 -ing는 쓸 수 없습니다.",
+      "rationale": "조동사 can 뒤 동사원형. can you to recommend / can you recommending 처럼 준동사를 넣은 오류를 유도할 수 있는 자리.",
+      "sentence_no": 3,
+      "sentence": "B: Then, can you recommend a good sci-fi novel for me?"
+    },
+    {
+      "tag_id": "d080e273-0d95-497f-8924-09ffbdccf674",
+      "point": "SVOO_DATIVE",
+      "span_start": 94,
+      "span_end": 130,
+      "correct": "recommend a good sci-fi novel for me",
+      "wrong": [
+        "recommend me a good sci-fi novel",
+        "recommend a good sci-fi novel me"
+      ],
+      "why_ko": "recommend는 '~에게'를 바로 붙일 수 없어서 for/to me처럼 전치사를 써야 합니다.",
+      "rationale": "recommend는 4형식(간접목적어 직접 연결)이 불가하고 전치사구(for/to me)를 써야 하는 동사. recommend me a good sci-fi novel 처럼 전치사를 빼거나 for를 삭제하는 오류를 유도.",
+      "sentence_no": 3,
+      "sentence": "B: Then, can you recommend a good sci-fi novel for me?"
+    },
+    {
+      "tag_id": "e16989dd-19a5-4198-beb2-efabb2e8621f",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 104,
+      "span_end": 123,
+      "correct": "a good sci-fi novel",
+      "wrong": [
+        "a well sci-fi novel",
+        "a good sci-fi novel one"
+      ],
+      "why_ko": "명사 novel을 꾸미는 자리이므로 부사 well이 아니라 형용사 good을 씁니다.",
+      "rationale": "명사 novel을 수식하는 형용사 good. a well sci-fi novel 처럼 부사로 바꾸는 함정 선지를 만들기 쉽다.",
+      "sentence_no": 3,
+      "sentence": "B: Then, can you recommend a good sci-fi novel for me?"
+    },
+    {
+      "tag_id": "87a415cb-aa41-425e-a321-7b89118f1c68",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 135,
+      "span_end": 144,
+      "correct": "How about",
+      "wrong": [
+        "How about to",
+        "How to about"
+      ],
+      "why_ko": "about은 전치사라서 뒤에 명사나 동명사가 오고, to부정사는 올 수 없습니다.",
+      "rationale": "How about은 전치사 about 뒤에 명사(구)나 동명사를 취한다. How about to read ~ 처럼 to부정사를 넣는 오류가 대표적 출제 지점.",
+      "sentence_no": 4,
+      "sentence": "G: How about The Time Machine?"
+    },
+    {
+      "tag_id": "343e9366-0487-46b1-a09b-7d75e0dbb1f8",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 163,
+      "span_end": 184,
+      "correct": "I think it’s the best",
+      "wrong": [
+        "I think what it’s the best",
+        "I think of it’s the best"
+      ],
+      "why_ko": "think의 목적어절은 접속사 that(생략 가능)이 이끌며, what이나 of는 들어갈 수 없습니다.",
+      "rationale": "think의 목적어절을 이끄는 접속사 that이 생략된 구조. that 생략 여부·what으로 바꾸는 오류를 물을 수 있다.",
+      "sentence_no": 5,
+      "sentence": "I think it’s the best."
+    },
+    {
+      "tag_id": "5cb611bc-857b-4082-a8b7-a382eecc23d6",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 176,
+      "span_end": 184,
+      "correct": "the best",
+      "wrong": [
+        "the most best",
+        "the goodest"
+      ],
+      "why_ko": "good의 최상급은 best 하나로 끝나므로 most나 -est를 더 붙이면 틀립니다.",
+      "rationale": "good의 최상급 the best. the better / the most best / the goodest 같은 비교급·최상급 혼동 선지를 만들 수 있다.",
+      "sentence_no": 5,
+      "sentence": "I think it’s the best."
+    },
+    {
+      "tag_id": "429779c3-d7fe-44c7-82af-5b723b01e5f5",
+      "point": "VERB_TENSE",
+      "span_start": 239,
+      "span_end": 254,
+      "correct": "I usually drink",
+      "wrong": [
+        "I am usually drinking",
+        "I usually drinking"
+      ],
+      "why_ko": "usually가 있는 습관 표현은 현재시제로 쓰고, 진행형이나 be동사 없는 -ing는 안 됩니다.",
+      "rationale": "usually 와 어울리는 습관 표현은 현재시제. 'am drinking' 같은 진행형 오류로 변형될 수 있다.",
+      "sentence_no": 7,
+      "sentence": "B: I usually drink apple soda, but today, I want to try something else."
+    },
+    {
+      "tag_id": "7540e7ea-c5b7-4aa1-a862-06f523ab7a09",
+      "point": "CONJ_PARALLEL",
+      "span_start": 267,
+      "span_end": 270,
+      "correct": "but",
+      "wrong": [
+        "so",
+        "and"
+      ],
+      "why_ko": "평소 습관과 오늘의 바람이 대조되므로 역접의 but을 써야 합니다.",
+      "rationale": "앞 절(습관)과 뒤 절(오늘의 희망)을 대조로 잇는 등위접속사. so/and 등으로 교체하면 논리가 깨지는 자리.",
+      "sentence_no": 7,
+      "sentence": "B: I usually drink apple soda, but today, I want to try something else."
+    },
+    {
+      "tag_id": "5640234f-6701-40d7-b9f9-843e4b9c6a84",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 280,
+      "span_end": 291,
+      "correct": "want to try",
+      "wrong": [
+        "want trying",
+        "want try"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 받습니다.",
+      "rationale": "want 는 목적어로 to부정사만 받는다. 'want trying' 으로 바꾼 오답 선지가 전형적으로 출제된다.",
+      "sentence_no": 7,
+      "sentence": "B: I usually drink apple soda, but today, I want to try something else."
+    },
+    {
+      "tag_id": "e1ba3129-5a90-4d1a-9446-3cf4c492d3f6",
+      "point": "MOD_POSTPOSITIVE",
+      "span_start": 292,
+      "span_end": 306,
+      "correct": "something else",
+      "wrong": [
+        "else something",
+        "other something"
+      ],
+      "why_ko": "-thing으로 끝나는 부정대명사는 else 같은 수식어가 뒤에 옵니다.",
+      "rationale": "-thing 으로 끝나는 부정대명사는 형용사·else 가 뒤에서 수식한다. 'else something' 처럼 어순을 뒤집는 오류를 유도할 수 있는 자리.",
+      "sentence_no": 7,
+      "sentence": "B: I usually drink apple soda, but today, I want to try something else."
+    },
+    {
+      "tag_id": "c3d22cf7-f870-4de0-8001-0c83c64f55cb",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 308,
+      "span_end": 325,
+      "correct": "Can you recommend",
+      "wrong": [
+        "Can you to recommend",
+        "Can you recommending"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형이 옵니다.",
+      "rationale": "조동사 can 뒤에는 동사원형이 온다. 'Can you to recommend' 처럼 to부정사를 넣는 오류를 유도할 수 있다.",
+      "sentence_no": 8,
+      "sentence": "Can you recommend some new soft drinks?"
+    },
+    {
+      "tag_id": "493df22e-1abe-4c65-be2d-b51025634bfd",
+      "point": "PRON_INDEFINITE",
+      "span_start": 326,
+      "span_end": 346,
+      "correct": "some new soft drinks",
+      "wrong": [
+        "some new soft drink",
+        "any new soft drinks"
+      ],
+      "why_ko": "권유·요청하는 의문문에서는 some을 쓰고, drinks는 복수형으로 씁니다.",
+      "rationale": "권유·요청 의문문에서는 any 대신 some 을 쓰는 것이 자연스럽다. some/any 짝짓기 빈칸으로 나올 수 있는 자리.",
+      "sentence_no": 8,
+      "sentence": "Can you recommend some new soft drinks?"
+    },
+    {
+      "tag_id": "51ca1523-640b-47ba-a684-80163a363296",
+      "point": "VERB_FINITE",
+      "span_start": 351,
+      "span_end": 369,
+      "correct": "Try a cherry soda.",
+      "wrong": [
+        "Trying a cherry soda.",
+        "To try a cherry soda."
+      ],
+      "why_ko": "권유하는 명령문은 동사원형으로 시작해야 하고, -ing나 to부정사면 본동사가 없는 문장이 됩니다.",
+      "rationale": "권유·명령을 나타내는 명령문은 동사원형으로 시작한다. 'Trying a cherry soda.' 처럼 준동사로 바꾸면 본동사가 없는 비문이 된다.",
+      "sentence_no": 9,
+      "sentence": "G: Try a cherry soda."
+    },
+    {
+      "tag_id": "6de9df9b-b4b7-4d0a-a258-03c37bb5cce0",
+      "point": "VERB_SVA",
+      "span_start": 386,
+      "span_end": 398,
+      "correct": "here is good",
+      "wrong": [
+        "here are good",
+        "here be good"
+      ],
+      "why_ko": "주어가 단수 The cherry soda이므로 is를 쓰고, here는 그냥 뒤에서 꾸미는 부사입니다.",
+      "rationale": "주어는 단수 The cherry soda 이고 here 는 뒤에서 수식하는 부사. 부사 here 에 끌려 'are' 로 잘못 쓰는 수일치 오류를 유도한다.",
+      "sentence_no": 10,
+      "sentence": "The cherry soda here is good."
+    },
+    {
+      "tag_id": "fada70db-5e0f-41c8-b764-6328ab955607",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 391,
+      "span_end": 398,
+      "correct": "is good",
+      "wrong": [
+        "is well",
+        "is goodly"
+      ],
+      "why_ko": "be동사의 보어 자리에는 형용사 good이 옵니다.",
+      "rationale": "be동사의 보어 자리이므로 형용사 good. 부사 well 로 바꾼 오류 선지와 구별해야 한다.",
+      "sentence_no": 10,
+      "sentence": "The cherry soda here is good."
+    },
+    {
+      "tag_id": "2b1a9ef3-7b85-449d-89b8-a1164e524f8c",
+      "point": "SVOO_DATIVE",
+      "span_start": 412,
+      "span_end": 425,
+      "correct": "give it a try",
+      "wrong": [
+        "give a try it",
+        "give a try to it"
+      ],
+      "why_ko": "give it a try는 '한번 해 보다'라는 정해진 4형식 표현으로 어순을 바꾸면 틀립니다.",
+      "rationale": "give + 간접목적어(it) + 직접목적어(a try) 의 4형식. 'give a try to it' 같은 3형식 전환 오류나 어순 오류를 물을 수 있다.",
+      "sentence_no": 12,
+      "sentence": "I’ll give it a try, then."
+    },
+    {
+      "tag_id": "678bc436-590a-4ef5-83d4-0d66314a08c0",
+      "point": "PREP_USAGE",
+      "span_start": 441,
+      "span_end": 456,
+      "correct": "kinds of movies",
+      "wrong": [
+        "kinds for movies",
+        "kinds movies"
+      ],
+      "why_ko": "'종류'를 나타낼 때는 kind(s) of + 명사 형태로 전치사 of를 반드시 씁니다.",
+      "rationale": "'kind(s) of + 명사' 형태에서 전치사 of를 빈칸으로 뚫기 쉬운 자리. kinds for / kinds in 같은 오답을 유도할 수 있고, of 삭제(EI_PREP_DELETE)도 자주 나온다.",
+      "sentence_no": 13,
+      "sentence": "B: What kinds of movies do you like?"
+    },
+    {
+      "tag_id": "ff3c404c-99b0-4de7-b15b-bb1e3426ea88",
+      "point": "VERB_SVA",
+      "span_start": 457,
+      "span_end": 468,
+      "correct": "do you like",
+      "wrong": [
+        "does you like",
+        "do you likes"
+      ],
+      "why_ko": "주어가 you이므로 조동사는 do이고, 뒤에는 동사원형 like가 옵니다.",
+      "rationale": "의문문 조동사 선택 자리. 주어가 you이므로 do가 맞는데, 앞의 'What kinds of movies'를 주어로 착각해 does를 고르게 만드는 함정을 심을 수 있다.",
+      "sentence_no": 13,
+      "sentence": "B: What kinds of movies do you like?"
+    },
+    {
+      "tag_id": "0002b168-54c5-47ae-90e5-4530e5241b97",
+      "point": "VERB_SVA",
+      "span_start": 506,
+      "span_end": 520,
+      "correct": "is my favorite",
+      "wrong": [
+        "are my favorite",
+        "am my favorite"
+      ],
+      "why_ko": "주어 Spider-Man이 단수 3인칭이므로 is를 씁니다.",
+      "rationale": "단수 주어 Spider-Man에 맞춘 be동사 is. are로 바꾸는 수일치 오류를 심기 쉽다.",
+      "sentence_no": 15,
+      "sentence": "Spider-Man is my favorite."
+    },
+    {
+      "tag_id": "3add9bad-98e0-4265-b8a0-a23a582ec821",
+      "point": "VERB_PERFECT",
+      "span_start": 531,
+      "span_end": 544,
+      "correct": "didn’t see it",
+      "wrong": [
+        "didn’t saw it",
+        "didn’t seen it"
+      ],
+      "why_ko": "didn't 뒤에는 항상 동사원형 see가 옵니다.",
+      "rationale": "'아직 안 봤다'는 경험/완료 의미로 haven't seen it (yet)과 비교시키는 대표 자리. 또 didn't + 동사원형 규칙을 어긴 didn't saw 형태 오류도 심기 쉽다.",
+      "sentence_no": 16,
+      "sentence": "B: Oh, I didn’t see it."
+    },
+    {
+      "tag_id": "6bcf27db-8708-4fa4-ac2f-88e48e84bd04",
+      "point": "VERB_TENSE",
+      "span_start": 549,
+      "span_end": 560,
+      "correct": "You didn’t?",
+      "wrong": [
+        "You don’t?",
+        "You aren’t?"
+      ],
+      "why_ko": "앞 문장이 didn't see로 과거이므로 대답도 과거 did로 받아야 합니다.",
+      "rationale": "앞 문장 didn't see it을 대동사 did로 받는 시제 일치 자리. You don't? / You aren't? 로 바꾸면 앞 문장 시제와 어긋난다.",
+      "sentence_no": 17,
+      "sentence": "G: You didn’t?"
+    },
+    {
+      "tag_id": "72ab579a-fd43-4317-a120-801c0c05be86",
+      "point": "PRON_AGREEMENT",
+      "span_start": 561,
+      "span_end": 565,
+      "correct": "It’s",
+      "wrong": [
+        "Its",
+        "Its’"
+      ],
+      "why_ko": "It's는 It is의 줄임말이고, its는 '그것의'라는 소유격이라 여기에는 쓸 수 없습니다.",
+      "rationale": "It's(= It is)와 소유격 its의 구별 자리. Its really fun 처럼 아포스트로피를 빼는 오답을 유도할 수 있다.",
+      "sentence_no": 18,
+      "sentence": "It’s really fun."
+    },
+    {
+      "tag_id": "94875b2b-71b3-4d6f-979f-8e74cab6bf93",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 566,
+      "span_end": 576,
+      "correct": "really fun",
+      "wrong": [
+        "real fun",
+        "really funny fun"
+      ],
+      "why_ko": "형용사 fun을 꾸미려면 부사 really가 필요하고 형용사 real은 쓸 수 없습니다.",
+      "rationale": "형용사 fun을 수식하는 부사 really 자리. real fun 처럼 부사를 형용사로 바꾼 선지가 전형적 오답.",
+      "sentence_no": 18,
+      "sentence": "It’s really fun."
+    },
+    {
+      "tag_id": "2194072c-47e6-4e27-aa5e-01a7db1d6a4d",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 580,
+      "span_end": 598,
+      "correct": "strongly recommend",
+      "wrong": [
+        "strong recommend",
+        "strength recommend"
+      ],
+      "why_ko": "동사 recommend를 꾸미는 자리이므로 부사 strongly를 씁니다.",
+      "rationale": "동사 recommend를 수식하는 부사 strongly 자리. strong recommend 처럼 형용사로 바꾸는 오류(EI_ADJ_TO_ADV)를 심는다.",
+      "sentence_no": 19,
+      "sentence": "I strongly recommend it."
+    },
+    {
+      "tag_id": "c8192180-4244-4bbb-bb12-1bd69b903854",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 589,
+      "span_end": 601,
+      "correct": "recommend it",
+      "wrong": [
+        "recommend to see it",
+        "recommend to it"
+      ],
+      "why_ko": "recommend는 목적어로 명사나 동명사를 받으므로 to부정사를 붙이면 틀립니다.",
+      "rationale": "recommend는 목적어로 동명사를 취하는 동사(recommend seeing it)이며 to부정사를 쓰면 틀린다. 목적어 확장형 선지(recommend to see it)로 물을 수 있는 자리.",
+      "sentence_no": 19,
+      "sentence": "I strongly recommend it."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "given": 26,
+    "rejects": [],
+    "restored_wrongs": 1
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "book": "영일중 배부물",
+  "unit": "L5 외부지문 — A girl with a red balloon",
+  "kind": "handout_external",
+  "parts": [
+    "A girl with a red balloon"
+  ],
+  "body": "Have you ever seen this image of a girl with a red balloon? It was painted by Banksy, a world-famous street artist from the UK. His artworks are known for carrying social messages about issues such as war and inequality. Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery. His art appears on streets, walls, and bridges, and is often created without permission.\n\nGirl with Balloon is one of Banksy’s most well-known works. It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s. However, it is actually part of a series of paintings. In this artwork, a small child is reaching out toward a red balloon. There are different interpretations of the painting. According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope. If you think about it that way, the painting can be seen as a symbol of losing those things. The image is simple but has a strong emotional impact. That may be why so many people like it.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "4d0d59d1-5a39-46ac-a2d7-7b54a2298477",
+      "point": "VERB_PERFECT",
+      "span_start": 0,
+      "span_end": 18,
+      "correct": "Have you ever seen",
+      "wrong": [
+        "Did you ever seen",
+        "Have you ever saw"
+      ],
+      "why_ko": "'~해 본 적 있니?'는 현재완료 have+과거분사(seen)로 씁니다. saw(과거형)나 did+과거분사는 안 됩니다.",
+      "rationale": "현재완료 경험 용법(ever와 함께). did you ever see / Have you ever saw 처럼 시제·분사형 오류를 심을 수 있는 자리",
+      "sentence_no": 1,
+      "sentence": "Have you ever seen this image of a girl with a red balloon?"
+    },
+    {
+      "tag_id": "e6bc3fc7-d788-428f-828a-146301a62b99",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 63,
+      "span_end": 77,
+      "correct": "was painted by",
+      "wrong": [
+        "painted by",
+        "was painting by"
+      ],
+      "why_ko": "그림(It)이 '그려진' 것이므로 be동사+과거분사 수동태 was painted가 맞습니다.",
+      "rationale": "그림(It)이 그려진 것이므로 수동태. was painting / painted by 처럼 태·형태 오류나 by 누락을 심기 쉬운 대표 자리",
+      "sentence_no": 2,
+      "sentence": "It was painted by Banksy, a world-famous street artist from the UK."
+    },
+    {
+      "tag_id": "536d7104-a652-4fa5-9ffb-89e70f2a3eb7",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 145,
+      "span_end": 163,
+      "correct": "known for carrying",
+      "wrong": [
+        "known for carry",
+        "known as carrying",
+        "known for to carry"
+      ],
+      "why_ko": "be known for(~로 알려져 있다)이고, 전치사 for 뒤에는 동명사 carrying이 옵니다.",
+      "rationale": "be known for(~로 알려져 있다) 고정 결합 + 전치사 뒤 동명사. be known as/to 와 혼동, for carry / for to carry 오류 유도",
+      "sentence_no": 3,
+      "sentence": "His artworks are known for carrying social messages about issues such as war and inequality."
+    },
+    {
+      "tag_id": "9b572ece-3f65-4455-ad6b-c98cd67cab2c",
+      "point": "CONJ_VS_PREP",
+      "span_start": 221,
+      "span_end": 232,
+      "correct": "Even though",
+      "wrong": [
+        "Despite",
+        "In spite of"
+      ],
+      "why_ko": "뒤에 주어+동사 절이 오므로 접속사 Even though가 맞고, Despite/In spite of는 명사만 옵니다.",
+      "rationale": "뒤에 절(he is ~)이 오므로 접속사 Even though가 맞다. Despite / In spite of 로 바꾼 선지를 넣어 접속사 vs 전치사를 묻는 전형적 자리",
+      "sentence_no": 4,
+      "sentence": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
+    },
+    {
+      "tag_id": "a56d55c4-a423-4204-8460-e5e54098a41f",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 239,
+      "span_end": 265,
+      "correct": "internationally well-known",
+      "wrong": [
+        "internationally well-know",
+        "international well-known"
+      ],
+      "why_ko": "형용사 well-known을 꾸미므로 부사 internationally를 씁니다.",
+      "rationale": "형용사 well-known을 수식하므로 부사 internationally. international well-known 처럼 형용사로 바꾼 오답 유도",
+      "sentence_no": 4,
+      "sentence": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
+    },
+    {
+      "tag_id": "f59d470b-b28b-4bd3-8823-c2df5a568cae",
+      "point": "VERB_SVA",
+      "span_start": 267,
+      "span_end": 279,
+      "correct": "nobody knows",
+      "wrong": [
+        "nobody know",
+        "nobody don't know"
+      ],
+      "why_ko": "nobody는 단수 취급이라 동사에 -s를 붙여 knows로 씁니다.",
+      "rationale": "부정대명사 nobody는 단수 취급 → knows. nobody know 로 수일치 오류를 심는 자리",
+      "sentence_no": 4,
+      "sentence": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
+    },
+    {
+      "tag_id": "f8620dd2-5d29-4f7b-aaf1-4ff19a8274bd",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 308,
+      "span_end": 327,
+      "correct": "adds to his mystery",
+      "wrong": [
+        "adds his mystery",
+        "adds up his mystery"
+      ],
+      "why_ko": "'~를 더해준다'는 뜻은 add to로 굳어진 표현이라 전치사 to를 빼면 안 됩니다.",
+      "rationale": "add to(~를 더하다·높이다) 고정 결합. 전치사 to 삭제 또는 add up/add in 으로 교체하는 오류 유도",
+      "sentence_no": 4,
+      "sentence": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
+    },
+    {
+      "tag_id": "7ba4d10a-24e8-4547-873a-e9a2b31d632b",
+      "point": "CONJ_PARALLEL",
+      "span_start": 337,
+      "span_end": 397,
+      "correct": "appears on streets, walls, and bridges, and is often created",
+      "wrong": [
+        "appears on streets, walls, and bridges, and often creating",
+        "appears on streets, walls, and bridges, and being often created"
+      ],
+      "why_ko": "한 주어(His art)에 appears와 is created 두 술어가 and로 나란히 이어져야 하므로 -ing 형태는 술어가 될 수 없습니다.",
+      "rationale": "한 주어(His art)에 appears와 is created 두 술어가 and로 병렬. is often creating / being created 로 병렬을 깨는 오류 유도",
+      "sentence_no": 5,
+      "sentence": "His art appears on streets, walls, and bridges, and is often created without permission."
+    },
+    {
+      "tag_id": "54a9b213-e24a-4008-89de-2cf49e4f677d",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 381,
+      "span_end": 416,
+      "correct": "is often created without permission",
+      "wrong": [
+        "often creates without permission",
+        "is often creating without permission"
+      ],
+      "why_ko": "작품은 '만들어지는' 대상이므로 수동태 is created가 맞습니다.",
+      "rationale": "작품이 '만들어지는' 것이므로 수동태. often creates / is often creating 로 태 오류를 심을 수 있고 without 전치사도 함께 흔들 수 있음",
+      "sentence_no": 5,
+      "sentence": "His art appears on streets, walls, and bridges, and is often created without permission."
+    },
+    {
+      "tag_id": "fa1920ab-409a-492b-9339-282a81d82178",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 440,
+      "span_end": 477,
+      "correct": "one of Banksy’s most well-known works",
+      "wrong": [
+        "one of Banksy’s most well-known work",
+        "one of Banksy’s more well-known works"
+      ],
+      "why_ko": "one of 뒤에는 복수명사(works)가 오고, '가장 유명한'은 최상급 most를 씁니다.",
+      "rationale": "최상급 + one of + 복수명사 구조. most well-known work(단수)나 more well-known 으로 바꾼 오답 유도",
+      "sentence_no": 6,
+      "sentence": "Girl with Balloon is one of Banksy’s most well-known works."
+    },
+    {
+      "tag_id": "2ff1f728-1b36-4d64-bf38-17f750cd10d8",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 482,
+      "span_end": 511,
+      "correct": "originally appeared on a wall",
+      "wrong": [
+        "was originally appeared on a wall",
+        "was originally appearing on a wall"
+      ],
+      "why_ko": "appear는 목적어가 없는 자동사라 수동태로 쓸 수 없습니다.",
+      "rationale": "appear는 목적어를 갖지 않는 자동사이므로 수동태 불가. was originally appeared 선지를 넣어 자동사 수동태 함정을 만드는 자리",
+      "sentence_no": 7,
+      "sentence": "It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s."
+    },
+    {
+      "tag_id": "03863c9f-64e2-495f-acdc-f5de4faacad5",
+      "point": "PREP_USAGE",
+      "span_start": 557,
+      "span_end": 575,
+      "correct": "in the early 2000s",
+      "wrong": [
+        "on the early 2000s",
+        "at the early 2000s"
+      ],
+      "why_ko": "연대처럼 넓은 기간 앞에는 전치사 in을 씁니다.",
+      "rationale": "연대(기간) 앞 전치사 in. on/at the early 2000s 로 바꾼 빈칸 선지가 자주 출제됨",
+      "sentence_no": 7,
+      "sentence": "It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s."
+    },
+    {
+      "tag_id": "b618998e-37b7-4183-ad4d-a9b2dab48f31",
+      "point": "VERB_TENSE",
+      "span_start": 663,
+      "span_end": 685,
+      "correct": "is reaching out toward",
+      "wrong": [
+        "was reaching out toward",
+        "reach out toward"
+      ],
+      "why_ko": "작품 속 장면 설명은 현재진행형 is reaching으로 씁니다.",
+      "rationale": "작품 묘사는 현재진행. was reaching / reach out 처럼 시제·형태를 흔드는 오답 유도",
+      "sentence_no": 9,
+      "sentence": "In this artwork, a small child is reaching out toward a red balloon."
+    },
+    {
+      "tag_id": "4a54d05e-8eb5-48aa-aa87-790ee73bf8b7",
+      "point": "VERB_SVA",
+      "span_start": 701,
+      "span_end": 736,
+      "correct": "There are different interpretations",
+      "wrong": [
+        "There is different interpretations",
+        "There have different interpretations"
+      ],
+      "why_ko": "There be 구문은 뒤의 명사에 수를 맞추므로 복수 interpretations에는 are를 씁니다.",
+      "rationale": "There be 구문은 뒤의 명사(interpretations, 복수)에 수일치 → are. There is 로 바꾼 오류가 전형적",
+      "sentence_no": 10,
+      "sentence": "There are different interpretations of the painting."
+    },
+    {
+      "tag_id": "2a0f0221-8c87-46a7-b5b2-713ee65cb866",
+      "point": "PREP_USAGE",
+      "span_start": 754,
+      "span_end": 770,
+      "correct": "According to one",
+      "wrong": [
+        "According of one",
+        "According with one",
+        "According one"
+      ],
+      "why_ko": "'~에 따르면'은 according to로 굳어진 표현입니다.",
+      "rationale": "According to(~에 따르면) 고정 전치사구. According of/with 나 to 삭제로 흔드는 굳어진 부사구 자리",
+      "sentence_no": 11,
+      "sentence": "According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope."
+    },
+    {
+      "tag_id": "3ee023bb-2a76-40bb-a009-89abb1778d35",
+      "point": "REL_OBJECT",
+      "span_start": 813,
+      "span_end": 837,
+      "correct": "everything it represents",
+      "wrong": [
+        "everything it represents it",
+        "everything what it represents"
+      ],
+      "why_ko": "목적격 관계대명사 that이 생략된 형태라 뒤에 목적어를 또 쓰거나 what을 넣으면 안 됩니다.",
+      "rationale": "everything (that) it represents — 목적격 관계대명사 that 생략. represents 뒤 목적어 중복(it represents it)이나 what 으로 바꾼 오류 유도",
+      "sentence_no": 11,
+      "sentence": "According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope."
+    },
+    {
+      "tag_id": "acbef711-6a8d-4a02-9537-ba4e5114fe7b",
+      "point": "VERB_TENSE",
+      "span_start": 875,
+      "span_end": 896,
+      "correct": "If you think about it",
+      "wrong": [
+        "If you will think about it",
+        "If you would think about it"
+      ],
+      "why_ko": "조건을 나타내는 if절에서는 미래 대신 현재시제를 씁니다.",
+      "rationale": "조건 부사절에서는 미래 대신 현재시제 → If you will think 로 만드는 오답 유도",
+      "sentence_no": 12,
+      "sentence": "If you think about it that way, the painting can be seen as a symbol of losing those things."
+    },
+    {
+      "tag_id": "e01387db-5ac6-4bd1-9db2-e95f60b22463",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 920,
+      "span_end": 943,
+      "correct": "can be seen as a symbol",
+      "wrong": [
+        "can see as a symbol",
+        "can be saw as a symbol",
+        "can being seen as a symbol"
+      ],
+      "why_ko": "조동사 뒤 수동태는 can + be + 과거분사(seen) 형태입니다.",
+      "rationale": "조동사 + be + p.p. 수동태. can see / can be saw / can being seen 처럼 형태 오류를 심는 자리",
+      "sentence_no": 12,
+      "sentence": "If you think about it that way, the painting can be seen as a symbol of losing those things."
+    },
+    {
+      "tag_id": "4a42790c-b23f-4fca-a8d4-5ea62a412637",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 947,
+      "span_end": 966,
+      "correct": "losing those things",
+      "wrong": [
+        "to lose those things",
+        "lose those things"
+      ],
+      "why_ko": "전치사 of의 목적어 자리이므로 동명사 losing을 씁니다.",
+      "rationale": "전치사 of의 목적어이므로 동명사. of to lose / of lose 로 바꾼 오류 유도",
+      "sentence_no": 12,
+      "sentence": "If you think about it that way, the painting can be seen as a symbol of losing those things."
+    },
+    {
+      "tag_id": "1d6aef64-20fc-49b1-9845-58aab12dc3d2",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 1035,
+      "span_end": 1061,
+      "correct": "why so many people like it",
+      "wrong": [
+        "which so many people like it",
+        "because so many people like it"
+      ],
+      "why_ko": "이유(the reason)를 나타내는 관계부사 why 자리라서 which나 because는 쓸 수 없습니다.",
+      "rationale": "the reason 을 대신하는 관계부사 why. which / because 로 교체한 선지로 관계대명사·접속사와 구별시키는 자리",
+      "sentence_no": 14,
+      "sentence": "That may be why so many people like it."
+    },
+    {
+      "tag_id": "08eaa129-1404-451d-98cf-231637aaf2c4",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 1039,
+      "span_end": 1053,
+      "correct": "so many people",
+      "wrong": [
+        "such many people",
+        "too many people"
+      ],
+      "why_ko": "many 같은 수량형용사 앞에는 so를 쓰고 such는 쓰지 않습니다.",
+      "rationale": "many(수량형용사) 앞에는 so. such many people 로 바꾼 오답 유도",
+      "sentence_no": 14,
+      "sentence": "That may be why so many people like it."
+    }
+  ],
+  "diagnostics": {
+    "returned": 21,
+    "kept": 21,
+    "given": 21,
+    "rejects": [],
+    "restored_wrongs": 5
+  }
+}

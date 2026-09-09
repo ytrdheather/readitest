@@ -1,0 +1,470 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L6 대화 ⑦⑧⑨",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "L6 대화-7",
+    "L6 대화-8",
+    "L6 대화-9"
+  ],
+  "body": "B: What kinds of movies do you like?\nG: I like sci-fi movies.\nB: Me, too. Can you recommend a good sci-fi movie for me?\nG: Try Travel to the Future. It’s really good.\nA: Can you recommend a restaurant for me?\nB: How about Morning in Venice?\nA: What kind of food do they have?\nB: They have Italian food. I strongly recommend their cheese pizza. It’s really good.\nA: Dr. Schofield, I hear you have a Korean name. Can you tell me about it?\nB: It’s Seok Hopil. I love it because it sounds similar to my English name. Also, it has a good meaning.\nA: I’d like to know why you helped the Korean independence movement.\nB: Well, I believe every country has the right to be independent.\nA: What did you do after you returned to Korea in 1958?\nB: I worked hard to help Koreans, especially poor students.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "6797e74a-cb97-4ef3-bcd3-1fc5faa9696c",
+      "point": "VERB_SVA",
+      "span_start": 24,
+      "span_end": 35,
+      "correct": "do you like",
+      "wrong": [
+        "does you like",
+        "do you likes"
+      ],
+      "why_ko": "주어가 you이므로 조동사는 do, 그리고 조동사 뒤에는 동사원형 like가 옵니다.",
+      "rationale": "의문문에서 주어 you에 맞는 조동사 do 선택. 'What kinds of movies'의 kinds에 끌려 does you like / What kind do ~ 처럼 수일치·조동사 오류를 유도할 수 있는 자리.",
+      "sentence_no": 1,
+      "sentence": "B: What kinds of movies do you like?"
+    },
+    {
+      "tag_id": "ec538d4b-34f5-453a-82c8-d52aaae831ab",
+      "point": "PRON_AGREEMENT",
+      "span_start": 65,
+      "span_end": 73,
+      "correct": "Me, too.",
+      "wrong": [
+        "I, too.",
+        "My, too."
+      ],
+      "why_ko": "동의할 때는 관용적으로 목적격 Me를 써서 'Me, too.'라고 합니다.",
+      "rationale": "동의 표현의 대명사 격. 'Me, too.'가 관용 표현이며 'I, too.' / 'My, too.'로 바꿔 격 오류를 물을 수 있음.",
+      "sentence_no": 3,
+      "sentence": "B: Me, too."
+    },
+    {
+      "tag_id": "d11b09ed-45c1-47fc-9e87-7911c5a43531",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 74,
+      "span_end": 91,
+      "correct": "Can you recommend",
+      "wrong": [
+        "Can you recommending",
+        "Can you to recommend"
+      ],
+      "why_ko": "조동사 can 뒤에는 반드시 동사원형이 옵니다.",
+      "rationale": "요청을 나타내는 조동사 can 뒤 동사원형. 'Can you recommending / Can you to recommend'처럼 조동사 뒤 형태 오류를 심을 수 있음.",
+      "sentence_no": 4,
+      "sentence": "Can you recommend a good sci-fi movie for me?"
+    },
+    {
+      "tag_id": "136999a1-9b8e-4331-8098-b2d5647e3e38",
+      "point": "SVOO_DATIVE",
+      "span_start": 82,
+      "span_end": 118,
+      "correct": "recommend a good sci-fi movie for me",
+      "wrong": [
+        "recommend me a good sci-fi movie",
+        "recommend a good sci-fi movie me"
+      ],
+      "why_ko": "recommend는 4형식으로 못 쓰고 '~ for/to 사람' 형태로 씁니다.",
+      "rationale": "recommend는 4형식(recommend me a movie)이 불가능하고 3형식+전치사(for/to me)만 가능. 전치사를 삭제해 'recommend me a good sci-fi movie'로 바꾸는 오류 유도 지점.",
+      "sentence_no": 4,
+      "sentence": "Can you recommend a good sci-fi movie for me?"
+    },
+    {
+      "tag_id": "2cdf1394-dbe0-4b70-90f7-f82211631d56",
+      "point": "VERB_FINITE",
+      "span_start": 123,
+      "span_end": 126,
+      "correct": "Try",
+      "wrong": [
+        "Trying",
+        "To try"
+      ],
+      "why_ko": "명령문은 동사원형으로 시작합니다.",
+      "rationale": "명령문의 동사원형 자리. 'Trying / To try'처럼 준동사를 넣는 오류를 유도할 수 있음.",
+      "sentence_no": 5,
+      "sentence": "G: Try Travel to the Future."
+    },
+    {
+      "tag_id": "f6f0e904-2c99-4e33-a33a-152da176b834",
+      "point": "PREP_USAGE",
+      "span_start": 134,
+      "span_end": 147,
+      "correct": "to the Future",
+      "wrong": [
+        "for the Future",
+        "at the Future"
+      ],
+      "why_ko": "'미래로의 여행'처럼 방향·도착점을 나타내므로 to를 씁니다.",
+      "rationale": "방향·대상을 나타내는 전치사 to. 'Travel for/at the Future'처럼 전치사 교체나 삭제로 빈칸 출제가 쉬운 자리.",
+      "sentence_no": 5,
+      "sentence": "G: Try Travel to the Future."
+    },
+    {
+      "tag_id": "56c6a50d-a911-4719-bdfa-04fa4293f779",
+      "point": "PRON_AGREEMENT",
+      "span_start": 149,
+      "span_end": 153,
+      "correct": "It’s",
+      "wrong": [
+        "Its",
+        "It"
+      ],
+      "why_ko": "'그것은 ~이다'라는 뜻이므로 It is의 축약형 It’s가 맞습니다. Its는 소유격입니다.",
+      "rationale": "It's(=It is)와 소유격 its의 구별. 'Its really good.'으로 바꿔 오류 판단을 물을 수 있음.",
+      "sentence_no": 6,
+      "sentence": "It’s really good."
+    },
+    {
+      "tag_id": "ff3d8443-c652-4d98-9ff6-43b5066743fc",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 154,
+      "span_end": 165,
+      "correct": "really good",
+      "wrong": [
+        "really well",
+        "real good"
+      ],
+      "why_ko": "be동사의 보어 자리에는 형용사 good이 오고, 그것을 꾸미는 말은 부사 really입니다.",
+      "rationale": "be동사의 보어 자리에는 형용사 good. 부사 well로 바꾼 'It's really well.'을 오답으로 심을 수 있음.",
+      "sentence_no": 6,
+      "sentence": "It’s really good."
+    },
+    {
+      "tag_id": "2328edea-22fb-4429-9ee5-4c579b7f5148",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 170,
+      "span_end": 187,
+      "correct": "Can you recommend",
+      "wrong": [
+        "Can you recommending",
+        "Can you to recommend"
+      ],
+      "why_ko": "조동사 can 다음에는 동사원형 recommend를 씁니다.",
+      "rationale": "조동사 can을 이용한 요청 표현. 조동사 뒤에는 반드시 동사원형이 오므로 'Can you recommending / Can you to recommend' 형태의 오류를 심을 수 있고, Can → Must/Should 로 바꿔 요청의 뜻이 깨지는지 묻는 자리",
+      "sentence_no": 7,
+      "sentence": "A: Can you recommend a restaurant for me?"
+    },
+    {
+      "tag_id": "cbd692bd-aa86-45d5-a6eb-d3bf07c5cfb8",
+      "point": "SVOO_DATIVE",
+      "span_start": 201,
+      "span_end": 207,
+      "correct": "for me",
+      "wrong": [
+        "me",
+        "of me"
+      ],
+      "why_ko": "recommend는 사람을 바로 목적어로 붙이지 못하고 for(또는 to) me로 씁니다.",
+      "rationale": "recommend는 4형식(간접목적어 직접 부착)이 불가하고 3형식 + for/to 전치사구로 쓴다. 'recommend me a restaurant' 또는 전치사 삭제('recommend a restaurant me')로 오류 유도 가능",
+      "sentence_no": 7,
+      "sentence": "A: Can you recommend a restaurant for me?"
+    },
+    {
+      "tag_id": "41b3c7e7-3b4a-44bd-b66c-6da817f0903c",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 212,
+      "span_end": 221,
+      "correct": "How about",
+      "wrong": [
+        "How to",
+        "What about to"
+      ],
+      "why_ko": "제안할 때 How about 뒤에는 명사나 동명사가 옵니다.",
+      "rationale": "How about 뒤에는 명사 또는 동명사가 온다. 'How about to go ~' 처럼 to부정사를 넣는 오류, 또는 How about → How to 로 바꾸는 오류를 심을 수 있는 대표 자리",
+      "sentence_no": 8,
+      "sentence": "B: How about Morning in Venice?"
+    },
+    {
+      "tag_id": "2aa3f9ea-be97-4669-9510-a4d9b295b84c",
+      "point": "PREP_USAGE",
+      "span_start": 230,
+      "span_end": 239,
+      "correct": "in Venice",
+      "wrong": [
+        "at Venice",
+        "on Venice"
+      ],
+      "why_ko": "도시처럼 넓은 장소 앞에는 전치사 in을 씁니다.",
+      "rationale": "장소를 나타내는 전치사 in. 도시·큰 장소에는 in을 쓰므로 at/on 으로 바꾼 선지를 빈칸으로 제시하기 쉬운 자리",
+      "sentence_no": 8,
+      "sentence": "B: How about Morning in Venice?"
+    },
+    {
+      "tag_id": "03962f9f-8e84-4806-b9f1-42703b33fc69",
+      "point": "VERB_SVA",
+      "span_start": 262,
+      "span_end": 274,
+      "correct": "do they have",
+      "wrong": [
+        "does they have",
+        "do they has"
+      ],
+      "why_ko": "주어 they는 복수라 do를 쓰고, 조동사 뒤에는 원형 have를 씁니다.",
+      "rationale": "의문문에서 주어 they에 맞는 조동사 do(3인칭 복수) 선택. does they have / do they has 처럼 수일치와 원형 유지 오류를 동시에 노리는 자리",
+      "sentence_no": 9,
+      "sentence": "A: What kind of food do they have?"
+    },
+    {
+      "tag_id": "da117931-1db7-4764-9a46-4b95dd2e977e",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 305,
+      "span_end": 323,
+      "correct": "strongly recommend",
+      "wrong": [
+        "strong recommend",
+        "strongly recommends"
+      ],
+      "why_ko": "동사 recommend를 꾸미므로 부사 strongly가 맞고, 주어가 I라 recommends도 안 됩니다.",
+      "rationale": "동사 recommend를 수식하므로 부사 strongly가 필요. 형용사 strong으로 바꾼 'strong recommend' 오류를 유도하는 전형적 자리",
+      "sentence_no": 11,
+      "sentence": "I strongly recommend their cheese pizza."
+    },
+    {
+      "tag_id": "ea2a8461-66c3-47fc-9304-4709b840bf9a",
+      "point": "PRON_AGREEMENT",
+      "span_start": 324,
+      "span_end": 342,
+      "correct": "their cheese pizza",
+      "wrong": [
+        "them cheese pizza",
+        "theirs cheese pizza"
+      ],
+      "why_ko": "명사 앞에서 '그들의'는 소유격 their를 씁니다.",
+      "rationale": "명사 앞이므로 소유격 their가 필요. them/theirs/they로 바꾼 오류 유도 가능",
+      "sentence_no": 11,
+      "sentence": "I strongly recommend their cheese pizza."
+    },
+    {
+      "tag_id": "d4408885-0162-4248-8e10-3b8b100b9941",
+      "point": "PRON_AGREEMENT",
+      "span_start": 344,
+      "span_end": 348,
+      "correct": "It’s",
+      "wrong": [
+        "Its",
+        "It"
+      ],
+      "why_ko": "It is의 축약형이므로 아포스트로피가 있는 It’s가 맞습니다.",
+      "rationale": "It is의 축약형 It’s와 소유격 Its의 구별. 'Its really good' 처럼 아포스트로피를 빼는 오류가 자주 출제되는 자리",
+      "sentence_no": 12,
+      "sentence": "It’s really good."
+    },
+    {
+      "tag_id": "e46c5211-0513-4b71-b9d5-524658589ffd",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 349,
+      "span_end": 360,
+      "correct": "really good",
+      "wrong": [
+        "real good",
+        "really well"
+      ],
+      "why_ko": "형용사 good을 꾸미려면 부사 really가 필요하고, 보어 자리에는 well이 아니라 good입니다.",
+      "rationale": "형용사 good을 수식하므로 부사 really가 필요. 'real good' 또는 'really well'로 바꾼 오류를 유도하는 자리",
+      "sentence_no": 12,
+      "sentence": "It’s really good."
+    },
+    {
+      "tag_id": "4a9a0178-1fb5-4b6e-abdb-854e4601b427",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 380,
+      "span_end": 395,
+      "correct": "I hear you have",
+      "wrong": [
+        "I hear what you have",
+        "I hear about you have"
+      ],
+      "why_ko": "hear 뒤에 '~라고'라는 절이 오는 자리로 접속사 that이 생략된 형태입니다. what이나 전치사는 올 수 없습니다.",
+      "rationale": "hear 뒤 목적어절을 이끄는 접속사 that이 생략된 자리. that을 what/if로 바꾼 오답, 또는 'hear about you have'처럼 전치사를 끼워 넣는 오답 유도 가능",
+      "sentence_no": 13,
+      "sentence": "A: Dr. Schofield, I hear you have a Korean name."
+    },
+    {
+      "tag_id": "9a602244-ef2c-40bc-b947-938fa4f71faa",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 419,
+      "span_end": 435,
+      "correct": "tell me about it",
+      "wrong": [
+        "tell me it",
+        "tell to me about it"
+      ],
+      "why_ko": "tell + 사람 + about + 사물이 짝을 이루는 표현입니다.",
+      "rationale": "tell + 사람 + about + 사물 고정 결합. about 삭제(tell me it)나 of/for 교체 오답 유도",
+      "sentence_no": 14,
+      "sentence": "Can you tell me about it?"
+    },
+    {
+      "tag_id": "470474ab-f190-484a-9900-b849647fa2c7",
+      "point": "CONJ_VS_PREP",
+      "span_start": 467,
+      "span_end": 484,
+      "correct": "because it sounds",
+      "wrong": [
+        "because of it sounds",
+        "because of its sound similar"
+      ],
+      "why_ko": "뒤에 주어+동사의 절이 오므로 접속사 because를 씁니다. because of 뒤에는 명사(구)만 옵니다.",
+      "rationale": "뒤에 절(it sounds ~)이 오므로 접속사 because가 맞다. because of + 명사구와 구별하는 자리",
+      "sentence_no": 16,
+      "sentence": "I love it because it sounds similar to my English name."
+    },
+    {
+      "tag_id": "ab686ff9-cac1-41d4-9b21-af9787a8a59e",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 475,
+      "span_end": 492,
+      "correct": "it sounds similar",
+      "wrong": [
+        "it sounds similarly",
+        "it is sounded similar"
+      ],
+      "why_ko": "감각동사 sound 뒤 보어는 형용사 similar입니다.",
+      "rationale": "감각동사 sound 뒤에는 형용사 보어. similarly로 바꾼 부사 오답이 가장 전형적인 함정",
+      "sentence_no": 16,
+      "sentence": "I love it because it sounds similar to my English name."
+    },
+    {
+      "tag_id": "3e422c97-ce24-484f-9d10-d6ae9355fdfb",
+      "point": "PREP_USAGE",
+      "span_start": 485,
+      "span_end": 511,
+      "correct": "similar to my English name",
+      "wrong": [
+        "similar with my English name",
+        "similar from my English name"
+      ],
+      "why_ko": "'~와 비슷한'은 similar to로 전치사 to가 고정입니다.",
+      "rationale": "similar 뒤에는 전치사 to가 고정. with/from/as로 바꾸거나 삭제하는 오답 유도",
+      "sentence_no": 16,
+      "sentence": "I love it because it sounds similar to my English name."
+    },
+    {
+      "tag_id": "b9a45428-566b-4181-8f4a-a0209d7bd921",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 545,
+      "span_end": 561,
+      "correct": "I’d like to know",
+      "wrong": [
+        "I’d like knowing",
+        "I’d like know"
+      ],
+      "why_ko": "would like 뒤에는 to부정사가 옵니다.",
+      "rationale": "would like는 목적어로 to부정사만 취한다. knowing으로 바꾼 동명사 오답 유도",
+      "sentence_no": 18,
+      "sentence": "A: I’d like to know why you helped the Korean independence movement."
+    },
+    {
+      "tag_id": "7cd880a8-95da-41bf-9242-b395caa63a41",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 562,
+      "span_end": 576,
+      "correct": "why you helped",
+      "wrong": [
+        "why did you help",
+        "why do you helped"
+      ],
+      "why_ko": "know의 목적어인 간접의문문이라 '의문사 + 주어 + 동사' 어순을 씁니다.",
+      "rationale": "know의 목적어인 간접의문문. 의문부사 why + 주어 + 동사 어순이며 'why did you help'로 어순을 흐트러뜨리는 오답 유도",
+      "sentence_no": 18,
+      "sentence": "A: I’d like to know why you helped the Korean independence movement."
+    },
+    {
+      "tag_id": "efce7ee5-cf84-4ec4-9081-acd577d68beb",
+      "point": "VERB_SVA",
+      "span_start": 630,
+      "span_end": 647,
+      "correct": "every country has",
+      "wrong": [
+        "every country have",
+        "every countries have"
+      ],
+      "why_ko": "every + 단수명사는 단수 취급이라 has를 씁니다.",
+      "rationale": "every + 단수명사는 단수 취급이므로 has. every를 복수 의미로 착각해 have로 바꾸는 수일치 오답이 대표적",
+      "sentence_no": 19,
+      "sentence": "B: Well, I believe every country has the right to be independent."
+    },
+    {
+      "tag_id": "713b22b4-8ee6-4f47-aa94-f3aee59bd175",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 648,
+      "span_end": 675,
+      "correct": "the right to be independent",
+      "wrong": [
+        "the right being independent",
+        "the right to independent"
+      ],
+      "why_ko": "명사 right를 뒤에서 꾸미는 to부정사로, to 뒤에는 동사원형 be가 필요합니다.",
+      "rationale": "명사 right를 뒤에서 수식하는 to부정사의 형용사적 용법. being independent / to independent 형태 오답 유도",
+      "sentence_no": 19,
+      "sentence": "B: Well, I believe every country has the right to be independent."
+    },
+    {
+      "tag_id": "d1d7c2fb-403d-49a9-9efe-82f8fc09b027",
+      "point": "VERB_TENSE",
+      "span_start": 696,
+      "span_end": 714,
+      "correct": "after you returned",
+      "wrong": [
+        "after you will return",
+        "after you have returned"
+      ],
+      "why_ko": "1958년이라는 과거 시점의 일이고 주절도 과거이므로 과거시제 returned를 씁니다.",
+      "rationale": "주절이 과거(did you do)이므로 종속절도 과거. will return / have returned로 바꾸는 시제 오답 유도",
+      "sentence_no": 20,
+      "sentence": "A: What did you do after you returned to Korea in 1958?"
+    },
+    {
+      "tag_id": "30c73979-1ee5-43aa-a88b-110a0b8ad769",
+      "point": "PREP_USAGE",
+      "span_start": 715,
+      "span_end": 731,
+      "correct": "to Korea in 1958",
+      "wrong": [
+        "to Korea on 1958",
+        "in Korea in 1958"
+      ],
+      "why_ko": "연도 앞에는 in, 돌아간 목적지 앞에는 to를 씁니다.",
+      "rationale": "연도 앞에는 in, 도착지 앞에는 to. on 1958 / at 1958 또는 return in Korea 같은 전치사 교체 오답 유도",
+      "sentence_no": 20,
+      "sentence": "A: What did you do after you returned to Korea in 1958?"
+    },
+    {
+      "tag_id": "a7f8f410-2292-4e34-920e-d6b71f221d26",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 736,
+      "span_end": 749,
+      "correct": "I worked hard",
+      "wrong": [
+        "I worked hardly",
+        "I worked hardly enough"
+      ],
+      "why_ko": "'열심히'는 hard이고, hardly는 '거의 ~않다'라는 반대 뜻이 됩니다.",
+      "rationale": "hard(열심히)와 hardly(거의 ~않다)의 구별. hardly로 바꾸면 의미가 정반대가 되는 전형적 함정",
+      "sentence_no": 21,
+      "sentence": "B: I worked hard to help Koreans, especially poor students."
+    },
+    {
+      "tag_id": "7b86293f-62fc-44db-9dee-3e57b4f841d8",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 750,
+      "span_end": 765,
+      "correct": "to help Koreans",
+      "wrong": [
+        "helping Koreans",
+        "for help Koreans"
+      ],
+      "why_ko": "'~을 돕기 위해'라는 목적은 to부정사로 나타냅니다.",
+      "rationale": "'돕기 위해'라는 목적을 나타내는 to부정사의 부사적 용법. helping / for help로 바꾸는 오답 유도",
+      "sentence_no": 21,
+      "sentence": "B: I worked hard to help Koreans, especially poor students."
+    }
+  ],
+  "diagnostics": {
+    "returned": 30,
+    "kept": 30,
+    "given": 30,
+    "rejects": []
+  }
+}

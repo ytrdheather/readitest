@@ -1,0 +1,637 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L5 본문 — Street Art in London",
+  "kind": "textbook_reading",
+  "parts": [
+    "Street Art in London-1",
+    "Street Art in London-2",
+    "Street Art in London-3",
+    "Street Art in London-4"
+  ],
+  "body": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "c2074f04-6974-4a45-8cf8-2798347d0a90",
+      "point": "PREP_USAGE",
+      "span_start": 24,
+      "span_end": 47,
+      "correct": "in many different forms",
+      "wrong": [
+        "on many different forms",
+        "with many different forms"
+      ],
+      "why_ko": "'~한 형태로 나오다'는 come in을 쓰므로 전치사는 in이 맞아요.",
+      "rationale": "'come in + 형태/종류' 관용 전치사. 빈칸으로 뚫어 on / with / at 등과 혼동시키기 가장 쉬운 자리이며, 전치사 삭제(EI_PREP_DELETE)로도 변형 가능",
+      "sentence_no": 1,
+      "sentence": "Modern street art comes in many different forms, and it makes cities colorful and lively."
+    },
+    {
+      "tag_id": "450a12da-891c-47c1-b97a-ac24f55cb8b9",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 56,
+      "span_end": 88,
+      "correct": "makes cities colorful and lively",
+      "wrong": [
+        "makes cities colorfully and lively",
+        "makes cities to be colorful and lively"
+      ],
+      "why_ko": "make+목적어+목적격보어에서 보어 자리에는 형용사가 와야 하므로 colorful and lively가 맞아요.",
+      "rationale": "make + 목적어(cities) + 목적격보어(형용사 colorful and lively)의 5형식. 보어 자리에 부사 colorfully/lively를 넣는 오류(EI_ADJ_TO_ADV)를 유도할 수 있고, 보어 두 개가 and로 병렬된 점도 함께 건드릴 수 있다",
+      "sentence_no": 1,
+      "sentence": "Modern street art comes in many different forms, and it makes cities colorful and lively."
+    },
+    {
+      "tag_id": "cdbb4fe4-bb24-4d44-bed4-e8db356a2e22",
+      "point": "VERB_TENSE",
+      "span_start": 100,
+      "span_end": 116,
+      "correct": "are going to see",
+      "wrong": [
+        "are going to seeing",
+        "are going see"
+      ],
+      "why_ko": "be going to 뒤에는 동사원형이 오므로 to see가 맞아요.",
+      "rationale": "Today와 호응하는 be going to 미래표현. to 뒤 동사원형이 원칙이므로 'are going to seeing' / 'are going see' 같은 형태 오류를 심을 수 있다",
+      "sentence_no": 2,
+      "sentence": "Today, we are going to see some well-known street artworks in London."
+    },
+    {
+      "tag_id": "4567651e-11ad-4a0b-854b-3e2d0d593268",
+      "point": "REL_OBJECT",
+      "span_start": 170,
+      "span_end": 196,
+      "correct": "that we are going to visit",
+      "wrong": [
+        "that we are going to visit it",
+        "where we are going to visit"
+      ],
+      "why_ko": "visit의 목적어 자리가 비어 있으므로 목적격 관계대명사 that을 쓰고, it을 다시 쓰거나 where로 바꾸면 안 돼요.",
+      "rationale": "선행사 The place를 받는 목적격 관계대명사 that(=which, 생략 가능). visit 뒤에 목적어 it을 다시 쓰는 목적어 중복 오류(that we are going to visit it)나, 장소 명사라는 이유로 관계부사 where로 바꿔치기하는 오류를 유도할 수 있다.",
+      "sentence_no": 3,
+      "sentence": "The place that we are going to visit is Shoreditch."
+    },
+    {
+      "tag_id": "27545be8-7e7f-4420-8aa1-53c26f1d74b0",
+      "point": "VERB_USED_TO",
+      "span_start": 225,
+      "span_end": 237,
+      "correct": "used to live",
+      "wrong": [
+        "used to living",
+        "were used to live"
+      ],
+      "why_ko": "'예전에 ~했다'는 used to + 동사원형이라 live가 맞아요.",
+      "rationale": "'예전에는 ~했다(지금은 아니다)'의 used to + 동사원형. used to living(be used to -ing 혼동) / were used to live 같은 오류를 유도하는 대표 자리이며, 뒤의 but now와 의미상 짝을 이룬다.",
+      "sentence_no": 4,
+      "sentence": "Poor workers used to live in this area, but now it is one of the hippest areas in London."
+    },
+    {
+      "tag_id": "81277521-57c0-4287-aa04-dc7d32e25fab",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 266,
+      "span_end": 290,
+      "correct": "one of the hippest areas",
+      "wrong": [
+        "one of the hippest area",
+        "one of the most hip areas"
+      ],
+      "why_ko": "'one of the 최상급 + 복수명사'이므로 hippest areas가 맞아요.",
+      "rationale": "'one of the + 최상급 + 복수명사' 구문. hipper / most hip / one of the hippest area(단수) 처럼 최상급 형태나 복수명사 조건을 깨는 오류를 심을 수 있다.",
+      "sentence_no": 4,
+      "sentence": "Poor workers used to live in this area, but now it is one of the hippest areas in London."
+    },
+    {
+      "tag_id": "03da0460-62ad-4e97-8c19-23af969d4465",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 314,
+      "span_end": 334,
+      "correct": "so many great pieces",
+      "wrong": [
+        "such many great pieces",
+        "so much great pieces"
+      ],
+      "why_ko": "셀 수 있는 복수명사 앞에는 so many를 써요.",
+      "rationale": "가산 복수명사 앞의 so many. such many / so much great pieces / too many 로 바꿔 so-such, many-much 구별을 묻는 전형적 자리.",
+      "sentence_no": 5,
+      "sentence": "We can find so many great pieces of street art here."
+    },
+    {
+      "tag_id": "89ede507-08f6-4665-9dd0-ce6e42619f68",
+      "point": "PREP_USAGE",
+      "span_start": 394,
+      "span_end": 410,
+      "correct": "is by the artist",
+      "wrong": [
+        "is from the artist",
+        "is of the artist"
+      ],
+      "why_ko": "작품의 작가를 나타낼 때는 전치사 by를 써요.",
+      "rationale": "작품의 '작자'를 나타내는 전치사 by(~에 의한 작품). from / of / with 로 교체하거나 전치사를 삭제하는 빈칸 문항으로 만들기 쉽다.",
+      "sentence_no": 7,
+      "sentence": "It is by the artist STIK."
+    },
+    {
+      "tag_id": "7fd353b0-36f4-4107-bc34-6fd27f44fe4c",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 423,
+      "span_end": 433,
+      "correct": "famous for",
+      "wrong": [
+        "famous as",
+        "famous to"
+      ],
+      "why_ko": "'~로 유명하다'는 be famous for로 굳어진 표현이에요.",
+      "rationale": "be famous for(~로 유명하다)의 고정 전치사. be famous as / to / about 로 교체하는 오답, 또는 전치사 삭제 오류를 유도할 수 있다.",
+      "sentence_no": 8,
+      "sentence": "He is famous for using only lines and dots in his paintings of human bodies."
+    },
+    {
+      "tag_id": "8c96832b-7a2e-4ce6-86be-d81fe6e9fbdd",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 430,
+      "span_end": 450,
+      "correct": "for using only lines",
+      "wrong": [
+        "for use only lines",
+        "for to use only lines"
+      ],
+      "why_ko": "전치사 for 뒤에는 동명사가 오므로 using이 맞아요.",
+      "rationale": "전치사 for의 목적어이므로 동명사 using이 와야 한다. for use / for to use 처럼 원형·to부정사로 바꾸는 오류가 자주 출제된다.",
+      "sentence_no": 8,
+      "sentence": "He is famous for using only lines and dots in his paintings of human bodies."
+    },
+    {
+      "tag_id": "5ab85c8e-9982-468c-8926-0d34fc11a438",
+      "point": "PREP_USAGE",
+      "span_start": 494,
+      "span_end": 506,
+      "correct": "According to",
+      "wrong": [
+        "According with",
+        "Accordingly to"
+      ],
+      "why_ko": "'~에 따르면'은 according to로 굳어진 표현이에요.",
+      "rationale": "'~에 따르면'의 구전치사 according to. 굳어진 부사구라 눈에 잘 안 들어오지만 [According to / According with / Accordingly] 처럼 앞·뒤 요소를 빈칸으로 뚫기 가장 쉬운 자리다.",
+      "sentence_no": 9,
+      "sentence": "According to STIK, the three figures represent the past, present, and future of Shoreditch."
+    },
+    {
+      "tag_id": "52e250fb-9036-4164-8ab2-bb8d9c887836",
+      "point": "VERB_SVA",
+      "span_start": 513,
+      "span_end": 540,
+      "correct": "the three figures represent",
+      "wrong": [
+        "the three figures represents",
+        "the three figures is representing"
+      ],
+      "why_ko": "주어가 복수(the three figures)라서 동사도 represent예요.",
+      "rationale": "주어가 복수(the three figures)이므로 동사는 represent. According to STIK 라는 삽입 전치사구 때문에 represents로 잘못 수일치시키는 오류를 유도할 수 있다.",
+      "sentence_no": 9,
+      "sentence": "According to STIK, the three figures represent the past, present, and future of Shoreditch."
+    },
+    {
+      "tag_id": "8478d816-bb7a-43ca-9fee-85e6b04f7cad",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 523,
+      "span_end": 570,
+      "correct": "figures represent the past, present, and future",
+      "wrong": [
+        "figures are represented the past, present, and future",
+        "figures are representing by the past, present, and future"
+      ],
+      "why_ko": "뒤에 목적어가 있으므로 능동태 represent가 맞아요.",
+      "rationale": "목적어를 가진 능동태이므로 수동태로 뒤집는 변형이 가능한 자리. are represented the past(태 오류) 또는 by 누락형(The past ~ are represented the three figures)으로 출제될 수 있다.",
+      "sentence_no": 9,
+      "sentence": "According to STIK, the three figures represent the past, present, and future of Shoreditch."
+    },
+    {
+      "tag_id": "2be4fe04-dc90-49a1-8e10-5934ad2f769b",
+      "point": "VERB_SVA",
+      "span_start": 586,
+      "span_end": 609,
+      "correct": "Which figure represents",
+      "wrong": [
+        "Which figure represent",
+        "Which figure are representing"
+      ],
+      "why_ko": "주어 Which figure가 단수라서 represents로 써요.",
+      "rationale": "주어가 단수(Which figure)이므로 represents. 바로 앞 문장의 복수 주어 represent와 대비되어 represent로 바꾸는 수일치 오류를 심기 좋다.",
+      "sentence_no": 10,
+      "sentence": "Which figure represents which?"
+    },
+    {
+      "tag_id": "24f15603-51d5-45d5-907e-d35b5481831b",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 623,
+      "span_end": 638,
+      "correct": "look closely at",
+      "wrong": [
+        "look closely",
+        "look closely for"
+      ],
+      "why_ko": "'~을 보다'는 look at이라 전치사 at을 빼거나 바꾸면 안 돼요.",
+      "rationale": "look at(~을 보다)의 고정 전치사 at. 부사 closely가 끼어 있어 전치사를 통째로 빠뜨리는 오류(look closely the eyes)나 look for/into 교체를 유도할 수 있다.",
+      "sentence_no": 11,
+      "sentence": "Well, look closely at the eyes of the three figures."
+    },
+    {
+      "tag_id": "e6d989e5-1843-4667-b442-290b225d7039",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 623,
+      "span_end": 647,
+      "correct": "look closely at the eyes",
+      "wrong": [
+        "look close at the eyes",
+        "look closed at the eyes"
+      ],
+      "why_ko": "동사 look을 꾸미며 '자세히'라는 뜻이므로 부사 closely가 맞아요.",
+      "rationale": "동사 look을 수식하는 부사 closely(자세히). 형용사 close 또는 '가까이'의 close와 혼동시키는 [close / closely] 선택형이 대표적 출제 형태다.",
+      "sentence_no": 11,
+      "sentence": "Well, look closely at the eyes of the three figures."
+    },
+    {
+      "tag_id": "bca7985d-7c8e-4e7b-94d1-6e7cd6277530",
+      "point": "PRON_AGREEMENT",
+      "span_start": 670,
+      "span_end": 688,
+      "correct": "They are just dots",
+      "wrong": [
+        "It is just dots",
+        "They is just dots"
+      ],
+      "why_ko": "앞의 the eyes(복수)를 받으므로 They are가 맞아요.",
+      "rationale": "앞 문장의 the eyes of the three figures를 받는 복수 대명사 They. It is just dots 처럼 수를 어긋나게 하는 오류를 심을 수 있다.",
+      "sentence_no": 12,
+      "sentence": "They are just dots, but they will give you a clue."
+    },
+    {
+      "tag_id": "e162c9bb-ed5d-433c-917c-de957f32eb4a",
+      "point": "SVOO_DATIVE",
+      "span_start": 704,
+      "span_end": 719,
+      "correct": "give you a clue",
+      "wrong": [
+        "give a clue you",
+        "give to you a clue"
+      ],
+      "why_ko": "4형식은 give + 사람 + 사물 순서이고, 전치사를 쓰려면 give a clue to you로 바꿔야 해요.",
+      "rationale": "수여동사 give + 간접목적어(you) + 직접목적어(a clue)의 4형식. 3형식 전환 시 give a clue to you 로 전치사 to를 써야 하므로 for/of 오류를 유도하는 조건영작 자리.",
+      "sentence_no": 12,
+      "sentence": "They are just dots, but they will give you a clue."
+    },
+    {
+      "tag_id": "1e6b2460-27f9-44b2-b739-d5c60add0a21",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 749,
+      "span_end": 755,
+      "correct": "to see",
+      "wrong": [
+        "seeing",
+        "for see"
+      ],
+      "why_ko": "'~하기 위해'라는 목적은 to부정사로 나타내요.",
+      "rationale": "'~하기 위해'라는 목적을 나타내는 부사적 용법의 to부정사. seeing / for see / see 등 형태 오류를 유도할 수 있고, 빈칸으로 뚫어 to see를 고르게 하기 쉬운 자리.",
+      "sentence_no": 13,
+      "sentence": "We are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist."
+    },
+    {
+      "tag_id": "af2113cf-06ad-4b4b-ad62-c6d5dad701b1",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 781,
+      "span_end": 803,
+      "correct": "internationally famous",
+      "wrong": [
+        "international famous",
+        "internationally fame"
+      ],
+      "why_ko": "형용사 famous를 꾸미려면 부사 internationally가 필요해요.",
+      "rationale": "형용사 famous를 수식하므로 부사 internationally가 맞다. international famous 처럼 형용사로 바꾼 오답을 심기 쉬운 자리.",
+      "sentence_no": 13,
+      "sentence": "We are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist."
+    },
+    {
+      "tag_id": "7128f455-9300-440a-8fbe-786cfc41f59d",
+      "point": "REL_OBJECT",
+      "span_start": 885,
+      "span_end": 910,
+      "correct": "(that) you see over there",
+      "wrong": [
+        "what you see over there",
+        "that you see it over there"
+      ],
+      "why_ko": "선행사 the green tree가 있으므로 what은 안 되고, see의 목적어를 또 쓰면 안 돼요.",
+      "rationale": "선행사 the green tree를 받는 목적격 관계대명사로 생략 가능. see 뒤에 it을 다시 쓰는 목적어 중복 오류나 what으로 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 14,
+      "sentence": "Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example."
+    },
+    {
+      "tag_id": "c0e02a8e-9101-4a96-ab4c-7551eaf58f65",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 946,
+      "span_end": 969,
+      "correct": "he created a green tree",
+      "wrong": [
+        "he was created a green tree",
+        "a green tree was created him"
+      ],
+      "why_ko": "목적어가 있으므로 능동태 created가 맞아요.",
+      "rationale": "목적어(a green tree)를 가진 능동태이므로 수동태 전환 문항으로 바꾸기 쉽다. was created by him / was creating 같은 형태 오류, by 누락 오류를 심을 수 있다.",
+      "sentence_no": 15,
+      "sentence": "As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree."
+    },
+    {
+      "tag_id": "4e9520ce-ce88-4892-95cf-eeaa04f5b4e0",
+      "point": "PREP_USAGE",
+      "span_start": 970,
+      "span_end": 981,
+      "correct": "by spraying",
+      "wrong": [
+        "by spray",
+        "by sprayed"
+      ],
+      "why_ko": "전치사 by 뒤에는 동명사가 와서 '~함으로써'가 돼요.",
+      "rationale": "수단·방법의 전치사 by + 동명사 구조. by spray / by sprayed / with spraying 처럼 전치사 뒤 형태나 전치사 자체를 틀리게 하는 오답이 자주 나온다.",
+      "sentence_no": 15,
+      "sentence": "As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree."
+    },
+    {
+      "tag_id": "2957c35d-26d2-47bb-8723-c84f77670755",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 1064,
+      "span_end": 1078,
+      "correct": "who is holding",
+      "wrong": [
+        "which is holding",
+        "whom is holding"
+      ],
+      "why_ko": "선행사가 사람이고 관계절의 주어 자리라 주격 who가 맞아요.",
+      "rationale": "선행사가 사람(a person)이고 관계절 안에서 주어 자리이므로 주격 관계대명사 who. which / where / whom 으로 바꾼 선행사 불일치 오류를 유도하는 자리.",
+      "sentence_no": 16,
+      "sentence": "Next to the tree, there is a person who is holding a sprayer."
+    },
+    {
+      "tag_id": "0a35d1f4-4cef-4121-926a-5bc65af09359",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 1115,
+      "span_end": 1127,
+      "correct": "want to give",
+      "wrong": [
+        "want giving",
+        "want give"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 취해요.",
+      "rationale": "want는 목적어로 to부정사만 취한다. want giving 처럼 동명사로 바꾼 오답을 심기 쉬운 자리.",
+      "sentence_no": 17,
+      "sentence": "What message does Banksy want to give us through this painting?"
+    },
+    {
+      "tag_id": "8916746e-ac8e-406a-a76c-95e056e18c75",
+      "point": "PREP_USAGE",
+      "span_start": 1154,
+      "span_end": 1178,
+      "correct": "In many people’s opinion",
+      "wrong": [
+        "On many people’s opinion",
+        "At many people’s opinion"
+      ],
+      "why_ko": "'~의 의견으로는'은 in one's opinion으로 굳어진 표현이에요.",
+      "rationale": "'~의 의견으로는'을 뜻하는 굳어진 부사구로 전치사 In이 고정. On / At / With 등으로 바꾼 선지를 만들거나 전치사를 빈칸으로 뚫기 쉬운 자리.",
+      "sentence_no": 18,
+      "sentence": "In many people’s opinion, he is telling us that nature is having a hard time."
+    },
+    {
+      "tag_id": "f5b774b3-0f22-4783-862d-c6943185c34a",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 1197,
+      "span_end": 1230,
+      "correct": "that nature is having a hard time",
+      "wrong": [
+        "what nature is having a hard time",
+        "if nature is having a hard time"
+      ],
+      "why_ko": "뒤 문장이 완전하므로 명사절 접속사 that을 써요.",
+      "rationale": "tell의 직접목적어로 쓰인 명사절 접속사 that. 뒤 절이 완전하므로 what을 쓸 수 없다 — what/if 로 바꾼 오답 유도 자리.",
+      "sentence_no": 18,
+      "sentence": "In many people’s opinion, he is telling us that nature is having a hard time."
+    },
+    {
+      "tag_id": "61658235-a6e6-4643-8ff6-993642d32784",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 1253,
+      "span_end": 1281,
+      "correct": "wants us to take better care",
+      "wrong": [
+        "wants us take better care",
+        "wants us taking better care"
+      ],
+      "why_ko": "want + 목적어 + to부정사 구조라서 to take가 맞아요.",
+      "rationale": "want + 목적어 + to부정사(5형식) 구조. to 생략(taking, take)으로 바꾼 오류나 사역·지각동사와 혼동시키는 오답을 유도할 수 있다.",
+      "sentence_no": 19,
+      "sentence": "They think (that) he wants us to take better care of it."
+    },
+    {
+      "tag_id": "2a876a16-0773-4752-a2fc-5516f06799c3",
+      "point": "VERB_SVA",
+      "span_start": 1289,
+      "span_end": 1324,
+      "correct": "The final stop of our tour today is",
+      "wrong": [
+        "The final stop of our tour today are",
+        "The final stop of our tour today were"
+      ],
+      "why_ko": "주어의 핵이 단수 The final stop이므로 is를 써요.",
+      "rationale": "주어 핵은 단수 'The final stop'이고 'of our tour today'가 끼어 있어 수식어구가 긴 수일치 자리. are로 바꾼 오답을 유도할 수 있다.",
+      "sentence_no": 20,
+      "sentence": "The final stop of our tour today is Muswell Hill."
+    },
+    {
+      "tag_id": "b37d92a2-5fc1-47ba-b907-0c8efd64e66d",
+      "point": "CONJ_PARALLEL",
+      "span_start": 1376,
+      "span_end": 1402,
+      "correct": "look down and look closely",
+      "wrong": [
+        "look down and looking closely",
+        "look down and to look closely"
+      ],
+      "why_ko": "and 앞뒤로 명령문 두 개가 짝을 이루므로 둘 다 동사원형 look이어야 해요.",
+      "rationale": "and로 명령문 두 개(look down / look closely)가 병렬. 뒤를 looking closely처럼 형태를 어긋나게 만드는 병렬 파괴 오류가 가능하다.",
+      "sentence_no": 22,
+      "sentence": "Well, look down and look closely."
+    },
+    {
+      "tag_id": "489706cb-4317-4ab2-9764-00b14e6e00b3",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 1395,
+      "span_end": 1402,
+      "correct": "closely",
+      "wrong": [
+        "close",
+        "closed"
+      ],
+      "why_ko": "'자세히'라는 뜻으로 동사를 꾸미는 부사는 closely예요.",
+      "rationale": "동사 look을 수식하는 부사 closely. 형용사 close 또는 뜻이 다른 부사 close(가까이)와 구별시키는 형용사/부사 교체 출제 지점.",
+      "sentence_no": 22,
+      "sentence": "Well, look down and look closely."
+    },
+    {
+      "tag_id": "cb4cf532-2496-40cd-9863-f93eaf9d9a69",
+      "point": "PREP_USAGE",
+      "span_start": 1454,
+      "span_end": 1471,
+      "correct": "are by the artist",
+      "wrong": [
+        "are from the artist",
+        "are of the artist"
+      ],
+      "why_ko": "작품의 작가를 말할 때는 전치사 by를 써요.",
+      "rationale": "작품의 '작자'를 나타내는 전치사 by. from/of/with 등으로 바꿔 빈칸 출제하기 쉬운 자리.",
+      "sentence_no": 24,
+      "sentence": "They are by the artist Ben Wilson."
+    },
+    {
+      "tag_id": "e982cfe6-73a4-4127-a28a-1da9670acbc4",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 1491,
+      "span_end": 1504,
+      "correct": "is well known",
+      "wrong": [
+        "is well know",
+        "is well knowing"
+      ],
+      "why_ko": "'~로 알려져 있다'는 be + 과거분사 known이에요.",
+      "rationale": "be+p.p. 수동 형태. is well knowing / is well know 같은 형태 오류나 능동 전환 오류를 심을 수 있다.",
+      "sentence_no": 25,
+      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street."
+    },
+    {
+      "tag_id": "87028f80-27b3-4b5f-96d2-81348cb78f22",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 1494,
+      "span_end": 1517,
+      "correct": "well known for painting",
+      "wrong": [
+        "well known as painting",
+        "well known to painting"
+      ],
+      "why_ko": "'~로 알려지다'는 be known for가 맞아요.",
+      "rationale": "be known for(~로 알려져 있다) 고정 결합. be known as/to/by와 혼동시키는 전치사 선택 문제로 자주 출제된다.",
+      "sentence_no": 25,
+      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street."
+    },
+    {
+      "tag_id": "335f7fb2-63ba-42b2-80e3-ca12c1bb0315",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 1505,
+      "span_end": 1517,
+      "correct": "for painting",
+      "wrong": [
+        "for paint",
+        "for to paint"
+      ],
+      "why_ko": "전치사 for 뒤에는 동명사 painting이 와야 해요.",
+      "rationale": "전치사 for의 목적어이므로 동명사 painting만 가능. to paint / paint로 바꾼 오답이 전형적.",
+      "sentence_no": 25,
+      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street."
+    },
+    {
+      "tag_id": "63c3c919-578a-4d67-84c6-662efe675896",
+      "point": "PREP_USAGE",
+      "span_start": 1527,
+      "span_end": 1533,
+      "correct": "on gum",
+      "wrong": [
+        "in gum",
+        "at gum"
+      ],
+      "why_ko": "표면 위에 그리는 것이므로 접촉을 뜻하는 on을 써요.",
+      "rationale": "표면 접촉을 나타내는 on. in/at으로 바꾼 선지로 빈칸 출제 가능.",
+      "sentence_no": 25,
+      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street."
+    },
+    {
+      "tag_id": "61640802-740e-4220-b711-2e3631972417",
+      "point": "REL_OBJECT",
+      "span_start": 1534,
+      "span_end": 1550,
+      "correct": "that people drop",
+      "wrong": [
+        "what people drop",
+        "that people drop it"
+      ],
+      "why_ko": "선행사 gum이 있으므로 what은 안 되고, drop의 목적어를 또 쓰면 안 돼요.",
+      "rationale": "선행사 gum을 받는 목적격 관계대명사 that(drop의 목적어 자리 비어 있음). what으로 교체하거나 drop it처럼 목적어를 중복시키는 오류 유도.",
+      "sentence_no": 25,
+      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street."
+    },
+    {
+      "tag_id": "6db59146-cc08-42af-92ee-a2d487971fb3",
+      "point": "VERB_SVA",
+      "span_start": 1574,
+      "span_end": 1595,
+      "correct": "paintings often carry",
+      "wrong": [
+        "paintings often carries",
+        "paintings often is carrying"
+      ],
+      "why_ko": "주어가 복수라서 동사도 carry예요.",
+      "rationale": "복수 주어 His gum paintings에 맞춘 원형 carry. carries로 바꾼 수일치 오류가 대표적 함정.",
+      "sentence_no": 26,
+      "sentence": "His gum paintings often carry personal messages from people (that) he meets on the street."
+    },
+    {
+      "tag_id": "47858d9b-057f-4280-bbcc-6889de18c7fb",
+      "point": "REL_OBJECT",
+      "span_start": 1626,
+      "span_end": 1641,
+      "correct": "(that) he meets",
+      "wrong": [
+        "that he meets them",
+        "what he meets"
+      ],
+      "why_ko": "목적격 관계대명사 자리라서 목적어를 또 쓰면 안 되고, 선행사 people이 있으니 what도 안 돼요.",
+      "rationale": "선행사 people 뒤 목적격 관계대명사 that의 생략 표시. whom/who 선택, 생략 가능 여부, meets them처럼 목적어 중복 오류를 물을 수 있다.",
+      "sentence_no": 26,
+      "sentence": "His gum paintings often carry personal messages from people (that) he meets on the street."
+    },
+    {
+      "tag_id": "278a0fd0-a353-4ed2-b024-524d7ee1e7f8",
+      "point": "VOICE_PARTICIPLE",
+      "span_start": 1717,
+      "span_end": 1728,
+      "correct": "a loved one",
+      "wrong": [
+        "a loving one",
+        "a love one"
+      ],
+      "why_ko": "'사랑받는 사람'이라는 수동 의미라 과거분사 loved를 써요.",
+      "rationale": "'사랑받는 사람'이라는 수동 의미의 과거분사 loved가 명사 one을 수식. loving one으로 뒤집는 분사 교체 오류가 가능하다.",
+      "sentence_no": 27,
+      "sentence": "For example, the one over here is a happy birthday wish for a loved one."
+    },
+    {
+      "tag_id": "96ec06a7-452b-4c33-8cca-172449ab84b1",
+      "point": "SVOO_DATIVE",
+      "span_start": 1772,
+      "span_end": 1806,
+      "correct": "give great pleasure to many people",
+      "wrong": [
+        "give great pleasure for many people",
+        "give great pleasure many people"
+      ],
+      "why_ko": "give의 3형식 전환에서는 사람 앞에 전치사 to를 써요.",
+      "rationale": "give의 4형식을 3형식으로 전환한 형태로 전치사 to가 필수. for/of로 바꾸거나 전치사를 삭제하는 오류 유도.",
+      "sentence_no": 28,
+      "sentence": "Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    }
+  ],
+  "diagnostics": {
+    "returned": 41,
+    "kept": 41,
+    "given": 41,
+    "rejects": [],
+    "restored_wrongs": 7
+  }
+}

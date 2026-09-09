@@ -1,0 +1,531 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L6 대화 ④⑤⑥",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "L6 대화-4",
+    "L6 대화-5",
+    "L6 대화-6"
+  ],
+  "body": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science.\nG: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!\nB: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "e387b004-ebab-43c8-aaeb-ec45bab28734",
+      "point": "PREP_USAGE",
+      "span_start": 3,
+      "span_end": 26,
+      "correct": "What kinds of magazines",
+      "wrong": [
+        "What kinds magazines",
+        "What kind of magazine"
+      ],
+      "why_ko": "'kind(s) of + 명사' 구조라 of를 빼면 안 되고, 여러 종류를 묻는 문맥이므로 kinds of + 복수명사가 맞아요.",
+      "rationale": "'kind(s) of + 복수명사' 구조. of를 삭제하거나(what kinds magazines) kind/kinds 수를 틀리게 하는 오류를 유도할 수 있는 자리. 굳어진 표현이라 전치사 of가 눈에 안 들어와 빈칸으로 자주 뚫린다.",
+      "sentence_no": 1,
+      "sentence": "B: What kinds of magazines do you have?"
+    },
+    {
+      "tag_id": "b4d37686-001e-4e5e-a1c4-74771fc863da",
+      "point": "VERB_SVA",
+      "span_start": 43,
+      "span_end": 50,
+      "correct": "We have",
+      "wrong": [
+        "We has",
+        "We having"
+      ],
+      "why_ko": "주어가 We(복수)이므로 현재형은 have예요. has는 3인칭 단수에만 씁니다.",
+      "rationale": "주어 We에 대한 일반동사 현재형 have. has로 바꾸는 수일치 오류를 심을 수 있다.",
+      "sentence_no": 2,
+      "sentence": "G: We have all kinds of magazines."
+    },
+    {
+      "tag_id": "d402dc1b-7bb1-4eff-b5da-816cfac947b7",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 82,
+      "span_end": 88,
+      "correct": "really",
+      "wrong": [
+        "real",
+        "realy interested를 real"
+      ],
+      "why_ko": "interested(형용사)를 꾸미는 자리라 부사 really가 맞아요. 형용사 real은 형용사를 수식할 수 없어요.",
+      "rationale": "분사형 형용사 interested를 수식하는 부사 자리. real / really 로 형용사-부사를 바꿔치기하는 전형적 오류 지점.",
+      "sentence_no": 3,
+      "sentence": "B: I’m really interested in science."
+    },
+    {
+      "tag_id": "13820bcb-43ee-411e-b962-4acea12ed7c6",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 89,
+      "span_end": 99,
+      "correct": "interested",
+      "wrong": [
+        "interest",
+        "interesting"
+      ],
+      "why_ko": "사람이 '관심이 있는' 감정을 느끼므로 be interested in이 맞고, interesting은 '흥미를 주는 대상'에 씁니다.",
+      "rationale": "감정동사 interest의 수동형(be interested). 주어가 사람이므로 interesting(능동·현재분사)로 바꾸면 오류. interested/interesting 짝짓기가 중1~중2 최다 출제 지점.",
+      "sentence_no": 3,
+      "sentence": "B: I’m really interested in science."
+    },
+    {
+      "tag_id": "89ab55e8-0cbf-4d37-b63e-9f75fb4b327c",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 100,
+      "span_end": 110,
+      "correct": "in science",
+      "wrong": [
+        "on science",
+        "about science"
+      ],
+      "why_ko": "be interested는 전치사 in과 짝을 이루는 고정 표현이에요.",
+      "rationale": "be interested 에 고정된 전치사 in. on/at/about 등으로 교체하거나 삭제하는 오류를 유도할 수 있다.",
+      "sentence_no": 3,
+      "sentence": "B: I’m really interested in science."
+    },
+    {
+      "tag_id": "23970bed-5e28-4a42-bdd7-9a262e65bfde",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 112,
+      "span_end": 129,
+      "correct": "Can you recommend",
+      "wrong": [
+        "Can you to recommend",
+        "Can you recommending"
+      ],
+      "why_ko": "조동사 can 뒤에는 반드시 동사원형이 옵니다.",
+      "rationale": "요청을 나타내는 조동사 Can + 동사원형. recommended / to recommend / recommending 으로 바꾸는 형태 오류를 심을 수 있다.",
+      "sentence_no": 4,
+      "sentence": "Can you recommend a science magazine for me?"
+    },
+    {
+      "tag_id": "0f4ba255-da7a-4792-8521-ae850b9cca5f",
+      "point": "SVOO_DATIVE",
+      "span_start": 149,
+      "span_end": 155,
+      "correct": "for me",
+      "wrong": [
+        "to me",
+        "me"
+      ],
+      "why_ko": "recommend는 3형식으로 쓸 때 대상 앞에 for를 씁니다. 전치사를 빼면 비문이 돼요.",
+      "rationale": "recommend의 대상을 전치사구로 표시한 자리. 전치사를 삭제해 4형식처럼 쓰거나(recommend a magazine me) to/for 선택을 묻는 오류 유도가 가능.",
+      "sentence_no": 4,
+      "sentence": "Can you recommend a science magazine for me?"
+    },
+    {
+      "tag_id": "7317654d-9a97-4f14-aa56-8940767a2c33",
+      "point": "VERB_TENSE",
+      "span_start": 166,
+      "span_end": 177,
+      "correct": "You’ll love",
+      "wrong": [
+        "You’ll loved",
+        "You’ll loving"
+      ],
+      "why_ko": "will 뒤에는 동사원형이 와야 하므로 love가 맞아요.",
+      "rationale": "will + 동사원형(미래 예측). loved / will loving / are loving 등 시제·형태 오류를 심을 수 있는 자리.",
+      "sentence_no": 6,
+      "sentence": "You’ll love this one, Teen’s Science."
+    },
+    {
+      "tag_id": "94bcef43-e59a-4eba-9ec6-95fa25d60601",
+      "point": "PRON_INDEFINITE",
+      "span_start": 178,
+      "span_end": 186,
+      "correct": "this one",
+      "wrong": [
+        "this it",
+        "these one"
+      ],
+      "why_ko": "앞에 나온 magazine 같은 종류의 하나를 가리킬 때는 one을 쓰고, it은 this와 함께 쓸 수 없어요.",
+      "rationale": "앞서 언급된 명사(magazine)를 대신하는 부정대명사 one. it / that / ones 와의 구별을 묻거나 지시 대상을 묻는 문항으로 연결된다.",
+      "sentence_no": 6,
+      "sentence": "You’ll love this one, Teen’s Science."
+    },
+    {
+      "tag_id": "284875c4-a17b-48d0-ac54-df015daa24f4",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 213,
+      "span_end": 235,
+      "correct": "can you please help me",
+      "wrong": [
+        "can you please helping me",
+        "can you please to help me"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형 help가 옵니다.",
+      "rationale": "요청을 나타내는 조동사 can + 동사원형. can you please helping / can you please to help 같은 형태 오류나 must/have to 로 바꿔치기 유도 가능",
+      "sentence_no": 7,
+      "sentence": "G: Liam, can you please help me?"
+    },
+    {
+      "tag_id": "bc1e8bec-61eb-48f2-a33a-d9d391968d41",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 244,
+      "span_end": 251,
+      "correct": "to find",
+      "wrong": [
+        "find",
+        "finding"
+      ],
+      "why_ko": "need는 목적어로 to부정사를 받는 동사예요.",
+      "rationale": "need 는 목적어로 to부정사를 받는 동사. need finding / need find 로 바꾼 오답 선지가 자주 나옴",
+      "sentence_no": 8,
+      "sentence": "I need to find some books for my homework."
+    },
+    {
+      "tag_id": "73ce694c-4f5f-4c1b-9d01-0f791661aed8",
+      "point": "PREP_USAGE",
+      "span_start": 263,
+      "span_end": 278,
+      "correct": "for my homework",
+      "wrong": [
+        "to my homework",
+        "of my homework"
+      ],
+      "why_ko": "'~을 위해(용도·목적)'는 전치사 for로 씁니다.",
+      "rationale": "목적·용도를 나타내는 for. 전치사를 통째로 빈칸으로 뚫거나(for/to/of) 삭제하는 변형이 쉬움",
+      "sentence_no": 8,
+      "sentence": "I need to find some books for my homework."
+    },
+    {
+      "tag_id": "27a99b64-e5f6-49be-a0e6-a8dff4e87ee5",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 303,
+      "span_end": 322,
+      "correct": "are you looking for",
+      "wrong": [
+        "are you looking",
+        "are you looking after"
+      ],
+      "why_ko": "'찾다'는 look for라서 for를 빼면 뜻이 안 되고, look after는 '돌보다'예요.",
+      "rationale": "look for(~을 찾다) 고정 결합. 의문문 끝의 for 를 삭제하거나 look after/look at 으로 바꾼 선지 유도",
+      "sentence_no": 9,
+      "sentence": "B: What kinds of books are you looking for, Somi?"
+    },
+    {
+      "tag_id": "566ce84c-5ccd-4089-92b9-2ab0c6d139b3",
+      "point": "PREP_USAGE",
+      "span_start": 349,
+      "span_end": 371,
+      "correct": "books on famous people",
+      "wrong": [
+        "books in famous people",
+        "books famous people"
+      ],
+      "why_ko": "'~에 관한 책'은 books on(=about)으로 씁니다. 전치사를 빼면 명사 두 개가 붙어 비문이 돼요.",
+      "rationale": "'~에 관한'의 on(=about). on 삭제나 in/at 으로 교체하는 변형이 빈칸 출제 1순위",
+      "sentence_no": 10,
+      "sentence": "G: I’m looking for books on famous people who helped others."
+    },
+    {
+      "tag_id": "02001e0c-fa5f-4790-a3f0-98233fc83d0c",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 372,
+      "span_end": 389,
+      "correct": "who helped others",
+      "wrong": [
+        "which helped others",
+        "where helped others"
+      ],
+      "why_ko": "선행사가 사람(famous people)이고 뒤에 주어가 없으므로 주격 관계대명사 who가 맞아요.",
+      "rationale": "선행사 famous people(사람) + 주격 관계대명사 who. which/where 로 바꾼 선행사 불일치 오답 유도",
+      "sentence_no": 10,
+      "sentence": "G: I’m looking for books on famous people who helped others."
+    },
+    {
+      "tag_id": "b5de6023-f77c-4dba-80be-e904604f6d19",
+      "point": "PRON_INDEFINITE",
+      "span_start": 383,
+      "span_end": 389,
+      "correct": "others",
+      "wrong": [
+        "other",
+        "another"
+      ],
+      "why_ko": "'다른 사람들'이라는 명사 자리라 others가 맞아요. other는 형용사, another는 단수를 가리킵니다.",
+      "rationale": "'다른 사람들'을 뜻하는 부정대명사 others. other / the other / another 와 구별시키는 자리",
+      "sentence_no": 10,
+      "sentence": "G: I’m looking for books on famous people who helped others."
+    },
+    {
+      "tag_id": "f7f15ca7-2395-46ae-aec1-ddbbe7e02805",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 398,
+      "span_end": 415,
+      "correct": "to write an essay",
+      "wrong": [
+        "write an essay",
+        "writing an essay"
+      ],
+      "why_ko": "need의 목적어 자리에는 to부정사를 씁니다.",
+      "rationale": "need 의 목적어로 쓰인 명사적 용법 to부정사. writing / write 형태 오류 유도 가능",
+      "sentence_no": 11,
+      "sentence": "I need to write an essay."
+    },
+    {
+      "tag_id": "ada6293b-fc42-455f-9ffe-412a6e2c082d",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 439,
+      "span_end": 450,
+      "correct": "write about",
+      "wrong": [
+        "write",
+        "write for"
+      ],
+      "why_ko": "Who가 전치사 about의 목적어이므로 about을 빼면 문장이 성립하지 않아요.",
+      "rationale": "write about ~(~에 대해 쓰다). 의문사 Who 가 전치사 about 의 목적어이므로 about 삭제 시 비문. EI_PREP_DELETE 표적",
+      "sentence_no": 12,
+      "sentence": "B: Who do you want to write about?"
+    },
+    {
+      "tag_id": "232b0578-a08b-48ca-99ef-678c18b43e0d",
+      "point": "VERB_TENSE",
+      "span_start": 457,
+      "span_end": 475,
+      "correct": "was thinking about",
+      "wrong": [
+        "am thinking about",
+        "was thought about"
+      ],
+      "why_ko": "과거에 생각하던 것을 완곡하게 말하는 과거진행이라 was thinking이 맞아요.",
+      "rationale": "과거진행으로 완곡하게 말하는 표현. am thinking / thought 로 바꿔 시제 일치를 묻는 변형 가능",
+      "sentence_no": 13,
+      "sentence": "G: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?"
+    },
+    {
+      "tag_id": "bcadb97a-a2b9-4029-b0e4-67c6330eead8",
+      "point": "MOD_POSTPOSITIVE",
+      "span_start": 514,
+      "span_end": 526,
+      "correct": "someone else",
+      "wrong": [
+        "else someone",
+        "other someone"
+      ],
+      "why_ko": "-one/-thing으로 끝나는 대명사는 수식어가 뒤에 옵니다.",
+      "rationale": "-one/-thing 계열 부정대명사는 수식어가 뒤에 옴. else someone / other someone 처럼 어순을 뒤집은 오답 유도",
+      "sentence_no": 13,
+      "sentence": "G: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?"
+    },
+    {
+      "tag_id": "ac272252-d27b-4364-892f-9ea099d250d4",
+      "point": "PREP_USAGE",
+      "span_start": 527,
+      "span_end": 533,
+      "correct": "for me",
+      "wrong": [
+        "to me",
+        "for I"
+      ],
+      "why_ko": "recommend는 대상 앞에 for를 쓰고, 전치사 뒤에는 목적격 me가 옵니다.",
+      "rationale": "'나를 위해'의 이익 대상 for. for/to/of 중 고르게 하는 빈칸 자리이며 목적격 me 도 함께 확인 가능",
+      "sentence_no": 13,
+      "sentence": "G: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?"
+    },
+    {
+      "tag_id": "4386b3d9-0689-4950-8d22-21f34f5e5e7c",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 568,
+      "span_end": 597,
+      "correct": "I know she was a famous actor",
+      "wrong": [
+        "I know what she was a famous actor",
+        "I know if she was a famous actor"
+      ],
+      "why_ko": "know 뒤에 완전한 문장이 오는 목적어절이므로 접속사 that(생략 가능)이 맞고, what·if를 넣으면 뜻과 구조가 어긋나요.",
+      "rationale": "know 뒤 목적어절을 이끄는 접속사 that 이 생략된 구조. what/if 로 바꾼 오답이나 that 삽입 가능 여부를 묻는 자리",
+      "sentence_no": 15,
+      "sentence": "G: I know she was a famous actor, but what did she do to help others?"
+    },
+    {
+      "tag_id": "5e06398a-5773-411d-bd9c-d6704062a543",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 619,
+      "span_end": 633,
+      "correct": "to help others",
+      "wrong": [
+        "helping others",
+        "to helping others"
+      ],
+      "why_ko": "'돕기 위해'라는 목적을 나타내므로 to + 동사원형이 맞아요.",
+      "rationale": "'돕기 위해'라는 목적의 부사적 용법 to부정사. helping / for help / to helping 오답 유도",
+      "sentence_no": 15,
+      "sentence": "G: I know she was a famous actor, but what did she do to help others?"
+    },
+    {
+      "tag_id": "9517a227-9075-49a4-aed9-7194880441a4",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 642,
+      "span_end": 669,
+      "correct": "did a lot of volunteer work",
+      "wrong": [
+        "was did a lot of volunteer work",
+        "was done a lot of volunteer work"
+      ],
+      "why_ko": "She가 직접 한 행동이고 목적어가 있으므로 능동태 did가 맞아요.",
+      "rationale": "목적어가 있는 능동태 → 수동으로 뒤집을 수 있는 자리. was done by her 가 정상이나 was did / was doing / by 누락 형태로 변형되어 출제됨",
+      "sentence_no": 16,
+      "sentence": "B: She did a lot of volunteer work, especially for children."
+    },
+    {
+      "tag_id": "dfe00c49-0eb4-4e9d-b5e1-69f070a8ee3a",
+      "point": "PREP_USAGE",
+      "span_start": 671,
+      "span_end": 694,
+      "correct": "especially for children",
+      "wrong": [
+        "especially to children",
+        "especially with children"
+      ],
+      "why_ko": "'~을 위해'라는 대상을 나타낼 때는 for를 씁니다.",
+      "rationale": "대상을 나타내는 for. 굳어진 부사구라 전치사가 눈에 안 들어오지만 for/to/with 빈칸으로 자주 뚫림",
+      "sentence_no": 16,
+      "sentence": "B: She did a lot of volunteer work, especially for children."
+    },
+    {
+      "tag_id": "2432ca2b-8075-4999-a0df-c8fdba545836",
+      "point": "PRON_AGREEMENT",
+      "span_start": 725,
+      "span_end": 734,
+      "correct": "about her",
+      "wrong": [
+        "about she",
+        "about hers"
+      ],
+      "why_ko": "전치사 about 뒤에는 목적격 her가 와야 해요.",
+      "rationale": "전치사 about 의 목적어이므로 목적격 her. she / hers 로 바꾼 격 오류 유도",
+      "sentence_no": 18,
+      "sentence": "Then, I can write about her."
+    },
+    {
+      "tag_id": "62333a76-4c67-47ca-99d5-040f8f92f2d7",
+      "point": "PREP_USAGE",
+      "span_start": 750,
+      "span_end": 767,
+      "correct": "What kind of food",
+      "wrong": [
+        "What kind for food",
+        "What kind food"
+      ],
+      "why_ko": "'kind of + 명사'가 고정 형태라 of를 다른 전치사로 바꾸거나 빼면 틀려요.",
+      "rationale": "'kind of + 명사(불가산·무관사)' 형태. what kind for food / a kind food 처럼 전치사 of 를 빼거나 다른 전치사로 바꾸는 오류를 유도할 수 있는 자리",
+      "sentence_no": 20,
+      "sentence": "B: What kind of food do you like, Amy?"
+    },
+    {
+      "tag_id": "97cc21d8-29d3-4f8c-a765-fbaf00d78a53",
+      "point": "VERB_SVA",
+      "span_start": 768,
+      "span_end": 779,
+      "correct": "do you like",
+      "wrong": [
+        "does you like",
+        "do you likes"
+      ],
+      "why_ko": "주어가 you이므로 do를 쓰고, 조동사 뒤에는 동사원형 like가 옵니다.",
+      "rationale": "주어 you 에 맞는 조동사 do + 동사원형. does you like / do you likes 처럼 수일치·어형 오류를 심을 수 있음",
+      "sentence_no": 20,
+      "sentence": "B: What kind of food do you like, Amy?"
+    },
+    {
+      "tag_id": "eb0c7202-4777-4e67-a54e-d19aa80fea5c",
+      "point": "PREP_USAGE",
+      "span_start": 810,
+      "span_end": 823,
+      "correct": "How about you",
+      "wrong": [
+        "How for you",
+        "How about are you"
+      ],
+      "why_ko": "되묻는 표현은 How about + 명사(대명사) 형태로 굳어져 있어요.",
+      "rationale": "'How about + 명사(대명사)' 되묻기 표현. How for you / How about are you 같은 전치사·구조 오류를 유도. 굳어진 표현이라 전치사가 눈에 안 들어오는 대표 자리",
+      "sentence_no": 22,
+      "sentence": "How about you, Tom?"
+    },
+    {
+      "tag_id": "aa1ccced-74ea-456e-a9aa-2a5aa75b2da3",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 856,
+      "span_end": 873,
+      "correct": "Can you recommend",
+      "wrong": [
+        "Can you to recommend",
+        "Can you recommending"
+      ],
+      "why_ko": "조동사 Can 뒤에는 동사원형만 옵니다.",
+      "rationale": "요청의 Can you + 동사원형. Can you to recommend / Can you recommending 처럼 조동사 뒤 원형 규칙 위반을 심을 수 있음",
+      "sentence_no": 24,
+      "sentence": "G: Can you recommend a good Indian dish for me?"
+    },
+    {
+      "tag_id": "3d1da224-6e17-4460-83db-685615aae16f",
+      "point": "SVOO_DATIVE",
+      "span_start": 893,
+      "span_end": 899,
+      "correct": "for me",
+      "wrong": [
+        "of me",
+        "to me"
+      ],
+      "why_ko": "recommend가 3형식으로 대상을 밝힐 때 쓰는 전치사는 for예요.",
+      "rationale": "수여 의미의 3형식 전환에서 쓰이는 전치사. of me / with me 로 바꾸는 전치사 선택 오류, 또는 전치사 삭제(recommend me a dish 와의 비교) 출제 가능",
+      "sentence_no": 24,
+      "sentence": "G: Can you recommend a good Indian dish for me?"
+    },
+    {
+      "tag_id": "6ef043b2-b55c-4c2f-8f88-fa8fc76083ea",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 910,
+      "span_end": 927,
+      "correct": "why don’t you try",
+      "wrong": [
+        "why don’t you to try",
+        "why don’t you tried"
+      ],
+      "why_ko": "Why don't you 뒤에는 동사원형이 와야 하는 제안 표현이에요.",
+      "rationale": "제안 표현 Why don't you + 동사원형. don't you tried / don't you to try / trying 처럼 원형 자리 어형 오류, How about trying 과의 전환도 자주 출제",
+      "sentence_no": 25,
+      "sentence": "B: Well, why don’t you try tandoori chicken?"
+    },
+    {
+      "tag_id": "16ce9820-dbc8-4c3e-aed2-f73b68dd0e1e",
+      "point": "PRON_AGREEMENT",
+      "span_start": 946,
+      "span_end": 950,
+      "correct": "It’s",
+      "wrong": [
+        "Its",
+        "It"
+      ],
+      "why_ko": "It is의 축약형이 필요한 자리예요. Its는 '그것의'라는 소유격입니다.",
+      "rationale": "It is 의 축약형. 소유격 Its 와의 혼동(Its really good)을 노리는 대표적 출제 지점",
+      "sentence_no": 26,
+      "sentence": "It’s really good."
+    },
+    {
+      "tag_id": "42fbad96-7644-44dc-bb9c-8efc18c5e96b",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 951,
+      "span_end": 962,
+      "correct": "really good",
+      "wrong": [
+        "real good",
+        "really well"
+      ],
+      "why_ko": "be동사 뒤 보어는 형용사 good이고, 그것을 꾸미는 것은 부사 really예요.",
+      "rationale": "부사 really 가 형용사 good 을 수식. real good / really well 처럼 형용사·부사 교체 오류를 심을 수 있음",
+      "sentence_no": 26,
+      "sentence": "It’s really good."
+    }
+  ],
+  "diagnostics": {
+    "returned": 34,
+    "kept": 34,
+    "given": 34,
+    "rejects": [],
+    "restored_wrongs": 7
+  }
+}

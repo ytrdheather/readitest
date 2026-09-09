@@ -1,0 +1,422 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L5 대화 ④⑤⑥",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "L5 대화-4",
+    "L5 대화-5",
+    "L5 대화-6"
+  ],
+  "body": "B: Excuse me. I’m going to the National Art Museum. What’s the best way to get there?\nG: You can walk. Go straight for about 500 meters and turn left. It’ll be on your right.\nB: I see. How long will it take?\nG: Only about 15 minutes.\nB: Really? Thanks.\nG: Excuse me, how can I get to the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will it take?\nB: I think it’ll take about 30 minutes.\nB: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "0ff43916-b07d-490b-aabc-01953e98868b",
+      "point": "VERB_TENSE",
+      "span_start": 14,
+      "span_end": 26,
+      "correct": "I’m going to",
+      "wrong": [
+        "I am go to",
+        "I’m go to",
+        "I are going to"
+      ],
+      "why_ko": "가까운 미래(예정)는 be동사+-ing인 현재진행형으로 쓰고, 주어 I에는 am을 씁니다.",
+      "rationale": "현재진행형이 가까운 미래(예정)를 나타내는 자리. am going / will go / go 형태 혼동을 유도할 수 있고, be동사 수일치(I am vs I are) 오류도 심을 수 있다.",
+      "sentence_no": 2,
+      "sentence": "I’m going to the National Art Museum."
+    },
+    {
+      "tag_id": "bc2862ae-6491-42ec-b5ac-d7e021db3dff",
+      "point": "PREP_USAGE",
+      "span_start": 24,
+      "span_end": 50,
+      "correct": "to the National Art Museum",
+      "wrong": [
+        "the National Art Museum",
+        "for the National Art Museum"
+      ],
+      "why_ko": "go 다음 목적지를 말할 때는 전치사 to가 반드시 필요합니다.",
+      "rationale": "go + to + 장소명사. 전치사 to를 삭제하거나(go the museum) in/for로 바꾸는 빈칸 출제가 매우 쉬운 자리.",
+      "sentence_no": 2,
+      "sentence": "I’m going to the National Art Museum."
+    },
+    {
+      "tag_id": "5835b70e-78f5-4706-b703-5411c27cab2b",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 59,
+      "span_end": 71,
+      "correct": "the best way",
+      "wrong": [
+        "best way",
+        "the better way",
+        "the most best way"
+      ],
+      "why_ko": "'가장 좋은 방법'은 최상급 best이고 최상급 앞에는 the를 씁니다. most best는 이중 최상급으로 틀립니다.",
+      "rationale": "good의 최상급 best + 정관사 the. better(비교급)나 most best 같은 이중 최상급 오류를 유도할 수 있다.",
+      "sentence_no": 3,
+      "sentence": "What’s the best way to get there?"
+    },
+    {
+      "tag_id": "45e89c50-cff7-4b60-a68c-13b5c73ccffe",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 72,
+      "span_end": 84,
+      "correct": "to get there",
+      "wrong": [
+        "get there",
+        "getting there",
+        "for getting there"
+      ],
+      "why_ko": "앞의 명사 way를 꾸미는 자리라 to부정사(to get)를 씁니다.",
+      "rationale": "앞의 명사 way를 수식하는 형용사적 용법의 to부정사. getting / get / for getting 등과 구별시키는 어형 선택 문항으로 나오기 쉽다.",
+      "sentence_no": 3,
+      "sentence": "What’s the best way to get there?"
+    },
+    {
+      "tag_id": "da18059e-2813-458f-8347-a1cff3c9a566",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 93,
+      "span_end": 101,
+      "correct": "can walk",
+      "wrong": [
+        "can to walk",
+        "can walking"
+      ],
+      "why_ko": "조동사 can 뒤에는 반드시 동사원형이 옵니다.",
+      "rationale": "조동사 can 뒤에는 동사원형. can to walk / can walking 같은 형태 오류를 심는 대표 자리.",
+      "sentence_no": 4,
+      "sentence": "G: You can walk."
+    },
+    {
+      "tag_id": "9ba1d784-5515-42bd-bdd0-36b6304aa6a3",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 103,
+      "span_end": 114,
+      "correct": "Go straight",
+      "wrong": [
+        "Go straightly",
+        "Going straight"
+      ],
+      "why_ko": "straight는 그 자체로 부사이므로 -ly를 붙이지 않고, 명령문이라 동사원형 Go로 시작합니다.",
+      "rationale": "straight는 형태 변화 없이 부사로 쓰인다. straightly로 바꾸는 형용사↔부사 교체 오류가 자주 출제된다.",
+      "sentence_no": 5,
+      "sentence": "Go straight for about 500 meters and turn left."
+    },
+    {
+      "tag_id": "57cc89f7-b32a-4176-acbf-71553f79613d",
+      "point": "PREP_USAGE",
+      "span_start": 115,
+      "span_end": 135,
+      "correct": "for about 500 meters",
+      "wrong": [
+        "during about 500 meters",
+        "in about 500 meters"
+      ],
+      "why_ko": "거리가 '얼마나 이어지는지'를 말할 때는 for를 씁니다. during은 명사(기간) 앞에만 쓰입니다.",
+      "rationale": "거리·기간을 나타내는 전치사 for. during/in/at 등으로 바꾸거나 삭제하는 빈칸 출제 지점.",
+      "sentence_no": 5,
+      "sentence": "Go straight for about 500 meters and turn left."
+    },
+    {
+      "tag_id": "de6472a4-c77f-4535-8cf1-dce774637970",
+      "point": "CONJ_PARALLEL",
+      "span_start": 136,
+      "span_end": 149,
+      "correct": "and turn left",
+      "wrong": [
+        "and turning left",
+        "and turns left",
+        "and to turn left"
+      ],
+      "why_ko": "Go와 and로 이어진 명령문이므로 뒤에도 동사원형 turn이 와야 짝이 맞습니다.",
+      "rationale": "Go ~ and turn ~ 로 명령문 두 개가 and로 병렬. turns / turning / to turn 으로 바꿔 병렬을 깨는 오류를 심을 수 있다.",
+      "sentence_no": 5,
+      "sentence": "Go straight for about 500 meters and turn left."
+    },
+    {
+      "tag_id": "9923984a-7e6a-4ebe-b57d-f9dace9dedf7",
+      "point": "PRON_AGREEMENT",
+      "span_start": 151,
+      "span_end": 159,
+      "correct": "It’ll be",
+      "wrong": [
+        "It’s will be",
+        "Its will be",
+        "It’ll is"
+      ],
+      "why_ko": "It’ll은 It will의 축약이고 will 뒤에는 동사원형 be가 옵니다. Its는 소유격이라 주어가 될 수 없습니다.",
+      "rationale": "It’ll = It will (대명사+조동사 축약)로 앞의 the museum을 가리킨다. 소유격 Its나 3인칭 수일치(It’ll be vs It’s will) 혼동을 유도할 수 있다.",
+      "sentence_no": 6,
+      "sentence": "It’ll be on your right."
+    },
+    {
+      "tag_id": "73cea469-5c47-4ee7-8458-b029f76e1681",
+      "point": "PREP_USAGE",
+      "span_start": 160,
+      "span_end": 173,
+      "correct": "on your right",
+      "wrong": [
+        "in your right",
+        "at your right"
+      ],
+      "why_ko": "'오른쪽에 있다'는 굳어진 표현으로 전치사 on을 씁니다.",
+      "rationale": "방향을 나타내는 굳어진 부사구 on your right. in/at/to로 바꾸는 전치사 빈칸이 전형적으로 뚫리는 자리.",
+      "sentence_no": 6,
+      "sentence": "It’ll be on your right."
+    },
+    {
+      "tag_id": "d9733339-69b7-44a7-8a68-f01627cd661f",
+      "point": "IT_CLEFT",
+      "span_start": 185,
+      "span_end": 206,
+      "correct": "How long will it take",
+      "wrong": [
+        "How long will there take",
+        "How long will this take"
+      ],
+      "why_ko": "시간이 걸린다는 표현의 주어는 비인칭 it이며 there나 this로 바꿀 수 없습니다.",
+      "rationale": "소요 시간을 묻는 비인칭 주어 it. 지시대명사 it(사물)과 구별시키거나 there/this로 바꾸는 오류를 심을 수 있다.",
+      "sentence_no": 8,
+      "sentence": "How long will it take?"
+    },
+    {
+      "tag_id": "c1c536f2-1bd2-442d-916e-4e37235d9dab",
+      "point": "VERB_TENSE",
+      "span_start": 194,
+      "span_end": 206,
+      "correct": "will it take",
+      "wrong": [
+        "will it takes",
+        "will it took",
+        "will it taking"
+      ],
+      "why_ko": "조동사 will 뒤에는 항상 동사원형 take가 옵니다.",
+      "rationale": "미래 조동사 will 뒤 동사원형 + 의문문 어순(will + 주어 + 동사원형). takes / took / taking 으로 바꾸는 형태·시제 오류 출제 지점.",
+      "sentence_no": 8,
+      "sentence": "How long will it take?"
+    },
+    {
+      "tag_id": "218b9022-3a76-4e87-abb8-e6abed6bd230",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 267,
+      "span_end": 280,
+      "correct": "how can I get",
+      "wrong": [
+        "how I can get",
+        "how can I to get",
+        "how can I getting"
+      ],
+      "why_ko": "의문문이므로 '의문사+조동사+주어+동사원형' 어순이고 can 뒤에는 원형 get이 옵니다.",
+      "rationale": "의문사+조동사+주어+동사원형 어순. can 뒤 원형(get)이 와야 하며, 'how I can get'(도치 누락), 'how can I to get'(원형 위반) 등의 오류를 심을 수 있다.",
+      "sentence_no": 12,
+      "sentence": "G: Excuse me, how can I get to the Dream Zoo?"
+    },
+    {
+      "tag_id": "d740fcc7-9ee3-402d-8b1c-48b54aed4900",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 277,
+      "span_end": 283,
+      "correct": "get to",
+      "wrong": [
+        "get",
+        "get for"
+      ],
+      "why_ko": "'~에 도착하다'는 get to로 전치사 to가 꼭 필요합니다.",
+      "rationale": "'~에 도착하다/가다'는 get to 로 전치사 to가 반드시 필요. 목적지 앞 전치사를 빼거나(get the Dream Zoo) for/at 등으로 바꾸는 오류를 유도하기 쉬운 자리(EI_PREP_DELETE).",
+      "sentence_no": 12,
+      "sentence": "G: Excuse me, how can I get to the Dream Zoo?"
+    },
+    {
+      "tag_id": "dab80477-db98-4193-90e1-ddca09251fe4",
+      "point": "PREP_USAGE",
+      "span_start": 310,
+      "span_end": 325,
+      "correct": "take the subway",
+      "wrong": [
+        "take by the subway",
+        "take by subway"
+      ],
+      "why_ko": "take는 뒤에 the+교통수단을 바로 씁니다. by는 go by subway처럼 관사 없이 쓰는 표현입니다.",
+      "rationale": "교통수단 표현에서 take + the + 수단(무전치사) vs go by subway(전치사 by, 무관사)의 구별. 'take by the subway'처럼 전치사를 끼워 넣는 오류를 유도할 수 있다.",
+      "sentence_no": 13,
+      "sentence": "B: You can take the subway."
+    },
+    {
+      "tag_id": "77f3d8cf-d726-4f41-9519-c89dfd7bc5d8",
+      "point": "IT_CLEFT",
+      "span_start": 346,
+      "span_end": 358,
+      "correct": "will it take",
+      "wrong": [
+        "will they take",
+        "will there take"
+      ],
+      "why_ko": "소요 시간을 말할 때 주어는 비인칭 it이므로 they나 there는 쓸 수 없습니다.",
+      "rationale": "시간이 걸린다는 뜻의 비인칭 주어 it. they/there 등으로 바꾸는 오류(대명사 오인)를 유도하는 대표 자리이고, 조동사 will 뒤 원형 take 도 함께 확인 대상.",
+      "sentence_no": 15,
+      "sentence": "How long will it take?"
+    },
+    {
+      "tag_id": "4b8bf2cc-902d-45f8-b0f5-9745b802d6d3",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 363,
+      "span_end": 381,
+      "correct": "I think it’ll take",
+      "wrong": [
+        "I think what it’ll take",
+        "I think it’ll to take",
+        "I think it’ll taking"
+      ],
+      "why_ko": "think 뒤에는 접속사 that이 생략된 절이 오고, 그 절의 동사는 will 뒤 원형 take여야 합니다. what은 접속사 자리에 올 수 없습니다.",
+      "rationale": "think 뒤 목적어 명사절 접속사 that 이 생략된 구조. that 을 what 으로 바꾸거나, 정동사 자리를 'it'll to take / it'll taking' 처럼 준동사로 만드는 오류를 심을 수 있다.",
+      "sentence_no": 16,
+      "sentence": "B: I think it’ll take about 30 minutes."
+    },
+    {
+      "tag_id": "e123f005-588d-4a30-aa66-5aeab2e0c71c",
+      "point": "PREP_USAGE",
+      "span_start": 382,
+      "span_end": 398,
+      "correct": "about 30 minutes",
+      "wrong": [
+        "during 30 minutes",
+        "for about 30 minutes long"
+      ],
+      "why_ko": "'약 30분'은 about 30 minutes입니다. during은 숫자로 된 기간 앞에 쓰지 않습니다.",
+      "rationale": "'약, 대략'의 about. during/for/in 등 시간 전치사로 바꿔 빈칸 처리하기 쉬운 자리(during 30 minutes 오류 유도).",
+      "sentence_no": 16,
+      "sentence": "B: I think it’ll take about 30 minutes."
+    },
+    {
+      "tag_id": "0587ad22-0d41-472f-ad2e-f90ccf586772",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 424,
+      "span_end": 443,
+      "correct": "get to Seoul Museum",
+      "wrong": [
+        "get Seoul Museum",
+        "arrive to Seoul Museum"
+      ],
+      "why_ko": "'~에 도착하다'는 get to+장소입니다. arrive는 arrive at을 쓰므로 arrive to는 틀립니다.",
+      "rationale": "'~에 도착하다'는 get to + 장소명사. 전치사 to를 빼거나(get Seoul Museum) arrive to 등으로 바꾸는 오류 유도 가능. 빈칸 뚫기 최적 자리",
+      "sentence_no": 17,
+      "sentence": "B: Excuse me, how can I get to Seoul Museum from here?"
+    },
+    {
+      "tag_id": "78001d05-4d42-4650-a531-09708bddcf35",
+      "point": "PREP_USAGE",
+      "span_start": 444,
+      "span_end": 453,
+      "correct": "from here",
+      "wrong": [
+        "to here",
+        "in here"
+      ],
+      "why_ko": "출발점을 말하므로 '여기에서부터'인 from here가 맞습니다.",
+      "rationale": "출발점을 나타내는 from. to here / in here 등으로 바꾸는 선지가 가능하고 굳어진 부사구라 전치사가 눈에 안 들어옴",
+      "sentence_no": 17,
+      "sentence": "B: Excuse me, how can I get to Seoul Museum from here?"
+    },
+    {
+      "tag_id": "8a5bb2fa-a787-46ce-af25-5de733d05036",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 476,
+      "span_end": 489,
+      "correct": "can get there",
+      "wrong": [
+        "can gets there",
+        "can get to there",
+        "can to get there"
+      ],
+      "why_ko": "can 뒤에는 동사원형이 오고, there는 부사이므로 앞에 to를 붙이지 않습니다.",
+      "rationale": "가능을 나타내는 can + 동사원형. can을 must/have to로 바꾸거나 can gets처럼 형태를 틀리게 하는 변형 가능. 또한 there는 부사이므로 get to there로 쓰면 틀림",
+      "sentence_no": 19,
+      "sentence": "You can get there by bus or by subway."
+    },
+    {
+      "tag_id": "0cdc2855-30f1-4e8f-aef6-28b89b05e24a",
+      "point": "PREP_USAGE",
+      "span_start": 490,
+      "span_end": 509,
+      "correct": "by bus or by subway",
+      "wrong": [
+        "by a bus or by the subway",
+        "with bus or with subway"
+      ],
+      "why_ko": "교통수단은 by+관사 없는 명사로 씁니다. 관사를 붙이거나 with를 쓰면 틀립니다.",
+      "rationale": "교통수단의 by + 무관사 명사. by a bus / by the subway / with bus 처럼 관사·전치사를 건드리는 선지가 전형적",
+      "sentence_no": 19,
+      "sentence": "You can get there by bus or by subway."
+    },
+    {
+      "tag_id": "504bc4b6-063b-457a-95b3-02efd67d7985",
+      "point": "CONJ_PARALLEL",
+      "span_start": 490,
+      "span_end": 509,
+      "correct": "by bus or by subway",
+      "wrong": [
+        "by bus or subway to go",
+        "by bus or taking subway"
+      ],
+      "why_ko": "or로 연결된 두 요소는 같은 형태(by+명사)여야 병렬이 맞습니다.",
+      "rationale": "or로 연결된 두 전치사구가 같은 형태(by+명사)로 병렬. 뒤쪽을 or subway to go 처럼 형태를 바꿔 병렬을 깨는 변형 가능",
+      "sentence_no": 19,
+      "sentence": "You can get there by bus or by subway."
+    },
+    {
+      "tag_id": "1cf6d308-b780-4fcf-af11-a2f341da7d9b",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 514,
+      "span_end": 529,
+      "correct": "Which is faster",
+      "wrong": [
+        "Which is more fast",
+        "Which is fastest",
+        "Which is most fast"
+      ],
+      "why_ko": "fast는 1음절이라 비교급이 faster이고, 둘 중 하나를 비교하므로 최상급은 쓰지 않습니다.",
+      "rationale": "1음절 형용사 fast의 비교급은 faster. more fast / fastest / most fast 로 바꾸는 오류 유도가 가장 흔한 자리",
+      "sentence_no": 20,
+      "sentence": "B: Which is faster, the bus or the subway?"
+    },
+    {
+      "tag_id": "8a1428a7-7745-40d6-8b38-7743afd63cf2",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 562,
+      "span_end": 587,
+      "correct": "I think the bus is faster",
+      "wrong": [
+        "I think what the bus is faster",
+        "I think of the bus is faster"
+      ],
+      "why_ko": "think 뒤에는 that이 생략된 절이 옵니다. what이나 of를 넣으면 문장이 성립하지 않습니다.",
+      "rationale": "think 뒤 목적어절의 접속사 that이 생략된 구조. that 자리에 what을 넣거나 think of the bus is 처럼 바꾸는 오류 유도 가능",
+      "sentence_no": 21,
+      "sentence": "G: Hmm, I think the bus is faster."
+    },
+    {
+      "tag_id": "9cec3c29-4f44-464c-98de-fe9dbd4c456a",
+      "point": "VERB_TENSE",
+      "span_start": 606,
+      "span_end": 623,
+      "correct": "I’ll take the bus",
+      "wrong": [
+        "I’ll took the bus",
+        "I’ll taking the bus",
+        "I am going take the bus"
+      ],
+      "why_ko": "will 뒤에는 동사원형 take가 옵니다. be going to로 쓸 때도 to가 필요합니다.",
+      "rationale": "결정을 나타내는 will + 동사원형(미래). will took / will taking / am going take 등 형태 오류 유도 가능",
+      "sentence_no": 23,
+      "sentence": "Then, I’ll take the bus."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "given": 26,
+    "rejects": [],
+    "restored_wrongs": 3
+  }
+}
