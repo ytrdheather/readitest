@@ -63,13 +63,19 @@
       "span_end": 137,
       "correct": "his love for music",
       "wrong": [
-        "his love to music",
-        "his love of music"
+        "his love to music"
       ],
       "why_ko": "'~에 대한 사랑'은 love for가 굳어진 표현이다.",
       "rationale": "명사 love에 고정적으로 붙는 전치사 for. love to/of/about music 처럼 전치사를 바꾸거나 삭제하는 빈칸 출제가 쉬운 자리.",
       "sentence_no": 3,
-      "sentence": "It’s a movie about a pianist who loses his love for music."
+      "sentence": "It’s a movie about a pianist who loses his love for music.",
+      "verify_dropped": [
+        {
+          "wrong": "his love of music",
+          "judgement": "ok",
+          "note_ko": "love of music도 자연스러운 결합."
+        }
+      ]
     },
     {
       "tag_id": "3f93b034-c96a-4ae3-b170-05ae17e6eb99",
@@ -78,13 +84,19 @@
       "span_end": 163,
       "correct": "moves to a small town",
       "wrong": [
-        "is moved to a small town",
         "moves a small town"
       ],
       "why_ko": "move는 여기서 자동사라 수동태가 안 되고, 방향을 나타내는 to도 있어야 한다.",
       "rationale": "move(이동하다)는 여기서 목적어가 없는 자동사이므로 수동태 불가. is moved to / was moved to 로 바꾼 선지를 만들어 자동사 수동태 함정을 낼 수 있다. 또한 방향 전치사 to 삭제도 가능.",
       "sentence_no": 4,
-      "sentence": "He moves to a small town for a new start."
+      "sentence": "He moves to a small town for a new start.",
+      "verify_dropped": [
+        {
+          "wrong": "is moved to a small town",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 '새 출발을 위해'라는 문맥과 어울리지 않는 수동 의미."
+        }
+      ]
     },
     {
       "tag_id": "2a5a52c9-3d3d-45ab-a32a-b50d12cb09be",
@@ -123,13 +135,19 @@
       "span_end": 243,
       "correct": "and finds his love",
       "wrong": [
-        "and finding his love",
         "and to find his love"
       ],
       "why_ko": "begins와 and로 병렬되는 정동사이므로 finds가 맞다.",
       "rationale": "he begins ~ and finds ~ 로 정동사 두 개가 and로 병렬. finding / to find 로 바꿔 병렬을 깨는 오류가 대표적 출제 지점.",
       "sentence_no": 5,
-      "sentence": "There, he begins teaching music to children and finds his love for music again."
+      "sentence": "There, he begins teaching music to children and finds his love for music again.",
+      "verify_dropped": [
+        {
+          "wrong": "and finding his love",
+          "judgement": "ok",
+          "note_ko": "begins [teaching ... and finding ...]로 해석되어 문법적으로 성립."
+        }
+      ]
     },
     {
       "tag_id": "e48e55c5-3a01-4ff7-a160-25a5fdb737e8",
@@ -162,34 +180,25 @@
       "sentence": "This movie has great music and a touching story, so I strongly recommend it."
     },
     {
-      "tag_id": "707d9af0-a981-4cab-8785-f9217a272ec2",
-      "point": "VERB_TENSE",
-      "span_start": 357,
-      "span_end": 378,
-      "correct": "was a Canadian doctor",
-      "wrong": [
-        "is a Canadian doctor",
-        "has been a Canadian doctor"
-      ],
-      "why_ko": "과거 인물을 소개하는 글이라 과거시제 was로 통일해야 한다.",
-      "rationale": "과거 인물 서술이므로 전 지문이 과거시제로 통일됨. is / has been 으로 바꿔 시제 일치를 깨는 오답 유도",
-      "sentence_no": 7,
-      "sentence": "Frank W. Schofield was a Canadian doctor."
-    },
-    {
       "tag_id": "6283db33-48dd-4ef3-a2f9-c148785bc0f0",
       "point": "CONJ_PARALLEL",
       "span_start": 383,
       "span_end": 413,
       "correct": "loved Korean people and helped",
       "wrong": [
-        "loved Korean people and helping",
-        "loved Korean people and helps"
+        "loved Korean people and helping"
       ],
       "why_ko": "and로 loved와 병렬이므로 같은 과거동사 helped가 와야 한다.",
       "rationale": "and로 연결된 두 과거동사(loved ~ helped)의 병렬. helping / helps 로 바꿔 병렬을 깨는 오답(EI_PARALLEL_BREAK)을 유도하기 쉬운 자리",
       "sentence_no": 8,
-      "sentence": "He loved Korean people and helped the Korean independence movement."
+      "sentence": "He loved Korean people and helped the Korean independence movement.",
+      "verify_dropped": [
+        {
+          "wrong": "loved Korean people and helps",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 과거·현재 시제가 뒤섞여 의미가 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "7c6a4af2-9305-413d-968a-78e39d77e5e0",
@@ -207,34 +216,25 @@
       "sentence": "He loved Korean people and helped the Korean independence movement."
     },
     {
-      "tag_id": "48bea9e0-38de-4c39-abb9-4e3bb561acc5",
-      "point": "VERB_PREP_COLLOCATION",
-      "span_start": 451,
-      "span_end": 467,
-      "correct": "took pictures of",
-      "wrong": [
-        "took pictures for",
-        "took pictures at"
-      ],
-      "why_ko": "'~의 사진을 찍다'는 take pictures of로 굳어진 표현이다.",
-      "rationale": "take pictures of ~ 고정 결합. of 를 for / at 으로 바꾸거나 전치사를 삭제(took pictures the March 1st Movement)하는 오답 유도",
-      "sentence_no": 9,
-      "sentence": "He took pictures of the March 1st Movement and wrote an article about it."
-    },
-    {
       "tag_id": "68eb8077-bfdc-40cb-913a-1ffaa013c7fb",
       "point": "PREP_USAGE",
       "span_start": 495,
       "span_end": 520,
       "correct": "wrote an article about it",
       "wrong": [
-        "wrote an article of it",
-        "wrote an article for it"
+        "wrote an article of it"
       ],
       "why_ko": "'~에 관한 기사'는 an article about이 자연스럽다.",
       "rationale": "'~에 관한 기사'의 about. of / for / with 로 교체하거나 빈칸으로 뚫기 쉬운 전치사 자리",
       "sentence_no": 9,
-      "sentence": "He took pictures of the March 1st Movement and wrote an article about it."
+      "sentence": "He took pictures of the March 1st Movement and wrote an article about it.",
+      "verify_dropped": [
+        {
+          "wrong": "wrote an article for it",
+          "judgement": "odd",
+          "note_ko": "문법은 되나 it을 지면·대상으로 보기 어려워 의미가 어색."
+        }
+      ]
     },
     {
       "tag_id": "7bfce859-f506-48c6-baff-c91c11c22620",
@@ -318,13 +318,19 @@
       "span_end": 685,
       "correct": "with all her money",
       "wrong": [
-        "by all her money",
-        "for all her money"
+        "by all her money"
       ],
       "why_ko": "수단·도구를 나타낼 때 with를 쓴다.",
       "rationale": "수단·도구를 나타내는 with. for/by/in 으로 바꾼 선지를 만들기 쉬운 빈칸 자리.",
       "sentence_no": 13,
-      "sentence": "So, she bought rice with all her money and gave it away to poor people."
+      "sentence": "So, she bought rice with all her money and gave it away to poor people.",
+      "verify_dropped": [
+        {
+          "wrong": "for all her money",
+          "judgement": "odd",
+          "note_ko": "buy X for + 금액 형식은 가능하나 all her money와는 매우 어색."
+        }
+      ]
     },
     {
       "tag_id": "6c66c321-1d72-4bff-b1a7-c82726c2df40",
@@ -378,13 +384,19 @@
       "span_end": 907,
       "correct": "saw a car accident and ran",
       "wrong": [
-        "saw a car accident and running",
-        "saw a car accident and runs"
+        "saw a car accident and running"
       ],
       "why_ko": "saw와 and로 병렬되므로 같은 과거동사 ran이 맞다.",
       "rationale": "and로 saw와 ran이 병렬 연결된 과거동사 두 개. ran을 running/runs로 바꾼 병렬 파괴형 오답이 자주 출제된다.",
       "sentence_no": 16,
-      "sentence": "Nick Priest saw a car accident and ran to save the children on the bus."
+      "sentence": "Nick Priest saw a car accident and ran to save the children on the bus.",
+      "verify_dropped": [
+        {
+          "wrong": "saw a car accident and runs",
+          "judgement": "odd",
+          "note_ko": "과거와 현재 시제가 뒤섞여 의미가 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "9c87a532-83bd-421e-9712-d29a90084b33",
@@ -393,13 +405,19 @@
       "span_end": 915,
       "correct": "to save",
       "wrong": [
-        "for save",
-        "saving"
+        "for save"
       ],
       "why_ko": "'구하기 위해'라는 목적은 to부정사로 나타낸다.",
       "rationale": "'구하기 위해'라는 목적을 나타내는 부사적 용법 to부정사. saving / for save / saved 로 바꾼 형태 오류 유도가 가능하다.",
       "sentence_no": 16,
-      "sentence": "Nick Priest saw a car accident and ran to save the children on the bus."
+      "sentence": "Nick Priest saw a car accident and ran to save the children on the bus.",
+      "verify_dropped": [
+        {
+          "wrong": "saving",
+          "judgement": "odd",
+          "note_ko": "형태상 분사구문으로 볼 수는 있으나 목적 표현으로 매우 어색."
+        }
+      ]
     },
     {
       "tag_id": "e4ce5ca4-3232-4d7e-b41f-b1d207554159",
@@ -408,13 +426,19 @@
       "span_end": 986,
       "correct": "in the subway",
       "wrong": [
-        "on the subway station",
-        "at the subway"
+        "on the subway station"
       ],
       "why_ko": "지하철 안이라는 공간을 말하므로 in the subway가 자연스럽다.",
       "rationale": "장소를 나타내는 전치사 in. on/at 과의 구별로 빈칸을 뚫기 쉬운 자리이며 전치사 삭제형 오류도 가능하다.",
       "sentence_no": 17,
-      "sentence": "Kay Brown saw a homeless person in the subway and gave her own shoes to her."
+      "sentence": "Kay Brown saw a homeless person in the subway and gave her own shoes to her.",
+      "verify_dropped": [
+        {
+          "wrong": "at the subway",
+          "judgement": "odd",
+          "note_ko": "문법은 되나 장소 표현으로 부자연스러움."
+        }
+      ]
     },
     {
       "tag_id": "44d9e52b-98a8-4838-abb4-3620a0044ba2",
@@ -423,13 +447,19 @@
       "span_end": 1016,
       "correct": "gave her own shoes to her",
       "wrong": [
-        "gave her own shoes for her",
-        "gave to her her own shoes"
+        "gave her own shoes for her"
       ],
       "why_ko": "give는 3형식 전환 시 to를 쓰고, 어순도 직접목적어 뒤에 to+사람이 온다.",
       "rationale": "수여동사 give의 3형식 전환형(직접목적어 + to + 간접목적어). give는 for가 아니라 to를 쓰며, 4형식(gave her her own shoes)으로의 전환 서술형이 자주 나온다.",
       "sentence_no": 17,
-      "sentence": "Kay Brown saw a homeless person in the subway and gave her own shoes to her."
+      "sentence": "Kay Brown saw a homeless person in the subway and gave her own shoes to her.",
+      "verify_dropped": [
+        {
+          "wrong": "gave to her her own shoes",
+          "judgement": "odd",
+          "note_ko": "문법적으로 불가능은 아니나 어순이 매우 어색."
+        }
+      ]
     },
     {
       "tag_id": "c6463042-d47d-44c0-83c8-0e398a186d4c",
@@ -467,6 +497,20 @@
     "kept": 30,
     "given": 30,
     "rejects": [],
-    "restored_wrongs": 3
-  }
+    "restored_wrongs": 3,
+    "verify": {
+      "dropped_items": [
+        [
+          "was a Canadian doctor",
+          "모든 오답이 실은 맞는 표현이라 버림: is a Canadian doctor(ok), has been a Canadian doctor(odd)"
+        ],
+        [
+          "took pictures of",
+          "모든 오답이 실은 맞는 표현이라 버림: took pictures for(ok), took pictures at(ok)"
+        ]
+      ],
+      "dropped_wrongs": 10
+    }
+  },
+  "verified": true
 }

@@ -15,13 +15,19 @@
       "span_end": 114,
       "correct": "a special favor to ask you",
       "wrong": [
-        "a special favor to ask it you",
-        "a special favor for asking you"
+        "a special favor to ask it you"
       ],
       "why_ko": "명사 favor를 뒤에서 꾸미는 to부정사(형용사적 용법)로, ask의 목적어가 favor이므로 it을 또 쓰면 안 되고 for asking도 쓸 수 없어요.",
       "rationale": "명사 favor를 뒤에서 수식하는 to부정사의 형용사적 용법. ask 뒤에 목적어(favor)를 중복해 'to ask it you'로 쓰거나 'for asking'으로 바꾸는 오류를 유도할 수 있다.",
       "sentence_no": 2,
-      "sentence": "A man: Dr. Schofield, I have a special favor to ask you."
+      "sentence": "A man: Dr. Schofield, I have a special favor to ask you.",
+      "verify_dropped": [
+        {
+          "wrong": "a special favor for asking you",
+          "judgement": "odd",
+          "note_ko": "문법 형태는 되지만 '부탁할 것이 있다'는 뜻이 안 되고 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "c8381a0a-7887-4e52-a43e-c9a5c012d186",
@@ -75,13 +81,19 @@
       "span_end": 369,
       "correct": "was hiding in a building and saw",
       "wrong": [
-        "was hiding in a building and seeing",
         "was hiding in a building and sees"
       ],
       "why_ko": "and로 연결된 두 동사는 형태·시제를 맞춰야 하므로 과거형 saw가 맞아요.",
       "rationale": "and로 두 술어(was hiding / saw)가 병렬. 'and seeing' 또는 'and sees'로 병렬을 깨는 오류를 심을 수 있다.",
       "sentence_no": 6,
-      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside."
+      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside.",
+      "verify_dropped": [
+        {
+          "wrong": "was hiding in a building and seeing",
+          "judgement": "odd",
+          "note_ko": "형태상 병렬은 가능하나 see의 진행형이 부자연스러워 어색함."
+        }
+      ]
     },
     {
       "tag_id": "ab1bf4ef-c077-4050-826b-55b919ed41a1",
@@ -90,13 +102,19 @@
       "span_end": 411,
       "correct": "saw a large group of people gathering outside",
       "wrong": [
-        "saw a large group of people gathered outside",
         "saw a large group of people to gather outside"
       ],
       "why_ko": "지각동사 saw 뒤 목적어가 스스로 모이는 중이므로 현재분사 gathering을 써요.",
       "rationale": "지각동사 saw + 목적어 + 현재분사(능동·진행). gathered(과거분사) / to gather 와 구별시키는 고빈도 출제 자리.",
       "sentence_no": 6,
-      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside."
+      "sentence": "At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside.",
+      "verify_dropped": [
+        {
+          "wrong": "saw a large group of people gathered outside",
+          "judgement": "ok",
+          "note_ko": "지각동사+목적어+과거분사 구문으로 문법상 성립, 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "fd4b98cc-e54c-442c-9140-c95cc5f8e50a",
@@ -142,21 +160,6 @@
       "rationale": "감각동사 sound 뒤에는 형용사 보어. similarly(부사)로 바꾸는 EI_ADJ_TO_ADV 오류가 거의 확실히 출제되는 자리.",
       "sentence_no": 13,
       "sentence": "It sounded similar to his real name, and it also had a good meaning."
-    },
-    {
-      "tag_id": "a05059aa-53d7-4c90-82ac-2fa49a54cbd4",
-      "point": "NONFIN_TO_ROLE",
-      "span_start": 790,
-      "span_end": 829,
-      "correct": "came to Korea in 1916 to teach medicine",
-      "wrong": [
-        "came to Korea in 1916 for teaching medicine",
-        "came to Korea in 1916 teaching medicine"
-      ],
-      "why_ko": "'가르치기 위해'라는 목적은 to부정사로 나타내요.",
-      "rationale": "'가르치기 위해'라는 목적을 나타내는 부사적 용법. for teaching / teaching 으로 바꾸거나 다른 to부정사와 용법 구별을 묻는 자리.",
-      "sentence_no": 14,
-      "sentence": "Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine."
     },
     {
       "tag_id": "c6865667-57cd-4ccd-b69b-8963e9d40d26",
@@ -315,13 +318,19 @@
       "span_end": 1403,
       "correct": "didn’t stop even after",
       "wrong": [
-        "wasn’t stopped even after",
         "didn’t stopped even after"
       ],
       "why_ko": "여기서 stop은 목적어가 없는 자동사라 수동태가 안 되고, didn't 뒤엔 동사원형이 와요.",
       "rationale": "여기서 stop은 목적어가 없는 자동사이므로 수동태 불가. 'wasn't stopped'처럼 자동사를 수동태로 만든 선지가 함정으로 쓰인다.",
       "sentence_no": 21,
-      "sentence": "Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement."
+      "sentence": "Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement.",
+      "verify_dropped": [
+        {
+          "wrong": "wasn’t stopped even after",
+          "judgement": "ok",
+          "note_ko": "수동형으로도 문법상 성립하며 의미만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "1d528d86-7aca-4a02-acb4-9a3bf56b64a2",
@@ -375,13 +384,19 @@
       "span_end": 1678,
       "correct": "at the invitation of the Korean government",
       "wrong": [
-        "in the invitation of the Korean government",
-        "on the invitation of the Korean government"
+        "in the invitation of the Korean government"
       ],
       "why_ko": "'~의 초청으로'는 at the invitation of로 정해진 표현이에요.",
       "rationale": "굳어진 부사구 at the invitation of(~의 초청으로). 뜻이 통째로 외워져 전치사를 놓치기 쉬워 in/on/by 로 바꾼 빈칸 선지가 자주 나온다.",
       "sentence_no": 24,
-      "sentence": "In 1958, he returned to Korea at the invitation of the Korean government and never left again."
+      "sentence": "In 1958, he returned to Korea at the invitation of the Korean government and never left again.",
+      "verify_dropped": [
+        {
+          "wrong": "on the invitation of the Korean government",
+          "judgement": "ok",
+          "note_ko": "on the invitation of도 실제 쓰이는 변이형이라 비문이 아님."
+        }
+      ]
     },
     {
       "tag_id": "978a029d-4509-4771-ae06-d3506ff4e004",
@@ -405,13 +420,19 @@
       "span_end": 1817,
       "correct": "died in April 1970",
       "wrong": [
-        "was died in April 1970",
-        "was dying in April 1970"
+        "was died in April 1970"
       ],
       "why_ko": "die는 자동사라 수동태(was died)로 쓸 수 없어요.",
       "rationale": "die는 목적어를 갖지 않는 자동사여서 수동태가 불가능하다. 'was died'로 만든 선지가 전형적 함정.",
       "sentence_no": 26,
-      "sentence": "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+      "sentence": "Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery.",
+      "verify_dropped": [
+        {
+          "wrong": "was dying in April 1970",
+          "judgement": "odd",
+          "note_ko": "형태는 되지만 매장 사실과 이어지는 문맥에서 뜻이 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "05eeb932-2290-473d-9d94-f37908904d8b",
@@ -433,6 +454,16 @@
     "returned": 28,
     "kept": 28,
     "given": 28,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "came to Korea in 1916 to teach medicine",
+          "모든 오답이 실은 맞는 표현이라 버림: came to Korea in 1916 for teaching medicine(odd), came to Korea in 1916 teaching medicine(odd)"
+        ]
+      ],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
 }

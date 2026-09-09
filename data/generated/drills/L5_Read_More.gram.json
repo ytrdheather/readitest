@@ -123,13 +123,19 @@
       "span_end": 213,
       "correct": "write about",
       "wrong": [
-        "write",
-        "write of"
+        "write"
       ],
       "why_ko": "'~에 대해 쓰다'는 write about이므로 전치사를 빼거나 바꿀 수 없습니다.",
       "rationale": "'write about ~(에 대해 쓰다)'의 고정 전치사. 관계절 끝에 남은 전치사라서 about을 삭제한 'I want to write is ~' 형태로 오류를 심기 쉽다.",
       "sentence_no": 4,
-      "sentence": "The painting I want to write about is The Red Room by Henri Matisse."
+      "sentence": "The painting I want to write about is The Red Room by Henri Matisse.",
+      "verify_dropped": [
+        {
+          "wrong": "write of",
+          "judgement": "ok",
+          "note_ko": "write of도 '~에 관해 쓰다'로 쓰이는 결합이어서 문장이 성립한다."
+        }
+      ]
     },
     {
       "tag_id": "6d659909-29f4-4056-96a4-cbc3c0237aee",
@@ -243,28 +249,19 @@
       "span_end": 528,
       "correct": "stick them",
       "wrong": [
-        "stick they",
-        "stick it"
+        "stick they"
       ],
       "why_ko": "동사의 목적어이므로 목적격이고, 앞의 pictures가 복수라 them입니다.",
       "rationale": "them은 앞의 복수명사 pictures를 대신하는 목적격. 주격 they나 단수 it으로 바꾼 오류 선지를 만들 수 있다.",
       "sentence_no": 10,
-      "sentence": "People take pictures of their faces and stick them on the street."
-    },
-    {
-      "tag_id": "8256ab3a-0152-4587-b430-d5bf06bc0e26",
-      "point": "PREP_USAGE",
-      "span_start": 529,
-      "span_end": 542,
-      "correct": "on the street",
-      "wrong": [
-        "in the street",
-        "to the street"
-      ],
-      "why_ko": "거리 표면에 붙인다는 접촉의 의미이므로 on을 씁니다.",
-      "rationale": "'붙이다(stick)'의 접촉·장소를 나타내는 전치사 on. in the street / to the street / 전치사 삭제(stick them the street)로 오류를 심을 수 있는 자리. 굳어진 부사구라 눈에 안 들어오지만 빈칸으로 뚫기 가장 쉬운 지점.",
-      "sentence_no": 10,
-      "sentence": "People take pictures of their faces and stick them on the street."
+      "sentence": "People take pictures of their faces and stick them on the street.",
+      "verify_dropped": [
+        {
+          "wrong": "stick it",
+          "judgement": "ok",
+          "note_ko": "어법상 문제는 없고 지시 대상만 달라진다."
+        }
+      ]
     },
     {
       "tag_id": "e4cca07d-593f-448a-b128-208c68746b59",
@@ -303,13 +300,19 @@
       "span_end": 580,
       "correct": "to create",
       "wrong": [
-        "create",
-        "creating"
+        "create"
       ],
       "why_ko": "'~하기 위해'라는 목적을 나타내므로 to부정사를 씁니다.",
       "rationale": "'~하기 위해'의 부사적 용법(목적) to부정사. create(정동사 중복) / creating / to be created 등으로 바꾼 오류 유도가 가능.",
       "sentence_no": 11,
-      "sentence": "The pictures come together to create a huge artwork."
+      "sentence": "The pictures come together to create a huge artwork.",
+      "verify_dropped": [
+        {
+          "wrong": "creating",
+          "judgement": "ok",
+          "note_ko": "분사구문으로 해석되어 문장이 성립한다."
+        }
+      ]
     },
     {
       "tag_id": "b9e847a5-5c1d-433a-991f-2350d9d81e4c",
@@ -393,13 +396,19 @@
       "span_end": 835,
       "correct": "on the farm",
       "wrong": [
-        "in the farm",
-        "at the farm"
+        "in the farm"
       ],
       "why_ko": "'농장에서 일하다'는 work on the farm으로 씁니다.",
       "rationale": "'농장에서 일하다'는 work on the farm. in the farm / at the farm 으로 바꾼 선지 또는 전치사 삭제(EI_PREP_DELETE) 유도",
       "sentence_no": 16,
-      "sentence": "In the past, they used to work on the farm."
+      "sentence": "In the past, they used to work on the farm.",
+      "verify_dropped": [
+        {
+          "wrong": "at the farm",
+          "judgement": "ok",
+          "note_ko": "work at the farm도 쓰이는 결합이다."
+        }
+      ]
     },
     {
       "tag_id": "ee6be8d0-5ad8-414e-b017-d5fcc99393b5",
@@ -408,13 +417,19 @@
       "span_end": 883,
       "correct": "enjoy traveling",
       "wrong": [
-        "enjoy travel",
         "enjoy to travel"
       ],
       "why_ko": "enjoy는 목적어로 동명사만 취하므로 traveling이 맞습니다.",
       "rationale": "enjoy는 목적어로 동명사만 취함. enjoy to travel 로 바꾼 오답 선지 제작이 정석",
       "sentence_no": 17,
-      "sentence": "Now they do not work, and they enjoy traveling."
+      "sentence": "Now they do not work, and they enjoy traveling.",
+      "verify_dropped": [
+        {
+          "wrong": "enjoy travel",
+          "judgement": "ok",
+          "note_ko": "travel은 명사로도 쓰여 enjoy travel이 성립한다."
+        }
+      ]
     }
   ],
   "diagnostics": {
@@ -427,6 +442,16 @@
         "모르는 tag_id"
       ]
     ],
-    "restored_wrongs": 4
-  }
+    "restored_wrongs": 4,
+    "verify": {
+      "dropped_items": [
+        [
+          "on the street",
+          "모든 오답이 실은 맞는 표현이라 버림: in the street(ok), to the street(ok)"
+        ]
+      ],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
 }

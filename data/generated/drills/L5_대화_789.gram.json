@@ -17,13 +17,19 @@
       "span_end": 41,
       "correct": "the best way",
       "wrong": [
-        "the better way",
         "the most best way"
       ],
       "why_ko": "'가장 좋은 방법'은 최상급이라 the best가 맞고, better는 비교급, most best는 최상급 중복이라 틀립니다.",
       "rationale": "최상급 the best. good-better-best 형태와 the 유무를 물을 수 있고, 'the better way / the most best way' 같은 오류 선지를 유도할 수 있다.",
       "sentence_no": 2,
-      "sentence": "What’s the best way to get to Sebit Park from here?"
+      "sentence": "What’s the best way to get to Sebit Park from here?",
+      "verify_dropped": [
+        {
+          "wrong": "the better way",
+          "judgement": "ok",
+          "note_ko": "두 방법을 비교하는 뜻으로 문법상 성립. 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "e0ed5fe2-fbda-4fa4-bbc3-15bd9ef0f742",
@@ -47,13 +53,19 @@
       "span_end": 72,
       "correct": "from here",
       "wrong": [
-        "at here",
-        "in here"
+        "at here"
       ],
       "why_ko": "'여기서부터'라는 출발점은 from을 쓰고, here는 부사라서 at/in을 붙이지 않습니다.",
       "rationale": "출발점을 나타내는 from. 'in here / at here' 등으로 바꾼 전치사 선택 빈칸이 가장 만들기 쉬운 자리다.",
       "sentence_no": 2,
-      "sentence": "What’s the best way to get to Sebit Park from here?"
+      "sentence": "What’s the best way to get to Sebit Park from here?",
+      "verify_dropped": [
+        {
+          "wrong": "in here",
+          "judgement": "odd",
+          "note_ko": "in here 자체는 있으나 출발점을 뜻하는 이 자리에서는 뜻이 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "f880827d-d65e-430f-82b4-8241ee13d05f",
@@ -92,13 +104,19 @@
       "span_end": 158,
       "correct": "the subway is better",
       "wrong": [
-        "the subway is more better",
-        "the subway is best"
+        "the subway is more better"
       ],
       "why_ko": "둘을 비교하므로 비교급 better가 맞고, more better는 비교급 중복입니다.",
       "rationale": "두 수단을 비교하는 비교급 better. 'more better / best' 형태 오류를 심을 수 있다.",
       "sentence_no": 4,
-      "sentence": "Well, you can get there by bus or by subway, but the subway is better."
+      "sentence": "Well, you can get there by bus or by subway, but the subway is better.",
+      "verify_dropped": [
+        {
+          "wrong": "the subway is best",
+          "judgement": "ok",
+          "note_ko": "최상급 서술 용법으로 문법상 맞음. 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "0990748a-c7b8-4da6-93dd-ea4ee3105ffb",
@@ -212,13 +230,19 @@
       "span_end": 471,
       "correct": "with me",
       "wrong": [
-        "with I",
-        "to me"
+        "with I"
       ],
       "why_ko": "전치사 뒤에는 목적격 me를 쓰고, '나와 함께'는 with입니다.",
       "rationale": "동반을 나타내는 with + 목적격 대명사. 'with I / to me'로 바꾼 격·전치사 오류를 심을 수 있다.",
       "sentence_no": 15,
-      "sentence": "You can come with me if you want."
+      "sentence": "You can come with me if you want.",
+      "verify_dropped": [
+        {
+          "wrong": "to me",
+          "judgement": "ok",
+          "note_ko": "come to me도 문법상 맞음. 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "7ee06d90-bd7d-4a99-b928-8dd547141038",
@@ -227,13 +251,19 @@
       "span_end": 483,
       "correct": "if you want",
       "wrong": [
-        "if you will want",
-        "if you wanted"
+        "if you will want"
       ],
       "why_ko": "조건의 if절에서는 미래를 현재시제로 나타냅니다.",
       "rationale": "조건 부사절에서는 미래를 현재시제로 나타낸다. 'if you will want' 오류가 전형적 오답이다.",
       "sentence_no": 15,
-      "sentence": "You can come with me if you want."
+      "sentence": "You can come with me if you want.",
+      "verify_dropped": [
+        {
+          "wrong": "if you wanted",
+          "judgement": "ok",
+          "note_ko": "완곡한 조건으로 쓰일 수 있어 문법상 성립."
+        }
+      ]
     },
     {
       "tag_id": "6ea8c895-c798-45de-a13a-e9c3a9ab6070",
@@ -242,13 +272,19 @@
       "span_end": 572,
       "correct": "at 10",
       "wrong": [
-        "on 10",
-        "in 10"
+        "on 10"
       ],
       "why_ko": "시각 앞에는 at을 씁니다.",
       "rationale": "시각 앞의 at. 'on 10 / in 10'과 구별하는 전치사 빈칸 자리.",
       "sentence_no": 20,
-      "sentence": "Let’s meet here at 10."
+      "sentence": "Let’s meet here at 10.",
+      "verify_dropped": [
+        {
+          "wrong": "in 10",
+          "judgement": "ok",
+          "note_ko": "'10분 후에'라는 뜻으로 성립. 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "7d6852fc-39d5-4e51-8f4b-a140273b1d77",
@@ -287,13 +323,19 @@
       "span_end": 628,
       "correct": "get there",
       "wrong": [
-        "get to there",
-        "get on there"
+        "get to there"
       ],
       "why_ko": "there는 부사라서 앞에 전치사를 붙이지 않습니다.",
       "rationale": "there는 부사이므로 앞에 to를 쓸 수 없다. 'get to there'로 전치사를 넣는 오류를 유도하는 전형적 자리(앞 문장 get to the hospital과 짝지어 출제됨).",
       "sentence_no": 22,
-      "sentence": "B: You can get there by bus."
+      "sentence": "B: You can get there by bus.",
+      "verify_dropped": [
+        {
+          "wrong": "get on there",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 이 문맥에서 뜻이 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "12c7fed6-54bf-48e2-91ff-9cd90fd96d82",
@@ -317,13 +359,19 @@
       "span_end": 665,
       "correct": "will it take",
       "wrong": [
-        "will it takes",
-        "will they take"
+        "will it takes"
       ],
       "why_ko": "소요 시간은 비인칭 주어 it을 쓰고 will 뒤는 동사원형입니다.",
       "rationale": "소요 시간을 나타내는 비인칭(무의미) 주어 it. 'How long will they take / How long does it take you'처럼 주어를 바꾸거나, will 뒤에 takes를 두는 형태 오류를 유도할 수 있다.",
       "sentence_no": 24,
-      "sentence": "How long will it take?"
+      "sentence": "How long will it take?",
+      "verify_dropped": [
+        {
+          "wrong": "will they take",
+          "judgement": "ok",
+          "note_ko": "문법상 성립, 지시 대상만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "12f628b3-8af9-48c5-a72e-37536b0f226a",
@@ -332,13 +380,19 @@
       "span_end": 680,
       "correct": "It’ll take",
       "wrong": [
-        "It took",
         "It’ll takes"
       ],
       "why_ko": "앞 질문이 미래(will take)이므로 미래로 답하고, will 뒤에는 동사원형이 옵니다.",
       "rationale": "질문의 미래시제(will take)에 맞춘 응답의 미래시제 It will take. 'It took / It takes'로 시제를 흔들거나 조동사 뒤 형태를 바꾸는 오류를 유도할 수 있다.",
       "sentence_no": 25,
-      "sentence": "B: It’ll take about 25 minutes."
+      "sentence": "B: It’ll take about 25 minutes.",
+      "verify_dropped": [
+        {
+          "wrong": "It took",
+          "judgement": "ok",
+          "note_ko": "과거시제로 문법 자체는 맞음(문맥상 시제만 어긋남)."
+        }
+      ]
     },
     {
       "tag_id": "cfac6a2f-7189-4ac2-8a87-13a9bb157c0e",
@@ -371,34 +425,25 @@
       "sentence": "A: Excuse me, how can I get to the Brooklyn Bridge from SoHo?"
     },
     {
-      "tag_id": "eee999b8-fa2f-49dd-af15-386341203b14",
-      "point": "PREP_USAGE",
-      "span_start": 750,
-      "span_end": 759,
-      "correct": "from SoHo",
-      "wrong": [
-        "to SoHo",
-        "at SoHo"
-      ],
-      "why_ko": "출발점을 말하므로 from을 써야 하고, to를 쓰면 방향이 반대가 됩니다.",
-      "rationale": "출발점을 나타내는 전치사 from. 'to SoHo / at SoHo'로 바꾸면 방향이 반대가 되어 내용이 틀어짐. 빈칸 뚫기 쉬운 자리.",
-      "sentence_no": 26,
-      "sentence": "A: Excuse me, how can I get to the Brooklyn Bridge from SoHo?"
-    },
-    {
       "tag_id": "fb446998-b669-4019-9384-163dfd898583",
       "point": "VERB_PREP_COLLOCATION",
       "span_start": 772,
       "span_end": 781,
       "correct": "get there",
       "wrong": [
-        "get to there",
-        "get in there"
+        "get to there"
       ],
       "why_ko": "there는 부사이므로 to를 넣지 않습니다.",
       "rationale": "there는 부사이므로 앞에 to를 쓰지 않음. 'get to there'로 만드는 전형적 오류 유도 지점.",
       "sentence_no": 27,
-      "sentence": "B: You can get there by subway."
+      "sentence": "B: You can get there by subway.",
+      "verify_dropped": [
+        {
+          "wrong": "get in there",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 문맥상 뜻이 어색함."
+        }
+      ]
     },
     {
       "tag_id": "42eda438-0485-4ff2-bf92-be82806d2fe8",
@@ -422,13 +467,19 @@
       "span_end": 821,
       "correct": "will it take",
       "wrong": [
-        "it will take",
-        "will you take"
+        "it will take"
       ],
       "why_ko": "의문문이므로 will이 주어 it 앞에 오고, 주어는 비인칭 it이어야 합니다.",
       "rationale": "시간을 나타내는 비인칭 주어 it + take 구문. 'How long will they take / will you take'처럼 주어를 바꾸거나 'How long it will take'로 어순을 흐트러뜨리는 오류 유도 가능.",
       "sentence_no": 29,
-      "sentence": "How long will it take by subway?"
+      "sentence": "How long will it take by subway?",
+      "verify_dropped": [
+        {
+          "wrong": "will you take",
+          "judgement": "ok",
+          "note_ko": "문법상 성립, 뜻만 달라짐."
+        }
+      ]
     }
   ],
   "diagnostics": {
@@ -436,6 +487,16 @@
     "kept": 28,
     "given": 28,
     "rejects": [],
-    "restored_wrongs": 1
-  }
+    "restored_wrongs": 1,
+    "verify": {
+      "dropped_items": [
+        [
+          "from SoHo",
+          "모든 오답이 실은 맞는 표현이라 버림: to SoHo(odd), at SoHo(odd)"
+        ]
+      ],
+      "dropped_wrongs": 11
+    }
+  },
+  "verified": true
 }

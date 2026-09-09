@@ -17,13 +17,19 @@
       "span_end": 47,
       "correct": "how can I get to the Star Stadium",
       "wrong": [
-        "how can I get the Star Stadium",
-        "how can I get in the Star Stadium"
+        "how can I get the Star Stadium"
       ],
       "why_ko": "'~에 도착하다'는 get to + 장소로 굳어진 표현이라 to를 빼거나 in으로 바꾸면 틀립니다.",
       "rationale": "get to + 장소 = ~에 도착하다. get 뒤 전치사 to 삭제(EI_PREP_DELETE)나 get in/at 오답 유도 가능. 목적지 앞 to가 빈칸으로 뚫리기 쉬운 자리",
       "sentence_no": 1,
-      "sentence": "B: Excuse me, how can I get to the Star Stadium?"
+      "sentence": "B: Excuse me, how can I get to the Star Stadium?",
+      "verify_dropped": [
+        {
+          "wrong": "how can I get in the Star Stadium",
+          "judgement": "ok",
+          "note_ko": "'안에 들어가다'라는 뜻으로 성립하는 영어. 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "6361af34-cd3c-4dcc-bbe6-62d857d20779",
@@ -92,13 +98,19 @@
       "span_end": 202,
       "correct": "How long will it take",
       "wrong": [
-        "How long will that take",
         "How long will take"
       ],
       "why_ko": "시간이 걸린다고 말할 때는 비인칭 주어 it을 쓰고, 주어를 빼면 안 됩니다.",
       "rationale": "소요 시간을 나타내는 비인칭 주어 it. does it take/is it take 등 형태 혼동 및 it 대신 that 사용 오류 유도",
       "sentence_no": 6,
-      "sentence": "How long will it take?"
+      "sentence": "How long will it take?",
+      "verify_dropped": [
+        {
+          "wrong": "How long will that take",
+          "judgement": "ok",
+          "note_ko": "that도 주어로 가능해 문장이 성립한다."
+        }
+      ]
     },
     {
       "tag_id": "4d29a285-7208-48eb-a967-0f61577d605b",
@@ -122,13 +134,19 @@
       "span_end": 236,
       "correct": "A little more than 30 minutes",
       "wrong": [
-        "A few more than 30 minutes",
         "Very more than 30 minutes"
       ],
       "why_ko": "비교급 more는 a little/much로 강조하고, a few나 very로는 수식할 수 없습니다.",
       "rationale": "비교급 more than 앞의 강조 부사 a little. much/a few/very 등과 구별하며 비교급 수식 부사 출제 자리",
       "sentence_no": 7,
-      "sentence": "G: A little more than 30 minutes."
+      "sentence": "G: A little more than 30 minutes.",
+      "verify_dropped": [
+        {
+          "wrong": "A few more than 30 minutes",
+          "judgement": "odd",
+          "note_ko": "문법 형태는 가능하나 시간 표현으로 매우 어색하다."
+        }
+      ]
     },
     {
       "tag_id": "d362fc18-9450-47e6-9c5d-58a3f8f9fdda",
@@ -152,28 +170,19 @@
       "span_end": 304,
       "correct": "It’s not far",
       "wrong": [
-        "There is not far",
-        "That’s not far"
+        "There is not far"
       ],
       "why_ko": "거리를 말할 때는 비인칭 주어 it을 씁니다.",
       "rationale": "거리를 나타내는 비인칭 주어 it. 'There is not far' 나 'That's not far' 같은 오류 유도 가능. 비인칭 it 용법 구별(T-GRAMMAR-USAGE) 소재.",
       "sentence_no": 9,
-      "sentence": "G: It’s not far, but it’s a little difficult to find."
-    },
-    {
-      "tag_id": "5629d59a-4832-4bc1-95c6-5ebf772952f0",
-      "point": "IT_CLEFT",
-      "span_start": 310,
-      "span_end": 341,
-      "correct": "it’s a little difficult to find",
-      "wrong": [
-        "is a little difficult to find",
-        "to find it’s a little difficult"
-      ],
-      "why_ko": "to부정사가 진주어일 때 가주어 it을 앞에 두어야 합니다.",
-      "rationale": "가주어 it + 형용사 + 진주어 to부정사 구문. 'to find it is difficult' 어순 변형이나 가주어 삭제로 물을 수 있다.",
-      "sentence_no": 9,
-      "sentence": "G: It’s not far, but it’s a little difficult to find."
+      "sentence": "G: It’s not far, but it’s a little difficult to find.",
+      "verify_dropped": [
+        {
+          "wrong": "That’s not far",
+          "judgement": "ok",
+          "note_ko": "that도 주어로 자연스럽게 쓰인다."
+        }
+      ]
     },
     {
       "tag_id": "b781a035-fdbd-4f51-a26d-76d56486e278",
@@ -197,13 +206,19 @@
       "span_end": 341,
       "correct": "difficult to find",
       "wrong": [
-        "difficult finding",
         "difficult for find"
       ],
       "why_ko": "형용사 뒤에서 '~하기에'를 나타낼 때는 to부정사를 씁니다.",
       "rationale": "형용사를 한정하는 to부정사(부사적 용법). finding / found / for find 등 준동사 형태 오류(EI_NONFIN_FORM)로 오답 선지를 만들기 쉽다.",
       "sentence_no": 9,
-      "sentence": "G: It’s not far, but it’s a little difficult to find."
+      "sentence": "G: It’s not far, but it’s a little difficult to find.",
+      "verify_dropped": [
+        {
+          "wrong": "difficult finding",
+          "judgement": "odd",
+          "note_ko": "목적어가 없어 의미가 통하지 않고 어색하다."
+        }
+      ]
     },
     {
       "tag_id": "3d56c423-c521-4408-9226-2588043b96cb",
@@ -257,13 +272,19 @@
       "span_end": 475,
       "correct": "get to",
       "wrong": [
-        "get in",
         "get for"
       ],
       "why_ko": "'~에 도착하다'는 get to로 굳어진 표현입니다.",
       "rationale": "'~에 도착하다'는 get to + 장소로 굳어진 결합. get in / get for / get 무전치사(get the mall)로 바꿔 오답을 유도할 수 있는 자리. 전치사 삭제(EI_PREP_DELETE)도 그대로 걸린다.",
       "sentence_no": 17,
-      "sentence": "How can I get to the Dream Shopping Mall from here?"
+      "sentence": "How can I get to the Dream Shopping Mall from here?",
+      "verify_dropped": [
+        {
+          "wrong": "get in",
+          "judgement": "odd",
+          "note_ko": "'from here'와 결합하면 의미가 통하지 않아 어색하다."
+        }
+      ]
     },
     {
       "tag_id": "2972f5d1-c5d3-44a5-b819-21e07a49c670",
@@ -405,6 +426,16 @@
     "returned": 26,
     "kept": 26,
     "given": 26,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "it’s a little difficult to find",
+          "모든 오답이 실은 맞는 표현이라 버림: is a little difficult to find(ok), to find it’s a little difficult(odd)"
+        ]
+      ],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
 }

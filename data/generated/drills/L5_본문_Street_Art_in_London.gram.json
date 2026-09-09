@@ -18,13 +18,19 @@
       "span_end": 47,
       "correct": "in many different forms",
       "wrong": [
-        "on many different forms",
-        "with many different forms"
+        "on many different forms"
       ],
       "why_ko": "'~한 형태로 나오다'는 come in을 쓰므로 전치사는 in이 맞아요.",
       "rationale": "'come in + 형태/종류' 관용 전치사. 빈칸으로 뚫어 on / with / at 등과 혼동시키기 가장 쉬운 자리이며, 전치사 삭제(EI_PREP_DELETE)로도 변형 가능",
       "sentence_no": 1,
-      "sentence": "Modern street art comes in many different forms, and it makes cities colorful and lively."
+      "sentence": "Modern street art comes in many different forms, and it makes cities colorful and lively.",
+      "verify_dropped": [
+        {
+          "wrong": "with many different forms",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 'come with(딸려 오다)' 의미가 되어 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "450a12da-891c-47c1-b97a-ac24f55cb8b9",
@@ -93,13 +99,19 @@
       "span_end": 290,
       "correct": "one of the hippest areas",
       "wrong": [
-        "one of the hippest area",
-        "one of the most hip areas"
+        "one of the hippest area"
       ],
       "why_ko": "'one of the 최상급 + 복수명사'이므로 hippest areas가 맞아요.",
       "rationale": "'one of the + 최상급 + 복수명사' 구문. hipper / most hip / one of the hippest area(단수) 처럼 최상급 형태나 복수명사 조건을 깨는 오류를 심을 수 있다.",
       "sentence_no": 4,
-      "sentence": "Poor workers used to live in this area, but now it is one of the hippest areas in London."
+      "sentence": "Poor workers used to live in this area, but now it is one of the hippest areas in London.",
+      "verify_dropped": [
+        {
+          "wrong": "one of the most hip areas",
+          "judgement": "ok",
+          "note_ko": "most hip 도 실제로 쓰이는 형태로 문장이 성립함."
+        }
+      ]
     },
     {
       "tag_id": "03da0460-62ad-4e97-8c19-23af969d4465",
@@ -115,21 +127,6 @@
       "rationale": "가산 복수명사 앞의 so many. such many / so much great pieces / too many 로 바꿔 so-such, many-much 구별을 묻는 전형적 자리.",
       "sentence_no": 5,
       "sentence": "We can find so many great pieces of street art here."
-    },
-    {
-      "tag_id": "89ede507-08f6-4665-9dd0-ce6e42619f68",
-      "point": "PREP_USAGE",
-      "span_start": 394,
-      "span_end": 410,
-      "correct": "is by the artist",
-      "wrong": [
-        "is from the artist",
-        "is of the artist"
-      ],
-      "why_ko": "작품의 작가를 나타낼 때는 전치사 by를 써요.",
-      "rationale": "작품의 '작자'를 나타내는 전치사 by(~에 의한 작품). from / of / with 로 교체하거나 전치사를 삭제하는 빈칸 문항으로 만들기 쉽다.",
-      "sentence_no": 7,
-      "sentence": "It is by the artist STIK."
     },
     {
       "tag_id": "7fd353b0-36f4-4107-bc34-6fd27f44fe4c",
@@ -228,13 +225,19 @@
       "span_end": 638,
       "correct": "look closely at",
       "wrong": [
-        "look closely",
-        "look closely for"
+        "look closely"
       ],
       "why_ko": "'~을 보다'는 look at이라 전치사 at을 빼거나 바꾸면 안 돼요.",
       "rationale": "look at(~을 보다)의 고정 전치사 at. 부사 closely가 끼어 있어 전치사를 통째로 빠뜨리는 오류(look closely the eyes)나 look for/into 교체를 유도할 수 있다.",
       "sentence_no": 11,
-      "sentence": "Well, look closely at the eyes of the three figures."
+      "sentence": "Well, look closely at the eyes of the three figures.",
+      "verify_dropped": [
+        {
+          "wrong": "look closely for",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 '눈을 찾는다'는 뜻이 되어 문맥에 맞지 않음."
+        }
+      ]
     },
     {
       "tag_id": "e6d989e5-1843-4667-b442-290b225d7039",
@@ -243,13 +246,19 @@
       "span_end": 647,
       "correct": "look closely at the eyes",
       "wrong": [
-        "look close at the eyes",
         "look closed at the eyes"
       ],
       "why_ko": "동사 look을 꾸미며 '자세히'라는 뜻이므로 부사 closely가 맞아요.",
       "rationale": "동사 look을 수식하는 부사 closely(자세히). 형용사 close 또는 '가까이'의 close와 혼동시키는 [close / closely] 선택형이 대표적 출제 형태다.",
       "sentence_no": 11,
-      "sentence": "Well, look closely at the eyes of the three figures."
+      "sentence": "Well, look closely at the eyes of the three figures.",
+      "verify_dropped": [
+        {
+          "wrong": "look close at the eyes",
+          "judgement": "odd",
+          "note_ko": "close 는 '가까이'의 뜻으로 이 자리에서 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "bca7985d-7c8e-4e7b-94d1-6e7cd6277530",
@@ -258,13 +267,19 @@
       "span_end": 688,
       "correct": "They are just dots",
       "wrong": [
-        "It is just dots",
         "They is just dots"
       ],
       "why_ko": "앞의 the eyes(복수)를 받으므로 They are가 맞아요.",
       "rationale": "앞 문장의 the eyes of the three figures를 받는 복수 대명사 They. It is just dots 처럼 수를 어긋나게 하는 오류를 심을 수 있다.",
       "sentence_no": 12,
-      "sentence": "They are just dots, but they will give you a clue."
+      "sentence": "They are just dots, but they will give you a clue.",
+      "verify_dropped": [
+        {
+          "wrong": "It is just dots",
+          "judgement": "odd",
+          "note_ko": "뒤의 they 와 지시 대상이 어긋나 부자연스러움."
+        }
+      ]
     },
     {
       "tag_id": "e162c9bb-ed5d-433c-917c-de957f32eb4a",
@@ -288,13 +303,19 @@
       "span_end": 755,
       "correct": "to see",
       "wrong": [
-        "seeing",
         "for see"
       ],
       "why_ko": "'~하기 위해'라는 목적은 to부정사로 나타내요.",
       "rationale": "'~하기 위해'라는 목적을 나타내는 부사적 용법의 to부정사. seeing / for see / see 등 형태 오류를 유도할 수 있고, 빈칸으로 뚫어 to see를 고르게 하기 쉬운 자리.",
       "sentence_no": 13,
-      "sentence": "We are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist."
+      "sentence": "We are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist.",
+      "verify_dropped": [
+        {
+          "wrong": "seeing",
+          "judgement": "ok",
+          "note_ko": "분사구문으로 읽혀 문장이 성립함."
+        }
+      ]
     },
     {
       "tag_id": "af2113cf-06ad-4b4b-ad62-c6d5dad701b1",
@@ -408,13 +429,19 @@
       "span_end": 1230,
       "correct": "that nature is having a hard time",
       "wrong": [
-        "what nature is having a hard time",
-        "if nature is having a hard time"
+        "what nature is having a hard time"
       ],
       "why_ko": "뒤 문장이 완전하므로 명사절 접속사 that을 써요.",
       "rationale": "tell의 직접목적어로 쓰인 명사절 접속사 that. 뒤 절이 완전하므로 what을 쓸 수 없다 — what/if 로 바꾼 오답 유도 자리.",
       "sentence_no": 18,
-      "sentence": "In many people’s opinion, he is telling us that nature is having a hard time."
+      "sentence": "In many people’s opinion, he is telling us that nature is having a hard time.",
+      "verify_dropped": [
+        {
+          "wrong": "if nature is having a hard time",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 문맥상 의미가 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "61658235-a6e6-4643-8ff6-993642d32784",
@@ -468,28 +495,19 @@
       "span_end": 1402,
       "correct": "closely",
       "wrong": [
-        "close",
         "closed"
       ],
       "why_ko": "'자세히'라는 뜻으로 동사를 꾸미는 부사는 closely예요.",
       "rationale": "동사 look을 수식하는 부사 closely. 형용사 close 또는 뜻이 다른 부사 close(가까이)와 구별시키는 형용사/부사 교체 출제 지점.",
       "sentence_no": 22,
-      "sentence": "Well, look down and look closely."
-    },
-    {
-      "tag_id": "cb4cf532-2496-40cd-9863-f93eaf9d9a69",
-      "point": "PREP_USAGE",
-      "span_start": 1454,
-      "span_end": 1471,
-      "correct": "are by the artist",
-      "wrong": [
-        "are from the artist",
-        "are of the artist"
-      ],
-      "why_ko": "작품의 작가를 말할 때는 전치사 by를 써요.",
-      "rationale": "작품의 '작자'를 나타내는 전치사 by. from/of/with 등으로 바꿔 빈칸 출제하기 쉬운 자리.",
-      "sentence_no": 24,
-      "sentence": "They are by the artist Ben Wilson."
+      "sentence": "Well, look down and look closely.",
+      "verify_dropped": [
+        {
+          "wrong": "close",
+          "judgement": "odd",
+          "note_ko": "'가까이'라는 뜻이 되어 이 문맥에서 어색함."
+        }
+      ]
     },
     {
       "tag_id": "e982cfe6-73a4-4127-a28a-1da9670acbc4",
@@ -543,13 +561,19 @@
       "span_end": 1533,
       "correct": "on gum",
       "wrong": [
-        "in gum",
         "at gum"
       ],
       "why_ko": "표면 위에 그리는 것이므로 접촉을 뜻하는 on을 써요.",
       "rationale": "표면 접촉을 나타내는 on. in/at으로 바꾼 선지로 빈칸 출제 가능.",
       "sentence_no": 25,
-      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street."
+      "sentence": "Wilson is well known for painting pictures on gum that people drop on the street.",
+      "verify_dropped": [
+        {
+          "wrong": "in gum",
+          "judgement": "odd",
+          "note_ko": "표면에 그리는 의미에서는 on 이 필요하며 in gum 은 부자연스러움."
+        }
+      ]
     },
     {
       "tag_id": "61640802-740e-4220-b711-2e3631972417",
@@ -603,13 +627,19 @@
       "span_end": 1728,
       "correct": "a loved one",
       "wrong": [
-        "a loving one",
         "a love one"
       ],
       "why_ko": "'사랑받는 사람'이라는 수동 의미라 과거분사 loved를 써요.",
       "rationale": "'사랑받는 사람'이라는 수동 의미의 과거분사 loved가 명사 one을 수식. loving one으로 뒤집는 분사 교체 오류가 가능하다.",
       "sentence_no": 27,
-      "sentence": "For example, the one over here is a happy birthday wish for a loved one."
+      "sentence": "For example, the one over here is a happy birthday wish for a loved one.",
+      "verify_dropped": [
+        {
+          "wrong": "a loving one",
+          "judgement": "odd",
+          "note_ko": "문법은 되나 '사랑하는 사람'이라는 의도된 의미(loved one)와 달라 어색함."
+        }
+      ]
     },
     {
       "tag_id": "96ec06a7-452b-4c33-8cca-172449ab84b1",
@@ -632,6 +662,20 @@
     "kept": 41,
     "given": 41,
     "rejects": [],
-    "restored_wrongs": 7
-  }
+    "restored_wrongs": 7,
+    "verify": {
+      "dropped_items": [
+        [
+          "is by the artist",
+          "모든 오답이 실은 맞는 표현이라 버림: is from the artist(ok), is of the artist(odd)"
+        ],
+        [
+          "are by the artist",
+          "모든 오답이 실은 맞는 표현이라 버림: are from the artist(ok), are of the artist(odd)"
+        ]
+      ],
+      "dropped_wrongs": 10
+    }
+  },
+  "verified": true
 }

@@ -47,13 +47,19 @@
       "span_end": 130,
       "correct": "recommend a good sci-fi novel for me",
       "wrong": [
-        "recommend me a good sci-fi novel",
         "recommend a good sci-fi novel me"
       ],
       "why_ko": "recommend는 '~에게'를 바로 붙일 수 없어서 for/to me처럼 전치사를 써야 합니다.",
       "rationale": "recommend는 4형식(간접목적어 직접 연결)이 불가하고 전치사구(for/to me)를 써야 하는 동사. recommend me a good sci-fi novel 처럼 전치사를 빼거나 for를 삭제하는 오류를 유도.",
       "sentence_no": 3,
-      "sentence": "B: Then, can you recommend a good sci-fi novel for me?"
+      "sentence": "B: Then, can you recommend a good sci-fi novel for me?",
+      "verify_dropped": [
+        {
+          "wrong": "recommend me a good sci-fi novel",
+          "judgement": "ok",
+          "note_ko": "구어에서 널리 쓰이는 형태로 문장이 성립함. 문항으로 부적절."
+        }
+      ]
     },
     {
       "tag_id": "e16989dd-19a5-4198-beb2-efabb2e8621f",
@@ -122,28 +128,19 @@
       "span_end": 254,
       "correct": "I usually drink",
       "wrong": [
-        "I am usually drinking",
         "I usually drinking"
       ],
       "why_ko": "usually가 있는 습관 표현은 현재시제로 쓰고, 진행형이나 be동사 없는 -ing는 안 됩니다.",
       "rationale": "usually 와 어울리는 습관 표현은 현재시제. 'am drinking' 같은 진행형 오류로 변형될 수 있다.",
       "sentence_no": 7,
-      "sentence": "B: I usually drink apple soda, but today, I want to try something else."
-    },
-    {
-      "tag_id": "7540e7ea-c5b7-4aa1-a862-06f523ab7a09",
-      "point": "CONJ_PARALLEL",
-      "span_start": 267,
-      "span_end": 270,
-      "correct": "but",
-      "wrong": [
-        "so",
-        "and"
-      ],
-      "why_ko": "평소 습관과 오늘의 바람이 대조되므로 역접의 but을 써야 합니다.",
-      "rationale": "앞 절(습관)과 뒤 절(오늘의 희망)을 대조로 잇는 등위접속사. so/and 등으로 교체하면 논리가 깨지는 자리.",
-      "sentence_no": 7,
-      "sentence": "B: I usually drink apple soda, but today, I want to try something else."
+      "sentence": "B: I usually drink apple soda, but today, I want to try something else.",
+      "verify_dropped": [
+        {
+          "wrong": "I am usually drinking",
+          "judgement": "ok",
+          "note_ko": "usually와 진행형 결합도 문법적으로 가능해 문장이 성립함."
+        }
+      ]
     },
     {
       "tag_id": "5640234f-6701-40d7-b9f9-843e4b9c6a84",
@@ -187,21 +184,6 @@
       ],
       "why_ko": "조동사 can 뒤에는 동사원형이 옵니다.",
       "rationale": "조동사 can 뒤에는 동사원형이 온다. 'Can you to recommend' 처럼 to부정사를 넣는 오류를 유도할 수 있다.",
-      "sentence_no": 8,
-      "sentence": "Can you recommend some new soft drinks?"
-    },
-    {
-      "tag_id": "493df22e-1abe-4c65-be2d-b51025634bfd",
-      "point": "PRON_INDEFINITE",
-      "span_start": 326,
-      "span_end": 346,
-      "correct": "some new soft drinks",
-      "wrong": [
-        "some new soft drink",
-        "any new soft drinks"
-      ],
-      "why_ko": "권유·요청하는 의문문에서는 some을 쓰고, drinks는 복수형으로 씁니다.",
-      "rationale": "권유·요청 의문문에서는 any 대신 some 을 쓰는 것이 자연스럽다. some/any 짝짓기 빈칸으로 나올 수 있는 자리.",
       "sentence_no": 8,
       "sentence": "Can you recommend some new soft drinks?"
     },
@@ -257,13 +239,19 @@
       "span_end": 425,
       "correct": "give it a try",
       "wrong": [
-        "give a try it",
-        "give a try to it"
+        "give a try it"
       ],
       "why_ko": "give it a try는 '한번 해 보다'라는 정해진 4형식 표현으로 어순을 바꾸면 틀립니다.",
       "rationale": "give + 간접목적어(it) + 직접목적어(a try) 의 4형식. 'give a try to it' 같은 3형식 전환 오류나 어순 오류를 물을 수 있다.",
       "sentence_no": 12,
-      "sentence": "I’ll give it a try, then."
+      "sentence": "I’ll give it a try, then.",
+      "verify_dropped": [
+        {
+          "wrong": "give a try to it",
+          "judgement": "odd",
+          "note_ko": "형식은 가능해 보이나 관용상 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "678bc436-590a-4ef5-83d4-0d66314a08c0",
@@ -324,21 +312,6 @@
       "rationale": "'아직 안 봤다'는 경험/완료 의미로 haven't seen it (yet)과 비교시키는 대표 자리. 또 didn't + 동사원형 규칙을 어긴 didn't saw 형태 오류도 심기 쉽다.",
       "sentence_no": 16,
       "sentence": "B: Oh, I didn’t see it."
-    },
-    {
-      "tag_id": "6bcf27db-8708-4fa4-ac2f-88e48e84bd04",
-      "point": "VERB_TENSE",
-      "span_start": 549,
-      "span_end": 560,
-      "correct": "You didn’t?",
-      "wrong": [
-        "You don’t?",
-        "You aren’t?"
-      ],
-      "why_ko": "앞 문장이 didn't see로 과거이므로 대답도 과거 did로 받아야 합니다.",
-      "rationale": "앞 문장 didn't see it을 대동사 did로 받는 시제 일치 자리. You don't? / You aren't? 로 바꾸면 앞 문장 시제와 어긋난다.",
-      "sentence_no": 17,
-      "sentence": "G: You didn’t?"
     },
     {
       "tag_id": "72ab579a-fd43-4317-a120-801c0c05be86",
@@ -406,6 +379,24 @@
     "kept": 26,
     "given": 26,
     "rejects": [],
-    "restored_wrongs": 1
-  }
+    "restored_wrongs": 1,
+    "verify": {
+      "dropped_items": [
+        [
+          "but",
+          "모든 오답이 실은 맞는 표현이라 버림: so(ok), and(ok)"
+        ],
+        [
+          "some new soft drinks",
+          "모든 오답이 실은 맞는 표현이라 버림: some new soft drink(odd), any new soft drinks(ok)"
+        ],
+        [
+          "You didn’t?",
+          "모든 오답이 실은 맞는 표현이라 버림: You don’t?(odd), You aren’t?(odd)"
+        ]
+      ],
+      "dropped_wrongs": 3
+    }
+  },
+  "verified": true
 }

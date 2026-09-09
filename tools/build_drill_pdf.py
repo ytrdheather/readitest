@@ -44,6 +44,7 @@ sys.path.insert(0, ROOT)
 from pypdf import PdfReader, PdfWriter                                # noqa: E402
 from tools.render_drill_tf import build                               # noqa: E402
 from tools.render_drill_vocab import build as build_vocab             # noqa: E402
+from tools.render_drill_grammar import build as build_gram            # noqa: E402
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO             # noqa: E402
 
 try:
@@ -78,6 +79,20 @@ VOCAB_BOOKS = [
 # 어휘 세트를 뽑는 순서. 학교가 많은 쪽(L5 세 학교)을 앞에 둔다.
 VOCAB_ORDER = ["태장_L5.vocab", "영덕_L5.vocab", "영덕_L6.vocab"]
 
+# 어법도 두 권. 우리말/영어 두 판이 없다.
+GRAM_BOOKS = [
+    ("worksheet", "7_어법_문제"),
+    ("answers",   "8_어법_정답지"),
+]
+# 드릴 b 와 같은 차례 — 아이가 같은 순서로 받는다.
+GRAM_ORDER = [
+    "L5_대화_123_길_묻고_답하기.gram", "L5_대화_456.gram", "L5_대화_789.gram",
+    "L5_Read_More.gram", "L5_본문_Street_Art_in_London.gram",
+    "L6_대화_123.gram", "L6_대화_456.gram", "L6_대화_789.gram",
+    "L6_Read_More.gram", "L6_본문_Dr_Schofield.gram",
+    "L5_외부지문_A_girl_with_a_red_balloon.gram",
+]
+
 # 학습지를 뽑는 순서. 대화문 → Read More → 본문 → 외부지문.
 # 아이가 받는 차례이자 교과서 차례다. 파일명 사전순으로는 이 순서가 안 나온다.
 ORDER = [
@@ -100,6 +115,16 @@ def find_chrome():
     raise SystemExit("Chrome 을 못 찾았습니다. 경로를 CHROME 목록에 추가하십시오")
 
 
+def _ordered(suffix, order):
+    have = {os.path.basename(p)[:-5]: p
+            for p in glob.glob(os.path.join(DRILLS, f"*{suffix}.json"))}
+    out = [have[n] for n in order if n in have]
+    for k in sorted(k for k in have if k not in order):
+        print(f"  ! 순서 목록에 없어 뒤에 붙임: {k}")
+        out.append(have[k])
+    return out
+
+
 def ordered_vocab():
     have = {os.path.basename(p)[:-5]: p
             for p in glob.glob(os.path.join(DRILLS, "*.vocab.json"))}
@@ -116,9 +141,10 @@ def ordered_drills():
     새 드릴을 만들고 ORDER 에 적는 것을 잊어도 **빠지지는 않게** 한다 —
     빠진 채로 인쇄되면 알아채기 어렵다.
     """
+    # 어휘·어법 드릴은 모양이 다르다. 여기 섞이면 렌더러가 터진다.
     have = {os.path.basename(p)[:-5]: p
             for p in glob.glob(os.path.join(DRILLS, "*.json"))
-            if not p.endswith(".vocab.json")}
+            if not p.endswith((".vocab.json", ".gram.json"))}
     out, seen = [], set()
     for name in ORDER:
         if name in have:
@@ -189,6 +215,28 @@ def main():
                 pdf = os.path.join(tmp, f"{book}_{i:02d}.pdf")
                 with open(html, "w", encoding="utf-8") as f:
                     f.write(build_vocab(d, logo, part))
+                to_pdf(chrome, html, pdf)
+                r = PdfReader(pdf)
+                for pg in r.pages:
+                    writer.add_page(pg)
+                n_set += 1
+                n_page += len(r.pages)
+            dest = os.path.join(a.out, f"{book}.pdf")
+            with open(dest, "wb") as f:
+                writer.write(f)
+            print(f"  {book:24} {n_set:>2}세트 · {n_page:>2}쪽  →  {dest}")
+
+        gram = _ordered(".gram", GRAM_ORDER)
+        for part, book in GRAM_BOOKS:
+            writer = PdfWriter()
+            n_set = n_page = 0
+            for i, p in enumerate(gram):
+                with open(p, encoding="utf-8") as f:
+                    d = json.load(f)
+                html = os.path.join(tmp, f"{book}_{i:02d}.html")
+                pdf = os.path.join(tmp, f"{book}_{i:02d}.pdf")
+                with open(html, "w", encoding="utf-8") as f:
+                    f.write(build_gram(d, logo, part))
                 to_pdf(chrome, html, pdf)
                 r = PdfReader(pdf)
                 for pg in r.pages:

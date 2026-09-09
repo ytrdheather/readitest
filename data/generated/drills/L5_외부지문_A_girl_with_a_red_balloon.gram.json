@@ -46,13 +46,19 @@
       "correct": "known for carrying",
       "wrong": [
         "known for carry",
-        "known as carrying",
         "known for to carry"
       ],
       "why_ko": "be known for(~로 알려져 있다)이고, 전치사 for 뒤에는 동명사 carrying이 옵니다.",
       "rationale": "be known for(~로 알려져 있다) 고정 결합 + 전치사 뒤 동명사. be known as/to 와 혼동, for carry / for to carry 오류 유도",
       "sentence_no": 3,
-      "sentence": "His artworks are known for carrying social messages about issues such as war and inequality."
+      "sentence": "His artworks are known for carrying social messages about issues such as war and inequality.",
+      "verify_dropped": [
+        {
+          "wrong": "known as carrying",
+          "judgement": "odd",
+          "note_ko": "be known as는 자격·명칭을 나타내어 동명사구와 결합이 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "9b572ece-3f65-4455-ad6b-c98cd67cab2c",
@@ -100,21 +106,6 @@
       "sentence": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
     },
     {
-      "tag_id": "f8620dd2-5d29-4f7b-aaf1-4ff19a8274bd",
-      "point": "VERB_PREP_COLLOCATION",
-      "span_start": 308,
-      "span_end": 327,
-      "correct": "adds to his mystery",
-      "wrong": [
-        "adds his mystery",
-        "adds up his mystery"
-      ],
-      "why_ko": "'~를 더해준다'는 뜻은 add to로 굳어진 표현이라 전치사 to를 빼면 안 됩니다.",
-      "rationale": "add to(~를 더하다·높이다) 고정 결합. 전치사 to 삭제 또는 add up/add in 으로 교체하는 오류 유도",
-      "sentence_no": 4,
-      "sentence": "Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery."
-    },
-    {
       "tag_id": "7ba4d10a-24e8-4547-873a-e9a2b31d632b",
       "point": "CONJ_PARALLEL",
       "span_start": 337,
@@ -130,34 +121,25 @@
       "sentence": "His art appears on streets, walls, and bridges, and is often created without permission."
     },
     {
-      "tag_id": "54a9b213-e24a-4008-89de-2cf49e4f677d",
-      "point": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 381,
-      "span_end": 416,
-      "correct": "is often created without permission",
-      "wrong": [
-        "often creates without permission",
-        "is often creating without permission"
-      ],
-      "why_ko": "작품은 '만들어지는' 대상이므로 수동태 is created가 맞습니다.",
-      "rationale": "작품이 '만들어지는' 것이므로 수동태. often creates / is often creating 로 태 오류를 심을 수 있고 without 전치사도 함께 흔들 수 있음",
-      "sentence_no": 5,
-      "sentence": "His art appears on streets, walls, and bridges, and is often created without permission."
-    },
-    {
       "tag_id": "fa1920ab-409a-492b-9339-282a81d82178",
       "point": "MOD_COMPARATIVE",
       "span_start": 440,
       "span_end": 477,
       "correct": "one of Banksy’s most well-known works",
       "wrong": [
-        "one of Banksy’s most well-known work",
-        "one of Banksy’s more well-known works"
+        "one of Banksy’s most well-known work"
       ],
       "why_ko": "one of 뒤에는 복수명사(works)가 오고, '가장 유명한'은 최상급 most를 씁니다.",
       "rationale": "최상급 + one of + 복수명사 구조. most well-known work(단수)나 more well-known 으로 바꾼 오답 유도",
       "sentence_no": 6,
-      "sentence": "Girl with Balloon is one of Banksy’s most well-known works."
+      "sentence": "Girl with Balloon is one of Banksy’s most well-known works.",
+      "verify_dropped": [
+        {
+          "wrong": "one of Banksy’s more well-known works",
+          "judgement": "ok",
+          "note_ko": "'비교적 잘 알려진 작품 중 하나'로 자연스러운 영어."
+        }
+      ]
     },
     {
       "tag_id": "2ff1f728-1b36-4d64-bf38-17f750cd10d8",
@@ -166,13 +148,19 @@
       "span_end": 511,
       "correct": "originally appeared on a wall",
       "wrong": [
-        "was originally appeared on a wall",
-        "was originally appearing on a wall"
+        "was originally appeared on a wall"
       ],
       "why_ko": "appear는 목적어가 없는 자동사라 수동태로 쓸 수 없습니다.",
       "rationale": "appear는 목적어를 갖지 않는 자동사이므로 수동태 불가. was originally appeared 선지를 넣어 자동사 수동태 함정을 만드는 자리",
       "sentence_no": 7,
-      "sentence": "It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s."
+      "sentence": "It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s.",
+      "verify_dropped": [
+        {
+          "wrong": "was originally appearing on a wall",
+          "judgement": "odd",
+          "note_ko": "문법은 되나 특정 시점 등장 서술로는 진행형이 매우 부자연스러움."
+        }
+      ]
     },
     {
       "tag_id": "03863c9f-64e2-495f-acdc-f5de4faacad5",
@@ -196,13 +184,19 @@
       "span_end": 685,
       "correct": "is reaching out toward",
       "wrong": [
-        "was reaching out toward",
         "reach out toward"
       ],
       "why_ko": "작품 속 장면 설명은 현재진행형 is reaching으로 씁니다.",
       "rationale": "작품 묘사는 현재진행. was reaching / reach out 처럼 시제·형태를 흔드는 오답 유도",
       "sentence_no": 9,
-      "sentence": "In this artwork, a small child is reaching out toward a red balloon."
+      "sentence": "In this artwork, a small child is reaching out toward a red balloon.",
+      "verify_dropped": [
+        {
+          "wrong": "was reaching out toward",
+          "judgement": "ok",
+          "note_ko": "과거진행도 문법적으로 성립하며 시제 뉘앙스만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "4a54d05e-8eb5-48aa-aa87-790ee73bf8b7",
@@ -257,13 +251,19 @@
       "span_end": 896,
       "correct": "If you think about it",
       "wrong": [
-        "If you will think about it",
-        "If you would think about it"
+        "If you will think about it"
       ],
       "why_ko": "조건을 나타내는 if절에서는 미래 대신 현재시제를 씁니다.",
       "rationale": "조건 부사절에서는 미래 대신 현재시제 → If you will think 로 만드는 오답 유도",
       "sentence_no": 12,
-      "sentence": "If you think about it that way, the painting can be seen as a symbol of losing those things."
+      "sentence": "If you think about it that way, the painting can be seen as a symbol of losing those things.",
+      "verify_dropped": [
+        {
+          "wrong": "If you would think about it",
+          "judgement": "odd",
+          "note_ko": "주절이 직설법 can과 이어져 시제·서법이 어긋나 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "e01387db-5ac6-4bd1-9db2-e95f60b22463",
@@ -303,13 +303,19 @@
       "span_end": 1061,
       "correct": "why so many people like it",
       "wrong": [
-        "which so many people like it",
-        "because so many people like it"
+        "which so many people like it"
       ],
       "why_ko": "이유(the reason)를 나타내는 관계부사 why 자리라서 which나 because는 쓸 수 없습니다.",
       "rationale": "the reason 을 대신하는 관계부사 why. which / because 로 교체한 선지로 관계대명사·접속사와 구별시키는 자리",
       "sentence_no": 14,
-      "sentence": "That may be why so many people like it."
+      "sentence": "That may be why so many people like it.",
+      "verify_dropped": [
+        {
+          "wrong": "because so many people like it",
+          "judgement": "ok",
+          "note_ko": "That may be because ~ 는 정상적인 영어."
+        }
+      ]
     },
     {
       "tag_id": "08eaa129-1404-451d-98cf-231637aaf2c4",
@@ -318,13 +324,19 @@
       "span_end": 1053,
       "correct": "so many people",
       "wrong": [
-        "such many people",
-        "too many people"
+        "such many people"
       ],
       "why_ko": "many 같은 수량형용사 앞에는 so를 쓰고 such는 쓰지 않습니다.",
       "rationale": "many(수량형용사) 앞에는 so. such many people 로 바꾼 오답 유도",
       "sentence_no": 14,
-      "sentence": "That may be why so many people like it."
+      "sentence": "That may be why so many people like it.",
+      "verify_dropped": [
+        {
+          "wrong": "too many people",
+          "judgement": "ok",
+          "note_ko": "문법적으로 맞고 의미만 달라짐."
+        }
+      ]
     }
   ],
   "diagnostics": {
@@ -332,6 +344,20 @@
     "kept": 21,
     "given": 21,
     "rejects": [],
-    "restored_wrongs": 5
-  }
+    "restored_wrongs": 5,
+    "verify": {
+      "dropped_items": [
+        [
+          "adds to his mystery",
+          "모든 오답이 실은 맞는 표현이라 버림: adds his mystery(odd), adds up his mystery(odd)"
+        ],
+        [
+          "is often created without permission",
+          "모든 오답이 실은 맞는 표현이라 버림: often creates without permission(odd), is often creating without permission(odd)"
+        ]
+      ],
+      "dropped_wrongs": 7
+    }
+  },
+  "verified": true
 }

@@ -32,13 +32,19 @@
       "span_end": 73,
       "correct": "Me, too.",
       "wrong": [
-        "I, too.",
         "My, too."
       ],
       "why_ko": "동의할 때는 관용적으로 목적격 Me를 써서 'Me, too.'라고 합니다.",
       "rationale": "동의 표현의 대명사 격. 'Me, too.'가 관용 표현이며 'I, too.' / 'My, too.'로 바꿔 격 오류를 물을 수 있음.",
       "sentence_no": 3,
-      "sentence": "B: Me, too."
+      "sentence": "B: Me, too.",
+      "verify_dropped": [
+        {
+          "wrong": "I, too.",
+          "judgement": "odd",
+          "note_ko": "문법적으로 불가능하진 않으나 단독 응답으로는 매우 어색함(Me, too.가 관용)."
+        }
+      ]
     },
     {
       "tag_id": "d11b09ed-45c1-47fc-9e87-7911c5a43531",
@@ -62,13 +68,19 @@
       "span_end": 118,
       "correct": "recommend a good sci-fi movie for me",
       "wrong": [
-        "recommend me a good sci-fi movie",
         "recommend a good sci-fi movie me"
       ],
       "why_ko": "recommend는 4형식으로 못 쓰고 '~ for/to 사람' 형태로 씁니다.",
       "rationale": "recommend는 4형식(recommend me a movie)이 불가능하고 3형식+전치사(for/to me)만 가능. 전치사를 삭제해 'recommend me a good sci-fi movie'로 바꾸는 오류 유도 지점.",
       "sentence_no": 4,
-      "sentence": "Can you recommend a good sci-fi movie for me?"
+      "sentence": "Can you recommend a good sci-fi movie for me?",
+      "verify_dropped": [
+        {
+          "wrong": "recommend me a good sci-fi movie",
+          "judgement": "odd",
+          "note_ko": "구어에서는 쓰이지만 recommend는 4형식을 취하지 않는 것이 표준으로 취급되어 판정이 갈림."
+        }
+      ]
     },
     {
       "tag_id": "2cdf1394-dbe0-4b70-90f7-f82211631d56",
@@ -82,21 +94,6 @@
       ],
       "why_ko": "명령문은 동사원형으로 시작합니다.",
       "rationale": "명령문의 동사원형 자리. 'Trying / To try'처럼 준동사를 넣는 오류를 유도할 수 있음.",
-      "sentence_no": 5,
-      "sentence": "G: Try Travel to the Future."
-    },
-    {
-      "tag_id": "f6f0e904-2c99-4e33-a33a-152da176b834",
-      "point": "PREP_USAGE",
-      "span_start": 134,
-      "span_end": 147,
-      "correct": "to the Future",
-      "wrong": [
-        "for the Future",
-        "at the Future"
-      ],
-      "why_ko": "'미래로의 여행'처럼 방향·도착점을 나타내므로 to를 씁니다.",
-      "rationale": "방향·대상을 나타내는 전치사 to. 'Travel for/at the Future'처럼 전치사 교체나 삭제로 빈칸 출제가 쉬운 자리.",
       "sentence_no": 5,
       "sentence": "G: Try Travel to the Future."
     },
@@ -122,13 +119,19 @@
       "span_end": 165,
       "correct": "really good",
       "wrong": [
-        "really well",
         "real good"
       ],
       "why_ko": "be동사의 보어 자리에는 형용사 good이 오고, 그것을 꾸미는 말은 부사 really입니다.",
       "rationale": "be동사의 보어 자리에는 형용사 good. 부사 well로 바꾼 'It's really well.'을 오답으로 심을 수 있음.",
       "sentence_no": 6,
-      "sentence": "It’s really good."
+      "sentence": "It’s really good.",
+      "verify_dropped": [
+        {
+          "wrong": "really well",
+          "judgement": "odd",
+          "note_ko": "well은 형용사로 '건강한'뜻이라 영화 주어에는 의미가 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "2328edea-22fb-4429-9ee5-4c579b7f5148",
@@ -257,13 +260,19 @@
       "span_end": 360,
       "correct": "really good",
       "wrong": [
-        "real good",
-        "really well"
+        "real good"
       ],
       "why_ko": "형용사 good을 꾸미려면 부사 really가 필요하고, 보어 자리에는 well이 아니라 good입니다.",
       "rationale": "형용사 good을 수식하므로 부사 really가 필요. 'real good' 또는 'really well'로 바꾼 오류를 유도하는 자리",
       "sentence_no": 12,
-      "sentence": "It’s really good."
+      "sentence": "It’s really good.",
+      "verify_dropped": [
+        {
+          "wrong": "really well",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 음식/식당을 가리키는 It에는 의미가 통하지 않음."
+        }
+      ]
     },
     {
       "tag_id": "4a9a0178-1fb5-4b6e-abdb-854e4601b427",
@@ -287,13 +296,19 @@
       "span_end": 435,
       "correct": "tell me about it",
       "wrong": [
-        "tell me it",
         "tell to me about it"
       ],
       "why_ko": "tell + 사람 + about + 사물이 짝을 이루는 표현입니다.",
       "rationale": "tell + 사람 + about + 사물 고정 결합. about 삭제(tell me it)나 of/for 교체 오답 유도",
       "sentence_no": 14,
-      "sentence": "Can you tell me about it?"
+      "sentence": "Can you tell me about it?",
+      "verify_dropped": [
+        {
+          "wrong": "tell me it",
+          "judgement": "odd",
+          "note_ko": "대명사 it을 직접목적어로 쓰는 tell me it은 매우 어색함."
+        }
+      ]
     },
     {
       "tag_id": "470474ab-f190-484a-9900-b849647fa2c7",
@@ -431,40 +446,45 @@
       "sentence": "A: What did you do after you returned to Korea in 1958?"
     },
     {
-      "tag_id": "a7f8f410-2292-4e34-920e-d6b71f221d26",
-      "point": "MOD_ADJ_VS_ADV",
-      "span_start": 736,
-      "span_end": 749,
-      "correct": "I worked hard",
-      "wrong": [
-        "I worked hardly",
-        "I worked hardly enough"
-      ],
-      "why_ko": "'열심히'는 hard이고, hardly는 '거의 ~않다'라는 반대 뜻이 됩니다.",
-      "rationale": "hard(열심히)와 hardly(거의 ~않다)의 구별. hardly로 바꾸면 의미가 정반대가 되는 전형적 함정",
-      "sentence_no": 21,
-      "sentence": "B: I worked hard to help Koreans, especially poor students."
-    },
-    {
       "tag_id": "7b86293f-62fc-44db-9dee-3e57b4f841d8",
       "point": "NONFIN_TO_ROLE",
       "span_start": 750,
       "span_end": 765,
       "correct": "to help Koreans",
       "wrong": [
-        "helping Koreans",
         "for help Koreans"
       ],
       "why_ko": "'~을 돕기 위해'라는 목적은 to부정사로 나타냅니다.",
       "rationale": "'돕기 위해'라는 목적을 나타내는 to부정사의 부사적 용법. helping / for help로 바꾸는 오답 유도",
       "sentence_no": 21,
-      "sentence": "B: I worked hard to help Koreans, especially poor students."
+      "sentence": "B: I worked hard to help Koreans, especially poor students.",
+      "verify_dropped": [
+        {
+          "wrong": "helping Koreans",
+          "judgement": "ok",
+          "note_ko": "work hard helping ~ 형태도 자연스러운 영어."
+        }
+      ]
     }
   ],
   "diagnostics": {
     "returned": 30,
     "kept": 30,
     "given": 30,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "to the Future",
+          "모든 오답이 실은 맞는 표현이라 버림: for the Future(ok), at the Future(odd)"
+        ],
+        [
+          "I worked hard",
+          "모든 오답이 실은 맞는 표현이라 버림: I worked hardly(odd), I worked hardly enough(odd)"
+        ]
+      ],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
 }
