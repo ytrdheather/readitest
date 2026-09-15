@@ -4,6 +4,22 @@
 > [`docs/리디테스트_기획서_v0.1.md`](docs/리디테스트_기획서_v0.1.md) 순으로 읽으십시오.**
 > 원본 자료 위치는 [`data/sources.md`](data/sources.md).
 
+> # 🏠 2026-09-15 학원에서 하다 만 것 — 집에서 이어서
+>
+> **드릴 PDF 를 학교별로 뽑게 했다** — `python tools/build_drill_pdf.py --school 영덕`.
+> 갈리는 것은 순서·외부지문·어휘뿐이라(§11) `SCHOOLS` 표 하나로 재배열한다.
+> **영일·태장 8권씩은 뽑았다** (`data/generated/drills/pdf/영일/` · `태장/`, PDF 라 저장소엔 없음 — 집에서 다시 뽑으면 된다).
+>
+> **영덕은 못 뽑았다.** 두 가지가 막혀 있다:
+> 1. `.env` 가 `.env.txt` 로 저장돼 있었다 (메모장). 집 컴퓨터에서 다시 만들 것 — 컴퓨터마다 키 새로 발급
+> 2. **영덕 외부지문 2편 전사가 `pending`** — Yu Gwansun · Homer Hulbert. `008_ingest_passages.py` 는
+>    `confirmed` 만 넣으므로 원장이 [`전사확인지_영덕L6외부지문.html`](data/generated/전사확인지_영덕L6외부지문.html)
+>    24줄을 대조해야 한다. 그 뒤 순서: `confirm_transcription.py --apply` → `008 --apply` →
+>    `pass-a` 2편 태깅 → `010_ingest_tags.py --apply` → `make_drill_grammar.py` (UNITS 에 2편 추가) ·
+>    `make_drill_tf.py` → `build_drill_pdf.py --school 영덕` (L6 먼저 · 외부지문 2편 · 어휘 영덕_L6·L5)
+>
+> **청명은 이번 단계에서 스킵** — 학습지 전체가 없다. 배부물 **9/17(목)** 받을 예정. 오면 `SCHOOLS` 에 넣는다.
+
 > # 🔔 다음에 할 것 — **3층 동형 모의고사** (2026-09-09 기준)
 >
 > ## ⏳ 1층이 닫혔다
