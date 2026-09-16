@@ -1,19 +1,21 @@
 # -*- coding: utf-8 -*-
 """
-자체 드릴을 **학교별 한 권**으로 엮는다 — 문제 한 권, 정답지 한 권.
+자체 드릴을 **학교 × 과 한 권**으로 엮는다 — 문제 한 권, 정답지 한 권.
 
-  python tools/build_school_drills.py            # 네 학교 전부
+  python tools/build_school_drills.py            # 네 학교 · 모든 과
   python tools/build_school_drills.py --school 영덕중
 
-    result/readitude/영덕중 2학년 리디튜드 자체 드릴.pdf
-    result/readitude/영덕중 2학년 리디튜드 자체 드릴 정답지.pdf
+    result/readitude/영덕중2 5과 리디튜드 자체드릴.pdf
+    result/readitude/영덕중2 5과 리디튜드 자체드릴 정답지.pdf
+
+파일 이름은 result/이그잼포유/ 와 같은 꼴이다 — 학교 뒤에 학년 숫자, 그다음 과.
+과를 따로 두는 이유: 영덕은 6과를 먼저 배우고 나머지는 5과를 먼저 배운다. 한 권에
+두 과를 넣으면 학교마다 순서를 뒤집어야 하는데, 과별로 두면 집는 순서만 다르면 된다.
 
 ## 차례 — 원장 지정 (2026-09-16)
 
     어휘 → 대화문 → 본문(Read More · 본문) → 외부지문
 
-구역 안에서는 그 학교가 배우는 단원 순서다. 영덕은 6과를 먼저 배웠으므로 L6 → L5,
-나머지 세 학교는 L5 → L6 (data/stage0/comparisons/L5_학교별_문법범위.md §드릴 배부 대상).
 지문 하나에는 내용 확인(우리말 → 영어) → 표현 바꿔쓰기 → 어법 순으로 붙는다.
 
 ## 학교마다 다른 것
@@ -26,7 +28,7 @@
 ## build_drill_pdf.py 와 다른 점
 
 그쪽은 **드릴 종류별** 8권이다 — 1차 우리말을 먼저 주고 2차 영어를 일주일 뒤에 주는
-배부 순서가 권이 됐다. 이쪽은 **학교별** 두 권이다. 강사가 "영덕 것" 하나만 집으면 된다.
+배부 순서가 권이 됐다. 이쪽은 **학교 × 과** 두 권씩이다. 강사가 "영덕 5과" 하나만 집으면 된다.
 렌더러와 Chrome 변환은 그쪽 것을 그대로 쓴다.
 """
 import argparse
@@ -53,11 +55,7 @@ except Exception:
 
 OUT = os.path.join(ROOT, "result", "readitude")
 SCHOOLS = ["영일중", "영덕중", "태장중", "청명중"]
-GRADE = "2학년"      # 드릴은 동아 윤정미 중2 5·6과 (Street Art in London · Dr. Schofield)
-
-# 단원 순서. 영덕만 6과를 먼저 배웠다.
-LESSON_ORDER = {s: ["L5", "L6"] for s in SCHOOLS}
-LESSON_ORDER["영덕중"] = ["L6", "L5"]
+GRADE = "2"          # 드릴은 동아 윤정미 중2 5·6과 (Street Art in London · Dr. Schofield)
 
 # 외부지문 → 학교. 자기 학교 배부물이라 다른 학교에는 안 준다.
 EXTERNAL = {
@@ -111,39 +109,36 @@ def vocab_schools(d):
     return {s for s in SCHOOLS if s[:-1] in tail}
 
 
-def plan_for(school, passages, vocab):
-    """학교 한 곳의 차례. [(구역, 단원, 지문 제목, [(렌더 종류, 파일, json, 언어, 이름)])]"""
-    lessons = LESSON_ORDER[school]
+def plan_for(school, L, passages, vocab):
+    """학교 한 곳 · 과 하나의 차례. [(구역, 지문 제목, [(렌더 종류, 파일, json, 언어, 이름)])]"""
     plan = []
 
-    for L in lessons:
-        for name, p, d in vocab:
-            if L in d.get("title", "") and school in vocab_schools(d):
-                plan.append(("어휘", L, d["title"], [("vocab", p, d, None, "어휘")]))
+    for name, p, d in vocab:
+        if L in d.get("title", "") and school in vocab_schools(d):
+            plan.append(("어휘", d["title"], [("vocab", p, d, None, "어휘")]))
 
     for sec_kind, sec in SECTION.items():
-        for L in lessons:
-            units = [(u, v) for u, v in passages.items()
-                     if v["kind"] == sec_kind and v["lesson"] == L]
-            units.sort(key=lambda uv: passage_rank(uv[1]["drills"]))
-            for unit, v in units:
-                if sec_kind == "handout_external":
-                    owners = [s for t, ss in EXTERNAL.items() if t in unit for s in ss]
-                    if not owners:
-                        print(f"  ! 외부지문 주인을 모른다 — EXTERNAL 에 적을 것: {unit}")
-                        continue
-                    if school not in owners:
-                        continue
-                steps = []
-                for suffix, lang, label in DRILL_SEQ:
-                    if suffix not in v["drills"]:
-                        continue
-                    name, p, d = v["drills"][suffix]
-                    if lang == "en" and not any(x.get("statement_en") for x in d["items"]):
-                        continue
-                    steps.append((suffix, p, d, lang, label))
-                if steps:
-                    plan.append((sec, L, unit, steps))
+        units = [(u, v) for u, v in passages.items()
+                 if v["kind"] == sec_kind and v["lesson"] == L]
+        units.sort(key=lambda uv: passage_rank(uv[1]["drills"]))
+        for unit, v in units:
+            if sec_kind == "handout_external":
+                owners = [s for t, ss in EXTERNAL.items() if t in unit for s in ss]
+                if not owners:
+                    print(f"  ! 외부지문 주인을 모른다 — EXTERNAL 에 적을 것: {unit}")
+                    continue
+                if school not in owners:
+                    continue
+            steps = []
+            for suffix, lang, label in DRILL_SEQ:
+                if suffix not in v["drills"]:
+                    continue
+                name, p, d = v["drills"][suffix]
+                if lang == "en" and not any(x.get("statement_en") for x in d["items"]):
+                    continue
+                steps.append((suffix, p, d, lang, label))
+            if steps:
+                plan.append((sec, unit, steps))
     return plan
 
 
@@ -173,12 +168,11 @@ class Renderer:
 
 
 def assemble(plan, renderer, part, dest):
-    """차례대로 붙이고 구역 › 단원 › 지문 › 드릴 책갈피를 단다."""
+    """차례대로 붙이고 구역 › 지문 › 드릴 책갈피를 단다."""
     w = PdfWriter()
-    sec_item = les_item = None
-    cur_sec = cur_les = None
+    sec_item, cur_sec = None, None
     n_sets = 0
-    for sec, L, title, steps in plan:
+    for sec, title, steps in plan:
         pas_item = None
         for suffix, p, d, lang, label in steps:
             r = PdfReader(renderer.pdf(suffix, p, d, lang, part))
@@ -190,11 +184,8 @@ def assemble(plan, renderer, part, dest):
             if pas_item is None:
                 if sec != cur_sec:
                     sec_item = w.add_outline_item(sec, start)
-                    cur_sec, cur_les = sec, None
-                if L != cur_les:
-                    les_item = w.add_outline_item(L, start, parent=sec_item)
-                    cur_les = L
-                pas_item = w.add_outline_item(title, start, parent=les_item)
+                    cur_sec = sec
+                pas_item = w.add_outline_item(title, start, parent=sec_item)
             w.add_outline_item(label, start, parent=pas_item)
             n_sets += 1
     os.makedirs(os.path.dirname(dest), exist_ok=True)
@@ -217,16 +208,21 @@ def main():
     renderer = Renderer(chrome, tmp, logo)
     print(f"  지문 {len(passages)}개 · 어휘 {len(vocab)}세트\n")
     try:
+        lessons = sorted({v["lesson"] for v in passages.values()})      # L5, L6, …
         for school in schools:
-            plan = plan_for(school, passages, vocab)
-            print(f"■ {school} — {len(plan)}지문")
-            for sec, L, title, steps in plan:
-                print(f"     {sec:<5} {L}  {title[:38]:<40} {' · '.join(s[4] for s in steps)}")
-            base = os.path.join(a.out, f"{school} {GRADE} 리디튜드 자체 드릴")
-            for part, suffix in [("worksheet", ""), ("answers", " 정답지")]:
-                n, pages = assemble(plan, renderer, part, base + suffix + ".pdf")
-                print(f"   → {os.path.basename(base)}{suffix}.pdf   {n}세트 · {pages}쪽")
-            print()
+            for L in lessons:
+                plan = plan_for(school, L, passages, vocab)
+                if not plan:
+                    continue
+                lesson = L[1:] + "과"                                     # L5 → 5과
+                print(f"■ {school}{GRADE} {lesson} — {len(plan)}지문")
+                for sec, title, steps in plan:
+                    print(f"     {sec:<5} {title[:38]:<40} {' · '.join(s[4] for s in steps)}")
+                base = os.path.join(a.out, f"{school}{GRADE} {lesson} 리디튜드 자체드릴")
+                for part, suffix in [("worksheet", ""), ("answers", " 정답지")]:
+                    n, pages = assemble(plan, renderer, part, base + suffix + ".pdf")
+                    print(f"   → {os.path.basename(base)}{suffix}.pdf   {n}세트 · {pages}쪽")
+                print()
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     print("  문제와 정답지는 다른 파일입니다. 정답지는 강사만 가지십시오.")
