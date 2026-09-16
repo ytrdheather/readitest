@@ -299,8 +299,8 @@ def parse(raw, spec, given):
     warnings = []
     for e in essays:
         ans_en = e.get("answer_en", "")
-        if re.search(r"\(\s*[ab]\s*\)", ans_en):
-            continue                      # 나뉜 답은 통으로 못 센다
+        if re.search(r"\(\s*[abAB]\s*\)", ans_en):
+            continue                      # 나뉜 답은 통으로 못 센다 — (A)(B) 대문자도 (2026-09-17 오탐)
         n = len(re.findall(r"[A-Za-z][A-Za-z'’-]*", ans_en))
         m = re.search(r"(\d+)\s*[~-]\s*(\d+)", e.get("word_limit", ""))
         if m and not int(m.group(1)) <= n <= int(m.group(2)):

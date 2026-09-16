@@ -1,0 +1,522 @@
+{
+  "school": "영덕중",
+  "set_no": 3,
+  "spec": {
+    "students": 8,
+    "exam_date": "2026-10 둘째 주",
+    "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+    "total_points": 100,
+    "selective": 23,
+    "essay": 0,
+    "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+    "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+    "signature": [
+      "어순 배열 2문항 10점 (T-WORD-ORDER · 문항 4·20)",
+      "본문을 캠페인 포스터·광고 문구로 형식 전환 (문항 17·18)",
+      "본문 어휘를 창작 지문에 심음 (문항 9 My Money Plan)"
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "form_choice": 1,
+    "standalone": 2,
+    "standalone_points": 8,
+    "external_passages": [
+      "Yu Gwansun",
+      "Homer B. Hulbert"
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 대화 ⑦⑧⑨",
+      "text": "B: Somi, I need help. What’s the best way to get to Sebit Park from here?\nG: Sebit Park? Well, you can get there by bus or by subway, but the subway is better.\nB: OK. Which line should I take?\nG: Take line 3, and get off at Sebit Station.\nB: Line 3 and get off at Sebit Station. How long will it take?\nG: It’ll take about 40 minutes.\nB: Is it that far?\nG: Yes. Anyway, why are you going to Sebit Park, Liam?\nB: Oh, there is an art fair this Saturday. You can come with me if you want.\nG: Really? I’m free this Saturday. Let’s go together.\nB: Perfect. Let’s meet here at 10.\nA: How can I get to the hospital?\nB: You can get there by bus.\nA: OK. How long will it take?\nB: It’ll take about 25 minutes.\nA: Excuse me, how can I get to the Brooklyn Bridge from SoHo?\nB: You can get there by subway.\nA: OK. How long will it take by subway?\nB: About 16 minutes."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ⑦⑧⑨",
+      "text": "B: What kinds of movies do you like?\nG: I like sci-fi movies.\nB: Me, too. Can you recommend a good sci-fi movie for me?\nG: Try Travel to the Future. It’s really good.\nA: Can you recommend a restaurant for me?\nB: How about Morning in Venice?\nA: What kind of food do they have?\nB: They have Italian food. I strongly recommend their cheese pizza. It’s really good.\nA: Dr. Schofield, I hear you have a Korean name. Can you tell me about it?\nB: It’s Seok Hopil. I love it because it sounds similar to my English name. Also, it has a good meaning.\nA: I’d like to know why you helped the Korean independence movement.\nB: Well, I believe every country has the right to be independent.\nA: What did you do after you returned to Korea in 1958?\nB: I worked hard to help Koreans, especially poor students."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 본문",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 — Yu Gwansun",
+      "text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "외부지문 — Homer B. Hulbert",
+      "text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries."
+    },
+    {
+      "id": "T1",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 세트 (A)",
+      "text": "[1] A: Is this the umbrella ①which you lost on the bus?\nB: Yes, it is. Thank you!\n\n[2] A: Who is the boy ②whom you met at the art fair?\nB: He is my cousin Liam.\n\n[3] A: My father ③used to working in that old factory.\nB: Really? Now it is a museum.\n\n[4] A: The movie ④that we watched last night was really long.\nB: I agree. I almost fell asleep.\n\n[5] A: There ⑤used to be a small bakery next to the bank.\nB: Right. I really miss its bread."
+    },
+    {
+      "id": "T2",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 세트 (B)",
+      "text": "[1] A: I heard someone ①calling my name outside.\nB: Oh, that was me.\n\n[2] A: The soup was ②so hot that I couldn't eat it.\nB: Let it cool down for a while.\n\n[3] A: I saw the children ③to play soccer in the park.\nB: They looked really happy.\n\n[4] A: It was ④such a good movie that I watched it twice.\nB: Me, too. I want to see it again.\n\n[5] A: I felt the ground ⑤shake for a few seconds.\nB: That was a little scary."
+    },
+    {
+      "id": "T3",
+      "kind": "teacher_paragraph",
+      "title": "My Art Plan",
+      "text": "Our art club has a small plan for the old gray wall near the school gate. The wall used to be full of dust, and nobody looked at it. Now we want to make it          and colorful, just like the street art we learned about in London. First, we will paint three figures that represent the past, present, and future of our school. We will also hide a small clue in their eyes, so students can guess which figure is which. Our paintings will be tiny, but we hope they give great pleasure to everyone who walks by."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "A Student's Tour Diary",
+      "text": "Last Saturday I joined a street art tour ①that my art teacher recommended. The guide said that poor workers ②used to live in Shoreditch a long time ago. The little gum paintings ③which we saw in Muswell Hill were so small ④that I almost missed them. In front of one wall, I heard a little girl ⑤to shout with joy. The tour was so interesting that I want to join it again next month."
+    },
+    {
+      "id": "T5",
+      "kind": "standalone_set",
+      "title": "that의 쓰임",
+      "text": "① The painting that we saw yesterday was amazing.\n② This is the gum art that Ben Wilson made last year.\n③ Do you know the man that I met at the park?\n④ I can't walk that far in only one hour.\n⑤ The book that she wants to read is sold out."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "A Short Film about Banksy",
+      "text": "Yesterday our class watched a short film about Banksy. The green tree (A)[that / what] you see in the film is one of his most famous works. Long ago, people (B)[used to think / used to thinking] that street art was just dirty graffiti. Now his message is so strong (C)[that / what] many people want to take better care of nature."
+    },
+    {
+      "id": "T7",
+      "kind": "standalone_set",
+      "title": "어순 배열 자료 (A)",
+      "text": "우리말: 내가 타던 그 자전거는 고장 났다.\n주어진 단어: (the / bike / which / I / used / to / ride / is / broken)"
+    },
+    {
+      "id": "T8",
+      "kind": "standalone_set",
+      "title": "단문 세트 (A)",
+      "text": "① This is the song that I listened to yesterday.\n② I used to be afraid of dogs when I was young.\n③ The man whom you talked about is my uncle.\n④ She used to going to bed early, but now she doesn't.\n⑤ The pictures which he took in London are beautiful."
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "단문 세트 (B)",
+      "text": "① We watched the sun set behind the hill.\n② The box was too heavy for me to carry.\n③ He is so kind that everyone likes him.\n④ I smelled something burning in the kitchen.\n⑤ It was so a long movie that I fell asleep."
+    },
+    {
+      "id": "T10",
+      "kind": "teacher_paragraph",
+      "title": "캠페인 포스터 — LONDON STREET ART WALKING TOUR",
+      "text": "★ LONDON STREET ART WALKING TOUR ★\nCome and see the city that artists made colorful and lively!\n\n• Stop 1 — Shoreditch: Meet STIK's three figures. Look closely at their eyes. They are just dots, but they are your          !\n• Stop 2 — Finsbury Park: See Banksy's green tree and think about our nature.\n• Stop 3 — Muswell Hill: Look DOWN! Ben Wilson's tiny gum paintings are waiting for you.\n\nWhen: Every Saturday, 10 a.m.\nHow long: About 3 hours\nTickets: £10 (students £5)\n※ Comfortable shoes are strongly recommended!"
+    },
+    {
+      "id": "T11",
+      "kind": "standalone_set",
+      "title": "어순 배열 자료 (B)",
+      "text": "우리말: 그 음악이 너무 시끄러워서 나는 누군가가 내 이름을 부르는 것을 듣지 못했다.\n주어진 단어: (the music / was / so / loud / that / I / didn't / hear / someone / calling / my name)"
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 대화 내용과 일치하는 것은?",
+      "options": [
+        "① Liam은 Sebit Park에 지하철보다 버스로 가는 것이 좋다고 들었다.",
+        "② Somi는 3호선을 타고 Sebit Station에서 내리라고 말했다.",
+        "③ Sebit Park까지는 약 25분이 걸린다.",
+        "④ 미술 박람회는 다음 주 일요일에 열린다.",
+        "⑤ Somi는 토요일에 다른 약속이 있어서 함께 갈 수 없다."
+      ],
+      "answer": 2,
+      "why_ko": "Somi는 3호선을 타고 Sebit Station에서 내리라고 안내했다. 지하철이 더 좋다고 했고, 약 40분이 걸리며, 박람회는 이번 토요일이고 Somi는 시간이 있어 함께 가기로 했다."
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 대화들에서 언급되지 않은 것은?",
+      "options": [
+        "① Sebit Park에 갈 수 있는 교통수단",
+        "② Sebit Park까지 걸리는 시간",
+        "③ 두 사람이 만날 장소와 시간",
+        "④ 미술 박람회의 입장료",
+        "⑤ 병원까지 버스로 걸리는 시간"
+      ],
+      "answer": 4,
+      "why_ko": "교통수단(버스·지하철), 소요 시간(40분), 만날 장소와 시간(here at 10), 병원까지의 시간(25분)은 모두 나오지만 박람회 입장료는 언급되지 않았다."
+    },
+    {
+      "no": 3,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 대화 내용과 일치하지 않는 것은?",
+      "options": [
+        "① 여학생은 공상 과학 영화를 좋아한다.",
+        "② 여학생은 Travel to the Future를 추천했다.",
+        "③ Morning in Venice에서는 이탈리아 음식을 먹을 수 있다.",
+        "④ Schofield 박사는 자신의 한국 이름이 영어 이름과 소리가 비슷해서 좋아한다.",
+        "⑤ Schofield 박사는 1958년에 한국을 떠난 뒤 가난한 학생들을 도왔다."
+      ],
+      "answer": 5,
+      "why_ko": "Schofield 박사는 1958년에 한국으로 '돌아온(returned)' 뒤 한국인, 특히 가난한 학생들을 도왔다고 했다."
+    },
+    {
+      "no": 4,
+      "material_id": "T7",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "T7의 우리말 뜻과 같도록 주어진 단어를 모두 바르게 배열한 것은?",
+      "options": [
+        "① The bike which I used ride to is broken.",
+        "② The bike which used to I ride is broken.",
+        "③ The bike which I used to ride is broken.",
+        "④ The bike I which used to ride is broken.",
+        "⑤ The bike which I to used ride is broken."
+      ],
+      "answer": 3,
+      "why_ko": "목적격 관계대명사 which 뒤에는 「주어+동사」가 오고, '~하곤 했다'는 used to+동사원형이므로 The bike which I used to ride is broken.이 알맞다.",
+      "grammar_point": "REL_OBJECT + VERB_USED_TO"
+    },
+    {
+      "no": 5,
+      "material_id": "P3",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P3의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "① The History of Graffiti Crimes in Big Cities",
+        "② A Walking Tour of London's Famous Street Artworks",
+        "③ How to Become a Famous Street Artist",
+        "④ Tips for Cleaning Chewing Gum from Streets",
+        "⑤ The Best Restaurants to Visit in Shoreditch"
+      ],
+      "answer": 2,
+      "why_ko": "런던의 Shoreditch, Finsbury Park, Muswell Hill을 차례로 돌며 유명한 거리 예술 작품을 소개하는 투어 안내 글이다."
+    },
+    {
+      "no": 6,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T1의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "① which you lost",
+        "② whom you met",
+        "③ used to working",
+        "④ that we watched",
+        "⑤ used to be"
+      ],
+      "answer": 3,
+      "why_ko": "'~하곤 했다'의 used to 뒤에는 동사원형이 와야 하므로 used to working은 used to work로 고쳐야 한다. ①②④는 목적격 관계대명사, ⑤는 used to+동사원형으로 올바르다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 7,
+      "material_id": "P3",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P3에서 'he wants us to take better care of it'의 it이 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "① the green tree",
+        "② the leafless tree",
+        "③ nature",
+        "④ the sprayer",
+        "⑤ the wall behind the tree"
+      ],
+      "answer": 3,
+      "why_ko": "바로 앞 문장에서 '자연이 힘든 시간을 보내고 있다(nature is having a hard time)'고 했으므로 it은 nature를 가리킨다."
+    },
+    {
+      "no": 8,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T2의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "① calling",
+        "② so hot that",
+        "③ to play",
+        "④ such a good movie that",
+        "⑤ shake"
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 see의 목적격보어로는 동사원형이나 현재분사가 오므로 to play가 아니라 play 또는 playing이 알맞다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 9,
+      "material_id": "T3",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T3의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "① silent",
+        "② lively",
+        "③ leafless",
+        "④ forceful",
+        "⑤ personal"
+      ],
+      "answer": 2,
+      "why_ko": "낡고 먼지투성이인 회색 벽을 '생기 있고 알록달록하게(lively and colorful)' 만들고 싶다는 흐름이므로 lively가 알맞다."
+    },
+    {
+      "no": 10,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T4의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "① that my art teacher recommended",
+        "② used to live",
+        "③ which we saw",
+        "④ that I almost missed them",
+        "⑤ to shout"
+      ],
+      "answer": 5,
+      "why_ko": "hear는 지각동사이므로 목적격보어로 shout 또는 shouting을 써야 한다. to shout는 쓸 수 없다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 11,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 내용과 일치하지 않는 것은?",
+      "options": [
+        "① STIK은 사람의 몸을 선과 점만으로 그리는 것으로 유명하다.",
+        "② Ben Wilson의 껌 그림은 작지만 많은 사람에게 큰 기쁨을 준다.",
+        "③ Shoreditch는 지금도 가난한 노동자들이 모여 사는 지역이다.",
+        "④ Banksy의 작품은 종종 사회적 메시지를 담고 있다.",
+        "⑤ 오늘 투어의 마지막 장소는 Muswell Hill이다."
+      ],
+      "answer": 3,
+      "why_ko": "Shoreditch에는 과거에 가난한 노동자들이 살았지만, 지금은 런던에서 가장 힙한 지역 중 하나라고 했다."
+    },
+    {
+      "no": 12,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 5,
+      "stem_ko": "T5의 밑줄 친 that의 쓰임이 나머지와 다른 것은?",
+      "options": [
+        "① The painting that we saw yesterday was amazing.",
+        "② This is the gum art that Ben Wilson made last year.",
+        "③ Do you know the man that I met at the park?",
+        "④ I can't walk that far in only one hour.",
+        "⑤ The book that she wants to read is sold out."
+      ],
+      "answer": 4,
+      "why_ko": "①②③⑤의 that은 목적격 관계대명사이지만, ④의 that은 형용사·부사를 수식해 '그렇게, 그만큼'의 뜻을 나타내는 부사이다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 13,
+      "material_id": "T6",
+      "type": "T-FORM-CHOICE",
+      "points": 5,
+      "stem_ko": "T6의 (A), (B), (C)의 각 괄호 안에서 알맞은 말을 골라 짝지은 것은?",
+      "options": [
+        "① what – used to think – that",
+        "② that – used to thinking – what",
+        "③ that – used to think – that",
+        "④ what – used to thinking – that",
+        "⑤ that – used to thinking – that"
+      ],
+      "answer": 3,
+      "why_ko": "(A) 선행사 the green tree가 있으므로 목적격 관계대명사 that, (B) used to 뒤에는 동사원형 think, (C) so+형용사+that 구문이므로 that이 알맞다.",
+      "grammar_point": "REL_OBJECT + VERB_USED_TO + SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 14,
+      "material_id": "T8",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T8의 ①~⑤ 중 어법상 틀린 문장은?",
+      "options": [
+        "① This is the song that I listened to yesterday.",
+        "② I used to be afraid of dogs when I was young.",
+        "③ The man whom you talked about is my uncle.",
+        "④ She used to going to bed early, but now she doesn't.",
+        "⑤ The pictures which he took in London are beautiful."
+      ],
+      "answer": 4,
+      "why_ko": "'~하곤 했다'는 used to+동사원형이므로 used to going이 아니라 used to go로 써야 한다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 15,
+      "material_id": "P4",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P4에서 찾을 수 있는 것은?\n: the ability to do something dangerous or difficult even though you are afraid",
+      "options": [
+        "① challenge",
+        "② courage",
+        "③ control",
+        "④ kindness",
+        "⑤ hope"
+      ],
+      "answer": 2,
+      "why_ko": "두려움에도 어려운 일을 해내는 능력은 courage(용기)이다. P4는 유관순이 용기로 나라 사랑을 보여 주었다고 서술한다."
+    },
+    {
+      "no": 16,
+      "material_id": "T9",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T9의 ①~⑤ 중 어법상 틀린 문장은?",
+      "options": [
+        "① We watched the sun set behind the hill.",
+        "② The box was too heavy for me to carry.",
+        "③ He is so kind that everyone likes him.",
+        "④ I smelled something burning in the kitchen.",
+        "⑤ It was so a long movie that I fell asleep."
+      ],
+      "answer": 5,
+      "why_ko": "「a(n)+형용사+명사」 앞에는 such를 쓰므로 such a long movie that ~ 으로 고쳐야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 17,
+      "material_id": "T10",
+      "type": "T-BLANK",
+      "points": 5,
+      "stem_ko": "T10 포스터의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "① clue",
+        "② control",
+        "③ prison",
+        "④ opinion",
+        "⑤ pleasure"
+      ],
+      "answer": 1,
+      "why_ko": "세 인물의 눈이 점에 불과하지만 어떤 인물이 무엇을 나타내는지 알려 주는 '단서(clue)'가 된다는 본문 내용을 광고 문구로 옮긴 것이다."
+    },
+    {
+      "no": 18,
+      "material_id": "T10",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T10 포스터의 내용과 일치하지 않는 것은?",
+      "options": [
+        "① The tour visits three different places.",
+        "② Visitors have to look down at Muswell Hill.",
+        "③ The tour starts at ten in the morning on Saturdays.",
+        "④ Students can join the tour for free.",
+        "⑤ The whole tour takes about three hours."
+      ],
+      "answer": 4,
+      "why_ko": "학생 요금은 무료가 아니라 £5이다."
+    },
+    {
+      "no": 19,
+      "material_id": "P5",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P5에서 찾을 수 있는 것은?\n: a person who is sent to a foreign country to teach people about a religion and to help them",
+      "options": [
+        "① educator",
+        "② foreigner",
+        "③ movement",
+        "④ missionary",
+        "⑤ writer"
+      ],
+      "answer": 4,
+      "why_ko": "종교를 전하고 사람들을 돕기 위해 외국에 파견된 사람은 missionary(선교사)이다. Hulbert는 educator, writer, missionary로 소개된다."
+    },
+    {
+      "no": 20,
+      "material_id": "T11",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "T11의 우리말 뜻과 같도록 주어진 단어를 모두 바르게 배열한 것은?",
+      "options": [
+        "① The music was loud so that I didn't hear someone calling my name.",
+        "② The music was so loud that I didn't hear calling someone my name.",
+        "③ The music was so loud that I didn't hear someone calling my name.",
+        "④ The music so was loud that I didn't hear someone calling my name.",
+        "⑤ The music was so that loud I didn't hear someone calling my name."
+      ],
+      "answer": 3,
+      "why_ko": "「so+형용사+that+주어+동사」 구문과 지각동사 hear의 목적격보어(calling)를 모두 살려야 하므로 ③이 알맞다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH + PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 21,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P4의 내용과 일치하는 것은?",
+      "options": [
+        "① Yu Gwansun was already an adult when Korea was under Japan's control.",
+        "② She told her friends and neighbors to give up hope.",
+        "③ She was caught for her actions and had a difficult time in prison.",
+        "④ She stopped inspiring people after she was caught.",
+        "⑤ Her love for her country was loud and forceful."
+      ],
+      "answer": 3,
+      "why_ko": "유관순은 자신의 행동 때문에 붙잡혀 감옥에서 힘든 시간을 보냈다. 그는 십 대였고, 희망을 버리지 말라고 했으며, 감옥에서도 사람들에게 힘을 주었고, 그 사랑은 요란하거나 강압적이지 않았다."
+    },
+    {
+      "no": 22,
+      "material_id": "P5",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P5의 내용과 일치하지 않는 것은?",
+      "options": [
+        "① Hulbert first came to Korea in the late 1800s to teach at a royal school.",
+        "② He thought that Hangeul was logical and easy to learn.",
+        "③ Most Westerners at that time praised Hangeul as much as Hulbert did.",
+        "④ He wrote in international newspapers to say Korea should be free.",
+        "⑤ He returned to Korea in his later years and died in Seoul in 1949."
+      ],
+      "answer": 3,
+      "why_ko": "많은 서양인들은 한글에 관심이 없었지만(didn't care about it) Hulbert는 한글을 칭찬하고 깊이 연구했다고 했다."
+    },
+    {
+      "no": 23,
+      "material_id": "P5",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P5의 요지로 가장 알맞은 것은?",
+      "options": [
+        "① 외국어는 어릴 때 배워야 빨리 익힐 수 있다.",
+        "② 진정한 우정과 사랑은 국경을 넘어설 수 있다.",
+        "③ 한글은 세계에서 가장 오래된 문자 체계이다.",
+        "④ 신문은 역사를 기록하는 가장 좋은 수단이다.",
+        "⑤ 교육자는 교실 안에서만 학생을 도와야 한다."
+      ],
+      "answer": 2,
+      "why_ko": "마지막 문장에서 Hulbert의 이야기는 진정한 우정과 사랑이 나라를 넘어설 수 있음을 가르쳐 준다고 밝히고 있다."
+    }
+  ],
+  "essays": [],
+  "diagnostics": {
+    "problems": [
+      "자료 P1 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P2 의 줄바꿈이 달라 원본으로 되돌림"
+    ],
+    "warnings": [],
+    "n_items": 23,
+    "n_essays": 0,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 2670,
+    "output": 22552,
+    "usd": 0.5785
+  }
+}

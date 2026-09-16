@@ -1,0 +1,499 @@
+{
+  "school": "태장중",
+  "set_no": 3,
+  "spec": {
+    "students": 2,
+    "exam_date": "2026-10-01",
+    "priority": "서술형이 있어 준비 시간이 든다",
+    "total_points": 100,
+    "selective": 19,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "긴 외부지문",
+    "vessel_note": "2026-1 문항 11·15·18. 지문이 길고 밑줄이 여럿이다",
+    "signature": [
+      "서술형이 **단어 세트 + 단어 수 제한**이다 (어법 지정이 아니다)",
+      "지문 둘을 [A][B] 로 묶고 표로 대조 (문항 9~10)",
+      "본문을 에세이 형식으로 전환 (문항 14)"
+    ],
+    "essay_rule": "주어진 단어 전부 포함 + 단어 수 상한",
+    "essay_blueprint": [
+      {
+        "조건": "완전한 한 문장 · 시제 변형 · 주어진 단어 전부 포함",
+        "단어수": "제한 없음"
+      },
+      {
+        "조건": "지정 단어 포함",
+        "단어수": "9단어 이하"
+      },
+      {
+        "조건": "지정 단어 포함",
+        "단어수": "8단어 이하"
+      },
+      {
+        "조건": "본문 단어만",
+        "단어수": "네 단어"
+      }
+    ],
+    "vocab_items": 3,
+    "vocab_points": 12,
+    "form_choice": 1,
+    "standalone": 1,
+    "standalone_points": 4,
+    "external_passages": []
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 대화 ⑦⑧⑨",
+      "text": "B: Somi, I need help. What’s the best way to get to Sebit Park from here?\nG: Sebit Park? Well, you can get there by bus or by subway, but the subway is better.\nB: OK. Which line should I take?\nG: Take line 3, and get off at Sebit Station.\nB: Line 3 and get off at Sebit Station. How long will it take?\nG: It’ll take about 40 minutes.\nB: Is it that far?\nG: Yes. Anyway, why are you going to Sebit Park, Liam?\nB: Oh, there is an art fair this Saturday. You can come with me if you want.\nG: Really? I’m free this Saturday. Let’s go together.\nB: Perfect. Let’s meet here at 10.\nA: How can I get to the hospital?\nB: You can get there by bus.\nA: OK. How long will it take?\nB: It’ll take about 25 minutes.\nA: Excuse me, how can I get to the Brooklyn Bridge from SoHo?\nB: You can get there by subway.\nA: OK. How long will it take by subway?\nB: About 16 minutes."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ⑦⑧⑨",
+      "text": "B: What kinds of movies do you like?\nG: I like sci-fi movies.\nB: Me, too. Can you recommend a good sci-fi movie for me?\nG: Try Travel to the Future. It’s really good.\nA: Can you recommend a restaurant for me?\nB: How about Morning in Venice?\nA: What kind of food do they have?\nB: They have Italian food. I strongly recommend their cheese pizza. It’s really good.\nA: Dr. Schofield, I hear you have a Korean name. Can you tell me about it?\nB: It’s Seok Hopil. I love it because it sounds similar to my English name. Also, it has a good meaning.\nA: I’d like to know why you helped the Korean independence movement.\nB: Well, I believe every country has the right to be independent.\nA: What did you do after you returned to Korea in 1958?\nB: I worked hard to help Koreans, especially poor students."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 본문 · Street Art in London",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "A Summer Evening in Bristol",
+      "text": "Last summer, my family traveled to Bristol, a city ①_that_ many people call the home of British street art. On our first evening, we ②_heard a young man to play_ the guitar near the old harbor. His music was ③_so warm that_ we sat down on the stone steps and listened for almost an hour. My father said that there ④_used to be_ a small factory on that spot, but the city changed it into an open stage for young artists. The singer ⑤_whom we met_ after the show told us that she practices there every Saturday, rain or shine."
+    },
+    {
+      "id": "T2",
+      "kind": "teacher_paragraph",
+      "title": "My Grandmother's Village",
+      "text": "When I was ten, I spent every summer at my grandmother's house in the countryside. The village ①_that she loved_ was small and very quiet. The garden behind her house was ②_so wide that_ I could run around it for hours without stopping. Early in the morning, I often ③_felt the cool wind touch_ my face while I helped her pick tomatoes. My grandmother ④_used to telling_ me that the soil there was the best in the whole country. The basket ⑤_which we filled_ together was too heavy for me to carry alone, so she always carried it into the kitchen for me."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "단문 나열 ①~⑤",
+      "text": "① This is the book that I borrowed from the school library last week.\n② My uncle used to play soccer every Sunday, but now he only watches it on TV.\n③ I felt something crawl up my arm and screamed as loudly as I could.\n④ The street was so noisy that we could not hear each other's voices.\n⑤ She is the girl who I met her at the science camp last summer."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "[A] Keith Haring / [B] Invader",
+      "text": "[A] Keith Haring was an American artist. He used to draw simple figures on empty black advertising boards in New York subway stations. He used white chalk, and his lines were so clear that even young children could understand his messages about love and peace. Most of the drawings that he left underground were removed the next day, but photographs of them still remain.\n\n[B] Invader is a French artist. He puts small tile mosaics on the walls of city streets around the world. The characters that he uses come from old video games of the 1980s. His works are so small that people who walk fast often miss them. \"Look up and look closely,\" he says. Fans take pictures of the mosaics and share them online."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "Street Art in London — A Tour Report (에세이 형식)",
+      "text": "Modern street art appears in many forms, and it brings color and life to cities. Our tour began in Shoreditch, an area where poor workers once lived and which is now one of the hippest places in London. There we studied STIK's three figures; their eyes, which are only dots, are the clue to the past, present, and future of the area. Our second stop was Finsbury Park. Banksy sprayed green paint on a wall behind a bare tree and put a person with a sprayer beside it. Through this work, many people believe, the artist is telling us that ________________. Our last stop was Muswell Hill, where we had to look down to find Ben Wilson's tiny paintings on pieces of gum. Though they are small, they carry personal messages and give great pleasure to many people."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "Our School Concert",
+      "text": "Our school music club held a small concert last Friday evening. The song ①_that we chose_ was an old jazz tune from the 1960s. We practiced it for a month, and it turned out to be ②_such a wonderful show that_ the audience clapped for almost five minutes. Just before my turn, I was ③_too nervous to remembering_ the first line, but my friends smiled at me from the side of the stage. During the last song, I ④_saw my little brother jumping_ up and down in the front row. Some students say that our concert hall ⑤_used to be_ a library, but now it is the heart of our school."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "A Walking Tour (어형 고르기)",
+      "text": "Last weekend I joined a walking tour of an old town. Our guide showed us a long wall (A)[which / what] the local students painted last year. The colors were (B)[so / such] bright that we could see them from the bus stop across the road. While we were taking pictures, we heard a street singer (C)[to sing / singing] an old folk song."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 첫 번째 대화 내용과 일치하지 않는 것은?",
+      "options": [
+        "Liam은 Sebit Park에 가는 가장 좋은 방법을 묻고 있다.",
+        "소미는 버스보다 지하철을 타는 것이 더 낫다고 말한다.",
+        "Liam은 3호선을 타고 Sebit Station에서 내려야 한다.",
+        "Sebit Park까지는 약 15분이 걸린다.",
+        "두 사람은 이번 토요일 10시에 이곳에서 만나기로 했다."
+      ],
+      "answer": 4,
+      "why_ko": "소미는 'It'll take about 40 minutes.'라고 했으므로 약 40분이 걸린다. 15분은 대화 내용과 다르다."
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1에서 Liam이 한 말 'Is it that far?'에 담긴 의도로 가장 알맞은 것은?",
+      "options": [
+        "생각보다 공원이 멀어서 놀랐다는 뜻이다.",
+        "걸어서도 충분히 갈 수 있다고 확인하는 뜻이다.",
+        "지하철 요금이 너무 비싸다고 불평하는 뜻이다.",
+        "소미가 길을 잘못 알려 주었다고 지적하는 뜻이다.",
+        "함께 가자고 소미에게 제안하는 뜻이다."
+      ],
+      "answer": 1,
+      "why_ko": "40분이 걸린다는 말을 듣고 바로 한 말이므로 '그렇게 멀어?'라는 놀람의 표현이다."
+    },
+    {
+      "no": 3,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 Dr. Schofield와의 대화 내용과 일치하는 것은?",
+      "options": [
+        "그의 한국 이름은 영어 이름과 발음이 비슷하다.",
+        "그는 자신의 한국 이름의 뜻을 마음에 들어 하지 않는다.",
+        "그는 모든 나라가 독립할 권리를 가진다고 생각하지 않았다.",
+        "그는 1958년에 한국을 떠나 고국으로 돌아갔다.",
+        "그는 한국에 돌아온 뒤 부유한 학생들을 주로 도왔다."
+      ],
+      "answer": 1,
+      "why_ko": "'It sounds similar to my English name.'이라고 했다. 이름의 뜻도 좋다고 했고, 모든 나라의 독립 권리를 믿었으며, 1958년에 한국으로 '돌아왔고', 가난한 학생들을 도왔다."
+    },
+    {
+      "no": 4,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 대화들에서 언급되지 않은 것은?",
+      "options": [
+        "여자가 좋아하는 영화의 종류",
+        "여자가 추천한 영화의 제목",
+        "Morning in Venice에서 파는 음식의 종류",
+        "추천받은 식당이 있는 위치",
+        "Dr. Schofield가 한국으로 돌아온 해"
+      ],
+      "answer": 4,
+      "why_ko": "식당의 음식 종류와 추천 메뉴는 나오지만 식당의 위치는 대화에 나오지 않는다."
+    },
+    {
+      "no": 5,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로 알맞은 것은?\n\n: a fact or an object that helps you find the answer to a question or a problem",
+      "options": [
+        "clue",
+        "form",
+        "figure",
+        "message",
+        "opinion"
+      ],
+      "answer": 1,
+      "why_ko": "문제의 답을 찾도록 도와주는 단서를 뜻하는 낱말은 clue이다."
+    },
+    {
+      "no": 6,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로 알맞은 것은?\n\n: to be a sign or symbol of something; to stand for something",
+      "options": [
+        "recommend",
+        "represent",
+        "remain",
+        "return",
+        "release"
+      ],
+      "answer": 2,
+      "why_ko": "무엇을 상징하거나 나타낸다는 뜻은 represent이다."
+    },
+    {
+      "no": 7,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "낱말과 영영풀이가 잘못 짝지어진 것은?",
+      "options": [
+        "lively – full of energy and activity",
+        "tiny – extremely small",
+        "pleasure – a feeling of happiness or enjoyment",
+        "drop – to pick something up from the ground",
+        "famous – known about by many people"
+      ],
+      "answer": 4,
+      "why_ko": "drop은 '떨어뜨리다, 버리다(to let something fall)'의 뜻이다. 땅에서 집어 올리는 것은 pick up이다."
+    },
+    {
+      "no": 8,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T3의 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "why_ko": "목적격 관계대명사 who(m)가 이미 met의 목적어 역할을 하므로 뒤에 목적어 her를 또 쓸 수 없다. → who I met at the science camp",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 9,
+      "material_id": "T4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T4의 [A]와 [B]를 표로 정리한 것 중, 글의 내용과 일치하지 않는 것은?",
+      "options": [
+        "국적: [A] 미국 – [B] 프랑스",
+        "작품 재료: [A] 흰색 분필 – [B] 작은 타일",
+        "작품 장소: [A] 지하철역 – [B] 거리의 벽",
+        "작품 소재: [A] 단순한 인물 – [B] 옛 비디오 게임 캐릭터",
+        "작품 보존: [A] 대부분 지금도 그대로 남아 있음 – [B] 팬들이 사진을 찍어 공유함"
+      ],
+      "answer": 5,
+      "why_ko": "[A]에서 지하철에 남긴 그림은 대부분 다음 날 제거되었고 사진만 남아 있다고 했다."
+    },
+    {
+      "no": 10,
+      "material_id": "T4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T4의 [A], [B]에 대한 설명으로 알맞은 것은?",
+      "options": [
+        "Keith Haring은 지하철 광고판에 페인트로 그림을 그렸다.",
+        "Keith Haring의 그림은 선이 복잡해 어린이들은 이해하기 어려웠다.",
+        "Invader의 작품은 크기가 작아서 빠르게 걷는 사람들은 놓치기 쉽다.",
+        "Invader는 1980년대 영화 속 인물을 작품의 소재로 삼는다.",
+        "두 작가 모두 실내 미술관에서만 작품을 전시한다."
+      ],
+      "answer": 3,
+      "why_ko": "[B]에 'His works are so small that people who walk fast often miss them.'이라고 나와 있다."
+    },
+    {
+      "no": 11,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T1의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "지각동사 hear의 목적격보어로는 원형부정사나 현재분사를 쓴다. → heard a young man play(playing) the guitar",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 12,
+      "material_id": "P3",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P3의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "A Walking Tour of London's Street Art",
+        "How to Become a Famous Painter in London",
+        "The History of Graffiti Laws in Europe",
+        "Why Cities Should Remove Street Art",
+        "The Hard Life of Poor Workers in Old Shoreditch"
+      ],
+      "answer": 1,
+      "why_ko": "Shoreditch, Finsbury Park, Muswell Hill을 차례로 돌며 런던의 거리 예술 작품을 소개하는 글이다."
+    },
+    {
+      "no": 13,
+      "material_id": "P3",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P3의 'he wants us to take better care of it'에서 it이 가리키는 것으로 알맞은 것은?",
+      "options": [
+        "nature",
+        "the leafless tree",
+        "the sprayer",
+        "the wall in Finsbury Park",
+        "Banksy's other artworks"
+      ],
+      "answer": 1,
+      "why_ko": "바로 앞 문장에서 'nature is having a hard time'이라고 했으므로 it은 nature를 가리킨다."
+    },
+    {
+      "no": 14,
+      "material_id": "T5",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T5의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "nature is suffering and needs our care",
+        "street artists should be paid more money",
+        "old trees must be cut down for safety",
+        "city walls are the best place for advertising",
+        "people should stop dropping gum on the street"
+      ],
+      "answer": 1,
+      "why_ko": "Banksy의 초록 나무 그림은 자연이 힘든 시기를 겪고 있으며 더 잘 돌봐야 한다는 사회적 메시지를 담고 있다."
+    },
+    {
+      "no": 15,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T2의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "'~하곤 했다'는 「used to + 동사원형」이다. → used to tell me",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 16,
+      "material_id": "T7",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T7의 (A), (B), (C)에서 어법에 맞는 표현끼리 바르게 짝지은 것은?",
+      "options": [
+        "which – so – to sing",
+        "which – so – singing",
+        "which – such – singing",
+        "what – so – singing",
+        "what – such – to sing"
+      ],
+      "answer": 2,
+      "why_ko": "(A) 선행사 a long wall이 있으므로 목적격 관계대명사 which, (B) 「so + 형용사 + that」, (C) 지각동사 hear의 목적격보어로 현재분사 singing이 알맞다."
+    },
+    {
+      "no": 17,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 내용과 일치하지 않는 것은?",
+      "options": [
+        "STIK은 사람의 몸을 선과 점만으로 그리는 것으로 유명하다.",
+        "Shoreditch는 예전에 가난한 노동자들이 살던 지역이었다.",
+        "Banksy는 잎이 없는 나무 뒤의 벽에 초록색 페인트를 뿌렸다.",
+        "Ben Wilson은 사람들이 거리에 버린 껌 위에 그림을 그린다.",
+        "Ben Wilson의 껌 그림은 크기가 커서 멀리서도 잘 보인다."
+      ],
+      "answer": 5,
+      "why_ko": "Wilson의 껌 그림은 tiny하여 아래를 내려다보고 자세히 보아야 한다고 했다."
+    },
+    {
+      "no": 18,
+      "material_id": "T6",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T6의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "「too + 형용사 + to부정사」 구문이므로 to remembering이 아니라 to remember로 써야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 19,
+      "material_id": "P3",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "다음 우리말과 같도록 괄호 안의 말을 모두 바르게 배열할 때, 다섯 번째로 오는 것은?\n\n그 그림은 너무 작아서 우리는 그것을 거의 볼 수 없었다.\n(so / we / that / small / the painting / hardly / see / was / could / it)",
+      "options": [
+        "so",
+        "small",
+        "that",
+        "we",
+        "could"
+      ],
+      "answer": 3,
+      "why_ko": "The painting(1) was(2) so(3) small(4) that(5) we(6) could(7) hardly(8) see(9) it(10). 다섯 번째는 that이다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    }
+  ],
+  "essays": [
+    {
+      "no": 20,
+      "material_id": "T1",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록, 주어진 단어를 모두 사용하여 완전한 한 문장으로 쓰시오. (필요하면 단어의 형태를 바꿀 것 · 단어 수 제한 없음)\n\n나는 그 소녀가 무대 위에서 춤추고 있는 것을 보았다.",
+      "given_words": [
+        "see",
+        "the girl",
+        "dance",
+        "on the stage"
+      ],
+      "word_limit": "제한 없음",
+      "target_grammar": "PERCEPTION_VERB_OC (지각동사 + 목적격보어)",
+      "answer_en": "I saw the girl dancing on the stage.",
+      "why_ko": "지각동사 see의 과거형 saw를 쓰고, 목적격보어로 현재분사 dancing(또는 원형부정사 dance)을 써야 한다."
+    },
+    {
+      "no": 21,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "P1의 상황에 맞게, 소미가 Liam에게 길을 안내하는 말을 주어진 단어를 모두 사용하여 쓰시오. (알맞은 전치사를 반드시 넣을 것 · 9단어 이하)",
+      "given_words": [
+        "take",
+        "line 3",
+        "get off",
+        "Sebit Station"
+      ],
+      "word_limit": "9단어 이하",
+      "target_grammar": "get off + at + 역 이름 (전치사)",
+      "answer_en": "Take line 3 and get off at Sebit Station.",
+      "why_ko": "'~역에서 내리다'는 get off at ~ Station으로 전치사 at을 쓴다. 총 9단어로 조건을 만족한다."
+    },
+    {
+      "no": 22,
+      "material_id": "T1",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록, 주어진 단어를 모두 사용하여 8단어 이하로 쓰시오. (필요하면 형태를 바꿀 것)\n\n그 음악은 너무 아름다워서 나는 울었다.",
+      "given_words": [
+        "so",
+        "beautiful",
+        "that",
+        "cry"
+      ],
+      "word_limit": "8단어 이하",
+      "target_grammar": "so ~ that ... (너무 ~해서 …하다)",
+      "answer_en": "The music was so beautiful that I cried.",
+      "why_ko": "「so + 형용사 + that + 주어 + 동사」 구문이며, cry는 과거형 cried로 바꾸어 8단어로 완성한다."
+    },
+    {
+      "no": 23,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "P3을 읽고, Banksy가 초록색 나무를 어떻게 만들었는지 본문에 있는 단어만 사용하여 네 단어로 쓰시오.",
+      "given_words": [],
+      "word_limit": "네 단어",
+      "target_grammar": "by + 동명사 (방법을 나타내는 전치사구)",
+      "answer_en": "by spraying green paint",
+      "why_ko": "본문의 'he created a green tree by spraying green paint on a wall'에서 방법에 해당하는 네 단어는 by spraying green paint이다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [
+      "자료 P1 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P2 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P3 의 줄바꿈이 달라 원본으로 되돌림"
+    ],
+    "warnings": [
+      "서술형 20번 필수 단어가 답에 안 보임 ['see'] — 굴절형일 수 있으니 눈으로 확인",
+      "서술형 22번 필수 단어가 답에 안 보임 ['cry'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 19,
+    "n_essays": 4,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 2285,
+    "output": 20491,
+    "usd": 0.525
+  }
+}

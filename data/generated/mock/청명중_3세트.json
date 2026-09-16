@@ -1,0 +1,525 @@
+{
+  "school": "청명중",
+  "set_no": 3,
+  "spec": {
+    "students": 1,
+    "exam_date": "2026-09-30",
+    "priority": "학생 1명이라 마지막. 다만 단문 나열 대비가 꼭 필요",
+    "total_points": 100,
+    "selective": 25,
+    "essay": 0,
+    "grammar_vessel": "단문 나열형 (문장 5개 나열)",
+    "vessel_note": "2026-1 문항 9·15·24·25 = 20점/100점. 우리가 반려했던 형식이다",
+    "signature": [
+      "**단문 나열형이 20점**이다. 네 학교 중 압도적으로 많다",
+      "설명문 + 대화문을 연결해 한 문항군으로 (문항 19~21)",
+      "본문 어휘를 창작 지문에 심음 (문항 18)"
+    ],
+    "vocab_items": 3,
+    "vocab_points": 9,
+    "form_choice": 1,
+    "standalone": 4,
+    "standalone_points": 20,
+    "external_passages": []
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 대화 ⑦⑧⑨",
+      "text": "B: Somi, I need help. What’s the best way to get to Sebit Park from here?\nG: Sebit Park? Well, you can get there by bus or by subway, but the subway is better.\nB: OK. Which line should I take?\nG: Take line 3, and get off at Sebit Station.\nB: Line 3 and get off at Sebit Station. How long will it take?\nG: It’ll take about 40 minutes.\nB: Is it that far?\nG: Yes. Anyway, why are you going to Sebit Park, Liam?\nB: Oh, there is an art fair this Saturday. You can come with me if you want.\nG: Really? I’m free this Saturday. Let’s go together.\nB: Perfect. Let’s meet here at 10.\nA: How can I get to the hospital?\nB: You can get there by bus.\nA: OK. How long will it take?\nB: It’ll take about 25 minutes.\nA: Excuse me, how can I get to the Brooklyn Bridge from SoHo?\nB: You can get there by subway.\nA: OK. How long will it take by subway?\nB: About 16 minutes."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ⑦⑧⑨",
+      "text": "B: What kinds of movies do you like?\nG: I like sci-fi movies.\nB: Me, too. Can you recommend a good sci-fi movie for me?\nG: Try Travel to the Future. It’s really good.\nA: Can you recommend a restaurant for me?\nB: How about Morning in Venice?\nA: What kind of food do they have?\nB: They have Italian food. I strongly recommend their cheese pizza. It’s really good.\nA: Dr. Schofield, I hear you have a Korean name. Can you tell me about it?\nB: It’s Seok Hopil. I love it because it sounds similar to my English name. Also, it has a good meaning.\nA: I’d like to know why you helped the Korean independence movement.\nB: Well, I believe every country has the right to be independent.\nA: What did you do after you returned to Korea in 1958?\nB: I worked hard to help Koreans, especially poor students."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 본문",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 (본문 어휘 활용)",
+      "text": "Every Saturday, Mina walks around her town with a small notebook. In it she writes down the street artworks (that) she finds on walls, doors, and even on the ground. Modern street art comes in many different forms, and Mina thinks it makes her gray town colorful and lively. Her favorite piece is a tiny painting of a cat on a piece of gum that someone dropped near the bus stop. Next to the cat the artist left a short message: \"Look down, and you will find a friend.\" For a long time Mina walked past it every day without noticing it. Now she believes that ______________________. Small things can give great pleasure to people who take the time to look closely."
+    },
+    {
+      "id": "T2",
+      "kind": "standalone_set",
+      "title": "단문 나열형 (1)",
+      "text": "① The book that I borrowed from the library was really interesting.\n② This is the boy whom I met at the art fair last Saturday.\n③ The painting which she talked about it is by Banksy.\n④ Muswell Hill is the place which we visited yesterday.\n⑤ The man that you saw on the street is a famous artist."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "단문 나열형 (2)",
+      "text": "① My grandfather used to ride a bike to work every morning.\n② She is used to speak in front of many people.\n③ This old box is used to keep family photos.\n④ There used to be a small bakery on the corner.\n⑤ He didn't use to eat vegetables, but now he loves them."
+    },
+    {
+      "id": "T4",
+      "kind": "standalone_set",
+      "title": "단문 나열형 (3)",
+      "text": "① I saw her cross the street with her little dog.\n② We heard someone knocking on the door.\n③ She felt something touch her shoulder.\n④ I watched the children to play in the park.\n⑤ He listened to the rain falling on the roof."
+    },
+    {
+      "id": "T5",
+      "kind": "standalone_set",
+      "title": "단문 나열형 (4)",
+      "text": "① The gum painting was so small that I almost missed it.\n② It was so a windy day that the walking tour was canceled.\n③ The room was warm enough for the baby to sleep in.\n④ He spoke too quietly for us to hear him.\n⑤ The park was so crowded that we could not find a bench."
+    },
+    {
+      "id": "T6",
+      "kind": "dialogue_set",
+      "title": "설명문 + 대화 (문항 19~21)",
+      "text": "[A] The Ihwa Mural Village in Seoul is one of the most popular places for street art lovers. About fifteen years ago, the small houses on the hill used to look old and gray. Then artists painted flowers, fish, and big angel wings on the walls, and the village soon became colorful and lively. The wings are so popular that visitors often wait in line to take a picture in front of them. There is one thing you should remember, though. Many people still live in the village, so it asks visitors to keep their voices down.\n\n[B]\nA: I want to visit the Ihwa Mural Village this Sunday. How can I get there?\nB: You can get there by subway. Take line 4 and get off at Hansung Univ. Station.\nA: OK. ______________________\nB: It'll take about thirty minutes from here.\nA: Great. Can you recommend a good spot in the village?\nB: Try the angel wings. Everyone takes a picture there.\nA: Thanks! But I heard that people live there. Is it okay to visit?\nB: Sure. Just don't be too loud."
+    },
+    {
+      "id": "T7",
+      "kind": "standalone_set",
+      "title": "배열 자료",
+      "text": "〈우리말〉 그 그림은 너무 작아서 나는 그것을 거의 볼 수 없었다.\n〈낱말〉 the painting / was / so / small / that / I / could / hardly / see / it"
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "어형 고르기 자료",
+      "text": "Last summer, my family (A)[used to visit / visited] a small fishing town by the sea. On the hill there (B)[used to be / was used to be] an old lighthouse, and its light was (C)[so / such] bright that ships could see it from miles away. The old keeper (that) we met there told us many stories about the sea."
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "쓰임이 다른 것 찾기 자료",
+      "text": "① The artwork that we saw yesterday was amazing.\n② This is the short message that he left on the wall.\n③ I think that street art makes cities lively.\n④ The gum paintings that Wilson makes are very small.\n⑤ Do you know the artist that Somi likes best?"
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P1의 첫 번째 대화의 내용과 일치하는 것은?",
+      "options": [
+        "Liam wants to go to Sebit Park by taxi.",
+        "Somi tells Liam to take line 3 and get off at Sebit Station.",
+        "It takes about 25 minutes to get to Sebit Park.",
+        "Somi is busy this Saturday, so she cannot go.",
+        "They will meet in front of Sebit Park at 10."
+      ],
+      "answer": 2,
+      "why_ko": "Somi는 3호선을 타고 Sebit Station에서 내리라고 했다. 소요 시간은 약 40분이고, Somi는 토요일에 한가하며, 만나는 장소는 지금 있는 곳(here)이다."
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "자료 P1에서 Liam이 \"Is it that far?\"라고 말한 의도로 가장 알맞은 것은?",
+      "options": [
+        "걸리는 시간이 예상보다 길다고 느끼고 있다.",
+        "공원이 생각보다 가까워서 안심하고 있다.",
+        "버스가 지하철보다 더 빠르다고 주장하고 있다.",
+        "미술 박람회가 취소되었다고 걱정하고 있다.",
+        "Somi가 길을 잘못 알려 주었다고 항의하고 있다."
+      ],
+      "answer": 1,
+      "why_ko": "약 40분이라는 대답을 듣고 '그렇게 멀어?'라고 되묻는 말이므로, 소요 시간이 생각보다 길다고 느끼는 반응이다."
+    },
+    {
+      "no": 3,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P1의 세 대화 전체에서 언급되지 않은 것은?",
+      "options": [
+        "세빛공원까지 갈 수 있는 교통수단",
+        "세빛공원에 가기 위해 내려야 할 역",
+        "병원까지 버스로 걸리는 시간",
+        "SoHo에서 Brooklyn Bridge까지 지하철로 걸리는 시간",
+        "미술 박람회의 입장료"
+      ],
+      "answer": 5,
+      "why_ko": "미술 박람회가 토요일에 열린다는 사실만 나오고 입장료는 어디에도 언급되지 않았다."
+    },
+    {
+      "no": 4,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P2의 내용과 일치하는 것은?",
+      "options": [
+        "The girl likes action movies the most.",
+        "The boy asks the girl to recommend a good sci-fi movie.",
+        "Morning in Venice is a Korean restaurant.",
+        "Dr. Schofield's Korean name has no special meaning.",
+        "Dr. Schofield returned to Korea in 1948."
+      ],
+      "answer": 2,
+      "why_ko": "소년은 \"Can you recommend a good sci-fi movie for me?\"라고 부탁했다. 소녀는 공상과학 영화를 좋아하고, 식당은 이탈리아 음식점이며, 한국 이름에는 좋은 뜻이 있고, 귀국 연도는 1958년이다."
+    },
+    {
+      "no": 5,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P2의 Dr. Schofield에 관한 내용으로 일치하지 않는 것은?",
+      "options": [
+        "그는 한국 이름을 가지고 있다.",
+        "그의 한국 이름은 영어 이름과 소리가 비슷하다.",
+        "그는 모든 나라가 독립할 권리가 있다고 믿는다.",
+        "그는 1958년에 한국으로 돌아왔다.",
+        "한국에 돌아온 뒤 그는 주로 부유한 사업가들을 도왔다."
+      ],
+      "answer": 5,
+      "why_ko": "그는 한국인들, 특히 가난한 학생들을 돕기 위해 열심히 일했다고 말했다."
+    },
+    {
+      "no": 6,
+      "material_id": "P2",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "자료 P2에서 소녀가 \"Try Travel to the Future.\"라고 말한 의미로 가장 알맞은 것은?",
+      "options": [
+        "영화 제목을 다른 것으로 바꾸라고 조언한다.",
+        "영화 한 편을 추천해 준다.",
+        "미래로 여행을 가 보자고 제안한다.",
+        "영화 관람을 다음으로 미루라고 부탁한다.",
+        "그 영화가 재미없었다고 불평한다."
+      ],
+      "answer": 2,
+      "why_ko": "추천을 부탁받은 뒤 한 말로, Try ~ 는 '~을 한번 해 봐(권유·추천)'의 뜻이다."
+    },
+    {
+      "no": 7,
+      "material_id": "P3",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "자료 P3의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "Why Street Art Should Be Banned in Cities",
+        "A Walking Tour of London's Street Art",
+        "The History of British Painting Museums",
+        "How to Become a World-Famous Painter",
+        "Cleaning Up Chewing Gum on London Streets"
+      ],
+      "answer": 2,
+      "why_ko": "Shoreditch, Finsbury Park, Muswell Hill을 차례로 돌며 런던의 거리 예술 작품을 소개하는 투어 안내문이다."
+    },
+    {
+      "no": 8,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, 자료 P3에 쓰인 것은?\n\n a small piece of information that helps you find the answer to a question",
+      "options": [
+        "clue",
+        "form",
+        "figure",
+        "dot",
+        "line"
+      ],
+      "answer": 1,
+      "why_ko": "답을 찾도록 도와주는 작은 정보는 clue(단서)이다."
+    },
+    {
+      "no": 9,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "자료 T2의 문장 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "목적격 관계대명사 which가 이미 전치사 about의 목적어 역할을 하므로 뒤에 목적어 it을 다시 쓸 수 없다. (she talked about)",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 10,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P3의 내용과 일치하지 않는 것은?",
+      "options": [
+        "STIK은 사람의 몸을 선과 점만으로 그리는 것으로 유명하다.",
+        "Shoreditch에는 과거에 가난한 노동자들이 살았다.",
+        "Banksy는 잎이 없는 나무 뒤 벽에 초록색 페인트를 뿌려 초록 나무를 만들었다.",
+        "Banksy의 그림에서 나무 옆의 사람은 카메라를 들고 있다.",
+        "Ben Wilson은 사람들이 길에 버린 껌 위에 그림을 그린다."
+      ],
+      "answer": 4,
+      "why_ko": "나무 옆의 사람은 분무기(a sprayer)를 들고 있다."
+    },
+    {
+      "no": 11,
+      "material_id": "P3",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "자료 P3의 \"but they will give you a clue\"에서 they가 가리키는 것으로 알맞은 것은?",
+      "options": [
+        "the three figures of Shoreditch",
+        "the eyes of the three figures",
+        "STIK's paintings of human bodies",
+        "the past, present, and future",
+        "the social messages in Banksy's works"
+      ],
+      "answer": 2,
+      "why_ko": "바로 앞 문장에서 세 인물의 '눈'을 자세히 보라고 했고, 그 눈이 점(dots)일 뿐이지만 단서를 준다고 했다."
+    },
+    {
+      "no": 12,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P3에서, 많은 사람들이 생각하는 Banksy 그림의 메시지는?",
+      "options": [
+        "도시에는 더 많은 공원이 필요하다.",
+        "자연이 힘든 시기를 겪고 있으므로 더 잘 돌봐야 한다.",
+        "거리 예술은 반드시 허가를 받고 해야 한다.",
+        "나무를 심는 것은 예술가의 의무이다.",
+        "사회적 메시지는 그림으로 전하기 어렵다."
+      ],
+      "answer": 2,
+      "why_ko": "nature is having a hard time, he wants us to take better care of it 에서 알 수 있다."
+    },
+    {
+      "no": 13,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, 자료 P3에 쓰인 것은?\n\n very, very small in size",
+      "options": [
+        "hip",
+        "lively",
+        "tiny",
+        "leafless",
+        "personal"
+      ],
+      "answer": 3,
+      "why_ko": "매우 작은 것을 뜻하는 낱말은 tiny로, Wilson의 껌 그림을 묘사할 때 쓰였다."
+    },
+    {
+      "no": 14,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 P3에서 Muswell Hill에 대해 알 수 있는 것은?",
+      "options": [
+        "오늘 투어의 마지막 방문지이다.",
+        "런던에서 가장 힙한 지역이다.",
+        "Banksy의 대표작이 있는 곳이다.",
+        "거리 예술 작품이 전혀 없는 곳이다.",
+        "STIK의 세 인물 그림이 있는 곳이다."
+      ],
+      "answer": 1,
+      "why_ko": "The final stop of our tour today is Muswell Hill. 이라고 했다. 작품이 없는 것이 아니라 바닥의 작은 껌 그림이 있다."
+    },
+    {
+      "no": 15,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "자료 T3의 문장 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "be used to + 동사원형이 아니라 be used to + -ing(~하는 데 익숙하다)이므로 speaking으로 써야 한다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 16,
+      "material_id": "T8",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "자료 T8의 (A), (B), (C)에 들어갈 말로 알맞게 짝지어진 것은?",
+      "options": [
+        "visited – used to be – so",
+        "visited – was used to be – such",
+        "used to visit – used to be – so",
+        "visited – used to be – such",
+        "used to visit – was used to be – so"
+      ],
+      "answer": 1,
+      "why_ko": "(A) Last summer라는 특정 과거 시점이므로 visited. (B) '예전에 ~이 있었다'는 there used to be. (C) 뒤에 형용사 bright가 오므로 so ~ that."
+    },
+    {
+      "no": 17,
+      "material_id": "T1",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "자료 T1의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "art must be big to be powerful",
+        "the smallest artworks can carry the biggest messages",
+        "street art should be kept inside museums",
+        "artists should not paint on the ground",
+        "walking is the best way to stay healthy"
+      ],
+      "answer": 2,
+      "why_ko": "빈칸 뒤에서 작은 것도 큰 즐거움을 준다고 했고, 미나가 가장 좋아하는 것이 껌 위의 아주 작은 그림이므로 ②가 알맞다."
+    },
+    {
+      "no": 18,
+      "material_id": "T1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, 자료 T1에 쓰인 것은?\n\n a feeling of happiness or enjoyment",
+      "options": [
+        "form",
+        "clue",
+        "pleasure",
+        "message",
+        "opinion"
+      ],
+      "answer": 3,
+      "why_ko": "행복하거나 즐거운 느낌은 pleasure이며, T1의 마지막 문장에 쓰였다."
+    },
+    {
+      "no": 19,
+      "material_id": "T6",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "자료 T6의 글 [A]의 요지로 가장 알맞은 것은?",
+      "options": [
+        "벽화가 그려진 뒤 마을이 밝고 활기찬 명소가 되었지만 주민을 배려해야 한다.",
+        "마을 주민들이 예술가들에게 벽화를 그리지 말라고 요구하고 있다.",
+        "서울의 모든 언덕 마을을 관광지로 개발해야 한다.",
+        "천사 날개 그림은 사진 촬영이 금지되어 있다.",
+        "벽화 마을은 십오 년 전부터 관광객이 줄어들고 있다."
+      ],
+      "answer": 1,
+      "why_ko": "[A]는 회색빛이던 마을이 벽화로 다채롭고 활기차게 바뀌었고, 주민이 살고 있으니 목소리를 낮춰 달라는 부탁으로 끝난다."
+    },
+    {
+      "no": 20,
+      "material_id": "T6",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "자료 T6의 [A]와 [B]의 내용과 일치하지 않는 것은?",
+      "options": [
+        "십오 년쯤 전에 언덕 위 집들은 낡고 회색빛이었다.",
+        "천사 날개 앞에서 사진을 찍으려고 줄을 서는 방문객이 많다.",
+        "이화 벽화 마을에는 지금도 사람들이 살고 있다.",
+        "A는 4호선을 타고 한성대입구역에서 내리면 된다.",
+        "A가 있는 곳에서 마을까지는 약 열다섯 분이 걸린다."
+      ],
+      "answer": 5,
+      "why_ko": "B는 \"It'll take about thirty minutes from here.\"라고 했으므로 약 30분이다."
+    },
+    {
+      "no": 21,
+      "material_id": "T6",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "자료 T6의 [B]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "How can I get there?",
+        "How long will it take?",
+        "Which line should I take?",
+        "What kind of food do they have?",
+        "Can you recommend a good movie?"
+      ],
+      "answer": 2,
+      "why_ko": "빈칸 뒤에서 '약 30분 걸린다'고 답하므로 소요 시간을 묻는 말이 알맞다. 교통수단과 호선은 이미 앞에서 안내되었다."
+    },
+    {
+      "no": 22,
+      "material_id": "T7",
+      "type": "T-WORD-ORDER",
+      "points": 3,
+      "stem_ko": "자료 T7의 우리말과 같은 뜻이 되도록 낱말을 바르게 배열한 것은?",
+      "options": [
+        "The painting was so small that I could hardly see it.",
+        "The painting was too small that I could hardly see it.",
+        "The painting was so small that I could hardly see.",
+        "The painting was small so that I could hardly see it.",
+        "The painting so was small that I could hardly see it."
+      ],
+      "answer": 1,
+      "why_ko": "'너무 ~해서 …하다'는 so + 형용사 + that + 주어 + 동사 형태이고, see의 목적어 it도 반드시 써야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 23,
+      "material_id": "T9",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 4,
+      "stem_ko": "자료 T9의 밑줄 친 that의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "③의 that은 think의 목적어가 되는 명사절을 이끄는 접속사이고, 나머지는 모두 목적격 관계대명사이다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 24,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "자료 T4의 문장 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "지각동사 watch는 목적격보어로 동사원형이나 현재분사를 쓰므로 to play가 아니라 play 또는 playing이어야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 25,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "자료 T5의 문장 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "뒤에 a windy day라는 「a + 형용사 + 명사」가 오므로 so가 아니라 such a windy day that ~ 으로 써야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    }
+  ],
+  "essays": [],
+  "diagnostics": {
+    "problems": [
+      "자료 P1 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P2 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P3 의 줄바꿈이 달라 원본으로 되돌림"
+    ],
+    "warnings": [],
+    "n_items": 25,
+    "n_essays": 0,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 1996,
+    "output": 18874,
+    "usd": 0.4831
+  }
+}

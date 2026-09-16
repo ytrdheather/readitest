@@ -1,0 +1,519 @@
+{
+  "school": "영덕중",
+  "set_no": 2,
+  "spec": {
+    "students": 8,
+    "exam_date": "2026-10 둘째 주",
+    "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+    "total_points": 100,
+    "selective": 23,
+    "essay": 0,
+    "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+    "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+    "signature": [
+      "어순 배열 2문항 10점 (T-WORD-ORDER · 문항 4·20)",
+      "본문을 캠페인 포스터·광고 문구로 형식 전환 (문항 17·18)",
+      "본문 어휘를 창작 지문에 심음 (문항 9 My Money Plan)"
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "form_choice": 1,
+    "standalone": 2,
+    "standalone_points": 8,
+    "external_passages": [
+      "Yu Gwansun",
+      "Homer B. Hulbert"
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L6 본문 (Dr. Schofield)",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ④⑤⑥",
+      "text": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science.\nG: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!\nB: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 Read More",
+      "text": "I’ll explain how you can get to the City Library from the school. The best way to get there is to take the bus. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.\nThe painting I want to write about is The Red Room by Henri Matisse. This painting shows a red room with a window. In the room, there are two chairs and a big table. We also see a woman who is setting the table. I like the red color of this painting. I think that the room feels warm because of it.\nPeople take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. People write their dreams and goals on a big wall. They share their stories and make a special artwork together.\nIn the past, my grandparents used to live in the country. Now they live in a city. In the past, they used to work on the farm. Now they do not work, and they enjoy traveling."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 Yu Gwansun",
+      "text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "외부지문 Homer B. Hulbert",
+      "text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries."
+    },
+    {
+      "id": "T1",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5] (밑줄 ①~⑤)",
+      "text": "[1] A: You look really tired today.\nB: Yes. Last night the movie was ①[so exciting that] I watched it twice.\n\n[2] A: Do you still play the violin?\nB: No. I ②[used to played] the violin, but now I play the guitar.\n\n[3] A: Did anything strange happen in the park?\nB: I ③[heard someone calling] my name, but nobody was there.\n\n[4] A: Is this the book you talked about?\nB: Yes. This is the book ④[which] I borrowed from the library.\n\n[5] A: Why didn't you buy the jacket?\nB: It was ⑤[too expensive for me to buy]."
+    },
+    {
+      "id": "T2",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5] (밑줄 ①~⑤)",
+      "text": "[1] A: Can you recommend a magazine for me?\nB: Sure. This is the magazine ①[that everyone likes it].\n\n[2] A: Did you see Somi at the school festival?\nB: Yes. I ②[saw her dancing] on the stage.\n\n[3] A: Why didn't you answer my call?\nB: The music was ③[so loud that] I couldn't hear the phone.\n\n[4] A: There ④[used to be] a small bakery here, right?\nB: Yes, but it closed last year.\n\n[5] A: How was the concert?\nB: It was ⑤[such a great concert that] I want to go again."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "단문 ①~⑤ (A)",
+      "text": "① The soup was so hot that I couldn't eat it.\n② He used to be afraid of dogs, but now he loves them.\n③ She was so tired that she fell asleep on the bus.\n④ The box was too heavy that I couldn't lift it.\n⑤ The room was big enough for ten people to sleep in."
+    },
+    {
+      "id": "T4",
+      "kind": "standalone_set",
+      "title": "단문 ①~⑤ (B)",
+      "text": "① The song which I listened to yesterday was really beautiful.\n② I saw a boy to cross the street with his dog.\n③ We watched the children playing soccer in the park.\n④ The man whom she talked about is my uncle.\n⑤ He felt something touch his shoulder."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "A Doctor with a Korean Name (밑줄 ①~⑤)",
+      "text": "Seok Hopil is the Korean name of a Canadian doctor ①[whom Koreans still remember] today. He came here to teach medicine, and he practiced Korean every evening with his students. In fact, he studied ②[so hardly that] he could teach his classes in Korean in only a few years. On the first day of March in 1919, he ③[heard a huge crowd shouting] for freedom near Tapgol Park. The pictures ④[which he took] on that day soon traveled to foreign newspapers. There ⑤[used to be] very few foreigners who told the world the truth about Korea, so his articles were precious."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "My Hero Report (수업 과제물)",
+      "text": "My Hero Report — Class 2-3, Kim Jimin\n\nLast week our class learned about people who fought for Korean (A)__________. For my report I chose a foreign doctor. He was under the watchful eye of the police, but he still wrote an (B)__________ about the terrible situation in Korea and sent it to a newspaper in his own country. He believed that every country has the (C)__________ to be free. Years later he came back at the invitation of the Korean government and never left again. I used to think that only Koreans worked for our country, but the story of this doctor was so moving that I changed my mind."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "전시 캠페인 포스터 (본문 → 포스터 형식 전환)",
+      "text": "★ SEOK HOPIL PHOTO EXHIBITION ★\nOne Camera, One Truth\n\nMarch 1, 1919. A foreign doctor hid inside a building and watched a crowd grow bigger and bigger outside. He did not shout. He pressed the shutter.\n\n· 46 photographs and 3 newspaper articles that carried Korea's voice to the world\n· Free guided talk: 'A Canadian Who Chose a Korean Name'\n· Place: Tapgol Park Culture Center\n· Date: March 1 – March 31 (closed on Mondays)\n\nHe came to Korea to teach medicine, and he stayed to tell the truth.\n______________________________\nCome and see the day he made the world look at Korea."
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "어형 고르기용 단락 (A)(B)(C)",
+      "text": "Yu Gwansun was only a teenager, but she was (A)[so / such] brave that she stood in front of the crowd. The people around her heard her (B)[shout / to shout] for independence again and again. The hope (C)[which / which it] she gave her neighbors never died, even in prison."
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "so의 쓰임 ①~⑤",
+      "text": "① He studied so hard that he could teach in Korean.\n② The box was so heavy that I couldn't move it.\n③ He wanted to teach in Korean, so he began to learn it right away.\n④ There were so many people there that I felt surprised.\n⑤ She was so kind that everyone around her liked her."
+    },
+    {
+      "id": "T10",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 (빈칸)",
+      "text": "A: I have to give a speech about a foreign friend of Korea. Can you recommend someone for me?\nB: What about Homer B. Hulbert? He praised Hangeul and wrote about Korea in foreign newspapers.\nA: __________________________\nB: You can find them in the school library. There used to be only one book about him, but now there are five.\nA: Great. Thank you!"
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로 알맞은 것은? (P1의 본문 어휘)\n\nthe state of being free and not controlled by another country",
+      "options": [
+        "invitation",
+        "movement",
+        "independence",
+        "situation",
+        "government"
+      ],
+      "answer": 3,
+      "why_ko": "다른 나라의 지배를 받지 않고 자유로운 상태는 independence(독립)이다. invitation(초청), movement(운동), situation(상황), government(정부)는 풀이와 맞지 않는다."
+    },
+    {
+      "no": 2,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T1의 대화 [1]~[5] 중 밑줄 친 ①~⑤ 부분이 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "used to 뒤에는 동사원형이 오므로 used to played가 아니라 used to play가 되어야 한다. ①은 so ~ that, ③은 지각동사+목적격보어(-ing), ④는 목적격 관계대명사, ⑤는 too ~ to 구문으로 모두 올바르다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 3,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T3의 ①~⑤ 중 어법상 어색한 문장은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "too는 that절과 함께 쓰이지 않는다. so heavy that I couldn't lift it 또는 too heavy for me to lift로 써야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 4,
+      "material_id": "T1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "우리말과 뜻이 같도록 주어진 단어를 바르게 배열한 것은?\n\n나는 어제 누군가가 내 이름을 부르는 소리를 들었다.\n(heard / someone / calling / I / my name / yesterday)",
+      "options": [
+        "I heard someone called my name yesterday.",
+        "I heard someone to call my name yesterday.",
+        "I heard someone calling my name yesterday.",
+        "I heard calling someone my name yesterday.",
+        "I heard my name someone calling yesterday."
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 hear는 목적격보어로 동사원형이나 현재분사를 쓴다. 진행 중인 동작을 나타내므로 hear+someone+calling이 알맞다. to부정사(②)나 어순이 뒤바뀐 ④⑤는 틀리다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 5,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 내용과 일치하지 않는 것은?",
+      "options": [
+        "He liked his Korean name because it sounded similar to his real name and had a good meaning.",
+        "He first came to Korea in 1916 to teach medicine.",
+        "He learned Korean because he wanted to teach his students in Korean.",
+        "He left Korea in 1920 because the Korean government asked him to leave.",
+        "He died in April 1970 and was buried in Seoul National Cemetery."
+      ],
+      "answer": 4,
+      "why_ko": "P1에서 그는 일본 경찰의 감시를 받고 있었기 때문에 1920년에 캐나다로 돌아가야 했다. 한국 정부는 오히려 1958년에 그를 초청했다."
+    },
+    {
+      "no": 6,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T2의 대화 [1]~[5] 중 밑줄 친 ①~⑤ 부분이 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 1,
+      "why_ko": "목적격 관계대명사 that이 이미 목적어 역할을 하므로 뒤에 목적어 it을 다시 쓸 수 없다. that everyone likes로 써야 한다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 7,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1에서 Dr. Schofield가 말한 this important event가 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "캐나다 의사가 의학을 가르치러 한국에 처음 온 일",
+        "1919년 3월 1일에 사람들이 한국의 독립을 위해 모인 일",
+        "Dr. Schofield가 한국어를 배우기 시작한 일",
+        "한국 정부가 Dr. Schofield를 한국으로 초청한 일",
+        "Dr. Schofield가 서울 국립묘지에 안장된 일"
+      ],
+      "answer": 2,
+      "why_ko": "건물에 숨어 사진을 찍으면서 한 말로, 3월 1일에 한국의 독립을 위해 많은 사람이 모인 사건을 가리킨다."
+    },
+    {
+      "no": 8,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T4의 ①~⑤ 중 어법상 어색한 문장은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "지각동사 see는 목적격보어로 to부정사를 쓰지 않는다. saw a boy cross 또는 saw a boy crossing으로 고쳐야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 9,
+      "material_id": "T6",
+      "type": "T-BLANK",
+      "points": 5,
+      "stem_ko": "T6의 빈칸 (A), (B), (C)에 들어갈 말이 순서대로 바르게 짝지어진 것은?",
+      "options": [
+        "movement – article – right",
+        "independence – essay – right",
+        "independence – article – courage",
+        "independence – article – right",
+        "freedom – invitation – right"
+      ],
+      "answer": 4,
+      "why_ko": "(A) 한국의 '독립'을 위해 싸운 사람들 → independence, (B) 신문에 보낸 '기사' → article, (C) 자유로울 '권리' → right. have the right to ~ 구문이다."
+    },
+    {
+      "no": 10,
+      "material_id": "T8",
+      "type": "T-FORM-CHOICE",
+      "points": 5,
+      "stem_ko": "T8의 (A), (B), (C) 괄호 안에서 어법상 알맞은 것끼리 짝지어진 것은?",
+      "options": [
+        "such – shout – which",
+        "so – shout – which",
+        "so – to shout – which it",
+        "such – to shout – which",
+        "so – shout – which it"
+      ],
+      "answer": 2,
+      "why_ko": "(A) 뒤에 형용사 brave가 오므로 so ~ that, (B) 지각동사 heard의 목적격보어는 동사원형 shout, (C) 목적격 관계대명사 뒤에는 목적어 it을 다시 쓰지 않는다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH / PERCEPTION_VERB_OC / REL_OBJECT"
+    },
+    {
+      "no": 11,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 대화 내용과 일치하는 것은?",
+      "options": [
+        "Somi decided to write her essay about Dr. Schweitzer.",
+        "Liam recommended Audrey Hepburn to Somi.",
+        "Somi is looking for books about famous scientists.",
+        "Amy likes Indian food better than Italian food.",
+        "The boy recommended a cooking magazine to the girl."
+      ],
+      "answer": 2,
+      "why_ko": "Liam은 Somi에게 Audrey Hepburn을 추천했고, Somi는 그녀에 대해 쓰기로 했다. 그녀는 남을 도운 유명한 사람들에 관한 책을 찾고 있으며, Amy는 이탈리아 음식을 좋아한다."
+    },
+    {
+      "no": 12,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T5의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "'매우 열심히'는 부사 hard이므로 so hard that이 되어야 한다. hardly는 '거의 ~않다'라는 뜻이어서 문맥에 맞지 않는다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 13,
+      "material_id": "T10",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T10의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "Why did you study Hangeul so hard?",
+        "What kind of food do you like?",
+        "Where can I find books about him?",
+        "How long does it take to get there by bus?",
+        "Who took these pictures of him?"
+      ],
+      "answer": 3,
+      "why_ko": "빈칸 뒤에서 '학교 도서관에서 찾을 수 있다'며 책의 수를 말하므로, 책을 어디서 찾을 수 있는지 묻는 말이 알맞다."
+    },
+    {
+      "no": 14,
+      "material_id": "T9",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 5,
+      "stem_ko": "T9의 ①~⑤ 중 밑줄 친 so의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "③의 so는 '그래서'라는 뜻의 접속사이고, 나머지는 모두 'so ~ that ...(너무 ~해서 …하다)' 구문의 so이다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 15,
+      "material_id": "P4",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P4의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "Courage Is Not About Age",
+        "A Teenager Who Became a Great Painter",
+        "How to Stay Healthy in Prison",
+        "The History of Korean Newspapers",
+        "Foreign Doctors Who Helped Korea"
+      ],
+      "answer": 1,
+      "why_ko": "P4는 어린 사람도 큰 용기와 깊은 사랑을 보여 줄 수 있다는 점을 강조하므로 나이와 상관없는 용기가 제목으로 알맞다."
+    },
+    {
+      "no": 16,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P4의 내용과 일치하지 않는 것은?",
+      "options": [
+        "She was a teenager when Korea was under Japan's control.",
+        "On March 1 in 1919, she joined others to fight against Japan's control.",
+        "She told her friends and neighbors not to give up hope.",
+        "She was caught and finally gave up hope in prison.",
+        "Her love was full of kindness and care rather than force."
+      ],
+      "answer": 4,
+      "why_ko": "P4에서 그녀는 감옥에서 어려운 시간을 보냈지만 강인하고 희망을 잃지 않았으며 주변 사람들에게 계속 영감을 주었다."
+    },
+    {
+      "no": 17,
+      "material_id": "T7",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T7의 포스터에서 밑줄 친 빈칸에 들어갈 문구로 가장 알맞은 것은?",
+      "options": [
+        "Learn how to become a doctor in Canada.",
+        "His pictures still speak for us.",
+        "Join our free Korean cooking class today.",
+        "Buy your own camera at a special price.",
+        "Discover the best travel spots in Seoul."
+      ],
+      "answer": 2,
+      "why_ko": "사진 전시회를 알리는 포스터의 흐름상 '그의 사진이 여전히 우리를 대신해 말한다'는 문구가 알맞다. 나머지는 전시 주제와 관련이 없다."
+    },
+    {
+      "no": 18,
+      "material_id": "T7",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T7의 포스터 내용과 일치하지 않는 것은?",
+      "options": [
+        "The exhibition shows photographs taken on March 1, 1919.",
+        "Visitors can listen to a free guided talk.",
+        "The exhibition is open in March but closed on Mondays.",
+        "The doctor first came to Korea to work as a newspaper reporter.",
+        "Newspaper articles are shown together with the photographs."
+      ],
+      "answer": 4,
+      "why_ko": "포스터는 그가 의학을 가르치러 한국에 왔다고 밝히고 있다. 기자로 일하러 왔다는 내용은 사실과 다르다."
+    },
+    {
+      "no": 19,
+      "material_id": "P5",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P5에서 Homer B. Hulbert에 관해 언급되지 않은 것은?",
+      "options": [
+        "한국에 처음 온 시기",
+        "한글에 대한 그의 평가",
+        "한국의 독립을 위해 외국 신문에 글을 쓴 일",
+        "그가 한국에서 가르친 학교의 학생 수",
+        "그가 세상을 떠난 장소와 해"
+      ],
+      "answer": 4,
+      "why_ko": "P5에는 그가 왕립 학교에서 가르쳤다는 사실만 나오고 학생 수는 언급되지 않았다."
+    },
+    {
+      "no": 20,
+      "material_id": "P1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "우리말과 뜻이 같도록 주어진 단어를 바르게 배열한 것은?\n\n그 영화는 너무 감동적이어서 나는 그것을 두 번 보았다.\n(so / the movie / that / was / moving / I watched it twice)",
+      "options": [
+        "The movie was such moving that I watched it twice.",
+        "The movie was too moving that I watched it twice.",
+        "The movie was so moving what I watched it twice.",
+        "The movie was so moving that I watched it twice.",
+        "The movie was moving so that I watched it twice."
+      ],
+      "answer": 4,
+      "why_ko": "「so+형용사+that+주어+동사」 구문이다. such는 명사구와 함께 쓰이고, too는 that절과 쓰이지 않으며, that 대신 what을 쓸 수 없다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 21,
+      "material_id": "P4",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로 알맞은 것은? (P4의 어휘)\n\nthe ability to do something dangerous or difficult without showing fear",
+      "options": [
+        "control",
+        "courage",
+        "challenge",
+        "respect",
+        "kindness"
+      ],
+      "answer": 2,
+      "why_ko": "두려움을 드러내지 않고 위험하거나 어려운 일을 할 수 있는 능력은 courage(용기)이다."
+    },
+    {
+      "no": 22,
+      "material_id": "P5",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P5의 요지로 가장 알맞은 것은?",
+      "options": [
+        "한글은 서양인들이 배우기에 매우 어려운 문자이다.",
+        "교육자는 정치 문제에 관여하지 않아야 한다.",
+        "진정한 우정과 사랑은 나라의 경계를 넘어설 수 있다.",
+        "외국어는 어릴 때 시작해야 잘 배울 수 있다.",
+        "신문 기사는 역사를 연구하는 유일한 자료이다."
+      ],
+      "answer": 3,
+      "why_ko": "P5의 마지막 문장에서 진정한 우정과 사랑은 국경을 넘어설 수 있다는 교훈을 제시한다."
+    },
+    {
+      "no": 23,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 내용과 일치하는 것은?",
+      "options": [
+        "학교에서 시립 도서관까지는 걸어가는 것이 가장 좋은 방법이다.",
+        "2번이나 5번 버스를 타면 약 10분이 걸린다.",
+        "The Red Room에는 의자 세 개와 작은 탁자가 있다.",
+        "사람들은 큰 벽에 자신의 얼굴 사진을 붙여 거대한 작품을 만든다.",
+        "조부모는 지금도 시골에서 농장 일을 하며 살고 있다."
+      ],
+      "answer": 2,
+      "why_ko": "P3에서 가장 좋은 방법은 버스를 타는 것이고 2번이나 5번 버스로 약 10분이 걸린다. 그림에는 의자 두 개와 큰 탁자가 있고, 얼굴 사진은 거리에 붙이며, 조부모는 지금 도시에 살며 일하지 않는다."
+    }
+  ],
+  "essays": [],
+  "diagnostics": {
+    "problems": [
+      "자료 P1 의 본문이 원본과 다름 — 모델이 고쳐 썼다",
+      "자료 P2 의 본문이 원본과 다름 — 모델이 고쳐 썼다",
+      "자료 P3 의 본문이 원본과 다름 — 모델이 고쳐 썼다",
+      "자료 P4 의 본문이 원본과 다름 — 모델이 고쳐 썼다",
+      "자료 P5 의 본문이 원본과 다름 — 모델이 고쳐 썼다"
+    ],
+    "warnings": [],
+    "n_items": 23,
+    "n_essays": 0,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 2690,
+    "output": 21272,
+    "usd": 0.5616
+  }
+}

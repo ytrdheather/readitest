@@ -1,0 +1,509 @@
+{
+  "school": "태장중",
+  "set_no": 2,
+  "spec": {
+    "students": 2,
+    "exam_date": "2026-10-01",
+    "priority": "서술형이 있어 준비 시간이 든다",
+    "total_points": 100,
+    "selective": 19,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "긴 외부지문",
+    "vessel_note": "2026-1 문항 11·15·18. 지문이 길고 밑줄이 여럿이다",
+    "signature": [
+      "서술형이 **단어 세트 + 단어 수 제한**이다 (어법 지정이 아니다)",
+      "지문 둘을 [A][B] 로 묶고 표로 대조 (문항 9~10)",
+      "본문을 에세이 형식으로 전환 (문항 14)"
+    ],
+    "essay_rule": "주어진 단어 전부 포함 + 단어 수 상한",
+    "essay_blueprint": [
+      {
+        "조건": "완전한 한 문장 · 시제 변형 · 주어진 단어 전부 포함",
+        "단어수": "제한 없음"
+      },
+      {
+        "조건": "지정 단어 포함",
+        "단어수": "9단어 이하"
+      },
+      {
+        "조건": "지정 단어 포함",
+        "단어수": "8단어 이하"
+      },
+      {
+        "조건": "본문 단어만",
+        "단어수": "네 단어"
+      }
+    ],
+    "vocab_items": 3,
+    "vocab_points": 12,
+    "form_choice": 1,
+    "standalone": 1,
+    "standalone_points": 4,
+    "external_passages": []
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L6 본문 (Dr. Schofield)",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ④⑤⑥",
+      "text": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science.\nG: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!\nB: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 Read More",
+      "text": "I’ll explain how you can get to the City Library from the school. The best way to get there is to take the bus. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.\nThe painting I want to write about is The Red Room by Henri Matisse. This painting shows a red room with a window. In the room, there are two chairs and a big table. We also see a woman who is setting the table. I like the red color of this painting. I think that the room feels warm because of it.\nPeople take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. People write their dreams and goals on a big wall. They share their stories and make a special artwork together.\nIn the past, my grandparents used to live in the country. Now they live in a city. In the past, they used to work on the farm. Now they do not work, and they enjoy traveling."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "외부지문 A · My Grandfather's Old Radio",
+      "text": "My grandfather has an old radio ①which he bought fifty years ago. When he was young, he ②used to listen to it every evening after dinner. Last winter the radio suddenly stopped working, so we took it to a small repair shop near the park. The man ③working there opened the radio and showed us the broken part. He worked on it for about twenty minutes without saying a word. A few minutes later, we heard music ④come out of the old speaker again. My grandfather was ⑤so happily that he could not say a word for a while. He told me that the radio was the first thing he ever bought with his own money. Now it sits on the table in his room, and he still turns it on every evening."
+    },
+    {
+      "id": "T2",
+      "kind": "teacher_paragraph",
+      "title": "[A] Mina · [B] Mr. Park",
+      "text": "[A] In the past, Mina used to live in a small town with her grandparents. She used to walk to school every morning, and she used to keep two rabbits in the yard. Now she lives in Busan with her parents, and she takes the subway to school. She does not have any pets now, but she goes swimming every weekend.\n\n[B] Mr. Park used to be a soccer player. He used to practice for six hours a day, and he used to eat five meals a day. Now he is a cooking teacher. He teaches students how to make healthy food, and he plays soccer only on Sundays."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "단문 나열형",
+      "text": "① The woman whom we met at the park was my new science teacher.\n② She used to be afraid of dogs, but now she loves them.\n③ I saw a boy to cross the street with his little brother.\n④ The soup was so hot that I couldn’t eat it right away.\n⑤ This is the song which my brother wrote for his band."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "본문을 에세이로 전환한 글 · My Hero, Seok Hopil",
+      "text": "My Hero: Seok Hopil\n\nFor my essay, I chose a foreign doctor (A)[which / whom] Koreans remember as Seok Hopil. He came to Korea from Canada in 1916, and he wanted to teach medicine in Korean. He studied (B)[so / such] hard that he could teach his students in Korean only a few years later. On March 1, 1919, he heard people (C)[shouting / to shout] for independence, and he took pictures of the event with his camera. He also wrote an article and sent it to foreign newspapers because he wanted the world to know the truth about Korea. The Japanese police watched him closely, so he had to leave Korea in 1920. However, he came back in 1958 and helped poor students for the rest of his life. He is a person ______."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "외부지문 B · The Old Market",
+      "text": "Last month our class visited an old market ①that my mother used to visit with my grandmother. The shop ②which we stopped at first sold handmade paper flowers. The owner was an old woman ③whom everyone in the market called \"Grandma Flower.\" She showed us how to fold colored paper, and she let us ④to try it ourselves. Our flowers were ⑤so beautiful that we bought three more of them for our classroom wall. On the way home, I saw some children running after a small dog in front of the market gate. It was a day I will never forget."
+    },
+    {
+      "id": "T6",
+      "kind": "standalone_set",
+      "title": "쓰임이 다른 것 찾기 (used to)",
+      "text": "① My father used to smoke, but he quit last year.\n② There used to be a big tree in front of our school.\n③ This machine is used to make ice cream in the shop.\n④ We used to play badminton after school every day.\n⑤ Sujin used to have long hair when she was ten years old."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "외부지문 C · Uncle Book",
+      "text": "When I was in elementary school, there ①used to be a small bookstore next to my house. The owner was a man ②who I called \"Uncle Book.\" Every Friday I went there and read comic books for hours, and he never told me to leave. He sometimes gave me a cup of warm tea. One rainy afternoon, I heard someone ③calling my name outside the store. It was my mother, and she had been looking for me for two hours. She was ④so angry that she took me home right away. That evening, however, she quietly gave me a comic book ⑤what I really wanted. I still keep it on the shelf above my desk."
+    },
+    {
+      "id": "T8",
+      "kind": "standalone_set",
+      "title": "배열 문제",
+      "text": "우리말: 내가 어제 도서관에서 빌린 그 책은 너무 어려워서 나는 그것을 이해할 수 없었다.\n[단어] the book / I / borrowed / from the library / yesterday / was / so / difficult / that / I / couldn’t / understand / it"
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P1에 쓰인 것을 고르시오.\n\nthe state of being free from the control of another country",
+      "options": [
+        "① movement",
+        "② independence",
+        "③ invitation",
+        "④ cemetery",
+        "⑤ medicine"
+      ],
+      "answer": 2,
+      "why_ko": "다른 나라의 지배로부터 자유로운 상태 = independence(독립). P1의 'the independence of Korea'에 쓰였다."
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P1에 쓰인 것을 고르시오.\n\nto put a dead body into the ground",
+      "options": [
+        "① gather",
+        "② hide",
+        "③ bury",
+        "④ shout",
+        "⑤ continue"
+      ],
+      "answer": 3,
+      "why_ko": "시신을 땅에 묻는 것 = bury. P1 마지막 문장의 'he was buried in Seoul National Cemetery'에 쓰였다."
+    },
+    {
+      "no": 3,
+      "material_id": "P2",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P2에 쓰인 것을 고르시오.\n\nto say that someone or something is good and worth trying or using",
+      "options": [
+        "① explain",
+        "② recommend",
+        "③ create",
+        "④ stick",
+        "⑤ share"
+      ],
+      "answer": 2,
+      "why_ko": "좋다고 말하며 권하는 것 = recommend. P2의 세 대화 모두 'Can you recommend ~ for me?'가 쓰였다."
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P1의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "① The History of Tapgol Park",
+        "② How to Learn Korean Quickly",
+        "③ A Foreign Doctor Who Fought for Korea’s Independence",
+        "④ The Beginning of Modern Medicine in Canada",
+        "⑤ Famous Photographers of the 20th Century"
+      ],
+      "answer": 3,
+      "why_ko": "P1은 한국의 독립을 도운 캐나다 의사 Schofield의 삶 전체를 다루므로 ③이 제목으로 알맞다. 탑골 공원, 한국어 학습, 사진술은 일부 내용일 뿐이다."
+    },
+    {
+      "no": 5,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "P1의 내용과 일치하지 않는 것은?",
+      "options": [
+        "① Dr. Schofield는 1916년에 의학을 가르치기 위해 처음 한국에 왔다.",
+        "② 그는 한국어로 가르치고 싶어서 곧바로 한국어를 배우기 시작했다.",
+        "③ 그는 3·1 운동 이후에는 한국에 관한 글을 더 이상 쓰지 않았다.",
+        "④ 그는 일본 경찰의 감시를 받아 1920년에 캐나다로 돌아가야 했다.",
+        "⑤ 그는 1958년에 한국 정부의 초청으로 돌아와 다시 떠나지 않았다."
+      ],
+      "answer": 3,
+      "why_ko": "P1에 3·1 운동 이후에도 싸움이 멈추지 않았고, 한국의 끔찍한 상황에 대해 외국 신문에 계속 글을 썼다고 나오므로 ③이 불일치이다."
+    },
+    {
+      "no": 6,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1에서 Dr. Schofield가 기사로 써서 외국 신문사에 보낸 the historic event가 가리키는 것은?",
+      "options": [
+        "① 1919년 3월 1일 한국인들의 독립 만세 운동",
+        "② Dr. Schofield가 1916년에 한국에 처음 온 일",
+        "③ 그가 서울 국립묘지에 안장된 일",
+        "④ 한국 정부가 그를 한국으로 초청한 일",
+        "⑤ 그가 한국어로 의학을 가르치기 시작한 일"
+      ],
+      "answer": 1,
+      "why_ko": "바로 앞 문장에서 1919년 3월 1일 탑골 공원의 독립 만세 운동을 사진으로 찍었다고 했으므로 the historic event는 3·1 운동을 가리킨다."
+    },
+    {
+      "no": 7,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 대화 내용과 일치하는 것은?",
+      "options": [
+        "① 남학생은 Somi에게 Dr. Schweitzer에 관한 책을 추천했다.",
+        "② Somi는 다른 사람을 도운 유명한 인물에 관한 책을 찾고 있다.",
+        "③ Amy는 자신이 인도 음식을 가장 좋아한다고 말했다.",
+        "④ Tom은 Amy에게 이탈리아 요리를 하나 추천해 주었다.",
+        "⑤ 여학생은 남학생에게 과학 잡지는 없다고 말했다."
+      ],
+      "answer": 2,
+      "why_ko": "Somi는 'books on famous people who helped others'를 찾는다고 말했다. ①은 Audrey Hepburn 추천, ③은 Amy가 이탈리아 음식, ④는 tandoori chicken(인도 요리), ⑤는 모든 종류의 잡지가 있다고 했으므로 틀렸다."
+    },
+    {
+      "no": 8,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3에 소개된 그림 The Red Room에 관한 설명으로 일치하지 않는 것은?",
+      "options": [
+        "① Henri Matisse의 작품이다.",
+        "② 창문이 있는 붉은 방을 보여 준다.",
+        "③ 방 안에는 의자 두 개와 큰 탁자가 있다.",
+        "④ 상을 차리고 있는 한 남자의 모습이 보인다.",
+        "⑤ 글쓴이는 붉은색 때문에 방이 따뜻하게 느껴진다고 생각한다."
+      ],
+      "answer": 4,
+      "why_ko": "P3에는 'a woman who is setting the table'이라고 나오므로 상을 차리는 사람은 남자가 아니라 여자이다."
+    },
+    {
+      "no": 9,
+      "material_id": "T2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T2의 [A], [B]를 표로 정리한 내용 중, 글의 내용과 일치하지 않는 것은?",
+      "options": [
+        "① [A] 과거 거주지 – 작은 마을",
+        "② [A] 현재 통학 수단 – 지하철",
+        "③ [B] 과거 직업 – 축구 선수",
+        "④ [B] 과거 하루 식사 – 세 끼",
+        "⑤ [B] 현재 직업 – 요리 교사"
+      ],
+      "answer": 4,
+      "why_ko": "[B]에서 Mr. Park은 하루에 다섯 끼(five meals a day)를 먹곤 했다고 했으므로 '세 끼'는 일치하지 않는다."
+    },
+    {
+      "no": 10,
+      "material_id": "T2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T2의 [A], [B]에 관해 언급되지 않은 것은?",
+      "options": [
+        "① Mina가 과거에 함께 살던 사람",
+        "② Mina가 현재 주말에 하는 일",
+        "③ Mr. Park이 과거에 하루에 연습한 시간",
+        "④ Mr. Park이 현재 축구를 하는 요일",
+        "⑤ Mina가 현재 기르는 반려동물의 종류"
+      ],
+      "answer": 5,
+      "why_ko": "[A]에는 Mina가 지금은 반려동물이 없다(does not have any pets)고만 나오므로 현재 기르는 반려동물의 종류는 언급될 수 없다."
+    },
+    {
+      "no": 11,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T1의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "① which",
+        "② used to listen",
+        "③ working",
+        "④ come",
+        "⑤ so happily"
+      ],
+      "answer": 5,
+      "why_ko": "「so + 형용사/부사 + that」 구문에서 was의 보어 자리이므로 부사 happily가 아니라 형용사 happy를 써서 so happy that이 되어야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 12,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T3의 ①~⑤ 중 어법상 틀린 문장은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 see의 목적보어로는 원형부정사나 현재분사를 쓴다. to cross → cross 또는 crossing으로 고쳐야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 13,
+      "material_id": "T4",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T4의 (A), (B), (C)에서 어법상 알맞은 것끼리 짝지은 것은?",
+      "options": [
+        "① which – so – shouting",
+        "② whom – so – shouting",
+        "③ whom – such – to shout",
+        "④ which – such – shouting",
+        "⑤ whom – so – to shout"
+      ],
+      "answer": 2,
+      "why_ko": "(A) 선행사가 사람(a foreign doctor)이고 remember의 목적어 자리이므로 whom, (B) 뒤에 부사 hard가 오므로 so ~ that, (C) 지각동사 heard의 목적보어이므로 shouting이 알맞다.",
+      "grammar_point": "REL_OBJECT / SO_SUCH_TOO_ENOUGH / PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 14,
+      "material_id": "T4",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T4의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "① whom I really respect",
+        "② who I can never remember his name",
+        "③ which everyone in Canada forgot",
+        "④ that never visited Korea again",
+        "⑤ whose pictures nobody believed"
+      ],
+      "answer": 1,
+      "why_ko": "선행사 a person을 받는 목적격 관계대명사절이 필요하고 글의 흐름(존경하는 인물)과도 맞는 것은 ①이다. ②는 관계사절 안에 목적어 his name이 남아 중복이고, ③④⑤는 내용상 글과 어긋난다."
+    },
+    {
+      "no": 15,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T5의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "① that",
+        "② which",
+        "③ whom",
+        "④ to try",
+        "⑤ so beautiful that"
+      ],
+      "answer": 4,
+      "why_ko": "사역동사 let의 목적보어는 원형부정사를 쓰므로 to try → try로 고쳐야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 16,
+      "material_id": "T6",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 4,
+      "stem_ko": "T6의 밑줄 친 used to의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "①②④⑤는 '예전에는 ~했다(지금은 아니다)'라는 「used to + 동사원형」이다. ③은 「be used to + 동사원형」으로 '~하는 데 사용되다'라는 뜻이므로 쓰임이 다르다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 17,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T7의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "① used to be",
+        "② who I called",
+        "③ calling",
+        "④ so angry that",
+        "⑤ what I really wanted"
+      ],
+      "answer": 5,
+      "why_ko": "선행사 a comic book이 있으므로 선행사를 포함하는 관계대명사 what은 쓸 수 없다. what → that(which)으로 고쳐야 한다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 18,
+      "material_id": "T8",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "T8의 우리말 뜻과 같도록 주어진 단어를 모두 바르게 배열한 것은?",
+      "options": [
+        "① The book I borrowed from the library yesterday was so difficult that I couldn’t understand it.",
+        "② The book that I borrowed it from the library yesterday was so difficult that I couldn’t understand.",
+        "③ The book I borrowed from the library yesterday was too difficult that I couldn’t understand it.",
+        "④ The book which I borrowed from the library yesterday was so difficult so I couldn’t understand it.",
+        "⑤ The book I borrowed yesterday from the library was so difficult that I couldn’t understand."
+      ],
+      "answer": 1,
+      "why_ko": "목적격 관계대명사가 생략된 the book (that) I borrowed ~ 뒤에 「so + 형용사 + that」이 이어지고, understand의 목적어 it까지 모두 쓰인 ①이 알맞다. ②는 관계사절에 it이 남아 중복, ③은 too ~ that, ④는 so ~ so, ⑤는 it이 빠졌다."
+    },
+    {
+      "no": 19,
+      "material_id": "T7",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "T7의 주제로 가장 알맞은 것은?",
+      "options": [
+        "① 동네 서점에서 보낸 어린 시절의 추억",
+        "② 만화책이 어휘 학습에 주는 도움",
+        "③ 비 오는 날 안전하게 귀가하는 방법",
+        "④ 서점 주인에게 필요한 자질",
+        "⑤ 부모님께 용서를 구하는 올바른 태도"
+      ],
+      "answer": 1,
+      "why_ko": "글쓴이가 초등학생 때 동네 서점에서 만화책을 읽던 추억과 그날의 일화를 회상하는 글이므로 ①이 주제이다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 1,
+      "material_id": "T4",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록, 주어진 단어를 모두 사용하여 완전한 한 문장으로 쓰시오. (필요하면 시제와 어형을 바꿀 것 · 단어 수 제한 없음)\n\n우리말: 우리가 어젯밤에 본 그 영화는 너무 무서워서 나는 잠을 잘 수 없었다.",
+      "given_words": [
+        "the movie",
+        "we",
+        "watch",
+        "last night",
+        "be",
+        "so",
+        "scary",
+        "that",
+        "I",
+        "can",
+        "not",
+        "sleep"
+      ],
+      "word_limit": "제한 없음",
+      "target_grammar": "목적격 관계대명사(생략) + so ~ that",
+      "answer_en": "The movie we watched last night was so scary that I couldn't sleep.",
+      "why_ko": "the movie를 선행사로 하는 목적격 관계대명사절(we watched last night)을 쓰고, be동사는 과거 was로, can not은 couldn't로 시제를 바꿔 「so + 형용사 + that」 구문을 완성한다."
+    },
+    {
+      "no": 2,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "City Library로 가는 길을 묻는 친구에게, 지하철을 타고 가서 사당역에서 내리라고 안내하는 문장을 영어로 쓰시오.\n[조건] 1) subway, get off, Sadang Station을 모두 포함할 것  2) 알맞은 전치사를 반드시 쓸 것  3) 9단어 이하로 쓸 것",
+      "given_words": [
+        "subway",
+        "get off",
+        "Sadang Station"
+      ],
+      "word_limit": "9단어 이하",
+      "target_grammar": "굳어진 전치사 결합 (get off at ~ Station / by subway)",
+      "answer_en": "Take the subway and get off at Sadang Station.",
+      "why_ko": "'~역에서 내리다'는 get off at + 역 이름으로 전치사 at을 쓴다. (Go there by subway and get off at Sadang Station.도 가능하나 9단어를 넘지 않도록 써야 한다.) 제시 답은 9단어이다."
+    },
+    {
+      "no": 3,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "다음 우리말을 영어로 쓰시오.\n\n우리말: 나의 할아버지는 예전에 농장에서 일하셨다. (지금은 일하지 않으신다)\n[조건] 1) used to, work, farm을 모두 포함할 것  2) 8단어 이하로 쓸 것",
+      "given_words": [
+        "used to",
+        "work",
+        "farm"
+      ],
+      "word_limit": "8단어 이하",
+      "target_grammar": "used to + 동사원형 (과거의 습관·상태)",
+      "answer_en": "My grandfather used to work on a farm.",
+      "why_ko": "'지금은 아니지만 예전에는 ~했다'는 「used to + 동사원형」으로 쓰고, '농장에서 일하다'는 work on a farm이다. 총 7단어로 조건을 만족한다."
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "1919년 3월 1일 탑골 공원에서 Dr. Schofield가 무엇을 했는지, P1에 나온 단어만 사용하여 네 단어로 쓰시오. (He로 시작할 것)",
+      "given_words": [
+        "He"
+      ],
+      "word_limit": "네 단어",
+      "target_grammar": "지각동사 + 목적어 + 현재분사(목적보어)",
+      "answer_en": "He heard people shouting.",
+      "why_ko": "P1의 'Dr. Schofield heard people shouting for Korean independence in Tapgol Park'를 활용해, 지각동사 heard + 목적어 people + 목적보어 shouting 형태로 네 단어로 쓴다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [],
+    "warnings": [
+      "서술형 1번 필수 단어가 답에 안 보임 ['be', 'can', 'not'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 19,
+    "n_essays": 4,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 2305,
+    "output": 20894,
+    "usd": 0.5352
+  }
+}

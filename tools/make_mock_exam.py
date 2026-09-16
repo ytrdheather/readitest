@@ -135,12 +135,18 @@ def main():
             # max_tokens 가 크면 SDK 가 스트리밍을 요구한다 — 10분을 넘길 수 있어서다.
             with api.messages.stream(**params) as stream:
                 msg = stream.get_final_message()
-            cost.add(f"{school}-{set_no}", params["model"], msg.usage)
+            usd = cost.add(f"{school}-{set_no}", params["model"], msg.usage)
+            # 세트마다 실비를 파일에 남긴다. 2026-09-16 크레딧이 중간에 바닥나 프로세스가
+            # 죽었고, 끝에 찍는 cost.report() 가 안 나와 4세트분 비용을 알 수 없었다.
+            usage = {"model": params["model"], "input": msg.usage.input_tokens,
+                     "output": msg.usage.output_tokens, "usd": round(usd, 4)}
             res = mock_exam.parse(extract_json(msg), spec, given)
+            res["usage"] = usage
             d = res["diagnostics"]
 
             print(f"    선택 {d['n_items']} · 서술 {d['n_essays']} · "
-                  f"배점 {d['total_points']}")
+                  f"배점 {d['total_points']} · ${usd:.3f} "
+                  f"(입력 {usage['input']:,} · 출력 {usage['output']:,})")
             for p in d["problems"]:
                 print(f"      ! {p}")
             for w in d.get("warnings", []):

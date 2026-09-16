@@ -112,7 +112,7 @@
     "Answer the following questions in complete English sentences. (1) What did Hulbert believe could make Koreans stronger? (2) What does Hulbert's story teach us about friendship and love?"
   ],
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "vision_single_pass",
     "note": "영덕중 2학년 L6 배부물(15쪽) 12·13쪽을 비전으로 전사. 텍스트 레이어가 없는 스캔이라 눈으로 읽었다 — 전 문장이 확인 대상이다. 각주 별표는 body_text 에서 떼고 glossed 로 옮겼다. 빈칸 없이 온전한 지문이다.",
     "source_file": "Z:/…/2026 2학기 학교 프린트 모음/영덕중2 L6.pdf",
@@ -120,7 +120,10 @@
     "handwriting_note": "지면 상단에 학생 이름·학번 손글씨가 있다. 전사하지 않았다 — 원장 지시 2026-09-05.",
     "has_cutoff": false,
     "unreadable_spans": [],
-    "needs_review_sentences": [
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-16T14:57:55.145350+00:00",
+    "confirmed_via": "전사확인지_영덕L6외부지문.html 육안 대조 · 「외부 지문 두개 다 멀쩡해」 (2026-09-16)",
+    "reviewed_sentences": [
       1,
       2,
       3,

@@ -1,0 +1,527 @@
+{
+  "school": "영덕중",
+  "set_no": 1,
+  "spec": {
+    "students": 8,
+    "exam_date": "2026-10 둘째 주",
+    "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+    "total_points": 100,
+    "selective": 23,
+    "essay": 0,
+    "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+    "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+    "signature": [
+      "어순 배열 2문항 10점 (T-WORD-ORDER · 문항 4·20)",
+      "본문을 캠페인 포스터·광고 문구로 형식 전환 (문항 17·18)",
+      "본문 어휘를 창작 지문에 심음 (문항 9 My Money Plan)"
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "form_choice": 1,
+    "standalone": 2,
+    "standalone_points": 8,
+    "external_passages": [
+      "Yu Gwansun",
+      "Homer B. Hulbert"
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문 · Street Art in London",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L5 대화 ①②③",
+      "text": "B: Excuse me, how can I get to the Star Stadium?\nG: You can get there by subway. Take line 4, the green line, and get off at Hangang Station.\nB: Line 4 and Hangang Station. Got it. How long will it take?\nG: A little more than 30 minutes.\nB: I’m sorry, but how can I get to the Sky Cinema?\nG: It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?\nB: OK. How long will it take?\nG: By taxi? About 20 minutes.\nG: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L6 Read More",
+      "text": "W: Hello, everyone. The movie I’m going to introduce today is The Song of Love. It’s a movie about a pianist who loses his love for music. He moves to a small town for a new start. There, he begins teaching music to children and finds his love for music again. This movie has great music and a touching story, so I strongly recommend it.\nFrank W. Schofield was a Canadian doctor. He loved Korean people and helped the Korean independence movement. He took pictures of the March 1st Movement and wrote an article about it.\nKim Mandeok was born in Jeju-do in 1739. She was a successful businesswoman. In 1795, she saw many people dying from hunger. So, she bought rice with all her money and gave it away to poor people. Her love for others was so selfless that many people respected her. From her life, I learned that selfless love for others can make a big difference.\nNick Priest saw a car accident and ran to save the children on the bus. Kay Brown saw a homeless person in the subway and gave her own shoes to her. Eliot Middleton is a restaurant owner. He spends his free time fixing old cars and donating them to people in need."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 · Yu Gwansun",
+      "text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "외부지문 · Homer B. Hulbert",
+      "text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 · A Street Art Tour (어형 고르기)",
+      "text": "Last Saturday, our class went on a street art tour in London. Our guide smiled and said, “The place (A)[what / that] we are visiting now used to be very poor, but today it is full of color.” On a long brick wall, there was a huge painting of three children. It was (B)[so / such] a famous painting that many tourists were taking pictures of it. While I was writing in my notebook, I saw a young artist (C)[to spray / spraying] green paint on another wall. I will never forget that day."
+    },
+    {
+      "id": "T2",
+      "kind": "standalone_set",
+      "title": "단문 나열형 A (L5 어법)",
+      "text": "※ 다음 다섯 문장은 서로 관련이 없는 개별 문장이다. 문장은 선택지 ①~⑤에 제시되어 있다."
+    },
+    {
+      "id": "T3",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 세트 A",
+      "text": "[대화 1]\nA: Is this the bike ①that you fixed yesterday?\nB: Yes. It was ②so old that nobody wanted it.\n\n[대화 2]\nA: You look tired. Did you sleep well?\nB: No. The music next door was ③such loud that I couldn't sleep.\n\n[대화 3]\nA: You look different today.\nB: I ④used to wear glasses, but now I wear lenses.\nA: Right. This morning I saw you ⑤reading a book without them."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 · The Wall Next to My School",
+      "text": "Street art is not only for museums. The gray wall ①that you see next to my school was boring last year. Some students ②used to throw trash there. Then a young artist came and turned it into a garden of flowers. The painting was ③so beautiful that people stopped to look at it. Yesterday I saw an old man ④to smile at the wall for a long time. Now it is one of the places ⑤which our neighbors love most."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 · My Money Plan",
+      "text": "My Money Plan\n\nI get 20,000 won every month from my parents. I used to spend all of it on snacks and mobile games, so I never had money at the end of the month. Now I have a plan. First, I save half of it in my piggy bank. Second, I use 5,000 won for the art club that I joined last spring. Third, I ______ the rest to a group that helps children in need. Last month I sent 5,000 won to them, and the thank-you card I got was so warm that I could not stop smiling. Small money can make a big difference."
+    },
+    {
+      "id": "T6",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 세트 B",
+      "text": "[대화 1]\nA: I heard you ①singing in the music room yesterday.\nB: Really? I was practicing for the school festival.\n\n[대화 2]\nA: Did you see the accident?\nB: Yes. I saw a car ②hit the tree, so I ran to help.\n\n[대화 3]\nA: Why are you so tired?\nB: My baby brother cried all night. I felt the bed ③to shake every time he moved.\nA: That's too bad.\nB: The noise was ④so loud that I slept only two hours. By the way, the song ⑤that you played for me helped me relax."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 · A Quiet Doctor",
+      "text": "Last winter I watched a film about a doctor ①who worked in a small village. He ②used to work at a big hospital in the city, but he left it to help poor farmers. One night a mother came to him with her sick baby. The doctor was ③so tired that he could hardly stand, but he took care of the baby until morning. When the baby finally opened its eyes, I saw tears ④to run down the mother's face. The doctor's quiet love was something ⑤that I will never forget."
+    },
+    {
+      "id": "T8",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 세트 C",
+      "text": "[대화 1]\nA: Who is the woman ①whom you were talking to?\nB: She is the writer ②that I told you about.\n\n[대화 2]\nA: Did you like the movie?\nB: Yes. It was ③so touching that I cried at the end.\nA: I heard many people ④crying in the theater, too.\n\n[대화 3]\nA: Is this the book ⑤which you borrowed it from the library?\nB: Yes, it is. I have to return it today."
+    },
+    {
+      "id": "T9",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 · A Foreign Teacher Who Loved Korea",
+      "text": "Many foreigners loved Korea a hundred years ago. One of them was a teacher ①whom Korean students still remember. He ②used to teach English at a royal school, but he soon started studying Hangeul, too. He believed Hangeul was ③so logical that anyone could learn it in a few days. When Japan began taking control of Korea, he wrote articles ④which the world could not ignore. Once, at a meeting in the U.S., people heard him ⑤to speak about Korea's freedom with tears in his eyes."
+    },
+    {
+      "id": "T10",
+      "kind": "teacher_paragraph",
+      "title": "형식 전환 · 캠페인 포스터 (Love Goes Beyond)",
+      "text": "★ KINDNESS CAMPAIGN — “Love Goes Beyond” ★\nHosted by: Yeongdeok Middle School Student Council\nWhen: May 15 (Fri), 1 p.m. – 5 p.m.\nWhere: School Gym\n\n• Booth 1 · Heroes' Wall — Read short stories of Kim Mandeok, Yu Gwansun, and Homer B. Hulbert. Write one line for the hero that you like most.\n• Booth 2 · Shoes for Sharing — Bring shoes you don't wear anymore. We will give them away to people in need.\n• Booth 3 · Rice of Mandeok — 1,000 won = 1 kg of rice for our neighbors.\n• Booth 4 · Paint the Wall — Paint your own message on our big paper wall, like a street artist!\n\n“Small hands can ______ .”\n\n* Bring your student ID card.\n* Food and drinks are not allowed in the gym.\n* All the money from Booth 3 will be sent to the city food bank."
+    },
+    {
+      "id": "T11",
+      "kind": "standalone_set",
+      "title": "단문 나열형 B (L6 어법)",
+      "text": "※ 다음 다섯 문장은 서로 관련이 없는 개별 문장이다. 문장은 선택지 ①~⑤에 제시되어 있다."
+    },
+    {
+      "id": "T12",
+      "kind": "standalone_set",
+      "title": "단문 나열형 C (that의 쓰임)",
+      "text": "※ 다음 다섯 문장에는 각각 that이 한 번씩 쓰였다. 문장은 선택지 ①~⑤에 제시되어 있다."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "P1에 쓰인 낱말 중, 다음 영영 풀이에 해당하는 것은?   ▸ to be a sign or symbol of someone or something",
+      "options": [
+        "represent",
+        "recommend",
+        "remind",
+        "donate",
+        "respect"
+      ],
+      "answer": 1,
+      "why_ko": "‘어떤 사람이나 사물의 표시나 상징이 되다’는 represent의 뜻이다. P1에서 세 인물이 Shoreditch의 과거·현재·미래를 나타낸다고 할 때 쓰였다."
+    },
+    {
+      "no": 2,
+      "material_id": "P5",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "P5에 쓰인 낱말 중, 다음 영영 풀이에 해당하는 것은?   ▸ the freedom of a country from the control of another country",
+      "options": [
+        "control",
+        "independence",
+        "courage",
+        "movement",
+        "respect"
+      ],
+      "answer": 2,
+      "why_ko": "다른 나라의 지배에서 벗어난 자유는 independence(독립)이다. P5에서 Hulbert가 한국의 독립을 호소한 대목에서 쓰였다."
+    },
+    {
+      "no": 3,
+      "material_id": "T1",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T1의 (A), (B), (C)의 각 네모 안에서 어법상 알맞은 것을 골라 바르게 짝지은 것은?",
+      "options": [
+        "what – so – to spray",
+        "what – such – spraying",
+        "that – such – spraying",
+        "that – so – spraying",
+        "that – such – to spray"
+      ],
+      "answer": 3,
+      "why_ko": "(A) 선행사 The place가 있으므로 목적격 관계대명사 that. (B) 뒤에 a famous painting(관사+형용사+명사)이 오므로 such ~ that. (C) 지각동사 saw의 목적격보어는 원형부정사나 현재분사이므로 spraying.",
+      "grammar_point": "REL_OBJECT / SO_SUCH_TOO_ENOUGH / PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "P1의 STIK의 그림을 설명하는 다음 우리말과 뜻이 같도록 [the painting / that / we / saw / last week]를 바르게 배열한 것은?  ▸ 우리가 지난주에 본 그 그림은 STIK에 의해 그려졌다.",
+      "options": [
+        "That we saw the painting last week was painted by STIK.",
+        "The painting that we saw last week was painted by STIK.",
+        "The painting we that saw last week was painted by STIK.",
+        "The painting what we saw last week was painted by STIK.",
+        "The painting that we saw it last week was painted by STIK."
+      ],
+      "answer": 2,
+      "why_ko": "선행사 the painting을 수식하는 목적격 관계대명사절은 [that + 주어 + 동사] 순서이며, 관계대명사가 목적어 역할을 하므로 뒤에 it을 다시 쓰지 않는다. 선행사가 있으므로 what도 쓸 수 없다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 5,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "다음 중 어법상 옳지 않은 것은?",
+      "options": [
+        "The song that she sang at the festival was beautiful.",
+        "My grandmother used to tell me old stories.",
+        "The camera which I bought it online broke yesterday.",
+        "There used to be a big tree in front of the school.",
+        "He is the writer whom everyone likes."
+      ],
+      "answer": 3,
+      "why_ko": "③에서 which가 bought의 목적어 역할을 하므로 목적어 it을 다시 쓸 수 없다. it을 삭제해야 한다.",
+      "grammar_point": "REL_OBJECT / VERB_USED_TO"
+    },
+    {
+      "no": 6,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T3의 밑줄 친 ①~⑤ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "that you fixed",
+        "so old that",
+        "such loud that",
+        "used to wear",
+        "reading"
+      ],
+      "answer": 3,
+      "why_ko": "loud는 형용사 단독이므로 so loud that이 되어야 한다. such는 [such + a(n) + 형용사 + 명사] 형태로 쓴다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 7,
+      "material_id": "P1",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P1의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "Famous Museums You Must Visit in London",
+        "Street Artworks and Their Messages in London",
+        "How to Become a Professional Street Artist",
+        "The Long History of Chewing Gum in Europe",
+        "Why Big Cities Need More Green Parks"
+      ],
+      "answer": 2,
+      "why_ko": "P1은 런던의 세 장소를 돌며 STIK, Banksy, Ben Wilson의 거리 예술 작품과 그 작품이 전하는 메시지를 소개하는 글이다."
+    },
+    {
+      "no": 8,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T4의 밑줄 친 ①~⑤ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "that you see",
+        "used to throw",
+        "so beautiful that",
+        "to smile",
+        "which our neighbors love"
+      ],
+      "answer": 4,
+      "why_ko": "지각동사 saw의 목적격보어로는 to부정사를 쓸 수 없으므로 smile 또는 smiling으로 고쳐야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 9,
+      "material_id": "T5",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T5의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "give away",
+        "take off",
+        "put off",
+        "look after",
+        "get off"
+      ],
+      "answer": 1,
+      "why_ko": "남은 돈을 도움이 필요한 아이들을 돕는 단체에 ‘나누어 준다’는 흐름이므로 give away가 알맞다. 뒤 문장의 감사 카드 내용도 단서가 된다."
+    },
+    {
+      "no": 10,
+      "material_id": "T6",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T6의 밑줄 친 ①~⑤ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "singing",
+        "hit",
+        "to shake",
+        "so loud that",
+        "that you played"
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 felt의 목적격보어는 원형부정사(shake) 또는 현재분사(shaking)를 쓴다. to shake는 쓸 수 없다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 11,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 내용과 일치하는 것은?",
+      "options": [
+        "Star Stadium까지는 버스로 30분이 조금 넘게 걸린다.",
+        "Sky Cinema는 멀지만 찾기는 아주 쉬운 곳이다.",
+        "Sky Cinema까지는 택시로 약 20분이 걸린다.",
+        "Dream Shopping Mall까지는 걸어서 갈 수 없다.",
+        "Dream Shopping Mall까지는 버스로 10분 이상 걸린다."
+      ],
+      "answer": 3,
+      "why_ko": "Sky Cinema는 택시로 약 20분이 걸린다고 했다. Star Stadium은 지하철 4호선, Dream Shopping Mall은 걸어갈 수는 있지만 조금 멀어 버스로 10분이 채 걸리지 않는다."
+    },
+    {
+      "no": 12,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T7의 밑줄 친 ①~⑤ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "who worked",
+        "used to work",
+        "so tired that",
+        "to run",
+        "that I will never forget"
+      ],
+      "answer": 4,
+      "why_ko": "saw tears ______ down에서 지각동사 saw의 목적격보어이므로 run 또는 running이 되어야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 13,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1에서 STIK의 그림을 볼 때 세 인물의 눈이 단서가 된다고 한 까닭으로 가장 알맞은 것은?",
+      "options": [
+        "눈에 찍힌 점의 모습이 각 인물이 과거·현재·미래 중 무엇을 나타내는지 짐작하게 해 주기 때문이다",
+        "눈의 색깔이 작가 STIK의 서명을 대신하기 때문이다",
+        "눈이 Shoreditch의 옛 지도를 그린 것이기 때문이다",
+        "눈 속에 사회적 메시지가 글로 적혀 있기 때문이다",
+        "눈이 이 지역에 살던 가난한 노동자들의 얼굴을 그대로 옮긴 것이기 때문이다"
+      ],
+      "answer": 1,
+      "why_ko": "필자는 세 인물이 각각 과거·현재·미래를 나타낸다고 한 뒤, 눈을 자세히 보라고 하며 점에 불과한 눈이 단서를 준다고 했다."
+    },
+    {
+      "no": 14,
+      "material_id": "T8",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T8의 밑줄 친 ①~⑤ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "whom you were talking to",
+        "that I told you about",
+        "so touching that",
+        "crying",
+        "which you borrowed it"
+      ],
+      "answer": 5,
+      "why_ko": "which가 borrowed의 목적어 역할을 하므로 it을 함께 쓸 수 없다. it을 삭제해야 한다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 15,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "P4의 내용과 일치하지 않는 것은?",
+      "options": [
+        "그녀는 한국이 일본의 지배 아래 있을 때 십 대였다.",
+        "1919년 3월 1일에 용감하게 일어나 다른 사람들과 함께했다.",
+        "친구들과 이웃들에게 희망을 버리지 말라고 말했다.",
+        "감옥에서는 희망을 잃고 주변 사람들과 멀어졌다.",
+        "그녀의 사랑은 요란하지 않았지만 친절과 보살핌으로 가득했다."
+      ],
+      "answer": 4,
+      "why_ko": "감옥에서 힘든 시간을 보냈지만 그때에도 강하고 희망을 잃지 않으며 주변 사람들에게 계속 영감을 주었다고 했다."
+    },
+    {
+      "no": 16,
+      "material_id": "T9",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T9의 밑줄 친 ①~⑤ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "whom Korean students still remember",
+        "used to teach",
+        "so logical that",
+        "which the world could not ignore",
+        "to speak"
+      ],
+      "answer": 5,
+      "why_ko": "지각동사 heard의 목적격보어이므로 speak 또는 speaking이 알맞다. to speak는 쓸 수 없다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 17,
+      "material_id": "T10",
+      "type": "T-BLANK",
+      "points": 5,
+      "stem_ko": "T10의 포스터 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "keep quiet",
+        "give up hope",
+        "make a big difference",
+        "take a taxi",
+        "get off at the next stop"
+      ],
+      "answer": 3,
+      "why_ko": "작은 나눔이 큰 변화를 만든다는 캠페인의 취지를 담은 표현이 필요하므로 make a big difference가 알맞다."
+    },
+    {
+      "no": 18,
+      "material_id": "T10",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "T10의 포스터 내용과 일치하지 않는 것은?",
+      "options": [
+        "이 캠페인은 학생회가 주최한다.",
+        "부스 1에서는 인물의 이야기를 읽고 한 줄 글을 쓴다.",
+        "부스 2에서는 신지 않는 신발을 가져와 나눔에 참여한다.",
+        "부스 3에서 모인 돈은 학교 축제 비용으로 쓰인다.",
+        "체육관에는 음식과 음료를 가지고 들어갈 수 없다."
+      ],
+      "answer": 4,
+      "why_ko": "부스 3에서 모인 돈은 모두 시(市) 푸드뱅크로 보낸다고 안내되어 있다."
+    },
+    {
+      "no": 19,
+      "material_id": "T11",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "다음 중 어법상 옳지 않은 것은?",
+      "options": [
+        "I saw him crossing the street with his dog.",
+        "The bag was so heavy that I couldn't carry it alone.",
+        "It was such a cold day that we stayed home all day.",
+        "I heard someone to knock on the door last night.",
+        "She felt the ground shake for a few seconds."
+      ],
+      "answer": 4,
+      "why_ko": "지각동사 heard의 목적격보어로 to부정사는 쓸 수 없다. knock 또는 knocking으로 고쳐야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 20,
+      "material_id": "P3",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "P3의 감상문 내용을 바탕으로 다음 우리말과 뜻이 같도록 [was / so / touching / that]을 바르게 배열한 것은?  ▸ 그 이야기는 너무 감동적이어서 나는 울음을 멈출 수 없었다.",
+      "options": [
+        "The story so was touching that I couldn't stop crying.",
+        "The story was touching so that I couldn't stop crying.",
+        "The story was such touching that I couldn't stop crying.",
+        "The story was so that touching I couldn't stop crying.",
+        "The story was so touching that I couldn't stop crying."
+      ],
+      "answer": 5,
+      "why_ko": "[so + 형용사 + that + 주어 + 동사] 어순이 되어야 한다. 형용사 단독이므로 such는 쓸 수 없다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 21,
+      "material_id": "P5",
+      "type": "T-TOPIC",
+      "points": 5,
+      "stem_ko": "P5의 요지로 가장 알맞은 것은?",
+      "options": [
+        "The difficulty of learning Hangeul for Westerners",
+        "How royal schools changed Korean education",
+        "Why Koreans should study more foreign languages",
+        "A foreigner who loved Korea and worked for its independence",
+        "The history of international newspapers in Asia"
+      ],
+      "answer": 4,
+      "why_ko": "P5는 한글과 한국 문화를 알리고 한국의 독립을 위해 힘쓴 외국인 Hulbert의 삶을 소개하며, 사랑과 우정이 국경을 넘을 수 있음을 말한다."
+    },
+    {
+      "no": 22,
+      "material_id": "T12",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 5,
+      "stem_ko": "다음 중 that의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "The book that I read last night was really exciting.",
+        "They think that he wants us to help others.",
+        "This is the bike that my brother fixed yesterday.",
+        "The people that we met on the street were very kind.",
+        "The message that Banksy sent us is very clear."
+      ],
+      "answer": 2,
+      "why_ko": "②의 that은 think의 목적어가 되는 명사절을 이끄는 접속사이고, 나머지는 모두 선행사를 수식하는 목적격 관계대명사이다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 23,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "P3의 내용과 일치하지 않는 것은?",
+      "options": [
+        "영화 속 피아니스트는 새로운 시작을 위해 작은 마을로 이사한다.",
+        "Schofield는 3·1 운동의 사진을 찍고 그에 관한 기사를 썼다.",
+        "김만덕은 1795년에 자신의 모든 돈으로 쌀을 사서 나누어 주었다.",
+        "Kay Brown은 지하철에서 노숙자에게 자신의 신발을 주었다.",
+        "Eliot Middleton은 오래된 자동차를 고쳐서 값싸게 팔았다."
+      ],
+      "answer": 5,
+      "why_ko": "Eliot Middleton은 여유 시간에 오래된 자동차를 고쳐서 도움이 필요한 사람들에게 기부한다고 했다."
+    }
+  ],
+  "essays": [],
+  "diagnostics": {
+    "problems": [
+      "자료 P2 의 줄바꿈이 달라 원본으로 되돌림"
+    ],
+    "warnings": [],
+    "n_items": 23,
+    "n_essays": 0,
+    "total_points": 100,
+    "fixes": [
+      "배점 합계 102 → 100: 4번·14번을 5점 → 4점 (수동, 2026-09-17)"
+    ]
+  }
+}

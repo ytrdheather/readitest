@@ -1,0 +1,523 @@
+{
+  "school": "청명중",
+  "set_no": 2,
+  "spec": {
+    "students": 1,
+    "exam_date": "2026-09-30",
+    "priority": "학생 1명이라 마지막. 다만 단문 나열 대비가 꼭 필요",
+    "total_points": 100,
+    "selective": 25,
+    "essay": 0,
+    "grammar_vessel": "단문 나열형 (문장 5개 나열)",
+    "vessel_note": "2026-1 문항 9·15·24·25 = 20점/100점. 우리가 반려했던 형식이다",
+    "signature": [
+      "**단문 나열형이 20점**이다. 네 학교 중 압도적으로 많다",
+      "설명문 + 대화문을 연결해 한 문항군으로 (문항 19~21)",
+      "본문 어휘를 창작 지문에 심음 (문항 18)"
+    ],
+    "vocab_items": 3,
+    "vocab_points": 9,
+    "form_choice": 1,
+    "standalone": 4,
+    "standalone_points": 20,
+    "external_passages": []
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L6 본문 · Dr. Schofield (Seok Hopil)",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ④⑤⑥",
+      "text": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science.\nG: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!\nB: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 Read More",
+      "text": "I’ll explain how you can get to the City Library from the school. The best way to get there is to take the bus. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.\nThe painting I want to write about is The Red Room by Henri Matisse. This painting shows a red room with a window. In the room, there are two chairs and a big table. We also see a woman who is setting the table. I like the red color of this painting. I think that the room feels warm because of it.\nPeople take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. People write their dreams and goals on a big wall. They share their stories and make a special artwork together.\nIn the past, my grandparents used to live in the country. Now they live in a city. In the past, they used to work on the farm. Now they do not work, and they enjoy traveling."
+    },
+    {
+      "id": "T1",
+      "kind": "standalone_set",
+      "title": "단문 나열 A",
+      "text": "① This is the book which I borrowed from the library.\n② The boy whom you met yesterday is my cousin.\n③ The song that she sang it was really beautiful.\n④ Dr. Schofield is the person who Koreans still remember.\n⑤ I lost the umbrella my mother bought for me."
+    },
+    {
+      "id": "T2",
+      "kind": "standalone_set",
+      "title": "단문 나열 B",
+      "text": "① My grandparents used to live in the country.\n② He used to be a famous actor when he was young.\n③ She is used to getting up early in the morning.\n④ We used to going to the beach every summer.\n⑤ This old camera was used to take pictures of the event."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "단문 나열 C",
+      "text": "① I saw a large group of people gathering outside.\n② He heard people shouting for Korean independence.\n③ We watched the children to play soccer in the park.\n④ She felt someone touch her shoulder.\n⑤ I listened to the birds singing in the tree."
+    },
+    {
+      "id": "T4",
+      "kind": "standalone_set",
+      "title": "단문 나열 D",
+      "text": "① He studied so hard that he was able to teach in Korean.\n② The box was too heavy for me to carry alone.\n③ She is old enough to travel by herself.\n④ It was so a exciting game that everyone stood up.\n⑤ The movie was so boring that I fell asleep in ten minutes."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "어형 고르기 단락",
+      "text": "The old camera (A)[which / which it] my grandfather used to carry is still in my room. Yesterday I saw my little brother (B)[to hold / holding] it in the living room. He was (C)[so / such] curious about the camera that he asked me many questions about it."
+    },
+    {
+      "id": "T6",
+      "kind": "standalone_set",
+      "title": "쓰임 구별 단문 나열",
+      "text": "① He [used to] play the violin every evening.\n② There [used to] be a small bookstore on this street.\n③ My grandparents [used to] work on the farm.\n④ This machine [is used to] make paper cups.\n⑤ She [used to] be afraid of dogs."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "창작 지문 · Homer Hulbert",
+      "text": "Homer Hulbert first came to Korea in 1886 to teach English. He soon learned Korean and even wrote a textbook in Korean. He believed that Korea had the right to be independent, so he helped the Korean independence movement in many ways. In 1905, King Gojong sent him to the United States with a secret letter, but the American government refused to read it. Hulbert also wrote articles about the terrible situation in Korea for foreign newspapers. Because the Japanese police kept a watchful eye on him, he had to leave Korea in 1907. ________, he never forgot the country he loved. In 1949, he returned to Korea at the invitation of the Korean government, but he died only a week later. He once said, 'I would rather be buried in Korea than in Westminster Abbey.' Today he rests in the Foreigners' Cemetery in Seoul."
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "창작 설명문 · Book Doctor 프로그램",
+      "text": "Many school libraries now have a 'Book Doctor' program. If you do not know what to read, you can visit the Book Doctor desk during lunch time. Student helpers ask you a few questions: What kinds of books do you usually enjoy? Which subject are you interested in? Then they recommend three books for you. Last month, the most popular request was books about famous people who helped others. Teen's Science, a monthly magazine, was also recommended a lot. The program runs every Tuesday and Thursday, and any student can join as a helper."
+    },
+    {
+      "id": "T10",
+      "kind": "standalone_set",
+      "title": "어순 배열 자료",
+      "text": "[A] 내가 그 서점에서 만난 소녀는 나의 사촌이다.\n→ ________________________________ is my cousin.\n(whom / I / the girl / met / at the bookstore)\n\n[B] 나는 누군가가 내 이름을 부르는 것을 들었다.\n→ ________________________________.\n(calling / someone / I / my name / heard)"
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이가 가리키는 단어로 알맞은 것은? (P1의 어휘)\n\nnot ruled or controlled by another country or person",
+      "options": [
+        "historic",
+        "independent",
+        "terrible",
+        "foreign",
+        "special"
+      ],
+      "answer": 2,
+      "why_ko": "다른 나라의 지배를 받지 않는다는 뜻은 independent(독립한)이다. P1에서 every country has the right to be independent로 쓰였다."
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이가 가리키는 단어로 알맞은 것은? (P1의 어휘)\n\nto put a dead body into the ground",
+      "options": [
+        "borrow",
+        "build",
+        "bury",
+        "burn",
+        "block"
+      ],
+      "answer": 3,
+      "why_ko": "시신을 땅에 묻다는 뜻은 bury이다. P1 마지막 문장의 was buried in Seoul National Cemetery에 해당한다."
+    },
+    {
+      "no": 3,
+      "material_id": "P1",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P1의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "A Canadian Doctor Who Loved Korea",
+        "How to Learn Korean in a Few Years",
+        "The History of Tapgol Park",
+        "Life in Canada After the War",
+        "The Beginning of Modern Hospitals in Seoul"
+      ],
+      "answer": 1,
+      "why_ko": "P1은 한국 이름을 사랑하고 한국의 독립운동을 도운 캐나다인 의사 스코필드의 삶 전체를 다루므로 ①이 제목으로 가장 알맞다."
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 내용과 일치하는 것은?",
+      "options": [
+        "Dr. Schofield came to Korea in 1919 to study medicine.",
+        "Dr. Schofield learned Korean because he wanted to teach in Korean.",
+        "He sent his pictures only to Korean newspapers.",
+        "He left Korea in 1958 and never came back.",
+        "He was buried in Canada after he died."
+      ],
+      "answer": 2,
+      "why_ko": "P1에 He wanted to teach in Korean, so he began to learn Korean right away라고 나온다. ①은 1916년·의학을 가르치러, ③은 외국 신문, ④는 1958년에 돌아와 다시 떠나지 않음, ⑤는 서울현충원에 안장되어 모두 틀리다."
+    },
+    {
+      "no": 5,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 내용과 일치하지 않는 것은?",
+      "options": [
+        "그는 자신의 한국 이름을 무척 좋아했다.",
+        "그의 한국 이름은 실제 이름과 소리가 비슷했다.",
+        "그는 3월 1일에 사람들이 독립을 외치는 소리를 들었다.",
+        "일본 경찰의 감시 때문에 1920년에 캐나다로 돌아갔다.",
+        "1958년에 한국을 떠난 뒤 다시는 돌아오지 않았다."
+      ],
+      "answer": 5,
+      "why_ko": "1958년은 한국 정부의 초청으로 다시 '돌아온' 해이며 그 후 다시 떠나지 않았다(never left again). 따라서 ⑤가 일치하지 않는다."
+    },
+    {
+      "no": 6,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1의 It sounded similar to his real name.에서 It이 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "그가 사랑했던 한국 이름(석호필)",
+        "그의 영어 이름 Frank W. Schofield",
+        "그가 쓴 기사의 제목",
+        "그가 근무한 병원의 이름",
+        "그가 태어난 도시의 이름"
+      ],
+      "answer": 1,
+      "why_ko": "바로 앞 문장에서 he loved his Korean name이라고 했으므로 It은 그의 한국 이름(석호필)을 가리킨다."
+    },
+    {
+      "no": 7,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1에서 언급되지 않은 것은?",
+      "options": [
+        "그가 한국에 처음 온 해",
+        "그가 3월 1일에 사진을 찍은 장소",
+        "그가 세상을 떠난 시기",
+        "그가 묻힌 장소",
+        "그가 캐나다에서 다닌 대학교"
+      ],
+      "answer": 5,
+      "why_ko": "1916년, 탑골공원, 1970년 4월, 서울현충원은 모두 P1에 나오지만 그가 다닌 대학에 관한 언급은 없다."
+    },
+    {
+      "no": 8,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "T1의 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "목적격 관계대명사 that이 이미 sang의 목적어 역할을 하므로 뒤에 목적어 it을 다시 쓸 수 없다. The song that she sang was really beautiful.가 옳다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 9,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "T2의 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "'~하곤 했다'의 used to 뒤에는 동사원형이 온다. used to going → used to go가 되어야 한다. ③은 be used to -ing(~에 익숙하다), ⑤는 be used to+동사원형(~하는 데 쓰이다)으로 모두 올바르다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 10,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "T3의 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 watch의 목적격보어로 to부정사는 쓸 수 없다. to play → play 또는 playing이 되어야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 11,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 5,
+      "stem_ko": "T4의 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "「so+형용사+a(n)+명사」 어순이 아니면 명사가 있을 때는 such를 쓴다. so a exciting game → such an exciting game이 되어야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 12,
+      "material_id": "T5",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T5의 (A), (B), (C)에서 어법에 맞는 표현끼리 바르게 짝지어진 것은?",
+      "options": [
+        "which - to hold - so",
+        "which - to hold - such",
+        "which - holding - so",
+        "which - holding - such",
+        "which it - holding - so"
+      ],
+      "answer": 3,
+      "why_ko": "(A) 목적격 관계대명사 which 뒤에 목적어 it을 또 쓸 수 없다. (B) 지각동사 saw의 목적격보어로 holding(또는 hold)이 알맞다. (C) 뒤에 형용사 curious가 오므로 so ~ that 구문을 쓴다.",
+      "grammar_point": "REL_OBJECT / PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 13,
+      "material_id": "T6",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 4,
+      "stem_ko": "T6의 ①~⑤ 중 [ ] 안 표현의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "①②③⑤는 '(과거에) ~하곤 했다, ~이었다'는 뜻의 used to이지만, ④는 be used to+동사원형으로 '~하는 데 사용되다'라는 뜻이다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 14,
+      "material_id": "T10",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "T10의 [A]에서 우리말과 같도록 주어진 단어를 바르게 배열한 것은?",
+      "options": [
+        "The girl whom I met at the bookstore",
+        "The girl whom met I at the bookstore",
+        "Whom the girl I met at the bookstore",
+        "The girl whom I met her at the bookstore",
+        "I met the girl whom at the bookstore"
+      ],
+      "answer": 1,
+      "why_ko": "선행사 The girl 뒤에 목적격 관계대명사 whom을 쓰고 「주어+동사」 순서인 I met이 이어진다. 관계대명사가 목적어이므로 her를 또 쓰지 않는다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 15,
+      "material_id": "T10",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "T10의 [B]에서 우리말과 같도록 주어진 단어를 바르게 배열한 것은?",
+      "options": [
+        "I heard someone calling my name",
+        "I heard calling someone my name",
+        "I heard someone called my name",
+        "Someone I heard calling my name",
+        "I heard my name someone calling"
+      ],
+      "answer": 1,
+      "why_ko": "지각동사 heard 뒤에 목적어 someone, 목적격보어로 현재분사 calling을 쓴다. ③의 called는 과거동사 형태로 목적격보어가 될 수 없다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 16,
+      "material_id": "T7",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이에 해당하는 단어로 알맞은 것은? (T7에 쓰인 어휘)\n\nto say that you will not do or accept something",
+      "options": [
+        "refuse",
+        "receive",
+        "recommend",
+        "return",
+        "remember"
+      ],
+      "answer": 1,
+      "why_ko": "'하지 않겠다고 말하다, 거절하다'는 refuse이다. T7의 the American government refused to read it에 쓰였다."
+    },
+    {
+      "no": 17,
+      "material_id": "T7",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T7의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "However",
+        "For example",
+        "Therefore",
+        "In addition",
+        "As a result"
+      ],
+      "answer": 1,
+      "why_ko": "한국을 떠나야 했다는 내용과 그 나라를 결코 잊지 않았다는 내용이 대조되므로 역접의 However가 알맞다."
+    },
+    {
+      "no": 18,
+      "material_id": "T7",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T7의 내용과 일치하지 않는 것은?",
+      "options": [
+        "He came to Korea in 1886 to teach English.",
+        "He wrote a textbook in Korean.",
+        "The American government refused to read King Gojong's letter.",
+        "He returned to Korea in 1949 and lived there for many years.",
+        "He rests in the Foreigners' Cemetery in Seoul."
+      ],
+      "answer": 4,
+      "why_ko": "T7에서 1949년에 돌아왔지만 일주일 뒤에 세상을 떠났다(he died only a week later)고 했으므로 ④가 틀리다."
+    },
+    {
+      "no": 19,
+      "material_id": "T8",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "T8의 주제로 가장 알맞은 것은?",
+      "options": [
+        "a school library program that recommends books to students",
+        "the history of school libraries in Korea",
+        "how to write a good book report",
+        "the best science magazines for teenagers",
+        "the rules for borrowing books from a library"
+      ],
+      "answer": 1,
+      "why_ko": "T8은 학생에게 책을 추천해 주는 학교 도서관의 'Book Doctor' 프로그램을 소개하는 글이다."
+    },
+    {
+      "no": 20,
+      "material_id": "T8",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T8의 내용과 일치하지 않는 것은?",
+      "options": [
+        "Book Doctor 데스크는 점심시간에 이용할 수 있다.",
+        "학생 도우미들이 몇 가지 질문을 한 뒤 책 세 권을 추천한다.",
+        "지난달 가장 인기 있었던 요청은 다른 사람을 도운 유명인에 관한 책이었다.",
+        "이 프로그램은 매주 월요일과 수요일에 운영된다.",
+        "어떤 학생이든 도우미로 참여할 수 있다."
+      ],
+      "answer": 4,
+      "why_ko": "T8에서 프로그램은 every Tuesday and Thursday에 운영된다고 했으므로 ④가 일치하지 않는다."
+    },
+    {
+      "no": 21,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P2의 대화 내용과 일치하는 것은?",
+      "options": [
+        "The store has only science magazines.",
+        "The boy recommends Teen's Science because he likes history.",
+        "Somi needs books about famous people who helped others for her essay.",
+        "Somi finally decides to write about Dr. Schweitzer.",
+        "Tom likes Italian food and Amy likes Indian food."
+      ],
+      "answer": 3,
+      "why_ko": "두 번째 대화에서 Somi는 에세이를 쓰기 위해 다른 사람을 도운 유명인에 관한 책을 찾고 있다고 했다. ④는 Audrey Hepburn, ⑤는 좋아하는 음식이 서로 바뀌었다."
+    },
+    {
+      "no": 22,
+      "material_id": "P2",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P2의 두 번째 대화에서 Somi가 말한 someone else에 해당하게 된 인물로 알맞은 것은?",
+      "options": [
+        "Dr. Schweitzer",
+        "Audrey Hepburn",
+        "Liam",
+        "Dr. Schofield",
+        "Somi's teacher"
+      ],
+      "answer": 2,
+      "why_ko": "Somi가 슈바이처 박사 말고 다른 사람을 추천해 달라고 하자 Liam이 Audrey Hepburn을 제안했고, Somi는 그녀에 대해 쓰기로 했다."
+    },
+    {
+      "no": 23,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 그림(The Red Room) 소개 내용과 일치하지 않는 것은?",
+      "options": [
+        "The painting was painted by Henri Matisse.",
+        "There is a window in the red room.",
+        "There are two chairs and a big table in the room.",
+        "A man is setting the table in the painting.",
+        "The writer likes the red color of the painting."
+      ],
+      "answer": 4,
+      "why_ko": "P3에는 상을 차리고 있는 사람이 a woman으로 나오므로 ④가 일치하지 않는다."
+    },
+    {
+      "no": 24,
+      "material_id": "P3",
+      "type": "T-PHRASE-INFER",
+      "points": 3,
+      "stem_ko": "P3의 I think that the room feels warm because of it.에서 it이 가리키는 것으로 알맞은 것은?",
+      "options": [
+        "the window",
+        "the big table",
+        "the red color of the painting",
+        "the woman in the room",
+        "the two chairs"
+      ],
+      "answer": 3,
+      "why_ko": "바로 앞 문장에서 I like the red color of this painting이라고 했으므로 it은 그림의 붉은색을 가리킨다."
+    },
+    {
+      "no": 25,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 조부모님에 관한 내용과 일치하는 것은?",
+      "options": [
+        "조부모님은 지금 시골에 살고 계신다.",
+        "조부모님은 예전에 농장에서 일하셨다.",
+        "조부모님은 지금도 농장에서 일하신다.",
+        "조부모님은 여행을 좋아하지 않으신다.",
+        "조부모님은 도시에서 태어나 계속 도시에 사셨다."
+      ],
+      "answer": 2,
+      "why_ko": "In the past, they used to work on the farm.이라고 했으므로 ②가 일치한다. 지금은 도시에 살며 일을 하지 않고 여행을 즐긴다."
+    }
+  ],
+  "essays": [],
+  "diagnostics": {
+    "problems": [],
+    "warnings": [],
+    "n_items": 25,
+    "n_essays": 0,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 2016,
+    "output": 19740,
+    "usd": 0.5049
+  }
+}

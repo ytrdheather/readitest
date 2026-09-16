@@ -1,0 +1,516 @@
+{
+  "school": "영일중",
+  "set_no": 2,
+  "spec": {
+    "students": 4,
+    "exam_date": "2026-09-29",
+    "priority": "1순위 — 가장 이르고 학생 수 2위",
+    "total_points": 100,
+    "selective": 21,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "교사 자작 단락 (교과서 밖 짧은 글)",
+    "vessel_note": "2026-1 문항 2·10·11·12. 본문을 그대로 쓰지 않는다",
+    "signature": [
+      "서술형에 **어법 포인트를 조건으로 지정**한다 — 예측 가능하다",
+      "논술1에 「제시문의 3단어 이상 연속 표현 사용 금지」 — 통암기 차단",
+      "외부지문을 낸다 (A girl with a red balloon)"
+    ],
+    "essay_rule": "필수 어휘 지정 + 단어 수 범위 + 노리는 어법 지정",
+    "essay_blueprint": [
+      {
+        "필수어휘": "지정",
+        "단어수": "9~11",
+        "노리는 어법": "L5 목적격 관계대명사"
+      },
+      {
+        "필수어휘": "지정",
+        "단어수": "3~5",
+        "노리는 어법": "L5 used to 계열"
+      },
+      {
+        "필수어휘": "지정",
+        "단어수": "6~8",
+        "노리는 어법": "L6 지각동사+목적보어"
+      },
+      {
+        "필수어휘": "제시문 단어만",
+        "단어수": "8~10",
+        "노리는 어법": "L6 so ~ that"
+      }
+    ],
+    "vocab_items": 2,
+    "vocab_points": 6,
+    "form_choice": 1,
+    "standalone": 0,
+    "external_passages": [
+      "A girl with a red balloon"
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L6 본문 (Dr. Schofield)",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ④⑤⑥",
+      "text": "B: What kinds of magazines do you have?\nG: We have all kinds of magazines.\nB: I’m really interested in science. Can you recommend a science magazine for me?\nG: Sure. You’ll love this one, Teen’s Science.\nG: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!\nB: What kind of food do you like, Amy?\nG: I like Italian food. How about you, Tom?\nB: I love Indian food.\nG: Can you recommend a good Indian dish for me?\nB: Well, why don’t you try tandoori chicken? It’s really good."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 Read More",
+      "text": "I’ll explain how you can get to the City Library from the school. The best way to get there is to take the bus. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.\nThe painting I want to write about is The Red Room by Henri Matisse. This painting shows a red room with a window. In the room, there are two chairs and a big table. We also see a woman who is setting the table. I like the red color of this painting. I think that the room feels warm because of it.\nPeople take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. People write their dreams and goals on a big wall. They share their stories and make a special artwork together.\nIn the past, my grandparents used to live in the country. Now they live in a city. In the past, they used to work on the farm. Now they do not work, and they enjoy traveling."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 — A girl with a red balloon",
+      "text": "Have you ever seen this image of a girl with a red balloon? It was painted by Banksy, a world-famous street artist from the UK. His artworks are known for carrying social messages about issues such as war and inequality. Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery. His art appears on streets, walls, and bridges, and is often created without permission.\n\nGirl with Balloon is one of Banksy’s most well-known works. It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s. However, it is actually part of a series of paintings. In this artwork, a small child is reaching out toward a red balloon. There are different interpretations of the painting. According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope. If you think about it that way, the painting can be seen as a symbol of losing those things. The image is simple but has a strong emotional impact. That may be why so many people like it."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 A — 독서 동아리 행사",
+      "text": "Last Saturday, our book club held a small event in the school library. The novel ①which we read together last month was about a young painter. Sujin brought a poster ②that she made at home, and everyone liked it. The writer ③whom we invited gave a short talk about reading habits. There were a few questions ④them we could not answer, but the talk was still helpful. The photos ⑤we took that day are still on the club board."
+    },
+    {
+      "id": "T2",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 B — 아버지의 고향",
+      "text": "My father’s hometown has changed a lot. There ①used to be a small bakery near the bus stop, but a tall building stands there now. When he was young, he ②used to ride his bike along the river every morning. He ③didn’t use to like big cities, but now he lives in Seoul. At first the noise bothered him, but these days he ④is used to live in a busy city. His old bike ⑤is used to deliver bread to his neighbors on weekends."
+    },
+    {
+      "id": "T3",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 C — 어제 저녁",
+      "text": "Yesterday evening, I ①heard someone singing in the next room. When I opened the door, I ②saw my little sister to dance in front of the mirror. She said she felt her heart ③beat fast because she was practicing for the school show. I watched her ④move to the music for a while. Then Mom ⑤noticed us laughing together and joined us."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 D — 어젯밤 콘서트",
+      "text": "Last night, the concert hall was (A)[so / such] crowded that we could hardly move. The song (B)[which / which it] the band played first was my favorite. At the end of the show, we saw the singer (C)[bow / to bow] to the audience."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "[P1] 윗글의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "A Canadian Doctor Who Loved Korea",
+        "The History of Tapgol Park in Seoul",
+        "How to Learn Korean in a Few Years",
+        "Foreign Newspapers in the Early 1900s",
+        "The First Korean Photographer in Canada"
+      ],
+      "answer": 1,
+      "why_ko": "P1은 캐나다인 의사 Schofield가 한국을 사랑하고 독립운동을 도운 삶 전체를 다루므로 ①이 제목으로 알맞다. 나머지는 글의 일부 소재이거나 사실과 다르다."
+    },
+    {
+      "no": 2,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "[T1] 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "④는 선행사 questions를 받는 목적격 관계대명사 자리이므로 them이 아니라 which(that)를 쓰거나 생략해야 한다. ①②③⑤는 모두 올바른 목적격 관계대명사(또는 생략) 용법이다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 3,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "[P1] 다음 영영풀이에 해당하는 단어를 윗글에서 찾을 때 알맞은 것은?\n  a piece of writing about a particular subject in a newspaper or magazine",
+      "options": [
+        "favor",
+        "article",
+        "event",
+        "movement",
+        "invitation"
+      ],
+      "answer": 2,
+      "why_ko": "신문·잡지에 실리는 특정 주제의 글은 article이다. Schofield가 3·1 운동에 대해 쓴 글이 이에 해당한다."
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P1] 윗글의 내용과 일치하지 않는 것은?",
+      "options": [
+        "Schofield 박사는 1916년에 의학을 가르치기 위해 한국에 왔다.",
+        "그는 한국어로 가르치고 싶어서 바로 한국어를 배우기 시작했다.",
+        "그는 3·1 운동 이후에는 한국에 관한 글을 더 이상 쓰지 않았다.",
+        "그는 일본 경찰의 감시를 받아 1920년에 캐나다로 돌아가야 했다.",
+        "그는 서울 국립현충원에 묻혔다."
+      ],
+      "answer": 3,
+      "why_ko": "3·1 운동 이후에도 그는 한국의 참혹한 상황에 대해 계속 외국 신문에 글을 썼다고 했으므로 ③이 일치하지 않는다."
+    },
+    {
+      "no": 5,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "[P1] 한 남자가 Schofield 박사에게 부탁한 a special favor의 내용으로 가장 알맞은 것은?",
+      "options": [
+        "독립운동가들을 자기 집에 숨겨 주는 것",
+        "행사 장면을 사진으로 찍어 세계에 알려 주는 것",
+        "다친 사람들을 병원에서 치료해 주는 것",
+        "한국 학생들에게 영어를 가르쳐 주는 것",
+        "가난한 학생들에게 학비를 보태 주는 것"
+      ],
+      "answer": 2,
+      "why_ko": "남자는 다음 날 모일 사람들의 행사 사진을 찍어 세계와 공유해 달라고 부탁했다."
+    },
+    {
+      "no": 6,
+      "material_id": "P1",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[P1] 윗글의 내용을 한 문장으로 요약할 때 빈칸에 들어갈 말로 가장 알맞은 것은?\n  Dr. Schofield helped Korea by ____________ the March 1st Movement and telling the world about it.",
+      "options": [
+        "hiding from",
+        "taking pictures of",
+        "putting an end to",
+        "paying money for",
+        "asking permission for"
+      ],
+      "answer": 2,
+      "why_ko": "그는 3·1 운동의 장면을 사진으로 찍고 기사와 함께 외국 신문에 보내 세계에 알렸다."
+    },
+    {
+      "no": 7,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P2] 대화의 내용과 일치하는 것은?",
+      "options": [
+        "The boy is looking for a history magazine.",
+        "Somi needs books because she has to write an essay.",
+        "Liam recommends Dr. Schweitzer to Somi.",
+        "Audrey Hepburn helped others by selling her paintings.",
+        "Amy recommends tandoori chicken to Tom."
+      ],
+      "answer": 2,
+      "why_ko": "소미는 숙제로 에세이를 써야 해서 다른 사람을 도운 유명인에 관한 책을 찾고 있다. ①은 science, ③은 소미가 먼저 떠올린 인물, ④는 아동을 위한 봉사활동, ⑤는 추천한 사람이 Tom이므로 틀리다."
+    },
+    {
+      "no": 8,
+      "material_id": "P2",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[P2] 다음은 P2의 대화와 같은 상황의 대화이다. 빈칸에 들어갈 말로 가장 알맞은 것은?\n  A: I want to read a book about space. ____________?\n  B: Sure. Why don’t you try Journey to the Stars?",
+      "options": [
+        "Can you recommend one for me",
+        "Can you show me the way to the park",
+        "Do you want to borrow my magazine",
+        "How long does it take to get there",
+        "What do you want to be in the future"
+      ],
+      "answer": 1,
+      "why_ko": "B가 책을 하나 제안하고 있으므로 빈칸에는 추천을 요청하는 표현이 알맞다."
+    },
+    {
+      "no": 9,
+      "material_id": "P2",
+      "type": "T-WORD-ORDER",
+      "points": 3,
+      "stem_ko": "[P2] 우리말에 맞게 다음 어휘를 모두 배열할 때, 다섯 번째로 오는 단어는?\n  (우리말) 저에게 좋은 인도 음식을 추천해 주실 수 있나요?\n  (어휘) can / you / a / good / Indian / dish / recommend / for / me",
+      "options": [
+        "recommend",
+        "a",
+        "good",
+        "for",
+        "dish"
+      ],
+      "answer": 3,
+      "why_ko": "Can you recommend a good Indian dish for me? 순서이므로 다섯 번째 단어는 good이다."
+    },
+    {
+      "no": 10,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "[T2] 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "④는 ‘~하는 데 익숙하다’의 뜻이므로 be used to + -ing 형태인 is used to living이 되어야 한다. ⑤의 be used to + 동사원형은 ‘~하는 데 사용되다’로 바르게 쓰였다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 11,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "[T3] 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "지각동사 see의 목적격보어로는 동사원형이나 현재분사를 쓰므로 ②는 to dance가 아니라 dance 또는 dancing이어야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 12,
+      "material_id": "T4",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "[T4] (A), (B), (C)의 각 네모 안에서 어법에 맞는 표현을 바르게 짝지은 것은?",
+      "options": [
+        "(A) so – (B) which – (C) bow",
+        "(A) so – (B) which it – (C) bow",
+        "(A) so – (B) which – (C) to bow",
+        "(A) such – (B) which – (C) to bow",
+        "(A) such – (B) which it – (C) bow"
+      ],
+      "answer": 1,
+      "why_ko": "(A) 형용사 crowded 앞이므로 so ~ that, (B) 목적격 관계대명사 which 뒤에는 목적어 it을 다시 쓰지 않으며, (C) 지각동사 saw의 목적격보어는 동사원형 bow이다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH / REL_OBJECT / PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 13,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P3] 윗글의 내용과 일치하는 것은?",
+      "options": [
+        "The best way to get to the City Library is to take the subway.",
+        "It takes about thirty minutes to get to the library.",
+        "In The Red Room, a woman is setting the table.",
+        "People stick pictures of their pets on the street.",
+        "The writer’s grandparents still work on the farm."
+      ],
+      "answer": 3,
+      "why_ko": "The Red Room 설명에서 식탁을 차리고 있는 여인이 보인다고 했다. 나머지는 버스, 10분, 얼굴 사진, 현재는 일하지 않음이라는 내용과 어긋난다."
+    },
+    {
+      "no": 14,
+      "material_id": "P3",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[P3] 윗글의 내용으로 보아 다음 빈칸에 들어갈 말로 가장 알맞은 것은?\n  The writer’s grandparents ____________ in the country, but now they live in a city and enjoy traveling.",
+      "options": [
+        "are used to living",
+        "used to live",
+        "are using to live",
+        "used to living",
+        "were used to live"
+      ],
+      "answer": 2,
+      "why_ko": "과거의 습관·상태를 나타내는 used to + 동사원형이 알맞다. be used to -ing(익숙하다)와 구별해야 한다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 15,
+      "material_id": "P3",
+      "type": "T-PHRASE-INFER",
+      "points": 3,
+      "stem_ko": "[P3] The Red Room을 설명한 단락의 마지막 문장에 쓰인 it이 가리키는 것으로 알맞은 것은?",
+      "options": [
+        "the window in the room",
+        "the red color of the painting",
+        "the big table",
+        "the woman who is setting the table",
+        "the warm feeling of the writer"
+      ],
+      "answer": 2,
+      "why_ko": "글쓴이는 그림의 빨간색이 마음에 들고, 그 색 때문에 방이 따뜻하게 느껴진다고 했다."
+    },
+    {
+      "no": 16,
+      "material_id": "P4",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "[P4] 윗글의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "Banksy: A Street Artist and His Famous Balloon",
+        "How to Become a Famous Painter in the UK",
+        "The Long History of Waterloo Bridge",
+        "Why Street Art Should Be Stopped",
+        "Children’s Dreams in Modern Museums"
+      ],
+      "answer": 1,
+      "why_ko": "글은 거리 예술가 Banksy와 그의 대표작 Girl with Balloon을 소개하고 있다."
+    },
+    {
+      "no": 17,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P4] 윗글의 내용과 일치하지 않는 것은?",
+      "options": [
+        "Banksy는 영국 출신의 세계적으로 유명한 거리 예술가이다.",
+        "그의 작품은 전쟁과 불평등 같은 사회적 메시지를 담고 있다.",
+        "그의 실제 신원은 이미 널리 알려져 있다.",
+        "Girl with Balloon은 2000년대 초 런던의 한 벽에 처음 나타났다.",
+        "그의 작품은 허가 없이 만들어지는 경우가 많다."
+      ],
+      "answer": 3,
+      "why_ko": "아무도 그의 실제 신원을 모르며, 그것이 신비로움을 더한다고 했으므로 ③은 일치하지 않는다."
+    },
+    {
+      "no": 18,
+      "material_id": "P4",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "[P4] 다음 영영풀이에 해당하는 단어를 윗글에서 찾을 때 알맞은 것은?\n  the act of allowing someone to do something",
+      "options": [
+        "identity",
+        "permission",
+        "inequality",
+        "interpretation",
+        "impact"
+      ],
+      "answer": 2,
+      "why_ko": "무엇을 하도록 허락하는 행위는 permission이다."
+    },
+    {
+      "no": 19,
+      "material_id": "P4",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "[P4] 윗글의 losing those things가 의미하는 바로 가장 알맞은 것은?",
+      "options": [
+        "순수함, 꿈, 희망과 같은 어린 시절의 것들을 잃는 것",
+        "거리 예술가로서의 명성을 잃는 것",
+        "그림이 그려져 있던 벽이 사라지는 것",
+        "전쟁으로 인해 집과 가족을 잃는 것",
+        "예술가의 실제 신원이 밝혀지는 것"
+      ],
+      "answer": 1,
+      "why_ko": "바로 앞에서 빨간 풍선이 어린 시절과 그것이 상징하는 순수함, 꿈, 희망을 나타낸다고 했다."
+    },
+    {
+      "no": 20,
+      "material_id": "P4",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[P4] 윗글의 내용으로 보아 다음 빈칸에 들어갈 말로 가장 알맞은 것은?\n  Banksy’s works are powerful because they send ____________ through very simple images.",
+      "options": [
+        "social messages",
+        "expensive gifts",
+        "funny jokes about animals",
+        "secret codes to the police",
+        "long stories about his family"
+      ],
+      "answer": 1,
+      "why_ko": "그의 작품은 전쟁과 불평등 같은 사회적 메시지를 담는 것으로 알려져 있다고 했다."
+    },
+    {
+      "no": 21,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P4] 윗글에서 언급되지 않은 것은?",
+      "options": [
+        "Banksy의 출신 국가",
+        "Girl with Balloon이 처음 나타난 장소",
+        "빨간 풍선에 대한 한 가지 해석",
+        "Banksy의 작품이 팔린 가격",
+        "Girl with Balloon이 연작의 일부라는 사실"
+      ],
+      "answer": 4,
+      "why_ko": "작품이 팔린 가격에 대한 언급은 글에 없다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 22,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "[P3] 다음 우리말과 같은 뜻이 되도록 아래 조건에 맞게 영작하시오.\n  (우리말) 소미가 그 그림에서 가장 좋아하는 색은 빨간색이다.\n  <조건> ① 목적격 관계대명사 which를 반드시 포함할 것 ② 주어진 어휘를 모두 사용할 것(형태 변화 가능) ③ 9~11 단어로 쓸 것 ④ P3에 나온 표현을 연속된 3단어 이상 그대로 옮겨 쓰지 말 것",
+      "given_words": [
+        "color",
+        "like",
+        "most",
+        "painting",
+        "red"
+      ],
+      "word_limit": "9~11 단어",
+      "target_grammar": "REL_OBJECT (목적격 관계대명사 which)",
+      "answer_en": "The color which Somi likes most in the painting is red.",
+      "why_ko": "선행사 The color를 목적격 관계대명사 which가 받아 Somi likes의 목적어 역할을 한다(총 11단어). P3의 3단어 이상 연속 표현을 사용하지 않았다."
+    },
+    {
+      "no": 23,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "다음 대화의 빈칸을 아래 조건에 맞게 완성하시오.\n  A: You speak in front of many people so well!\n  B: Really? ____________________, but now I enjoy it.\n  <조건> ① 과거의 상태를 나타내는 used to를 쓸 것 ② shy를 사용할 것 ③ 3~5 단어로 쓸 것",
+      "given_words": [
+        "used to",
+        "shy"
+      ],
+      "word_limit": "3~5 단어",
+      "target_grammar": "VERB_USED_TO (과거의 상태: used to + 동사원형)",
+      "answer_en": "I used to be shy",
+      "why_ko": "지금과 대조되는 과거의 상태이므로 used to + 동사원형(be shy)을 쓴다(5단어). be used to -ing와 혼동하면 안 된다."
+    },
+    {
+      "no": 24,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록 아래 조건에 맞게 영작하시오.\n  (우리말) 나는 그가 서울역에서 내리는 것을 보았다.\n  <조건> ① 지각동사 see를 과거형으로 쓰고, 목적격보어는 동사원형으로 쓸 것 ② get off, Seoul Station을 사용하고 알맞은 전치사를 빠뜨리지 말 것 ③ 6~8 단어로 쓸 것",
+      "given_words": [
+        "see",
+        "get off",
+        "Seoul Station"
+      ],
+      "word_limit": "6~8 단어",
+      "target_grammar": "PERCEPTION_VERB_OC (지각동사 + 목적어 + 동사원형) + 전치사 at",
+      "answer_en": "I saw him get off at Seoul Station.",
+      "why_ko": "지각동사 saw의 목적격보어로 동사원형 get off를 쓰고, 역 이름 앞에는 전치사 at을 써서 get off at Seoul Station으로 표현한다(8단어)."
+    },
+    {
+      "no": 25,
+      "material_id": "P4",
+      "points": 5,
+      "prompt_ko": "[P4] 밑줄 없이, 윗글에서 이 그림이 많은 사람들에게 사랑받는 이유를 so ~ that 구문을 사용하여 한 문장으로 쓰시오.\n  <조건> ① so ~ that 구문을 사용할 것 ② P4에 나온 단어만 사용할 것 ③ 8~10 단어로 쓸 것",
+      "given_words": [
+        "image",
+        "simple",
+        "many people",
+        "like"
+      ],
+      "word_limit": "8~10 단어",
+      "target_grammar": "SO_SUCH_TOO_ENOUGH (so + 형용사 + that + 주어 + 동사)",
+      "answer_en": "The image is so simple that many people like it.",
+      "why_ko": "형용사 simple 앞에 so를 쓰고 결과를 that절로 연결한다(10단어). such를 쓰려면 such a simple image 형태가 되어야 하므로 여기서는 so가 알맞다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [],
+    "warnings": [
+      "서술형 24번 필수 단어가 답에 안 보임 ['see'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 21,
+    "n_essays": 4,
+    "total_points": 100
+  }
+}

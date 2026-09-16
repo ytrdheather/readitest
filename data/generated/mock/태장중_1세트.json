@@ -1,0 +1,498 @@
+{
+  "school": "태장중",
+  "set_no": 1,
+  "spec": {
+    "students": 2,
+    "exam_date": "2026-10-01",
+    "priority": "서술형이 있어 준비 시간이 든다",
+    "total_points": 100,
+    "selective": 19,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "긴 외부지문",
+    "vessel_note": "2026-1 문항 11·15·18. 지문이 길고 밑줄이 여럿이다",
+    "signature": [
+      "서술형이 **단어 세트 + 단어 수 제한**이다 (어법 지정이 아니다)",
+      "지문 둘을 [A][B] 로 묶고 표로 대조 (문항 9~10)",
+      "본문을 에세이 형식으로 전환 (문항 14)"
+    ],
+    "essay_rule": "주어진 단어 전부 포함 + 단어 수 상한",
+    "essay_blueprint": [
+      {
+        "조건": "완전한 한 문장 · 시제 변형 · 주어진 단어 전부 포함",
+        "단어수": "제한 없음"
+      },
+      {
+        "조건": "지정 단어 포함",
+        "단어수": "9단어 이하"
+      },
+      {
+        "조건": "지정 단어 포함",
+        "단어수": "8단어 이하"
+      },
+      {
+        "조건": "본문 단어만",
+        "단어수": "네 단어"
+      }
+    ],
+    "vocab_items": 3,
+    "vocab_points": 12,
+    "form_choice": 1,
+    "standalone": 1,
+    "standalone_points": 4,
+    "external_passages": []
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문 · Street Art in London",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L5 대화 ①②③",
+      "text": "B: Excuse me, how can I get to the Star Stadium?\nG: You can get there by subway. Take line 4, the green line, and get off at Hangang Station.\nB: Line 4 and Hangang Station. Got it. How long will it take?\nG: A little more than 30 minutes.\nB: I’m sorry, but how can I get to the Sky Cinema?\nG: It’s not far, but it’s a little difficult to find. Why don’t you take a taxi?\nB: OK. How long will it take?\nG: By taxi? About 20 minutes.\nG: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L6 Read More",
+      "text": "W: Hello, everyone. The movie I’m going to introduce today is The Song of Love. It’s a movie about a pianist who loses his love for music. He moves to a small town for a new start. There, he begins teaching music to children and finds his love for music again. This movie has great music and a touching story, so I strongly recommend it.\nFrank W. Schofield was a Canadian doctor. He loved Korean people and helped the Korean independence movement. He took pictures of the March 1st Movement and wrote an article about it.\nKim Mandeok was born in Jeju-do in 1739. She was a successful businesswoman. In 1795, she saw many people dying from hunger. So, she bought rice with all her money and gave it away to poor people. Her love for others was so selfless that many people respected her. From her life, I learned that selfless love for others can make a big difference.\nNick Priest saw a car accident and ran to save the children on the bus. Kay Brown saw a homeless person in the subway and gave her own shoes to her. Eliot Middleton is a restaurant owner. He spends his free time fixing old cars and donating them to people in need."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "외부지문 A · The Village on the Wall",
+      "text": "My grandmother often talks about the small fishing village ①which she grew up in. A busy fish market ②used to stand near the harbor, but it closed down about twenty years ago, and most young people left the village. Last summer, a group of young artists came and painted murals on the empty walls. The first mural ③that they finished shows an old fisherman mending his net under a yellow moon. My grandmother looked at it for a long time and said, \"The man ④whom the artists painted looks just like my father.\" These days, hundreds of visitors take pictures of the murals every weekend, and the villagers ⑤are used to welcome them with a big smile."
+    },
+    {
+      "id": "T2",
+      "kind": "teacher_paragraph",
+      "title": "외부지문 B · Ten Minutes in the Park",
+      "text": "Last Saturday, I was walking home along the river when I heard someone ①shout in the park. I ran through the gate and saw a little boy ②crying next to a bench. He had lost his mother in the crowd, and he was ③so upset that he could not even tell me his name. I felt my heart ④to beat fast, so I sat down beside him, held his hand, and talked about my favorite cartoon until he stopped crying. Ten minutes later, a police officer brought his mother to the park, and I watched the boy ⑤run into her arms. It was such a warm moment that I still remember it."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "단문 나열형",
+      "text": "① This is the book which I borrowed from the library.\n② There used to be a big tree in front of the school.\n③ The soup was so hot that I couldn't eat it at once.\n④ I saw my brother to play the guitar in his room.\n⑤ She is the girl whom everyone in our class likes."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "[A][B] 두 예술가 비교",
+      "text": "[A] Julien is a French artist who makes small mosaics from colorful tiles. He puts them high on the walls of buildings in more than 80 cities around the world. He usually works late at night, so few people ever see him put up his art. He never sells his works, and he says the street itself is his gallery.\n\n[B] Magda is a Polish artist. She covers cold city objects such as benches, trees, and bus stops with warm, hand-knitted wool. It takes her about two weeks to finish one piece. She sometimes sells small pieces online and gives all the money to a children's hospital.\n\n<표>\n         |      [A] Julien       |        [B] Magda\n① 국적    | French               | Polish\n② 재료    | colorful tiles       | hand-knitted wool\n③ 장소    | high on city walls   | benches, trees, bus stops\n④ 작업    | late at night        | about two weeks for one piece\n⑤ 판매    | sells in a gallery   | sometimes sells online"
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "어형 고르기 단락",
+      "text": "The song (A)[that / what] I listened to yesterday is from an old black-and-white movie. It was (B)[so / such] a sad story that many people in the theater cried. But at the very end, you can see the main character (C)[to smile / smile] for the first time."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "에세이 전환 · A Day with Street Art in London (by Jiho)",
+      "text": "Last Saturday my class joined a street art tour. Our first stop was Shoreditch, a poor working-class area in the past. There we found three human figures painted only with lines and dots. Their eyes were nothing but small dots, but they quietly told us about the past, the present, and the future of the area. In Finsbury Park, a green tree on the wall behind a real leafless tree made us think about nature and how tired it is these days. Our last stop was Muswell Hill, where tiny paintings on old gum were hiding right under our feet. ________, the artworks we saw that day were very different in size and style, but each of them carried a message for someone."
+    },
+    {
+      "id": "T7",
+      "kind": "standalone_set",
+      "title": "밑줄 친 that의 쓰임",
+      "text": "① The gum paintings that Wilson makes carry personal messages.\n② Many people think that nature is having a hard time.\n③ This is the picture that I took in London last year.\n④ The man that we met in the park yesterday is a street artist.\n⑤ She finally showed me the letter that she wrote ten years ago."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "[P2]의 대화 내용과 일치하는 것은?",
+      "options": [
+        "The boy will take line 4 to get to the Star Stadium.",
+        "It takes less than 30 minutes to reach Hangang Station.",
+        "The girl tells the boy to walk to the Sky Cinema.",
+        "It takes about 30 minutes to get to the Sky Cinema by taxi.",
+        "The Dream Shopping Mall is so close that the boy can walk easily."
+      ],
+      "answer": 1,
+      "why_ko": "Star Stadium은 4호선(초록색)을 타고 가라고 했으므로 ①이 일치한다. ②는 '30분 조금 넘게', ③은 택시 권유, ④는 약 20분, ⑤는 '조금 멀다'고 했으므로 모두 불일치."
+    },
+    {
+      "no": 2,
+      "material_id": "P2",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "[P2]의 밑줄 없는 상황에서, 다음 말들을 바르게 배열하여 '버스로 얼마나 걸릴까요?'라는 뜻의 문장을 만들 때 다섯 번째로 오는 것은? (how / long / will / it / take / by bus)",
+      "options": [
+        "will",
+        "it",
+        "take",
+        "long",
+        "by bus"
+      ],
+      "answer": 3,
+      "why_ko": "How long will it take by bus? 순서이므로 다섯 번째는 take이다."
+    },
+    {
+      "no": 3,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T1]의 밑줄 친 ①~⑤ 중 어법상 <보기>가 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "why_ko": "be used to 다음에는 동명사가 와야 하므로 are used to welcome → are used to welcoming. ①③④는 목적격 관계대명사, ②는 'used to+동사원형'으로 모두 옳다.",
+      "grammar_point": "VERB_USED_TO / REL_OBJECT"
+    },
+    {
+      "no": 4,
+      "material_id": "T1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, [T1]에 쓰인 것은?\n  : a large picture that is painted on a wall",
+      "options": [
+        "sculpture",
+        "portrait",
+        "mural",
+        "poster",
+        "frame"
+      ],
+      "answer": 3,
+      "why_ko": "벽에 그린 큰 그림은 mural(벽화)이다."
+    },
+    {
+      "no": 5,
+      "material_id": "P1",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "[P1]의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "Famous Museums You Must Visit in London",
+        "A Tour of London's Well-Known Street Art",
+        "How to Become a Successful Street Artist",
+        "The Long History of Shoreditch and Its Workers",
+        "Street Art: Is It Art or Is It a Crime?"
+      ],
+      "answer": 2,
+      "why_ko": "런던의 세 장소를 돌며 유명 거리 예술 작품을 소개하는 투어 글이므로 ②가 제목으로 알맞다."
+    },
+    {
+      "no": 6,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "[P1]의 세 번째 문단에서 take better care of it의 it이 가리키는 것으로 알맞은 것은?",
+      "options": [
+        "the wall",
+        "the leafless tree",
+        "the sprayer",
+        "the green painting",
+        "nature"
+      ],
+      "answer": 5,
+      "why_ko": "바로 앞 문장에서 '자연이 힘든 시기를 보내고 있다'고 했으므로 it은 nature를 가리킨다."
+    },
+    {
+      "no": 7,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P1]의 내용과 일치하지 않는 것은?",
+      "options": [
+        "Shoreditch는 과거에 가난한 노동자들이 살던 지역이었다.",
+        "STIK은 선과 점만을 사용해 인체를 그리는 것으로 유명하다.",
+        "세 인물의 눈은 점에 불과하지만 보는 이에게 단서를 준다.",
+        "Banksy는 잎이 없는 나무 '앞'에 있는 벽에 초록색 페인트를 뿌렸다.",
+        "Wilson의 껌 그림에는 사람들의 개인적인 메시지가 담겨 있다."
+      ],
+      "answer": 4,
+      "why_ko": "본문은 잎이 없는 나무 '뒤(behind)'의 벽에 초록 페인트를 뿌렸다고 했으므로 ④가 불일치."
+    },
+    {
+      "no": 8,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, [P1]에 쓰인 것은?\n  : to be a sign or symbol of something",
+      "options": [
+        "recommend",
+        "represent",
+        "recognize",
+        "remind",
+        "replace"
+      ],
+      "answer": 2,
+      "why_ko": "무엇을 상징·대표한다는 뜻은 represent이다."
+    },
+    {
+      "no": 9,
+      "material_id": "T4",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[T4]의 [A], [B]를 정리한 표의 ①~⑤ 중, 글의 내용과 일치하지 않는 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "why_ko": "[A]의 Julien은 작품을 결코 팔지 않으며 거리 자체가 자신의 갤러리라고 했으므로 'sells in a gallery'는 틀렸다."
+    },
+    {
+      "no": 10,
+      "material_id": "T4",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[T4]의 [A], [B]에 대한 설명으로 알맞은 것은?",
+      "options": [
+        "Julien puts his mosaics only in French cities.",
+        "Julien works in the early morning so that many people can watch him.",
+        "Magda uses wool to cover cold objects in the city.",
+        "Magda needs about two days to finish one piece.",
+        "Both artists give the money from their art to a children's hospital."
+      ],
+      "answer": 3,
+      "why_ko": "Magda는 따뜻한 손뜨개 양모로 차가운 도시 사물을 덮는다. ①은 80개 이상의 도시, ②는 늦은 밤, ④는 약 2주, ⑤는 Magda만 해당."
+    },
+    {
+      "no": 11,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "[T3]의 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "지각동사 see의 목적격보어로는 원형부정사나 현재분사를 쓰므로 to play → play(playing).",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 12,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T2]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "feel도 지각동사이므로 목적격보어에 to부정사를 쓸 수 없다. to beat → beat(beating). ①②⑤는 지각동사 보어, ③은 so ~ that 구문으로 옳다.",
+      "grammar_point": "PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 13,
+      "material_id": "T5",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "[T5]의 (A), (B), (C)에서 어법상 알맞은 것끼리 바르게 짝지은 것은?",
+      "options": [
+        "that – so – smile",
+        "that – such – smile",
+        "that – such – to smile",
+        "what – such – smile",
+        "what – so – to smile"
+      ],
+      "answer": 2,
+      "why_ko": "선행사 The song이 있으므로 that, 뒤에 'a sad story'라는 명사구가 오므로 such, 지각동사 see의 목적격보어이므로 원형 smile이 알맞다.",
+      "grammar_point": "REL_OBJECT / SO_SUCH_TOO_ENOUGH / PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 14,
+      "material_id": "T6",
+      "type": "T-BLANK",
+      "points": 5,
+      "stem_ko": "[T6]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "For example",
+        "In short",
+        "On the contrary",
+        "By the way",
+        "Instead"
+      ],
+      "answer": 2,
+      "why_ko": "앞에서 소개한 세 작품을 마지막에 요약·정리하는 문장이므로 In short가 알맞다."
+    },
+    {
+      "no": 15,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P3]에서 소개한 영화 The Song of Love에 관한 내용으로 알맞지 않은 것은?",
+      "options": [
+        "주인공은 음악에 대한 사랑을 잃은 피아니스트이다.",
+        "그는 새 출발을 위해 작은 마을로 이사한다.",
+        "그는 그곳에서 음악에 대한 사랑을 다시 찾는다.",
+        "그는 마을 아이들에게 미술을 가르치기 시작한다.",
+        "말하는 이는 이 영화를 강력히 추천한다."
+      ],
+      "answer": 4,
+      "why_ko": "주인공은 아이들에게 '음악(music)'을 가르치기 시작한다."
+    },
+    {
+      "no": 16,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "[P3]에 언급된 인물에 대한 설명으로 알맞지 않은 것은?",
+      "options": [
+        "Schofield는 캐나다인 의사였다.",
+        "Schofield는 3·1 운동의 사진을 찍고 그에 관한 기사를 썼다.",
+        "김만덕은 1739년 제주도에서 태어난 성공한 사업가였다.",
+        "Kay Brown은 지하철에서 노숙인에게 자신의 신발을 주었다.",
+        "Eliot Middleton은 낡은 차를 고쳐 팔고 그 돈을 기부한다."
+      ],
+      "answer": 5,
+      "why_ko": "Middleton은 낡은 차를 고쳐서 도움이 필요한 사람들에게 '기부(donating)'한다. 팔아서 돈을 기부하는 것이 아니다."
+    },
+    {
+      "no": 17,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, [P3]에 쓰인 것은?\n  : caring more about other people's needs than about your own",
+      "options": [
+        "careless",
+        "helpless",
+        "thankful",
+        "selfless",
+        "selfish"
+      ],
+      "answer": 4,
+      "why_ko": "자신보다 남을 더 생각하는 것은 selfless(사심 없는)이다."
+    },
+    {
+      "no": 18,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 5,
+      "stem_ko": "[T7]의 밑줄 친 that의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "②의 that은 think의 목적어절을 이끄는 접속사이고, 나머지는 모두 목적격 관계대명사이다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 19,
+      "material_id": "T2",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "[T2]의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "A Lost Boy and the Ten Minutes I Stayed",
+        "How to Find Your Way in a Big Park",
+        "The Danger of Playing Alone by the River",
+        "A Police Officer's Very Busy Saturday",
+        "Why Children Cry in Public Places"
+      ],
+      "answer": 1,
+      "why_ko": "길 잃은 아이 곁에 10분 동안 함께 있어 준 경험을 담은 글이므로 ①이 알맞다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "[P1]의 내용과 일치하도록, 주어진 단어를 모두 사용하여 완전한 한 문장으로 쓰시오. (조건 1: 목적격 관계대명사를 사용할 것 / 조건 2: use는 시제·형태를 바꿀 것 / 조건 3: 단어 수 제한 없음)",
+      "given_words": [
+        "this",
+        "the area",
+        "poor workers",
+        "live in",
+        "use"
+      ],
+      "word_limit": "제한 없음",
+      "target_grammar": "REL_OBJECT + VERB_USED_TO",
+      "answer_en": "This is the area that poor workers used to live in.",
+      "why_ko": "선행사 the area가 live in의 목적어이므로 목적격 관계대명사 that(which)을 쓰고, '과거에 ~하곤 했다'는 used to+동사원형으로 표현한다."
+    },
+    {
+      "no": 2,
+      "material_id": "T2",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 사용하여 영작하시오. (조건 1: 필요하면 형태를 바꿀 것 / 조건 2: 9단어 이하로 쓸 것)\n  → 나는 그 아이들이 버스에 타고 있는 것을 보았다.",
+      "given_words": [
+        "see",
+        "the children",
+        "get on",
+        "the bus"
+      ],
+      "word_limit": "9단어 이하",
+      "target_grammar": "PERCEPTION_VERB_OC",
+      "answer_en": "I saw the children getting on the bus.",
+      "why_ko": "지각동사 see의 목적격보어로 진행의 의미를 살려 현재분사 getting을 쓴다. (getting 대신 get도 가능) 총 8단어."
+    },
+    {
+      "no": 3,
+      "material_id": "P2",
+      "points": 5,
+      "prompt_ko": "[P2]의 대화 내용에 맞게, 주어진 단어를 모두 사용하고 알맞은 전치사를 넣어 문장을 완성하시오. (조건 1: You로 시작할 것 / 조건 2: 8단어 이하로 쓸 것)",
+      "given_words": [
+        "you",
+        "get off",
+        "Hangang Station"
+      ],
+      "word_limit": "8단어 이하",
+      "target_grammar": "전치사 at (get off at ~ Station)",
+      "answer_en": "You should get off at Hangang Station.",
+      "why_ko": "'~역에서 내리다'는 get off at ~ Station으로 전치사 at을 쓴다. (You have to get off at Hangang Station.도 가능) 7~8단어."
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "다음 질문에 대한 답을 [P1]에서 찾아 본문에 있는 단어만 사용하여 네 단어로 쓰시오.\n  Q: What does STIK use in his paintings of human bodies?",
+      "given_words": [],
+      "word_limit": "네 단어",
+      "target_grammar": "본문 세부 정보 찾아 쓰기",
+      "answer_en": "only lines and dots",
+      "why_ko": "STIK은 인체를 그릴 때 선과 점만 사용하는 것으로 유명하다고 했으므로 only lines and dots(네 단어)이다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [
+      "자료 P1 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P2 의 줄바꿈이 달라 원본으로 되돌림",
+      "자료 P3 의 줄바꿈이 달라 원본으로 되돌림"
+    ],
+    "warnings": [
+      "서술형 2번 필수 단어가 답에 안 보임 ['see', 'get on'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 19,
+    "n_essays": 4,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 2267,
+    "output": 20181,
+    "usd": 0.5172
+  }
+}
