@@ -13,6 +13,10 @@
 경계가 페이지 단위라 페이지만 갈라내면 되고, 원본 페이지를 그대로 복사하므로
 글자·그림·레이아웃이 손상되지 않는다.
 
+결과는 result/ 한 곳에 학교 이름으로 모은다. 교재가 아니라 학교로 찾는다.
+  result/영일중 5과 드릴.pdf · 영일중 5과 드릴 정답지.pdf
+같은 교재를 쓰는 학교는 같은 파일을 이름만 달리 받는다.
+
   python tools/split_source_pdfs.py                 # 미리보기 (파일 안 씀)
   python tools/split_source_pdfs.py --apply
   python tools/split_source_pdfs.py --apply --lesson "6과"
@@ -26,8 +30,16 @@ from pathlib import Path
 
 import fitz  # PyMuPDF
 
-SOURCE = Path(__file__).resolve().parent.parent / "Source"
-OUT_DIRNAME = "_묶음"
+ROOT = Path(__file__).resolve().parent.parent
+SOURCE = ROOT / "Source"
+RESULT = ROOT / "result"
+
+# 중1 학교별 교재 — 원장 확인 (data/stage0/comparisons/L5_학교별_문법범위.md §진도 축)
+# Source/ 폴더 이름의 '중1 ' 뒤 부분을 키로 쓴다.
+SCHOOLS = {
+    "동아윤정미": ["영일중", "영덕중", "태장중"],
+    "비상황종배": ["청명중"],
+}
 
 ANSWER_KEY = re.compile(r"Answer\s*Key", re.I)
 ANSWER_HEAD = re.compile(r"^\s*정답\s*$", re.M)          # 예상문제 정답장 머리말
@@ -162,8 +174,8 @@ def scan(folder: Path, all_steps: bool):
     return plan, skipped, dropped
 
 
-def build(plan, out_path: Path, part: str) -> int:
-    """part='q' 문제 / part='a' 정답 을 하나로 합치고 책갈피를 단다."""
+def build(plan, part: str) -> tuple[bytes, int]:
+    """part='q' 문제 / part='a' 정답 을 하나로 합치고 책갈피를 단다. (bytes, 쪽수)"""
     merged = fitz.open()
     toc = []
     for item in plan:
@@ -179,13 +191,34 @@ def build(plan, out_path: Path, part: str) -> int:
         src.close()
     if merged.page_count == 0:
         merged.close()
-        return 0
+        return b"", 0
     merged.set_toc(toc)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    merged.save(out_path, garbage=3, deflate=True)
+    data = merged.tobytes(garbage=3, deflate=True)
     n = merged.page_count
     merged.close()
-    return n
+    return data, n
+
+
+def deliver(folder: Path, plan) -> list[str]:
+    """묶음을 만들어 result/ 에 학교 이름으로 놓는다. 만든 파일 이름을 돌려준다."""
+    book = folder.parent.name.replace("중1", "").strip()
+    lesson = folder.name
+    schools = SCHOOLS.get(book)
+    if not schools:
+        print(f"   ⚠ '{book}' 을 쓰는 학교를 모른다 — SCHOOLS 에 추가할 것")
+        return []
+    q, nq = build(plan, "q")
+    a, na = build(plan, "a")
+    RESULT.mkdir(exist_ok=True)
+    made = []
+    for school in schools:
+        for data, suffix, n in [(q, "", nq), (a, " 정답지", na)]:
+            if not data:
+                continue
+            name = f"{school} {lesson} 드릴{suffix}.pdf"
+            (RESULT / name).write_bytes(data)
+            made.append(f"{name} ({n}p)")
+    return made
 
 
 def main():
@@ -197,8 +230,7 @@ def main():
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
-    folders = sorted(p for p in SOURCE.glob("*/*") if p.is_dir() and p.name != OUT_DIRNAME)
-    folders += [p for p in SOURCE.glob("*") if p.is_dir() and any(p.glob("*.pdf"))]
+    folders = sorted(p for p in SOURCE.glob("*/*") if p.is_dir())
     if args.lesson:
         folders = [f for f in folders if args.lesson in f.name]
 
@@ -232,11 +264,8 @@ def main():
             print(f"   [제외] {d}")
 
         if args.apply:
-            out = folder / OUT_DIRNAME
-            tag = f"{rel.parts[0]}_{rel.parts[-1]}" if len(rel.parts) > 1 else rel.parts[0]
-            nq = build(plan, out / f"{tag}_문제.pdf", "q")
-            na = build(plan, out / f"{tag}_정답.pdf", "a")
-            print(f"   → {tag}_문제.pdf ({nq}p),  {tag}_정답.pdf ({na}p)")
+            for name in deliver(folder, plan):
+                print(f"   → result/{name}")
 
 
 if __name__ == "__main__":
