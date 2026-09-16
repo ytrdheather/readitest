@@ -13,9 +13,13 @@
 경계가 페이지 단위라 페이지만 갈라내면 되고, 원본 페이지를 그대로 복사하므로
 글자·그림·레이아웃이 손상되지 않는다.
 
-결과는 result/ 한 곳에 학교 이름으로 모은다. 교재가 아니라 학교로 찾는다.
-  result/영일중 5과 드릴.pdf · 영일중 5과 드릴 정답지.pdf
+결과는 result/ 한 곳에 학교·학년 이름으로 모은다. 교재가 아니라 학교로 찾는다.
+  result/영일중1 5과 드릴.pdf · 영일중1 5과 드릴 정답지.pdf
 같은 교재를 쓰는 학교는 같은 파일을 이름만 달리 받는다.
+
+학년은 Source/ 폴더 이름('중1 동아윤정미')에서 읽고, 파일 이름의 '_중1_' 과
+맞는지 확인한다. 2026-09-16 중1 자료를 중2로 표기할 뻔했다 — 파일명 규칙은
+data/sources.md §5 판별 규칙을 따른다: (2022개정)2025년_중1_ 은 중1 교과서다.
 
   python tools/split_source_pdfs.py                 # 미리보기 (파일 안 씀)
   python tools/split_source_pdfs.py --apply
@@ -34,12 +38,17 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "Source"
 RESULT = ROOT / "result"
 
-# 중1 학교별 교재 — 원장 확인 (data/stage0/comparisons/L5_학교별_문법범위.md §진도 축)
-# Source/ 폴더 이름의 '중1 ' 뒤 부분을 키로 쓴다.
+# 학년·교재 → 학교. 원장 확인 기록:
+#   중1  data/stage0/comparisons/L5_학교별_문법범위.md §진도 축 (청명만 비상)
+#   중2  CLAUDE.md "2학년 4개교 전부 동아 윤정미"
+# 키는 Source/ 폴더 이름 '중1 동아윤정미' 를 (학년, 교재) 로 나눈 것.
 SCHOOLS = {
-    "동아윤정미": ["영일중", "영덕중", "태장중"],
-    "비상황종배": ["청명중"],
+    ("중1", "동아윤정미"): ["영일중", "영덕중", "태장중"],
+    ("중1", "비상황종배"): ["청명중"],
+    ("중2", "동아윤정미"): ["영일중", "영덕중", "태장중", "청명중"],
 }
+FOLDER = re.compile(r"^(중\d)\s*(.+)$")
+FILE_GRADE = re.compile(r"_(중\d)_|(중\d)\s*영어")   # 이그잼포유 | 교육지대
 
 ANSWER_KEY = re.compile(r"Answer\s*Key", re.I)
 ANSWER_HEAD = re.compile(r"^\s*정답\s*$", re.M)          # 예상문제 정답장 머리말
@@ -58,7 +67,7 @@ WORKBOOK_STEPS = {1, 4, 5, 6, 7}
 EXAM_PAPER = re.compile(r"^\[0[456]\]예상문제")
 
 # 파일이 어느 교재 것인지 — 폴더를 잘못 짚고 넣은 자료를 걸러내는 데 쓴다.
-PUBLISHER = re.compile(r"(동아|비상)\s*\(")
+PUBLISHER = re.compile(r"(동아|비상)")   # 폴더 '동아윤정미' · 파일 '동아(윤정미)' 둘 다
 
 
 def kind(path: Path) -> str:
@@ -145,6 +154,17 @@ def check_folder(folder: Path, pdfs: list[Path]) -> str | None:
     if len(wrong) > len(pdfs) / 2:
         got = publisher_of(wrong[0].name)
         return f"{want} 폴더인데 {len(wrong)}/{len(pdfs)}개가 {got} 파일이다"
+
+    m = FOLDER.match(folder.parent.name)
+    grade = m.group(1) if m else None
+    if grade:
+        def file_grade(name):
+            g = FILE_GRADE.search(name)
+            return (g.group(1) or g.group(2)) if g else None
+        wrong = [p for p in pdfs if (g := file_grade(p.name)) and g != grade]
+        if wrong:
+            return (f"{grade} 폴더인데 {len(wrong)}개가 {file_grade(wrong[0].name)} 파일이다 "
+                    f"(예: {wrong[0].name[:50]})")
     return None
 
 
@@ -201,11 +221,15 @@ def build(plan, part: str) -> tuple[bytes, int]:
 
 def deliver(folder: Path, plan) -> list[str]:
     """묶음을 만들어 result/ 에 학교 이름으로 놓는다. 만든 파일 이름을 돌려준다."""
-    book = folder.parent.name.replace("중1", "").strip()
+    m = FOLDER.match(folder.parent.name)
+    if not m:
+        print(f"   ⚠ 폴더 이름이 '중1 동아윤정미' 꼴이 아니다: {folder.parent.name}")
+        return []
+    grade, book = m.group(1), m.group(2).strip()
     lesson = folder.name
-    schools = SCHOOLS.get(book)
+    schools = SCHOOLS.get((grade, book))
     if not schools:
-        print(f"   ⚠ '{book}' 을 쓰는 학교를 모른다 — SCHOOLS 에 추가할 것")
+        print(f"   ⚠ {grade} {book} 을 쓰는 학교를 모른다 — SCHOOLS 에 추가할 것")
         return []
     q, nq = build(plan, "q")
     a, na = build(plan, "a")
@@ -215,7 +239,7 @@ def deliver(folder: Path, plan) -> list[str]:
         for data, suffix, n in [(q, "", nq), (a, " 정답지", na)]:
             if not data:
                 continue
-            name = f"{school} {lesson} 드릴{suffix}.pdf"
+            name = f"{school}{grade[-1]} {lesson} 드릴{suffix}.pdf"   # 영일중1 5과 드릴
             (RESULT / name).write_bytes(data)
             made.append(f"{name} ({n}p)")
     return made
