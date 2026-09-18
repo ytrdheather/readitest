@@ -1,0 +1,374 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L5 본문 — Who Threw a Cake at the Monalisa?",
+  "kind": "textbook_reading",
+  "parts": [
+    "중1 L5 본문 — Who Threw a Cake at the Monalisa?"
+  ],
+  "body": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia. There were four eyewitnesses. What did they say? Read the following, and find the criminal. Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting. I turned around and saw an old man. He was standing in front of a wheelchair. I’m about 170 cm tall, and he was a little taller than me. Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head. It was his wig. I ran after him, but I couldn’t catch him. He was faster than me. In fact, the old man was not old. He was a young man with long brown hair. Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting. There was also a wheelchair near the painting, and I found a cake box next to the wheelchair. The box was from Camila’s Bakery. Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in. I spoke to him in Spanish, but he didn’t understand me. He spoke only English. We had a lot of different cakes, but he just wanted the smallest one. We sold only one cake that day, so I remember him clearly. Oh, he had blue eyes. Now, look at the information about the suspects. Who threw the cake at the Monalisa?",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "034216d8-1256-4b59-ba1b-e671c8d0721d",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 23,
+      "span_end": 51,
+      "correct": "threw a cake at the Monalisa",
+      "wrong": [
+        "threw a cake the Monalisa"
+      ],
+      "why_ko": "'~을 향해(공격적으로) 던지다'는 throw A at B로 쓰며, to는 건네주는 느낌이고 전치사를 빼면 문장이 성립하지 않아요.",
+      "rationale": "'throw A at B'(~을 향해 던지다)의 고정 전치사 at. to/into 로 바꾸거나 전치사를 삭제한 오답(threw a cake the Monalisa)을 유도하기 쉬운 자리",
+      "sentence_no": 1,
+      "sentence": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia.",
+      "verify_dropped": [
+        {
+          "wrong": "threw a cake to the Monalisa",
+          "judgement": "odd",
+          "note_ko": "문법 형태는 가능하나 throw A to B는 받으라고 던지는 뜻이어서 그림 대상에는 뜻이 통하지 않음."
+        }
+      ]
+    },
+    {
+      "tag_id": "5a9cf4bf-c436-4334-b9c2-989d053cbd31",
+      "point": "PREP_USAGE",
+      "span_start": 52,
+      "span_end": 72,
+      "correct": "in the Botero Museum",
+      "wrong": [
+        "on the Botero Museum",
+        "at the Botero Museum in"
+      ],
+      "why_ko": "건물 안 공간을 나타낼 때는 in을 써요. on은 표면 위라는 뜻이라 어울리지 않아요.",
+      "rationale": "건물·공간 내부를 나타내는 in. at/on 으로 교체하는 빈칸 선지가 자주 출제됨",
+      "sentence_no": 1,
+      "sentence": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia."
+    },
+    {
+      "tag_id": "38d911b7-0646-4d88-a7f4-15253309a818",
+      "point": "CONJ_PARALLEL",
+      "span_start": 143,
+      "span_end": 185,
+      "correct": "Read the following, and find the criminal.",
+      "wrong": [
+        "Read the following, and finding the criminal.",
+        "Read the following, and finds the criminal."
+      ],
+      "why_ko": "and로 이어진 두 명령문은 모두 동사원형이어야 해서 finding·finds는 안 돼요.",
+      "rationale": "and 로 연결된 두 명령문(동사원형 Read / find)의 병렬. 뒤를 finding 이나 finds 로 바꾸는 병렬 파괴 오답 가능",
+      "sentence_no": 4,
+      "sentence": "Read the following, and find the criminal."
+    },
+    {
+      "tag_id": "915bd39d-4f58-4ebf-849c-149bf27ca944",
+      "point": "VERB_TENSE",
+      "span_start": 209,
+      "span_end": 223,
+      "correct": "was looking at",
+      "wrong": [
+        "am looking at"
+      ],
+      "why_ko": "과거 어느 순간 진행 중이던 동작이므로 과거진행 was looking이 맞아요.",
+      "rationale": "과거 진행 중이던 동작(was looking)과 그 사이 일어난 단순과거(threw)의 시제 대비. am looking / looked 로 바꾸는 오답 유도",
+      "sentence_no": 5,
+      "sentence": "Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting.",
+      "verify_dropped": [
+        {
+          "wrong": "looked at",
+          "judgement": "ok",
+          "note_ko": "단순과거도 어법상 맞음. 진행의 뉘앙스만 사라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "79a74693-b657-4e5d-a598-b6be9c585e66",
+      "point": "PREP_USAGE",
+      "span_start": 332,
+      "span_end": 356,
+      "correct": "in front of a wheelchair",
+      "wrong": [
+        "front of a wheelchair"
+      ],
+      "why_ko": "'~앞에'는 굳어진 표현 in front of로 써요. the를 넣으면 '(내부의) 앞부분'이 되고, in을 빼면 틀려요.",
+      "rationale": "위치를 나타내는 구전치사 in front of. in the front of / front of 처럼 형태를 흔들거나 전치사를 빼는 오답이 가능",
+      "sentence_no": 7,
+      "sentence": "He was standing in front of a wheelchair.",
+      "verify_dropped": [
+        {
+          "wrong": "in the front of a wheelchair",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 '휠체어 앞부분 안쪽'이라는 뜻이 되어 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "7dfc3e3d-c349-4dec-ac6c-c0540fe7badb",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 392,
+      "span_end": 415,
+      "correct": "a little taller than me",
+      "wrong": [
+        "very taller than me",
+        "more taller than me"
+      ],
+      "why_ko": "비교급을 강조할 땐 a little/much를 쓰고 very는 못 써요. taller에 more를 또 붙이는 것도 틀려요.",
+      "rationale": "비교급 강조 부사 a little(= a bit) + 비교급 + than. very taller / much more tall / more taller 같은 오답과 구별",
+      "sentence_no": 8,
+      "sentence": "I’m about 170 cm tall, and he was a little taller than me."
+    },
+    {
+      "tag_id": "0659f505-aacc-49d5-8101-7c307f66f90f",
+      "point": "VERB_SVA",
+      "span_start": 440,
+      "span_end": 482,
+      "correct": "An old man with gray hair was running away",
+      "wrong": [
+        "An old man with gray hair were running away",
+        "An old man with gray hair running away"
+      ],
+      "why_ko": "주어는 단수 An old man이므로 was를 쓰고, 동사가 아예 빠지면 문장이 안 돼요.",
+      "rationale": "주어 An old man 과 동사 was 사이에 with gray hair 전치사구가 끼어 있어 were 로 바꾸는 수일치 오답을 심기 좋은 자리",
+      "sentence_no": 9,
+      "sentence": "Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head."
+    },
+    {
+      "tag_id": "f83fb295-6f65-4ea9-a437-23ee5f566db6",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 498,
+      "span_end": 515,
+      "correct": "fell off his head",
+      "wrong": [
+        "was fallen off his head",
+        "was fell off his head"
+      ],
+      "why_ko": "fall은 목적어가 없는 자동사라 수동태로 쓸 수 없어요.",
+      "rationale": "fall 은 목적어를 취하지 않는 자동사라 수동태 불가. was fallen off 같은 자동사 수동태 오답 선지가 전형적",
+      "sentence_no": 9,
+      "sentence": "Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head."
+    },
+    {
+      "tag_id": "62c209cd-24dc-48c5-9a65-a74be2b834f6",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 535,
+      "span_end": 548,
+      "correct": "ran after him",
+      "wrong": [
+        "ran him"
+      ],
+      "why_ko": "'뒤쫓다'는 run after로 굳어진 표현이라 after를 빼거나 to로 바꾸면 뜻이 달라져요.",
+      "rationale": "run after(~를 뒤쫓다)의 고정 전치사 after. ran to / ran him 처럼 전치사 교체·삭제 오답 가능",
+      "sentence_no": 11,
+      "sentence": "I ran after him, but I couldn’t catch him.",
+      "verify_dropped": [
+        {
+          "wrong": "ran to him",
+          "judgement": "ok",
+          "note_ko": "어법상 맞는 표현이며 뜻만 '그에게 달려갔다'로 바뀜."
+        }
+      ]
+    },
+    {
+      "tag_id": "ff74a1c9-d551-4a88-b710-d80ad1fb63b7",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 556,
+      "span_end": 574,
+      "correct": "couldn’t catch him",
+      "wrong": [
+        "couldn’t caught him",
+        "couldn’t catching him"
+      ],
+      "why_ko": "조동사 could 뒤에는 항상 동사원형 catch가 와요.",
+      "rationale": "조동사 could 뒤 동사원형. couldn’t caught / couldn’t catching 형태 오류 유도",
+      "sentence_no": 11,
+      "sentence": "I ran after him, but I couldn’t catch him."
+    },
+    {
+      "tag_id": "ac507672-30cc-4d99-a187-f020bdf3599d",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 583,
+      "span_end": 597,
+      "correct": "faster than me",
+      "wrong": [
+        "more fast than me",
+        "fastest than me"
+      ],
+      "why_ko": "fast는 1음절이라 -er을 붙여 비교급을 만들고, than 앞에 최상급은 쓸 수 없어요.",
+      "rationale": "1음절 형용사/부사 fast 의 비교급 -er. more fast / fastest 오답과 구별",
+      "sentence_no": 12,
+      "sentence": "He was faster than me."
+    },
+    {
+      "tag_id": "dc7a6bef-98b9-4b6b-83db-38c942e30af7",
+      "point": "PREP_USAGE",
+      "span_start": 599,
+      "span_end": 606,
+      "correct": "In fact",
+      "wrong": [
+        "On fact",
+        "At fact"
+      ],
+      "why_ko": "'사실은'은 In fact로 굳어진 표현이에요.",
+      "rationale": "굳어진 부사구 In fact 의 앞 전치사. On fact / At fact 로 바꾸는 빈칸 선지가 자주 나옴",
+      "sentence_no": 13,
+      "sentence": "In fact, the old man was not old."
+    },
+    {
+      "tag_id": "e3916ba8-1458-4dcf-b4d3-839b5f6b3bf9",
+      "point": "VERB_SVA",
+      "span_start": 726,
+      "span_end": 773,
+      "correct": "there were pieces of cake all over the painting",
+      "wrong": [
+        "there was pieces of cake all over the painting",
+        "there are pieces of cake all over the painting"
+      ],
+      "why_ko": "There be 뒤 진짜 주어가 복수 pieces이고 시제도 과거라 were가 맞아요.",
+      "rationale": "There be 구문에서 실제 주어는 복수 pieces 이므로 were. there was 로 바꾼 수일치 오답이 전형적",
+      "sentence_no": 15,
+      "sentence": "Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting."
+    },
+    {
+      "tag_id": "21a3df45-2e22-45b4-b43d-eb45a224ed30",
+      "point": "VERB_SVA",
+      "span_start": 775,
+      "span_end": 802,
+      "correct": "There was also a wheelchair",
+      "wrong": [
+        "There were also a wheelchair",
+        "There is also a wheelchair"
+      ],
+      "why_ko": "주어가 단수 a wheelchair이고 과거 이야기라 was를 써요.",
+      "rationale": "단수 주어 a wheelchair 에 맞춘 was. were 로 바꾸는 오답 유도 (앞 문장의 were 와 대조시키기 좋음)",
+      "sentence_no": 16,
+      "sentence": "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair."
+    },
+    {
+      "tag_id": "bc101f68-fb90-4fba-b6df-90c75756f591",
+      "point": "PREP_USAGE",
+      "span_start": 845,
+      "span_end": 867,
+      "correct": "next to the wheelchair",
+      "wrong": [
+        "next of the wheelchair",
+        "next the wheelchair"
+      ],
+      "why_ko": "'~옆에'는 next to로 쓰며 of를 쓰거나 to를 빼면 틀려요.",
+      "rationale": "근접 위치의 next to. next of / near to 등으로 흔드는 빈칸 출제 가능",
+      "sentence_no": 16,
+      "sentence": "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair."
+    },
+    {
+      "tag_id": "9057b9dc-5ac7-4c6e-9235-ed753878123a",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 960,
+      "span_end": 979,
+      "correct": "a young man came in",
+      "wrong": [
+        "a young man was come in",
+        "a young man was came in"
+      ],
+      "why_ko": "come은 자동사라 수동태로 쓰지 않아요.",
+      "rationale": "come 은 자동사로 수동태가 불가능. was come in 같은 자동사 수동태 오답 선지를 만들 수 있는 자리",
+      "sentence_no": 18,
+      "sentence": "Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in."
+    },
+    {
+      "tag_id": "a0783330-c133-42ba-889e-62493c3621cf",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 983,
+      "span_end": 1006,
+      "correct": "spoke to him in Spanish",
+      "wrong": [
+        "spoke him in Spanish",
+        "spoke to him Spanish"
+      ],
+      "why_ko": "speak는 사람 앞에 to, 언어 앞에 in이 필요해요.",
+      "rationale": "speak to + 사람 / in + 언어. spoke him, spoke to him Spanish 처럼 전치사 삭제 오답 유도",
+      "sentence_no": 19,
+      "sentence": "I spoke to him in Spanish, but he didn’t understand me."
+    },
+    {
+      "tag_id": "588703b8-b44f-46a0-9906-b0e8a643729f",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 1112,
+      "span_end": 1128,
+      "correct": "the smallest one",
+      "wrong": [
+        "the most small one"
+      ],
+      "why_ko": "여러 케이크 중 하나를 고르니 최상급 the smallest가 맞고, small은 -est를 붙여요.",
+      "rationale": "셋 이상(a lot of different cakes) 중 하나를 고르므로 최상급 + the. smaller / most small 오답과 구별",
+      "sentence_no": 21,
+      "sentence": "We had a lot of different cakes, but he just wanted the smallest one.",
+      "verify_dropped": [
+        {
+          "wrong": "the smaller one",
+          "judgement": "ok",
+          "note_ko": "어법상 성립하는 비교급 표현으로 의미만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "0a0d88e4-b60b-49ea-87c5-5ed50a64d51a",
+      "point": "THAT_USAGE",
+      "span_start": 1152,
+      "span_end": 1160,
+      "correct": "that day",
+      "wrong": [
+        "that a day",
+        "those day"
+      ],
+      "why_ko": "단수 명사 day를 가리키는 지시형용사 that을 그대로 써야 하고 관사를 덧붙이거나 복수형을 쓸 수 없어요.",
+      "rationale": "명사 day 를 수식하는 지시형용사 that. 접속사·관계대명사 that 과 쓰임이 다른 것 고르기 문항 재료",
+      "sentence_no": 22,
+      "sentence": "We sold only one cake that day, so I remember him clearly."
+    },
+    {
+      "tag_id": "a1c86eab-b585-4551-a42f-27935d4e74d8",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 1165,
+      "span_end": 1187,
+      "correct": "I remember him clearly",
+      "wrong": [
+        "I remember him clear",
+        "I remember clearly him"
+      ],
+      "why_ko": "동사 remember를 꾸미므로 부사 clearly를 쓰고, 목적어 앞에 끼워 넣지 않아요.",
+      "rationale": "동사 remember 를 수식하므로 부사 clearly. clear 로 바꾸는 형용사·부사 혼동 오답이 전형적",
+      "sentence_no": 22,
+      "sentence": "We sold only one cake that day, so I remember him clearly."
+    },
+    {
+      "tag_id": "1b01ac48-b9cd-48f8-bb11-ab4e31344167",
+      "point": "PREP_USAGE",
+      "span_start": 1216,
+      "span_end": 1258,
+      "correct": "look at the information about the suspects",
+      "wrong": [
+        "look the information about the suspects"
+      ],
+      "why_ko": "'보다'는 look at이고 '~에 관한 정보'는 information about이라 at을 빼거나 of로 바꾸면 어색해요.",
+      "rationale": "look at(~을 보다)의 at 과 information about(~에 관한 정보)의 about. 전치사 삭제·교체 오답 가능",
+      "sentence_no": 24,
+      "sentence": "Now, look at the information about the suspects.",
+      "verify_dropped": [
+        {
+          "wrong": "look at the information of the suspects",
+          "judgement": "ok",
+          "note_ko": "about보다 덜 자연스럽지만 어법상 틀리지 않음."
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 21,
+    "kept": 21,
+    "given": 21,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
+}

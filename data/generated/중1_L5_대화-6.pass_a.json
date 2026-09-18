@@ -1,0 +1,493 @@
+{
+  "passage_id": "f6d3a552-2799-4d23-a59d-8c6af595051a",
+  "body_text_sha256": "be007a84e671aa19e443e4e064bd85bb5186b5645b8107c5fe89fbc57d55b21b",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 13,
+      "surface": "May I ride",
+      "sentence_no": 1,
+      "rationale": "허가를 요청하는 조동사 may + 동사원형. 'May I to ride / May I riding / Do I may ride' 같은 형태 오류를 심을 수 있고, Can I~ 로의 교체도 자주 물어본다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER",
+        "EI_NONFIN_FORM",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 30,
+      "span_end": 43,
+      "surface": "Yes, you may.",
+      "sentence_no": 2,
+      "rationale": "조동사 may 의문문에 대한 긍정 짧은 대답은 'Yes, you may.' 여야 한다. 'Yes, you do. / Yes, you are. / Yes, you can not.' 같은 오답 선지로 변형 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_FINITE",
+      "span_start": 47,
+      "span_end": 56,
+      "surface": "May I fly",
+      "sentence_no": 3,
+      "rationale": "조동사 뒤에는 반드시 동사원형이 온다. 'May I flying / May I flies / May I to fly' 로 바꾸면 준동사·정동사 형태 오류가 되어 어법 오답 선지로 쓰기 쉽다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 74,
+      "span_end": 90,
+      "surface": "No, you may not.",
+      "sentence_no": 4,
+      "rationale": "may 의문문의 부정 짧은 대답 형태. 'No, you don't. / No, you must.' 로 바꾸는 오답 유도가 전형적이며, may not(허가 거절)과 must not(금지)의 의미 차이도 함께 물을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 95,
+      "span_end": 107,
+      "surface": "must not fly",
+      "sentence_no": 5,
+      "rationale": "must not = 강한 금지(~해서는 안 된다). don't have to(~할 필요 없다)와 혼동시키는 선지, 또는 'must not to fly / must not flying' 같은 형태 오류를 심을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "CO_SYNONYM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 — 허가 요청",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "허가 승인 응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환 — 두 번째 허가 요청",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "허가 거절 응답",
+      "signal": "No",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "결론문 — 금지 사항 확인·강조",
+      "signal": "must not",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 (a)~(c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nA: May I (a)[ride / riding] a bike here?\nB: Yes, you (b)[may / do].\nA: May I fly a drone here?\nB: No, you may not. You must not (c)[fly / to fly] a drone here.",
+      "answer_key": "①",
+      "explanation": "(a) 조동사 may 뒤에는 동사원형 ride. (b) may 의문문의 긍정 짧은 대답은 조동사를 그대로 써서 'Yes, you may.' (do는 일반동사 의문문의 대답). (c) must not 뒤에도 동사원형 fly가 온다. 따라서 ride-may-fly.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) ride — (b) may — (c) fly",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) riding — (b) may — (c) fly",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) ride — (b) do — (c) fly",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) ride — (b) may — (c) to fly",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) riding — (b) do — (c) to fly",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_FINITE",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 옳지 <u>않은</u> 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ 조동사 may 뒤에는 동사원형이 와야 하므로 flying → fly 가 되어 'May I fly a drone here?'가 옳다. 나머지는 모두 본문과 같은 올바른 형태이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "May I ride a bike here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Yes, you may.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "May I flying a drone here?",
+          "is_answer": true,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "No, you may not.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You must not fly a drone here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 밑줄 친 You must not fly a drone here.의 의미로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "must not 은 '~해서는 안 된다'는 강한 금지를 나타낸다. ②는 don't have to(~할 필요 없다)의 뜻이고, ③은 may(추측), ④는 had better, ⑤는 be going to 의 뜻이므로 모두 답이 될 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "너는 여기서 드론을 날려서는 안 된다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "너는 여기서 드론을 날릴 필요가 없다.",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "너는 여기서 드론을 날릴 수 있을지도 모른다.",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "너는 여기서 드론을 날리는 것이 더 좋겠다.",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "너는 여기서 드론을 날릴 예정이다.",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is TRUE according to the dialogue?",
+      "answer_key": "①",
+      "explanation": "B가 자전거에 대해서는 'Yes, you may.'라고 허락했으므로 ①이 맞다. ②③은 대화 내용과 반대이고, 허가를 요청한 사람은 A이므로 ④도 틀리며, B는 드론을 날려서는 안 된다고 분명히 말했으므로 ⑤도 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A is allowed to ride a bike there.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "A must not ride a bike there.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A may fly a drone there.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B asks A for permission to fly a drone.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "B says nothing about the drone.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "A는 'May I ~?'로 허가를 구하고 B는 'Yes, you may. / No, you may not.'으로 허락하거나 거절하고 있다. 따라서 허가 요청과 허락·거절이 대화의 주제이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "asking for and giving or refusing permission",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to repair a broken bike",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best place to buy a drone",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "making plans for the weekend",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "giving directions to the park",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열한 것을 고르시오.\n\n여기서 드론을 날려도 되나요?\n( fly / I / May / a drone / here )",
+      "answer_key": "①",
+      "explanation": "조동사 의문문은 「조동사 + 주어 + 동사원형 + 목적어 + 장소」 순서이므로 May I fly a drone here? 가 옳다. 나머지는 조동사와 주어, 동사와 목적어의 순서가 어긋난다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "May I fly a drone here?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I may fly a drone here?",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "May fly I a drone here?",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "May I a drone fly here?",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Fly I may a drone here?",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 흐름에 맞게, 다음 대답에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nA: May I ride a bike here?\nB: Yes, you do.",
+      "answer_key": "do → may (Yes, you may.)",
+      "explanation": "May로 물었으므로 짧은 대답에서도 같은 조동사 may를 써야 한다. 'Yes, you do.'는 일반동사 의문문(Do you ~?)에 대한 대답이므로 'Yes, you may.'로 고쳐야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n너는 여기서 드론을 날려서는 안 된다.\n<조건> 1) must를 포함한 부정문으로 쓸 것  2) fly, a drone, here를 사용할 것  3) 총 7단어로 쓸 것",
+      "answer_key": "You must not fly a drone here.",
+      "explanation": "강한 금지는 must not + 동사원형으로 나타낸다. 주어 You 다음에 must not fly a drone here 를 써서 총 7단어가 된다. don't have to 를 쓰면 '~할 필요가 없다'는 뜻이 되어 조건과 의미에 모두 맞지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 5,
+    "tags_kept": 5,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 8,
+    "items_kept": 8,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

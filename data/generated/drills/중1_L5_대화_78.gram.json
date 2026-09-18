@@ -1,0 +1,250 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L5 대화 ⑦⑧",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L5 대화-7",
+    "중1 L5 대화-8"
+  ],
+  "body": "G: Excuse me. May I bring my dog to the store?\nM: No, you may not. You must not bring pets inside.\nG: OK. I understand.\nB: May I eat here?\nW: No, you may not eat inside the museum.\nB: How about water? May I drink water?\nW: Sure, water is OK.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "96736993-49d1-4646-b271-251c0ac0a2b2",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 14,
+      "span_end": 19,
+      "correct": "May I",
+      "wrong": [
+        "May I to",
+        "Do I may",
+        "May me"
+      ],
+      "why_ko": "허락을 구할 때는 「May + 주어 + 동사원형」이라 'May I bring ~?'이 맞고, may 뒤에 to를 넣거나 do를 붙이거나 목적격 me를 쓰면 틀립니다.",
+      "rationale": "허락을 구하는 조동사 May I + 동사원형. Can I / May I 구별, 또는 'May I to bring / May I bringing' 처럼 뒤 동사 형태를 틀리게 만드는 함정으로 출제 가능.",
+      "sentence_no": 2,
+      "sentence": "May I bring my dog to the store?"
+    },
+    {
+      "tag_id": "d03736db-48a4-4a98-8ae1-b8531b7d5282",
+      "point": "PRON_AGREEMENT",
+      "span_start": 26,
+      "span_end": 32,
+      "correct": "my dog",
+      "wrong": [
+        "me dog",
+        "mine dog"
+      ],
+      "why_ko": "명사 앞에는 소유격 my를 써야 하며, me(목적격)나 mine(소유대명사)은 명사 앞에 올 수 없습니다.",
+      "rationale": "명사 앞 소유격 my. 'me dog / mine dog' 같은 격 오류를 유도할 수 있는 자리.",
+      "sentence_no": 2,
+      "sentence": "May I bring my dog to the store?"
+    },
+    {
+      "tag_id": "2e90b32a-baea-4dfa-8a17-48b41689b5cb",
+      "point": "PREP_USAGE",
+      "span_start": 33,
+      "span_end": 45,
+      "correct": "to the store",
+      "wrong": [
+        "the store"
+      ],
+      "why_ko": "bring은 '~로 데려오다'라는 방향을 나타내므로 to가 필요하고, in을 쓰거나 전치사를 빼면 틀립니다.",
+      "rationale": "방향·도착점을 나타내는 전치사 to. 'in the store / at the store / the store(전치사 삭제)'로 바꿔 빈칸 출제하기 쉬운 자리.",
+      "sentence_no": 2,
+      "sentence": "May I bring my dog to the store?",
+      "verify_dropped": [
+        {
+          "wrong": "in the store",
+          "judgement": "ok",
+          "note_ko": "bring ... in the store도 성립하는 영어. 뜻만 약간 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "a11467c8-94d7-40c5-aa7b-e8a72bfcd767",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 54,
+      "span_end": 65,
+      "correct": "you may not",
+      "wrong": [
+        "you don't may",
+        "you may not to"
+      ],
+      "why_ko": "조동사 may의 부정은 뒤에 not만 붙이면 되므로 don't를 쓰거나 not 뒤에 to를 넣으면 틀립니다.",
+      "rationale": "May I ~? 에 대한 부정 응답은 'you may not'. 'you don't may / not you may' 같은 어순·형태 오류, 또는 허락 거절 표현으로 'you must not / you may' 중 고르게 하는 출제가 가능.",
+      "sentence_no": 3,
+      "sentence": "M: No, you may not."
+    },
+    {
+      "tag_id": "359d5e1a-14f7-40a8-b3ab-94381c5918b4",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 71,
+      "span_end": 85,
+      "correct": "must not bring",
+      "wrong": [
+        "must not to bring",
+        "must not bringing"
+      ],
+      "why_ko": "금지는 「must not + 동사원형」이라 to나 -ing를 붙일 수 없고, don't have to는 '안 해도 된다'는 뜻이라 금지의 의미와 다릅니다.",
+      "rationale": "금지를 나타내는 must not + 동사원형. 'don't have to(~할 필요 없다)'와 의미 구별, 'must not to bring / must not bringing' 형태 오류가 대표 함정.",
+      "sentence_no": 4,
+      "sentence": "You must not bring pets inside.",
+      "verify_dropped": [
+        {
+          "wrong": "don't have to bring",
+          "judgement": "ok",
+          "note_ko": "문법적으로 맞는 영어. 의미(불필요)만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "5939d37d-39eb-41de-892b-61862a5c36a7",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 91,
+      "span_end": 97,
+      "correct": "inside",
+      "wrong": [
+        "in inside",
+        "insidely"
+      ],
+      "why_ko": "inside는 그 자체로 '안에'라는 부사라서 앞에 in을 또 붙이거나 -ly를 붙일 수 없습니다.",
+      "rationale": "동사 bring을 수식하는 장소 부사 inside. 'in inside / insidely' 처럼 전치사 추가나 부사형 오류를 넣을 수 있는 자리.",
+      "sentence_no": 4,
+      "sentence": "You must not bring pets inside."
+    },
+    {
+      "tag_id": "c3eb82b1-9fa4-45cf-a2f9-269381131a59",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 123,
+      "span_end": 132,
+      "correct": "May I eat",
+      "wrong": [
+        "May I to eat",
+        "May I eating",
+        "May I ate"
+      ],
+      "why_ko": "조동사 may 뒤에는 항상 동사원형이 오므로 to eat, eating, ate는 모두 쓸 수 없습니다.",
+      "rationale": "허가를 묻는 조동사 may + 동사원형. 'May I to eat / May I eating / May I ate' 형태 오류나 Can/Must와의 의미 구별로 출제 가능.",
+      "sentence_no": 7,
+      "sentence": "B: May I eat here?"
+    },
+    {
+      "tag_id": "6948927d-7a79-47ed-869f-77c4ddc8fb29",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 146,
+      "span_end": 161,
+      "correct": "you may not eat",
+      "wrong": [
+        "you may not to eat"
+      ],
+      "why_ko": "허가를 거절하는 표현은 「may not + 동사원형」이며, don't have to는 '먹을 필요 없다'는 뜻이라 '먹으면 안 된다'와 다릅니다.",
+      "rationale": "허가 거절의 may not + 동사원형(불허). 'may not to eat / may not eating' 형태 오류, 또는 don't have to(불필요)와 의미 혼동을 유도할 수 있음.",
+      "sentence_no": 8,
+      "sentence": "W: No, you may not eat inside the museum.",
+      "verify_dropped": [
+        {
+          "wrong": "you don't have to eat",
+          "judgement": "ok",
+          "note_ko": "어법상 맞음. 의미만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "e92d1ded-c6e4-4a18-9a5d-a6a43509a710",
+      "point": "PREP_USAGE",
+      "span_start": 162,
+      "span_end": 179,
+      "correct": "inside the museum",
+      "wrong": [
+        "inside to the museum",
+        "inside museum"
+      ],
+      "why_ko": "박물관 '안에서' 먹으면 안 된다는 뜻이므로 inside + 명사가 맞고, outside는 뜻이 반대이며 to를 넣거나 the를 빼면 틀립니다.",
+      "rationale": "장소 전치사 inside(~ 안에서). outside/into 로 교체하면 문맥이 뒤집히고, 전치사 삭제(EI_PREP_DELETE)도 가능한 자리.",
+      "sentence_no": 8,
+      "sentence": "W: No, you may not eat inside the museum.",
+      "verify_dropped": [
+        {
+          "wrong": "outside the museum",
+          "judgement": "ok",
+          "note_ko": "어법상 정상. 의미만 반대가 됨."
+        }
+      ]
+    },
+    {
+      "tag_id": "9b7cd1d3-2b08-4474-9aa7-8194f8db35e1",
+      "point": "PREP_USAGE",
+      "span_start": 184,
+      "span_end": 200,
+      "correct": "How about water?",
+      "wrong": [
+        "How about to water?",
+        "How water?"
+      ],
+      "why_ko": "How about 뒤에는 명사나 동명사가 오므로 'How about water?'가 맞고, to를 넣거나 about을 빼면 틀립니다.",
+      "rationale": "제안·화제전환 관용표현 How about + 명사(동명사). about 자리를 빈칸으로 뚫거나 'How about to drink'처럼 to부정사 오류를 심을 수 있음.",
+      "sentence_no": 9,
+      "sentence": "B: How about water?"
+    },
+    {
+      "tag_id": "fa097791-1089-480c-8e22-ea69842c687e",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 201,
+      "span_end": 219,
+      "correct": "May I drink water?",
+      "wrong": [
+        "May I drinking water?",
+        "May I to drink water?"
+      ],
+      "why_ko": "허가를 묻는 의문문은 「May + 주어 + 동사원형 ~?」 어순이라 조동사를 앞에 두어야 하고, 동사는 원형이어야 합니다.",
+      "rationale": "허가 요청 May I + 동사원형 의문문 어순. 'I may drink water?' 어순 오류나 'May I drinking' 형태 오류 유도 가능.",
+      "sentence_no": 10,
+      "sentence": "May I drink water?",
+      "verify_dropped": [
+        {
+          "wrong": "I may drink water?",
+          "judgement": "ok",
+          "note_ko": "평서문 억양 의문으로 성립 가능."
+        }
+      ]
+    },
+    {
+      "tag_id": "ea8e442a-724b-4f84-b1fe-8f81000635eb",
+      "point": "VERB_SVA",
+      "span_start": 229,
+      "span_end": 240,
+      "correct": "water is OK",
+      "wrong": [
+        "water are OK"
+      ],
+      "why_ko": "water는 셀 수 없는 명사라 단수 취급하므로 is를 쓰고, are나 복수형 waters는 쓸 수 없습니다.",
+      "rationale": "불가산명사 water는 단수 취급 → is. 'water are OK'로 수일치 오류를 심을 수 있음.",
+      "sentence_no": 11,
+      "sentence": "W: Sure, water is OK.",
+      "verify_dropped": [
+        {
+          "wrong": "waters are OK",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 이 문맥에서 매우 어색함."
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 13,
+    "kept": 13,
+    "given": 13,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "I understand",
+          "모든 오답이 실은 맞는 표현이라 버림: I am understanding(odd), I understood(ok)"
+        ]
+      ],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
+}

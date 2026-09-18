@@ -1,0 +1,700 @@
+{
+  "set": "영덕중1_L5",
+  "title": "동아 윤정미 중1 L5 어휘 — 영덕",
+  "sources": {
+    "school": [
+      "영덕중1_L5_vocab_handout"
+    ],
+    "jasup": "중1_L5_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 중1 L5 어휘 — 영덕",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "bakery",
+              "answer": "빵집"
+            },
+            {
+              "word": "wig",
+              "answer": "가발"
+            },
+            {
+              "word": "damage",
+              "answer": "훼손하다"
+            },
+            {
+              "word": "suspect",
+              "answer": "용의자"
+            },
+            {
+              "word": "code",
+              "answer": "암호"
+            },
+            {
+              "word": "guard",
+              "answer": "경비원"
+            },
+            {
+              "word": "arrow",
+              "answer": "화살표"
+            },
+            {
+              "word": "feed",
+              "answer": "먹이를 주다"
+            },
+            {
+              "word": "steal",
+              "answer": "훔치다"
+            },
+            {
+              "word": "height",
+              "answer": "키"
+            },
+            {
+              "word": "criminal",
+              "answer": "범죄자"
+            },
+            {
+              "word": "reason",
+              "answer": "이유, 근거"
+            },
+            {
+              "word": "expensive",
+              "answer": "비싼"
+            },
+            {
+              "word": "throw",
+              "answer": "던지다"
+            },
+            {
+              "word": "janitor",
+              "answer": "청소부"
+            },
+            {
+              "word": "owner",
+              "answer": "주인"
+            },
+            {
+              "word": "eyewitness",
+              "answer": "목격자"
+            },
+            {
+              "word": "statement",
+              "answer": "진술"
+            },
+            {
+              "word": "piece",
+              "answer": "조각"
+            },
+            {
+              "word": "wheelchair",
+              "answer": "휠체어"
+            },
+            {
+              "word": "crime",
+              "answer": "범죄"
+            },
+            {
+              "word": "follow",
+              "answer": "따라가다"
+            },
+            {
+              "word": "language",
+              "answer": "언어"
+            },
+            {
+              "word": "difficult",
+              "answer": "어려운"
+            },
+            {
+              "word": "than",
+              "answer": "(비교할 때) ~보다"
+            },
+            {
+              "word": "scene",
+              "answer": "현장, 장면"
+            },
+            {
+              "word": "next to",
+              "answer": "~ 옆에"
+            },
+            {
+              "word": "a little",
+              "answer": "조금, 약간"
+            },
+            {
+              "word": "run away",
+              "answer": "도망가다"
+            },
+            {
+              "word": "in fact",
+              "answer": "사실은"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "목격자",
+              "answer": "eyewitness"
+            },
+            {
+              "ko": "휠체어",
+              "answer": "wheelchair"
+            },
+            {
+              "ko": "범죄자",
+              "answer": "criminal"
+            },
+            {
+              "ko": "가발",
+              "answer": "wig"
+            },
+            {
+              "ko": "이유, 근거",
+              "answer": "reason"
+            },
+            {
+              "ko": "따라가다",
+              "answer": "follow"
+            },
+            {
+              "ko": "훔치다",
+              "answer": "steal"
+            },
+            {
+              "ko": "범죄",
+              "answer": "crime"
+            },
+            {
+              "ko": "던지다",
+              "answer": "throw"
+            },
+            {
+              "ko": "화살표",
+              "answer": "arrow"
+            },
+            {
+              "ko": "조금, 약간",
+              "answer": "a little"
+            },
+            {
+              "ko": "암호",
+              "answer": "code"
+            },
+            {
+              "ko": "도망가다",
+              "answer": "run away"
+            },
+            {
+              "ko": "~ 옆에",
+              "answer": "next to"
+            },
+            {
+              "ko": "현장, 장면",
+              "answer": "scene"
+            },
+            {
+              "ko": "청소부",
+              "answer": "janitor"
+            },
+            {
+              "ko": "비싼",
+              "answer": "expensive"
+            },
+            {
+              "ko": "어려운",
+              "answer": "difficult"
+            },
+            {
+              "ko": "조각",
+              "answer": "piece"
+            },
+            {
+              "ko": "먹이를 주다",
+              "answer": "feed"
+            },
+            {
+              "ko": "언어",
+              "answer": "language"
+            },
+            {
+              "ko": "키",
+              "answer": "height"
+            },
+            {
+              "ko": "빵집",
+              "answer": "bakery"
+            },
+            {
+              "ko": "주인",
+              "answer": "owner"
+            },
+            {
+              "ko": "용의자",
+              "answer": "suspect"
+            },
+            {
+              "ko": "진술",
+              "answer": "statement"
+            },
+            {
+              "ko": "(비교할 때) ~보다",
+              "answer": "than"
+            },
+            {
+              "ko": "경비원",
+              "answer": "guard"
+            },
+            {
+              "ko": "사실은",
+              "answer": "in fact"
+            },
+            {
+              "ko": "훼손하다",
+              "answer": "damage"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "a place where bread and cakes are made or sold",
+              "ko": "빵집",
+              "answer": "bakery"
+            },
+            {
+              "def_en": "an object with hair on it that someone wears on their head",
+              "ko": "가발",
+              "answer": "wig"
+            },
+            {
+              "def_en": "a person who is believed to be guilty of something",
+              "ko": "용의자",
+              "answer": "suspect"
+            },
+            {
+              "def_en": "a person whose job is to protect a person, place, or thing from danger or attack",
+              "ko": "경비원",
+              "answer": "guard"
+            },
+            {
+              "def_en": "to take something that belongs to someone else",
+              "ko": "훔치다",
+              "answer": "steal"
+            },
+            {
+              "def_en": "how tall someone or something is",
+              "ko": "키",
+              "answer": "height"
+            },
+            {
+              "def_en": "a person who does something against the law, like stealing or hurting others",
+              "ko": "범죄자",
+              "answer": "criminal"
+            },
+            {
+              "def_en": "something that makes it right or fair to do something",
+              "ko": "이유, 근거",
+              "answer": "reason"
+            },
+            {
+              "def_en": "costing a lot of money",
+              "ko": "비싼",
+              "answer": "expensive"
+            },
+            {
+              "def_en": "a person in charge of cleaning and fixing things in a building",
+              "ko": "청소부",
+              "answer": "janitor"
+            },
+            {
+              "def_en": "someone who saw a crime or an accident",
+              "ko": "목격자",
+              "answer": "eyewitness"
+            },
+            {
+              "def_en": "a chair on wheels that people unable to walk use for moving around",
+              "ko": "휠체어",
+              "answer": "wheelchair"
+            },
+            {
+              "def_en": "an action that the law does not allow",
+              "ko": "범죄",
+              "answer": "crime"
+            },
+            {
+              "def_en": "a place where something happens; a piece of a film or play, usually showing one situation",
+              "ko": "현장, 장면",
+              "answer": "scene"
+            },
+            {
+              "def_en": "to leave a place or person secretly and suddenly",
+              "ko": "도망가다",
+              "answer": "run away"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "wig",
+                  "ko": "가발",
+                  "def_en": "an object with hair on it that someone wears on their head",
+                  "example_en": "You look like an old lady with the gray wig.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "criminal",
+                  "ko": "범죄자",
+                  "def_en": "a person who does something against the law, like stealing or hurting others",
+                  "example_en": "The criminal in the case is in prison now.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "steal",
+                  "ko": "훔치다",
+                  "def_en": "to take something that belongs to someone else",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "height",
+                  "ko": "키",
+                  "def_en": "how tall someone or something is",
+                  "example_en": "His height is about 175 cm.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "wig",
+                "steal",
+                "height",
+                "criminal"
+              ],
+              "kos": [
+                "가발",
+                "키",
+                "훔치다",
+                "범죄자"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "wheelchair",
+                  "ko": "휠체어",
+                  "def_en": "a chair on wheels that people unable to walk use for moving around",
+                  "example_en": "I injured my leg so I used a wheelchair.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "janitor",
+                  "ko": "청소부",
+                  "def_en": "a person in charge of cleaning and fixing things in a building",
+                  "example_en": "The janitor cleans the school every day.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "crime",
+                  "ko": "범죄",
+                  "def_en": "an action that the law does not allow",
+                  "example_en": "The news is talking about a terrible crime.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "suspect",
+                  "ko": "용의자",
+                  "def_en": "a person who is believed to be guilty of something",
+                  "example_en": "The police caught the suspect at the crime scene.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "wheelchair",
+                "janitor",
+                "crime",
+                "suspect"
+              ],
+              "kos": [
+                "휠체어",
+                "용의자",
+                "범죄",
+                "청소부"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "bakery",
+                  "ko": "빵집",
+                  "def_en": "a place where bread and cakes are made or sold",
+                  "example_en": "I went to the bakery and bought some bread.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "eyewitness",
+                  "ko": "목격자",
+                  "def_en": "someone who saw a crime or an accident",
+                  "example_en": "She is the only eyewitness. She may give an important statement.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "guard",
+                  "ko": "경비원",
+                  "def_en": "a person whose job is to protect a person, place, or thing from danger or attack",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "run away",
+                  "ko": "도망가다",
+                  "def_en": "to leave a place or person secretly and suddenly",
+                  "example_en": "He saw me and ran away.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "guard",
+                "run away",
+                "eyewitness",
+                "bakery"
+              ],
+              "kos": [
+                "목격자",
+                "도망가다",
+                "빵집",
+                "경비원"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "Would you like to have a __________ of cake for dessert?",
+                "answer": "piece",
+                "ko": ""
+              },
+              {
+                "sentence": "The police caught the __________ at the crime scene.",
+                "answer": "suspect",
+                "ko": ""
+              },
+              {
+                "sentence": "The news is talking about a terrible __________.",
+                "answer": "crime",
+                "ko": ""
+              },
+              {
+                "sentence": "I went to the __________ and bought some bread.",
+                "answer": "bakery",
+                "ko": ""
+              },
+              {
+                "sentence": "This shirt is too big. I want __________ smaller size, please.",
+                "answer": "a little",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "__________, I woke up early in the morning.",
+                "answer": "in fact",
+                "ko": ""
+              },
+              {
+                "sentence": "You look like an old lady with the gray __________.",
+                "answer": "wig",
+                "ko": ""
+              },
+              {
+                "sentence": "The __________ in the case is in prison now.",
+                "answer": "criminal",
+                "ko": ""
+              },
+              {
+                "sentence": "Who is the girl __________ you?",
+                "answer": "next to",
+                "ko": ""
+              },
+              {
+                "sentence": "The movie starts with a scary __________.",
+                "answer": "scene",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "She is the only __________. She may give an important statement.",
+                "answer": "eyewitness",
+                "ko": ""
+              },
+              {
+                "sentence": "According to the eyewitness __________, the woman was very tall.",
+                "answer": "statement",
+                "ko": ""
+              },
+              {
+                "sentence": "He solved the secret __________.",
+                "answer": "code",
+                "ko": ""
+              },
+              {
+                "sentence": "His __________ is about 175 cm.",
+                "answer": "height",
+                "ko": ""
+              },
+              {
+                "sentence": "I injured my leg so I used a __________.",
+                "answer": "wheelchair",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "The __________ cleans the school every day.",
+                "answer": "janitor",
+                "ko": ""
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 30,
+      "counts": {
+        "both": 60,
+        "def": 15,
+        "match": 12,
+        "cloze": 16
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "동아 윤정미 중1 L5 어휘 — 영덕",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "bottled",
+              "answer": "병에 든"
+            },
+            {
+              "word": "bring",
+              "answer": "가져오다"
+            },
+            {
+              "word": "inside",
+              "answer": "~의 안쪽에"
+            },
+            {
+              "word": "secret",
+              "answer": "비밀의"
+            },
+            {
+              "word": "fall off",
+              "answer": "~로부터 떨어지다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "가져오다",
+              "answer": "bring"
+            },
+            {
+              "ko": "비밀의",
+              "answer": "secret"
+            },
+            {
+              "ko": "~로부터 떨어지다",
+              "answer": "fall off"
+            },
+            {
+              "ko": "~의 안쪽에",
+              "answer": "inside"
+            },
+            {
+              "ko": "병에 든",
+              "answer": "bottled"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "kept or contained in bottles",
+              "ko": "병에 든",
+              "answer": "bottled"
+            },
+            {
+              "def_en": "to come with something or someone to a place",
+              "ko": "가져오다",
+              "answer": "bring"
+            },
+            {
+              "def_en": "in or into the inner part of something or someone",
+              "ko": "~의 안쪽에",
+              "answer": "inside"
+            },
+            {
+              "def_en": "not known or seen by others",
+              "ko": "비밀의",
+              "answer": "secret"
+            },
+            {
+              "def_en": "to drop to the ground from a high object",
+              "ko": "~로부터 떨어지다",
+              "answer": "fall off"
+            }
+          ]
+        }
+      ],
+      "n_words": 5,
+      "counts": {
+        "both": 10,
+        "def": 5
+      }
+    }
+  ]
+}

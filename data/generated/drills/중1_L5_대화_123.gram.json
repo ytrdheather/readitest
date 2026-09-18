@@ -1,0 +1,344 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L5 대화 ①②③",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L5 대화-1",
+    "중1 L5 대화-2",
+    "중1 L5 대화-3"
+  ],
+  "body": "W: Excuse me, but you must not talk on the phone here.\nB: I’m terribly sorry. I’ll turn off my phone.\nW: You don’t have to. Texting is OK.\nB: I see. Thank you.\nG: Excuse me. May I touch this golden bear?\nM: No, you may not. You must not touch anything in this room.\nG: OK, I understand.\nB: May I go to the video room, Mom?\nW: Of course, but don’t run.\nB: Why not?\nW: Look at that sign. You must not run inside the museum.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "48ab45d1-edb8-4c57-8c0b-a1719937d379",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 22,
+      "span_end": 35,
+      "correct": "must not talk",
+      "wrong": [
+        "must not to talk",
+        "must not talking"
+      ],
+      "why_ko": "여기서는 '통화하면 안 된다'는 금지이므로 must not+동사원형이 맞고, don't have to는 '할 필요 없다'로 뜻이 정반대이며 to talk/talking 형태도 조동사 뒤에 올 수 없어요.",
+      "rationale": "금지를 나타내는 must not. don't have to(~할 필요 없다)와 의미가 정반대라 교체 함정으로 자주 출제됨. must not talk / don't have to talk 구별",
+      "sentence_no": 1,
+      "sentence": "W: Excuse me, but you must not talk on the phone here.",
+      "verify_dropped": [
+        {
+          "wrong": "don't have to talk",
+          "judgement": "ok",
+          "note_ko": "문법적으로 맞고 의미(불필요)만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "7ca0c875-278d-40c4-b52f-50fc4148be85",
+      "point": "PREP_USAGE",
+      "span_start": 36,
+      "span_end": 48,
+      "correct": "on the phone",
+      "wrong": [
+        "in the phone"
+      ],
+      "why_ko": "'전화로 통화하다'는 talk on the phone으로 전치사 on이 고정이에요.",
+      "rationale": "'전화로 통화하다' talk on the phone 의 고정 전치사 on. in/with/by 로 바꾸거나 삭제하는 함정이 가능",
+      "sentence_no": 1,
+      "sentence": "W: Excuse me, but you must not talk on the phone here.",
+      "verify_dropped": [
+        {
+          "wrong": "with the phone",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 통화 의미가 되지 않아 매우 어색."
+        }
+      ]
+    },
+    {
+      "tag_id": "799bb137-abe8-485d-a120-a6d3550cc4c7",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 58,
+      "span_end": 76,
+      "correct": "I’m terribly sorry",
+      "wrong": [
+        "I’m terrible sorry",
+        "I’m terribly sorrily"
+      ],
+      "why_ko": "형용사 sorry를 꾸미는 자리이므로 부사 terribly가 맞고, 형용사 terrible은 형용사를 수식할 수 없어요.",
+      "rationale": "형용사 sorry 를 수식하는 부사 terribly. terrible sorry 로 바꾸는 형용사/부사 혼동 함정",
+      "sentence_no": 2,
+      "sentence": "B: I’m terribly sorry."
+    },
+    {
+      "tag_id": "3a6d52a6-ad86-419c-b02d-f039ca065275",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 83,
+      "span_end": 100,
+      "correct": "turn off my phone",
+      "wrong": [
+        "turn my phone off my phone",
+        "turn off it"
+      ],
+      "why_ko": "명사 목적어는 turn off 뒤에 올 수 있지만, 대명사 it은 반드시 turn it off 순서로 써야 해요.",
+      "rationale": "이어동사 turn off + 명사 목적어. 대명사일 때 turn it off 어순 문제로 확장 가능",
+      "sentence_no": 3,
+      "sentence": "I’ll turn off my phone."
+    },
+    {
+      "tag_id": "aa2020d0-f993-4f9f-8ff5-b6d9c46dee6a",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 109,
+      "span_end": 122,
+      "correct": "don’t have to",
+      "wrong": [
+        "don’t must"
+      ],
+      "why_ko": "뒤에 Texting is OK라고 했으니 '끌 필요 없다'는 don't have to가 맞고, must not은 금지라서 모순이며 don't must 형태는 없어요.",
+      "rationale": "불필요(~할 필요 없다). must not(금지)과의 의미 차이가 이 대화의 핵심. mustn't 로 바꾸면 뒤 문장 Texting is OK 와 모순되어 오답 유도 가능",
+      "sentence_no": 4,
+      "sentence": "W: You don’t have to."
+    },
+    {
+      "tag_id": "787e6686-ba4f-43b6-bbf3-6fccc2728bc3",
+      "point": "VERB_SVA",
+      "span_start": 124,
+      "span_end": 137,
+      "correct": "Texting is OK",
+      "wrong": [
+        "Texting are OK",
+        "Texting be OK"
+      ],
+      "why_ko": "동명사 주어는 단수로 취급하므로 is를 써요.",
+      "rationale": "동명사 주어는 단수 취급. Texting are OK 로 수일치 오류를 심을 수 있고, Text is / To text 형태 선택도 가능",
+      "sentence_no": 5,
+      "sentence": "Texting is OK."
+    },
+    {
+      "tag_id": "dbd600e7-3507-441a-85d1-590a4ada419b",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 174,
+      "span_end": 185,
+      "correct": "May I touch",
+      "wrong": [
+        "May I to touch",
+        "May I touching",
+        "Do I may touch"
+      ],
+      "why_ko": "조동사 may 뒤에는 동사원형이 오고, 조동사는 그 자체로 의문문을 만들어 do가 필요 없어요.",
+      "rationale": "허가를 요청하는 조동사 may + 주어 + 동사원형 의문문. 'Must I touch / May I touching / May I to touch' 같은 오류를 유도할 수 있는 자리",
+      "sentence_no": 9,
+      "sentence": "May I touch this golden bear?"
+    },
+    {
+      "tag_id": "ad3a45ec-3109-4bcc-88db-c4202b0fe7e1",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 186,
+      "span_end": 202,
+      "correct": "this golden bear",
+      "wrong": [
+        "this goldenly bear",
+        "this bear golden"
+      ],
+      "why_ko": "명사 bear를 앞에서 꾸미는 자리라 형용사 golden을 쓰고, 부사나 뒤로 옮긴 어순은 틀려요.",
+      "rationale": "명사 bear를 앞에서 수식하는 형용사 golden. 부사형(goldenly)이나 어순 뒤바꿈(bear golden)으로 오류를 심을 수 있음",
+      "sentence_no": 9,
+      "sentence": "May I touch this golden bear?"
+    },
+    {
+      "tag_id": "24ba9ad2-821c-4640-8aab-99d2fdf11caa",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 211,
+      "span_end": 222,
+      "correct": "you may not",
+      "wrong": [
+        "you don’t may",
+        "you may not to"
+      ],
+      "why_ko": "조동사 may의 부정은 바로 뒤에 not을 붙이고, don't를 함께 쓰거나 to를 붙일 수 없어요.",
+      "rationale": "May I ~? 에 대한 부정 응답은 'you may not'. 'you don't may / you may not to' 형태 오류, 또는 허가 거부(may not)와 불필요(don't have to)의 의미 구별을 물을 수 있음",
+      "sentence_no": 10,
+      "sentence": "M: No, you may not."
+    },
+    {
+      "tag_id": "7726d35c-8cce-4fc5-bbfb-cc25f28dd5d8",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 228,
+      "span_end": 242,
+      "correct": "must not touch",
+      "wrong": [
+        "must not to touch",
+        "must not touching"
+      ],
+      "why_ko": "만지면 안 된다는 금지이므로 must not+동사원형이 맞고, don't have to는 '만질 필요 없다'로 뜻이 달라요.",
+      "rationale": "금지의 must not + 동사원형. 'don't have to(~할 필요 없다)'와 의미가 정반대라 교체 선지로 가장 자주 출제됨. 'must not to touch / must not touching' 형태 오류도 가능",
+      "sentence_no": 11,
+      "sentence": "You must not touch anything in this room.",
+      "verify_dropped": [
+        {
+          "wrong": "don’t have to touch",
+          "judgement": "ok",
+          "note_ko": "문법상 맞고 의미만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "723abff7-331c-45c1-a77c-199319fa773d",
+      "point": "PRON_INDEFINITE",
+      "span_start": 243,
+      "span_end": 251,
+      "correct": "anything",
+      "wrong": [
+        "nothing"
+      ],
+      "why_ko": "must not이 들어간 부정문에서는 anything을 쓰고, nothing은 부정이 겹쳐 틀려요.",
+      "rationale": "부정문(must not)에서는 something이 아니라 anything을 쓴다. something / nothing(이중부정) 교체 선지로 출제되는 자리",
+      "sentence_no": 11,
+      "sentence": "You must not touch anything in this room.",
+      "verify_dropped": [
+        {
+          "wrong": "something",
+          "judgement": "odd",
+          "note_ko": "부정문에서는 anything이 자연스러워 매우 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "f1f35df9-81fe-4ca7-97c6-2823e49a5e80",
+      "point": "PREP_USAGE",
+      "span_start": 252,
+      "span_end": 264,
+      "correct": "in this room",
+      "wrong": [
+        "on this room",
+        "at this room"
+      ],
+      "why_ko": "방이라는 공간 '안'을 말하므로 전치사 in을 써요.",
+      "rationale": "공간 내부를 나타내는 전치사 in. on/at으로 교체하거나 전치사를 통째로 삭제하는 변형이 가능한 자리",
+      "sentence_no": 11,
+      "sentence": "You must not touch anything in this room."
+    },
+    {
+      "tag_id": "640c0879-47b8-46d9-ae3f-998031164b6c",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 290,
+      "span_end": 298,
+      "correct": "May I go",
+      "wrong": [
+        "May I to go",
+        "May I going",
+        "May I goes"
+      ],
+      "why_ko": "조동사 may 뒤에는 반드시 동사원형 go가 와요.",
+      "rationale": "허가를 묻는 조동사 May + 주어 + 동사원형. 'May I to go / May I going / May I goes' 형태 오류를 유도할 수 있고, Can/Must 등 조동사 의미 구별로도 물을 수 있다.",
+      "sentence_no": 13,
+      "sentence": "B: May I go to the video room, Mom?"
+    },
+    {
+      "tag_id": "203ab3ef-2d25-4a56-8165-a6b58abe55cf",
+      "point": "PREP_USAGE",
+      "span_start": 299,
+      "span_end": 316,
+      "correct": "to the video room",
+      "wrong": [
+        "at the video room",
+        "the video room"
+      ],
+      "why_ko": "go는 이동 방향을 나타내는 전치사 to와 함께 쓰고, 전치사를 빼면 안 돼요.",
+      "rationale": "이동 방향을 나타내는 전치사 to. go to + 장소. 'go in/at/into the video room' 또는 전치사 삭제(go the video room) 오류를 유도할 수 있는 빈칸 자리.",
+      "sentence_no": 13,
+      "sentence": "B: May I go to the video room, Mom?"
+    },
+    {
+      "tag_id": "2b7f590c-8da8-4f99-9c73-6520a1f3f3bc",
+      "point": "VERB_FINITE",
+      "span_start": 341,
+      "span_end": 350,
+      "correct": "don’t run",
+      "wrong": [
+        "don’t running",
+        "doesn’t run",
+        "don’t to run"
+      ],
+      "why_ko": "부정 명령문은 Don't+동사원형이라서 running이나 doesn't는 쓸 수 없어요.",
+      "rationale": "부정 명령문은 Don't + 동사원형. 'don't running / don't to run / doesn't run' 처럼 준동사·수일치 형태로 바꾸는 오류를 심기 쉽다.",
+      "sentence_no": 14,
+      "sentence": "W: Of course, but don’t run."
+    },
+    {
+      "tag_id": "dfe81e2c-d35d-4bb2-90f6-a2a821bfa3d4",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 367,
+      "span_end": 374,
+      "correct": "Look at",
+      "wrong": [
+        "Look",
+        "Look on"
+      ],
+      "why_ko": "'~을 보다'는 look at으로 전치사 at이 꼭 필요해요.",
+      "rationale": "look at(~을 보다)은 동사+전치사가 고정된 결합. 'look on / look to / look 삭제' 형태로 바꾸는 선지가 자주 나온다. see·watch와의 구별로도 출제 가능.",
+      "sentence_no": 16,
+      "sentence": "W: Look at that sign."
+    },
+    {
+      "tag_id": "576d3f3f-911a-4e78-88cb-5ccd07cbf5d4",
+      "point": "THAT_USAGE",
+      "span_start": 375,
+      "span_end": 384,
+      "correct": "that sign",
+      "wrong": [
+        "that a sign",
+        "those sign"
+      ],
+      "why_ko": "that은 단수 명사를 꾸미는 지시형용사이므로 관사 a를 겹쳐 쓰거나 복수형 those를 단수 명사에 쓸 수 없어요.",
+      "rationale": "여기서 that은 명사를 꾸미는 지시형용사(저 ~). 접속사·관계대명사 that과 쓰임을 구별시키는 '쓰임이 다른 것' 문항의 재료가 된다.",
+      "sentence_no": 16,
+      "sentence": "W: Look at that sign."
+    },
+    {
+      "tag_id": "b6abf843-628f-4693-b116-bb8c3aaef9fe",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 390,
+      "span_end": 402,
+      "correct": "must not run",
+      "wrong": [
+        "must not to run",
+        "must doesn’t run"
+      ],
+      "why_ko": "표지판이 금지하는 내용이므로 must not+동사원형이 맞고, don't have to는 '뛸 필요 없다'라는 다른 뜻이에요.",
+      "rationale": "must not = 금지(~해서는 안 된다). don't have to(~할 필요 없다)와 의미 혼동을 노리거나, 'must not to run / must not running / must doesn't run' 형태 오류를 심을 수 있는 핵심 자리.",
+      "sentence_no": 17,
+      "sentence": "You must not run inside the museum.",
+      "verify_dropped": [
+        {
+          "wrong": "don’t have to run",
+          "judgement": "ok",
+          "note_ko": "문법상 맞고 의미만 달라짐."
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 20,
+    "kept": 20,
+    "given": 20,
+    "rejects": [
+      [
+        "don’t have to",
+        "wrong 이 본문에 실재함: 'must not'"
+      ]
+    ],
+    "verify": {
+      "dropped_items": [
+        [
+          "I’ll turn off",
+          "모든 오답이 실은 맞는 표현이라 버림: I turn off(ok), I turned off(ok)"
+        ],
+        [
+          "inside the museum",
+          "모든 오답이 실은 맞는 표현이라 버림: outside the museum(ok), into the museum(ok)"
+        ]
+      ],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
+}

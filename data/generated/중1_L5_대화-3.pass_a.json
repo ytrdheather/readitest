@@ -1,0 +1,610 @@
+{
+  "passage_id": "0341cc2a-bbd7-43f8-bb37-deb26b288f4f",
+  "body_text_sha256": "be909f9666239391de83b1acbfef4621cef305a597cfbfb7afbb63818cf1a3a0",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 11,
+      "surface": "May I go",
+      "sentence_no": 1,
+      "rationale": "허가를 묻는 조동사 May + 주어 + 동사원형. 'May I to go / May I going / May I goes' 형태 오류를 유도할 수 있고, Can/Must 등 조동사 의미 구별로도 물을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 12,
+      "span_end": 29,
+      "surface": "to the video room",
+      "sentence_no": 1,
+      "rationale": "이동 방향을 나타내는 전치사 to. go to + 장소. 'go in/at/into the video room' 또는 전치사 삭제(go the video room) 오류를 유도할 수 있는 빈칸 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_FINITE",
+      "span_start": 54,
+      "span_end": 63,
+      "surface": "don’t run",
+      "sentence_no": 2,
+      "rationale": "부정 명령문은 Don't + 동사원형. 'don't running / don't to run / doesn't run' 처럼 준동사·수일치 형태로 바꾸는 오류를 심기 쉽다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB",
+        "EI_NONFIN_FORM",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 80,
+      "span_end": 87,
+      "surface": "Look at",
+      "sentence_no": 4,
+      "rationale": "look at(~을 보다)은 동사+전치사가 고정된 결합. 'look on / look to / look 삭제' 형태로 바꾸는 선지가 자주 나온다. see·watch와의 구별로도 출제 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 88,
+      "span_end": 97,
+      "surface": "that sign",
+      "sentence_no": 4,
+      "rationale": "여기서 that은 명사를 꾸미는 지시형용사(저 ~). 접속사·관계대명사 that과 쓰임을 구별시키는 '쓰임이 다른 것' 문항의 재료가 된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 103,
+      "span_end": 115,
+      "surface": "must not run",
+      "sentence_no": 5,
+      "rationale": "must not = 금지(~해서는 안 된다). don't have to(~할 필요 없다)와 의미 혼동을 노리거나, 'must not to run / must not running / must doesn't run' 형태 오류를 심을 수 있는 핵심 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_AGREEMENT",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 116,
+      "span_end": 133,
+      "surface": "inside the museum",
+      "sentence_no": 5,
+      "rationale": "장소 내부를 나타내는 전치사 inside. outside/into 등으로 바꾸면 문맥이 깨지며, 전치사 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 — 허가 요청",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "조건부 허락 + 금지 제시",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "되묻기 — 이유 요구",
+      "signal": "Why not?",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "근거 제시 — 표지판 지시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "결론문 — 규칙(금지 사항) 명시",
+      "signal": "must not",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장을 옮긴 것 중 어법상 <보기>와 같이 <u>틀린</u> 것은?",
+      "answer_key": "④",
+      "explanation": "조동사 must 뒤에는 반드시 동사원형이 온다. must not to run → must not run 이 되어야 한다. ①의 May I go, ②의 Don't + 동사원형, ③의 look at, ⑤의 Why not?은 모두 본문 그대로의 올바른 표현이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "May I go to the video room, Mom?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Of course, but don’t run.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Look at that sign.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You must not to run inside the museum.",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Why not?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\nB: May I (a)[go / to go] to the video room, Mom?\nW: Of course, but don’t run.\nB: Why not?\nW: Look (b)[at / on] that sign. You must not (c)[run / running] inside the museum.",
+      "answer_key": "①",
+      "explanation": "(a) 조동사 May 뒤에는 동사원형 go. (b) '~을 보다'는 look at 이 고정 결합. (c) 조동사 must not 뒤에도 동사원형 run 이 와야 한다. 따라서 go – at – run 인 ①이 정답이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "go – at – run",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "go – on – running",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "to go – at – run",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "to go – on – run",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "go – at – running",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_FINITE",
+      "stem": "다음은 위 대화를 옮긴 것이다. 밑줄 친 부분 중 어법상 <u>틀린</u> 것은?\n\nB: ① May I go ② to the video room, Mom?\nW: Of course, but ③ don’t running.\nB: Why not?\nW: ④ Look at that sign. You ⑤ must not run inside the museum.",
+      "answer_key": "③",
+      "explanation": "부정 명령문은 「Don't + 동사원형」이므로 don't running → don't run 이 되어야 한다. 나머지는 조동사+동사원형(①⑤), 방향 전치사 to(②), 동사+전치사 결합 look at(④)으로 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0,
+        1,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "May I go",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to the video room",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "don’t running",
+          "is_answer": true,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Look at that sign",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "must not run",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음은 위 대화를 옮긴 것이다. 문맥상 낱말의 쓰임이 적절하지 <u>않은</u> 것은?\n\nB: May I go to the ① video room, Mom?\nW: Of course, but don’t ② run.\nB: Why not?\nW: Look at that ③ sign. You ④ must not run ⑤ outside the museum.",
+      "answer_key": "⑤",
+      "explanation": "박물관 '안에서' 뛰지 말라는 표지판 내용이므로 outside가 아니라 inside가 알맞다. 나머지 낱말은 대화 흐름(비디오실 → 뛰지 마라 → 표지판 → 금지)과 일치한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "video",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "run",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "sign",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "must not",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "outside",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": [
+        "⑤"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 <u>Why not?</u>이 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 엄마가 don't run(뛰지 마라)이라고 했으므로 Why not?은 'Why can't I run?(왜 뛰면 안 되나요?)'의 줄임말이다. 비디오실에 가는 것은 이미 허락(Of course)을 받았으므로 ③은 맞지 않고, ②는 Of course의 뜻이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "왜 뛰면 안 되나요?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "물론이죠, 그렇게 하세요.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "왜 비디오실에 가면 안 되나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "저는 뛰고 싶지 않아요.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "표지판이 어디에 있나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "엄마는 비디오실에 가는 것은 허락하면서 표지판을 근거로 '박물관 안에서 뛰면 안 된다'는 규칙을 알려 주고 있다. 따라서 주제는 박물관 내에서 지켜야 할 규칙이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a rule that must be followed inside the museum",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to make a sign for a video room",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best way to get to the museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "a movie the boy watched in the video room",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "why the museum closes early today",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "소년은 May I go to the video room?이라고 허락을 구하고 있으므로 ①이 일치한다. 엄마는 Of course로 허락했으므로 ②는 틀리고, 표지판을 가리킨 사람은 엄마이므로 ③도 틀리다. 대화 장소는 박물관 안이며(④ 불일치), 표지판은 뛰는 것을 금지하므로 ⑤도 틀리다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy asks his mom for permission to go to the video room.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The mom does not allow the boy to go to the video room.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy is reading the sign to his mom.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "They are talking in front of their house.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Running is allowed inside the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음은 위 대화의 엄마의 말을 옮긴 것이다. 어법상 <u>틀린</u> 부분을 찾아 바르게 고쳐 쓰시오.\n\nLook on that sign. You must not run inside the museum.\n\n( ______ → ______ )",
+      "answer_key": "Look on → Look at",
+      "explanation": "'~을 (쳐다)보다'는 동사 look에 전치사 at이 결합한 look at 이 올바른 표현이다. look on은 '구경하다/방관하다'의 뜻이므로 문맥에 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 <조건>에 맞게 영작하시오.\n\n우리말: 너는 박물관 안에서 뛰면 안 된다.\n<조건 1> must를 반드시 사용할 것\n<조건 2> inside the museum을 포함할 것\n<조건 3> 6단어로 쓸 것",
+      "answer_key": "You must not run inside the museum.",
+      "explanation": "금지를 나타내는 '~해서는 안 된다'는 must not으로 표현하고, 조동사 뒤에는 동사원형 run을 쓴다. 장소는 inside the museum으로 나타낸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n제가 비디오실에 가도 될까요, 엄마?\n(go / I / may / to / the video room / , Mom?)",
+      "answer_key": "May I go to the video room, Mom?",
+      "explanation": "허가를 구하는 의문문은 「May + 주어 + 동사원형 ~?」 순서로 쓴다. 이동 방향은 go to + 장소로 나타내므로 May I go to the video room, Mom? 이 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

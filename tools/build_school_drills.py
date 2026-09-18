@@ -35,6 +35,7 @@ import argparse
 import glob
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -56,7 +57,19 @@ except Exception:
 
 OUT = os.path.join(ROOT, "result", "readitude")
 SCHOOLS = ["영일중", "영덕중", "태장중", "청명중"]
-GRADE = "2"          # 드릴은 동아 윤정미 중2 5·6과 (Street Art in London · Dr. Schofield)
+# 학년은 드릴 제목에서 읽는다 — '중1 L5 대화 …' · '동아 윤정미 중1 L5 어휘' 처럼 'L' 앞에
+# '중N' 이 붙어 있으면 그 학년, 없으면 2 (중2 는 접두어 없이 시작했다).
+GRADE_RE = re.compile(r"중(\d)\s+(?=L\d)")
+
+
+def grade_of(title):
+    m = GRADE_RE.search(title)
+    return m.group(1) if m else "2"
+
+
+def lesson_of(title):
+    m = re.search(r"(?<![A-Za-z])L\d+", title)
+    return m.group(0) if m else title.split()[0]        # 'L5' / 'L6'
 
 # 외부지문 → 학교. 자기 학교 배부물이라 다른 학교에는 안 준다.
 EXTERNAL = {
@@ -89,7 +102,8 @@ def load_all():
             continue
         suffix = name.rsplit(".", 1)[-1]           # tf / para / gram
         u = passages.setdefault(d["unit"], {"kind": d["kind"], "drills": {}})
-        u["lesson"] = d["unit"].split()[0]         # 'L5' / 'L6'
+        u["lesson"] = lesson_of(d["unit"])
+        u["grade"] = grade_of(d["unit"])
         u["drills"][suffix] = (name, p, d)
     return passages, vocab
 
@@ -110,17 +124,18 @@ def vocab_schools(d):
     return {s for s in SCHOOLS if s[:-1] in tail}
 
 
-def plan_for(school, L, passages, vocab):
-    """학교 한 곳 · 과 하나의 차례. [(구역, 지문 제목, [(렌더 종류, 파일, json, 언어, 이름)])]"""
+def plan_for(school, G, L, passages, vocab):
+    """학교 한 곳 · 학년 · 과 하나의 차례. [(구역, 지문 제목, [(렌더 종류, 파일, json, 언어, 이름)])]"""
     plan = []
 
     for name, p, d in vocab:
-        if L in d.get("title", "") and school in vocab_schools(d):
-            plan.append(("어휘", d["title"], [("vocab", p, d, None, "어휘")]))
+        t = d.get("title", "")
+        if L in t and grade_of(t) == G and school in vocab_schools(d):
+            plan.append(("어휘", t, [("vocab", p, d, None, "어휘")]))
 
     for sec_kind, sec in SECTION.items():
         units = [(u, v) for u, v in passages.items()
-                 if v["kind"] == sec_kind and v["lesson"] == L]
+                 if v["kind"] == sec_kind and v["lesson"] == L and v["grade"] == G]
         units.sort(key=lambda uv: passage_rank(uv[1]["drills"]))
         for unit, v in units:
             if sec_kind == "handout_external":
@@ -207,13 +222,14 @@ def main():
     renderer = Renderer(chrome, tmp, logo)
     print(f"  지문 {len(passages)}개 · 어휘 {len(vocab)}세트\n")
     try:
-        lessons = sorted({v["lesson"] for v in passages.values()})      # L5, L6, …
+        combos = sorted({(v["grade"], v["lesson"]) for v in passages.values()})   # ('1','L5'), ('2','L5'), …
         for school in schools:
-            for L in lessons:
-                plan = plan_for(school, L, passages, vocab)
+            for G, L in combos:
+                plan = plan_for(school, G, L, passages, vocab)
                 if not plan:
                     continue
                 lesson = L[1:] + "과"                                     # L5 → 5과
+                GRADE = G
                 print(f"■ {school}{GRADE} {lesson} — {len(plan)}지문")
                 for sec, title, steps in plan:
                     print(f"     {sec:<5} {title[:38]:<40} {' · '.join(s[4] for s in steps)}")

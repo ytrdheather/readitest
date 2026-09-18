@@ -1,0 +1,547 @@
+{
+  "passage_id": "75edaf3c-7d53-4bbd-81ee-4386a25f7295",
+  "body_text_sha256": "71e8ede5f225fe98f03cf57165a087bf74874b94c5f530539ae0e589db88f7db",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 14,
+      "span_end": 19,
+      "surface": "May I",
+      "sentence_no": 2,
+      "rationale": "허락을 구하는 조동사 May I + 동사원형. Can I / May I 구별, 또는 'May I to bring / May I bringing' 처럼 뒤 동사 형태를 틀리게 만드는 함정으로 출제 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 33,
+      "span_end": 45,
+      "surface": "to the store",
+      "sentence_no": 2,
+      "rationale": "방향·도착점을 나타내는 전치사 to. 'in the store / at the store / the store(전치사 삭제)'로 바꿔 빈칸 출제하기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 26,
+      "span_end": 32,
+      "surface": "my dog",
+      "sentence_no": 2,
+      "rationale": "명사 앞 소유격 my. 'me dog / mine dog' 같은 격 오류를 유도할 수 있는 자리.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 54,
+      "span_end": 65,
+      "surface": "you may not",
+      "sentence_no": 3,
+      "rationale": "May I ~? 에 대한 부정 응답은 'you may not'. 'you don't may / not you may' 같은 어순·형태 오류, 또는 허락 거절 표현으로 'you must not / you may' 중 고르게 하는 출제가 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 71,
+      "span_end": 85,
+      "surface": "must not bring",
+      "sentence_no": 4,
+      "rationale": "금지를 나타내는 must not + 동사원형. 'don't have to(~할 필요 없다)'와 의미 구별, 'must not to bring / must not bringing' 형태 오류가 대표 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 91,
+      "span_end": 97,
+      "surface": "inside",
+      "sentence_no": 4,
+      "rationale": "동사 bring을 수식하는 장소 부사 inside. 'in inside / insidely' 처럼 전치사 추가나 부사형 오류를 넣을 수 있는 자리.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 106,
+      "span_end": 118,
+      "surface": "I understand",
+      "sentence_no": 6,
+      "rationale": "지금 이해했다는 뜻으로 현재시제를 쓰는 자리. 'I am understanding / I understood'로 바꾸는 시제·상 오류 유도가 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입(말 걸기)",
+      "signal": "Excuse me",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문(허락 요청)",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답(허락 거절)",
+      "signal": "No",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "주제문(규칙·금지 제시)",
+      "signal": "must not",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "수용 반응",
+      "signal": "OK",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "결론(이해 확인)",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장들 중 어법상 <보기>와 같이 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "조동사 must (not) 뒤에는 반드시 동사원형이 온다. 따라서 ④는 bringing이 아니라 bring이어야 하며, 원문도 'You must not bring pets inside.'이다. ①②③⑤는 지문 원문 그대로이며 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        0,
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Excuse me.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "May I bring my dog to the store?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "No, you may not.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You must not bringing pets inside.",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I understand.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "대화의 (a), (b), (c)에 들어갈 말로 가장 알맞게 짝지어진 것은?\nG: Excuse me. May I (a)[bring / bringing] my dog to the store?\nM: No, you (b)[may not / don't may]. You must not (c)[bring / to bring] pets inside.",
+      "answer_key": "①",
+      "explanation": "조동사 may, must 뒤에는 동사원형이 오므로 (a) bring, (c) bring이 맞다. 조동사의 부정은 조동사 뒤에 not을 붙여 (b) may not이 되며, don't may는 불가능하다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) bring — (b) may not — (c) bring",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) bringing — (b) may not — (c) bring",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) bring — (b) don't may — (c) bring",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) bring — (b) may not — (c) to bring",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) bringing — (b) don't may — (c) to bring",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "(a) to bring — (b) may not — (c) bring",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 적절한 것은?\nM: No, you may not. You ________ bring pets inside.",
+      "answer_key": "①",
+      "explanation": "앞에서 'No, you may not.'이라며 허락을 거절했으므로 뒤 문장은 '금지'를 나타내야 한다. 금지는 must not이다. ② don't have to는 '~할 필요가 없다'는 뜻으로 금지가 아니고, ③ may와 ⑤ are able to는 허가·가능을 나타내 흐름에 반대되며, ④ had better는 충고 표현으로 가게 규칙을 알리는 문맥에 맞지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "must not",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "don't have to",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "may",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "had better",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "are able to",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "밑줄 친 You must not bring pets inside.의 의미로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "must not은 '~해서는 안 된다'는 강한 금지를 나타낸다. ②는 don't have to의 뜻이고, ③은 may의 뜻, ④는 had better의 뜻이므로 모두 다르다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "애완동물을 안으로 데려와서는 안 됩니다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "애완동물을 안으로 데려올 필요는 없습니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "애완동물을 안으로 데려와도 괜찮습니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "애완동물을 안으로 데려오는 게 더 좋습니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "애완동물을 안으로 데려올 수 있는지 물어봐야 합니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "소녀가 개를 데리고 들어가도 되는지 묻자 남자가 'No, you may not. You must not bring pets inside.'라고 답했으므로 ①이 일치한다. ②는 허락했다는 뜻이므로 반대이고, ③④는 대화에 없는 내용이며, ⑤는 소녀가 'I understand.'라고 했으므로 틀렸다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl is not allowed to bring her dog into the store.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The man tells the girl that pets are welcome inside.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl wants to buy a dog at the store.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The man asks the girl to take care of his pet.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl does not understand the store's rule.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "소녀가 'May I bring my dog to the store?'로 허락을 구하고 남자가 금지로 답하는 대화이므로 ①이 주제다. 나머지는 대화에 근거가 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "asking for permission to bring a pet into a store",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "choosing a healthy food for a pet dog",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "looking for a lost dog near a store",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "complaining about a noisy pet shop",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "asking the way to the nearest store",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nYou must not to bring pets inside.",
+      "answer_key": "to bring → bring",
+      "explanation": "조동사 must 뒤에는 to부정사가 아니라 동사원형이 온다. 따라서 'must not to bring'을 'must not bring'으로 고쳐야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n제가 제 개를 가게에 데려가도 될까요?\n(I / bring / may / my dog / the store / to)",
+      "answer_key": "May I bring my dog to the store?",
+      "explanation": "허락을 구하는 의문문은 'May + 주어 + 동사원형 ~?' 어순이다. 목적어 my dog 뒤에 도착점을 나타내는 전치사구 to the store를 붙인다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n애완동물을 안으로 데려와서는 안 됩니다.\n<조건> 1) 주어는 You로 시작할 것  2) 금지를 나타내는 조동사 must를 사용할 것  3) pets, inside, bring을 모두 사용할 것",
+      "answer_key": "You must not bring pets inside.",
+      "explanation": "금지는 must not으로 나타내고 그 뒤에는 동사원형 bring이 온다. 목적어 pets 뒤에 장소를 나타내는 부사 inside를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

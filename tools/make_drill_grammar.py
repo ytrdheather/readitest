@@ -60,6 +60,12 @@ UNITS = [
     ("L5 외부지문 — A girl with a red balloon", ["A girl with a red balloon"]),
     ("L6 외부지문 — Yu Gwansun", ["Yu Gwansun"]),
     ("L6 외부지문 — Homer B. Hulbert", ["Homer B. Hulbert"]),
+    # 중1 (2026-09-18). 대화 8편이라 3·3·2. 제목 앞의 '중1' 로 중2 와 구분한다.
+    ("중1 L5 대화 ①②③", ["중1 L5 대화-1", "중1 L5 대화-2", "중1 L5 대화-3"]),
+    ("중1 L5 대화 ④⑤⑥", ["중1 L5 대화-4", "중1 L5 대화-5", "중1 L5 대화-6"]),
+    ("중1 L5 대화 ⑦⑧", ["중1 L5 대화-7", "중1 L5 대화-8"]),
+    ("중1 L5 본문 — Who Threw a Cake at the Monalisa?",
+     ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
 ]
 EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부물",
             "L6 외부지문 — Yu Gwansun": "영덕중 배부물",

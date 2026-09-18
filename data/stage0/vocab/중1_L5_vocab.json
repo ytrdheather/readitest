@@ -1,0 +1,159 @@
+{
+  "lesson": 5,
+  "grade": 1,
+  "unit_title": "Think like Sherlock Holmes!",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 5과 추출.pdf",
+  "source_detail": "특급기출 본책 STEP A Words 쪽 (자습서 계열 영영풀이) — 텍스트 레이어",
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer"
+  },
+  "words": [
+    {
+      "word": "bakery",
+      "ko": "빵집",
+      "def_en": "a place where bread and cakes are made and sold"
+    },
+    {
+      "word": "bottled",
+      "ko": "병에 든",
+      "def_en": "kept or contained in bottles"
+    },
+    {
+      "word": "bring",
+      "ko": "가져오다",
+      "def_en": "to come with something or someone to a place"
+    },
+    {
+      "word": "crime",
+      "ko": "범죄",
+      "def_en": "an action that the law does not allow"
+    },
+    {
+      "word": "expensive",
+      "ko": "비싼",
+      "def_en": "costing a lot of money"
+    },
+    {
+      "word": "eyewitness",
+      "ko": "목격자",
+      "def_en": "someone who saw a crime or an accident"
+    },
+    {
+      "word": "height",
+      "ko": "높이, 키",
+      "def_en": "how tall someone or something is"
+    },
+    {
+      "word": "inside",
+      "ko": "~의 안쪽에",
+      "def_en": "in or into the inner part of something or someone"
+    },
+    {
+      "word": "reason",
+      "ko": "근거, 이유",
+      "def_en": "something that makes it right or fair to do something"
+    },
+    {
+      "word": "secret",
+      "ko": "비밀의",
+      "def_en": "not known or seen by others"
+    },
+    {
+      "word": "steal",
+      "ko": "훔치다",
+      "def_en": "to take something that belongs to someone else"
+    },
+    {
+      "word": "suspect",
+      "ko": "용의자",
+      "def_en": "a person who is believed to be guilty of something"
+    },
+    {
+      "word": "wig",
+      "ko": "가발",
+      "def_en": "an object with hair on it that someone wears on their head"
+    },
+    {
+      "word": "fall off",
+      "ko": "~로부터 떨어지다",
+      "def_en": "to drop to the ground from a high object"
+    },
+    {
+      "word": "run away",
+      "ko": "도망가다",
+      "def_en": "to leave a place or person secretly and suddenly"
+    }
+  ],
+  "antonyms": [
+    {
+      "word": "heavy",
+      "word_ko": "무거운",
+      "antonym": "light",
+      "antonym_ko": "가벼운"
+    },
+    {
+      "word": "expensive",
+      "word_ko": "비싼",
+      "antonym": "cheap",
+      "antonym_ko": "값이 싼"
+    },
+    {
+      "word": "old",
+      "word_ko": "늙은",
+      "antonym": "young",
+      "antonym_ko": "젊은, 어린"
+    },
+    {
+      "word": "empty",
+      "word_ko": "비어 있는",
+      "antonym": "full",
+      "antonym_ko": "가득 찬"
+    },
+    {
+      "word": "remember",
+      "word_ko": "기억하다",
+      "antonym": "forget",
+      "antonym_ko": "잊어버리다"
+    }
+  ],
+  "derivations": [
+    {
+      "base": "terrible",
+      "base_ko": "무서운, 심한",
+      "derived": "terribly",
+      "derived_ko": "무섭게, 심하게"
+    },
+    {
+      "base": "last",
+      "base_ko": "마지막의",
+      "derived": "lastly",
+      "derived_ko": "마지막으로"
+    },
+    {
+      "base": "expensive",
+      "base_ko": "비싼",
+      "derived": "expensively",
+      "derived_ko": "비싸게"
+    },
+    {
+      "base": "visit",
+      "base_ko": "방문",
+      "derived": "visitor",
+      "derived_ko": "방문객"
+    },
+    {
+      "base": "crime",
+      "base_ko": "범죄",
+      "derived": "criminal",
+      "derived_ko": "범죄자"
+    }
+  ],
+  "distribution_scope": "internal_only"
+}

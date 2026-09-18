@@ -1,0 +1,749 @@
+{
+  "passage_id": "d89ba53a-9050-4c66-8f0c-263cb67e948f",
+  "body_text_sha256": "cdbd3bfbeb7a3d2610f68e20ea7e9837b5fa6a04850e0ff629f0e2944f4fcc6f",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 19,
+      "span_end": 28,
+      "surface": "over here",
+      "sentence_no": 1,
+      "rationale": "방향·위치를 나타내는 전치사 over(이쪽으로). look [over/in/of] here 로 전치사를 빈칸 처리하기 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 57,
+      "span_end": 68,
+      "surface": "by Van Gogh",
+      "sentence_no": 2,
+      "rationale": "작품의 작가를 나타내는 by(~에 의한). from/of/with 로 바꾼 오답이나 by 삭제를 유도할 수 있음",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 108,
+      "span_end": 118,
+      "surface": "May I take",
+      "sentence_no": 4,
+      "rationale": "허락을 구하는 조동사 may + 동사원형. May I to take / May I taking 형태 오류를 심을 수 있는 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 119,
+      "span_end": 134,
+      "surface": "a picture of it",
+      "sentence_no": 4,
+      "rationale": "it 이 앞 문장의 painting(단수 사물)을 대신함. them/they/its 로 바꾼 수·격 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 161,
+      "span_end": 173,
+      "surface": "must not use",
+      "sentence_no": 5,
+      "rationale": "금지의 must not(=하면 안 된다) + 동사원형. don't have to(불필요)와의 의미 구별, must not to use / must not using 형태 오류가 단골 출제 지점",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 197,
+      "span_end": 215,
+      "surface": "It’s a little dark",
+      "sentence_no": 7,
+      "rationale": "날씨·명암을 나타내는 비인칭 주어 it. This is / There is 로 바꾼 오답 또는 가주어 it 과의 쓰임 구별을 물을 수 있음",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 202,
+      "span_end": 215,
+      "surface": "a little dark",
+      "sentence_no": 7,
+      "rationale": "be동사 뒤 보어 자리이므로 형용사 dark. darkly 로 바꾼 부사 오류를 심기 쉬움",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 243,
+      "span_end": 269,
+      "surface": "using the flash can damage",
+      "sentence_no": 8,
+      "rationale": "동명사구가 주어 자리에 쓰인 구조. Use the flash can damage(정동사), To use 와의 비교, 동명사 주어 단수 취급 판단을 물을 수 있음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 259,
+      "span_end": 279,
+      "surface": "can damage paintings",
+      "sentence_no": 8,
+      "rationale": "목적어 paintings 를 가진 능동태. paintings can be damaged by the flash 로 전환하거나 can be damage / can damaged 같은 형태 오류를 심을 수 있는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 288,
+      "span_end": 306,
+      "surface": "I didn’t know that",
+      "sentence_no": 9,
+      "rationale": "앞 사람의 말 전체를 가리키는 지시대명사 that(목적어). 접속사 that·관계대명사 that 과의 쓰임 구별, what 으로 바꾼 오답 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 327,
+      "span_end": 337,
+      "surface": "move on to",
+      "sentence_no": 10,
+      "rationale": "move on to + 명사(~로 넘어가다)의 고정 결합. to 누락(move on Monet's paintings)이나 move to on 순서 오류를 심기 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 주의 환기",
+      "signal": "look over here",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "대상 소개 (작품 제시)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "반응 — 개인적 선호 표현",
+      "signal": "Wow",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "요청 — 허락 구하기",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "허락 + 제한(금지) — 대화의 핵심 규칙 제시",
+      "signal": "but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "되묻기 — 이유 요구",
+      "signal": "Why not?",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "반론 근거 (어두워서 플래시가 필요함)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "원인 설명 — 금지의 이유(주제문)",
+      "signal": "I’m sorry, but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 9,
+      "role": "수용 — 이해 표시",
+      "signal": "Oh",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "전환 — 다음 활동 안내",
+      "signal": "next",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "마무리 반응",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음은 위 대화에서 가져온 문장들이다. 어법상 틀린 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "조동사 must 뒤에는 동사원형이 오므로 must not to use 가 아니라 must not use 가 맞다. ①의 by(작가), ②의 May I + 동사원형, ④의 동명사 주어 using the flash + can damage, ⑤의 move on to + 명사는 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        2,
+        7,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "This is Sunflowers by Van Gogh.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "May I take a picture of it?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Yes, you may, but you must not to use the flash.",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’m sorry, but using the flash can damage paintings.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Everyone, we’ll move on to Monet’s paintings next.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n· Yes, you may, but you must not (a)[use / to use] the flash.\n· (b)[Using / Use] the flash can damage paintings.\n· Oh, I didn’t know (c)[that / what].",
+      "answer_key": "①",
+      "explanation": "(a) must not 뒤에는 동사원형 use. (b) 주어 자리이므로 동명사 Using(명령문 동사원형 Use 로 쓰면 주어가 없어져 문장이 성립하지 않음). (c) 앞사람의 말 전체를 가리키는 지시대명사 that 이 know 의 목적어로 쓰였다. what 은 선행사를 포함한 관계대명사여서 뒤에 절이 있어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        7,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) use – (b) Using – (c) that",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) to use – (b) Using – (c) that",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) use – (b) Use – (c) that",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) use – (b) Using – (c) what",
+          "is_answer": false,
+          "violates_point_code": "THAT_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) to use – (b) Use – (c) what",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "위 대화의 밑줄 친 부분 중 전치사 쓰임이 어법상 틀린 것을 고르시오.",
+      "answer_key": "⑤",
+      "explanation": "'~로 넘어가다'는 move on to + 명사이므로 to 가 빠진 ⑤가 틀렸다(move on to Monet’s paintings). ① look over here, ② a picture of it, ③ dark in here, ④ 작가를 나타내는 by 는 모두 올바른 쓰임이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        0,
+        3,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Everybody, look over here, please.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "May I take a picture of it?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "It’s a little dark in here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "This is Sunflowers by Van Gogh.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Everyone, we’ll move on Monet’s paintings next.",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "플래시를 쓰지 못하게 하는 이유를 설명하는 문장이므로 '보호한다(protect)'가 아니라 '손상시킨다(damage)'가 와야 문맥이 통한다. 나머지는 모두 대화의 흐름에 맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[3] Wow, this is my favorite painting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[5] you must not use the flash",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[7] It’s a little dark in here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[8] using the flash can protect paintings",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[10] we’ll move on to Monet’s paintings next",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 소녀가 말한 Why not?의 의미로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 남자가 must not use the flash 라고 금지했고, 소녀는 그에 대해 '왜 안 되나요?'라고 이유를 묻고 있다. 남자가 이어서 플래시가 그림을 손상시킨다고 이유를 설명하는 것에서도 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "플래시를 사용하면 안 되는 이유가 무엇인지 묻는 말이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "사진을 찍어도 되는지 허락을 구하는 말이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "이 그림을 왜 좋아하는지 이유를 되묻는 말이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "전시실이 왜 어두운지 불평하는 말이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "다음 전시실로 함께 가도 되는지 묻는 말이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "미술관 안내자가 사진 촬영은 허락하면서 플래시는 그림을 손상시키므로 쓰지 말라고 설명하는 대화이다. 그림 그리는 법, 길 묻기, 화풍 비교, 불평은 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A museum guide explaining why flash photos are not allowed",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "A girl learning how to paint like Van Gogh",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A student asking for directions to a museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "A teacher comparing Van Gogh’s and Monet’s styles",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A visitor complaining that the museum is too dark",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "남자는 사진은 찍어도 되지만 플래시는 사용해서는 안 된다(must not use the flash)고 했으므로 ③은 대화 내용과 반대이다. ①은 [3], ②는 [4]~[5], ④는 [8], ⑤는 [10]에서 확인된다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        8,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl likes Sunflowers very much.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl is allowed to take a picture of the painting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl may use the flash because the room is dark.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The flash can damage paintings.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The group will see Monet’s paintings next.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 [8]번 문장 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nM: I’m sorry, but using the flash can ____________.",
+      "answer_key": "①",
+      "explanation": "플래시 사용을 금지한 이유를 설명하는 자리이므로 '그림을 손상시킬 수 있다'가 와야 한다. ②③은 오히려 플래시를 써야 할 이유가 되고, ④는 금지 이유와 모순되며, ⑤는 대화 내용과 무관하다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        8,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "damage paintings",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "make the room brighter",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "help you take better pictures",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "protect the colors of the painting",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "move the paintings to another room",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nI’m sorry, but using the flash can damages paintings.",
+      "answer_key": "damages → damage",
+      "explanation": "조동사 can 뒤에는 항상 동사원형이 오므로 damages 를 damage 로 고쳐야 한다. 주어가 동명사구(using the flash)로 단수 취급되지만, 조동사가 있으면 수일치가 동사 형태에 나타나지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 내용에 맞게 <조건>에 따라 영작하시오.\n우리말: 너는 플래시를 사용해서는 안 된다.\n<조건> ① must 를 이용할 것 ② flash 를 이용할 것 ③ 5단어로 쓸 것",
+      "answer_key": "You must not use the flash.",
+      "explanation": "강한 금지는 must not + 동사원형으로 나타낸다. don't have to 는 '~할 필요가 없다'는 뜻이라 금지의 의미가 되지 않고, must not to use / must not using 은 어법상 틀리다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n우리말: 플래시를 사용하는 것은 그림을 손상시킬 수 있다.\n(damage / the flash / can / using / paintings)",
+      "answer_key": "Using the flash can damage paintings.",
+      "explanation": "'~하는 것은'에 해당하는 주어 자리에는 동명사구 Using the flash 를 쓰고, 조동사 can 뒤에는 동사원형 damage 를 쓴다. Use the flash can damage 처럼 동사원형을 주어로 쓰면 문장이 성립하지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 11,
+    "tags_returned": 11,
+    "tags_kept": 11,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

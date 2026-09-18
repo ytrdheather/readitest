@@ -1,0 +1,571 @@
+{
+  "passage_id": "056186f2-1eac-4677-b673-0b63796f21bc",
+  "body_text_sha256": "bd52fe63f0fa76a87bc3bed59041be550e1ef2d59f1eb846a43014e18481c9ae",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 12,
+      "surface": "May I eat",
+      "sentence_no": 1,
+      "rationale": "허가를 묻는 조동사 may + 동사원형. 'May I to eat / May I eating / May I ate' 형태 오류나 Can/Must와의 의미 구별로 출제 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 26,
+      "span_end": 41,
+      "surface": "you may not eat",
+      "sentence_no": 2,
+      "rationale": "허가 거절의 may not + 동사원형(불허). 'may not to eat / may not eating' 형태 오류, 또는 don't have to(불필요)와 의미 혼동을 유도할 수 있음.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 42,
+      "span_end": 59,
+      "surface": "inside the museum",
+      "sentence_no": 2,
+      "rationale": "장소 전치사 inside(~ 안에서). outside/into 로 교체하면 문맥이 뒤집히고, 전치사 삭제(EI_PREP_DELETE)도 가능한 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 64,
+      "span_end": 80,
+      "surface": "How about water?",
+      "sentence_no": 3,
+      "rationale": "제안·화제전환 관용표현 How about + 명사(동명사). about 자리를 빈칸으로 뚫거나 'How about to drink'처럼 to부정사 오류를 심을 수 있음.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 81,
+      "span_end": 99,
+      "surface": "May I drink water?",
+      "sentence_no": 4,
+      "rationale": "허가 요청 May I + 동사원형 의문문 어순. 'I may drink water?' 어순 오류나 'May I drinking' 형태 오류 유도 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 109,
+      "span_end": 120,
+      "surface": "water is OK",
+      "sentence_no": 5,
+      "rationale": "불가산명사 water는 단수 취급 → is. 'water are OK'로 수일치 오류를 심을 수 있음.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 — 허가 요청",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "규칙 제시 — 거절 및 금지 안내(주제문)",
+      "signal": "No",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환 — 다른 대상으로 화제 이동",
+      "signal": "How about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "재질문 — 구체적 허가 요청",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "결론 — 허가 승인",
+      "signal": "Sure",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 가장 알맞게 짝지어진 것은?\n\nB: May I (a)[eat / to eat] here?\nW: No, you may not (b)[eat / eating] inside the museum.\nB: How about water? May I drink water?\nW: Sure, water (c)[is / are] OK.",
+      "answer_key": "①",
+      "explanation": "조동사 may 뒤에는 항상 동사원형이 오므로 (a) eat, (b) eat 이 맞다. to eat, eating 은 모두 조동사 뒤에 올 수 없다. water는 셀 수 없는 명사로 단수 취급하므로 (c)는 is 가 맞고 are 는 수일치 오류다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) eat – (b) eat – (c) is",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) to eat – (b) eat – (c) is",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) eat – (b) eating – (c) is",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) eat – (b) eat – (c) are",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) to eat – (b) eating – (c) is",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장을 옮겨 적은 것 중, 어법상 <보기>가 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "④는 조동사 may 뒤에 to부정사가 와서 틀렸다. May I drink water? 가 옳다. ①②는 may / may not 뒤에 동사원형이 바르게 왔고, ③은 How about + 명사 형태로 옳으며, ⑤는 불가산명사 water에 단수 동사 is가 바르게 쓰였다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "B: May I eat here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "W: No, you may not eat inside the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "B: How about water?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B: May I to drink water?",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "W: Sure, water is OK.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "②",
+      "explanation": "소년이 '여기(박물관 안)에서 먹어도 되느냐'고 물었고 여자가 이를 거절하는 상황이므로 '박물관 안에서(inside)' 먹으면 안 된다고 해야 문맥이 맞다. outside(밖에서)는 대화의 흐름과 정반대다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "B: May I eat here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "W: No, you may not eat outside the museum.",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "B: How about water?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B: May I drink water?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "W: Sure, water is OK.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 밑줄 친 How about water? 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "How about ~? 은 화제를 바꾸며 '~은 어때?'라고 묻는 표현이다. 바로 뒤에 May I drink water? 라고 이어지므로 '물은 마셔도 되는지'를 묻는 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "물은 어디에서 살 수 있나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "물을 마시는 것은 어떤가요? (= 물은 마셔도 되나요?)",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "물이 왜 이렇게 비싼가요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "물 대신 다른 음료를 주시겠어요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "물을 여기에 두어도 되나요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is true about the dialogue?",
+      "answer_key": "②",
+      "explanation": "여자가 'Sure, water is OK.'라고 했으므로 물을 마시는 것은 허용된다(②). ①은 'you may not eat inside the museum'과 반대이고, ③④⑤는 대화에 언급되지 않은 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy can eat food inside the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy is allowed to drink water.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The woman asks the boy to leave the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The boy wants to buy water at the museum shop.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The woman says nothing can be brought into the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "소년이 May I ~? 로 허가를 묻고 여자가 허락하거나 거절하는 대화이므로, 박물관에서의 취식에 관한 허가 요청과 응답이 주제다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Asking for and giving permission about eating and drinking in a museum",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Buying tickets for a museum tour",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Asking the way to the museum cafeteria",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Complaining about the museum's rules",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Explaining why water is good for health",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "Choose the best expression for the blank.\n\nB: May I eat here?\nW: No, ______ inside the museum.\nB: How about water? May I drink water?\nW: Sure, water is OK.",
+      "answer_key": "①",
+      "explanation": "앞의 No 와 뒤에서 물만 따로 허락받는 흐름으로 보아, 박물관 안에서 '먹는 것'이 금지된다는 내용이 와야 한다. may not(~해서는 안 된다)이 알맞다. ⑤ don't have to는 '~할 필요 없다'로 금지의 뜻이 아니다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "you may not eat",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "you must eat",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "you may drink water",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I will eat",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "you don't have to come",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음은 위 대화의 일부를 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n\nB: How about water? May I drinking water?",
+      "answer_key": "May I drink water?",
+      "explanation": "조동사 may 뒤에는 동사원형이 와야 하므로 drinking 을 drink 로 고쳐 'May I drink water?' 로 써야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 괄호 안의 단어를 모두 바르게 배열하시오.\n\n박물관 안에서는 음식을 드시면 안 됩니다.\n(eat / may / the museum / you / inside / not)",
+      "answer_key": "You may not eat inside the museum.",
+      "explanation": "허가의 부정은 「주어 + may not + 동사원형」 어순이고, 장소는 전치사 inside + 명사구로 뒤에 붙인다. 따라서 You may not eat inside the museum. 이 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 6,
+    "tags_kept": 6,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

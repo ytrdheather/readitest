@@ -1,0 +1,595 @@
+{
+  "passage_id": "f08fb4dc-4d71-41eb-924e-f4105355cc9b",
+  "body_text_sha256": "738df97cd894bdc2c1a2ad62ad4c753094bcc32bd6f12c92eee6400f3223f94c",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 13,
+      "surface": "May I take",
+      "sentence_no": 1,
+      "rationale": "허가를 요청하는 조동사 may + 주어 + 동사원형 어순. 'May I to take / May I taking / Do I may take' 같은 형태 오류나, Must I take(의무)와의 의미 구별로 출제될 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 19,
+      "span_end": 34,
+      "surface": "into the museum",
+      "sentence_no": 1,
+      "rationale": "'~안으로 (이동)'을 뜻하는 방향 전치사 into. in(정지 상태) / to / on 과의 혼동, 혹은 전치사 삭제(take food the museum)로 빈칸 출제되기 쉽다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 60,
+      "span_end": 74,
+      "surface": "must not bring",
+      "sentence_no": 3,
+      "rationale": "must not = 강한 금지(~해서는 안 된다). don't have to(~할 필요 없다)와 의미가 전혀 달라 짝짓기 문항의 단골. 또 must not 뒤 동사원형(bring)이 와야 하므로 brings/bringing/to bring 형태 오류도 유도 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 75,
+      "span_end": 83,
+      "surface": "any food",
+      "sentence_no": 3,
+      "rationale": "부정(금지) 문맥에서는 some이 아니라 any를 쓴다. 'must not bring some food'로 바꾼 오답 선지가 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 95,
+      "span_end": 110,
+      "surface": "How about water",
+      "sentence_no": 4,
+      "rationale": "제안·되묻기 표현 How about + 명사(구). 전치사 about 뒤에는 명사나 동명사만 오므로 'How about to drink'류 오류 또는 about 자리 빈칸으로 출제 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 120,
+      "span_end": 133,
+      "surface": "bottled water",
+      "sentence_no": 5,
+      "rationale": "'병에 담긴 물'이라는 수동 의미이므로 과거분사 bottled가 명사를 수식한다. bottling water(현재분사)로 뒤집는 EI_PARTICIPLE_FLIP 함정이 그대로 걸리는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 128,
+      "span_end": 139,
+      "surface": "water is OK",
+      "sentence_no": 5,
+      "rationale": "주어 (Only bottled) water가 셀 수 없는 단수 명사이므로 동사는 is. 앞에 수식어 Only bottled가 붙어 있어 are로 잘못 쓰게 유도하기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 (허가 요청)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답 — 거절",
+      "signal": "No",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "규칙 제시 (주제문)",
+      "signal": "must not",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "전환 — 추가 질문",
+      "signal": "How about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "예외 허용 (결론)",
+      "signal": "Only",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "다음 대화의 밑줄 친 ⓐ~ⓔ 중 어법상 틀린 것은?\n\nB: May I ⓐtake food ⓑinto the museum?\nW: No, you may not. You must not ⓒbring ⓓany food inside.\nB: How about water?\nW: Only ⓔbottling water is OK.",
+      "answer_key": "⑤",
+      "explanation": "물은 '병에 담기는' 대상이므로 수동의 의미인 과거분사 bottled water가 맞다. bottling water는 '물을 병에 담고 있는'이라는 능동 의미가 되어 문맥에 맞지 않는다. ⓐ는 May 뒤 동사원형, ⓑ는 '~안으로'의 방향 전치사, ⓒ는 must not 뒤 동사원형, ⓓ는 부정 문맥의 any로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "ⓐ take",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ⓑ into",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "ⓒ bring",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "ⓓ any",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "ⓔ bottling",
+          "is_answer": true,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "PRON_INDEFINITE",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\nB: May I take food (a)[in / into] the museum?\nW: No, you may not. You must not bring (b)[any / some] food inside.\nB: How about water?\nW: Only bottled water (c)[is / are] OK.",
+      "answer_key": "①",
+      "explanation": "(a) 음식을 '박물관 안으로 가져가는' 이동이므로 방향 전치사 into. (b) 금지를 나타내는 부정 문맥이므로 some이 아니라 any. (c) 주어 water는 셀 수 없는 단수 명사이므로 is. 따라서 into – any – is가 정답이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "into – any – is",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "in – any – is",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "into – some – is",
+          "is_answer": false,
+          "violates_point_code": "PRON_INDEFINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "into – any – are",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "in – some – are",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장을 옮겨 쓴 것 중, 어법상 옳지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "조동사 must (not) 뒤에는 반드시 동사원형이 오므로 must not bring이 맞다. to bring은 불가능하다. 나머지는 모두 본문 그대로의 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "May I take food into the museum?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "No, you may not.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "You must not to bring any food inside.",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "How about water?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Only bottled water is OK.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nB: May I take food into the museum?\nW: No, you may not. ______________\nB: How about water?\nW: Only bottled water is OK.",
+      "answer_key": "①",
+      "explanation": "앞에서 'No, you may not.'으로 거절했고 뒤에서 소년이 물에 대해 다시 묻는 흐름이므로, 빈칸에는 음식물 반입 금지를 알리는 ①이 와야 한다. 나머지는 거절의 이유나 음식 금지와 무관하다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "You must not bring any food inside.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You have to buy some food inside.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "You don't have to pay for the ticket.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You may take pictures of the paintings.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You must wash your hands before lunch.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "②",
+      "explanation": "여자는 'Only bottled water is OK.'라고 했으므로 병에 든 물은 가져갈 수 있다(②). 음식물은 금지되므로 ①③은 틀리고, 물은 허용되므로 ④도 틀리며, 소년이 물어본 것은 음식과 물이므로 ⑤도 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy can bring any food into the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy can take bottled water into the museum.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The woman allows the boy to eat inside.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "No drinks are allowed in the museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy is asking about taking pictures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 밑줄 친 You must not bring any food inside. 가 의미하는 것으로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "must not은 강한 금지를 나타내며, 부정문의 any는 '어떤 ~도'의 뜻이다. ①은 don't have to(~할 필요 없다)의 뜻이므로 오답이다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "안으로 음식을 가져올 필요는 없다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "안으로 어떤 음식도 가져와서는 안 된다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "안에서 음식을 사는 것이 더 낫다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "음식을 가져오려면 허락을 받아야 한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "음식은 밖에서 먹어도 된다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "위 대화의 마지막 말을 아래와 같이 잘못 썼다. 어법상 틀린 부분 두 군데를 찾아 바르게 고쳐 쓰시오.\n\nOnly bottling water are OK.",
+      "answer_key": "bottling → bottled, are → is (Only bottled water is OK.)",
+      "explanation": "물은 '병에 담긴' 대상이므로 수동의 의미를 갖는 과거분사 bottled가 명사 water를 수식해야 한다. 또 주어 water는 셀 수 없는 단수 명사이므로 동사는 is가 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 <조건>에 맞게 영어로 쓰시오.\n\n우리말: 너는 안으로 어떤 음식도 가져와서는 안 된다.\n<조건> 1) must, bring, food, inside 를 모두 사용할 것  2) 부정문에 알맞은 부정대명사를 쓸 것  3) 7단어로 쓸 것",
+      "answer_key": "You must not bring any food inside.",
+      "explanation": "강한 금지는 must not + 동사원형으로 표현하고, 부정 문맥에서는 some이 아니라 any를 써야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오. (물음표 포함)\n\n우리말: 제가 박물관 안으로 음식을 가져가도 되나요?\n단어: (into / I / the museum / take / May / food)",
+      "answer_key": "May I take food into the museum?",
+      "explanation": "허가를 묻는 표현은 May + 주어 + 동사원형 어순이며, '~안으로'라는 이동 방향은 전치사 into로 나타낸다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "소년이 음식과 물의 반입 가능 여부를 묻고 여자가 금지와 예외를 알려 주는 대화이므로 박물관의 음식물 반입 규칙이 주제이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "rules about food and drinks in the museum",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the price of the museum tickets",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best time to visit the museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "how to take good pictures in the museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "where to buy bottled water",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

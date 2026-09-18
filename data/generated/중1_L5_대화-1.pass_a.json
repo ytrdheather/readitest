@@ -1,0 +1,610 @@
+{
+  "passage_id": "9336fdea-d8c4-46e6-8003-d23e9a199ec6",
+  "body_text_sha256": "e10f6212997d1310376d4fc329e374ee114c1207e506a7b7c036f88374050086",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 22,
+      "span_end": 35,
+      "surface": "must not talk",
+      "sentence_no": 1,
+      "rationale": "금지를 나타내는 must not. don't have to(~할 필요 없다)와 의미가 정반대라 교체 함정으로 자주 출제됨. must not talk / don't have to talk 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 36,
+      "span_end": 48,
+      "surface": "on the phone",
+      "sentence_no": 1,
+      "rationale": "'전화로 통화하다' talk on the phone 의 고정 전치사 on. in/with/by 로 바꾸거나 삭제하는 함정이 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 83,
+      "span_end": 100,
+      "surface": "turn off my phone",
+      "sentence_no": 3,
+      "rationale": "이어동사 turn off + 명사 목적어. 대명사일 때 turn it off 어순 문제로 확장 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 109,
+      "span_end": 122,
+      "surface": "don’t have to",
+      "sentence_no": 4,
+      "rationale": "불필요(~할 필요 없다). must not(금지)과의 의미 차이가 이 대화의 핵심. mustn't 로 바꾸면 뒤 문장 Texting is OK 와 모순되어 오답 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 124,
+      "span_end": 137,
+      "surface": "Texting is OK",
+      "sentence_no": 5,
+      "rationale": "동명사 주어는 단수 취급. Texting are OK 로 수일치 오류를 심을 수 있고, Text is / To text 형태 선택도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 58,
+      "span_end": 76,
+      "surface": "I’m terribly sorry",
+      "sentence_no": 2,
+      "rationale": "형용사 sorry 를 수식하는 부사 terribly. terrible sorry 로 바꾸는 형용사/부사 혼동 함정",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 78,
+      "span_end": 91,
+      "surface": "I’ll turn off",
+      "sentence_no": 3,
+      "rationale": "즉석에서 결정한 의지를 나타내는 will. 현재시제 I turn off 로 바꾸는 시제 함정 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입-금지 요청(주제문)",
+      "signal": "but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "사과 응답",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "해결책 제안",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "전환-불필요함 안내",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "허용 범위 명시(결론)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "이해 표시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "감사 마무리",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 (a)~(c)에 들어갈 말로 가장 알맞게 짝지어진 것은?\n W: Excuse me, but you (a)[must not / don't have to] talk on the phone here.\n B: I'm terribly sorry. I'll turn (b)[off / on] my phone.\n W: You don't have to. (c)[Texting is / Texting are] OK.",
+      "answer_key": "①",
+      "explanation": "(a) 여자가 '여기서 통화하면 안 된다'고 금지하는 상황이므로 must not. don't have to는 '~할 필요 없다'로 뒤에 소년이 사과하는 흐름과 맞지 않는다. (b) 전화를 끄겠다는 뜻이므로 turn off. (c) 동명사 주어 Texting은 단수 취급이므로 is.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) must not — (b) off — (c) Texting is",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) don't have to — (b) off — (c) Texting is",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) must not — (b) on — (c) Texting is",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) must not — (b) off — (c) Texting are",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) don't have to — (b) on — (c) Texting are",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 옳지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "④ 동명사 주어 Texting은 단수 취급하므로 are가 아니라 is를 써야 한다(Texting is OK.). 나머지는 모두 본문 그대로의 어법에 맞는 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Excuse me, but you must not talk on the phone here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I'm terribly sorry.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I'll turn off my phone.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Texting are OK.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You don't have to.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [
+        "⑤"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "위 대화의 밑줄 친 부분을 바꾼 것 중, 어법상 옳지 않은 것은?",
+      "answer_key": "①",
+      "explanation": "① 형용사 sorry를 수식하려면 부사 terribly가 필요하다. terrible은 형용사이므로 형용사를 수식할 수 없다. 나머지는 모두 어법에 맞는 표현이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I'm terrible sorry.",
+          "is_answer": true,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I'm very sorry.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I will turn off my phone.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You don't need to.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You must not talk on the phone here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "①"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화에서 여자가 말한 밑줄 친 You don't have to. 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "don't have to는 '~할 필요가 없다'라는 불필요를 뜻한다. 바로 뒤에 Texting is OK.라고 했으므로 전화를 끌 필요는 없고 문자는 괜찮다는 의미다. ①·③·⑤는 금지(must not)의 뜻이라 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "전화를 꺼야만 한다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "전화를 끌 필요까지는 없다는 뜻",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "전화를 켜 두면 안 된다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "여기서 나가야 한다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "문자도 보내면 안 된다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "③",
+      "explanation": "소년은 사과한 뒤 I'll turn off my phone.이라고 하여 전화를 끄겠다고 했으므로 ③이 일치한다. ① 여자는 통화를 금지했고, ② 소년은 거절하지 않았으며, ④ 여자는 Texting is OK.라고 했고, ⑤ 소년은 화를 내지 않고 Thank you.라고 했다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The woman tells the boy that he can talk on the phone here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy refuses to turn off his phone.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy offers to turn off his phone after the woman speaks to him.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The woman says that texting is not allowed, either.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy gets angry at the woman.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "여자가 '여기서 통화하면 안 된다'고 요청하고 소년이 사과하는 내용이므로 ①이 주제로 알맞다. 전화 끄는 방법·문자 도움·고장·구매는 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "asking someone not to make phone calls in a public place",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "explaining how to turn off a cell phone",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "asking for help to send a text message",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "complaining about a broken phone",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "buying a new cell phone at a shop",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\n B: I'll turn off my phone.\n W: You don't have to. ____________",
+      "answer_key": "①",
+      "explanation": "전화를 끌 필요는 없다고 한 뒤 무엇이 허용되는지 밝히는 자리이므로 Texting is OK.가 알맞다. ②는 앞의 금지와 모순, ④는 '끌 필요 없다'와 모순, ③·⑤는 흐름에 맞지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Texting is OK.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Phone calls are OK here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "You must leave right now.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You can't use your phone at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I don't have a phone.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n → Texting are OK.",
+      "answer_key": "are → is (Texting is OK.)",
+      "explanation": "동명사 Texting이 주어이므로 단수 취급하여 be동사는 is를 쓴다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n(여기서 전화 통화를 하시면 안 됩니다.)\n[ must / talk / not / you / here / the phone / on ]",
+      "answer_key": "You must not talk on the phone here.",
+      "explanation": "금지를 나타내는 must not 뒤에 동사원형 talk가 오고, '전화로 통화하다'는 talk on the phone, 장소부사 here는 문장 끝에 온다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "대화의 흐름에 맞도록 <조건>에 맞게 빈칸을 완성하시오.\n B: I'll turn off my phone.\n W: You ________________ . Texting is OK.\n<조건> 1) '~할 필요가 없다'라는 뜻이 되도록 할 것 2) have를 반드시 사용할 것 3) 세 단어로 쓸 것",
+      "answer_key": "don't have to",
+      "explanation": "불필요를 나타내는 표현은 don't have to이다. must not은 '~하면 안 된다'는 금지의 뜻이라 뒤의 Texting is OK.와 어울리지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 7,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "⑤"
+        ]
+      }
+    ]
+  }
+}

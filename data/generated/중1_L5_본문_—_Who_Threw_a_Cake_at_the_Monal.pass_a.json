@@ -1,0 +1,983 @@
+{
+  "passage_id": "ba163436-d03b-4375-bbce-fba6cfef1ecf",
+  "body_text_sha256": "26b85e7d245bcd0a1303281e8c7a101ea96d0045bb233c5305519068f14a9276",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 23,
+      "span_end": 51,
+      "surface": "threw a cake at the Monalisa",
+      "sentence_no": 1,
+      "rationale": "'throw A at B'(~을 향해 던지다)의 고정 전치사 at. to/into 로 바꾸거나 전치사를 삭제한 오답(threw a cake the Monalisa)을 유도하기 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 52,
+      "span_end": 72,
+      "surface": "in the Botero Museum",
+      "sentence_no": 1,
+      "rationale": "건물·공간 내부를 나타내는 in. at/on 으로 교체하는 빈칸 선지가 자주 출제됨",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 143,
+      "span_end": 185,
+      "surface": "Read the following, and find the criminal.",
+      "sentence_no": 4,
+      "rationale": "and 로 연결된 두 명령문(동사원형 Read / find)의 병렬. 뒤를 finding 이나 finds 로 바꾸는 병렬 파괴 오답 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 209,
+      "span_end": 223,
+      "surface": "was looking at",
+      "sentence_no": 5,
+      "rationale": "과거 진행 중이던 동작(was looking)과 그 사이 일어난 단순과거(threw)의 시제 대비. am looking / looked 로 바꾸는 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_FUTURE_IN_SUBORD"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 332,
+      "span_end": 356,
+      "surface": "in front of a wheelchair",
+      "sentence_no": 7,
+      "rationale": "위치를 나타내는 구전치사 in front of. in the front of / front of 처럼 형태를 흔들거나 전치사를 빼는 오답이 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 392,
+      "span_end": 415,
+      "surface": "a little taller than me",
+      "sentence_no": 8,
+      "rationale": "비교급 강조 부사 a little(= a bit) + 비교급 + than. very taller / much more tall / more taller 같은 오답과 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 440,
+      "span_end": 482,
+      "surface": "An old man with gray hair was running away",
+      "sentence_no": 9,
+      "rationale": "주어 An old man 과 동사 was 사이에 with gray hair 전치사구가 끼어 있어 were 로 바꾸는 수일치 오답을 심기 좋은 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 498,
+      "span_end": 515,
+      "surface": "fell off his head",
+      "sentence_no": 9,
+      "rationale": "fall 은 목적어를 취하지 않는 자동사라 수동태 불가. was fallen off 같은 자동사 수동태 오답 선지가 전형적",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 535,
+      "span_end": 548,
+      "surface": "ran after him",
+      "sentence_no": 11,
+      "rationale": "run after(~를 뒤쫓다)의 고정 전치사 after. ran to / ran him 처럼 전치사 교체·삭제 오답 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 556,
+      "span_end": 574,
+      "surface": "couldn’t catch him",
+      "sentence_no": 11,
+      "rationale": "조동사 could 뒤 동사원형. couldn’t caught / couldn’t catching 형태 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 583,
+      "span_end": 597,
+      "surface": "faster than me",
+      "sentence_no": 12,
+      "rationale": "1음절 형용사/부사 fast 의 비교급 -er. more fast / fastest 오답과 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 599,
+      "span_end": 606,
+      "surface": "In fact",
+      "sentence_no": 13,
+      "rationale": "굳어진 부사구 In fact 의 앞 전치사. On fact / At fact 로 바꾸는 빈칸 선지가 자주 나옴",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 726,
+      "span_end": 773,
+      "surface": "there were pieces of cake all over the painting",
+      "sentence_no": 15,
+      "rationale": "There be 구문에서 실제 주어는 복수 pieces 이므로 were. there was 로 바꾼 수일치 오답이 전형적",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 775,
+      "span_end": 802,
+      "surface": "There was also a wheelchair",
+      "sentence_no": 16,
+      "rationale": "단수 주어 a wheelchair 에 맞춘 was. were 로 바꾸는 오답 유도 (앞 문장의 were 와 대조시키기 좋음)",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 845,
+      "span_end": 867,
+      "surface": "next to the wheelchair",
+      "sentence_no": 16,
+      "rationale": "근접 위치의 next to. next of / near to 등으로 흔드는 빈칸 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 960,
+      "span_end": 979,
+      "surface": "a young man came in",
+      "sentence_no": 18,
+      "rationale": "come 은 자동사로 수동태가 불가능. was come in 같은 자동사 수동태 오답 선지를 만들 수 있는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 983,
+      "span_end": 1006,
+      "surface": "spoke to him in Spanish",
+      "sentence_no": 19,
+      "rationale": "speak to + 사람 / in + 언어. spoke him, spoke to him Spanish 처럼 전치사 삭제 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 1112,
+      "span_end": 1128,
+      "surface": "the smallest one",
+      "sentence_no": 21,
+      "rationale": "셋 이상(a lot of different cakes) 중 하나를 고르므로 최상급 + the. smaller / most small 오답과 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 1152,
+      "span_end": 1160,
+      "surface": "that day",
+      "sentence_no": 22,
+      "rationale": "명사 day 를 수식하는 지시형용사 that. 접속사·관계대명사 that 과 쓰임이 다른 것 고르기 문항 재료",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 1165,
+      "span_end": 1187,
+      "surface": "I remember him clearly",
+      "sentence_no": 22,
+      "rationale": "동사 remember 를 수식하므로 부사 clearly. clear 로 바꾸는 형용사·부사 혼동 오답이 전형적",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1216,
+      "span_end": 1258,
+      "surface": "look at the information about the suspects",
+      "sentence_no": 24,
+      "rationale": "look at(~을 보다)의 at 과 information about(~에 관한 정보)의 about. 전치사 삭제·교체 오답 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 사건 제시",
+      "signal": "Last Saturday",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경 정보 — 목격자 수",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "도입질문",
+      "signal": "What",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "과제 제시 (글의 목적)",
+      "signal": "Read ~ and find",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "증언1 — 목격 상황",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "증언1 — 인물 목격",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "증언1 — 단서(휠체어)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "증언1 — 단서(키)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "증언2 — 도주 장면",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "증언2 — 단서(가발)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "증언2 — 추격 실패",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "원인 — 추격 실패 이유",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "전환 — 반전 제시",
+      "signal": "In fact",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 14,
+      "role": "결과요약 — 범인 인상착의",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 15,
+      "role": "증언3 — 현장 상황",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "증언3 — 단서(휠체어·케이크 상자)",
+      "signal": "also",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "증언3 — 단서(빵집 출처)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "증언4 — 손님 방문",
+      "signal": "Last Friday",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "증언4 — 언어 단서",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "증언4 — 언어 단서 확정",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 21,
+      "role": "증언4 — 케이크 크기 단서",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 22,
+      "role": "원인 — 기억하는 이유",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 23,
+      "role": "증언4 — 눈 색 단서",
+      "signal": "Oh",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 24,
+      "role": "과제 재확인",
+      "signal": "Now",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 25,
+      "role": "결론 질문",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "①",
+        "②",
+        "④",
+        "⑤"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음은 본문의 문장들이다. 밑줄 친 부분(굵게 표시된 동사)의 쓰임이 어법상 <보기> 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③의 주어는 단수 An old man 이고 with gray hair 는 주어를 꾸미는 전치사구일 뿐이므로 were 가 아니라 was 가 맞다. ①은 과거 진행 중 일어난 일을 나타내는 과거진행, ②는 단수 주어 he 에 맞는 was, ④는 There be 구문에서 뒤의 단수 주어 a wheelchair 에 맞춘 was, ⑤는 현재의 기억을 말하는 현재시제로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        5,
+        6,
+        13,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I **was looking** at the Monalisa, and someone threw a cake at the painting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I’m about 170 cm tall, and he **was** a little taller than me.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "An old man with gray hair **were** running away, and something fell off his head.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "There **was** also a wheelchair near the painting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "We sold only one cake that day, so I **remember** him clearly.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "④",
+        "⑤"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "본문에서 가져온 다음 문장 중 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "'어떤 언어로 말하다'는 speak in + 언어 이므로 spoke to him in Spanish 가 되어야 한다. ③은 전치사 in 이 빠졌다. ①의 throw A at B, ②의 run after, ④의 fall off, ⑤의 next to 는 모두 올바른 전치사 결합이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        8,
+        16,
+        7,
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I ran after him, but I couldn’t catch him.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I spoke to him Spanish, but he didn’t understand me.",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "An old man with gray hair was running away, and something fell off his head.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I found a cake box next to the wheelchair.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "본문의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\n· I’m about 170 cm tall, and he was a little (a)[tall / taller] than me.\n· We had a lot of different cakes, but he just wanted the (b)[smaller / smallest] one.\n· We sold only one cake that day, so I remember him (c)[clear / clearly].",
+      "answer_key": "③",
+      "explanation": "(a) than 이 있으므로 비교급 taller, 앞의 a little 은 비교급을 강조하는 말이다. (b) 여러 케이크(a lot of different cakes) 중 하나를 고르는 것이므로 최상급 the smallest. (c) 동사 remember 를 꾸미므로 부사 clearly 가 와야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        17,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) tall — (b) smaller — (c) clear",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) taller — (b) smaller — (c) clearly",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) taller — (b) smallest — (c) clearly",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) taller — (b) smallest — (c) clear",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) tall — (b) smallest — (c) clearly",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "본문의 흐름으로 보아 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "③은 '뒤쫓았지만 잡지 못했다'는 앞 내용의 이유를 말하는 문장이므로 그가 나보다 '더 빨랐다(faster)'여야 한다. slower 는 문맥과 정반대이다. 나머지는 사건 전개(던지다 — 가발 — 조각 — 또렷이 기억하다)와 자연스럽게 이어진다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        7,
+        10,
+        12,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Last Saturday, someone **threw** a cake at the Monalisa in the Botero Museum.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Something fell off his head. It was his **wig**.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I ran after him, but I couldn’t catch him. He was **slower** than me.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I went to the crime scene, and there were **pieces** of cake all over the painting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "We sold only one cake that day, so I remember him **clearly**.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 In fact, the old man was not old. 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "바로 앞뒤 문장에서 머리에서 떨어진 것이 가발(wig)이었고, 이어서 '그는 긴 갈색 머리의 젊은 남자였다'고 밝히므로, 노인처럼 보이게 변장한 젊은 남자였다는 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        11,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그 노인은 사실 나이보다 젊어 보이는 건강한 사람이었다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "가발을 쓰고 노인처럼 변장했을 뿐, 실제로는 젊은 남자였다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "목격자가 어두워서 그의 나이를 잘못 보았을 수도 있다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "그 노인은 휠체어를 탄 환자가 아니라 박물관 직원이었다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "노인은 범인이 아니라 단순한 관람객이었다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "글은 박물관에서 일어난 케이크 투척 사건에 대해 네 목격자의 증언을 나열하고 범인을 찾아보라고 요구한다. 따라서 ①이 주제다. 나머지는 지문에 나온 소재(박물관, 빵집, 휠체어)를 이용한 함정이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        20
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Eyewitness accounts that help find the person who threw the cake",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The history of the Monalisa in the Botero Museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "How to bake different kinds of cakes at a bakery",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Rules that visitors must follow inside a museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The best way to take care of a wheelchair",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the passage?",
+      "answer_key": "②",
+      "explanation": "Camila 는 '그날 케이크를 단 한 개만 팔았다(We sold only one cake that day)'고 했으므로 여러 개를 팔았다는 ②는 사실이 아니다. ①은 [1], ③은 [16], ④는 [8], ⑤는 [20]과 일치한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        17,
+        14,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The cake was thrown at the Monalisa in the Botero Museum in Bogota.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Camila Santos sold several cakes to the young man last Friday.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Diego Perez found a cake box next to the wheelchair.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Ann Jones saw a man who was a little taller than her.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The young man at the bakery spoke only English.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "글의 흐름으로 보아 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nI ran after him, but I couldn’t catch him. He was faster than me. In fact, the old man ______. He was a young man with long brown hair.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤에 '그는 긴 갈색 머리의 젊은 남자였다'가 이어지고, 앞에서는 머리에서 가발이 떨어졌다고 했으므로 '그 노인은 노인이 아니었다'가 들어가야 한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        11,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "was not old",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "worked at the museum",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "needed a wheelchair",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "bought two cakes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "could not speak English",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음 우리말과 같도록 <조건>에 맞게 영작하시오.\n\n우리말: 그는 나보다 키가 조금 더 컸다.\n<조건> 1) tall, than, a little 을 모두 이용할 것  2) 과거시제 비교급 문장으로 쓸 것  3) 5단어 이상",
+      "answer_key": "He was a little taller than me.",
+      "explanation": "비교급 강조는 a little + 비교급 형태이며, tall 의 비교급은 taller 이다. 비교 대상 앞에는 than 을 쓴다. (He was a little taller than I am. 도 인정)",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nI went to the crime scene, and there was pieces of cake all over the painting.",
+      "answer_key": "was → were",
+      "explanation": "There be 구문의 실제 주어는 be동사 뒤의 명사이다. 주어가 복수 pieces of cake 이므로 was 가 아니라 were 를 써야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        12
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "우리말과 같도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n우리말: 그는 그저 가장 작은 것을 원했다.\n주어진 단어: (one / just / he / the / wanted / smallest)",
+      "answer_key": "He just wanted the smallest one.",
+      "explanation": "빈도·정도를 나타내는 just 는 일반동사 앞에 오고, 여러 개 중 '가장 작은 것'이므로 최상급 앞에 the 를 붙여 the smallest one 으로 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        17
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 25,
+    "tags_returned": 21,
+    "tags_kept": 21,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "①",
+          "②",
+          "④",
+          "⑤"
+        ]
+      },
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "①",
+          "④",
+          "⑤"
+        ]
+      }
+    ]
+  }
+}

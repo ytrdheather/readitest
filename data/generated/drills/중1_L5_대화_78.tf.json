@@ -1,0 +1,210 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L5 대화 ⑦⑧",
+  "parts": [
+    "중1 L5 대화-7",
+    "중1 L5 대화-8"
+  ],
+  "passage_ids": [
+    "75edaf3c-7d53-4bbd-81ee-4386a25f7295",
+    "056186f2-1eac-4677-b673-0b63796f21bc"
+  ],
+  "para_breaks": [
+    6,
+    11
+  ],
+  "turn_breaks": [
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "G: Excuse me.",
+    "May I bring my dog to the store?",
+    "M: No, you may not.",
+    "You must not bring pets inside.",
+    "G: OK.",
+    "I understand.",
+    "B: May I eat here?",
+    "W: No, you may not eat inside the museum.",
+    "B: How about water?",
+    "May I drink water?",
+    "W: Sure, water is OK."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "먼저 말을 건 사람은 남자(M)이고, 소녀는 그 말에 대답만 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "소녀가 먼저 \"Excuse me.\"라고 말을 걸었다.",
+      "_evidence_text": [
+        "G: Excuse me."
+      ],
+      "_repeat": false,
+      "statement_en": "The man spoke first, and the girl only answered him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 자신의 개를 가게에 데려가도 되는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "\"May I bring my dog to the store?\"라고 물었다.",
+      "_evidence_text": [
+        "May I bring my dog to the store?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked if she could take her dog into the store."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 소녀의 부탁을 허락해 주었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "남자는 \"No, you may not.\"이라고 허락하지 않았다.",
+      "_evidence_text": [
+        "M: No, you may not."
+      ],
+      "_repeat": false,
+      "statement_en": "The man said yes and allowed the girl to do what she asked."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 애완동물을 안으로 데려와서는 안 된다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "\"You must not bring pets inside.\"라고 말했다.",
+      "_evidence_text": [
+        "You must not bring pets inside."
+      ],
+      "_repeat": false,
+      "statement_en": "The man told her that pets cannot be brought inside."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 남자의 대답을 듣고 \"OK.\"라고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "소녀가 \"OK.\"라고 응답한다.",
+      "_evidence_text": [
+        "G: OK."
+      ],
+      "_repeat": false,
+      "statement_en": "After hearing the man's answer, the girl said \"OK.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 남자의 말을 이해하지 못했다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "소녀는 \"I understand.\"라고 이해했다고 말했다.",
+      "_evidence_text": [
+        "I understand."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said she did not understand the man's words."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년이 처음 물어본 것은 여기서 사진을 찍어도 되는지였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "소년은 \"May I eat here?\"라며 먹어도 되는지 물었다.",
+      "_evidence_text": [
+        "B: May I eat here?"
+      ],
+      "_repeat": false,
+      "statement_en": "The first thing the boy asked was whether he could take pictures there."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 박물관 안에서는 먹을 수 없다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "\"you may not eat inside the museum\"이라고 말했다.",
+      "_evidence_text": [
+        "W: No, you may not eat inside the museum."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman answered that eating is not allowed inside the museum."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 먹는 것에 대해 물은 뒤, 물에 대해서도 이어서 물어보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "소년이 \"How about water?\"라고 다시 물었다.",
+      "_evidence_text": [
+        "B: How about water?"
+      ],
+      "_repeat": false,
+      "statement_en": "After asking about eating, the boy went on to ask about water, too."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 물을 마셔도 되는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "\"May I drink water?\"라고 물었다.",
+      "_evidence_text": [
+        "May I drink water?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked whether he was allowed to drink water."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 물도 마실 수 없다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "여자는 \"Sure, water is OK.\"라며 물은 괜찮다고 했다.",
+      "_evidence_text": [
+        "W: Sure, water is OK."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman said that water could not be drunk either."
+    }
+  ],
+  "diagnostics": {
+    "returned": 11,
+    "kept": 11,
+    "by_type": {
+      "content": 11
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 6,
+      "X": 5
+    },
+    "sentences_covered": 11,
+    "sentence_count": 11,
+    "repeated": 0
+  }
+}

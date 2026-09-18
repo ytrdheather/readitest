@@ -1,0 +1,372 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L5 대화 ④⑤⑥",
+  "parts": [
+    "중1 L5 대화-4",
+    "중1 L5 대화-5",
+    "중1 L5 대화-6"
+  ],
+  "passage_ids": [
+    "f08fb4dc-4d71-41eb-924e-f4105355cc9b",
+    "d89ba53a-9050-4c66-8f0c-263cb67e948f",
+    "f6d3a552-2799-4d23-a59d-8c6af595051a"
+  ],
+  "para_breaks": [
+    5,
+    16,
+    21
+  ],
+  "turn_breaks": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: May I take food into the museum?",
+    "W: No, you may not.",
+    "You must not bring any food inside.",
+    "B: How about water?",
+    "W: Only bottled water is OK.",
+    "M: Everybody, look over here, please.",
+    "This is Sunflowers by Van Gogh.",
+    "G: Wow, this is my favorite painting.",
+    "May I take a picture of it?",
+    "M: Yes, you may, but you must not use the flash.",
+    "G: Why not?",
+    "It’s a little dark in here.",
+    "M: I’m sorry, but using the flash can damage paintings.",
+    "G: Oh, I didn’t know that.",
+    "M: Everyone, we’ll move on to Monet’s paintings next.",
+    "G: Great!",
+    "A: May I ride a bike here?",
+    "B: Yes, you may.",
+    "A: May I fly a drone here?",
+    "B: No, you may not.",
+    "You must not fly a drone here."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "소년은 박물관 안으로 음식을 가져가도 되는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "소년이 음식을 안으로 가져가도 되냐고 묻는다.",
+      "_evidence_text": [
+        "B: May I take food into the museum?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked if he could bring food into the museum."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 음식을 가져가도 된다고 허락했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "여자는 안 된다고 대답했다.",
+      "_evidence_text": [
+        "W: No, you may not."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman allowed him to carry food in."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 어떤 음식도 안으로 가져와서는 안 된다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "음식을 안으로 가져오면 안 된다고 했다.",
+      "_evidence_text": [
+        "You must not bring any food inside."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman said that no food may be brought inside."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 음식에 이어 물은 어떤지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "소년이 물은 어떠냐고 되물었다.",
+      "_evidence_text": [
+        "B: How about water?"
+      ],
+      "_repeat": false,
+      "statement_en": "After asking about food, the boy also asked about water."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 종류에 상관없이 모든 물은 괜찮다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "병에 든 물만 괜찮다고 했다.",
+      "_evidence_text": [
+        "W: Only bottled water is OK."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman said every kind of water is fine, no matter what it is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 사람들에게 이쪽을 봐 달라고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "모두에게 여기를 보라고 말했다.",
+      "_evidence_text": [
+        "M: Everybody, look over here, please."
+      ],
+      "_repeat": false,
+      "statement_en": "The man asked the people to look this way."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자가 소개한 그림은 모네가 그린 '해바라기'이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "'해바라기'는 반 고흐의 작품이다.",
+      "_evidence_text": [
+        "This is Sunflowers by Van Gogh."
+      ],
+      "_repeat": false,
+      "statement_en": "The painting the man introduced is Sunflowers, painted by Monet."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 그림이 자신이 가장 좋아하는 그림이라고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "소녀가 자기가 제일 좋아하는 그림이라고 했다.",
+      "_evidence_text": [
+        "G: Wow, this is my favorite painting."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said that painting is the one she likes best."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 그림의 사진을 찍어도 되는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "소녀가 사진을 찍어도 되냐고 물었다.",
+      "_evidence_text": [
+        "May I take a picture of it?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked whether she could take a photo of the painting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 사진 촬영 자체를 금지했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "사진은 찍어도 되지만 플래시는 쓰지 말라고 했다.",
+      "_evidence_text": [
+        "M: Yes, you may, but you must not use the flash."
+      ],
+      "_repeat": false,
+      "statement_en": "The man said taking pictures is not allowed at all."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 왜 안 되는지 이유를 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "소녀가 'Why not?'이라고 물었다.",
+      "_evidence_text": [
+        "G: Why not?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked for the reason why she could not."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 실내가 꽤 밝다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "소녀는 안이 조금 어둡다고 말했다.",
+      "_evidence_text": [
+        "It’s a little dark in here."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said it is quite bright inside the room."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 플래시를 쓰면 그림이 손상될 수 있다고 설명했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "플래시 사용이 그림을 손상시킬 수 있다고 했다.",
+      "_evidence_text": [
+        "M: I’m sorry, but using the flash can damage paintings."
+      ],
+      "_repeat": false,
+      "statement_en": "The man explained that the flash can hurt the paintings."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 그 사실을 이미 알고 있었다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "소녀는 그것을 몰랐다고 말했다.",
+      "_evidence_text": [
+        "G: Oh, I didn’t know that."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said she already knew about that."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 다음으로 반 고흐의 다른 그림들을 보러 가겠다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "다음으로 모네의 그림들로 이동한다고 했다.",
+      "_evidence_text": [
+        "M: Everyone, we’ll move on to Monet’s paintings next."
+      ],
+      "_repeat": false,
+      "statement_en": "The man said they would go to see other paintings by Van Gogh next."
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 다음 일정에 대해 좋다는 반응을 보였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "소녀가 'Great!'이라고 반응했다.",
+      "_evidence_text": [
+        "G: Great!"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl showed a happy reaction to the next plan."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 여기서 자전거를 타도 되는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "A가 자전거를 타도 되냐고 물었다.",
+      "_evidence_text": [
+        "A: May I ride a bike here?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asked if riding a bike there was allowed."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 자전거를 타면 안 된다고 대답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "B는 자전거는 타도 된다고 했다.",
+      "_evidence_text": [
+        "B: Yes, you may."
+      ],
+      "_repeat": false,
+      "statement_en": "B answered that riding a bike is not allowed."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 드론을 날려도 되는지도 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "A가 드론을 날려도 되냐고 물었다.",
+      "_evidence_text": [
+        "A: May I fly a drone here?"
+      ],
+      "_repeat": false,
+      "statement_en": "A also asked about flying a drone there."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 드론도 날려도 된다고 허락했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "B는 안 된다고 대답했다.",
+      "_evidence_text": [
+        "B: No, you may not."
+      ],
+      "_repeat": false,
+      "statement_en": "B said flying a drone is fine, too."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 그곳에서 드론을 날려서는 안 된다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "여기서 드론을 날리면 안 된다고 했다.",
+      "_evidence_text": [
+        "You must not fly a drone here."
+      ],
+      "_repeat": false,
+      "statement_en": "B said that a drone must not be flown in that place."
+    }
+  ],
+  "diagnostics": {
+    "returned": 21,
+    "kept": 21,
+    "by_type": {
+      "content": 21
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 12,
+      "X": 9
+    },
+    "sentences_covered": 21,
+    "sentence_count": 21,
+    "repeated": 0
+  }
+}

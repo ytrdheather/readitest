@@ -1,0 +1,413 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L5 본문 — Who Threw a Cake at the Monalisa?",
+  "parts": [
+    "중1 L5 본문 — Who Threw a Cake at the Monalisa?"
+  ],
+  "passage_ids": [
+    "ba163436-d03b-4375-bbce-fba6cfef1ecf"
+  ],
+  "para_breaks": [
+    25
+  ],
+  "turn_breaks": [
+    25
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia.",
+    "There were four eyewitnesses.",
+    "What did they say?",
+    "Read the following, and find the criminal.",
+    "Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting.",
+    "I turned around and saw an old man.",
+    "He was standing in front of a wheelchair.",
+    "I’m about 170 cm tall, and he was a little taller than me.",
+    "Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head.",
+    "It was his wig.",
+    "I ran after him, but I couldn’t catch him.",
+    "He was faster than me.",
+    "In fact, the old man was not old.",
+    "He was a young man with long brown hair.",
+    "Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting.",
+    "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair.",
+    "The box was from Camila’s Bakery.",
+    "Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in.",
+    "I spoke to him in Spanish, but he didn’t understand me.",
+    "He spoke only English.",
+    "We had a lot of different cakes, but he just wanted the smallest one.",
+    "We sold only one cake that day, so I remember him clearly.",
+    "Oh, he had blue eyes.",
+    "Now, look at the information about the suspects.",
+    "Who threw the cake at the Monalisa?"
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "이 사건은 지난 토요일 콜롬비아 보고타의 보테로 박물관에서 일어났다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "첫 문장에 지난 토요일 보고타의 보테로 박물관이라고 나온다.",
+      "_evidence_text": [
+        "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia."
+      ],
+      "_repeat": false,
+      "statement_en": "This event happened last Saturday at the Botero Museum in Bogota, Colombia."
+    },
+    {
+      "type": "content",
+      "statement_ko": "목격자는 세 명이었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "목격자는 네 명(four eyewitnesses)이었다.",
+      "_evidence_text": [
+        "There were four eyewitnesses."
+      ],
+      "_repeat": false,
+      "statement_en": "Three people saw what happened."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 목격자들이 무슨 말을 했는지 질문을 던진다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "'What did they say?'라고 묻고 있다.",
+      "_evidence_text": [
+        "What did they say?"
+      ],
+      "_repeat": false,
+      "statement_en": "The writer asks what the people who saw it said."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 독자에게 다음 글을 읽고 범인을 찾아보라고 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "Read the following, and find the criminal이라고 했다.",
+      "_evidence_text": [
+        "Read the following, and find the criminal."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer tells readers to read the next parts and find out who the criminal is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Ann Jones는 박물관 방문객으로, 모나리자를 보고 있을 때 누군가 그림에 케이크를 던졌다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "Ann Jones는 visitor이며 그림을 보던 중 케이크가 던져졌다고 진술했다.",
+      "_evidence_text": [
+        "Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting."
+      ],
+      "_repeat": false,
+      "statement_en": "Ann Jones was a visitor, and while she was looking at the Monalisa, someone threw a cake at the painting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Ann은 뒤를 돌아보고 한 노인을 보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "I turned around and saw an old man이라고 했다.",
+      "_evidence_text": [
+        "I turned around and saw an old man."
+      ],
+      "_repeat": false,
+      "statement_en": "Ann looked behind her and saw an old man."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 노인은 휠체어에 앉아 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "그는 휠체어 앞에 서 있었다(standing in front of a wheelchair).",
+      "_evidence_text": [
+        "He was standing in front of a wheelchair."
+      ],
+      "_repeat": false,
+      "statement_en": "The old man was sitting in a wheelchair."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Ann은 키가 약 170cm이고, 그 남자는 Ann보다 조금 더 컸다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "he was a little taller than me라고 진술했다.",
+      "_evidence_text": [
+        "I’m about 170 cm tall, and he was a little taller than me."
+      ],
+      "_repeat": false,
+      "statement_en": "Ann is about 170 cm tall, and the man was a bit taller than she is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Carlos Diaz는 박물관 경비원이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "Carlos Diaz는 청소부(janitor)이고, 경비원은 Diego Perez이다.",
+      "_evidence_text": [
+        "Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head."
+      ],
+      "_repeat": false,
+      "statement_en": "Carlos Diaz works as a guard at the museum."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Carlos는 도망가던 백발 노인의 머리에서 무언가가 떨어지는 것을 보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "something fell off his head라고 진술했다.",
+      "_evidence_text": [
+        "Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head."
+      ],
+      "_repeat": true,
+      "statement_en": "Carlos saw something drop from the head of the gray-haired old man who was running away."
+    },
+    {
+      "type": "content",
+      "statement_ko": "머리에서 떨어진 것은 모자였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "떨어진 것은 가발(wig)이었다.",
+      "_evidence_text": [
+        "It was his wig."
+      ],
+      "_repeat": false,
+      "statement_en": "The thing that fell off his head was a hat."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Carlos는 그를 쫓아가서 결국 붙잡았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "쫓아갔지만 붙잡지 못했다(couldn't catch him).",
+      "_evidence_text": [
+        "I ran after him, but I couldn’t catch him."
+      ],
+      "_repeat": false,
+      "statement_en": "Carlos ran after the man and finally caught him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 남자는 Carlos보다 달리기가 느렸다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "He was faster than me, 즉 남자가 더 빨랐다.",
+      "_evidence_text": [
+        "He was faster than me."
+      ],
+      "_repeat": false,
+      "statement_en": "The man ran more slowly than Carlos."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사실 그 노인은 노인이 아니었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "the old man was not old라고 나온다.",
+      "_evidence_text": [
+        "In fact, the old man was not old."
+      ],
+      "_repeat": false,
+      "statement_en": "The truth is that the old man was not really old."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 긴 갈색 머리를 가진 젊은 남자였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "a young man with long brown hair라고 했다.",
+      "_evidence_text": [
+        "He was a young man with long brown hair."
+      ],
+      "_repeat": false,
+      "statement_en": "He was actually a young man who had long brown hair."
+    },
+    {
+      "type": "content",
+      "statement_ko": "경비원 Diego Perez가 범행 현장에 갔을 때 그림 전체에 케이크 조각들이 있었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "pieces of cake all over the painting이라고 진술했다.",
+      "_evidence_text": [
+        "Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting."
+      ],
+      "_repeat": false,
+      "statement_en": "When the guard Diego Perez came to the crime scene, pieces of cake were all over the painting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Diego는 휠체어 위에 놓인 케이크 상자를 발견했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "상자는 휠체어 옆(next to the wheelchair)에서 발견되었다.",
+      "_evidence_text": [
+        "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair."
+      ],
+      "_repeat": false,
+      "statement_en": "Diego found a cake box on top of the wheelchair."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 케이크 상자는 Camila's Bakery의 것이었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "The box was from Camila's Bakery라고 했다.",
+      "_evidence_text": [
+        "The box was from Camila’s Bakery."
+      ],
+      "_repeat": false,
+      "statement_en": "The cake box came from Camila's Bakery."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Camila Santos는 지난 토요일에 한 젊은 남자가 가게에 왔다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "남자가 온 날은 지난 금요일(Last Friday)이다.",
+      "_evidence_text": [
+        "Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in."
+      ],
+      "_repeat": false,
+      "statement_en": "Camila Santos said a young man came to her shop last Saturday."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Camila가 스페인어로 말을 걸었지만 그 남자는 알아듣지 못했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "스페인어로 말했으나 he didn't understand me라고 했다.",
+      "_evidence_text": [
+        "I spoke to him in Spanish, but he didn’t understand me."
+      ],
+      "_repeat": false,
+      "statement_en": "Camila talked to him in Spanish, but the man could not understand her."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 남자는 영어와 스페인어를 모두 사용했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "그는 영어만 말했다(He spoke only English).",
+      "_evidence_text": [
+        "He spoke only English."
+      ],
+      "_repeat": false,
+      "statement_en": "The man used both English and Spanish."
+    },
+    {
+      "type": "content",
+      "statement_ko": "가게에 여러 종류의 케이크가 있었지만 남자는 가장 큰 것을 원했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "그는 가장 작은 것(the smallest one)을 원했다.",
+      "_evidence_text": [
+        "We had a lot of different cakes, but he just wanted the smallest one."
+      ],
+      "_repeat": false,
+      "statement_en": "The shop had many kinds of cakes, and the man wanted the biggest one."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그날 케이크를 많이 팔았기 때문에 Camila는 그를 잘 기억하지 못했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "그날 케이크를 하나만 팔아서 그를 분명히 기억한다고 했다.",
+      "_evidence_text": [
+        "We sold only one cake that day, so I remember him clearly."
+      ],
+      "_repeat": false,
+      "statement_en": "Camila could not remember him well because she sold many cakes that day."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Camila는 그 남자가 파란 눈을 가졌다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "he had blue eyes라고 진술했다.",
+      "_evidence_text": [
+        "Oh, he had blue eyes."
+      ],
+      "_repeat": false,
+      "statement_en": "Camila said that the man had blue eyes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글의 마지막에서 용의자들에 대한 정보를 보고 누가 케이크를 던졌는지 생각해 보라고 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24,
+        25
+      ],
+      "why_ko": "용의자 정보를 보라고 하며 누가 던졌는지 묻고 있다.",
+      "_evidence_text": [
+        "Now, look at the information about the suspects.",
+        "Who threw the cake at the Monalisa?"
+      ],
+      "_repeat": false,
+      "statement_en": "At the end, readers are asked to look at the information about the suspects and think about who threw the cake."
+    }
+  ],
+  "diagnostics": {
+    "returned": 25,
+    "kept": 25,
+    "by_type": {
+      "content": 25
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 14,
+      "X": 11
+    },
+    "sentences_covered": 25,
+    "sentence_count": 25,
+    "repeated": 1
+  }
+}

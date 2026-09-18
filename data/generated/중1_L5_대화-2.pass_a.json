@@ -1,0 +1,525 @@
+{
+  "passage_id": "a6e6c2f6-3384-496b-98da-02ff676cda0a",
+  "body_text_sha256": "1879567bdd07a40b2c628482f045905055b99ed3ff5fb9b7e67ca53f784f41f8",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 14,
+      "span_end": 25,
+      "surface": "May I touch",
+      "sentence_no": 2,
+      "rationale": "허가를 요청하는 조동사 may + 주어 + 동사원형 의문문. 'Must I touch / May I touching / May I to touch' 같은 오류를 유도할 수 있는 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 26,
+      "span_end": 42,
+      "surface": "this golden bear",
+      "sentence_no": 2,
+      "rationale": "명사 bear를 앞에서 수식하는 형용사 golden. 부사형(goldenly)이나 어순 뒤바꿈(bear golden)으로 오류를 심을 수 있음",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 51,
+      "span_end": 62,
+      "surface": "you may not",
+      "sentence_no": 3,
+      "rationale": "May I ~? 에 대한 부정 응답은 'you may not'. 'you don't may / you may not to' 형태 오류, 또는 허가 거부(may not)와 불필요(don't have to)의 의미 구별을 물을 수 있음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 68,
+      "span_end": 82,
+      "surface": "must not touch",
+      "sentence_no": 4,
+      "rationale": "금지의 must not + 동사원형. 'don't have to(~할 필요 없다)'와 의미가 정반대라 교체 선지로 가장 자주 출제됨. 'must not to touch / must not touching' 형태 오류도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 83,
+      "span_end": 91,
+      "surface": "anything",
+      "sentence_no": 4,
+      "rationale": "부정문(must not)에서는 something이 아니라 anything을 쓴다. something / nothing(이중부정) 교체 선지로 출제되는 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 92,
+      "span_end": 104,
+      "surface": "in this room",
+      "sentence_no": 4,
+      "rationale": "공간 내부를 나타내는 전치사 in. on/at으로 교체하거나 전치사를 통째로 삭제하는 변형이 가능한 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문(주의 끌기)",
+      "signal": "Excuse me",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "허가 요청",
+      "signal": "May I",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답(거절)",
+      "signal": "No",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "주제문(금지 규칙 제시)",
+      "signal": "must not",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "결론문(수용·마무리)",
+      "signal": "OK",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 빈칸 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\n\nG: Excuse me. (a)[May / Must] I touch this golden bear?\nM: No, you may not. You (b)[must not / don't have to] touch (c)[anything / something] in this room.\nG: OK, I understand.",
+      "answer_key": "①",
+      "explanation": "(a) 허가를 구하는 표현은 'May I ~?'이다. 'Must I ~?'는 '내가 꼭 해야 하나요?'라는 의무를 묻는 말이라 뒤의 'No, you may not.'과 이어지지 않는다. (b) 뒤 문장은 만지지 말라는 '금지'이므로 must not이 맞고, don't have to는 '~할 필요 없다'라는 정반대 뜻이다. (c) not이 있는 부정문이므로 something이 아니라 anything을 쓴다. nothing을 쓰면 not과 겹쳐 이중부정이 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) May - (b) must not - (c) anything",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) Must - (b) must not - (c) anything",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) May - (b) don't have to - (c) anything",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) May - (b) must not - (c) something",
+          "is_answer": false,
+          "violates_point_code": "PRON_INDEFINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) May - (b) must not - (c) nothing",
+          "is_answer": false,
+          "violates_point_code": "PRON_INDEFINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화의 문장을 옮겨 쓴 것이다. 어법상 <보기> 중 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "④는 장소를 나타내는 전치사 in이 빠졌다. 'this room'은 명사구이므로 동사 touch의 목적어(anything)와 나란히 올 수 없고, 'in this room'처럼 전치사가 반드시 필요하다. ①②③⑤는 모두 본문 그대로의 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "May I touch this golden bear?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "No, you may not.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "You must not touch anything in this room.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You must not touch anything this room.",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "OK, I understand.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화에서 밑줄 친 No, you may not. 이 뜻하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "'May I ~?'로 허가를 구한 것에 대한 부정 대답이므로 '허가하지 않는다', 즉 '만지면 안 된다'는 뜻이다. 바로 뒤 문장 'You must not touch anything in this room.'이 이를 확인해 준다. ②는 don't have to의 뜻이고, ③은 말하는 사람(M)이 아니라 G의 능력을 말하는 것이어서 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "안 돼요. 만지면 안 됩니다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "아니요, 꼭 만지지 않아도 됩니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "아니요, 저는 만질 수 없어요.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "아니요, 만지는 법을 모릅니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "아니요, 지금은 곰이 여기 없습니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nG: Excuse me. May I touch this golden bear?\nM: No, you may not. ______________\nG: OK, I understand.",
+      "answer_key": "①",
+      "explanation": "앞에서 'No, you may not.'이라고 허가를 거절했으므로, 빈칸에는 그 이유가 되는 '금지' 규칙이 와야 한다. ③은 앞의 거절과 모순되고, ⑤의 don't have to는 '~할 필요 없다'라는 뜻이라 금지의 의미가 아니다. ②④는 대화의 흐름(만져도 되는지 묻는 상황)과 무관하다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "You must not touch anything in this room.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "You must take a picture of the bear.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "You may touch the bear for one minute.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You have to buy a ticket at the door.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You don't have to touch anything here.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "소녀는 'May I touch this golden bear?'라고 물었으므로 곰을 만지고 싶어 한다. 남자는 'No, you may not.'이라며 거절했으므로 ②는 틀리고, 'anything'이라고 했으므로 방 안의 어떤 것도 만질 수 없어 ③도 틀리다. ④⑤는 대화에 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        2,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl wants to touch the golden bear.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The man allows the girl to touch the bear.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Visitors may touch small things in the room.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl is angry and leaves the room.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The man asks the girl to move the bear.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "대화의 핵심은 'You must not touch anything in this room.'이라는 금지 규칙이다. 곰의 제작법·가격·분실·동물원 방문은 대화에 전혀 나오지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a rule about not touching things in a room",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to make a golden bear",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the price of a golden bear",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the way to find a lost bear",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "a plan to visit a zoo",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PRON_INDEFINITE",
+      "stem": "다음은 위 대화의 남자(M)의 말을 옮긴 것이다. 어법상 틀린 부분을 찾아 한 단어만 바르게 고쳐 쓰시오.\n\nYou must not touch something in this room.",
+      "answer_key": "something → anything",
+      "explanation": "must not이 들어간 부정문에서는 부정대명사 something이 아니라 anything을 쓴다. 따라서 'You must not touch anything in this room.'이 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "<조건>에 맞게 우리말을 영어로 옮겨 쓰시오.\n우리말: 너는 이 방에 있는 어떤 것도 만져서는 안 된다.\n<조건> 1) 조동사 must를 쓸 것  2) anything, in this room을 쓸 것  3) 7단어로 쓸 것",
+      "answer_key": "You must not touch anything in this room.",
+      "explanation": "'~해서는 안 된다'는 금지는 must not + 동사원형으로 쓴다. 부정문이므로 something이 아닌 anything을 쓰고, 장소는 전치사 in을 써서 in this room으로 표현한다. (You / must / not / touch / anything / in this / room → 7단어)",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (물음표 포함)\n우리말: 제가 이 금색 곰을 만져도 될까요?\n단어: (bear / I / this / touch / may / golden)",
+      "answer_key": "May I touch this golden bear?",
+      "explanation": "허가를 구하는 의문문은 「May + 주어 + 동사원형 ~?」 어순이다. 목적어 자리에는 「지시형용사 this + 형용사 golden + 명사 bear」 순서로 놓는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 6,
+    "tags_kept": 6,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}
