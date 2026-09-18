@@ -1,0 +1,231 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L6 외부지문 — Homer B. Hulbert",
+  "parts": [
+    "Homer B. Hulbert"
+  ],
+  "passage_ids": [
+    "f0c51313-d56b-4421-a74c-879f7d20455b"
+  ],
+  "para_breaks": [
+    13
+  ],
+  "turn_breaks": [
+    13
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea.",
+    "He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom.",
+    "Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn.",
+    "While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply.",
+    "He believed that promoting Hangeul and Korean culture could make the people stronger.",
+    "When Japan began taking control of Korea, Hulbert didn't keep quiet.",
+    "He wrote in international newspapers to say Korea should be free.",
+    "He also traveled to the U.S. and Europe to tell people about Korea and ask for independence.",
+    "His actions made him a trusted friend to many Koreans.",
+    "Even after he left Korea, Hulbert continued to help the Korean independence movement.",
+    "He returned to Korea in his later years and died in Seoul in 1949.",
+    "Today, he is remembered as a foreigner who loved Korea with deep respect.",
+    "Hulbert's story teaches us that true friendship and love can go beyond countries."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "헐버트는 한국의 미래를 진심으로 믿었던 미국인 교육자이자 작가, 선교사였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 그를 미국인 교육자·작가·선교사로 소개하며 한국의 미래를 진심으로 믿었다고 했다.",
+      "_evidence_text": [
+        "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert was a teacher, writer, and missionary from America who really had faith in Korea's future."
+    },
+    {
+      "type": "content",
+      "statement_ko": "헐버트의 활동은 교실 안 수업에만 머물렀다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "그의 일은 곧 교실을 넘어섰다(went beyond the classroom)고 했다.",
+      "_evidence_text": [
+        "He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert's activities stayed only inside the classroom where he taught."
+    },
+    {
+      "type": "content",
+      "statement_ko": "헐버트는 한글이 논리적이고 배우기 쉽다는 점을 알아차렸다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에 한글이 논리적이고 배우기 쉽다는 것을 알아차렸다고 나온다.",
+      "_evidence_text": [
+        "Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert saw that Hangeul made sense and was not hard to learn."
+    },
+    {
+      "type": "content",
+      "statement_ko": "당시 많은 서양인들도 한글에 큰 관심을 보였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "많은 서양인들은 한글에 관심이 없었고(didn't care) 헐버트만 칭찬하며 깊이 연구했다.",
+      "_evidence_text": [
+        "While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply."
+      ],
+      "_repeat": false,
+      "statement_en": "At that time, many Westerners were also very interested in Hangeul."
+    },
+    {
+      "type": "content",
+      "statement_ko": "헐버트는 한글과 한국 문화를 널리 알리는 것이 사람들을 더 강하게 만들 수 있다고 믿었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번 문장의 내용과 일치한다.",
+      "_evidence_text": [
+        "He believed that promoting Hangeul and Korean culture could make the people stronger."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert thought that spreading Hangeul and Korean culture could make the people stronger."
+    },
+    {
+      "type": "content",
+      "statement_ko": "일본이 한국을 지배하기 시작했을 때 헐버트는 조용히 침묵을 지켰다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "헐버트는 침묵하지 않았다(didn't keep quiet)고 했다.",
+      "_evidence_text": [
+        "When Japan began taking control of Korea, Hulbert didn't keep quiet."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert stayed silent when Japan started to take control of Korea."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한국이 자유로워야 한다고 국제 신문에 글을 썼다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장에 국제 신문에 그런 글을 썼다고 나온다.",
+      "_evidence_text": [
+        "He wrote in international newspapers to say Korea should be free."
+      ],
+      "_repeat": false,
+      "statement_en": "He put his writing in newspapers around the world, saying that Korea should be free."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 미국과 유럽을 다니며 한국을 알리고 독립을 호소했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "8번 문장의 내용과 일치한다.",
+      "_evidence_text": [
+        "He also traveled to the U.S. and Europe to tell people about Korea and ask for independence."
+      ],
+      "_repeat": false,
+      "statement_en": "He went to the U.S. and Europe to tell people about Korea and ask for its independence."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그의 이러한 행동 덕분에 그는 많은 한국인에게 믿을 수 있는 친구가 되었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "9번 문장에 그의 행동이 그를 신뢰받는 친구로 만들었다고 했다.",
+      "_evidence_text": [
+        "His actions made him a trusted friend to many Koreans."
+      ],
+      "_repeat": false,
+      "statement_en": "Because of what he did, many Koreans saw him as a friend they could trust."
+    },
+    {
+      "type": "content",
+      "statement_ko": "한국을 떠난 뒤에는 한국 독립운동을 돕는 일을 그만두었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "떠난 뒤에도 독립운동을 계속 도왔다고 했다.",
+      "_evidence_text": [
+        "Even after he left Korea, Hulbert continued to help the Korean independence movement."
+      ],
+      "_repeat": false,
+      "statement_en": "After he left Korea, he stopped helping the Korean independence movement."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 만년에 미국으로 돌아가 1949년 미국에서 세상을 떠났다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "그는 만년에 한국으로 돌아와 1949년 서울에서 사망했다.",
+      "_evidence_text": [
+        "He returned to Korea in his later years and died in Seoul in 1949."
+      ],
+      "_repeat": false,
+      "statement_en": "In his later years he went back to America, and he died there in 1949."
+    },
+    {
+      "type": "content",
+      "statement_ko": "오늘날 그는 한국을 깊은 존중으로 사랑한 외국인으로 기억된다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "12번 문장의 내용과 일치한다.",
+      "_evidence_text": [
+        "Today, he is remembered as a foreigner who loved Korea with deep respect."
+      ],
+      "_repeat": false,
+      "statement_en": "These days people remember him as a foreigner who loved Korea with deep respect."
+    },
+    {
+      "type": "content",
+      "statement_ko": "헐버트의 이야기는 우정보다 자기 나라에 대한 충성이 더 중요하다는 것을 가르쳐 준다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "진정한 우정과 사랑은 나라를 넘어설 수 있다는 것을 가르쳐 준다고 했다.",
+      "_evidence_text": [
+        "Hulbert's story teaches us that true friendship and love can go beyond countries."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert's story teaches us that being loyal to your own country matters more than friendship."
+    }
+  ],
+  "diagnostics": {
+    "returned": 13,
+    "kept": 13,
+    "by_type": {
+      "content": 13
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 7,
+      "X": 6
+    },
+    "sentences_covered": 13,
+    "sentence_count": 13,
+    "repeated": 0
+  }
+}

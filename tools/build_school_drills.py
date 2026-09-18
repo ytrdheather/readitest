@@ -61,7 +61,7 @@ GRADE = "2"          # 드릴은 동아 윤정미 중2 5·6과 (Street Art in Lo
 EXTERNAL = {
     "A girl with a red balloon": ["영일중"],
     "Yu Gwansun": ["영덕중"],
-    "Homer Hulbert": ["영덕중"],
+    "Hulbert": ["영덕중"],          # DB 제목은 "Homer B. Hulbert" — 가운데 이니셜 때문에 성만 맞춘다
 }
 
 SECTION = {"textbook_dialogue": "대화문", "textbook_reading": "본문", "handout_external": "외부지문"}

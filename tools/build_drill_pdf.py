@@ -133,6 +133,7 @@ ORDER = [
     "L6_대화_123.tf", "L6_대화_456.tf", "L6_대화_789.tf",
     "L6_Read_More.tf", "Dr_Schofield.tf",
     "A_girl_with_a_red_balloon.tf",
+    "L6_외부지문_Yu_Gwansun.tf", "L6_외부지문_Homer_B_Hulbert.tf",   # 영덕 배부물 12쪽(Basic) → 13쪽(Advanced)
     "L5_대화_길_묻고_답하기.para",
 ]
 

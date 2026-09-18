@@ -4,7 +4,24 @@
 > [`docs/리디테스트_기획서_v0.1.md`](docs/리디테스트_기획서_v0.1.md) 순으로 읽으십시오.**
 > 원본 자료 위치는 [`data/sources.md`](data/sources.md).
 
-> # 🏠 2026-09-15 학원에서 하다 만 것 — 집에서 이어서
+> # ✅ 2026-09-17 영덕 외부지문 2편이 드릴에 들어갔다
+>
+> 어제(09-16) 전사 확정 → DB 적재 → **동형 3세트에는 P4·P5 로 들어갔는데 드릴은 빠져 있었다** —
+> 태깅·드릴 생성 단계를 안 돌렸다. 오늘 아래 순서로 채웠다 (실비 약 $1.5):
+>
+>     pass-a 2편 (태그 35 · 논리 24) → 010 --apply
+>     make_drill_grammar (UNITS 에 2편 추가) → verify_drill_grammar (오답 9개 · 문항 1개 버림)
+>     make_drill_tf --title "L6 외부지문 — …" --book "영덕중 배부물" → make_drill_en
+>     build_school_drills --school 영덕중
+>
+> `result/readitude/영덕중2 6과 리디튜드 자체드릴.pdf` 30쪽 → **37쪽** (외부지문 31~36쪽, Gwansun → Hulbert 순).
+> 정답지 45쪽. 5과는 그대로.
+>
+> 걸린 것: `build_school_drills.EXTERNAL` 의 키가 `"Homer Hulbert"` 였는데 DB 제목은
+> `"Homer B. Hulbert"` 라 부분 일치가 안 됐다 → `"Hulbert"` 로. 그리고 이 컴퓨터도 `.env` 가
+> `.env.txt` 로 저장돼 있었다 (탐색기 확장자 숨김) — 이름만 바꿨다.
+
+> # 🏠 2026-09-15 학원에서 하다 만 것 — 집에서 이어서 (👆 09-17 영덕 해결)
 >
 > **드릴 PDF 를 학교별로 뽑게 했다** — `python tools/build_drill_pdf.py --school 영덕`.
 > 갈리는 것은 순서·외부지문·어휘뿐이라(§11) `SCHOOLS` 표 하나로 재배열한다.

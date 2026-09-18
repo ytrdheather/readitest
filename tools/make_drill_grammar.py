@@ -58,8 +58,12 @@ UNITS = [
                       "L6 ReadMore-3", "L6 ReadMore-4"]),
     ("L6 본문 — Dr. Schofield", ["Dr. Schofield, a Foreigner Who Loved Korea"]),
     ("L5 외부지문 — A girl with a red balloon", ["A girl with a red balloon"]),
+    ("L6 외부지문 — Yu Gwansun", ["Yu Gwansun"]),
+    ("L6 외부지문 — Homer B. Hulbert", ["Homer B. Hulbert"]),
 ]
-EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부물"}
+EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부물",
+            "L6 외부지문 — Yu Gwansun": "영덕중 배부물",
+            "L6 외부지문 — Homer B. Hulbert": "영덕중 배부물"}
 
 
 def slug(title):

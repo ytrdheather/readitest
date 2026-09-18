@@ -1,0 +1,817 @@
+{
+  "passage_id": "cd45ec34-05e8-40f0-b73b-43e29e53fff1",
+  "body_text_sha256": "e33584292a1c8e176f7ce3ea37977b3ccbe869f72c890af256b5c97b66166fec",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 18,
+      "span_end": 42,
+      "surface": "her love for her country",
+      "sentence_no": 1,
+      "rationale": "'~에 대한 사랑'은 love for. love to / love about 로 바꾼 오답 또는 for를 빈칸으로 뚫는 출제가 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 92,
+      "span_end": 117,
+      "surface": "was under Japan's control",
+      "sentence_no": 2,
+      "rationale": "'~의 지배 아래'는 under + 명사. in/on/at 로 교체하거나 전치사를 빈칸으로 만드는 자리. 굳어진 부사구라 전치사가 눈에 안 들어오기 쉽다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 119,
+      "span_end": 130,
+      "surface": "Even though",
+      "sentence_no": 3,
+      "rationale": "뒤에 'she was young'이라는 절이 오므로 접속사 Even though가 맞다. Despite / In spite of(전치사) 로 바꾼 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 146,
+      "span_end": 181,
+      "surface": "she believed she could do something",
+      "sentence_no": 3,
+      "rationale": "believed 뒤 목적어절 접속사 that이 생략된 구조. that/what 선택 문제나 that 삽입·what 오답으로 출제 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 200,
+      "span_end": 218,
+      "surface": "On March 1 in 1919",
+      "sentence_no": 4,
+      "rationale": "특정 날짜 앞 on, 연도 앞 in. On→In, in→on 으로 바꾸거나 빈칸으로 뚫는 전형적 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 245,
+      "span_end": 267,
+      "surface": "joined others to fight",
+      "sentence_no": 4,
+      "rationale": "to fight는 '싸우기 위해'라는 목적의 부사적 용법. for fighting / fought 같은 형태 오류나 용법 구별로 출제된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 262,
+      "span_end": 275,
+      "surface": "fight against",
+      "sentence_no": 4,
+      "rationale": "'~에 맞서 싸우다'는 fight against. against를 빼거나 for/with 로 교체한 오답 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 339,
+      "span_end": 358,
+      "surface": "not to give up hope",
+      "sentence_no": 5,
+      "rationale": "tell + 목적어 + to부정사 구문의 부정형은 not to V. don't give up / not giving up / to not give up 같은 오답과 구별해야 한다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 360,
+      "span_end": 368,
+      "surface": "Although",
+      "sentence_no": 6,
+      "rationale": "뒤에 절(she faced many challenges)이 오므로 접속사. Despite / Despite of 로 바꾼 오답이 대표적 출제 형태.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 419,
+      "span_end": 445,
+      "surface": "was caught for her actions",
+      "sentence_no": 7,
+      "rationale": "그녀가 '체포당한' 것이므로 be + p.p. 수동태. was catching / caught / was catch 같은 태·형태 오류를 심기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 506,
+      "span_end": 531,
+      "surface": "stayed strong and hopeful",
+      "sentence_no": 8,
+      "rationale": "stay는 2형식 동사로 보어에 형용사가 온다. strongly / hopefully 같은 부사 오답을 유도하는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 536,
+      "span_end": 556,
+      "surface": "continued to inspire",
+      "sentence_no": 8,
+      "rationale": "continue는 to부정사와 동명사를 모두 목적어로 취하지만, inspire/to inspired 같은 형태 오류나 to+원형 확인 문제로 출제 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 585,
+      "span_end": 633,
+      "surface": "wasn't loud or forceful but was full of kindness",
+      "sentence_no": 9,
+      "rationale": "not A but B 구조로 보어가 대등하게 연결된다. but 뒤를 being full / but full 처럼 깨뜨리거나 or→and 로 바꾸는 변형이 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARALLEL_BREAK",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 663,
+      "span_end": 685,
+      "surface": "teaches us that anyone",
+      "sentence_no": 10,
+      "rationale": "teach + 간접목적어 + that절(직접목적어) 구조. that을 what으로 바꾼 오답(뒤 절이 완전하므로 what 불가)이 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 749,
+      "span_end": 768,
+      "surface": "reminds us to fight",
+      "sentence_no": 11,
+      "rationale": "remind + 목적어 + to부정사 구문. fighting / fight 로 바꾼 목적보어 형태 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 799,
+      "span_end": 823,
+      "surface": "during challenging times",
+      "sentence_no": 11,
+      "rationale": "뒤에 명사구가 오므로 전치사 during이 맞다. while(접속사)로 바꾼 오답이 대표적 출제 형태.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "주제문",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경(시대 상황)",
+      "signal": "when",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "대조(어린 나이 vs 신념)",
+      "signal": "Even though",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "구체적 사건",
+      "signal": "On March 1 in 1919",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "세부 행동",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "역경과 극복",
+      "signal": "Although",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "부정적결과(투옥)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "전환(그럼에도 유지된 태도)",
+      "signal": "However, even then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "사랑의 성격 정의",
+      "signal": "not ~ but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 10,
+      "role": "결론(교훈)",
+      "signal": "teaches us that",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 11,
+      "role": "결론문(당부·요약)",
+      "signal": "It reminds us",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "지문 [4]~[8]에서 가져온 다음 밑줄 친 부분 중 어법상 틀린 것을 고르시오.",
+      "answer_key": "④",
+      "explanation": "④ 그녀가 체포를 '당한' 것이므로 수동태 was caught가 되어야 한다. was catching은 진행형 능동으로 의미·태가 모두 어긋난다. ①의 to fight(목적), ②의 tell+O+not to V, ③의 Although+절, ⑤의 stay+형용사 보어와 continued to inspire는 모두 어법상 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        9,
+        5,
+        7,
+        8,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "she bravely stood up and joined others to fight against Japan's control",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "She told her friends and neighbors not to give up hope.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Although she faced many challenges, she never gave up.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "She was catching for her actions and had a difficult time in prison.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "she stayed strong and hopeful and continued to inspire people around her",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "CONJ_VS_PREP",
+      "stem": "본문 문장을 옮겨 쓴 다음 중, 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "② Despite는 전치사여서 뒤에 명사(구)가 와야 한다. 뒤에 'she was young'이라는 절이 있으므로 접속사 Even though(=Although)를 써야 한다. ⑤의 during은 뒤에 명사구 challenging times가 오므로 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        7,
+        12,
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "She was only a teenager when Korea was under Japan's control.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Despite she was young, she believed she could do something with her courage.",
+          "is_answer": true,
+          "violates_point_code": "CONJ_VS_PREP",
+          "via_modification": "CO_CONJ_SWAP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "She told her friends and neighbors not to give up hope.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Her love wasn't loud or forceful but was full of kindness and care.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "It reminds us to fight for our rights and stay brave during challenging times.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음은 지문 [5], [8], [11]을 옮긴 것이다. (a)~(c)에 알맞은 말로 짝지어진 것을 고르시오.\n· She told her friends and neighbors (a)[not to give up / not giving up] hope.\n· However, even then, she stayed (b)[strong / strongly] and hopeful.\n· It reminds us to fight for our rights and stay brave (c)[during / while] challenging times.",
+      "answer_key": "①",
+      "explanation": "(a) tell + 목적어 + to부정사 구문의 부정은 not to V. (b) stay는 보어로 형용사를 취하므로 strong. (c) 뒤가 명사구(challenging times)이므로 전치사 during. 따라서 ①.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        10,
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) not to give up — (b) strong — (c) during",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) not giving up — (b) strong — (c) during",
+          "is_answer": false,
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) not to give up — (b) strongly — (c) during",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) not to give up — (b) strong — (c) while",
+          "is_answer": false,
+          "violates_point_code": "CONJ_VS_PREP",
+          "via_modification": "CO_CONJ_SWAP",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) not giving up — (b) strongly — (c) while",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 중 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ 감옥에서도 '강하고 희망을 잃지 않았다'는 흐름이므로 weak(약한)는 문맥에 어긋난다. strong이 들어가야 한다. 나머지는 용기·희망·따뜻한 사랑이라는 글의 흐름과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        7,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[1] Yu Gwansun showed her love for her country with courage.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[5] She told her friends and neighbors not to give up hope.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[8] However, even then, she stayed weak and hopeful and continued to inspire people around her.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[9] Her love wasn't loud or forceful but was full of kindness and care.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[10] anyone, even a young person, can show great courage and deep love",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 Her love wasn't loud or forceful but was full of kindness and care.가 뜻하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "loud or forceful(요란하고 강압적인)을 부정하고 kindness and care(친절과 보살핌)로 채워져 있었다고 했으므로, 드러내는 방식이 아니라 따뜻하게 보살피는 사랑이었다는 뜻이다. ③은 forceful을 문자 그대로 오해한 것이고 ⑤는 [8]의 내용과 반대된다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그녀의 애국심은 요란하게 드러내는 방식이 아니라, 주변을 따뜻하게 보살피는 방식이었다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "그녀는 사람들 앞에서 큰 소리로 연설하는 일을 가장 중요하게 여겼다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "그녀는 강한 힘을 길러 일본에 무력으로 맞서려 했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "그녀는 나라보다 가족과 이웃을 더 사랑했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "그녀의 사랑은 감옥에서 점점 식어 갔다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "②",
+      "explanation": "글은 유관순이 어린 나이에도 용기와 따뜻한 사랑으로 나라를 위해 싸웠다는 내용이며 [10]에서 그 교훈을 정리한다. ③, ④는 배경으로만 언급된 세부 사항이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "the daily life of teenagers in Korea in 1919",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "a young woman who showed great courage and warm love for her country",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "how Japan controlled Korea for many years",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the hard conditions of Korean prisons in the past",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "why students should study Korean history every day",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about Yu Gwansun according to the passage?",
+      "answer_key": "④",
+      "explanation": "[6]과 [8]에서 그녀는 결코 포기하지 않았고 감옥에서도 강하고 희망적인 태도를 유지하며 사람들에게 영감을 주었다고 했다. 따라서 ④가 지문과 일치하지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        4,
+        7,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "She was a teenager when Korea was under Japan's control.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "She joined others on March 1 in 1919 to fight against Japan's control.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "She told her friends and neighbors not to give up hope.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "She gave up her fight after she was caught and put in prison.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "She kept inspiring the people around her even in a difficult time.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n[10] Yu Gwansun's story teaches us that _______________.",
+      "answer_key": "①",
+      "explanation": "①",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "anyone, even a young person, can show great courage and deep love",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "only strong adults can change their country's history",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "we should never speak about painful times in the past",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "fighting with force is the best way to protect our rights",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "people in prison cannot help others in any way",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "CONJ_VS_PREP",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nDespite she faced many challenges, she never gave up.",
+      "answer_key": "Despite → Although (또는 Even though / Though)",
+      "explanation": "Despite는 전치사이므로 뒤에 명사(구)가 와야 한다. 뒤에 'she faced many challenges'라는 절이 있으므로 양보의 접속사 Although(Even though, Though)로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 알맞은 형태로 바꿔 문장을 완성하시오.\n그녀는 친구들과 이웃들에게 희망을 포기하지 말라고 말했다.\nShe ________________________ hope. (tell / her friends and neighbors / not / give up)",
+      "answer_key": "She told her friends and neighbors not to give up hope.",
+      "explanation": "tell + 목적어 + to부정사 구문이며, 부정은 to 앞에 not을 두어 'not to give up'으로 쓴다. 과거 시제이므로 tell은 told로 바꾼다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n그녀는 용감하게 일어서서 한국에 대한 일본의 지배에 맞서 싸우기 위해 다른 사람들과 함께했다.\n(stood / she / up / bravely / and / others / joined / to / fight / against / Japan's control over Korea)",
+      "answer_key": "she bravely stood up and joined others to fight against Japan's control over Korea",
+      "explanation": "부사 bravely는 동사 stood 앞에 두고, stood up과 joined를 and로 대등하게 연결한다. '싸우기 위해'는 목적을 나타내는 부사적 용법 to fight이며, '~에 맞서'는 fight against로 쓴다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 11,
+    "tags_returned": 16,
+    "tags_kept": 16,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

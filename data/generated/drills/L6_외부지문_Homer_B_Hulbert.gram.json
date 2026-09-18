@@ -1,0 +1,335 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L6 외부지문 — Homer B. Hulbert",
+  "kind": "handout_external",
+  "parts": [
+    "Homer B. Hulbert"
+  ],
+  "body": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "f3f7e356-75fc-4bc9-a2ff-c5f0e8193f4f",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 66,
+      "span_end": 84,
+      "correct": "who truly believed",
+      "wrong": [
+        "which truly believed",
+        "where truly believed",
+        "whose truly believed"
+      ],
+      "why_ko": "선행사가 사람이고 뒤에 주어가 빠진 불완전한 절이므로 주격 관계대명사 who를 씁니다.",
+      "rationale": "선행사가 사람(an American educator, writer, and missionary)이고 뒤에 주어가 없는 불완전한 절이 오므로 주격 관계대명사 who. which/where/whose 로 바꾼 오답을 유도할 수 있다.",
+      "sentence_no": 1,
+      "sentence": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea."
+    },
+    {
+      "tag_id": "fbfe9c79-286f-442e-abe4-c40a34d82c89",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 76,
+      "span_end": 98,
+      "correct": "believed in the future",
+      "wrong": [
+        "believed on the future"
+      ],
+      "why_ko": "'~의 가치를 믿다'는 believe in으로 전치사 in이 고정입니다.",
+      "rationale": "believe in(~의 가치를 믿다)의 고정 전치사. in 삭제나 of/on 으로 교체하는 오답이 가능하다.",
+      "sentence_no": 1,
+      "sentence": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea.",
+      "verify_dropped": [
+        {
+          "wrong": "believed the future",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하지만 '미래를 신뢰하다'라는 의미로 자연스럽지 않다."
+        }
+      ]
+    },
+    {
+      "tag_id": "073ca916-3407-43cd-9139-bbf91e8cfd1d",
+      "point": "PREP_USAGE",
+      "span_start": 132,
+      "span_end": 149,
+      "correct": "in the late 1800s",
+      "wrong": [
+        "at the late 1800s",
+        "on the late 1800s"
+      ],
+      "why_ko": "연도·연대처럼 긴 시간 단위 앞에는 전치사 in을 씁니다.",
+      "rationale": "연대(1800년대 후반)에는 전치사 in. at/on 으로 바꾼 선지나 빈칸 뚫기가 쉬운 자리.",
+      "sentence_no": 2,
+      "sentence": "He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom."
+    },
+    {
+      "tag_id": "a7ea902f-0cc6-48ec-a308-b846c54f3322",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 150,
+      "span_end": 176,
+      "correct": "to teach at a royal school",
+      "wrong": [
+        "taught at a royal school",
+        "for teach at a royal school"
+      ],
+      "why_ko": "'가르치기 위해'라는 목적을 나타내므로 to부정사를 씁니다.",
+      "rationale": "'가르치기 위해'라는 목적을 나타내는 부사적 용법 to부정사. teaching/taught 형태 오류나 용법 구별(명사적 vs 부사적) 문항으로 쓰인다.",
+      "sentence_no": 2,
+      "sentence": "He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom.",
+      "verify_dropped": [
+        {
+          "wrong": "teaching at a royal school",
+          "judgement": "odd",
+          "note_ko": "문법적으로 분사구로 볼 수는 있으나 목적 의미가 사라져 매우 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "d935743c-5e12-48ab-a2da-71618af661be",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 234,
+      "span_end": 246,
+      "correct": "noticed that",
+      "wrong": [
+        "noticed what",
+        "noticed which"
+      ],
+      "why_ko": "뒤에 완전한 문장이 오므로 명사절 접속사 that이 맞고, 빠진 성분이 있어야 하는 what은 안 됩니다.",
+      "rationale": "noticed의 목적어절을 이끄는 명사절 접속사 that. what 으로 바꾸면 뒤 절이 완전하므로 오류 — what/that 구별 오답 유도.",
+      "sentence_no": 3,
+      "sentence": "Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn."
+    },
+    {
+      "tag_id": "0f095222-726f-40df-96f0-4041437ddb20",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 283,
+      "span_end": 312,
+      "correct": "was logical and easy to learn",
+      "wrong": [
+        "was logically and easy to learn",
+        "was logical and easily to learn"
+      ],
+      "why_ko": "be동사의 보어 자리에는 부사가 아니라 형용사가 옵니다.",
+      "rationale": "be동사의 보어 자리이므로 형용사 logical. logically 로 바꾼 부사 오답이 전형적이다.",
+      "sentence_no": 3,
+      "sentence": "Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn."
+    },
+    {
+      "tag_id": "854eabea-049a-47ea-903e-edaac11570b6",
+      "point": "CONJ_VS_PREP",
+      "span_start": 314,
+      "span_end": 347,
+      "correct": "While many Westerners didn't care",
+      "wrong": [
+        "During many Westerners didn't care",
+        "Despite many Westerners didn't care"
+      ],
+      "why_ko": "뒤에 주어+동사의 절이 오므로 전치사가 아닌 접속사 While을 씁니다.",
+      "rationale": "뒤에 주어+동사의 절이 오므로 접속사 While. During 같은 전치사로 교체하는 오답을 유도한다.",
+      "sentence_no": 4,
+      "sentence": "While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply."
+    },
+    {
+      "tag_id": "892e44b7-ef2c-4420-b2f4-8e29579d2db7",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 343,
+      "span_end": 356,
+      "correct": "care about it",
+      "wrong": [
+        "care it",
+        "care of it"
+      ],
+      "why_ko": "'~에 관심을 두다'는 care about으로 전치사 about이 필요합니다.",
+      "rationale": "care about(~에 관심을 두다)의 고정 전치사. about 삭제 또는 for/of 로 교체한 오답 가능.",
+      "sentence_no": 4,
+      "sentence": "While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply."
+    },
+    {
+      "tag_id": "4327065a-ce9f-4b73-b1f1-4f1c823f96be",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 422,
+      "span_end": 458,
+      "correct": "promoting Hangeul and Korean culture",
+      "wrong": [
+        "promote Hangeul and Korean culture",
+        "promotes Hangeul and Korean culture"
+      ],
+      "why_ko": "that절의 주어 자리라서 동사원형이 아니라 동명사가 와야 합니다.",
+      "rationale": "that절의 주어 자리이므로 동명사 promoting. promote(정동사)나 promotes 로 바꾼 오답이 나온다.",
+      "sentence_no": 5,
+      "sentence": "He believed that promoting Hangeul and Korean culture could make the people stronger."
+    },
+    {
+      "tag_id": "560bfb23-38a3-4b00-aaf4-65e014d2c5de",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 465,
+      "span_end": 489,
+      "correct": "make the people stronger",
+      "wrong": [
+        "make the people strongly",
+        "make the people to be stronger"
+      ],
+      "why_ko": "make+목적어+목적격보어 5형식에서 보어 자리에는 형용사가 옵니다.",
+      "rationale": "make + 목적어 + 목적격보어(형용사) 5형식. 보어 자리에 부사(strongly)나 동사원형을 넣는 오답 유도.",
+      "sentence_no": 5,
+      "sentence": "He believed that promoting Hangeul and Korean culture could make the people stronger."
+    },
+    {
+      "tag_id": "29d3ac32-0a0c-434b-9fa7-52e4cc61b062",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 502,
+      "span_end": 522,
+      "correct": "began taking control",
+      "wrong": [
+        "began took control",
+        "began take control"
+      ],
+      "why_ko": "begin의 목적어 자리이므로 동명사(또는 to부정사)가 와야 하고 정동사·원형은 올 수 없습니다.",
+      "rationale": "begin은 동명사와 to부정사를 모두 목적어로 취한다. took/take 처럼 정동사 형태를 넣은 오답과 구별해야 한다.",
+      "sentence_no": 6,
+      "sentence": "When Japan began taking control of Korea, Hulbert didn't keep quiet."
+    },
+    {
+      "tag_id": "ec56c890-0eff-46ac-9402-4f595b7a6dd9",
+      "point": "CONJ_PARALLEL",
+      "span_start": 666,
+      "span_end": 717,
+      "correct": "to tell people about Korea and ask for independence",
+      "wrong": [
+        "to tell people about Korea and asked for independence",
+        "to tell people about Korea and asking for independence"
+      ],
+      "why_ko": "and 앞뒤가 to부정사로 병렬이어야 하므로 뒤도 동사원형 ask가 맞습니다.",
+      "rationale": "to tell ~ and (to) ask ~ 로 to부정사 두 개가 and로 병렬. asked/asking 으로 바꿔 병렬을 깨는 오답이 전형적이다.",
+      "sentence_no": 8,
+      "sentence": "He also traveled to the U.S. and Europe to tell people about Korea and ask for independence."
+    },
+    {
+      "tag_id": "b3910d67-0ae8-4a96-bfad-687d36d4b049",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 731,
+      "span_end": 756,
+      "correct": "made him a trusted friend",
+      "wrong": [
+        "made his a trusted friend",
+        "made him to a trusted friend"
+      ],
+      "why_ko": "make+목적어(목적격 him)+명사 보어 구조로, 소유격이나 to는 들어가지 않습니다.",
+      "rationale": "make + 목적어(him) + 목적격보어(명사구) 5형식. him 을 his 로, 또는 보어 앞에 to 를 넣는 오답 유도.",
+      "sentence_no": 9,
+      "sentence": "His actions made him a trusted friend to many Koreans."
+    },
+    {
+      "tag_id": "5594dd08-2f44-46e7-a43c-dbf1aafcfc29",
+      "point": "VOICE_PARTICIPLE",
+      "span_start": 740,
+      "span_end": 756,
+      "correct": "a trusted friend",
+      "wrong": [
+        "a trust friend"
+      ],
+      "why_ko": "'신뢰받는' 수동 의미이므로 과거분사 trusted를 씁니다.",
+      "rationale": "'신뢰받는' 이라는 수동 의미이므로 과거분사 trusted. trusting(현재분사)으로 뒤집는 오답이 자주 출제된다.",
+      "sentence_no": 9,
+      "sentence": "His actions made him a trusted friend to many Koreans.",
+      "verify_dropped": [
+        {
+          "wrong": "a trusting friend",
+          "judgement": "ok",
+          "note_ko": "'남을 믿는 친구'라는 뜻으로 어법상 맞는 표현."
+        }
+      ]
+    },
+    {
+      "tag_id": "a34543e6-5df9-4efd-bd25-cdc91e46697b",
+      "point": "CONJ_VS_PREP",
+      "span_start": 774,
+      "span_end": 798,
+      "correct": "Even after he left Korea",
+      "wrong": [
+        "Even despite he left Korea",
+        "Even after he leaving Korea",
+        "Even in spite of he left Korea"
+      ],
+      "why_ko": "뒤에 주어+동사 절이 오므로 접속사 after를 그대로 써야 합니다.",
+      "rationale": "after 뒤에 절이 왔으므로 접속사 용법. despite/in spite of 같은 전치사로 교체하거나 leaving 으로 바꾸는 오답 가능.",
+      "sentence_no": 10,
+      "sentence": "Even after he left Korea, Hulbert continued to help the Korean independence movement."
+    },
+    {
+      "tag_id": "8058e974-0719-4eba-ad7f-73d17b6b2795",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 808,
+      "span_end": 825,
+      "correct": "continued to help",
+      "wrong": [
+        "continued help",
+        "continued helped"
+      ],
+      "why_ko": "continue의 목적어로 to부정사(또는 동명사)가 와야 하고 원형·과거형은 올 수 없습니다.",
+      "rationale": "continue의 목적어로 쓰인 to부정사(명사적 용법). help(원형)나 helped 로 바꾼 형태 오류, 그리고 to부정사 용법 구별 문항의 정답 자리가 된다.",
+      "sentence_no": 10,
+      "sentence": "Even after he left Korea, Hulbert continued to help the Korean independence movement."
+    },
+    {
+      "tag_id": "9c5b9182-09b1-4dc2-851f-078799c3297d",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 904,
+      "span_end": 925,
+      "correct": "died in Seoul in 1949",
+      "wrong": [
+        "was died in Seoul in 1949"
+      ],
+      "why_ko": "die는 목적어가 없는 자동사라서 수동태(was died)로 쓸 수 없습니다.",
+      "rationale": "die는 목적어를 갖지 않는 자동사이므로 수동태가 불가능하다. was died 형태의 오답 선지를 만들기 좋은 자리.",
+      "sentence_no": 11,
+      "sentence": "He returned to Korea in his later years and died in Seoul in 1949.",
+      "verify_dropped": [
+        {
+          "wrong": "was dying in Seoul in 1949",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 사망 사실을 나타내기에 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "64db42e2-3074-45c2-9e66-534f5f8d2265",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 937,
+      "span_end": 965,
+      "correct": "is remembered as a foreigner",
+      "wrong": [
+        "is remembering as a foreigner",
+        "remembers as a foreigner"
+      ],
+      "why_ko": "주어 he가 '기억되는' 대상이므로 be+p.p. 수동태를 씁니다.",
+      "rationale": "주어 he가 '기억되는' 대상이므로 be + p.p. 수동태. is remembering / remembers 로 바꾼 능동 오답 유도.",
+      "sentence_no": 12,
+      "sentence": "Today, he is remembered as a foreigner who loved Korea with deep respect."
+    },
+    {
+      "tag_id": "69432316-e1d5-4985-86b2-f7feef2dd991",
+      "point": "SVOO_DATIVE",
+      "span_start": 1017,
+      "span_end": 1032,
+      "correct": "teaches us that",
+      "wrong": [
+        "teaches to us that",
+        "teaches that us"
+      ],
+      "why_ko": "teach는 4형식으로 '간접목적어(us)+직접목적어(that절)'를 바로 취하므로 to가 필요 없습니다.",
+      "rationale": "teach + 간접목적어(us) + 직접목적어(that절) 4형식. us 앞에 to 를 넣거나 어순을 바꾼 오답 유도.",
+      "sentence_no": 13,
+      "sentence": "Hulbert's story teaches us that true friendship and love can go beyond countries."
+    }
+  ],
+  "diagnostics": {
+    "returned": 19,
+    "kept": 19,
+    "given": 19,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 4
+    }
+  },
+  "verified": true
+}

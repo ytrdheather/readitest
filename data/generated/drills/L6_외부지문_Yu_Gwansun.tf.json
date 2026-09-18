@@ -1,0 +1,201 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L6 외부지문 — Yu Gwansun",
+  "parts": [
+    "Yu Gwansun"
+  ],
+  "passage_ids": [
+    "cd45ec34-05e8-40f0-b73b-43e29e53fff1"
+  ],
+  "para_breaks": [
+    11
+  ],
+  "turn_breaks": [
+    11
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "Yu Gwansun showed her love for her country with courage.",
+    "She was only a teenager when Korea was under Japan's control.",
+    "Even though she was young, she believed she could do something with her courage.",
+    "On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea.",
+    "She told her friends and neighbors not to give up hope.",
+    "Although she faced many challenges, she never gave up.",
+    "She was caught for her actions and had a difficult time in prison.",
+    "However, even then, she stayed strong and hopeful and continued to inspire people around her.",
+    "Her love wasn't loud or forceful but was full of kindness and care.",
+    "Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love.",
+    "It reminds us to fight for our rights and stay brave during challenging times."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "유관순은 용기로 나라에 대한 사랑을 보여 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 용기로 나라 사랑을 보여 주었다고 했다.",
+      "_evidence_text": [
+        "Yu Gwansun showed her love for her country with courage."
+      ],
+      "_repeat": false,
+      "statement_en": "Yu Gwansun used her courage to show how much she loved her country."
+    },
+    {
+      "type": "content",
+      "statement_ko": "한국이 일본의 지배 아래 있을 때 그녀는 이미 나이가 많은 어른이었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "당시 그녀는 겨우 십 대였다고 나온다.",
+      "_evidence_text": [
+        "She was only a teenager when Korea was under Japan's control."
+      ],
+      "_repeat": false,
+      "statement_en": "When Japan controlled Korea, she was already an old adult."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀는 자신이 어리기 때문에 아무것도 할 수 없다고 생각했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "어렸지만 용기로 무언가를 할 수 있다고 믿었다.",
+      "_evidence_text": [
+        "Even though she was young, she believed she could do something with her courage."
+      ],
+      "_repeat": false,
+      "statement_en": "She thought that she could do nothing because she was young."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀는 1919년 3월 1일에 용감하게 일어나 다른 사람들과 함께 일본의 지배에 맞서 싸웠다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "4번 문장의 날짜와 행동이 그대로 일치한다.",
+      "_evidence_text": [
+        "On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea."
+      ],
+      "_repeat": false,
+      "statement_en": "On March 1, 1919, she bravely joined other people in fighting against Japan's control of Korea."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀는 친구들과 이웃들에게 희망을 포기하지 말라고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번 문장에 그대로 나온다.",
+      "_evidence_text": [
+        "She told her friends and neighbors not to give up hope."
+      ],
+      "_repeat": false,
+      "statement_en": "She asked her friends and the people near her to keep their hope."
+    },
+    {
+      "type": "content",
+      "statement_ko": "많은 어려움을 겪은 끝에 그녀는 결국 포기하고 말았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "어려움을 겪었어도 결코 포기하지 않았다고 했다.",
+      "_evidence_text": [
+        "Although she faced many challenges, she never gave up."
+      ],
+      "_repeat": false,
+      "statement_en": "After facing many hard times, she finally gave up in the end."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀는 자신의 행동 때문에 붙잡혀 감옥에서 힘든 시간을 보냈다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장에 잡혀서 감옥에서 힘든 시간을 보냈다고 나온다.",
+      "_evidence_text": [
+        "She was caught for her actions and had a difficult time in prison."
+      ],
+      "_repeat": false,
+      "statement_en": "Because of what she did, she was caught and went through a hard time in prison."
+    },
+    {
+      "type": "content",
+      "statement_ko": "감옥에서는 낙담하여 주변 사람들에게 아무런 영향을 주지 못했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "감옥에서도 강하고 희망차게 남아 주변 사람들에게 계속 영감을 주었다.",
+      "_evidence_text": [
+        "However, even then, she stayed strong and hopeful and continued to inspire people around her."
+      ],
+      "_repeat": false,
+      "statement_en": "In prison she lost hope and gave no help or courage to the people around her."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀의 사랑은 크게 떠들썩하고 강압적인 것이었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "떠들썩하거나 강압적이지 않고 친절과 배려로 가득했다고 했다.",
+      "_evidence_text": [
+        "Her love wasn't loud or forceful but was full of kindness and care."
+      ],
+      "_repeat": false,
+      "statement_en": "Her love was noisy and forceful rather than kind."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀의 이야기는 어린 사람도 큰 용기와 깊은 사랑을 보여 줄 수 있음을 가르쳐 준다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번 문장의 내용과 일치한다.",
+      "_evidence_text": [
+        "Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love."
+      ],
+      "_repeat": false,
+      "statement_en": "Her story shows us that even a young person can have great courage and deep love."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그녀의 이야기는 우리의 권리를 위해 싸우고 힘든 시기에도 용감하라고 일깨워 준다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번 문장에 그대로 나온다.",
+      "_evidence_text": [
+        "It reminds us to fight for our rights and stay brave during challenging times."
+      ],
+      "_repeat": false,
+      "statement_en": "Her story reminds us to stand up for our rights and to be brave when times are hard."
+    }
+  ],
+  "diagnostics": {
+    "returned": 11,
+    "kept": 11,
+    "by_type": {
+      "content": 11
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 6,
+      "X": 5
+    },
+    "sentences_covered": 11,
+    "sentence_count": 11,
+    "repeated": 0
+  }
+}

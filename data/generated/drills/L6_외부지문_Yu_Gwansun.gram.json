@@ -1,0 +1,290 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L6 외부지문 — Yu Gwansun",
+  "kind": "handout_external",
+  "parts": [
+    "Yu Gwansun"
+  ],
+  "body": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "9bbc2b68-3a49-4182-b4b6-5f69c38e7b9c",
+      "point": "PREP_USAGE",
+      "span_start": 18,
+      "span_end": 42,
+      "correct": "her love for her country",
+      "wrong": [
+        "her love to her country",
+        "her love about her country"
+      ],
+      "why_ko": "'~에 대한 사랑'은 love for가 굳어진 표현이라 to나 about은 쓸 수 없어요.",
+      "rationale": "'~에 대한 사랑'은 love for. love to / love about 로 바꾼 오답 또는 for를 빈칸으로 뚫는 출제가 가능하다.",
+      "sentence_no": 1,
+      "sentence": "Yu Gwansun showed her love for her country with courage."
+    },
+    {
+      "tag_id": "40179147-2ce4-415c-9e76-94827360d273",
+      "point": "PREP_USAGE",
+      "span_start": 92,
+      "span_end": 117,
+      "correct": "was under Japan's control",
+      "wrong": [
+        "was on Japan's control"
+      ],
+      "why_ko": "'~의 지배 아래에'는 under + 명사로 씁니다.",
+      "rationale": "'~의 지배 아래'는 under + 명사. in/on/at 로 교체하거나 전치사를 빈칸으로 만드는 자리. 굳어진 부사구라 전치사가 눈에 안 들어오기 쉽다.",
+      "sentence_no": 2,
+      "sentence": "She was only a teenager when Korea was under Japan's control.",
+      "verify_dropped": [
+        {
+          "wrong": "was in Japan's control",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 '지배 아래'는 under control이 관용이며 in Japan's control은 매우 어색합니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "e35a9665-0479-46fd-a481-e33dfb0c0139",
+      "point": "CONJ_VS_PREP",
+      "span_start": 119,
+      "span_end": 130,
+      "correct": "Even though",
+      "wrong": [
+        "Despite",
+        "In spite of"
+      ],
+      "why_ko": "뒤에 'she was young'이라는 절이 오므로 접속사 Even though가 맞고, Despite/In spite of는 전치사라 절을 못 이끌어요.",
+      "rationale": "뒤에 'she was young'이라는 절이 오므로 접속사 Even though가 맞다. Despite / In spite of(전치사) 로 바꾼 오답을 유도할 수 있다.",
+      "sentence_no": 3,
+      "sentence": "Even though she was young, she believed she could do something with her courage."
+    },
+    {
+      "tag_id": "86e6aa55-9713-42c8-88d1-0b737e042002",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 146,
+      "span_end": 181,
+      "correct": "she believed she could do something",
+      "wrong": [
+        "she believed what she could do something",
+        "she believed which she could do something"
+      ],
+      "why_ko": "believed의 목적어절이 완전한 문장이므로 that(생략 가능)을 쓰고, what은 뒤 절에 빠진 자리가 있어야 해서 안 돼요.",
+      "rationale": "believed 뒤 목적어절 접속사 that이 생략된 구조. that/what 선택 문제나 that 삽입·what 오답으로 출제 가능.",
+      "sentence_no": 3,
+      "sentence": "Even though she was young, she believed she could do something with her courage."
+    },
+    {
+      "tag_id": "0794a0a1-4c96-47d8-8742-9c4fe391b159",
+      "point": "PREP_USAGE",
+      "span_start": 200,
+      "span_end": 218,
+      "correct": "On March 1 in 1919",
+      "wrong": [
+        "In March 1 on 1919",
+        "At March 1 in 1919"
+      ],
+      "why_ko": "특정 날짜 앞에는 on, 연도 앞에는 in을 씁니다.",
+      "rationale": "특정 날짜 앞 on, 연도 앞 in. On→In, in→on 으로 바꾸거나 빈칸으로 뚫는 전형적 자리.",
+      "sentence_no": 4,
+      "sentence": "On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea."
+    },
+    {
+      "tag_id": "54b6c9c1-c1c7-4a81-8e14-ab584ee4c338",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 245,
+      "span_end": 267,
+      "correct": "joined others to fight",
+      "wrong": [
+        "joined others fought"
+      ],
+      "why_ko": "'싸우기 위해'라는 목적을 나타내므로 to부정사를 쓰고, 동사를 또 쓰거나 for+동명사로는 목적을 나타내지 않아요.",
+      "rationale": "to fight는 '싸우기 위해'라는 목적의 부사적 용법. for fighting / fought 같은 형태 오류나 용법 구별로 출제된다.",
+      "sentence_no": 4,
+      "sentence": "On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea.",
+      "verify_dropped": [
+        {
+          "wrong": "joined others for fighting",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 목적을 나타낼 때 to fight가 자연스럽고 for fighting은 매우 어색합니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "d4785af9-ae40-44f6-b1c1-6cf4dc0d23bb",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 339,
+      "span_end": 358,
+      "correct": "not to give up hope",
+      "wrong": [
+        "not giving up hope",
+        "don't give up hope"
+      ],
+      "why_ko": "tell + 목적어 + to부정사 구문의 부정은 to 앞에 not을 붙여 not to V로 씁니다.",
+      "rationale": "tell + 목적어 + to부정사 구문의 부정형은 not to V. don't give up / not giving up / to not give up 같은 오답과 구별해야 한다.",
+      "sentence_no": 5,
+      "sentence": "She told her friends and neighbors not to give up hope.",
+      "verify_dropped": [
+        {
+          "wrong": "to not give up hope",
+          "judgement": "ok",
+          "note_ko": "to not+동사원형도 현대 영어에서 허용되는 형태입니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "8970501a-3c68-48d0-b242-01c557a0c616",
+      "point": "CONJ_VS_PREP",
+      "span_start": 360,
+      "span_end": 368,
+      "correct": "Although",
+      "wrong": [
+        "Despite",
+        "Despite of"
+      ],
+      "why_ko": "뒤에 주어+동사의 절이 오므로 접속사 Although를 쓰고, Despite는 전치사(Despite of는 아예 틀린 형태)예요.",
+      "rationale": "뒤에 절(she faced many challenges)이 오므로 접속사. Despite / Despite of 로 바꾼 오답이 대표적 출제 형태.",
+      "sentence_no": 6,
+      "sentence": "Although she faced many challenges, she never gave up."
+    },
+    {
+      "tag_id": "f2b1c71f-ad97-41ae-88d8-f86dd5eec883",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 419,
+      "span_end": 445,
+      "correct": "was caught for her actions",
+      "wrong": [
+        "was catching for her actions",
+        "caught for her actions",
+        "was catch for her actions"
+      ],
+      "why_ko": "그녀가 붙잡힌 것이므로 be + 과거분사(was caught) 수동태로 써야 해요.",
+      "rationale": "그녀가 '체포당한' 것이므로 be + p.p. 수동태. was catching / caught / was catch 같은 태·형태 오류를 심기 쉬운 자리.",
+      "sentence_no": 7,
+      "sentence": "She was caught for her actions and had a difficult time in prison."
+    },
+    {
+      "tag_id": "ee9fa83f-8d92-4ad8-bbba-db2019b7e4fb",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 506,
+      "span_end": 531,
+      "correct": "stayed strong and hopeful",
+      "wrong": [
+        "stayed strongly and hopefully",
+        "stayed strongly and hopeful"
+      ],
+      "why_ko": "stay는 보어를 취하는 동사라서 부사가 아니라 형용사가 와야 해요.",
+      "rationale": "stay는 2형식 동사로 보어에 형용사가 온다. strongly / hopefully 같은 부사 오답을 유도하는 자리.",
+      "sentence_no": 8,
+      "sentence": "However, even then, she stayed strong and hopeful and continued to inspire people around her."
+    },
+    {
+      "tag_id": "3eb1f02e-34ba-4444-9fc7-8b8e5be371ff",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 536,
+      "span_end": 556,
+      "correct": "continued to inspire",
+      "wrong": [
+        "continued to inspired",
+        "continued inspire"
+      ],
+      "why_ko": "to 뒤에는 동사원형이 오므로 to inspire가 맞아요.",
+      "rationale": "continue는 to부정사와 동명사를 모두 목적어로 취하지만, inspire/to inspired 같은 형태 오류나 to+원형 확인 문제로 출제 가능.",
+      "sentence_no": 8,
+      "sentence": "However, even then, she stayed strong and hopeful and continued to inspire people around her."
+    },
+    {
+      "tag_id": "bdfe60f3-5916-4336-b42b-7a2a9b1e9560",
+      "point": "CONJ_PARALLEL",
+      "span_start": 585,
+      "span_end": 633,
+      "correct": "wasn't loud or forceful but was full of kindness",
+      "wrong": [
+        "wasn't loud or forceful but being full of kindness"
+      ],
+      "why_ko": "not A but B 구조로 but 뒤에도 동사(was)가 대등하게 와야 하고, 부정문에서 '~도 ~도 아니다'는 or로 연결해요.",
+      "rationale": "not A but B 구조로 보어가 대등하게 연결된다. but 뒤를 being full / but full 처럼 깨뜨리거나 or→and 로 바꾸는 변형이 가능.",
+      "sentence_no": 9,
+      "sentence": "Her love wasn't loud or forceful but was full of kindness and care.",
+      "verify_dropped": [
+        {
+          "wrong": "wasn't loud and forceful but was full of kindness",
+          "judgement": "ok",
+          "note_ko": "부정문에서 and도 문법적으로 가능하며 의미 범위만 달라집니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "6d9085e2-242e-4cfc-8ce6-96fae473a8f5",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 663,
+      "span_end": 685,
+      "correct": "teaches us that anyone",
+      "wrong": [
+        "teaches us what anyone",
+        "teaches to us that anyone"
+      ],
+      "why_ko": "뒤 절이 완전한 문장이므로 접속사 that을 쓰고, teach는 목적어 두 개를 바로 취해 to us로 쓰지 않아요.",
+      "rationale": "teach + 간접목적어 + that절(직접목적어) 구조. that을 what으로 바꾼 오답(뒤 절이 완전하므로 what 불가)이 전형적이다.",
+      "sentence_no": 10,
+      "sentence": "Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love."
+    },
+    {
+      "tag_id": "7a099623-0435-4428-b8f8-e630e8e2357b",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 749,
+      "span_end": 768,
+      "correct": "reminds us to fight",
+      "wrong": [
+        "reminds us fighting",
+        "reminds us fight"
+      ],
+      "why_ko": "remind는 목적어 다음에 to부정사를 보어로 취합니다.",
+      "rationale": "remind + 목적어 + to부정사 구문. fighting / fight 로 바꾼 목적보어 형태 오류를 심을 수 있다.",
+      "sentence_no": 11,
+      "sentence": "It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "tag_id": "1f0ad6e4-ed88-494b-aaf6-5b4d7a6ab494",
+      "point": "CONJ_VS_PREP",
+      "span_start": 799,
+      "span_end": 823,
+      "correct": "during challenging times",
+      "wrong": [
+        "while challenging times"
+      ],
+      "why_ko": "뒤에 명사구가 오므로 전치사 during을 쓰고, while은 절을 이끄는 접속사예요.",
+      "rationale": "뒤에 명사구가 오므로 전치사 during이 맞다. while(접속사)로 바꾼 오답이 대표적 출제 형태.",
+      "sentence_no": 11,
+      "sentence": "It reminds us to fight for our rights and stay brave during challenging times.",
+      "verify_dropped": [
+        {
+          "wrong": "for challenging times",
+          "judgement": "odd",
+          "note_ko": "형태는 되지만 '어려운 시기 동안'의 뜻이 되지 않아 의미가 통하지 않습니다."
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 16,
+    "kept": 16,
+    "given": 16,
+    "rejects": [
+      [
+        "fight against",
+        "wrong 이 본문에 실재함: 'fight for'"
+      ]
+    ],
+    "verify": {
+      "dropped_items": [
+        [
+          "fight against",
+          "모든 오답이 실은 맞는 표현이라 버림: fight with(ok)"
+        ]
+      ],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
+}
