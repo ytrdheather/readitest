@@ -73,9 +73,9 @@ KINDS = [("textbook_dialogue", "지문종류 1 — 대화문"),
          ("handout_external", "지문종류 3 — 학교 배부 외부지문")]
 
 
-def build(docs, logo):
+def build(docs, logo, title="L5 · L6"):
     out = [f"<style>{CSS}</style>", logo,
-           "<h1>교과서 전사 확인지 — L5 · L6</h1>",
+           f"<h1>교과서 전사 확인지 — {title}</h1>",
            f'<div class="sub">지문 {len(docs)}개 · 확인 대상은 <b>영어 원문뿐</b>입니다</div>',
            HOW]
     for kind, label in KINDS:
@@ -112,6 +112,7 @@ def main():
                     help="대상 파일 패턴 (여러 번 줄 수 있음)")
     ap.add_argument("--out", default=os.path.join(ROOT, "data", "generated",
                                                   "전사확인지_L5_L6.html"))
+    ap.add_argument("--title", default="L5 · L6", help="제목에 들어갈 범위 (예: '중1 L5')")
     a = ap.parse_args()
 
     pats = a.glob or ["L[56]_*.json", "영일중2_L[56]_*.json"]
@@ -129,7 +130,7 @@ def main():
     # 대화 → 본문 → Read More 순서. 같은 종류 안에서는 파일 이름 순.
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     with open(a.out, "w", encoding="utf-8") as fh:
-        fh.write(build(docs, logo_tag(DEFAULT_LOGO)))
+        fh.write(build(docs, logo_tag(DEFAULT_LOGO), a.title))
     lines = sum(len(rows(d)) for d in docs)
     print(f"  지문 {len(docs)}개 · 확인할 줄 {lines}개")
     print(f"  → {a.out}")

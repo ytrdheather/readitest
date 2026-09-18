@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L5_대화3",
+  "kind": "textbook_dialogue",
+  "title": "중1 L5 대화-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "B: May I go to the video room, Mom?\nW: Of course, but don’t run.\nB: Why not?\nW: Look at that sign. You must not run inside the museum.",
+  "body_text_sha256": "be909f9666239391de83b1acbfef4621cef305a597cfbfb7afbb63818cf1a3a0",
+  "word_count": 30,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 5과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-3",
+  "textbook_page": 78,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "May I go to the video room, Mom?"
+    },
+    {
+      "no": 2,
+      "speaker": "W",
+      "text": "Of course, but don’t run."
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "Why not?"
+    },
+    {
+      "no": 4,
+      "speaker": "W",
+      "text": "Look at that sign. You must not run inside the museum."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

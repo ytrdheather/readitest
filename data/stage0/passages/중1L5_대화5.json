@@ -1,0 +1,75 @@
+{
+  "passage_id": "중1L5_대화5",
+  "kind": "textbook_dialogue",
+  "title": "중1 L5 대화-5",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "M: Everybody, look over here, please. This is Sunflowers by Van Gogh.\nG: Wow, this is my favorite painting. May I take a picture of it?\nM: Yes, you may, but you must not use the flash.\nG: Why not? It’s a little dark in here.\nM: I’m sorry, but using the flash can damage paintings.\nG: Oh, I didn’t know that.\nM: Everyone, we’ll move on to Monet’s paintings next.\nG: Great!",
+  "body_text_sha256": "cdbd3bfbeb7a3d2610f68e20ea7e9837b5fa6a04850e0ff629f0e2944f4fcc6f",
+  "word_count": 73,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 5과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk C",
+  "textbook_page": 79,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "M",
+      "text": "Everybody, look over here, please. This is Sunflowers by Van Gogh."
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "Wow, this is my favorite painting. May I take a picture of it?"
+    },
+    {
+      "no": 3,
+      "speaker": "M",
+      "text": "Yes, you may, but you must not use the flash."
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "Why not? It’s a little dark in here."
+    },
+    {
+      "no": 5,
+      "speaker": "M",
+      "text": "I’m sorry, but using the flash can damage paintings."
+    },
+    {
+      "no": 6,
+      "speaker": "G",
+      "text": "Oh, I didn’t know that."
+    },
+    {
+      "no": 7,
+      "speaker": "M",
+      "text": "Everyone, we’ll move on to Monet’s paintings next."
+    },
+    {
+      "no": 8,
+      "speaker": "G",
+      "text": "Great!"
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}
