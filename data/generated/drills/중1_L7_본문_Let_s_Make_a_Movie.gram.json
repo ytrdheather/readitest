@@ -1,0 +1,464 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L7 본문 — Let’s Make a Movie!",
+  "kind": "textbook_reading",
+  "parts": [
+    "중1 L7 본문 — Let’s Make a Movie!"
+  ],
+  "body": "Hi, I’m Jim Brown, the director of Happy Days. It’s a movie about the friendship between Tom and his dog Max. A lot of people are working hard to create this movie. Do you want to meet some of them? I’m Anna, and I found this beautiful beach. I’m a location manager, and my job is to find perfect places for shooting. Of course, it is not easy, but I love my job. I like to travel and enjoy challenges. I’m Peter, the director of photography for this movie. I’m in charge of all the cameras. Today, Tom and Max are going to play together with a ball on the beach. To capture their happy moments, I’m going to use drones. I’m Jennifer. I trained and took care of Max for a long time. Max is a great actor, but he sometimes gets too excited when a lot of people are around. So, I use hand signals to calm him. Who am I? I’m an animal wrangler. My name is Emma, and I’m a film editor. My work begins after the shooting is over. To create a better story, I can change the order of scenes or delete some of them. Storytelling skills are important for my job, so I read a lot. I’m Chris, and I’m a Foley artist. I create sound effects in my studio when recording on location is not easy. Listen carefully. Do you hear the sound of waves? I made that sound with rice and a plastic container. Doesn’t it sound real?",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "414ffd45-4905-4792-a3b8-9e10d549a243",
+      "point": "PREP_USAGE",
+      "span_start": 81,
+      "span_end": 108,
+      "correct": "between Tom and his dog Max",
+      "wrong": [
+        "among Tom and his dog Max",
+        "between Tom or his dog Max"
+      ],
+      "why_ko": "둘 사이는 between A and B. among은 셋 이상, and 대신 or를 쓰면 짝이 깨져요.",
+      "rationale": "'둘 사이'를 뜻하는 between + A and B. among / from 등으로 바꿔 빈칸 출제되기 쉬운 자리. between ~ and ~ 짝이 깨지는 오류(between Tom or his dog)도 유도 가능.",
+      "sentence_no": 2,
+      "sentence": "It’s a movie about the friendship between Tom and his dog Max."
+    },
+    {
+      "tag_id": "fcd56226-f003-4655-9494-d004f1512393",
+      "point": "VERB_SVA",
+      "span_start": 126,
+      "span_end": 137,
+      "correct": "are working",
+      "wrong": [
+        "is working",
+        "works"
+      ],
+      "why_ko": "주어 A lot of people이 복수라서 복수 동사 are working이 맞아요.",
+      "rationale": "주어 A lot of people(복수)에 맞춘 복수 동사. 'A lot of'라는 수량표현 때문에 is working으로 바꾸는 수일치 오류를 심기 쉬운 자리.",
+      "sentence_no": 3,
+      "sentence": "A lot of people are working hard to create this movie."
+    },
+    {
+      "tag_id": "8f0087a3-7a50-4cd2-a9a7-a3f5a1d46bfd",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 138,
+      "span_end": 142,
+      "correct": "hard",
+      "wrong": [
+        "hardly ever"
+      ],
+      "why_ko": "'열심히'는 부사 hard. hardly는 '거의 ~않다'로 뜻이 반대가 돼요.",
+      "rationale": "동사 work를 수식하는 부사 hard(열심히). hardly(거의 ~않다)로 바꾸면 의미가 정반대가 되는 전형적 함정.",
+      "sentence_no": 3,
+      "sentence": "A lot of people are working hard to create this movie.",
+      "verify_dropped": [
+        {
+          "wrong": "hardly",
+          "judgement": "odd",
+          "note_ko": "형태는 부사지만 '거의 ~않다'가 되어 뒤의 목적 표현과 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "3ef4a0c5-897c-4cb7-8b87-399015116391",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 143,
+      "span_end": 163,
+      "correct": "to create this movie",
+      "wrong": [
+        "creating this movie",
+        "for create this movie"
+      ],
+      "why_ko": "'~하기 위해'라는 목적은 to부정사로 씁니다. for+동사원형은 불가능해요.",
+      "rationale": "'~하기 위해'의 부사적 용법(목적). creating / for create 등 형태 오류나, 명사적 용법과의 쓰임 구별 문항으로 나오는 자리.",
+      "sentence_no": 3,
+      "sentence": "A lot of people are working hard to create this movie."
+    },
+    {
+      "tag_id": "2174ffe1-7280-45be-a802-47d8f6d31a44",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 278,
+      "span_end": 288,
+      "correct": "is to find",
+      "wrong": [
+        "is find",
+        "is to finding"
+      ],
+      "why_ko": "be동사의 보어로 '~하는 것이다'는 to부정사. to 뒤에는 동사원형이 와요.",
+      "rationale": "be동사의 보어로 쓰인 to부정사의 명사적 용법(~하는 것이다). 다른 문장의 부사적 용법 to부정사와 쓰임이 다른 것 구별 문항의 핵심.",
+      "sentence_no": 6,
+      "sentence": "I’m a location manager, and my job is to find perfect places for shooting."
+    },
+    {
+      "tag_id": "a293c9f9-55f4-49fb-aef5-985bdac6222d",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 304,
+      "span_end": 316,
+      "correct": "for shooting",
+      "wrong": [
+        "for shoot",
+        "for to shoot"
+      ],
+      "why_ko": "전치사 for 뒤에는 동명사(shooting)가 옵니다.",
+      "rationale": "전치사 for 뒤에는 동명사. for shoot / for to shoot 같은 오류를 유도할 수 있는 자리.",
+      "sentence_no": 6,
+      "sentence": "I’m a location manager, and my job is to find perfect places for shooting."
+    },
+    {
+      "tag_id": "725ce8ec-8b1d-40a3-96be-53ea43070ed8",
+      "point": "CONJ_PARALLEL",
+      "span_start": 364,
+      "span_end": 401,
+      "correct": "I like to travel and enjoy challenges",
+      "wrong": [
+        "I like to travel and enjoying challenges",
+        "I like to travel and enjoys challenges"
+      ],
+      "why_ko": "and로 like와 enjoy가 나란히 연결되니 enjoy도 같은 현재형이어야 해요.",
+      "rationale": "and로 like와 enjoy 두 동사가 병렬. enjoy를 enjoying/enjoys로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 8,
+      "sentence": "I like to travel and enjoy challenges."
+    },
+    {
+      "tag_id": "a2ebaf1b-a200-4c62-be17-6e06720d1946",
+      "point": "PREP_USAGE",
+      "span_start": 462,
+      "span_end": 474,
+      "correct": "in charge of",
+      "wrong": [
+        "in charge for",
+        "on charge of"
+      ],
+      "why_ko": "'~을 담당하다'는 in charge of로 굳어진 표현이에요.",
+      "rationale": "'~을 담당하다'라는 굳어진 전치사구. in charge for / on charge of 처럼 전치사를 갈아 끼우는 빈칸 출제가 잦다.",
+      "sentence_no": 10,
+      "sentence": "I’m in charge of all the cameras."
+    },
+    {
+      "tag_id": "13600769-6570-4822-8ede-6d0591d08b18",
+      "point": "VERB_TENSE",
+      "span_start": 511,
+      "span_end": 528,
+      "correct": "are going to play",
+      "wrong": [
+        "is going to play",
+        "are going to playing"
+      ],
+      "why_ko": "주어가 Tom and Max(복수)라 are, be going to 뒤에는 동사원형이 와요.",
+      "rationale": "Today와 함께 쓰인 be going to 미래 표현. is going to(수일치)나 are going to playing(형태)로 오류를 심을 수 있다.",
+      "sentence_no": 11,
+      "sentence": "Today, Tom and Max are going to play together with a ball on the beach."
+    },
+    {
+      "tag_id": "858d6044-ed16-41ef-b5ee-80767ca2705f",
+      "point": "PREP_USAGE",
+      "span_start": 550,
+      "span_end": 562,
+      "correct": "on the beach",
+      "wrong": [
+        "in the beach",
+        "at beach"
+      ],
+      "why_ko": "해변 같은 표면·장소 위에서는 on the beach를 씁니다.",
+      "rationale": "표면 접촉·장소를 나타내는 on. in / at the beach 와의 구별로 빈칸 출제 가능.",
+      "sentence_no": 11,
+      "sentence": "Today, Tom and Max are going to play together with a ball on the beach."
+    },
+    {
+      "tag_id": "00a58378-a1fc-4322-b803-01dda363179c",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 564,
+      "span_end": 594,
+      "correct": "To capture their happy moments",
+      "wrong": [
+        "For capture their happy moments"
+      ],
+      "why_ko": "'~하기 위해'라는 목적은 문장 앞에서도 To+동사원형으로 씁니다.",
+      "rationale": "문장 앞에 나온 목적의 부사적 용법 to부정사. Capturing / For capture 로 바꾸는 오류, 또는 어순 배열 문항의 소재.",
+      "sentence_no": 12,
+      "sentence": "To capture their happy moments, I’m going to use drones.",
+      "verify_dropped": [
+        {
+          "wrong": "Capturing their happy moments",
+          "judgement": "odd",
+          "note_ko": "분사구문 형태는 가능하나 목적 의미가 사라져 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "820c7333-2866-48bf-a12a-4215a0adc913",
+      "point": "CONJ_PARALLEL",
+      "span_start": 637,
+      "span_end": 665,
+      "correct": "trained and took care of Max",
+      "wrong": [
+        "trained and take care of Max",
+        "trained and taking care of Max"
+      ],
+      "why_ko": "and로 과거동사 두 개가 연결되므로 trained와 took처럼 둘 다 과거여야 해요.",
+      "rationale": "and로 과거시제 동사 두 개가 병렬. took을 take/taking으로 바꾸면 병렬·시제가 동시에 깨지는 전형적 오류 자리.",
+      "sentence_no": 14,
+      "sentence": "I trained and took care of Max for a long time."
+    },
+    {
+      "tag_id": "aeb21cd9-578f-4a98-9075-1a6eaababa58",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 649,
+      "span_end": 665,
+      "correct": "took care of Max",
+      "wrong": [
+        "took care for Max",
+        "took care Max"
+      ],
+      "why_ko": "'돌보다'는 take care of로 of가 반드시 필요해요.",
+      "rationale": "take care of(~을 돌보다) 고정 결합. of 삭제나 take care for 같은 전치사 교체 오류를 유도.",
+      "sentence_no": 14,
+      "sentence": "I trained and took care of Max for a long time."
+    },
+    {
+      "tag_id": "70b20bde-be3c-4155-9751-ccafac6edb14",
+      "point": "VERB_PERFECT",
+      "span_start": 666,
+      "span_end": 681,
+      "correct": "for a long time",
+      "wrong": [
+        "since a long time",
+        "during a long time"
+      ],
+      "why_ko": "기간의 길이 앞에는 for를 씁니다. since는 시작 시점, during은 특정 기간 명사와 써요.",
+      "rationale": "기간 표현 for a long time과 과거시제(trained)의 결합. have trained/have taken care of 로 바꾼 현재완료 계속 용법과 구별시키는 자리.",
+      "sentence_no": 14,
+      "sentence": "I trained and took care of Max for a long time."
+    },
+    {
+      "tag_id": "a6ec72f9-4654-4b1e-8b1e-e5bf90f44a74",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 722,
+      "span_end": 738,
+      "correct": "gets too excited",
+      "wrong": [
+        "gets too excite"
+      ],
+      "why_ko": "사람이 흥분을 느끼는 것이므로 과거분사 excited를 씁니다.",
+      "rationale": "감정동사 excite의 과거분사형 보어 — 사람이 흥분을 '당하는' 것이므로 excited. exciting으로 뒤집는 오류가 대표 출제 지점.",
+      "sentence_no": 15,
+      "sentence": "Max is a great actor, but he sometimes gets too excited when a lot of people are around.",
+      "verify_dropped": [
+        {
+          "wrong": "gets too exciting",
+          "judgement": "odd",
+          "note_ko": "형태상 가능하나 감정을 느끼는 주체에는 excited가 맞아 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "7d1a3beb-0075-48cc-80ff-8fd2939d0ffd",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 727,
+      "span_end": 738,
+      "correct": "too excited",
+      "wrong": [
+        "such excited"
+      ],
+      "why_ko": "'너무 ~하다'는 too+형용사. such는 명사구와, enough는 '충분히'라는 다른 뜻이에요.",
+      "rationale": "정도가 지나침을 나타내는 too + 형용사. so / such / enough 와의 구별로 빈칸 출제 가능.",
+      "sentence_no": 15,
+      "sentence": "Max is a great actor, but he sometimes gets too excited when a lot of people are around.",
+      "verify_dropped": [
+        {
+          "wrong": "excited enough",
+          "judgement": "odd",
+          "note_ko": "문법은 되나 '~할 만큼'의 대상이 없어 의미가 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "8939dc04-b847-4347-b4b9-4f9f0106367f",
+      "point": "VERB_SVA",
+      "span_start": 744,
+      "span_end": 770,
+      "correct": "a lot of people are around",
+      "wrong": [
+        "a lot of people is around",
+        "a lot of people was around"
+      ],
+      "why_ko": "people은 복수 명사라서 are를 씁니다.",
+      "rationale": "when절 주어 a lot of people(복수)에 맞춘 are. is로 바꾸는 수일치 오류를 심기 쉽다.",
+      "sentence_no": 15,
+      "sentence": "Max is a great actor, but he sometimes gets too excited when a lot of people are around."
+    },
+    {
+      "tag_id": "6af1027b-b70f-44ed-a530-db70c905d288",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 795,
+      "span_end": 806,
+      "correct": "to calm him",
+      "wrong": [
+        "for calm him"
+      ],
+      "why_ko": "'진정시키기 위해'라는 목적은 to+동사원형으로 나타냅니다.",
+      "rationale": "'진정시키기 위해'의 목적 부사적 용법. calming / for calm 오류 및 to부정사 쓰임 구별 문항의 선지로 쓰인다.",
+      "sentence_no": 16,
+      "sentence": "So, I use hand signals to calm him.",
+      "verify_dropped": [
+        {
+          "wrong": "calming him",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 목적 의미가 사라져 매우 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "e926cb15-198b-4f49-8cad-99d386427d0b",
+      "point": "VERB_TENSE",
+      "span_start": 897,
+      "span_end": 923,
+      "correct": "after the shooting is over",
+      "wrong": [
+        "after the shooting will be over",
+        "after the shooting be over"
+      ],
+      "why_ko": "시간 부사절에서는 미래의 일도 현재시제로 씁니다.",
+      "rationale": "시간 부사절에서는 미래를 현재시제로 표현. will be over 로 바꾸는 오류가 가장 흔한 출제 지점.",
+      "sentence_no": 20,
+      "sentence": "My work begins after the shooting is over."
+    },
+    {
+      "tag_id": "38609d16-ab57-4325-8d81-fafbfae5cec9",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 925,
+      "span_end": 949,
+      "correct": "To create a better story",
+      "wrong": [
+        "For create a better story"
+      ],
+      "why_ko": "목적을 나타내는 문두 표현은 To+동사원형이 맞아요.",
+      "rationale": "문두 목적의 부사적 용법 to부정사. Creating / For create 형태 오류, 어순 배열 소재.",
+      "sentence_no": 21,
+      "sentence": "To create a better story, I can change the order of scenes or delete some of them.",
+      "verify_dropped": [
+        {
+          "wrong": "Creating a better story",
+          "judgement": "odd",
+          "note_ko": "분사구문으로 읽히나 목적 의미가 흐려져 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "c66c615d-72ab-4fb4-a0c5-5033ea9255df",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 935,
+      "span_end": 949,
+      "correct": "a better story",
+      "wrong": [
+        "a more better story",
+        "a gooder story"
+      ],
+      "why_ko": "good의 비교급은 better 하나로, more를 또 붙이거나 gooder로 쓰면 안 돼요.",
+      "rationale": "good의 불규칙 비교급 better. gooder / more better / best 같은 오류형을 선지로 제시하기 쉬운 자리.",
+      "sentence_no": 21,
+      "sentence": "To create a better story, I can change the order of scenes or delete some of them."
+    },
+    {
+      "tag_id": "80b27ab0-a9fd-4645-ada2-5cbd7a403657",
+      "point": "CONJ_PARALLEL",
+      "span_start": 957,
+      "span_end": 1006,
+      "correct": "change the order of scenes or delete some of them",
+      "wrong": [
+        "change the order of scenes or deleting some of them",
+        "change the order of scenes or deletes some of them"
+      ],
+      "why_ko": "조동사 can 뒤에서 or로 연결되니 change와 delete 모두 동사원형이어야 해요.",
+      "rationale": "조동사 can 뒤에서 change와 delete가 or로 병렬. deleting / deletes 로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 21,
+      "sentence": "To create a better story, I can change the order of scenes or delete some of them."
+    },
+    {
+      "tag_id": "3b0550c1-a4f2-4dc7-8768-9f7e27664586",
+      "point": "VERB_SVA",
+      "span_start": 1147,
+      "span_end": 1180,
+      "correct": "recording on location is not easy",
+      "wrong": [
+        "recording on location are not easy",
+        "record on location is not easy"
+      ],
+      "why_ko": "동명사구 주어는 단수 취급해 is를 쓰고, 주어 자리에는 record가 아닌 recording이 와요.",
+      "rationale": "동명사구 주어는 단수 취급 → is. are로 바꾸거나 recording을 record로 바꿔 정동사 중복을 만드는 오류 유도.",
+      "sentence_no": 24,
+      "sentence": "I create sound effects in my studio when recording on location is not easy."
+    },
+    {
+      "tag_id": "da640e44-0b17-4fc8-8c89-de25d43e4503",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 1189,
+      "span_end": 1198,
+      "correct": "carefully",
+      "wrong": [
+        "careful",
+        "care"
+      ],
+      "why_ko": "동사 Listen을 꾸미므로 부사 carefully가 맞아요.",
+      "rationale": "동사 Listen을 수식하는 부사. careful(형용사)로 바꾸는 형용사·부사 혼동 함정.",
+      "sentence_no": 25,
+      "sentence": "Listen carefully."
+    },
+    {
+      "tag_id": "9dc6d869-079b-43df-b0e7-160592c3a84a",
+      "point": "THAT_USAGE",
+      "span_start": 1239,
+      "span_end": 1249,
+      "correct": "that sound",
+      "wrong": [
+        "that a sound",
+        "those sound"
+      ],
+      "why_ko": "지시형용사 that은 단수 명사 앞에 바로 붙습니다(관사와 같이 못 쓰고, those는 복수용).",
+      "rationale": "앞 문장의 소리를 가리키는 지시형용사 that. 접속사·관계대명사 that과 쓰임이 다른 것 구별 문항의 선지로 쓰인다.",
+      "sentence_no": 27,
+      "sentence": "I made that sound with rice and a plastic container."
+    },
+    {
+      "tag_id": "ef130d75-850b-4570-a9f5-251fb6a29c65",
+      "point": "PREP_USAGE",
+      "span_start": 1250,
+      "span_end": 1283,
+      "correct": "with rice and a plastic container",
+      "wrong": [
+        "by rice and a plastic container",
+        "rice and a plastic container"
+      ],
+      "why_ko": "도구·재료로 무엇을 만들 때는 with를 씁니다. 전치사를 빼도 안 돼요.",
+      "rationale": "도구·수단을 나타내는 with. by / in 과의 구별로 빈칸 출제되며, 전치사 삭제 오류도 가능.",
+      "sentence_no": 27,
+      "sentence": "I made that sound with rice and a plastic container."
+    },
+    {
+      "tag_id": "ca1b041f-be17-4f6a-bd5d-5961198a336a",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 1296,
+      "span_end": 1306,
+      "correct": "sound real",
+      "wrong": [
+        "sound really",
+        "sounds really"
+      ],
+      "why_ko": "감각동사 sound 뒤에는 형용사 보어 real이 옵니다.",
+      "rationale": "감각동사 sound 뒤에는 형용사 보어. really(부사)로 바꾸는 오류가 대표 출제 지점.",
+      "sentence_no": 28,
+      "sentence": "Doesn’t it sound real?"
+    }
+  ],
+  "diagnostics": {
+    "returned": 27,
+    "kept": 27,
+    "given": 27,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
+}

@@ -1,0 +1,684 @@
+{
+  "passage_id": "3a9e8c0f-5df4-405b-8fdf-eb4341afcc7e",
+  "body_text_sha256": "45f9c724a8b050bf238a197f98013995defd99c62797f838f130cbc7397ab1c0",
+  "tags": [
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 15,
+      "span_end": 25,
+      "surface": "want to be",
+      "sentence_no": 1,
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 형태로 바꾼 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 26,
+      "span_end": 39,
+      "surface": "in the future",
+      "sentence_no": 1,
+      "rationale": "'미래에'를 뜻하는 굳어진 부사구. 통째로 외워져 전치사가 눈에 안 들어오지만 [in / on / at] the future 형태로 빈칸 출제가 잦다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 58,
+      "span_end": 81,
+      "surface": "to be a sports reporter",
+      "sentence_no": 2,
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 형용사적·부사적 용법과 구별시키거나 being으로 바꾼 오답을 낼 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 98,
+      "span_end": 110,
+      "surface": "Do you watch",
+      "sentence_no": 4,
+      "rationale": "일반동사 의문문에서 주어 you에 맞는 조동사 Do. Does you watch / Do you watches 같은 수일치 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_FINITE",
+      "span_start": 137,
+      "span_end": 147,
+      "surface": "Yes, I do.",
+      "sentence_no": 5,
+      "rationale": "앞 질문의 일반동사(watch)를 받는 대동사 do. am / does로 바꾼 오답 유도가 가능하다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 148,
+      "span_end": 162,
+      "surface": "I’m interested",
+      "sentence_no": 6,
+      "rationale": "감정동사 interest는 사람이 주어일 때 be + p.p.(수동) 형태. I'm interesting 처럼 현재분사로 바꾼 오답이 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 152,
+      "span_end": 165,
+      "surface": "interested in",
+      "sentence_no": 6,
+      "rationale": "be interested in은 고정된 전치사 결합. in 대신 at / on / with 를 넣거나 전치사를 삭제하는 오답이 흔하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "주제문 (장래희망 답변)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "반응",
+      "signal": "really",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "추가질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "확인응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "부연·이유 (결론문)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음은 위 대화에서 가져온 문장들이다. 어법상 옳지 <않은> 것은?",
+      "answer_key": "④",
+      "explanation": "'~에 관심이 있다'는 be interested in으로 전치사가 in으로 고정되어 있다. on은 쓸 수 없으므로 ④가 틀렸다(원문: I’m interested in all kinds of sports.). ①②는 want + to부정사, ③은 주어 you에 맞는 조동사 Do, ⑤는 앞의 watch를 받는 대동사 do로 모두 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        0,
+        2,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What do you want to be in the future, Minsu?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I want to be a sports reporter.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Do you watch a lot of sports games?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’m interested on all kinds of sports.",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Yes, I do.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\nB: I want (a)[to be / being] a sports reporter.\nG: (b)[Do / Does] you watch a lot of sports games?\nB: Yes, I do. I’m interested (c)[in / at] all kinds of sports.",
+      "answer_key": "①",
+      "explanation": "(a) want는 to부정사를 목적어로 취하므로 to be. (b) 주어가 you인 일반동사 의문문이므로 Do. (c) be interested in이 고정 표현이므로 in. 따라서 ①.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to be … (b) Do … (c) in",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) to be … (b) Does … (c) in",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) being … (b) Do … (c) in",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to be … (b) Do … (c) at",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) being … (b) Does … (c) at",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 대화의 밑줄 친 (a)~(e) 중 어법상 틀린 것은?\nG: What (a)do you want (b)to be in the future, Minsu?\nB: I want to be a sports reporter.\nG: Oh, really? Do you watch (c)a lot of sports games?\nB: Yes, I (d)do. I’m (e)interesting in all kinds of sports.",
+      "answer_key": "⑤",
+      "explanation": "감정을 나타내는 동사 interest는 사람이 주어일 때 be + 과거분사 형태인 interested를 쓴다. I’m interesting은 '내가 흥미를 주는 사람이다'라는 뜻이 되어 문맥에 맞지 않으므로 interested가 옳다. 나머지는 모두 원문 그대로 옳은 표현이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) do",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(b) to be",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(c) a lot of",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(d) do",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(e) interesting",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 <않은> 것은?\nG: What do you want to be in the ①future, Minsu?\nB: I want to be a sports ②reporter.\nG: Oh, really? Do you ③watch a lot of sports games?\nB: ④Yes, I do. I’m ⑤bored with all kinds of sports.",
+      "answer_key": "⑤",
+      "explanation": "민수는 스포츠 경기를 많이 본다고 답했고 스포츠 기자가 되고 싶어 하므로, 모든 종류의 스포츠에 '관심이 있다(interested in)'가 자연스럽다. '지루해한다(bored with)'는 앞의 Yes, I do.와 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "future",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "reporter",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "watch",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Yes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "bored",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 I’m interested in all kinds of sports.가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "be interested in ~은 '~에 관심[흥미]이 있다'는 뜻이다. 경험(②), 한정된 취향(③), 부정적 감정(④), 장래희망 종목 변경(⑤)은 모두 대화 내용과 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "나는 모든 종류의 스포츠에 관심이 있다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "나는 모든 종류의 스포츠를 직접 해 본 적이 있다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "나는 스포츠 종목을 하나만 좋아한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "나는 스포츠를 보는 것이 지루하다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "나는 스포츠 선수가 되고 싶다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "소녀가 장래희망을 묻고 민수가 스포츠 기자가 되고 싶다고 답하며 스포츠에 관심이 많다고 덧붙이는 대화이므로 ①이 주제로 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Minsu's dream job and his interest in sports",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to become a professional soccer player",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The best sports game of the year",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Why watching TV is bad for students",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A school sports club meeting",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "민수는 I want to be a sports reporter.라고 말했으므로 ①이 일치한다. ②는 Yes, I do.와 모순, ③은 all kinds of sports와 모순, ④와 ⑤는 대화에 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Minsu wants to be a sports reporter.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Minsu doesn't watch sports games.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Minsu likes only one kind of sport.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl wants to be a sports reporter, too.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Minsu plays sports games every day.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것은?\nG: What do you want to be in the future, Minsu?\nB: ______________\nG: Oh, really? Do you watch a lot of sports games?\nB: Yes, I do. I’m interested in all kinds of sports.",
+      "answer_key": "①",
+      "explanation": "장래희망을 묻는 질문에 대한 답이면서, 뒤이어 스포츠 경기 시청과 스포츠에 대한 관심이 이어지므로 ①이 알맞다. ②④⑤는 질문에 대한 답이 아니고, ③은 뒤의 내용과 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I want to be a sports reporter.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I went to the stadium yesterday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I don't like sports at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "My favorite subject is math.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I have to finish my homework.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오.\n(우리말) 너는 미래에 무엇이 되고 싶니, 민수야?\n(단어) want / do / to be / what / you / in the future",
+      "answer_key": "What do you want to be in the future, Minsu?",
+      "explanation": "의문사 What을 맨 앞에 두고 조동사 do + 주어 you + 동사원형 want 순으로 쓴다. want의 목적어로는 to부정사(to be)를 쓰고, 시간 부사구 in the future는 문장 끝에 놓는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 조건에 맞게 우리말을 영어로 쓰시오.\n(우리말) 나는 스포츠 기자가 되고 싶다.\n<조건> 1) want와 to부정사를 반드시 사용할 것  2) a sports reporter를 사용할 것  3) 7단어로 쓸 것",
+      "answer_key": "I want to be a sports reporter.",
+      "explanation": "want는 목적어로 to부정사를 취하므로 want to be로 쓰고, 보어로 a sports reporter를 붙인다. want being이나 want be는 틀린 형태이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nI’m interested at all kinds of sports.",
+      "answer_key": "at → in (I’m interested in all kinds of sports.)",
+      "explanation": "'~에 관심이 있다'는 be interested in으로 전치사가 in으로 고정되어 있다. at은 쓸 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

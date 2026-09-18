@@ -99,9 +99,10 @@ def build(title, words, kinds=("both", "def", "cloze", "match", "phrase"),
 
     if "both" in kinds:
         # 양방향. 영덕이 30단어를 60칸으로 내므로 순서를 섞어 두 번 묻는다.
-        en2ko = list(words)
-        # 우리말 뜻이 없는 낱말은 **묻지 않는다.** 문제 칸이 비면 못 푸는 문항이다.
-        ko2en = [w for w in words if (w.get("ko") or w.get("gloss_ko"))]
+        # 우리말 뜻이 없는 낱말은 **어느 방향으로도 묻지 않는다.** 문제 칸이 비면 못 푸는
+        # 문항이고, 정답 칸이 비면 강사가 채점을 못 한다 (영일중1 L7 — 뜻이 손글씨라 47개가 비었다).
+        en2ko = [w for w in words if (w.get("ko") or w.get("gloss_ko"))]
+        ko2en = list(en2ko)
         rng.shuffle(ko2en)
         sec.append({"kind": "both", "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
                     "en2ko": [{"word": w["word"], "answer": w.get("ko") or w.get("gloss_ko", "")}

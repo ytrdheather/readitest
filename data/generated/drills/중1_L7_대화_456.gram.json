@@ -1,0 +1,398 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L7 대화 ④⑤⑥",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L7 대화-4",
+    "중1 L7 대화-5",
+    "중1 L7 대화-6"
+  ],
+  "body": "G: Are you interested in fashion, Jacob?\nB: Yes, I love to make clothes.\nG: Really? That’s so cool!\nB: \u0007Thanks. I want to be a fashion designer. I’ll make clothes for you someday.\nG: Jiho, why don’t we try this? We can fly an airplane!\nB: Sure. It looks like fun!\nG: Do you want to be a pilot in the future?\nB: Yes, I’m interested in flying airplanes. How about you, Lucy?\nG: I’m interested in making airplanes, not flying. I want to be an airplane engineer.\nB: That sounds cool!\nG: Thank you. I want to make an airplane someday!\nB: Let’s fly this airplane, and then we can try making an airplane, too.\nG: Good idea.\nA: What are you interested in?\nB: I’m interested in soccer.\nA: What do you want to be in the future?\nB: I want to be a soccer player.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "0c4658c5-dc83-492f-915f-94bb977506ed",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 11,
+      "span_end": 21,
+      "correct": "interested",
+      "wrong": [
+        "interesting",
+        "interest"
+      ],
+      "why_ko": "사람이 흥미를 '느끼는' 것이므로 수동형 interested를 씁니다. interesting은 '흥미를 주는'이라 사람 주어에 어색해요.",
+      "rationale": "감정동사 interest의 수동형 보어. 주어가 사람이므로 interested가 맞고 interesting(현재분사·능동)과 혼동시키는 전형적 출제 자리",
+      "sentence_no": 1,
+      "sentence": "G: Are you interested in fashion, Jacob?"
+    },
+    {
+      "tag_id": "e7b94db5-8588-433f-8059-f2523b1e627d",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 22,
+      "span_end": 32,
+      "correct": "in fashion",
+      "wrong": [
+        "of fashion",
+        "at fashion",
+        "with fashion"
+      ],
+      "why_ko": "be interested in은 전치사 in이 고정된 표현이라 of/at/with로 바꿀 수 없어요.",
+      "rationale": "be interested in 은 전치사가 고정된 표현. in 대신 of/at/with 로 바꾸거나 전치사를 삭제하는 빈칸 출제가 가장 쉬운 자리",
+      "sentence_no": 1,
+      "sentence": "G: Are you interested in fashion, Jacob?"
+    },
+    {
+      "tag_id": "7e78131a-914f-44a4-b6a8-38dba78ca981",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 51,
+      "span_end": 63,
+      "correct": "love to make",
+      "wrong": [
+        "love make",
+        "love made"
+      ],
+      "why_ko": "love 뒤에는 to부정사나 동명사가 와야 하고, 동사원형이나 과거형은 올 수 없어요.",
+      "rationale": "love는 to부정사와 동명사를 모두 목적어로 취함. to make / making 은 맞지만 make(동사원형)·made 형태로 바꾼 오류 선지를 만들기 쉬움",
+      "sentence_no": 2,
+      "sentence": "B: Yes, I love to make clothes."
+    },
+    {
+      "tag_id": "47f89dae-8812-474b-8776-15f4f1266264",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 84,
+      "span_end": 98,
+      "correct": "That’s so cool",
+      "wrong": [
+        "That’s such cool",
+        "That’s too much cool"
+      ],
+      "why_ko": "뒤에 명사 없이 형용사만 있으니 so를 씁니다. such는 'such a cool ~'처럼 명사가 있어야 해요.",
+      "rationale": "so + 형용사 구조. 뒤에 명사가 없으므로 such는 불가 — [so / such] cool 형태의 짝짓기 출제 지점",
+      "sentence_no": 4,
+      "sentence": "That’s so cool!"
+    },
+    {
+      "tag_id": "92bdd136-1377-4960-879d-7a064f2e2992",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 94,
+      "span_end": 98,
+      "correct": "cool",
+      "wrong": [
+        "coolly",
+        "coolness"
+      ],
+      "why_ko": "be동사의 보어 자리라 형용사 cool이 맞고 부사 coolly는 올 수 없어요.",
+      "rationale": "be동사의 보어 자리이므로 형용사 cool. coolly(부사)로 바꾼 오류 유도 가능",
+      "sentence_no": 4,
+      "sentence": "That’s so cool!"
+    },
+    {
+      "tag_id": "7605a080-7edc-4d06-b389-ccb3b260e1cb",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 114,
+      "span_end": 124,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 취하므로 being이나 원형 be는 틀려요.",
+      "rationale": "want는 to부정사만 목적어로 취함. being / be 로 바꾼 선지가 대표적 오답",
+      "sentence_no": 6,
+      "sentence": "I want to be a fashion designer."
+    },
+    {
+      "tag_id": "1b7bb765-42a7-437d-9d57-b3fd06afb5c4",
+      "point": "SVOO_DATIVE",
+      "span_start": 150,
+      "span_end": 170,
+      "correct": "make clothes for you",
+      "wrong": [
+        "make clothes to you",
+        "make you clothes for"
+      ],
+      "why_ko": "make는 3형식으로 바꿀 때 전치사 for를 쓰는 동사예요. to는 give류에 씁니다.",
+      "rationale": "make는 3형식 전환 시 전치사 for를 쓰는 수여동사. to you / give 류와 혼동시키거나 전치사를 삭제하는 출제 자리",
+      "sentence_no": 7,
+      "sentence": "I’ll make clothes for you someday."
+    },
+    {
+      "tag_id": "1557ad97-7012-4629-a951-a88cc254b062",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 215,
+      "span_end": 222,
+      "correct": "can fly",
+      "wrong": [
+        "can flying",
+        "can to fly",
+        "can flies"
+      ],
+      "why_ko": "조동사 can 뒤에는 반드시 동사원형이 옵니다.",
+      "rationale": "조동사 can 뒤에는 동사원형. can flying / can to fly / can flies 형태 오류를 유도할 수 있는 자리.",
+      "sentence_no": 9,
+      "sentence": "We can fly an airplane!"
+    },
+    {
+      "tag_id": "8ed5321f-251d-455e-b38f-b141048cb210",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 248,
+      "span_end": 262,
+      "correct": "looks like fun",
+      "wrong": [
+        "looks fun like",
+        "looks likely fun"
+      ],
+      "why_ko": "look 뒤에 명사 fun이 오므로 like가 필요하고, 어순이나 likely로 바꾸면 틀려요.",
+      "rationale": "감각동사 look 뒤에 명사(fun)가 오므로 like가 필요. like를 삭제한 'looks fun'이나 형용사 자리 혼동(looks likely fun)을 물을 수 있다. look + 형용사 / look like + 명사 구별 지점.",
+      "sentence_no": 11,
+      "sentence": "It looks like fun!"
+    },
+    {
+      "tag_id": "aa275bf1-3356-4e39-9869-db5448f9c00e",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 274,
+      "span_end": 292,
+      "correct": "want to be a pilot",
+      "wrong": [
+        "want being a pilot",
+        "want be a pilot"
+      ],
+      "why_ko": "want의 목적어는 to부정사뿐이라 being/be는 쓸 수 없어요.",
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 형태 오류를 유도할 수 있다.",
+      "sentence_no": 12,
+      "sentence": "G: Do you want to be a pilot in the future?"
+    },
+    {
+      "tag_id": "3f9e834f-f6d1-47c8-a45d-d55ee192adbe",
+      "point": "PREP_USAGE",
+      "span_start": 293,
+      "span_end": 306,
+      "correct": "in the future",
+      "wrong": [
+        "on the future",
+        "at the future"
+      ],
+      "why_ko": "'미래에'는 in the future로 굳어진 표현이라 on/at은 안 돼요.",
+      "rationale": "시점을 나타내는 굳어진 부사구의 전치사 in. on/at the future 로 바꾼 선지나 전치사 빈칸으로 출제되기 쉽다.",
+      "sentence_no": 12,
+      "sentence": "G: Do you want to be a pilot in the future?"
+    },
+    {
+      "tag_id": "e439dcd0-a4e2-4b69-8d2d-c115da46af36",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 316,
+      "span_end": 333,
+      "correct": "I’m interested in",
+      "wrong": [
+        "I’m interesting in",
+        "I interest in"
+      ],
+      "why_ko": "감정을 느끼는 사람 주어에는 be interested in을 씁니다.",
+      "rationale": "감정동사 interest의 수동형 be interested in. am interesting in / interest in 처럼 태를 뒤집는 오류를 유도할 수 있다.",
+      "sentence_no": 13,
+      "sentence": "B: Yes, I’m interested in flying airplanes."
+    },
+    {
+      "tag_id": "b158078b-8c13-48ca-b317-26ddd3a424ce",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 320,
+      "span_end": 350,
+      "correct": "interested in flying airplanes",
+      "wrong": [
+        "interested in fly airplanes",
+        "interested in to fly airplanes"
+      ],
+      "why_ko": "전치사 in 뒤에는 동명사가 와야 해서 원형이나 to부정사는 틀려요.",
+      "rationale": "전치사 in 뒤에는 동명사. in fly / in to fly 로 바꾸는 형태 오류가 전형적 출제 지점.",
+      "sentence_no": 13,
+      "sentence": "B: Yes, I’m interested in flying airplanes."
+    },
+    {
+      "tag_id": "f7bb2363-cc14-46ce-955d-d833a4a099a5",
+      "point": "PREP_USAGE",
+      "span_start": 352,
+      "span_end": 365,
+      "correct": "How about you",
+      "wrong": [
+        "How for you",
+        "How with you"
+      ],
+      "why_ko": "되묻는 표현은 How about ~으로 전치사 about이 고정이에요.",
+      "rationale": "제안·되묻기 표현 How about + 명사(구)의 전치사 about. How for you 등으로 전치사를 바꾸거나 빈칸으로 뚫기 쉬운 자리.",
+      "sentence_no": 14,
+      "sentence": "How about you, Lucy?"
+    },
+    {
+      "tag_id": "c26b7e30-c923-49e5-9c37-028e18be348f",
+      "point": "CONJ_PARALLEL",
+      "span_start": 391,
+      "span_end": 422,
+      "correct": "in making airplanes, not flying",
+      "wrong": [
+        "in making airplanes, not to fly",
+        "in making airplanes, not fly"
+      ],
+      "why_ko": "not 뒤도 앞의 making과 같은 동명사 형태여야 병렬이 맞아요.",
+      "rationale": "not 뒤의 flying이 앞의 making과 같은 동명사 형태로 병렬을 이룬다. not to fly / not fly 로 병렬을 깨는 선지를 만들 수 있다.",
+      "sentence_no": 15,
+      "sentence": "G: I’m interested in making airplanes, not flying."
+    },
+    {
+      "tag_id": "7730e17e-0869-4205-9db3-b5c34c37bf99",
+      "point": "THAT_USAGE",
+      "span_start": 462,
+      "span_end": 466,
+      "correct": "That",
+      "wrong": [
+        "It that"
+      ],
+      "why_ko": "앞의 말을 받아 주어로 쓰는 지시대명사 That이 맞고, 관계사 which는 문장 첫머리 주어로 쓸 수 없어요.",
+      "rationale": "앞 문장 내용을 받는 지시대명사 that. 접속사·관계대명사 that과의 쓰임 구별 문항으로 낼 수 있다.",
+      "sentence_no": 17,
+      "sentence": "B: That sounds cool!",
+      "verify_dropped": [
+        {
+          "wrong": "Which",
+          "judgement": "odd",
+          "note_ko": "문법 형태는 가능하나 감탄 응답으로 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "c98f504c-32ad-405f-9df8-c76fb009eaa1",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 467,
+      "span_end": 478,
+      "correct": "sounds cool",
+      "wrong": [
+        "sounds coolly",
+        "sounds like cool"
+      ],
+      "why_ko": "감각동사 sound 뒤 보어는 형용사이고, 형용사 앞에는 like를 쓰지 않아요.",
+      "rationale": "감각동사 sound 뒤 보어는 형용사. sounds coolly 처럼 부사로 바꾸는 오류가 대표적 출제 지점.",
+      "sentence_no": 17,
+      "sentence": "B: That sounds cool!"
+    },
+    {
+      "tag_id": "d3565f52-8a9a-4f30-bf8e-64ad1d9902c8",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 501,
+      "span_end": 520,
+      "correct": "to make an airplane",
+      "wrong": [
+        "make an airplane"
+      ],
+      "why_ko": "want의 목적어는 to부정사라서 동명사나 원형은 올 수 없어요.",
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 형용사적·부사적 용법과 구별시키거나 making으로 바꾸는 오류를 심을 수 있다.",
+      "sentence_no": 19,
+      "sentence": "I want to make an airplane someday!"
+    },
+    {
+      "tag_id": "3ba22426-e42b-4765-9197-37b7dd3181c5",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 574,
+      "span_end": 596,
+      "correct": "try making an airplane",
+      "wrong": [
+        "try make an airplane",
+        "try to making an airplane"
+      ],
+      "why_ko": "'시험 삼아 해보다'는 try + 동명사이고, 동사원형이나 to -ing 형태는 틀려요.",
+      "rationale": "try + 동명사(시험삼아 해보다)와 try + to부정사(노력하다)의 의미 차이. make / to make 형태 선택 문항으로 나오기 쉽다.",
+      "sentence_no": 20,
+      "sentence": "B: Let’s fly this airplane, and then we can try making an airplane, too."
+    },
+    {
+      "tag_id": "210416b5-ea06-4c1b-be39-198a59f73659",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 625,
+      "span_end": 646,
+      "correct": "are you interested in",
+      "wrong": [
+        "are you interested at",
+        "are you interesting in",
+        "are you interested"
+      ],
+      "why_ko": "be interested in은 전치사 in이 고정이고, 사람 주어엔 interested를 써요.",
+      "rationale": "be interested in 은 전치사 in 이 고정된 표현. in 을 at/on/about 으로 바꾸거나 삭제하는 오류(EI_PREP_DELETE)를 유도할 수 있고, 의문문 끝에 전치사가 남는 형태도 빈칸으로 자주 뚫린다.",
+      "sentence_no": 22,
+      "sentence": "A: What are you interested in?"
+    },
+    {
+      "tag_id": "7d44b08b-9e1e-4d14-a469-ed8ab6487d5e",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 651,
+      "span_end": 675,
+      "correct": "I’m interested in soccer",
+      "wrong": [
+        "I’m interesting in soccer",
+        "I’m interested of soccer"
+      ],
+      "why_ko": "흥미를 느끼는 쪽이므로 interested, 전치사는 in이 맞아요.",
+      "rationale": "감정동사 interest 의 be+p.p. 형태. interesting(현재분사)으로 바꿔 '내가 흥미를 주는' 뜻이 되는 전형적 오류(interested vs interesting)를 유도할 수 있다.",
+      "sentence_no": 23,
+      "sentence": "B: I’m interested in soccer."
+    },
+    {
+      "tag_id": "b6250635-9cd8-4239-ab60-2dd4337bab85",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 692,
+      "span_end": 702,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want 뒤에는 to부정사만 오므로 동명사·원형은 틀려요.",
+      "rationale": "want 는 목적어로 to부정사만 취한다. want being / want be 처럼 동명사·원형으로 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 24,
+      "sentence": "A: What do you want to be in the future?"
+    },
+    {
+      "tag_id": "7cc3fd48-56f1-4f24-b257-7f1d5e7bd9ae",
+      "point": "PREP_USAGE",
+      "span_start": 703,
+      "span_end": 716,
+      "correct": "in the future",
+      "wrong": [
+        "on the future",
+        "at the future"
+      ],
+      "why_ko": "'미래에'는 in the future로 전치사 in이 고정된 표현이에요.",
+      "rationale": "'미래에'를 뜻하는 굳어진 부사구로 전치사 in 이 고정. on/at the future 로 바꾸는 선지가 만들기 쉬운 자리다.",
+      "sentence_no": 24,
+      "sentence": "A: What do you want to be in the future?"
+    },
+    {
+      "tag_id": "fb8d68ad-f87c-4ffa-99e6-caab8230b50f",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 728,
+      "span_end": 749,
+      "correct": "to be a soccer player",
+      "wrong": [
+        "being a soccer player",
+        "be a soccer player"
+      ],
+      "why_ko": "want의 목적어로 쓰인 to부정사라서 being이나 be로 바꿀 수 없어요.",
+      "rationale": "want 의 목적어로 쓰인 to부정사의 명사적 용법. 보어 자리에 명사구(a soccer player)가 오는 구조를 확인시키며, being/be 로 바꾸는 형태 오류를 유도할 수 있다.",
+      "sentence_no": 25,
+      "sentence": "B: I want to be a soccer player."
+    }
+  ],
+  "diagnostics": {
+    "returned": 24,
+    "kept": 24,
+    "given": 24,
+    "rejects": [
+      [
+        "to make an airplane",
+        "wrong 이 본문에 실재함: 'making an airplane'"
+      ]
+    ],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 1
+    }
+  },
+  "verified": true
+}

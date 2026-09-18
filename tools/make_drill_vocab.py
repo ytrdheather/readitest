@@ -110,6 +110,8 @@ SETS = {
     # 중1. 제목에 '중1' 을 넣는다 — build_school_drills 가 학년을 제목에서 읽는다.
     "영덕중1_L5": ("동아 윤정미 중1 L5 어휘 — 영덕",
                   ["영덕중1_L5_vocab_handout"], "중1_L5_vocab", None),
+    "영일중1_L7": ("동아 윤정미 중1 L7 어휘 — 영일",
+                  ["영일중1_L7_vocab_handout"], "중1_L7_vocab", None),
 }
 
 

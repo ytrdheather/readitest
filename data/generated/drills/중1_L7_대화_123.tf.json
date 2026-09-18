@@ -1,0 +1,323 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L7 대화 ①②③",
+  "parts": [
+    "중1 L7 대화-1",
+    "중1 L7 대화-2",
+    "중1 L7 대화-3"
+  ],
+  "passage_ids": [
+    "3a9e8c0f-5df4-405b-8fdf-eb4341afcc7e",
+    "7b55f0f7-e5af-4b71-81b8-aedb6f4974d0",
+    "b8a3ab6e-40df-4691-8522-700cf1ecde93"
+  ],
+  "para_breaks": [
+    6,
+    12,
+    18
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    15,
+    17,
+    18
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "G: What do you want to be in the future, Minsu?",
+    "B: I want to be a sports reporter.",
+    "G: Oh, really?",
+    "Do you watch a lot of sports games?",
+    "B: Yes, I do.",
+    "I’m interested in all kinds of sports.",
+    "G: David, what are you making?",
+    "B: I’m making pizza and pasta.",
+    "G: They look delicious.",
+    "Are you interested in Italian food?",
+    "B: Yes, I am.",
+    "I want to be a world-famous chef in the future!",
+    "G: What’s this music, Hojin?",
+    "It’s awesome.",
+    "B: I’m writing a song with this computer program.",
+    "G: You’re very good.",
+    "Do you want to be a songwriter?",
+    "B: Yes, I’m really interested in writing songs."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "여학생은 민수에게 장래에 무엇이 되고 싶은지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "여학생이 'What do you want to be in the future, Minsu?'라고 물었다.",
+      "_evidence_text": [
+        "G: What do you want to be in the future, Minsu?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asks Minsu what job he hopes to have later."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 스포츠 선수가 되고 싶다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "민수는 스포츠 선수가 아니라 스포츠 기자(sports reporter)가 되고 싶다고 했다.",
+      "_evidence_text": [
+        "B: I want to be a sports reporter."
+      ],
+      "_repeat": false,
+      "statement_en": "Minsu says he wants to become a sports player."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 민수의 대답을 듣고 놀라며 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "여학생이 'Oh, really?'라고 반응했다.",
+      "_evidence_text": [
+        "G: Oh, really?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl sounds surprised and asks him again after hearing his answer."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 민수에게 스포츠 경기를 많이 보는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "'Do you watch a lot of sports games?'라고 물었다.",
+      "_evidence_text": [
+        "Do you watch a lot of sports games?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asks Minsu if he watches many sports games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 스포츠 경기를 별로 보지 않는다고 대답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "민수는 'Yes, I do.'라고 답해 많이 본다고 했다.",
+      "_evidence_text": [
+        "B: Yes, I do."
+      ],
+      "_repeat": false,
+      "statement_en": "Minsu answers that he does not watch sports games much."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 한 가지 종목에만 관심이 있다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "민수는 모든 종류의 스포츠(all kinds of sports)에 관심이 있다고 했다.",
+      "_evidence_text": [
+        "I’m interested in all kinds of sports."
+      ],
+      "_repeat": false,
+      "statement_en": "Minsu says he is interested in only one kind of sport."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 David에게 무엇을 만들고 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "'David, what are you making?'이라고 물었다.",
+      "_evidence_text": [
+        "G: David, what are you making?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asks David what he is making."
+    },
+    {
+      "type": "content",
+      "statement_ko": "David는 피자와 샐러드를 만들고 있다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "David는 피자와 파스타(pasta)를 만들고 있다고 했다.",
+      "_evidence_text": [
+        "B: I’m making pizza and pasta."
+      ],
+      "_repeat": false,
+      "statement_en": "David says he is making pizza and salad."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 David가 만든 음식이 맛있어 보인다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "'They look delicious.'라고 말했다.",
+      "_evidence_text": [
+        "G: They look delicious."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says David's food looks delicious."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 David에게 이탈리아 음식에 관심이 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "'Are you interested in Italian food?'라고 물었다.",
+      "_evidence_text": [
+        "Are you interested in Italian food?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asks David whether he likes Italian food."
+    },
+    {
+      "type": "content",
+      "statement_ko": "David는 이탈리아 음식에는 관심이 없다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "David는 'Yes, I am.'이라고 답했다.",
+      "_evidence_text": [
+        "B: Yes, I am."
+      ],
+      "_repeat": false,
+      "statement_en": "David answers that he is not interested in Italian food."
+    },
+    {
+      "type": "content",
+      "statement_ko": "David는 세계적으로 유명한 요리사가 되고 싶어 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "'I want to be a world-famous chef in the future!'라고 말했다.",
+      "_evidence_text": [
+        "I want to be a world-famous chef in the future!"
+      ],
+      "_repeat": false,
+      "statement_en": "David hopes to become a cook who is famous around the world."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 호진에게 이 음악이 무엇인지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "'What's this music, Hojin?'이라고 물었다.",
+      "_evidence_text": [
+        "G: What’s this music, Hojin?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asks Hojin what the music is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 그 음악이 멋지다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "'It's awesome.'이라고 말했다.",
+      "_evidence_text": [
+        "It’s awesome."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says that the music is awesome."
+    },
+    {
+      "type": "content",
+      "statement_ko": "호진은 악기를 직접 연주하며 곡을 쓰고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "호진은 컴퓨터 프로그램으로 곡을 쓰고 있다고 했다.",
+      "_evidence_text": [
+        "B: I’m writing a song with this computer program."
+      ],
+      "_repeat": false,
+      "statement_en": "Hojin was writing his song while playing a musical instrument himself."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 호진에게 실력이 부족하다고 지적했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "여학생은 'You're very good.'이라며 칭찬했다.",
+      "_evidence_text": [
+        "G: You’re very good."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl tells Hojin that his skill is not good enough."
+    },
+    {
+      "type": "content",
+      "statement_ko": "작곡가가 되고 싶은지 물은 사람은 호진이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "여학생이 호진에게 'Do you want to be a songwriter?'라고 물었다.",
+      "_evidence_text": [
+        "Do you want to be a songwriter?"
+      ],
+      "_repeat": false,
+      "statement_en": "Hojin is the one who asks about wanting to be a songwriter."
+    },
+    {
+      "type": "content",
+      "statement_ko": "호진은 노래를 쓰는 일에 정말 관심이 있다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "'Yes, I'm really interested in writing songs.'라고 답했다.",
+      "_evidence_text": [
+        "B: Yes, I’m really interested in writing songs."
+      ],
+      "_repeat": false,
+      "statement_en": "Hojin answers that he is really interested in writing songs."
+    }
+  ],
+  "diagnostics": {
+    "returned": 18,
+    "kept": 18,
+    "by_type": {
+      "content": 18
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 10,
+      "X": 8
+    },
+    "sentences_covered": 18,
+    "sentence_count": 18,
+    "repeated": 0
+  }
+}

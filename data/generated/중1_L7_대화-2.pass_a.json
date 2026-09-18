@@ -1,0 +1,632 @@
+{
+  "passage_id": "7b55f0f7-e5af-4b71-81b8-aedb6f4974d0",
+  "body_text_sha256": "23cf4e6981929200949167ecc0913243de5ab06f71aca219e2f8a2105b0ae03a",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 10,
+      "span_end": 29,
+      "surface": "what are you making",
+      "sentence_no": 1,
+      "rationale": "현재진행형 의문문 어순(what + be동사 + 주어 + -ing). 'what you are making' / 'what do you making' 같은 어순·형태 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 34,
+      "span_end": 60,
+      "surface": "I’m making pizza and pasta",
+      "sentence_no": 2,
+      "rationale": "and로 명사 두 개(pizza, pasta)를 병렬 연결. 'pizza and making pasta'처럼 병렬 깨기 오류 유도 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 70,
+      "span_end": 84,
+      "surface": "look delicious",
+      "sentence_no": 3,
+      "rationale": "감각동사 look 뒤에는 형용사 보어. 'look deliciously' 부사 오류 유도가 전형적 출제 지점",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 65,
+      "span_end": 74,
+      "surface": "They look",
+      "sentence_no": 3,
+      "rationale": "복수 주어 They에 맞춘 동사 원형 look. 'They looks' 수일치 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 94,
+      "span_end": 107,
+      "surface": "interested in",
+      "sentence_no": 4,
+      "rationale": "be interested in 고정 전치사. in을 at/with/on으로 바꾸거나 삭제하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 86,
+      "span_end": 104,
+      "surface": "Are you interested",
+      "sentence_no": 4,
+      "rationale": "감정동사 interest의 수동형(be interested). 'Are you interesting'으로 바꾸는 분사 혼동 오류가 전형적",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 138,
+      "span_end": 148,
+      "surface": "want to be",
+      "sentence_no": 6,
+      "rationale": "want는 목적어로 to부정사를 취함. 'want being' 동명사 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 149,
+      "span_end": 168,
+      "surface": "a world-famous chef",
+      "sentence_no": 6,
+      "rationale": "명사 chef를 앞에서 수식하는 복합형용사 world-famous. 부사형(world-famously)으로 바꾸는 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 169,
+      "span_end": 182,
+      "surface": "in the future",
+      "sentence_no": 6,
+      "rationale": "시간 표현 관용구 in the future. 굳어진 부사구라 전치사가 눈에 안 들어오는데 'on/at the future'로 빈칸 출제되기 쉬움",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": "what",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답(정보 제시)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "반응(평가)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "확장질문(주제 전환)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "긍정 응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "결론문(장래 희망 제시)",
+      "signal": "in the future",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "위 대화의 문장을 한 군데씩 고쳤다. 어법상 옳은 것은?",
+      "answer_key": "③",
+      "explanation": "③ want는 to부정사를 목적어로 취하므로 want to be가 옳다. ① 감각동사 look 뒤에는 형용사 delicious가 와야 한다. ② 사람이 흥미를 느끼는 것이므로 be interested in이 맞다. ④ and 앞뒤가 명사 pizza와 pasta로 병렬되어야 한다. ⑤ 주어 They가 복수이므로 look이 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        5,
+        1,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "They look deliciously.",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Are you interesting in Italian food?",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I want to be a world-famous chef in the future!",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’m making pizza and to make pasta.",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They looks delicious.",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음은 위 대화의 일부이다. (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\n\nG: They (a)[look / looks] delicious. Are you interested (b)[in / at] Italian food?\nB: Yes, I am. I want (c)[to be / being] a world-famous chef in the future!",
+      "answer_key": "①",
+      "explanation": "(a) 주어 They가 복수이므로 look. (b) be interested in이 고정 표현. (c) want는 to부정사를 목적어로 취하므로 to be. 따라서 ①.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) look — (b) in — (c) to be",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) looks — (b) in — (c) to be",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) look — (b) at — (c) to be",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) look — (b) in — (c) being",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) looks — (b) at — (c) being",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 대화에서 밑줄 친 부분 중 어법상 틀린 것은? (아래는 대화를 다시 옮긴 것이다)\n\nG: David, ①what are you making?\nB: ②I’m making pizza and pasta.\nG: They ③look delicious. ④Are you interesting in Italian food?\nB: Yes, I am. I ⑤want to be a world-famous chef in the future!",
+      "answer_key": "④",
+      "explanation": "④ 사람이 어떤 것에 흥미를 '느끼는' 것이므로 감정동사의 과거분사형을 써서 Are you interested in ~?이 되어야 한다. interesting은 대상이 '흥미를 주는' 경우에 쓴다. 나머지는 모두 어법상 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        1,
+        2,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "what are you making",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I’m making pizza and pasta",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "look delicious",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Are you interesting in Italian food?",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "want to be",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "틀린 곳이 없다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "David는 피자와 파스타를 만들고 있다고 했으므로 ①이 일치. ② David는 Yes, I am.이라고 답했으므로 이탈리아 음식에 관심이 있다. ③ 소녀가 함께 요리한다는 언급은 없다. ④ 가수가 아니라 세계적으로 유명한 요리사가 되고 싶어 한다. ⑤ 미래의 희망일 뿐 현재 요리사는 아니다. ⑥ 소녀는 맛있어 보인다고 했다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "David is making pizza and pasta.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "David is not interested in Italian food.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl is cooking with David.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "David wants to be a famous singer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "David already works as a chef.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "The girl says the food smells bad.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주된 내용으로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "David가 요리하는 음식에 대해 이야기하고 장래에 세계적인 요리사가 되고 싶다고 말하는 대화이므로 ①이 알맞다. 나머지는 대화에 근거가 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "Cooking and a future dream",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to order food at a restaurant",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The history of Italian pasta",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "A plan for a school trip to Italy",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Healthy eating habits for teenagers",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 마지막 문장 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nB: Yes, I am. I want to be ______ in the future!",
+      "answer_key": "①",
+      "explanation": "David가 직접 피자와 파스타를 만들고 이탈리아 음식에 관심이 있다고 했으므로, 장래 희망은 '세계적으로 유명한 요리사'가 자연스럽다. 나머지는 요리하는 행동 및 음식에 대한 관심과 연결되지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a world-famous chef",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "a professional soccer player",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "a science teacher",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "a pizza delivery driver",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "an Italian language tutor",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 밑줄 친 They look delicious.가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "They는 앞 문장의 pizza and pasta를 가리키고, look은 '~해 보이다'라는 뜻이므로 '맛있어 보인다'는 시각적 평가이다. ②는 look(보이다)이 아니라 taste(맛보다)의 의미이므로 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "David가 만든 피자와 파스타가 맛있어 보인다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "소녀가 이미 음식을 먹어 보고 맛을 평가했다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "이탈리아 음식이 대체로 맛있다는 일반적인 사실을 말한 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "식당에서 파는 음식이 더 맛있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "David의 요리 실력이 부족하다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n\nAre you interested Italian food?",
+      "answer_key": "interested → interested in (Are you interested in Italian food?)",
+      "explanation": "be interested in은 '~에 관심이 있다'라는 고정 표현으로, 전치사 in을 빠뜨릴 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열하시오.\n\n나는 미래에 세계적으로 유명한 요리사가 되고 싶어!\n(want / a world-famous chef / I / to be / in the future)",
+      "answer_key": "I want to be a world-famous chef in the future!",
+      "explanation": "want는 to부정사를 목적어로 취하므로 I want to be ~ 순서가 되고, 시간 표현 in the future는 문장 끝에 놓는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음 조건에 맞게 우리말을 영작하시오.\n\n우리말: 그것들은 맛있어 보인다.\n조건 1) 대화에 쓰인 감각동사 look을 사용할 것\n조건 2) 주어는 They로 할 것\n조건 3) 세 단어로 쓸 것",
+      "answer_key": "They look delicious.",
+      "explanation": "감각동사 look 뒤에는 부사가 아니라 형용사 보어가 온다. 주어 They가 복수이므로 동사는 look.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

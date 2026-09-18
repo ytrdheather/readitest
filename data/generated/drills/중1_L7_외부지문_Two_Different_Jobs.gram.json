@@ -1,0 +1,454 @@
+{
+  "book": "영일중 배부물",
+  "unit": "중1 L7 외부지문 — Two Different Jobs",
+  "kind": "handout_external",
+  "parts": [
+    "Two Different Jobs"
+  ],
+  "body": "At a restaurant, Jane and Maria talked about their jobs. They agreed that there are a few similarities. For both pilots and artists, there is a lot of competition and there are few famous women. In both jobs, you have to be very strong and sure of yourself. Of course, there are also many differences between the two jobs. Pilots and artists have to be strong in different ways. Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly. Artists, however, have to be strong in their ideas about art and life. People in the two jobs also work in different ways. Pilots usually work with other people, but artists usually work alone. Pilots must understand other people. Artists must understand themselves. Finally, there is an important difference in lifestyle. Pilots travel for their job and are often away from home. Artists, however, work at home or in a studio near home. Also, unlike pilots, artists can start and stop working when they want. Maria said she could never be a pilot because she hates airplanes. Jane said she could never be an artist because she hates working alone. There are many things to think about when choosing a job, but what you enjoy should come first.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "608bdf8a-b895-486a-80c1-5f7da0c5cfb8",
+      "point": "PREP_USAGE",
+      "span_start": 0,
+      "span_end": 15,
+      "correct": "At a restaurant",
+      "wrong": [
+        "On a restaurant",
+        "To a restaurant"
+      ],
+      "why_ko": "식당이라는 '지점'에서 일어난 일이므로 at을 씁니다. on/to는 장소의 한 지점을 나타내는 뜻이 아니라서 틀립니다.",
+      "rationale": "장소를 나타내는 전치사 at. 식당이라는 지점을 나타내므로 at이며 in/on/to 로 바꾼 오답을 유도할 수 있다. 문장 맨 앞 부사구라 빈칸 뚫기 쉬운 자리.",
+      "sentence_no": 1,
+      "sentence": "At a restaurant, Jane and Maria talked about their jobs.",
+      "verify_dropped": [
+        {
+          "wrong": "In a restaurant place",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 'restaurant place'는 매우 부자연스러운 표현입니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "56c1c646-edb3-4d12-b272-3bd4721c6288",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 32,
+      "span_end": 55,
+      "correct": "talked about their jobs",
+      "wrong": [
+        "talked their jobs",
+        "talked with their jobs"
+      ],
+      "why_ko": "'~에 대해 이야기하다'는 talk about이므로 about을 빼거나 with로 바꾸면 안 됩니다.",
+      "rationale": "talk about ~에 대해 이야기하다. 전치사 about 삭제(talked their jobs) 또는 talked with their jobs 같은 오류를 심을 수 있다.",
+      "sentence_no": 1,
+      "sentence": "At a restaurant, Jane and Maria talked about their jobs."
+    },
+    {
+      "tag_id": "b18cc6b8-4ab4-4864-8fef-bc33c080b872",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 62,
+      "span_end": 83,
+      "correct": "agreed that there are",
+      "wrong": [
+        "agreed what there are",
+        "agreed that there are being"
+      ],
+      "why_ko": "agree의 목적어가 되는 완전한 절을 이끄는 접속사는 that입니다. what은 뒤 절에 빠진 성분이 있어야 쓸 수 있습니다.",
+      "rationale": "agree의 목적어 역할을 하는 명사절 접속사 that. that을 what으로 바꾸거나 생략 가능 여부를 묻는 오답을 만들 수 있다.",
+      "sentence_no": 2,
+      "sentence": "They agreed that there are a few similarities."
+    },
+    {
+      "tag_id": "5093a657-8d97-44a0-8d0d-d715fc5941fa",
+      "point": "CONJ_PARALLEL",
+      "span_start": 104,
+      "span_end": 131,
+      "correct": "For both pilots and artists",
+      "wrong": [
+        "For both pilots or artists"
+      ],
+      "why_ko": "both A and B가 짝이므로 and를 or나 as well as로 바꿀 수 없습니다.",
+      "rationale": "both A and B 상관접속사. and를 or로 바꾸거나 both ~ as well as 로 비틀 수 있고, A·B의 품사 대등성도 확인 대상.",
+      "sentence_no": 3,
+      "sentence": "For both pilots and artists, there is a lot of competition and there are few famous women.",
+      "verify_dropped": [
+        {
+          "wrong": "For both pilots as well as artists",
+          "judgement": "odd",
+          "note_ko": "both ... as well as 결합은 규범적으로 어색한 중복 표현입니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "9c95ea87-e9ec-4ed1-b9ae-3cb3fd9a774f",
+      "point": "VERB_SVA",
+      "span_start": 133,
+      "span_end": 193,
+      "correct": "there is a lot of competition and there are few famous women",
+      "wrong": [
+        "there are a lot of competition and there is few famous women",
+        "there is a lot of competition and there is few famous women"
+      ],
+      "why_ko": "competition은 셀 수 없어서 is, women은 복수라서 are입니다. 뒤에 오는 명사에 수를 맞춰야 합니다.",
+      "rationale": "there 구문의 수일치. 불가산 competition → is, 가산 복수 women → are. is/are를 서로 바꾼 오답(there are a lot of competition / there is few famous women)이 전형적 출제 지점.",
+      "sentence_no": 3,
+      "sentence": "For both pilots and artists, there is a lot of competition and there are few famous women."
+    },
+    {
+      "tag_id": "c1aaf1b2-e580-42e7-93cf-af44649a3a3a",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 213,
+      "span_end": 223,
+      "correct": "have to be",
+      "wrong": [
+        "has to be",
+        "have to being",
+        "must to be"
+      ],
+      "why_ko": "주어 you에 맞춰 have to를 쓰고, have to 뒤에는 동사원형 be가 옵니다.",
+      "rationale": "의무를 나타내는 have to + 동사원형. has to / have to being / must to be 형태 오류와 부정형(don't have to = 불필요) 의미 구별을 묻는 자리.",
+      "sentence_no": 4,
+      "sentence": "In both jobs, you have to be very strong and sure of yourself."
+    },
+    {
+      "tag_id": "14f62f89-4f9c-4841-9eca-bb47c770c4a7",
+      "point": "CONJ_PARALLEL",
+      "span_start": 224,
+      "span_end": 256,
+      "correct": "very strong and sure of yourself",
+      "wrong": [
+        "very strong and surely of yourself",
+        "very strongly and sure of yourself"
+      ],
+      "why_ko": "be동사의 보어 자리라 형용사 strong과 sure가 and로 나란히 와야 합니다. 부사는 보어가 될 수 없습니다.",
+      "rationale": "be동사 보어인 형용사 strong과 sure가 and로 병렬. sure를 surely로 바꾸는 병렬 파괴 오답이 가능.",
+      "sentence_no": 4,
+      "sentence": "In both jobs, you have to be very strong and sure of yourself."
+    },
+    {
+      "tag_id": "ba53d09a-e49a-453f-bc2c-4f024f8a351c",
+      "point": "PRON_REFLEXIVE",
+      "span_start": 240,
+      "span_end": 256,
+      "correct": "sure of yourself",
+      "wrong": [
+        "sure of you",
+        "sure of your"
+      ],
+      "why_ko": "주어 you와 같은 대상을 가리키므로 재귀대명사 yourself를 씁니다.",
+      "rationale": "주어 you와 동일 대상이므로 재귀대명사 yourself. you / yourselves / your 로 바꾼 오답을 유도할 수 있다.",
+      "sentence_no": 4,
+      "sentence": "In both jobs, you have to be very strong and sure of yourself."
+    },
+    {
+      "tag_id": "a313468a-5e5b-4bfd-b20f-32ddaeae27ee",
+      "point": "PREP_USAGE",
+      "span_start": 301,
+      "span_end": 321,
+      "correct": "between the two jobs",
+      "wrong": [
+        "among the two jobs",
+        "between the two job"
+      ],
+      "why_ko": "둘 사이는 between, 셋 이상은 among입니다. two 뒤에는 복수명사 jobs가 옵니다.",
+      "rationale": "둘 사이를 나타내는 between (셋 이상은 among). among the two jobs 로 바꾼 오답이 전형적.",
+      "sentence_no": 5,
+      "sentence": "Of course, there are also many differences between the two jobs."
+    },
+    {
+      "tag_id": "a41b0d7c-479f-4759-b66e-2d586eabc084",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 394,
+      "span_end": 404,
+      "correct": "stay awake",
+      "wrong": [
+        "stay awakely",
+        "stay to awake"
+      ],
+      "why_ko": "stay는 뒤에 보어(형용사)를 취하므로 awake가 맞고 부사형 awakely는 올 수 없습니다.",
+      "rationale": "stay는 보어를 취하는 동사이므로 형용사 awake가 와야 한다. awakely 같은 부사형 오답 유도 지점.",
+      "sentence_no": 7,
+      "sentence": "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly."
+    },
+    {
+      "tag_id": "2a024e9e-e7b6-4564-bc64-4999a245ef66",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 448,
+      "span_end": 480,
+      "correct": "make important decisions quickly",
+      "wrong": [
+        "make important decisions quick",
+        "make importantly decisions quickly"
+      ],
+      "why_ko": "동사 make를 꾸미는 자리이므로 부사 quickly, 명사 decisions를 꾸미는 자리는 형용사 important입니다.",
+      "rationale": "동사 make를 수식하므로 부사 quickly. quick으로 바꾼 오답과, 명사 decisions를 수식하는 형용사 important와의 역할 차이를 함께 물을 수 있다.",
+      "sentence_no": 7,
+      "sentence": "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly."
+    },
+    {
+      "tag_id": "2e61b3a6-6704-4dd6-a231-7e4ad7e9175c",
+      "point": "PREP_USAGE",
+      "span_start": 620,
+      "span_end": 642,
+      "correct": "work with other people",
+      "wrong": [
+        "work other people"
+      ],
+      "why_ko": "'함께 일하다'는 동반의 with가 필요합니다. 전치사를 빼면 work가 목적어를 가질 수 없어 틀립니다.",
+      "rationale": "동반을 나타내는 전치사 with. 전치사 삭제(work other people) 또는 for/by 로 교체한 오답 가능.",
+      "sentence_no": 10,
+      "sentence": "Pilots usually work with other people, but artists usually work alone.",
+      "verify_dropped": [
+        {
+          "wrong": "work for other people",
+          "judgement": "ok",
+          "note_ko": "문법적으로 맞고 '남을 위해 일한다'는 뜻만 달라집니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "604b794e-f9da-44ba-be1c-f78f8583a7a8",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 683,
+      "span_end": 698,
+      "correct": "must understand",
+      "wrong": [
+        "must to understand",
+        "must understanding"
+      ],
+      "why_ko": "조동사 must 뒤에는 반드시 동사원형이 옵니다.",
+      "rationale": "조동사 must + 동사원형. must to understand / must understanding 형태 오류, 그리고 have to 와의 의미 대응을 묻는 자리.",
+      "sentence_no": 11,
+      "sentence": "Pilots must understand other people."
+    },
+    {
+      "tag_id": "f83b892d-5a1e-45f7-890d-0c9ac6ad982d",
+      "point": "PRON_REFLEXIVE",
+      "span_start": 726,
+      "span_end": 747,
+      "correct": "understand themselves",
+      "wrong": [
+        "understand theirselves",
+        "understand themself"
+      ],
+      "why_ko": "주어 Artists와 목적어가 같으므로 재귀대명사 themselves를 씁니다. theirselves·themself는 없는 형태입니다.",
+      "rationale": "주어 Artists와 목적어가 동일하므로 재귀대명사 themselves. them / theirselves / themself 로 바꾼 오답이 매우 자주 출제된다.",
+      "sentence_no": 12,
+      "sentence": "Artists must understand themselves.",
+      "verify_dropped": [
+        {
+          "wrong": "understand them",
+          "judgement": "ok",
+          "note_ko": "문법상 맞고 가리키는 대상만 달라집니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "fdccec32-59ac-446b-94e1-efc8188a7e35",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 812,
+      "span_end": 832,
+      "correct": "travel for their job",
+      "wrong": [
+        "are traveled for their job",
+        "are traveling for their job to"
+      ],
+      "why_ko": "travel은 목적어가 없는 자동사라 수동태(are traveled)로 쓸 수 없습니다.",
+      "rationale": "travel은 목적어를 취하지 않는 자동사여서 수동태가 불가능하다. are traveled 같은 자동사 수동태 함정 선지를 만들 수 있는 자리.",
+      "sentence_no": 14,
+      "sentence": "Pilots travel for their job and are often away from home."
+    },
+    {
+      "tag_id": "6fd0cbe0-dce0-4706-ac65-f5a21994d667",
+      "point": "CONJ_PARALLEL",
+      "span_start": 833,
+      "span_end": 861,
+      "correct": "and are often away from home",
+      "wrong": [
+        "and being often away from home",
+        "and to be often away from home"
+      ],
+      "why_ko": "주어 Pilots의 동사 travel과 대등하게 연결되므로 동사 are가 와야 합니다.",
+      "rationale": "주어 Pilots에 travel과 are가 and로 대등 연결된 구조. being / to be 로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 14,
+      "sentence": "Pilots travel for their job and are often away from home."
+    },
+    {
+      "tag_id": "ae38fc02-23b2-4c8a-a013-4bd3f693a976",
+      "point": "PREP_USAGE",
+      "span_start": 881,
+      "span_end": 918,
+      "correct": "work at home or in a studio near home",
+      "wrong": [
+        "work in home or at a studio near home"
+      ],
+      "why_ko": "at home은 굳어진 표현이고, 스튜디오 '안'은 in을 씁니다. 전치사를 빼면 안 됩니다.",
+      "rationale": "at home(집에서)은 관용적으로 굳은 부사구이며, in a studio는 내부 공간을 나타낸다. at/in 교체나 전치사 삭제 오답을 유도하기 쉬운 자리.",
+      "sentence_no": 15,
+      "sentence": "Artists, however, work at home or in a studio near home.",
+      "verify_dropped": [
+        {
+          "wrong": "work at home or a studio near home",
+          "judgement": "odd",
+          "note_ko": "전치사가 빠져 어색하나 생략 해석이 가능해 확실한 비문은 아닙니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "f191c331-b111-4ea3-885e-41232e1a011b",
+      "point": "PREP_USAGE",
+      "span_start": 926,
+      "span_end": 939,
+      "correct": "unlike pilots",
+      "wrong": [
+        "unlike pilots do"
+      ],
+      "why_ko": "unlike는 명사(구)를 받는 전치사여서 뒤에 절이 올 수 없습니다.",
+      "rationale": "unlike는 명사(구)를 받는 전치사. unlike를 접속사처럼 절과 쓰거나 not like/dislike 로 바꾼 오답 유도 가능.",
+      "sentence_no": 16,
+      "sentence": "Also, unlike pilots, artists can start and stop working when they want.",
+      "verify_dropped": [
+        {
+          "wrong": "not like pilots",
+          "judgement": "odd",
+          "note_ko": "의미는 통하지만 이 위치에서 매우 어색한 표현입니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "bf7adf0d-62c2-429f-9cd4-31f6e4786991",
+      "point": "VERB_TENSE",
+      "span_start": 976,
+      "span_end": 990,
+      "correct": "when they want",
+      "wrong": [
+        "when they will want"
+      ],
+      "why_ko": "시간 부사절에서는 미래의 뜻이라도 현재시제로 씁니다.",
+      "rationale": "시간 부사절에서는 미래 의미도 현재시제로 쓴다. when they will want 같은 미래시제 오답 유도 지점.",
+      "sentence_no": 16,
+      "sentence": "Also, unlike pilots, artists can start and stop working when they want.",
+      "verify_dropped": [
+        {
+          "wrong": "when they are wanting",
+          "judgement": "odd",
+          "note_ko": "상태동사 want의 진행형은 이 문맥에서 매우 어색합니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "9bee4f66-f86d-42e3-b01c-1b2517b9e629",
+      "point": "VERB_TENSE",
+      "span_start": 998,
+      "span_end": 1021,
+      "correct": "said she could never be",
+      "wrong": [
+        "said she could never being"
+      ],
+      "why_ko": "주절이 과거(said)이므로 종속절 조동사도 과거형 could로 맞춥니다.",
+      "rationale": "주절 said(과거)에 맞추어 종속절 조동사도 could. can으로 바꾼 시제 불일치 오답이 서술형 오류수정으로 자주 나온다.",
+      "sentence_no": 17,
+      "sentence": "Maria said she could never be a pilot because she hates airplanes.",
+      "verify_dropped": [
+        {
+          "wrong": "said she can never be",
+          "judgement": "ok",
+          "note_ko": "현재에도 유효한 내용으로 볼 수 있어 문법적으로 가능합니다."
+        }
+      ]
+    },
+    {
+      "tag_id": "8e1ff938-92dc-47d7-ba03-33c379b339a4",
+      "point": "CONJ_VS_PREP",
+      "span_start": 1030,
+      "span_end": 1057,
+      "correct": "because she hates airplanes",
+      "wrong": [
+        "because of she hates airplanes",
+        "due to she hates airplanes"
+      ],
+      "why_ko": "뒤에 주어+동사의 절이 오므로 접속사 because를 씁니다. because of·due to는 명사구만 받습니다.",
+      "rationale": "뒤에 절(she hates airplanes)이 오므로 접속사 because. because of / due to 같은 전치사구로 바꾼 오답 유도 지점.",
+      "sentence_no": 17,
+      "sentence": "Maria said she could never be a pilot because she hates airplanes."
+    },
+    {
+      "tag_id": "03bf1d3c-d9e6-4769-9a57-c8009c32f6ac",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 1110,
+      "span_end": 1129,
+      "correct": "hates working alone",
+      "wrong": [
+        "hates work alone",
+        "hates to working alone"
+      ],
+      "why_ko": "hate의 목적어로 동명사 working을 씁니다. 동사원형 work를 그대로 이어 쓸 수는 없습니다.",
+      "rationale": "hate의 목적어로 동명사 working. hates work alone(정동사 나열) 같은 오류를 심을 수 있다.",
+      "sentence_no": 18,
+      "sentence": "Jane said she could never be an artist because she hates working alone."
+    },
+    {
+      "tag_id": "155a75cd-80dd-48b7-be24-3fa9451beec4",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 1141,
+      "span_end": 1167,
+      "correct": "many things to think about",
+      "wrong": [
+        "many things to think",
+        "many things thinking about"
+      ],
+      "why_ko": "things를 꾸미는 to부정사이고 think about의 about이 남아야 '생각할 것들'이 됩니다.",
+      "rationale": "앞의 명사 things를 수식하는 형용사적 용법의 to부정사이며, think about의 전치사 about이 반드시 남아야 한다. to think / thinking about / to think 로 바꾼 오답 유도.",
+      "sentence_no": 19,
+      "sentence": "There are many things to think about when choosing a job, but what you enjoy should come first."
+    },
+    {
+      "tag_id": "f06728d7-ee1f-41f1-b5fc-a027a2cca961",
+      "point": "VERB_FINITE",
+      "span_start": 1168,
+      "span_end": 1187,
+      "correct": "when choosing a job",
+      "wrong": [
+        "when chooses a job",
+        "when choose a job"
+      ],
+      "why_ko": "주어와 be동사가 생략된 분사구문이므로 choosing이 맞고, 주어 없이 정동사만 오면 틀립니다.",
+      "rationale": "접속사 when 뒤 주어+be동사가 생략된 분사 구문. when chooses / when choose 처럼 정동사로 바꾼 오답이 전형적.",
+      "sentence_no": 19,
+      "sentence": "There are many things to think about when choosing a job, but what you enjoy should come first."
+    },
+    {
+      "tag_id": "aa580263-cb0e-412b-b861-8a21a2d0bf88",
+      "point": "REL_WHAT_VS_THAT",
+      "span_start": 1193,
+      "span_end": 1207,
+      "correct": "what you enjoy",
+      "wrong": [
+        "that you enjoy",
+        "which you enjoy"
+      ],
+      "why_ko": "선행사가 없고 절 전체가 주어 역할을 하므로 선행사를 포함하는 what을 씁니다.",
+      "rationale": "선행사가 없고 절 전체가 주어 역할이므로 관계대명사 what. that/which로 바꾼 오답과 구별해야 한다.",
+      "sentence_no": 19,
+      "sentence": "There are many things to think about when choosing a job, but what you enjoy should come first."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "given": 26,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "stop working",
+          "모든 오답이 실은 맞는 표현이라 버림: stop to work(ok), stop work(ok)"
+        ]
+      ],
+      "dropped_wrongs": 8
+    }
+  },
+  "verified": true
+}

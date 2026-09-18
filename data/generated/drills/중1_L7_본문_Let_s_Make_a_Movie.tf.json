@@ -1,0 +1,456 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L7 본문 — Let’s Make a Movie!",
+  "parts": [
+    "중1 L7 본문 — Let’s Make a Movie!"
+  ],
+  "passage_ids": [
+    "e53fab97-74d4-4019-bff1-ef89cde96d68"
+  ],
+  "para_breaks": [
+    28
+  ],
+  "turn_breaks": [
+    28
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "Hi, I’m Jim Brown, the director of Happy Days.",
+    "It’s a movie about the friendship between Tom and his dog Max.",
+    "A lot of people are working hard to create this movie.",
+    "Do you want to meet some of them?",
+    "I’m Anna, and I found this beautiful beach.",
+    "I’m a location manager, and my job is to find perfect places for shooting.",
+    "Of course, it is not easy, but I love my job.",
+    "I like to travel and enjoy challenges.",
+    "I’m Peter, the director of photography for this movie.",
+    "I’m in charge of all the cameras.",
+    "Today, Tom and Max are going to play together with a ball on the beach.",
+    "To capture their happy moments, I’m going to use drones.",
+    "I’m Jennifer.",
+    "I trained and took care of Max for a long time.",
+    "Max is a great actor, but he sometimes gets too excited when a lot of people are around.",
+    "So, I use hand signals to calm him.",
+    "Who am I?",
+    "I’m an animal wrangler.",
+    "My name is Emma, and I’m a film editor.",
+    "My work begins after the shooting is over.",
+    "To create a better story, I can change the order of scenes or delete some of them.",
+    "Storytelling skills are important for my job, so I read a lot.",
+    "I’m Chris, and I’m a Foley artist.",
+    "I create sound effects in my studio when recording on location is not easy.",
+    "Listen carefully.",
+    "Do you hear the sound of waves?",
+    "I made that sound with rice and a plastic container.",
+    "Doesn’t it sound real?"
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "Jim Brown은 영화 Happy Days의 감독이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 자신을 Happy Days의 감독이라고 소개한다.",
+      "_evidence_text": [
+        "Hi, I’m Jim Brown, the director of Happy Days."
+      ],
+      "_repeat": false,
+      "statement_en": "The movie Happy Days is directed by Jim Brown."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 영화는 Tom과 그의 고양이 Max의 우정에 관한 이야기이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "Max는 고양이가 아니라 개(dog)이다.",
+      "_evidence_text": [
+        "It’s a movie about the friendship between Tom and his dog Max."
+      ],
+      "_repeat": false,
+      "statement_en": "The movie tells the story of the friendship between Tom and his cat Max."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 영화를 만드는 일에는 아주 소수의 사람만 참여하고 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "많은 사람들(A lot of people)이 열심히 일하고 있다고 했다.",
+      "_evidence_text": [
+        "A lot of people are working hard to create this movie."
+      ],
+      "_repeat": false,
+      "statement_en": "Only a very small number of people are working on making this movie."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jim은 영화를 만드는 사람들 중 몇 명을 만나보고 싶은지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "4번 문장에서 그들 중 몇 명을 만나보고 싶은지 묻는다.",
+      "_evidence_text": [
+        "Do you want to meet some of them?"
+      ],
+      "_repeat": false,
+      "statement_en": "Jim asks if you would like to meet some of the people making the movie."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 아름다운 해변을 찾아낸 사람은 Anna이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "Anna가 이 아름다운 해변을 찾았다고 말한다.",
+      "_evidence_text": [
+        "I’m Anna, and I found this beautiful beach."
+      ],
+      "_repeat": false,
+      "statement_en": "Anna is the one who found this beautiful beach."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Anna의 일은 촬영에 쓰는 장비를 관리하는 것이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "Anna는 로케이션 매니저로 촬영에 완벽한 장소를 찾는 일을 한다.",
+      "_evidence_text": [
+        "I’m a location manager, and my job is to find perfect places for shooting."
+      ],
+      "_repeat": false,
+      "statement_en": "Anna's job is to take care of the equipment used for shooting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Anna는 자신의 일이 쉽다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "쉽지 않지만 자기 일을 사랑한다고 말했다.",
+      "_evidence_text": [
+        "Of course, it is not easy, but I love my job."
+      ],
+      "_repeat": false,
+      "statement_en": "Anna says that her job is easy."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Anna는 여행하는 것을 좋아하고 도전을 즐긴다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "8번 문장과 일치한다.",
+      "_evidence_text": [
+        "I like to travel and enjoy challenges."
+      ],
+      "_repeat": false,
+      "statement_en": "Anna enjoys traveling and likes challenges."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Peter는 이 영화의 음악 감독이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "Peter는 촬영 감독(director of photography)이다.",
+      "_evidence_text": [
+        "I’m Peter, the director of photography for this movie."
+      ],
+      "_repeat": false,
+      "statement_en": "Peter is the music director for this movie."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Peter는 모든 카메라를 담당하고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번 문장에서 모든 카메라를 담당한다고 했다.",
+      "_evidence_text": [
+        "I’m in charge of all the cameras."
+      ],
+      "_repeat": false,
+      "statement_en": "Peter is the person who takes care of all the cameras."
+    },
+    {
+      "type": "content",
+      "statement_ko": "오늘 Tom과 Max는 해변에서 공을 가지고 함께 놀 예정이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번 문장과 일치한다.",
+      "_evidence_text": [
+        "Today, Tom and Max are going to play together with a ball on the beach."
+      ],
+      "_repeat": false,
+      "statement_en": "Tom and Max will play with a ball together on the beach today."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Peter는 행복한 순간을 담기 위해 헬리콥터를 사용할 것이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "헬리콥터가 아니라 드론을 사용할 예정이다.",
+      "_evidence_text": [
+        "To capture their happy moments, I’m going to use drones."
+      ],
+      "_repeat": false,
+      "statement_en": "Peter plans to use a helicopter to catch their happy moments."
+    },
+    {
+      "type": "content",
+      "statement_ko": "세 번째로 자신을 소개하는 사람의 이름은 Emma이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "세 번째로 소개하는 사람은 Jennifer이다.",
+      "_evidence_text": [
+        "I’m Jennifer."
+      ],
+      "_repeat": false,
+      "statement_en": "The third person who introduces herself is named Emma."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jennifer는 오랫동안 Max를 훈련시키고 돌보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "14번 문장과 일치한다.",
+      "_evidence_text": [
+        "I trained and took care of Max for a long time."
+      ],
+      "_repeat": false,
+      "statement_en": "Jennifer trained Max and looked after him for a long time."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Max는 주변에 사람이 많아도 전혀 흥분하지 않는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "사람이 많으면 때때로 너무 흥분한다고 했다.",
+      "_evidence_text": [
+        "Max is a great actor, but he sometimes gets too excited when a lot of people are around."
+      ],
+      "_repeat": false,
+      "statement_en": "Max never gets excited, even when many people are near him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jennifer는 Max를 진정시키기 위해 먹이를 준다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "먹이가 아니라 손 신호(hand signals)를 사용한다.",
+      "_evidence_text": [
+        "So, I use hand signals to calm him."
+      ],
+      "_repeat": false,
+      "statement_en": "Jennifer gives Max food to make him calm."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jennifer는 직업을 바로 말하지 않고 \"나는 누구일까요?\"라고 먼저 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "17번 문장에서 Who am I?라고 묻는다.",
+      "_evidence_text": [
+        "Who am I?"
+      ],
+      "_repeat": false,
+      "statement_en": "Instead of saying her job right away, Jennifer first asks, \"Who am I?\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jennifer의 직업은 동물 조련사(animal wrangler)이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "18번 문장에서 자신을 animal wrangler라고 밝힌다.",
+      "_evidence_text": [
+        "I’m an animal wrangler."
+      ],
+      "_repeat": false,
+      "statement_en": "Jennifer works as an animal wrangler."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 영화 편집자이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "19번 문장과 일치한다.",
+      "_evidence_text": [
+        "My name is Emma, and I’m a film editor."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma's job is editing films."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma의 일은 촬영이 시작되기 전에 시작된다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "Emma의 일은 촬영이 끝난 후에 시작된다.",
+      "_evidence_text": [
+        "My work begins after the shooting is over."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma's work starts before the shooting begins."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 장면의 순서는 바꿀 수 있지만 장면을 삭제할 수는 없다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "순서를 바꾸거나 일부 장면을 삭제할 수도 있다고 했다.",
+      "_evidence_text": [
+        "To create a better story, I can change the order of scenes or delete some of them."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma can change the order of the scenes, but she cannot delete any of them."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 이야기를 만드는 능력이 중요하기 때문에 책을 많이 읽는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "22번 문장과 일치한다.",
+      "_evidence_text": [
+        "Storytelling skills are important for my job, so I read a lot."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma reads a lot because storytelling skills matter in her job."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Chris의 직업은 폴리 아티스트(Foley artist)이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "23번 문장과 일치한다.",
+      "_evidence_text": [
+        "I’m Chris, and I’m a Foley artist."
+      ],
+      "_repeat": false,
+      "statement_en": "Chris works as a Foley artist."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Chris는 현장에서 녹음하기 쉽지 않을 때 자신의 작업실에서 음향 효과를 만든다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "24번 문장과 일치한다.",
+      "_evidence_text": [
+        "I create sound effects in my studio when recording on location is not easy."
+      ],
+      "_repeat": false,
+      "statement_en": "When it is hard to record on location, Chris makes sound effects in his studio."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Chris는 독자에게 주의 깊게 들어보라고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "25번 문장에서 Listen carefully라고 말한다.",
+      "_evidence_text": [
+        "Listen carefully."
+      ],
+      "_repeat": false,
+      "statement_en": "Chris tells the reader to listen with care."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Chris가 들리는지 물은 소리는 바람 소리이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "파도 소리(the sound of waves)가 들리는지 물었다.",
+      "_evidence_text": [
+        "Do you hear the sound of waves?"
+      ],
+      "_repeat": false,
+      "statement_en": "Chris asks if you can hear the sound of the wind."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Chris는 그 소리를 쌀과 플라스틱 용기로 만들었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "27번 문장과 일치한다.",
+      "_evidence_text": [
+        "I made that sound with rice and a plastic container."
+      ],
+      "_repeat": false,
+      "statement_en": "Chris used rice and a plastic container to make that sound."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Chris는 자신이 만든 소리가 진짜처럼 들리지 않는다고 인정한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        28
+      ],
+      "why_ko": "진짜처럼 들리지 않느냐고 되물으며 진짜 같다고 자랑하고 있다.",
+      "_evidence_text": [
+        "Doesn’t it sound real?"
+      ],
+      "_repeat": false,
+      "statement_en": "Chris admits that the sound he made does not sound real."
+    }
+  ],
+  "diagnostics": {
+    "returned": 28,
+    "kept": 28,
+    "by_type": {
+      "content": 28
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 15,
+      "X": 13
+    },
+    "sentences_covered": 28,
+    "sentence_count": 28,
+    "repeated": 0
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "passage_id": "a0b3cc82-59f2-4616-87e7-511f86dac96e",
+  "body_text_sha256": "713e40ba2c5a0236b0cc1443f581608b3c98a1f56f154130b60bd87b03d0627f",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 8,
+      "span_end": 21,
+      "surface": "are you doing",
+      "sentence_no": 1,
+      "rationale": "의문사 What + be동사 + 주어 + -ing 형태의 현재진행 의문문. do you do / are you do / did you do 처럼 시제·형태를 바꾼 오답 유도가 가능한 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 30,
+      "span_end": 54,
+      "surface": "taking pictures of birds",
+      "sentence_no": 2,
+      "rationale": "'~의 사진을 찍다'는 take pictures of. of를 for/with/on 등으로 바꾸거나 삭제(EI_PREP_DELETE)하는 빈칸 출제가 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 67,
+      "span_end": 80,
+      "surface": "interested in",
+      "sentence_no": 3,
+      "rationale": "감정동사 interest의 수동 형태 be interested in(~에 관심이 있다). interesting in / interest in 처럼 능동·원형으로 바꾼 오답 유도 지점",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM",
+        "EI_PARTICIPLE_FLIP"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 78,
+      "span_end": 96,
+      "surface": "in taking pictures",
+      "sentence_no": 3,
+      "rationale": "전치사 in 뒤에는 동명사가 와야 함. in take / in to take 로 바꾼 선지와 구별시키는 전형적 출제 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 115,
+      "span_end": 125,
+      "surface": "want to be",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사만 취함. want being / want be 로 바꾼 오답 유도(EI_VERB_COMPLEMENT) 지점",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 120,
+      "span_end": 140,
+      "surface": "to be a photographer",
+      "sentence_no": 5,
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 형용사적·부사적 용법과 쓰임을 구별시키는 문항으로 확장 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": "What",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "정의(행동 진술)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "확인질문(관심 여부)",
+      "signal": "Are you ~?",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "긍정응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "결론문(장래 희망)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 빈칸에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nB: Are you interested (a)[in / on] (b)[taking / take] pictures?\nG: Yes, a lot. I want (c)[to be / being] a photographer.",
+      "answer_key": "①",
+      "explanation": "(a) '~에 관심이 있다'는 be interested in 이므로 in. (b) 전치사 in 뒤에는 동명사가 오므로 taking. (c) want는 목적어로 to부정사를 취하므로 to be. ②⑤는 전치사 오류, ③은 전치사 뒤 원형, ④는 want 뒤 동명사라 틀렸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "in - taking - to be",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "on - taking - to be",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "in - take - to be",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "in - taking - being",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "on - take - being",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 바탕으로 한 다음 중 어법상 옳은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "① take pictures of ~ 와 현재진행형이 모두 옳다. ②는 전치사 in 뒤에 동명사 taking이 와야 하고, ③은 want 뒤에 to be가 와야 한다. ④는 현재진행형이므로 are you doing, ⑤는 pictures와 birds 사이에 전치사 of가 빠졌다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I'm taking pictures of birds.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Are you interested in take pictures?",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I want being a photographer.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "What are you do?",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I'm taking pictures birds.",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "소녀가 'I'm taking pictures of birds.'라고 했으므로 ①이 일치한다. 사진을 찍는 사람은 소녀이고(②⑤), 소녀는 사진 찍기에 관심이 많다고 했으며(③), 되고 싶은 것은 사진작가이다(④).",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl is taking pictures of birds.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy is taking pictures of flowers.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl is not interested in taking pictures.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl wants to be a singer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy wants to be a photographer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 [4] 'Yes, a lot.'이 뜻하는 바로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "바로 앞 질문이 'Are you interested in taking pictures?'이므로 Yes, a lot.은 '응, 아주 많이 (관심이 있어)'라는 뜻이다. 뒤에 사진작가가 되고 싶다는 말이 이어지는 점도 근거가 된다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "사진 찍는 것에 관심이 매우 많다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "사진을 많이 찍어 보았지만 이제는 싫다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "새를 아주 많이 보았다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "사진기를 여러 대 가지고 있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "사진작가가 많다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 [3]을 다음과 같이 바꾸어 썼을 때, 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ Are you interested in take pictures?",
+      "answer_key": "take → taking",
+      "explanation": "전치사 in의 목적어 자리이므로 동사원형 take가 아니라 동명사 taking을 써야 한다. (Are you interested in taking pictures?)",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n우리말: 나는 사진작가가 되고 싶다.\n<조건> 1) want, be, a photographer를 모두 사용할 것 2) to부정사를 사용할 것 3) 5단어로 쓸 것",
+      "answer_key": "I want to be a photographer.",
+      "explanation": "want는 목적어로 to부정사를 취하므로 want to be로 쓰고, 보어로 a photographer를 붙인다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n우리말: 너는 사진 찍는 것에 관심이 있니?\n( you / in / interested / pictures / are / taking )",
+      "answer_key": "Are you interested in taking pictures?",
+      "explanation": "be interested in(~에 관심이 있다)의 의문문이므로 Are you interested in으로 시작하고, 전치사 in 뒤에는 동명사 taking pictures를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 6,
+    "tags_kept": 6,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 7,
+    "items_kept": 7,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

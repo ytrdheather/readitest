@@ -1,0 +1,211 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L7 대화 ⑦⑧",
+  "parts": [
+    "중1 L7 대화-7",
+    "중1 L7 대화-8"
+  ],
+  "passage_ids": [
+    "a0b3cc82-59f2-4616-87e7-511f86dac96e",
+    "268b61a4-8d8d-4b65-8a87-b6b0898fa43d"
+  ],
+  "para_breaks": [
+    5,
+    11
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    9,
+    10,
+    11
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: What are you doing?",
+    "G: I’m taking pictures of birds.",
+    "B: Are you interested in taking pictures?",
+    "G: Yes, a lot.",
+    "I want to be a photographer.",
+    "G: This pizza is so good.",
+    "Did you make it, Tom?",
+    "B: Yes, I did.",
+    "I’m really interested in cooking.",
+    "G: So, do you want to be a chef in the future?",
+    "B: Yes, that’s my dream."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "남자아이가 먼저 여자아이에게 무엇을 하고 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "첫 문장에서 남자아이가 \"What are you doing?\"이라고 묻는다.",
+      "_evidence_text": [
+        "B: What are you doing?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy was the first one to ask the girl what she was doing."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 새의 사진을 찍고 있었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "여자아이가 \"I'm taking pictures of birds.\"라고 답한다.",
+      "_evidence_text": [
+        "G: I’m taking pictures of birds."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl was taking photos of birds."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이가 남자아이에게 사진 찍기에 관심이 있는지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "사진 찍기에 관심이 있는지 물은 사람은 남자아이다.",
+      "_evidence_text": [
+        "B: Are you interested in taking pictures?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked the boy if he was interested in taking pictures."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 사진 찍기에 관심이 별로 없다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "여자아이는 \"Yes, a lot.\"이라며 관심이 매우 많다고 답했다.",
+      "_evidence_text": [
+        "G: Yes, a lot."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answered that she was not very interested in taking pictures."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이의 장래 희망은 사진작가이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "\"I want to be a photographer.\"라고 말한다.",
+      "_evidence_text": [
+        "I want to be a photographer."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl's dream job is to be a photographer."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 피자가 아주 맛있다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "\"This pizza is so good.\"이라고 말한다.",
+      "_evidence_text": [
+        "G: This pizza is so good."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl said that the pizza tasted very good."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 Tom에게 그 피자를 직접 만들었는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "\"Did you make it, Tom?\"이라고 묻는다.",
+      "_evidence_text": [
+        "Did you make it, Tom?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl asked Tom whether he had made the pizza himself."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 그 피자를 자신이 만든 것이 아니라고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "Tom은 \"Yes, I did.\"라며 자신이 만들었다고 답했다.",
+      "_evidence_text": [
+        "B: Yes, I did."
+      ],
+      "_repeat": false,
+      "statement_en": "Tom answered that he was not the one who made the pizza."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 요리에 정말 관심이 많다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "\"I'm really interested in cooking.\"이라고 말한다.",
+      "_evidence_text": [
+        "I’m really interested in cooking."
+      ],
+      "_repeat": false,
+      "statement_en": "Tom said he has a strong interest in cooking."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이가 여자아이에게 장래에 요리사가 되고 싶은지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "요리사가 되고 싶은지 물은 사람은 여자아이이고, 질문을 받은 사람은 남자아이다.",
+      "_evidence_text": [
+        "G: So, do you want to be a chef in the future?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asked the girl if she wanted to become a chef in the future."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Tom은 요리사가 되는 것이 자신의 꿈은 아니라고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "Tom은 \"Yes, that's my dream.\"이라며 요리사가 꿈이라고 말했다.",
+      "_evidence_text": [
+        "B: Yes, that’s my dream."
+      ],
+      "_repeat": false,
+      "statement_en": "Tom said that becoming a chef was not his dream."
+    }
+  ],
+  "diagnostics": {
+    "returned": 11,
+    "kept": 11,
+    "by_type": {
+      "content": 11
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 6,
+      "X": 5
+    },
+    "sentences_covered": 11,
+    "sentence_count": 11,
+    "repeated": 0
+  }
+}

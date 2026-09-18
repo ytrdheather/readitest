@@ -76,6 +76,7 @@ EXTERNAL = {
     "A girl with a red balloon": ["영일중"],
     "Yu Gwansun": ["영덕중"],
     "Hulbert": ["영덕중"],          # DB 제목은 "Homer B. Hulbert" — 가운데 이니셜 때문에 성만 맞춘다
+    "Two Different Jobs": ["영일중"],        # 중1 L7
 }
 
 SECTION = {"textbook_dialogue": "대화문", "textbook_reading": "본문", "handout_external": "외부지문"}

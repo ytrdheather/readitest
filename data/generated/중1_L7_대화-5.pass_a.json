@@ -1,0 +1,723 @@
+{
+  "passage_id": "d6d527bf-dc50-46dd-8ecb-5f886d781d91",
+  "body_text_sha256": "9719e914c5dd0e0bf2f71f7dde293e3de9a127fe1dc9d38db69238342e4e44c4",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 35,
+      "span_end": 42,
+      "surface": "can fly",
+      "sentence_no": 2,
+      "rationale": "조동사 can 뒤에는 동사원형. can flying / can to fly / can flies 형태 오류를 유도할 수 있는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 68,
+      "span_end": 82,
+      "surface": "looks like fun",
+      "sentence_no": 4,
+      "rationale": "감각동사 look 뒤에 명사(fun)가 오므로 like가 필요. like를 삭제한 'looks fun'이나 형용사 자리 혼동(looks likely fun)을 물을 수 있다. look + 형용사 / look like + 명사 구별 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 94,
+      "span_end": 112,
+      "surface": "want to be a pilot",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 형태 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 113,
+      "span_end": 126,
+      "surface": "in the future",
+      "sentence_no": 5,
+      "rationale": "시점을 나타내는 굳어진 부사구의 전치사 in. on/at the future 로 바꾼 선지나 전치사 빈칸으로 출제되기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 136,
+      "span_end": 153,
+      "surface": "I’m interested in",
+      "sentence_no": 6,
+      "rationale": "감정동사 interest의 수동형 be interested in. am interesting in / interest in 처럼 태를 뒤집는 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM",
+        "EI_PARTICIPLE_FLIP"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 140,
+      "span_end": 170,
+      "surface": "interested in flying airplanes",
+      "sentence_no": 6,
+      "rationale": "전치사 in 뒤에는 동명사. in fly / in to fly 로 바꾸는 형태 오류가 전형적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 172,
+      "span_end": 185,
+      "surface": "How about you",
+      "sentence_no": 7,
+      "rationale": "제안·되묻기 표현 How about + 명사(구)의 전치사 about. How for you 등으로 전치사를 바꾸거나 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 211,
+      "span_end": 242,
+      "surface": "in making airplanes, not flying",
+      "sentence_no": 8,
+      "rationale": "not 뒤의 flying이 앞의 making과 같은 동명사 형태로 병렬을 이룬다. not to fly / not fly 로 병렬을 깨는 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 287,
+      "span_end": 298,
+      "surface": "sounds cool",
+      "sentence_no": 10,
+      "rationale": "감각동사 sound 뒤 보어는 형용사. sounds coolly 처럼 부사로 바꾸는 오류가 대표적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 282,
+      "span_end": 286,
+      "surface": "That",
+      "sentence_no": 10,
+      "rationale": "앞 문장 내용을 받는 지시대명사 that. 접속사·관계대명사 that과의 쓰임 구별 문항으로 낼 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 321,
+      "span_end": 340,
+      "surface": "to make an airplane",
+      "sentence_no": 12,
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 형용사적·부사적 용법과 구별시키거나 making으로 바꾸는 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 394,
+      "span_end": 416,
+      "surface": "try making an airplane",
+      "sentence_no": 13,
+      "rationale": "try + 동명사(시험삼아 해보다)와 try + to부정사(노력하다)의 의미 차이. make / to make 형태 선택 문항으로 나오기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 (제안)",
+      "signal": "why don’t we",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "제안 내용 구체화",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "수락",
+      "signal": "Sure",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "감상 (긍정 반응)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "화제 전환 질문 (장래 희망)",
+      "signal": "in the future",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "답변 — 지호의 관심사 제시 (주제문)",
+      "signal": "Yes",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 7,
+      "role": "되묻기 (화제 이동)",
+      "signal": "How about you",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "대조 — Lucy의 관심사",
+      "signal": "not",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 9,
+      "role": "Lucy의 장래 희망 (주제문)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 10,
+      "role": "반응 (칭찬)",
+      "signal": "That",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "감사 표현",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "희망 재확인",
+      "signal": "someday",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 13,
+      "role": "해결책 — 두 가지를 함께 하자는 제안",
+      "signal": "and then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "결론 — 동의",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화에서 가져온 다음 문장 중, 어법상 옳지 않은 것은?",
+      "answer_key": "②",
+      "explanation": "②는 전치사 in 뒤에 동사원형 fly가 왔다. 전치사 뒤에는 동명사가 와야 하므로 flying이 맞다(I’m interested in flying airplanes.). ①의 look like + 명사(fun), ③의 want + to부정사, ④의 sound + 형용사(cool), ⑤의 try + 동명사(making)는 모두 본문 그대로의 올바른 형태다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        1,
+        2,
+        8,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "It looks like fun!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Yes, I’m interested in fly airplanes.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I want to be an airplane engineer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "That sounds cool!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Let’s fly this airplane, and then we can try making an airplane, too.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\nB: Yes, I’m interested in (a)[fly / flying] airplanes.\nB: That sounds (b)[cool / coolly]!\nG: I want (c)[to be / being] an airplane engineer.",
+      "answer_key": "③",
+      "explanation": "(a) 전치사 in 뒤에는 동명사 flying. (b) 감각동사 sound의 보어는 형용사 cool(부사 coolly 불가). (c) want는 목적어로 to부정사만 취하므로 to be. 따라서 ③.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        8,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) fly — (b) cool — (c) to be",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) flying — (b) coolly — (c) to be",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) flying — (b) cool — (c) to be",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) flying — (b) cool — (c) being",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) fly — (b) coolly — (c) being",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "(a) fly — (b) cool — (c) being",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용으로 보아, 밑줄 친 낱말이 문맥상 적절하지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "Lucy는 비행기를 '조종하는' 것이 아니라 '만드는' 것에 관심이 있다고 했으므로 ④의 pilot은 문맥에 맞지 않는다. 원문은 an airplane engineer이다. 나머지는 모두 대화 흐름과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "G: Do you want to be a pilot in the future?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "B: Yes, I’m interested in flying airplanes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "G: I’m interested in making airplanes, not flying.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "G: I want to be an airplane pilot.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "G: I want to make an airplane someday!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 I’m interested in making airplanes, not flying. 이 의미하는 것은?",
+      "answer_key": "①",
+      "explanation": "not flying은 앞의 making airplanes와 대조되어 '조종하는 것이 아니라 만드는 것'에 관심이 있음을 나타낸다. 뒤 문장 I want to be an airplane engineer.가 이를 확인해 준다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "비행기를 조종하는 일보다 비행기를 만드는 일에 관심이 있다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "비행기를 만드는 일은 조종하는 일보다 쉽다고 생각한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "비행기를 만드는 법을 아직 배우지 못했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "비행기를 조종해 본 경험이 한 번도 없다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "비행기를 만드는 것과 조종하는 것 모두에 흥미가 없다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
+      "answer_key": "①",
+      "explanation": "지호는 비행기 조종(pilot)에, Lucy는 비행기 제작(airplane engineer)에 관심이 있다고 말하며 장래 희망을 주고받는 대화이다. 수리·역사·여행·위험성은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "their future jobs related to airplanes",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to fix a broken airplane",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the history of the first airplane",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "a plan to travel abroad by plane",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the danger of flying airplanes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is TRUE according to the dialogue?",
+      "answer_key": "②",
+      "explanation": "지호는 \"I’m interested in flying airplanes.\"라고 했으므로 ②가 참이다. ①③은 두 사람의 희망이 서로 바뀌었고, ④는 Lucy가 먼저 제안했으며 마지막에 Good idea.라고 동의했다. ⑤는 만들어 보자는 제안에 동의했으므로 거짓이다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Lucy wants to fly airplanes in the future.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Jiho is interested in flying airplanes.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jiho wants to be an airplane engineer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Lucy refuses to fly the airplane with Jiho.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They decide not to make an airplane.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것은?\nG: I’m interested in making airplanes, not flying. I want to be ________.",
+      "answer_key": "②",
+      "explanation": "비행기를 '만드는' 것에 관심이 있다고 했으므로 비행기를 설계·제작하는 직업인 an airplane engineer가 알맞다. ①③은 비행기를 조종하거나 탑승 근무하는 직업이어서 not flying과 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a pilot",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "an airplane engineer",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "a flight attendant",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "a science teacher",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "a taxi driver",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 위 대화의 한 문장을 잘못 쓴 것이다. 어법상 틀린 한 부분을 찾아 바르게 고쳐 쓰시오.\n\nB: Yes, I’m interested in fly airplanes.\n\n→ 틀린 부분: ________  바르게: ________",
+      "answer_key": "틀린 부분: fly / 바르게: flying (I’m interested in flying airplanes.)",
+      "explanation": "be interested in의 in은 전치사이므로 뒤에 동명사가 와야 한다. 따라서 fly를 flying으로 고친다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "위 대화의 내용에 맞게, 다음 우리말을 영어로 쓰시오.\n\n나는 언젠가 비행기를 한 대 만들고 싶다!\n\n[조건] 1) want, make, someday를 모두 사용할 것  2) to부정사를 사용할 것  3) 7단어로 쓸 것",
+      "answer_key": "I want to make an airplane someday!",
+      "explanation": "want는 목적어로 to부정사를 취하므로 want to make로 쓰고, 부사 someday를 문장 끝에 둔다. 본문 [12]와 동일한 문장이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n나는 비행기를 만드는 것에 관심이 있어.\n(airplanes / interested / making / in / I’m)",
+      "answer_key": "I’m interested in making airplanes.",
+      "explanation": "관심을 나타내는 표현은 수동형 be interested in이고, 전치사 in 뒤에는 동명사 making이 와야 한다. 따라서 I’m interested in making airplanes.가 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 14,
+    "tags_returned": 12,
+    "tags_kept": 12,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "passage_id": "268b61a4-8d8d-4b65-8a87-b6b0898fa43d",
+  "body_text_sha256": "d426a72257e45e79c6287acbdb5664570551b68504d3bbb69a5e99e893a401fd",
+  "tags": [
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 17,
+      "span_end": 24,
+      "surface": "so good",
+      "sentence_no": 1,
+      "rationale": "「so + 형용사」 구조. 뒤에 명사가 없으므로 such는 불가. [so / such] good 형태로 빈칸·선택지가 만들어지는 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 26,
+      "span_end": 41,
+      "surface": "Did you make it",
+      "sentence_no": 2,
+      "rationale": "과거시제 의문문 Did + 주어 + 동사원형. Did you made / Do you make 처럼 시제·동사형 오류를 유도할 수 있음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 74,
+      "span_end": 87,
+      "surface": "interested in",
+      "sentence_no": 4,
+      "rationale": "감정동사 interest의 수동형 be interested in(관심이 있다). interesting으로 바꾸면 '흥미로운'이 되어 주어와 맞지 않음. 전치사 in도 함께 고정",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 85,
+      "span_end": 95,
+      "surface": "in cooking",
+      "sentence_no": 4,
+      "rationale": "전치사 in 뒤에는 동명사가 와야 함. in to cook / in cook 같은 오류 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 67,
+      "span_end": 73,
+      "surface": "really",
+      "sentence_no": 4,
+      "rationale": "형용사(보어) interested를 수식하는 부사 자리. real로 바꾸는 형용사·부사 혼동 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 111,
+      "span_end": 121,
+      "surface": "want to be",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사를 취하는 동사. want being / want be 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 129,
+      "span_end": 142,
+      "surface": "in the future",
+      "sentence_no": 5,
+      "rationale": "시간 표현 굳은 부사구의 전치사 in. [in / on / at] the future 형태로 빈칸이 뚫리기 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 152,
+      "span_end": 167,
+      "surface": "that’s my dream",
+      "sentence_no": 6,
+      "rationale": "앞 문장의 내용(요리사가 되는 것)을 가리키는 지시대명사 that. 접속사·관계대명사 that과 쓰임 구별을 물을 수 있음",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 상황 제시(칭찬)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문 — 확인 질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답 — 사실 확인",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "주제문 — 화자의 관심사 제시",
+      "signal": "really",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "전환 — 관심사에서 장래희망으로 확장 질문",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "결론문 — 장래희망 확정",
+      "signal": "that",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\nG: This pizza is (a)[so / such] good. Did you make it, Tom?\nB: Yes, I did. I’m really (b)[interested / interesting] in cooking.\nG: So, do you want (c)[to be / being] a chef in the future?\nB: Yes, that’s my dream.",
+      "answer_key": "①",
+      "explanation": "(a) 뒤에 명사가 없고 형용사 good만 있으므로 「so+형용사」가 맞다. such는 「such+(a)+형용사+명사」 꼴로 쓴다. (b) 주어 I가 '관심을 느끼는' 쪽이므로 be interested in이 맞고, interesting은 '흥미를 주는'이라는 뜻이라 주어와 맞지 않는다. (c) want는 목적어로 to부정사를 취하므로 to be가 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "so – interested – to be",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "such – interested – to be",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "so – interesting – to be",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "so – interested – being",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 대화의 문장을 옮겨 쓴 것 중, 어법상 틀린 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③은 '나는 요리에 관심이 있다'는 뜻이므로 감정동사의 수동형 be interested in을 써야 한다(I’m really interested in cooking). ①의 so good, ②의 Did+동사원형, ④의 want+to부정사는 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "This pizza is so good.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Did you make it, Tom?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I’m really interesting in cooking.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So, do you want to be a chef in the future?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 대화의 밑줄 친 부분 중, 어법상 어색한 것을 고르시오.\n\nG: This pizza is ⓐso good. ⓑDid you make it, Tom?\nB: Yes, I did. I’m really interested ⓒin to cook.\nG: So, do you want ⓓto be a chef in the future?",
+      "answer_key": "③",
+      "explanation": "전치사 in 뒤에는 명사 역할을 하는 동명사가 와야 하므로 in cooking이 맞다. to부정사는 전치사의 목적어가 될 수 없다. ⓐ so+형용사, ⓑ 과거 의문문 Did+동사원형, ⓓ want+to부정사는 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        0,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "ⓐ so",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ⓑ Did you make",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "ⓒ in to cook",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "ⓓ to be",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음은 위 대화를 바꾸어 쓴 것이다. 밑줄 친 낱말 중 문맥상 어색한 것을 고르시오.\n\nG: This pizza is so ⓐterrible. Did you make it, Tom?\nB: Yes, I did. I’m really interested in ⓑcooking.\nG: So, do you want to be a ⓒchef in the future?\nB: Yes, that’s my ⓓdream.",
+      "answer_key": "①",
+      "explanation": "소녀는 피자를 칭찬하며 누가 만들었는지 묻고 있으므로 terrible(형편없는)이 아니라 good이 와야 자연스럽다. cooking, chef, dream은 요리에 대한 관심과 장래희망 흐름에 모두 맞는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "ⓐ terrible",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ⓑ cooking",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "ⓒ chef",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "ⓓ dream",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "THAT_USAGE",
+      "stem": "위 대화의 밑줄 친 that’s my dream에서 that이 가리키는 내용으로 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 소녀가 'do you want to be a chef in the future?'라고 물었고, Tom이 Yes로 답한 뒤 that’s my dream이라고 했으므로 that은 '미래에 요리사가 되는 것'을 가리킨다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "장래에 요리사가 되는 것",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "피자를 맛있게 만드는 법을 배우는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "친구에게 요리를 가르쳐 주는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "유명한 식당을 여는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "Tom이 피자를 직접 만들었고 요리에 관심이 많으며 요리사가 되고 싶다고 말하는 대화이므로 ①이 주제다. 피자 조리법(②)이나 식당(③), 요리 강좌(④)는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Tom’s interest in cooking and his future dream",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to make a delicious pizza at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The best restaurants in the neighborhood",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Why cooking classes are popular these days",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "'Did you make it, Tom?'에 Tom이 'Yes, I did.'라고 답했으므로 ①이 일치한다. 소녀는 피자가 아주 맛있다고 했고(②), Tom의 꿈은 chef이며(③), 요리에 매우 관심이 많다(④).",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Tom made the pizza himself.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl doesn’t like the pizza.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Tom wants to be a baker in the future.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Tom has no interest in cooking.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nB: I’m really interested in cooking.\nG: So, do you want to be a ______ in the future?\nB: Yes, that’s my dream.",
+      "answer_key": "①",
+      "explanation": "앞 문장에서 요리에 관심이 많다고 했으므로 요리와 연결되는 직업 chef가 알맞다. 나머지 직업은 cooking과 관련이 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "chef",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "doctor",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "pilot",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "scientist",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 문장에는 어법상 틀린 곳이 두 군데 있다. 밑줄 친 부분을 바르게 고쳐 문장을 다시 쓰시오.\n\nI’m really interesting in cook.",
+      "answer_key": "I’m really interested in cooking.",
+      "explanation": "주어 I가 관심을 '느끼는' 쪽이므로 감정동사의 수동형 interested를 써야 하고, 전치사 in 뒤에는 동명사 cooking이 와야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n\n우리말: 나는 미래에 요리사가 되고 싶다.\n<조건> 1) want, be, chef, future를 모두 사용할 것  2) to부정사를 사용할 것  3) 8단어로 쓸 것",
+      "answer_key": "I want to be a chef in the future.",
+      "explanation": "want는 목적어로 to부정사를 취하므로 want to be로 쓰고, '미래에'는 굳은 표현 in the future로 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하시오.\n\n나는 요리하는 것에 정말 관심이 있다.\n(cooking / really / interested / I’m / in)",
+      "answer_key": "I’m really interested in cooking.",
+      "explanation": "be interested in(~에 관심이 있다) 구문에 부사 really를 be동사와 형용사 사이에 넣고, 전치사 in 뒤에는 동명사 cooking을 쓴다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 8,
+    "tags_kept": 8,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

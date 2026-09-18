@@ -38,14 +38,17 @@
     "artist"
   ],
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "vision_single_pass",
     "source_file": "Z:/…/2026 2학기 학교 프린트 모음/영일중1 L7.pdf (20쪽 = 학습지 18쪽 'More reading')",
     "note": "영일중1 L7 학습지 7과-(11) 「More reading」 상자 안 지문. 인쇄 활자를 비전으로 읽었다 — 전 문장 확인 대상. 굵은 글씨(a few · both … and · few)는 지문의 강조이며 body_text 에는 표시하지 않았다. 4문단.",
     "has_handwriting": false,
     "has_cutoff": false,
     "unreadable_spans": [],
-    "needs_review_sentences": [
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-18T15:27:47.780967+00:00",
+    "confirmed_via": "전사확인지_중1_L7.html 육안 대조 · 「ㅇㅋ 괜찮아」 + 영일 학습지 6쪽 받아쓰기와 대화-1~5 일치 (2026-09-19)",
+    "reviewed_sentences": [
       1,
       2,
       3,

@@ -1,0 +1,251 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L7 대화 ⑦⑧",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L7 대화-7",
+    "중1 L7 대화-8"
+  ],
+  "body": "B: What are you doing?\nG: I’m taking pictures of birds.\nB: Are you interested in taking pictures?\nG: Yes, a lot. I want to be a photographer.\nG: This pizza is so good. Did you make it, Tom?\nB: Yes, I did. I’m really interested in cooking.\nG: So, do you want to be a chef in the future?\nB: Yes, that’s my dream.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "6307ae4b-b139-4ce7-9cad-c4fb5d71bd34",
+      "point": "VERB_TENSE",
+      "span_start": 8,
+      "span_end": 21,
+      "correct": "are you doing",
+      "wrong": [
+        "are you do"
+      ],
+      "why_ko": "지금 하고 있는 일을 묻는 현재진행 의문문이므로 「be동사+주어+동사-ing」인 are you doing이 맞고, do you do나 are you do는 형태·시제가 틀립니다.",
+      "rationale": "의문사 What + be동사 + 주어 + -ing 형태의 현재진행 의문문. do you do / are you do / did you do 처럼 시제·형태를 바꾼 오답 유도가 가능한 자리",
+      "sentence_no": 1,
+      "sentence": "B: What are you doing?",
+      "verify_dropped": [
+        {
+          "wrong": "do you do",
+          "judgement": "ok",
+          "note_ko": "'What do you do?'는 직업을 묻는 올바른 문장. 뜻만 달라짐."
+        },
+        {
+          "wrong": "did you do",
+          "judgement": "ok",
+          "note_ko": "과거 시제로 어법상 올바른 문장."
+        }
+      ]
+    },
+    {
+      "tag_id": "a42c0621-3dd9-4521-9387-d2876b499302",
+      "point": "PREP_USAGE",
+      "span_start": 30,
+      "span_end": 54,
+      "correct": "taking pictures of birds",
+      "wrong": [
+        "taking pictures for birds",
+        "taking pictures birds"
+      ],
+      "why_ko": "'~의 사진을 찍다'는 take pictures of ~ 로 전치사 of를 씁니다. for로 바꾸거나 전치사를 빼면 안 됩니다.",
+      "rationale": "'~의 사진을 찍다'는 take pictures of. of를 for/with/on 등으로 바꾸거나 삭제(EI_PREP_DELETE)하는 빈칸 출제가 쉬운 자리",
+      "sentence_no": 2,
+      "sentence": "G: I’m taking pictures of birds."
+    },
+    {
+      "tag_id": "3b020ff5-8488-44ca-a581-beddc0ccbc5d",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 67,
+      "span_end": 80,
+      "correct": "interested in",
+      "wrong": [
+        "interesting in",
+        "interest in"
+      ],
+      "why_ko": "사람이 관심을 가질 때는 be interested in(수동 형태)을 씁니다. interesting은 '흥미를 주는'이라 주어 you와 맞지 않습니다.",
+      "rationale": "감정동사 interest의 수동 형태 be interested in(~에 관심이 있다). interesting in / interest in 처럼 능동·원형으로 바꾼 오답 유도 지점",
+      "sentence_no": 3,
+      "sentence": "B: Are you interested in taking pictures?"
+    },
+    {
+      "tag_id": "15fa5f29-c794-4090-ba7b-e4d7af17e958",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 78,
+      "span_end": 96,
+      "correct": "in taking pictures",
+      "wrong": [
+        "in take pictures",
+        "in to take pictures"
+      ],
+      "why_ko": "전치사 in 뒤에는 동명사(-ing)가 와야 하므로 taking이 맞고, 동사원형이나 to부정사는 올 수 없습니다.",
+      "rationale": "전치사 in 뒤에는 동명사가 와야 함. in take / in to take 로 바꾼 선지와 구별시키는 전형적 출제 자리",
+      "sentence_no": 3,
+      "sentence": "B: Are you interested in taking pictures?"
+    },
+    {
+      "tag_id": "7ebd3af9-971d-47c3-9606-ee483714c509",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 115,
+      "span_end": 125,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 취하므로 want to be가 맞습니다. 동명사나 동사원형은 쓸 수 없습니다.",
+      "rationale": "want는 목적어로 to부정사만 취함. want being / want be 로 바꾼 오답 유도(EI_VERB_COMPLEMENT) 지점",
+      "sentence_no": 5,
+      "sentence": "I want to be a photographer."
+    },
+    {
+      "tag_id": "3ab857b8-7a0d-4dfc-b8ec-4b68b13e4488",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 120,
+      "span_end": 140,
+      "correct": "to be a photographer",
+      "wrong": [
+        "being a photographer",
+        "to being a photographer"
+      ],
+      "why_ko": "want의 목적어 자리에 오는 명사적 용법의 to부정사이므로 to be가 맞고, being이나 to being은 틀립니다.",
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 형용사적·부사적 용법과 쓰임을 구별시키는 문항으로 확장 가능",
+      "sentence_no": 5,
+      "sentence": "I want to be a photographer."
+    },
+    {
+      "tag_id": "28f3961d-4966-4963-a38f-ebcec31b32b4",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 159,
+      "span_end": 166,
+      "correct": "so good",
+      "wrong": [
+        "such good",
+        "too good enough"
+      ],
+      "why_ko": "뒤에 명사 없이 형용사만 오므로 「so+형용사」를 씁니다. such는 「such+(a)+형용사+명사」 형태로만 쓰입니다.",
+      "rationale": "「so + 형용사」 구조. 뒤에 명사가 없으므로 such는 불가. [so / such] good 형태로 빈칸·선택지가 만들어지는 자리",
+      "sentence_no": 6,
+      "sentence": "G: This pizza is so good."
+    },
+    {
+      "tag_id": "50d89366-6f7c-44ea-93fd-93a199bafd83",
+      "point": "VERB_TENSE",
+      "span_start": 168,
+      "span_end": 183,
+      "correct": "Did you make it",
+      "wrong": [
+        "Did you made it",
+        "Did you making it"
+      ],
+      "why_ko": "과거 의문문은 「Did+주어+동사원형」이므로 Did you make가 맞습니다. made를 쓰면 과거가 두 번 겹칩니다.",
+      "rationale": "과거시제 의문문 Did + 주어 + 동사원형. Did you made / Do you make 처럼 시제·동사형 오류를 유도할 수 있음",
+      "sentence_no": 7,
+      "sentence": "Did you make it, Tom?",
+      "verify_dropped": [
+        {
+          "wrong": "Do you make it",
+          "judgement": "ok",
+          "note_ko": "어법상 올바름. 시제 의미만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "624e1fe5-504c-4a62-864c-eba15dd42d0d",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 209,
+      "span_end": 215,
+      "correct": "really",
+      "wrong": [
+        "real"
+      ],
+      "why_ko": "뒤의 interested(형용사)를 꾸며 주는 자리이므로 부사 really가 맞고, 형용사 real은 형용사를 수식할 수 없습니다.",
+      "rationale": "형용사(보어) interested를 수식하는 부사 자리. real로 바꾸는 형용사·부사 혼동 오류 유도",
+      "sentence_no": 9,
+      "sentence": "I’m really interested in cooking."
+    },
+    {
+      "tag_id": "b2438678-2014-4988-88bf-2920bd32aaf2",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 216,
+      "span_end": 229,
+      "correct": "interested in",
+      "wrong": [
+        "interesting in",
+        "interested on"
+      ],
+      "why_ko": "'나는 ~에 관심이 있다'는 be interested in이 고정 표현입니다. interesting은 뜻이 '흥미로운'이라 주어 I와 안 맞고, 전치사도 in으로 고정입니다.",
+      "rationale": "감정동사 interest의 수동형 be interested in(관심이 있다). interesting으로 바꾸면 '흥미로운'이 되어 주어와 맞지 않음. 전치사 in도 함께 고정",
+      "sentence_no": 9,
+      "sentence": "I’m really interested in cooking."
+    },
+    {
+      "tag_id": "4b0a4461-35b0-4f2b-a3fc-96f3a7b32605",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 227,
+      "span_end": 237,
+      "correct": "in cooking",
+      "wrong": [
+        "in cook",
+        "in to cook"
+      ],
+      "why_ko": "전치사 in 뒤에는 동명사가 와야 하므로 cooking이 맞습니다. 동사원형이나 to부정사는 전치사 뒤에 올 수 없습니다.",
+      "rationale": "전치사 in 뒤에는 동명사가 와야 함. in to cook / in cook 같은 오류 유도 가능",
+      "sentence_no": 9,
+      "sentence": "I’m really interested in cooking."
+    },
+    {
+      "tag_id": "d3f9cc2b-fa44-43d3-8ab3-152a52930ec2",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 253,
+      "span_end": 263,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want는 뒤에 to부정사를 목적어로 취하므로 want to be가 맞습니다.",
+      "rationale": "want는 목적어로 to부정사를 취하는 동사. want being / want be 오류 유도",
+      "sentence_no": 10,
+      "sentence": "G: So, do you want to be a chef in the future?"
+    },
+    {
+      "tag_id": "b9752b92-3b1a-4da7-ad9a-473260f65926",
+      "point": "PREP_USAGE",
+      "span_start": 271,
+      "span_end": 284,
+      "correct": "in the future",
+      "wrong": [
+        "on the future",
+        "at the future"
+      ],
+      "why_ko": "'미래에, 앞으로'라는 뜻의 굳은 표현은 in the future입니다. on/at은 쓰지 않습니다.",
+      "rationale": "시간 표현 굳은 부사구의 전치사 in. [in / on / at] the future 형태로 빈칸이 뚫리기 쉬운 자리",
+      "sentence_no": 10,
+      "sentence": "G: So, do you want to be a chef in the future?"
+    },
+    {
+      "tag_id": "001238cc-8ae3-4145-a8a9-05e4760c1b77",
+      "point": "THAT_USAGE",
+      "span_start": 294,
+      "span_end": 309,
+      "correct": "that’s my dream",
+      "wrong": [
+        "those are my dream",
+        "that’s are my dream"
+      ],
+      "why_ko": "앞에서 말한 한 가지 내용을 가리키는 단수 지시대명사 that이므로 that’s(that is)가 맞습니다.",
+      "rationale": "앞 문장의 내용(요리사가 되는 것)을 가리키는 지시대명사 that. 접속사·관계대명사 that과 쓰임 구별을 물을 수 있음",
+      "sentence_no": 11,
+      "sentence": "B: Yes, that’s my dream."
+    }
+  ],
+  "diagnostics": {
+    "returned": 14,
+    "kept": 14,
+    "given": 14,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 3
+    }
+  },
+  "verified": true
+}

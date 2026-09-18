@@ -1,0 +1,553 @@
+{
+  "passage_id": "2c33b50e-1fe4-4675-bfaa-f3166a074c1b",
+  "body_text_sha256": "c9a1cc7444c72cef46a2337a99abec5ea822571480c9a629ace404565609e269",
+  "tags": [
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 11,
+      "span_end": 21,
+      "surface": "interested",
+      "sentence_no": 1,
+      "rationale": "감정동사 interest의 수동형 보어. 주어가 사람이므로 interested가 맞고 interesting(현재분사·능동)과 혼동시키는 전형적 출제 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 22,
+      "span_end": 32,
+      "surface": "in fashion",
+      "sentence_no": 1,
+      "rationale": "be interested in 은 전치사가 고정된 표현. in 대신 of/at/with 로 바꾸거나 전치사를 삭제하는 빈칸 출제가 가장 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 51,
+      "span_end": 63,
+      "surface": "love to make",
+      "sentence_no": 2,
+      "rationale": "love는 to부정사와 동명사를 모두 목적어로 취함. to make / making 은 맞지만 make(동사원형)·made 형태로 바꾼 오류 선지를 만들기 쉬움",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 84,
+      "span_end": 98,
+      "surface": "That’s so cool",
+      "sentence_no": 4,
+      "rationale": "so + 형용사 구조. 뒤에 명사가 없으므로 such는 불가 — [so / such] cool 형태의 짝짓기 출제 지점",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 94,
+      "span_end": 98,
+      "surface": "cool",
+      "sentence_no": 4,
+      "rationale": "be동사의 보어 자리이므로 형용사 cool. coolly(부사)로 바꾼 오류 유도 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 114,
+      "span_end": 124,
+      "surface": "want to be",
+      "sentence_no": 6,
+      "rationale": "want는 to부정사만 목적어로 취함. being / be 로 바꾼 선지가 대표적 오답",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOO_DATIVE",
+      "span_start": 150,
+      "span_end": 170,
+      "surface": "make clothes for you",
+      "sentence_no": 7,
+      "rationale": "make는 3형식 전환 시 전치사 for를 쓰는 수여동사. to you / give 류와 혼동시키거나 전치사를 삭제하는 출제 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "RU_FORMAT_RECAST"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답·정보제공",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "되묻기(확인)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "긍정적 반응",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "감사 응답",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "주제문(장래희망)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 7,
+      "role": "결론문(약속·마무리)",
+      "signal": "someday",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a)~(c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nG: Are you (a)[interested / interesting] in fashion, Jacob?\nB: Yes, I love (b)[to make / make] clothes.\nG: Really? That's (c)[so / such] cool!",
+      "answer_key": "①",
+      "explanation": "(a) 주어가 사람(you)이므로 감정동사의 수동형 interested. interesting은 '흥미를 주는'이라 사람 주어와 맞지 않는다. (b) love는 to부정사(또는 동명사)를 목적어로 취하므로 to make. 동사원형 make는 불가. (c) 뒤에 명사가 없고 형용사 cool만 있으므로 so. such는 'such a cool + 명사' 형태로만 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "interested – to make – so",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "interesting – to make – so",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "interested – make – so",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "interested – to make – such",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ want는 동명사를 목적어로 취하지 않고 to부정사만 취하므로 want being → want to be 가 되어야 한다. ①은 be interested in, ②는 love + to부정사, ④는 make + 직접목적어 + for + 사람으로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        2,
+        0,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Are you interested in fashion, Jacob?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Yes, I love to make clothes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I want being a fashion designer.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I'll make clothes for you someday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "위 대화를 아래와 같이 다시 쓸 때, 밑줄 친 부분 중 어법상 옳지 않은 것을 고르시오.\nG: Are you ①interested in fashion, Jacob?\nB: Yes, I love ②to make clothes.\nG: Really? That's ③so cool!\nB: Thanks. I want to be a fashion designer. I'll make clothes ④to you someday.",
+      "answer_key": "④",
+      "explanation": "make는 4형식을 3형식으로 바꿀 때 전치사 for를 쓰는 동사이므로 'make clothes for you'가 맞다. to you는 틀리다. ①은 be interested in, ②는 love + to부정사, ③은 so + 형용사로 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        0,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "interested in",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to make",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "so cool",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "to you",
+          "is_answer": true,
+          "violates_point_code": "SVOO_DATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것을 고르시오.",
+      "answer_key": "②",
+      "explanation": "Jacob은 'I love to make clothes.'라고 했으므로 ②가 일치한다. ① 패션에 관심이 있다고 답했고, ③ 원하는 것은 fashion designer이며, ④ 옷을 만들어 주겠다고 말한 사람은 Jacob이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Jacob is not interested in fashion at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Jacob enjoys making clothes.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jacob wants to be a fashion model.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl will make clothes for Jacob someday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "대화는 Jacob이 패션에 관심이 있고 옷 만들기를 좋아하며 패션 디자이너가 되고 싶다는 내용이므로 ①이 주제다. 옷값·패션 역사·소녀의 가게 계획은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Jacob's interest in fashion and his future dream",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to buy clothes at a low price",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The history of fashion design",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl's plan to open a clothing shop",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\nB: Thanks. I want to _______________. I'll make clothes for you someday.",
+      "answer_key": "①",
+      "explanation": "옷 만들기를 좋아하고 앞으로 옷을 만들어 주겠다는 말과 이어지므로 장래희망은 패션 디자이너다. 나머지는 옷을 직접 만드는 것과 연결되지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "be a fashion designer",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "buy new clothes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "be a science teacher",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "take a fashion photo",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 밑줄 친 That's so cool! 이 의미하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "상대가 옷을 직접 만든다는 말에 감탄하는 반응이므로 cool은 '멋진'의 뜻이다. '시원한·차가운'의 뜻이 아니며, 뒤에 Thanks라는 응답이 오는 것으로도 칭찬임을 알 수 있다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그거 정말 멋지다!",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "날씨가 정말 시원하다!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "그건 좀 차갑게 대하는 거야!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "그건 별로 재미없어!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "위 대화의 마지막 문장을 옮긴 아래 문장에는 어법상 틀린 곳이 한 군데 있다. 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ I'll make clothes to you someday.",
+      "answer_key": "to you → for you (I'll make clothes for you someday.)",
+      "explanation": "make는 4형식을 3형식으로 전환할 때 간접목적어 앞에 for를 쓰는 동사다. give·send 류와 달리 to를 쓰지 않으므로 to you를 for you로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말을 <조건>에 맞게 영어로 쓰시오.\n우리말: 나는 패션 디자이너가 되고 싶다.\n<조건> 1) want, be, a fashion designer를 모두 사용할 것  2) 총 6단어로 쓸 것",
+      "answer_key": "I want to be a fashion designer.",
+      "explanation": "want는 to부정사를 목적어로 취하므로 want to be 로 써야 한다. want being / want be 는 틀린 형태다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n우리말: 너는 패션에 관심이 있니, Jacob?\n(are / in / interested / fashion / you) , Jacob?",
+      "answer_key": "Are you interested in fashion, Jacob?",
+      "explanation": "be interested in ~ ( ~에 관심이 있다)은 전치사 in이 고정된 표현이며, 의문문이므로 be동사 Are를 문장 맨 앞에 두어 'Are you interested in fashion?' 순서가 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 7,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

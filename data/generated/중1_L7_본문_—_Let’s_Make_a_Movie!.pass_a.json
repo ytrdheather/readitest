@@ -1,0 +1,1096 @@
+{
+  "passage_id": "e53fab97-74d4-4019-bff1-ef89cde96d68",
+  "body_text_sha256": "f21c5c9dee62a2c2337dba0fa16d97f5d2175d4be09df3c7d2e100b6db96a7d7",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 81,
+      "span_end": 108,
+      "surface": "between Tom and his dog Max",
+      "sentence_no": 2,
+      "rationale": "'둘 사이'를 뜻하는 between + A and B. among / from 등으로 바꿔 빈칸 출제되기 쉬운 자리. between ~ and ~ 짝이 깨지는 오류(between Tom or his dog)도 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 126,
+      "span_end": 137,
+      "surface": "are working",
+      "sentence_no": 3,
+      "rationale": "주어 A lot of people(복수)에 맞춘 복수 동사. 'A lot of'라는 수량표현 때문에 is working으로 바꾸는 수일치 오류를 심기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 138,
+      "span_end": 142,
+      "surface": "hard",
+      "sentence_no": 3,
+      "rationale": "동사 work를 수식하는 부사 hard(열심히). hardly(거의 ~않다)로 바꾸면 의미가 정반대가 되는 전형적 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 143,
+      "span_end": 163,
+      "surface": "to create this movie",
+      "sentence_no": 3,
+      "rationale": "'~하기 위해'의 부사적 용법(목적). creating / for create 등 형태 오류나, 명사적 용법과의 쓰임 구별 문항으로 나오는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 278,
+      "span_end": 288,
+      "surface": "is to find",
+      "sentence_no": 6,
+      "rationale": "be동사의 보어로 쓰인 to부정사의 명사적 용법(~하는 것이다). 다른 문장의 부사적 용법 to부정사와 쓰임이 다른 것 구별 문항의 핵심.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 304,
+      "span_end": 316,
+      "surface": "for shooting",
+      "sentence_no": 6,
+      "rationale": "전치사 for 뒤에는 동명사. for shoot / for to shoot 같은 오류를 유도할 수 있는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 364,
+      "span_end": 401,
+      "surface": "I like to travel and enjoy challenges",
+      "sentence_no": 8,
+      "rationale": "and로 like와 enjoy 두 동사가 병렬. enjoy를 enjoying/enjoys로 바꾸면 병렬이 깨진다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 462,
+      "span_end": 474,
+      "surface": "in charge of",
+      "sentence_no": 10,
+      "rationale": "'~을 담당하다'라는 굳어진 전치사구. in charge for / on charge of 처럼 전치사를 갈아 끼우는 빈칸 출제가 잦다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 511,
+      "span_end": 528,
+      "surface": "are going to play",
+      "sentence_no": 11,
+      "rationale": "Today와 함께 쓰인 be going to 미래 표현. is going to(수일치)나 are going to playing(형태)로 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 550,
+      "span_end": 562,
+      "surface": "on the beach",
+      "sentence_no": 11,
+      "rationale": "표면 접촉·장소를 나타내는 on. in / at the beach 와의 구별로 빈칸 출제 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 564,
+      "span_end": 594,
+      "surface": "To capture their happy moments",
+      "sentence_no": 12,
+      "rationale": "문장 앞에 나온 목적의 부사적 용법 to부정사. Capturing / For capture 로 바꾸는 오류, 또는 어순 배열 문항의 소재.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 637,
+      "span_end": 665,
+      "surface": "trained and took care of Max",
+      "sentence_no": 14,
+      "rationale": "and로 과거시제 동사 두 개가 병렬. took을 take/taking으로 바꾸면 병렬·시제가 동시에 깨지는 전형적 오류 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 649,
+      "span_end": 665,
+      "surface": "took care of Max",
+      "sentence_no": 14,
+      "rationale": "take care of(~을 돌보다) 고정 결합. of 삭제나 take care for 같은 전치사 교체 오류를 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PERFECT",
+      "span_start": 666,
+      "span_end": 681,
+      "surface": "for a long time",
+      "sentence_no": 14,
+      "rationale": "기간 표현 for a long time과 과거시제(trained)의 결합. have trained/have taken care of 로 바꾼 현재완료 계속 용법과 구별시키는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 722,
+      "span_end": 738,
+      "surface": "gets too excited",
+      "sentence_no": 15,
+      "rationale": "감정동사 excite의 과거분사형 보어 — 사람이 흥분을 '당하는' 것이므로 excited. exciting으로 뒤집는 오류가 대표 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 727,
+      "span_end": 738,
+      "surface": "too excited",
+      "sentence_no": 15,
+      "rationale": "정도가 지나침을 나타내는 too + 형용사. so / such / enough 와의 구별로 빈칸 출제 가능.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 744,
+      "span_end": 770,
+      "surface": "a lot of people are around",
+      "sentence_no": 15,
+      "rationale": "when절 주어 a lot of people(복수)에 맞춘 are. is로 바꾸는 수일치 오류를 심기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 795,
+      "span_end": 806,
+      "surface": "to calm him",
+      "sentence_no": 16,
+      "rationale": "'진정시키기 위해'의 목적 부사적 용법. calming / for calm 오류 및 to부정사 쓰임 구별 문항의 선지로 쓰인다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 897,
+      "span_end": 923,
+      "surface": "after the shooting is over",
+      "sentence_no": 20,
+      "rationale": "시간 부사절에서는 미래를 현재시제로 표현. will be over 로 바꾸는 오류가 가장 흔한 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_FUTURE_IN_SUBORD",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 925,
+      "span_end": 949,
+      "surface": "To create a better story",
+      "sentence_no": 21,
+      "rationale": "문두 목적의 부사적 용법 to부정사. Creating / For create 형태 오류, 어순 배열 소재.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 935,
+      "span_end": 949,
+      "surface": "a better story",
+      "sentence_no": 21,
+      "rationale": "good의 불규칙 비교급 better. gooder / more better / best 같은 오류형을 선지로 제시하기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 957,
+      "span_end": 1006,
+      "surface": "change the order of scenes or delete some of them",
+      "sentence_no": 21,
+      "rationale": "조동사 can 뒤에서 change와 delete가 or로 병렬. deleting / deletes 로 바꾸면 병렬이 깨진다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 1147,
+      "span_end": 1180,
+      "surface": "recording on location is not easy",
+      "sentence_no": 24,
+      "rationale": "동명사구 주어는 단수 취급 → is. are로 바꾸거나 recording을 record로 바꿔 정동사 중복을 만드는 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 1189,
+      "span_end": 1198,
+      "surface": "carefully",
+      "sentence_no": 25,
+      "rationale": "동사 Listen을 수식하는 부사. careful(형용사)로 바꾸는 형용사·부사 혼동 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1250,
+      "span_end": 1283,
+      "surface": "with rice and a plastic container",
+      "sentence_no": 27,
+      "rationale": "도구·수단을 나타내는 with. by / in 과의 구별로 빈칸 출제되며, 전치사 삭제 오류도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 1239,
+      "span_end": 1249,
+      "surface": "that sound",
+      "sentence_no": 27,
+      "rationale": "앞 문장의 소리를 가리키는 지시형용사 that. 접속사·관계대명사 that과 쓰임이 다른 것 구별 문항의 선지로 쓰인다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 1296,
+      "span_end": 1306,
+      "surface": "sound real",
+      "sentence_no": 28,
+      "rationale": "감각동사 sound 뒤에는 형용사 보어. really(부사)로 바꾸는 오류가 대표 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 화자(감독) 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "정의 — 영화 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "주제문 — 많은 사람이 영화 제작에 참여",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "도입질문 — 인물 소개 예고",
+      "signal": "Do you want to",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "전환 — 새 화자(Anna) 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "정의 — 로케이션 매니저의 일",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "양보·부가 — 어렵지만 좋아함",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "원인 — 일을 좋아하는 이유",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "전환 — 새 화자(Peter) 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "정의 — 촬영감독의 담당 범위",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "세부 — 오늘 촬영 장면",
+      "signal": "Today",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "해결책·방법 — 드론 사용",
+      "signal": "To capture",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "전환 — 새 화자(Jennifer) 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "세부 — Max를 훈련하고 돌봄",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "원인·문제 — Max가 지나치게 흥분함",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "해결책 — 손 신호로 진정시킴",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "도입질문 — 직업 추측 유도",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "정의 — 직업 공개(animal wrangler)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "전환 — 새 화자(Emma) 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "범위 — 편집이 시작되는 시점",
+      "signal": "after",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 21,
+      "role": "해결책·방법 — 장면 순서 변경·삭제",
+      "signal": "To create",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 22,
+      "role": "결과요약 — 필요한 역량과 실천",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 23,
+      "role": "전환 — 새 화자(Chris) 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 24,
+      "role": "정의 — 폴리 아티스트의 일",
+      "signal": "when",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 25,
+      "role": "지시 — 청자에게 집중 요구",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 26,
+      "role": "도입질문 — 소리 확인",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 27,
+      "role": "세부 — 소리를 만든 재료",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 28,
+      "role": "결론문 — 효과의 사실성 강조",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 글의 밑줄 친 부분 중 어법상 옳지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "감정을 나타내는 동사 excite는 사람이 주어일 때 과거분사 excited(흥분한 상태가 되다)를 써야 한다. exciting은 '남을 흥분시키는'이라는 뜻이므로 Max 자신의 상태를 말하는 문맥에 맞지 않는다. ①의 are working(복수 주어 수일치)·hard(부사), ②의 is to find(명사적 용법)와 for shooting(전치사+동명사), ④의 To capture(목적), ⑤의 with(수단)는 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        14,
+        1,
+        4,
+        10,
+        24
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A lot of people are working hard to create this movie.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I’m a location manager, and my job is to find perfect places for shooting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Max is a great actor, but he sometimes gets too exciting when a lot of people are around.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "To capture their happy moments, I’m going to use drones.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I made that sound with rice and a plastic container.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "위 글의 문장을 옮겨 쓴 것 중 어법상 옳지 않은 것은?",
+      "answer_key": "②",
+      "explanation": "after가 이끄는 시간 부사절에서는 미래의 일도 현재시제로 나타내므로 will be over가 아니라 is over가 맞다. ①은 like와 enjoy의 병렬, ③은 trained와 took의 과거시제 병렬, ④는 change와 delete의 병렬, ⑤는 in charge of 결합이 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        18,
+        6,
+        11,
+        21,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I like to travel and enjoy challenges.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "My work begins after the shooting will be over.",
+          "is_answer": true,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_FUTURE_IN_SUBORD",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I trained and took care of Max for a long time.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "To create a better story, I can change the order of scenes or delete some of them.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I’m in charge of all the cameras.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "위 글의 (a), (b), (c)에 들어갈 말로 가장 알맞은 것은?\n· A lot of people are working (a)[hard / hardly] to create this movie.\n· Listen (b)[carefully / careful].\n· Doesn’t it sound (c)[real / really]?",
+      "answer_key": "①",
+      "explanation": "(a) work를 수식하는 '열심히'는 hard이며 hardly는 '거의 ~않다'로 뜻이 반대가 된다. (b) 동사 Listen을 수식하므로 부사 carefully. (c) 감각동사 sound 뒤에는 형용사 보어가 와야 하므로 real이 맞고 really는 쓸 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        23,
+        26
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "hard – carefully – real",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "hardly – carefully – real",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "hard – careful – real",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "hard – carefully – really",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "위 글에 쓰인 to부정사 중 그 쓰임이 나머지 넷과 다른 것은?",
+      "answer_key": "②",
+      "explanation": "②는 be동사의 보어로 쓰인 명사적 용법(~하는 것이다)이다. 나머지 ①③④⑤는 모두 '~하기 위해'라는 목적을 나타내는 부사적 용법이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4,
+        10,
+        17,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A lot of people are working hard to create this movie.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "my job is to find perfect places for shooting",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "To capture their happy moments, I’m going to use drones.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So, I use hand signals to calm him.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "To create a better story, I can change the order of scenes or delete some of them.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 글의 흐름상 밑줄 친 낱말이 문맥에 맞지 않는 것은?",
+      "answer_key": "④",
+      "explanation": "앞 문장에서 Max가 사람들이 많으면 '지나치게 흥분한다'고 했으므로, 손 신호는 그를 진정시키기(calm) 위한 것이어야 한다. excite(흥분시키다)는 흐름에 어긋난다. 나머지는 모두 문맥에 맞는 낱말이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        17,
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A lot of people are working hard to create this movie.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I’m a location manager, and my job is to find perfect places for shooting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Max is a great actor, but he sometimes gets too excited when a lot of people are around.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So, I use hand signals to excite him.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I create sound effects in my studio when recording on location is not easy.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 글에서 Peter가 말한 I’m in charge of all the cameras.의 의미로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "be in charge of는 '~을 맡고 있다, 책임지다'라는 뜻이다. Peter는 촬영감독(director of photography)이므로 모든 카메라를 담당한다는 의미이며, charge를 '요금'으로 해석한 ②는 문맥에 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "나는 모든 카메라를 책임지고 관리한다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "나는 카메라 요금을 대신 지불한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "나는 모든 카메라를 무료로 빌려준다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "나는 카메라 앞에서 연기를 한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "나는 카메라를 직접 만들어 판다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 글의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "감독 Jim이 '많은 사람이 이 영화를 만들기 위해 열심히 일하고 있다'고 한 뒤, 로케이션 매니저·촬영감독·애니멀 랭글러·편집자·폴리 아티스트가 차례로 자기 일을 소개한다. 따라서 영화 제작에 참여하는 여러 사람과 그들의 일이 주제다. ②③④⑤는 일부 세부 내용이거나 글에 없는 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "various people and the jobs they do to make a movie",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to train a dog to become a famous actor",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best beaches for taking family pictures",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "reasons why drones are cheaper than cameras",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the friendship between a boy and his neighbors",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 글의 내용과 일치하지 않는 것은?",
+      "answer_key": "④",
+      "explanation": "쌀과 플라스틱 용기로 파도 소리를 만든 사람은 폴리 아티스트인 Chris이다. Emma는 촬영이 끝난 뒤 장면의 순서를 바꾸거나 삭제하는 필름 편집자이므로 ④가 일치하지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        24,
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Anna looks for perfect places for shooting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Peter plans to use drones to film Tom and Max on the beach.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jennifer uses hand signals to calm Max down.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Emma made the sound of waves with rice and a plastic container.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Chris makes sound effects in his studio.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 글의 [3]번 문장의 빈칸에 들어갈 말로 가장 알맞은 것은?\nA lot of people are ________ to create this movie.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤로 로케이션 매니저, 촬영감독, 애니멀 랭글러, 편집자, 폴리 아티스트가 각자 맡은 일을 열심히 하는 모습이 이어진다. 따라서 '열심히 일하고 있다(working hard)'가 글 전체를 아우르는 주제문이 된다. 나머지는 이어지는 내용과 연결되지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "working hard",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "too tired",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "waiting for money",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "afraid of dogs",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "learning to swim",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하여 문장을 완성하시오. (to부정사를 사용할 것)\n\n나의 일은 촬영을 위한 완벽한 장소를 찾는 것이다.\n( my job / find / perfect places / is / for shooting / to )",
+      "answer_key": "My job is to find perfect places for shooting.",
+      "explanation": "be동사의 보어 자리에 to부정사의 명사적 용법(is to find)을 쓴다. 전치사 for 뒤에는 동명사 shooting이 그대로 이어진다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nI create sound effects in my studio when recording on location are not easy.",
+      "answer_key": "are → is",
+      "explanation": "when절의 주어는 동명사구 recording on location이며 동명사 주어는 단수 취급하므로 동사를 is로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        22
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 우리말에 맞게 주어진 말을 알맞게 배열하시오.\n\n그들의 행복한 순간들을 포착하기 위해, 나는 드론을 사용할 것이다.\n( their happy moments / to / I’m going to / drones / capture / use )",
+      "answer_key": "To capture their happy moments, I’m going to use drones.",
+      "explanation": "목적을 나타내는 부사적 용법의 to부정사(To capture ~)를 문장 앞에 두고, 주절에 be going to + 동사원형(use)을 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 28,
+    "tags_returned": 27,
+    "tags_kept": 27,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 12,
+    "items_kept": 12,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

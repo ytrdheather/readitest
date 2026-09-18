@@ -1,0 +1,321 @@
+{
+  "book": "영일중 배부물",
+  "unit": "중1 L7 외부지문 — Two Different Jobs",
+  "parts": [
+    "Two Different Jobs"
+  ],
+  "passage_ids": [
+    "817ede8d-0447-4825-af77-e8ead3984da9"
+  ],
+  "para_breaks": [
+    19
+  ],
+  "turn_breaks": [
+    19
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "At a restaurant, Jane and Maria talked about their jobs.",
+    "They agreed that there are a few similarities.",
+    "For both pilots and artists, there is a lot of competition and there are few famous women.",
+    "In both jobs, you have to be very strong and sure of yourself.",
+    "Of course, there are also many differences between the two jobs.",
+    "Pilots and artists have to be strong in different ways.",
+    "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly.",
+    "Artists, however, have to be strong in their ideas about art and life.",
+    "People in the two jobs also work in different ways.",
+    "Pilots usually work with other people, but artists usually work alone.",
+    "Pilots must understand other people.",
+    "Artists must understand themselves.",
+    "Finally, there is an important difference in lifestyle.",
+    "Pilots travel for their job and are often away from home.",
+    "Artists, however, work at home or in a studio near home.",
+    "Also, unlike pilots, artists can start and stop working when they want.",
+    "Maria said she could never be a pilot because she hates airplanes.",
+    "Jane said she could never be an artist because she hates working alone.",
+    "There are many things to think about when choosing a job, but what you enjoy should come first."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "Jane과 Maria는 식당에서 자신들의 직업에 대해 이야기했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에 식당에서 두 사람이 직업에 대해 이야기했다고 나온다.",
+      "_evidence_text": [
+        "At a restaurant, Jane and Maria talked about their jobs."
+      ],
+      "_repeat": false,
+      "statement_en": "Jane and Maria had a talk about their jobs while they were at a restaurant."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 사람은 두 직업 사이에 공통점이 전혀 없다는 데 동의했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "몇 가지 공통점이 있다는 데 동의했다고 했다.",
+      "_evidence_text": [
+        "They agreed that there are a few similarities."
+      ],
+      "_repeat": false,
+      "statement_en": "The two women agreed that the two jobs share nothing in common at all."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사와 예술가 모두 경쟁이 심하고 유명한 여성은 적다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에 경쟁이 많고 유명한 여성이 적다고 했다.",
+      "_evidence_text": [
+        "For both pilots and artists, there is a lot of competition and there are few famous women."
+      ],
+      "_repeat": false,
+      "statement_en": "Both pilots and artists face strong competition, and not many women in these jobs are famous."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 직업 모두 강해야 하지만 자신에 대한 확신은 필요하지 않다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "매우 강하고 자신에 대한 확신도 있어야 한다고 했다.",
+      "_evidence_text": [
+        "In both jobs, you have to be very strong and sure of yourself."
+      ],
+      "_repeat": false,
+      "statement_en": "People in both jobs need to be strong, but they do not need to be sure of themselves."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 직업 사이에는 차이점도 많이 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번 문장에 많은 차이점이 있다고 했다.",
+      "_evidence_text": [
+        "Of course, there are also many differences between the two jobs."
+      ],
+      "_repeat": false,
+      "statement_en": "The two jobs also have a lot of differences."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사와 예술가는 서로 다른 방식으로 강해야 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "6번 문장에 다른 방식으로 강해야 한다고 나온다.",
+      "_evidence_text": [
+        "Pilots and artists have to be strong in different ways."
+      ],
+      "_repeat": false,
+      "statement_en": "Pilots and artists need to be strong in ways that are not the same."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사는 오랜 시간 깨어 있어야 하고, 때로는 중요한 결정을 빨리 내려야 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장과 일치한다.",
+      "_evidence_text": [
+        "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly."
+      ],
+      "_repeat": false,
+      "statement_en": "Pilots need to keep their eyes open for many hours, and they sometimes must decide important things fast."
+    },
+    {
+      "type": "content",
+      "statement_ko": "예술가는 무엇보다 몸이 튼튼해야 한다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "예술가는 예술과 삶에 대한 생각에서 강해야 한다고 했다.",
+      "_evidence_text": [
+        "Artists, however, have to be strong in their ideas about art and life."
+      ],
+      "_repeat": false,
+      "statement_en": "The passage says that artists most of all need strong, healthy bodies."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 직업의 사람들은 일하는 방식도 서로 다르다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "9번 문장과 일치한다.",
+      "_evidence_text": [
+        "People in the two jobs also work in different ways."
+      ],
+      "_repeat": false,
+      "statement_en": "People in these two jobs also have different ways of working."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사는 보통 혼자 일하고, 예술가는 보통 다른 사람들과 함께 일한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "조종사가 다른 사람들과 일하고 예술가가 혼자 일한다고 했으므로 반대다.",
+      "_evidence_text": [
+        "Pilots usually work with other people, but artists usually work alone."
+      ],
+      "_repeat": false,
+      "statement_en": "Pilots usually work alone, while artists usually work together with other people."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사는 다른 사람들을 이해해야 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번 문장과 일치한다.",
+      "_evidence_text": [
+        "Pilots must understand other people."
+      ],
+      "_repeat": false,
+      "statement_en": "It is necessary for pilots to understand the people around them."
+    },
+    {
+      "type": "content",
+      "statement_ko": "예술가는 다른 사람들을 이해해야 한다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "예술가는 자기 자신을 이해해야 한다고 했다.",
+      "_evidence_text": [
+        "Artists must understand themselves."
+      ],
+      "_repeat": false,
+      "statement_en": "According to the passage, artists have to understand other people."
+    },
+    {
+      "type": "content",
+      "statement_ko": "마지막으로 언급한 차이점은 생활 방식의 차이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "13번 문장에 생활 방식의 중요한 차이라고 했다.",
+      "_evidence_text": [
+        "Finally, there is an important difference in lifestyle."
+      ],
+      "_repeat": false,
+      "statement_en": "The last difference mentioned is a difference in the way they live."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사는 일 때문에 여행을 하지만 집을 떠나 있는 일은 거의 없다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "조종사는 자주 집을 떠나 있다고 했다.",
+      "_evidence_text": [
+        "Pilots travel for their job and are often away from home."
+      ],
+      "_repeat": false,
+      "statement_en": "Pilots travel because of their job, but they are almost never away from home."
+    },
+    {
+      "type": "content",
+      "statement_ko": "예술가는 집이나 집 근처의 작업실에서 일한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "15번 문장과 일치한다.",
+      "_evidence_text": [
+        "Artists, however, work at home or in a studio near home."
+      ],
+      "_repeat": false,
+      "statement_en": "Artists do their work at home or in a studio close to their home."
+    },
+    {
+      "type": "content",
+      "statement_ko": "조종사도 예술가처럼 원할 때 일을 시작하고 멈출 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "조종사와 달리 예술가만 원할 때 일을 시작하고 멈출 수 있다고 했다.",
+      "_evidence_text": [
+        "Also, unlike pilots, artists can start and stop working when they want."
+      ],
+      "_repeat": false,
+      "statement_en": "Like artists, pilots can also begin and stop their work whenever they want."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jane은 비행기를 싫어해서 절대 조종사가 될 수 없다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "비행기를 싫어한다고 말한 사람은 Maria다.",
+      "_evidence_text": [
+        "Maria said she could never be a pilot because she hates airplanes."
+      ],
+      "_repeat": false,
+      "statement_en": "Jane said she could never become a pilot because she hates airplanes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jane은 혼자 일하는 것을 싫어해서 예술가가 될 수 없다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "18번 문장과 일치한다.",
+      "_evidence_text": [
+        "Jane said she could never be an artist because she hates working alone."
+      ],
+      "_repeat": false,
+      "statement_en": "Jane said she could never be an artist because she hates working by herself."
+    },
+    {
+      "type": "content",
+      "statement_ko": "직업을 고를 때 고려할 것이 많지만 자신이 즐기는 일이 가장 먼저라고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "19번 문장과 일치한다.",
+      "_evidence_text": [
+        "There are many things to think about when choosing a job, but what you enjoy should come first."
+      ],
+      "_repeat": false,
+      "statement_en": "The passage says there is much to think about in choosing a job, but the thing you enjoy should come first."
+    }
+  ],
+  "diagnostics": {
+    "returned": 19,
+    "kept": 19,
+    "by_type": {
+      "content": 19
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 11,
+      "X": 8
+    },
+    "sentences_covered": 19,
+    "sentence_count": 19,
+    "repeated": 0
+  }
+}

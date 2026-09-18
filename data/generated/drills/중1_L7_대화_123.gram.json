@@ -1,0 +1,371 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L7 대화 ①②③",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L7 대화-1",
+    "중1 L7 대화-2",
+    "중1 L7 대화-3"
+  ],
+  "body": "G: What do you want to be in the future, Minsu?\nB: I want to be a sports reporter.\nG: Oh, really? Do you watch a lot of sports games?\nB: Yes, I do. I’m interested in all kinds of sports.\nG: David, what are you making?\nB: I’m making pizza and pasta.\nG: They look delicious. Are you interested in Italian food?\nB: Yes, I am. I want to be a world-famous chef in the future!\nG: What’s this music, Hojin? It’s awesome.\nB: I’m writing a song with this computer program.\nG: You’re very good. Do you want to be a songwriter?\nB: Yes, I’m really interested in writing songs.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "c01a9f5a-6c00-45ca-9f32-ca025ef3847a",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 15,
+      "span_end": 25,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 쓴다. 동명사(being)나 원형(be)은 안 된다.",
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 형태로 바꾼 오답을 유도할 수 있다.",
+      "sentence_no": 1,
+      "sentence": "G: What do you want to be in the future, Minsu?"
+    },
+    {
+      "tag_id": "bf085571-64cc-49ef-a58d-87c84e0122c8",
+      "point": "PREP_USAGE",
+      "span_start": 26,
+      "span_end": 39,
+      "correct": "in the future",
+      "wrong": [
+        "on the future",
+        "at the future"
+      ],
+      "why_ko": "'미래에'는 굳어진 표현 in the future로 쓴다.",
+      "rationale": "'미래에'를 뜻하는 굳어진 부사구. 통째로 외워져 전치사가 눈에 안 들어오지만 [in / on / at] the future 형태로 빈칸 출제가 잦다.",
+      "sentence_no": 1,
+      "sentence": "G: What do you want to be in the future, Minsu?"
+    },
+    {
+      "tag_id": "4fe0d509-00d3-4649-97ed-03ab7806457a",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 58,
+      "span_end": 81,
+      "correct": "to be a sports reporter",
+      "wrong": [
+        "being a sports reporter",
+        "be a sports reporter"
+      ],
+      "why_ko": "want의 목적어는 to부정사이므로 to be가 맞다.",
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 형용사적·부사적 용법과 구별시키거나 being으로 바꾼 오답을 낼 수 있다.",
+      "sentence_no": 2,
+      "sentence": "B: I want to be a sports reporter."
+    },
+    {
+      "tag_id": "3e2d5b6d-8536-4e05-b21d-71eed01e3328",
+      "point": "VERB_SVA",
+      "span_start": 98,
+      "span_end": 110,
+      "correct": "Do you watch",
+      "wrong": [
+        "Does you watch",
+        "Do you watches"
+      ],
+      "why_ko": "주어 you의 일반동사 의문문은 Do + you + 동사원형이다.",
+      "rationale": "일반동사 의문문에서 주어 you에 맞는 조동사 Do. Does you watch / Do you watches 같은 수일치 오류를 심을 수 있다.",
+      "sentence_no": 4,
+      "sentence": "Do you watch a lot of sports games?"
+    },
+    {
+      "tag_id": "35d571c7-b0f8-4477-96f7-8ee874f9b9d4",
+      "point": "VERB_FINITE",
+      "span_start": 137,
+      "span_end": 147,
+      "correct": "Yes, I do.",
+      "wrong": [
+        "Yes, I does."
+      ],
+      "why_ko": "일반동사(watch) 질문에는 do로 답한다. am은 be동사 질문에 쓴다.",
+      "rationale": "앞 질문의 일반동사(watch)를 받는 대동사 do. am / does로 바꾼 오답 유도가 가능하다.",
+      "sentence_no": 5,
+      "sentence": "B: Yes, I do."
+    },
+    {
+      "tag_id": "e3e14016-d617-4b14-9bf7-e95728d720bb",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 148,
+      "span_end": 162,
+      "correct": "I’m interested",
+      "wrong": [
+        "I’m interesting",
+        "I interest"
+      ],
+      "why_ko": "사람이 관심을 '느끼는' 것이므로 be interested(수동)로 쓴다.",
+      "rationale": "감정동사 interest는 사람이 주어일 때 be + p.p.(수동) 형태. I'm interesting 처럼 현재분사로 바꾼 오답이 전형적이다.",
+      "sentence_no": 6,
+      "sentence": "I’m interested in all kinds of sports."
+    },
+    {
+      "tag_id": "07fd307d-cb9d-4b0b-9b13-7ab24a119da7",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 152,
+      "span_end": 165,
+      "correct": "interested in",
+      "wrong": [
+        "interested at",
+        "interested with"
+      ],
+      "why_ko": "be interested in은 전치사 in으로 굳어진 표현이다.",
+      "rationale": "be interested in은 고정된 전치사 결합. in 대신 at / on / with 를 넣거나 전치사를 삭제하는 오답이 흔하다.",
+      "sentence_no": 6,
+      "sentence": "I’m interested in all kinds of sports."
+    },
+    {
+      "tag_id": "443c1588-9dbc-40c0-b138-bd7badef5984",
+      "point": "VERB_TENSE",
+      "span_start": 197,
+      "span_end": 216,
+      "correct": "what are you making",
+      "wrong": [
+        "what you are making",
+        "what do you making"
+      ],
+      "why_ko": "의문문은 what + be동사 + 주어 + -ing 어순이고, 진행형에는 do를 쓰지 않는다.",
+      "rationale": "현재진행형 의문문 어순(what + be동사 + 주어 + -ing). 'what you are making' / 'what do you making' 같은 어순·형태 오류 유도 가능",
+      "sentence_no": 7,
+      "sentence": "G: David, what are you making?"
+    },
+    {
+      "tag_id": "88a9f133-b2c6-4b55-8dea-1df4e510de1e",
+      "point": "CONJ_PARALLEL",
+      "span_start": 221,
+      "span_end": 247,
+      "correct": "I’m making pizza and pasta",
+      "wrong": [
+        "I’m making pizza and to make pasta"
+      ],
+      "why_ko": "and로 명사 pizza와 pasta를 나란히 연결하는 것이 자연스러운 병렬이다.",
+      "rationale": "and로 명사 두 개(pizza, pasta)를 병렬 연결. 'pizza and making pasta'처럼 병렬 깨기 오류 유도 가능",
+      "sentence_no": 8,
+      "sentence": "B: I’m making pizza and pasta.",
+      "verify_dropped": [
+        {
+          "wrong": "I’m making pizza and making pasta",
+          "judgement": "ok",
+          "note_ko": "중복이지만 어법상 맞는 문장."
+        }
+      ]
+    },
+    {
+      "tag_id": "a9e1d128-f3dc-41fa-a97a-82d622d1691e",
+      "point": "VERB_SVA",
+      "span_start": 252,
+      "span_end": 261,
+      "correct": "They look",
+      "wrong": [
+        "They looks",
+        "They is look"
+      ],
+      "why_ko": "복수 주어 They에는 -s 없는 look을 쓴다.",
+      "rationale": "복수 주어 They에 맞춘 동사 원형 look. 'They looks' 수일치 오류 유도 가능",
+      "sentence_no": 9,
+      "sentence": "G: They look delicious."
+    },
+    {
+      "tag_id": "47f079ba-f170-4cff-97d5-c6598a68f7f4",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 257,
+      "span_end": 271,
+      "correct": "look delicious",
+      "wrong": [
+        "look deliciously",
+        "look to be deliciously"
+      ],
+      "why_ko": "감각동사 look 뒤에는 부사가 아니라 형용사 보어가 온다.",
+      "rationale": "감각동사 look 뒤에는 형용사 보어. 'look deliciously' 부사 오류 유도가 전형적 출제 지점",
+      "sentence_no": 9,
+      "sentence": "G: They look delicious."
+    },
+    {
+      "tag_id": "0816e8de-9da9-43bd-a782-d3d4b7f2ed0f",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 273,
+      "span_end": 291,
+      "correct": "Are you interested",
+      "wrong": [
+        "Are you interesting",
+        "Do you interested"
+      ],
+      "why_ko": "사람이 관심 있다고 할 때는 be interested를 쓴다.",
+      "rationale": "감정동사 interest의 수동형(be interested). 'Are you interesting'으로 바꾸는 분사 혼동 오류가 전형적",
+      "sentence_no": 10,
+      "sentence": "Are you interested in Italian food?"
+    },
+    {
+      "tag_id": "d5478fdf-944d-4016-b49e-dabafe561b6b",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 281,
+      "span_end": 294,
+      "correct": "interested in",
+      "wrong": [
+        "interested at",
+        "interested on"
+      ],
+      "why_ko": "be interested in은 정해진 전치사 결합이다.",
+      "rationale": "be interested in 고정 전치사. in을 at/with/on으로 바꾸거나 삭제하는 오류 유도",
+      "sentence_no": 10,
+      "sentence": "Are you interested in Italian food?"
+    },
+    {
+      "tag_id": "841de231-9fe4-4fcc-bbb9-483f2de018d5",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 325,
+      "span_end": 335,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want 다음에는 to부정사가 온다.",
+      "rationale": "want는 목적어로 to부정사를 취함. 'want being' 동명사 오류 유도",
+      "sentence_no": 12,
+      "sentence": "I want to be a world-famous chef in the future!"
+    },
+    {
+      "tag_id": "f311ae97-2189-41e2-9333-b67d9fee7513",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 336,
+      "span_end": 355,
+      "correct": "a world-famous chef",
+      "wrong": [
+        "a world-famously chef",
+        "a world famously chef"
+      ],
+      "why_ko": "명사 chef를 꾸미므로 형용사 world-famous가 맞다. 부사는 명사를 꾸미지 못한다.",
+      "rationale": "명사 chef를 앞에서 수식하는 복합형용사 world-famous. 부사형(world-famously)으로 바꾸는 오류 유도",
+      "sentence_no": 12,
+      "sentence": "I want to be a world-famous chef in the future!"
+    },
+    {
+      "tag_id": "4571ada7-1aae-457c-be1c-9d057533cf6d",
+      "point": "PREP_USAGE",
+      "span_start": 356,
+      "span_end": 369,
+      "correct": "in the future",
+      "wrong": [
+        "at the future",
+        "on the future"
+      ],
+      "why_ko": "'미래에'는 in the future로 쓴다.",
+      "rationale": "시간 표현 관용구 in the future. 굳어진 부사구라 전치사가 눈에 안 들어오는데 'on/at the future'로 빈칸 출제되기 쉬움",
+      "sentence_no": 12,
+      "sentence": "I want to be a world-famous chef in the future!"
+    },
+    {
+      "tag_id": "05fc5a0b-6d40-4f76-9a2e-16cfeca28562",
+      "point": "PRON_AGREEMENT",
+      "span_start": 400,
+      "span_end": 412,
+      "correct": "It’s awesome",
+      "wrong": [
+        "Its awesome"
+      ],
+      "why_ko": "It is의 줄임말은 It’s이고, its는 '그것의'라는 소유격이다. 또 music은 단수라 It으로 받는다.",
+      "rationale": "It’s(=It is)와 소유격 its의 구별. 「It’s awesome / Its awesome」 형태로 빈칸이나 오류 선지를 만들기 쉬운 자리. 또한 주어 It이 앞 문장의 this music을 지칭하므로 대명사 수·격 확인 지점.",
+      "sentence_no": 14,
+      "sentence": "It’s awesome.",
+      "verify_dropped": [
+        {
+          "wrong": "They’re awesome",
+          "judgement": "ok",
+          "note_ko": "어법상 맞고 지시 대상만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "59bb21bf-df2d-4214-8003-8265a99b5f27",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 474,
+      "span_end": 483,
+      "correct": "very good",
+      "wrong": [
+        "very goodly"
+      ],
+      "why_ko": "be동사(You’re)의 보어 자리이므로 형용사 good이 와야 한다.",
+      "rationale": "be동사의 보어 자리이므로 형용사 good이 와야 한다. 「You’re very well」처럼 부사로 바꾼 오답 선지 유도 가능.",
+      "sentence_no": 16,
+      "sentence": "G: You’re very good.",
+      "verify_dropped": [
+        {
+          "wrong": "very well",
+          "judgement": "ok",
+          "note_ko": "'건강하다'는 뜻으로 어법상 맞는 문장."
+        }
+      ]
+    },
+    {
+      "tag_id": "4534ac65-87e6-49ad-b1a1-2ec8c15a6084",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 492,
+      "span_end": 502,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want의 목적어는 to부정사이다.",
+      "rationale": "want는 목적어로 to부정사만 취한다. 「want being / want be a songwriter」 형태의 오류 선지가 전형적으로 출제된다.",
+      "sentence_no": 17,
+      "sentence": "Do you want to be a songwriter?"
+    },
+    {
+      "tag_id": "2d18e913-19bc-4ae5-bcb2-cf550e48817a",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 536,
+      "span_end": 549,
+      "correct": "interested in",
+      "wrong": [
+        "interesting in",
+        "interested at"
+      ],
+      "why_ko": "사람 주어일 때는 interested를 쓰고 전치사는 in이다.",
+      "rationale": "감정동사 interest의 수동형 be interested in(~에 관심이 있다). 「I’m really interesting in ~」처럼 현재분사로 바꾼 오류, 또는 전치사 in을 at/with로 바꾼 오류 유도.",
+      "sentence_no": 18,
+      "sentence": "B: Yes, I’m really interested in writing songs."
+    },
+    {
+      "tag_id": "b4981f72-c388-408c-a1d0-1a0b654e3cb3",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 547,
+      "span_end": 563,
+      "correct": "in writing songs",
+      "wrong": [
+        "in write songs",
+        "in to write songs"
+      ],
+      "why_ko": "전치사 in 뒤에는 동명사(writing)가 와야 한다.",
+      "rationale": "전치사 in의 목적어 자리이므로 동명사 writing이 와야 한다. 「in write songs / in to write songs」로 바꾼 오류 선지가 자주 나온다.",
+      "sentence_no": 18,
+      "sentence": "B: Yes, I’m really interested in writing songs."
+    }
+  ],
+  "diagnostics": {
+    "returned": 23,
+    "kept": 23,
+    "given": 23,
+    "rejects": [
+      [
+        "Yes, I do.",
+        "wrong 이 본문에 실재함: 'Yes, I am.'"
+      ]
+    ],
+    "verify": {
+      "dropped_items": [
+        [
+          "I’m writing a song",
+          "모든 오답이 실은 맞는 표현이라 버림: I write a song(ok), I wrote a song(ok)"
+        ],
+        [
+          "with this computer program",
+          "모든 오답이 실은 맞는 표현이라 버림: by this computer program(odd), in this computer program(ok)"
+        ]
+      ],
+      "dropped_wrongs": 3
+    }
+  },
+  "verified": true
+}

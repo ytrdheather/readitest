@@ -1,0 +1,667 @@
+{
+  "passage_id": "b8a3ab6e-40df-4691-8522-700cf1ecde93",
+  "body_text_sha256": "df8358f691d17df516bd60704b4b583396658a06204e6a297a487081dd159cec",
+  "tags": [
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 29,
+      "span_end": 41,
+      "surface": "It’s awesome",
+      "sentence_no": 2,
+      "rationale": "It’s(=It is)와 소유격 its의 구별. 「It’s awesome / Its awesome」 형태로 빈칸이나 오류 선지를 만들기 쉬운 자리. 또한 주어 It이 앞 문장의 this music을 지칭하므로 대명사 수·격 확인 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 46,
+      "span_end": 64,
+      "surface": "I’m writing a song",
+      "sentence_no": 3,
+      "rationale": "지금 음악이 들리고 있는 상황이므로 현재진행형이 맞다. 「I write a song / I wrote a song」처럼 단순현재·과거로 바꾸는 시제 오류 유도가 가능한 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 65,
+      "span_end": 91,
+      "surface": "with this computer program",
+      "sentence_no": 3,
+      "rationale": "도구·수단을 나타내는 전치사 with. 「by / in / on this computer program」으로 바꾸거나 전치사를 삭제하는 형태로 빈칸 출제가 매우 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 103,
+      "span_end": 112,
+      "surface": "very good",
+      "sentence_no": 4,
+      "rationale": "be동사의 보어 자리이므로 형용사 good이 와야 한다. 「You’re very well」처럼 부사로 바꾼 오답 선지 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 121,
+      "span_end": 131,
+      "surface": "want to be",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사만 취한다. 「want being / want be a songwriter」 형태의 오류 선지가 전형적으로 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 165,
+      "span_end": 178,
+      "surface": "interested in",
+      "sentence_no": 6,
+      "rationale": "감정동사 interest의 수동형 be interested in(~에 관심이 있다). 「I’m really interesting in ~」처럼 현재분사로 바꾼 오류, 또는 전치사 in을 at/with로 바꾼 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 176,
+      "span_end": 192,
+      "surface": "in writing songs",
+      "sentence_no": 6,
+      "rationale": "전치사 in의 목적어 자리이므로 동명사 writing이 와야 한다. 「in write songs / in to write songs」로 바꾼 오류 선지가 자주 나온다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": "What’s",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "평가·반응",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "정보 제공(상황 설명)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "칭찬(반응)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "확인질문(장래희망)",
+      "signal": "Do you want",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "결론문(관심·희망 확정)",
+      "signal": "Yes",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "④"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 옮긴 것이다. 어법상 <보기>에서 틀린 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "want는 목적어로 to부정사를 취하는 동사이므로 want being이 아니라 want to be가 되어야 한다(원문: Do you want to be a songwriter?). ①은 현재 진행 중인 일이므로 현재진행형이 맞고, ②는 It is의 축약 It’s가 맞으며, ④는 전치사 in 뒤에 동명사 writing이 온 올바른 형태, ⑤는 be동사 보어 자리의 형용사 good으로 맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        1,
+        0,
+        6,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I’m writing a song with this computer program.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It’s awesome.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Do you want being a songwriter?",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’m really interested in writing songs.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You’re very good.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\nB: I’m (a)[writing / write] a song with this computer program.\nG: Do you want (b)[to be / being] a songwriter?\nB: Yes, I’m really interested in (c)[write / writing] songs.",
+      "answer_key": "①",
+      "explanation": "(a) 앞에 I’m이 있고 지금 하고 있는 일이므로 현재진행형 writing. (b) want는 to부정사를 목적어로 취하므로 to be. (c) 전치사 in의 목적어이므로 동명사 writing. 따라서 ①.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) writing — (b) to be — (c) writing",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) write — (b) to be — (c) writing",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) writing — (b) being — (c) writing",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) writing — (b) to be — (c) write",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) write — (b) being — (c) write",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화를 아래와 같이 밑줄 쳐 제시했다. ①~⑤ 중 어법상 틀린 것을 고르시오.\nB: I ①am writing a song ②with this computer program.\nG: Do you want ③to be a songwriter?\nB: Yes, I’m really ④interested in ⑤write songs.",
+      "answer_key": "⑤",
+      "explanation": "⑤ 전치사 in 뒤에는 동사원형이 올 수 없고 동명사가 와야 하므로 write songs → writing songs. ①은 현재진행형, ②는 수단을 나타내는 전치사 with, ③은 want + to부정사, ④는 감정동사의 수동형 be interested in으로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "am writing",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "with this computer program",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "to be",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "interested in",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "write songs",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "틀린 것이 없다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름을 아래와 같이 바꾸었다. 문맥상 낱말의 쓰임이 적절하지 않은 것을 고르시오.\nG: What’s this music, Hojin? It’s ①awful.\nB: I’m ②writing a song with this computer ③program.\nG: You’re very ④good. Do you want to be a ⑤songwriter?",
+      "answer_key": "①",
+      "explanation": "소녀는 음악을 듣고 감탄하며 칭찬(You’re very good.)까지 하고 있으므로 '형편없다'는 뜻의 awful은 문맥에 맞지 않는다. 원문의 awesome(멋지다)이 알맞다. 나머지는 노래를 만드는 상황과 장래희망 대화에 자연스럽게 들어맞는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "awful",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "writing",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "program",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "good",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "songwriter",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 I’m really interested in writing songs가 뜻하는 것으로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "be interested in -ing는 '~하는 것에 관심(흥미)이 있다'는 뜻이고, writing songs는 '노래를 만드는(작곡하는) 것'이다. 따라서 ①이 알맞다. 노래를 부르거나 듣는 것, 프로그램을 만드는 것에 대한 말이 아니다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "나는 노래를 만드는 일에 정말 관심이 있다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "나는 노래를 정말 잘 부른다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "나는 노래 가사를 외우는 것이 재미있다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "나는 다른 사람의 노래를 듣는 것을 좋아한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "나는 컴퓨터 프로그램을 만드는 일에 흥미가 있다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
+      "answer_key": "①",
+      "explanation": "호진이 컴퓨터 프로그램으로 노래를 만들고 있다는 사실과, 작곡가가 되고 싶은지에 대한 대화이므로 ①이 주제이다. 프로그램 구입, 콘서트, 기타 학습, 숙제는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Hojin’s songwriting and his future dream",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to buy a new computer program",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A concert they went to last week",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The best way to learn the guitar",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A music homework they must finish",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about the dialogue?",
+      "answer_key": "④",
+      "explanation": "호진은 작곡가가 되고 싶은 마음과 작곡에 대한 관심을 말했을 뿐, 이미 유명한 작곡가가 되었다는 내용은 없다. ①은 It’s awesome., ②는 I’m writing a song with this computer program., ③은 You’re very good., ⑤는 I’m really interested in writing songs.에서 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl thinks the music is awesome.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Hojin is writing a song with a computer program.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl praises Hojin’s ability.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Hojin has already become a famous songwriter.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Hojin is interested in writing songs.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "Choose the best expression for the blank.\nG: Do you want to be a songwriter?\nB: Yes, I’m really interested in ______.",
+      "answer_key": "①",
+      "explanation": "앞에서 소녀가 '작곡가가 되고 싶은지' 물었고 호진은 Yes로 답했으므로, 관심 대상은 '노래를 만드는 것(writing songs)'이어야 한다. 나머지는 작곡가라는 장래희망과 연결되지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "writing songs",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "playing soccer",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "reading comic books",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "fixing computers",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "taking pictures",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 내용을 옮긴 다음 두 문장에서 어법상 틀린 부분을 찾아 각각 바르게 고쳐 쓰시오.\n(1) Do you want being a songwriter?\n(2) I’m really interested in write songs.",
+      "answer_key": "(1) being → to be  (2) write → writing",
+      "explanation": "(1) want는 목적어로 to부정사를 취하므로 being을 to be로 고친다. (2) 전치사 in 뒤에는 동명사가 와야 하므로 write를 writing으로 고친다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n「나는 이 컴퓨터 프로그램으로 노래를 만들고 있어.」\n(a song / this computer program / writing / I’m / with)",
+      "answer_key": "I’m writing a song with this computer program.",
+      "explanation": "현재진행형 I’m writing 다음에 목적어 a song을 쓰고, '~으로(수단)'를 뜻하는 전치사 with를 써서 with this computer program을 이어 붙인다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "④"
+        ]
+      }
+    ]
+  }
+}

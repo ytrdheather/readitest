@@ -1,0 +1,836 @@
+{
+  "set": "영일중1_L7",
+  "title": "동아 윤정미 중1 L7 어휘 — 영일",
+  "sources": {
+    "school": [
+      "영일중1_L7_vocab_handout"
+    ],
+    "jasup": "중1_L7_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 중1 L7 어휘 — 영일",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "manager",
+              "answer": "관리자"
+            },
+            {
+              "word": "location",
+              "answer": "장소"
+            },
+            {
+              "word": "editor",
+              "answer": "편집자"
+            },
+            {
+              "word": "be in charge of",
+              "answer": "~을 담당하다"
+            },
+            {
+              "word": "calm",
+              "answer": "진정시키다"
+            },
+            {
+              "word": "delete",
+              "answer": "지우다, 삭제하다"
+            },
+            {
+              "word": "capture",
+              "answer": "포착하다"
+            },
+            {
+              "word": "shoot",
+              "answer": "촬영하다"
+            },
+            {
+              "word": "photography",
+              "answer": "사진〔촬영〕술"
+            },
+            {
+              "word": "moment",
+              "answer": "순간"
+            },
+            {
+              "word": "train",
+              "answer": "훈련하다"
+            },
+            {
+              "word": "signal",
+              "answer": "신호"
+            },
+            {
+              "word": "storytelling",
+              "answer": "이야기하기"
+            },
+            {
+              "word": "record",
+              "answer": "녹음하다, 녹화하다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "진정시키다",
+              "answer": "calm"
+            },
+            {
+              "ko": "~을 담당하다",
+              "answer": "be in charge of"
+            },
+            {
+              "ko": "포착하다",
+              "answer": "capture"
+            },
+            {
+              "ko": "순간",
+              "answer": "moment"
+            },
+            {
+              "ko": "훈련하다",
+              "answer": "train"
+            },
+            {
+              "ko": "지우다, 삭제하다",
+              "answer": "delete"
+            },
+            {
+              "ko": "신호",
+              "answer": "signal"
+            },
+            {
+              "ko": "관리자",
+              "answer": "manager"
+            },
+            {
+              "ko": "촬영하다",
+              "answer": "shoot"
+            },
+            {
+              "ko": "이야기하기",
+              "answer": "storytelling"
+            },
+            {
+              "ko": "사진〔촬영〕술",
+              "answer": "photography"
+            },
+            {
+              "ko": "편집자",
+              "answer": "editor"
+            },
+            {
+              "ko": "녹음하다, 녹화하다",
+              "answer": "record"
+            },
+            {
+              "ko": "장소",
+              "answer": "location"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "a person who is in charge of people or work in a company, team, or place",
+              "ko": "관리자",
+              "answer": "manager"
+            },
+            {
+              "def_en": "a real place outside a studio where a movie, TV show, or video is filmed",
+              "ko": "장소",
+              "answer": "location"
+            },
+            {
+              "def_en": "a person who leads and makes big decisions in a company, movie, or show",
+              "ko": "",
+              "answer": "director"
+            },
+            {
+              "def_en": "a person who takes care of and controls animals, especially horses or cows",
+              "ko": "",
+              "answer": "wrangler"
+            },
+            {
+              "def_en": "a person who creates sounds (like footsteps, doors closing, or clothes moving) to make a movie or show sound real",
+              "ko": "",
+              "answer": "Foley artist"
+            },
+            {
+              "def_en": "a person who checks and changes writing, videos, or pictures to make them better",
+              "ko": "편집자",
+              "answer": "editor"
+            },
+            {
+              "def_en": "to be the person who controls or manages something",
+              "ko": "~을 담당하다",
+              "answer": "be in charge of"
+            },
+            {
+              "def_en": "to help, protect, or look after someone or something",
+              "ko": "",
+              "answer": "take care of"
+            },
+            {
+              "def_en": "to make someone or something feel quiet and not afraid, angry, or excited",
+              "ko": "진정시키다",
+              "answer": "calm"
+            },
+            {
+              "def_en": "to remove something, like words, pictures, or files",
+              "ko": "지우다, 삭제하다",
+              "answer": "delete"
+            },
+            {
+              "def_en": "to film or take a photo of something so you don't forget it and others can see it",
+              "ko": "포착하다",
+              "answer": "capture"
+            },
+            {
+              "def_en": "the feeling or relationship between friends",
+              "ko": "",
+              "answer": "friendship"
+            },
+            {
+              "def_en": "to think of and make a new story, character, or idea",
+              "ko": "",
+              "answer": "create"
+            },
+            {
+              "def_en": "the land next to a sea, lake, or ocean, usually with sand or small stones",
+              "ko": "",
+              "answer": "beach"
+            },
+            {
+              "def_en": "to use a camera to record a video or take a photograph",
+              "ko": "촬영하다",
+              "answer": "shoot"
+            },
+            {
+              "def_en": "using a camera to film scenes for a movie, TV show, or video",
+              "ko": "",
+              "answer": "shooting"
+            },
+            {
+              "def_en": "something that is hard to do but helps you grow or learn",
+              "ko": "",
+              "answer": "challenge"
+            },
+            {
+              "def_en": "the art or work of using a camera to take pictures or record video",
+              "ko": "사진〔촬영〕술",
+              "answer": "photography"
+            },
+            {
+              "def_en": "a very short amount of time, or a special time",
+              "ko": "순간",
+              "answer": "moment"
+            },
+            {
+              "def_en": "a small flying machine with no pilot inside, controlled by a person or computer",
+              "ko": "",
+              "answer": "drone"
+            },
+            {
+              "def_en": "to help a person or animal learn a skill by practicing again and again",
+              "ko": "훈련하다",
+              "answer": "train"
+            },
+            {
+              "def_en": "for many minutes, hours, days, or years",
+              "ko": "",
+              "answer": "for a long time"
+            },
+            {
+              "def_en": "at certain times, but not always",
+              "ko": "",
+              "answer": "sometimes"
+            },
+            {
+              "def_en": "a sound, light, action, or sign that gives information or tells someone to do something",
+              "ko": "신호",
+              "answer": "signal"
+            },
+            {
+              "def_en": "to make something different, or to become different",
+              "ko": "",
+              "answer": "change"
+            },
+            {
+              "def_en": "the skill of creating and telling stories in an interesting way",
+              "ko": "이야기하기",
+              "answer": "storytelling"
+            },
+            {
+              "def_en": "a sound or image added to make something more real in a movie",
+              "ko": "",
+              "answer": "effect"
+            },
+            {
+              "def_en": "a place where people make things like music, sound, videos, or art",
+              "ko": "",
+              "answer": "studio"
+            },
+            {
+              "def_en": "a moving area of water that rises and falls, usually in the sea or ocean",
+              "ko": "",
+              "answer": "wave"
+            },
+            {
+              "def_en": "feeling very happy and full of energy because something good is happening",
+              "ko": "",
+              "answer": "excited"
+            },
+            {
+              "def_en": "a light and strong material that people use to make boxes, bottles, and many other things",
+              "ko": "",
+              "answer": "plastic"
+            },
+            {
+              "def_en": "something you use to keep, hold, or carry things, like food, water, or toys",
+              "ko": "",
+              "answer": "container"
+            },
+            {
+              "def_en": "a part of a movie, play, or story where something happens",
+              "ko": "",
+              "answer": "scene"
+            },
+            {
+              "def_en": "to store music, sounds, or pictures on tape or disks",
+              "ko": "녹음하다, 녹화하다",
+              "answer": "record"
+            },
+            {
+              "def_en": "saving sound or video using a microphone or camera, so you can use it later",
+              "ko": "",
+              "answer": "recording"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "location",
+                  "ko": "장소",
+                  "def_en": "a real place outside a studio where a movie, TV show, or video is filmed",
+                  "example_en": "Can you tell me the location of the restaurant?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "calm",
+                  "ko": "진정시키다",
+                  "def_en": "to make someone or something feel quiet and not afraid, angry, or excited",
+                  "example_en": "Please try to calm him.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "storytelling",
+                  "ko": "이야기하기",
+                  "def_en": "the skill of creating and telling stories in an interesting way",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "effect",
+                  "ko": "",
+                  "def_en": "a sound or image added to make something more real in a movie",
+                  "example_en": "Exercise has a positive effect on your health.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "location",
+                "storytelling",
+                "effect",
+                "calm"
+              ],
+              "kos": [
+                "장소",
+                "",
+                "이야기하기",
+                "진정시키다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "editor",
+                  "ko": "편집자",
+                  "def_en": "a person who checks and changes writing, videos, or pictures to make them better",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "Foley artist",
+                  "ko": "",
+                  "def_en": "a person who creates sounds (like footsteps, doors closing, or clothes moving) to make a movie or show sound real",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "plastic",
+                  "ko": "",
+                  "def_en": "a light and strong material that people use to make boxes, bottles, and many other things",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "photography",
+                  "ko": "사진〔촬영〕술",
+                  "def_en": "the art or work of using a camera to take pictures or record video",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "editor",
+                "Foley artist",
+                "plastic",
+                "photography"
+              ],
+              "kos": [
+                "편집자",
+                "사진〔촬영〕술",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "scene",
+                  "ko": "",
+                  "def_en": "a part of a movie, play, or story where something happens",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "director",
+                  "ko": "",
+                  "def_en": "a person who leads and makes big decisions in a company, movie, or show",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "studio",
+                  "ko": "",
+                  "def_en": "a place where people make things like music, sound, videos, or art",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "sometimes",
+                  "ko": "",
+                  "def_en": "at certain times, but not always",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "studio",
+                "sometimes",
+                "director",
+                "scene"
+              ],
+              "kos": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "container",
+                  "ko": "",
+                  "def_en": "something you use to keep, hold, or carry things, like food, water, or toys",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "drone",
+                  "ko": "",
+                  "def_en": "a small flying machine with no pilot inside, controlled by a person or computer",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "wrangler",
+                  "ko": "",
+                  "def_en": "a person who takes care of and controls animals, especially horses or cows",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "for a long time",
+                  "ko": "",
+                  "def_en": "for many minutes, hours, days, or years",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "drone",
+                "wrangler",
+                "for a long time",
+                "container"
+              ],
+              "kos": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "record",
+                  "ko": "녹음하다, 녹화하다",
+                  "def_en": "to store music, sounds, or pictures on tape or disks",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "train",
+                  "ko": "훈련하다",
+                  "def_en": "to help a person or animal learn a skill by practicing again and again",
+                  "example_en": "They train and take care of animals for movies.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "challenge",
+                  "ko": "",
+                  "def_en": "something that is hard to do but helps you grow or learn",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "excited",
+                  "ko": "",
+                  "def_en": "feeling very happy and full of energy because something good is happening",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "train",
+                "record",
+                "challenge",
+                "excited"
+              ],
+              "kos": [
+                "",
+                "훈련하다",
+                "녹음하다, 녹화하다",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "take care of",
+                  "ko": "",
+                  "def_en": "to help, protect, or look after someone or something",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "moment",
+                  "ko": "순간",
+                  "def_en": "a very short amount of time, or a special time",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "shoot",
+                  "ko": "촬영하다",
+                  "def_en": "to use a camera to record a video or take a photograph",
+                  "example_en": "Where are you going to shoot the movie?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "shooting",
+                  "ko": "",
+                  "def_en": "using a camera to film scenes for a movie, TV show, or video",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "take care of",
+                "shoot",
+                "moment",
+                "shooting"
+              ],
+              "kos": [
+                "촬영하다",
+                "",
+                "",
+                "순간"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "manager",
+                  "ko": "관리자",
+                  "def_en": "a person who is in charge of people or work in a company, team, or place",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "be in charge of",
+                  "ko": "~을 담당하다",
+                  "def_en": "to be the person who controls or manages something",
+                  "example_en": "I'm in charge of everything in this kitchen.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "beach",
+                  "ko": "",
+                  "def_en": "the land next to a sea, lake, or ocean, usually with sand or small stones",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "recording",
+                  "ko": "",
+                  "def_en": "saving sound or video using a microphone or camera, so you can use it later",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "recording",
+                "be in charge of",
+                "manager",
+                "beach"
+              ],
+              "kos": [
+                "관리자",
+                "",
+                "",
+                "~을 담당하다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "signal",
+                  "ko": "신호",
+                  "def_en": "a sound, light, action, or sign that gives information or tells someone to do something",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "friendship",
+                  "ko": "",
+                  "def_en": "the feeling or relationship between friends",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "delete",
+                  "ko": "지우다, 삭제하다",
+                  "def_en": "to remove something, like words, pictures, or files",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "capture",
+                  "ko": "포착하다",
+                  "def_en": "to film or take a photo of something so you don't forget it and others can see it",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "delete",
+                "capture",
+                "signal",
+                "friendship"
+              ],
+              "kos": [
+                "지우다, 삭제하다",
+                "신호",
+                "",
+                "포착하다"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "We wear warm __________ in winter.",
+                "answer": "clothes",
+                "ko": ""
+              },
+              {
+                "sentence": "Where are you going to __________ the movie?",
+                "answer": "shoot",
+                "ko": ""
+              },
+              {
+                "sentence": "I'm __________ everything in this kitchen.",
+                "answer": "be in charge of",
+                "ko": ""
+              },
+              {
+                "sentence": "She loves to __________ a new recipe.",
+                "answer": "create",
+                "ko": ""
+              },
+              {
+                "sentence": "Please try to __________ him.",
+                "answer": "calm",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "They __________ and take care of animals for movies.",
+                "answer": "train",
+                "ko": ""
+              },
+              {
+                "sentence": "Can you tell me the __________ of the restaurant?",
+                "answer": "location",
+                "ko": ""
+              },
+              {
+                "sentence": "Exercise has a positive __________ on your health.",
+                "answer": "effect",
+                "ko": ""
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 62,
+      "counts": {
+        "both": 28,
+        "def": 35,
+        "match": 32,
+        "cloze": 8
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "동아 윤정미 중1 L7 어휘 — 영일",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "skill",
+              "answer": "기술"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "기술",
+              "answer": "skill"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "the ability to do something very well because you have learned it",
+              "ko": "기술",
+              "answer": "skill"
+            }
+          ]
+        }
+      ],
+      "n_words": 1,
+      "counts": {
+        "both": 2,
+        "def": 1
+      }
+    }
+  ]
+}

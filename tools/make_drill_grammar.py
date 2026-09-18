@@ -66,10 +66,16 @@ UNITS = [
     ("중1 L5 대화 ⑦⑧", ["중1 L5 대화-7", "중1 L5 대화-8"]),
     ("중1 L5 본문 — Who Threw a Cake at the Monalisa?",
      ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+    ("중1 L7 대화 ①②③", ["중1 L7 대화-1", "중1 L7 대화-2", "중1 L7 대화-3"]),
+    ("중1 L7 대화 ④⑤⑥", ["중1 L7 대화-4", "중1 L7 대화-5", "중1 L7 대화-6"]),
+    ("중1 L7 대화 ⑦⑧", ["중1 L7 대화-7", "중1 L7 대화-8"]),
+    ("중1 L7 본문 — Let’s Make a Movie!", ["중1 L7 본문 — Let’s Make a Movie!"]),
+    ("중1 L7 외부지문 — Two Different Jobs", ["Two Different Jobs"]),
 ]
 EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부물",
             "L6 외부지문 — Yu Gwansun": "영덕중 배부물",
-            "L6 외부지문 — Homer B. Hulbert": "영덕중 배부물"}
+            "L6 외부지문 — Homer B. Hulbert": "영덕중 배부물",
+            "중1 L7 외부지문 — Two Different Jobs": "영일중 배부물"}
 
 
 def slug(title):

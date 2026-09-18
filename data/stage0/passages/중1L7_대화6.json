@@ -14,14 +14,17 @@
   "body_text_sha256": "639624def2952bafc7ea4449c4921ce06f69f6f9f8b95cd2dba276762622c610",
   "word_count": 29,
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "workbook_pdf_text_layer",
     "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 7과 추출.pdf",
     "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
     "has_handwriting": false,
     "has_cutoff": false,
     "unreadable_spans": [],
-    "needs_review_sentences": []
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-18T15:27:47.780967+00:00",
+    "confirmed_via": "전사확인지_중1_L7.html 육안 대조 · 「ㅇㅋ 괜찮아」 + 영일 학습지 6쪽 받아쓰기와 대화-1~5 일치 (2026-09-19)"
   },
   "distribution_scope": "internal_only",
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
