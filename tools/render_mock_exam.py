@@ -31,7 +31,7 @@ except Exception:
 CIRCLED = "①②③④⑤"
 
 CSS = FONT + """
-@page { size: A4; margin: 12mm 11mm 8mm; }
+@page { size: A4; margin: 12mm 11mm 12mm; }   /* 바닥 12mm: 쪽수 자리 (디자인 지침 1) */
 body { font-family: Pretendard,'Malgun Gothic',sans-serif; font-size: 9pt;
        line-height: 1.5; color: #111; }
 .logo { height: 9mm; margin-bottom: 1mm; }

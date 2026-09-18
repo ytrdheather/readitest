@@ -26,6 +26,7 @@ import tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from tools.build_drill_pdf import find_chrome, to_pdf                 # noqa: E402
+from tools.pdf_pages import stamp_file                                # noqa: E402
 from tools.render_mock_exam import build                              # noqa: E402
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO             # noqa: E402
 
@@ -67,6 +68,7 @@ def main():
                 pdf = os.path.join(a.out, f"{base}{suffix}.pdf")
                 io.open(html, "w", encoding="utf-8").write(build(d, logo, part))
                 to_pdf(chrome, html, pdf)
+                stamp_file(pdf)                  # 아래 가운데 쪽수 — 디자인 지침 1
             flag = f"   ⚠ {' / '.join(bad)}" if bad else ""
             print(f"  {base}  선택 {len(d['items'])} · 서술 {len(d['essays'])} · "
                   f"{d['diagnostics']['total_points']}점{flag}")

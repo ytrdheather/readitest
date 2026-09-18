@@ -56,6 +56,7 @@ import tempfile
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from pypdf import PdfReader, PdfWriter                                # noqa: E402
+from tools.pdf_pages import save_pdf                                  # noqa: E402
 from tools.render_drill_tf import build                               # noqa: E402
 from tools.render_drill_vocab import build as build_vocab             # noqa: E402
 from tools.render_drill_grammar import build as build_gram            # noqa: E402
@@ -256,8 +257,7 @@ def make_book(chrome, tmp, out_dir, book, paths, render, skip=None):
         n_set += 1
         n_page += len(r.pages)
     dest = os.path.join(out_dir, f"{book}.pdf")
-    with open(dest, "wb") as f:
-        writer.write(f)
+    save_pdf(writer, dest)                       # 아래 가운데 쪽수 — 디자인 지침 1
     print(f"  {book:24} {n_set:>2}세트 · {n_page:>2}쪽  →  {dest}")
 
 

@@ -34,7 +34,7 @@ except Exception:
     pass
 
 CSS = FONT + """
-@page { size: A4; margin: 11mm 12mm 7mm; }
+@page { size: A4; margin: 11mm 12mm 12mm; }   /* 바닥 12mm: 쪽수 자리 (디자인 지침 1) */
 body { font-family: Pretendard, 'Malgun Gothic', sans-serif; font-size: 10.5pt;
        line-height: 1.5; color: #111; }
 .logo { height: 10mm; margin-bottom: 1mm; }

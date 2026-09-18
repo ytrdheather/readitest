@@ -43,6 +43,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from pypdf import PdfReader, PdfWriter                                # noqa: E402
 from tools.build_drill_pdf import DRILLS, ORDER, find_chrome, to_pdf  # noqa: E402
+from tools.pdf_pages import save_pdf                                  # noqa: E402
 from tools.render_drill_tf import build as build_tf                   # noqa: E402
 from tools.render_drill_vocab import build as build_vocab             # noqa: E402
 from tools.render_drill_grammar import build as build_gram            # noqa: E402
@@ -188,9 +189,7 @@ def assemble(plan, renderer, part, dest):
                 pas_item = w.add_outline_item(title, start, parent=sec_item)
             w.add_outline_item(label, start, parent=pas_item)
             n_sets += 1
-    os.makedirs(os.path.dirname(dest), exist_ok=True)
-    with open(dest, "wb") as f:
-        w.write(f)
+    save_pdf(w, dest)                            # 아래 가운데 쪽수 — 디자인 지침 1
     return n_sets, len(w.pages)
 
 
