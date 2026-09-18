@@ -1,0 +1,577 @@
+{
+  "school": "영일중",
+  "grade": 1,
+  "lesson": 7,
+  "unit_title": "Find Your Dream",
+  "source": "영일중1 L7 학습지 22쪽 (Z:/…/2026 2학기 학교 프린트 모음/영일중1 L7.pdf) — 1~2쪽 New Words 62개 · 3~4쪽 영영풀이 33개 · 5쪽 Vocabulary activity",
+  "source_note": "스캔 + 학생 손글씨. 1~2쪽의 우리말 뜻 칸은 학생 손글씨라 옮기지 않았다 (ko=null) — 드릴은 자습서 뜻(중1_L7_vocab.json)으로 채운다. 3~4쪽 영영풀이는 인쇄돼 있어 그대로 옮겼다 (학교 자체 정의 — 자습서와 다르다).",
+  "read_at": "2026-09-19",
+  "read_by": "Claude (비전 판독, 인쇄 글자만)",
+  "format": "영일 형식 = 영영풀이 빈칸. 3~4쪽: [보기] 33단어에서 영영풀이에 맞는 단어를 골라 쓰고 우리말 뜻 쓰기. 5쪽: 영영풀이 첫 철자 + 대화 빈칸 + 문맥 빈칸. 중2 영일 L5 프린트와 같은 꼴 (vocab/README.md §1).",
+  "why_best": "학교가 시험 범위로 지정한 New Words 62개와, 학교가 직접 쓴 영영풀이 33개. 영영풀이 문항은 이 정의문으로 낸다 — 자습서 정의와 문장이 다르다.",
+  "words": [
+    {
+      "no": 1,
+      "word": "be interested in",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 2,
+      "word": "racer",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 3,
+      "word": "guitarist",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 4,
+      "word": "sports reporter",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 5,
+      "word": "delicious",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 6,
+      "word": "Italian",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 7,
+      "word": "world famous",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 8,
+      "word": "awesome",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 9,
+      "word": "songwriter",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 10,
+      "word": "write",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 11,
+      "word": "fashion",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 12,
+      "word": "fashion designer",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 13,
+      "word": "clothes",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "We wear warm clothes in winter.",
+      "printed_note": null
+    },
+    {
+      "no": 14,
+      "word": "cameraman",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 15,
+      "word": "food stylist",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 16,
+      "word": "fashion model",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 17,
+      "word": "scientist",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 18,
+      "word": "fly",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "= (v) pilot"
+    },
+    {
+      "no": 19,
+      "word": "pilot",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 20,
+      "word": "engineer",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 21,
+      "word": "be good at",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 22,
+      "word": "manager",
+      "ko": null,
+      "def_en": "a person who is in charge of people or work in a company, team, or place",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 23,
+      "word": "location",
+      "ko": null,
+      "def_en": "a real place outside a studio where a movie, TV show, or video is filmed",
+      "def_src": "학교",
+      "example_en": "Can you tell me the location of the restaurant?",
+      "printed_note": null
+    },
+    {
+      "no": 24,
+      "word": "on location",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 25,
+      "word": "director",
+      "ko": null,
+      "def_en": "a person who leads and makes big decisions in a company, movie, or show",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 26,
+      "word": "wrangle",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 27,
+      "word": "wrangler",
+      "ko": null,
+      "def_en": "a person who takes care of and controls animals, especially horses or cows",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 28,
+      "word": "Foley artist",
+      "ko": null,
+      "def_en": "a person who creates sounds (like footsteps, doors closing, or clothes moving) to make a movie or show sound real",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 29,
+      "word": "editor",
+      "ko": null,
+      "def_en": "a person who checks and changes writing, videos, or pictures to make them better",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 30,
+      "word": "be in charge of",
+      "ko": null,
+      "def_en": "to be the person who controls or manages something",
+      "def_src": "학교",
+      "example_en": "I'm in charge of everything in this kitchen.",
+      "printed_note": null
+    },
+    {
+      "no": 31,
+      "word": "take care of",
+      "ko": null,
+      "def_en": "to help, protect, or look after someone or something",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 32,
+      "word": "calm",
+      "ko": null,
+      "def_en": "to make someone or something feel quiet and not afraid, angry, or excited",
+      "def_src": "학교",
+      "example_en": "Please try to calm him.",
+      "printed_note": null
+    },
+    {
+      "no": 33,
+      "word": "delete",
+      "ko": null,
+      "def_en": "to remove something, like words, pictures, or files",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 34,
+      "word": "by mistake",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "(반) on purpose"
+    },
+    {
+      "no": 35,
+      "word": "capture",
+      "ko": null,
+      "def_en": "to film or take a photo of something so you don't forget it and others can see it",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 36,
+      "word": "friendship",
+      "ko": null,
+      "def_en": "the feeling or relationship between friends",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 37,
+      "word": "create",
+      "ko": null,
+      "def_en": "to think of and make a new story, character, or idea",
+      "def_src": "학교",
+      "example_en": "She loves to create a new recipe.",
+      "printed_note": null
+    },
+    {
+      "no": 38,
+      "word": "between A and B",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 39,
+      "word": "beach",
+      "ko": null,
+      "def_en": "the land next to a sea, lake, or ocean, usually with sand or small stones",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 40,
+      "word": "shoot",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Where are you going to shoot the movie?",
+      "printed_note": null
+    },
+    {
+      "no": 41,
+      "word": "shooting",
+      "ko": null,
+      "def_en": "using a camera to film scenes for a movie, TV show, or video",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 42,
+      "word": "challenge",
+      "ko": null,
+      "def_en": "something that is hard to do but helps you grow or learn",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 43,
+      "word": "photography",
+      "ko": null,
+      "def_en": "the art or work of using a camera to take pictures or record video",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 44,
+      "word": "photograph",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 45,
+      "word": "photographer",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 46,
+      "word": "moment",
+      "ko": null,
+      "def_en": "a very short amount of time, or a special time",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 47,
+      "word": "drone",
+      "ko": null,
+      "def_en": "a small flying machine with no pilot inside, controlled by a person or computer",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 48,
+      "word": "train",
+      "ko": null,
+      "def_en": "to help a person or animal learn a skill by practicing again and again",
+      "def_src": "학교",
+      "example_en": "They train and take care of animals for movies.",
+      "printed_note": null
+    },
+    {
+      "no": 49,
+      "word": "for a long time",
+      "ko": null,
+      "def_en": "for many minutes, hours, days, or years",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 50,
+      "word": "sometimes",
+      "ko": null,
+      "def_en": "at certain times, but not always",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": "= on occasion = occasionally"
+    },
+    {
+      "no": 51,
+      "word": "signal",
+      "ko": null,
+      "def_en": "a sound, light, action, or sign that gives information or tells someone to do something",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 52,
+      "word": "change",
+      "ko": null,
+      "def_en": "to make something different, or to become different",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 53,
+      "word": "storytelling",
+      "ko": null,
+      "def_en": "the skill of creating and telling stories in an interesting way",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 54,
+      "word": "effect",
+      "ko": null,
+      "def_en": "a sound or image added to make something more real in a movie",
+      "def_src": "학교",
+      "example_en": "Exercise has a positive effect on your health.",
+      "printed_note": "sound effect"
+    },
+    {
+      "no": 55,
+      "word": "studio",
+      "ko": null,
+      "def_en": "a place where people make things like music, sound, videos, or art",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 56,
+      "word": "wave",
+      "ko": null,
+      "def_en": "a moving area of water that rises and falls, usually in the sea or ocean",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 57,
+      "word": "excited",
+      "ko": null,
+      "def_en": "feeling very happy and full of energy because something good is happening",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 58,
+      "word": "plastic",
+      "ko": null,
+      "def_en": "a light and strong material that people use to make boxes, bottles, and many other things",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 59,
+      "word": "container",
+      "ko": null,
+      "def_en": "something you use to keep, hold, or carry things, like food, water, or toys",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 60,
+      "word": "scene",
+      "ko": null,
+      "def_en": "a part of a movie, play, or story where something happens",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 61,
+      "word": "record",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 62,
+      "word": "recording",
+      "ko": null,
+      "def_en": "saving sound or video using a microphone or camera, so you can use it later",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    }
+  ],
+  "defs_only": {
+    "skill": "an ability to do something very well because you have learned it",
+    "_note": "5쪽 A 에 있고 New Words 목록엔 없다"
+  },
+  "distribution_scope": "internal_only"
+}

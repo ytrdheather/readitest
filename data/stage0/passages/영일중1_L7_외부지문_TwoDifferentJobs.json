@@ -1,0 +1,71 @@
+{
+  "passage_id": "영일중1_L7_외부지문_TwoDifferentJobs",
+  "kind": "handout_external",
+  "title": "Two Different Jobs",
+  "school": "영일중학교",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "학교 배부물",
+  "body_text": "At a restaurant, Jane and Maria talked about their jobs. They agreed that there are a few similarities. For both pilots and artists, there is a lot of competition and there are few famous women. In both jobs, you have to be very strong and sure of yourself. Of course, there are also many differences between the two jobs. Pilots and artists have to be strong in different ways. Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly. Artists, however, have to be strong in their ideas about art and life. People in the two jobs also work in different ways. Pilots usually work with other people, but artists usually work alone. Pilots must understand other people. Artists must understand themselves. Finally, there is an important difference in lifestyle. Pilots travel for their job and are often away from home. Artists, however, work at home or in a studio near home. Also, unlike pilots, artists can start and stop working when they want. Maria said she could never be a pilot because she hates airplanes. Jane said she could never be an artist because she hates working alone. There are many things to think about when choosing a job, but what you enjoy should come first.",
+  "body_text_sha256": "7b147593da342f01cf4fd3819014599b414b2bd78f739a8c0fd7e8485982a8ad",
+  "word_count": 214,
+  "paragraph_breaks_after_sentence": [
+    4,
+    8,
+    11
+  ],
+  "glossed": [
+    "restaurant",
+    "agree",
+    "similarity",
+    "both A and B",
+    "competition",
+    "different",
+    "difference",
+    "stay awake",
+    "decision",
+    "make a decision",
+    "however",
+    "alone",
+    "lifestyle",
+    "be away from",
+    "pilot",
+    "artist"
+  ],
+  "transcription": {
+    "status": "pending",
+    "method": "vision_single_pass",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/영일중1 L7.pdf (20쪽 = 학습지 18쪽 'More reading')",
+    "note": "영일중1 L7 학습지 7과-(11) 「More reading」 상자 안 지문. 인쇄 활자를 비전으로 읽었다 — 전 문장 확인 대상. 굵은 글씨(a few · both … and · few)는 지문의 강조이며 body_text 에는 표시하지 않았다. 4문단.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부 자료. 기획서 §6.6 — 학원 내부 지도용."
+}

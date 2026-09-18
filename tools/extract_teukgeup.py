@@ -65,7 +65,7 @@ def clean(s):
 
 def dialogues(pages, lesson):
     """대화문 블록 → [(block, page_no, turns)]"""
-    out = []
+    out, seen = [], set()
     for text in pages:
         if "주요 표현" not in text and "Listening & Speaking" not in text:
             continue
@@ -94,7 +94,9 @@ def dialogues(pages, lesson):
                 elif turns and s and not HANGUL.search(s):
                     turns[-1][1] = clean(turns[-1][1] + " " + s)
                 i += 1
-            if turns:
+            # 원장이 같은 쪽을 두 번 넣기도 한다 (7과: 3~5쪽 = 6~8쪽). 같은 대화는 한 번만.
+            if turns and (block, page_no, tuple(map(tuple, turns))) not in seen:
+                seen.add((block, page_no, tuple(map(tuple, turns))))
                 out.append((block, page_no, turns))
     return out
 
@@ -108,7 +110,7 @@ def reading(pages):
         lines = [l.rstrip() for l in text.splitlines()]
         if title is None:
             for k, l in enumerate(lines):
-                if re.match(r"^Lesson \d", l.strip()) and k + 1 < len(lines):
+                if re.search(r"Lesson \d", l) and k + 1 < len(lines):   # '144	 Lesson 7 …' 도
                     title = lines[k + 1].strip()
                     break
         cur = None

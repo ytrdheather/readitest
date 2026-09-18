@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L7_대화8",
+  "kind": "textbook_dialogue",
+  "title": "중1 L7 대화-8",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "G: This pizza is so good. Did you make it, Tom?\nB: Yes, I did. I’m really interested in cooking.\nG: So, do you want to be a chef in the future?\nB: Yes, that’s my dream.",
+  "body_text_sha256": "d426a72257e45e79c6287acbdb5664570551b68504d3bbb69a5e99e893a401fd",
+  "word_count": 37,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 7과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Review-2",
+  "textbook_page": 122,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "This pizza is so good. Did you make it, Tom?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Yes, I did. I’m really interested in cooking."
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "So, do you want to be a chef in the future?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Yes, that’s my dream."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

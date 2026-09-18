@@ -1,0 +1,30 @@
+{
+  "passage_id": "중1L7_본문",
+  "kind": "textbook_reading",
+  "title": "중1 L7 본문 — Let’s Make a Movie!",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "Hi, I’m Jim Brown, the director of Happy Days. It’s a movie about the friendship between Tom and his dog Max. A lot of people are working hard to create this movie. Do you want to meet some of them? I’m Anna, and I found this beautiful beach. I’m a location manager, and my job is to find perfect places for shooting. Of course, it is not easy, but I love my job. I like to travel and enjoy challenges. I’m Peter, the director of photography for this movie. I’m in charge of all the cameras. Today, Tom and Max are going to play together with a ball on the beach. To capture their happy moments, I’m going to use drones. I’m Jennifer. I trained and took care of Max for a long time. Max is a great actor, but he sometimes gets too excited when a lot of people are around. So, I use hand signals to calm him. Who am I? I’m an animal wrangler. My name is Emma, and I’m a film editor. My work begins after the shooting is over. To create a better story, I can change the order of scenes or delete some of them. Storytelling skills are important for my job, so I read a lot. I’m Chris, and I’m a Foley artist. I create sound effects in my studio when recording on location is not easy. Listen carefully. Do you hear the sound of waves? I made that sound with rice and a plastic container. Doesn’t it sound real?",
+  "body_text_sha256": "f21c5c9dee62a2c2337dba0fa16d97f5d2175d4be09df3c7d2e100b6db96a7d7",
+  "word_count": 257,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 7과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Let’s Make a Movie!",
+  "sentence_count": 28
+}

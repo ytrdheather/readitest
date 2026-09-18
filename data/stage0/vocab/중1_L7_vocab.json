@@ -1,0 +1,147 @@
+{
+  "lesson": 7,
+  "grade": 1,
+  "unit_title": "Find Your Dream",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 7과 추출.pdf",
+  "source_detail": "특급기출 본책 STEP A Words 쪽 (자습서 계열 영영풀이) — 텍스트 레이어",
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer"
+  },
+  "words": [
+    {
+      "word": "calm",
+      "ko": "진정시키다",
+      "def_en": "to make someone stop feeling upset, angry, or excited"
+    },
+    {
+      "word": "capture",
+      "ko": "포착하다",
+      "def_en": "to photograph, film, record, paint, etc. somebody or something"
+    },
+    {
+      "word": "delete",
+      "ko": "지우다, 삭제하다",
+      "def_en": "to remove something from a document, recording, computer, etc."
+    },
+    {
+      "word": "editor",
+      "ko": "편집자",
+      "def_en": "a person who makes changes to texts or films"
+    },
+    {
+      "word": "location",
+      "ko": "장소",
+      "def_en": "a particular place or position that something is in"
+    },
+    {
+      "word": "manager",
+      "ko": "관리자",
+      "def_en": "a person in control of an office, shop, team, etc."
+    },
+    {
+      "word": "moment",
+      "ko": "순간",
+      "def_en": "a very short period of time"
+    },
+    {
+      "word": "photography",
+      "ko": "사진〔촬영〕술",
+      "def_en": "the skill or activity of taking photographs"
+    },
+    {
+      "word": "record",
+      "ko": "녹음하다, 녹화하다",
+      "def_en": "to store music, sounds, or pictures on tape or disks"
+    },
+    {
+      "word": "shoot",
+      "ko": "촬영하다",
+      "def_en": "to use a camera to record a video or take a photograph"
+    },
+    {
+      "word": "signal",
+      "ko": "신호",
+      "def_en": "an action or thing that sends a message, often not using words"
+    },
+    {
+      "word": "skill",
+      "ko": "기술",
+      "def_en": "the ability to do something very well because you have learned it"
+    },
+    {
+      "word": "storytelling",
+      "ko": "이야기하기",
+      "def_en": "the activity of writing, telling, or reading stories"
+    },
+    {
+      "word": "train",
+      "ko": "훈련하다",
+      "def_en": "to teach someone the skills needed to do something"
+    },
+    {
+      "word": "be in charge of",
+      "ko": "~을 담당하다",
+      "def_en": "to manage or take control of something or someone"
+    }
+  ],
+  "antonyms": [
+    {
+      "word": "best",
+      "word_ko": "최고의",
+      "antonym": "worst",
+      "antonym_ko": "가장 나쁜"
+    },
+    {
+      "word": "capture",
+      "word_ko": "포착하다, 잡다",
+      "antonym": "miss",
+      "antonym_ko": "놓치다"
+    }
+  ],
+  "derivations": [
+    {
+      "base": "careful",
+      "base_ko": "주의 깊은",
+      "derived": "carefully",
+      "derived_ko": "주의 깊게"
+    },
+    {
+      "base": "usual",
+      "base_ko": "보통의",
+      "derived": "usually",
+      "derived_ko": "보통, 대부분"
+    },
+    {
+      "base": "different",
+      "base_ko": "다른",
+      "derived": "differently",
+      "derived_ko": "다르게"
+    },
+    {
+      "base": "act",
+      "base_ko": "연기하다",
+      "derived": "actor",
+      "derived_ko": "배우"
+    },
+    {
+      "base": "edit",
+      "base_ko": "편집하다",
+      "derived": "editor",
+      "derived_ko": "편집자"
+    },
+    {
+      "base": "direct",
+      "base_ko": "감독하다",
+      "derived": "director",
+      "derived_ko": "감독"
+    }
+  ],
+  "distribution_scope": "internal_only"
+}

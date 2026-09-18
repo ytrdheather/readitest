@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L7_대화3",
+  "kind": "textbook_dialogue",
+  "title": "중1 L7 대화-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "G: What’s this music, Hojin? It’s awesome.\nB: I’m writing a song with this computer program.\nG: You’re very good. Do you want to be a songwriter?\nB: Yes, I’m really interested in writing songs.",
+  "body_text_sha256": "df8358f691d17df516bd60704b4b583396658a06204e6a297a487081dd159cec",
+  "word_count": 35,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 7과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-3",
+  "textbook_page": 110,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "What’s this music, Hojin? It’s awesome."
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "I’m writing a song with this computer program."
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "You’re very good. Do you want to be a songwriter?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Yes, I’m really interested in writing songs."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}
