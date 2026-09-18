@@ -32,3 +32,6 @@ __pycache__/
 dist/
 .DS_Store
 Thumbs.db
+
+# 원장이 result/ 를 통째로 묶어 옮길 때 생긴다 (138MB). PDF 묶음이라 저장소에 안 넣는다.
+*.zip
