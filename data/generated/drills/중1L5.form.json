@@ -1,0 +1,1357 @@
+{
+ "unit": "중1L5",
+ "title": "동아윤정미 중1 5과 어법드릴",
+ "seed": 20260921,
+ "plan": {
+  "diag": [
+   [
+    "form",
+    [
+     "happy",
+     "happier",
+     "happiest",
+     "-y"
+    ]
+   ],
+   [
+    "form",
+    [
+     "big",
+     "bigger",
+     "biggest",
+     "겹침"
+    ]
+   ],
+   [
+    "form",
+    [
+     "popular",
+     "more popular",
+     "most popular",
+     "more"
+    ]
+   ],
+   [
+    "form",
+    [
+     "good",
+     "better",
+     "best",
+     "불규칙"
+    ]
+   ],
+   [
+    "form",
+    [
+     "far",
+     "farther",
+     "farthest",
+     "불규칙"
+    ]
+   ],
+   [
+    "fix",
+    [
+     "This phone is 【more good】 than my old one.",
+     "better"
+    ]
+   ],
+   [
+    "fix",
+    [
+     "The air was 【more bad】 than last week.",
+     "worse"
+    ]
+   ],
+   [
+    "build",
+    [
+     "피자는 한국에서 가장 인기 있는 음식 중 하나이다.",
+     "popular, food, Korea",
+     "Pizza is one of the most popular foods in Korea."
+    ]
+   ],
+   [
+    "build",
+    [
+     "오늘은 이번 여름 중 가장 더운 날이다.",
+     "hot, day, this summer",
+     "Today is the hottest day of this summer."
+    ]
+   ],
+   [
+    "there",
+    [
+     "There ___ two cats over there.",
+     "are"
+    ]
+   ]
+  ],
+  "tables": [
+   [
+    [
+     "dangerous",
+     "more dangerous",
+     "most dangerous",
+     "more"
+    ],
+    [
+     "large",
+     "larger",
+     "largest",
+     "-e"
+    ],
+    [
+     "good",
+     "better",
+     "best",
+     "불규칙"
+    ],
+    [
+     "light",
+     "lighter",
+     "lightest",
+     "-er"
+    ],
+    [
+     "safe",
+     "safer",
+     "safest",
+     "-e"
+    ],
+    [
+     "strong",
+     "stronger",
+     "strongest",
+     "-er"
+    ],
+    [
+     "fast",
+     "faster",
+     "fastest",
+     "-er"
+    ],
+    [
+     "much",
+     "more",
+     "most",
+     "불규칙"
+    ],
+    [
+     "fat",
+     "fatter",
+     "fattest",
+     "겹침"
+    ],
+    [
+     "useful",
+     "more useful",
+     "most useful",
+     "more"
+    ],
+    [
+     "tall",
+     "taller",
+     "tallest",
+     "-er"
+    ],
+    [
+     "little",
+     "less",
+     "least",
+     "불규칙"
+    ],
+    [
+     "long",
+     "longer",
+     "longest",
+     "-er"
+    ],
+    [
+     "cold",
+     "colder",
+     "coldest",
+     "-er"
+    ],
+    [
+     "small",
+     "smaller",
+     "smallest",
+     "-er"
+    ],
+    [
+     "young",
+     "younger",
+     "youngest",
+     "-er"
+    ],
+    [
+     "sad",
+     "sadder",
+     "saddest",
+     "겹침"
+    ],
+    [
+     "nice",
+     "nicer",
+     "nicest",
+     "-e"
+    ],
+    [
+     "expensive",
+     "more expensive",
+     "most expensive",
+     "more"
+    ],
+    [
+     "bad",
+     "worse",
+     "worst",
+     "불규칙"
+    ],
+    [
+     "close",
+     "closer",
+     "closest",
+     "-e"
+    ],
+    [
+     "heavy",
+     "heavier",
+     "heaviest",
+     "-y"
+    ],
+    [
+     "important",
+     "more important",
+     "most important",
+     "more"
+    ],
+    [
+     "cheap",
+     "cheaper",
+     "cheapest",
+     "-er"
+    ],
+    [
+     "healthy",
+     "healthier",
+     "healthiest",
+     "-y"
+    ],
+    [
+     "pretty",
+     "prettier",
+     "prettiest",
+     "-y"
+    ],
+    [
+     "kind",
+     "kinder",
+     "kindest",
+     "-er"
+    ],
+    [
+     "wise",
+     "wiser",
+     "wisest",
+     "-e"
+    ],
+    [
+     "happy",
+     "happier",
+     "happiest",
+     "-y"
+    ],
+    [
+     "beautiful",
+     "more beautiful",
+     "most beautiful",
+     "more"
+    ],
+    [
+     "famous",
+     "more famous",
+     "most famous",
+     "more"
+    ],
+    [
+     "high",
+     "higher",
+     "highest",
+     "-er"
+    ],
+    [
+     "interesting",
+     "more interesting",
+     "most interesting",
+     "more"
+    ],
+    [
+     "busy",
+     "busier",
+     "busiest",
+     "-y"
+    ],
+    [
+     "well",
+     "better",
+     "best",
+     "불규칙"
+    ],
+    [
+     "early",
+     "earlier",
+     "earliest",
+     "-y"
+    ],
+    [
+     "delicious",
+     "more delicious",
+     "most delicious",
+     "more"
+    ],
+    [
+     "funny",
+     "funnier",
+     "funniest",
+     "-y"
+    ],
+    [
+     "difficult",
+     "more difficult",
+     "most difficult",
+     "more"
+    ],
+    [
+     "short",
+     "shorter",
+     "shortest",
+     "-er"
+    ],
+    [
+     "smart",
+     "smarter",
+     "smartest",
+     "-er"
+    ],
+    [
+     "popular",
+     "more popular",
+     "most popular",
+     "more"
+    ],
+    [
+     "easy",
+     "easier",
+     "easiest",
+     "-y"
+    ],
+    [
+     "far",
+     "farther",
+     "farthest",
+     "불규칙"
+    ],
+    [
+     "late",
+     "later",
+     "latest",
+     "-e"
+    ],
+    [
+     "thin",
+     "thinner",
+     "thinnest",
+     "겹침"
+    ],
+    [
+     "old",
+     "older",
+     "oldest",
+     "-er"
+    ],
+    [
+     "big",
+     "bigger",
+     "biggest",
+     "겹침"
+    ],
+    [
+     "hot",
+     "hotter",
+     "hottest",
+     "겹침"
+    ],
+    [
+     "many",
+     "more",
+     "most",
+     "불규칙"
+    ]
+   ],
+   [
+    [
+     "popular",
+     "more popular",
+     "most popular",
+     "more"
+    ],
+    [
+     "nice",
+     "nicer",
+     "nicest",
+     "-e"
+    ],
+    [
+     "early",
+     "earlier",
+     "earliest",
+     "-y"
+    ],
+    [
+     "short",
+     "shorter",
+     "shortest",
+     "-er"
+    ],
+    [
+     "useful",
+     "more useful",
+     "most useful",
+     "more"
+    ],
+    [
+     "interesting",
+     "more interesting",
+     "most interesting",
+     "more"
+    ],
+    [
+     "much",
+     "more",
+     "most",
+     "불규칙"
+    ],
+    [
+     "wise",
+     "wiser",
+     "wisest",
+     "-e"
+    ],
+    [
+     "light",
+     "lighter",
+     "lightest",
+     "-er"
+    ],
+    [
+     "good",
+     "better",
+     "best",
+     "불규칙"
+    ],
+    [
+     "difficult",
+     "more difficult",
+     "most difficult",
+     "more"
+    ],
+    [
+     "kind",
+     "kinder",
+     "kindest",
+     "-er"
+    ],
+    [
+     "cheap",
+     "cheaper",
+     "cheapest",
+     "-er"
+    ],
+    [
+     "hot",
+     "hotter",
+     "hottest",
+     "겹침"
+    ],
+    [
+     "small",
+     "smaller",
+     "smallest",
+     "-er"
+    ],
+    [
+     "thin",
+     "thinner",
+     "thinnest",
+     "겹침"
+    ],
+    [
+     "safe",
+     "safer",
+     "safest",
+     "-e"
+    ],
+    [
+     "expensive",
+     "more expensive",
+     "most expensive",
+     "more"
+    ],
+    [
+     "important",
+     "more important",
+     "most important",
+     "more"
+    ],
+    [
+     "fast",
+     "faster",
+     "fastest",
+     "-er"
+    ],
+    [
+     "sad",
+     "sadder",
+     "saddest",
+     "겹침"
+    ],
+    [
+     "busy",
+     "busier",
+     "busiest",
+     "-y"
+    ],
+    [
+     "beautiful",
+     "more beautiful",
+     "most beautiful",
+     "more"
+    ],
+    [
+     "young",
+     "younger",
+     "youngest",
+     "-er"
+    ],
+    [
+     "far",
+     "farther",
+     "farthest",
+     "불규칙"
+    ],
+    [
+     "close",
+     "closer",
+     "closest",
+     "-e"
+    ],
+    [
+     "easy",
+     "easier",
+     "easiest",
+     "-y"
+    ],
+    [
+     "funny",
+     "funnier",
+     "funniest",
+     "-y"
+    ],
+    [
+     "large",
+     "larger",
+     "largest",
+     "-e"
+    ],
+    [
+     "old",
+     "older",
+     "oldest",
+     "-er"
+    ],
+    [
+     "well",
+     "better",
+     "best",
+     "불규칙"
+    ],
+    [
+     "tall",
+     "taller",
+     "tallest",
+     "-er"
+    ],
+    [
+     "fat",
+     "fatter",
+     "fattest",
+     "겹침"
+    ],
+    [
+     "big",
+     "bigger",
+     "biggest",
+     "겹침"
+    ],
+    [
+     "cold",
+     "colder",
+     "coldest",
+     "-er"
+    ],
+    [
+     "dangerous",
+     "more dangerous",
+     "most dangerous",
+     "more"
+    ],
+    [
+     "high",
+     "higher",
+     "highest",
+     "-er"
+    ],
+    [
+     "heavy",
+     "heavier",
+     "heaviest",
+     "-y"
+    ],
+    [
+     "smart",
+     "smarter",
+     "smartest",
+     "-er"
+    ],
+    [
+     "late",
+     "later",
+     "latest",
+     "-e"
+    ],
+    [
+     "pretty",
+     "prettier",
+     "prettiest",
+     "-y"
+    ],
+    [
+     "famous",
+     "more famous",
+     "most famous",
+     "more"
+    ],
+    [
+     "little",
+     "less",
+     "least",
+     "불규칙"
+    ],
+    [
+     "delicious",
+     "more delicious",
+     "most delicious",
+     "more"
+    ],
+    [
+     "healthy",
+     "healthier",
+     "healthiest",
+     "-y"
+    ],
+    [
+     "strong",
+     "stronger",
+     "strongest",
+     "-er"
+    ],
+    [
+     "many",
+     "more",
+     "most",
+     "불규칙"
+    ],
+    [
+     "happy",
+     "happier",
+     "happiest",
+     "-y"
+    ],
+    [
+     "long",
+     "longer",
+     "longest",
+     "-er"
+    ],
+    [
+     "bad",
+     "worse",
+     "worst",
+     "불규칙"
+    ]
+   ],
+   [
+    [
+     "strong",
+     "stronger",
+     "strongest",
+     "-er"
+    ],
+    [
+     "far",
+     "farther",
+     "farthest",
+     "불규칙"
+    ],
+    [
+     "heavy",
+     "heavier",
+     "heaviest",
+     "-y"
+    ],
+    [
+     "smart",
+     "smarter",
+     "smartest",
+     "-er"
+    ],
+    [
+     "well",
+     "better",
+     "best",
+     "불규칙"
+    ],
+    [
+     "famous",
+     "more famous",
+     "most famous",
+     "more"
+    ],
+    [
+     "hot",
+     "hotter",
+     "hottest",
+     "겹침"
+    ],
+    [
+     "early",
+     "earlier",
+     "earliest",
+     "-y"
+    ],
+    [
+     "difficult",
+     "more difficult",
+     "most difficult",
+     "more"
+    ],
+    [
+     "sad",
+     "sadder",
+     "saddest",
+     "겹침"
+    ],
+    [
+     "fat",
+     "fatter",
+     "fattest",
+     "겹침"
+    ],
+    [
+     "tall",
+     "taller",
+     "tallest",
+     "-er"
+    ],
+    [
+     "wise",
+     "wiser",
+     "wisest",
+     "-e"
+    ],
+    [
+     "cold",
+     "colder",
+     "coldest",
+     "-er"
+    ],
+    [
+     "beautiful",
+     "more beautiful",
+     "most beautiful",
+     "more"
+    ],
+    [
+     "fast",
+     "faster",
+     "fastest",
+     "-er"
+    ],
+    [
+     "light",
+     "lighter",
+     "lightest",
+     "-er"
+    ],
+    [
+     "nice",
+     "nicer",
+     "nicest",
+     "-e"
+    ],
+    [
+     "dangerous",
+     "more dangerous",
+     "most dangerous",
+     "more"
+    ],
+    [
+     "small",
+     "smaller",
+     "smallest",
+     "-er"
+    ],
+    [
+     "useful",
+     "more useful",
+     "most useful",
+     "more"
+    ],
+    [
+     "young",
+     "younger",
+     "youngest",
+     "-er"
+    ],
+    [
+     "large",
+     "larger",
+     "largest",
+     "-e"
+    ],
+    [
+     "short",
+     "shorter",
+     "shortest",
+     "-er"
+    ],
+    [
+     "good",
+     "better",
+     "best",
+     "불규칙"
+    ],
+    [
+     "thin",
+     "thinner",
+     "thinnest",
+     "겹침"
+    ],
+    [
+     "expensive",
+     "more expensive",
+     "most expensive",
+     "more"
+    ],
+    [
+     "long",
+     "longer",
+     "longest",
+     "-er"
+    ],
+    [
+     "much",
+     "more",
+     "most",
+     "불규칙"
+    ],
+    [
+     "interesting",
+     "more interesting",
+     "most interesting",
+     "more"
+    ],
+    [
+     "bad",
+     "worse",
+     "worst",
+     "불규칙"
+    ],
+    [
+     "funny",
+     "funnier",
+     "funniest",
+     "-y"
+    ],
+    [
+     "late",
+     "later",
+     "latest",
+     "-e"
+    ],
+    [
+     "high",
+     "higher",
+     "highest",
+     "-er"
+    ],
+    [
+     "healthy",
+     "healthier",
+     "healthiest",
+     "-y"
+    ],
+    [
+     "easy",
+     "easier",
+     "easiest",
+     "-y"
+    ],
+    [
+     "happy",
+     "happier",
+     "happiest",
+     "-y"
+    ],
+    [
+     "cheap",
+     "cheaper",
+     "cheapest",
+     "-er"
+    ],
+    [
+     "kind",
+     "kinder",
+     "kindest",
+     "-er"
+    ],
+    [
+     "old",
+     "older",
+     "oldest",
+     "-er"
+    ],
+    [
+     "delicious",
+     "more delicious",
+     "most delicious",
+     "more"
+    ],
+    [
+     "safe",
+     "safer",
+     "safest",
+     "-e"
+    ],
+    [
+     "little",
+     "less",
+     "least",
+     "불규칙"
+    ],
+    [
+     "popular",
+     "more popular",
+     "most popular",
+     "more"
+    ],
+    [
+     "pretty",
+     "prettier",
+     "prettiest",
+     "-y"
+    ],
+    [
+     "busy",
+     "busier",
+     "busiest",
+     "-y"
+    ],
+    [
+     "close",
+     "closer",
+     "closest",
+     "-e"
+    ],
+    [
+     "big",
+     "bigger",
+     "biggest",
+     "겹침"
+    ],
+    [
+     "important",
+     "more important",
+     "most important",
+     "more"
+    ],
+    [
+     "many",
+     "more",
+     "most",
+     "불규칙"
+    ]
+   ]
+  ],
+  "fixes": [
+   [
+    [
+     "She is one of 【the busiest】 people I know.",
+     "O"
+    ],
+    [
+     "Seoul is one of the biggest 【city】 in Korea.",
+     "cities"
+    ],
+    [
+     "My backpack is 【heavyer】 than yours.",
+     "heavier"
+    ],
+    [
+     "The air was 【more bad】 than last week.",
+     "worse"
+    ],
+    [
+     "My dog is 【more smarter】 than my friend's dog.",
+     "smarter"
+    ],
+    [
+     "Eating fruits is 【better】 than eating candies.",
+     "O"
+    ],
+    [
+     "Her dress was 【the beautifulest】 one at the party.",
+     "the most beautiful"
+    ],
+    [
+     "It is one of the best 【movie】 of the year.",
+     "movies"
+    ],
+    [
+     "Minho is 【the most close】 friend in my life.",
+     "the closest"
+    ],
+    [
+     "They arrived 【the most earliest】 of all.",
+     "the earliest"
+    ],
+    [
+     "He speaks 【louder】 than his brother.",
+     "O"
+    ],
+    [
+     "The weather today is 【worse】 than yesterday.",
+     "O"
+    ],
+    [
+     "This pizza is 【the best delicious】 in town.",
+     "the most delicious"
+    ],
+    [
+     "This question is 【more easy】 than that one.",
+     "easier"
+    ],
+    [
+     "I got 【the highest】 score in my class.",
+     "O"
+    ]
+   ],
+   [
+    [
+     "He is the tallest student 【of】 my class.",
+     "in"
+    ],
+    [
+     "Tom is 【the most biggest】 boy in his class.",
+     "the biggest"
+    ],
+    [
+     "Math is 【the harder】 than English for me.",
+     "harder"
+    ],
+    [
+     "This puzzle is 【difficulter】 than the last one.",
+     "more difficult"
+    ],
+    [
+     "Hallasan is 【the highest】 mountain in Korea.",
+     "O"
+    ],
+    [
+     "This is 【the most expensive】 of all the bags.",
+     "O"
+    ],
+    [
+     "This phone is 【more good】 than my old one.",
+     "better"
+    ],
+    [
+     "Today is 【hoter】 than yesterday.",
+     "hotter"
+    ],
+    [
+     "She is the smartest 【in】 all.",
+     "of"
+    ],
+    [
+     "One of the most popular sports 【are】 soccer.",
+     "is"
+    ],
+    [
+     "Running is 【easier】 than swimming for me.",
+     "O"
+    ],
+    [
+     "The blue box is 【the very biggest】 of the three.",
+     "the biggest"
+    ],
+    [
+     "This is 【the more largest】 building in the city.",
+     "the largest"
+    ],
+    [
+     "Jim is 【the strongest】 in the town.",
+     "O"
+    ],
+    [
+     "Health is 【more important】 than money.",
+     "O"
+    ]
+   ]
+  ],
+  "builds": [
+   [
+    [
+     "에펠탑은 자유의 여신상보다 더 높다.",
+     "high, the Statue of Liberty",
+     "The Eiffel Tower is higher than the Statue of Liberty."
+    ],
+    [
+     "그는 우리 학교에서 가장 빠른 선수 중 한 명이다.",
+     "fast, runner, school",
+     "He is one of the fastest runners in our school."
+    ],
+    [
+     "나에게는 달리기가 수영보다 쉽다.",
+     "easy, swimming",
+     "Running is easier than swimming for me."
+    ],
+    [
+     "수학이 모든 과목 중에서 제일 어렵다.",
+     "difficult, all the subjects",
+     "Math is the most difficult of all the subjects."
+    ],
+    [
+     "그녀는 모두 중에서 가장 똑똑하다.",
+     "smart, all",
+     "She is the smartest of all."
+    ],
+    [
+     "Jim은 마을에서 가장 힘이 세다.",
+     "strong, the town",
+     "Jim is the strongest in the town."
+    ],
+    [
+     "Minho는 내 인생에서 가장 가까운 친구이다.",
+     "close, friend, my life",
+     "Minho is the closest friend in my life."
+    ],
+    [
+     "세상에서 가장 인기 있는 스포츠는 무엇이니?",
+     "popular, sport, the world",
+     "What is the most popular sport in the world?"
+    ],
+    [
+     "피자는 한국에서 가장 인기 있는 음식 중 하나이다.",
+     "popular, food, Korea",
+     "Pizza is one of the most popular foods in Korea."
+    ],
+    [
+     "이 스마트폰이 저것보다 더 좋아 보인다.",
+     "good, that one",
+     "This smartphone looks better than that one."
+    ]
+   ],
+   [
+    [
+     "오늘은 이번 여름 중 가장 더운 날이다.",
+     "hot, day, this summer",
+     "Today is the hottest day of this summer."
+    ],
+    [
+     "이 책이 저 책보다 더 흥미롭다.",
+     "interesting, that one",
+     "This book is more interesting than that one."
+    ],
+    [
+     "건강이 돈보다 더 중요하다.",
+     "important",
+     "Health is more important than money."
+    ],
+    [
+     "돌고래는 다른 바다 동물들보다 더 영리하다.",
+     "smart, other sea animals",
+     "Dolphins are smarter than other sea animals."
+    ],
+    [
+     "그 빨간 드레스가 모든 것 중에서 가장 비싸다.",
+     "expensive, all",
+     "The red dress is the most expensive of all."
+    ],
+    [
+     "그것은 올해 최고의 영화 중 하나였다.",
+     "good, movie, the year",
+     "It was one of the best movies of the year."
+    ],
+    [
+     "그는 우리 반에서 가장 키가 크다.",
+     "tall, class",
+     "He is the tallest in my class."
+    ],
+    [
+     "서울은 세계에서 가장 큰 도시 중 하나이다.",
+     "big, city",
+     "Seoul is one of the biggest cities in the world."
+    ],
+    [
+     "이 상자가 셋 중 제일 크다.",
+     "big, the three",
+     "This box is the biggest of the three."
+    ],
+    [
+     "아침에는 날씨가 최악이었다.",
+     "bad, the morning",
+     "The weather was the worst in the morning."
+    ]
+   ]
+  ],
+  "theres": [
+   [
+    [
+     "There ___ some cheese on the pizza.",
+     "is"
+    ],
+    [
+     "There ___ some water in the bottle.",
+     "is"
+    ],
+    [
+     "Is there any butter in the fridge? — Yes, there ___.",
+     "is"
+    ],
+    [
+     "There ___ a red car in front of the house.",
+     "is"
+    ],
+    [
+     "There ___ five people in the park last weekend. (과거)",
+     "were"
+    ],
+    [
+     "There ___ three trees in the garden last year. (과거)",
+     "were"
+    ],
+    [
+     "___ there a good restaurant around here? — Yes, there ___.",
+     "Is / is"
+    ],
+    [
+     "There ___ an empty seat on the bus?  → ___ there an empty seat on the bus?",
+     "Is"
+    ],
+    [
+     "There ___ clouds in the sky.",
+     "are"
+    ],
+    [
+     "There ___ no homework today.",
+     "is"
+    ],
+    [
+     "There ___ two cats over there.",
+     "are"
+    ],
+    [
+     "Are there many students in the gym? — No, there ___.",
+     "aren't"
+    ],
+    [
+     "There ___ twenty questions on the exam.",
+     "are"
+    ],
+    [
+     "There ___ a lot of people on the subway.",
+     "are"
+    ],
+    [
+     "There ___ not many books on the shelf.",
+     "are"
+    ]
+   ],
+   [
+    [
+     "There ___ (1)___ a beautiful park near my house. In the park, there (2)___ a small lake. There (3)___ flowers around the lake.",
+     "(1) is (2) is (3) are"
+    ],
+    [
+     "There ___ (not) flowers in the garden. → There ___ flowers in the garden.",
+     "aren't"
+    ],
+    [
+     "___ there many cars on the street?",
+     "Are"
+    ],
+    [
+     "___ there any guests at the party last night? (과거)",
+     "Were"
+    ],
+    [
+     "Were there any mistakes in my report? — No, there ___.",
+     "weren't"
+    ],
+    [
+     "There ___ (not) a cup on the shelf. → There ___ a cup on the shelf.",
+     "isn't"
+    ],
+    [
+     "There ___ (not) much cheese on the pizza. → There ___ much cheese on the pizza.",
+     "isn't"
+    ],
+    [
+     "There ___ enough chairs for everyone.",
+     "are"
+    ],
+    [
+     "There ___ some mistakes in your report.",
+     "are"
+    ],
+    [
+     "___ there a park near here?",
+     "Is"
+    ],
+    [
+     "There ___ a bus stop near here.",
+     "is"
+    ],
+    [
+     "There ___ a lot of snow last winter. (과거)",
+     "was"
+    ],
+    [
+     "There ___ an old woman at the door yesterday. (과거)",
+     "was"
+    ],
+    [
+     "There ___ not many cars on the street yesterday. (과거)",
+     "weren't"
+    ],
+    [
+     "There ___ a book on the table.",
+     "is"
+    ]
+   ]
+  ]
+ }
+}
