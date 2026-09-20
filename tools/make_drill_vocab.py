@@ -63,7 +63,10 @@ def merge(school_files, jasup_file):
     school = {}
     for f in school_files:
         d = load(f)
-        for w in d["words"]:
+        # 학교 목록엔 없지만 연습 쪽에 나온 말(extra_words)도 학교가 아는 것으로 전제한 어휘다.
+        # 영덕중1 L5 에서 5개가 빠졌던 것을 원장이 물어 알았다 (2026-09-21).
+        pool = list(d["words"]) + list((d.get("extra_words") or {}).get("items", []))
+        for w in pool:
             k = key(w["word"])
             cand = norm(w, "학교")
             old = school.get(k)

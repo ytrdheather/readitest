@@ -101,6 +101,8 @@ def load_all():
         if name.endswith(".vocab"):
             vocab.append((name, p, d))
             continue
+        if name.endswith(".form"):
+            continue                       # 어법 형태 드릴 — 교과서 단위라 학교별 권에 안 묶는다
         suffix = name.rsplit(".", 1)[-1]           # tf / para / gram
         u = passages.setdefault(d["unit"], {"kind": d["kind"], "drills": {}})
         u["lesson"] = lesson_of(d["unit"])
