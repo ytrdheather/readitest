@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L6_대화3",
+  "kind": "textbook_dialogue",
+  "title": "중1 L6 대화-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "W: Look. Somebody forgot to turn off the water.\nB: Again? People are so forgetful.\nW: I know. Can you run over there and turn off the water?\nB: Sure. No problem.",
+  "body_text_sha256": "09040cac8ca076618fcf3ca12f21d9d78a7751d41264f6a5d495402bbb6ca36c",
+  "word_count": 32,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 6과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-3",
+  "textbook_page": 94,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "W",
+      "text": "Look. Somebody forgot to turn off the water."
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Again? People are so forgetful."
+    },
+    {
+      "no": 3,
+      "speaker": "W",
+      "text": "I know. Can you run over there and turn off the water?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Sure. No problem."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

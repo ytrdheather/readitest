@@ -1,0 +1,129 @@
+{
+  "lesson": 6,
+  "grade": 1,
+  "unit_title": "Good for the Earth, Good for Us",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 6과 추출.pdf",
+  "source_detail": "특급기출 본책 STEP A Words 쪽 (자습서 계열 영영풀이) — 텍스트 레이어",
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer"
+  },
+  "words": [
+    {
+      "word": "completely",
+      "ko": "완전히",
+      "def_en": "in every way; totally"
+    },
+    {
+      "word": "container",
+      "ko": "그릇, 용기",
+      "def_en": "an object for holding things, such as a can, box, or bottle"
+    },
+    {
+      "word": "environment",
+      "ko": "환경",
+      "def_en": "the natural world, including water, air, land, and plants"
+    },
+    {
+      "word": "favor",
+      "ko": "호의, 친절",
+      "def_en": "something helpful that you do for someone"
+    },
+    {
+      "word": "label",
+      "ko": "상표",
+      "def_en": "the name or symbol of a company that produces goods for sale"
+    },
+    {
+      "word": "leftover",
+      "ko": "남은 음식",
+      "def_en": "the food remaining after a meal"
+    },
+    {
+      "word": "machine",
+      "ko": "기계",
+      "def_en": "a piece of equipment that you use to do a job"
+    },
+    {
+      "word": "plog",
+      "ko": "플로깅하다",
+      "def_en": "to pick up trash while jogging"
+    },
+    {
+      "word": "produce",
+      "ko": "생산하다",
+      "def_en": "to make or grow something"
+    },
+    {
+      "word": "reduce",
+      "ko": "줄이다",
+      "def_en": "to make something less or smaller"
+    },
+    {
+      "word": "sew",
+      "ko": "바느질하다",
+      "def_en": "to use a needle and thread to make or fix clothes single-use"
+    },
+    {
+      "word": "tear",
+      "ko": "찢다",
+      "def_en": "to pull paper, cloth, or another material into pieces"
+    },
+    {
+      "word": "eat out",
+      "ko": "외식하다",
+      "def_en": "to eat in a restaurant"
+    },
+    {
+      "word": "in return",
+      "ko": "대가로, 보답으로",
+      "def_en": "as a response, exchange, or reward for something"
+    }
+  ],
+  "antonyms": [],
+  "derivations": [
+    {
+      "base": "forget",
+      "base_ko": "잊어버리다",
+      "derived": "forgetful",
+      "derived_ko": "잘 잊어버리는"
+    },
+    {
+      "base": "reuse",
+      "base_ko": "재사용하다",
+      "derived": "reusable",
+      "derived_ko": "재사용 가능한"
+    },
+    {
+      "base": "recycle",
+      "base_ko": "재활용하다",
+      "derived": "recyclable",
+      "derived_ko": "재활용 가능한"
+    },
+    {
+      "base": "deliver",
+      "base_ko": "배달하다",
+      "derived": "delivery",
+      "derived_ko": "배달"
+    },
+    {
+      "base": "contain",
+      "base_ko": "담고 있다",
+      "derived": "container",
+      "derived_ko": "그릇, 용기"
+    },
+    {
+      "base": "decide",
+      "base_ko": "결정하다",
+      "derived": "decision",
+      "derived_ko": "결정"
+    }
+  ],
+  "distribution_scope": "internal_only"
+}

@@ -1,0 +1,279 @@
+{
+  "school": "영덕중",
+  "grade": 1,
+  "lesson": 6,
+  "unit_title": "Good for the Earth, Good for Us",
+  "source": "영덕중1 2학기 5·6과 학습지 26쪽 중 L6 분량 15~26쪽 (Z:/…/영덕중 1학년 2학기 5, 6과 시험지.pdf)",
+  "source_note": "5과와 같은 구성. 인쇄된 것만 옮겼다. 15쪽 30단어(영→한 30 · 한→영 30), 16쪽 영영풀이 4 + 문맥 + 표현, 17쪽 Advanced 영영풀이 8 + 문맥 + 표현.",
+  "read_at": "2026-09-21",
+  "read_by": "Claude (비전 판독, 인쇄 글자만)",
+  "why_best": "학교 지정 30단어 + 학교가 인쇄한 영영풀이 12개 + 예문.",
+  "words": [
+    {
+      "no": 1,
+      "word": "recycle",
+      "ko": "재활용하다",
+      "def_en": "to put old paper, glass, or other materials through a special process so that they can be used again",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 2,
+      "word": "plant",
+      "ko": "식물",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 3,
+      "word": "challenge",
+      "ko": "도전",
+      "def_en": "something that needs great mental or physical effort to be done successfully",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 4,
+      "word": "sew",
+      "ko": "바느질하다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "He wanted to sew a button on his shirt."
+    },
+    {
+      "no": 5,
+      "word": "completely",
+      "ko": "완전히",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 6,
+      "word": "machine",
+      "ko": "기계",
+      "def_en": "a piece of equipment that you use to do a job",
+      "def_src": "학교",
+      "example_en": "The new washing machine saves us time and water."
+    },
+    {
+      "no": 7,
+      "word": "reduce",
+      "ko": "줄이다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Yoga can reduce your stress."
+    },
+    {
+      "no": 8,
+      "word": "delivery",
+      "ko": "배달",
+      "def_en": "the act of taking goods to people's houses or work places",
+      "def_src": "학교",
+      "example_en": "I used a pizza delivery service, and it was so convenient!"
+    },
+    {
+      "no": 9,
+      "word": "fix",
+      "ko": "고치다, 수리하다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 10,
+      "word": "environment",
+      "ko": "환경",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "The environment has plants, animals, and water."
+    },
+    {
+      "no": 11,
+      "word": "can",
+      "ko": "깡통",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 12,
+      "word": "tear",
+      "ko": "찢다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Can you tear out a page from the notebook?"
+    },
+    {
+      "no": 13,
+      "word": "leftover",
+      "ko": "남은 음식",
+      "def_en": "food remaining after a meal",
+      "def_src": "학교",
+      "example_en": "We always try to find good cooking ideas for our leftovers."
+    },
+    {
+      "no": 14,
+      "word": "zero",
+      "ko": "(숫자) 영(0)",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 15,
+      "word": "decide",
+      "ko": "결정하다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 16,
+      "word": "plog",
+      "ko": "플로깅하다",
+      "def_en": "to pick up trash while jogging",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 17,
+      "word": "produce",
+      "ko": "생산하다",
+      "def_en": "to make or grow something",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 18,
+      "word": "waste",
+      "ko": "쓰레기",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 19,
+      "word": "favor",
+      "ko": "호의, 친절",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 20,
+      "word": "secondhand",
+      "ko": "중고의",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 21,
+      "word": "carry",
+      "ko": "운반하다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 22,
+      "word": "finish",
+      "ko": "끝내다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 23,
+      "word": "container",
+      "ko": "그릇, 용기",
+      "def_en": "an object for holding things, such as a can, box, or bottle",
+      "def_src": "학교",
+      "example_en": "You should change the plastic container into a glass one."
+    },
+    {
+      "no": 24,
+      "word": "forgetful",
+      "ko": "잘 잊는",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "I am forgetful, so I always write things down."
+    },
+    {
+      "no": 25,
+      "word": "pick up",
+      "ko": "가져오다",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 26,
+      "word": "FYI",
+      "ko": "참고로",
+      "def_en": null,
+      "def_src": null,
+      "example_en": ""
+    },
+    {
+      "no": 27,
+      "word": "one by one",
+      "ko": "하나씩, 차례로",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Students came to his class one by one."
+    },
+    {
+      "no": 28,
+      "word": "at the same time",
+      "ko": "동시에",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "They stood up at the same time."
+    },
+    {
+      "no": 29,
+      "word": "in return",
+      "ko": "대신에, 답례로",
+      "def_en": "as a response, exchange, or reward for something",
+      "def_src": "학교",
+      "example_en": "John helped with my work. In return, I bought him a nice lunch."
+    },
+    {
+      "no": 30,
+      "word": "eat out",
+      "ko": "외식하다",
+      "def_en": "to eat in a restaurant",
+      "def_src": "학교",
+      "example_en": "We usually eat out for dinner on Saturdays."
+    }
+  ],
+  "extra_words": {
+    "_note": "16~17쪽 연습에만 나온 말",
+    "items": [
+      {
+        "word": "label",
+        "ko": "라벨, 상표",
+        "example_en": "He took off the label from the bottle."
+      },
+      {
+        "word": "single-use",
+        "ko": "일회용의",
+        "example_en": "Single-use plastic bags are bad for the environment."
+      },
+      {
+        "word": "reuse",
+        "ko": "재사용하다",
+        "example_en": "I often reuse plastic bottles to water my plants."
+      },
+      {
+        "word": "right after",
+        "ko": "~ 직후에",
+        "example_en": "We went to the park right after lunch."
+      }
+    ]
+  },
+  "distribution_scope": "internal_only"
+}

@@ -1,0 +1,704 @@
+{
+  "set": "영덕중1_L6",
+  "title": "동아 윤정미 중1 L6 어휘 — 영덕",
+  "sources": {
+    "school": [
+      "영덕중1_L6_vocab_handout"
+    ],
+    "jasup": "중1_L6_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 중1 L6 어휘 — 영덕",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "recycle",
+              "answer": "재활용하다"
+            },
+            {
+              "word": "plant",
+              "answer": "식물"
+            },
+            {
+              "word": "challenge",
+              "answer": "도전"
+            },
+            {
+              "word": "sew",
+              "answer": "바느질하다"
+            },
+            {
+              "word": "completely",
+              "answer": "완전히"
+            },
+            {
+              "word": "machine",
+              "answer": "기계"
+            },
+            {
+              "word": "reduce",
+              "answer": "줄이다"
+            },
+            {
+              "word": "delivery",
+              "answer": "배달"
+            },
+            {
+              "word": "fix",
+              "answer": "고치다, 수리하다"
+            },
+            {
+              "word": "environment",
+              "answer": "환경"
+            },
+            {
+              "word": "can",
+              "answer": "깡통"
+            },
+            {
+              "word": "tear",
+              "answer": "찢다"
+            },
+            {
+              "word": "leftover",
+              "answer": "남은 음식"
+            },
+            {
+              "word": "zero",
+              "answer": "(숫자) 영(0)"
+            },
+            {
+              "word": "decide",
+              "answer": "결정하다"
+            },
+            {
+              "word": "plog",
+              "answer": "플로깅하다"
+            },
+            {
+              "word": "produce",
+              "answer": "생산하다"
+            },
+            {
+              "word": "waste",
+              "answer": "쓰레기"
+            },
+            {
+              "word": "favor",
+              "answer": "호의, 친절"
+            },
+            {
+              "word": "secondhand",
+              "answer": "중고의"
+            },
+            {
+              "word": "carry",
+              "answer": "운반하다"
+            },
+            {
+              "word": "finish",
+              "answer": "끝내다"
+            },
+            {
+              "word": "container",
+              "answer": "그릇, 용기"
+            },
+            {
+              "word": "forgetful",
+              "answer": "잘 잊는"
+            },
+            {
+              "word": "pick up",
+              "answer": "가져오다"
+            },
+            {
+              "word": "FYI",
+              "answer": "참고로"
+            },
+            {
+              "word": "one by one",
+              "answer": "하나씩, 차례로"
+            },
+            {
+              "word": "at the same time",
+              "answer": "동시에"
+            },
+            {
+              "word": "in return",
+              "answer": "대신에, 답례로"
+            },
+            {
+              "word": "eat out",
+              "answer": "외식하다"
+            },
+            {
+              "word": "label",
+              "answer": "라벨, 상표"
+            },
+            {
+              "word": "single-use",
+              "answer": "일회용의"
+            },
+            {
+              "word": "reuse",
+              "answer": "재사용하다"
+            },
+            {
+              "word": "right after",
+              "answer": "~ 직후에"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "참고로",
+              "answer": "FYI"
+            },
+            {
+              "ko": "운반하다",
+              "answer": "carry"
+            },
+            {
+              "ko": "일회용의",
+              "answer": "single-use"
+            },
+            {
+              "ko": "(숫자) 영(0)",
+              "answer": "zero"
+            },
+            {
+              "ko": "도전",
+              "answer": "challenge"
+            },
+            {
+              "ko": "식물",
+              "answer": "plant"
+            },
+            {
+              "ko": "외식하다",
+              "answer": "eat out"
+            },
+            {
+              "ko": "고치다, 수리하다",
+              "answer": "fix"
+            },
+            {
+              "ko": "라벨, 상표",
+              "answer": "label"
+            },
+            {
+              "ko": "잘 잊는",
+              "answer": "forgetful"
+            },
+            {
+              "ko": "대신에, 답례로",
+              "answer": "in return"
+            },
+            {
+              "ko": "생산하다",
+              "answer": "produce"
+            },
+            {
+              "ko": "찢다",
+              "answer": "tear"
+            },
+            {
+              "ko": "중고의",
+              "answer": "secondhand"
+            },
+            {
+              "ko": "재사용하다",
+              "answer": "reuse"
+            },
+            {
+              "ko": "~ 직후에",
+              "answer": "right after"
+            },
+            {
+              "ko": "줄이다",
+              "answer": "reduce"
+            },
+            {
+              "ko": "결정하다",
+              "answer": "decide"
+            },
+            {
+              "ko": "남은 음식",
+              "answer": "leftover"
+            },
+            {
+              "ko": "동시에",
+              "answer": "at the same time"
+            },
+            {
+              "ko": "호의, 친절",
+              "answer": "favor"
+            },
+            {
+              "ko": "배달",
+              "answer": "delivery"
+            },
+            {
+              "ko": "하나씩, 차례로",
+              "answer": "one by one"
+            },
+            {
+              "ko": "그릇, 용기",
+              "answer": "container"
+            },
+            {
+              "ko": "끝내다",
+              "answer": "finish"
+            },
+            {
+              "ko": "환경",
+              "answer": "environment"
+            },
+            {
+              "ko": "재활용하다",
+              "answer": "recycle"
+            },
+            {
+              "ko": "플로깅하다",
+              "answer": "plog"
+            },
+            {
+              "ko": "바느질하다",
+              "answer": "sew"
+            },
+            {
+              "ko": "쓰레기",
+              "answer": "waste"
+            },
+            {
+              "ko": "가져오다",
+              "answer": "pick up"
+            },
+            {
+              "ko": "깡통",
+              "answer": "can"
+            },
+            {
+              "ko": "완전히",
+              "answer": "completely"
+            },
+            {
+              "ko": "기계",
+              "answer": "machine"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "to put old paper, glass, or other materials through a special process so that they can be used again",
+              "ko": "재활용하다",
+              "answer": "recycle"
+            },
+            {
+              "def_en": "something that needs great mental or physical effort to be done successfully",
+              "ko": "도전",
+              "answer": "challenge"
+            },
+            {
+              "def_en": "to use a needle and thread to make or fix clothes single-use",
+              "ko": "바느질하다",
+              "answer": "sew"
+            },
+            {
+              "def_en": "in every way; totally",
+              "ko": "완전히",
+              "answer": "completely"
+            },
+            {
+              "def_en": "a piece of equipment that you use to do a job",
+              "ko": "기계",
+              "answer": "machine"
+            },
+            {
+              "def_en": "to make something less or smaller",
+              "ko": "줄이다",
+              "answer": "reduce"
+            },
+            {
+              "def_en": "the act of taking goods to people's houses or work places",
+              "ko": "배달",
+              "answer": "delivery"
+            },
+            {
+              "def_en": "the natural world, including water, air, land, and plants",
+              "ko": "환경",
+              "answer": "environment"
+            },
+            {
+              "def_en": "to pull paper, cloth, or another material into pieces",
+              "ko": "찢다",
+              "answer": "tear"
+            },
+            {
+              "def_en": "food remaining after a meal",
+              "ko": "남은 음식",
+              "answer": "leftover"
+            },
+            {
+              "def_en": "to pick up trash while jogging",
+              "ko": "플로깅하다",
+              "answer": "plog"
+            },
+            {
+              "def_en": "to make or grow something",
+              "ko": "생산하다",
+              "answer": "produce"
+            },
+            {
+              "def_en": "something helpful that you do for someone",
+              "ko": "호의, 친절",
+              "answer": "favor"
+            },
+            {
+              "def_en": "an object for holding things, such as a can, box, or bottle",
+              "ko": "그릇, 용기",
+              "answer": "container"
+            },
+            {
+              "def_en": "as a response, exchange, or reward for something",
+              "ko": "대신에, 답례로",
+              "answer": "in return"
+            },
+            {
+              "def_en": "to eat in a restaurant",
+              "ko": "외식하다",
+              "answer": "eat out"
+            },
+            {
+              "def_en": "the name or symbol of a company that produces goods for sale",
+              "ko": "라벨, 상표",
+              "answer": "label"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "challenge",
+                  "ko": "도전",
+                  "def_en": "something that needs great mental or physical effort to be done successfully",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "completely",
+                  "ko": "완전히",
+                  "def_en": "in every way; totally",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "container",
+                  "ko": "그릇, 용기",
+                  "def_en": "an object for holding things, such as a can, box, or bottle",
+                  "example_en": "You should change the plastic container into a glass one.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "plog",
+                  "ko": "플로깅하다",
+                  "def_en": "to pick up trash while jogging",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "challenge",
+                "plog",
+                "container",
+                "completely"
+              ],
+              "kos": [
+                "플로깅하다",
+                "도전",
+                "완전히",
+                "그릇, 용기"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "favor",
+                  "ko": "호의, 친절",
+                  "def_en": "something helpful that you do for someone",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "reduce",
+                  "ko": "줄이다",
+                  "def_en": "to make something less or smaller",
+                  "example_en": "Yoga can reduce your stress.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "label",
+                  "ko": "라벨, 상표",
+                  "def_en": "the name or symbol of a company that produces goods for sale",
+                  "example_en": "He took off the label from the bottle.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "produce",
+                  "ko": "생산하다",
+                  "def_en": "to make or grow something",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "produce",
+                "favor",
+                "label",
+                "reduce"
+              ],
+              "kos": [
+                "라벨, 상표",
+                "줄이다",
+                "생산하다",
+                "호의, 친절"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "tear",
+                  "ko": "찢다",
+                  "def_en": "to pull paper, cloth, or another material into pieces",
+                  "example_en": "Can you tear out a page from the notebook?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "leftover",
+                  "ko": "남은 음식",
+                  "def_en": "food remaining after a meal",
+                  "example_en": "We always try to find good cooking ideas for our leftovers.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "machine",
+                  "ko": "기계",
+                  "def_en": "a piece of equipment that you use to do a job",
+                  "example_en": "The new washing machine saves us time and water.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "eat out",
+                  "ko": "외식하다",
+                  "def_en": "to eat in a restaurant",
+                  "example_en": "We usually eat out for dinner on Saturdays.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "leftover",
+                "eat out",
+                "tear",
+                "machine"
+              ],
+              "kos": [
+                "남은 음식",
+                "기계",
+                "외식하다",
+                "찢다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "in return",
+                  "ko": "대신에, 답례로",
+                  "def_en": "as a response, exchange, or reward for something",
+                  "example_en": "John helped with my work. In return, I bought him a nice lunch.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "sew",
+                  "ko": "바느질하다",
+                  "def_en": "to use a needle and thread to make or fix clothes single-use",
+                  "example_en": "He wanted to sew a button on his shirt.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "recycle",
+                  "ko": "재활용하다",
+                  "def_en": "to put old paper, glass, or other materials through a special process so that they can be used again",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "environment",
+                  "ko": "환경",
+                  "def_en": "the natural world, including water, air, land, and plants",
+                  "example_en": "The environment has plants, animals, and water.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "environment",
+                "in return",
+                "sew",
+                "recycle"
+              ],
+              "kos": [
+                "바느질하다",
+                "대신에, 답례로",
+                "재활용하다",
+                "환경"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "I often __________ plastic bottles to water my plants.",
+                "answer": "reuse",
+                "ko": ""
+              },
+              {
+                "sentence": "The new washing __________ saves us time and water.",
+                "answer": "machine",
+                "ko": ""
+              },
+              {
+                "sentence": "I used a pizza __________ service, and it was so convenient!",
+                "answer": "delivery",
+                "ko": ""
+              },
+              {
+                "sentence": "Students came to his class __________.",
+                "answer": "one by one",
+                "ko": ""
+              },
+              {
+                "sentence": "John helped with my work. __________, I bought him a nice lunch.",
+                "answer": "in return",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "The __________ has plants, animals, and water.",
+                "answer": "environment",
+                "ko": ""
+              },
+              {
+                "sentence": "He took off the __________ from the bottle.",
+                "answer": "label",
+                "ko": ""
+              },
+              {
+                "sentence": "I am __________, so I always write things down.",
+                "answer": "forgetful",
+                "ko": ""
+              },
+              {
+                "sentence": "We always try to find good cooking ideas for our __________.",
+                "answer": "leftover",
+                "ko": ""
+              },
+              {
+                "sentence": "He wanted to __________ a button on his shirt.",
+                "answer": "sew",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "Can you __________ out a page from the notebook?",
+                "answer": "tear",
+                "ko": ""
+              },
+              {
+                "sentence": "We went to the park __________ lunch.",
+                "answer": "right after",
+                "ko": ""
+              },
+              {
+                "sentence": "They stood up __________.",
+                "answer": "at the same time",
+                "ko": ""
+              },
+              {
+                "sentence": "Yoga can __________ your stress.",
+                "answer": "reduce",
+                "ko": ""
+              },
+              {
+                "sentence": "You should change the plastic __________ into a glass one.",
+                "answer": "container",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "We usually __________ for dinner on Saturdays.",
+                "answer": "eat out",
+                "ko": ""
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 34,
+      "counts": {
+        "both": 68,
+        "def": 17,
+        "match": 16,
+        "cloze": 16
+      }
+    }
+  ]
+}

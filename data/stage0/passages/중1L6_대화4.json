@@ -1,0 +1,50 @@
+{
+  "passage_id": "중1L6_대화4",
+  "kind": "textbook_dialogue",
+  "title": "중1 L6 대화-4",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "교과서",
+  "body_text": "M: Can you please carry this box to my car?\nG: I’m really sorry, Dad, but I’m late for my class.\nM: Oh, I see. I’ll ask somebody else.",
+  "body_text_sha256": "afd9a81322532903c385f6dfac0a12d7a34aa88599d63807fc1d5c4a61310870",
+  "word_count": 29,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "22개정 특급기출 중1 동아 윤정미 2학기 - 6과 추출.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-4",
+  "textbook_page": 94,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "M",
+      "text": "Can you please carry this box to my car?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "I’m really sorry, Dad, but I’m late for my class."
+    },
+    {
+      "no": 3,
+      "speaker": "M",
+      "text": "Oh, I see. I’ll ask somebody else."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}
