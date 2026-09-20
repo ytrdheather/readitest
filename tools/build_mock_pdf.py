@@ -59,7 +59,10 @@ def main():
     try:
         for f in files:
             d = json.load(io.open(f, encoding="utf-8"))
-            base = f"{d['school']}{GRADE} 동형모의고사 {d['set_no']}세트"
+            # 학년은 파일명 접두어 '중1_' 로 안다 (make_mock_exam --grade 1). 없으면 중2.
+            grade = "1" if os.path.basename(f).startswith("중1_") else GRADE
+            lesson = " 5과" if grade == "1" else ""      # 중1 5과 단독 세트 (5·6과 혼합은 다음 주 — 원장 2026-09-21)
+            base = f"{d['school']}{grade}{lesson} 동형모의고사 {d['set_no']}세트"
             # 줄바꿈·고쳐쓰기는 parse() 가 원본으로 덮어써 이미 해결된 기록이다
             bad = [p for p in d["diagnostics"]["problems"]
                    if "줄바꿈" not in p and "고쳐 썼다" not in p]

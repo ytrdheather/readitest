@@ -1,0 +1,538 @@
+{
+  "school": "영덕중",
+  "set_no": 3,
+  "spec": {
+    "students": null,
+    "exam_date": "2026-12 (2학기 기말)",
+    "priority": "원장 2026-09-21: 「영덕 1학년 5과 동형문제가 급하다」",
+    "total_points": 100,
+    "selective": 17,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "교과서 본문·대화 그대로 + 어법 괄호 선택 / 단문 5지선다",
+    "vessel_note": "2025 기말: 본문 지문 3개(L5·L6·L7)를 그대로 싣고 각 2문항. 어법은 본문 안 (A)(B)(C) 괄호 선택 1문항(15번) + 밑줄 (A)~(E) 중 맞는 것 1문항(11번). 단문 나열은 논술형 4(틀린 것 3곳 고치기)에서.",
+    "signature": [
+      "1번은 **어휘 십자말** 5점 — 영영풀이 6개로 퍼즐을 채우고 ★ 철자를 조합해 나온 단어 고르기. 영덕 학습지 2쪽 형식 그대로",
+      "2번 **공통 빈칸 어휘** (인터넷 사전 화면 꾸밈) 3점",
+      "3번·12번 **문맥상 어색한 밑줄 어휘** — 본문 안 낱말을 바꿔치기 (throws→creates, slower→faster)",
+      "대화 **배열** (5번) + 단락 **배열** (7번) 각 5점",
+      "본문 **내용 일치 True/False 표** (10번) — 5행 체크박스",
+      "**답할 수 없는 질문** (13번) · 글의 목적 (16번) · 제목 (8번) · 내용 불일치 (9번)",
+      "논술형: ① 대화 읽고 조건 영작(대명사 주어·시간 부사절·want+grow up 각 1회) ② 본문 Q&A 2문항(be in charge of 표현) ③ 그림·표 보고 비교급·최상급 빈칸 3개(2단어·3단어·3단어 + of the three) ④ 대화에서 어법 틀린 3곳 찾아 고치기"
+    ],
+    "essay_rule": "조건 영작 — 문법 요소를 조건으로 지정 (대명사 주어 · 시간 부사절 · 특정 동사 각 1회 · 단어 수). 답 (1)(2)(3) 표시.",
+    "essay_blueprint": [
+      {
+        "형식": "대화 읽고 질문에 조건 영작",
+        "배점": 4,
+        "노리는 어법": "시간 부사절 (when/after) + want to",
+        "조건": "대명사 주어 · 시간 부사절 · 지정 동사 각 1회"
+      },
+      {
+        "형식": "본문 Q&A 2문항",
+        "배점": 4,
+        "노리는 어법": "본문 표현 그대로 (be in charge of / creates sound effects)",
+        "조건": "완전한 문장 · 본문 표현 사용"
+      },
+      {
+        "형식": "그림·표 보고 빈칸 3개",
+        "배점": 6,
+        "노리는 어법": "비교급 -er/more · 최상급 the -est of the three",
+        "조건": "(1) 2단어 (2) 3단어 (3) 3단어 · 비교급 2회 최상급 1회"
+      },
+      {
+        "형식": "대화에서 어법 틀린 3곳 찾아 고치기",
+        "배점": 6,
+        "노리는 어법": "Let's + 동사원형 · give A to B 어순(4형식→3형식) · 과거시제 일치",
+        "조건": "틀린 것 → 고친 것 순서대로"
+      }
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "vocab_note": "1번 십자말(영영풀이 6개, 5점) + 2번 공통 빈칸(3점). 영영풀이 문장은 영덕 학습지의 것과 같다 (leftover · criminal · eyewitness · janitor · recycle 확인).",
+    "form_choice": 1,
+    "form_choice_note": "15번 — 본문 안 (A) to create/create (B) shooting/shoot (C) excited/exciting 조합 5지선다",
+    "standalone": 0,
+    "standalone_points": 0,
+    "points_pattern": "선택형 5점 12문항 + 4점 4문항 + 3점 1문항 = 79 … 실제 합 80 · 논술 4+4+6+6 = 20",
+    "external_passages": [],
+    "function_notes": [
+      "중1_L5.json"
+    ],
+    "passages_used_2025": [
+      "L5 본문 Who Threw a Cake (12~13)",
+      "L6 본문 Zero-Waste (10~11)",
+      "L7 본문 Let's Make a Movie (15~16 · 논술2)",
+      "L5 대화 A-1 (4번)",
+      "L7 대화 A-1 Jiho/Lucy (5번·논술1)",
+      "L7 대화 Minsu 기자 (14번)",
+      "교사 자작 단락 2개 (7번 학교 일과 · 8~9 스마트폰 설문)",
+      "L6 대화 (논술4 친구 위해 한 일 — 4형식·과거)"
+    ],
+    "range_2025_2": "L5 · L6 · L7 (7과까지). 2026 은 진도 확인 필요 — 원장: 영덕은 5과부터"
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문 — Who Threw the Cake?",
+      "text": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia. There were four eyewitnesses. What did they say? Read the following, and find the criminal. Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting. I turned around and saw an old man. He was standing in front of a wheelchair. I’m about 170 cm tall, and he was a little taller than me. Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head. It was his wig. I ran after him, but I couldn’t catch him. He was faster than me. In fact, the old man was not old. He was a young man with long brown hair. Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting. There was also a wheelchair near the painting, and I found a cake box next to the wheelchair. The box was from Camila’s Bakery. Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in. I spoke to him in Spanish, but he didn’t understand me. He spoke only English. We had a lot of different cakes, but he just wanted the smallest one. We sold only one cake that day, so I remember him clearly. Oh, he had blue eyes. Now, look at the information about the suspects. Who threw the cake at the Monalisa?"
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L5 대화 ②③",
+      "text": "G: Excuse me. May I touch this golden bear?\nM: No, you may not. You must not touch anything in this room.\nG: OK, I understand.\nB: May I go to the video room, Mom?\nW: Of course, but don’t run.\nB: Why not?\nW: Look at that sign. You must not run inside the museum."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 대화 ⑤⑧",
+      "text": "M: Everybody, look over here, please. This is Sunflowers by Van Gogh.\nG: Wow, this is my favorite painting. May I take a picture of it?\nM: Yes, you may, but you must not use the flash.\nG: Why not? It’s a little dark in here.\nM: I’m sorry, but using the flash can damage paintings.\nG: Oh, I didn’t know that.\nM: Everyone, we’ll move on to Monet’s paintings next.\nG: Great!\nB: May I eat here?\nW: No, you may not eat inside the museum.\nB: How about water? May I drink water?\nW: Sure, water is OK."
+    },
+    {
+      "id": "F4",
+      "kind": "given",
+      "title": "의사소통 기능 정리 — L5 (참고 자료)",
+      "text": "[허락 구하고 답하기] A: May I drink water in class? / B: Yes, you may. / No, you may not.\n[금지하기] A: Ms. Kim, may I eat snacks in class? / B: No, you may not. You must not eat snacks in class.\n· ‘~해도 되는지’ 허락을 구할 때는 May I ~?로 묻는다. 허락할 때 Yes, you may. / Sure. / Sure, go ahead. / Of course. / No problem. 등, 허락하지 않을 때 No, you may not. / I’m afraid, (but) you can’t. 등으로 답한다.\n· may 대신 can을 써도 된다.\n· must not〔mustn’t〕은 금지(~하면 안 된다), don’t have to는 불필요(~할 필요가 없다)로 서로 바꿔 쓸 수 없다."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "어휘 십자말 퍼즐 · 영영풀이",
+      "text": "[십자말 퍼즐 · 영영풀이를 보고 칸을 채우시오]\n1. a person who has done something against the law  (★ = 네 번째 철자)\n2. a person who the police think may have done a crime  (★ = 두 번째 철자)\n3. the place where a crime happened  (★ = 첫 번째 철자)\n4. a sound or picture in a movie that is made to seem real  (★ = 첫 번째 철자)\n5. a person whose job is to protect a place or people  (★ = 두 번째 철자)\n6. to harm something so that it is broken or does not look good  (★ = 세 번째 철자)\n※ 1~6번의 ★ 철자를 순서대로 모으면 한 단어가 된다."
+    },
+    {
+      "id": "T2",
+      "kind": "teacher_paragraph",
+      "title": "인터넷 사전 화면 · 공통 빈칸 어휘",
+      "text": "[인터넷 사전 화면]\n_______  (동사)\n1. to move quickly with your legs\n   · Don’t _______ inside the museum.\n2. to go after someone quickly\n   · I tried to _______ after the old man, but I couldn’t catch him.\n3. to own and take care of a business\n   · My aunt _______s a small bakery near the museum."
+    },
+    {
+      "id": "T3",
+      "kind": "teacher_paragraph",
+      "title": "사건 요약 메모 (교사 작성)",
+      "text": "Last Saturday at the Botero Museum, a strange ①crime happened. Someone threw a cake at the Monalisa. Ann Jones said that the man was a little ②taller than she was. Carlos Diaz ran after the man, but he could not catch him, because the man was ③slower than Carlos. Diego Perez found a cake box ④next to the wheelchair. Camila Santos remembered the young man well, because she sold only ⑤one cake on that day."
+    },
+    {
+      "id": "T4",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 (허락하기)",
+      "text": "A: Ms. Kim, may I open the window? It’s very hot in here.\nB: ________________________ But please be careful.\nA: Thank you."
+    },
+    {
+      "id": "T5",
+      "kind": "dialogue_set",
+      "title": "대화 배열",
+      "text": "G: Excuse me. May I take a picture of this painting?\n(A) Why not? It’s a little dark in here.\n(B) I’m sorry, but the flash can damage paintings.\n(C) Yes, you may, but you must not use the flash.\nG: Oh, I didn’t know that. I’ll turn it off."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "단락 배열",
+      "text": "Last week, our school club visited a sound studio to learn about movie sounds.\n(A) After the tour, we tried it ourselves. I shook a big metal sheet, and it sounded just like thunder!\n(B) First, a Foley artist showed us her room. It was full of shoes, boxes, and even a bag of cornstarch.\n(C) Then she walked on the cornstarch. It made the sound of someone walking on snow. We were all very surprised."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "외부 지문 — The Foley Artist",
+      "text": "Have you ever wondered how movies get their sounds? A Foley artist ①creates sound effects for films. Mina Park has done (a)this job for ten years. She is in charge of every small sound in a movie — footsteps, rain, and the sound of a door.\nHer job is ②to watch the same scene again and again. When she finds the right moment, she makes the sound with everyday things. To make the sound of rain, she ③pours rice onto a sheet of paper. To make horse hooves, she hits two cups on sand.\nMany people think that (a)this is an easy job, but it is not. Before she starts, she must ④plan every sound. The sounds are not real, but they make the scene feel more ⑤strange. “After the movie ends, no one remembers my name,” she says with a smile. “That is fine. The story is more important than my sounds.”"
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "외부 지문 — 편지",
+      "text": "Dear Ms. Park,\nHello. I am a student at Yeongdeok Middle School. I am writing (A)for ask about the Saturday sound class at the City Art Museum. My friends and I want (B)joining the class next month. I think (C)that the class will help us a lot. I also heard that it is (D)the most popular than any other class at the museum. When I (E)will visit the museum next Saturday, may I bring my camera and record the class? Please let me know.\nThank you.\nJiho Kim"
+    },
+    {
+      "id": "T9",
+      "kind": "teacher_paragraph",
+      "title": "외부 지문 — Why Movies Need Sound Effects",
+      "text": "Why do movies need sound effects? Real sounds are often too quiet for a film. For example, a real punch sounds like almost nothing at all. So sound artists make new sounds with simple things. A watermelon can become the sound of a falling tree, and a pair of old gloves can become the wings of a bird. In other words, in movies, ________________________."
+    },
+    {
+      "id": "T10",
+      "kind": "teacher_paragraph",
+      "title": "어형 고르기 단락",
+      "text": "Yesterday there (A)[was / were] many people at the City Art Museum. I went there (B)[to see / seeing] the new exhibit. My little brother said (C)[that / what] the big painting was the best of all."
+    },
+    {
+      "id": "T11",
+      "kind": "dialogue_set",
+      "title": "논술형 1 대화",
+      "text": "A: Minji, what do you want to be when you grow up?\nB: I want to be a Foley artist. I love making sounds for movies.\nA: Wow! How will you learn it?\nB: There is a sound class at the City Art Museum. I’ll take it after school ends this Friday.\nA: How will you get to the museum?\nB: I’ll go by subway. I’ll get off at Sinsa Station.\nA: Sounds great!"
+    },
+    {
+      "id": "T12",
+      "kind": "teacher_paragraph",
+      "title": "논술형 3 표 — 세 박물관 안내",
+      "text": "[세 박물관 안내표]\n                 | Museum A | Museum B | Museum C\nHeight           |   30 m   |   45 m   |   60 m\nTicket price     |    $8    |   $12    |   $15\nVisitors a day   |   300    |   500    |   900"
+    },
+    {
+      "id": "T13",
+      "kind": "dialogue_set",
+      "title": "논술형 4 대화 (어법 오류 포함)",
+      "text": "A: Mina, what did you do last Saturday?\nB: I go to a sound studio with my brother. It was really cool.\nA: Wow! Let’s to visit the studio together next time.\nB: Sure. The teacher gave to me two free tickets.\nA: Great! Thank you."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "T1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 5,
+      "stem_ko": "[T1]의 영영풀이를 보고 십자말 퍼즐을 완성할 때, ★에 해당하는 철자를 1~6번 순서대로 조합하여 만들어지는 단어로 알맞은 것은?",
+      "options": [
+        "museum",
+        "musical",
+        "moment",
+        "summer",
+        "custom"
+      ],
+      "answer": 1,
+      "why_ko": "1 criminal(m) 2 suspect(u) 3 scene(s) 4 effect(e) 5 guard(u) 6 damage(m) → M-U-S-E-U-M."
+    },
+    {
+      "no": 2,
+      "material_id": "T2",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "[T2]의 사전 화면에서 빈칸에 공통으로 들어갈 단어로 알맞은 것은?",
+      "options": [
+        "throw",
+        "run",
+        "catch",
+        "turn",
+        "fall"
+      ],
+      "answer": 2,
+      "why_ko": "‘달리다 / run after(뒤쫓다) / run a bakery(가게를 운영하다)’ 세 가지 뜻을 모두 만족시키는 단어는 run이다."
+    },
+    {
+      "no": 3,
+      "material_id": "T3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "[T3]의 밑줄 친 ①~⑤ 중 문맥상 낱말의 쓰임이 어색한 것은?",
+      "options": [
+        "① crime",
+        "② taller",
+        "③ slower",
+        "④ next to",
+        "⑤ one"
+      ],
+      "answer": 3,
+      "why_ko": "쫓아갔지만 잡지 못한 이유이므로 남자가 더 ‘빨랐다(faster)’여야 한다. slower는 문맥에 어긋난다."
+    },
+    {
+      "no": 4,
+      "material_id": "T4",
+      "type": "T-BLANK",
+      "points": 5,
+      "stem_ko": "[T4]의 빈칸에 들어갈 말로 알맞지 않은 것은?",
+      "options": [
+        "Sure, go ahead.",
+        "Of course.",
+        "Yes, you may.",
+        "No problem.",
+        "I’m afraid you can’t."
+      ],
+      "answer": 5,
+      "why_ko": "뒤에 ‘But please be careful.’가 이어지므로 허락하는 응답이 와야 한다. ⑤는 허락하지 않는 표현이므로 들어갈 수 없다."
+    },
+    {
+      "no": 5,
+      "material_id": "T5",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "[T5]의 (A)~(C)를 대화의 흐름에 맞게 바르게 배열한 것은?",
+      "options": [
+        "(A)-(B)-(C)",
+        "(A)-(C)-(B)",
+        "(B)-(A)-(C)",
+        "(C)-(A)-(B)",
+        "(C)-(B)-(A)"
+      ],
+      "answer": 4,
+      "why_ko": "허락하며 플래시 금지(C) → 이유를 묻는 Why not?(A) → 이유 설명(B)의 순서가 자연스럽다."
+    },
+    {
+      "no": 6,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P3]의 내용과 일치하지 않는 것은?",
+      "options": [
+        "The girl’s favorite painting is Sunflowers.",
+        "The girl may take a picture of the painting.",
+        "Using the flash can damage paintings.",
+        "The group will look at Monet’s paintings next.",
+        "The boy may eat and drink inside the museum."
+      ],
+      "answer": 5,
+      "why_ko": "물을 마시는 것은 허락되지만 박물관 안에서 먹는 것은 허락되지 않는다."
+    },
+    {
+      "no": 7,
+      "material_id": "T6",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "[T6]의 (A)~(C)를 글의 흐름에 맞게 바르게 배열한 것은?",
+      "options": [
+        "(A)-(B)-(C)",
+        "(A)-(C)-(B)",
+        "(B)-(A)-(C)",
+        "(B)-(C)-(A)",
+        "(C)-(A)-(B)"
+      ],
+      "answer": 4,
+      "why_ko": "First(방 구경) → Then(옥수수 전분 위를 걷기) → After the tour(직접 해 보기)의 시간 순서이다."
+    },
+    {
+      "no": 8,
+      "material_id": "T7",
+      "type": "T-TOPIC",
+      "points": 5,
+      "stem_ko": "[T7]의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "How to Become a Movie Star",
+        "The Woman Who Makes Movie Sounds",
+        "The History of Film Music",
+        "Sounds That Damage Our Ears",
+        "A Guide to Watching Movies Safely"
+      ],
+      "answer": 2,
+      "why_ko": "영화의 작은 소리들을 직접 만들어 내는 폴리 아티스트 Mina Park에 관한 글이다."
+    },
+    {
+      "no": 9,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[P1]의 내용과 일치하지 않는 것은?",
+      "options": [
+        "케이크를 던진 사건은 지난 토요일에 일어났다.",
+        "Ann Jones는 자신보다 조금 더 큰 남자를 보았다.",
+        "Carlos Diaz는 달아나는 남자를 쫓아갔지만 잡지 못했다.",
+        "Diego Perez는 휠체어 옆에서 케이크 상자를 발견했다.",
+        "Camila Santos는 그날 여러 개의 케이크를 팔았다."
+      ],
+      "answer": 5,
+      "why_ko": "Camila Santos는 그날 케이크를 단 하나만 팔아서 그 남자를 분명히 기억한다고 했다."
+    },
+    {
+      "no": 10,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[P2]의 내용과 일치하면 T, 일치하지 않으면 F라고 할 때, (a)~(e)를 바르게 짝지은 것은?\n(a) The girl may touch the golden bear.\n(b) Visitors must not touch anything in that room.\n(c) The boy asked his mom for permission to go to the video room.\n(d) The mother told the boy not to go to the video room.\n(e) People must not run inside the museum.",
+      "options": [
+        "T–T–F–F–T",
+        "F–T–F–T–T",
+        "F–T–T–F–T",
+        "T–F–T–F–F",
+        "F–F–T–T–T"
+      ],
+      "answer": 3,
+      "why_ko": "(a) 만지면 안 된다고 했으므로 F, (d) 어머니는 가도 좋다고 허락했으므로 F, 나머지는 T이다."
+    },
+    {
+      "no": 11,
+      "material_id": "T8",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T8]의 밑줄 친 (A)~(E) 중 어법상 알맞은 것은?",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)",
+        "(E)"
+      ],
+      "answer": 3,
+      "why_ko": "(C) think의 목적어 역할을 하는 명사절 접속사 that은 옳다. (A) for ask → to ask, (B) joining → to join, (D) the most popular than → more popular than, (E) will visit → visit(시간 부사절은 현재시제).",
+      "grammar_point": "NOUN_CLAUSE_THAT / NONFIN_TO_ROLE / MOD_COMPARATIVE / CONJ_VS_PREP"
+    },
+    {
+      "no": 12,
+      "material_id": "T7",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "[T7]의 밑줄 친 ①~⑤ 중 문맥상 낱말의 쓰임이 어색한 것은?",
+      "options": [
+        "① creates",
+        "② to watch",
+        "③ pours",
+        "④ plan",
+        "⑤ strange"
+      ],
+      "answer": 5,
+      "why_ko": "진짜 소리는 아니지만 장면을 더 ‘진짜처럼(real)’ 느끼게 한다는 흐름이므로 strange는 어색하다."
+    },
+    {
+      "no": 13,
+      "material_id": "T7",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[T7]을 읽고 대답할 수 없는 질문은?",
+      "options": [
+        "How long has Mina Park done her job?",
+        "What does Mina use to make the sound of rain?",
+        "What must Mina do before she starts her work?",
+        "Where did Mina learn to make sound effects?",
+        "What is a Foley artist in charge of?"
+      ],
+      "answer": 4,
+      "why_ko": "소리 효과 만드는 법을 어디에서 배웠는지는 글에 언급되어 있지 않다."
+    },
+    {
+      "no": 14,
+      "material_id": "T9",
+      "type": "T-BLANK",
+      "points": 5,
+      "stem_ko": "[T9]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "actors are more important than sounds",
+        "silence is always better than sound",
+        "music is the only thing that matters",
+        "fake sounds often feel more real than real ones",
+        "cameras create all the sounds by themselves"
+      ],
+      "answer": 4,
+      "why_ko": "실제 소리는 너무 작아서 사물로 만든 가짜 소리가 오히려 더 진짜처럼 들린다는 내용이다."
+    },
+    {
+      "no": 15,
+      "material_id": "T10",
+      "type": "T-FORM-CHOICE",
+      "points": 5,
+      "stem_ko": "[T10]의 (A), (B), (C) 각 네모 안에서 어법에 맞는 표현을 바르게 짝지은 것은?",
+      "options": [
+        "was – to see – that",
+        "was – seeing – what",
+        "were – to see – that",
+        "were – to see – what",
+        "were – seeing – that"
+      ],
+      "answer": 3,
+      "why_ko": "many people은 복수이므로 There were, ‘보기 위해서’라는 목적의 부사적 용법 to see, 뒤에 완전한 절이 오므로 접속사 that이 알맞다.",
+      "grammar_point": "VERB_BE_PAST(There were) / NONFIN_TO_ROLE / NOUN_CLAUSE_THAT"
+    },
+    {
+      "no": 16,
+      "material_id": "T8",
+      "type": "T-TOPIC",
+      "points": 5,
+      "stem_ko": "[T8]을 쓴 목적으로 가장 알맞은 것은?",
+      "options": [
+        "수업에 대해 문의하려고",
+        "수업에 빠진 것을 사과하려고",
+        "박물관 관람 규칙을 안내하려고",
+        "수업이 취소되었음을 알리려고",
+        "사진 전시회에 초대하려고"
+      ],
+      "answer": 1,
+      "why_ko": "토요일 소리 수업에 대해 묻고 카메라 지참 가능 여부를 문의하는 편지이다."
+    },
+    {
+      "no": 17,
+      "material_id": "T7",
+      "type": "T-PHRASE-INFER",
+      "points": 5,
+      "stem_ko": "[T7]의 밑줄 친 (a)this가 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "watching movies at home",
+        "making sound effects for movies",
+        "acting in a famous film",
+        "cleaning the sound studio",
+        "writing a movie story"
+      ],
+      "answer": 2,
+      "why_ko": "(a)this는 앞 문장의 ‘A Foley artist creates sound effects for films’, 즉 영화의 음향 효과를 만드는 일을 가리킨다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 1,
+      "material_id": "T11",
+      "points": 4,
+      "prompt_ko": "[T11]의 대화를 읽고, 다음 질문에 <조건>에 맞게 영어로 답하시오.\n(1) What does Minji want to be when she grows up?\n(2) When will Minji take the sound class?\n(3) How will Minji get to the museum?\n<조건> ① 세 문장 모두 대명사(She)를 주어로 쓸 것 ② (1)에는 when, (2)에는 after가 이끄는 시간 부사절을 각각 1회 쓰고, 시간 부사절 안에서는 현재시제를 쓸 것 ③ (1)에는 want를 1회 쓸 것 ④ (3)에는 by subway와 get off at ~ Station의 전치사를 그대로 살려 쓸 것 ⑤ 각 문장은 7~12단어로 쓸 것",
+      "given_words": [
+        "grow up",
+        "want",
+        "after",
+        "by subway",
+        "get off",
+        "Sinsa Station"
+      ],
+      "word_limit": "각 문장 7~12단어",
+      "target_grammar": "시간 부사절(when/after, 현재시제) + want to부정사 + 전치사 결합(by subway / get off at ~ Station)",
+      "answer_en": "(1) She wants to be a Foley artist when she grows up. (2) She will take the sound class after school ends this Friday. (3) She will go to the museum by subway and get off at Sinsa Station.",
+      "why_ko": "시간 부사절에서는 미래의 일도 현재시제로 쓰며(when she grows up / after school ends), 교통수단은 by subway, 하차는 get off at + 역 이름으로 표현한다."
+    },
+    {
+      "no": 2,
+      "material_id": "T7",
+      "points": 4,
+      "prompt_ko": "[T7]을 읽고, 다음 두 질문에 본문에 쓰인 표현(be in charge of / create sound effects)을 그대로 사용하여 완전한 영어 문장으로 답하시오.\n(1) What is a Foley artist in charge of?\n(2) What does Mina Park do for films?",
+      "given_words": [
+        "be in charge of",
+        "create sound effects"
+      ],
+      "word_limit": "각 문장 6~12단어",
+      "target_grammar": "본문 표현 그대로 쓰기 (be in charge of / creates sound effects) · 3인칭 단수 현재형",
+      "answer_en": "(1) She is in charge of every small sound in a movie. (2) She creates sound effects for films.",
+      "why_ko": "주어가 3인칭 단수이므로 is in charge of, creates로 쓰며, 본문의 표현을 그대로 활용해야 한다."
+    },
+    {
+      "no": 3,
+      "material_id": "T12",
+      "points": 6,
+      "prompt_ko": "[T12]의 표를 보고, 다음 문장의 빈칸을 지시된 단어 수에 맞게 채우시오. (비교급 2회, 최상급 1회를 쓸 것)\n(1) Museum C is ____________ than Museum A. (2단어, 하루 방문객 수 비교)\n(2) Museum B is ____________ Museum A. (3단어, 입장료 비교)\n(3) Museum C is ____________ of the three. (3단어, 건물 높이 비교)",
+      "given_words": [
+        "popular",
+        "expensive",
+        "tall",
+        "museum"
+      ],
+      "word_limit": "(1) 2단어 (2) 3단어 (3) 3단어",
+      "target_grammar": "비교급(more + 형용사 + than) 2회 · 최상급(the -est + 명사 + of the three) 1회",
+      "answer_en": "(1) more popular (2) more expensive than (3) the tallest museum",
+      "why_ko": "3음절 이상의 형용사는 more를 붙여 비교급을 만들고(more popular / more expensive), 짧은 형용사 tall은 the tallest로 최상급을 만들어 of the three와 함께 쓴다."
+    },
+    {
+      "no": 4,
+      "material_id": "T13",
+      "points": 6,
+      "prompt_ko": "[T13]의 대화에는 어법상 틀린 곳이 세 군데 있다. 틀린 부분을 찾아 <틀린 것 → 고친 것>의 형태로 대화에 나온 순서대로 쓰시오.",
+      "given_words": [
+        "go",
+        "Let's",
+        "gave"
+      ],
+      "word_limit": "세 군데 모두 ‘틀린 것 → 고친 것’ 형태로 쓸 것",
+      "target_grammar": "과거시제 일치 · Let's + 동사원형 · give A to B(4형식→3형식) 어순",
+      "answer_en": "(1) go → went (2) Let’s to visit → Let’s visit (3) gave to me two free tickets → gave two free tickets to me (또는 gave me two free tickets)",
+      "why_ko": "last Saturday의 일이므로 과거시제 went, Let’s 뒤에는 동사원형 visit, give는 「give+사람+사물」 또는 「give+사물+to+사람」 어순이어야 하므로 gave to me two free tickets는 틀렸다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [],
+    "warnings": [
+      "서술형 2번 필수 단어가 답에 안 보임 ['be in charge of'] — 굴절형일 수 있으니 눈으로 확인",
+      "서술형 4번 필수 단어가 답에 안 보임 [\"Let's\"] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 17,
+    "n_essays": 4,
+    "total_points": 100,
+    "fixes": [
+      "「영영풀이 4문항」은 검사기 오탐 — 3·12번 문맥 어휘는 기출에도 있다. 「모범답 단어 수」는 문장별 조건을 통째로 센 오탐 (2026-09-21)"
+    ]
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 3890,
+    "output": 29457,
+    "usd": 0.7723
+  }
+}

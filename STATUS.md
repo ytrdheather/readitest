@@ -4,6 +4,23 @@
 > [`docs/리디테스트_기획서_v0.1.md`](docs/리디테스트_기획서_v0.1.md) 순으로 읽으십시오.**
 > 원본 자료 위치는 [`data/sources.md`](data/sources.md).
 
+> # ✅ 2026-09-21 중1 영덕 5과 동형 3세트 · 어법 형태 드릴 · 6과 착수
+>
+> **동형** `result/readitude/영덕중1 5과 동형모의고사 1~3세트.pdf` (+정답지). 선택 17 · 논술 4 · 100점 · 세트당 $0.7.
+> 근거: 영덕중1 2025 기말 전수 판독 [`중1_영덕_2025기말_기출.md`](data/stage0/comparisons/중1_영덕_2025기말_기출.md) →
+> `mock_exam_blueprint_중1.json`. `make_mock_exam --grade 1`. 5과 본문이 하나라 세트마다 대화 묶음만 돈다.
+> **5·6과 혼합 세트는 다음 주** (원장 2026-09-21).
+>
+> **의사소통 기능 정리** `data/stage0/functions/중1_L5·6·7.json` — 유사 표현(May I↔Can I · want↔hope/wish/would like).
+> 원장이 「대화 옆 주석도 넣었나」 물어 잡혔다. 생성기가 F 자료로 받는다 → 4번 「대신 쓸 수 없는 말」이 나왔다.
+>
+> **형태 드릴** `동아윤정미 중1 5과 어법드릴.pdf` 240문항 (비교급·최상급·There is/are). 모델 미사용. `make_form_drill`.
+>
+> **6과** 지문 9편 추출 · 학습지 15~26쪽 판독 · 받아쓰기 36조각 일치 → **확인지 대조 대기** (`전사확인지_중1_L6.html`).
+> 대조 오면: confirm → 008 → pass-a → 010 → make_drill_grammar --only "중1 L6" → verify → make_drill_tf ×4 → make_drill_en → build_school_drills --school 영덕중.
+>
+> 영일중1 시험 범위 **5·6·7과** (LESSONS). 대화 받아쓰기 드릴은 안 만든다 (특급기출에서 이미 했다).
+
 > # ✅ 2026-09-19 중1 영일 7과 드릴 — `result/readitude/영일중1 7과 리디튜드 자체드릴.pdf` 28쪽
 >
 > 5과와 같은 길, 실비 약 $5. 다른 점: **외부지문** 「Two Different Jobs」(영일 학습지 More reading, 214단어)를
