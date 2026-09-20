@@ -1,0 +1,151 @@
+{
+  "grade": 1,
+  "lesson": 5,
+  "source": "22개정 특급기출 중1 동아 윤정미 2학기 - 5과 추출.pdf",
+  "source_detail": "특급기출 본책 STEP A Listening & Speaking 기능 정리 쪽 (시험 Point · 유사 표현) + 대화 옆 해설 ➊➋",
+  "functions": [
+    {
+      "function": "허락 구하고 답하기",
+      "model": [
+        "A: May I drink water in class?",
+        "B: Yes, you may. / No, you may not."
+      ],
+      "notes": [],
+      "exam_point": "허가를 요청하는 말과 그에 대해 허락하는 표현 또 는 허락하지 않는 다양한 표현을 잘 숙지하고 있어 야 한다.",
+      "interchangeable": []
+    },
+    {
+      "function": "금지하기",
+      "model": [
+        "A: Ms. Kim, may I eat snacks in class?",
+        "B: No, you may not. You must not eat snacks in class."
+      ],
+      "notes": [
+        "\u0007‘~해도 되는지’ 상대방에게 허락을 구할 때는 May I ~?라고 물어볼 수 있다. 이에 대해 허락할 때는 Yes, you may. 또는 Sure. / Sure, go ahead. / Of course. / No problem. 등으로 대답하고, 허락하지 않을 때는 No, you may not. / I’m afraid, (but) you can’t. 등으로 대답한다.",
+        "\u0007질문과 대답에서 may 대신 can을 써도 허락을 구하고 답하는 표현이 된다.",
+        "A: May I ride a bike here? (여기서 자전거 타도 되나요?) B: Yes, you may. (그래, 그래도 돼.)",
+        "A: Can I borrow your pen for a moment? (잠시 네 펜을 빌릴 수 있을까?) B: No, you can’t. (아니, 안 돼.)",
+        "\u0007must는 ‘~해야 한다’의 뜻으로 의무를 나타내는 조동사이고, must의 부정형인 must not〔mustn’t〕은 ‘~하면 안 된다’라는 의미로 금지를 나타낸다. 따라서 무언가를 하면 안 된다는 금지의 표현은 「must not〔mustn’t〕+동사원형」으로 표현하며 should not〔shouldn’t〕, may not, cannot도 금지의 의미를 갖는다.",
+        "\u0007‘~해야 한다’라는 뜻으로 의무를 나타내는 must는 비슷한 의미를 가지는 have〔has〕 to와 바꾸어 쓸 수 있다. 하지만 must의 부정형인 금지를 나타내는 must not은 ‘~할 필요가 없다’라는 불필요를 나타내는 have to의 부정형인 don’t〔doesn’t〕 have to와 바꾸어 쓸 수 없다.",
+        "You must not be late for school. (너는 학교에 지각해서는 안 된다.)",
+        "She must not eat too much candy. (그녀는 사탕을 너무 많이 먹어서는 안 된다.)",
+        "You must not drive without a seatbelt. (너는 안전벨트를 매지 않고 운전해서는 안 된다.)",
+        "You mustn’t speak loudly in the library. (너는 도서관에서 크게 말해서는 안 된다.)",
+        "\u0007You mustn’t use your phones during the exam. (너희는 시험 중에 휴대전화를 사용해서는 안 된다.)"
+      ],
+      "exam_point": "must not은 ‘금지’를, don’t have to는 ‘불필요’ 를 나타내며 don’t have to는 don’t need to 와 바꾸어 쓸 수 있음에 주의해야 한다.",
+      "interchangeable": [
+        "\u0007‘~해도 되는지’ 상대방에게 허락을 구할 때는 May I ~?라고 물어볼 수 있다. 이에 대해 허락할 때는 Yes, you may. 또는 Sure. / Sure, go ahead. / Of course. / No problem. 등으로 대답하고, 허락하지 않을 때는 No, you may not. / I’m afraid, (but) you can’t. 등으로 대답한다.",
+        "\u0007질문과 대답에서 may 대신 can을 써도 허락을 구하고 답하는 표현이 된다.",
+        "\u0007‘~해야 한다’라는 뜻으로 의무를 나타내는 must는 비슷한 의미를 가지는 have〔has〕 to와 바꾸어 쓸 수 있다. 하지만 must의 부정형인 금지를 나타내는 must not은 ‘~할 필요가 없다’라는 불필요를 나타내는 have to의 부정형인 don’t〔doesn’t〕 have to와 바꾸어 쓸 수 없다."
+      ]
+    }
+  ],
+  "dialogue_notes": [
+    {
+      "block": "Watch and Talk A-1",
+      "note": "‘실례합니다’라는 뜻으로 누군가에게 말을 걸거나 주의를 끌고 싶을 때 사용하는 표현이다."
+    },
+    {
+      "block": "Watch and Talk A-1",
+      "note": "must not은 ‘~해서는 안 된다’라는 뜻으로 금지를 나타낸다."
+    },
+    {
+      "block": "Watch and Talk A-1",
+      "note": "terribly는 ‘매우, 극도로’라는 의미이며 I’m terribly sorry. 는 ‘매우 미안합니다.’라는 뜻이다."
+    },
+    {
+      "block": "Watch and Talk A-1",
+      "note": "\u0007turn off는 ‘~을 끄다’라는 뜻이며 반대말인 ‘~을 켜다’는 turn on으로 표현한다."
+    },
+    {
+      "block": "Watch and Talk A-1",
+      "note": "don’t have to는 ‘~할 필요가 없다’라는 뜻으로 불필요를 나 타낸다."
+    },
+    {
+      "block": "Watch and Talk A-1",
+      "note": "Texting은 동명사 주어로 ‘문자 보내기’라는 뜻으로 쓰였다."
+    },
+    {
+      "block": "Watch and Talk A-2",
+      "note": "May I ~?는 ‘~해도 될까요?’라는 뜻으로 허락을 구하는 표현 이며 Can I ~?와 바꾸어 쓸 수 있다."
+    },
+    {
+      "block": "Watch and Talk A-2",
+      "note": "상대방의 허락을 구하는 말에 허락하지 않을 때는 No, you may not. / I’m afraid, (but) you can’t. 등으로 대답할 수 있다."
+    },
+    {
+      "block": "Watch and Talk A-2",
+      "note": "‘이해했어요.’, ‘알겠어요.’라는 의미로 상황을 잘 알고 있거나 받 아들였다는 것을 나타낸다."
+    },
+    {
+      "block": "Watch and Talk A-3",
+      "note": "「Don’t+동사원형」은 ‘~하지 마’라는 의미의 부정명령문이다."
+    },
+    {
+      "block": "Watch and Talk A-3",
+      "note": "여기서의 Why not?은 ‘왜 안 돼요?’라는 뜻의 이유를 묻는 표 현으로 Why can’t I run?의 의미이다."
+    },
+    {
+      "block": "Watch and Talk A-3",
+      "note": "look at은 ‘~을 보다’라는 의미이다."
+    },
+    {
+      "block": "Watch and Talk A-4",
+      "note": "How about ~?은 ‘~은요?’라는 뜻으로 이 대화에서는 사람 이나 사물에 대한 정보를 묻는 표현으로 사용되었으며 뒤에 명 사(구) 또는 동명사(구)가 온다."
+    },
+    {
+      "block": "Watch and Talk A-4",
+      "note": "bottled는 ‘병에 담겨 있는’이라는 의미이다."
+    },
+    {
+      "block": "Watch and Talk C",
+      "note": "look over는 ‘둘러보다’라는 의미의 표현이다."
+    },
+    {
+      "block": "Watch and Talk C",
+      "note": "여기서의 by는 ‘~에 의해’라는 뜻으로 행위의 주체를 나타내고 있다."
+    },
+    {
+      "block": "Watch and Talk C",
+      "note": "‘약간의, 조금의’라는 의미로 양이나 정도가 적음을 나타내며, 긍 정적인 의미로 사용된다."
+    },
+    {
+      "block": "Watch and Talk C",
+      "note": "문장의 주어로 사용된 동명사구이다."
+    },
+    {
+      "block": "Watch and Talk C",
+      "note": "that은 앞에서 한 남자의 말 ‘플래시를 사용하는 것은 그림을 훼손시킬 수 있다’는 내용을 지칭한다."
+    },
+    {
+      "block": "Watch and Talk C",
+      "note": "‘~으로 옮기다, 이동하다’라는 의미이다."
+    },
+    {
+      "block": "Talk and Play",
+      "note": "ride a bike는 ‘자전거를 타다’라는 의미이다."
+    },
+    {
+      "block": "Talk and Play",
+      "note": "fly는 ‘날다’, ‘날리다’의 뜻이 있으며 여기서는 ‘날리다’라는 의미 로 쓰였다."
+    },
+    {
+      "block": "Review-1",
+      "note": "bring A to B는 ‘A를 B에 가져가다’라는 의미이다."
+    },
+    {
+      "block": "Review-1",
+      "note": "inside는 ‘안쪽에, 내부에’라는 의미의 부사로 쓰였으며 반대말 은 outside(밖에, 외부에)이다."
+    },
+    {
+      "block": "Review-2",
+      "note": "inside는 ‘~ 내부에, ~의 안쪽에’라는 의미의 전치사로 쓰였 다."
+    },
+    {
+      "block": "Review-2",
+      "note": "Sure.는 ‘물론이야.’라는 의미로 허락을 구하는 말에 대해 수락 하는 표현이다."
+    }
+  ],
+  "_why": "원장 2026-09-21 「대화문 옆 주석의 같은 표현 등도 다 추가했나」. 시험 14번이 '빈칸에 들어갈 수 없는 말'로 유사 표현을 묻는다. 지문(body_text)에는 안 넣고 여기 둔다 — 지문은 교과서 원문이어야 한다."
+}

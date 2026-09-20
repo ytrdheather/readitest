@@ -200,10 +200,9 @@ def build_params(school, spec, common, materials, points_hint, set_no):
 이 학교만의 것:
 {sig}
 
-## 이번 범위 어법 (L5·L6)
+## 이번 범위 어법
 
-  L5  {common['range_2026_2']['L5']}
-  L6  {common['range_2026_2']['L6']}
+{chr(10).join(f"  {k}  {v}" for k, v in common['range_2026_2'].items() if k != 'note')}
       {common['range_2026_2']['note']}
 
 ## 배점
@@ -211,6 +210,10 @@ def build_params(school, spec, common, materials, points_hint, set_no):
 {points_hint}
 
 ## 자료 — **본문을 옮겨 적지 말고 번호로만 가리키십시오**
+
+`F` 로 시작하는 자료는 지문이 아니라 **참고 정리**입니다 (의사소통 기능 · 유사 표현 · 대답 표현).
+문항에 실을 지문이 아니라, 「빈칸에 들어갈 수 **없는** 말」 「바꿔 쓸 수 있는 표현」 같은 문항의
+선지를 만들 때 근거로 쓰십시오. 교과서가 인정하는 유사 표현 밖의 것을 정답으로 삼지 마십시오.
 
 {mat}
 {ess}

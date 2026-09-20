@@ -35,10 +35,24 @@ try:
 except Exception:
     pass
 
-BP = os.path.join(ROOT, "data", "stage0", "mock_exam_blueprint.json")
+BP = os.path.join(ROOT, "data", "stage0", "mock_exam_blueprint.json")          # 중2
+BP1 = os.path.join(ROOT, "data", "stage0", "mock_exam_blueprint_중1.json")      # 중1 (2026-09-21)
 OUT = os.path.join(ROOT, "data", "generated", "mock")
 
 # 세트마다 지문 묶음을 갈아 준다. 같은 지문 세 번이면 암기 확인이 된다.
+# 중1 5과 — 본문 하나뿐이라 세트마다 본문은 같고 대화 묶음을 돌린다. 6과가 확정되면 섞는다.
+SET_PASSAGES_1 = {
+    1: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+        ("L5 대화 ①②③", ["중1 L5 대화-1", "중1 L5 대화-2", "중1 L5 대화-3"]),
+        ("L5 대화 ⑦⑧", ["중1 L5 대화-7", "중1 L5 대화-8"])],
+    2: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+        ("L5 대화 ④⑤", ["중1 L5 대화-4", "중1 L5 대화-5"]),
+        ("L5 대화 ⑥", ["중1 L5 대화-6"])],
+    3: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+        ("L5 대화 ②③", ["중1 L5 대화-2", "중1 L5 대화-3"]),
+        ("L5 대화 ⑤⑧", ["중1 L5 대화-5", "중1 L5 대화-8"])],
+}
+
 SET_PASSAGES = {
     1: [("L5 본문", ["Street Art in London-1", "Street Art in London-2",
                      "Street Art in London-3", "Street Art in London-4"]),
@@ -68,13 +82,13 @@ def points_hint(spec):
             f"{spec['total_points']}점**이 되게 하십시오.")
 
 
-def gather(rest, spec, set_no):
+def gather(rest, spec, set_no, sets=SET_PASSAGES):
     ps = {p["title"]: p for p in rest.get(
         "/passage?select=id,title,kind,body_text,transcription_status&limit=500")
         if p["transcription_status"] == "confirmed"}
     mats, given = [], {}
     n = 1
-    for label, parts in SET_PASSAGES[set_no]:
+    for label, parts in sets[set_no]:
         rows = [ps[t] for t in parts if t in ps]
         if not rows:
             print(f"    ! 지문 없음, 건너뜀: {label}")
@@ -83,6 +97,22 @@ def gather(rest, spec, set_no):
         mid = f"P{n}"; n += 1
         mats.append({"id": mid, "kind": "given", "title": label, "text": text})
         given[mid] = text
+    # 의사소통 기능 — 유사 표현·대답 표현. 시험이 「빈칸에 들어갈 수 없는 말」로 묻는다 (영덕중1 2025 14번).
+    # 지문(P)이 아니라 참고 자료(F)다 — 원문 대조 대상이 아니고, 모델이 이걸 보고 선지를 만든다.
+    for fjson in spec.get("function_notes", []):
+        fp = os.path.join(ROOT, "data", "stage0", "functions", fjson)
+        if not os.path.exists(fp):
+            print(f"    ! 기능 정리 없음: {fjson}")
+            continue
+        fd = json.load(io.open(fp, encoding="utf-8"))
+        lines = []
+        for c in fd["functions"]:
+            lines.append(f"[{c['function']}] " + " / ".join(c["model"]))
+            for note in c["notes"]:
+                lines.append("  · " + note)
+        mid = f"F{n}"; n += 1
+        mats.append({"id": mid, "kind": "reference", "title": f"의사소통 기능 정리 — L{fd['lesson']}",
+                     "text": chr(10).join(lines)})
     for t in spec.get("external_passages", []):
         row = ps.get(t)
         if not row:
@@ -101,9 +131,13 @@ def main():
     ap.add_argument("--set", type=int, choices=[1, 2, 3])
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--run", action="store_true")
+    ap.add_argument("--grade", type=int, default=2, choices=[1, 2],
+                    help="1 이면 중1 설계도·지문 묶음을 쓴다")
     a = ap.parse_args()
 
-    bp = json.load(io.open(BP, encoding="utf-8"))
+    bp = json.load(io.open(BP1 if a.grade == 1 else BP, encoding="utf-8"))
+    passage_sets = SET_PASSAGES_1 if a.grade == 1 else SET_PASSAGES
+    tag = "중1_" if a.grade == 1 else ""
     schools = list(bp["schools"]) if a.all else ([a.school] if a.school else [])
     if not schools:
         raise SystemExit("--school 또는 --all 을 주십시오. " + ", ".join(bp["schools"]))
@@ -122,7 +156,7 @@ def main():
             print(f" {school} 동형 {set_no}세트 — 선택 {spec['selective']} · "
                   f"서술 {spec.get('essay', 0)} · {spec['grammar_vessel']}")
             print("=" * 74)
-            mats, given = gather(rest, spec, set_no)
+            mats, given = gather(rest, spec, set_no, passage_sets)
             for m in mats:
                 print(f"    {m['id']} {m['title'][:34]:36} {len(m['text']):>5}자")
             if not a.run:
@@ -154,7 +188,7 @@ def main():
             if not d["problems"]:
                 print("      구조 검사 통과")
 
-            path = os.path.join(OUT, f"{school}_{set_no}세트.json")
+            path = os.path.join(OUT, f"{tag}{school}_{set_no}세트.json")
             with io.open(path, "w", encoding="utf-8") as f:
                 json.dump({"school": school, "set_no": set_no, "spec": spec, **res},
                           f, ensure_ascii=False, indent=2)
