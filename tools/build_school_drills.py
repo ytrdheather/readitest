@@ -79,6 +79,14 @@ EXTERNAL = {
     "Two Different Jobs": ["영일중"],        # 중1 L7
 }
 
+# 학교 × 학년 → 시험 범위 과. 없으면 지문이 있는 과를 다 뽑는다 (중2 는 네 학교 다 5·6).
+# 중1 은 진도가 학교마다 달라 (원장 2026-09-18: 영덕 5과부터 · 영일 7과부터) 범위 밖 권이
+# 나왔다 — 영일중1 5과, 영덕중1 7과. 강사가 집으면 안 되는 종이는 아예 안 만든다.
+LESSONS = {
+    ("영덕중", "1"): ["L5", "L6"],
+    ("영일중", "1"): ["L7", "L8"],
+}
+
 SECTION = {"textbook_dialogue": "대화문", "textbook_reading": "본문", "handout_external": "외부지문"}
 
 # 지문 하나에 붙는 드릴 순서: (파일 꼬리, 언어, 책갈피 이름)
@@ -228,6 +236,9 @@ def main():
         combos = sorted({(v["grade"], v["lesson"]) for v in passages.values()})   # ('1','L5'), ('2','L5'), …
         for school in schools:
             for G, L in combos:
+                allowed = LESSONS.get((school, G))
+                if allowed and L not in allowed:
+                    continue
                 plan = plan_for(school, G, L, passages, vocab)
                 if not plan:
                     continue
