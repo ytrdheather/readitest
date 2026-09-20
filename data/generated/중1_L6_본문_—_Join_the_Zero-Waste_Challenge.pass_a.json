@@ -1,0 +1,1024 @@
+{
+  "passage_id": "bd4cc533-7964-4e4f-b8f8-4b62b237f3a6",
+  "body_text_sha256": "64ca39ea44ff251d924e986d2f9e994ac8360dbc41a234356770720c36c1d8b0",
+  "tags": [
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 51,
+      "span_end": 79,
+      "surface": "is getting sicker and sicker",
+      "sentence_no": 1,
+      "rationale": "「비교급 and 비교급」= 점점 더 ~한. more sicker / sick and sick / sicker and sickest 같은 오류를 유도할 수 있는 자리. get + 비교급 보어 구조도 함께 물을 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 11,
+      "span_end": 35,
+      "surface": "we produce lots of waste",
+      "sentence_no": 1,
+      "rationale": "목적어(lots of waste)를 가진 능동태 → 'Lots of waste is produced (by us)'로 뒤집어 by 누락이나 be동사 형태 오류를 심기 좋은 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 118,
+      "span_end": 171,
+      "surface": "join the zero-waste challenge, and share your stories",
+      "sentence_no": 3,
+      "rationale": "명령문 두 개가 and로 병렬. share → sharing / shares 로 바꾸면 병렬이 깨진다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 272,
+      "span_end": 300,
+      "surface": "There were lots of leftovers",
+      "sentence_no": 5,
+      "rationale": "There + be 구문은 뒤의 명사(lots of leftovers, 복수)에 수를 맞춘다. was / is 로 바꾸는 수일치 오류 유도 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 362,
+      "span_end": 373,
+      "surface": "out of them",
+      "sentence_no": 6,
+      "rationale": "make A out of B(재료) 의미의 전치사구. of / from / with 중 고르게 하거나 out을 삭제하는 변형이 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 427,
+      "span_end": 442,
+      "surface": "on the Internet",
+      "sentence_no": 7,
+      "rationale": "인터넷 상에서 = on the Internet. in / at 으로 바꾸거나 전치사를 삭제하는 빈칸 출제 단골 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 472,
+      "span_end": 490,
+      "surface": "My dog tore my bag",
+      "sentence_no": 8,
+      "rationale": "목적어가 있는 능동태 → 'My bag was torn by my dog'로 전환 출제 가능. was tearing / was torn my dog(by 누락) 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 494,
+      "span_end": 507,
+      "surface": "wanted to buy",
+      "sentence_no": 9,
+      "rationale": "want는 to부정사를 목적어로 취한다. wanted buying 으로 바꾸는 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 508,
+      "span_end": 517,
+      "surface": "a new one",
+      "sentence_no": 9,
+      "rationale": "앞에 나온 bag과 같은 종류의 불특정 하나를 가리키는 부정대명사 one. it / ones 와의 구별을 묻기 좋다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 542,
+      "span_end": 575,
+      "surface": "learned that reusing is important",
+      "sentence_no": 10,
+      "rationale": "learn의 목적어 역할을 하는 명사절 접속사 that. what / which 로 바꾸는 오류(뒤 절이 완전하므로 what 불가) 유도 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 555,
+      "span_end": 575,
+      "surface": "reusing is important",
+      "sentence_no": 10,
+      "rationale": "동명사 주어는 단수 취급 → is. reusing are / reuse is 처럼 수·형태 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 605,
+      "span_end": 622,
+      "surface": "decided to fix it",
+      "sentence_no": 11,
+      "rationale": "decide는 to부정사만 목적어로 취한다. decided fixing 오류 유도(EI_VERB_COMPLEMENT).",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 616,
+      "span_end": 635,
+      "surface": "fix it and reuse it",
+      "sentence_no": 11,
+      "rationale": "to fix ~ and (to) reuse ~ 의 원형 병렬. reusing / reused 로 바꾸면 병렬이 깨진다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 650,
+      "span_end": 664,
+      "surface": "good at sewing",
+      "sentence_no": 12,
+      "rationale": "be good at + 동명사로 굳어진 결합. at to sew / at sew 로 바꾸거나 at을 삭제하는 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 689,
+      "span_end": 710,
+      "surface": "the bag looks perfect",
+      "sentence_no": 12,
+      "rationale": "감각동사 look 뒤에는 형용사 보어. looks perfectly 로 바꾸는 부사 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 784,
+      "span_end": 838,
+      "surface": "I often use food delivery services, but today I didn’t",
+      "sentence_no": 14,
+      "rationale": "습관(현재시제) vs 오늘 사실(과거 대동사 didn't)의 시제 대조. don't / didn't used 등의 시제 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 884,
+      "span_end": 909,
+      "surface": "with a reusable container",
+      "sentence_no": 15,
+      "rationale": "휴대·소지·수단을 나타내는 with. by / in 으로 교체하거나 전치사를 삭제하는 빈칸 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 900,
+      "span_end": 932,
+      "surface": "container and picked up the food",
+      "sentence_no": 15,
+      "rationale": "walked ~ and picked up ~ 의 과거동사 병렬. picking up / picks up 으로 바꾸면 병렬이 깨진다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 936,
+      "span_end": 981,
+      "surface": "heard that plastic never goes away completely",
+      "sentence_no": 16,
+      "rationale": "hear의 목적어절을 이끄는 접속사 that(생략 가능). what 으로 바꾸면 뒤 절이 완전하므로 오류.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 947,
+      "span_end": 970,
+      "surface": "plastic never goes away",
+      "sentence_no": 16,
+      "rationale": "go away는 목적어를 갖지 않는 자동사라 수동태 불가. is gone away / is never went away 같은 자동사 수동태 함정 선지를 만들기 좋은 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 996,
+      "span_end": 1018,
+      "surface": "any single-use plastic",
+      "sentence_no": 17,
+      "rationale": "부정문에서는 some이 아니라 any. didn't use some ~ 오류 유도 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 1026,
+      "span_end": 1037,
+      "surface": "I felt good",
+      "sentence_no": 18,
+      "rationale": "감각동사 feel + 형용사 보어. felt well / felt nicely 같은 부사 오류와 구별.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1108,
+      "span_end": 1138,
+      "surface": "bottles to a recycling machine",
+      "sentence_no": 19,
+      "rationale": "take A to B(장소로 가져가다)의 방향 전치사 to. in / into / at 으로 바꾸거나 삭제하는 빈칸 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1165,
+      "span_end": 1181,
+      "surface": "into the machine",
+      "sentence_no": 20,
+      "rationale": "put A into B(안으로 넣다)의 방향 전치사. in / on / to 와 구별시키는 출제 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1216,
+      "span_end": 1225,
+      "surface": "in return",
+      "sentence_no": 20,
+      "rationale": "굳어진 부사구 '답례로/대가로'. for return / on return 로 바꾸는 전치사 빈칸 단골 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1281,
+      "span_end": 1291,
+      "surface": "like money",
+      "sentence_no": 22,
+      "rationale": "'~처럼'의 전치사 like(+명사). as money 와의 구별, alike/likely 로 바꾸는 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 1303,
+      "span_end": 1320,
+      "surface": "think that’s cool",
+      "sentence_no": 23,
+      "rationale": "여기서 that은 접속사가 아니라 앞 내용을 가리키는 지시대명사(= that is cool)이며 접속사 that은 생략된 형태. 다른 문장의 접속사 that과 쓰임 구별 문항으로 쓰기 좋다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "RU_EXERCISE_OPTIONS"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 문제 제기",
+      "signal": "Every day",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "주제문 — 제안·행동 촉구",
+      "signal": "Then",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "사례1 도입 — 상황 제시",
+      "signal": "Challenge 01",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "사례1 전개 — 행동",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "사례1 결과",
+      "signal": "The next day",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "보충 정보 — 팁",
+      "signal": "FYI",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "사례2 도입 — 문제 상황",
+      "signal": "Challenge 02",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "전환 — 생각의 변화",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "주제문 — 깨달음(재사용의 중요성)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 11,
+      "role": "해결책 — 결정한 행동",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "부연 — 한계 인정",
+      "signal": "and",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "마무리 소감",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "사례3 도입 — 평소와 다른 선택",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "사례3 전개 — 대안 행동",
+      "signal": "Instead",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "근거 — 플라스틱의 문제점",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "결과 요약",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "소감",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "사례4 도입 — 행동",
+      "signal": "Challenge 04 / Yesterday",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "사례4 전개 — 과정과 보상",
+      "signal": "and",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 21,
+      "role": "자문(질문 제기)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 22,
+      "role": "답 — 포인트의 활용",
+      "signal": "Well",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 23,
+      "role": "결론문 — 독자 동의 유도",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "⑤"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "본문에서 가져온 다음 문장 중 어법상 <보기>와 같이 <u>틀린</u> 것은?",
+      "answer_key": "③",
+      "explanation": "③ be good at은 전치사 at으로 끝나므로 뒤에는 동명사가 와야 한다(at sewing). to sew는 불가능하다. ①은 There + were + 복수명사로 수일치가 맞고, ②는 동명사 주어에 단수동사 is가 바르게 쓰였으며, ④는 부정문에서 any가 올바르고, ⑤는 take A to B 구조와 near my house의 후치수식이 모두 정상이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        13,
+        3,
+        10,
+        20,
+        22
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "There were lots of leftovers, but we brought them home.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I learned that reusing is important for zero-waste living.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I’m not very good at to sew, and I don’t think that the bag looks perfect.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I didn’t use any single-use plastic today.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Yesterday, I took some plastic and glass bottles to a recycling machine near my house.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "본문의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n· Every day, we produce lots of waste, and the Earth is getting (a)[sicker and sicker / more sicker and sicker].\n· So, I decided (b)[to fix / fixing] it and reuse it.\n· I felt (c)[good / well]!",
+      "answer_key": "①",
+      "explanation": "(a) 「비교급 and 비교급」은 sicker and sicker이며 -er 형에 more를 겹쳐 쓸 수 없다. (b) decide는 to부정사를 목적어로 취하므로 to fix. (c) 감각동사 feel 뒤에는 형용사 보어가 오므로 good(여기서 well은 '건강한'의 뜻이 되어 문맥에 맞지 않는다). 따라서 ①.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        11,
+        21
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) sicker and sicker – (b) to fix – (c) good",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) more sicker and sicker – (b) to fix – (c) good",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) sicker and sicker – (b) fixing – (c) good",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) sicker and sicker – (b) to fix – (c) well",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "②"
+      ],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "THAT_USAGE",
+      "stem": "밑줄 친 that의 쓰임이 나머지와 <u>다른</u> 하나는?",
+      "answer_key": "④",
+      "explanation": "①②③의 that은 모두 동사(learn, think, hear)의 목적어절을 이끄는 명사절 접속사로 생략할 수 있다. 반면 ④의 that은 앞 내용(포인트를 돈처럼 쓸 수 있다는 것)을 가리키는 지시대명사이며 문장의 주어 역할을 하므로 생략할 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        9,
+        18,
+        26
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I learned <u>that</u> reusing is important for zero-waste living.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I don’t think <u>that</u> the bag looks perfect.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I heard <u>that</u> plastic never goes away completely.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Don’t you think <u>that</u>’s cool?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "본문의 흐름으로 보아 밑줄 친 낱말의 쓰임이 <u>적절하지 않은</u> 것은?",
+      "answer_key": "④",
+      "explanation": "④ Emma는 일회용 플라스틱을 쓰지 않으려고 '다시 쓸 수 있는(reusable)' 용기를 가져갔다. disposable(일회용의)은 바로 다음 문장 'I didn’t use any single-use plastic today.'와 모순되므로 적절하지 않다. 나머지는 모두 문맥에 맞는 낱말이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        16,
+        20
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Every day, we <u>produce</u> lots of waste, and the Earth is getting sicker and sicker.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "There were lots of <u>leftovers</u>, but we brought them home.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "So, I decided to fix it and <u>reuse</u> it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Instead, I walked to my favorite restaurant with a <u>disposable</u> container and picked up the food.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I put them into the machine one by one, and I got some <u>points</u> in return.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 <u>plastic never goes away completely</u>가 이 글에서 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "Emma가 일회용 플라스틱을 쓰지 않기로 한 이유로 제시된 말이다. go away completely는 '완전히 없어지다'라는 뜻이므로, 플라스틱은 버려도 분해되지 않고 환경에 남는다는 의미다. 그래서 다음 문장에서 오늘은 일회용 플라스틱을 전혀 쓰지 않았다고 말한다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        19
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "플라스틱은 버려도 완전히 사라지지 않고 환경에 계속 남는다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "플라스틱 용기는 값이 싸서 사람들이 계속 사용한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "플라스틱은 재활용하면 완전히 새 제품이 된다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "음식 배달 서비스는 앞으로도 사라지지 않을 것이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "플라스틱 쓰레기는 기계에 넣으면 즉시 없어진다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "글은 'join the zero-waste challenge'라는 제안 뒤에 Reduce / Reuse / Say No to Single-Use Plastic / Recycle의 네 가지 실천 사례를 나열한다. 따라서 주제는 학생들이 참여할 수 있는 여러 가지 제로 웨이스트 실천 방법이다. ②④⑤는 각 사례의 세부 내용일 뿐이고, ③⑥은 글에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "different ways students can join a zero-waste challenge",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to cook delicious meals with leftover food",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the reason food delivery services are getting popular",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "how recycling machines change bottles into new products",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the best way to fix a bag that a dog has torn",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "rules that every restaurant must follow to reduce waste",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the passage?",
+      "answer_key": "②",
+      "explanation": "② Domingo는 새 가방을 사고 싶었지만 다시 생각한 뒤(I wanted to buy a new one, but I thought again) 고쳐서 다시 쓰기로 했다(I decided to fix it and reuse it). 따라서 새 가방을 샀다는 내용은 사실이 아니다. 나머지는 각각 [5]-[6], [12], [15], [19]-[20]과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        7,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Olivia’s family brought the leftovers home and she made lunch with them.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Domingo bought a new bag because his dog tore the old one.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Domingo says he is not very good at sewing.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Emma took a reusable container to her favorite restaurant.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Minsu got some points after putting bottles into a recycling machine.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "글의 흐름으로 보아 빈칸에 들어갈 말로 가장 적절한 것은?\n\nMy dog tore my bag. I wanted to buy a new one, but I thought again. I learned that ______ is important for zero-waste living. So, I decided to fix it and reuse it.",
+      "answer_key": "①",
+      "explanation": "새 가방을 사려다 다시 생각하고 고쳐서 '다시 쓰기로' 했다는 흐름이므로 빈칸에는 reusing이 와야 한다. 이 단락은 Challenge 02 Reuse에 해당한다. ②③④⑤는 다른 단락의 소재이거나 글의 취지와 반대된다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        9,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "reusing",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "shopping",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "eating out",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "delivering",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "collecting points",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 본문 [16]번 문장을 고쳐 쓴 것이다. 어법상 <u>틀린</u> 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n\nI heard that plastic never is gone away completely.",
+      "answer_key": "I heard that plastic never goes away completely.",
+      "explanation": "go away는 목적어를 가지지 않는 자동사이므로 수동태(be + p.p.)로 쓸 수 없다. 따라서 is gone away를 능동형 현재시제 goes away로 고쳐야 한다. 빈도부사 never는 일반동사 앞에 오므로 never goes away 어순이 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        19,
+        18
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "본문 [20]번 문장의 앞부분이다. 우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오.\n\n나는 그것들을 하나씩 그 기계 안에 넣었다.\n(the machine / them / one by one / put / into / I)",
+      "answer_key": "I put them into the machine one by one",
+      "explanation": "「주어(I) + 동사(put) + 목적어(them) + 방향 전치사구(into the machine) + 부사구(one by one)」 순서로 배열한다. '~ 안으로 넣다'는 put A into B이므로 in이 아니라 into를 쓰고, one by one(하나씩)은 문장 끝에 온다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        23
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "Domingo의 말을 참고하여 <조건>에 맞게 우리말을 영작하시오.\n\n우리말: 나는 바느질을 아주 잘하지는 못한다.\n<조건> 1) be good at 표현을 반드시 쓸 것  2) sew를 알맞은 형태로 바꿔 쓸 것  3) I’m not very ~ 로 시작할 것",
+      "answer_key": "I’m not very good at sewing.",
+      "explanation": "be good at(~을 잘하다)의 at은 전치사이므로 뒤에 동명사 sewing이 와야 한다(to sew, sew 불가). 부정은 be동사 뒤에 not을 넣고 very로 정도를 낮춰 'I’m not very good at sewing.'으로 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        13
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 23,
+    "tags_returned": 27,
+    "tags_kept": 27,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "⑤"
+        ]
+      },
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-USAGE",
+        "options": [
+          "②"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "passage_id": "c8c55d66-af89-4c77-8aaa-f636a10cb31a",
+  "body_text_sha256": "b65a29379f753784f940006e1c8daa42fb10e2e9c6b351a7846ddfea12a0390b",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 18,
+      "span_end": 31,
+      "surface": "are you doing",
+      "sentence_no": 2,
+      "rationale": "현재 눈앞의 동작을 묻는 현재진행형(be+-ing). do you do / are you do 같은 형태 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 51,
+      "span_end": 63,
+      "surface": "I’m plogging",
+      "sentence_no": 4,
+      "rationale": "질문(현재진행)에 대응하는 현재진행 응답. I plog / I plogged 로 바꿔 시제 일치를 묻기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 64,
+      "span_end": 84,
+      "surface": "with my club members",
+      "sentence_no": 4,
+      "rationale": "'~와 함께'를 뜻하는 동반의 with. by / for 로 바꾼 선지를 만들거나 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 116,
+      "span_end": 129,
+      "surface": "means jogging",
+      "sentence_no": 7,
+      "rationale": "'~을 뜻하다'의 mean은 목적어로 동명사를 취한다. to jog 로 바꾼 오답 선지가 전형적.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 122,
+      "span_end": 150,
+      "surface": "jogging and picking up trash",
+      "sentence_no": 7,
+      "rationale": "and로 연결된 두 동명사의 병렬. picks up / to pick up 으로 바꾸면 병렬이 깨진다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 151,
+      "span_end": 167,
+      "surface": "at the same time",
+      "sentence_no": 7,
+      "rationale": "'동시에'라는 굳어진 부사구. 통째로 외워져 전치사가 눈에 안 들어오지만 [at/in/on] the same time 형태로 빈칸 출제 1순위.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 172,
+      "span_end": 183,
+      "surface": "Sounds cool",
+      "sentence_no": 8,
+      "rationale": "감각동사 sound 뒤에는 형용사 보어. coolly 같은 부사로 바꾼 오답이 대표적.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 195,
+      "span_end": 222,
+      "surface": "a member of a plogging club",
+      "sentence_no": 9,
+      "rationale": "소속을 나타내는 'a member of ~'. in / for 로 바꾼 선지를 만들 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 272,
+      "span_end": 285,
+      "surface": "from 10 to 12",
+      "sentence_no": 11,
+      "rationale": "시간 범위 from A to B. to 대신 until/at 을 넣거나 전치사를 빼는 오답을 만들기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 287,
+      "span_end": 298,
+      "surface": "Interested?",
+      "sentence_no": 12,
+      "rationale": "Are you interested?의 생략형. 감정동사는 사람 주어일 때 과거분사형(be interested)을 쓰므로 interesting 과 구별시키는 출제 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 313,
+      "span_end": 327,
+      "surface": "think about it",
+      "sentence_no": 13,
+      "rationale": "think about(~에 대해 생각하다)의 고정 결합. about 삭제나 think it 로 바꾼 오답 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 363,
+      "span_end": 390,
+      "surface": "help me with this trash bag",
+      "sentence_no": 15,
+      "rationale": "help A with B 구문. with 를 for/about 로 바꾸거나 삭제하는 것이 전형적 오답.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 348,
+      "span_end": 362,
+      "surface": "can you please",
+      "sentence_no": 15,
+      "rationale": "요청을 나타내는 조동사 can + 동사원형. can you helping / can you to help 같은 형태 오류를 심을 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 392,
+      "span_end": 402,
+      "surface": "It’s heavy",
+      "sentence_no": 16,
+      "rationale": "It's(=It is)와 소유격 its 의 구별. Its heavy 로 바꾼 오답이 단골.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 인사",
+      "signal": "Hi",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문",
+      "signal": "What",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답 인사",
+      "signal": "Hi",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "상황 제시 (활동 소개)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "되묻기 (이해 부족 표시)",
+      "signal": "Excuse me?",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "핵심어 반복",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "정의 (핵심 설명)",
+      "signal": "It means",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 8,
+      "role": "반응 (긍정 평가)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "확인 질문",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "확인 응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "세부 정보 (시간·주기)",
+      "signal": "every Saturday",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "권유 (참여 제안)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "유보적 응답",
+      "signal": "Well",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "수용 표시",
+      "signal": "OK",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "화제 전환 + 도움 요청",
+      "signal": "By the way",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "요청의 이유",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "수락",
+      "signal": "Sure",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "마무리 응답",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "위 대화의 문장을 옮겨 적은 것이다. 어법상 틀린 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "감각동사 sound 뒤에는 부사가 아니라 형용사 보어가 온다. 따라서 coolly가 아니라 cool이 맞다(Sounds cool!). ①은 현재진행형과 동반의 with, ②는 mean+동명사와 and로 이어진 동명사 병렬, ④는 from A to B 시간 표현, ⑤는 help A with B 구문으로 모두 본문 그대로 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        1,
+        4,
+        8,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I’m plogging with my club members.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It means jogging and picking up trash at the same time.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Sounds coolly!",
+          "is_answer": true,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "We plog together every Saturday morning from 10 to 12.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "By the way, can you please help me with this trash bag?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\nG: Plogging. It means (a)[jogging / to jog] and (b)[picking / picks] up trash at the same time.\n…\nG: By the way, can you please help me with this trash bag? (c)[It’s / Its] heavy.",
+      "answer_key": "①",
+      "explanation": "(a) mean이 '~을 뜻하다'일 때 목적어는 동명사이므로 jogging. (b) and로 연결되어 앞의 jogging과 형태를 맞춰야 하므로 picking. (c) '그것은 무겁다'라는 문장이므로 It is의 줄임말 It’s가 맞고 소유격 Its는 동사가 없어 문장이 성립하지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "jogging – picking – It’s",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to jog – picking – It’s",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "jogging – picks – It’s",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "jogging – picking – Its",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음은 대화의 일부이다. 밑줄 친 부분 중 어법상 틀린 것은?\nG: ①I’m plogging with my club members. It means jogging and ②picking up trash at the same time.\nB: ③Sounds cool!\nG: By the way, can you please ④help me about this trash bag? ⑤It’s heavy.",
+      "answer_key": "④",
+      "explanation": "'~가 …하는 것을 돕다'는 help A with B 구문이므로 about이 아니라 with를 써야 한다(help me with this trash bag). 나머지는 현재진행형, 동명사 병렬, 감각동사+형용사, It is의 축약형으로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        11,
+        2,
+        4,
+        6,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I’m plogging with my club members",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "picking up trash",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Sounds cool",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "help me about this trash bag",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "It’s heavy",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "도움을 요청하는 이유를 말하는 자리이므로 '가볍다(light)'가 아니라 '무겁다(heavy)'가 와야 문맥이 맞는다. 나머지는 본문 내용 그대로 자연스럽다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        11,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "G: I’m plogging with my club members.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "G: It means jogging and picking up trash at the same time.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "G: We plog together every Saturday morning from 10 to 12.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "G: Can you please help me with this trash bag? It’s light.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "B: Well, I’ll think about it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 Interested? 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "Interested?는 Are you interested?의 생략형으로, 활동 시간을 알려 준 뒤 상대에게 참여할 의향이 있는지 묻는 권유이다. 뒤이어 Alex가 'I’ll think about it(생각해 볼게)'라고 답하는 것으로도 확인된다. 다시 설명을 요청하는 말은 Excuse me?이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        9,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "쓰레기봉투가 무거운지 묻는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "플로깅에 관심이 있는지, 즉 함께할 생각이 있는지 묻는 말",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "자기가 그 동아리에 가입하고 싶다는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "플로깅의 뜻을 몰라 다시 설명해 달라는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "토요일 모임 시간을 바꾸자는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "쓰레기를 함께 버려 달라는 말",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "유나가 plogging의 뜻(조깅하면서 동시에 쓰레기 줍기)을 설명하고 모임 시간을 알려 준 뒤 Alex에게 관심이 있는지 묻는 대화이다. 조깅 실력, 공원 청결의 원인, 동아리 창설 방법은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how to make a trash bag lighter",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "what plogging is and an invitation to join a plogging club",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best way to become a fast jogger",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the reason why the park is dirty on Saturdays",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "how to start a new school club",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것은?",
+      "answer_key": "④",
+      "explanation": "Alex는 'Well, I’ll think about it.'이라며 생각해 보겠다고 했을 뿐 즉시 가입하기로 하지 않았다. ③은 10시부터 12시까지이므로 두 시간이 맞고, ⑤는 'Sure. No problem.'으로 확인된다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        4,
+        8,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Yuna is plogging with her club members.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Plogging means jogging and picking up trash at the same time.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Yuna's club plogs every Saturday morning for two hours.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Alex decides to join the club right away.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Alex agrees to help Yuna with the trash bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 알맞은 것은?\nB: Excuse me?\nG: Plogging. It means ______________.",
+      "answer_key": "②",
+      "explanation": "plogging의 정의를 설명하는 자리이고, 뒤에서 쓰레기봉투를 들고 있다는 점에서도 '조깅하면서 동시에 쓰레기를 줍는 것'이 정답이다. 나머지는 대화 내용과 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "cleaning your room every Saturday",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "jogging and picking up trash at the same time",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "jogging with a heavy bag on your back",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "joining a club to make new friends",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "walking to school instead of taking a bus",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n→ It means jogging and to pick up trash at the same time.",
+      "answer_key": "to pick up → picking up",
+      "explanation": "and로 연결된 두 요소는 문법적 형태가 같아야 한다. 앞이 동명사 jogging이므로 뒤도 동명사 picking up이어야 병렬이 성립한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말과 같은 뜻이 되도록 <조건>에 맞게 영작하시오.\n우리말: 이 쓰레기봉투 좀 도와줄래?\n<조건> 1) can, please, help, with 를 모두 사용할 것 2) 대화의 문장을 그대로 쓸 것 3) 물음표까지 쓸 것",
+      "answer_key": "Can you please help me with this trash bag?",
+      "explanation": "요청은 조동사 can + 주어 + 동사원형의 의문문으로 만들고, '~가 …하는 것을 돕다'는 help A with B 구문을 써야 하므로 help me with this trash bag이 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        11,
+        12
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 모두 배열하시오.\n우리말: 우리는 매주 토요일 아침 10시부터 12시까지 함께 플로깅한다.\n(together / plog / we / to 12 / every Saturday morning / from 10)",
+      "answer_key": "We plog together every Saturday morning from 10 to 12.",
+      "explanation": "「주어(We) + 동사(plog) + 부사(together) + 때를 나타내는 말(every Saturday morning) + 시간 범위(from 10 to 12)」 순으로 쓴다. 시간의 범위는 from A to B로 나타낸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 18,
+    "tags_returned": 14,
+    "tags_kept": 14,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

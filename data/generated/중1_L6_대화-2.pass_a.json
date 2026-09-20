@@ -1,0 +1,595 @@
+{
+  "passage_id": "359a280c-c594-409d-a0db-01d1d5f2133a",
+  "body_text_sha256": "816556c3c8995d7353e1c646985eef6ee4d64448a298f009f4a49ebb24f68503",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 3,
+      "span_end": 11,
+      "surface": "For here",
+      "sentence_no": 1,
+      "rationale": "매장 식사를 뜻하는 관용 표현 'For here'. 전치사 자리를 빈칸으로 뚫어 [For / To / At] here 형태로 고르게 하는 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 15,
+      "span_end": 20,
+      "surface": "to go",
+      "sentence_no": 1,
+      "rationale": "'포장해 가다'를 뜻하는 to부정사 관용 표현. go / going / to go 중 고르게 하거나 to를 삭제하는 오류를 심을 수 있음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 47,
+      "span_end": 65,
+      "surface": "can you please put",
+      "sentence_no": 3,
+      "rationale": "요청의 조동사 can + 주어 + 동사원형. put을 putting / to put / puts로 바꾸는 오류 유도가 전형적",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 62,
+      "span_end": 94,
+      "surface": "put my smoothie in a plastic cup",
+      "sentence_no": 3,
+      "rationale": "put A in B 결합. 전치사 in을 삭제하거나 on/into 등으로 바꾸는 변형이 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 78,
+      "span_end": 110,
+      "surface": "in a plastic cup, not in a glass",
+      "sentence_no": 3,
+      "rationale": "'A, not B' 대조 병렬. 두 항이 모두 「in + 명사구」로 같은 형태여야 함. 뒤쪽을 not a glass / not glassing 처럼 깨뜨리는 변형 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 130,
+      "span_end": 166,
+      "surface": "we don’t use single-use plastic cups",
+      "sentence_no": 4,
+      "rationale": "목적어를 가진 능동태 문장이므로 수동태(Single-use plastic cups aren’t used ~)로 전환 가능. 전환 시 be동사 수일치·과거분사 형태 오류나 by구 처리 오류를 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 167,
+      "span_end": 182,
+      "surface": "inside the café",
+      "sentence_no": 4,
+      "rationale": "장소 전치사 inside(~ 안에서). in / into / inside 중 고르게 하거나 전치사를 삭제하는 변형이 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 (점원의 주문 확인 질문)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답 (매장 내 취식 선택)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "추가 요청 (플라스틱 컵 요구)",
+      "signal": "And",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "거절 + 이유 제시 (카페 방침 — 주제문)",
+      "signal": "but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "수용·마무리",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 문장을 옮겨 적은 것이다. 어법상 <보기> 중 옳지 않은 것은?",
+      "answer_key": "⑤",
+      "explanation": "조동사 can 뒤에는 반드시 동사원형이 온다. ⑤의 putting은 put이 되어야 하므로 틀렸다. ①의 to go는 '포장해 가다'를 뜻하는 to부정사 관용 표현으로 옳고, ②는 can+동사원형 put이 바르게 쓰였으며, ③은 능동태 현재시제 don’t use가 옳다. ④는 ③을 수동태로 바르게 바꾼 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "For here or to go?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "And can you please put my smoothie in a plastic cup, not in a glass?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I’m sorry, but we don’t use single-use plastic cups inside the café.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Single-use plastic cups aren’t used inside the café.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "And can you please putting my smoothie in a plastic cup?",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "⑤"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\nM: For here or (a)[go / to go]?\nG: And can you please (b)[put / putting] my smoothie in a plastic cup, not in a glass?\nM: I’m sorry, but single-use plastic cups (c)[aren’t used / aren’t using] inside the café.",
+      "answer_key": "①",
+      "explanation": "(a) 매장/포장을 묻는 관용 표현은 'For here or to go?'이므로 to go. (b) 조동사 can 뒤에는 동사원형 put. (c) 주어 single-use plastic cups는 '사용되는' 대상이므로 수동태 aren’t used가 맞다. aren’t using은 컵이 스스로 사용한다는 뜻이 되어 어색하다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to go — (b) put — (c) aren’t used",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) go — (b) put — (c) aren’t used",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to go — (b) putting — (c) aren’t used",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to go — (b) put — (c) aren’t using",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) go — (b) putting — (c) aren’t using",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 [ ] 안의 낱말이 문맥에 어울리지 않는 것은?",
+      "answer_key": "④",
+      "explanation": "카페가 매장 안에서 쓰지 않겠다고 말하는 것은 '한 번 쓰고 버리는(single-use)' 플라스틱 컵이다. '다시 쓸 수 있는(reusable)' 컵을 쓰지 않는다고 하면 환경을 위한 방침이라는 흐름과 정반대가 되어 어색하다. 나머지는 모두 문맥에 맞는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "M: For here or to [go]?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "G: For here, [please].",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "G: And can you please put my smoothie in a [plastic] cup, not in a glass?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "M: I’m sorry, but we don’t use [reusable] plastic cups inside the café.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "M: I’m [sorry], but we don’t use single-use plastic cups inside the café.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 For here or to go?가 뜻하는 바로 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "For here or to go?는 카페·식당에서 점원이 '매장에서 드실 건지, 포장해 가실 건지'를 묻는 관용 표현이다. 이어지는 G의 'For here, please.'(여기서 먹을게요)로도 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "여기서 드시겠어요, 아니면 가져가시겠어요?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "여기로 올까요, 아니면 제가 갈까요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "여기 계실 건가요, 아니면 지금 떠나실 건가요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "이걸로 하시겠어요, 아니면 저걸로 하시겠어요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "지금 주문하시겠어요, 아니면 나중에 하시겠어요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "손님이 플라스틱 컵을 요청하지만 점원이 매장 안에서는 일회용 플라스틱 컵을 쓰지 않는다고 답하는 대화이므로 ①이 주제다. 스무디 만드는 법·가격·불평·재활용 방법은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A café's rule about not using single-use plastic cups inside",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to make a healthy smoothie at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The prices of the drinks at a café",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "A customer complaining about a broken glass",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Different ways to recycle plastic at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the dialogue?",
+      "answer_key": "③",
+      "explanation": "점원은 'we don’t use single-use plastic cups inside the café'라고 했으므로 매장 안에서 일회용 플라스틱 컵 사용을 허용한다는 ③은 대화 내용과 반대다. ①은 'For here, please.', ②는 'in a plastic cup, not in a glass', ④는 'I’m sorry', ⑤는 'Oh, I see.'로 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl will drink her smoothie in the café.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl asks for a plastic cup instead of a glass.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The café lets customers use single-use plastic cups inside.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The man says sorry to the girl.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl accepts what the man says.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "빈칸에 들어갈 말로 가장 알맞은 것은?\nM: I’m sorry, but we don’t use ________ inside the café.",
+      "answer_key": "①",
+      "explanation": "손님이 플라스틱 컵을 요청한 것에 대한 거절의 이유이므로 '일회용 플라스틱 컵'이 들어가야 한다. ②는 오히려 카페가 쓰는 것이고 ③~⑤는 대화에 등장하지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "single-use plastic cups",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "glasses for cold drinks",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "paper bags for food",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "metal spoons and forks",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "our own shopping baskets",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음은 위 대화의 G의 말을 옮긴 것이다. 어법상 틀린 부분 두 군데를 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n→ And can you please putting my smoothie a plastic cup, not in a glass?",
+      "answer_key": "And can you please put my smoothie in a plastic cup, not in a glass? (putting → put, my smoothie 뒤에 전치사 in 추가)",
+      "explanation": "조동사 can 뒤에는 동사원형이 와야 하므로 putting을 put으로 고친다. 또한 'put A in B(A를 B에 담다)' 구문이므로 my smoothie 뒤에 전치사 in이 필요하다. 뒤의 'not in a glass'와 형태가 나란해야 한다는 점으로도 확인할 수 있다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 대화의 M의 마지막 말을 <조건>에 맞게 수동태 문장으로 바꿔 쓰시오.\n<조건> 1) Single-use plastic cups로 시작할 것  2) aren’t를 사용할 것  3) inside the café로 끝낼 것",
+      "answer_key": "Single-use plastic cups aren’t used inside the café.",
+      "explanation": "we don’t use single-use plastic cups의 목적어를 주어로 올리면 복수 주어이므로 be동사는 aren’t, 동사는 과거분사 used를 쓴다. 행위자 we는 일반적인 주체이므로 by구는 쓰지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하시오.\n제 스무디를 유리잔 말고 플라스틱 컵에 담아 주시겠어요?\n(put / can / in a plastic cup / you / my smoothie / not in a glass / please)",
+      "answer_key": "Can you please put my smoothie in a plastic cup, not in a glass?",
+      "explanation": "요청은 'Can you please + 동사원형 ~?' 어순이다. put 뒤에 목적어 my smoothie, 그다음 장소를 나타내는 in a plastic cup을 두고, 대조되는 not in a glass를 마지막에 같은 「in+명사구」 형태로 나란히 붙인다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

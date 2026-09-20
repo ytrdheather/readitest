@@ -1,0 +1,531 @@
+{
+  "passage_id": "afcfe2e0-7881-47a6-9214-a3102f41a063",
+  "body_text_sha256": "0e3264db2e763d5b6724c2db1a5d9ddb3dd3119fa61dbf320f05973c008cd17e",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 18,
+      "span_end": 38,
+      "surface": "can you please close",
+      "sentence_no": 1,
+      "rationale": "요청을 나타내는 조동사 can 뒤에는 동사원형이 온다. 'can you please to close' / 'can you please closing' 같은 준동사 형태 오류를 유도할 수 있는 자리다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 49,
+      "span_end": 71,
+      "surface": "The air conditioner is",
+      "sentence_no": 2,
+      "rationale": "주어 The air conditioner가 3인칭 단수이므로 be동사는 is. conditioner를 복수로 착각해 are로 바꾼 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 69,
+      "span_end": 74,
+      "surface": "is on",
+      "sentence_no": 2,
+      "rationale": "기계가 '켜져 있다'를 뜻하는 on. in/at/off 등으로 바꾸거나 통째로 빈칸을 뚫어 묻기 쉬운 자리다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 85,
+      "span_end": 96,
+      "surface": "didn’t know",
+      "sentence_no": 3,
+      "rationale": "조동사 did 뒤에는 동사원형 know. didn't knew 형태 오류를 심을 수 있고, 과거시제로 '그때는 몰랐다'는 의미를 나타내는 자리다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 92,
+      "span_end": 101,
+      "surface": "know that",
+      "sentence_no": 3,
+      "rationale": "여기서 that은 앞 문장 내용(에어컨이 켜져 있다는 것)을 받는 지시대명사이며 목적어 자리. 접속사 that(뒤에 절 필요)과 구별시키는 문항이 가능하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 103,
+      "span_end": 116,
+      "surface": "I’ll close it",
+      "sentence_no": 4,
+      "rationale": "it은 앞에 나온 the door를 받는 단수 대명사. them/they 등으로 바꾼 오답 선지를 만들 수 있고, 지시 대상을 묻는 문항의 근거가 된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 103,
+      "span_end": 113,
+      "surface": "I’ll close",
+      "sentence_no": 4,
+      "rationale": "will(=’ll) + 동사원형으로 즉각적인 미래 의지를 나타낸다. I'll closing / I'll closed 같은 형태 오류를 심기 쉬운 자리다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 요청 (대화의 용건 제시)",
+      "signal": "Excuse me, but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "원인·이유 (요청의 근거)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환 (상대의 인지 반응)",
+      "signal": "Oh",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "해결책 (요청 수락과 행동 약속)",
+      "signal": "right away",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "결과요약 (감사 표현으로 마무리)",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 여자(W)가 말하는 주된 목적으로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "여자는 'can you please close the door?'라고 부탁하고 있으므로 문을 닫아 달라는 요청이 목적이다. 에어컨은 이미 켜져 있고(is on) 고장이나 사과, 수리 제안은 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "To ask the boy to close the door",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "To ask the boy to turn on the air conditioner",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "To apologize for opening the window",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "To complain that the air conditioner is broken",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "To offer to fix the door for the boy",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "[2] The air conditioner is on. → 에어컨이 켜져 작동 중이다. ② 문은 열려 있어서 닫아 달라고 부탁한 것이고, ③④ 소년이 'I'll close it right away.'라며 직접 닫겠다고 수락했으며, ⑤ 소년은 'I didn't know that.'이라고 했으므로 몰랐다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The air conditioner is working now.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The door is already closed.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy refuses the woman's request.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The woman closes the door herself.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy already knew that the air conditioner was on.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "THAT_USAGE",
+      "stem": "[3] Oh, I didn’t know that. 에서 밑줄 친 that이 가리키는 내용으로 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "that은 바로 앞 문장 The air conditioner is on.의 내용 전체를 받는 지시대명사이다. 나머지는 대화에서 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "에어컨이 켜져 있다는 것",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "문이 이미 닫혀 있다는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "여자가 화가 나 있다는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "에어컨이 고장 났다는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "소년이 문을 닫아야 한다는 규칙",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음은 위 대화의 문장들이다. 어법상 틀린 것은?",
+      "answer_key": "①",
+      "explanation": "조동사 can 뒤에는 동사원형이 와야 하므로 to close가 아니라 close가 맞다. ②는 단수주어+is, ③은 didn't+동사원형 know, ④는 will+동사원형 close로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Excuse me, but can you please to close the door?",
+          "is_answer": true,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The air conditioner is on.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Oh, I didn’t know that.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’ll close it right away.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "W: Thanks.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "①"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 가장 알맞은 것끼리 짝지은 것은?\nW: Excuse me, but can you please (a)[close / to close] the door? The air conditioner (b)[is / are] on.\nB: Oh, I didn’t know that. I’ll close (c)[it / them] right away.",
+      "answer_key": "①",
+      "explanation": "(a) 조동사 can 뒤에는 동사원형 close. (b) 주어 The air conditioner는 3인칭 단수이므로 is. (c) 앞에 나온 the door(단수)를 받으므로 it이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) close  (b) is  (c) it",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) close  (b) are  (c) it",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to close  (b) is  (c) it",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) close  (b) is  (c) them",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) to close  (b) are  (c) them",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 [2]의 빈칸에 들어갈 말로 가장 알맞은 것은?\nW: Excuse me, but can you please close the door? ________",
+      "answer_key": "①",
+      "explanation": "문을 닫아 달라는 부탁의 이유가 와야 하고, 소년이 'I didn't know that.'이라고 반응하므로 몰랐던 사실, 즉 에어컨이 켜져 있다는 내용이 알맞다. ⑤는 문을 닫아 달라는 요청과 모순된다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The air conditioner is on.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The window is broken.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I am looking for my key.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The heater doesn’t work at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "You can open it if you want.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (대화 [4]를 변형함)\n→ I’ll closing it right away.",
+      "answer_key": "closing → close  (전체: I’ll close it right away.)",
+      "explanation": "will(=’ll)은 조동사이므로 뒤에 동사원형 close가 와야 한다. closing은 쓸 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n우리말: 에어컨이 켜져 있어요.\n<조건> 1) the air conditioner, on 을 반드시 사용할 것  2) be동사를 알맞은 형태로 쓸 것  3) 4단어로 쓸 것",
+      "answer_key": "The air conditioner is on.",
+      "explanation": "기계가 '켜져 있다'는 「be동사 + on」으로 나타낸다. 주어가 3인칭 단수이므로 is를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n우리말: 문 좀 닫아 주시겠어요?\n단어: (you / close / the door / can / please)",
+      "answer_key": "Can you please close the door?",
+      "explanation": "can을 이용한 요청 표현은 「Can you (please) + 동사원형 ~?」 순서로 쓴다. please는 주어 뒤 또는 문장 끝에 올 수 있다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

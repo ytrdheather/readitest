@@ -1,0 +1,419 @@
+{
+  "passage_id": "2bf9bf80-79cd-4c4e-b229-c72a0ca01bb6",
+  "body_text_sha256": "03fd70ae6bb81d82c098985654ad4b66da1bc2004d6640088862632da8ad865f",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 29,
+      "surface": "I’d like a banana smoothie",
+      "sentence_no": 1,
+      "rationale": "would like(I'd like) + 명사 목적어 형태. 'I'd like to a banana smoothie'처럼 to를 넣거나 'I'd like to have'와 혼동하는 오류를 유도할 수 있다. 주문 표현으로 빈칸 출제 빈도 높음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 42,
+      "span_end": 50,
+      "surface": "For here",
+      "sentence_no": 2,
+      "rationale": "매장 취식을 뜻하는 굳어진 부사구 'For here'. 통째로 외워져 전치사가 눈에 안 들어오는 자리라 [For/To/In] here 형태로 빈칸이 뚫리기 쉽다",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 54,
+      "span_end": 59,
+      "surface": "to go",
+      "sentence_no": 2,
+      "rationale": "'포장해 가다'를 뜻하는 to부정사 관용 표현. to going / for go 등 형태 오류를 심기 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 86,
+      "span_end": 104,
+      "surface": "can you please put",
+      "sentence_no": 4,
+      "rationale": "요청의 can(could) + 동사원형. putting / to put 처럼 조동사 뒤 형태를 어기는 오류를 유도할 수 있다",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 108,
+      "span_end": 124,
+      "surface": "in a plastic cup",
+      "sentence_no": 4,
+      "rationale": "용기 안에 담는다는 의미의 in. on/at으로 교체하거나 전치사를 삭제하는 변형이 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 126,
+      "span_end": 140,
+      "surface": "not in a glass",
+      "sentence_no": 4,
+      "rationale": "'in a plastic cup, not in a glass'의 A not B 병렬. 뒤쪽 전치사 in을 빠뜨리거나 다른 품사로 바꿔 병렬을 깨는 오류를 유도할 수 있다",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "주문 제시(도입 요청)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "확인 질문(선택지 제시)",
+      "signal": "or",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답(선택 확정)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "추가 요청(세부 조건)",
+      "signal": "And",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 상황으로 가장 알맞은 것은?",
+      "answer_key": "A",
+      "explanation": "소녀가 바나나 스무디를 주문하고 점원이 매장 이용인지 포장인지 묻는 전형적인 카페 주문 상황이다. 재활용·집에서 만들기·항의와는 무관하다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [
+        {
+          "label": "A",
+          "body": "Ordering a drink at a café",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "B",
+          "body": "Recycling plastic cups at school",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "C",
+          "body": "Making a banana smoothie at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "D",
+          "body": "Complaining about bad service",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "B",
+      "explanation": "[3]에서 'For here, please.'라고 했으므로 매장에서 마신다. A는 banana smoothie이므로 오답, C는 [4]에서 유리컵이 아니라 플라스틱 컵을 요청했으므로 오답, D는 포장이 아니므로 오답이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "A",
+          "body": "The girl orders a strawberry smoothie.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "B",
+          "body": "The girl will drink her smoothie in the shop.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "C",
+          "body": "The girl wants her drink in a glass.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "D",
+          "body": "The man takes the drink to go for the girl.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 For here or to go? 가 의미하는 것으로 가장 알맞은 것은?",
+      "answer_key": "A",
+      "explanation": "'For here or to go?'는 매장에서 먹을지 포장해 갈지를 묻는 관용 표현이다. 이어지는 'For here, please.'가 매장 이용을 뜻하는 것으로 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [
+        {
+          "label": "A",
+          "body": "여기서 드실 건가요, 아니면 가져가실 건가요?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "B",
+          "body": "이쪽으로 갈까요, 저쪽으로 갈까요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "C",
+          "body": "지금 주문하실 건가요, 나중에 하실 건가요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "D",
+          "body": "현금으로 내실 건가요, 카드로 내실 건가요?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\nG: I (a)[’d like / ’d like to] a banana smoothie, please.\nM: For here or (b)[to go / to going]?\nG: For here, please. And can you please (c)[put / putting] it in a plastic cup, not in a glass?",
+      "answer_key": "A",
+      "explanation": "(a) would like 뒤에 명사(a banana smoothie)가 바로 오므로 to를 붙이지 않는다. (b) 포장을 뜻하는 관용 표현은 to go로, to 뒤에는 동사원형이 온다. (c) 조동사 can 뒤에는 동사원형 put이 와야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "A",
+          "body": "(a) ’d like — (b) to go — (c) put",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "B",
+          "body": "(a) ’d like — (b) to going — (c) put",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "C",
+          "body": "(a) ’d like to — (b) to go — (c) put",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "D",
+          "body": "(a) ’d like — (b) to go — (c) putting",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "위 대화의 문장을 옮긴 것 중, 어법상 틀린 것은?",
+      "answer_key": "B",
+      "explanation": "B의 to는 to부정사의 to이므로 뒤에 동사원형 go가 와야 한다(to going → to go). 나머지는 본문 그대로 어법상 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "A",
+          "body": "I’d like a banana smoothie, please.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "B",
+          "body": "For here or to going?",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "C",
+          "body": "For here, please.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "D",
+          "body": "And can you please put it in a plastic cup, not in a glass?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": [
+        "B"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 하나 찾아 바르게 고쳐 쓰시오.\n→ And can you please putting it in a plastic cup, not in a glass?",
+      "answer_key": "putting → put",
+      "explanation": "조동사 can 뒤에는 동사원형이 와야 하므로 putting을 put으로 고쳐야 한다. (완성 문장: And can you please put it in a plastic cup, not in a glass?)",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열하시오.\n바나나 스무디 하나 주세요.\n(like / a / I’d / smoothie / banana), please.",
+      "answer_key": "I’d like a banana smoothie, please.",
+      "explanation": "would like(’d like) 뒤에 원하는 것을 나타내는 명사구 a banana smoothie를 바로 쓴다. 명사가 올 때는 to를 쓰지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n유리컵 말고 플라스틱 컵에 그것을 담아 주시겠어요?\n<조건> 1) can, put, a plastic cup, a glass를 모두 사용할 것  2) 「, not ...」 형태로 대조를 나타낼 것",
+      "answer_key": "Can you please put it in a plastic cup, not in a glass?",
+      "explanation": "요청은 Can you (please) + 동사원형으로 쓰고, 용기에 담는다는 의미의 전치사 in을 두 번 모두 살려 'in a plastic cup, not in a glass'의 병렬을 맞춘다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 4,
+    "tags_returned": 6,
+    "tags_kept": 6,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 8,
+    "items_kept": 8,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

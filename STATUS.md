@@ -16,8 +16,19 @@
 >
 > **형태 드릴** `동아윤정미 중1 5과 어법드릴.pdf` 240문항 (비교급·최상급·There is/are). 모델 미사용. `make_form_drill`.
 >
-> **6과** 지문 9편 추출 · 학습지 15~26쪽 판독 · 받아쓰기 36조각 일치 → **확인지 대조 대기** (`전사확인지_중1_L6.html`).
-> 대조 오면: confirm → 008 → pass-a → 010 → make_drill_grammar --only "중1 L6" → verify → make_drill_tf ×4 → make_drill_en → build_school_drills --school 영덕중.
+> **6과** 원장 대조 완료 「확인끝 괜찮다」 → confirm → 008 → pass-a → 010 **까지 됐다** (2026-09-21 밤, 컴퓨터 끄기 전).
+> **내일 이어서 (순서대로, 각 한 줄)**:
+>
+>     python tools/make_drill_grammar.py --only "중1 L6" --run
+>     python tools/verify_drill_grammar.py --run
+>     python tools/make_drill_tf.py --unit "중1 L6 대화-1" --unit "중1 L6 대화-2" --unit "중1 L6 대화-3" --title "중1 L6 대화 ①②③" --book "동아 윤정미 중1" --run
+>     python tools/make_drill_tf.py --unit "중1 L6 대화-4" --unit "중1 L6 대화-5" --unit "중1 L6 대화-6" --title "중1 L6 대화 ④⑤⑥" --book "동아 윤정미 중1" --run
+>     python tools/make_drill_tf.py --unit "중1 L6 대화-7" --unit "중1 L6 대화-8" --title "중1 L6 대화 ⑦⑧" --book "동아 윤정미 중1" --run
+>     python tools/make_drill_tf.py --unit "중1 L6 본문 — Join the Zero-Waste Challenge" --title "중1 L6 본문 — Join the Zero-Waste Challenge" --book "동아 윤정미 중1" --run
+>     python tools/make_drill_en.py data/generated/drills/중1_L6_*.tf.json --run
+>     python tools/build_school_drills.py --school 영덕중
+>
+> 어휘 세트(영덕중1_L6.vocab.json)는 이미 있다. 결과: result/readitude/영덕중1 6과 리디튜드 자체드릴.pdf
 >
 > 영일중1 시험 범위 **5·6·7과** (LESSONS). 대화 받아쓰기 드릴은 안 만든다 (특급기출에서 이미 했다).
 

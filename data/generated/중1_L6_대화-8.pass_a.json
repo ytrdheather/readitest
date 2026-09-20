@@ -1,0 +1,690 @@
+{
+  "passage_id": "0c13d4e7-ca44-400a-b775-7142c515f9a9",
+  "body_text_sha256": "6f0b507c32be8516fcdfccd9002ec9e1f6346b8d55285eddd5f65cb8a2ea0e06",
+  "tags": [
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 7,
+      "span_end": 16,
+      "surface": "so hungry",
+      "sentence_no": 1,
+      "rationale": "「so + 형용사」 구조. 뒤에 명사가 없으므로 such는 불가. [so / such] hungry 형태로 빈칸·선지 출제 가능하며 such hungry, so a hungry 같은 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 30,
+      "span_end": 37,
+      "surface": "no food",
+      "sentence_no": 1,
+      "rationale": "there is + no + 명사 = there isn't any + 명사. no ↔ any 교체(there’s any food / there isn’t no food)로 오답을 만들 수 있는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 38,
+      "span_end": 45,
+      "surface": "at home",
+      "sentence_no": 1,
+      "rationale": "관용적 장소 부사구 at home(집에). in home / to home / at the home 등으로 바꾼 오답이 자주 나오고, 전치사 자체를 빈칸으로 뚫기 가장 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 58,
+      "span_end": 71,
+      "surface": "Let’s eat out",
+      "sentence_no": 3,
+      "rationale": "Let us + 동사원형 구조이므로 eat은 반드시 원형. Let’s eating out / Let’s to eat out 같은 형태 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_CAUSATIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 99,
+      "span_end": 113,
+      "surface": "want to go out",
+      "sentence_no": 4,
+      "rationale": "want는 목적어로 to부정사만 취하는 동사. want going out / want go out 으로 바꾼 오답이 전형적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 119,
+      "span_end": 136,
+      "surface": "Can you please go",
+      "sentence_no": 5,
+      "rationale": "조동사 Can 뒤에는 동사원형. Can you please to go / Can you please going 처럼 준동사를 넣은 오답을 만들 수 있고, 요청 표현(Could you ~?)으로 바꾸는 변형도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 134,
+      "span_end": 152,
+      "surface": "go to a restaurant",
+      "sentence_no": 5,
+      "rationale": "이동 방향을 나타내는 to. 전치사 삭제(go a restaurant)나 오용(go at/in a restaurant)으로 오답을 심기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 153,
+      "span_end": 164,
+      "surface": "and pick up",
+      "sentence_no": 5,
+      "rationale": "조동사 Can에 이어지는 go와 pick up이 and로 병렬 연결됨. picking up / picks up / to pick up 으로 바꾸면 병렬이 깨진다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 165,
+      "span_end": 174,
+      "surface": "some food",
+      "sentence_no": 5,
+      "rationale": "권유·요청의 의문문에서는 any 대신 some을 쓴다. any food로 바꾼 선지로 구별을 물을 수 있고, food가 셀 수 없는 명사라 a food / many foods 오답도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "상황 제시 (문제 제기)",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "호응 (공감)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "제안",
+      "signal": "Let’s",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "거절 (제안 반대)",
+      "signal": "I’m sorry, but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "대안 요청 (대화의 핵심 요지)",
+      "signal": "Can you please",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "수락",
+      "signal": "Sure",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "수락 강조 (마무리)",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 바탕으로 만든 다음 문장 중, 어법상 옳은 것은?",
+      "answer_key": "③",
+      "explanation": "③은 본문 그대로의 문장으로 「so + 형용사」, there’s no + 명사, at home 모두 올바르다. ①은 want가 to부정사를 목적어로 취하므로 going → to go. ②는 조동사 Can 뒤에 동사원형이 와야 하므로 to go → go. ④는 Let’s 다음에 동사원형이 와야 하므로 eating → eat. ⑤는 and로 연결된 go와 병렬이 되어야 하므로 picking up → pick up.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        3,
+        4,
+        5,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I’m sorry, but I don’t want going out now.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Can you please to go to a restaurant and pick up some food?",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I’m so hungry, but there’s no food at home.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Let’s eating out.",
+          "is_answer": false,
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
+          "via_modification": "EI_CAUSATIVE_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Can you please go to a restaurant and picking up some food?",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\nG: I’m (a)[so / such] hungry, but there’s no food at home.\nB: I know. Let’s eat out.\nG: I’m sorry, but I don’t want (b)[to go / going] out now. Can you please go to a restaurant and (c)[pick / picking] up some food?\nB: Sure. No problem.",
+      "answer_key": "①",
+      "explanation": "(a) 뒤에 명사 없이 형용사 hungry만 있으므로 so. such는 「such + (a) + 형용사 + 명사」 형태로 쓴다. (b) want는 to부정사를 목적어로 취하므로 to go. (c) 조동사 Can에 이어지는 go와 and로 병렬 연결되므로 동사원형 pick.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "so – to go – pick",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "such – to go – pick",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "so – going – pick",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "so – to go – picking",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 대화의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?\n\nG: I’m ①so hungry, but there’s ②no food at home.\nB: I know. Let’s ③eat out.\nG: I’m sorry, but I don’t want ④to go out now. Can you please go ⑤a restaurant and pick up some food?\nB: Sure. No problem.",
+      "answer_key": "⑤",
+      "explanation": "go는 자동사이므로 목적지 앞에 전치사 to가 필요하다. go a restaurant → go to a restaurant. ①은 「so + 형용사」, ②는 there’s no + 명사와 장소 부사구 at home, ③은 Let’s + 동사원형, ④는 want + to부정사로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        0,
+        2,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "so hungry",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "no food at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "eat out",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "to go out",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "a restaurant",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 대화의 밑줄 친 ①~⑤ 중, 문맥상 낱말(어구)의 쓰임이 적절하지 않은 것은?\n\nG: I’m so ①hungry, but there’s ②no food at home.\nB: I know. Let’s ③eat out.\nG: I’m sorry, but I don’t want to ④go out now. Can you please go to a restaurant and ⑤throw away some food?\nB: Sure. No problem.",
+      "answer_key": "⑤",
+      "explanation": "소녀는 배가 고픈데 집에 음식이 없어서 소년에게 식당에서 음식을 '사다 달라'고 부탁하는 상황이다. 따라서 throw away(버리다)는 문맥에 맞지 않으며 pick up(사 오다, 가지러 가다)이 되어야 한다. ①~④는 모두 상황과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "hungry",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "no food",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "eat out",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "go out",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "throw away",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 pick up some food가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "앞에 go to a restaurant가 있고, 소녀가 밖에 나가고 싶지 않다고 했으므로 pick up some food는 '식당에 가서 음식을 받아(사) 오다'라는 뜻이다. 물건을 줍는다는 뜻(②)이나 요리·나눔·계산(③④⑤)은 문맥과 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        6,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "식당에서 음식을 사서 가져오다",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "떨어진 음식을 주워서 정리하다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "집에서 직접 음식을 요리하다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "남은 음식을 이웃에게 나눠 주다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "음식값을 대신 계산해 주다",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "집에 음식이 없고 밖에 나가고 싶지 않은 소녀가 소년에게 식당에서 음식을 사다 달라고 부탁하고, 소년이 이를 수락하는 대화이다. 따라서 ①이 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A girl asking a boy to bring some food from a restaurant",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "A boy inviting a girl to cook dinner together at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A girl explaining how to make a healthy meal",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "A boy complaining about the food at a new restaurant",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A girl recommending her favorite restaurant to a friend",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about the dialogue?",
+      "answer_key": "④",
+      "explanation": "소녀는 “I don’t want to go out now.”라고 하며 지금 나가고 싶지 않다고 했으므로 ④는 대화 내용과 다르다. ①②는 첫 문장, ③은 Let’s eat out, ⑤는 Sure. No problem.에서 확인할 수 있다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl is very hungry.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "There is no food at the girl's home.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy suggests eating out.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl wants to go out to eat right now.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy agrees to do what the girl asks.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 빈칸에 들어갈 말로 가장 적절한 것은?\n\nG: I’m sorry, but I don’t want to go out now. Can you please go to a restaurant and ____________?",
+      "answer_key": "①",
+      "explanation": "소녀는 배가 고프지만 집에 음식이 없고 밖에 나가기는 싫은 상황이므로, 식당에 가서 음식을 사다 달라는 부탁이 와야 한다. 나머지는 식당에 가는 목적과 무관하다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        8,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "pick up some food",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "clean up your room",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "wait for the school bus",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "turn off the lights",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "take a long walk with me",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같은 뜻이 되도록 <조건>에 맞게 영작하시오.\n\n우리말: 미안하지만, 나는 지금 밖에 나가고 싶지 않아.\n<조건> 1) want, go out, now를 모두 사용할 것  2) I’m sorry, but 으로 시작할 것  3) 축약형 don’t를 사용하고 총 10단어로 쓸 것",
+      "answer_key": "I’m sorry, but I don’t want to go out now.",
+      "explanation": "want는 목적어로 to부정사를 취하므로 want to go out으로 써야 한다. want going out, want go out은 모두 틀린 형태이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n우리말: 식당에 가서 음식 좀 사다 줄 수 있니?\n단어: (and / go / please / some food / you / pick up / a restaurant / can / to)",
+      "answer_key": "Can you please go to a restaurant and pick up some food?",
+      "explanation": "조동사 의문문 Can you please + 동사원형(go) 구조이고, 목적지 앞에는 전치사 to가 필요하다. and 뒤에도 go와 병렬이 되도록 동사원형 pick up을 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6,
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "다음 대화에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (틀린 부분 한 군데)\n\nB: I know. Let’s eating out.",
+      "answer_key": "eating → eat (Let’s eat out.)",
+      "explanation": "Let’s는 Let us의 축약형으로, let 다음에는 목적격보어로 동사원형이 와야 한다. 따라서 eating을 eat으로 고쳐야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 7,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

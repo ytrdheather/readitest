@@ -1,0 +1,551 @@
+{
+  "passage_id": "52b50515-ab2b-4c07-9cc4-b5e333847761",
+  "body_text_sha256": "afd9a81322532903c385f6dfac0a12d7a34aa88599d63807fc1d5c4a61310870",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 23,
+      "surface": "Can you please carry",
+      "sentence_no": 1,
+      "rationale": "요청을 나타내는 조동사 Can 뒤에는 반드시 동사원형이 온다. carrying / carried / to carry 로 바꾼 오답을 유도할 수 있는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 18,
+      "span_end": 42,
+      "surface": "carry this box to my car",
+      "sentence_no": 1,
+      "rationale": "'~로(방향·도착점)'를 나타내는 전치사 to. at / in / for 로 교체하거나 전치사를 삭제하는(carry this box my car) 오류를 심기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 51,
+      "span_end": 63,
+      "surface": "really sorry",
+      "sentence_no": 2,
+      "rationale": "형용사 sorry를 수식하는 것은 부사 really. real sorry 처럼 형용사로 바꾼 오답 선지가 전형적으로 출제된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 78,
+      "span_end": 95,
+      "surface": "late for my class",
+      "sentence_no": 2,
+      "rationale": "be late for(~에 늦다)는 고정 전치사 for. late to / late of / late at 로 바꾼 오답 유도가 가능한 빈출 숙어.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 120,
+      "span_end": 133,
+      "surface": "somebody else",
+      "sentence_no": 4,
+      "rationale": "부정대명사 somebody는 else의 수식을 뒤에서 받는다(후치). else somebody 어순 오류나 부정문이 아닌데 anybody를 쓰는 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 111,
+      "span_end": 119,
+      "surface": "I’ll ask",
+      "sentence_no": 4,
+      "rationale": "거절을 들은 직후의 즉석 결정이므로 will을 쓴다. asked(과거)나 am asking 으로 바꾼 시제 오류를 심을 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문 — 도움 요청",
+      "signal": "Can you please",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "거절 + 원인(이유 제시)",
+      "signal": "but",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환 — 수용 반응",
+      "signal": "Oh, I see",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "해결책 — 대안 제시(결론문)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "대화의 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\nM: Can you please (a)[carry / carrying] this box to my car?\nG: I’m (b)[really / real] sorry, Dad, but I’m late for my class.\nM: Oh, I see. I’ll ask (c)[somebody else / else somebody].",
+      "answer_key": "①",
+      "explanation": "(a) 조동사 Can 뒤에는 동사원형 carry가 온다. (b) 형용사 sorry를 꾸미려면 부사 really가 필요하다(real은 형용사). (c) 부정대명사 somebody는 else가 뒤에서 수식하므로 somebody else 어순이 맞다. 따라서 ①.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) carry – (b) really – (c) somebody else",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) carrying – (b) really – (c) somebody else",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) carry – (b) real – (c) somebody else",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) carry – (b) really – (c) else somebody",
+          "is_answer": false,
+          "violates_point_code": "PRON_INDEFINITE",
+          "via_modification": "BO_WORD_ORDER",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "위 대화에서 가져온 다음 문장 중 어법상 틀린 것은?",
+      "answer_key": "②",
+      "explanation": "'~에 늦다'는 be late for 이므로 late of 는 틀리고 late for my class 가 되어야 한다. ①③④는 본문 그대로의 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Can you please carry this box to my car?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I’m really sorry, Dad, but I’m late of my class.",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Oh, I see.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’ll ask somebody else.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음은 위 대화를 다시 쓴 것이다. 밑줄 친 ①~⑤ 중 어법상 틀린 것은?\nM: ①Can you please carry ②this box ③at my car?\nG: I’m really sorry, Dad, but ④I’m late for my class.\nM: Oh, I see. ⑤I’ll ask somebody else.",
+      "answer_key": "③",
+      "explanation": "상자를 '차로(도착점) 옮기는' 것이므로 방향을 나타내는 전치사 to가 필요하다. at은 위치를 나타내어 carry와 어울리지 않는다. 나머지는 본문과 같은 올바른 표현이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Can you please carry",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "this box",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "at my car",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’m late for my class",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I’ll ask somebody else",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음은 위 대화를 옮긴 것이다. 밑줄 친 낱말 중 문맥상 적절하지 않은 것은?\nM: Can you please ①carry this box to my car?\nG: I’m really ②glad, Dad, but I’m ③late for my class.\nM: Oh, I ④see. I’ll ⑤ask somebody else.",
+      "answer_key": "②",
+      "explanation": "아빠의 부탁을 거절하는 상황이므로 '미안하다(sorry)'가 와야 한다. glad(기쁜)는 뒤의 but ~ late for my class(거절 이유)와 문맥이 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "carry",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "glad",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "late",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "see",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "ask",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 I’ll ask somebody else.가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "딸이 수업 때문에 부탁을 거절하자 아빠가 대안을 제시한 말이므로, 상자 옮기는 일을 '다른 사람에게 부탁하겠다'는 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "딸이 아닌 다른 사람에게 상자 옮기는 일을 부탁하겠다는 뜻",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "딸에게 수업에 늦은 이유를 다시 묻겠다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "딸과 함께 차까지 상자를 옮기겠다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "다른 사람에게 딸의 수업 시간을 물어보겠다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "상자를 옮기는 일을 나중으로 미루겠다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "아빠가 상자를 차로 옮겨 달라고 부탁하고 딸이 수업 때문에 거절하는 내용이므로 ①이 적절하다. 나머지는 대화에 나오지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "A father asking for help and his daughter turning it down",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "A girl asking her father for a ride to school",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A father teaching his daughter how to pack boxes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "A girl apologizing for breaking her father's car",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "A father and his daughter choosing a class together",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것은?",
+      "answer_key": "⑤",
+      "explanation": "딸은 수업에 늦어서 부탁을 거절했고, 아빠가 다른 사람에게 부탁하겠다고 했으므로 ⑤는 대화 내용과 일치하지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The man wants the girl to carry a box to his car.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl cannot help because she is late for her class.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl says sorry to her father.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The man decides to ask another person for help.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl carries the box to the car right away.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오.\n우리말: 이 상자를 내 차로 옮겨 주시겠어요?\n(carry / you / my car / this box / can / to / please)",
+      "answer_key": "Can you please carry this box to my car?",
+      "explanation": "요청은 「Can you please + 동사원형 ~?」 순서로 쓰고, '내 차로'는 방향의 전치사 to를 써서 to my car로 문장 끝에 놓는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "PRON_INDEFINITE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nI’ll ask else somebody.",
+      "answer_key": "else somebody → somebody else",
+      "explanation": "somebody, someone, something 같은 부정대명사는 else의 수식을 뒤에서 받으므로 somebody else 가 올바른 어순이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 상황을 읽고 <조건>에 맞게 소녀의 거절 이유를 영어로 쓰시오.\n상황: 아빠가 상자를 옮겨 달라고 부탁했지만, 소녀는 수업에 늦었다.\n<조건> 1) late 를 반드시 사용할 것  2) I’m 으로 시작할 것  3) 5단어로 쓸 것",
+      "answer_key": "I’m late for my class.",
+      "explanation": "'~에 늦다'는 be late for 이므로 I’m late for my class. 로 쓴다. late to / late of 는 쓰지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 4,
+    "tags_returned": 6,
+    "tags_kept": 6,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}
