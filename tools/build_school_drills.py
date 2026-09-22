@@ -83,9 +83,14 @@ EXTERNAL = {
 # 학교 × 학년 → 시험 범위 과. 없으면 지문이 있는 과를 다 뽑는다 (중2 는 네 학교 다 5·6).
 # 중1 은 진도가 학교마다 달라 (원장 2026-09-18: 영덕 5과부터 · 영일 7과부터) 범위 밖 권이
 # 나왔다 — 영일중1 5과, 영덕중1 7과. 강사가 집으면 안 되는 종이는 아예 안 만든다.
+# 값이 빈 목록이면 **그 학교·학년은 아예 안 만든다.**
+# 2026-09-23: 청명중1(비상 황종배)에 동아 지문으로 만든 권 6개, 범위를 모르는 태장중1 권 6개가
+# 나와 있었다. 교재가 다르거나 범위를 모르면 종이를 만들지 않는다 — 강사가 집으면 틀린 걸 준다.
 LESSONS = {
     ("영덕중", "1"): ["L5", "L6"],
     ("영일중", "1"): ["L5", "L6", "L7"],   # 원장 2026-09-21: 「영일중은 5·6·7이 시험범위」
+    ("태장중", "1"): [],                   # 범위 미확인 — 2025 기말 기출 판독 뒤에 연다
+    ("청명중", "1"): [],                   # 비상 황종배. 동아 지문을 주면 안 된다. 자체 제작 안 함 (원장 2026-09-23)
 }
 
 SECTION = {"textbook_dialogue": "대화문", "textbook_reading": "본문", "handout_external": "외부지문"}
@@ -240,8 +245,8 @@ def main():
         for school in schools:
             for G, L in combos:
                 allowed = LESSONS.get((school, G))
-                if allowed and L not in allowed:
-                    continue
+                if allowed is not None and L not in allowed:
+                    continue          # 빈 목록이면 전부 건너뛴다
                 plan = plan_for(school, G, L, passages, vocab)
                 if not plan:
                     continue
