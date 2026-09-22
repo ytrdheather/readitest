@@ -1,0 +1,449 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L6 대화 ④⑤⑥",
+  "parts": [
+    "중1 L6 대화-4",
+    "중1 L6 대화-5",
+    "중1 L6 대화-6"
+  ],
+  "passage_ids": [
+    "52b50515-ab2b-4c07-9cc4-b5e333847761",
+    "c8c55d66-af89-4c77-8aaa-f636a10cb31a",
+    "546ca2e6-dcd1-4bf4-9ef9-2a9728888af7"
+  ],
+  "para_breaks": [
+    4,
+    22,
+    28
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    9,
+    11,
+    13,
+    16,
+    17,
+    20,
+    22,
+    23,
+    25,
+    27,
+    28
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "M: Can you please carry this box to my car?",
+    "G: I’m really sorry, Dad, but I’m late for my class.",
+    "M: Oh, I see.",
+    "I’ll ask somebody else.",
+    "B: Hi, Yuna.",
+    "What are you doing here?",
+    "G: Hi, Alex.",
+    "I’m plogging with my club members.",
+    "B: Excuse me?",
+    "G: Plogging.",
+    "It means jogging and picking up trash at the same time.",
+    "B: Sounds cool!",
+    "So you’re a member of a plogging club.",
+    "G: Yes.",
+    "We plog together every Saturday morning from 10 to 12.",
+    "Interested?",
+    "B: Well, I’ll think about it.",
+    "G: OK.",
+    "By the way, can you please help me with this trash bag?",
+    "It’s heavy.",
+    "B: Sure.",
+    "No problem.",
+    "G: Dad, can you please fix my bag?",
+    "M: Now?",
+    "I’m cooking dinner.",
+    "G: Oh, I see.",
+    "Then, when can you fix it?",
+    "M: I’ll do it right after dinner."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "아빠는 딸에게 상자를 차까지 옮겨 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "아빠가 이 상자를 차로 옮겨 달라고 부탁한다.",
+      "_evidence_text": [
+        "M: Can you please carry this box to my car?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 수업에 늦어서 아빠의 부탁을 들어줄 수 없다고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "수업에 늦었다며 미안하다고 말한다.",
+      "_evidence_text": [
+        "G: I’m really sorry, Dad, but I’m late for my class."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "아빠는 딸이 부탁을 거절하자 화를 냈다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "아빠는 \"Oh, I see.\"라며 이해했을 뿐 화내지 않았다.",
+      "_evidence_text": [
+        "M: Oh, I see."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "아빠는 결국 혼자서 상자를 옮기겠다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "아빠는 다른 사람에게 부탁하겠다고 했다.",
+      "_evidence_text": [
+        "I’ll ask somebody else."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년이 먼저 유나에게 인사를 건넸다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "소년이 \"Hi, Yuna.\"라고 먼저 말한다.",
+      "_evidence_text": [
+        "B: Hi, Yuna."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나가 소년에게 여기서 뭐 하고 있냐고 먼저 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "여기서 뭐 하냐고 물은 사람은 소년(Alex)이다.",
+      "_evidence_text": [
+        "What are you doing here?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년의 이름은 Alex이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "유나가 \"Hi, Alex.\"라고 부른다.",
+      "_evidence_text": [
+        "G: Hi, Alex."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 혼자서 플로깅을 하고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "동아리 회원들과 함께 플로깅하고 있다고 했다.",
+      "_evidence_text": [
+        "I’m plogging with my club members."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Alex는 플로깅이라는 말을 이미 잘 알고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "Alex는 \"Excuse me?\"라며 못 알아들었다.",
+      "_evidence_text": [
+        "B: Excuse me?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 '플로깅'이라는 말을 다시 한 번 말해 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "유나가 \"Plogging.\"이라고 다시 말한다.",
+      "_evidence_text": [
+        "G: Plogging."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "플로깅은 조깅을 하면서 동시에 쓰레기를 줍는 것을 뜻한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "유나가 그렇게 설명한다.",
+      "_evidence_text": [
+        "It means jogging and picking up trash at the same time."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Alex는 플로깅이 멋지게 들린다고 반응했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "\"Sounds cool!\"이라고 말한다.",
+      "_evidence_text": [
+        "B: Sounds cool!"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Alex는 자신이 플로깅 동아리 회원이라고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "Alex는 유나가 동아리 회원이라고 확인했을 뿐이다.",
+      "_evidence_text": [
+        "So you’re a member of a plogging club."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 자신이 동아리 회원이라는 말을 부정했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "유나는 \"Yes.\"라고 인정했다.",
+      "_evidence_text": [
+        "G: Yes."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 동아리는 매주 일요일 오전에 함께 플로깅을 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "토요일 오전 10시부터 12시까지 한다.",
+      "_evidence_text": [
+        "We plog together every Saturday morning from 10 to 12."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 Alex에게 관심이 있는지 물어보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "\"Interested?\"라고 묻는다.",
+      "_evidence_text": [
+        "Interested?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Alex는 그 자리에서 바로 동아리에 가입하겠다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "생각해 보겠다고만 했다.",
+      "_evidence_text": [
+        "B: Well, I’ll think about it."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 Alex의 대답에 \"OK.\"라고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "유나가 OK라고 응답한다.",
+      "_evidence_text": [
+        "G: OK."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 Alex에게 쓰레기봉투를 도와 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "쓰레기봉투를 도와 달라고 부탁한다.",
+      "_evidence_text": [
+        "By the way, can you please help me with this trash bag?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 쓰레기봉투가 가볍다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "무겁다(It's heavy)고 말했다.",
+      "_evidence_text": [
+        "It’s heavy."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Alex는 유나의 부탁을 거절했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "Alex는 \"Sure.\"라고 승낙했다.",
+      "_evidence_text": [
+        "B: Sure."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "Alex는 문제없다고 덧붙였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "\"No problem.\"이라고 말한다.",
+      "_evidence_text": [
+        "No problem."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 아빠에게 가방을 고쳐 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "가방을 고쳐 달라고 부탁한다.",
+      "_evidence_text": [
+        "G: Dad, can you please fix my bag?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "아빠는 \"지금?\"이라고 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "아빠가 \"Now?\"라고 되묻는다.",
+      "_evidence_text": [
+        "M: Now?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "아빠는 그때 설거지를 하고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "저녁을 요리하는 중이었다.",
+      "_evidence_text": [
+        "I’m cooking dinner."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 아빠의 사정을 듣고 알겠다고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "\"Oh, I see.\"라고 답한다.",
+      "_evidence_text": [
+        "G: Oh, I see."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "유나는 아빠에게 언제 고쳐 줄 수 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "언제 고칠 수 있냐고 묻는다.",
+      "_evidence_text": [
+        "Then, when can you fix it?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "아빠는 저녁 식사 전에 가방을 고쳐 주겠다고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        28
+      ],
+      "why_ko": "저녁 식사 직후에 하겠다고 했다.",
+      "_evidence_text": [
+        "M: I’ll do it right after dinner."
+      ],
+      "_repeat": false
+    }
+  ],
+  "diagnostics": {
+    "returned": 28,
+    "kept": 28,
+    "by_type": {
+      "content": 28
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 15,
+      "X": 13
+    },
+    "sentences_covered": 28,
+    "sentence_count": 28,
+    "repeated": 0
+  }
+}

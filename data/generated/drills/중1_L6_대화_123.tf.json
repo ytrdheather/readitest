@@ -1,0 +1,304 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L6 대화 ①②③",
+  "parts": [
+    "중1 L6 대화-1",
+    "중1 L6 대화-2",
+    "중1 L6 대화-3"
+  ],
+  "passage_ids": [
+    "afcfe2e0-7881-47a6-9214-a3102f41a063",
+    "359a280c-c594-409d-a0db-01d1d5f2133a",
+    "8006a0e5-4b41-4fdf-88e8-e5ab6885363d"
+  ],
+  "para_breaks": [
+    5,
+    10,
+    18
+  ],
+  "turn_breaks": [
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    14,
+    16,
+    18
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "W: Excuse me, but can you please close the door?",
+    "The air conditioner is on.",
+    "B: Oh, I didn’t know that.",
+    "I’ll close it right away.",
+    "W: Thanks.",
+    "M: For here or to go?",
+    "G: For here, please.",
+    "And can you please put my smoothie in a plastic cup, not in a glass?",
+    "M: I’m sorry, but we don’t use single-use plastic cups inside the café.",
+    "G: Oh, I see.",
+    "W: Look.",
+    "Somebody forgot to turn off the water.",
+    "B: Again?",
+    "People are so forgetful.",
+    "W: I know.",
+    "Can you run over there and turn off the water?",
+    "B: Sure.",
+    "No problem."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "여자는 남학생에게 문을 닫아 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "여자가 'can you please close the door?'라고 부탁한다.",
+      "_evidence_text": [
+        "W: Excuse me, but can you please close the door?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 히터가 켜져 있어서 문을 닫아 달라고 했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "히터가 아니라 에어컨(air conditioner)이 켜져 있다고 했다.",
+      "_evidence_text": [
+        "The air conditioner is on."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남학생은 에어컨이 켜져 있다는 것을 이미 알고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "남학생은 'I didn't know that'이라며 몰랐다고 했다.",
+      "_evidence_text": [
+        "B: Oh, I didn’t know that."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남학생은 바로 문을 닫겠다고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "'I'll close it right away.'라고 답했다.",
+      "_evidence_text": [
+        "I’ll close it right away."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 남학생에게 고맙다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "여자가 'Thanks.'라고 말한다.",
+      "_evidence_text": [
+        "W: Thanks."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "카페 직원인 남자는 여기서 먹을 것인지 가져갈 것인지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "'For here or to go?'라고 물었다.",
+      "_evidence_text": [
+        "M: For here or to go?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 음료를 가져가겠다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "여학생은 'For here, please.'라며 매장에서 먹겠다고 했다.",
+      "_evidence_text": [
+        "G: For here, please."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 스무디를 유리컵에 담아 달라고 부탁했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "유리컵이 아니라 플라스틱 컵에 담아 달라고 부탁했다.",
+      "_evidence_text": [
+        "And can you please put my smoothie in a plastic cup, not in a glass?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 카페 안에서도 일회용 플라스틱 컵을 사용한다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "카페 안에서는 일회용 플라스틱 컵을 쓰지 않는다고 했다.",
+      "_evidence_text": [
+        "M: I’m sorry, but we don’t use single-use plastic cups inside the café."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여학생은 남자의 설명을 듣고 알겠다고 받아들였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "'Oh, I see.'라고 응답했다.",
+      "_evidence_text": [
+        "G: Oh, I see."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "세 번째 대화에서는 여자가 먼저 '봐 봐'라고 말을 걸었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "여자가 'Look.'이라고 먼저 말한다.",
+      "_evidence_text": [
+        "W: Look."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 누군가가 불을 끄지 않았다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "불이 아니라 물을 잠그는 것을 잊었다고 말했다.",
+      "_evidence_text": [
+        "Somebody forgot to turn off the water."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남학생은 '또?'라고 반응하며 전에도 그런 일이 있었음을 드러냈다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "'Again?'이라는 반응에서 반복된 일임을 알 수 있다.",
+      "_evidence_text": [
+        "B: Again?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들이 참 잘 잊어버린다고 말한 사람은 여자이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "'People are so forgetful.'은 남학생(B)의 말이다.",
+      "_evidence_text": [
+        "People are so forgetful."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 남학생의 말에 동의했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "여자가 'I know.'라며 동의한다.",
+      "_evidence_text": [
+        "W: I know."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남학생이 여자에게 물을 잠그러 가 달라고 부탁했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "물을 잠그러 가 달라고 부탁한 사람은 여자이다.",
+      "_evidence_text": [
+        "Can you run over there and turn off the water?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남학생은 부탁을 흔쾌히 받아들였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "'Sure.'라고 답했다.",
+      "_evidence_text": [
+        "B: Sure."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남학생은 전혀 문제될 것 없다고 덧붙였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "'No problem.'이라고 말했다.",
+      "_evidence_text": [
+        "No problem."
+      ],
+      "_repeat": false
+    }
+  ],
+  "diagnostics": {
+    "returned": 18,
+    "kept": 18,
+    "by_type": {
+      "content": 18
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 10,
+      "X": 8
+    },
+    "sentences_covered": 18,
+    "sentence_count": 18,
+    "repeated": 0
+  }
+}

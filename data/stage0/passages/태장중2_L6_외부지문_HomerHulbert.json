@@ -1,0 +1,59 @@
+{
+  "passage_id": "태장중2_L6_외부지문_HomerHulbert",
+  "kind": "handout_external",
+  "title": "Homer B. Hulbert (태장)",
+  "school": "태장중학교",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "학교 배부물",
+  "body_text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy for ordinary people to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond national borders.",
+  "body_text_sha256": "38c718cdf1c8add669f40d6eb4d399809dc72a9c8221c8be53747503fe4479db",
+  "word_count": 188,
+  "handout_title": "Homer B. Hulbert: A True Friend Who Fought for Korea and Hangeul",
+  "paragraph_breaks_after_sentence": [
+    2,
+    5,
+    8
+  ],
+  "glossed": [
+    "missionary",
+    "logical",
+    "praise",
+    "promote"
+  ],
+  "transcription": {
+    "status": "confirmed",
+    "method": "vision_single_pass",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/태장중2 L6.pdf (8쪽 = 학습지 6-6 Words and Phrases 뒤 B 섹션) — 원장이 사진으로도 보냄 (2026-09-23)",
+    "note": "태장중2 L6 학습지의 외부지문. 인쇄 활자를 비전으로 읽었다. 영덕중2 등록본(영덕중2_L6_외부지문_HomerHulbert)과 **두 문장이 다르다** — 3번째 문장 'easy to learn' → 'easy for ordinary people to learn', 마지막 문장 'go beyond countries' → 'go beyond national borders'. 같은 원천을 학교가 각자 손본 것으로 보인다. 설계원칙 7 에 따라 영덕 레코드를 고치지 않고 태장용 새 레코드를 만든다 (원장 판단 2026-09-23). 낱말풀이 4개는 같다.",
+    "has_handwriting": true,
+    "handwriting_note": "학습지 다른 쪽에 학생 손글씨가 있으나 이 지문 상자 안에는 없다.",
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-09-22T16:29:19.639009+00:00",
+    "confirmed_via": "전사확인지_태장중2_L6외부지문.html · 원장 사진 제공 및 「둘다 끝내죠」 (2026-09-23)",
+    "reviewed_sentences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부 자료. 기획서 §6.6 — 학원 내부 지도용."
+}

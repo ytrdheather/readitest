@@ -1,0 +1,401 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L6 대화 ①②③",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L6 대화-1",
+    "중1 L6 대화-2",
+    "중1 L6 대화-3"
+  ],
+  "body": "W: Excuse me, but can you please close the door? The air conditioner is on.\nB: Oh, I didn’t know that. I’ll close it right away.\nW: Thanks.\nM: For here or to go?\nG: For here, please. And can you please put my smoothie in a plastic cup, not in a glass?\nM: I’m sorry, but we don’t use single-use plastic cups inside the café.\nG: Oh, I see.\nW: Look. Somebody forgot to turn off the water.\nB: Again? People are so forgetful.\nW: I know. Can you run over there and turn off the water?\nB: Sure. No problem.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "a02ff614-444c-4a23-adea-a63edb9a23a6",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 18,
+      "span_end": 38,
+      "correct": "can you please close",
+      "wrong": [
+        "can you please to close",
+        "can you please closing"
+      ],
+      "why_ko": "조동사 can 뒤에는 항상 동사원형이 와야 하므로 to close나 closing은 쓸 수 없어요.",
+      "rationale": "요청을 나타내는 조동사 can 뒤에는 동사원형이 온다. 'can you please to close' / 'can you please closing' 같은 준동사 형태 오류를 유도할 수 있는 자리다.",
+      "sentence_no": 1,
+      "sentence": "W: Excuse me, but can you please close the door?"
+    },
+    {
+      "tag_id": "659e3088-8cb1-4664-813c-bf68ce5becad",
+      "point": "VERB_SVA",
+      "span_start": 49,
+      "span_end": 71,
+      "correct": "The air conditioner is",
+      "wrong": [
+        "The air conditioner are",
+        "The air conditioner be"
+      ],
+      "why_ko": "주어 The air conditioner는 3인칭 단수라서 be동사는 is를 씁니다.",
+      "rationale": "주어 The air conditioner가 3인칭 단수이므로 be동사는 is. conditioner를 복수로 착각해 are로 바꾼 선지를 만들 수 있다.",
+      "sentence_no": 2,
+      "sentence": "The air conditioner is on."
+    },
+    {
+      "tag_id": "3658aecc-21dd-4d4f-9e65-1832ac20061a",
+      "point": "PREP_USAGE",
+      "span_start": 69,
+      "span_end": 74,
+      "correct": "is on",
+      "wrong": [
+        "is at"
+      ],
+      "why_ko": "기계가 '켜져 있다'는 뜻은 on이고, off는 반대 의미, in/at은 어색합니다.",
+      "rationale": "기계가 '켜져 있다'를 뜻하는 on. in/at/off 등으로 바꾸거나 통째로 빈칸을 뚫어 묻기 쉬운 자리다.",
+      "sentence_no": 2,
+      "sentence": "The air conditioner is on.",
+      "verify_dropped": [
+        {
+          "wrong": "is in",
+          "judgement": "odd",
+          "note_ko": "문법상 형태는 가능하나 에어컨이 켜져 있다는 뜻이 되지 않아 매우 어색."
+        },
+        {
+          "wrong": "is off",
+          "judgement": "ok",
+          "note_ko": "어법상 맞는 영어이며 의미만 반대가 됨."
+        }
+      ]
+    },
+    {
+      "tag_id": "6f1c7ca1-4c71-457d-a3cd-744b347536ed",
+      "point": "VERB_TENSE",
+      "span_start": 85,
+      "span_end": 96,
+      "correct": "didn’t know",
+      "wrong": [
+        "didn’t knew",
+        "don’t knew"
+      ],
+      "why_ko": "did(n't) 뒤에는 동사원형 know가 와야 하고, 과거 사실이므로 don't도 안 됩니다.",
+      "rationale": "조동사 did 뒤에는 동사원형 know. didn't knew 형태 오류를 심을 수 있고, 과거시제로 '그때는 몰랐다'는 의미를 나타내는 자리다.",
+      "sentence_no": 3,
+      "sentence": "B: Oh, I didn’t know that."
+    },
+    {
+      "tag_id": "cdf63a02-4ff1-4a22-9269-6047f3201127",
+      "point": "THAT_USAGE",
+      "span_start": 92,
+      "span_end": 101,
+      "correct": "know that",
+      "wrong": [
+        "know that it"
+      ],
+      "why_ko": "여기서 that은 앞 내용을 가리키는 지시대명사(목적어)라서 뒤에 절이나 다른 말이 붙으면 안 됩니다.",
+      "rationale": "여기서 that은 앞 문장 내용(에어컨이 켜져 있다는 것)을 받는 지시대명사이며 목적어 자리. 접속사 that(뒤에 절 필요)과 구별시키는 문항이 가능하다.",
+      "sentence_no": 3,
+      "sentence": "B: Oh, I didn’t know that.",
+      "verify_dropped": [
+        {
+          "wrong": "know what",
+          "judgement": "odd",
+          "note_ko": "목적어 없이 what으로 끝나 뜻이 통하지 않음."
+        }
+      ]
+    },
+    {
+      "tag_id": "eb8ae9b0-80af-48ad-b59b-31c5fdda3bc8",
+      "point": "VERB_TENSE",
+      "span_start": 103,
+      "span_end": 113,
+      "correct": "I’ll close",
+      "wrong": [
+        "I’ll closing",
+        "I’ll closed"
+      ],
+      "why_ko": "will('ll) 뒤에는 동사원형 close가 옵니다.",
+      "rationale": "will(=’ll) + 동사원형으로 즉각적인 미래 의지를 나타낸다. I'll closing / I'll closed 같은 형태 오류를 심기 쉬운 자리다.",
+      "sentence_no": 4,
+      "sentence": "I’ll close it right away."
+    },
+    {
+      "tag_id": "8b1371b4-e6dd-4878-a397-69dc6cc330dd",
+      "point": "PRON_AGREEMENT",
+      "span_start": 103,
+      "span_end": 116,
+      "correct": "I’ll close it",
+      "wrong": [
+        "I’ll close they"
+      ],
+      "why_ko": "가리키는 대상이 the door(단수)라서 it을 쓰고, 목적어 자리에 they는 올 수 없어요.",
+      "rationale": "it은 앞에 나온 the door를 받는 단수 대명사. them/they 등으로 바꾼 오답 선지를 만들 수 있고, 지시 대상을 묻는 문항의 근거가 된다.",
+      "sentence_no": 4,
+      "sentence": "I’ll close it right away.",
+      "verify_dropped": [
+        {
+          "wrong": "I’ll close them",
+          "judgement": "ok",
+          "note_ko": "문장 자체는 정문이며 가리키는 대상만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "e6e5ce54-e165-4163-b6c2-a46d8cbdb242",
+      "point": "PREP_USAGE",
+      "span_start": 143,
+      "span_end": 151,
+      "correct": "For here",
+      "wrong": [
+        "To here",
+        "At here"
+      ],
+      "why_ko": "매장에서 먹는다는 뜻은 굳어진 표현 For here입니다.",
+      "rationale": "매장 식사를 뜻하는 관용 표현 'For here'. 전치사 자리를 빈칸으로 뚫어 [For / To / At] here 형태로 고르게 하는 자리",
+      "sentence_no": 6,
+      "sentence": "M: For here or to go?"
+    },
+    {
+      "tag_id": "970a3c89-8e2b-445c-b174-69ee3017c2b8",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 155,
+      "span_end": 160,
+      "correct": "to go",
+      "wrong": [
+        "go"
+      ],
+      "why_ko": "'포장'을 뜻하는 관용 표현은 to부정사 형태 to go입니다.",
+      "rationale": "'포장해 가다'를 뜻하는 to부정사 관용 표현. go / going / to go 중 고르게 하거나 to를 삭제하는 오류를 심을 수 있음",
+      "sentence_no": 6,
+      "sentence": "M: For here or to go?",
+      "verify_dropped": [
+        {
+          "wrong": "going",
+          "judgement": "odd",
+          "note_ko": "For here or going?은 관용 표현이 아니어서 통하지 않음."
+        }
+      ]
+    },
+    {
+      "tag_id": "88ada36b-86df-4af4-aa76-5ef9e57afb0f",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 187,
+      "span_end": 205,
+      "correct": "can you please put",
+      "wrong": [
+        "can you please putting",
+        "can you please to put"
+      ],
+      "why_ko": "can 뒤에는 동사원형 put이 와야 해요.",
+      "rationale": "요청의 조동사 can + 주어 + 동사원형. put을 putting / to put / puts로 바꾸는 오류 유도가 전형적",
+      "sentence_no": 8,
+      "sentence": "And can you please put my smoothie in a plastic cup, not in a glass?"
+    },
+    {
+      "tag_id": "e57f0ea5-f0cc-43db-aff7-24fe59f06d67",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 202,
+      "span_end": 234,
+      "correct": "put my smoothie in a plastic cup",
+      "wrong": [
+        "put my smoothie a plastic cup",
+        "put my smoothie on a plastic cup"
+      ],
+      "why_ko": "put A in B(안에 넣다) 결합이라 전치사 in을 빼거나 on으로 바꾸면 안 됩니다.",
+      "rationale": "put A in B 결합. 전치사 in을 삭제하거나 on/into 등으로 바꾸는 변형이 가능",
+      "sentence_no": 8,
+      "sentence": "And can you please put my smoothie in a plastic cup, not in a glass?"
+    },
+    {
+      "tag_id": "54389d6f-f626-42f2-a6ca-d9b472b958be",
+      "point": "CONJ_PARALLEL",
+      "span_start": 218,
+      "span_end": 250,
+      "correct": "in a plastic cup, not in a glass",
+      "wrong": [
+        "in a plastic cup, not a glass in",
+        "in a plastic cup, not glass in a"
+      ],
+      "why_ko": "'A, not B'는 두 항이 같은 형태여야 해서 뒤도 「in + 명사」 순서를 지켜야 합니다.",
+      "rationale": "'A, not B' 대조 병렬. 두 항이 모두 「in + 명사구」로 같은 형태여야 함. 뒤쪽을 not a glass / not glassing 처럼 깨뜨리는 변형 가능",
+      "sentence_no": 8,
+      "sentence": "And can you please put my smoothie in a plastic cup, not in a glass?"
+    },
+    {
+      "tag_id": "51b67a2d-49c2-4554-b323-df8a0bfd76cf",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 270,
+      "span_end": 306,
+      "correct": "we don’t use single-use plastic cups",
+      "wrong": [
+        "we aren’t used single-use plastic cups",
+        "we don’t used single-use plastic cups"
+      ],
+      "why_ko": "목적어가 있는 능동태 문장이므로 don't + 동사원형 use가 맞아요.",
+      "rationale": "목적어를 가진 능동태 문장이므로 수동태(Single-use plastic cups aren’t used ~)로 전환 가능. 전환 시 be동사 수일치·과거분사 형태 오류나 by구 처리 오류를 유도",
+      "sentence_no": 9,
+      "sentence": "M: I’m sorry, but we don’t use single-use plastic cups inside the café."
+    },
+    {
+      "tag_id": "669bd12f-a84e-4ca1-a5d2-8e153dee3f16",
+      "point": "PREP_USAGE",
+      "span_start": 307,
+      "span_end": 322,
+      "correct": "inside the café",
+      "wrong": [
+        "into the café",
+        "inside of to the café"
+      ],
+      "why_ko": "'카페 안에서'라는 장소는 inside이고, into는 안으로 들어가는 이동을 뜻해 어색합니다.",
+      "rationale": "장소 전치사 inside(~ 안에서). in / into / inside 중 고르게 하거나 전치사를 삭제하는 변형이 가능",
+      "sentence_no": 9,
+      "sentence": "M: I’m sorry, but we don’t use single-use plastic cups inside the café."
+    },
+    {
+      "tag_id": "09fbaa09-6e24-415f-aa5f-b11fb4bdaab8",
+      "point": "PRON_INDEFINITE",
+      "span_start": 347,
+      "span_end": 362,
+      "correct": "Somebody forgot",
+      "wrong": [
+        "Somebody forget",
+        "Somebody have forgot"
+      ],
+      "why_ko": "somebody는 단수 취급이고 과거 일이므로 forgot이 맞습니다.",
+      "rationale": "부정대명사 somebody는 단수 취급. someone/anybody와의 구별 및 수일치(forgets/forgot) 오류 유도 가능",
+      "sentence_no": 12,
+      "sentence": "Somebody forgot to turn off the water."
+    },
+    {
+      "tag_id": "3b40f8cd-e2e2-4d27-90cc-f3ab7d28891e",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 356,
+      "span_end": 374,
+      "correct": "forgot to turn off",
+      "wrong": [
+        "forgot turn off"
+      ],
+      "why_ko": "'앞으로 할 일을 잊다'는 forget + to부정사라서 to turn off를 씁니다.",
+      "rationale": "forget + to부정사(할 일을 잊다) vs forget + -ing(했던 것을 잊다). 문맥상 '잠그는 것을 잊었다'이므로 to turn off가 맞음. forgot turning off로 바꾼 오답 유도 가능",
+      "sentence_no": 12,
+      "sentence": "Somebody forgot to turn off the water.",
+      "verify_dropped": [
+        {
+          "wrong": "forgot turning off",
+          "judgement": "ok",
+          "note_ko": "forget+동명사도 가능한 정문이며 의미만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "551c5a59-901e-4140-ab84-2ac357431a03",
+      "point": "VERB_SVA",
+      "span_start": 396,
+      "span_end": 406,
+      "correct": "People are",
+      "wrong": [
+        "People is",
+        "People was"
+      ],
+      "why_ko": "people은 복수 취급 명사라서 are를 씁니다.",
+      "rationale": "people은 복수 취급 명사이므로 are. People is로 바꾸는 수일치 오류 유도",
+      "sentence_no": 14,
+      "sentence": "People are so forgetful."
+    },
+    {
+      "tag_id": "eac6d86e-0fb9-4ea3-9f27-d2e5a46dd6f6",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 403,
+      "span_end": 419,
+      "correct": "are so forgetful",
+      "wrong": [
+        "are such forgetful",
+        "are too much forgetful"
+      ],
+      "why_ko": "뒤에 명사 없이 형용사만 오므로 such가 아니라 so를 씁니다.",
+      "rationale": "so + 형용사 구조. 뒤에 명사가 없으므로 such는 불가(such forgetful ✗). so/such 구별 출제 지점",
+      "sentence_no": 14,
+      "sentence": "People are so forgetful."
+    },
+    {
+      "tag_id": "fe4e9b84-f9c9-41c9-8dfe-2c7dc262177d",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 407,
+      "span_end": 419,
+      "correct": "so forgetful",
+      "wrong": [
+        "so forgetfully",
+        "so forgetfulness"
+      ],
+      "why_ko": "be동사의 보어 자리라서 형용사 forgetful이 와야 해요.",
+      "rationale": "be동사 보어 자리이므로 형용사 forgetful. forgetfully로 바꾸는 형용사↔부사 오류 유도",
+      "sentence_no": 14,
+      "sentence": "People are so forgetful."
+    },
+    {
+      "tag_id": "7944d09e-e1cb-4854-a1e5-bc3eb0d961b3",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 432,
+      "span_end": 443,
+      "correct": "Can you run",
+      "wrong": [
+        "Can you to run",
+        "Can you running"
+      ],
+      "why_ko": "조동사 Can 뒤에는 동사원형 run이 옵니다.",
+      "rationale": "Can you ~?는 요청 표현. 조동사 뒤 동사원형(run) 유지 여부, Can you to run 오류 유도",
+      "sentence_no": 16,
+      "sentence": "Can you run over there and turn off the water?"
+    },
+    {
+      "tag_id": "ba7b4a7f-2fc0-43ad-99a0-b73bf3078b30",
+      "point": "CONJ_PARALLEL",
+      "span_start": 432,
+      "span_end": 478,
+      "correct": "Can you run over there and turn off the water?",
+      "wrong": [
+        "Can you run over there and turns off the water?",
+        "Can you run over there and turning off the water?"
+      ],
+      "why_ko": "and로 연결된 두 동사는 모두 Can 뒤 동사원형이어야 하므로 turn이 맞습니다.",
+      "rationale": "조동사 Can 뒤 동사원형 run과 turn이 and로 병렬. turns off / turning off 로 병렬을 깨는 오류 유도",
+      "sentence_no": 16,
+      "sentence": "Can you run over there and turn off the water?"
+    },
+    {
+      "tag_id": "89145f38-5e07-4203-bdb3-f315e659dc42",
+      "point": "PREP_USAGE",
+      "span_start": 444,
+      "span_end": 454,
+      "correct": "over there",
+      "wrong": [
+        "on there"
+      ],
+      "why_ko": "'저쪽으로'라는 뜻의 굳어진 표현은 over there입니다.",
+      "rationale": "장소 부사구 over there. over를 다른 전치사(on/in)로 바꾸거나 삭제하는 오류 유도",
+      "sentence_no": 16,
+      "sentence": "Can you run over there and turn off the water?",
+      "verify_dropped": [
+        {
+          "wrong": "in there",
+          "judgement": "ok",
+          "note_ko": "run in there도 자연스러운 정문이며 의미만 달라짐."
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 23,
+    "kept": 23,
+    "given": 23,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "turn off the water",
+          "모든 오답이 실은 맞는 표현이라 버림: turn on the water(ok), turn the water(odd)"
+        ]
+      ],
+      "dropped_wrongs": 7
+    }
+  },
+  "verified": true
+}

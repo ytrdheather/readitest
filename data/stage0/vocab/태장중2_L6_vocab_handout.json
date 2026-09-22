@@ -1,0 +1,143 @@
+{
+  "school": "태장중",
+  "grade": 2,
+  "lesson": 6,
+  "unit_title": "The Greatest Love for All",
+  "source": "태장중2 L6 학습지 8쪽 (Z:/…/2026 2학기 학교 프린트 모음/태장중2 L6.pdf) — 7쪽 Worksheet 6-6 «Words and Phrases» A",
+  "source_note": "스캔 + 학생 손글씨. 영영풀이는 전부 인쇄돼 있어 그대로 옮겼다. 우리말 뜻 칸은 절반이 학생 손글씨라 인쇄된 것만 옮겼다 (ko=null 인 것은 손글씨).",
+  "read_at": "2026-09-23",
+  "read_by": "Claude (비전 판독, 인쇄 글자만)",
+  "why_best": "외부지문 「Homer B. Hulbert」 전용 어휘 16개. 학교가 쓴 영영풀이가 전부 있다 — 영영풀이 문항은 이 문장으로 낸다.",
+  "format": "단어 · 뜻 · 영영풀이 3단 표. 단어 칸과 뜻 칸이 번갈아 비어 있다 (중2 태장 L5 프린트와 같은 꼴 — vocab/README.md §1).",
+  "words": [
+    {
+      "no": 1,
+      "word": "educator",
+      "ko": "교육자",
+      "def_en": "A person who provides instruction or education, such as a teacher or administrator.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 2,
+      "word": "missionary",
+      "ko": "선교사",
+      "def_en": "A person sent on a religious mission, usually to promote Christianity in a foreign country.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 3,
+      "word": "truly",
+      "ko": null,
+      "def_en": "In a truthful, sincere, or genuine way; really.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 4,
+      "word": "royal",
+      "ko": "왕실의, 국왕의",
+      "def_en": "Related to, belonging to, or connected with a king, queen, or royal family.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 5,
+      "word": "beyond",
+      "ko": null,
+      "def_en": "Farther than, or going past the limits of a particular place, activity, or area.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 6,
+      "word": "logical",
+      "ko": "논리적인, 타당한",
+      "def_en": "Clear, sensible, and based on correct reasoning or sound judgment.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 7,
+      "word": "while",
+      "ko": null,
+      "def_en": "During the time that something else happens; whereas (used to show a contrast).",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 8,
+      "word": "praise",
+      "ko": "칭찬하다",
+      "def_en": "To express warm admiration, or commendation for someone or something.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 9,
+      "word": "promote",
+      "ko": "장려하다, 홍보하다",
+      "def_en": "To encourage the growth, development, or public awareness of something.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 10,
+      "word": "international",
+      "ko": "국제적인, 국가 간의",
+      "def_en": "Involving, existing between, or affecting two or more nations.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 11,
+      "word": "independence",
+      "ko": null,
+      "def_en": "Freedom from control, influence, or support by others or another country.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 12,
+      "word": "trusted",
+      "ko": "신뢰받는, 믿을 수 있는",
+      "def_en": "Regarded as honest, reliable, and worthy of confidence.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 13,
+      "word": "continue",
+      "ko": null,
+      "def_en": "To keep happening, existing, or doing something without stopping.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 14,
+      "word": "movement",
+      "ko": "운동(사회적·정치적)",
+      "def_en": "A series of organized activities by people working together toward a shared goal.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 15,
+      "word": "foreigner",
+      "ko": null,
+      "def_en": "A person who comes from a country other than one's own.",
+      "def_src": "학교",
+      "example_en": ""
+    },
+    {
+      "no": 16,
+      "word": "respect",
+      "ko": null,
+      "def_en": "A feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements.",
+      "def_src": "학교",
+      "example_en": ""
+    }
+  ],
+  "distribution_scope": "internal_only"
+}

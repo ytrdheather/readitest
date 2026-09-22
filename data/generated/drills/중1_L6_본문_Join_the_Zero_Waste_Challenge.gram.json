@@ -1,0 +1,380 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L6 본문 — Join the Zero-Waste Challenge",
+  "kind": "textbook_reading",
+  "parts": [
+    "중1 L6 본문 — Join the Zero-Waste Challenge"
+  ],
+  "body": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker. Do you want to save the Earth? Then, join the zero-waste challenge, and share your stories. Challenge 01 Reduce Food Waste Olivia: My birthday was last Saturday, and my family and I ate out. There were lots of leftovers, but we brought them home. The next day, I made a nice lunch out of them. FYI, you can find great cooking ideas for leftovers on the Internet. Challenge 02 Reuse Domingo: My dog tore my bag. I wanted to buy a new one, but I thought again. I learned that reusing is important for zero-waste living. So, I decided to fix it and reuse it. I’m not very good at sewing, and I don’t think that the bag looks perfect. I guess it’s all right. Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t. Instead, I walked to my favorite restaurant with a reusable container and picked up the food. I heard that plastic never goes away completely. I didn’t use any single-use plastic today. I felt good! Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house. I put them into the machine one by one, and I got some points in return. What can I do with those points? Well, I can use them like money. Don’t you think that’s cool?",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "6ee2a99b-814f-4b8c-a288-b08bf4a9137e",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 11,
+      "span_end": 35,
+      "correct": "we produce lots of waste",
+      "wrong": [
+        "lots of waste is produced by we",
+        "we are produced lots of waste"
+      ],
+      "why_ko": "우리가 쓰레기를 '만드는' 주체니까 능동태 produce가 맞고, 주어가 행동을 하는데 수동태(are produced)를 쓰면 틀립니다. by 뒤에는 목적격 us를 써야 합니다.",
+      "rationale": "목적어(lots of waste)를 가진 능동태 → 'Lots of waste is produced (by us)'로 뒤집어 by 누락이나 be동사 형태 오류를 심기 좋은 자리.",
+      "sentence_no": 1,
+      "sentence": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker."
+    },
+    {
+      "tag_id": "ffb32906-b1dd-4b8a-a4d2-d4abf429ed56",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 51,
+      "span_end": 79,
+      "correct": "is getting sicker and sicker",
+      "wrong": [
+        "is getting more sicker and sicker",
+        "is getting sick and sick",
+        "is getting sicker and sickest"
+      ],
+      "why_ko": "'점점 더 ~해지다'는 「비교급 and 비교급」이므로 sicker and sicker가 맞고, more를 덧붙이거나 원급·최상급을 섞으면 틀립니다.",
+      "rationale": "「비교급 and 비교급」= 점점 더 ~한. more sicker / sick and sick / sicker and sickest 같은 오류를 유도할 수 있는 자리. get + 비교급 보어 구조도 함께 물을 수 있다.",
+      "sentence_no": 1,
+      "sentence": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker."
+    },
+    {
+      "tag_id": "1a09e48c-2a58-4d3b-811f-ba97ceb28ef4",
+      "point": "CONJ_PARALLEL",
+      "span_start": 118,
+      "span_end": 171,
+      "correct": "join the zero-waste challenge, and share your stories",
+      "wrong": [
+        "join the zero-waste challenge, and sharing your stories",
+        "join the zero-waste challenge, and shares your stories"
+      ],
+      "why_ko": "and로 이어진 두 명령문이므로 둘 다 동사원형(join ~ share)이어야 합니다.",
+      "rationale": "명령문 두 개가 and로 병렬. share → sharing / shares 로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 3,
+      "sentence": "Then, join the zero-waste challenge, and share your stories."
+    },
+    {
+      "tag_id": "db40d498-79c1-48cb-8109-cf0f79de3414",
+      "point": "VERB_SVA",
+      "span_start": 272,
+      "span_end": 300,
+      "correct": "There were lots of leftovers",
+      "wrong": [
+        "There was lots of leftovers",
+        "There is lots of leftovers"
+      ],
+      "why_ko": "There be 구문은 뒤의 명사에 수를 맞추는데 leftovers가 복수이고 과거 이야기이므로 were가 맞습니다.",
+      "rationale": "There + be 구문은 뒤의 명사(lots of leftovers, 복수)에 수를 맞춘다. was / is 로 바꾸는 수일치 오류 유도 자리.",
+      "sentence_no": 5,
+      "sentence": "There were lots of leftovers, but we brought them home."
+    },
+    {
+      "tag_id": "3c8711a4-798d-44ab-95f2-44d241bd78d2",
+      "point": "PREP_USAGE",
+      "span_start": 362,
+      "span_end": 373,
+      "correct": "out of them",
+      "wrong": [
+        "of them",
+        "with out them"
+      ],
+      "why_ko": "'~로(재료로) 만들다'는 make A out of B이므로 out of를 그대로 써야 합니다.",
+      "rationale": "make A out of B(재료) 의미의 전치사구. of / from / with 중 고르게 하거나 out을 삭제하는 변형이 가능.",
+      "sentence_no": 6,
+      "sentence": "The next day, I made a nice lunch out of them."
+    },
+    {
+      "tag_id": "a601f60a-d979-49a5-a0a7-08315e79b626",
+      "point": "PREP_USAGE",
+      "span_start": 427,
+      "span_end": 442,
+      "correct": "on the Internet",
+      "wrong": [
+        "in the Internet",
+        "at the Internet"
+      ],
+      "why_ko": "인터넷 상에서는 관용적으로 on the Internet을 씁니다.",
+      "rationale": "인터넷 상에서 = on the Internet. in / at 으로 바꾸거나 전치사를 삭제하는 빈칸 출제 단골 자리.",
+      "sentence_no": 7,
+      "sentence": "FYI, you can find great cooking ideas for leftovers on the Internet."
+    },
+    {
+      "tag_id": "1293e58a-0126-4885-ac4d-47bd0ad2f86b",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 472,
+      "span_end": 490,
+      "correct": "My dog tore my bag",
+      "wrong": [
+        "My bag was torn my dog",
+        "My dog was torn my bag"
+      ],
+      "why_ko": "개가 가방을 찢은 것이므로 능동태 tore가 맞고, 수동태로 쓰려면 by가 반드시 필요합니다.",
+      "rationale": "목적어가 있는 능동태 → 'My bag was torn by my dog'로 전환 출제 가능. was tearing / was torn my dog(by 누락) 오류 유도.",
+      "sentence_no": 8,
+      "sentence": "Challenge 02 Reuse Domingo: My dog tore my bag."
+    },
+    {
+      "tag_id": "54d3d9b0-9947-40d1-8c7d-eb3fe186389d",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 494,
+      "span_end": 507,
+      "correct": "wanted to buy",
+      "wrong": [
+        "wanted buying",
+        "wanted buy"
+      ],
+      "why_ko": "want는 to부정사를 목적어로 취하므로 to buy가 맞습니다.",
+      "rationale": "want는 to부정사를 목적어로 취한다. wanted buying 으로 바꾸는 오류 유도.",
+      "sentence_no": 9,
+      "sentence": "I wanted to buy a new one, but I thought again."
+    },
+    {
+      "tag_id": "aee5e6b4-8035-40e1-aee4-e35264eeffa8",
+      "point": "PRON_INDEFINITE",
+      "span_start": 508,
+      "span_end": 517,
+      "correct": "a new one",
+      "wrong": [
+        "a new it",
+        "a new ones"
+      ],
+      "why_ko": "앞에 나온 bag과 같은 종류의 '아무거나 하나'를 가리키므로 부정대명사 one이 맞고, it(그것 자체)이나 복수 ones는 안 됩니다.",
+      "rationale": "앞에 나온 bag과 같은 종류의 불특정 하나를 가리키는 부정대명사 one. it / ones 와의 구별을 묻기 좋다.",
+      "sentence_no": 9,
+      "sentence": "I wanted to buy a new one, but I thought again."
+    },
+    {
+      "tag_id": "5c8f7aee-0c5d-4c90-8530-52d7fd009534",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 542,
+      "span_end": 575,
+      "correct": "learned that reusing is important",
+      "wrong": [
+        "learned what reusing is important",
+        "learned which reusing is important"
+      ],
+      "why_ko": "뒤에 빠진 성분 없는 완전한 절이 오므로 명사절 접속사 that을 써야 하고 what/which는 쓸 수 없습니다.",
+      "rationale": "learn의 목적어 역할을 하는 명사절 접속사 that. what / which 로 바꾸는 오류(뒤 절이 완전하므로 what 불가) 유도 자리.",
+      "sentence_no": 10,
+      "sentence": "I learned that reusing is important for zero-waste living."
+    },
+    {
+      "tag_id": "0942fdb3-f9fb-489f-ad33-2c1bbe5fe13d",
+      "point": "VERB_SVA",
+      "span_start": 555,
+      "span_end": 575,
+      "correct": "reusing is important",
+      "wrong": [
+        "reusing are important",
+        "reusing be important"
+      ],
+      "why_ko": "동명사 주어는 단수 취급하므로 is가 맞습니다.",
+      "rationale": "동명사 주어는 단수 취급 → is. reusing are / reuse is 처럼 수·형태 오류를 심을 수 있다.",
+      "sentence_no": 10,
+      "sentence": "I learned that reusing is important for zero-waste living."
+    },
+    {
+      "tag_id": "73c6ca2b-bb5e-40fd-9de5-b0ea69a17d32",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 605,
+      "span_end": 622,
+      "correct": "decided to fix it",
+      "wrong": [
+        "decided fixing it",
+        "decided fix it"
+      ],
+      "why_ko": "decide는 to부정사만 목적어로 취하므로 to fix가 맞습니다.",
+      "rationale": "decide는 to부정사만 목적어로 취한다. decided fixing 오류 유도(EI_VERB_COMPLEMENT).",
+      "sentence_no": 11,
+      "sentence": "So, I decided to fix it and reuse it."
+    },
+    {
+      "tag_id": "b400810c-bfbf-49af-a21a-97f561f83842",
+      "point": "CONJ_PARALLEL",
+      "span_start": 616,
+      "span_end": 635,
+      "correct": "fix it and reuse it",
+      "wrong": [
+        "fix it and reusing it",
+        "fix it and reused it"
+      ],
+      "why_ko": "to fix와 (to) reuse가 and로 병렬되므로 뒤도 동사원형 reuse여야 합니다.",
+      "rationale": "to fix ~ and (to) reuse ~ 의 원형 병렬. reusing / reused 로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 11,
+      "sentence": "So, I decided to fix it and reuse it."
+    },
+    {
+      "tag_id": "9c05f0fd-9473-4033-9cbc-bcf6adad41d6",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 650,
+      "span_end": 664,
+      "correct": "good at sewing",
+      "wrong": [
+        "good at sew",
+        "good at to sew",
+        "good sewing"
+      ],
+      "why_ko": "be good at은 전치사 at 뒤에 동명사가 오므로 at sewing이 맞습니다.",
+      "rationale": "be good at + 동명사로 굳어진 결합. at to sew / at sew 로 바꾸거나 at을 삭제하는 오류 유도.",
+      "sentence_no": 12,
+      "sentence": "I’m not very good at sewing, and I don’t think that the bag looks perfect."
+    },
+    {
+      "tag_id": "1c71014e-3ddf-45f6-8194-f52383d7bb2e",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 689,
+      "span_end": 710,
+      "correct": "the bag looks perfect",
+      "wrong": [
+        "the bag looks perfectly",
+        "the bag looks to be perfectly"
+      ],
+      "why_ko": "감각동사 look 뒤에는 형용사 보어가 오므로 perfect가 맞습니다.",
+      "rationale": "감각동사 look 뒤에는 형용사 보어. looks perfectly 로 바꾸는 부사 오류 유도.",
+      "sentence_no": 12,
+      "sentence": "I’m not very good at sewing, and I don’t think that the bag looks perfect."
+    },
+    {
+      "tag_id": "3115f9d8-59d9-47f0-8db4-9ff251278c80",
+      "point": "VERB_TENSE",
+      "span_start": 784,
+      "span_end": 838,
+      "correct": "I often use food delivery services, but today I didn’t",
+      "wrong": [
+        "I often use food delivery services, but today I don’t",
+        "I often used food delivery services, but today I didn’t used"
+      ],
+      "why_ko": "평소 습관은 현재시제 use, 오늘 일은 과거이므로 대동사 didn't가 맞습니다.",
+      "rationale": "습관(현재시제) vs 오늘 사실(과거 대동사 didn't)의 시제 대조. don't / didn't used 등의 시제 오류 유도.",
+      "sentence_no": 14,
+      "sentence": "Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t."
+    },
+    {
+      "tag_id": "819b1585-a98d-4a07-a258-7ff1324b86cb",
+      "point": "PREP_USAGE",
+      "span_start": 884,
+      "span_end": 909,
+      "correct": "with a reusable container",
+      "wrong": [
+        "by a reusable container",
+        "in a reusable container"
+      ],
+      "why_ko": "용기를 '가지고' 갔다는 소지의 뜻이므로 with를 씁니다.",
+      "rationale": "휴대·소지·수단을 나타내는 with. by / in 으로 교체하거나 전치사를 삭제하는 빈칸 자리.",
+      "sentence_no": 15,
+      "sentence": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food."
+    },
+    {
+      "tag_id": "1d6dd57b-1f49-4532-b3e3-353169870a2b",
+      "point": "CONJ_PARALLEL",
+      "span_start": 900,
+      "span_end": 932,
+      "correct": "container and picked up the food",
+      "wrong": [
+        "container and picking up the food",
+        "container and picks up the food"
+      ],
+      "why_ko": "walked와 and로 병렬되므로 같은 과거형 picked up이어야 합니다.",
+      "rationale": "walked ~ and picked up ~ 의 과거동사 병렬. picking up / picks up 으로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 15,
+      "sentence": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food."
+    },
+    {
+      "tag_id": "12c3cdc6-c23a-4d8e-8109-28df58f613e3",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 936,
+      "span_end": 981,
+      "correct": "heard that plastic never goes away completely",
+      "wrong": [
+        "heard what plastic never goes away completely",
+        "heard which plastic never goes away completely"
+      ],
+      "why_ko": "뒤 절이 완전하므로 접속사 that이 맞고, 명사 역할이 빠진 what은 쓸 수 없습니다.",
+      "rationale": "hear의 목적어절을 이끄는 접속사 that(생략 가능). what 으로 바꾸면 뒤 절이 완전하므로 오류.",
+      "sentence_no": 16,
+      "sentence": "I heard that plastic never goes away completely."
+    },
+    {
+      "tag_id": "2032031f-3091-4f6b-9d17-dd0212b1de67",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 947,
+      "span_end": 970,
+      "correct": "plastic never goes away",
+      "wrong": [
+        "plastic is never gone away",
+        "plastic never is went away"
+      ],
+      "why_ko": "go away는 목적어가 없는 자동사여서 수동태로 쓸 수 없습니다.",
+      "rationale": "go away는 목적어를 갖지 않는 자동사라 수동태 불가. is gone away / is never went away 같은 자동사 수동태 함정 선지를 만들기 좋은 자리.",
+      "sentence_no": 16,
+      "sentence": "I heard that plastic never goes away completely."
+    },
+    {
+      "tag_id": "d842b353-89df-41ef-9cbe-14888db6d20c",
+      "point": "PRON_INDEFINITE",
+      "span_start": 996,
+      "span_end": 1018,
+      "correct": "any single-use plastic",
+      "wrong": [
+        "some single-use plastic",
+        "many single-use plastic"
+      ],
+      "why_ko": "부정문(didn't)에서는 some이 아니라 any를 씁니다.",
+      "rationale": "부정문에서는 some이 아니라 any. didn't use some ~ 오류 유도 자리.",
+      "sentence_no": 17,
+      "sentence": "I didn’t use any single-use plastic today."
+    },
+    {
+      "tag_id": "3c41e8ec-dab4-4db7-9d0d-d1cd633ecccd",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 1026,
+      "span_end": 1037,
+      "correct": "I felt good",
+      "wrong": [
+        "I felt nicely",
+        "I felt goodly"
+      ],
+      "why_ko": "감각동사 feel 뒤에는 형용사 보어가 오므로 good이 맞고 부사는 올 수 없습니다.",
+      "rationale": "감각동사 feel + 형용사 보어. felt well / felt nicely 같은 부사 오류와 구별.",
+      "sentence_no": 18,
+      "sentence": "I felt good!"
+    },
+    {
+      "tag_id": "22d28e11-5271-4fc3-aa85-127976d1d045",
+      "point": "PREP_USAGE",
+      "span_start": 1108,
+      "span_end": 1138,
+      "correct": "bottles to a recycling machine",
+      "wrong": [
+        "bottles in a recycling machine",
+        "bottles at a recycling machine"
+      ],
+      "why_ko": "take A to B(어디로 가져가다)의 방향 전치사 to가 맞습니다.",
+      "rationale": "take A to B(장소로 가져가다)의 방향 전치사 to. in / into / at 으로 바꾸거나 삭제하는 빈칸 자리.",
+      "sentence_no": 19,
+      "sentence": "Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house."
+    },
+    {
+      "tag_id": "ad1777fc-a7f7-42bd-a619-879a0ebeb4a2",
+      "point": "PREP_USAGE",
+      "span_start": 1165,
+      "span_end": 1181,
+      "correct": "into the machine",
+      "wrong": [
+        "on the machine",
+        "to the machine"
+      ],
+      "why_ko": "put A into B는 '안으로 넣다'는 뜻이므로 into가 맞습니다.",
+      "rationale": "put A into B(안으로 넣다)의 방향 전치사. in / on / to 와 구별시키는 출제 가능.",
+      "sentence_no": 20,
+      "sentence": "I put them into the machine one by one, and I got some points in return."
+    }
+  ],
+  "diagnostics": {
+    "returned": 24,
+    "kept": 24,
+    "given": 24,
+    "rejects": []
+  }
+}

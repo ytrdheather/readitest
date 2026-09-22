@@ -1,0 +1,199 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L6 대화 ⑦⑧",
+  "parts": [
+    "중1 L6 대화-7",
+    "중1 L6 대화-8"
+  ],
+  "passage_ids": [
+    "2bf9bf80-79cd-4c4e-b229-c72a0ca01bb6",
+    "0c13d4e7-ca44-400a-b775-7142c515f9a9"
+  ],
+  "para_breaks": [
+    4,
+    11
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    9,
+    11
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "G: I’d like a banana smoothie, please.",
+    "M: For here or to go?",
+    "G: For here, please.",
+    "And can you please put it in a plastic cup, not in a glass?",
+    "G: I’m so hungry, but there’s no food at home.",
+    "B: I know.",
+    "Let’s eat out.",
+    "G: I’m sorry, but I don’t want to go out now.",
+    "Can you please go to a restaurant and pick up some food?",
+    "B: Sure.",
+    "No problem."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "소녀는 바나나 스무디를 주문했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "소녀가 바나나 스무디를 달라고 말했다.",
+      "_evidence_text": [
+        "G: I’d like a banana smoothie, please."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 여기서 먹을 것인지 가져갈 것인지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "'For here or to go?'라고 물었다.",
+      "_evidence_text": [
+        "M: For here or to go?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 음료를 가지고 나가겠다고 답했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "소녀는 'For here'라고 하여 매장에서 먹겠다고 했다.",
+      "_evidence_text": [
+        "G: For here, please."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 음료를 유리컵에 담아 달라고 부탁했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "유리컵이 아니라 플라스틱 컵에 담아 달라고 했다.",
+      "_evidence_text": [
+        "And can you please put it in a plastic cup, not in a glass?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 배가 고픈데 집에 먹을 것이 없다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "배고프지만 집에 음식이 없다고 말했다.",
+      "_evidence_text": [
+        "G: I’m so hungry, but there’s no food at home."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 집에 음식이 없다는 사실을 전혀 모르고 있었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "소년은 'I know.'라고 하며 이미 알고 있음을 나타냈다.",
+      "_evidence_text": [
+        "B: I know."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 밖에 나가서 먹자고 제안했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "'Let's eat out.'이라고 제안했다.",
+      "_evidence_text": [
+        "Let’s eat out."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 지금 밖에 나가고 싶어 하지 않는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "미안하지만 지금은 나가고 싶지 않다고 했다.",
+      "_evidence_text": [
+        "G: I’m sorry, but I don’t want to go out now."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소녀는 소년에게 식당에 가서 음식을 받아 와 달라고 부탁했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "식당에 가서 음식을 픽업해 달라고 부탁했다.",
+      "_evidence_text": [
+        "Can you please go to a restaurant and pick up some food?"
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 소녀의 부탁을 거절했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "소년은 'Sure.'라고 하며 부탁을 받아들였다.",
+      "_evidence_text": [
+        "B: Sure."
+      ],
+      "_repeat": false
+    },
+    {
+      "type": "content",
+      "statement_ko": "소년은 문제없다고 말하며 흔쾌히 응했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "'No problem.'이라고 답했다.",
+      "_evidence_text": [
+        "No problem."
+      ],
+      "_repeat": false
+    }
+  ],
+  "diagnostics": {
+    "returned": 11,
+    "kept": 11,
+    "by_type": {
+      "content": 11
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 7,
+      "X": 4
+    },
+    "sentences_covered": 11,
+    "sentence_count": 11,
+    "repeated": 0
+  }
+}

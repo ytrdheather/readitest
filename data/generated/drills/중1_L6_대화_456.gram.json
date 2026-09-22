@@ -1,0 +1,425 @@
+{
+  "book": "동아 윤정미",
+  "unit": "중1 L6 대화 ④⑤⑥",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L6 대화-4",
+    "중1 L6 대화-5",
+    "중1 L6 대화-6"
+  ],
+  "body": "M: Can you please carry this box to my car?\nG: I’m really sorry, Dad, but I’m late for my class.\nM: Oh, I see. I’ll ask somebody else.\nB: Hi, Yuna. What are you doing here?\nG: Hi, Alex. I’m plogging with my club members.\nB: Excuse me?\nG: Plogging. It means jogging and picking up trash at the same time.\nB: Sounds cool! So you’re a member of a plogging club.\nG: Yes. We plog together every Saturday morning from 10 to 12. Interested?\nB: Well, I’ll think about it.\nG: OK. By the way, can you please help me with this trash bag? It’s heavy.\nB: Sure. No problem.\nG: Dad, can you please fix my bag?\nM: Now? I’m cooking dinner.\nG: Oh, I see. Then, when can you fix it?\nM: I’ll do it right after dinner.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "c82baf93-be0a-44f4-963e-c77ea0ec84e5",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 3,
+      "span_end": 23,
+      "correct": "Can you please carry",
+      "wrong": [
+        "Can you please carrying",
+        "Can you please to carry"
+      ],
+      "why_ko": "조동사 can 뒤에는 반드시 동사원형(carry)이 와야 해요.",
+      "rationale": "요청을 나타내는 조동사 Can 뒤에는 반드시 동사원형이 온다. carrying / carried / to carry 로 바꾼 오답을 유도할 수 있는 자리.",
+      "sentence_no": 1,
+      "sentence": "M: Can you please carry this box to my car?"
+    },
+    {
+      "tag_id": "e2db2d7f-9fb7-441b-abab-4272f16fff64",
+      "point": "PREP_USAGE",
+      "span_start": 18,
+      "span_end": 42,
+      "correct": "carry this box to my car",
+      "wrong": [
+        "carry this box at my car",
+        "carry this box my car"
+      ],
+      "why_ko": "'~로 옮기다'처럼 도착점을 말할 때는 방향 전치사 to를 써요.",
+      "rationale": "'~로(방향·도착점)'를 나타내는 전치사 to. at / in / for 로 교체하거나 전치사를 삭제하는(carry this box my car) 오류를 심기 쉬운 자리.",
+      "sentence_no": 1,
+      "sentence": "M: Can you please carry this box to my car?"
+    },
+    {
+      "tag_id": "38dce96e-9d39-4849-903e-baa931ece957",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 51,
+      "span_end": 63,
+      "correct": "really sorry",
+      "wrong": [
+        "real sorry",
+        "realy sorry"
+      ],
+      "why_ko": "형용사 sorry를 꾸미는 자리에는 부사 really가 필요해요.",
+      "rationale": "형용사 sorry를 수식하는 것은 부사 really. real sorry 처럼 형용사로 바꾼 오답 선지가 전형적으로 출제된다.",
+      "sentence_no": 2,
+      "sentence": "G: I’m really sorry, Dad, but I’m late for my class."
+    },
+    {
+      "tag_id": "faffcb12-7036-4232-8b0f-a18af1131349",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 78,
+      "span_end": 95,
+      "correct": "late for my class",
+      "wrong": [
+        "late to my class",
+        "late at my class"
+      ],
+      "why_ko": "'~에 늦다'는 be late for로 고정된 표현이에요.",
+      "rationale": "be late for(~에 늦다)는 고정 전치사 for. late to / late of / late at 로 바꾼 오답 유도가 가능한 빈출 숙어.",
+      "sentence_no": 2,
+      "sentence": "G: I’m really sorry, Dad, but I’m late for my class."
+    },
+    {
+      "tag_id": "516d7bfc-b439-4a95-9425-244583b762b3",
+      "point": "VERB_TENSE",
+      "span_start": 111,
+      "span_end": 119,
+      "correct": "I’ll ask",
+      "wrong": [
+        "I asked",
+        "I’m asking"
+      ],
+      "why_ko": "지금 막 정한 미래의 행동이라 will을 써요.",
+      "rationale": "거절을 들은 직후의 즉석 결정이므로 will을 쓴다. asked(과거)나 am asking 으로 바꾼 시제 오류를 심을 수 있다.",
+      "sentence_no": 4,
+      "sentence": "I’ll ask somebody else."
+    },
+    {
+      "tag_id": "ead7b23e-d6af-49e6-9736-7ce8607f67bd",
+      "point": "PRON_INDEFINITE",
+      "span_start": 120,
+      "span_end": 133,
+      "correct": "somebody else",
+      "wrong": [
+        "else somebody",
+        "anybody else"
+      ],
+      "why_ko": "else는 somebody 뒤에 오고, 긍정문이라 somebody가 맞아요.",
+      "rationale": "부정대명사 somebody는 else의 수식을 뒤에서 받는다(후치). else somebody 어순 오류나 부정문이 아닌데 anybody를 쓰는 오답을 유도할 수 있다.",
+      "sentence_no": 4,
+      "sentence": "I’ll ask somebody else."
+    },
+    {
+      "tag_id": "ad49491b-86fc-4984-bb36-bc22777b94bf",
+      "point": "VERB_TENSE",
+      "span_start": 153,
+      "span_end": 166,
+      "correct": "are you doing",
+      "wrong": [
+        "do you do",
+        "are you do"
+      ],
+      "why_ko": "지금 하고 있는 일을 묻는 현재진행형은 be동사+-ing예요.",
+      "rationale": "현재 눈앞의 동작을 묻는 현재진행형(be+-ing). do you do / are you do 같은 형태 오류를 유도할 수 있다.",
+      "sentence_no": 6,
+      "sentence": "What are you doing here?"
+    },
+    {
+      "tag_id": "d4db44b0-03f1-4648-8b46-e16e695611f9",
+      "point": "VERB_TENSE",
+      "span_start": 186,
+      "span_end": 198,
+      "correct": "I’m plogging",
+      "wrong": [
+        "I plog",
+        "I plogged"
+      ],
+      "why_ko": "지금 하는 중이라는 답이므로 현재진행형으로 맞춰요.",
+      "rationale": "질문(현재진행)에 대응하는 현재진행 응답. I plog / I plogged 로 바꿔 시제 일치를 묻기 쉽다.",
+      "sentence_no": 8,
+      "sentence": "I’m plogging with my club members."
+    },
+    {
+      "tag_id": "ac1467dd-37fe-42c6-8bb2-ad2647ee8202",
+      "point": "PREP_USAGE",
+      "span_start": 199,
+      "span_end": 219,
+      "correct": "with my club members",
+      "wrong": [
+        "by my club members",
+        "for my club members"
+      ],
+      "why_ko": "'~와 함께'라는 동반의 뜻은 with로 나타내요.",
+      "rationale": "'~와 함께'를 뜻하는 동반의 with. by / for 로 바꾼 선지를 만들거나 빈칸으로 뚫기 쉬운 자리.",
+      "sentence_no": 8,
+      "sentence": "I’m plogging with my club members."
+    },
+    {
+      "tag_id": "8b664baa-d126-43fe-ba07-50982264367d",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 251,
+      "span_end": 264,
+      "correct": "means jogging",
+      "wrong": [
+        "means to jog",
+        "means jog"
+      ],
+      "why_ko": "'~을 뜻하다'의 mean은 목적어로 동명사를 써요.",
+      "rationale": "'~을 뜻하다'의 mean은 목적어로 동명사를 취한다. to jog 로 바꾼 오답 선지가 전형적.",
+      "sentence_no": 11,
+      "sentence": "It means jogging and picking up trash at the same time."
+    },
+    {
+      "tag_id": "543c1295-6348-48c2-bc28-a75053a10dbb",
+      "point": "CONJ_PARALLEL",
+      "span_start": 257,
+      "span_end": 285,
+      "correct": "jogging and picking up trash",
+      "wrong": [
+        "jogging and picks up trash",
+        "jogging and to pick up trash"
+      ],
+      "why_ko": "and로 이어지는 두 말은 같은 형태(동명사)여야 해요.",
+      "rationale": "and로 연결된 두 동명사의 병렬. picks up / to pick up 으로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 11,
+      "sentence": "It means jogging and picking up trash at the same time."
+    },
+    {
+      "tag_id": "a0ff98ad-ffcb-401c-8b31-06b35a75cb5f",
+      "point": "PREP_USAGE",
+      "span_start": 286,
+      "span_end": 302,
+      "correct": "at the same time",
+      "wrong": [
+        "in the same time",
+        "on the same time"
+      ],
+      "why_ko": "'동시에'는 at the same time으로 굳어진 표현이에요.",
+      "rationale": "'동시에'라는 굳어진 부사구. 통째로 외워져 전치사가 눈에 안 들어오지만 [at/in/on] the same time 형태로 빈칸 출제 1순위.",
+      "sentence_no": 11,
+      "sentence": "It means jogging and picking up trash at the same time."
+    },
+    {
+      "tag_id": "387df112-d3f5-4090-9c39-10c38a0c83ad",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 307,
+      "span_end": 318,
+      "correct": "Sounds cool",
+      "wrong": [
+        "Sounds coolly",
+        "Sounds to be cool"
+      ],
+      "why_ko": "감각동사 sound 뒤에는 부사가 아니라 형용사 보어가 와요.",
+      "rationale": "감각동사 sound 뒤에는 형용사 보어. coolly 같은 부사로 바꾼 오답이 대표적.",
+      "sentence_no": 12,
+      "sentence": "B: Sounds cool!"
+    },
+    {
+      "tag_id": "a1b6fa32-59d4-4104-a54d-ab827520eced",
+      "point": "PREP_USAGE",
+      "span_start": 330,
+      "span_end": 357,
+      "correct": "a member of a plogging club",
+      "wrong": [
+        "a member in a plogging club",
+        "a member for a plogging club"
+      ],
+      "why_ko": "'~의 회원'은 a member of로 써요.",
+      "rationale": "소속을 나타내는 'a member of ~'. in / for 로 바꾼 선지를 만들 수 있다.",
+      "sentence_no": 13,
+      "sentence": "So you’re a member of a plogging club."
+    },
+    {
+      "tag_id": "5211c0c7-f404-4573-a766-7f115b615bed",
+      "point": "PREP_USAGE",
+      "span_start": 407,
+      "span_end": 420,
+      "correct": "from 10 to 12",
+      "wrong": [
+        "from 10 at 12",
+        "from 10 until to 12"
+      ],
+      "why_ko": "시간 범위는 from A to B 짝으로 써요.",
+      "rationale": "시간 범위 from A to B. to 대신 until/at 을 넣거나 전치사를 빼는 오답을 만들기 쉽다.",
+      "sentence_no": 15,
+      "sentence": "We plog together every Saturday morning from 10 to 12."
+    },
+    {
+      "tag_id": "964a6d52-a98d-4d4a-acdf-4be7d6e8e1d1",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 422,
+      "span_end": 433,
+      "correct": "Interested?",
+      "wrong": [
+        "Interesting?",
+        "Interest?"
+      ],
+      "why_ko": "사람이 관심을 느끼는 것이므로 과거분사형 interested를 써요.",
+      "rationale": "Are you interested?의 생략형. 감정동사는 사람 주어일 때 과거분사형(be interested)을 쓰므로 interesting 과 구별시키는 출제 지점.",
+      "sentence_no": 16,
+      "sentence": "Interested?"
+    },
+    {
+      "tag_id": "b36f6dda-80be-4d3a-aa27-4c2b61f69bcd",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 448,
+      "span_end": 462,
+      "correct": "think about it",
+      "wrong": [
+        "think it",
+        "think of about it"
+      ],
+      "why_ko": "'~에 대해 생각하다'는 think about으로 전치사가 필요해요.",
+      "rationale": "think about(~에 대해 생각하다)의 고정 결합. about 삭제나 think it 로 바꾼 오답 유도 가능.",
+      "sentence_no": 17,
+      "sentence": "B: Well, I’ll think about it."
+    },
+    {
+      "tag_id": "65911ca7-bc2b-4a96-bc11-c81cc089bc61",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 483,
+      "span_end": 497,
+      "correct": "can you please",
+      "wrong": [
+        "can you please helping",
+        "can you to please"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형이 이어져야 해요.",
+      "rationale": "요청을 나타내는 조동사 can + 동사원형. can you helping / can you to help 같은 형태 오류를 심을 수 있다.",
+      "sentence_no": 19,
+      "sentence": "By the way, can you please help me with this trash bag?"
+    },
+    {
+      "tag_id": "dcaccc47-5bd1-476f-9963-65d67345b96a",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 498,
+      "span_end": 525,
+      "correct": "help me with this trash bag",
+      "wrong": [
+        "help me for this trash bag",
+        "help me this trash bag"
+      ],
+      "why_ko": "help A with B 구문이라 with가 꼭 필요해요.",
+      "rationale": "help A with B 구문. with 를 for/about 로 바꾸거나 삭제하는 것이 전형적 오답.",
+      "sentence_no": 19,
+      "sentence": "By the way, can you please help me with this trash bag?"
+    },
+    {
+      "tag_id": "949de348-cc11-4a00-9a2d-001142a67f58",
+      "point": "PRON_AGREEMENT",
+      "span_start": 527,
+      "span_end": 537,
+      "correct": "It’s heavy",
+      "wrong": [
+        "Its heavy",
+        "It heavy"
+      ],
+      "why_ko": "It's는 It is의 줄임말이고, its는 소유격이라 여기선 안 돼요.",
+      "rationale": "It's(=It is)와 소유격 its 의 구별. Its heavy 로 바꾼 오답이 단골.",
+      "sentence_no": 20,
+      "sentence": "It’s heavy."
+    },
+    {
+      "tag_id": "a62e39cc-a9ef-44c5-819b-8cafc5580d1c",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 568,
+      "span_end": 594,
+      "correct": "can you please fix my bag?",
+      "wrong": [
+        "can you please to fix my bag?",
+        "can you please fixing my bag?"
+      ],
+      "why_ko": "can 다음에는 동사원형 fix가 와야 해요.",
+      "rationale": "조동사 can을 이용한 요청 표현. can you fix / can you to fix / can you fixing 등 조동사 뒤 동사원형 오류를 유도할 수 있다.",
+      "sentence_no": 23,
+      "sentence": "G: Dad, can you please fix my bag?"
+    },
+    {
+      "tag_id": "d33306d2-d9e5-433f-a5bd-8e996a3c46c8",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 583,
+      "span_end": 593,
+      "correct": "fix my bag",
+      "wrong": [
+        "be fixed my bag",
+        "fixed my bag"
+      ],
+      "why_ko": "목적어 my bag이 뒤에 있으므로 능동형 동사원형 fix를 써요.",
+      "rationale": "목적어 my bag을 갖는 타동사 fix. can my bag be fixed 형태로 수동 전환이 가능해, be fixing / fixed by 누락 등의 오류를 심을 수 있다.",
+      "sentence_no": 23,
+      "sentence": "G: Dad, can you please fix my bag?"
+    },
+    {
+      "tag_id": "f2eecd75-154c-4a4e-96bf-c62485139ec4",
+      "point": "VERB_TENSE",
+      "span_start": 603,
+      "span_end": 621,
+      "correct": "I’m cooking dinner",
+      "wrong": [
+        "I cook dinner",
+        "I cooked dinner"
+      ],
+      "why_ko": "지금 하고 있는 일이라 현재진행형으로 말해요.",
+      "rationale": "지금 하고 있는 일을 나타내는 현재진행형. I cook / I cooked 로 바꾸면 '지금 바쁘다'는 거절 이유와 어긋난다.",
+      "sentence_no": 25,
+      "sentence": "I’m cooking dinner."
+    },
+    {
+      "tag_id": "042dc854-b61b-4810-839b-cd78e22d744a",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 643,
+      "span_end": 663,
+      "correct": "when can you fix it?",
+      "wrong": [
+        "when you can fix it?",
+        "when can you fixing it?"
+      ],
+      "why_ko": "의문문이므로 when + can + 주어 + 동사원형 어순이에요.",
+      "rationale": "의문사 when + 조동사 can + 주어 + 동사원형의 어순. when you can fix it / when can you fixing it 같은 어순·형태 오류를 유도할 수 있다.",
+      "sentence_no": 27,
+      "sentence": "Then, when can you fix it?"
+    },
+    {
+      "tag_id": "2cb7d436-b6e8-462a-abad-377e8daa6b42",
+      "point": "PRON_AGREEMENT",
+      "span_start": 656,
+      "span_end": 662,
+      "correct": "fix it",
+      "wrong": [
+        "fix them",
+        "fix one"
+      ],
+      "why_ko": "앞의 my bag(단수)을 가리키므로 it이 맞아요.",
+      "rationale": "it이 앞 문장의 my bag을 받는 대명사. them / one 등으로 바꾸면 수·지시 대상이 어긋난다.",
+      "sentence_no": 27,
+      "sentence": "Then, when can you fix it?"
+    },
+    {
+      "tag_id": "fe3e9c87-4346-420e-a5fa-fbb731ec9146",
+      "point": "VERB_TENSE",
+      "span_start": 667,
+      "span_end": 696,
+      "correct": "I’ll do it right after dinner",
+      "wrong": [
+        "I do it right after dinner",
+        "I did it right after dinner"
+      ],
+      "why_ko": "저녁 후에 하겠다는 미래의 약속이라 will을 써요.",
+      "rationale": "미래 의지를 나타내는 will. I do / I did 로 바꾸면 '저녁 후에 하겠다'는 미래 약속이 성립하지 않는다.",
+      "sentence_no": 28,
+      "sentence": "M: I’ll do it right after dinner."
+    },
+    {
+      "tag_id": "50d569be-19d4-47b3-9d73-3c58875cea21",
+      "point": "PREP_USAGE",
+      "span_start": 684,
+      "span_end": 696,
+      "correct": "after dinner",
+      "wrong": [
+        "before dinner",
+        "during dinner"
+      ],
+      "why_ko": "지금 요리 중이니 저녁을 먹은 '뒤'라는 after가 맞아요.",
+      "rationale": "시간 전치사 after. before / during 으로 바꾸면 대화 흐름(저녁 요리 중 → 저녁 후)과 모순된다. 전치사 삭제 유도도 가능.",
+      "sentence_no": 28,
+      "sentence": "M: I’ll do it right after dinner."
+    }
+  ],
+  "diagnostics": {
+    "returned": 27,
+    "kept": 27,
+    "given": 27,
+    "rejects": []
+  }
+}

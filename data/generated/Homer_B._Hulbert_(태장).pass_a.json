@@ -1,0 +1,857 @@
+{
+  "passage_id": "1011ae43-4de0-427e-8cbd-f96376d08ada",
+  "body_text_sha256": "38c718cdf1c8add669f40d6eb4d399809dc72a9c8221c8be53747503fe4479db",
+  "tags": [
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 66,
+      "span_end": 84,
+      "surface": "who truly believed",
+      "sentence_no": 1,
+      "rationale": "선행사가 사람(educator, writer, missionary)이고 관계절 안에 주어가 없으므로 주격 관계대명사 who. which/whom/where 로 바꾼 선지를 만들 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_REL_ANTECEDENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 21,
+      "span_end": 65,
+      "surface": "an American educator, writer, and missionary",
+      "sentence_no": 1,
+      "rationale": "and 로 연결된 세 명사의 병렬. 한 자리를 to be a missionary / missionary work 처럼 형태를 달리해 병렬을 깨는 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 132,
+      "span_end": 149,
+      "surface": "in the late 1800s",
+      "sentence_no": 2,
+      "rationale": "연대(세기·연도대) 앞의 시간 전치사 in. on/at 으로 바꾼 빈칸 선지가 자주 출제된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 150,
+      "span_end": 176,
+      "surface": "to teach at a royal school",
+      "sentence_no": 2,
+      "rationale": "'가르치기 위해'라는 목적을 나타내는 부사적 용법의 to부정사. for teaching / teaching 으로 바꾼 오류 유도가 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 234,
+      "span_end": 246,
+      "surface": "noticed that",
+      "sentence_no": 3,
+      "rationale": "notice 의 목적어인 명사절을 이끄는 접속사 that. 뒤에 완전한 절이 오므로 what 으로 바꾸면 틀린다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_SUBJECT",
+      "span_start": 299,
+      "span_end": 332,
+      "surface": "easy for ordinary people to learn",
+      "sentence_no": 3,
+      "rationale": "형용사 easy 뒤 to부정사의 의미상 주어는 for + 목적격. of ordinary people 또는 for 생략, learning 으로 바꾼 오류 선지 제작 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 334,
+      "span_end": 339,
+      "surface": "While",
+      "sentence_no": 4,
+      "rationale": "뒤에 주어+동사의 절이 오므로 접속사 While이 맞다. Despite/During 같은 전치사로 바꾼 선지가 전형적인 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 363,
+      "span_end": 376,
+      "surface": "care about it",
+      "sentence_no": 4,
+      "rationale": "care about (관심을 갖다) 로 굳어진 동사+전치사 결합. about 삭제나 care for/of 로 바꾼 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 386,
+      "span_end": 423,
+      "surface": "praised Hangeul and studied it deeply",
+      "sentence_no": 4,
+      "rationale": "주어 Hulbert 에 걸린 두 과거동사의 병렬. studying / studies 로 바꿔 병렬을 깨는 오류가 가능하고 deeply(부사) 자리도 함께 흔들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 485,
+      "span_end": 509,
+      "surface": "make the people stronger",
+      "sentence_no": 5,
+      "rationale": "5형식 make + 목적어 + 형용사(보어). strongly 같은 부사로 바꾸면 틀린다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 522,
+      "span_end": 551,
+      "surface": "began taking control of Korea",
+      "sentence_no": 6,
+      "rationale": "begin 은 동명사와 to부정사를 모두 목적어로 받지만, took / take 같은 정동사·원형으로 바꾼 오류 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 686,
+      "span_end": 737,
+      "surface": "to tell people about Korea and ask for independence",
+      "sentence_no": 8,
+      "rationale": "to tell 과 (to) ask 의 병렬. asking / asked 로 바꿔 병렬을 깨는 오류가 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 751,
+      "span_end": 776,
+      "surface": "made him a trusted friend",
+      "sentence_no": 9,
+      "rationale": "make + 목적어 + 명사 보어의 5형식. him 을 his 로, 보어를 전치사구로 바꾸는 변형이 가능하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_STRUCT_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 760,
+      "span_end": 776,
+      "surface": "a trusted friend",
+      "sentence_no": 9,
+      "rationale": "friend 가 '신뢰를 받는' 대상이므로 과거분사 trusted. trusting 으로 뒤집은 선지가 나온다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 794,
+      "span_end": 818,
+      "surface": "Even after he left Korea",
+      "sentence_no": 10,
+      "rationale": "뒤에 절이 오므로 접속사 after. despite/in spite of + 명사구로 바꾼 오류 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 828,
+      "span_end": 845,
+      "surface": "continued to help",
+      "sentence_no": 10,
+      "rationale": "continue 뒤 to부정사(동명사도 가능). helped 같은 정동사 형태로 바꾸면 동사 중복으로 틀린다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 924,
+      "span_end": 945,
+      "surface": "died in Seoul in 1949",
+      "sentence_no": 11,
+      "rationale": "die 는 목적어를 갖지 않는 자동사이므로 수동태가 불가능. was died 로 만든 선지가 전형적 함정이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 957,
+      "span_end": 985,
+      "surface": "is remembered as a foreigner",
+      "sentence_no": 12,
+      "rationale": "주어 he 가 '기억되는' 대상이므로 수동태 be + p.p. remembers / is remembering 으로 바꾼 오류 선지가 가능하고, as(~로서)도 함께 묻힐 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOO_DATIVE",
+      "span_start": 1037,
+      "span_end": 1052,
+      "surface": "teaches us that",
+      "sentence_no": 13,
+      "rationale": "teach + 간접목적어(us) + 직접목적어(that절)의 4형식. us 를 to us 로 앞세우거나 어순을 바꾼 오류 유도가 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "RU_FORMAT_RECAST",
+        "BO_WORD_ORDER"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입·인물 정의",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경 사실 + 전환 예고",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "세부 사실 (한글에 대한 인식)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "대조",
+      "signal": "While",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "원인·신념 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "상황 전환 (시대 배경)",
+      "signal": "When",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부 행동 1",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "세부 행동 2",
+      "signal": "also",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "결과 요약",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 10,
+      "role": "부연 (이후의 지속)",
+      "signal": "Even after",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "세부 사실 (생애 마무리)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "현재적 평가",
+      "signal": "Today",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 13,
+      "role": "결론문·교훈",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문의 밑줄 친 부분 중, 어법상 옳지 않은 것을 고르시오. (지문 [1]~[12]의 표현을 그대로 옮긴 것이다.)",
+      "answer_key": "④",
+      "explanation": "die는 목적어를 취하지 않는 자동사이므로 수동태(was died)로 쓸 수 없다. 원문대로 died in Seoul in 1949 가 맞다. ①의 who는 사람 선행사에 대한 주격 관계대명사로 옳고, ②의 for ordinary people은 to learn의 의미상 주어로 옳으며, ③의 began taking은 begin이 동명사를 목적어로 받을 수 있어 옳고, ⑤는 그가 '기억되는' 대상이므로 수동태 is remembered가 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        5,
+        10,
+        16,
+        17
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[1] Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[3] ... Hangeul, was logical and easy for ordinary people to learn.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[6] When Japan began taking control of Korea, Hulbert didn't keep quiet.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[11] He returned to Korea in his later years and was died in Seoul in 1949.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[12] Today, he is remembered as a foreigner who loved Korea with deep respect.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "②"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "CONJ_VS_PREP",
+      "stem": "다음은 위 지문에서 가져온 문장들이다. 어법상 옳지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③은 뒤에 주어(many Westerners)+동사(didn't care)의 절이 오므로 전치사 Despite를 쓸 수 없고 원문처럼 접속사 While이 와야 한다. ①의 to teach는 목적을 나타내는 부사적 용법, ②의 that은 목적어 명사절 접속사, ④는 make+목적어+명사보어의 5형식, ⑤의 after는 절을 이끄는 접속사로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        3,
+        4,
+        12,
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "He first came to Korea in the late 1800s to teach at a royal school.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Hulbert noticed that the Korean writing system, Hangeul, was logical.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Despite many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply.",
+          "is_answer": true,
+          "violates_point_code": "CONJ_VS_PREP",
+          "via_modification": "CO_CONJ_SWAP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "His actions made him a trusted friend to many Koreans.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Even after he left Korea, Hulbert continued to help the Korean independence movement.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "다음은 위 지문의 일부이다. (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것을 고르시오.\n\n· (a) [ While / During ] many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply.\n· His actions made him a (b) [ trusted / trusting ] friend to many Koreans.\n· He returned to Korea in his later years and (c) [ died / was died ] in Seoul in 1949.",
+      "answer_key": "①",
+      "explanation": "(a) 뒤에 절이 오므로 접속사 While. (b) friend는 신뢰를 '받는' 대상이므로 과거분사 trusted. (c) die는 자동사여서 수동태가 불가능하므로 died. ②는 전치사 During이 절을 이끌 수 없어 틀리고, ③은 trusting(신뢰하는)이 의미·태 모두 어긋나며, ④는 자동사를 수동태로 만든 오류다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        13,
+        16
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) While — (b) trusted — (c) died",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) During — (b) trusted — (c) died",
+          "is_answer": false,
+          "violates_point_code": "CONJ_VS_PREP",
+          "via_modification": "CO_CONJ_SWAP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) While — (b) trusting — (c) died",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) While — (b) trusted — (c) was died",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 지문의 흐름에 맞게 다음 밑줄 친 낱말을 넣었을 때, 문맥상 적절하지 않은 것을 고르시오.",
+      "answer_key": "③",
+      "explanation": "③ 한글을 깊이 연구하고 그 가치를 인정했다는 흐름이므로 criticized(비판했다)가 아니라 원문의 praised(칭찬했다)가 맞다. 나머지는 모두 문맥과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[2] his work quickly went beyond the classroom",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[3] Hangeul, was logical and easy for ordinary people to learn",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[4] While many Westerners didn't care about it, Hulbert criticized Hangeul and studied it deeply",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[9] His actions made him a trusted friend to many Koreans",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[13] true friendship and love can go beyond national borders",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "[2]의 his work quickly went beyond the classroom 이 의미하는 바로 가장 알맞은 것을 고르시오.",
+      "answer_key": "①",
+      "explanation": "이어지는 내용에서 한글 연구, 국제 신문 기고, 미국·유럽 순방 등 교실 밖 활동이 열거되므로 '가르치는 일을 넘어 더 넓은 활동으로 나아갔다'는 뜻이다. 나머지는 지문에 근거가 없다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그의 활동이 학교 수업에만 머물지 않고 더 넓은 영역으로 확장되었다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "그는 교실 수업이 너무 힘들어 곧 교사 일을 그만두었다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "그는 학생들을 가르치는 데 끝내 실패했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "그는 왕립 학교에서 더 높은 직위로 승진했다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "그는 교실을 더 크게 늘리는 공사를 맡았다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "지문은 Hulbert가 교사로 왔으나 한글 연구와 독립운동 지원까지 한국을 위해 헌신한 인물임을 서술하고 마지막에 국경을 넘는 우정을 교훈으로 제시한다. ②③④⑤는 지문에서 부분적으로 언급되거나 전혀 다루지 않는 소재다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "an American who devoted himself to Korea far beyond his role as a teacher",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the process by which Korean scholars created Hangeul",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the reasons Western missionaries traveled to Asia in the 1800s",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "how difficult it is for foreigners to learn the Korean language",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Japan's political control over Korea in the early 1900s",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the passage?",
+      "answer_key": "④",
+      "explanation": "[10]에서 한국을 떠난 뒤에도 독립운동을 계속 도왔다고 했으므로 ④는 지문과 반대된다. ①은 [2], ②는 [3], ③은 [7], ⑤는 [11]과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        15,
+        16
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "He came to Korea in the late 1800s to teach at a royal school.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He thought Hangeul was logical and easy for ordinary people to learn.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He wrote in international newspapers to argue that Korea should be free.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He gave up helping the Korean independence movement once he left Korea.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "He came back to Korea late in his life and died in Seoul in 1949.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "[13]의 빈칸에 들어갈 말로 가장 알맞은 것을 고르시오.\n\nHulbert's story teaches us that true friendship and love can ____________.",
+      "answer_key": "①",
+      "explanation": "미국인인 Hulbert가 한국을 위해 헌신했고 외국인으로서 존경받는다는 전체 흐름이므로, 진정한 우정과 사랑은 '국경을 넘을 수 있다'는 결론이 자연스럽다. ⑤는 지문의 취지와 정반대이고 ②③④는 근거가 없다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        18,
+        17
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "go beyond national borders",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "be learned only inside a classroom",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "change a nation's writing system",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "be replaced by political power",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "come only from one's own country",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nHe returned to Korea in his later years and was died in Seoul in 1949.",
+      "answer_key": "was died → died",
+      "explanation": "die는 목적어를 취하지 않는 자동사이므로 수동태로 쓸 수 없다. 따라서 was died 를 died 로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        16
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_SUBJECT",
+      "stem": "우리말과 같은 뜻이 되도록 조건에 맞게 영작하시오.\n\n우리말: Hulbert는 한글이 논리적이며 보통 사람들이 배우기 쉽다는 것을 알아차렸다.\n조건 1: 목적어로 that절을 쓸 것\n조건 2: to부정사의 의미상 주어를 'for + 명사' 형태로 쓸 것\n조건 3: noticed, logical, easy, to learn, ordinary people 을 사용할 것",
+      "answer_key": "Hulbert noticed that Hangeul was logical and easy for ordinary people to learn.",
+      "explanation": "noticed 의 목적어로 that절을 쓰고, easy 뒤 to learn 의 행위자를 for ordinary people 로 나타낸다. of ordinary people 이나 for 를 빠뜨린 형태는 틀린다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 말을 알맞게 배열하시오.\n\n우리말: 그의 행동은 그를 많은 한국인들에게 신뢰받는 친구로 만들었다.\n주어진 말: (a trusted friend / made / to many Koreans / His actions / him)",
+      "answer_key": "His actions made him a trusted friend to many Koreans.",
+      "explanation": "make + 목적어(him) + 목적격보어(a trusted friend) 의 5형식 어순이며, friend 는 신뢰를 받는 대상이므로 과거분사 trusted 가 수식한다. 마지막에 전치사구 to many Koreans 가 온다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        12,
+        13
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 13,
+    "tags_returned": 19,
+    "tags_kept": 19,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "①",
+          "②"
+        ]
+      }
+    ]
+  }
+}
