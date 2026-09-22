@@ -32,13 +32,19 @@
       "span_end": 50,
       "correct": "For here",
       "wrong": [
-        "To here",
-        "In here"
+        "To here"
       ],
       "why_ko": "매장에서 먹는다는 뜻은 굳어진 표현 For here로 씁니다.",
       "rationale": "매장 취식을 뜻하는 굳어진 부사구 'For here'. 통째로 외워져 전치사가 눈에 안 들어오는 자리라 [For/To/In] here 형태로 빈칸이 뚫리기 쉽다",
       "sentence_no": 2,
-      "sentence": "M: For here or to go?"
+      "sentence": "M: For here or to go?",
+      "verify_dropped": [
+        {
+          "wrong": "In here",
+          "judgement": "odd",
+          "note_ko": "'in here' 자체는 가능한 표현이지만 주문 상황의 관용구가 아니어서 매우 어색."
+        }
+      ]
     },
     {
       "tag_id": "0a1fd621-062d-4535-b6b2-4718265e9524",
@@ -92,13 +98,19 @@
       "span_end": 140,
       "correct": "not in a glass",
       "wrong": [
-        "not a glass",
         "not on a glass"
       ],
       "why_ko": "앞의 in a plastic cup과 짝을 이루어야 하므로 in을 그대로 살려 씁니다.",
       "rationale": "'in a plastic cup, not in a glass'의 A not B 병렬. 뒤쪽 전치사 in을 빠뜨리거나 다른 품사로 바꿔 병렬을 깨는 오류를 유도할 수 있다",
       "sentence_no": 4,
-      "sentence": "And can you please put it in a plastic cup, not in a glass?"
+      "sentence": "And can you please put it in a plastic cup, not in a glass?",
+      "verify_dropped": [
+        {
+          "wrong": "not a glass",
+          "judgement": "ok",
+          "note_ko": "전치사 생략된 자연스러운 영어로 성립함."
+        }
+      ]
     },
     {
       "tag_id": "c3efc2f1-fc70-4a92-b207-4ce08494e0a3",
@@ -137,13 +149,19 @@
       "span_end": 187,
       "correct": "at home",
       "wrong": [
-        "in home",
-        "at the home"
+        "in home"
       ],
       "why_ko": "'집에'라는 뜻은 관사 없이 at home으로 굳어진 표현입니다.",
       "rationale": "관용적 장소 부사구 at home(집에). in home / to home / at the home 등으로 바꾼 오답이 자주 나오고, 전치사 자체를 빈칸으로 뚫기 가장 쉬운 자리.",
       "sentence_no": 5,
-      "sentence": "G: I’m so hungry, but there’s no food at home."
+      "sentence": "G: I’m so hungry, but there’s no food at home.",
+      "verify_dropped": [
+        {
+          "wrong": "at the home",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 시설(요양원 등)을 뜻해 문맥상 매우 어색."
+        }
+      ]
     },
     {
       "tag_id": "50eaca74-4281-40e2-a209-b47a98cb5017",
@@ -228,20 +246,35 @@
       "span_end": 316,
       "correct": "some food",
       "wrong": [
-        "any food",
-        "a food",
-        "many foods"
+        "a food"
       ],
       "why_ko": "부탁·권유의 의문문에서는 some을 쓰고, food는 셀 수 없어 a나 복수형을 쓰지 않습니다.",
       "rationale": "권유·요청의 의문문에서는 any 대신 some을 쓴다. any food로 바꾼 선지로 구별을 물을 수 있고, food가 셀 수 없는 명사라 a food / many foods 오답도 가능.",
       "sentence_no": 9,
-      "sentence": "Can you please go to a restaurant and pick up some food?"
+      "sentence": "Can you please go to a restaurant and pick up some food?",
+      "verify_dropped": [
+        {
+          "wrong": "any food",
+          "judgement": "ok",
+          "note_ko": "의문문에서 any food도 문법적으로 성립함."
+        },
+        {
+          "wrong": "many foods",
+          "judgement": "odd",
+          "note_ko": "'여러 종류의 음식'으로는 가능하지만 이 문맥에서는 부자연스러움."
+        }
+      ]
     }
   ],
   "diagnostics": {
     "returned": 15,
     "kept": 15,
     "given": 15,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
 }

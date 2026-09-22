@@ -1,0 +1,381 @@
+{
+  "book": "동아 윤정미 중1",
+  "unit": "중1 L6 본문 — Join the Zero-Waste Challenge",
+  "parts": [
+    "중1 L6 본문 — Join the Zero-Waste Challenge"
+  ],
+  "passage_ids": [
+    "bd4cc533-7964-4e4f-b8f8-4b62b237f3a6"
+  ],
+  "para_breaks": [
+    23
+  ],
+  "turn_breaks": [
+    23
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "Every day, we produce lots of waste, and the Earth is getting sicker and sicker.",
+    "Do you want to save the Earth?",
+    "Then, join the zero-waste challenge, and share your stories.",
+    "Challenge 01 Reduce Food Waste Olivia: My birthday was last Saturday, and my family and I ate out.",
+    "There were lots of leftovers, but we brought them home.",
+    "The next day, I made a nice lunch out of them.",
+    "FYI, you can find great cooking ideas for leftovers on the Internet.",
+    "Challenge 02 Reuse Domingo: My dog tore my bag.",
+    "I wanted to buy a new one, but I thought again.",
+    "I learned that reusing is important for zero-waste living.",
+    "So, I decided to fix it and reuse it.",
+    "I’m not very good at sewing, and I don’t think that the bag looks perfect.",
+    "I guess it’s all right.",
+    "Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t.",
+    "Instead, I walked to my favorite restaurant with a reusable container and picked up the food.",
+    "I heard that plastic never goes away completely.",
+    "I didn’t use any single-use plastic today.",
+    "I felt good!",
+    "Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house.",
+    "I put them into the machine one by one, and I got some points in return.",
+    "What can I do with those points?",
+    "Well, I can use them like money.",
+    "Don’t you think that’s cool?"
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "우리는 매일 많은 쓰레기를 만들어 내고, 지구는 점점 더 아파지고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 매일 쓰레기를 많이 만들어 지구가 점점 아파진다고 했다.",
+      "_evidence_text": [
+        "Every day, we produce lots of waste, and the Earth is getting sicker and sicker."
+      ],
+      "_repeat": false,
+      "statement_en": "We make a lot of trash every day, and the Earth is becoming sicker and sicker."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 독자에게 지구를 구하고 싶은지 묻고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "2번 문장에서 '지구를 구하고 싶나요?'라고 묻는다.",
+      "_evidence_text": [
+        "Do you want to save the Earth?"
+      ],
+      "_repeat": false,
+      "statement_en": "The writer asks readers whether they want to save the Earth."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 도전에 참여하기만 하면 되고 이야기를 공유할 필요는 없다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에서 참여하고 '이야기도 공유하라'고 했다.",
+      "_evidence_text": [
+        "Then, join the zero-waste challenge, and share your stories."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer says you only need to join the challenge and you don't have to share your stories."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Olivia의 생일은 지난 일요일이었고, 가족과 함께 집에서 요리해 먹었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "생일은 지난 토요일이었고 가족과 외식을 했다.",
+      "_evidence_text": [
+        "Challenge 01 Reduce Food Waste Olivia: My birthday was last Saturday, and my family and I ate out."
+      ],
+      "_repeat": false,
+      "statement_en": "Olivia's birthday was last Sunday, and she cooked and ate at home with her family."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Olivia네 가족은 남은 음식이 많았지만 식당에 그대로 두고 왔다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "남은 음식을 집으로 가져왔다.",
+      "_evidence_text": [
+        "There were lots of leftovers, but we brought them home."
+      ],
+      "_repeat": false,
+      "statement_en": "Olivia's family had a lot of food left, but they left it at the restaurant."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Olivia는 다음 날 남은 음식으로 맛있는 점심을 만들었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "6번 문장에 다음 날 남은 음식으로 점심을 만들었다고 나온다.",
+      "_evidence_text": [
+        "The next day, I made a nice lunch out of them."
+      ],
+      "_repeat": false,
+      "statement_en": "The next day, Olivia used the leftover food to make a nice lunch."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Olivia는 남은 음식을 활용한 요리 아이디어를 인터넷에서 찾을 수 있다고 알려 준다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장에서 인터넷에서 좋은 요리 아이디어를 찾을 수 있다고 했다.",
+      "_evidence_text": [
+        "FYI, you can find great cooking ideas for leftovers on the Internet."
+      ],
+      "_repeat": false,
+      "statement_en": "Olivia tells us that we can look for good cooking ideas for leftovers online."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Domingo의 가방을 찢은 것은 그의 고양이였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "가방을 찢은 것은 고양이가 아니라 개(dog)이다.",
+      "_evidence_text": [
+        "Challenge 02 Reuse Domingo: My dog tore my bag."
+      ],
+      "_repeat": false,
+      "statement_en": "It was Domingo's cat that tore his bag."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Domingo는 새 가방을 사고 싶었지만 다시 한번 생각해 보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "9번 문장에 새것을 사고 싶었지만 다시 생각했다고 나온다.",
+      "_evidence_text": [
+        "I wanted to buy a new one, but I thought again."
+      ],
+      "_repeat": false,
+      "statement_en": "Domingo wanted to buy a new bag, but he thought about it one more time."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Domingo는 재사용이 제로웨이스트 생활에 중요하다는 것을 알게 되었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번 문장에서 재사용의 중요성을 배웠다고 했다.",
+      "_evidence_text": [
+        "I learned that reusing is important for zero-waste living."
+      ],
+      "_repeat": false,
+      "statement_en": "Domingo found out that reusing things matters for zero-waste living."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Domingo는 결국 가방을 버리기로 결정했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "가방을 고쳐서 다시 쓰기로 결정했다.",
+      "_evidence_text": [
+        "So, I decided to fix it and reuse it."
+      ],
+      "_repeat": false,
+      "statement_en": "In the end, Domingo decided to throw his bag away."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Domingo는 바느질을 아주 잘해서 가방이 완벽해 보인다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "바느질을 잘하지 못하고 가방이 완벽해 보이지 않는다고 했다.",
+      "_evidence_text": [
+        "I’m not very good at sewing, and I don’t think that the bag looks perfect."
+      ],
+      "_repeat": false,
+      "statement_en": "Domingo says he sews very well, so his bag looks perfect."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Domingo는 가방이 완벽하지는 않아도 괜찮다고 생각한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "13번 문장에서 괜찮은 것 같다고 말한다.",
+      "_evidence_text": [
+        "I guess it’s all right."
+      ],
+      "_repeat": false,
+      "statement_en": "Domingo thinks it is okay even though the bag is not perfect."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 평소 음식 배달 서비스를 자주 이용하는데, 오늘도 배달을 시켰다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "자주 이용하지만 오늘은 이용하지 않았다.",
+      "_evidence_text": [
+        "Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma often uses food delivery services, and she ordered delivery today, too."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 다시 쓸 수 있는 용기를 들고 좋아하는 식당까지 걸어가서 음식을 받아 왔다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "15번 문장에 재사용 용기를 들고 걸어가 음식을 받아왔다고 나온다.",
+      "_evidence_text": [
+        "Instead, I walked to my favorite restaurant with a reusable container and picked up the food."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma walked to the restaurant she likes with a container she can use again and brought the food back."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 플라스틱이 시간이 지나면 완전히 사라진다고 들었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "플라스틱은 결코 완전히 사라지지 않는다고 들었다.",
+      "_evidence_text": [
+        "I heard that plastic never goes away completely."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma heard that plastic disappears completely after some time."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 그날 일회용 플라스틱을 전혀 사용하지 않았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "17번 문장에서 일회용 플라스틱을 쓰지 않았다고 했다.",
+      "_evidence_text": [
+        "I didn’t use any single-use plastic today."
+      ],
+      "_repeat": false,
+      "statement_en": "Emma did not use any single-use plastic that day."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Emma는 그 일로 기분이 좋았다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "18번 문장의 'I felt good!'과 일치한다.",
+      "_evidence_text": [
+        "I felt good!"
+      ],
+      "_repeat": false,
+      "statement_en": "Emma says that doing this made her feel good."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 어제 집 근처 재활용 기계에 플라스틱 병과 유리병을 가져갔다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "19번 문장과 일치한다.",
+      "_evidence_text": [
+        "Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house."
+      ],
+      "_repeat": false,
+      "statement_en": "Yesterday Minsu brought plastic bottles and glass bottles to a recycling machine near his home."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 병을 한꺼번에 기계에 넣고 그 대가로 현금을 받았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "병을 하나씩 넣었고 받은 것은 현금이 아니라 포인트였다.",
+      "_evidence_text": [
+        "I put them into the machine one by one, and I got some points in return."
+      ],
+      "_repeat": false,
+      "statement_en": "Minsu put all the bottles into the machine at once and got cash for them."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 그 포인트로 무엇을 할 수 있는지 스스로 질문을 던진다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "21번 문장에서 포인트로 무엇을 할 수 있는지 묻는다.",
+      "_evidence_text": [
+        "What can I do with those points?"
+      ],
+      "_repeat": false,
+      "statement_en": "Minsu asks himself what he can do with the points."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수가 받은 포인트는 돈처럼 사용할 수 없다.",
+      "answer": "X",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "22번 문장에서 포인트를 돈처럼 쓸 수 있다고 했다.",
+      "_evidence_text": [
+        "Well, I can use them like money."
+      ],
+      "_repeat": false,
+      "statement_en": "The points Minsu got cannot be used like money."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민수는 이런 점이 멋지다고 생각한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "23번 문장에서 '멋지다고 생각하지 않니?'라고 말한다.",
+      "_evidence_text": [
+        "Don’t you think that’s cool?"
+      ],
+      "_repeat": false,
+      "statement_en": "Minsu thinks this is a cool thing."
+    }
+  ],
+  "diagnostics": {
+    "returned": 23,
+    "kept": 23,
+    "by_type": {
+      "content": 23
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 13,
+      "X": 10
+    },
+    "sentences_covered": 23,
+    "sentence_count": 23,
+    "repeated": 0
+  }
+}

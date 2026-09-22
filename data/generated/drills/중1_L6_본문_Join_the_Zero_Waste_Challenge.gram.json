@@ -76,13 +76,19 @@
       "span_end": 373,
       "correct": "out of them",
       "wrong": [
-        "of them",
         "with out them"
       ],
       "why_ko": "'~로(재료로) 만들다'는 make A out of B이므로 out of를 그대로 써야 합니다.",
       "rationale": "make A out of B(재료) 의미의 전치사구. of / from / with 중 고르게 하거나 out을 삭제하는 변형이 가능.",
       "sentence_no": 6,
-      "sentence": "The next day, I made a nice lunch out of them."
+      "sentence": "The next day, I made a nice lunch out of them.",
+      "verify_dropped": [
+        {
+          "wrong": "of them",
+          "judgement": "odd",
+          "note_ko": "재료 표현은 make ... out of가 자연스럽고 of them만으로는 어색."
+        }
+      ]
     },
     {
       "tag_id": "a601f60a-d979-49a5-a0a7-08315e79b626",
@@ -196,13 +202,19 @@
       "span_end": 635,
       "correct": "fix it and reuse it",
       "wrong": [
-        "fix it and reusing it",
-        "fix it and reused it"
+        "fix it and reusing it"
       ],
       "why_ko": "to fix와 (to) reuse가 and로 병렬되므로 뒤도 동사원형 reuse여야 합니다.",
       "rationale": "to fix ~ and (to) reuse ~ 의 원형 병렬. reusing / reused 로 바꾸면 병렬이 깨진다.",
       "sentence_no": 11,
-      "sentence": "So, I decided to fix it and reuse it."
+      "sentence": "So, I decided to fix it and reuse it.",
+      "verify_dropped": [
+        {
+          "wrong": "fix it and reused it",
+          "judgement": "ok",
+          "note_ko": "decided와 reused의 병렬로 읽혀 문장이 성립함."
+        }
+      ]
     },
     {
       "tag_id": "9c05f0fd-9473-4033-9cbc-bcf6adad41d6",
@@ -242,13 +254,19 @@
       "span_end": 838,
       "correct": "I often use food delivery services, but today I didn’t",
       "wrong": [
-        "I often use food delivery services, but today I don’t",
         "I often used food delivery services, but today I didn’t used"
       ],
       "why_ko": "평소 습관은 현재시제 use, 오늘 일은 과거이므로 대동사 didn't가 맞습니다.",
       "rationale": "습관(현재시제) vs 오늘 사실(과거 대동사 didn't)의 시제 대조. don't / didn't used 등의 시제 오류 유도.",
       "sentence_no": 14,
-      "sentence": "Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t."
+      "sentence": "Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t.",
+      "verify_dropped": [
+        {
+          "wrong": "I often use food delivery services, but today I don’t",
+          "judgement": "ok",
+          "note_ko": "현재시제로도 문장이 성립하며 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "819b1585-a98d-4a07-a258-7ff1324b86cb",
@@ -257,13 +275,19 @@
       "span_end": 909,
       "correct": "with a reusable container",
       "wrong": [
-        "by a reusable container",
-        "in a reusable container"
+        "by a reusable container"
       ],
       "why_ko": "용기를 '가지고' 갔다는 소지의 뜻이므로 with를 씁니다.",
       "rationale": "휴대·소지·수단을 나타내는 with. by / in 으로 교체하거나 전치사를 삭제하는 빈칸 자리.",
       "sentence_no": 15,
-      "sentence": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food."
+      "sentence": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food.",
+      "verify_dropped": [
+        {
+          "wrong": "in a reusable container",
+          "judgement": "odd",
+          "note_ko": "문법은 되나 '용기 안에 들어가 걸어갔다'로 읽혀 어색."
+        }
+      ]
     },
     {
       "tag_id": "1d6dd57b-1f49-4532-b3e3-353169870a2b",
@@ -317,13 +341,19 @@
       "span_end": 1018,
       "correct": "any single-use plastic",
       "wrong": [
-        "some single-use plastic",
         "many single-use plastic"
       ],
       "why_ko": "부정문(didn't)에서는 some이 아니라 any를 씁니다.",
       "rationale": "부정문에서는 some이 아니라 any. didn't use some ~ 오류 유도 자리.",
       "sentence_no": 17,
-      "sentence": "I didn’t use any single-use plastic today."
+      "sentence": "I didn’t use any single-use plastic today.",
+      "verify_dropped": [
+        {
+          "wrong": "some single-use plastic",
+          "judgement": "odd",
+          "note_ko": "부정문에서 some은 뜻이 어색해짐."
+        }
+      ]
     },
     {
       "tag_id": "3c41e8ec-dab4-4db7-9d0d-d1cd633ecccd",
@@ -347,13 +377,19 @@
       "span_end": 1138,
       "correct": "bottles to a recycling machine",
       "wrong": [
-        "bottles in a recycling machine",
-        "bottles at a recycling machine"
+        "bottles in a recycling machine"
       ],
       "why_ko": "take A to B(어디로 가져가다)의 방향 전치사 to가 맞습니다.",
       "rationale": "take A to B(장소로 가져가다)의 방향 전치사 to. in / into / at 으로 바꾸거나 삭제하는 빈칸 자리.",
       "sentence_no": 19,
-      "sentence": "Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house."
+      "sentence": "Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house.",
+      "verify_dropped": [
+        {
+          "wrong": "bottles at a recycling machine",
+          "judgement": "odd",
+          "note_ko": "장소 표시로는 읽히나 '가져갔다'의 목적지 의미가 사라져 어색."
+        }
+      ]
     },
     {
       "tag_id": "ad1777fc-a7f7-42bd-a619-879a0ebeb4a2",
@@ -362,19 +398,30 @@
       "span_end": 1181,
       "correct": "into the machine",
       "wrong": [
-        "on the machine",
         "to the machine"
       ],
       "why_ko": "put A into B는 '안으로 넣다'는 뜻이므로 into가 맞습니다.",
       "rationale": "put A into B(안으로 넣다)의 방향 전치사. in / on / to 와 구별시키는 출제 가능.",
       "sentence_no": 20,
-      "sentence": "I put them into the machine one by one, and I got some points in return."
+      "sentence": "I put them into the machine one by one, and I got some points in return.",
+      "verify_dropped": [
+        {
+          "wrong": "on the machine",
+          "judgement": "ok",
+          "note_ko": "문법적으로 가능하며 뜻만 '기계 위에'로 달라짐."
+        }
+      ]
     }
   ],
   "diagnostics": {
     "returned": 24,
     "kept": 24,
     "given": 24,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 7
+    }
+  },
+  "verified": true
 }

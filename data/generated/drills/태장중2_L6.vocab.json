@@ -1,0 +1,989 @@
+{
+  "set": "태장중2_L6",
+  "title": "L6 외부지문 어휘 — 태장 Hulbert 16",
+  "sources": {
+    "school": [
+      "태장중2_L6_vocab_handout"
+    ],
+    "jasup": "L6_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "L6 외부지문 어휘 — 태장 Hulbert 16",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "educator",
+              "answer": "교육자"
+            },
+            {
+              "word": "missionary",
+              "answer": "선교사"
+            },
+            {
+              "word": "royal",
+              "answer": "왕실의, 국왕의"
+            },
+            {
+              "word": "logical",
+              "answer": "논리적인, 타당한"
+            },
+            {
+              "word": "praise",
+              "answer": "칭찬하다"
+            },
+            {
+              "word": "promote",
+              "answer": "장려하다, 홍보하다"
+            },
+            {
+              "word": "international",
+              "answer": "국제적인, 국가 간의"
+            },
+            {
+              "word": "independence",
+              "answer": "독립"
+            },
+            {
+              "word": "trusted",
+              "answer": "신뢰받는, 믿을 수 있는"
+            },
+            {
+              "word": "continue",
+              "answer": "계속하다"
+            },
+            {
+              "word": "movement",
+              "answer": "운동(사회적·정치적)"
+            },
+            {
+              "word": "foreigner",
+              "answer": "외국인"
+            },
+            {
+              "word": "respect",
+              "answer": "존경하다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "칭찬하다",
+              "answer": "praise"
+            },
+            {
+              "ko": "논리적인, 타당한",
+              "answer": "logical"
+            },
+            {
+              "ko": "장려하다, 홍보하다",
+              "answer": "promote"
+            },
+            {
+              "ko": "계속하다",
+              "answer": "continue"
+            },
+            {
+              "ko": "국제적인, 국가 간의",
+              "answer": "international"
+            },
+            {
+              "ko": "운동(사회적·정치적)",
+              "answer": "movement"
+            },
+            {
+              "ko": "교육자",
+              "answer": "educator"
+            },
+            {
+              "ko": "독립",
+              "answer": "independence"
+            },
+            {
+              "ko": "외국인",
+              "answer": "foreigner"
+            },
+            {
+              "ko": "신뢰받는, 믿을 수 있는",
+              "answer": "trusted"
+            },
+            {
+              "ko": "왕실의, 국왕의",
+              "answer": "royal"
+            },
+            {
+              "ko": "존경하다",
+              "answer": "respect"
+            },
+            {
+              "ko": "선교사",
+              "answer": "missionary"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "A person who provides instruction or education, such as a teacher or administrator.",
+              "ko": "교육자",
+              "answer": "educator"
+            },
+            {
+              "def_en": "A person sent on a religious mission, usually to promote Christianity in a foreign country.",
+              "ko": "선교사",
+              "answer": "missionary"
+            },
+            {
+              "def_en": "In a truthful, sincere, or genuine way; really.",
+              "ko": "",
+              "answer": "truly"
+            },
+            {
+              "def_en": "Related to, belonging to, or connected with a king, queen, or royal family.",
+              "ko": "왕실의, 국왕의",
+              "answer": "royal"
+            },
+            {
+              "def_en": "Farther than, or going past the limits of a particular place, activity, or area.",
+              "ko": "",
+              "answer": "beyond"
+            },
+            {
+              "def_en": "Clear, sensible, and based on correct reasoning or sound judgment.",
+              "ko": "논리적인, 타당한",
+              "answer": "logical"
+            },
+            {
+              "def_en": "During the time that something else happens; whereas (used to show a contrast).",
+              "ko": "",
+              "answer": "while"
+            },
+            {
+              "def_en": "To express warm admiration, or commendation for someone or something.",
+              "ko": "칭찬하다",
+              "answer": "praise"
+            },
+            {
+              "def_en": "To encourage the growth, development, or public awareness of something.",
+              "ko": "장려하다, 홍보하다",
+              "answer": "promote"
+            },
+            {
+              "def_en": "Involving, existing between, or affecting two or more nations.",
+              "ko": "국제적인, 국가 간의",
+              "answer": "international"
+            },
+            {
+              "def_en": "Freedom from control, influence, or support by others or another country.",
+              "ko": "독립",
+              "answer": "independence"
+            },
+            {
+              "def_en": "Regarded as honest, reliable, and worthy of confidence.",
+              "ko": "신뢰받는, 믿을 수 있는",
+              "answer": "trusted"
+            },
+            {
+              "def_en": "To keep happening, existing, or doing something without stopping.",
+              "ko": "계속하다",
+              "answer": "continue"
+            },
+            {
+              "def_en": "A series of organized activities by people working together toward a shared goal.",
+              "ko": "운동(사회적·정치적)",
+              "answer": "movement"
+            },
+            {
+              "def_en": "A person who comes from a country other than one's own.",
+              "ko": "외국인",
+              "answer": "foreigner"
+            },
+            {
+              "def_en": "A feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements.",
+              "ko": "존경하다",
+              "answer": "respect"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "respect",
+                  "ko": "존경하다",
+                  "def_en": "A feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "foreigner",
+                  "ko": "외국인",
+                  "def_en": "A person who comes from a country other than one's own.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "independence",
+                  "ko": "독립",
+                  "def_en": "Freedom from control, influence, or support by others or another country.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "missionary",
+                  "ko": "선교사",
+                  "def_en": "A person sent on a religious mission, usually to promote Christianity in a foreign country.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "missionary",
+                "independence",
+                "foreigner",
+                "respect"
+              ],
+              "kos": [
+                "외국인",
+                "존경하다",
+                "독립",
+                "선교사"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "trusted",
+                  "ko": "신뢰받는, 믿을 수 있는",
+                  "def_en": "Regarded as honest, reliable, and worthy of confidence.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "international",
+                  "ko": "국제적인, 국가 간의",
+                  "def_en": "Involving, existing between, or affecting two or more nations.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "promote",
+                  "ko": "장려하다, 홍보하다",
+                  "def_en": "To encourage the growth, development, or public awareness of something.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "educator",
+                  "ko": "교육자",
+                  "def_en": "A person who provides instruction or education, such as a teacher or administrator.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "educator",
+                "international",
+                "promote",
+                "trusted"
+              ],
+              "kos": [
+                "신뢰받는, 믿을 수 있는",
+                "장려하다, 홍보하다",
+                "교육자",
+                "국제적인, 국가 간의"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "movement",
+                  "ko": "운동(사회적·정치적)",
+                  "def_en": "A series of organized activities by people working together toward a shared goal.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "while",
+                  "ko": "",
+                  "def_en": "During the time that something else happens; whereas (used to show a contrast).",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "logical",
+                  "ko": "논리적인, 타당한",
+                  "def_en": "Clear, sensible, and based on correct reasoning or sound judgment.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "beyond",
+                  "ko": "",
+                  "def_en": "Farther than, or going past the limits of a particular place, activity, or area.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "movement",
+                "beyond",
+                "logical",
+                "while"
+              ],
+              "kos": [
+                "운동(사회적·정치적)",
+                "",
+                "논리적인, 타당한",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "truly",
+                  "ko": "",
+                  "def_en": "In a truthful, sincere, or genuine way; really.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "royal",
+                  "ko": "왕실의, 국왕의",
+                  "def_en": "Related to, belonging to, or connected with a king, queen, or royal family.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "praise",
+                  "ko": "칭찬하다",
+                  "def_en": "To express warm admiration, or commendation for someone or something.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "continue",
+                  "ko": "계속하다",
+                  "def_en": "To keep happening, existing, or doing something without stopping.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "truly",
+                "continue",
+                "praise",
+                "royal"
+              ],
+              "kos": [
+                "칭찬하다",
+                "계속하다",
+                "왕실의, 국왕의",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "n_words": 16,
+      "counts": {
+        "both": 26,
+        "def": 16,
+        "match": 16
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "L6 외부지문 어휘 — 태장 Hulbert 16",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "essay",
+              "answer": "에세이, 과제물"
+            },
+            {
+              "word": "introduce",
+              "answer": "소개하다"
+            },
+            {
+              "word": "lose",
+              "answer": "잃어버리다; 지다"
+            },
+            {
+              "word": "magazine",
+              "answer": "잡지"
+            },
+            {
+              "word": "move",
+              "answer": "이사하다; 움직이다"
+            },
+            {
+              "word": "novel",
+              "answer": "(장편) 소설"
+            },
+            {
+              "word": "recommend",
+              "answer": "추천하다"
+            },
+            {
+              "word": "sci-fi",
+              "answer": "공상 과학 소설의"
+            },
+            {
+              "word": "strongly",
+              "answer": "강(력)하게, 튼튼하게"
+            },
+            {
+              "word": "touching",
+              "answer": "감동적인(= moving)"
+            },
+            {
+              "word": "volunteer",
+              "answer": "자발적인;  자원봉사자"
+            },
+            {
+              "word": "be interested in",
+              "answer": "~에 관심이 있다"
+            },
+            {
+              "word": "do volunteer work",
+              "answer": "자원봉사를 하다"
+            },
+            {
+              "word": "give it a try",
+              "answer": "시도하다, 한번 해 보다"
+            },
+            {
+              "word": "cry",
+              "answer": "울다"
+            },
+            {
+              "word": "catch",
+              "answer": "(붙)잡다; 받다"
+            },
+            {
+              "word": "whole",
+              "answer": "전체〔전부〕의, 모든"
+            },
+            {
+              "word": "lots〔a lot〕 of",
+              "answer": "많은"
+            },
+            {
+              "word": "selfless",
+              "answer": "이타적인"
+            },
+            {
+              "word": "successful",
+              "answer": "성공한"
+            },
+            {
+              "word": "success",
+              "answer": "성공"
+            },
+            {
+              "word": "be born",
+              "answer": "태어나다"
+            },
+            {
+              "word": "die from",
+              "answer": "~로 죽다"
+            },
+            {
+              "word": "give away",
+              "answer": "나누어 주다, 거저 주다"
+            },
+            {
+              "word": "restaurant",
+              "answer": "식당"
+            },
+            {
+              "word": "dish",
+              "answer": "요리; 접시"
+            },
+            {
+              "word": "straight",
+              "answer": "연속된, 끊이지 않는"
+            },
+            {
+              "word": "loud",
+              "answer": "(소리가) 큰, 시끄러운"
+            },
+            {
+              "word": "article",
+              "answer": "(신문·잡지의) 글, 기사"
+            },
+            {
+              "word": "bury",
+              "answer": "묻다, 매장하다"
+            },
+            {
+              "word": "cemetery",
+              "answer": "묘지"
+            },
+            {
+              "word": "die",
+              "answer": "죽다"
+            },
+            {
+              "word": "event",
+              "answer": "사건, 일; 행사"
+            },
+            {
+              "word": "favor",
+              "answer": "부탁, 호의"
+            },
+            {
+              "word": "foreign",
+              "answer": "외국의"
+            },
+            {
+              "word": "gather",
+              "answer": "모이다; 모으다"
+            },
+            {
+              "word": "government",
+              "answer": "정부"
+            },
+            {
+              "word": "hide",
+              "answer": "숨다 (과거형: hid)"
+            },
+            {
+              "word": "historic",
+              "answer": "역사적인"
+            },
+            {
+              "word": "independent",
+              "answer": "독립된 (↔ dependent)"
+            },
+            {
+              "word": "invitation",
+              "answer": "초청, 초대"
+            },
+            {
+              "word": "meaning",
+              "answer": "의미, 뜻"
+            },
+            {
+              "word": "medicine",
+              "answer": "의학"
+            },
+            {
+              "word": "real",
+              "answer": "진짜의; 정말의"
+            },
+            {
+              "word": "rest",
+              "answer": "(어떤 것의) 나머지"
+            },
+            {
+              "word": "return",
+              "answer": "돌아오다, 돌아가다"
+            },
+            {
+              "word": "right",
+              "answer": "권리"
+            },
+            {
+              "word": "shout",
+              "answer": "외치다, 소리치다"
+            },
+            {
+              "word": "situation",
+              "answer": "상황"
+            },
+            {
+              "word": "terrible",
+              "answer": "끔찍한, 참혹한"
+            },
+            {
+              "word": "unbelievable",
+              "answer": "믿기 어려울 정도인"
+            },
+            {
+              "word": "at the invitation of",
+              "answer": "~의 초청으로"
+            },
+            {
+              "word": "for the rest of one’s life",
+              "answer": "~의 여생 동안"
+            },
+            {
+              "word": "share A with B",
+              "answer": "A를 B와 공유하다〔함께 쓰다〕"
+            },
+            {
+              "word": "similar to",
+              "answer": "~와 비슷한"
+            },
+            {
+              "word": "under the watchful eye of",
+              "answer": "~의 감시 아래에서,"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "식당",
+              "answer": "restaurant"
+            },
+            {
+              "ko": "성공",
+              "answer": "success"
+            },
+            {
+              "ko": "숨다 (과거형: hid)",
+              "answer": "hide"
+            },
+            {
+              "ko": "잃어버리다; 지다",
+              "answer": "lose"
+            },
+            {
+              "ko": "(신문·잡지의) 글, 기사",
+              "answer": "article"
+            },
+            {
+              "ko": "묘지",
+              "answer": "cemetery"
+            },
+            {
+              "ko": "소개하다",
+              "answer": "introduce"
+            },
+            {
+              "ko": "잡지",
+              "answer": "magazine"
+            },
+            {
+              "ko": "자원봉사를 하다",
+              "answer": "do volunteer work"
+            },
+            {
+              "ko": "A를 B와 공유하다〔함께 쓰다〕",
+              "answer": "share A with B"
+            },
+            {
+              "ko": "상황",
+              "answer": "situation"
+            },
+            {
+              "ko": "묻다, 매장하다",
+              "answer": "bury"
+            },
+            {
+              "ko": "(소리가) 큰, 시끄러운",
+              "answer": "loud"
+            },
+            {
+              "ko": "역사적인",
+              "answer": "historic"
+            },
+            {
+              "ko": "끔찍한, 참혹한",
+              "answer": "terrible"
+            },
+            {
+              "ko": "~의 여생 동안",
+              "answer": "for the rest of one’s life"
+            },
+            {
+              "ko": "의미, 뜻",
+              "answer": "meaning"
+            },
+            {
+              "ko": "울다",
+              "answer": "cry"
+            },
+            {
+              "ko": "외치다, 소리치다",
+              "answer": "shout"
+            },
+            {
+              "ko": "이타적인",
+              "answer": "selfless"
+            },
+            {
+              "ko": "독립된 (↔ dependent)",
+              "answer": "independent"
+            },
+            {
+              "ko": "성공한",
+              "answer": "successful"
+            },
+            {
+              "ko": "연속된, 끊이지 않는",
+              "answer": "straight"
+            },
+            {
+              "ko": "사건, 일; 행사",
+              "answer": "event"
+            },
+            {
+              "ko": "태어나다",
+              "answer": "be born"
+            },
+            {
+              "ko": "(붙)잡다; 받다",
+              "answer": "catch"
+            },
+            {
+              "ko": "초청, 초대",
+              "answer": "invitation"
+            },
+            {
+              "ko": "추천하다",
+              "answer": "recommend"
+            },
+            {
+              "ko": "시도하다, 한번 해 보다",
+              "answer": "give it a try"
+            },
+            {
+              "ko": "의학",
+              "answer": "medicine"
+            },
+            {
+              "ko": "모이다; 모으다",
+              "answer": "gather"
+            },
+            {
+              "ko": "~의 감시 아래에서,",
+              "answer": "under the watchful eye of"
+            },
+            {
+              "ko": "많은",
+              "answer": "lots〔a lot〕 of"
+            },
+            {
+              "ko": "감동적인(= moving)",
+              "answer": "touching"
+            },
+            {
+              "ko": "권리",
+              "answer": "right"
+            },
+            {
+              "ko": "죽다",
+              "answer": "die"
+            },
+            {
+              "ko": "(어떤 것의) 나머지",
+              "answer": "rest"
+            },
+            {
+              "ko": "부탁, 호의",
+              "answer": "favor"
+            },
+            {
+              "ko": "믿기 어려울 정도인",
+              "answer": "unbelievable"
+            },
+            {
+              "ko": "외국의",
+              "answer": "foreign"
+            },
+            {
+              "ko": "요리; 접시",
+              "answer": "dish"
+            },
+            {
+              "ko": "강(력)하게, 튼튼하게",
+              "answer": "strongly"
+            },
+            {
+              "ko": "~의 초청으로",
+              "answer": "at the invitation of"
+            },
+            {
+              "ko": "~에 관심이 있다",
+              "answer": "be interested in"
+            },
+            {
+              "ko": "(장편) 소설",
+              "answer": "novel"
+            },
+            {
+              "ko": "에세이, 과제물",
+              "answer": "essay"
+            },
+            {
+              "ko": "~와 비슷한",
+              "answer": "similar to"
+            },
+            {
+              "ko": "정부",
+              "answer": "government"
+            },
+            {
+              "ko": "~로 죽다",
+              "answer": "die from"
+            },
+            {
+              "ko": "돌아오다, 돌아가다",
+              "answer": "return"
+            },
+            {
+              "ko": "나누어 주다, 거저 주다",
+              "answer": "give away"
+            },
+            {
+              "ko": "진짜의; 정말의",
+              "answer": "real"
+            },
+            {
+              "ko": "자발적인;  자원봉사자",
+              "answer": "volunteer"
+            },
+            {
+              "ko": "이사하다; 움직이다",
+              "answer": "move"
+            },
+            {
+              "ko": "전체〔전부〕의, 모든",
+              "answer": "whole"
+            },
+            {
+              "ko": "공상 과학 소설의",
+              "answer": "sci-fi"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "to stop living and become dead",
+              "ko": "~로 죽다",
+              "answer": "die from"
+            },
+            {
+              "def_en": "a piece of writing on a particular subject in a newspaper",
+              "ko": "(신문·잡지의) 글, 기사",
+              "answer": "article"
+            },
+            {
+              "def_en": "to put something into a hole in the ground and cover it",
+              "ko": "묻다, 매장하다",
+              "answer": "bury"
+            },
+            {
+              "def_en": "a place where people put dead bodies in the ground",
+              "ko": "묘지",
+              "answer": "cemetery"
+            },
+            {
+              "def_en": "to stop living and become dead",
+              "ko": "죽다",
+              "answer": "die"
+            },
+            {
+              "def_en": "something helpful that you do for someone",
+              "ko": "부탁, 호의",
+              "answer": "favor"
+            },
+            {
+              "def_en": "in or from a country that is not your own",
+              "ko": "외국의",
+              "answer": "foreign"
+            },
+            {
+              "def_en": "to come together in a group in one place",
+              "ko": "모이다; 모으다",
+              "answer": "gather"
+            },
+            {
+              "def_en": "the group of people who officially control a country",
+              "ko": "정부",
+              "answer": "government"
+            },
+            {
+              "def_en": "to go to a place where no one will see or find you",
+              "ko": "숨다 (과거형: hid)",
+              "answer": "hide"
+            },
+            {
+              "def_en": "not governed or ruled by another country",
+              "ko": "독립된 (↔ dependent)",
+              "answer": "independent"
+            },
+            {
+              "def_en": "the act of inviting someone",
+              "ko": "초청, 초대",
+              "answer": "invitation"
+            },
+            {
+              "def_en": "the study of diseases and their treatment",
+              "ko": "의학",
+              "answer": "medicine"
+            },
+            {
+              "def_en": "to say something very loudly",
+              "ko": "외치다, 소리치다",
+              "answer": "shout"
+            },
+            {
+              "def_en": "very difficult to believe and unlikely to be true",
+              "ko": "믿기 어려울 정도인",
+              "answer": "unbelievable"
+            },
+            {
+              "def_en": "to have or use something with others",
+              "ko": "A를 B와 공유하다〔함께 쓰다〕",
+              "answer": "share A with B"
+            }
+          ]
+        }
+      ],
+      "n_words": 56,
+      "counts": {
+        "both": 112,
+        "def": 16
+      }
+    }
+  ]
+}

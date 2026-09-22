@@ -62,28 +62,19 @@
       "span_end": 95,
       "correct": "late for my class",
       "wrong": [
-        "late to my class",
         "late at my class"
       ],
       "why_ko": "'~에 늦다'는 be late for로 고정된 표현이에요.",
       "rationale": "be late for(~에 늦다)는 고정 전치사 for. late to / late of / late at 로 바꾼 오답 유도가 가능한 빈출 숙어.",
       "sentence_no": 2,
-      "sentence": "G: I’m really sorry, Dad, but I’m late for my class."
-    },
-    {
-      "tag_id": "516d7bfc-b439-4a95-9425-244583b762b3",
-      "point": "VERB_TENSE",
-      "span_start": 111,
-      "span_end": 119,
-      "correct": "I’ll ask",
-      "wrong": [
-        "I asked",
-        "I’m asking"
-      ],
-      "why_ko": "지금 막 정한 미래의 행동이라 will을 써요.",
-      "rationale": "거절을 들은 직후의 즉석 결정이므로 will을 쓴다. asked(과거)나 am asking 으로 바꾼 시제 오류를 심을 수 있다.",
-      "sentence_no": 4,
-      "sentence": "I’ll ask somebody else."
+      "sentence": "G: I’m really sorry, Dad, but I’m late for my class.",
+      "verify_dropped": [
+        {
+          "wrong": "late to my class",
+          "judgement": "ok",
+          "note_ko": "late to class도 실제로 쓰이는 표현이라 문장이 성립한다."
+        }
+      ]
     },
     {
       "tag_id": "ead7b23e-d6af-49e6-9736-7ce8607f67bd",
@@ -92,13 +83,19 @@
       "span_end": 133,
       "correct": "somebody else",
       "wrong": [
-        "else somebody",
-        "anybody else"
+        "else somebody"
       ],
       "why_ko": "else는 somebody 뒤에 오고, 긍정문이라 somebody가 맞아요.",
       "rationale": "부정대명사 somebody는 else의 수식을 뒤에서 받는다(후치). else somebody 어순 오류나 부정문이 아닌데 anybody를 쓰는 오답을 유도할 수 있다.",
       "sentence_no": 4,
-      "sentence": "I’ll ask somebody else."
+      "sentence": "I’ll ask somebody else.",
+      "verify_dropped": [
+        {
+          "wrong": "anybody else",
+          "judgement": "ok",
+          "note_ko": "문법상 문제 없는 표현이다."
+        }
+      ]
     },
     {
       "tag_id": "ad49491b-86fc-4984-bb36-bc22777b94bf",
@@ -107,43 +104,19 @@
       "span_end": 166,
       "correct": "are you doing",
       "wrong": [
-        "do you do",
         "are you do"
       ],
       "why_ko": "지금 하고 있는 일을 묻는 현재진행형은 be동사+-ing예요.",
       "rationale": "현재 눈앞의 동작을 묻는 현재진행형(be+-ing). do you do / are you do 같은 형태 오류를 유도할 수 있다.",
       "sentence_no": 6,
-      "sentence": "What are you doing here?"
-    },
-    {
-      "tag_id": "d4db44b0-03f1-4648-8b46-e16e695611f9",
-      "point": "VERB_TENSE",
-      "span_start": 186,
-      "span_end": 198,
-      "correct": "I’m plogging",
-      "wrong": [
-        "I plog",
-        "I plogged"
-      ],
-      "why_ko": "지금 하는 중이라는 답이므로 현재진행형으로 맞춰요.",
-      "rationale": "질문(현재진행)에 대응하는 현재진행 응답. I plog / I plogged 로 바꿔 시제 일치를 묻기 쉽다.",
-      "sentence_no": 8,
-      "sentence": "I’m plogging with my club members."
-    },
-    {
-      "tag_id": "ac1467dd-37fe-42c6-8bb2-ad2647ee8202",
-      "point": "PREP_USAGE",
-      "span_start": 199,
-      "span_end": 219,
-      "correct": "with my club members",
-      "wrong": [
-        "by my club members",
-        "for my club members"
-      ],
-      "why_ko": "'~와 함께'라는 동반의 뜻은 with로 나타내요.",
-      "rationale": "'~와 함께'를 뜻하는 동반의 with. by / for 로 바꾼 선지를 만들거나 빈칸으로 뚫기 쉬운 자리.",
-      "sentence_no": 8,
-      "sentence": "I’m plogging with my club members."
+      "sentence": "What are you doing here?",
+      "verify_dropped": [
+        {
+          "wrong": "do you do",
+          "judgement": "ok",
+          "note_ko": "What do you do here?도 올바른 문장이다."
+        }
+      ]
     },
     {
       "tag_id": "8b664baa-d126-43fe-ba07-50982264367d",
@@ -236,21 +209,6 @@
       "sentence": "We plog together every Saturday morning from 10 to 12."
     },
     {
-      "tag_id": "964a6d52-a98d-4d4a-acdf-4be7d6e8e1d1",
-      "point": "VOICE_ACTIVE_PASSIVE",
-      "span_start": 422,
-      "span_end": 433,
-      "correct": "Interested?",
-      "wrong": [
-        "Interesting?",
-        "Interest?"
-      ],
-      "why_ko": "사람이 관심을 느끼는 것이므로 과거분사형 interested를 써요.",
-      "rationale": "Are you interested?의 생략형. 감정동사는 사람 주어일 때 과거분사형(be interested)을 쓰므로 interesting 과 구별시키는 출제 지점.",
-      "sentence_no": 16,
-      "sentence": "Interested?"
-    },
-    {
       "tag_id": "b36f6dda-80be-4d3a-aa27-4c2b61f69bcd",
       "point": "VERB_PREP_COLLOCATION",
       "span_start": 448,
@@ -341,21 +299,6 @@
       "sentence": "G: Dad, can you please fix my bag?"
     },
     {
-      "tag_id": "f2eecd75-154c-4a4e-96bf-c62485139ec4",
-      "point": "VERB_TENSE",
-      "span_start": 603,
-      "span_end": 621,
-      "correct": "I’m cooking dinner",
-      "wrong": [
-        "I cook dinner",
-        "I cooked dinner"
-      ],
-      "why_ko": "지금 하고 있는 일이라 현재진행형으로 말해요.",
-      "rationale": "지금 하고 있는 일을 나타내는 현재진행형. I cook / I cooked 로 바꾸면 '지금 바쁘다'는 거절 이유와 어긋난다.",
-      "sentence_no": 25,
-      "sentence": "I’m cooking dinner."
-    },
-    {
       "tag_id": "042dc854-b61b-4810-839b-cd78e22d744a",
       "point": "VERB_MODAL_USAGE",
       "span_start": 643,
@@ -369,57 +312,50 @@
       "rationale": "의문사 when + 조동사 can + 주어 + 동사원형의 어순. when you can fix it / when can you fixing it 같은 어순·형태 오류를 유도할 수 있다.",
       "sentence_no": 27,
       "sentence": "Then, when can you fix it?"
-    },
-    {
-      "tag_id": "2cb7d436-b6e8-462a-abad-377e8daa6b42",
-      "point": "PRON_AGREEMENT",
-      "span_start": 656,
-      "span_end": 662,
-      "correct": "fix it",
-      "wrong": [
-        "fix them",
-        "fix one"
-      ],
-      "why_ko": "앞의 my bag(단수)을 가리키므로 it이 맞아요.",
-      "rationale": "it이 앞 문장의 my bag을 받는 대명사. them / one 등으로 바꾸면 수·지시 대상이 어긋난다.",
-      "sentence_no": 27,
-      "sentence": "Then, when can you fix it?"
-    },
-    {
-      "tag_id": "fe3e9c87-4346-420e-a5fa-fbb731ec9146",
-      "point": "VERB_TENSE",
-      "span_start": 667,
-      "span_end": 696,
-      "correct": "I’ll do it right after dinner",
-      "wrong": [
-        "I do it right after dinner",
-        "I did it right after dinner"
-      ],
-      "why_ko": "저녁 후에 하겠다는 미래의 약속이라 will을 써요.",
-      "rationale": "미래 의지를 나타내는 will. I do / I did 로 바꾸면 '저녁 후에 하겠다'는 미래 약속이 성립하지 않는다.",
-      "sentence_no": 28,
-      "sentence": "M: I’ll do it right after dinner."
-    },
-    {
-      "tag_id": "50d569be-19d4-47b3-9d73-3c58875cea21",
-      "point": "PREP_USAGE",
-      "span_start": 684,
-      "span_end": 696,
-      "correct": "after dinner",
-      "wrong": [
-        "before dinner",
-        "during dinner"
-      ],
-      "why_ko": "지금 요리 중이니 저녁을 먹은 '뒤'라는 after가 맞아요.",
-      "rationale": "시간 전치사 after. before / during 으로 바꾸면 대화 흐름(저녁 요리 중 → 저녁 후)과 모순된다. 전치사 삭제 유도도 가능.",
-      "sentence_no": 28,
-      "sentence": "M: I’ll do it right after dinner."
     }
   ],
   "diagnostics": {
     "returned": 27,
     "kept": 27,
     "given": 27,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "I’ll ask",
+          "모든 오답이 실은 맞는 표현이라 버림: I asked(ok), I’m asking(ok)"
+        ],
+        [
+          "I’m plogging",
+          "모든 오답이 실은 맞는 표현이라 버림: I plog(ok), I plogged(ok)"
+        ],
+        [
+          "with my club members",
+          "모든 오답이 실은 맞는 표현이라 버림: by my club members(odd), for my club members(odd)"
+        ],
+        [
+          "Interested?",
+          "모든 오답이 실은 맞는 표현이라 버림: Interesting?(ok), Interest?(odd)"
+        ],
+        [
+          "I’m cooking dinner",
+          "모든 오답이 실은 맞는 표현이라 버림: I cook dinner(ok), I cooked dinner(ok)"
+        ],
+        [
+          "fix it",
+          "모든 오답이 실은 맞는 표현이라 버림: fix them(ok), fix one(ok)"
+        ],
+        [
+          "I’ll do it right after dinner",
+          "모든 오답이 실은 맞는 표현이라 버림: I do it right after dinner(ok), I did it right after dinner(ok)"
+        ],
+        [
+          "after dinner",
+          "모든 오답이 실은 맞는 표현이라 버림: before dinner(ok), during dinner(ok)"
+        ]
+      ],
+      "dropped_wrongs": 3
+    }
+  },
+  "verified": true
 }

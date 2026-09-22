@@ -77,7 +77,8 @@
       "_evidence_text": [
         "M: Can you please carry this box to my car?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The father asks his daughter to take the box out to his car."
     },
     {
       "type": "content",
@@ -90,7 +91,8 @@
       "_evidence_text": [
         "G: I’m really sorry, Dad, but I’m late for my class."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl says she cannot help because she is late for her class."
     },
     {
       "type": "content",
@@ -103,7 +105,8 @@
       "_evidence_text": [
         "M: Oh, I see."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The father gets angry when his daughter says no to him."
     },
     {
       "type": "content",
@@ -116,7 +119,8 @@
       "_evidence_text": [
         "I’ll ask somebody else."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The father says he will move the box by himself in the end."
     },
     {
       "type": "content",
@@ -129,7 +133,8 @@
       "_evidence_text": [
         "B: Hi, Yuna."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy is the first one to say hello to Yuna."
     },
     {
       "type": "content",
@@ -142,7 +147,8 @@
       "_evidence_text": [
         "What are you doing here?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna is the first one to ask the boy what he is doing there."
     },
     {
       "type": "content",
@@ -155,7 +161,8 @@
       "_evidence_text": [
         "G: Hi, Alex."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy's name is Alex."
     },
     {
       "type": "content",
@@ -168,7 +175,8 @@
       "_evidence_text": [
         "I’m plogging with my club members."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna is doing plogging alone, without anyone else."
     },
     {
       "type": "content",
@@ -181,7 +189,8 @@
       "_evidence_text": [
         "B: Excuse me?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Alex already knows the word \"plogging\" very well."
     },
     {
       "type": "content",
@@ -194,7 +203,8 @@
       "_evidence_text": [
         "G: Plogging."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna says the word \"plogging\" one more time for Alex."
     },
     {
       "type": "content",
@@ -207,7 +217,8 @@
       "_evidence_text": [
         "It means jogging and picking up trash at the same time."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Plogging means picking up trash while you are jogging."
     },
     {
       "type": "content",
@@ -220,7 +231,8 @@
       "_evidence_text": [
         "B: Sounds cool!"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Alex answers that plogging sounds cool."
     },
     {
       "type": "content",
@@ -233,7 +245,8 @@
       "_evidence_text": [
         "So you’re a member of a plogging club."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Alex says that he is a member of a plogging club."
     },
     {
       "type": "content",
@@ -246,7 +259,8 @@
       "_evidence_text": [
         "G: Yes."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna says it is not true that she is a club member."
     },
     {
       "type": "content",
@@ -259,7 +273,8 @@
       "_evidence_text": [
         "We plog together every Saturday morning from 10 to 12."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The club members plog together every Sunday morning."
     },
     {
       "type": "content",
@@ -272,7 +287,8 @@
       "_evidence_text": [
         "Interested?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna asks Alex if he is interested in it."
     },
     {
       "type": "content",
@@ -285,7 +301,8 @@
       "_evidence_text": [
         "B: Well, I’ll think about it."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Alex says right away that he will join the club."
     },
     {
       "type": "content",
@@ -298,7 +315,8 @@
       "_evidence_text": [
         "G: OK."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna answers \"OK\" to what Alex says."
     },
     {
       "type": "content",
@@ -311,7 +329,8 @@
       "_evidence_text": [
         "By the way, can you please help me with this trash bag?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna asks Alex to help her with the trash bag."
     },
     {
       "type": "content",
@@ -324,7 +343,8 @@
       "_evidence_text": [
         "It’s heavy."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna says that the trash bag is light."
     },
     {
       "type": "content",
@@ -337,7 +357,8 @@
       "_evidence_text": [
         "B: Sure."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Alex says no to Yuna's request for help."
     },
     {
       "type": "content",
@@ -350,7 +371,8 @@
       "_evidence_text": [
         "No problem."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Alex adds that it is no problem."
     },
     {
       "type": "content",
@@ -363,7 +385,8 @@
       "_evidence_text": [
         "G: Dad, can you please fix my bag?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna asks her father to fix her bag."
     },
     {
       "type": "content",
@@ -376,7 +399,8 @@
       "_evidence_text": [
         "M: Now?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The father asks back, \"Now?\""
     },
     {
       "type": "content",
@@ -389,7 +413,8 @@
       "_evidence_text": [
         "I’m cooking dinner."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The father is washing the dishes at that moment."
     },
     {
       "type": "content",
@@ -402,7 +427,8 @@
       "_evidence_text": [
         "G: Oh, I see."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "After hearing her father's answer, Yuna says she understands."
     },
     {
       "type": "content",
@@ -415,7 +441,8 @@
       "_evidence_text": [
         "Then, when can you fix it?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "Yuna asks her father when he can fix it."
     },
     {
       "type": "content",
@@ -428,7 +455,8 @@
       "_evidence_text": [
         "M: I’ll do it right after dinner."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The father says he will fix the bag before dinner."
     }
   ],
   "diagnostics": {

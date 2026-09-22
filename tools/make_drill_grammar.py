@@ -75,11 +75,14 @@ UNITS = [
     ("중1 L7 대화 ⑦⑧", ["중1 L7 대화-7", "중1 L7 대화-8"]),
     ("중1 L7 본문 — Let’s Make a Movie!", ["중1 L7 본문 — Let’s Make a Movie!"]),
     ("중1 L7 외부지문 — Two Different Jobs", ["Two Different Jobs"]),
+    # 태장 L6 외부지문 — 영덕과 같은 Hulbert 지문이지만 두 문장이 다르다 (2026-09-23).
+    ("L6 외부지문 — Homer B. Hulbert (태장)", ["Homer B. Hulbert (태장)"]),
 ]
 EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부물",
             "L6 외부지문 — Yu Gwansun": "영덕중 배부물",
             "L6 외부지문 — Homer B. Hulbert": "영덕중 배부물",
-            "중1 L7 외부지문 — Two Different Jobs": "영일중 배부물"}
+            "중1 L7 외부지문 — Two Different Jobs": "영일중 배부물",
+            "L6 외부지문 — Homer B. Hulbert (태장)": "태장중 배부물"}
 
 
 def slug(title):

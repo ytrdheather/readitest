@@ -1,0 +1,231 @@
+{
+  "book": "태장중 배부물",
+  "unit": "L6 외부지문 — Homer B. Hulbert (태장)",
+  "parts": [
+    "Homer B. Hulbert (태장)"
+  ],
+  "passage_ids": [
+    "1011ae43-4de0-427e-8cbd-f96376d08ada"
+  ],
+  "para_breaks": [
+    13
+  ],
+  "turn_breaks": [
+    13
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea.",
+    "He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom.",
+    "Hulbert noticed that the Korean writing system, Hangeul, was logical and easy for ordinary people to learn.",
+    "While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply.",
+    "He believed that promoting Hangeul and Korean culture could make the people stronger.",
+    "When Japan began taking control of Korea, Hulbert didn't keep quiet.",
+    "He wrote in international newspapers to say Korea should be free.",
+    "He also traveled to the U.S. and Europe to tell people about Korea and ask for independence.",
+    "His actions made him a trusted friend to many Koreans.",
+    "Even after he left Korea, Hulbert continued to help the Korean independence movement.",
+    "He returned to Korea in his later years and died in Seoul in 1949.",
+    "Today, he is remembered as a foreigner who loved Korea with deep respect.",
+    "Hulbert's story teaches us that true friendship and love can go beyond national borders."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "Homer B. Hulbert는 한국의 미래를 진심으로 믿었던 미국인 교육자이자 작가, 선교사였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에 미국인 교육자·작가·선교사로 한국의 미래를 믿었다고 나온다.",
+      "_evidence_text": [
+        "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea."
+      ],
+      "_repeat": false,
+      "statement_en": "Homer B. Hulbert, an American teacher, writer, and missionary, had real faith in Korea's future."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 1900년대 중반에 처음 한국에 와서 왕립 학교에서 가르쳤다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "처음 한국에 온 것은 1800년대 후반이다.",
+      "_evidence_text": [
+        "He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom."
+      ],
+      "_repeat": false,
+      "statement_en": "He arrived in Korea for the first time in the middle of the 1900s and taught at a royal school."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Hulbert는 한글이 논리적이고 보통 사람들이 배우기 쉬운 문자라는 점을 알아보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장과 일치한다.",
+      "_evidence_text": [
+        "Hulbert noticed that the Korean writing system, Hangeul, was logical and easy for ordinary people to learn."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert saw that Hangeul made sense and that common people could learn it without difficulty."
+    },
+    {
+      "type": "content",
+      "statement_ko": "당시 많은 서양인들도 한글에 큰 관심을 보이며 연구했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "많은 서양인은 한글에 관심이 없었고, Hulbert만이 한글을 칭찬하고 깊이 연구했다.",
+      "_evidence_text": [
+        "While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply."
+      ],
+      "_repeat": false,
+      "statement_en": "Back then, many Westerners were also very interested in Hangeul and studied it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한글과 한국 문화를 알리는 일이 사람들을 더 강하게 만들 수 있다고 믿었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번 문장과 일치한다.",
+      "_evidence_text": [
+        "He believed that promoting Hangeul and Korean culture could make the people stronger."
+      ],
+      "_repeat": false,
+      "statement_en": "In his opinion, sharing Hangeul and Korean culture with others could make the people stronger."
+    },
+    {
+      "type": "content",
+      "statement_ko": "일본이 한국을 지배하기 시작했을 때 Hulbert는 조용히 침묵을 지켰다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "그는 침묵하지 않았다(didn't keep quiet).",
+      "_evidence_text": [
+        "When Japan began taking control of Korea, Hulbert didn't keep quiet."
+      ],
+      "_repeat": false,
+      "statement_en": "Hulbert said nothing and stayed silent when Japan started to take control of Korea."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 한국이 자유로워야 한다고 국제 신문에 글을 썼다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장과 일치한다.",
+      "_evidence_text": [
+        "He wrote in international newspapers to say Korea should be free."
+      ],
+      "_repeat": false,
+      "statement_en": "He put his opinion that Korea should be free into newspapers around the world."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 유럽에는 가지 않고 미국 안에서만 한국의 독립을 호소했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "미국뿐 아니라 유럽에도 가서 한국을 알리고 독립을 요청했다.",
+      "_evidence_text": [
+        "He also traveled to the U.S. and Europe to tell people about Korea and ask for independence."
+      ],
+      "_repeat": false,
+      "statement_en": "He never went to Europe and asked for Korea's independence only inside the U.S."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그의 행동 때문에 많은 한국인들은 오히려 그를 믿지 못했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "그의 행동으로 많은 한국인에게 믿을 수 있는 친구가 되었다.",
+      "_evidence_text": [
+        "His actions made him a trusted friend to many Koreans."
+      ],
+      "_repeat": false,
+      "statement_en": "Because of the things he did, many Koreans actually could not trust him."
+    },
+    {
+      "type": "content",
+      "statement_ko": "한국을 떠난 뒤에는 한국 독립운동을 돕는 일을 그만두었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "떠난 뒤에도 독립운동을 계속 도왔다.",
+      "_evidence_text": [
+        "Even after he left Korea, Hulbert continued to help the Korean independence movement."
+      ],
+      "_repeat": false,
+      "statement_en": "After he left Korea, he stopped helping the Korean independence movement."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그는 노년에 한국으로 돌아왔고 1949년 서울에서 세상을 떠났다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번 문장과 일치한다.",
+      "_evidence_text": [
+        "He returned to Korea in his later years and died in Seoul in 1949."
+      ],
+      "_repeat": false,
+      "statement_en": "When he was old, he came back to Korea, and he passed away in Seoul in 1949."
+    },
+    {
+      "type": "content",
+      "statement_ko": "오늘날 그는 깊은 존경심으로 한국을 사랑한 외국인으로 기억된다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "12번 문장과 일치한다.",
+      "_evidence_text": [
+        "Today, he is remembered as a foreigner who loved Korea with deep respect."
+      ],
+      "_repeat": false,
+      "statement_en": "People today remember him as a foreigner who loved Korea with deep respect."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 Hulbert의 이야기가 참된 우정과 사랑이 국경을 넘을 수 있음을 가르쳐 준다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "13번 문장과 일치한다.",
+      "_evidence_text": [
+        "Hulbert's story teaches us that true friendship and love can go beyond national borders."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer says Hulbert's story shows us that real friendship and love can cross the borders between countries."
+    }
+  ],
+  "diagnostics": {
+    "returned": 13,
+    "kept": 13,
+    "by_type": {
+      "content": 13
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 7,
+      "X": 6
+    },
+    "sentences_covered": 13,
+    "sentence_count": 13,
+    "repeated": 0
+  }
+}

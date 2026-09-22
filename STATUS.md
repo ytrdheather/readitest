@@ -16,26 +16,24 @@
 >
 > **형태 드릴** `동아윤정미 중1 5과 어법드릴.pdf` 240문항 (비교급·최상급·There is/are). 모델 미사용. `make_form_drill`.
 >
-> # ⛔ 2026-09-23 **API 크레딧 소진으로 두 작업이 중간에 멈췄다** — 충전 후 아래만 돌리면 끝난다
+> # ✅ 2026-09-23 영덕중1 6과 · 태장중2 6과(외부지문) 둘 다 완료
 >
-> console.anthropic.com → Plans & Billing. **$10 이면 남은 것 전부 + 여유.** (구독 크레딧과 다른 지갑이다)
+>     result/readitude/영덕중1 6과 리디튜드 자체드릴.pdf      22쪽 · 13세트 (정답지 24쪽)
+>     result/readitude/태장중2 6과 리디튜드 자체드릴.pdf      41쪽 · 20세트 (정답지 45쪽)
 >
-> **① 영덕중1 6과 드릴** — 태깅·어법 4세트·내용 3세트까지 됐다. 남은 것:
+> 태장은 외부지문 「Homer B. Hulbert」가 붙어 6과 권이 39 → 41쪽. 어휘가 둘이다 —
+> 교과서 공용 24개 + **외부지문 전용 16개**(학교 영영풀이 전부 인쇄본).
+> 영덕 판과 두 문장이 다르므로 (easy for ordinary people to learn / go beyond national borders)
+> 영덕 레코드는 그대로 두고 태장용 새 레코드를 썼다. 태장 L6 학습지는 **중2** 것이다.
 >
->     python tools/make_drill_tf.py --unit "중1 L6 본문 — Join the Zero-Waste Challenge" --title "중1 L6 본문 — Join the Zero-Waste Challenge" --book "동아 윤정미 중1" --run
->     python tools/verify_drill_grammar.py --run          # 본문 세트가 미검수로 남았다
->     python tools/make_drill_en.py data/generated/drills/중1_L6_*.tf.json --run
->     python tools/build_school_drills.py --school 영덕중  # → 영덕중1 6과 리디튜드 자체드릴.pdf
+> ## 🔧 조용히 틀리고 있던 것 두 가지를 잡았다
 >
-> **② 태장중2 L6 외부지문 「Homer B. Hulbert」** — 확정·적재·태깅(19)·010 까지 됐다. 남은 것:
+> **① PostgREST 는 한 번에 1000행만 준다.** `passage_tag` 가 1060행이 되자 도구들이 앞 1000행만
+> 보고 「이 지문은 태그가 없다」고 오판했다. `pipeline/supabase.Rest.get()` 이 이제 끝까지 이어 읽는다.
+> 다른 도구(`check_ingest` · `make_drill_*`)도 같은 함수를 쓰므로 같이 고쳐졌다.
 >
->     # make_drill_grammar.UNITS · make_drill_tf 에 '태장 Hulbert' 를 넣어야 한다 (아직 안 넣음)
->     # build_school_drills.EXTERNAL 에 {"Homer B. Hulbert (태장)": ["태장중"]} 추가
->     python tools/make_drill_vocab.py --set 태장중2_L6   # SETS 에 추가 필요
->
-> 영덕 판과 **두 문장이 다르다** (easy for ordinary people to learn / go beyond national borders).
-> 영덕 레코드는 그대로 두고 태장용 새 레코드를 만들었다 (설계원칙 7 · 원장 판단 2026-09-23).
-> 태장 L6 학습지는 **중2** 것이었다 — 원장이 「태장 6과」라 했으나 Lesson 6 The Greatest Love for All · 지각동사.
+> **② 그 오판으로 태장 태그가 세 번 적재됐다** (고유 19 × 3 = 57행). 원장 승인 후 늦게 들어온
+> 38행만 DELETE 했다 (16:42·16:43 분 것, 16:34 분 19행은 남김). 다른 지문·테이블은 건드리지 않았다.
 
 > **6과** 원장 대조 완료 「확인끝 괜찮다」 → confirm → 008 → pass-a → 010 **까지 됐다** (2026-09-21 밤, 컴퓨터 끄기 전).
 > **내일 이어서 (순서대로, 각 한 줄)**:

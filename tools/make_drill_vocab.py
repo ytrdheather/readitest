@@ -115,6 +115,10 @@ SETS = {
                   ["영덕중1_L5_vocab_handout"], "중1_L5_vocab", None),
     "영덕중1_L6": ("동아 윤정미 중1 L6 어휘 — 영덕",
                   ["영덕중1_L6_vocab_handout"], "중1_L6_vocab", None),
+    # 교과서 어휘(영덕_L6, 네 학교 공용)와 **다른 세트**다 — 이쪽은 외부지문 전용 16개.
+    # 태장 6과 권에는 둘 다 들어간다.
+    "태장중2_L6": ("L6 외부지문 어휘 — 태장 Hulbert 16",
+                  ["태장중2_L6_vocab_handout"], "L6_vocab", None),
     "영일중1_L7": ("동아 윤정미 중1 L7 어휘 — 영일",
                   ["영일중1_L7_vocab_handout"], "중1_L7_vocab", None),
 }

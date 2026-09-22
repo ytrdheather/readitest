@@ -34,8 +34,23 @@ class Rest:
             detail = e.read().decode("utf-8", "replace")[:500]
             raise SystemExit(f"\n  X  {method} {path} → HTTP {e.code}\n     {detail}")
 
-    def get(self, path):
-        return self._call("GET", path)
+    def get(self, path, page=1000):
+        """PostgREST 는 한 번에 최대 1000행만 준다. **끝까지 이어서 읽는다.**
+
+        2026-09-23: passage_tag 가 1060행이 되자 도구들이 앞 1000행만 보고
+        「이 지문은 이미 태그가 있다/없다」를 잘못 판정했다. 태장 Hulbert 태그 19개가
+        실제로는 들어가 있는데 0개로 보였다. 조용히 틀리는 종류라 여기서 막는다.
+        """
+        if "offset=" in path:
+            return self._call("GET", path)          # 호출자가 직접 페이지를 잡은 경우
+        out, off = [], 0
+        while True:
+            sep = "&" if "?" in path else "?"
+            chunk = self._call("GET", f"{path}{sep}offset={off}&limit={page}")
+            out += chunk
+            if len(chunk) < page:
+                return out
+            off += page
 
     def insert(self, table, rows, on_conflict=None):
         if not rows:

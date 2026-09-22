@@ -48,7 +48,8 @@
       "_evidence_text": [
         "G: I’d like a banana smoothie, please."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl asked for a smoothie made with bananas."
     },
     {
       "type": "content",
@@ -61,7 +62,8 @@
       "_evidence_text": [
         "M: For here or to go?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The man wanted to know if she would eat there or take it away."
     },
     {
       "type": "content",
@@ -74,7 +76,8 @@
       "_evidence_text": [
         "G: For here, please."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl said she would take the drink out with her."
     },
     {
       "type": "content",
@@ -87,7 +90,8 @@
       "_evidence_text": [
         "And can you please put it in a plastic cup, not in a glass?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl asked the man to serve her drink in a glass."
     },
     {
       "type": "content",
@@ -100,7 +104,8 @@
       "_evidence_text": [
         "G: I’m so hungry, but there’s no food at home."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl said she was very hungry and there was nothing to eat at home."
     },
     {
       "type": "content",
@@ -113,7 +118,8 @@
       "_evidence_text": [
         "B: I know."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy had no idea that there was no food in the house."
     },
     {
       "type": "content",
@@ -126,7 +132,8 @@
       "_evidence_text": [
         "Let’s eat out."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy suggested that they go out and eat."
     },
     {
       "type": "content",
@@ -139,7 +146,8 @@
       "_evidence_text": [
         "G: I’m sorry, but I don’t want to go out now."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl does not feel like going outside right now."
     },
     {
       "type": "content",
@@ -152,7 +160,8 @@
       "_evidence_text": [
         "Can you please go to a restaurant and pick up some food?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl asked the boy to get some food from a restaurant and bring it home."
     },
     {
       "type": "content",
@@ -165,7 +174,8 @@
       "_evidence_text": [
         "B: Sure."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy said no to what the girl asked him to do."
     },
     {
       "type": "content",
@@ -178,7 +188,8 @@
       "_evidence_text": [
         "No problem."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy gladly agreed, saying it was no problem."
     }
   ],
   "diagnostics": {

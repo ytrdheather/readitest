@@ -62,7 +62,8 @@
       "_evidence_text": [
         "W: Excuse me, but can you please close the door?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The woman asks the boy to shut the door."
     },
     {
       "type": "content",
@@ -75,7 +76,8 @@
       "_evidence_text": [
         "The air conditioner is on."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The woman wants the door closed because the heater is running."
     },
     {
       "type": "content",
@@ -88,7 +90,8 @@
       "_evidence_text": [
         "B: Oh, I didn’t know that."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy already knew that the air conditioner was on."
     },
     {
       "type": "content",
@@ -101,7 +104,8 @@
       "_evidence_text": [
         "I’ll close it right away."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy says he will close the door at once."
     },
     {
       "type": "content",
@@ -114,7 +118,8 @@
       "_evidence_text": [
         "W: Thanks."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The woman says thank you to the boy."
     },
     {
       "type": "content",
@@ -127,7 +132,8 @@
       "_evidence_text": [
         "M: For here or to go?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The man working at the café asks whether she will eat there or take it away."
     },
     {
       "type": "content",
@@ -140,7 +146,8 @@
       "_evidence_text": [
         "G: For here, please."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl answers that she will take her drink out."
     },
     {
       "type": "content",
@@ -153,7 +160,8 @@
       "_evidence_text": [
         "And can you please put my smoothie in a plastic cup, not in a glass?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The girl asks the man to put her smoothie in a glass."
     },
     {
       "type": "content",
@@ -166,7 +174,8 @@
       "_evidence_text": [
         "M: I’m sorry, but we don’t use single-use plastic cups inside the café."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The man says that they do use single-use plastic cups inside the café."
     },
     {
       "type": "content",
@@ -179,7 +188,8 @@
       "_evidence_text": [
         "G: Oh, I see."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "After hearing the man's reason, the girl accepts it and says okay."
     },
     {
       "type": "content",
@@ -192,7 +202,8 @@
       "_evidence_text": [
         "W: Look."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "In the third talk, it is the woman who speaks first and says \"Look.\""
     },
     {
       "type": "content",
@@ -205,7 +216,8 @@
       "_evidence_text": [
         "Somebody forgot to turn off the water."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The woman says that someone did not turn off the light."
     },
     {
       "type": "content",
@@ -218,7 +230,8 @@
       "_evidence_text": [
         "B: Again?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy says \"Again?\", which shows this has happened before."
     },
     {
       "type": "content",
@@ -231,7 +244,8 @@
       "_evidence_text": [
         "People are so forgetful."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The woman is the one who says that people forget things so easily."
     },
     {
       "type": "content",
@@ -244,7 +258,8 @@
       "_evidence_text": [
         "W: I know."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The woman agrees with what the boy says."
     },
     {
       "type": "content",
@@ -257,7 +272,8 @@
       "_evidence_text": [
         "Can you run over there and turn off the water?"
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy asks the woman to go and turn off the water."
     },
     {
       "type": "content",
@@ -270,7 +286,8 @@
       "_evidence_text": [
         "B: Sure."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy gladly says yes to the request."
     },
     {
       "type": "content",
@@ -283,7 +300,8 @@
       "_evidence_text": [
         "No problem."
       ],
-      "_repeat": false
+      "_repeat": false,
+      "statement_en": "The boy adds that it is no problem at all."
     }
   ],
   "diagnostics": {

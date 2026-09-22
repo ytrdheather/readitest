@@ -77,6 +77,7 @@ EXTERNAL = {
     "Yu Gwansun": ["영덕중"],
     "Hulbert": ["영덕중"],          # DB 제목은 "Homer B. Hulbert" — 가운데 이니셜 때문에 성만 맞춘다
     "Two Different Jobs": ["영일중"],        # 중1 L7
+    "Homer B. Hulbert (태장)": ["태장중"],    # 영덕 판과 두 문장이 다른 태장 전용 (2026-09-23)
 }
 
 # 학교 × 학년 → 시험 범위 과. 없으면 지문이 있는 과를 다 뽑는다 (중2 는 네 학교 다 5·6).
@@ -150,7 +151,9 @@ def plan_for(school, G, L, passages, vocab):
         units.sort(key=lambda uv: passage_rank(uv[1]["drills"]))
         for unit, v in units:
             if sec_kind == "handout_external":
-                owners = [s for t, ss in EXTERNAL.items() if t in unit for s in ss]
+                # 'Hulbert' 는 태장 제목에도 들어 있다. 가장 긴 키 하나만 쓴다.
+                hit = sorted((t for t in EXTERNAL if t in unit), key=len, reverse=True)
+                owners = EXTERNAL[hit[0]] if hit else []
                 if not owners:
                     print(f"  ! 외부지문 주인을 모른다 — EXTERNAL 에 적을 것: {unit}")
                     continue
