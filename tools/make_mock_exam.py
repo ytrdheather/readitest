@@ -40,7 +40,24 @@ BP1 = os.path.join(ROOT, "data", "stage0", "mock_exam_blueprint_중1.json")     
 OUT = os.path.join(ROOT, "data", "generated", "mock")
 
 # 세트마다 지문 묶음을 갈아 준다. 같은 지문 세 번이면 암기 확인이 된다.
-# 중1 5과 — 본문 하나뿐이라 세트마다 본문은 같고 대화 묶음을 돌린다. 6과가 확정되면 섞는다.
+# 중1 5·6·7과 혼합 — 2025 기말은 두 학교 다 세 과를 한 시험에 냈다 (기출 판독).
+# 세트마다 본문 2편 + 대화 묶음을 돌려 같은 지문이 반복되지 않게 한다.
+SET_PASSAGES_567 = {
+    1: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+        ("L6 본문", ["중1 L6 본문 — Join the Zero-Waste Challenge"]),
+        ("L6 대화 ①②③", ["중1 L6 대화-1", "중1 L6 대화-2", "중1 L6 대화-3"]),
+        ("L7 대화 ①②③", ["중1 L7 대화-1", "중1 L7 대화-2", "중1 L7 대화-3"])],
+    2: [("L7 본문", ["중1 L7 본문 — Let’s Make a Movie!"]),
+        ("L6 본문", ["중1 L6 본문 — Join the Zero-Waste Challenge"]),
+        ("L5 대화 ④⑤⑥", ["중1 L5 대화-4", "중1 L5 대화-5", "중1 L5 대화-6"]),
+        ("L6 대화 ④⑤⑥", ["중1 L6 대화-4", "중1 L6 대화-5", "중1 L6 대화-6"])],
+    3: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+        ("L7 본문", ["중1 L7 본문 — Let’s Make a Movie!"]),
+        ("L7 대화 ④⑤⑥", ["중1 L7 대화-4", "중1 L7 대화-5", "중1 L7 대화-6"]),
+        ("L5 대화 ⑦⑧", ["중1 L5 대화-7", "중1 L5 대화-8"])],
+}
+
+# 중1 5과만 — 본문 하나뿐이라 세트마다 본문은 같고 대화 묶음을 돌린다.
 SET_PASSAGES_1 = {
     1: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
         ("L5 대화 ①②③", ["중1 L5 대화-1", "중1 L5 대화-2", "중1 L5 대화-3"]),
@@ -133,10 +150,15 @@ def main():
     ap.add_argument("--run", action="store_true")
     ap.add_argument("--grade", type=int, default=2, choices=[1, 2],
                     help="1 이면 중1 설계도·지문 묶음을 쓴다")
+    ap.add_argument("--lessons", default="567", choices=["5", "567"],
+                    help="중1 지문 범위. 기본 567 (2025 기말이 세 과를 섞었다)")
     a = ap.parse_args()
 
     bp = json.load(io.open(BP1 if a.grade == 1 else BP, encoding="utf-8"))
-    passage_sets = SET_PASSAGES_1 if a.grade == 1 else SET_PASSAGES
+    if a.grade == 1:
+        passage_sets = SET_PASSAGES_1 if a.lessons == "5" else SET_PASSAGES_567
+    else:
+        passage_sets = SET_PASSAGES
     tag = "중1_" if a.grade == 1 else ""
     schools = list(bp["schools"]) if a.all else ([a.school] if a.school else [])
     if not schools:
