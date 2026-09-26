@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L4_대화6",
+  "kind": "textbook_dialogue",
+  "title": "중1 L4 대화-6",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 4",
+  "source_type": "교과서",
+  "body_text": "A: What are you going to do this summer?\nB: I’m going to go to Brazil.\nA: What are you going to do there?\nB: I’m going to see the Iguassu Falls. I’m looking forward to it.",
+  "body_text_sha256": "2ec4f5f3897a3a69ecaf183456dbe1d112e442212c72dfa37cd2cf3118ea5b65",
+  "word_count": 37,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(22개정)특급기출 중학 영어(윤) 1-1(25)본책_출력방지.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Talk and Play",
+  "textbook_page": 62,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "A",
+      "text": "What are you going to do this summer?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "I’m going to go to Brazil."
+    },
+    {
+      "no": 3,
+      "speaker": "A",
+      "text": "What are you going to do there?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "I’m going to see the Iguassu Falls. I’m looking forward to it."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

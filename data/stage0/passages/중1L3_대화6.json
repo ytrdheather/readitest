@@ -1,0 +1,115 @@
+{
+  "passage_id": "중1L3_대화6",
+  "kind": "textbook_dialogue",
+  "title": "중1 L3 대화-6",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 3",
+  "source_type": "교과서",
+  "body_text": "W: You don’t , Alex. What’s ?\nB: Sumin and I a project for the .\nW: I know. It was . Right?\nB: Yes. The fair was yesterday, and we didn’t prizes.\nW: Oh, I’m .\nB: I’m , Mom. We worked really for it.\nW: , Alex. You .\nB: \u0007Yeah, and we learned about green energy, too. Thanks, Mom.\nW: 안색이 안 좋아 보이는구나, Alex. 무슨\nB: 수민이와 제가 과학 박람회 프로젝트를 진\nW: 알아. 친환경 에너지에 관한 거였잖아. 그\nB: 맞아요. 박람회가 어제였는데, 저희는 아무\nW: 오, 유감이구나.\nB: 정말 슬퍼요, 엄마. 우리는 정말 열심히 준\nW: 힘내, Alex. 너희는 최선을 다했잖아.\nB: 네, 그래도 우리는 친환경 에너지에 대해 Review -1",
+  "body_text_sha256": "3c0494e13879ae02eb5a102bc976d1babc0f6575b51aabf31b1f15e37112cb6b",
+  "word_count": 65,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(22개정)특급기출 중학 영어(윤) 1-1(25)본책_출력방지.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk C",
+  "textbook_page": 45,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "W",
+      "text": "You don’t , Alex. What’s ?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Sumin and I a project for the ."
+    },
+    {
+      "no": 3,
+      "speaker": "W",
+      "text": "I know. It was . Right?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Yes. The fair was yesterday, and we didn’t prizes."
+    },
+    {
+      "no": 5,
+      "speaker": "W",
+      "text": "Oh, I’m ."
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "I’m , Mom. We worked really for it."
+    },
+    {
+      "no": 7,
+      "speaker": "W",
+      "text": ", Alex. You ."
+    },
+    {
+      "no": 8,
+      "speaker": "B",
+      "text": "\u0007Yeah, and we learned about green energy, too. Thanks, Mom."
+    },
+    {
+      "no": 9,
+      "speaker": "W",
+      "text": "안색이 안 좋아 보이는구나, Alex. 무슨"
+    },
+    {
+      "no": 10,
+      "speaker": "B",
+      "text": "수민이와 제가 과학 박람회 프로젝트를 진"
+    },
+    {
+      "no": 11,
+      "speaker": "W",
+      "text": "알아. 친환경 에너지에 관한 거였잖아. 그"
+    },
+    {
+      "no": 12,
+      "speaker": "B",
+      "text": "맞아요. 박람회가 어제였는데, 저희는 아무"
+    },
+    {
+      "no": 13,
+      "speaker": "W",
+      "text": "오, 유감이구나."
+    },
+    {
+      "no": 14,
+      "speaker": "B",
+      "text": "정말 슬퍼요, 엄마. 우리는 정말 열심히 준"
+    },
+    {
+      "no": 15,
+      "speaker": "W",
+      "text": "힘내, Alex. 너희는 최선을 다했잖아."
+    },
+    {
+      "no": 16,
+      "speaker": "B",
+      "text": "네, 그래도 우리는 친환경 에너지에 대해 Review -1"
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L4_대화3",
+  "kind": "textbook_dialogue",
+  "title": "중1 L4 대화-3",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 4",
+  "source_type": "교과서",
+  "body_text": "B: Do you have any plans for this summer vacation?\nG: Yes. I’m going to travel to Venice with my family.\nB: That’s awesome! What are you going to do there?\nG: A lot of things, but we’re going to ride a gondola for sure.",
+  "body_text_sha256": "76aa8d9949b3074ffdf00da9355ff9e56b0c18df782195393ab7e8b6fe693e12",
+  "word_count": 45,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(22개정)특급기출 중학 영어(윤) 1-1(25)본책_출력방지.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-3",
+  "textbook_page": 60,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "Do you have any plans for this summer vacation?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "Yes. I’m going to travel to Venice with my family."
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "That’s awesome! What are you going to do there?"
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "A lot of things, but we’re going to ride a gondola for sure."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

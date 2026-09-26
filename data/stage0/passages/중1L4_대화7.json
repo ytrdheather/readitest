@@ -1,0 +1,115 @@
+{
+  "passage_id": "중1L4_대화7",
+  "kind": "textbook_dialogue",
+  "title": "중1 L4 대화-7",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 4",
+  "source_type": "교과서",
+  "body_text": "G: Do you have this summer, Alex?\nB: Yes. I’m going to Jeju-do with my family.\nG: great! Is this your first Jeju-do?\nB: Yes, and I’m very .\nG: So, are you do there?\nB: A lot of . We’re going to the Olle . We’re going to , too.\nG: Wow! Sounds .\nB: Yes. really looking it.\nG: 이번 여름에 어떤 계획이 있니, Alex?\nB: 응. 가족들과 함께 제주도에 갈 예정이야.\nG: 좋겠다! 제주도 여행은 처음이니?\nB: 응, 정말 설레.\nG: 그래서 거기서 무엇을 할 거니?\nB: 신나는 것들을 많이 할 거야. 우리는 올레\nG: 우와! 재미있을 것 같아.\nB: 응. 정말 기대돼.",
+  "body_text_sha256": "52df714d12f249109d713e9d3450f05d42c4e6c99d4af3e886cc849be96edce5",
+  "word_count": 64,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(22개정)특급기출 중학 영어(윤) 1-1(25)본책_출력방지.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk C",
+  "textbook_page": 61,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Do you have this summer, Alex?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Yes. I’m going to Jeju-do with my family."
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "great! Is this your first Jeju-do?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Yes, and I’m very ."
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "So, are you do there?"
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "A lot of . We’re going to the Olle . We’re going to , too."
+    },
+    {
+      "no": 7,
+      "speaker": "G",
+      "text": "Wow! Sounds ."
+    },
+    {
+      "no": 8,
+      "speaker": "B",
+      "text": "Yes. really looking it."
+    },
+    {
+      "no": 9,
+      "speaker": "G",
+      "text": "이번 여름에 어떤 계획이 있니, Alex?"
+    },
+    {
+      "no": 10,
+      "speaker": "B",
+      "text": "응. 가족들과 함께 제주도에 갈 예정이야."
+    },
+    {
+      "no": 11,
+      "speaker": "G",
+      "text": "좋겠다! 제주도 여행은 처음이니?"
+    },
+    {
+      "no": 12,
+      "speaker": "B",
+      "text": "응, 정말 설레."
+    },
+    {
+      "no": 13,
+      "speaker": "G",
+      "text": "그래서 거기서 무엇을 할 거니?"
+    },
+    {
+      "no": 14,
+      "speaker": "B",
+      "text": "신나는 것들을 많이 할 거야. 우리는 올레"
+    },
+    {
+      "no": 15,
+      "speaker": "G",
+      "text": "우와! 재미있을 것 같아."
+    },
+    {
+      "no": 16,
+      "speaker": "B",
+      "text": "응. 정말 기대돼."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

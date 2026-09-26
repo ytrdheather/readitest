@@ -1,0 +1,30 @@
+{
+  "passage_id": "중1L3_본문",
+  "kind": "textbook_reading",
+  "title": "중1 L3 본문 — Different Attitudes, Different Results",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 3",
+  "source_type": "교과서",
+  "body_text": "Every year, Yuna’s school holds a dance contest. This year’s contest is next month. Yuna: Let’s make a team and enter the contest. Suho: Are you kidding? We’re all terrible dancers. Bora: I know, but I’m interested. Minsu: Me, too. It’ll be fun. Yuna: Let’s do it. Sounds good, Suho? Suho: I guess so. What will happen next? Read the following two different situations. Yuna and her teammates are in the practice room, but no one looks happy. Suho: We’re making too many mistakes. Bora: Yeah. We’re hopeless. Suho: By the way, where’s Minsu? Yuna: Well, he’s sick. He texted me. Bora: Really? I saw him last night, and he was all right. The contest is tomorrow, but Yuna and her teammates are not practicing. Suho: I’m so tired. Minsu: Me, too. We’re not getting anywhere. Bora: Yeah. We’re just wasting our time. Yuna: The dance contest was not a good idea. Suho: I agree, but it’s not your fault. Yuna: Why don’t we just quit? After weeks of unhappy practices, they finally quit. They felt hopeless. Yuna and her teammates are practicing hard in the practice room. Suho: I made a mistake again. I’m sorry. Yuna: Cheer up! You can do it. Minsu: Yes. Don’t worry, Suho. We all make mistakes. Bora: Come on. Let’s do it one more time! We’re almost there. The contest is over now. Yuna’s team didn’t win any prizes, but they all look happy. Yuna: Good job! We made it. Minsu: Yeah! We finished the dance without a big mistake. I feel great! Bora: We did our best, and I’m so proud of all of us. Suho: Thank you for your support, everyone.",
+  "body_text_sha256": "aa278d9e7ba188fffe30a552de400a1579e02d487ac34c583748e4320ccdd33e",
+  "word_count": 279,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(22개정)특급기출 중학 영어(윤) 1-1(25)본책_출력방지.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Different Attitudes, Different Results",
+  "sentence_count": 33
+}

@@ -1,0 +1,75 @@
+{
+  "passage_id": "중1L4_대화5",
+  "kind": "textbook_dialogue",
+  "title": "중1 L4 대화-5",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 4",
+  "source_type": "교과서",
+  "body_text": "G: Do you have any plans for this summer, Alex?\nB: Yes. I’m going to go to Jeju-do with my family.\nG: Sounds great! Is this your first trip to Jeju-do?\nB: Yes, and I’m very excited.\nG: So, what are you going to do there?\nB: A lot of exciting things. We’re going to walk the Olle trails. We’re going to ride a horse, too.\nG: Wow! Sounds like fun.\nB: Yes. I’m really looking forward to it.",
+  "body_text_sha256": "969405b7d54fcf42e5387e77bb05ddec71a8df1641f0aa49cd9a212f3ad60b06",
+  "word_count": 79,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(22개정)특급기출 중학 영어(윤) 1-1(25)본책_출력방지.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk C",
+  "textbook_page": 61,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Do you have any plans for this summer, Alex?"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Yes. I’m going to go to Jeju-do with my family."
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "Sounds great! Is this your first trip to Jeju-do?"
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Yes, and I’m very excited."
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "So, what are you going to do there?"
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "A lot of exciting things. We’re going to walk the Olle trails. We’re going to ride a horse, too."
+    },
+    {
+      "no": 7,
+      "speaker": "G",
+      "text": "Wow! Sounds like fun."
+    },
+    {
+      "no": 8,
+      "speaker": "B",
+      "text": "Yes. I’m really looking forward to it."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

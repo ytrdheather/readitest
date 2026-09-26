@@ -103,8 +103,15 @@ def dialogues(pages, lesson):
 
 def reading(pages):
     """본문 → (title, [sentences])"""
-    title, sents = None, []
+    # 번호는 **오르기만 한다.** 번호가 되돌아가면 다른 구간이 시작된 것이므로 거기서 끊는다.
+    # 2026-09-26: 1학기 본책을 단원 구간(182~236쪽)으로 읽었더니 「주요 문장」 뒤에 오는
+    # 괄호 선택 학습지까지 같은 `NN	` 번호를 달고 있어 본문 끝에 붙었다 —
+    # 'I'm especially looking forward to ( visit / visiting )' · 'Answers p. 47'.
+    # 정렬만 하면 조용히 섞여서 body_text 가 오염된다. 설계원칙 7 상 확정 뒤엔 못 고친다.
+    title, sents, last_no, stop = None, [], 0, False
     for text in pages:
+        if stop:
+            break
         if "주요 문장" not in text and "STEP A   Reading" not in text:
             continue
         lines = [l.rstrip() for l in text.splitlines()]
@@ -121,7 +128,12 @@ def reading(pages):
                 if HANGUL.search(nm.group(2)):
                     cur = None                  # 우리말 해석 구간에 들어왔다
                     continue
-                cur = [int(nm.group(1)), clean(nm.group(2))]
+                no = int(nm.group(1))
+                if no <= last_no:
+                    stop = True
+                    break
+                last_no = no
+                cur = [no, clean(nm.group(2))]
                 sents.append(cur)
             elif cur and s and not HANGUL.search(s) and not re.match(r"^[A-Z]\s*$|^STEP|^\d+\s*$", s):
                 cur[1] = clean(cur[1] + " " + s)
@@ -162,10 +174,19 @@ def main():
     ap.add_argument("--grade", type=int, required=True)
     ap.add_argument("--lesson", type=int, required=True)
     ap.add_argument("--write", action="store_true")
+    ap.add_argument("--pages", help=(
+        "읽을 쪽 구간 'A-B' (1부터, 양끝 포함). 특급기출 **1학기 본책**처럼 한 권에 "
+        "네 단원이 다 들어 있는 파일은 이것을 주지 않으면 책 전체를 한 단원으로 긁는다. "
+        "2026-09-26 에 1-1 본책으로 실제로 그랬다 — 대화 39편에 교과서 12~62쪽이 섞여 나왔다. "
+        "단원 구간은 tools/teukgeup_lessons.py 로 찾는다."))
     a = ap.parse_args()
 
     doc = fitz.open(a.pdf)
     pages = [p.get_text() for p in doc]
+    if a.pages:
+        lo, hi = (int(x) for x in a.pages.split("-"))
+        pages = ["" if not (lo <= i <= hi) else t for i, t in enumerate(pages, 1)]
+        print(f"   [쪽 구간] {lo}~{hi} 만 읽는다 (전체 {len(doc)}쪽)")
     G, L = f"중{a.grade}", a.lesson
     recs = []
 
