@@ -1,0 +1,184 @@
+{
+  "school": "영일중",
+  "set_no": 2,
+  "spec": {
+    "students": null,
+    "exam_date": "2026-12 (2학기 기말)",
+    "priority": "원장 2026-09-24: 「오늘은 영일중을 하자」",
+    "total_points": 100,
+    "selective": 20,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "<보기> 단문 5개 나열 + 교과서 본문 밑줄·괄호 조합",
+    "vessel_note": "2025 기말: 단문 나열형이 4문항 16점(3·5·9·12번)으로 영덕(0문항)과 가장 크게 갈린다. <보기> a~e 5문장을 늘어놓고 「어법상 옳지 않은 것만」 「쓰임이 다른 하나」 「생략할 수 있는 것만」을 있는 대로 고르게 한다. 본문 쪽은 밑줄 ⓐ~ⓔ(7번)와 괄호 ⓐⓑⓒ 조합(15·19번).",
+    "signature": [
+      "**단문 나열형 4문항 16점** — 네 학교 중 중1에서 가장 많다. <보기> a~e 를 '있는 대로 고르시오'",
+      "**「개수 세기」 3문항 14점** (16·18·20번) — <보기> 6~7문장을 주고 일치/답할 수 있는 **개수**를 묻는다 (①2개 ②3개 …)",
+      "**T-FORM-CHOICE 2문항** (15·19번) — 본문 안 ⓐⓑⓒ 괄호 조합. 중2는 학교당 1개인데 영일중1은 2개",
+      "교사 자작 지문 3개 (Foley artist 소개 · Global warming · 경찰관이 되고 싶다)",
+      "영영풀이를 **부정형으로** 묻는다 — 6번 「해당하는 단어가 아닌 것」 · 17번 「윗글에서 찾을 수 없는 것」",
+      "논술 4개가 전부 **단어 수 지정 조건 영작** (5단어 / 8~9단어 / 4단어 / 5~8단어)"
+    ],
+    "essay_rule": "조건 영작 — 단어 수를 반드시 지정하고, 쓸 단어·문법 요소를 조건으로 준다. 각 5점.",
+    "essay_blueprint": [
+      {
+        "형식": "그림 보고 빈칸",
+        "배점": 5,
+        "노리는 어법": "be going to",
+        "조건": "5단어"
+      },
+      {
+        "형식": "그림 + 일기 빈칸",
+        "배점": 5,
+        "노리는 어법": "시간 부사절 when + will",
+        "조건": "when, will 사용 · 8~9단어"
+      },
+      {
+        "형식": "짧은 글 빈칸",
+        "배점": 5,
+        "노리는 어법": "be + 형용사 + to부정사",
+        "조건": "be, hard, understand 를 변형해 모두 사용 · 4단어"
+      },
+      {
+        "형식": "대화 빈칸 (가격 비교)",
+        "배점": 5,
+        "노리는 어법": "최상급 the most ~",
+        "조건": "expensive 활용 · 셋을 비교해 최상급 · 5~8단어"
+      }
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "vocab_note": "6번 영영풀이 5개 중 「해당하는 단어가 아닌 것」(4점) + 17번 「윗글에서 찾을 수 없는 것」(4점). 둘 다 부정형이다.",
+    "form_choice": 2,
+    "form_choice_note": "15번 L7 (shooting/shouting · photographer/photography · wrangle/wrangler) · 19번 L5 (There/Here · smallest/smaller · bluest/bluer)",
+    "standalone": 4,
+    "standalone_points": 16,
+    "standalone_note": "3번 -ing 쓰임 구별(3점) · 5번 to부정사 vs 동명사 목적어(5점) · 9번 to부정사 부사적 용법(5점) · 12번 that 생략(5점)",
+    "count_items": 3,
+    "count_items_note": "16·18·20번 — <보기> 6~7문장 중 일치/답할 수 있는 **개수**를 고르는 형식. 한 문항에 7문장을 다 따져야 한다",
+    "points_pattern": "선택형 5점 ×6 · 4점 ×9 · 3점 ×5 = 80 · 논술 5×4 = 20",
+    "external_passages": [],
+    "function_notes": [
+      "중1_L5.json",
+      "중1_L6.json",
+      "중1_L7.json"
+    ],
+    "passages_used_2025": [
+      "L5 본문 앞부분(17·18) · 뒷부분(19·20)",
+      "L6 본문 Challenge 01~02(7·8) · 03~04(10·11)",
+      "L7 본문(15·16)",
+      "L6 대화 플로깅(2번) · For here or to go(4번)",
+      "교사 자작 3개 (Foley artist · Global warming · 경찰관)"
+    ],
+    "range_2025_2": "L5 · L6 · L7. 2026 도 5·6·7과 (원장 2026-09-21)"
+  },
+  "materials": [
+    {
+      "id": "T1",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 5문장 (비교·최상급 / There was·were / 조동사)",
+      "text": "<보기>\na. This box is heavier than that one.\nb. Seoul is the most big city in Korea.\nc. There were a lot of leftovers on the table last night.\nd. You must not to use the flash in the museum.\ne. My brother is more taller than me."
+    },
+    {
+      "id": "T2",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 5문장 (동사의 목적어 — to부정사/동명사)",
+      "text": "<보기>\na. I enjoy to travel to new places every summer.\nb. She decided to fix her old bag and reuse it.\nc. We finished cleaning the classroom at five.\nd. He wants becoming a movie director.\ne. They hope to see the sunset on the beach."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 5문장 (밑줄 친 that)",
+      "text": "<보기> ※ 각 문장의 that에 밑줄이 그어져 있다.\na. I think that plastic never goes away completely.\nb. That is my favorite painting in this museum.\nc. I heard that Chris became a Foley artist.\nd. That she won the contest is surprising.\ne. The problem is that we produce too much waste."
+    },
+    {
+      "id": "T4",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 5문장 (밑줄 친 to부정사)",
+      "text": "<보기> ※ 각 문장의 to부정사구에 밑줄이 그어져 있다.\na. I want to be a police officer.\nb. My job is to find perfect places for shooting.\nc. To capture their happy moments, he uses drones.\nd. He decided to reuse his old bag.\ne. It is not easy to work with animals."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 — A Foley Artist",
+      "text": "Chris is a Foley artist. His job is ⓐ to create sound effects for movies. He works in a small studio near the sea, and his work begins ⓑ after the shooting is over. He says ⓒ that the sound of rain is the hardest sound to make. To make the sound of waves, he uses rice and a plastic container. His studio is ⓓ louder than any other room in the building, so visitors must ⓔ to be quiet when he is recording."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 — Global Warming",
+      "text": "The Earth is getting (A) hotter / hottest than ever before. Last year, there (B) was / were many wildfires around the world, and the sea level is rising, too. Scientists say (C) that / what we must change our daily habits now. You don't have to do something big. ＿＿＿＿＿＿, you can turn off the lights when you leave a room, and you can walk to school instead of taking a car. Small actions can make a big difference."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 — I Want to Be a Police Officer",
+      "text": "Hi, I'm Jinu. I'm interested in (A) help / helping people, so I want to be a police officer. Last summer, I lost my puppy in the park, and a kind police officer found him for me. I still remember his warm smile. Being a police officer is not (B) easy / easily. You must run fast and think fast. My uncle says that the job is (C) more dangerous / most dangerous than people think. So I get up early and run in the park before I go to school. When I become a police officer, I will help the children in my town first."
+    },
+    {
+      "id": "T8",
+      "kind": "standalone_set",
+      "title": "<보기> 진술 6개 (P2 내용 확인용)",
+      "text": "<보기>\na. Olivia는 생일에 가족과 외식을 했고, 남은 음식을 집으로 가져왔다.\nb. Olivia는 다음 날 남은 음식으로 맛있는 점심을 만들었다.\nc. Domingo는 찢어진 가방을 고치는 대신 새 가방을 샀다.\nd. Emma는 오늘 음식 배달 서비스를 이용했다.\ne. Emma는 재사용 가능한 용기를 들고 식당까지 걸어갔다.\nf. 민수는 재활용 기계에 병을 넣고 그 대가로 포인트를 받았다."
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "<보기> 질문 6개 (P1 확인용)",
+      "text": "<보기>\na. What is the title of the movie Jim Brown is directing?\nb. What does a location manager do?\nc. How many drones is Peter going to use?\nd. Why does Jennifer use hand signals?\ne. When does Emma's work begin?\nf. How long did Chris study to become a Foley artist?"
+    },
+    {
+      "id": "T10",
+      "kind": "standalone_set",
+      "title": "<보기> 진술 6개 (T7 내용 확인용)",
+      "text": "<보기>\na. 진우는 사람들을 돕는 일에 관심이 있다.\nb. 진우는 지난여름에 공원에서 강아지를 잃어버렸다.\nc. 진우의 삼촌은 경찰관으로 일하고 있다.\nd. 진우는 학교에 가기 전에 공원에서 달린다.\ne. 진우는 경찰관이 되면 마을의 아이들을 먼저 돕고 싶어 한다.\nf. 진우는 경찰관이 되는 것이 쉬운 일이라고 말한다."
+    },
+    {
+      "id": "T11",
+      "kind": "dialogue_set",
+      "title": "교사 자작 짧은 대화 (허락 구하고 답하기)",
+      "text": "B: Mom, may I play computer games for an hour?\nW: ＿＿＿＿＿＿＿＿＿ You must finish your homework first.\nB: OK, Mom. I'll do my homework now."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 대화 내용과 일치하지 않는 것은?",
+      "options": [
+        "소년은 박물관 안으로 음식을 가지고 들어갈 수 없다.",
+        "병에 든 물은 박물관 안으로 가지고 들어갈 수 있다.",
+        "소녀는 Sunflowers의 사진을 찍어도 된다.",
+        "플래시를 사용하면 그림이 손상될 수 있다.",
+        "견학 일행은 다음으로 Van Gogh의 다른 그림을 보러 간다.",
+        ""
+      ],
+      "answer": 5,
+      "why_ko": "x"
+    }
+  ],
+  "essays": [],
+  "diagnostics": {
+    "problems": [
+      "선택형 1문항 (설계 20)",
+      "서술형 0문항 (설계 4)",
+      "배점 합계 4 (설계 100)",
+      "1번 선지 6개",
+      "1번이 모르는 자료 P3 를 가리킴",
+      "T-FORM-CHOICE 0문항 (설계 2)",
+      "영영풀이 0문항 (설계 2)"
+    ],
+    "warnings": [],
+    "n_items": 1,
+    "n_essays": 0,
+    "total_points": 4
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 6315,
+    "output": 18750,
+    "usd": 0.5167
+  }
+}

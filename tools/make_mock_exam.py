@@ -173,6 +173,17 @@ def main():
 
     for school in schools:
         spec = bp["schools"][school]
+        # 지문이 없어 아직 못 만드는 학교는 여기서 막는다. 설계도에 사유를 적어 두고
+        # 코드가 그것을 읽게 한다 — 기억이 아니라 정해진 자리를 거치게 (CLAUDE.md 디자인 지침).
+        # 2026-09-26 태장중1: 범위가 L4·L5 인데 L4 본문이 없다. 돌리면 L5 하나로 22문항을
+        # 억지로 채운 시험지가 나오고, 그게 종이로 나가면 되돌릴 수 없다.
+        if spec.get("blocked"):
+            print("=" * 74)
+            print(f" {school} — 건너뜀")
+            print("=" * 74)
+            print("    " + spec["blocked"])
+            print()
+            continue
         for set_no in sets:
             print("=" * 74)
             print(f" {school} 동형 {set_no}세트 — 선택 {spec['selective']} · "
@@ -196,7 +207,7 @@ def main():
             # 죽었고, 끝에 찍는 cost.report() 가 안 나와 4세트분 비용을 알 수 없었다.
             usage = {"model": params["model"], "input": msg.usage.input_tokens,
                      "output": msg.usage.output_tokens, "usd": round(usd, 4)}
-            res = mock_exam.parse(extract_json(msg), spec, given)
+            res = mock_exam.parse(extract_json(msg), spec, given, mats)
             res["usage"] = usage
             d = res["diagnostics"]
 

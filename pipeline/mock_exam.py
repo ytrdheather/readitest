@@ -244,14 +244,34 @@ def _norm(s):
     return " ".join(s.split()).strip()
 
 
-def parse(raw, spec, given):
+def parse(raw, spec, given, source_mats=None):
     """구조·배점·지문 무결성을 기계로 본다. 어긋난 것은 사유와 함께 돌려준다.
 
     `given` 은 우리가 넣은 자료 {id: text}. **P 로 시작하는 자료는 글자까지 같아야 한다** —
     모델이 지문을 받아치면서 바꾸는 것을 여기서 잡는다 (설계원칙 7).
+
+    `source_mats` 는 `gather()` 가 만든 자료 목록 그대로. 모델이 응답에서 **교과서 지문을
+    아예 빼먹는 일**이 있다 (2026-09-23 영일중1 3세트 — 문항 6·7·10·12·13·19 가 P1~P4 를
+    가리키는데 materials 에 P 가 하나도 없었다). 시험지에 실을 지문이 사라지는 것이라
+    조용히 넘어가면 안 되고, 원본이 우리 손에 있으니 **여기서 되채운다.**
     """
     problems = []
     mats = {m["id"]: m for m in raw.get("materials", [])}
+
+    refilled = []
+    for sm in (source_mats or []):
+        if sm["id"] in mats:
+            continue
+        if not any(it.get("material_id") == sm["id"]
+                   for it in raw.get("items", []) + raw.get("essays", [])):
+            continue                      # 아무 문항도 안 쓴 자료는 실을 필요 없다
+        m = dict(sm)
+        mats[m["id"]] = m
+        raw.setdefault("materials", []).insert(len(refilled), m)
+        refilled.append(m["id"])
+    if refilled:
+        problems.append("모델이 응답에서 자료 " + "·".join(refilled) +
+                        " 를 빼먹어 원본으로 채워 넣음")
 
     for mid, text in given.items():
         m = mats.get(mid)
