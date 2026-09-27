@@ -17,6 +17,7 @@
 아니라 암기 확인이 된다.
 """
 import argparse
+import glob
 import io
 import json
 import os
@@ -97,6 +98,22 @@ SET_PASSAGES = {
         ("L6 Read More", ["L6 ReadMore-1", "L6 ReadMore-2",
                           "L6 ReadMore-3", "L6 ReadMore-4"])],
 }
+
+
+def load_prior_sets(tag, school, set_no):
+    """같은 학교의 다른 세트 결과를 읽어 온다 — mock_exam.format_avoid() 재료.
+
+    지문이 몇 개 안 되는 학교는 세트를 따로 만들어도 모델이 매번 같은 지점을
+    노린다 (2026-09-27 발견). 이미 저장된 세트를 그대로 다시 읽어 「여기는 이미
+    물었다」로 다음 프롬프트에 실어 준다 — 별도 기록 파일을 새로 두지 않는다.
+    """
+    prior = []
+    for path in sorted(glob.glob(os.path.join(OUT, f"{tag}{school}_*세트.json"))):
+        d = json.load(io.open(path, encoding="utf-8"))
+        if d.get("set_no") == set_no:
+            continue
+        prior.append(d)
+    return prior
 
 
 def points_hint(spec):
@@ -210,8 +227,13 @@ def main():
                 print("    [미리보기] 호출하지 않습니다. 실제로 만들려면 --run\n")
                 continue
 
+            prior = load_prior_sets(tag, school, set_no)
+            avoid = mock_exam.format_avoid(prior)
+            if avoid:
+                print(f"    (다른 {len(prior)}개 세트의 문항을 겹치지 않게 참고시킴)")
             params = mock_exam.build_params(school, spec, bp["common"],
-                                            mats, points_hint(spec), set_no, hard=a.hard)
+                                            mats, points_hint(spec), set_no,
+                                            hard=a.hard, avoid=avoid)
             # 시험지 한 벌은 출력이 길다(선택 21~25 × 선지 5 + 서술 4).
             # max_tokens 가 크면 SDK 가 스트리밍을 요구한다 — 10분을 넘길 수 있어서다.
             with api.messages.stream(**params) as stream:

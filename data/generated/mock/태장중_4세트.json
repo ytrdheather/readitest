@@ -46,7 +46,7 @@
     {
       "id": "P1",
       "kind": "given",
-      "title": "L6 본문 (Dr. Schofield)",
+      "title": "L6 본문 · Dr. Schofield",
       "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
     },
     {
@@ -64,363 +64,374 @@
     {
       "id": "T1",
       "kind": "teacher_paragraph",
-      "title": "외부 지문 A (Mary Cutler)",
-      "text": "Mary Cutler came to Korea in 1912 as a young nurse, and at first everything around her felt strange. ①<u>The small wooden house which the mission gave her</u> had no heater, and in winter the water in the kitchen froze. ②<u>She used to write three long letters home every week</u>, but after a year she quietly stopped. One cold morning, on her way to the clinic, ③<u>she heard a group of children to sing a Korean folk song</u> near the frozen river. She stood still and listened until the last line ended. That was the day she decided not to go home. ④<u>The winter of 1915 was such a hard winter that hundreds of villagers became sick</u>, and for two months she worked twenty hours a day. ⑤<u>The diary which she kept for thirty years</u> now sits in a small museum in Gongju. People who read it say that she never once called herself a hero."
+      "title": "T1 · 외부 지문 (밑줄 ①~⑤)",
+      "text": "My grandmother still keeps an old photograph of a doctor ①whom she met in the winter of 1951. At that time, her village ②used to have no hospital, so sick people had to walk for three hours to the next town. One snowy morning, she heard someone ③knocking on the front gate. It was Dr. Hall, a foreign doctor who had come to Korea with the army. He was carrying a heavy black bag ④which he filled it with medicine, and his old coat was completely covered with snow. The road was ⑤so icy that he had fallen down twice on his way to the village. He visited every house in the village that day, and my grandmother has never forgotten his tired face."
     },
     {
       "id": "T2",
-      "kind": "standalone_set",
-      "title": "단문 나열",
-      "text": "① The film was so boring that I fell asleep long before the ending.\n② There used to be a small bakery which my mother worked at for ten years.\n③ I saw a stranger standing in front of our gate late last night.\n④ My brother is used to get up at five to deliver newspapers.\n⑤ It was such a windy day that we couldn’t open the umbrella at all."
+      "kind": "teacher_paragraph",
+      "title": "T2 · 외부 지문 (밑줄 ①~⑤)",
+      "text": "Last Saturday our class visited an old train station ①which our history teacher had recommended. The guide told us that the station ②used to be full of travelers every morning in the 1960s. Now only three trains stop there each day. Inside the waiting room, we saw a large round clock ③to hang above the door. Its hands had stopped at 7:20 many years ago. The guide's voice was ④so quiet that we had to stand very close to him. Before we left, he showed us a small notebook ⑤that a young soldier had left on a bench in 1968. Nobody knows what happened to the soldier, and the notebook is still waiting for its owner."
     },
     {
       "id": "T3",
       "kind": "teacher_paragraph",
-      "title": "외부 지문 B (Mr. Park's photo shop)",
-      "text": "Old Mr. Park opened his photo shop in 1968, and for fifty years he took pictures of almost everyone in our village. ①<u>The old camera that he used to take wedding pictures</u> is still on the shelf behind the counter, next to a broken clock. ②<u>He was so a patient man that he would wait a whole hour for one real smile</u>. ③<u>Once, during a summer storm, we felt the whole roof shake above our heads</u>, but he kept changing the film without saying a word. ④<u>There used to be three photo shops on this street</u>, but now only his is left. ⑤<u>The couple whom he photographed on their wedding day</u> came back last spring with their grandchildren, and he took the same picture again in the same corner."
+      "title": "T3 · 외부 지문 (밑줄 ①~⑤)",
+      "text": "When I was ten, my father ①used to take me to the river behind our house every Saturday. The water was ②so clear that we could see small fish swimming around our feet. He taught me the names of all the trees along the bank, and I still remember the old fishing rod ③which his own father had given him. One evening I heard someone ④calling my name from the other side of the bridge. It was my father, waving both arms in the dark. Now the village is almost empty and the river is ⑤such quiet that few children ever play there, but those summer evenings still come back to me whenever it rains."
     },
     {
       "id": "T4",
-      "kind": "teacher_paragraph",
-      "title": "외부 지문 C (grandfather's house)",
-      "text": "My grandfather’s house stood at the end of a narrow road that no bus ever used. ①<u>In summer he would sit on the wooden floor and watch the sun setting behind the mountain</u>. ②<u>This is the letter which he sent it to a newspaper in 1970</u>, and the paper printed only three lines of it. ③<u>The village used to be full of small wooden houses</u>, but the last one came down in 2004. ④<u>On the day he moved out, he was so tired that he fell asleep on the empty floor</u> with his coat still on. ⑤<u>The man whose name is written on the back of the old photograph</u> was his best friend from the war."
+      "kind": "standalone_set",
+      "title": "T4 · 단문 나열",
+      "text": "① I felt something cold touch my cheek.\n② She is the singer whose songs I used to listen to every night.\n③ There used to be a small bakery at the corner of this street.\n④ The box was too heavy for me to lift it.\n⑤ He was such a kind man that everyone in town trusted him."
     },
     {
       "id": "T5",
       "kind": "teacher_paragraph",
-      "title": "어형 고르기 단락",
-      "text": "Every March our class studies a foreigner who helped Korea. Last week we looked at the photographs (A)[that / what] a Canadian doctor took in 1919. In the short film about him, we heard the crowd (B)[shout / to shout] for independence again and again. Our teacher said that he was (C)[so / such] a brave man that the Japanese police watched him day and night."
+      "title": "T5 · (A)(B)(C)",
+      "text": "The old house (A)[which / which it] my grandfather built with his own hands is still standing at the end of the street. On quiet nights I can hear the wooden floor (B)[to creak / creaking] under my feet. The rooms are (C)[so / such] small that only one bed fits in each of them."
     },
     {
       "id": "T6",
       "kind": "teacher_paragraph",
-      "title": "본문 에세이 전환",
-      "text": "Frank W. Schofield is remembered in Korea not as a visitor but as a friend. He arrived in 1916 to teach medicine, and because he wanted to reach his students in their own language, he studied Korean so hard that he was soon able to lecture without an interpreter. In 1919 he did what few foreigners dared to do: he photographed the crowds that demanded independence and sent the pictures, together with an article of his own, to newspapers abroad. Even after the police forced him out of the country in 1920, he kept writing about what was happening here. He came back in 1958 and never left again, spending his last years with poor students who had no one else. His Korean name was not a nickname; it was the name he chose to live by. For Koreans he was, in the end, ______."
+      "title": "T6 · [A][B] 인물 두 편",
+      "text": "[A] Edward Bell was born in England in 1872. He worked as a newspaper reporter in London, and in 1904 he came to Korea to write about the war. A year later he started his own newspaper in Seoul. He printed articles which told the world about the unfair rule of Japan. Because he was a foreigner, the Japanese police could not close his newspaper easily, though they watched him every day. He used to tell his friends, \"Korea is my second home.\" He died in Seoul in 1909, and his grave is still in the city.\n\n[B] Anna Shaw came to Korea from the United States in 1885. She was not a doctor but a teacher, and she opened a small school for girls in Seoul at a time when almost no girl could study. On the first day only one student came, and even she soon stopped coming. Anna did not give up. Ten years later the school had grown so large that hundreds of girls studied there. She went back to her country twice because of her health, but she always returned. She spent the rest of her life in Korea and never saw her hometown again."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "T7 · P1을 읽은 학생의 에세이",
+      "text": "Frank W. Schofield loved the Korean name Seok Hopil because it sounded like his real name and also had a good meaning. He first came to Korea in 1916, and he studied Korean (A)__________ that he was able to teach medicine in Korean after only a few years. On March 1, 1919, he hid in a building, watched a large group of people gathering outside, and took pictures of them. He then sent the pictures to foreign newspapers with an article. Even after that day, he kept writing about the terrible situation in Korea, and the Japanese police watched him closely. He had to leave for Canada in 1920, but in 1958 he came back (B)__________ the invitation of the Korean government and stayed here for the rest of his life."
+    },
+    {
+      "id": "T8",
+      "kind": "standalone_set",
+      "title": "T8 · 배열",
+      "text": "우리말: 나는 우리가 공원에서 만났던 그 소년이 노래하고 있는 것을 들었다.\n[보기] we / singing / the boy / heard / whom / I / in the park / met"
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "T9 · 밑줄 친 so",
+      "text": "① Dr. Schofield studied so hard that he could teach medicine in Korean.\n② The hall was so dark that nobody could find the door.\n③ He believed that every country has the right to be independent, so he joined the movement.\n④ There were so many people in the park that I lost my friend.\n⑤ Her story was so strange that we listened to the end without saying a word."
+    },
+    {
+      "id": "T10",
+      "kind": "dialogue_set",
+      "title": "T10 · 대화",
+      "text": "A: Excuse me, how can I get to the Seoul History Museum from here?\nB: __________________________\nA: Then, which is faster, the bus or the subway?\nB: The subway is faster, but you have to change trains at City Hall Station.\nA: I see. How long will it take?\nB: About twenty minutes.\nA: Thank you very much."
     }
   ],
   "items": [
     {
       "no": 1,
-      "material_id": "P2",
-      "type": "T-PHRASE-INFER",
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
       "points": 4,
-      "stem_ko": "P2의 두 번째 대화에서 남학생이 말한 Can you recommend some new soft drinks?와 의도가 가장 다른 것은?",
+      "stem_ko": "[P1]의 I have a special favor to ask you에서 favor의 뜻풀이로 가장 알맞은 것은?",
       "options": [
-        "Can you suggest some new soft drinks?",
-        "Could you recommend any new soft drinks?",
-        "What new soft drinks would you recommend?",
-        "Why don’t you try some new soft drinks?",
-        "Is there any new soft drink you can recommend?"
+        "something kind that you do for someone who has asked you",
+        "the feeling of liking one thing more than another one",
+        "official support or approval that a plan receives",
+        "a small present that is given to the guests at a party",
+        "an advantage that makes it easier for you to win"
       ],
-      "answer": 4,
-      "why_ko": "①②③⑤는 모두 상대에게 추천을 '요청'하는 표현이다. ④ Why don’t you ~?는 말하는 사람이 상대에게 제안·권유하는 표현이므로 화자와 청자의 역할이 뒤바뀐다. 추천 요청이 아니라 추천 제공이다.",
-      "grammar_point": "추천 요청 의사소통 기능"
+      "answer": 1,
+      "why_ko": "favor는 다의어로, 여기서는 '부탁·호의(남을 위해 해 주는 친절한 행동)'의 뜻이다. ②는 in favor of/선호, ③은 지지·승인, ④는 party favor, ⑤는 유리한 점으로 모두 다른 뜻이다."
     },
     {
       "no": 2,
-      "material_id": "P2",
-      "type": "T-DETAIL",
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
       "points": 4,
-      "stem_ko": "P2의 세 대화에 대한 설명으로 옳지 않은 것은?",
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, [P1]에 쓰인 것은?\n\n: a series of actions by a group of people who share the same aim and work together to achieve it",
       "options": [
-        "첫 번째 대화에서 여학생은 평소 공상과학 소설을 읽으며 The Time Machine을 추천했다.",
-        "두 번째 대화에서 남학생은 평소 사과 소다를 마시지만 오늘은 다른 것을 마셔 보고 싶어 한다.",
-        "두 번째 대화에서 여학생은 체리 소다를 권했고 남학생은 그것을 한번 마셔 보겠다고 답했다.",
-        "세 번째 대화에서 남학생은 Spider-Man을 이미 보았지만 재미가 없었다고 말했다.",
-        "세 번째 대화에서 여학생은 액션 영화를 좋아하며 상대에게 그 영화를 강하게 추천했다."
+        "organization",
+        "movement",
+        "gathering",
+        "government",
+        "independence"
       ],
-      "answer": 4,
-      "why_ko": "세 번째 대화에서 남학생은 I didn’t see it.이라고 하여 '아직 보지 않았다'고 말했다. 영화를 보고 재미없었다는 평가는 어디에도 없다. ⑤의 strongly recommend는 여학생의 말과 일치한다.",
-      "grammar_point": ""
+      "answer": 2,
+      "why_ko": "'같은 목표를 위해 함께 행동하는 사람들의 운동'은 movement이며, [P1]의 the Korean independence movement에 쓰였다. government, gathering도 본문에 보이지만 뜻풀이와 맞지 않는다."
     },
     {
       "no": 3,
-      "material_id": "P3",
-      "type": "T-PHRASE-INFER",
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
       "points": 4,
-      "stem_ko": "P3의 세 번째 대화에 쓰인 Which is faster, the bus or the subway?와 의미가 가장 가까운 것은?",
+      "stem_ko": "[P1]에 쓰인 낱말과 그 뜻풀이가 잘못 짝지어진 것은?",
       "options": [
-        "Which one takes less time, the bus or the subway?",
-        "Which is the fastest way to go there, the bus or the subway?",
-        "Is the bus as fast as the subway?",
-        "How long does it take by bus and by subway?",
-        "Do you like the bus better than the subway?"
+        "favor – something kind that you do for another person",
+        "sound – to seem to be a particular thing when you hear it",
+        "article – a piece of writing about one subject in a newspaper",
+        "cemetery – an area of land where dead people are buried",
+        "right – the side of your body that is opposite the left"
       ],
-      "answer": 1,
-      "why_ko": "두 대상의 '속도 비교'를 묻는 말이므로 '어느 쪽이 시간이 덜 걸리는가'와 같다. ②는 둘을 비교하면서 최상급을 쓴 점이 어색하고, ③은 동등 비교 여부만 묻고, ④는 소요 시간 자체를 묻는 질문이며, ⑤는 선호를 묻는다.",
-      "grammar_point": "비교급 의문문"
+      "answer": 5,
+      "why_ko": "[P1]의 the right to be independent에서 right는 '권리(something you are allowed to have or do)'라는 뜻이다. ⑤의 풀이는 '오른쪽'이라는 다른 뜻이므로 본문 쓰임과 맞지 않는다."
     },
     {
       "no": 4,
-      "material_id": "P3",
-      "type": "T-DETAIL",
+      "material_id": "T3",
+      "type": "T-TOPIC",
       "points": 4,
-      "stem_ko": "P3의 세 대화에 대한 설명으로 옳지 않은 것은?",
+      "stem_ko": "[T3]의 제목으로 가장 알맞은 것은?",
       "options": [
-        "첫 번째 대화에서 남학생은 National Art Museum에 가려고 한다.",
-        "첫 번째 대화에서 여학생은 걸어갈 것을 권하며 약 15분이 걸린다고 했다.",
-        "첫 번째 대화에서 500미터 직진한 뒤 오른쪽으로 돌면 미술관이 왼쪽에 있다고 안내했다.",
-        "두 번째 대화에서 남학생은 지하철을 타라고 하며 약 30분이 걸릴 것이라고 했다.",
-        "세 번째 대화에서 Seoul Museum까지는 버스나 지하철로 갈 수 있다고 했다."
+        "Summer Evenings by the River That I Still Miss",
+        "How to Catch River Fish with an Old Fishing Rod",
+        "The Danger of Swimming in a Deep Country River",
+        "A New Bridge That Completely Changed My Village",
+        "Why Children Today Are Afraid of the Countryside"
       ],
-      "answer": 3,
-      "why_ko": "여학생은 turn left 하라고 했고 미술관은 It’ll be on your right, 즉 오른쪽에 있다고 했다. ③은 좌우를 뒤바꾼 진술이다.",
-      "grammar_point": ""
+      "answer": 1,
+      "why_ko": "글쓴이는 아버지와 강가에서 보낸 어린 시절의 저녁을 그리워하며 회상하고 있다. ⑤는 '아이들이 거의 놀지 않는다'는 한 구절만 확대한 함정이고, ②③④는 글의 소재만 빌린 오답이다."
     },
     {
       "no": 5,
-      "material_id": "T1",
-      "type": "T-GRAMMAR-INLINE",
+      "material_id": "P1",
+      "type": "T-DETAIL",
       "points": 5,
-      "stem_ko": "T1의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "stem_ko": "[P1]을 읽고 답할 수 없는 질문은?",
       "options": [
-        "① The small wooden house which the mission gave her",
-        "② She used to write three long letters home every week",
-        "③ she heard a group of children to sing a Korean folk song",
-        "④ The winter of 1915 was such a hard winter that hundreds of villagers became sick",
-        "⑤ The diary which she kept for thirty years"
+        "Why did Dr. Schofield like his Korean name so much?",
+        "When and for what purpose did he first come to Korea?",
+        "How many pictures did he take in Tapgol Park that day?",
+        "Why did he have to leave Korea and go back to Canada?",
+        "Where was he buried after he died in April 1970?"
       ],
       "answer": 3,
-      "why_ko": "지각동사 hear는 목적격보어로 원형부정사(sing)나 현재분사(singing)를 쓰며 to부정사를 쓰지 않는다. ①⑤는 목적격 관계대명사 which의 올바른 쓰임(gave/kept의 목적어), ②는 과거의 습관 used to+동사원형, ④는 「such+a+형용사+명사+that」으로 모두 옳다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "why_ko": "사진을 찍었다는 사실은 나오지만 몇 장을 찍었는지는 언급이 없다. ①은 이름이 실제 이름과 비슷하고 좋은 뜻이어서, ②는 1916년 의학을 가르치러, ④는 일본 경찰의 감시 때문에, ⑤는 서울 국립묘지로 각각 답할 수 있다."
     },
     {
       "no": 6,
-      "material_id": "T1",
+      "material_id": "P1",
       "type": "T-DETAIL",
-      "points": 4,
-      "stem_ko": "T1에 언급되지 않은 것은?",
+      "points": 5,
+      "stem_ko": "[P1]의 내용과 일치하는 것은?",
       "options": [
-        "Mary Cutler가 한국에 온 해",
-        "선교회가 그녀에게 준 집의 상태",
-        "그녀가 집으로 편지를 보내던 횟수",
-        "그녀가 하루에 일한 시간",
-        "그녀가 일기를 쓰기 시작한 나이"
+        "Dr. Schofield learned Korean in Canada before he came to Korea in 1916.",
+        "The man who visited him asked him to gather people for the March 1st Movement.",
+        "He sent his article and pictures to Korean newspapers right after the event.",
+        "He came back to Korea in 1958 and stayed there until the end of his life.",
+        "After going back to Canada in 1920, he stopped writing about Korea."
       ],
-      "answer": 5,
-      "why_ko": "일기는 '30년 동안 썼다'는 기간만 나올 뿐 쓰기 시작한 나이는 없다. 1912년(①), 난방이 없었다는 집 상태(②), 일주일에 세 통(③), 하루 스무 시간(④)은 모두 본문에 있다.",
-      "grammar_point": ""
+      "answer": 4,
+      "why_ko": "1958년 한국 정부의 초청으로 돌아와 다시는 떠나지 않았다고 했다. ①은 한국에 와서 배우기 시작했고, ②는 사람들을 모아 달라가 아니라 사진을 찍어 달라는 부탁이었으며, ③은 외국 신문사, ⑤는 3·1 운동 뒤에도 계속 기사를 썼다는 내용과 어긋난다."
     },
     {
       "no": 7,
-      "material_id": "T2",
-      "type": "T-GRAMMAR-STANDALONE",
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
       "points": 4,
-      "stem_ko": "T2의 ①~⑤ 중 어법상 틀린 것은?",
+      "stem_ko": "[P1]의 He was under the watchful eye of the Japanese police가 의미하는 바로 가장 알맞은 것은?",
       "options": [
-        "① The film was so boring that I fell asleep long before the ending.",
-        "② There used to be a small bakery which my mother worked at for ten years.",
-        "③ I saw a stranger standing in front of our gate late last night.",
-        "④ My brother is used to get up at five to deliver newspapers.",
-        "⑤ It was such a windy day that we couldn’t open the umbrella at all."
+        "그는 일본 경찰의 보호를 받으며 활동했다.",
+        "그는 일본 경찰의 감시를 받고 있었다.",
+        "그는 일본 경찰에게 협조를 요청했다.",
+        "그는 일본 경찰의 눈을 피해 몸을 숨기고 있었다.",
+        "그는 일본 경찰의 허가를 받아 취재를 계속했다."
       ],
-      "answer": 4,
-      "why_ko": "「be used to+동명사」는 '~에 익숙하다'이므로 getting up이 되어야 한다. get up을 그대로 두면 '다섯 시에 일어나기 위해 사용된다'는 뜻이 되어 문맥과 맞지 않는다. ②의 used to be는 과거의 상태, which는 전치사 at의 목적어로 옳고, ③은 지각동사+현재분사, ①은 so+형용사+that, ⑤는 such+a+형용사+명사+that이다.",
-      "grammar_point": "VERB_USED_TO"
+      "answer": 2,
+      "why_ko": "watchful eye는 '감시하는 눈길'이므로 감시를 받고 있었다는 뜻이며, 그래서 1920년에 캐나다로 돌아가야 했다. ④는 3월 1일 건물에 숨어 있었다는 앞 내용과 섞은 함정이다."
     },
     {
       "no": 8,
-      "material_id": "P1",
-      "type": "T-VOCAB-CONTEXT",
-      "points": 4,
-      "stem_ko": "다음 영영풀이의 뜻으로 right가 쓰인 문장은? (P1의 every country has the right to be independent와 같은 뜻)\n\nright: something that a person or a country is morally or legally allowed to have or do",
-      "options": [
-        "Turn right at the second corner and you’ll see the post office.",
-        "You were right about the weather; it rained all afternoon.",
-        "Children have the right to be protected from any danger.",
-        "I’ll call you right after the meeting ends.",
-        "He put the broken chair right and sat down again."
-      ],
-      "answer": 3,
-      "why_ko": "③만 '권리'라는 명사 뜻이다. ①은 방향, ②는 '옳은', ④는 '바로(강조 부사)', ⑤는 '바로잡다'의 뜻으로 쓰였다.",
-      "grammar_point": ""
-    },
-    {
-      "no": 9,
       "material_id": "P2",
       "type": "T-DETAIL",
       "points": 4,
-      "stem_ko": "P2를 [A], P3를 [B]라고 할 때, 두 자료의 내용을 표로 정리한 것 중 옳지 않은 것은?",
+      "stem_ko": "[P2]와 [P3]의 대화 내용과 일치하지 않는 것은?",
       "options": [
-        "[A] 첫 번째 대화 — 여학생이 즐겨 읽는 것: sci-fi novels",
-        "[A] 두 번째 대화 — 남학생이 평소 마시는 것: apple soda",
-        "[A] 세 번째 대화 — 여학생이 가장 좋아하는 영화: Spider-Man",
-        "[B] 두 번째 대화 — Dream Zoo에 가는 방법: 버스",
-        "[B] 세 번째 대화 — 남학생이 최종적으로 선택한 교통수단: 버스"
+        "The girl who usually reads sci-fi novels says The Time Machine is the best one.",
+        "The boy usually drinks apple soda, but he decides to try a cherry soda.",
+        "The girl strongly recommends Spider-Man, which the boy has not seen yet.",
+        "The boy going to the National Art Museum is told that it takes only about 15 minutes on foot.",
+        "The girl asking about the Dream Zoo decides to walk because it takes only 30 minutes."
+      ],
+      "answer": 5,
+      "why_ko": "Dream Zoo에 대해서는 지하철을 타라는 안내를 받았고 약 30분이 걸린다고 했을 뿐, 걸어가겠다고 한 말은 없다. 나머지는 모두 대화 내용과 일치한다."
+    },
+    {
+      "no": 9,
+      "material_id": "T6",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[T6]의 [A], [B]를 정리한 다음 표의 ①~⑤ 중, 글의 내용과 일치하지 않는 것은?",
+      "options": [
+        "출신 — [A] 영국 / [B] 미국",
+        "직업 — [A] 신문 기자 / [B] 교사",
+        "한국에 온 해 — [A] 1904년 / [B] 1885년",
+        "한국에서 한 일 — [A] 일본의 통치를 비판하는 기사를 씀 / [B] 여학생을 위한 병원을 세움",
+        "말년 — [A] 1909년 서울에서 사망 / [B] 한국에서 여생을 보냄"
       ],
       "answer": 4,
-      "why_ko": "[B]의 두 번째 대화에서 남학생은 You can take the subway.라고 하여 지하철을 안내했다. 버스가 선택되는 것은 세 번째 대화(⑤)이므로 ④만 표와 어긋난다.",
-      "grammar_point": ""
+      "why_ko": "[B]의 Anna Shaw는 병원이 아니라 여학생을 위한 작은 '학교'를 열었다. 나머지 항목은 두 글의 내용과 모두 일치한다."
     },
     {
       "no": 10,
-      "material_id": "P3",
+      "material_id": "T6",
       "type": "T-DETAIL",
       "points": 4,
-      "stem_ko": "P2를 [A], P3를 [B]라고 할 때, 두 자료에 대한 설명으로 옳은 것은?",
+      "stem_ko": "[T6]의 [A], [B]에 대한 설명으로 알맞은 것은?",
       "options": [
-        "[A]의 세 대화는 모두 상대의 취향을 묻는 질문으로 시작된다.",
-        "[A]에서 추천을 부탁하는 표현은 세 대화에 모두 나타난다.",
-        "[B]의 세 대화는 모두 소요 시간을 묻는 표현을 포함한다.",
-        "[B]에서 길을 묻는 사람은 모두 걸어서 가기로 결정한다.",
-        "[A]와 [B]에는 모두 상대의 제안을 거절하는 표현이 들어 있다."
+        "[A]는 한국에 오기 전부터 서울에서 자신의 신문을 운영하고 있었다.",
+        "[B]가 세운 학교에는 개교 첫날부터 수백 명의 학생이 모였다.",
+        "[A]는 일본 경찰에게 신문사를 빼앗기고 영국으로 돌아갔다.",
+        "[B]는 건강 때문에 고국으로 돌아간 뒤 다시는 한국에 오지 않았다.",
+        "두 사람은 모두 한국에서 생의 마지막 시기를 보냈다."
       ],
-      "answer": 1,
-      "why_ko": "[A]의 세 대화는 모두 What kinds of ~?로 상대의 취향을 먼저 묻는다. ②는 세 번째 대화에서 부탁 없이 여학생이 먼저 추천하므로 틀리고, ③은 세 번째 대화에 How long ~?이 없어 틀리다. ④는 지하철·버스를 택한 대화가 있고, ⑤의 거절 표현은 어느 대화에도 없다.",
-      "grammar_point": ""
+      "answer": 5,
+      "why_ko": "[A]는 1909년 서울에서 사망했고 [B]는 한국에서 여생을 보냈다. ①은 한국에 온 이듬해에 신문을 창간했고, ②는 첫날 단 한 명, ③은 외국인이라 쉽게 폐간되지 않았다고 했으며, ④는 두 번 돌아갔다가 항상 다시 왔다."
     },
     {
       "no": 11,
-      "material_id": "T3",
+      "material_id": "T1",
       "type": "T-GRAMMAR-INLINE",
       "points": 5,
-      "stem_ko": "T3의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "stem_ko": "[T1]의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
       "options": [
-        "① The old camera that he used to take wedding pictures",
-        "② He was so a patient man that he would wait a whole hour for one real smile",
-        "③ Once, during a summer storm, we felt the whole roof shake above our heads",
-        "④ There used to be three photo shops on this street",
-        "⑤ The couple whom he photographed on their wedding day"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 2,
-      "why_ko": "「so+형용사+that」은 명사를 데리고 올 수 없다. such a patient man that 또는 so patient a man that으로 써야 한다. ①은 '그가 결혼사진을 찍는 데 사용한 카메라'로 목적격 관계대명사 that+use A to B 구조라 옳고, ③은 지각동사 feel+원형부정사, ④는 과거의 상태 used to be, ⑤는 목적격 관계대명사 whom이다.",
-      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+      "answer": 4,
+      "why_ko": "목적격 관계대명사 which가 filled의 목적어 역할을 하므로 뒤에 다시 목적어 it을 쓸 수 없다(which he filled with medicine). ①은 met의 목적어 자리의 whom, ②는 과거의 상태를 나타내는 used to+동사원형, ③은 지각동사 heard의 목적격보어 현재분사, ⑤는 so+형용사+that 구문으로 모두 옳다.",
+      "grammar_point": "REL_OBJECT"
     },
     {
       "no": 12,
-      "material_id": "P1",
-      "type": "T-VOCAB-CONTEXT",
-      "points": 4,
-      "stem_ko": "다음 영영풀이의 뜻으로 movement가 쓰인 문장은? (P1의 the Korean independence movement와 같은 뜻)\n\nmovement: a group of people who share the same ideas and work together to change something",
+      "material_id": "T10",
+      "type": "T-BLANK",
+      "points": 3,
+      "stem_ko": "[T10]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
       "options": [
-        "The doctor watched the slow movement of the patient’s fingers.",
-        "The second movement of the symphony is the most famous part.",
-        "There was no movement at all in the dark room.",
-        "The environmental movement began to grow in the 1970s.",
-        "We followed the movement of the ship with a telescope."
+        "You can walk there in about fifteen minutes.",
+        "You can get there by bus or by subway.",
+        "I'm going there, too. Let's take a taxi together.",
+        "The bus is much faster than the subway.",
+        "You'd better not take the subway at this time."
       ],
-      "answer": 4,
-      "why_ko": "④만 '운동·단체'의 뜻이다. ①③⑤는 물리적인 '움직임', ②는 교향곡의 '악장'이라는 특수한 뜻으로 쓰였다.",
-      "grammar_point": ""
+      "answer": 2,
+      "why_ko": "바로 뒤에서 A가 '버스와 지하철 중 어느 것이 더 빠른가'를 묻고 있으므로 두 교통수단을 함께 알려 주는 말이 들어가야 한다. ④는 뒤에서 B가 지하철이 더 빠르다고 한 말과 모순되고, ①③⑤는 이어지는 질문과 연결되지 않는다."
     },
     {
       "no": 13,
-      "material_id": "P1",
-      "type": "T-DETAIL",
+      "material_id": "T4",
+      "type": "T-GRAMMAR-STANDALONE",
       "points": 4,
-      "stem_ko": "P1의 내용과 일치하지 않는 것은?",
+      "stem_ko": "[T4]의 ①~⑤ 중, 어법상 틀린 문장은?",
       "options": [
-        "Schofield는 1916년에 의학을 가르치기 위해 한국에 처음 왔다.",
-        "그는 한국어로 가르치고 싶어서 곧바로 한국어를 배우기 시작했다.",
-        "그는 3월 1일 오전에 건물 안에 숨어 사람들이 모이는 것을 보았다.",
-        "그는 역사적 사건에 관한 기사를 사진과 함께 외국 신문사에 보냈다.",
-        "그는 1958년에 한국으로 돌아온 뒤 다시는 한국을 떠나지 않았다."
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 3,
-      "why_ko": "본문은 At 2 p.m. on March 1이라고 하여 오후 2시였음을 밝히고 있다. 나머지는 모두 본문과 일치한다.",
-      "grammar_point": ""
+      "answer": 4,
+      "why_ko": "too ~ to부정사 구문에서 to부정사의 목적어가 문장의 주어(The box)와 같으므로 뒤에 it을 다시 쓸 수 없다(to lift). ①은 지각동사 felt+원형부정사, ②는 소유격 관계대명사, ③은 There used to be, ⑤는 such a+형용사+명사+that 구문으로 모두 옳다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
     },
     {
       "no": 14,
-      "material_id": "T6",
+      "material_id": "T7",
       "type": "T-BLANK",
       "points": 4,
-      "stem_ko": "T6의 빈칸에 들어갈 말로 가장 적절한 것은?",
+      "stem_ko": "[T7]은 [P1]을 읽은 학생이 쓴 에세이이다. 빈칸 (A), (B)에 들어갈 말로 가장 알맞은 것은?",
       "options": [
-        "a doctor who never learned the language of his patients",
-        "a guest who watched history from a safe distance",
-        "a witness who refused to look away",
-        "a soldier who fought with a weapon in his hand",
-        "a scholar who studied Korea only in books"
+        "so hard – at",
+        "so hard – by",
+        "too hard – at",
+        "such hard – on",
+        "so hardly – at"
       ],
-      "answer": 3,
-      "why_ko": "그는 통역 없이 강의할 만큼 한국어를 배웠고(①·⑤ 배제), 무기를 든 군인이 아니었으며(④ 배제), 안전한 곳에서 구경만 한 손님이 아니라 사진과 기사로 사실을 세상에 알린 '눈을 돌리지 않은 목격자'였다. ②는 '건물에 숨어 있었다'는 사실만 떠올린 학생을 노린 함정이다.",
-      "grammar_point": ""
+      "answer": 1,
+      "why_ko": "(A)는 '너무 ~해서 …하다'의 so+부사+that 구문이므로 so hard, (B)는 '~의 초청으로'를 뜻하는 굳어진 전치사 결합 at the invitation of이다. too ~ that은 쓸 수 없고, such는 명사를 꾸미며, hardly는 '거의 ~않다'라는 뜻이라 문맥에 맞지 않는다."
     },
     {
       "no": 15,
-      "material_id": "T4",
+      "material_id": "T2",
       "type": "T-GRAMMAR-INLINE",
       "points": 5,
-      "stem_ko": "T4의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "stem_ko": "[T2]의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
       "options": [
-        "① In summer he would sit on the wooden floor and watch the sun setting behind the mountain",
-        "② This is the letter which he sent it to a newspaper in 1970",
-        "③ The village used to be full of small wooden houses",
-        "④ On the day he moved out, he was so tired that he fell asleep on the empty floor",
-        "⑤ The man whose name is written on the back of the old photograph"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 2,
-      "why_ko": "which가 이미 sent의 목적어 역할을 하므로 뒤에 목적어 it을 또 쓸 수 없다(which he sent to a newspaper). ①은 지각동사 watch+현재분사와 과거의 습관 would, ③은 used to be, ④는 so+형용사+that, ⑤는 소유격 관계대명사 whose로 모두 옳다.",
-      "grammar_point": "REL_OBJECT"
+      "answer": 3,
+      "why_ko": "지각동사 saw의 목적격보어로는 원형부정사나 현재분사를 쓰므로 to hang이 아니라 hanging(또는 hang)이 되어야 한다. ①⑤는 목적격 관계대명사, ②는 '예전에는 ~이었다'의 used to be, ④는 so+형용사+that 구문으로 옳다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
     },
     {
       "no": 16,
       "material_id": "T5",
       "type": "T-FORM-CHOICE",
-      "points": 5,
-      "stem_ko": "T5의 (A), (B), (C)에서 어법에 맞는 표현을 짝지은 것으로 가장 적절한 것은?",
+      "points": 4,
+      "stem_ko": "[T5]의 (A), (B), (C)에서 어법에 맞는 표현끼리 바르게 짝지은 것은?",
       "options": [
-        "(A) that — (B) shout — (C) so",
-        "(A) that — (B) shout — (C) such",
-        "(A) that — (B) to shout — (C) such",
-        "(A) what — (B) shout — (C) such",
-        "(A) what — (B) to shout — (C) so"
+        "which – to creak – so",
+        "which – creaking – so",
+        "which – creaking – such",
+        "which it – creaking – so",
+        "which it – to creak – such"
       ],
       "answer": 2,
-      "why_ko": "(A) 선행사 the photographs가 있으므로 what이 아니라 목적격 관계대명사 that, (B) 지각동사 hear의 목적격보어는 원형부정사 shout, (C) 뒤에 a brave man이라는 명사가 오므로 such a brave man that이 옳다.",
+      "why_ko": "(A) built의 목적어 역할을 하는 목적격 관계대명사 which 뒤에는 목적어 it을 다시 쓰지 않는다. (B) 지각동사 hear의 목적격보어는 원형부정사나 현재분사이므로 creaking. (C) 뒤에 형용사 small이 오므로 so ~ that이다(such 뒤에는 명사구가 온다).",
       "grammar_point": "REL_OBJECT / PERCEPTION_VERB_OC / SO_SUCH"
     },
     {
       "no": 17,
-      "material_id": "P1",
-      "type": "T-VOCAB-CONTEXT",
-      "points": 4,
-      "stem_ko": "다음 영영풀이의 뜻으로 sound가 쓰인 문장은? (P1의 It sounded similar to his real name과 같은 뜻)\n\nsound: to give a particular impression when it is heard or read about",
+      "material_id": "T9",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 3,
+      "stem_ko": "[T9]의 밑줄 친 so의 쓰임이 나머지 넷과 다른 것은?",
       "options": [
-        "The sound of the rain on the roof kept me awake all night.",
-        "After the long trip she was sound asleep on the sofa.",
-        "That sounds like a plan we can all agree on.",
-        "My uncle gave me some sound advice about saving money.",
-        "The old bridge is still sound enough for heavy trucks."
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
       "answer": 3,
-      "why_ko": "③만 '~처럼 들리다·여겨지다'라는 감각동사 용법이다. ①은 명사 '소리', ②는 '깊이(잠든)', ④는 '분별 있는', ⑤는 '튼튼한'이라는 형용사 뜻이다.",
-      "grammar_point": ""
+      "why_ko": "③의 so는 '그래서'라는 결과를 나타내는 접속사이고, 나머지는 모두 so+형용사/부사(+명사)+that 구문에서 정도를 나타내는 부사 so이다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
     },
     {
       "no": 18,
-      "material_id": "P1",
-      "type": "T-PHRASE-INFER",
-      "points": 4,
-      "stem_ko": "P1에서 한 남자가 말한 a special favor의 구체적인 내용으로 가장 적절한 것은?",
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T3]의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
       "options": [
-        "3월 1일 집회에 직접 참가해 함께 행진해 달라는 것",
-        "집회 장면을 사진으로 찍어 세계에 알려 달라는 것",
-        "다친 사람들을 병원에서 무료로 치료해 달라는 것",
-        "독립운동가들을 자신의 집에 숨겨 달라는 것",
-        "한국의 참혹한 상황을 외국 신문에 기사로 써 달라는 것"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 2,
-      "why_ko": "남자는 Could you take pictures of the event and share them with the world?라고 부탁했다. ⑤의 기사 쓰기는 Schofield가 나중에 스스로 한 일이지 그날 부탁받은 내용이 아니므로 가장 정교한 함정이다.",
-      "grammar_point": ""
+      "answer": 5,
+      "why_ko": "뒤에 형용사 quiet가 오므로 such가 아니라 so quiet that이 되어야 한다(such는 「such+a(n)+형용사+명사」 형태로 쓴다). ①은 과거의 습관 used to+동사원형, ②는 so ~ that, ③은 given의 목적어 자리의 목적격 관계대명사, ④는 지각동사 heard의 목적격보어 현재분사로 옳다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
     },
     {
       "no": 19,
-      "material_id": "T6",
-      "type": "T-TOPIC",
+      "material_id": "T8",
+      "type": "T-WORD-ORDER",
       "points": 4,
-      "stem_ko": "T6의 제목으로 가장 적절한 것은?",
+      "stem_ko": "[T8]의 우리말과 같은 뜻이 되도록 [보기]의 말을 모두 한 번씩 사용하여 배열할 때, 여섯 번째로 오는 것은?",
       "options": [
-        "The Camera That Spoke for a Silenced Country",
-        "A Doctor’s Long Journey to Medical Fame",
-        "How Foreign Newspapers Changed Japan’s Policy",
-        "Learning Korean: A Guide for Foreign Teachers",
-        "The Growth of Trade Between Canada and Korea"
+        "heard",
+        "the boy",
+        "whom",
+        "met",
+        "singing"
       ],
-      "answer": 1,
-      "why_ko": "글은 말할 수 없던 나라를 대신해 사진과 기사로 사실을 알린 한 외국인 의사의 삶을 다룬다. ②는 의학적 명성, ③은 일본의 정책 변화, ④는 한국어 학습법, ⑤는 무역으로 모두 글의 일부 소재이거나 아예 언급되지 않은 내용이다.",
-      "grammar_point": ""
+      "answer": 4,
+      "why_ko": "I / heard / the boy / whom / we / met / in the park / singing 의 순서이므로 여섯 번째는 met이다. 지각동사 heard의 목적어 the boy를 목적격 관계대명사절이 수식하고, 목적격보어 singing이 맨 뒤에 온다."
     }
   ],
   "essays": [
@@ -428,72 +439,69 @@
       "no": 20,
       "material_id": "P1",
       "points": 5,
-      "prompt_ko": "P1의 내용에 맞게 다음 우리말을 영어로 쓰시오. [조건] ① 주어진 단어를 모두 사용하되 시제에 맞게 어형을 바꿀 것 ② 필요한 말을 더해 완전한 한 문장으로 쓸 것 ③ 단어 수 제한 없음\n\n→ 그는 너무 열심히 공부해서 몇 년 후에는 한국어로 가르칠 수 있었다.",
+      "prompt_ko": "[P1]의 내용과 일치하도록, [보기]의 말을 모두 한 번씩 사용하여 완전한 한 문장으로 쓰시오.\n<조건> ① 필요하면 시제와 어형을 바꿀 것 ② 목적격 관계대명사가 반드시 들어가도록 할 것 ③ [보기] 외의 단어는 추가하지 말 것 (단어 수 제한 없음)",
       "given_words": [
-        "study",
-        "so",
-        "hard",
-        "that",
-        "be able to",
-        "teach"
+        "Dr. Schofield",
+        "send",
+        "the article",
+        "which",
+        "he",
+        "write",
+        "to foreign newspapers"
       ],
       "word_limit": "제한 없음",
-      "target_grammar": "so ~ that (SO_SUCH_TOO_ENOUGH) + 과거시제",
-      "answer_en": "He studied so hard that he was able to teach in Korean after only a few years.",
-      "why_ko": "「so+부사+that+주어+동사」 구문이며, 주어진 study와 be able to를 과거형 studied / was able to로 바꾸어야 한다. was able to를 could로 바꾸면 주어진 단어를 쓰지 않은 것이므로 조건 위반이다."
+      "target_grammar": "REL_OBJECT(목적격 관계대명사) + 과거시제",
+      "answer_en": "Dr. Schofield sent the article which he wrote to foreign newspapers.",
+      "why_ko": "send→sent, write→wrote로 과거시제로 바꾸고, wrote의 목적어 자리에 목적격 관계대명사 which를 써서 the article을 수식해야 한다. 관계대명사절 안에 it을 다시 쓰면 감점이다."
     },
     {
       "no": 21,
-      "material_id": "P1",
+      "material_id": "P3",
       "points": 5,
-      "prompt_ko": "P1의 내용에 맞게 다음 우리말을 영어로 쓰시오. [조건] ① 주어진 단어를 모두 사용하되 필요하면 어형을 바꿀 것 ② 9단어 이하의 완전한 한 문장으로 쓸 것\n\n→ Dr. Schofield는 사람들이 한국 독립을 외치는 것을 들었다.",
+      "prompt_ko": "길을 묻는 친구에게 \"지하철로 가서 Anguk역에서 내려.\"라고 안내하는 말을 영어 한 문장으로 쓰시오.\n<조건> ① [보기]의 말을 모두 한 번씩 사용할 것 ② 알맞은 전치사 두 개를 넣을 것 ③ Go로 시작하고 9단어 이하로 쓸 것",
       "given_words": [
-        "hear",
-        "people",
-        "shout"
+        "go",
+        "subway",
+        "get off",
+        "Anguk Station"
       ],
       "word_limit": "9단어 이하",
-      "target_grammar": "지각동사+목적격보어 (PERCEPTION_VERB_OC)",
-      "answer_en": "Dr. Schofield heard people shouting for Korean independence.",
-      "why_ko": "지각동사 hear는 목적격보어로 현재분사(shouting) 또는 원형부정사(shout)를 쓴다. to shout은 불가하다. hear를 과거형 heard로 바꾸어야 하며, 답안은 7단어로 조건을 만족한다."
+      "target_grammar": "교통수단 by + 하차 get off at",
+      "answer_en": "Go by subway and get off at Anguk Station.",
+      "why_ko": "교통수단 앞에는 관사 없이 by subway를 쓰고, '~역에서 내리다'는 get off at ~ Station으로 굳어진 결합이다. 총 9단어로 조건에 맞는다."
     },
     {
       "no": 22,
-      "material_id": "P3",
+      "material_id": "T4",
       "points": 5,
-      "prompt_ko": "P3와 같은 상황에서 다음 우리말을 영어로 쓰시오. [조건] ① 주어진 단어를 모두 사용할 것 ② 빈칸에 필요한 전치사는 스스로 판단해 넣을 것 ③ 8단어 이하의 완전한 한 문장으로 쓸 것 (City Hall Station은 세 단어로 센다)\n\n→ 너는 시청역에서 내려야 해.",
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록 영작하시오.\n\n날씨가 너무 추워서 우리는 안에 머물렀다.\n<조건> ① [보기]의 말을 모두 사용하되 필요하면 형태를 바꿀 것 ② so ~ that 구문을 사용할 것 ③ It으로 시작하여 8단어 이하로 쓸 것",
       "given_words": [
-        "should",
-        "get off",
-        "City Hall Station"
+        "cold",
+        "we",
+        "stay",
+        "inside"
       ],
       "word_limit": "8단어 이하",
-      "target_grammar": "교통 관련 전치사 결합 (get off at + 역 이름)",
-      "answer_en": "You should get off at City Hall Station.",
-      "why_ko": "'~역에서 내리다'는 get off at + 역 이름으로 굳어진 결합이다. get off from이나 get down at은 쓰지 않는다. 답안은 7단어로 8단어 제한을 지킨다."
+      "target_grammar": "SO_SUCH_TOO_ENOUGH(so+형용사+that)",
+      "answer_en": "It was so cold that we stayed inside.",
+      "why_ko": "날씨는 비인칭 주어 It으로 받아야 8단어를 넘지 않는다(The weather was ~로 쓰면 9단어가 되어 조건 위반). stay는 과거형 stayed로 바꾸고 so cold that 구문을 쓴다."
     },
     {
       "no": 23,
       "material_id": "P1",
       "points": 5,
-      "prompt_ko": "다음 문장의 빈칸에 알맞은 말을 P1에서 찾아 네 단어로 쓰시오. (본문에 있는 단어만 사용하고, 어형을 바꾸지 말 것)\n\nDr. Schofield came back to Korea in 1958 ______________ the Korean government, and he never left again.",
-      "given_words": [
-        "P1 본문의 단어만 사용"
-      ],
+      "prompt_ko": "다음 질문에 대한 답을 [P1]에서 찾아, 본문에 있는 단어만 사용하여 정확히 네 단어로 쓰시오. (어형을 바꾸거나 단어를 추가하지 말 것)\n\nQ: What did Dr. Schofield hear people doing in Tapgol Park on March 1, 1919?",
+      "given_words": [],
       "word_limit": "정확히 네 단어",
-      "target_grammar": "본문 어구 그대로 옮기기 (전치사구)",
-      "answer_en": "at the invitation of",
-      "why_ko": "본문의 In 1958, he returned to Korea at the invitation of the Korean government에서 그대로 가져온 네 단어이다. by the invitation of나 at the invitation처럼 전치사를 바꾸거나 단어 수를 어기면 안 된다."
+      "target_grammar": "PERCEPTION_VERB_OC(지각동사 hear + 현재분사)",
+      "answer_en": "shouting for Korean independence",
+      "why_ko": "본문의 heard people shouting for Korean independence에서 지각동사의 목적격보어인 현재분사구를 그대로 옮겨 쓰면 된다. shout, shouted 등으로 어형을 바꾸면 안 된다."
     }
   ],
   "diagnostics": {
-    "problems": [
-      "자료 P2 의 줄바꿈이 달라 원본으로 되돌림",
-      "자료 P3 의 줄바꿈이 달라 원본으로 되돌림"
-    ],
+    "problems": [],
     "warnings": [
-      "서술형 20번 필수 단어가 답에 안 보임 ['be able to'] — 굴절형일 수 있으니 눈으로 확인",
-      "서술형 23번 필수 단어가 답에 안 보임 ['P1 본문의 단어만 사용'] — 굴절형일 수 있으니 눈으로 확인"
+      "서술형 20번 필수 단어가 답에 안 보임 ['send', 'write'] — 굴절형일 수 있으니 눈으로 확인"
     ],
     "n_items": 19,
     "n_essays": 4,
@@ -501,8 +509,8 @@
   },
   "usage": {
     "model": "claude-opus-5",
-    "input": 3113,
-    "output": 29411,
-    "usd": 0.7681
+    "input": 8779,
+    "output": 31406,
+    "usd": 0.8304
   }
 }

@@ -195,7 +195,33 @@ HARD_MODE = """
 """
 
 
-def build_params(school, spec, common, materials, points_hint, set_no, hard=False):
+def format_avoid(prior_sets):
+    """이전 세트들의 문항 요지를 「다시 묻지 말 것」 블록으로 만든다.
+
+    `prior_sets`: [{"set_no": 1, "items": [...], "essays": [...]}, ...] — 같은 학교의
+    과거 세트 그대로. 자료 자체가 몇 개 안 되는 학교(교과서 지문·외부지문 재사용)에서
+    모델이 매번 「그 지문에서 가장 눈에 띄는 지점」으로 수렴해 **거의 같은 문항을
+    반복해서 낸다** (2026-09-27 영일중 발견 — P4 외부지문의 `those things` 지시어
+    추론 문항이 1~5세트 전부에서 나왔다). 세트가 서로를 못 보니 생기는 문제라
+    과거 문항 요지를 이번 프롬프트에 실어 겹치지 않게 한다.
+    """
+    if not prior_sets:
+        return ""
+    lines = []
+    for ps in prior_sets:
+        for it in ps.get("items", []):
+            lines.append(f"  [{ps['set_no']}세트] {it.get('type','')} · {it.get('stem_ko','')[:70]}")
+        for e in ps.get("essays", []):
+            lines.append(f"  [{ps['set_no']}세트] T-WRITE · {e.get('prompt_ko','')[:70]}")
+    return ("\n\n## 🔁 이미 낸 문항 — 같은 지점을 다시 묻지 마십시오\n\n"
+            "같은 지문이 이번에도 재사용됩니다. 아래는 과거 세트에서 이미 낸 문항입니다. "
+            "**같은 구절·같은 문장·같은 지시어를 다시 정답 근거로 쓰지 마시고, "
+            "그 지문 안의 다른 문장·다른 지점을 겨냥하십시오.** 문항 유형이 같아도 "
+            "괜찮지만(예: T-DETAIL 여러 번), 노리는 부분은 매번 달라야 합니다.\n\n"
+            + "\n".join(lines) + "\n")
+
+
+def build_params(school, spec, common, materials, points_hint, set_no, hard=False, avoid=""):
     """materials: [{"id":"P1","title":..,"text":..,"kind":..}] — 우리가 넣는 자료."""
     mat = "\n\n".join(
         f"### {m['id']} · {m['kind']} · {m['title']}\n{m['text']}" for m in materials)
@@ -246,7 +272,7 @@ def build_params(school, spec, common, materials, points_hint, set_no, hard=Fals
 
 {mat}
 {ess}
-
+{avoid}
 ## 내십시오
 
 선택형 **정확히 {spec['selective']}문항**, 서술형 **정확히 {spec.get('essay', 0)}문항**.

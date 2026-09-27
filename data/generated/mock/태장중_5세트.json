@@ -46,7 +46,7 @@
     {
       "id": "P1",
       "kind": "given",
-      "title": "L5 본문 – Street Art in London",
+      "title": "L5 본문 · Street Art in London",
       "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
     },
     {
@@ -64,449 +64,475 @@
     {
       "id": "T1",
       "kind": "teacher_paragraph",
-      "title": "외부지문 ① – The Old Shoe Factory",
-      "text": "There ①[used to be] a shoe factory at the end of my street. The workers ②[who the company hired] came from all over the country, but one by one they left, and for almost twenty years the building stood empty. Last spring a group of young artists moved in. The first thing ③[that they painted] was a huge whale that seemed to swim above the roof. One of them, Mina, showed me a thick notebook ④[which she had filled with sketches of the town]. “My grandmother ⑤[was used to sew] shoes in this very room,” she said, “so I wanted to leave something of hers here.” Now people come from other towns to see the old factory, and the neighbors I meet there are proud of it."
+      "title": "A Lane That Changed",
+      "text": "Last spring I joined a free walking tour in Hosier Lane, Melbourne. The guide ①[whom we followed] that morning was a retired sign painter, and he had known the lane for forty years. He said the lane ②[used to be] a dark corner that people avoided after sunset. “The bricks ③[which the city used to clean] every month are now the most photographed walls in this town,” he laughed. In front of a huge blue face, he stopped for a while. The teenager ④[that painted it] came back ten years later and found his work still on the wall. “This is the piece ⑤[which I love it most],” the guide said quietly. Today shops, cafés, and small hotels crowd the lane, and the city no longer sends anyone to wash the paint away."
     },
     {
       "id": "T2",
       "kind": "teacher_paragraph",
-      "title": "외부지문 ② – A Sound at Midnight",
-      "text": "It was almost midnight when I heard a strange sound ①[coming] from the street below. I pushed the window open and watched two men ②[pull] a long wooden box out of a truck. The box looked so heavy ③[that] the older man had to stop every few steps. Then he slipped on the wet road, and I felt the whole building ④[to shake]. My little sister, who had been asleep until then, was ⑤[so frightened that she hid] under her blanket. The next morning we learned that the box was a piano for the new music teacher, and that it was too big to go through the front door."
+      "title": "One Winter Evening",
+      "text": "One winter evening, Ms. Parker was hurrying home when she ①[heard a child crying] behind the old bus stop. The boy was ②[so small that] she almost walked past him in the dark. When she came closer, she ③[saw him to shake] with cold, so she took off her scarf and wrapped it around his neck. It was ④[such a cold night that] even the street dogs had gone inside. She ⑤[felt her own heart beating] fast while she was calling the police. Twenty minutes later the boy’s mother arrived, and Ms. Parker watched the two of them hold each other for a long time."
     },
     {
       "id": "T3",
       "kind": "teacher_paragraph",
-      "title": "외부지문 ③ – The Smallest Artwork in Town",
-      "text": "Ben, the guide ①[whom we followed all morning], stopped in front of a low brick wall. “This is the artwork ②[I want to show you] most,” he said, and pointed at a spot no bigger than a coin. It was ③[so a strange picture that] nobody in our group could tell what it was. We bent down and watched the tiny figures ④[shine] in the afternoon light. Ben told us that the artist ⑤[used to paint] huge walls before he decided that small things deserve attention, too."
+      "title": "A Friday at the Museum",
+      "text": "Our art club visited the city museum last Friday. The main hall was ①[so crowded that] we could hardly move. A guide ②[whom we asked for help] led us to a quiet room upstairs. There we watched an old artist ③[drawing] a map of the town on a long roll of paper. The roll was ④[too long for us to carry it] to the next room, so two workers helped us. Before we left, the artist showed us a small sketch and said, “This is the first map ⑤[that I made] when I was your age.”"
     },
     {
       "id": "T4",
-      "kind": "teacher_paragraph",
-      "title": "어형 고르기 자료 – Aunt Rosa’s Blue House",
-      "text": "My aunt Rosa (A)[used to live / was used to live] in a small fishing village on the east coast. The blue house (B)[that / what] my grandfather built for her still stands at the top of the hill. On windy nights, if you open the window, you can hear the waves (C)[hitting / to hit] the rocks below."
+      "kind": "standalone_set",
+      "title": "단문 나열형",
+      "text": "① The painting that my sister bought last month hangs in our living room.\n② There used to have a small bakery on this corner.\n③ I felt someone touch my shoulder in the dark hallway.\n④ The book was so difficult that I gave up reading it after ten pages.\n⑤ He is used to speaking in front of a large audience."
     },
     {
       "id": "T5",
-      "kind": "standalone_set",
-      "title": "단문 나열형 자료",
-      "text": "① Do you remember the café that we used to go to after school?\n② The vase which my sister broke it yesterday was very expensive.\n③ He is so honest a man that everyone around him trusts him.\n④ I heard my name called from somewhere behind me.\n⑤ Last Sunday she watched her son ride a bike without help for the first time."
+      "kind": "teacher_paragraph",
+      "title": "The Artist Nobody Has Seen",
+      "text": "The street artist (A)[who / whom] everyone in our town knows has never shown his face. Last week I watched him (B)[paint / to paint] a whale on the wall of an old factory. There was (C)[so / such] a strong smell of paint in the air that I had to step back twice."
     },
     {
       "id": "T6",
       "kind": "teacher_paragraph",
-      "title": "[A][B] 두 예술가",
-      "text": "[A] Lena Park grew up above her family’s bakery. She used to get up at four every morning to bake bread, but the shop closed five years ago. One rainy day she found an old wooden door that someone had thrown away, and she painted a sleeping cat on it. Now the doors she collects hang at every bus stop in town. “A door is something people pass without looking,” she says. “I want them to stop for ten seconds.” Her cats are so real that children often try to touch them.\n\n[B] Omar Reyes drove a taxi in the same town for nineteen years. He used to complain about the broken bikes people left beside the road. Then he began to weld them into birds. The birds that he builds now stand in the middle of the market square, and each one carries a small sign asking people not to throw things away. On weekends you can watch him cut and bend metal in front of the library. His sculptures are so heavy that four people are needed to move one.\n\nBoth [A] and [B] show that ⓐ________________________."
+      "title": "[A] Maya Lopez · [B] Tom Rigby",
+      "text": "[A] Maya Lopez grew up in a small fishing village in Chile. She used to paint on paper at home, but now she paints on the walls of empty houses. Her first mural, finished in 2015, shows twelve fishermen mending a net. She works only with brushes and never uses spray cans. Every summer she teaches free painting classes to the children of her village.\n\n[B] Tom Rigby was born in Leeds, England. He used to work as a bus driver for eleven years before he became an artist. He draws tiny animals on broken bricks and leaves them on park benches for strangers to find. He never signs his works. Last year he gave away more than four hundred painted bricks to visitors of the city park."
     },
     {
       "id": "T7",
       "kind": "teacher_paragraph",
-      "title": "에세이 전환 – “Messages on the Street”",
-      "text": "Last month our class walked through three parts of London, and I came back with a notebook full of questions. Our first stop was an area (A)________ poor workers used to live. On one wall stood three figures made of nothing but lines and dots; their eyes, the guide said, are the only (B)________ that tells us which figure is the past, the present, and the future. In a park we met a green tree that was not a tree at all — only paint on a wall behind bare branches, with a person and a sprayer beside it. Most visitors read it as a warning about nature. Our last stop was the strangest: we had to look down, not up, to find paintings the size of a coin on pieces of gum. They were tiny, but I stood there longer than I had stood in front of anything else all day."
+      "title": "Somi의 에세이 (본문 전환)",
+      "text": "Last Saturday I took a street art tour in London, and three stops stayed in my mind. Our first stop was Shoreditch, an area (A)__________ . There I saw three line-and-dot figures by STIK, and our guide told us to look at their eyes, because those little dots are the clue to which figure means the past, the present, and the future. In Finsbury Park, Banksy’s green tree taught me that a wall can carry a message about nature. The last stop was Muswell Hill, where I had to look down at the ground to find Ben Wilson’s chewing gum paintings. They are the smallest artworks I have ever seen, but (B)__________ ."
     },
     {
       "id": "T8",
-      "kind": "dialogue_set",
-      "title": "짧은 대화 – 길 묻기와 추천하기",
-      "text": "A: Excuse me. ⓐ________________________________\nB: The City Library? Sure. Take bus No. 2 or 5 over there and get off at the third stop.\nA: Thank you very much. By the way, is there a good movie playing near the library?\nB: Yes. The Song of Love is playing at the theater next to it. The story is so touching that I saw it twice. I strongly recommend it."
+      "kind": "teacher_paragraph",
+      "title": "배열 문항 자료",
+      "text": "우리말: 우리가 어제 만난 그 화가는 너무 바빠서 우리와 이야기할 수 없었다.\n[보기] that / we / so / the painter / met / busy / couldn’t / was / yesterday / he / talk / to us"
     },
     {
       "id": "T9",
       "kind": "standalone_set",
-      "title": "that의 쓰임 자료",
-      "text": "① The painting that hangs in the hall was made by my aunt.\n② She is so kind a teacher that all of her students love her.\n③ This is the very book that I have been looking for all week.\n④ The man that I met at the station turned out to be my uncle.\n⑤ I still keep the letters that my grandmother sent me."
+      "title": "-ing 쓰임",
+      "text": "① I saw him [crossing] the street with a big canvas.\n② We heard someone [knocking] on the studio door.\n③ She watched the children [painting] their hands in the yard.\n④ The artist spends his weekends [painting] old walls for free.\n⑤ I could smell something [burning] in the museum kitchen."
     },
     {
       "id": "T10",
       "kind": "standalone_set",
-      "title": "배열 자료",
-      "text": "[보기]  artist / I / in / live / met / the / this / to / town / used / yesterday"
+      "title": "낱말의 쓰임",
+      "text": "① The guide [spoke] to us about the three figures for almost ten minutes.\n② She [said] nothing about the meaning of the dots.\n③ He [told] that the lane was dangerous after dark.\n④ We [talked] about the painting on our way home.\n⑤ Nobody could [tell] the difference between the two murals."
+    },
+    {
+      "id": "T11",
+      "kind": "dialogue_set",
+      "title": "길 묻기 대화",
+      "text": "A: Excuse me. How can I get to the Street Art Museum from here?\nB: It’s a little far from here. __________\nA: About how long does it take?\nB: Only about fifteen minutes. The museum is right next to the station."
     }
   ],
   "items": [
     {
       "no": 1,
       "material_id": "P1",
-      "type": "T-TOPIC",
-      "points": 5,
-      "stem_ko": "P1의 제목으로 가장 적절한 것은?",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "[P1]의 the three figures represent the past, present, and future에서 figure의 뜻으로 가장 알맞은 것은?",
       "options": [
-        "Street Art: A Walking Tour of London’s Hidden Messages",
-        "How Banksy Became the Most Expensive Artist in Britain",
-        "Chewing Gum: The Biggest Problem of London’s Streets",
-        "Shoreditch: From a Poor Workers’ Town to a Rich Town",
-        "Artists Who Paint Human Bodies with Lines and Dots Only"
+        "a number or an amount that is written in symbols",
+        "the shape of a person, especially one that is not seen clearly",
+        "a person who is important or famous in a particular field",
+        "a diagram or picture used to explain something in a book",
+        "the price that someone asks for a work of art"
       ],
-      "answer": 1,
-      "why_ko": "세 장소(Shoreditch, Finsbury Park, Muswell Hill)를 차례로 돌며 각 작품이 담은 메시지를 소개하는 답사기이므로 ①이 제목으로 알맞다. ②④⑤는 본문에 나오지만 글 전체가 아니라 한 부분만 다루므로 제목이 될 수 없고, ③은 껌 그림을 문제로 보는 정반대의 내용이다."
+      "answer": 2,
+      "why_ko": "P1의 figure는 STIK이 선과 점으로 그린 '사람의 형상'을 가리킨다. ①(숫자), ③(중요 인물), ④(도표), ⑤(가격)은 figure의 다른 뜻이거나 문맥에 맞지 않는다.",
+      "grammar_point": "다의어 figure"
     },
     {
       "no": 2,
-      "material_id": "P1",
-      "type": "T-DETAIL",
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
       "points": 4,
-      "stem_ko": "P1의 내용과 일치하지 않는 것은?",
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, [P3]에 쓰인 것은?\n\n: a piece of writing about a particular subject that is printed in a newspaper or magazine",
       "options": [
-        "STIK은 사람의 몸을 그릴 때 선과 점만 사용하는 것으로 유명하다.",
-        "세 인물 중 어느 것이 과거·현재·미래인지는 눈을 자세히 보면 단서를 얻을 수 있다.",
-        "Banksy는 잎이 없는 나무 뒤의 벽에 초록색 페인트를 뿌려 초록 나무를 만들었다.",
-        "분무기를 들고 있는 사람은 그 나무의 바로 앞쪽에 그려져 있다.",
-        "Wilson은 사람들이 길에 버린 껌 위에 그림을 그리는 것으로 알려져 있다."
+        "article",
+        "review",
+        "report",
+        "record",
+        "column"
       ],
-      "answer": 4,
-      "why_ko": "본문은 Next to the tree, there is a person who is holding a sprayer라고 하여 분무기를 든 사람이 나무 ‘옆’에 있다고 했다. ‘앞’으로 바꾼 ④가 불일치이다. 나머지는 모두 본문과 일치한다."
+      "answer": 1,
+      "why_ko": "Schofield가 3·1 운동에 대해 쓴 것은 an article이다. review(비평), report(보고), record(기록), column(칼럼)은 뜻이 비슷해 보이지만 P3에 쓰인 낱말이 아니다.",
+      "grammar_point": "영영풀이"
     },
     {
       "no": 3,
-      "material_id": "P1",
-      "type": "T-PHRASE-INFER",
+      "material_id": "T10",
+      "type": "T-VOCAB-CONTEXT",
       "points": 4,
-      "stem_ko": "P1의 마지막 문단에 쓰인 the one over here가 가리키는 것으로 가장 적절한 것은?",
+      "stem_ko": "[T10]의 ①~⑤ 중, [ ] 안 낱말의 쓰임이 문맥상 어색한 것은?",
       "options": [
-        "생일 축하 메시지를 담은 껌 그림 한 점",
-        "잎이 없는 나무를 그린 벽화",
-        "Ben Wilson이 사용하는 분무기",
-        "길에 껌을 버리고 가는 사람",
-        "세 인물을 그린 커다란 벽화"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 1,
-      "why_ko": "the one은 앞에 나온 gum paintings 중 하나를 대신하는 부정대명사이며, 바로 뒤에서 a happy birthday wish for a loved one이라고 설명하므로 ‘생일 축하 메시지를 담은 껌 그림’이다. ③은 Banksy 그림에 나오는 소재이고 ②⑤는 다른 문단의 작품이다."
+      "answer": 3,
+      "why_ko": "tell은 that절 앞에 듣는 대상이 와야 하므로 He told us that ~ 또는 He said that ~이 되어야 한다. ①spoke to us about, ②said nothing, ④talked about, ⑤tell the difference는 모두 올바른 결합이다.",
+      "grammar_point": "say/tell/speak/talk 구별"
     },
     {
       "no": 4,
       "material_id": "P1",
-      "type": "T-VOCAB-CONTEXT",
+      "type": "T-DETAIL",
       "points": 4,
-      "stem_ko": "P1의 Banksy’s artworks often carry social messages에서 carry의 뜻풀이로 가장 적절한 것은?",
+      "stem_ko": "[P1]의 Ben Wilson에 관한 설명으로 일치하지 않는 것은?",
       "options": [
-        "to hold something and take it from one place to another",
-        "to have or include a particular meaning or message",
-        "to hold the weight of something so that it does not fall",
-        "to keep a particular product in a shop so that people can buy it",
-        "to pass a disease from one person or animal to another"
+        "Wilson은 자신이 껌을 길에 붙인 뒤 그 위에 그림을 그린다.",
+        "그의 껌 그림에는 거리에서 만난 사람들의 개인적인 메시지가 담기기도 한다.",
+        "그의 작품을 보려면 고개를 숙여 아래를 자세히 살펴야 한다.",
+        "이번 투어의 마지막 장소가 그의 작품이 있는 곳이다.",
+        "그의 껌 그림은 매우 작지만 많은 사람에게 큰 기쁨을 준다."
       ],
-      "answer": 2,
-      "why_ko": "여기서 carry는 ‘(의미·메시지를) 담고 있다’라는 다의어의 뜻으로 쓰였으므로 ②가 알맞다. ①은 ‘나르다’, ③은 ‘지탱하다’, ④는 ‘(상품을) 취급하다’, ⑤는 ‘(병을) 옮기다’라는 다른 뜻이다."
+      "answer": 1,
+      "why_ko": "P1은 사람들이 길에 '뱉어 놓은' 껌 위에 Wilson이 그림을 그린다고 했다. 껌을 붙이는 사람은 Wilson이 아니다. 나머지는 모두 본문과 일치한다.",
+      "grammar_point": "세부 정보"
     },
     {
       "no": 5,
-      "material_id": "P2",
-      "type": "T-DETAIL",
-      "points": 3,
-      "stem_ko": "P2의 내용과 일치하는 것은?",
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "[P1]의 the one over here가 가리키는 것으로 가장 알맞은 것은?",
       "options": [
-        "The City Library can be reached only on foot from the school.",
-        "It takes about ten minutes to reach the library by bus No. 2 or 5.",
-        "In The Red Room there are two tables and one big chair.",
-        "The writer likes the painting mainly because of the woman in it.",
-        "The writer’s grandparents still work on the farm in the country."
+        "Ben Wilson이 거리에서 만난 한 사람",
+        "누군가의 생일을 축하하는 마음이 담긴 껌 그림",
+        "사람들이 길에 버린 씹던 껌 한 조각",
+        "STIK이 그린 세 인물 중 가장 오래된 것",
+        "Muswell Hill의 벽에 그려진 작은 벽화"
       ],
       "answer": 2,
-      "why_ko": "버스 2번이나 5번을 타면 약 10분 걸린다고 했으므로 ②가 일치한다. ①은 버스가 최선이라 했고, ③은 의자 둘과 큰 탁자 하나로 숫자가 뒤바뀌었으며, ④는 붉은 색 때문에 좋아한다고 했고, ⑤는 지금은 일하지 않고 여행을 즐긴다고 했다."
+      "why_ko": "바로 뒤에 is a happy birthday wish for a loved one이 이어지므로 the one은 앞에서 말한 gum paintings 중 하나를 가리킨다. ③은 그림이 그려지기 전의 껌일 뿐이다.",
+      "grammar_point": "지시어"
     },
     {
       "no": 6,
       "material_id": "P2",
-      "type": "T-VOCAB-CONTEXT",
+      "type": "T-DETAIL",
       "points": 4,
-      "stem_ko": "P2의 a woman who is setting the table에서 set의 뜻풀이로 가장 적절한 것은?",
+      "stem_ko": "[P2]에 소개된 '함께 만드는 예술 활동'에 대한 설명으로 알맞지 않은 것은?",
       "options": [
-        "to decide a price, a date, or a rule",
-        "to put plates, knives, and forks on a table before a meal",
-        "(of the sun) to go down below the horizon",
-        "to put something down carefully in a particular place",
-        "to make a machine ready to start at a certain time"
+        "사람들은 자신의 얼굴을 찍은 사진을 거리에 붙인다.",
+        "붙은 사진들이 한데 모여 거대한 작품이 된다.",
+        "사람들은 커다란 벽에 자신의 꿈과 목표를 적는다.",
+        "사람들은 자신의 이야기를 나누며 함께 특별한 작품을 만든다.",
+        "사람들은 벽에 적은 꿈을 사진으로 찍어 다시 그 벽에 붙인다."
       ],
-      "answer": 2,
-      "why_ko": "set the table은 ‘식사를 위해 상을 차리다’라는 굳어진 표현이므로 ②가 알맞다. ④는 set의 일반적인 뜻(놓다)이라 얼핏 맞아 보이지만 the table과 함께 쓰인 관용적 의미를 설명하지 못한다."
+      "answer": 5,
+      "why_ko": "P2에는 얼굴 사진을 붙이는 활동과 벽에 꿈·목표를 적는 활동이 각각 소개될 뿐, 적은 꿈을 사진으로 찍어 붙인다는 내용은 없다.",
+      "grammar_point": "세부 정보"
     },
     {
       "no": 7,
       "material_id": "P3",
-      "type": "T-TOPIC",
-      "points": 3,
-      "stem_ko": "P3의 Kim Mandeok 단락에서 글쓴이가 말하고자 하는 바로 가장 적절한 것은?",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "[P3]에서 Kim Mandeok에 관해 언급되지 않은 것은?",
       "options": [
-        "Money should always be saved for a time of trouble.",
-        "Love for others that does not think of oneself can change many lives.",
-        "Successful businesspeople deserve the respect of their community.",
-        "Women in the Joseon period had few chances to succeed in business.",
-        "Sharing food with the poor is the fastest way to become well known."
+        "태어난 해와 태어난 곳",
+        "그녀의 직업",
+        "굶주린 사람들을 위해 한 일",
+        "사람들에게 쌀을 나누어 준 해",
+        "사업으로 벌어들인 돈의 액수"
       ],
-      "answer": 2,
-      "why_ko": "마지막 문장에서 selfless love for others can make a big difference라고 정리하므로 ②가 요지이다. ①은 재산을 모두 나누어 준 내용과 반대이고, ③④⑤는 본문에서 끌어낼 수 없는 부수적 해석이다."
+      "answer": 5,
+      "why_ko": "1739년 제주 출생, 성공한 사업가, 전 재산으로 쌀을 사서 나눔, 1795년이라는 시점은 모두 나오지만 벌어들인 돈의 액수는 언급되지 않았다.",
+      "grammar_point": "언급되지 않은 것"
     },
     {
       "no": 8,
-      "material_id": "P3",
-      "type": "T-VOCAB-CONTEXT",
+      "material_id": "T1",
+      "type": "T-TOPIC",
       "points": 4,
-      "stem_ko": "P3의 wrote an article about it에서 article의 뜻풀이로 가장 적절한 것은?",
+      "stem_ko": "[T1]의 주제로 가장 알맞은 것은?",
       "options": [
-        "a small object that is used for a particular purpose",
-        "a piece of writing about a subject in a newspaper or magazine",
-        "a separate part of a law, a contract, or an agreement",
-        "a word such as “a,” “an,” or “the” used before a noun",
-        "a thing that is produced in order to be sold"
+        "A guide's warning about dangerous back streets at night",
+        "How a lane that people once avoided became a place of art",
+        "The reason a city should clean its painted walls every month",
+        "A teenager who grew up to be a famous sign painter",
+        "The difficulty of protecting old bricks in a big city"
       ],
       "answer": 2,
-      "why_ko": "Schofield가 3·1 운동을 사진으로 찍고 그것에 관해 ‘기사’를 썼다는 문맥이므로 ②이다. ①③④⑤ 모두 article의 실제 뜻이지만 문맥에 맞지 않는다."
+      "why_ko": "해가 지면 피하던 어두운 골목이 지금은 사진이 가장 많이 찍히는 거리가 되었다는 변화가 글 전체를 관통한다. ④는 벽화를 그린 십 대와 은퇴한 간판 화가를 뒤섞은 함정이다.",
+      "grammar_point": "주제"
     },
     {
       "no": 9,
       "material_id": "T6",
       "type": "T-DETAIL",
-      "points": 4,
-      "stem_ko": "[A]와 [B]를 정리한 다음 표의 내용 중, 두 글의 내용과 일치하지 않는 것은?",
+      "points": 5,
+      "stem_ko": "[T6]의 [A], [B]를 정리한 다음 표의 ①~⑤ 중, 글의 내용과 일치하지 않는 것은?\n\n구분 / [A] Maya Lopez / [B] Tom Rigby\n① 출신 — 칠레의 작은 어촌 / 영국 리즈\n② 예술가가 되기 전 — 집에서 종이에 그림을 그림 / 11년간 버스 기사로 일함\n③ 작품을 남기는 곳 — 빈집의 벽 / 공원 벤치 위\n④ 작업 도구 — 스프레이 캔만 사용함 / 깨진 벽돌에 그림\n⑤ 나눔 — 매년 여름 아이들에게 무료 수업 / 작년에 벽돌 400개 넘게 나눠 줌",
       "options": [
-        "예전에 한 일 | [A] 새벽에 빵을 굽던 제빵사 | [B] 19년간 택시를 몰던 기사",
-        "작품의 재료 | [A] 버려진 나무 문 | [B] 버려진 자전거",
-        "작품이 놓인 곳 | [A] 마을의 버스 정류장 | [B] 시장 광장 한가운데",
-        "작품의 특징 | [A] 고양이가 너무 진짜 같아 만지려 함 | [B] 너무 무거워 네 사람이 옮김",
-        "작업 모습 공개 | [A] 주말마다 도서관 앞에서 작업함 | [B] 매일 새벽 네 시에 작업함"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 5,
-      "why_ko": "주말에 도서관 앞에서 작업하는 모습을 볼 수 있는 사람은 [B]의 Omar이고, 새벽 네 시에 일어나던 것은 [A]의 Lena가 ‘예술가가 되기 전 빵을 굽던’ 습관이다. 두 정보가 서로 뒤바뀐 ⑤가 불일치이다."
+      "answer": 4,
+      "why_ko": "[A]의 Maya는 붓만 쓰고 스프레이 캔은 결코 쓰지 않는다고 했으므로 ④가 반대로 정리되었다.",
+      "grammar_point": "두 글 대조"
     },
     {
       "no": 10,
       "material_id": "T6",
-      "type": "T-BLANK",
+      "type": "T-DETAIL",
       "points": 4,
-      "stem_ko": "T6의 빈칸 ⓐ에 들어갈 말로 가장 적절한 것은?",
+      "stem_ko": "[T6]의 [A], [B]에 대한 설명으로 알맞은 것은?",
       "options": [
-        "art can turn things people no longer want into something worth stopping for",
-        "artists should be paid more for the work they do for their own towns",
-        "a small town needs a good museum more than it needs living artists",
-        "people who used to have hard jobs become better artists than others do",
-        "old objects should be repaired and used again for their original purpose"
+        "Maya는 첫 벽화를 완성한 해에 고향 마을을 떠났다.",
+        "Tom은 사람들이 알아볼 수 있도록 작품에 이름을 남긴다.",
+        "두 사람 모두 예전에 하던 일을 그만두고 지금은 다른 방식으로 작업한다.",
+        "두 사람 모두 어린이를 위한 무료 수업을 운영하고 있다.",
+        "두 사람 모두 작품을 팔아 얻은 돈을 마을에 기부한다."
       ],
-      "answer": 1,
-      "why_ko": "두 사람 모두 ‘버려진 것’(낡은 문, 망가진 자전거)을 사람들이 발걸음을 멈추고 바라보는 작품으로 바꾸었으므로 ①이 알맞다. ⑤는 재활용이라는 점은 비슷해 보이지만 두 사람은 물건을 원래 용도로 되돌린 것이 아니라 예술로 바꾼 것이므로 답이 될 수 없다."
+      "answer": 3,
+      "why_ko": "Maya는 예전에 집에서 종이에 그리던 것을 지금은 빈집 벽에 그리고, Tom은 버스 기사 일을 그만두고 예술가가 되었다. ②는 never signs와 반대, ④는 Maya에게만 해당한다.",
+      "grammar_point": "두 글 대조"
     },
     {
       "no": 11,
       "material_id": "T1",
       "type": "T-GRAMMAR-INLINE",
       "points": 5,
-      "stem_ko": "T1의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "stem_ko": "[T1]의 ①~⑤ 중, 어법상 틀린 것은?",
       "options": [
-        "①  used to be",
-        "②  who the company hired",
-        "③  that they painted",
-        "④  which she had filled with sketches of the town",
-        "⑤  was used to sew"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
       "answer": 5,
-      "why_ko": "과거의 습관·상태는 「used to+동사원형」으로 나타낸다. ‘~에 익숙하다’는 be used to -ing이므로 was used to sew는 두 구문 어느 쪽으로도 성립하지 않는다. used to sew가 맞다. ②는 목적격 관계대명사 who(whom 대용), ③④는 목적격 관계대명사로 모두 옳다.",
-      "grammar_point": "VERB_USED_TO / REL_OBJECT"
-    },
-    {
-      "no": 12,
-      "material_id": "T5",
-      "type": "T-GRAMMAR-STANDALONE",
-      "points": 4,
-      "stem_ko": "T5의 ①~⑤ 중, 어법상 틀린 문장은?",
-      "options": [
-        "①  Do you remember the café that we used to go to after school?",
-        "②  The vase which my sister broke it yesterday was very expensive.",
-        "③  He is so honest a man that everyone around him trusts him.",
-        "④  I heard my name called from somewhere behind me.",
-        "⑤  Last Sunday she watched her son ride a bike without help for the first time."
-      ],
-      "answer": 2,
-      "why_ko": "②는 목적격 관계대명사 which가 이미 broke의 목적어 역할을 하므로 뒤에 it을 다시 쓸 수 없다. ①은 전치사 to가 뒤에 남은 정상적인 문장, ③은 「so+형용사+a+명사+that」의 옳은 어순, ④는 목적어와 보어가 수동 관계여서 과거분사 called가 맞고, ⑤는 지각동사 watch+동사원형이다.",
+      "why_ko": "⑤는 목적격 관계대명사 which가 이미 love의 목적어 역할을 하므로 it을 또 쓸 수 없다(which I love most). ④ that은 주격 관계대명사이고 it은 painted의 목적어이므로 옳다.",
       "grammar_point": "REL_OBJECT"
     },
     {
-      "no": 13,
-      "material_id": "T4",
-      "type": "T-FORM-CHOICE",
-      "points": 4,
-      "stem_ko": "T4의 (A), (B), (C)에서 어법에 맞는 표현끼리 바르게 짝지은 것은?",
+      "no": 12,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T2]의 ①~⑤ 중, 어법상 틀린 것은?",
       "options": [
-        "used to live – that – hitting",
-        "used to live – what – hitting",
-        "used to live – that – to hit",
-        "was used to live – that – hitting",
-        "was used to live – what – to hit"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 1,
-      "why_ko": "(A) 과거의 상태이므로 used to live. (B) 선행사 The blue house가 있으므로 관계대명사 that을 쓰며 선행사를 포함하는 what은 쓸 수 없다. (C) 지각동사 hear의 목적격보어로는 원형부정사나 현재분사가 오므로 hitting이 맞고 to hit는 쓸 수 없다.",
-      "grammar_point": "VERB_USED_TO / REL_OBJECT / PERCEPTION_VERB_OC"
+      "answer": 3,
+      "why_ko": "지각동사 see의 목적격보어로는 원형부정사나 현재분사가 와야 하므로 saw him shake[shaking]가 맞다. ④는 명사구 앞이므로 such a cold night that이 옳고, ⑤는 feel + 목적어 + 현재분사로 옳다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 13,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "[T3]의 ①~⑤ 중, 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "too ~ to 구문에서 to부정사의 의미상 목적어가 문장의 주어(The roll)와 같으므로 it을 다시 쓸 수 없다(too long for us to carry). ③은 watch + 목적어 + 현재분사로 옳다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
     },
     {
       "no": 14,
       "material_id": "T7",
       "type": "T-BLANK",
       "points": 5,
-      "stem_ko": "T7은 P1을 읽은 학생이 쓴 에세이이다. 빈칸 (A), (B)에 들어갈 말로 가장 적절한 것은?",
+      "stem_ko": "[T7]은 [P1]을 읽은 학생이 쓴 에세이이다. 빈칸 (A), (B)에 들어갈 말로 가장 알맞은 것은?",
       "options": [
-        "where – clue",
-        "which – clue",
-        "where – warning",
-        "that – hint",
-        "which – hint"
+        "(A) that rich artists used to own … (B) they are now sold at very high prices",
+        "(A) that poor workers used to live in … (B) they give great pleasure to many people",
+        "(A) where poor workers still live today … (B) they carry no message at all",
+        "(A) that poor workers used to live in … (B) they are too small to give anyone pleasure",
+        "(A) that nobody used to visit at night … (B) they give great pleasure to many people"
       ],
-      "answer": 1,
-      "why_ko": "(A)는 뒤에 완전한 절이 오고 선행사가 장소(an area)이므로 관계부사 where가 알맞다. which를 쓰려면 in which가 되어야 한다. (B)는 눈이 어느 인물이 과거·현재·미래인지 알려 주는 ‘단서’이므로 clue이다. warning은 뒤 문단의 Banksy 그림에 어울리는 말이다."
+      "answer": 2,
+      "why_ko": "Shoreditch는 가난한 노동자들이 '예전에' 살던 곳이며(지금은 힙한 지역), Wilson의 껌 그림은 작지만 많은 사람에게 큰 기쁨을 준다. ④와 ⑤는 한쪽만 맞는 함정이다.",
+      "grammar_point": "빈칸 추론"
     },
     {
       "no": 15,
-      "material_id": "T2",
-      "type": "T-GRAMMAR-INLINE",
-      "points": 5,
-      "stem_ko": "T2의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "material_id": "T4",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "[T4]의 ①~⑤ 중, 어법상 틀린 문장은?",
       "options": [
-        "①  coming",
-        "②  pull",
-        "③  that",
-        "④  to shake",
-        "⑤  so frightened that she hid"
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 4,
-      "why_ko": "지각동사 feel의 목적격보어 자리에는 원형부정사(shake)나 현재분사(shaking)가 와야 하므로 to shake는 틀리다. ①은 현재분사 보어, ②는 watch+동사원형, ③은 「so+형용사+that」의 that, ⑤도 「so ~ that」 구문으로 모두 옳다.",
-      "grammar_point": "PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+      "answer": 2,
+      "why_ko": "'~이 있었다'는 There used to be가 맞고 There used to have는 쓰지 않는다. ⑤ be used to -ing(~에 익숙하다)는 의미상 옳은 표현이다.",
+      "grammar_point": "VERB_USED_TO"
     },
     {
       "no": 16,
-      "material_id": "T8",
-      "type": "T-BLANK",
-      "points": 3,
-      "stem_ko": "T8의 빈칸 ⓐ에 들어갈 말로 알맞지 않은 것은?",
+      "material_id": "T5",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "[T5]의 (A), (B), (C)에서 어법에 맞는 표현끼리 바르게 짝지은 것은?",
       "options": [
-        "How can I get to the City Library?",
-        "Could you tell me how to get to the City Library?",
-        "What’s the best way to get to the City Library?",
-        "Do you know where the City Library is?",
-        "How long does it take to get to the City Library?"
+        "who – paint – so",
+        "who – to paint – such",
+        "whom – paint – such",
+        "whom – to paint – so",
+        "whom – painting – so"
       ],
-      "answer": 5,
-      "why_ko": "B는 타야 할 버스와 내릴 곳, 즉 ‘가는 방법’을 알려 주고 있으므로 빈칸에는 길을 묻는 표현이 와야 한다. ⑤는 ‘걸리는 시간’을 묻는 말이어서 B의 대답과 이어지지 않는다. ①~④는 모두 길을 묻는 유사 표현이다."
+      "answer": 3,
+      "why_ko": "(A)는 knows의 목적어이므로 목적격 whom, (B)는 지각동사 watch의 목적격보어이므로 원형 paint, (C)는 뒤에 'a strong smell'이라는 명사구가 오므로 such가 맞다.",
+      "grammar_point": "REL_OBJECT / PERCEPTION_VERB_OC / SO_SUCH"
     },
     {
       "no": 17,
       "material_id": "T9",
       "type": "T-GRAMMAR-USAGE",
-      "points": 5,
-      "stem_ko": "T9의 밑줄 친 that의 쓰임이 나머지 넷과 다른 것은?",
+      "points": 4,
+      "stem_ko": "[T9]의 [ ] 안 -ing의 쓰임이 나머지 넷과 다른 것은?",
       "options": [
-        "①  The painting that hangs in the hall was made by my aunt.",
-        "②  She is so kind a teacher that all of her students love her.",
-        "③  This is the very book that I have been looking for all week.",
-        "④  The man that I met at the station turned out to be my uncle.",
-        "⑤  I still keep the letters that my grandmother sent me."
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
       ],
-      "answer": 2,
-      "why_ko": "②의 that은 「so+형용사+a+명사+that」 구문에서 결과를 나타내는 접속사이다. ①은 주격, ③④⑤는 목적격 관계대명사로 모두 선행사를 수식하는 절을 이끈다.",
-      "grammar_point": "REL_OBJECT / SO_SUCH_TOO_ENOUGH"
+      "answer": 4,
+      "why_ko": "①②③⑤는 지각동사의 목적격보어로 쓰인 현재분사이고, ④는 spend + 시간 + -ing 구문의 동명사이다.",
+      "grammar_point": "현재분사 vs 동명사"
     },
     {
       "no": 18,
-      "material_id": "T3",
-      "type": "T-GRAMMAR-INLINE",
-      "points": 5,
-      "stem_ko": "T3의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "material_id": "T8",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "[T8]의 우리말과 같은 뜻이 되도록 [보기]의 말을 모두 한 번씩 사용하여 배열할 때, 아홉 번째로 오는 것은?",
       "options": [
-        "①  whom we followed all morning",
-        "②  I want to show you",
-        "③  so a strange picture that",
-        "④  shine",
-        "⑤  used to paint"
+        "so",
+        "busy",
+        "that",
+        "he",
+        "couldn’t"
       ],
-      "answer": 3,
-      "why_ko": "「a(n)+형용사+명사」 앞에는 so가 아니라 such를 쓴다(such a strange picture that). 굳이 so를 쓰려면 so strange a picture that의 어순이어야 한다. ①은 목적격 관계대명사 whom, ②는 관계대명사가 생략된 목적격 관계사절, ④는 watch+원형부정사, ⑤는 과거의 습관을 나타내는 used to이다.",
-      "grammar_point": "SO_SUCH_TOO_ENOUGH / REL_OBJECT"
+      "answer": 4,
+      "why_ko": "The painter / we / met / yesterday / was / so / busy / that / he / couldn’t / talk / to us 순서이므로 아홉 번째는 he이다.",
+      "grammar_point": "REL_OBJECT + SO_THAT"
     },
     {
       "no": 19,
-      "material_id": "T10",
-      "type": "T-WORD-ORDER",
-      "points": 5,
-      "stem_ko": "다음 우리말과 같은 뜻이 되도록 T10의 [보기]에 주어진 말을 모두 한 번씩 사용하여 배열할 때, 일곱 번째로 오는 것은? (관계대명사는 주어지지 않았음에 유의할 것)  ―  “내가 어제 만난 그 예술가는 예전에 이 마을에 살았다.”",
+      "material_id": "T11",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[T11]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
       "options": [
-        "met",
-        "yesterday",
-        "used",
-        "to",
-        "live"
+        "Take the subway and get off at Green Park Station.",
+        "Just walk straight for two blocks and turn left.",
+        "Why don’t you wait for someone to drive you there?",
+        "It takes about fifteen minutes to find it on this map.",
+        "You can’t miss it. It’s just around the corner."
       ],
-      "answer": 4,
-      "why_ko": "바른 배열은 The artist I met yesterday used to live in this town.이다. 목적격 관계대명사가 [보기]에 없으므로 생략한 채로 써야 하며, 일곱 번째 말은 used to의 to이다."
+      "answer": 1,
+      "why_ko": "'조금 멀다'는 말과 '박물관이 역 바로 옆에 있다'는 마지막 말이 모두 성립하려면 지하철 이용과 하차 역을 안내하는 ①이 알맞다. ②·⑤는 거리가 멀다는 말과, ③·④는 뒤에 이어지는 역 언급과 맞지 않는다.",
+      "grammar_point": "길 안내 표현"
     }
   ],
   "essays": [
     {
       "no": 20,
-      "material_id": "T6",
+      "material_id": "P1",
       "points": 5,
-      "prompt_ko": "[A]의 Lena가 예술가가 되기 전에 어떤 일을 했는지, 다음 조건에 맞게 완전한 한 문장으로 쓰시오.  <조건> ① [보기]의 말을 모두 한 번씩 사용할 것 ② 필요하면 어형을 바꿀 것(주어진 형태 그대로 쓰면 감점) ③ 과거의 습관을 나타내는 표현을 반드시 포함할 것 ④ 단어 수 제한 없음",
+      "prompt_ko": "[P1]의 내용과 일치하도록, [보기]의 말을 모두 한 번씩 사용하여 완전한 한 문장으로 쓰시오.\n<조건> ① 필요하면 시제와 어형을 바꿀 것 ② 목적격 관계대명사 that을 추가하여 쓸 것 ③ 단어 수 제한 없음\n\n우리말: 가난한 노동자들이 예전에 살던 그 지역은 이제 런던에서 가장 힙한 지역 중 하나이다.",
       "given_words": [
-        "Lena",
-        "use",
-        "bake",
-        "bread",
-        "every morning"
+        "the area",
+        "poor workers",
+        "used to",
+        "live",
+        "in",
+        "be",
+        "now",
+        "one of the hippest areas in London"
       ],
       "word_limit": "제한 없음",
-      "target_grammar": "VERB_USED_TO",
-      "answer_en": "Lena used to bake bread every morning.",
-      "why_ko": "과거의 반복된 습관이므로 use를 used to로 바꾸고 뒤에는 동사원형 bake를 쓴다. was used to baking(익숙했다)으로 쓰면 뜻이 달라져 오답 처리한다."
+      "target_grammar": "목적격 관계대명사 + used to",
+      "answer_en": "The area that poor workers used to live in is now one of the hippest areas in London.",
+      "why_ko": "선행사 The area가 live in의 목적어이므로 목적격 관계대명사 that을 쓰고 전치사 in을 문장 끝에 남긴다. 주어가 The area이므로 동사 be는 is로 바꾼다."
     },
     {
       "no": 21,
-      "material_id": "T8",
+      "material_id": "T11",
       "points": 5,
-      "prompt_ko": "다음 상황에서 길을 묻는 사람에게 해 줄 대답을 영어 한 문장으로 쓰시오.  <상황> 미술관은 지하철을 타고 가서 Art Station에서 내리면 된다.  <조건> ① [보기]의 말을 모두 사용할 것 ② 빈칸에 알맞은 전치사를 스스로 넣어 쓸 것 ③ 명령문으로 쓸 것 ④ 9단어 이하로 쓸 것",
+      "prompt_ko": "길을 묻는 친구에게 \"지하철을 타고 가서 Hoxton역에서 내려.\"라고 안내하는 말을 영어 한 문장으로 쓰시오.\n<조건> ① [보기]의 말을 모두 사용하고 알맞은 전치사를 직접 넣을 것 ② 명령문으로 쓸 것 ③ 9단어 이하로 쓸 것",
       "given_words": [
         "take",
         "the subway",
         "get off",
-        "Art Station"
+        "Hoxton Station"
       ],
       "word_limit": "9단어 이하",
-      "target_grammar": "길 안내 표현 + 전치사 at (get off at ~ Station)",
-      "answer_en": "Take the subway and get off at Art Station.",
-      "why_ko": "‘~역에서 내리다’는 get off at + 역 이름으로 굳어져 쓰인다. get off in/on/to는 틀린 결합이다. 제시한 답은 정확히 9단어이다."
+      "target_grammar": "길 안내 표현 + 전치사 get off at ~ Station",
+      "answer_en": "Take the subway and get off at Hoxton Station.",
+      "why_ko": "'~역에서 내리다'는 get off at + 역 이름으로 굳어진 결합이다. 총 9단어로 조건을 만족한다."
     },
     {
       "no": 22,
       "material_id": "T2",
       "points": 5,
-      "prompt_ko": "다음 우리말을 영어로 옮기시오.  ―  “나는 누군가가 내 이름을 부르고 있는 것을 들었다.”  <조건> ① [보기]의 말을 모두 사용하되 필요하면 어형을 바꿀 것 ② 동작이 진행 중임이 드러나는 형태로 쓸 것 ③ 과거 시제로 쓸 것 ④ 8단어 이하로 쓸 것",
+      "prompt_ko": "다음 우리말과 같은 뜻이 되도록 영작하시오.\n<조건> ① [보기]의 말을 모두 한 번씩 사용하고 필요하면 어형을 바꿀 것 ② It으로 시작할 것 ③ 8단어 이하로 쓸 것\n\n우리말: 너무 어두워서 나는 아무것도 보지 못했다.",
       "given_words": [
-        "hear",
-        "someone",
-        "call",
-        "my name"
+        "so",
+        "dark",
+        "that",
+        "see",
+        "nothing"
       ],
       "word_limit": "8단어 이하",
-      "target_grammar": "PERCEPTION_VERB_OC",
-      "answer_en": "I heard someone calling my name.",
-      "why_ko": "지각동사 hear의 목적격보어로 진행 중인 동작을 나타낼 때는 현재분사를 쓴다. to call은 쓸 수 없고, called로 쓰면 ‘불리는 것을 들었다’라는 수동의 뜻이 된다."
+      "target_grammar": "so ~ that 구문",
+      "answer_en": "It was so dark that I saw nothing.",
+      "why_ko": "so + 형용사 + that + 주어 + 동사 구문이며, 8단어 상한을 지키려면 couldn't see anything 대신 saw nothing으로 압축해야 한다(see → saw)."
     },
     {
       "no": 23,
       "material_id": "P1",
       "points": 5,
-      "prompt_ko": "STIK이 사람의 몸을 그릴 때 무엇만을 사용하는지, P1에 있는 단어만 사용하여 정확히 네 단어로 쓰시오. (어형을 바꾸거나 단어를 추가하지 말 것)",
+      "prompt_ko": "다음 질문에 대한 답을 [P1]에서 찾아, 본문에 있는 단어만 사용하여 정확히 네 단어로 쓰시오. (어형을 바꾸거나 단어를 추가하지 말 것)\n\nQ: What does Ben Wilson paint his pictures on?",
       "given_words": [],
-      "word_limit": "정확히 네 단어",
-      "target_grammar": "본문 세부 정보 찾아 쓰기",
-      "answer_en": "only lines and dots",
-      "why_ko": "He is famous for using only lines and dots in his paintings of human bodies.에서 찾을 수 있다. lines and dots(세 단어)는 조건 위반이며, only를 포함한 네 단어여야 한다."
+      "word_limit": "네 단어",
+      "target_grammar": "본문 근거 + 목적격 관계대명사 that",
+      "answer_en": "gum that people drop",
+      "why_ko": "본문의 painting pictures on gum that people drop on the street에서 전치사 on 뒤의 네 단어를 그대로 옮겨 쓰면 된다."
     }
   ],
   "diagnostics": {
     "problems": [],
-    "warnings": [],
+    "warnings": [
+      "서술형 20번 필수 단어가 답에 안 보임 ['be'] — 굴절형일 수 있으니 눈으로 확인",
+      "서술형 22번 필수 단어가 답에 안 보임 ['see'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
     "n_items": 19,
     "n_essays": 4,
     "total_points": 100
   },
   "usage": {
     "model": "claude-opus-5",
-    "input": 3159,
-    "output": 30569,
-    "usd": 0.7814
+    "input": 8841,
+    "output": 27207,
+    "usd": 0.7258
   }
 }
