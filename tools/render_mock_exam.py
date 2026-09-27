@@ -88,7 +88,14 @@ def mat_html(m):
     return f'<div class="mat"><span class="t">{esc(m["id"])} · {esc(m["title"])}</span>{body}</div>'
 
 
-def build(d, logo, part="both"):
+def build(d, logo, part="both", title=None):
+    """title 을 안 주면 학년 없이 `{school} 동형 모의고사 {세트}` 만 찍는다.
+
+    2026-09-27 원장 지적 — 내용 안에 학년이 없었다. `중1`·`중2` 는 파일명에만
+    붙어 있었는데, 파일명을 잃으면(인쇄해서 낱장으로 돌면) 몇 학년 것인지 알 수
+    없다. `build_mock_pdf.py` 가 파일명과 같은 문자열을 여기 그대로 넘긴다.
+    """
+    title = title or f"{d['school']} 동형 모의고사 {d['set_no']}세트"
     mats = {m["id"]: m for m in d["materials"]}
     used_order = []
     for it in d["items"]:
@@ -103,7 +110,7 @@ def build(d, logo, part="both"):
                            + (f" · 서술형 {len(d['essays'])}문항"
                               if d["essays"] else ""))
         head = (f'<div class="{cls}"><div class="head"><div>{logo}'
-                f'<h1>{esc(d["school"])} 동형 모의고사 {d["set_no"]}세트</h1>'
+                f'<h1>{esc(title)}</h1>'
                 f'<div class="sub">{sub}</div></div>'
                 f'<div><div class="name">이름 ______________</div>'
                 f'<div class="mark">리디튜드 · 학원 내부 지도용</div></div></div>')

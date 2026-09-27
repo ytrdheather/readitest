@@ -69,7 +69,7 @@ def main():
             for part, suffix in [("worksheet", ""), ("answers", " 정답지")]:
                 html = os.path.join(tmp, f"{base}{suffix}.html")
                 pdf = os.path.join(a.out, f"{base}{suffix}.pdf")
-                io.open(html, "w", encoding="utf-8").write(build(d, logo, part))
+                io.open(html, "w", encoding="utf-8").write(build(d, logo, part, title=base))
                 to_pdf(chrome, html, pdf)
                 stamp_file(pdf)                  # 아래 가운데 쪽수 — 디자인 지침 1
             flag = f"   ⚠ {' / '.join(bad)}" if bad else ""
