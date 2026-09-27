@@ -79,6 +79,11 @@ SYSTEM = """당신은 중학교 2학년 영어 내신 시험지를 만듭니다.
 
 한국 중학교 시험지 그대로입니다. 선지가 영어인 것은 그대로 두십시오.
 
+## 난이도 (고난도 모드일 때만 적용 — 사용자 메시지에서 지시)
+
+기획서 §5.5.8 의 난이도 4축을 그대로 씁니다: 함정 선지의 정교함 · 서술형 조건의
+까다로움 · 지문 길이 · 어휘 변형. 「고난도」로 지시받으면 이 네 축 전부를 올리십시오.
+
 ## `type` 은 아래 12종 중 하나여야 합니다
 
 우리 마스터에 등록된 코드입니다. **한국어로 쓰지 말고 코드를 그대로** 넣으십시오.
@@ -168,7 +173,29 @@ def schema(n_sel, n_essay):
     }
 
 
-def build_params(school, spec, common, materials, points_hint, set_no):
+HARD_MODE = """
+## 🔥 이번 세트는 고난도입니다 — 시험 직전 마지막 세트
+
+1~3세트는 이미 학생이 풀었습니다. 이번은 **시험 이틀~나흘 전에 푸는 최종 점검**이므로
+평범한 문항을 섞지 말고 **전 문항을 상위권 변별용으로** 내십시오. 기획서 §5.5.8 의
+난이도 4축을 전부 끌어올리십시오:
+
+  1. **함정 선지의 정교함** — 오답이 「명백히 틀린 것」이 아니라 「자주 헷갈리는 것」이어야
+     합니다. 같은 어법 포인트를 다른 형태로 변형한 오답(예: 시제는 맞는데 수 일치가 틀림),
+     본문 표현을 살짝 바꾼 오답, 문법적으로는 맞지만 문맥에 안 맞는 오답을 섞으십시오.
+  2. **서술형 조건의 까다로움** — 필수 어휘를 어형 변화가 필요한 형태로 주거나
+     (원형을 주고 시제·수를 바꾸게), 어순 제약이나 글자 수 상한을 빠듯하게 거십시오.
+  3. **지문 길이** — 가능하면 자료를 더 길게 엮으십시오(대화 묶음은 전부 붙이는 등).
+     다만 P 로 시작하는 자료는 원문을 그대로 이어붙이는 것만 허용됩니다 — 새로 쓰지 마십시오.
+  4. **어휘 변형** — 영영풀이·문맥 어휘 문항은 기본 뜻이 아니라 다의어의 덜 쓰이는 뜻,
+     비슷한 두 단어의 미묘한 차이(예: say/tell/talk/speak)로 내십시오.
+
+**한 문항이라도 「그냥 읽으면 바로 답이 보이는」 수준으로 내려가면 안 됩니다.**
+그렇다고 배점·문항 수·구조까지 어기지는 마십시오 — 그릇은 그대로, 안에 담는 함정만 정교해집니다.
+"""
+
+
+def build_params(school, spec, common, materials, points_hint, set_no, hard=False):
     """materials: [{"id":"P1","title":..,"text":..,"kind":..}] — 우리가 넣는 자료."""
     mat = "\n\n".join(
         f"### {m['id']} · {m['kind']} · {m['title']}\n{m['text']}" for m in materials)
@@ -184,7 +211,9 @@ def build_params(school, spec, common, materials, points_hint, set_no):
                 "`get off at ~ Station` · `by subway` 처럼 굳어진 결합이 좋습니다.")
 
     sig = "\n".join(f"  · {x}" for x in spec["signature"])
+    hard_block = HARD_MODE if hard else ""
     user = f"""# {school} 동형 모의고사 {set_no}세트
+{hard_block}
 
 ## 이 학교의 구조 (2026-1 기말 96문항 전수 분류에서)
 
@@ -224,9 +253,12 @@ def build_params(school, spec, common, materials, points_hint, set_no):
 배점 합계 **정확히 {spec['total_points']}점**.
 교사 자작 단락이나 단문 나열이 필요하면 `T1` `T2` … 로 `materials` 에 새로 담으십시오.
 """
+    # 고난도 지시문이 함정 선지 설계에 생각을 더 쓰게 하다 보니(adaptive thinking도
+    # 이 예산을 나눠 쓴다) 32000 로는 막판에 JSON이 끊긴다 (2026-09-27 태장·청명 4세트
+    # 두 번 다 `Unterminated string`로 실패). 고난도만 48000 으로 올린다.
     return {
         "model": PASS_A_MODEL,
-        "max_tokens": 32000,
+        "max_tokens": 48000 if hard else 32000,
         "system": [{"type": "text", "text": SYSTEM,
                     "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user}],

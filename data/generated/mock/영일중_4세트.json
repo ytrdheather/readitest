@@ -1,0 +1,546 @@
+{
+  "school": "영일중",
+  "set_no": 4,
+  "spec": {
+    "students": 4,
+    "exam_date": "2026-09-29",
+    "priority": "1순위 — 가장 이르고 학생 수 2위",
+    "total_points": 100,
+    "selective": 21,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "교사 자작 단락 (교과서 밖 짧은 글)",
+    "vessel_note": "2026-1 문항 2·10·11·12. 본문을 그대로 쓰지 않는다",
+    "signature": [
+      "서술형에 **어법 포인트를 조건으로 지정**한다 — 예측 가능하다",
+      "논술1에 「제시문의 3단어 이상 연속 표현 사용 금지」 — 통암기 차단",
+      "외부지문을 낸다 (A girl with a red balloon)"
+    ],
+    "essay_rule": "필수 어휘 지정 + 단어 수 범위 + 노리는 어법 지정",
+    "essay_blueprint": [
+      {
+        "필수어휘": "지정",
+        "단어수": "9~11",
+        "노리는 어법": "L5 목적격 관계대명사"
+      },
+      {
+        "필수어휘": "지정",
+        "단어수": "3~5",
+        "노리는 어법": "L5 used to 계열"
+      },
+      {
+        "필수어휘": "지정",
+        "단어수": "6~8",
+        "노리는 어법": "L6 지각동사+목적보어"
+      },
+      {
+        "필수어휘": "제시문 단어만",
+        "단어수": "8~10",
+        "노리는 어법": "L6 so ~ that"
+      }
+    ],
+    "vocab_items": 2,
+    "vocab_points": 6,
+    "form_choice": 1,
+    "standalone": 0,
+    "external_passages": [
+      "A girl with a red balloon"
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L6 본문 — Dr. Schofield (석호필)",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 대화 ①②③ — 추천하기",
+      "text": "B: What kinds of books do you usually read?\nG: I usually read sci-fi novels.\nB: Then, can you recommend a good sci-fi novel for me?\nG: How about The Time Machine? I think it’s the best.\nG: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is good.\nB: OK. I’ll give it a try, then.\nB: What kinds of movies do you like?\nG: I like action movies. Spider-Man is my favorite.\nB: Oh, I didn’t see it.\nG: You didn’t? It’s really fun. I strongly recommend it."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 대화 ④⑤⑥ — 길 묻기",
+      "text": "B: Excuse me. I’m going to the National Art Museum. What’s the best way to get there?\nG: You can walk. Go straight for about 500 meters and turn left. It’ll be on your right.\nB: I see. How long will it take?\nG: Only about 15 minutes.\nB: Really? Thanks.\nG: Excuse me, how can I get to the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will it take?\nB: I think it’ll take about 30 minutes.\nB: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 — A girl with a red balloon",
+      "text": "Have you ever seen this image of a girl with a red balloon? It was painted by Banksy, a world-famous street artist from the UK. His artworks are known for carrying social messages about issues such as war and inequality. Even though he is internationally well-known, nobody knows his real identity, and this adds to his mystery. His art appears on streets, walls, and bridges, and is often created without permission.\n\nGirl with Balloon is one of Banksy’s most well-known works. It originally appeared on a wall in London’s South Bank under Waterloo Bridge in the early 2000s. However, it is actually part of a series of paintings. In this artwork, a small child is reaching out toward a red balloon. There are different interpretations of the painting. According to one, the red balloon symbolizes childhood and everything it represents—such as innocence, dreams, and hope. If you think about it that way, the painting can be seen as a symbol of losing those things. The image is simple but has a strong emotional impact. That may be why so many people like it."
+    },
+    {
+      "id": "T1",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 A — 작은 미술관에서",
+      "text": "Last summer I visited a small museum ①which my grandfather used to work at. The guide ②whom we met at the entrance showed us a strange painting ③that nobody knew it. She said the artist ④used to paint the same street every morning before sunrise. I still remember the quiet room ⑤in which we stood for almost an hour."
+    },
+    {
+      "id": "T2",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 B — 아버지의 택시",
+      "text": "My father ①used to be a taxi driver in Busan. He says he ②was used to driving ten hours a day, but he never got used to the silence of the night. These days our old garage ③is used to store bicycles. When I was little, he ④would take me down to the harbor every Sunday. Now he ⑤is used to ride a bicycle to work instead of driving."
+    },
+    {
+      "id": "T3",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 C — 축제의 첫날 저녁",
+      "text": "On the first evening of the festival I ①heard someone call my name across the square. When I turned around, I saw my old friend Mina ②waving at me with both hands. We watched the dancers ③to move slowly under the yellow lights, and later I felt the cold wind ④touch my cheeks. On the way home we noticed the street lamps ⑤being turned on one by one."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 D — 극장에서",
+      "text": "The theater was ①so crowded that we could hardly find our seats. It was ②such a hot evening that the actors kept wiping their faces. My little sister sat ③so far from the stage to hear the songs clearly. The last scene was ④so moving that a few people beside me were crying. Honestly, it was ⑤such a good show that I want to see it again."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 E — 삼촌의 낡은 라디오",
+      "text": "The old radio (A)[which / which it] my uncle gave me last spring still works. Every evening I hear it (B)[to crackle / crackling] quietly in the corner, and the sound is (C)[so / such] warm that I fall asleep in a few minutes."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 요약문 — Schofield 이야기",
+      "text": "Frank W. Schofield was proud of the Korean name he had chosen for himself. He arrived in Korea as a teacher of medicine, and since he wanted to explain everything to his students in their own language, he studied Korean ⓐ__________ he was able to give his lectures in it after only a few years. In the spring of 1919, he hid himself in a building near a crowded street and quietly took photographs. Later, he sent the pictures abroad together with an article he had written."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 F — 한 선생님에 대하여",
+      "text": "Everyone ①that met Ms. Han in the hallway remembered her voice. She believed the idea ②that every student can change, and she never gave it up. The old letters ③that her class wrote to her are still kept in the library. Last winter she lent me a novel ④that she had read twice. On our last day she handed me a notebook ⑤that I could write my dreams in."
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 배열 자료 — 낡은 자전거",
+      "text": "[우리말] 그가 나에게 빌려준 그 자전거는 너무 낡아서 나는 그것을 탈 수 없었다.\n[주어진 단어] (that / he / lent / me / was / so / old / that / I / couldn’t / ride / it / the / bike)\n※ 주어진 단어를 모두 한 번씩만 사용할 것."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P2",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "P2의 첫 번째 대화에서 소년이 소녀에게 추천을 부탁한 말을 「Then, __________」의 형태로 바꿔 쓰려고 한다. 빈칸에 들어갈 수 없는 것은?",
+      "options": [
+        "could you recommend a good sci-fi novel for me?",
+        "what sci-fi novel would you recommend to me?",
+        "is there any sci-fi novel you would recommend?",
+        "do you mind recommending a good sci-fi novel?",
+        "what kinds of sci-fi novels do you usually read?"
+      ],
+      "answer": 5,
+      "why_ko": "①~④는 모두 '추천해 달라'는 요청 표현이다. ⑤는 상대가 평소 읽는 종류를 묻는 말로, 이미 대화 앞부분에서 물은 내용이며 추천 요청이 아니므로 바꿔 쓸 수 없다."
+    },
+    {
+      "no": 2,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T1의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "options": [
+        "which my grandfather used to work at",
+        "whom we met at the entrance",
+        "that nobody knew it",
+        "used to paint",
+        "in which we stood"
+      ],
+      "answer": 3,
+      "why_ko": "목적격 관계대명사 that이 이미 선행사(painting)를 대신하므로 관계절 안에 목적어 it을 또 쓸 수 없다(→ that nobody knew). ①은 전치사를 문미에 둔 형태, ②는 목적격 whom, ⑤는 「전치사+관계대명사」로 모두 옳다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 3,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "P2의 세 대화의 내용과 일치하지 않는 것은?",
+      "options": [
+        "The girl usually reads sci-fi novels and picks The Time Machine as the best.",
+        "The boy in the second dialogue usually drinks apple soda but wants something different today.",
+        "The girl in the second dialogue recommends a cherry soda, and the boy decides to try it.",
+        "The boy in the third dialogue has already watched Spider-Man and found it fun.",
+        "The girl in the third dialogue recommends the movie strongly after hearing the boy's answer."
+      ],
+      "answer": 4,
+      "why_ko": "세 번째 대화에서 소년은 그 영화를 보지 않았다고 말했다. 재미있다고 말한 사람은 소녀이다."
+    },
+    {
+      "no": 4,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 세 대화의 내용과 일치하지 않는 것은?",
+      "options": [
+        "첫 번째 대화에서 소녀는 걸어서 갈 수 있다고 안내한다.",
+        "첫 번째 대화에서 목적지는 약 500미터 직진 후 좌회전하면 오른쪽에 있다.",
+        "첫 번째 대화에서 걸리는 시간은 15분 정도이다.",
+        "두 번째 대화에서 소년은 지하철을 권하며 30분쯤 걸릴 것이라고 말한다.",
+        "세 번째 대화에서 소녀는 지하철이 버스보다 빠르다고 답한다."
+      ],
+      "answer": 5,
+      "why_ko": "세 번째 대화에서 소녀는 버스가 더 빠르다고 말했고, 그래서 소년이 버스를 타기로 한 것이다."
+    },
+    {
+      "no": 5,
+      "material_id": "T8",
+      "type": "T-WORD-ORDER",
+      "points": 4,
+      "stem_ko": "T8의 우리말 뜻에 맞도록 주어진 단어를 모두 한 번씩만 사용하여 배열할 때, 일곱 번째로 오는 단어는?",
+      "options": [
+        "lent",
+        "me",
+        "was",
+        "so",
+        "old"
+      ],
+      "answer": 3,
+      "why_ko": "The(1) bike(2) that(3) he(4) lent(5) me(6) was(7) so(8) old(9) that(10) I(11) couldn’t(12) ride(13) it(14). 목적격 관계대명사 that절이 bike를 수식하고, 주절에 so ~ that이 이어지므로 일곱 번째 단어는 was이다."
+    },
+    {
+      "no": 6,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 내용과 일치하지 않는 것은?",
+      "options": [
+        "He came to Korea in 1916 in order to teach medicine, not to study it.",
+        "He started learning Korean right after he arrived because he wanted to teach in Korean.",
+        "It took him only a few years to become able to teach his classes in Korean.",
+        "He left Korea in 1920 of his own free will, because his work as a teacher was over.",
+        "After he came back in 1958, he stayed in Korea and helped poor students until he died."
+      ],
+      "answer": 4,
+      "why_ko": "그는 일본 경찰의 감시를 받고 있었기 때문에 1920년에 캐나다로 돌아가야만 했다(had to go back). 자신의 뜻으로, 일이 끝나서 떠난 것이 아니다."
+    },
+    {
+      "no": 7,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1에서 Dr. Schofield의 한국 이름을 설명하는 부분에 쓰인 대명사 It이 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "the Korean name he loved",
+        "the English name Frank W. Schofield",
+        "the good meaning the name had",
+        "the sound of the Japanese police’s warning",
+        "the reason he first came to Korea"
+      ],
+      "answer": 1,
+      "why_ko": "It은 앞 문장의 his Korean name(석호필)을 가리킨다. 그 이름이 그의 본명과 소리가 비슷했고, 뜻도 좋았다는 설명이다. ③은 It이 가진 성질의 하나일 뿐 가리키는 대상이 아니다."
+    },
+    {
+      "no": 8,
+      "material_id": "P1",
+      "type": "T-TOPIC",
+      "points": 3,
+      "stem_ko": "P1의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "A Canadian Doctor Who Stood with Korea",
+        "How Western Medicine First Reached Korea",
+        "The Photographs That Changed Japan’s Policy in Asia",
+        "A Foreign Reporter Who Covered the March 1st Movement",
+        "The Story of a Korean Name and Its Pronunciation"
+      ],
+      "answer": 1,
+      "why_ko": "의사로서 한국에 와 한국어를 배우고 독립운동을 도운 인물의 삶이 글 전체를 관통한다. ④는 그가 기자가 아니라는 점에서, ③은 정책을 바꿨다는 근거가 없다는 점에서, ⑤는 글의 일부에 불과하다는 점에서 부적절하다."
+    },
+    {
+      "no": 9,
+      "material_id": "T6",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T6의 빈칸 ⓐ에 들어갈 말로 알맞은 것은?",
+      "options": [
+        "so hard that",
+        "so hardly that",
+        "such hard that",
+        "too hard that",
+        "enough hard that"
+      ],
+      "answer": 1,
+      "why_ko": "「so+형용사/부사+that+절」 구문이다. hardly는 '거의 ~않다'라는 뜻이라 문맥에 어긋나고, such 뒤에는 명사구가 와야 하며, too는 「too ~ to부정사」로 쓰고, enough는 형용사·부사 뒤에 온다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 10,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T2의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "options": [
+        "used to be",
+        "was used to driving",
+        "is used to store",
+        "would take",
+        "is used to ride"
+      ],
+      "answer": 5,
+      "why_ko": "주어가 사람(he)이고 '자전거 타는 것에 익숙하다'는 뜻이므로 be used to -ing가 되어야 한다(→ is used to riding). ③은 사물 주어로 '~하는 데 사용된다'는 be used to부정사, ④는 과거의 반복 습관을 나타내는 would로 모두 옳다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 11,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T3의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "options": [
+        "heard someone call",
+        "waving at me",
+        "to move",
+        "touch my cheeks",
+        "being turned on"
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 watch의 목적격보어로는 동사원형이나 현재분사를 쓰므로 to move는 쓸 수 없다(→ move / moving). ⑤는 가로등이 '켜지고 있는' 수동·진행의 의미이므로 being turned on이 적절하다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 12,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T4의 밑줄 친 ①~⑤ 중, 어법상 틀린 것은?",
+      "options": [
+        "so crowded that",
+        "such a hot evening that",
+        "so far from the stage to hear",
+        "so moving that",
+        "such a good show that"
+      ],
+      "answer": 3,
+      "why_ko": "so와 to부정사는 함께 쓰지 않는다. '너무 멀어서 ~할 수 없다'는 too far ... to hear 또는 so far ... that she couldn’t hear로 써야 한다. ②⑤는 「such+a(n)+형용사+명사+that」으로 옳다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 13,
+      "material_id": "T5",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T5의 (A), (B), (C)에서 어법에 맞는 표현을 바르게 짝지은 것은?",
+      "options": [
+        "which – to crackle – so",
+        "which – crackling – so",
+        "which – crackling – such",
+        "which it – crackling – so",
+        "which it – to crackle – such"
+      ],
+      "answer": 2,
+      "why_ko": "(A) 목적격 관계대명사 which 뒤에 목적어 it을 중복해 쓸 수 없다. (B) 지각동사 hear의 목적격보어는 동사원형이나 현재분사이므로 crackling. (C) 뒤에 형용사 warm만 있으므로 so ~ that을 쓴다(such는 명사구 필요).",
+      "grammar_point": "REL_OBJECT / PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 14,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 4,
+      "stem_ko": "T7의 밑줄 친 ①~⑤ 중, that의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "that met Ms. Han in the hallway",
+        "that every student can change",
+        "that her class wrote to her",
+        "that she had read twice",
+        "that I could write my dreams in"
+      ],
+      "answer": 2,
+      "why_ko": "②는 앞의 명사 the idea의 내용을 설명하는 동격의 접속사 that으로, 뒤에 완전한 문장이 온다. ①은 주격, ③④⑤는 목적격 관계대명사로 모두 뒤에 불완전한 절이 온다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 15,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "P1을 읽고 알 수 없는 것은?",
+      "options": [
+        "그가 처음 한국에 온 해와 그 목적",
+        "그가 의학을 공부한 나라나 학교",
+        "3·1 운동 당시 그가 사진을 찍은 장소",
+        "1920년에 그가 한국을 떠나야 했던 이유",
+        "그가 세상을 떠난 시기와 묻힌 곳"
+      ],
+      "answer": 2,
+      "why_ko": "캐나다인 의사라는 사실은 나오지만, 어디에서 의학을 공부했는지는 언급되지 않았다."
+    },
+    {
+      "no": 16,
+      "material_id": "P4",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "P4의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "Girl with Balloon: A Famous Image and the Meanings Behind It",
+        "Why Street Art Should Never Be Made Without Permission",
+        "The Secret Life of the World’s Richest Living Painter",
+        "Waterloo Bridge: London’s Outdoor Gallery of Street Artists",
+        "How a Red Balloon Became the Symbol of World Peace"
+      ],
+      "answer": 1,
+      "why_ko": "뱅크시와 그 대표작, 그리고 붉은 풍선에 대한 해석이 글의 중심이다. ②는 필자의 주장이 아니고, ③의 재산이나 ④의 장소 소개는 다루지 않으며, ⑤의 '평화'는 본문의 해석(순수함·꿈·희망)과 다르다."
+    },
+    {
+      "no": 17,
+      "material_id": "P4",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "다음 영영풀이에 해당하는 단어로, P4에 쓰인 것은?\n  · an explanation or a way of understanding something, especially when people understand it differently",
+      "options": [
+        "identity",
+        "mystery",
+        "interpretation",
+        "impact",
+        "permission"
+      ],
+      "answer": 3,
+      "why_ko": "서로 다르게 이해될 수 있는 '해석'을 뜻하는 말은 interpretation이다. identity는 신원, mystery는 수수께끼, impact는 영향, permission은 허가이다."
+    },
+    {
+      "no": 18,
+      "material_id": "P4",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "P4에 쓰인 works(work)의 의미를 가장 잘 나타낸 영영풀이는?",
+      "options": [
+        "a job that someone does to earn money",
+        "something that an artist or a writer has produced",
+        "the activity of using effort to do or make something",
+        "a place or building where things are made or repaired",
+        "to have the result or effect that you want"
+      ],
+      "answer": 2,
+      "why_ko": "P4의 one of Banksy’s most well-known works에서 work는 '작품'을 뜻한다. ①③은 '일·노동', ④는 '공장', ⑤는 동사 '효과가 있다'의 뜻이다."
+    },
+    {
+      "no": 19,
+      "material_id": "P4",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P4의 마지막 단락에 쓰인 those things가 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "innocence, dreams, and hope",
+        "war and inequality",
+        "streets, walls, and bridges",
+        "the different interpretations of the painting",
+        "the artist’s identity and his mystery"
+      ],
+      "answer": 1,
+      "why_ko": "붉은 풍선이 상징하는 것은 childhood와 그것이 나타내는 것들, 즉 순수함·꿈·희망이다. those things는 바로 이것들을 가리킨다."
+    },
+    {
+      "no": 20,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P4의 내용과 일치하는 것은?",
+      "options": [
+        "Banksy’s real name became known soon after Girl with Balloon appeared.",
+        "Girl with Balloon was first shown inside a museum in South Bank, London.",
+        "Girl with Balloon is a single work that is not related to any other painting.",
+        "Banksy’s works often carry social messages and are made without permission.",
+        "In the artwork, the child is holding the red balloon tightly in her hand."
+      ],
+      "answer": 4,
+      "why_ko": "④는 첫 단락의 내용과 일치한다. ①은 아무도 그의 신원을 모른다고 했고, ②는 미술관이 아니라 다리 아래 벽이며, ③은 연작의 일부라고 했고, ⑤는 풍선을 향해 손을 뻗고 있는 것이지 쥐고 있는 것이 아니다."
+    },
+    {
+      "no": 21,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "P4에서 언급되지 않은 것은?",
+      "options": [
+        "뱅크시가 어느 나라 출신인지",
+        "Girl with Balloon이 처음 나타난 장소",
+        "그 그림이 처음 그려진 대략적인 시기",
+        "뱅크시가 허가를 받지 않고 작업하는 이유",
+        "많은 사람이 그 그림을 좋아하는 까닭에 대한 필자의 추측"
+      ],
+      "answer": 4,
+      "why_ko": "허가 없이 작품이 만들어진다는 사실은 나오지만, 그 '이유'는 설명되어 있지 않다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 22,
+      "material_id": "P4",
+      "points": 5,
+      "prompt_ko": "P4의 내용을 참고하여 다음 우리말을 영어 한 문장으로 옮기시오.\n  [우리말] 뱅크시가 그린 그 그림은 많은 사람들이 사랑하는 작품이다.\n  <조건> ① 목적격 관계대명사를 반드시 한 번 이상 쓸 것 ② 주어진 단어 paint, love, work를 알맞은 형태로 모두 사용할 것 ③ 9~11단어로 쓸 것 ④ P4에 나온 세 단어 이상의 연속된 표현을 그대로 옮겨 쓰지 말 것",
+      "given_words": [
+        "paint",
+        "love",
+        "work"
+      ],
+      "word_limit": "9~11 단어",
+      "target_grammar": "REL_OBJECT (목적격 관계대명사)",
+      "answer_en": "The painting that Banksy painted is a work many people love.",
+      "why_ko": "선행사 The painting 뒤에 목적격 관계대명사 that(which)절이 오고, 보어 a work 뒤에는 목적격 관계대명사가 생략된 절이 온다. 총 11단어이며, 본문의 so many people like it과 세 단어 이상 겹치지 않는다."
+    },
+    {
+      "no": 23,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "P3의 세 번째 대화 상황에서, 소년이 예전에는 지하철을 타고 다녔다고 말하려고 한다. 다음 빈칸에 알맞은 말을 쓰시오.\n  B: Really? Then, I’ll take the bus. I __________________, but the bus looks faster today.\n  <조건> ① 주어진 단어 use, go, subway를 모두 알맞은 형태로 사용할 것 ② '과거에는 ~하곤 했다'를 나타내는 표현을 쓸 것 ③ 교통수단 앞에 알맞은 전치사를 반드시 넣을 것 ④ 빈칸에 들어갈 말은 3~5단어로 쓸 것",
+      "given_words": [
+        "use",
+        "go",
+        "subway"
+      ],
+      "word_limit": "3~5 단어",
+      "target_grammar": "VERB_USED_TO (used to + 동사원형) / 교통수단 전치사 by",
+      "answer_en": "used to go by subway",
+      "why_ko": "과거의 습관은 「used to+동사원형」으로 나타내고, 교통수단 앞에는 관사 없이 by를 써서 by subway로 표현한다(5단어)."
+    },
+    {
+      "no": 24,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "P1의 내용을 바탕으로 다음 우리말을 영어 한 문장으로 옮기시오.\n  [우리말] 그는 사람들이 거리에서 외치고 있는 것을 보았다.\n  <조건> ① 주어진 단어 see, shout를 알맞은 형태로 바꾸어 모두 사용할 것 ② 지각동사의 목적격보어 자리에 진행의 의미를 살릴 것 ③ 6~8단어로 쓸 것 ④ P1의 문장을 그대로 옮겨 쓰지 말 것",
+      "given_words": [
+        "see",
+        "shout",
+        "street"
+      ],
+      "word_limit": "6~8 단어",
+      "target_grammar": "PERCEPTION_VERB_OC (지각동사+목적격보어)",
+      "answer_en": "He saw people shouting in the street.",
+      "why_ko": "지각동사 see의 목적격보어로 진행의 의미를 살릴 때는 현재분사 shouting을 쓴다. 시제는 과거이므로 saw로 바꾸어야 하며, 총 7단어이다."
+    },
+    {
+      "no": 25,
+      "material_id": "P4",
+      "points": 5,
+      "prompt_ko": "P4의 마지막 두 문장의 내용을 한 문장으로 요약하여 영어로 쓰시오.\n  [우리말] 그 그림은 너무 단순해서 많은 사람들이 그것을 좋아한다.\n  <조건> ① so ~ that 구문을 사용할 것 ② P4에 나온 단어만 사용할 것(어형 변화 불가) ③ 8~10단어로 쓸 것 ④ 주어는 The image로 시작할 것",
+      "given_words": [
+        "image",
+        "simple",
+        "like"
+      ],
+      "word_limit": "8~10 단어",
+      "target_grammar": "SO_SUCH_TOO_ENOUGH (so+형용사+that+절)",
+      "answer_en": "The image is so simple that many people like it.",
+      "why_ko": "「so+형용사(simple)+that+주어+동사」로 원인과 결과를 잇는다. 사용된 단어는 모두 P4에 등장하며 총 10단어이다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [],
+    "warnings": [
+      "서술형 24번 필수 단어가 답에 안 보임 ['see'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 21,
+    "n_essays": 4,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 3530,
+    "output": 29716,
+    "usd": 0.7778
+  }
+}

@@ -84,6 +84,18 @@ SET_PASSAGES = {
         ("L6 대화 ⑦⑧⑨", ["L6 대화-7", "L6 대화-8", "L6 대화-9"]),
         ("L5 본문", ["Street Art in London-1", "Street Art in London-2",
                      "Street Art in London-3", "Street Art in London-4"])],
+    # 4·5세트 — 2026-09-27 원장 지시. 영일·태장·청명 시험이 9/29~10/1로 임박해
+    # 1~3세트(9월 초 배부)를 이미 푼 학생용 **최종 점검 고난도 세트**(--hard).
+    # 1~3에서 안 묶었던 조합 위주로 돌려 지문 반복을 최대한 줄인다.
+    4: [("L6 본문", ["Dr. Schofield, a Foreigner Who Loved Korea"]),
+        ("L6 대화 ①②③", ["L6 대화-1", "L6 대화-2", "L6 대화-3"]),
+        ("L5 대화 ④⑤⑥", ["L5 대화-4", "L5 대화-5", "L5 대화-6"])],
+    5: [("L5 본문", ["Street Art in London-1", "Street Art in London-2",
+                     "Street Art in London-3", "Street Art in London-4"]),
+        ("L5 Read More", ["L5 ReadMore-1", "L5 ReadMore-2",
+                          "L5 ReadMore-3", "L5 ReadMore-4"]),
+        ("L6 Read More", ["L6 ReadMore-1", "L6 ReadMore-2",
+                          "L6 ReadMore-3", "L6 ReadMore-4"])],
 }
 
 
@@ -145,9 +157,11 @@ def gather(rest, spec, set_no, sets=SET_PASSAGES):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--school")
-    ap.add_argument("--set", type=int, choices=[1, 2, 3])
+    ap.add_argument("--set", type=int, choices=[1, 2, 3, 4, 5])
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--run", action="store_true")
+    ap.add_argument("--hard", action="store_true",
+                    help="고난도 모드 — 시험 직전 최종 점검용 4·5세트에 쓴다")
     ap.add_argument("--grade", type=int, default=2, choices=[1, 2],
                     help="1 이면 중1 설계도·지문 묶음을 쓴다")
     ap.add_argument("--lessons", default="567", choices=["5", "567"],
@@ -197,7 +211,7 @@ def main():
                 continue
 
             params = mock_exam.build_params(school, spec, bp["common"],
-                                            mats, points_hint(spec), set_no)
+                                            mats, points_hint(spec), set_no, hard=a.hard)
             # 시험지 한 벌은 출력이 길다(선택 21~25 × 선지 5 + 서술 4).
             # max_tokens 가 크면 SDK 가 스트리밍을 요구한다 — 10분을 넘길 수 있어서다.
             with api.messages.stream(**params) as stream:
