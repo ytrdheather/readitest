@@ -53,8 +53,10 @@ def main():
     a = ap.parse_args()
 
     r = Rest()
-    textbook = next(t["id"] for t in r.get("/textbook?select=id,publisher,author,grade")
-                    if (t["publisher"], t["author"], t["grade"]) == ("동아", "윤정미", 2))
+    # 교과서는 **지문 파일의 `textbook` 대로** 고른다. 예전에는 중2 로 고정해서 중1 지문 27개가
+    # 중2 교과서로 들어갔다 (2026-10-02 발견). DB 에 그 교과서 행이 없으면 넣지 않고 멈춘다.
+    books = {(t["publisher"], t["author"], t["curriculum_version"], t["grade"]): t["id"]
+             for t in r.get("/textbook?select=id,publisher,author,curriculum_version,grade")}
     have = {p["body_text_sha256"] for p in r.get("/passage?select=body_text_sha256")}
 
     pats = a.glob or ["*.json"]
@@ -89,11 +91,19 @@ def main():
         if d.get("kind") not in KINDS:
             problems.append(f"{name}: kind 가 없거나 스키마 허용값이 아님 ({d.get('kind')!r})")
             continue
+        textbook = None
+        if d.get("source_type") == "교과서":
+            tb = d.get("textbook") or {}
+            textbook = books.get((tb.get("publisher"), tb.get("author"),
+                                  tb.get("curriculum_version"), tb.get("grade")))
+            if textbook is None:
+                problems.append(f"{name}: 파일의 교과서 {tb} 가 textbook 테이블에 없음")
+                continue
         rows.append({
             "kind": d["kind"],
             "title": d.get("title") or name,
             # 교과서 지문에만 교과서를 건다. 학교 배부물은 교과서 소속이 아니다.
-            "textbook_id": textbook if d.get("source_type") == "교과서" else None,
+            "textbook_id": textbook,
             "textbook_unit": d.get("textbook_unit"),
             "source_detail": d.get("source_detail"),
             "body_text": body,

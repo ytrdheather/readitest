@@ -571,16 +571,20 @@ def apply_plan(p, reset, allow_new):
         print(f"  item                 {pkey}: {len(got)}건 · 선지 {len(opts)} · 검수 {len(checks)}")
 
     # 10. school_grammar_map  (unique 제약이 없어 직접 중복 확인)
+    # 근거 시험도 키에 넣는다. 같은 포인트가 다음 시험에 또 나오면 그건 중복이 아니라
+    # 2회째 관측이다 — 버리면 「단골」을 판정할 수 없다 (2026-10-02, 영덕 to부정사 누락).
     added = 0
     for m in p.maps:
         row = strip_(m)
         row.update(school_id=schools[m["_school"]], textbook_id=textbook_id,
                    evidence_exam_id=exam_id[m["_exam"]])
+        ev = row["evidence_exam_id"]
         dup = api.get(
             f"/school_grammar_map?select=id"
             f"&school_id=eq.{row['school_id']}&grade=eq.{row['grade']}"
             f"&textbook_id=eq.{row['textbook_id']}"
             f"&textbook_unit=eq.{q(row['textbook_unit'])}"
+            f"&evidence_exam_id={'eq.' + ev if ev else 'is.null'}"
             f"&grammar_point_code=eq.{row['grammar_point_code']}&limit=1")
         if dup:
             continue

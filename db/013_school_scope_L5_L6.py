@@ -92,8 +92,12 @@ def main():
     if book is None:
         raise SystemExit("동아 윤정미 중2 교과서 레코드를 못 찾았습니다")
 
+    # 근거 시험까지 키에 넣는다 (2026-10-02). 이 스크립트의 행은 배부물 근거라 시험이 없으므로
+    # 기출 근거 행과 겹쳐도 별개 관측으로 본다.
     have = {(r["school_id"], r["textbook_unit"], r["grammar_point_code"])
-            for r in rest.get("/school_grammar_map?select=school_id,textbook_unit,grammar_point_code")}
+            for r in rest.get("/school_grammar_map?select=school_id,textbook_unit,grammar_point_code,"
+                              "evidence_exam_id")
+            if r["evidence_exam_id"] is None}
 
     print("=" * 74)
     print(" 5·6과 학교별 출제 범위 — 배부물 근거")
