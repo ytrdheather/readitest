@@ -115,6 +115,39 @@ def main():
         print(f"  X  연결 실패: {type(e).__name__}")
         ok = False
 
+    print("\n[4] Notion 원생관리 DB  (선택 — 동형 결과지 학생 이름용)")
+    nkey = env.get("NOTION_API_KEY", "")
+    ndb = env.get("NOTION_STUDENT_DB_ID", "").replace("-", "")
+    if not nkey and not ndb:
+        print("  -  비어 있음 — 건너뜀 (동형 채점 결과지에 이름이 필요할 때 채우십시오)")
+    elif not nkey or not ndb:
+        print("  X  둘 중 하나만 채워짐 — NOTION_API_KEY 와 NOTION_STUDENT_DB_ID 를 같이 채우십시오")
+        ok = False
+    else:
+        # DB 의 제목·속성 이름만 본다. 학생 행(이름·번호)은 읽지 않는다.
+        try:
+            status, body = get(
+                f"https://api.notion.com/v1/databases/{ndb}",
+                {"Authorization": f"Bearer {nkey}", "Notion-Version": "2022-06-28"},
+            )
+            d = json.loads(body)
+            title = "".join(t.get("plain_text", "") for t in d.get("title", []))
+            props = list(d.get("properties", {}))
+            att = [p for p in props if "출결" in p]
+            print(f"  O  HTTP {status}  연결 성공  — DB 「{title}」 속성 {len(props)}개")
+            if att:
+                print(f"     출결번호 속성: {', '.join(att)}")
+            else:
+                print("  !  「출결」 이 들어간 속성이 없습니다. 속성 이름:", ", ".join(props))
+        except urllib.error.HTTPError as e:
+            why = {401: "키가 거부됨", 404: "DB 를 못 찾음 — DB 에 연결을 추가했는지 확인",
+                   400: "DB ID 형식이 틀림"}.get(e.code, e.reason)
+            print(f"  X  HTTP {e.code}  {why}")
+            ok = False
+        except Exception as e:
+            print(f"  X  연결 실패: {type(e).__name__}")
+            ok = False
+
     print("\n" + "=" * 58)
     print(" 결과:", "전부 정상 — 1단계 시작 가능" if ok else "문제 있음 — 위 X 항목 확인 필요")
     print("=" * 58)
