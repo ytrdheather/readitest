@@ -380,13 +380,13 @@
       "stem_ko": "[T7]의 내용과 일치하는 것은?",
       "options": [
         "One touch can damage a painting forever.",
-        "Museum rules are there to make visits more exciting.",
+        "Strong light can slowly change the colors of an old painting.",
         "Sweet food is dangerous because it can break a wooden frame.",
         "A drop of juice disappears from a frame in a few days.",
-        "Strong light can slowly change the colors of an old painting."
+        "Museum rules are there to make visits more exciting."
       ],
-      "answer": 5,
-      "why_ko": "⑤ 강한 빛이 오래된 그림의 색을 서서히 약하게 만든다 — 일치. ① 한 번 만지면 아주 작은 자국만 남고, 수천 번이 그림을 영원히 망친다(one 과 thousands 바꿔치기). ③ 단 음식은 벌레를 부른다(틀을 부수는 것이 아님). ④ 주스 한 방울은 몇 년 동안 남는다. ② 규칙은 지루하게 하려는 것이 아니라 예술품을 지키려는 것 — 흥미와는 무관. [유형 교체 2026-10-04 — 원래 「문맥상 어색한 낱말」]",
+      "answer": 2,
+      "why_ko": "② 강한 빛이 오래된 그림의 색을 서서히 약하게 만든다 — 일치. ① 한 번 만지면 아주 작은 자국만 남고, 수천 번이 그림을 영원히 망친다(one 과 thousands 바꿔치기). ③ 단 음식은 벌레를 부른다(틀을 부수는 것이 아님). ④ 주스 한 방울은 몇 년 동안 남는다. ⑤ 규칙은 지루하게 하려는 것이 아니라 예술품을 지키려는 것 — 흥미와는 무관. [유형 교체 2026-10-04 — 원래 「문맥상 어색한 낱말」]",
       "revised_from": {
         "type": "T-VOCAB-CONTEXT",
         "stem_ko": "[T7]의 밑줄 친 ①~⑤ 중 문맥상 낱말의 쓰임이 어색한 것은?",

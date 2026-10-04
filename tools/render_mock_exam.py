@@ -97,7 +97,49 @@ h2 { font-size: 10.5pt; margin: 4mm 0 2mm; padding: 1mm 2mm; background: #eef2f7
 .newpage { break-before: page; }
 .prob { border: 1px solid #f0c9c4; background: #fdf4f3; border-radius: 3px;
         padding: 2mm 3mm; margin-bottom: 3mm; font-size: 8pt; color: #8a3128; }
+/* 정답표 — 정답지 첫 쪽 맨 위, 해설 앞 (디자인 지침 5) */
+.qk { margin: 0 0 3.5mm; }
+.qk .t { font-size: 10pt; font-weight: 700; color: #1f2d3d; margin-bottom: 1mm; }
+.qk table { border-collapse: collapse; font-size: 11pt; }
+.qk td { border: 1px solid #555; padding: 0.6mm 3mm; height: 6mm; }
+.qk td.n { font-size: 9pt; color: #333; white-space: nowrap; }
+.qk td.a { letter-spacing: 0.6mm; white-space: nowrap; min-width: 30mm; }
+.qk td.e { font-size: 9pt; font-weight: 600; line-height: 1.5; }
+.qk tr.h td { background: #eef2f7; font-size: 8.5pt; text-align: center; color: #445; }
 """
+
+
+def quick_key(mc, essays=()):
+    """정답표 — 선택형은 10문항씩 한 줄, 5개씩 두 칸 (`01~10번 | ④②②③② | ⑤①②⑤⑤`),
+    그 아래 서술형은 한 문항 한 줄에 답만.
+
+    mc: [(번호, '③'), …]   essays: [(번호, [답 줄, …]), …]
+    2026-10-04 원장 — 채점할 때 해설 속에서 정답을 찾느라 불편했다. 원장이 보여 준 기존
+    정답표 꼴: 정답지 맨 위에 번호별 정답만 나열한 표. ~~서술형은 「주」~~ — 서술형도 답을
+    써 줘야 채점이 된다 (원장 같은 날).
+    """
+    marks = dict(mc)
+    last = max(marks) if marks else 0
+    rows = ['<tr class="h"><td>번호</td><td></td><td></td></tr>']
+    for s in range(1, last + 1, 10):
+        e = min(s + 9, last)
+        half = lambda lo, hi: "".join(marks.get(i, "·") for i in range(lo, min(hi, e) + 1))
+        label = f"{s:02d}~{e:02d}번" if e > s else f"{s:02d}번"
+        rows.append(f'<tr><td class="n">{label}</td>'
+                    f'<td class="a">{half(s, s + 4)}</td><td class="a">{half(s + 5, s + 9)}</td></tr>')
+    # 중1 5과 1~3세트처럼 서술형이 1번부터 다시 세면 「서술형 1번」 으로 적어 선택형 1번과 가른다
+    restart = bool(essays) and essays[0][0] <= last
+    for n, lines in essays:
+        label = f"서술형 {n}번" if restart else f"{n:02d}번"
+        rows.append(f'<tr><td class="n">{label}</td><td class="e" colspan="2">'
+                    + "".join(f"<div>{esc(l)}</div>" for l in lines) + "</td></tr>")
+    return f'<div class="qk"><div class="t">정답표</div><table>{"".join(rows)}</table></div>'
+
+
+def essay_key_lines(answer_en):
+    """모범답에서 채점에 필요한 줄만 — 「(완성 문장: …)」 은 해설 쪽에만 둔다."""
+    return [l.strip() for l in answer_en.split("\n")
+            if l.strip() and not l.strip().startswith("(완성")]
 
 
 def esc(s):
@@ -282,7 +324,11 @@ def build(d, logo, part="both", title=None):
                     shown.add(mid)
                 body.append('<div style="break-inside: avoid">' + head_mat + essay_html(e, ans) + "</div>")
             body.append("</div>")
-        return head + prob + "".join(body) + "</div>"
+        qk = ""
+        if ans:      # 정답지 맨 위 정답표 (디자인 지침 5)
+            qk = quick_key([(it["no"], CIRCLED[it["answer"] - 1]) for it in d["items"]],
+                           [(e["no"], essay_key_lines(e["answer_en"])) for e in d["essays"]])
+        return head + qk + prob + "".join(body) + "</div>"
 
     if part == "worksheet":
         return f"<style>{CSS}</style>{page(False)}"
