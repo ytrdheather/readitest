@@ -1,6 +1,7 @@
 {
   "school": "영덕중",
   "set_no": 3,
+  "range": "5",
   "spec": {
     "students": null,
     "exam_date": "2026-12 (2학기 기말)",
@@ -456,33 +457,72 @@
       "no": 1,
       "material_id": "T11",
       "points": 4,
-      "prompt_ko": "[T11]의 대화를 읽고, 다음 질문에 <조건>에 맞게 영어로 답하시오.\n(1) What does Minji want to be when she grows up?\n(2) When will Minji take the sound class?\n(3) How will Minji get to the museum?\n<조건> ① 세 문장 모두 대명사(She)를 주어로 쓸 것 ② (1)에는 when, (2)에는 after가 이끄는 시간 부사절을 각각 1회 쓰고, 시간 부사절 안에서는 현재시제를 쓸 것 ③ (1)에는 want를 1회 쓸 것 ④ (3)에는 by subway와 get off at ~ Station의 전치사를 그대로 살려 쓸 것 ⑤ 각 문장은 7~12단어로 쓸 것",
-      "given_words": [
-        "grow up",
-        "want",
-        "after",
-        "by subway",
-        "get off",
-        "Sinsa Station"
-      ],
-      "word_limit": "각 문장 7~12단어",
+      "prompt_ko": "[T11]의 대화를 읽고, 질문에 대한 답이 되도록 빈칸에 알맞은 말을 쓰시오.",
+      "given_words": [],
+      "word_limit": "",
       "target_grammar": "시간 부사절(when/after, 현재시제) + want to부정사 + 전치사 결합(by subway / get off at ~ Station)",
-      "answer_en": "(1) She wants to be a Foley artist when she grows up. (2) She will take the sound class after school ends this Friday. (3) She will go to the museum by subway and get off at Sinsa Station.",
-      "why_ko": "시간 부사절에서는 미래의 일도 현재시제로 쓰며(when she grows up / after school ends), 교통수단은 by subway, 하차는 get off at + 역 이름으로 표현한다."
+      "answer_en": "(1) a Foley artist\n(2) after school ends\n(3) by subway / at Sinsa Station",
+      "why_ko": "시간 부사절에서는 미래의 일도 현재시제로 쓰며(when she grows up / after school ends), 교통수단은 by subway, 하차는 get off at + 역 이름으로 표현한다. [채점형 수정 2026-10-04]",
+      "context": "(1) Q: What does Minji want to be when she grows up?\n    A: She wants to be ______________.\n(2) Q: When will Minji take the sound class?\n    A: She will take it ______________ this Friday.\n(3) Q: How will Minji get to the museum?\n    A: She will go ______________ and get off ______________.",
+      "conditions": [
+        "빈칸 단어 수: (1) 3단어 · (2) 3단어 · (3) 앞 빈칸 2단어, 뒤 빈칸 3단어",
+        "(2)는 after 가 이끄는 시간 부사절로 쓰고 시제에 주의할 것",
+        "(3)은 알맞은 전치사를 포함할 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________",
+        "(3) ________ / ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "[T11]의 대화를 읽고, 다음 질문에 <조건>에 맞게 영어로 답하시오.\n(1) What does Minji want to be when she grows up?\n(2) When will Minji take the sound class?\n(3) How will Minji get to the museum?\n<조건> ① 세 문장 모두 대명사(She)를 주어로 쓸 것 ② (1)에는 when, (2)에는 after가 이끄는 시간 부사절을 각각 1회 쓰고, 시간 부사절 안에서는 현재시제를 쓸 것 ③ (1)에는 want를 1회 쓸 것 ④ (3)에는 by subway와 get off at ~ Station의 전치사를 그대로 살려 쓸 것 ⑤ 각 문장은 7~12단어로 쓸 것",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "grow up",
+          "want",
+          "after",
+          "by subway",
+          "get off",
+          "Sinsa Station"
+        ],
+        "word_limit": "각 문장 7~12단어",
+        "answer_en": "(1) She wants to be a Foley artist when she grows up. (2) She will take the sound class after school ends this Friday. (3) She will go to the museum by subway and get off at Sinsa Station."
+      }
     },
     {
       "no": 2,
       "material_id": "T7",
       "points": 4,
-      "prompt_ko": "[T7]을 읽고, 다음 두 질문에 본문에 쓰인 표현(be in charge of / create sound effects)을 그대로 사용하여 완전한 영어 문장으로 답하시오.\n(1) What is a Foley artist in charge of?\n(2) What does Mina Park do for films?",
+      "prompt_ko": "[T7]을 읽고, 질문에 대한 답이 되도록 빈칸에 본문의 표현을 써서 완성하시오.",
       "given_words": [
         "be in charge of",
         "create sound effects"
       ],
-      "word_limit": "각 문장 6~12단어",
+      "word_limit": "",
       "target_grammar": "본문 표현 그대로 쓰기 (be in charge of / creates sound effects) · 3인칭 단수 현재형",
-      "answer_en": "(1) She is in charge of every small sound in a movie. (2) She creates sound effects for films.",
-      "why_ko": "주어가 3인칭 단수이므로 is in charge of, creates로 쓰며, 본문의 표현을 그대로 활용해야 한다."
+      "answer_en": "(1) in charge of\n(2) creates sound effects",
+      "why_ko": "주어가 3인칭 단수이므로 is in charge of, creates로 쓰며, 본문의 표현을 그대로 활용해야 한다. [채점형 수정 2026-10-04]",
+      "context": "(1) Q: What is a Foley artist in charge of?\n    A: She is ______________ every small sound in a movie.\n(2) Q: What does Mina Park do for films?\n    A: She ______________ for films.",
+      "conditions": [
+        "빈칸 단어 수: (1) 3단어 · (2) 3단어",
+        "주어에 맞게 동사의 형태를 바꿀 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "[T7]을 읽고, 다음 두 질문에 본문에 쓰인 표현(be in charge of / create sound effects)을 그대로 사용하여 완전한 영어 문장으로 답하시오.\n(1) What is a Foley artist in charge of?\n(2) What does Mina Park do for films?",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "be in charge of",
+          "create sound effects"
+        ],
+        "word_limit": "각 문장 6~12단어",
+        "answer_en": "(1) She is in charge of every small sound in a movie. (2) She creates sound effects for films."
+      }
     },
     {
       "no": 3,

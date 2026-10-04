@@ -1,6 +1,7 @@
 {
   "school": "영일중",
   "set_no": 3,
+  "range": "567",
   "spec": {
     "students": null,
     "exam_date": "2026-12 (2학기 기말)",
@@ -515,19 +516,39 @@
       "no": 22,
       "material_id": "T3",
       "points": 5,
-      "prompt_ko": "다음은 민호가 쓴 일기의 일부이다. (A)에는 알맞은 전치사 한 단어를, (B)에는 우리말 뜻에 맞는 문장을 <조건>에 맞게 쓰시오.\n\nTomorrow, my family will go to the science museum by subway. We will get off (A)________ Sadang Station. (B)________________________________.\n   → (B) 우리가 그곳에 도착하면, 나는 사진을 찍을 것이다.\n\n<조건>\n1) (A)에는 'get off ~ Sadang Station'에 어울리는 전치사 한 단어를 쓸 것\n2) (B)에는 when과 will을 반드시 사용할 것\n3) (B)는 8~9단어로 쓸 것 (get, there, take, pictures 활용)",
-      "given_words": [
-        "when",
-        "will",
-        "get",
-        "there",
-        "take",
-        "pictures"
-      ],
-      "word_limit": "(A) 1단어 / (B) 8~9단어",
+      "prompt_ko": "다음은 민호가 쓴 일기의 일부이다. 우리말과 같은 뜻이 되도록 빈칸 (A)~(C)에 알맞은 말을 쓰시오.",
+      "given_words": [],
+      "word_limit": "(A) 1단어 · (B) 2단어 · (C) 2단어",
       "target_grammar": "시간 부사절 when + 현재시제 / 주절 will · 전치사 at (get off at ~ Station)",
-      "answer_en": "(A) at  (B) When we get there, I will take pictures.",
-      "why_ko": "'~역에서 내리다'는 get off at ~ Station으로 전치사 at을 쓴다. (B)는 시간 부사절 when절에서 미래를 현재시제(get)로 쓰고 주절에 will을 써서 8단어로 완성한다."
+      "answer_en": "(A) at\n(B) get there\n(C) will take",
+      "why_ko": "'~역에서 내리다'는 get off at ~ Station으로 전치사 at을 쓴다. (B)는 시간 부사절 when절에서 미래를 현재시제(get)로 쓰고 주절에 will을 써서 8단어로 완성한다. [채점형 수정 2026-10-04]",
+      "context": "Tomorrow, my family will go to the science museum by subway.\nWe will get off (A)________ Sadang Station.\nWhen we (B)______________, I (C)______________ pictures.\n(→ 우리가 그곳에 도착하면, 나는 사진을 찍을 것이다.)",
+      "conditions": [
+        "(A)는 알맞은 전치사 1단어로 쓸 것",
+        "(B)는 get, there 를 사용하여 2단어로 쓸 것",
+        "(C)는 will, take 를 사용하여 2단어로 쓸 것",
+        "시간을 나타내는 부사절의 시제에 유의할 것"
+      ],
+      "answer_slots": [
+        "(A) ________",
+        "(B) ______________",
+        "(C) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "다음은 민호가 쓴 일기의 일부이다. (A)에는 알맞은 전치사 한 단어를, (B)에는 우리말 뜻에 맞는 문장을 <조건>에 맞게 쓰시오.\n\nTomorrow, my family will go to the science museum by subway. We will get off (A)________ Sadang Station. (B)________________________________.\n   → (B) 우리가 그곳에 도착하면, 나는 사진을 찍을 것이다.\n\n<조건>\n1) (A)에는 'get off ~ Sadang Station'에 어울리는 전치사 한 단어를 쓸 것\n2) (B)에는 when과 will을 반드시 사용할 것\n3) (B)는 8~9단어로 쓸 것 (get, there, take, pictures 활용)",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "when",
+          "will",
+          "get",
+          "there",
+          "take",
+          "pictures"
+        ],
+        "word_limit": "(A) 1단어 / (B) 8~9단어",
+        "answer_en": "(A) at  (B) When we get there, I will take pictures."
+      }
     },
     {
       "no": 23,

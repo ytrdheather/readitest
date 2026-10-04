@@ -1,0 +1,672 @@
+{
+  "school": "영덕중",
+  "set_no": 5,
+  "spec": {
+    "students": 8,
+    "exam_date": "2026-10-07",
+    "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+    "total_points": 100,
+    "selective": 18,
+    "essay": 5,
+    "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+    "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+    "signature": [
+      "어순 배열 2문항 10점 (T-WORD-ORDER · 문항 4·20)",
+      "본문을 캠페인 포스터·광고 문구로 형식 전환 (문항 17·18)",
+      "본문 어휘를 창작 지문에 심음 (문항 9 My Money Plan)"
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "form_choice": 1,
+    "standalone": 1,
+    "standalone_points": 4,
+    "external_passages": [
+      "Yu Gwansun",
+      "Homer B. Hulbert"
+    ],
+    "essay_points": 25,
+    "essay_rule": "세 학교 서술형 그릇을 섞는다 — 영일형(노리는 어법 지정 + 단어 수 범위) 2 · 태장형(주어진 단어 세트 전부 포함 + 단어 수 상한) 2 · 청명형(단문 나열 5문장 중 틀린 것 찾아 고쳐 쓰기) 1",
+    "essay_blueprint": [
+      {
+        "그릇": "영일형",
+        "필수어휘": "지정 (원형으로 주고 형태를 바꾸게)",
+        "단어수": "9~11",
+        "노리는 어법": "L5 목적격 관계대명사"
+      },
+      {
+        "그릇": "영일형",
+        "필수어휘": "지정",
+        "단어수": "6~8",
+        "노리는 어법": "L6 지각동사+목적보어",
+        "추가 조건": "제시문의 3단어 이상 연속 표현 사용 금지"
+      },
+      {
+        "그릇": "태장형",
+        "조건": "완전한 한 문장 · 시제 변형 · 주어진 단어 전부 포함",
+        "단어수": "10단어 이하",
+        "노리는 어법": "L6 so ~ that"
+      },
+      {
+        "그릇": "태장형",
+        "조건": "본문 단어만 사용해 본문 질문에 답하기 · 전치사 자리 포함",
+        "단어수": "정확히 N단어",
+        "노리는 어법": "L5 used to 계열"
+      },
+      {
+        "그릇": "청명형",
+        "조건": "T-WRITE-FIX — 서로 무관한 문장 5개(standalone_set 자료로 새로 씀) 중 어법상 틀린 문장 2개를 골라 기호를 쓰고 바르게 고쳐 쓰기",
+        "단어수": "제한 없음",
+        "노리는 어법": "L5·L6 네 포인트 혼합"
+      }
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L5 Read More",
+      "text": "I’ll explain how you can get to the City Library from the school. The best way to get there is to take the bus. You can take bus No. 2 or 5, and it’ll only take about 10 minutes.\nThe painting I want to write about is The Red Room by Henri Matisse. This painting shows a red room with a window. In the room, there are two chairs and a big table. We also see a woman who is setting the table. I like the red color of this painting. I think that the room feels warm because of it.\nPeople take pictures of their faces and stick them on the street. The pictures come together to create a huge artwork. People write their dreams and goals on a big wall. They share their stories and make a special artwork together.\nIn the past, my grandparents used to live in the country. Now they live in a city. In the past, they used to work on the farm. Now they do not work, and they enjoy traveling."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L6 Read More",
+      "text": "W: Hello, everyone. The movie I’m going to introduce today is The Song of Love. It’s a movie about a pianist who loses his love for music. He moves to a small town for a new start. There, he begins teaching music to children and finds his love for music again. This movie has great music and a touching story, so I strongly recommend it.\nFrank W. Schofield was a Canadian doctor. He loved Korean people and helped the Korean independence movement. He took pictures of the March 1st Movement and wrote an article about it.\nKim Mandeok was born in Jeju-do in 1739. She was a successful businesswoman. In 1795, she saw many people dying from hunger. So, she bought rice with all her money and gave it away to poor people. Her love for others was so selfless that many people respected her. From her life, I learned that selfless love for others can make a big difference.\nNick Priest saw a car accident and ran to save the children on the bus. Kay Brown saw a homeless person in the subway and gave her own shoes to her. Eliot Middleton is a restaurant owner. He spends his free time fixing old cars and donating them to people in need."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 — Yu Gwansun",
+      "text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "외부지문 — Homer B. Hulbert",
+      "text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries."
+    },
+    {
+      "id": "T1",
+      "kind": "standalone_set",
+      "title": "어법 확인 문장 모음 (A)",
+      "text": "① This is the book that I borrowed from the library last week.\n② My father used to going fishing with me every Sunday.\n③ I saw a little boy cross the street all alone.\n④ The movie was so boring that we left the theater early.\n⑤ She is the singer whom everyone in my class loves."
+    },
+    {
+      "id": "T2",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5] (A)",
+      "text": "[1] A: Who is the girl ①that you waved to?\n    B: She's my cousin from Busan.\n[2] A: Did you hear someone ②knock on the door?\n    B: No, I didn't hear anything.\n[3] A: This bag is ③so heavy that I can't carry it.\n    B: Let me help you with it.\n[4] A: My brother ④used to be afraid of dogs.\n    B: Really? Now he has three!\n[5] A: I felt something ⑤to touch my shoulder.\n    B: Don't worry. It was just the wind."
+    },
+    {
+      "id": "T3",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5] (B)",
+      "text": "[1] A: What's the song ①which you are listening to?\n    B: It's an old K-pop song from the 1990s.\n[2] A: Look! I can see the children ②playing in the park.\n    B: They look really happy.\n[3] A: Why didn't you buy the jacket?\n    B: It was ③such expensive that I couldn't buy it.\n[4] A: There ④used to be a big tree in front of my school.\n    B: What happened to it?\n[5] A: I watched my sister ⑤draw a picture of our dog.\n    B: Was it good?"
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "My Art Club Plan",
+      "text": "Last year, our art club used to meet only once a month, so we didn't do much. This year, we have a new plan. First, we will paint a big mural on the back wall of our school. The three figures in our design represent the past, present, and future of our club. Second, we will collect short personal messages from students and write them around the mural. Third, we will make a small map with a clue on it so that visitors can find every artwork in our school. Our goal is simple: ________________ We want everyone who walks through our school to smile."
+    },
+    {
+      "id": "T5",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5] (C)",
+      "text": "[1] A: Is this the gum painting ①you told me about?\n    B: Yes, it's by Ben Wilson.\n[2] A: Do you still take the bus?\n    B: No, I'm ②used to walk to school now.\n[3] A: Did you watch the artist ③spraying paint on the wall?\n    B: Yes, it was amazing.\n[4] A: The street was ④so noisy that we couldn't talk.\n    B: Let's go inside, then.\n[5] A: Who is the artist ⑤whose paintings carry social messages?\n    B: Banksy, of course."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "A Small Gallery",
+      "text": "Yesterday I visited a small gallery (A)[that / what] my sister recommended. Inside, I saw a young painter (B)[to mix / mixing] colors on a large canvas. The room was (C)[so / such] quiet that I could hear the sound of his brush."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "A Street Art Tour in Ihwa Maeul",
+      "text": "Last Saturday, our class joined a street art tour in Ihwa Maeul. The guide said that the village ①used to be a quiet place with old houses and narrow streets. Now colorful murals cover the walls, and the mural ②that we liked most was a pair of big white wings. While we were taking pictures in front of it, we heard a street musician ③singing a cheerful song. The song was ④so beautiful that some visitors stopped walking and listened for a while. On our way home, I saw my friend ⑤to draw a small picture of the wings in her notebook."
+    },
+    {
+      "id": "T8",
+      "kind": "standalone_set",
+      "title": "used to 의 쓰임",
+      "text": "① My uncle used to ride a bike to work.\n② There used to be a small bakery on this corner.\n③ This machine is used to make paper cups.\n④ I used to be afraid of the dark when I was six.\n⑤ We used to play soccer on the playground after school."
+    },
+    {
+      "id": "T9",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5] (D)",
+      "text": "[1] A: Is she the woman ①that you saw at the museum?\n    B: Yes, she's my art teacher.\n[2] A: The tour was ②so short that I wanted more.\n    B: Me too. Let's come back next month.\n[3] A: I saw a man ③to run across the street.\n    B: Was he in a hurry?\n[4] A: My mom ④used to work at a bakery.\n    B: Did she bake bread every morning?\n[5] A: The box was ⑤too heavy for me to lift.\n    B: I'll carry it for you."
+    },
+    {
+      "id": "T10",
+      "kind": "teacher_paragraph",
+      "title": "School Campaign Poster — BE BRAVE LIKE HER",
+      "text": "BE BRAVE LIKE HER — School History Campaign\n\nWho: Yu Gwansun, a teenager who stood up for her country in 1919\nWhat she did:\n · joined the March 1st Movement with others\n · told her friends and neighbors not to give up hope\n · stayed strong and hopeful even in prison\n\nWhat WE do:\n · Write a letter of thanks to her — Library, March 2, 10:00 a.m.\n · Make a poster about young heroes — Art Room, March 3, 2:00 p.m.\n · Share your own story on our school webpage — all month long\n\nOur message: ________________\n\n* No sign-up needed. Just come with your courage!"
+    },
+    {
+      "id": "T11",
+      "kind": "standalone_set",
+      "title": "어법 확인 문장 모음 (B)",
+      "text": "① The song that I listened to yesterday was really beautiful.\n② We saw the children to cross the street safely.\n③ My grandmother used to tell me stories before I went to bed.\n④ The book was such interesting that I finished it in one day.\n⑤ I felt someone touching my shoulder in the dark."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P1에서 찾을 수 있는 것은?\n\n: a fact or an object that helps you find the answer to a question or a problem",
+      "options": [
+        "form",
+        "clue",
+        "figure",
+        "pleasure",
+        "opinion"
+      ],
+      "answer": 2,
+      "why_ko": "문제의 답을 찾도록 도와주는 단서를 뜻하는 낱말은 clue이며, P1에서 세 인물의 눈이 단서를 준다는 문장에 쓰였다.",
+      "grammar_point": "VOCAB"
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 Ben Wilson에 관한 설명으로 알맞지 않은 것은?",
+      "options": [
+        "사람들이 길에 버린 껌 위에 그림을 그린다.",
+        "그의 그림에는 사람들의 개인적인 메시지가 담기기도 한다.",
+        "길에서 만나는 사람들에게서 메시지를 얻는다.",
+        "그의 껌 그림은 아주 작지만 많은 사람에게 큰 기쁨을 준다.",
+        "작품을 벽의 높은 곳에 남겨서 멀리서도 잘 보인다."
+      ],
+      "answer": 5,
+      "why_ko": "P1은 Muswell Hill에서 작품을 보려면 아래를 내려다보고 가까이 들여다보라고 했으므로, 벽 높은 곳에 남긴다는 설명은 맞지 않다.",
+      "grammar_point": "DETAIL"
+    },
+    {
+      "no": 3,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1의 the one over here가 가리키는 것으로 가장 알맞은 것은?",
+      "options": [
+        "Shoreditch의 벽에 그려진 세 인물 그림",
+        "Banksy가 벽에 그린 초록색 나무 그림",
+        "분무기를 들고 있는 사람을 그린 그림",
+        "길 위의 껌에 그려진 작은 그림 하나",
+        "생일에 친구에게서 받은 그림 한 점"
+      ],
+      "answer": 4,
+      "why_ko": "Muswell Hill에서 소개된 Ben Wilson의 껌 그림들 가운데 하나를 가리키며, 그것이 사랑하는 사람을 위한 생일 축하 메시지라고 설명하고 있다.",
+      "grammar_point": "REFERENCE"
+    },
+    {
+      "no": 4,
+      "material_id": "P1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "다음 우리말과 뜻이 같도록 [the street artwork / about / I / told / you / that]을 모두 바르게 배열한 것은?\n\n이것이 내가 어제 너에게 말했던 그 거리 예술 작품이다.\n→ This is ____________________ yesterday.",
+      "options": [
+        "the street artwork that I told you about",
+        "the street artwork about that I told you",
+        "the street artwork that about I told you",
+        "that the street artwork I told you about",
+        "the street artwork I told that you about"
+      ],
+      "answer": 1,
+      "why_ko": "목적격 관계대명사 that이 선행사 the street artwork 바로 뒤에 오고, 전치사 about은 관계대명사절 끝에 남는다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 5,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T1의 ①~⑤ 중 어법상 틀린 문장은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "과거의 습관을 나타내는 used to 뒤에는 동사원형이 와야 하므로 used to going이 아니라 used to go로 써야 한다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 6,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T2의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "why_ko": "지각동사 feel의 목적격보어로는 동사원형이나 현재분사를 쓰므로 to touch가 아니라 touch 또는 touching이 되어야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 7,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3에서 언급되지 않은 것은?",
+      "options": [
+        "The Song of Love의 주인공이 작은 마을에서 아이들에게 음악을 가르치는 일",
+        "Frank W. Schofield가 3·1 운동을 사진으로 남기고 글을 쓴 일",
+        "김만덕이 전 재산으로 쌀을 사서 가난한 사람들에게 나누어 준 일",
+        "Kay Brown이 지하철에서 노숙인에게 자신의 신발을 준 일",
+        "Eliot Middleton이 고친 자동차를 팔아 그 돈으로 식당을 연 일"
+      ],
+      "answer": 5,
+      "why_ko": "P3에서 Eliot Middleton은 낡은 자동차를 고쳐 도움이 필요한 사람들에게 기부한다고 했을 뿐, 차를 팔아 식당을 열었다는 내용은 없다.",
+      "grammar_point": "DETAIL"
+    },
+    {
+      "no": 8,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T3의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "뒤에 형용사 expensive만 왔으므로 such가 아니라 so를 써서 so expensive that으로 해야 한다. such를 쓰려면 such an expensive jacket that의 형태가 되어야 한다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 9,
+      "material_id": "T4",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T4의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "We want to sell our paintings to visitors.",
+        "We want to make our school more colorful and lively.",
+        "We want to clean all the old walls of our school.",
+        "We want to learn how to draw human bodies with lines and dots.",
+        "We want to meet a famous street artist in London."
+      ],
+      "answer": 2,
+      "why_ko": "벽화를 그리고 메시지를 모으며 학교의 작품을 찾게 하는 계획의 목적은 학교를 더 밝고 생기 있게 만들어 모두를 웃게 하려는 것이다.",
+      "grammar_point": "BLANK"
+    },
+    {
+      "no": 10,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T5의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "'~하는 데 익숙하다'는 be used to -ing이므로 I'm used to walk가 아니라 I'm used to walking이 되어야 한다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 11,
+      "material_id": "T6",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T6의 (A), (B), (C) 괄호 안에서 어법상 알맞은 것끼리 바르게 짝지은 것은?",
+      "options": [
+        "that – to mix – so",
+        "that – mixing – so",
+        "that – mixing – such",
+        "what – mixing – so",
+        "what – to mix – such"
+      ],
+      "answer": 2,
+      "why_ko": "(A) 선행사 a small gallery가 있으므로 목적격 관계대명사 that, (B) 지각동사 see의 목적격보어로 현재분사 mixing, (C) 형용사 quiet 앞이므로 so ~ that이 알맞다.",
+      "grammar_point": "REL_OBJECT / PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 12,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T7의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "why_ko": "지각동사 see의 목적격보어 자리이므로 to draw가 아니라 draw 또는 drawing을 써야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 13,
+      "material_id": "P5",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P5에서 찾을 수 있는 것은?\n\n: to help something develop or become more widely known",
+      "options": [
+        "promote",
+        "praise",
+        "respect",
+        "inspire",
+        "remind"
+      ],
+      "answer": 1,
+      "why_ko": "무언가가 더 널리 알려지도록 돕는다는 뜻은 promote이며, P5에서 Hangeul과 한국 문화를 알리는 일을 가리킬 때 쓰였다.",
+      "grammar_point": "VOCAB"
+    },
+    {
+      "no": 14,
+      "material_id": "T8",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 4,
+      "stem_ko": "T8의 ①~⑤ 중 밑줄 친 used to의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "③은 '~하는 데 사용되다(be used to+동사원형)'의 뜻이고, 나머지는 모두 '예전에 ~했었다'라는 과거의 습관·상태를 나타내는 used to이다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 15,
+      "material_id": "P4",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "다음 우리말과 뜻이 같도록 [brave / enough / to / save / was]를 모두 바르게 배열한 것은?\n\n그는 그 아이들을 구할 만큼 충분히 용감했다.\n→ He ____________________ the children.",
+      "options": [
+        "was brave enough to save",
+        "was enough brave to save",
+        "was brave to save enough",
+        "enough was brave to save",
+        "was brave enough saving"
+      ],
+      "answer": 1,
+      "why_ko": "enough는 형용사 뒤에 와서 '형용사+enough+to부정사' 순서로 쓴다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 16,
+      "material_id": "T9",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T9의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "지각동사 see의 목적격보어로는 to부정사를 쓸 수 없으므로 to run이 아니라 run 또는 running이어야 한다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 17,
+      "material_id": "T10",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T10 포스터의 빈칸에 들어갈 문구로 가장 알맞은 것은?",
+      "options": [
+        "Her love was loud and forceful, so we must shout, too.",
+        "Courage has nothing to do with age — anyone can be brave.",
+        "Only adults can really fight for the rights of a country.",
+        "Let's forget the past and look only at the future.",
+        "Art is the only way to change the world around us."
+      ],
+      "answer": 2,
+      "why_ko": "",
+      "grammar_point": "BLANK"
+    },
+    {
+      "no": 18,
+      "material_id": "T10",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T10 포스터의 내용과 일치하지 않는 것은?",
+      "options": [
+        "감사 편지 쓰기 행사는 도서관에서 열린다.",
+        "포스터 만들기는 3월 3일 오후 2시에 미술실에서 한다.",
+        "참가하려면 미리 신청서를 내야 한다.",
+        "유관순은 1919년에 다른 사람들과 함께 3·1 운동에 참여했다.",
+        "자신의 이야기 나누기는 한 달 내내 학교 홈페이지에서 진행된다."
+      ],
+      "answer": 3,
+      "why_ko": "포스터 맨 아래에 No sign-up needed라고 했으므로 미리 신청할 필요가 없다.",
+      "grammar_point": "DETAIL"
+    }
+  ],
+  "essays": [
+    {
+      "no": 19,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "다음 우리말을 <조건>에 맞게 영작할 때, 3번째·5번째·7번째 단어를 쓰시오.",
+      "context": "내가 어제 본 그 그림은 사회적 메시지를 담고 있다.",
+      "conditions": [
+        "목적격 관계대명사 that을 반드시 사용할 것",
+        "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+        "주절의 동사는 현재시제로 쓸 것",
+        "단어 수는 띄어쓰기 기준으로 센다",
+        "답안에는 지정된 순서의 단어만 쓸 것 (문장 전체를 쓰지 말 것)"
+      ],
+      "given_words": [
+        "see",
+        "carry",
+        "painting"
+      ],
+      "word_limit": "9~11단어",
+      "target_grammar": "L5 목적격 관계대명사 (REL_OBJECT)",
+      "answer_en": "3번째: that\n5번째: saw\n7번째: carries\n(완성 문장: The painting that I saw yesterday carries a social message.)",
+      "why_ko": "선행사 The painting 뒤에 목적격 관계대명사 that이 이끄는 절(I saw yesterday)이 오고, 주절 동사 carries는 3인칭 단수 현재형으로 쓴다. 총 10단어. [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "3번째 단어: ________",
+        "5번째 단어: ________",
+        "7번째 단어: ________"
+      ],
+      "revised_from": {
+        "prompt_ko": "다음 우리말을 <조건>에 맞게 영작하시오.",
+        "context": "내가 어제 본 그 그림은 사회적 메시지를 담고 있다.",
+        "conditions": [
+          "목적격 관계대명사 that을 반드시 사용할 것",
+          "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+          "주절의 동사는 현재시제로 쓸 것"
+        ],
+        "given_words": [
+          "see",
+          "carry",
+          "painting"
+        ],
+        "word_limit": "9~11단어",
+        "answer_en": "The painting that I saw yesterday carries a social message."
+      }
+    },
+    {
+      "no": 20,
+      "material_id": "P3",
+      "points": 5,
+      "prompt_ko": "다음 우리말을 <조건>에 맞게 영작할 때, 2번째·4번째·5번째 단어를 쓰시오.",
+      "context": "우리는 아이들이 버스에서 소리치고 있는 것을 들었다.",
+      "conditions": [
+        "지각동사의 목적격보어로 현재분사를 쓸 것",
+        "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+        "P3에 나온 세 단어 이상 연속된 표현을 그대로 옮겨 쓰지 말 것",
+        "단어 수는 띄어쓰기 기준으로 센다",
+        "답안에는 지정된 순서의 단어만 쓸 것 (문장 전체를 쓰지 말 것)"
+      ],
+      "given_words": [
+        "hear",
+        "child",
+        "shout"
+      ],
+      "word_limit": "6~8단어",
+      "target_grammar": "L6 지각동사+목적격보어 (PERCEPTION_VERB_OC)",
+      "answer_en": "2번째: heard\n4번째: children\n5번째: shouting\n(완성 문장: We heard the children shouting on the bus.)",
+      "why_ko": "지각동사 hear의 목적격보어로 진행의 의미를 살려 현재분사 shouting을 쓴다. 총 8단어이며 본문의 연속 표현을 쓰지 않았다. [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "2번째 단어: ________",
+        "4번째 단어: ________",
+        "5번째 단어: ________"
+      ],
+      "revised_from": {
+        "prompt_ko": "다음 우리말을 <조건>에 맞게 영작하시오.",
+        "context": "우리는 아이들이 버스에서 소리치고 있는 것을 들었다.",
+        "conditions": [
+          "지각동사의 목적격보어로 현재분사를 쓸 것",
+          "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+          "P3에 나온 세 단어 이상 연속된 표현을 그대로 옮겨 쓰지 말 것"
+        ],
+        "given_words": [
+          "hear",
+          "child",
+          "shout"
+        ],
+        "word_limit": "6~8단어",
+        "answer_en": "We heard the children shouting on the bus."
+      }
+    },
+    {
+      "no": 21,
+      "material_id": "P4",
+      "points": 5,
+      "prompt_ko": "주어진 단어를 모두 사용하여 <조건>에 맞는 한 문장을 만들 때, 2번째·7번째 단어를 쓰시오.",
+      "context": "그는 매우 용감해서 그 아이들을 구했다.",
+      "conditions": [
+        "완전한 한 문장으로 쓸 것",
+        "과거시제로 쓸 것",
+        "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+        "단어 수는 띄어쓰기 기준으로 센다",
+        "답안에는 지정된 순서의 단어만 쓸 것 (문장 전체를 쓰지 말 것)"
+      ],
+      "given_words": [
+        "so",
+        "brave",
+        "that",
+        "save"
+      ],
+      "word_limit": "10단어 이하",
+      "target_grammar": "L6 so ~ that (SO_SUCH_TOO_ENOUGH)",
+      "answer_en": "2번째: was\n7번째: saved\n(완성 문장: He was so brave that he saved the children.)",
+      "why_ko": "「so+형용사+that+주어+동사」 구문을 과거시제로 쓴다. 총 9단어로 10단어 이하 조건을 만족한다. [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "2번째 단어: ________",
+        "7번째 단어: ________"
+      ],
+      "revised_from": {
+        "prompt_ko": "주어진 단어를 모두 사용하여 <조건>에 맞는 한 문장을 쓰시오.",
+        "context": "그는 매우 용감해서 그 아이들을 구했다.",
+        "conditions": [
+          "완전한 한 문장으로 쓸 것",
+          "과거시제로 쓸 것",
+          "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것"
+        ],
+        "given_words": [
+          "so",
+          "brave",
+          "that",
+          "save"
+        ],
+        "word_limit": "10단어 이하",
+        "answer_en": "He was so brave that he saved the children."
+      }
+    },
+    {
+      "no": 22,
+      "material_id": "P2",
+      "points": 5,
+      "prompt_ko": "P2의 내용에 맞게 다음 질문에 <조건>대로 답하시오.",
+      "context": "Q: What did the writer's grandparents use to do in the past?\nA: ____________________",
+      "conditions": [
+        "P2에 나온 단어만 사용할 것",
+        "They로 시작하는 완전한 문장으로 쓸 것",
+        "used to를 반드시 포함할 것",
+        "알맞은 전치사를 반드시 포함할 것",
+        "정확히 7단어로 쓸 것"
+      ],
+      "given_words": [],
+      "word_limit": "정확히 7단어",
+      "target_grammar": "L5 used to 계열 (VERB_USED_TO)",
+      "answer_en": "They used to work on the farm.",
+      "why_ko": "P2에서 조부모는 예전에 농장에서 일했다고 했다. '농장에서 일하다'는 work on the farm으로 전치사 on을 쓰며, They used to work on the farm.은 정확히 7단어이다. (앞 단어 수를 셀 때 They/used/to/work/on/the/farm)"
+    },
+    {
+      "no": 23,
+      "material_id": "T11",
+      "points": 5,
+      "prompt_ko": "T11의 ①~⑤ 중 어법상 틀린 문장 2개를 골라 기호를 쓰고, 틀린 부분을 바르게 고쳐 쓰시오.",
+      "context": "",
+      "conditions": [
+        "틀린 부분만 「틀린 말 → 고친 말」로 쓸 것 (문장 전체를 다시 쓰지 말 것)",
+        "한 문장에서 한 군데만 고칠 것"
+      ],
+      "given_words": [],
+      "word_limit": "",
+      "target_grammar": "L5 REL_OBJECT·VERB_USED_TO / L6 PERCEPTION_VERB_OC·SO_SUCH_TOO_ENOUGH",
+      "answer_en": "(a) ② to cross → cross (crossing 도 정답)\n(b) ④ such → so",
+      "why_ko": "②는 지각동사 see의 목적격보어로 to부정사를 쓸 수 없으므로 cross(또는 crossing)로 고친다. ④는 뒤에 형용사 interesting만 있으므로 such가 아니라 so를 써야 한다. [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "(a) 기호 ___ : ______ → ______",
+        "(b) 기호 ___ : ______ → ______"
+      ],
+      "revised_from": {
+        "prompt_ko": "T11의 ①~⑤ 중 어법상 틀린 문장 2개를 골라 기호를 쓰고, 틀린 부분을 고쳐 문장 전체를 다시 쓰시오.",
+        "context": "(a) 기호: ______ → 고쳐 쓴 문장: ______________________\n(b) 기호: ______ → 고쳐 쓴 문장: ______________________",
+        "conditions": [
+          "기호와 고쳐 쓴 문장을 모두 쓸 것",
+          "문장 전체를 다시 쓸 것",
+          "틀린 부분 외의 다른 표현은 바꾸지 말 것"
+        ],
+        "given_words": [],
+        "word_limit": "제한 없음",
+        "answer_en": "(a) ② → We saw the children cross the street safely.\n(b) ④ → The book was so interesting that I finished it in one day."
+      }
+    }
+  ],
+  "diagnostics": {
+    "problems": [
+      "모델이 응답에서 자료 P1·P2·P3·P4·P5 를 빼먹어 원본으로 채워 넣음"
+    ],
+    "warnings": [
+      "서술형 19번 필수 단어가 답에 안 보임 ['see'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 18,
+    "n_essays": 5,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 8502,
+    "output": 22953,
+    "usd": 0.618
+  }
+}

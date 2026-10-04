@@ -17,6 +17,7 @@ import html
 import io
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -52,10 +53,10 @@ h1 { font-size: 14pt; margin: 0 0 0.5mm; }
           margin-bottom: 1.2mm; }
 .mat p { margin: 0 0 1.2mm; }
 .q { break-inside: avoid; margin-bottom: 2.6mm; }
-.q .stem { display: flex; gap: 1.5mm; align-items: baseline; font-weight: 600;
+.q .stem, .essay .stem { display: flex; gap: 1.5mm; align-items: baseline; font-weight: 600;
            font-size: 8.5pt; }
-.q .no { flex: none; color: #1f2d3d; font-variant-numeric: tabular-nums; }
-.q .pts { flex: none; color: #8a94a6; font-size: 7.5pt; margin-left: auto;
+.q .no, .essay .no { flex: none; color: #1f2d3d; font-variant-numeric: tabular-nums; }
+.q .pts, .essay .pts { flex: none; color: #8a94a6; font-size: 7.5pt; margin-left: auto;
           white-space: nowrap; }
 .q .ref { color: #6b7a90; font-size: 7.5pt; font-weight: 400; }
 ol.opt { list-style: none; padding: 0; margin: 1mm 0 0 4mm; font-size: 8.5pt; }
@@ -64,13 +65,33 @@ ol.opt .c { flex: none; color: #55606e; }
 .ans { color: #1f7a4d; font-weight: 700; }
 .why { color: #667; font-size: 7.5pt; display: block; margin: 0.8mm 0 0 4mm; }
 .pt { font-size: 7pt; color: #6b7a90; background: #eef2f7; border-radius: 2px;
-      padding: 0.2mm 1.2mm; margin-right: 1.2mm; white-space: nowrap; }
+      padding: 0.2mm 1.2mm; margin-right: 1.2mm; overflow-wrap: anywhere; }
 /* 서술형 */
 .essay { break-inside: avoid; margin-bottom: 4mm; }
-.cond { border: 1px dashed #c9d2dd; border-radius: 3px; padding: 1.5mm 2.5mm;
-        margin: 1mm 0; font-size: 8pt; color: #445; background: #fcfdfe; }
-.cond b { color: #1f2d3d; }
-.write { border-bottom: 1px solid #ccd3dc; height: 6mm; margin-top: 1.5mm; }
+/* 서술형은 지시문 · 제시 내용 · 보기 · 조건을 각각 따로 줄을 세운다 (원장 2026-10-04
+   「조건이나 내용 줄 때 줄바뀜 잘 이뤄져서 읽기 편하게」). 한 줄에 「· 」로 이어
+   붙이면 아이가 세 번째 조건부터 놓친다. */
+.ctx { border: 1px solid #d5dce5; border-radius: 3px; padding: 1.5mm 2.5mm;
+       margin: 1.2mm 0 0 4mm; font-size: 8.5pt; line-height: 1.6; background: #fbfcfd; }
+.ctx p { margin: 0 0 0.6mm; }
+.words { margin: 1.2mm 0 0 4mm; font-size: 8.5pt; }
+.words .lab { font-weight: 700; color: #1f2d3d; margin-right: 1.5mm; }
+.words .w { display: inline-block; border: 1px solid #c9d2dd; border-radius: 2px;
+            padding: 0 1.5mm; margin: 0 1mm 0.8mm 0; background: #fff; }
+.cond { border: 1px dashed #c9d2dd; border-radius: 3px; padding: 1.2mm 2.5mm;
+        margin: 1.2mm 0 0 4mm; font-size: 8pt; color: #333; background: #fcfdfe; }
+.cond .lab { font-weight: 700; color: #1f2d3d; display: block; margin-bottom: 0.4mm; }
+.cond ul { list-style: none; margin: 0; padding: 0; }
+.cond li { padding: 0.2mm 0 0.2mm 3mm; text-indent: -3mm; }
+.cond li::before { content: "· "; color: #6b7a90; }
+.ctx p.a { padding-left: 4mm; }
+/* 채점형 답칸 (2026-10-04) — 줄글 대신 「3번째 단어: ____」 · 「(1) ____」 만 쓴다 */
+.slots { margin: 2mm 0 0 4mm; display: flex; flex-wrap: wrap; gap: 2.2mm 6mm;
+         font-size: 8.5pt; color: #333; }
+.slots span { white-space: nowrap; }
+.model { margin: 1.2mm 0 0 4mm; font-size: 8.5pt; }
+.model p { margin: 0 0 0.4mm; }
+.write { border-bottom: 1px solid #ccd3dc; height: 6mm; margin: 1.5mm 0 0 4mm; }
 h2 { font-size: 10.5pt; margin: 4mm 0 2mm; padding: 1mm 2mm; background: #eef2f7;
      border-left: 3px solid #1f2d3d; column-span: all; break-after: avoid; }
 .newpage { break-before: page; }
@@ -85,7 +106,104 @@ def esc(s):
 
 def mat_html(m):
     body = "".join(f"<p>{esc(ln)}</p>" for ln in m["text"].split("\n") if ln.strip())
-    return f'<div class="mat"><span class="t">{esc(m["id"])} · {esc(m["title"])}</span>{body}</div>'
+    t = m["title"]
+    t = t if t.startswith(m["id"]) else f'{m["id"]} · {t}'     # 「T9 · T9 · …」 중복 방지
+    return f'<div class="mat"><span class="t">{esc(t)}</span>{body}</div>'
+
+
+def essay_parts(e):
+    """서술형 한 문항을 (지시문, 제시 줄들, 조건들) 로 나눈다.
+
+    2026-10-04 부터 모델이 `context` · `conditions` 를 따로 낸다. 그 전 세트(영일·태장
+    1~5)는 `prompt_ko` 한 칸에 「…영작하시오.\\n우리말\\n<조건> · A · B · C」 를 몰아
+    넣었으므로, 그 꼴이면 여기서 쪼갠다 — 다시 뽑을 때 옛 세트도 같은 모양이 된다.
+    """
+    lines = [ln.strip() for ln in (e.get("prompt_ko") or "").split("\n") if ln.strip()]
+    stem, rest = (lines[0], lines[1:]) if lines else ("", [])
+    conds = [c.strip() for c in e.get("conditions") or [] if c.strip()]
+    # 「…쓰시오. 【조건 1】 A 【조건 2】 B」 — 지시문 한 줄에 붙은 조건 (영일중1 2026-09)
+    if "【조건" in stem:
+        stem, tail = stem.split("【조건", 1)
+        conds += [re.sub(r"^\s*\d+\s*】", "", c).strip()
+                  for c in ("【조건" + tail).split("【조건") if c.strip()]
+        stem = stem.strip()
+    # 제시 상자 안에 「1) … 2) …」 로 섞여 들어온 조건은 조건 상자로 옮긴다 (영일중1 3세트)
+    ctx = []
+    for ln in (e.get("context") or "").split("\n"):
+        ln = ln.strip()
+        if re.match(r"^\d\)\s", ln):
+            conds.append(ln[2:].strip())
+        elif ln:
+            ctx.append(ln)
+    for ln in rest:
+        if "<조건>" in ln or "[조건]" in ln:
+            head, body = re.split(r"<조건>|\[조건\]", ln, maxsplit=1)
+            if head.strip():
+                ctx.append(head.strip())
+            conds += split_conds(body)
+        elif re.match(r"^\d\)\s", ln):
+            conds.append(ln[2:].strip())
+        elif ln.strip() not in ("<조건>", "[조건]"):
+            ctx.append(ln)
+    conds = [CIRCLED_LEAD.sub("", c).strip() for c in conds]
+    return stem, ctx, conds
+
+
+CIRCLED_LEAD = re.compile(r"^[①②③④⑤⑥⑦⑧⑨]\s*")
+
+
+def split_conds(body):
+    """「① A ② B」 또는 「· A · B」. 괄호 안의 · (예: 진행형·to부정사)는 자르지 않는다."""
+    if re.search(r"[①②③④⑤⑥⑦⑧⑨]", body):
+        parts = re.split(r"\s*[①②③④⑤⑥⑦⑧⑨]\s*", body)
+    else:
+        parts, depth, cur = [], 0, ""
+        for ch in body:
+            depth += ch in "(（「" and 1 or 0
+            depth -= ch in ")）」" and 1 or 0
+            if ch == "·" and depth <= 0:
+                parts.append(cur); cur = ""
+            else:
+                cur += ch
+        parts.append(cur)
+    return [c.strip(" ·") for c in parts if c.strip(" ·")]
+
+
+def essay_html(e, ans):
+    stem, ctx, conds = essay_parts(e)
+    out = [f'<div class="essay"><div class="stem"><span class="no">{e["no"]}.</span>'
+           f'<span>{esc(stem)}</span><span class="pts">{e["points"]}점</span></div>']
+    qa = any("Q:" in c for c in ctx)
+    if ctx:
+        out.append('<div class="ctx">' + "".join(
+            # 「Q: … / A: …」 문답일 때만 A 를 들여 쓴다 — 대화문(A:/B:)까지 들여 쓰면 어긋나 보인다
+            f'<p class="{"a" if c.startswith("A:") and qa else ""}">{esc(c)}</p>' for c in ctx) + "</div>")
+    words = [w for w in e.get("given_words", []) if w.strip()]
+    if words and not (len(words) == 1 and words[0].startswith("(")):
+        out.append('<div class="words"><span class="lab">[보기]</span>'
+                   + "".join(f'<span class="w">{esc(w)}</span>' for w in words) + "</div>")
+    elif words:                              # 「(P1의 단어만 사용)」 같은 안내 문구 — 조건으로
+        conds.append(words[0].strip("()"))
+    wl = (e.get("word_limit") or "").strip()
+    if wl and wl != "제한 없음" and not any(wl.replace(" 단어", "") in c for c in conds):
+        # 숫자가 없으면 단어 수가 아니라 답 쓰는 꼴 안내다 (중1 논술 4 「틀린 것 → 고친 것」 형태)
+        conds.append(f"단어 수: {wl}" if any(ch.isdigit() for ch in wl) else wl)
+    if conds:
+        out.append('<div class="cond"><span class="lab">&lt;조건&gt;</span><ul>'
+                   + "".join(f"<li>{esc(c)}</li>" for c in conds) + "</ul></div>")
+    if ans:
+        model = "".join(f"<p>{esc(ln)}</p>" for ln in e["answer_en"].split("\n") if ln.strip())
+        out.append(f'<div class="model ans">{model}</div>'
+                   f'<span class="why"><span class="pt">{esc(e.get("target_grammar", ""))}</span>'
+                   f'{esc(e["why_ko"])}</span>')
+    elif e.get("answer_slots"):
+        out.append('<div class="slots">' + "".join(
+            f"<span>{esc(x)}</span>" for x in e["answer_slots"]) + "</div>")
+    else:
+        n = 4 if "\n" in e.get("answer_en", "") or "(a)" in e.get("answer_en", "") else 2
+        out.append('<div class="write"></div>' * n)
+    out.append("</div>")
+    return "".join(out)
 
 
 def build(d, logo, part="both", title=None):
@@ -156,28 +274,13 @@ def build(d, logo, part="both", title=None):
             body.append('<h2>서술형</h2><div class="cols">')
             for e in d["essays"]:
                 mid = e.get("material_id")
+                # 자료와 그 문항을 한 덩어리로 묶어 쪽이 갈리지 않게 한다 — 표는 4쪽, 문항은 5쪽으로
+                # 갈라져 나왔다 (영덕중1 5세트 20번, 2026-10-04)
+                head_mat = ""
                 if not ans and mid in mats and mid not in shown:
-                    body.append(mat_html(mats[mid]))
+                    head_mat = mat_html(mats[mid])
                     shown.add(mid)
-                words = ", ".join(e.get("given_words", []))
-                cond = []
-                if words:
-                    cond.append(f"<b>주어진 단어</b> {esc(words)}")
-                if e.get("word_limit"):
-                    cond.append(f"<b>단어 수</b> {esc(e['word_limit'])}")
-                cond_html = (f'<div class="cond">{" · ".join(cond)}</div>'
-                             if cond else "")
-                tail = (f'<span class="why"><span class="pt">'
-                        f'{esc(e.get("target_grammar", ""))}</span>'
-                        f'<b class="ans">{esc(e["answer_en"])}</b> · '
-                        f'{esc(e["why_ko"])}</span>' if ans
-                        else '<div class="write"></div><div class="write"></div>')
-                body.append(
-                    f'<div class="essay"><div class="stem">'
-                    f'<span class="no">{e["no"]}.</span>'
-                    f'<span>{esc(e["prompt_ko"])}</span>'
-                    f'<span class="pts">{e["points"]}점</span></div>'
-                    f'{cond_html}{tail}</div>')
+                body.append('<div style="break-inside: avoid">' + head_mat + essay_html(e, ans) + "</div>")
             body.append("</div>")
         return head + prob + "".join(body) + "</div>"
 

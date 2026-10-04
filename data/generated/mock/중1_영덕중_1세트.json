@@ -1,6 +1,7 @@
 {
   "school": "영덕중",
   "set_no": 1,
+  "range": "5",
   "spec": {
     "students": null,
     "exam_date": "2026-12 (2학기 기말)",
@@ -446,32 +447,71 @@
       "no": 1,
       "material_id": "T10",
       "points": 4,
-      "prompt_ko": "[T10]의 대화를 읽고, 다음 질문에 완전한 영어 문장으로 답하시오. 답은 (1)(2)(3)으로 구분하여 쓰시오.\n(1) Where do Tom and Mina get off? → 주어는 대명사로 쓰고, get off와 「at ~ Station」의 전치사를 그대로 쓸 것.\n(2) What will Mina do after she sees the Monalisa? → 접속사 after가 이끄는 시간 부사절을 한 번 포함할 것(시제 주의).\n(3) What does Mina want to be? → want와 grow up을 각각 한 번씩 사용할 것.",
-      "given_words": [
-        "get off",
-        "at",
-        "after",
-        "want",
-        "grow up"
-      ],
-      "word_limit": "각 문장 5단어 이상, 완전한 문장",
+      "prompt_ko": "[T10]의 대화를 읽고, 질문에 대한 답이 되도록 빈칸에 알맞은 말을 쓰시오.",
+      "given_words": [],
+      "word_limit": "",
       "target_grammar": "시간 부사절(when/after) + want to + 전치사 at(get off at ~ Station)",
-      "answer_en": "(1) They get off at Central Station. (2) She will draw a picture of it after she sees the Monalisa. (3) She wants to be a painter when she grows up.",
-      "why_ko": "(1) get off at ~ Station의 전치사 at을 그대로 써야 한다. (2)(3) 시간 부사절에서는 현재시제로 미래를 나타내며, 3인칭 단수 주어에 맞춰 sees/grows로 쓴다."
+      "answer_en": "(1) at Central Station\n(2) she sees\n(3) when she grows up",
+      "why_ko": "(1) get off at ~ Station의 전치사 at을 그대로 써야 한다. (2)(3) 시간 부사절에서는 현재시제로 미래를 나타내며, 3인칭 단수 주어에 맞춰 sees/grows로 쓴다. [채점형 수정 2026-10-04]",
+      "context": "(1) Q: Where do Tom and Mina get off?\n    A: They get off ______________.\n(2) Q: What will Mina do after she sees the Monalisa?\n    A: She will draw a picture of it after ______________ the Monalisa.\n(3) Q: What does Mina want to be?\n    A: She wants to be a painter ______________.",
+      "conditions": [
+        "빈칸 단어 수: (1) 3단어 · (2) 2단어 · (3) 4단어",
+        "주어는 대명사로 쓸 것",
+        "시간을 나타내는 말(after, when) 뒤의 시제에 주의할 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________",
+        "(3) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "[T10]의 대화를 읽고, 다음 질문에 완전한 영어 문장으로 답하시오. 답은 (1)(2)(3)으로 구분하여 쓰시오.\n(1) Where do Tom and Mina get off? → 주어는 대명사로 쓰고, get off와 「at ~ Station」의 전치사를 그대로 쓸 것.\n(2) What will Mina do after she sees the Monalisa? → 접속사 after가 이끄는 시간 부사절을 한 번 포함할 것(시제 주의).\n(3) What does Mina want to be? → want와 grow up을 각각 한 번씩 사용할 것.",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "get off",
+          "at",
+          "after",
+          "want",
+          "grow up"
+        ],
+        "word_limit": "각 문장 5단어 이상, 완전한 문장",
+        "answer_en": "(1) They get off at Central Station. (2) She will draw a picture of it after she sees the Monalisa. (3) She wants to be a painter when she grows up."
+      }
     },
     {
       "no": 2,
       "material_id": "T5",
       "points": 4,
-      "prompt_ko": "[T5]를 읽고 다음 두 질문에 본문의 표현을 그대로 사용하여 완전한 문장으로 답하시오. (be in charge of, creates sound effects 표현을 반드시 사용할 것)\n(1) What is a Foley artist in charge of?\n(2) What does a Foley artist create with simple things?",
+      "prompt_ko": "[T5]를 읽고, 질문에 대한 답이 되도록 빈칸에 본문의 표현을 써서 완성하시오.",
       "given_words": [
         "be in charge of",
         "create sound effects"
       ],
-      "word_limit": "각 문장 완전한 문장(본문 표현 사용)",
+      "word_limit": "",
       "target_grammar": "본문 표현 그대로 쓰기 (be in charge of / creates sound effects)",
-      "answer_en": "(1) A Foley artist is in charge of the sounds in a movie. (2) A Foley artist creates sound effects with simple things.",
-      "why_ko": "본문 두 번째 문장과 네 번째 문장의 표현을 주어에 맞춰 그대로 옮겨 쓰면 된다."
+      "answer_en": "(1) in charge of\n(2) creates sound effects",
+      "why_ko": "본문 두 번째 문장과 네 번째 문장의 표현을 주어에 맞춰 그대로 옮겨 쓰면 된다. [채점형 수정 2026-10-04]",
+      "context": "(1) Q: What is a Foley artist in charge of?\n    A: A Foley artist is ______________ the sounds in a movie.\n(2) Q: What does a Foley artist create with simple things?\n    A: A Foley artist ______________ with simple things.",
+      "conditions": [
+        "빈칸 단어 수: (1) 3단어 · (2) 3단어",
+        "주어에 맞게 동사의 형태를 바꿀 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "[T5]를 읽고 다음 두 질문에 본문의 표현을 그대로 사용하여 완전한 문장으로 답하시오. (be in charge of, creates sound effects 표현을 반드시 사용할 것)\n(1) What is a Foley artist in charge of?\n(2) What does a Foley artist create with simple things?",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "be in charge of",
+          "create sound effects"
+        ],
+        "word_limit": "각 문장 완전한 문장(본문 표현 사용)",
+        "answer_en": "(1) A Foley artist is in charge of the sounds in a movie. (2) A Foley artist creates sound effects with simple things."
+      }
     },
     {
       "no": 3,

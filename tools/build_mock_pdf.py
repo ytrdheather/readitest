@@ -19,6 +19,7 @@ import glob
 import io
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -38,6 +39,18 @@ except Exception:
 MOCK = os.path.join(ROOT, "data", "generated", "mock")
 OUT = os.path.join(ROOT, "result", "readitude")
 GRADE = "2"      # 동형은 중2 5·6과 대비
+
+
+def school_lessons(files, prefix):
+    """같은 학교·학년 세트 파일 전부에서 실은 교과서 지문(P)의 과 번호를 모은다."""
+    out = set()
+    for g in files:
+        if os.path.basename(g).rsplit("_", 1)[0] != prefix:
+            continue
+        for m in json.load(io.open(g, encoding="utf-8"))["materials"]:
+            if m["id"].startswith("P"):
+                out.update(int(x) for x in re.findall(r"L(\d)", m["title"]))
+    return sorted(out)
 
 
 def main():
@@ -61,11 +74,25 @@ def main():
             d = json.load(io.open(f, encoding="utf-8"))
             # 학년은 파일명 접두어 '중1_' 로 안다 (make_mock_exam --grade 1). 없으면 중2.
             grade = "1" if os.path.basename(f).startswith("중1_") else GRADE
-            lesson = " 5과" if grade == "1" else ""      # 중1 5과 단독 세트 (5·6과 혼합은 다음 주 — 원장 2026-09-21)
+            # 중1 은 과를 이름에 붙인다 — 실제로 실은 지문(P)의 과에서 읽는다. 「5과」 를 박아 두었더니
+            # 5·6·7과 혼합인 영일중1 세트가 「5과」 로 나갔다 (2026-10-04).
+            # 세트마다 실은 과가 달라도(영일중1 3세트는 L5·L7 만) 시험 범위는 같으니 학교 전체로 모은다.
+            # 세트 파일에 범위(`range`, make_mock_exam 이 남김)가 있으면 그것이 이긴다 — 영덕중1 은
+            # 5과 단독(1~3)과 5·6과 합본(4~6)이 한 학교에 같이 있다.
+            lessons = ([int(c) for c in d["range"]] if d.get("range")
+                       else school_lessons(files, os.path.basename(f).rsplit("_", 1)[0]))
+            lesson = (" " + "·".join(map(str, lessons)) + "과") if grade == "1" and lessons else ""
             base = f"{d['school']}{grade}{lesson} 동형모의고사 {d['set_no']}세트"
             # 줄바꿈·고쳐쓰기는 parse() 가 원본으로 덮어써 이미 해결된 기록이다
+            # 구조가 깨진 세트(문항 수·배점이 설계와 다름)는 종이로 내보내지 않는다 —
+            # 영일중1 2세트(출력이 끊겨 1문항)가 PDF 로 나갈 뻔했다 (2026-10-04).
+            if any(k in p for p in d["diagnostics"]["problems"]
+                   for k in ("선택형 ", "서술형 ", "배점 합계")) and                     (len(d["items"]) != d["spec"]["selective"] or
+                     len(d["essays"]) != d["spec"].get("essay", 0)):
+                print(f"  {base}  ✖ 건너뜀 — 구조가 깨졌다 (선택 {len(d['items'])} · 서술 {len(d['essays'])}). 재생성 필요")
+                continue
             bad = [p for p in d["diagnostics"]["problems"]
-                   if "줄바꿈" not in p and "고쳐 썼다" not in p]
+                   if "줄바꿈" not in p and "고쳐 썼다" not in p and "채워 넣음" not in p]
             for part, suffix in [("worksheet", ""), ("answers", " 정답지")]:
                 html = os.path.join(tmp, f"{base}{suffix}.html")
                 pdf = os.path.join(a.out, f"{base}{suffix}.pdf")

@@ -1,6 +1,7 @@
 {
   "school": "영덕중",
   "set_no": 2,
+  "range": "5",
   "spec": {
     "students": null,
     "exam_date": "2026-12 (2학기 기말)",
@@ -444,32 +445,70 @@
       "no": 1,
       "material_id": "T7",
       "points": 4,
-      "prompt_ko": "[논술형 1] T7의 인터뷰를 읽고, 다음 질문에 〈조건〉에 맞게 영어로 답하시오. (각 문장은 대명사 주어로 시작할 것)\n(1) How will Minji go to the City Art Center? — 전치사를 포함하여 5단어로 쓸 것\n(2) Where will she get off? — 전치사 at을 사용하여 7단어의 완전한 문장으로 쓸 것\n(3) What does Minji want to be in the future? — want와 grow up을 각각 한 번씩 사용하고, when이 이끄는 시간 부사절을 포함하여 11단어로 쓸 것",
-      "given_words": [
-        "by",
-        "at",
-        "want",
-        "grow up",
-        "when"
-      ],
-      "word_limit": "(1) 5단어 (2) 7단어 (3) 11단어",
+      "prompt_ko": "[논술형 1] T7의 인터뷰를 읽고, 질문에 대한 답이 되도록 빈칸에 알맞은 말을 쓰시오.",
+      "given_words": [],
+      "word_limit": "",
       "target_grammar": "시간 부사절(when)의 현재시제 + want to + 전치사 by/at",
-      "answer_en": "(1) She will go by subway. (2) She will get off at Central Station. (3) She wants to be a sound designer when she grows up.",
-      "why_ko": "(1) 교통수단은 by subway, (2) ‘~역에서 내리다’는 get off at ~ Station의 굳어진 결합을 쓴다. (3) 시간 부사절에서는 미래의 일도 현재시제로 쓰므로 will grow가 아니라 grows up으로 쓴다."
+      "answer_en": "(1) by subway\n(2) at Central Station\n(3) when she grows up",
+      "why_ko": "(1) 교통수단은 by subway, (2) ‘~역에서 내리다’는 get off at ~ Station의 굳어진 결합을 쓴다. (3) 시간 부사절에서는 미래의 일도 현재시제로 쓰므로 will grow가 아니라 grows up으로 쓴다. [채점형 수정 2026-10-04]",
+      "context": "(1) Q: How will Minji go to the City Art Center?\n    A: She will go there ______________.\n(2) Q: Where will she get off?\n    A: She will get off ______________.\n(3) Q: What does Minji want to be in the future?\n    A: She wants to be a sound designer ______________.",
+      "conditions": [
+        "빈칸 단어 수: (1) 2단어 · (2) 3단어 · (3) 4단어",
+        "알맞은 전치사를 포함할 것",
+        "(3)은 when 이 이끄는 시간 부사절로 쓰고 시제에 주의할 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________",
+        "(3) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "[논술형 1] T7의 인터뷰를 읽고, 다음 질문에 〈조건〉에 맞게 영어로 답하시오. (각 문장은 대명사 주어로 시작할 것)\n(1) How will Minji go to the City Art Center? — 전치사를 포함하여 5단어로 쓸 것\n(2) Where will she get off? — 전치사 at을 사용하여 7단어의 완전한 문장으로 쓸 것\n(3) What does Minji want to be in the future? — want와 grow up을 각각 한 번씩 사용하고, when이 이끄는 시간 부사절을 포함하여 11단어로 쓸 것",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "by",
+          "at",
+          "want",
+          "grow up",
+          "when"
+        ],
+        "word_limit": "(1) 5단어 (2) 7단어 (3) 11단어",
+        "answer_en": "(1) She will go by subway. (2) She will get off at Central Station. (3) She wants to be a sound designer when she grows up."
+      }
     },
     {
       "no": 2,
       "material_id": "T1",
       "points": 4,
-      "prompt_ko": "[논술형 2] T1을 읽고 다음 두 질문에 본문의 표현을 그대로 사용하여 완전한 영어 문장으로 답하시오. (각 2점)\n(1) What is a Foley artist in charge of?\n(2) What do Foley artists create sound effects with?",
+      "prompt_ko": "[논술형 2] T1을 읽고, 질문에 대한 답이 되도록 빈칸에 본문의 표현을 써서 완성하시오. (각 2점)",
       "given_words": [
         "be in charge of",
         "create sound effects"
       ],
-      "word_limit": "각각 완전한 문장 1개",
+      "word_limit": "",
       "target_grammar": "본문 표현 be in charge of / create sound effects with",
-      "answer_en": "(1) A Foley artist is in charge of all the sounds in a film. (2) They create sound effects with simple things around them.",
-      "why_ko": "본문의 be in charge of all the sounds in a film과 create sound effects with simple things around them을 그대로 활용하여 완전한 문장으로 답한다."
+      "answer_en": "(1) in charge of\n(2) create sound effects",
+      "why_ko": "본문의 be in charge of all the sounds in a film과 create sound effects with simple things around them을 그대로 활용하여 완전한 문장으로 답한다. [채점형 수정 2026-10-04]",
+      "context": "(1) Q: What is a Foley artist in charge of?\n    A: A Foley artist is a person who is ______________ all the sounds in a film.\n(2) Q: What do Foley artists create sound effects with?\n    A: Foley artists ______________ with simple things around them.",
+      "conditions": [
+        "빈칸 단어 수: (1) 3단어 · (2) 3단어"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "[논술형 2] T1을 읽고 다음 두 질문에 본문의 표현을 그대로 사용하여 완전한 영어 문장으로 답하시오. (각 2점)\n(1) What is a Foley artist in charge of?\n(2) What do Foley artists create sound effects with?",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "be in charge of",
+          "create sound effects"
+        ],
+        "word_limit": "각각 완전한 문장 1개",
+        "answer_en": "(1) A Foley artist is in charge of all the sounds in a film. (2) They create sound effects with simple things around them."
+      }
     },
     {
       "no": 3,

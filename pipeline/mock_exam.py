@@ -73,7 +73,34 @@ SYSTEM = """당신은 중학교 2학년 영어 내신 시험지를 만듭니다.
 ## 서술형 문항
 
 설계도의 `essay_blueprint` 를 그대로 따르십시오. 필수 어휘·단어 수·노리는 어법이
-지정돼 있으면 **문항 지시문에 그 조건을 명시**하고, `answer_en` 에 모범 답을 씁니다.
+지정돼 있으면 **조건으로 명시**하고, `answer_en` 에 모범 답을 씁니다.
+
+### 서술형은 칸을 나눠 담으십시오 — 한 줄에 몰아 쓰면 아이가 조건을 놓칩니다
+
+  prompt_ko    **지시문 한 문장만.** 예: 「다음 우리말을 <조건>에 맞게 영작하시오.」
+               조건·우리말 문장·대화를 여기에 붙이지 마십시오.
+  context      지시문 아래 상자에 들어갈 **제시 내용** — 우리말 문장, 빈칸 대화, 본문 질문(Q:),
+               단문 나열의 경우 「① … ② …」 안내 등. **줄마다 줄바꿈 문자로 끊으십시오**
+               (대화는 발화 하나에 한 줄). 없으면 빈 문자열.
+  conditions   **조건 하나에 항목 하나.** 「· 」 나 번호를 앞에 붙이지 마십시오 — 렌더러가 붙입니다.
+               주어진 단어 목록과 단어 수는 `given_words` · `word_limit` 에만 쓰고 여기서 다시 나열하지 마십시오.
+               (「주어진 단어를 모두 쓰되 필요하면 형태를 바꿀 것」 같은 **사용 규칙**은 여기에 씁니다.)
+  answer_slots 학생이 답을 쓰는 칸. 예: ["3번째 단어: ________", "6번째 단어: ________"]
+               · ["(1) ______________", "(2) ______________"]
+  answer_en    모범 답. 칸마다 한 줄 — **줄바꿈 문자로 나누십시오.**
+
+### 서술형 답은 채점하기 쉬워야 합니다 — 칸 하나에 **몇 단어**, 길어야 한 줄
+
+원장 지시 2026-10-04: 「줄줄이 줄글을 쓰게 하면 채점이 너무 힘들다」. 학생이 완전한 문장을
+여러 개 쓰게 하지 마십시오. 다음 셋 중 하나로 내십시오.
+
+  영작              문장은 머릿속으로 완성하게 하고 **「○번째·○번째 단어를 쓰시오」**.
+                    위치는 **노리는 어법이 걸린 단어**(관계대명사 · 과거형 · 목적보어 형태 ·
+                    be동사 시제)로 고르고, 다른 정답 문장이 있어도 그 위치의 단어가 바뀌지 않게
+                    고르십시오. 「단어 수는 띄어쓰기 기준」 · 「줄임말은 한 단어」 를 조건에 넣고,
+                    answer_en 끝 줄에 「(완성 문장: …)」 을 적으십시오.
+  본문 질문에 답하기 문장 틀을 context 에 주고 **빈칸 2~4단어**만 쓰게 하십시오.
+  틀린 곳 고쳐 쓰기  문장 전체가 아니라 **「기호 / 틀린 말 → 고친 말」**.
 
 ## 문항 지시문은 우리말입니다
 
@@ -156,13 +183,17 @@ def schema(n_sel, n_essay):
                         "material_id": {"type": "string"},
                         "points": {"type": "number"},
                         "prompt_ko": {"type": "string"},
+                        "context": {"type": "string"},
+                        "conditions": {"type": "array", "items": {"type": "string"}},
+                        "answer_slots": {"type": "array", "items": {"type": "string"}},
                         "given_words": {"type": "array", "items": {"type": "string"}},
                         "word_limit": {"type": "string"},
                         "target_grammar": {"type": "string"},
                         "answer_en": {"type": "string"},
                         "why_ko": {"type": "string"},
                     },
-                    "required": ["no", "points", "prompt_ko", "given_words",
+                    "required": ["no", "points", "prompt_ko", "context", "conditions", "answer_slots",
+                                 "given_words",
                                  "word_limit", "target_grammar", "answer_en", "why_ko"],
                     "additionalProperties": False,
                 },
@@ -284,7 +315,10 @@ def build_params(school, spec, common, materials, points_hint, set_no, hard=Fals
     # 두 번 다 `Unterminated string`로 실패). 고난도만 48000 으로 올린다.
     return {
         "model": PASS_A_MODEL,
-        "max_tokens": 48000 if hard else 32000,
+        # 서술형 5문항(영덕 4~6세트 · 2026-10-04)은 단문 나열 자료까지 새로 써서 길다.
+        # 2026-10-04: 영일중1 2세트(일반·서술 4)도 32000 에서 끊겨 1문항만 남았었다. 상한일 뿐
+        # 쓴 만큼만 과금되므로 전부 48000 으로 둔다.
+        "max_tokens": 48000,
         "system": [{"type": "text", "text": SYSTEM,
                     "cache_control": {"type": "ephemeral"}}],
         "messages": [{"role": "user", "content": user}],
@@ -379,12 +413,33 @@ def parse(raw, spec, given, source_mats=None):
     # 그래서 확실히 틀린 것만 problems 에 넣고 나머지는 warnings 로 뺀다.
     warnings = []
     for e in essays:
+        # 채점형 검사 (2026-10-04) — 칸 하나의 답이 7단어를 넘으면 줄글이다.
+        # 「(1) … (2) …」 를 한 줄에 쓴 옛 답도 칸별로 끊어 센다 (중1 논술 3·4 오탐)
+        for ln in re.split(r"\n|(?=\(\d\))", e.get("answer_en", "")):
+            if ln.strip().startswith("(완성 문장"):
+                continue
+            body = re.sub(r"^\s*\(\w\)|\([^)]*(정답|또는)[^)]*\)", "", ln)
+            body = body.split("→")[-1]            # 「틀린 것 → 고친 것」 은 고친 쪽만 센다
+            if len(re.findall(r"[A-Za-z][A-Za-z'’-]*", body)) > 7:
+                problems.append(f"서술형 {e.get('no')}번 답 한 칸이 7단어를 넘음 — 채점형 아님: {ln.strip()[:40]}")
+                break
         ans_en = e.get("answer_en", "")
-        if re.search(r"\(\s*[abAB]\s*\)", ans_en):
+        if "(완성 문장" in ans_en:
+            ans_en = ans_en.split("(완성 문장:", 1)[1].strip().rstrip(")")   # 단어 수는 완성 문장으로 센다
+        # (1)(2) 칸으로 나뉜 답도 — 「빈칸마다 2~4단어」 를 답 전체로 세면 오탐이다 (영덕중1 4~6세트).
+        # 칸별 길이는 위의 채점형 검사(한 칸 7단어)가 본다.
+        if re.search(r"\(\s*[abAB1-9]\s*\)", ans_en):
             continue                      # 나뉜 답은 통으로 못 센다 — (A)(B) 대문자도 (2026-09-17 오탐)
         n = len(re.findall(r"[A-Za-z][A-Za-z'’-]*", ans_en))
         m = re.search(r"(\d+)\s*[~-]\s*(\d+)", e.get("word_limit", ""))
         if m and not int(m.group(1)) <= n <= int(m.group(2)):
+            problems.append(f"서술형 {e.get('no')}번 모범답이 {n}단어 "
+                            f"(조건 {e.get('word_limit')})")
+        # 「정확히 7단어」 · 「9단어 이하」 도 센다 — 범위만 보다가 영덕 5세트 22번
+        # (조건 7단어 · 답 6단어)을 놓쳤다 (2026-10-04).
+        ex = re.search(r"정확히\s*(\d+)", e.get("word_limit", ""))
+        le = re.search(r"(\d+)\s*단어\s*이하", e.get("word_limit", ""))
+        if (ex and n != int(ex.group(1))) or (le and n > int(le.group(1))):
             problems.append(f"서술형 {e.get('no')}번 모범답이 {n}단어 "
                             f"(조건 {e.get('word_limit')})")
         low = ans_en.lower()

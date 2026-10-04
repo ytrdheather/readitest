@@ -49,6 +49,10 @@ Supabase SQL Editor의 경고는 정상 동작이므로 근거를 보여주고 �
 
 1. **쪽수는 아래 가운데 `n / N`** — PDF 를 내는 코드는 `tools/pdf_pages.save_pdf()` 를 거친다.
    `writer.write()` 를 직접 부르지 않는다. `@page` 바닥 여백 12mm 이상.
+3. **서술형은 지시문·제시 내용·보기·조건을 줄을 나눠 찍는다** — 조건은 한 줄에 하나.
+   스키마가 `prompt_ko`/`context`/`conditions[]` 로 칸을 나누고 `render_mock_exam.essay_html()` 이 찍는다.
+4. **서술형 답은 칸 하나에 몇 단어** — 영작은 「○번째 단어」, 질문 답은 빈칸 2~4단어, 고쳐 쓰기는
+   「틀린 말 → 고친 말」. `mock_exam.parse()` 가 한 칸 7단어 초과를 막는다.
 
 ## 작업 스타일
 

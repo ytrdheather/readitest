@@ -1,0 +1,687 @@
+{
+  "school": "영덕중",
+  "set_no": 4,
+  "spec": {
+    "students": 8,
+    "exam_date": "2026-10-07",
+    "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+    "total_points": 100,
+    "selective": 18,
+    "essay": 5,
+    "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+    "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+    "signature": [
+      "어순 배열 2문항 10점 (T-WORD-ORDER · 문항 4·20)",
+      "본문을 캠페인 포스터·광고 문구로 형식 전환 (문항 17·18)",
+      "본문 어휘를 창작 지문에 심음 (문항 9 My Money Plan)"
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "form_choice": 1,
+    "standalone": 1,
+    "standalone_points": 4,
+    "external_passages": [
+      "Yu Gwansun",
+      "Homer B. Hulbert"
+    ],
+    "essay_points": 25,
+    "essay_rule": "세 학교 서술형 그릇을 섞는다 — 영일형(노리는 어법 지정 + 단어 수 범위) 2 · 태장형(주어진 단어 세트 전부 포함 + 단어 수 상한) 2 · 청명형(단문 나열 5문장 중 틀린 것 찾아 고쳐 쓰기) 1",
+    "essay_blueprint": [
+      {
+        "그릇": "영일형",
+        "필수어휘": "지정 (원형으로 주고 형태를 바꾸게)",
+        "단어수": "9~11",
+        "노리는 어법": "L5 목적격 관계대명사"
+      },
+      {
+        "그릇": "영일형",
+        "필수어휘": "지정",
+        "단어수": "6~8",
+        "노리는 어법": "L6 지각동사+목적보어",
+        "추가 조건": "제시문의 3단어 이상 연속 표현 사용 금지"
+      },
+      {
+        "그릇": "태장형",
+        "조건": "완전한 한 문장 · 시제 변형 · 주어진 단어 전부 포함",
+        "단어수": "10단어 이하",
+        "노리는 어법": "L6 so ~ that"
+      },
+      {
+        "그릇": "태장형",
+        "조건": "본문 단어만 사용해 본문 질문에 답하기 · 전치사 자리 포함",
+        "단어수": "정확히 N단어",
+        "노리는 어법": "L5 used to 계열"
+      },
+      {
+        "그릇": "청명형",
+        "조건": "T-WRITE-FIX — 서로 무관한 문장 5개(standalone_set 자료로 새로 씀) 중 어법상 틀린 문장 2개를 골라 기호를 쓰고 바르게 고쳐 쓰기",
+        "단어수": "제한 없음",
+        "노리는 어법": "L5·L6 네 포인트 혼합"
+      }
+    ]
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L6 본문",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 대화 ④⑤⑥",
+      "text": "B: Excuse me. I’m going to the National Art Museum. What’s the best way to get there?\nG: You can walk. Go straight for about 500 meters and turn left. It’ll be on your right.\nB: I see. How long will it take?\nG: Only about 15 minutes.\nB: Really? Thanks.\nG: Excuse me, how can I get to the Dream Zoo?\nB: You can take the subway.\nG: I see. How long will it take?\nB: I think it’ll take about 30 minutes.\nB: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "외부지문 — Yu Gwansun",
+      "text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "외부지문 — Homer B. Hulbert",
+      "text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries."
+    },
+    {
+      "id": "T1",
+      "kind": "dialogue_set",
+      "title": "T1 · 짧은 대화 [1]~[5]",
+      "text": "[1] A: Excuse me, how can I get to the City Library?\nB: You can take the subway. ①Get off at Central Station.\nA: Thank you very much.\n\n[2] A: Is this the bike ②that you used to ride in elementary school?\nB: Yes. I rode it almost every day.\n\n[3] A: Who is the man ③whom you met him at the bus stop?\nB: He's my uncle. He works near here.\n\n[4] A: What's the best way to get to the history museum?\nB: ④There used to be a free shuttle bus, but now you have to walk.\n\n[5] A: Did you enjoy the movie?\nB: Yes. It was the movie ⑤which my sister recommended to me last week."
+    },
+    {
+      "id": "T2",
+      "kind": "dialogue_set",
+      "title": "T2 · 짧은 대화 [1]~[5]",
+      "text": "[1] A: What kinds of music do you usually listen to?\nB: I like jazz. ①I love hearing a saxophone play live.\n\n[2] A: Why didn't you answer my call?\nB: Sorry. The music was ②so loud that I didn't hear my phone.\n\n[3] A: Can you recommend a good restaurant near here?\nB: Try Mina's Kitchen. The soup there is ③so delicious that you'll order it twice.\n\n[4] A: What happened outside a minute ago?\nB: I saw two cars ④to crash into each other.\n\n[5] A: How was the school concert?\nB: It was ⑤such a great show that I bought a ticket for the next one."
+    },
+    {
+      "id": "T3",
+      "kind": "dialogue_set",
+      "title": "T3 · 대화",
+      "text": "A: What kinds of books do you usually read?\nB: I usually read mystery novels.\nA: Then, ________________?\nB: How about The Hound of the Baskervilles? I think it's the best one."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "T4 · My History Club Plan",
+      "text": "Our history club has a special plan for this spring. First, each member will write a short article about a foreigner who helped the Korean independence movement. My partner Minsu used to think that only Koreans fought for independence, but he changed his mind after our first meeting. Second, we will visit Seoul National Cemetery on April 12 and leave flowers where Dr. Schofield was buried. We sent an invitation to the first-year students, and twelve of them said yes. Finally, we will make a small photo book. Our teacher said our last book was so useful that the school library kept two copies of it. I am a little nervous, but I believe this plan will teach us something that no textbook can give us."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "T5 · 교사 자작 단락",
+      "text": "Last summer I visited a small town museum ①which my grandfather used to work at. A guide showed us an old camera ②that a foreign doctor used to take pictures of the March 1st Movement. The room was ③so dark that I could hardly read the small labels on the wall. Suddenly I heard a girl behind me ④to cry quietly. Her great-grandmother was ⑤such a brave woman that her story is still in our history textbooks."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "T6 · (A)(B)(C) 어형 고르기",
+      "text": "Last week our class read the article (A)[what / that] Homer B. Hulbert wrote for a foreign newspaper. He praised Hangeul (B)[so / such] warmly that we felt proud of our writing system. In the short video, we also watched him (C)[talk / to talk] about Korea's independence in front of many people."
+    },
+    {
+      "id": "T7",
+      "kind": "standalone_set",
+      "title": "T7 · 단문 나열",
+      "text": "① The song that I listened to yesterday was really beautiful.\n② My father used to playing baseball when he was young.\n③ I felt someone touch my shoulder in the dark room.\n④ The box was so heavy that I couldn't move it alone.\n⑤ She showed me the pictures which she took in Jeju."
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "T8 · 캠페인 포스터",
+      "text": "WALK THE ROAD OF 1919\nA History Walking Campaign for Students\n\nWhen: Saturday, March 1, 10 a.m. - 1 p.m.\nWhere: Starting point - Tapgol Park (Get off at Jongno 3-ga Station, Exit 1)\n\nWhat you will do:\n- Walk the 3 km road that students marched along in 1919\n- Listen to a guide tell the stories of Dr. Schofield and Yu Gwansun\n- Take pictures and write one short article for our school newspaper\n\nBring: comfortable shoes and a water bottle\nCost: Free (The first 50 students will get a small badge.)\n\n____________________________________\n\nSign up at the school library by February 25."
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "T9 · 단문 나열 (서술형용)",
+      "text": "① The book that I read last night was so exciting that I finished it in two hours.\n② We used to going to the beach every summer.\n③ I watched my brother played the guitar on the stage.\n④ This is the song which the band sang at the festival.\n⑤ The tea was so hot that I couldn't drink it."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P1에서 찾을 수 있는 것은?\n\n: a piece of writing about a particular subject in a newspaper or magazine",
+      "options": [
+        "article",
+        "invitation",
+        "movement",
+        "medicine",
+        "cemetery"
+      ],
+      "answer": 1,
+      "why_ko": "신문·잡지에 실리는 특정 주제의 글은 article(기사)이다. P1에서 Schofield 박사가 외국 신문에 보낸 글을 가리킨다.",
+      "grammar_point": "VOCAB"
+    },
+    {
+      "no": 2,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P1의 내용과 일치하는 것은?",
+      "options": [
+        "그는 1916년에 한국어를 가르치기 위해 처음 한국에 왔다.",
+        "그는 자신의 영어 이름을 한국 이름보다 더 좋아했다.",
+        "그는 3·1 운동 이후로는 한국에 관한 글을 더 이상 쓰지 않았다.",
+        "그는 1958년 한국 정부의 초청으로 한국에 돌아온 뒤 다시 떠나지 않았다.",
+        "그는 캐나다에서 생을 마치고 그곳에 묻혔다."
+      ],
+      "answer": 4,
+      "why_ko": "P1에 1958년 한국 정부의 초청으로 돌아와 다시 떠나지 않았다고 나온다. 1916년에 온 목적은 의학을 가르치기 위함이었고, 그는 한국 이름을 사랑했으며, 3·1 운동 이후에도 계속 글을 썼고, 서울현충원에 묻혔다.",
+      "grammar_point": "DETAIL"
+    },
+    {
+      "no": 3,
+      "material_id": "P1",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P1의 He was under the watchful eye of the Japanese police가 의미하는 바로 가장 알맞은 것은?",
+      "options": [
+        "일본 경찰이 그를 계속 감시하고 있었다.",
+        "일본 경찰이 그의 사진 기술을 높이 평가했다.",
+        "그가 일본 경찰에게 치료를 해 주고 있었다.",
+        "그가 일본 경찰의 보호를 받으며 안전하게 지냈다.",
+        "그가 일본 경찰의 눈을 피해 한국어를 가르쳤다."
+      ],
+      "answer": 1,
+      "why_ko": "under the watchful eye of ~는 '~의 감시를 받는'이라는 뜻으로, 그래서 그는 1920년에 캐나다로 돌아가야 했다.",
+      "grammar_point": "INFER"
+    },
+    {
+      "no": 4,
+      "material_id": "T1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "다음 우리말과 뜻이 같도록 [that / my grandmother / used / to / sing]을 모두 바르게 배열한 것은?\n\n이것은 내 할머니께서 즐겨 부르시던 노래이다.",
+      "options": [
+        "This is the song that my grandmother used to sing.",
+        "This is the song that my grandmother used to singing.",
+        "This is the song what my grandmother used to sing.",
+        "This is the song that my grandmother was used to sing.",
+        "This is the song my grandmother used sing to that."
+      ],
+      "answer": 1,
+      "why_ko": "sing의 목적어 자리가 빈 목적격 관계대명사 that + '~하곤 했다'의 used to + 동사원형 구조가 맞다.",
+      "grammar_point": "REL_OBJECT / VERB_USED_TO"
+    },
+    {
+      "no": 5,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T1의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "목적격 관계대명사 whom이 이미 met의 목적어 역할을 하므로 him을 또 쓸 수 없다. whom you met at the bus stop이 맞다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 6,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P3의 대화 내용과 일치하지 않는 것은?",
+      "options": [
+        "국립미술관까지는 걸어서 약 15분이 걸린다.",
+        "국립미술관에 가려면 약 500미터 직진한 뒤 좌회전해야 한다.",
+        "Dream Zoo까지는 지하철로 약 30분이 걸린다.",
+        "Seoul Museum에는 버스나 지하철로 갈 수 있다.",
+        "소년은 더 빠른 지하철을 타기로 했다."
+      ],
+      "answer": 5,
+      "why_ko": "마지막 대화에서 소녀가 버스가 더 빠르다고 했고 소년은 버스를 타겠다고 했다.",
+      "grammar_point": "DETAIL"
+    },
+    {
+      "no": 7,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T2의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "지각동사 see는 목적격보어로 동사원형이나 현재분사를 쓴다. saw two cars crash(crashing)가 맞다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 8,
+      "material_id": "T3",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T3의 빈칸에 들어갈 말로 알맞지 않은 것은?",
+      "options": [
+        "can you recommend a good mystery novel for me",
+        "could you recommend a mystery novel to me",
+        "what mystery novel do you recommend",
+        "do you have any mystery novels to recommend",
+        "where did you buy that mystery novel"
+      ],
+      "answer": 5,
+      "why_ko": "빈칸 뒤에서 B가 'How about ~? I think it's the best.'라며 책을 추천하므로, 빈칸에는 추천을 부탁하는 말이 와야 한다. ⑤는 구입 장소를 묻는 말이라 어울리지 않는다.",
+      "grammar_point": "FUNCTION_RECOMMEND"
+    },
+    {
+      "no": 9,
+      "material_id": "T4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T4의 내용과 일치하지 않는 것은?",
+      "options": [
+        "동아리 회원들은 각자 짧은 기사를 한 편씩 쓸 것이다.",
+        "민수는 예전에 한국인들만 독립을 위해 싸웠다고 생각했다.",
+        "4월 12일에 국립서울현충원을 방문할 예정이다.",
+        "1학년 학생들 중 열두 명이 초대에 응했다.",
+        "학교 도서관은 동아리의 지난번 책을 한 권만 보관했다."
+      ],
+      "answer": 5,
+      "why_ko": "지난번 책이 매우 유용해서 학교 도서관이 두 권을 보관했다고 했다.",
+      "grammar_point": "DETAIL"
+    },
+    {
+      "no": 10,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "T5의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "hear는 지각동사이므로 목적격보어로 to부정사를 쓸 수 없다. heard a girl cry(crying)가 맞다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 11,
+      "material_id": "T6",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T6의 (A), (B), (C) 괄호 안에서 어법상 알맞은 것끼리 바르게 짝지은 것은?",
+      "options": [
+        "what – so – talk",
+        "what – such – to talk",
+        "that – so – talk",
+        "that – such – talk",
+        "that – so – to talk"
+      ],
+      "answer": 3,
+      "why_ko": "(A) 선행사 the article이 있으므로 what이 아니라 목적격 관계대명사 that, (B) 뒤에 형용사/부사 warmly가 오므로 so ~ that, (C) 지각동사 watched의 목적격보어는 동사원형 talk.",
+      "grammar_point": "REL_OBJECT / SO_SUCH / PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 12,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T7의 ①~⑤ 중 어법상 틀린 문장은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "'~하곤 했다'는 used to + 동사원형이므로 used to play가 맞다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 13,
+      "material_id": "P5",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P5에서 찾을 수 있는 것은?\n\n: to say good things about someone or something because you admire them",
+      "options": [
+        "praise",
+        "promote",
+        "notice",
+        "remind",
+        "control"
+      ],
+      "answer": 1,
+      "why_ko": "칭찬하여 좋게 말하는 것은 praise이다. P5에서 Hulbert가 한글을 칭찬하고 깊이 연구했다고 했다.",
+      "grammar_point": "VOCAB"
+    },
+    {
+      "no": 14,
+      "material_id": "P5",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "P5의 내용과 일치하는 것은?",
+      "options": [
+        "그는 다른 서양인들과 달리 한글을 칭찬하고 깊이 연구했다.",
+        "그는 한글이 논리적이지만 배우기 어렵다고 생각했다.",
+        "그는 한국을 떠난 뒤에는 독립운동을 돕지 않았다.",
+        "일본이 한국을 지배하기 시작하자 그는 침묵을 지켰다.",
+        "그는 말년에 미국으로 돌아가 1949년에 그곳에서 세상을 떠났다."
+      ],
+      "answer": 1,
+      "why_ko": "많은 서양인들이 한글에 관심이 없었지만 Hulbert는 한글을 칭찬하고 깊이 연구했다고 했다. 한글은 논리적이고 배우기 쉽다고 보았고, 떠난 뒤에도 독립운동을 도왔으며, 침묵하지 않았고, 서울에서 1949년에 사망했다.",
+      "grammar_point": "DETAIL"
+    },
+    {
+      "no": 15,
+      "material_id": "P4",
+      "type": "T-PHRASE-INFER",
+      "points": 4,
+      "stem_ko": "P4의 Her love wasn't loud or forceful but was full of kindness and care.가 의미하는 바로 가장 알맞은 것은?",
+      "options": [
+        "그녀의 사랑은 요란하거나 강압적이지 않고 따뜻한 마음에서 나온 것이었다.",
+        "그녀는 사람들 앞에서 큰 소리로 연설하는 것을 가장 좋아했다.",
+        "그녀는 친구들에게 자신의 생각을 강하게 밀어붙였다.",
+        "그녀는 자신의 감정을 아무에게도 드러내지 않았다.",
+        "그녀는 힘이 약해서 아무 일도 할 수 없었다."
+      ],
+      "answer": 1,
+      "why_ko": "loud or forceful(요란하고 강압적인)이 아니라 kindness and care(친절과 배려)로 가득했다는 뜻이다.",
+      "grammar_point": "INFER"
+    },
+    {
+      "no": 16,
+      "material_id": "P1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "다음 우리말과 뜻이 같도록 [such / a surprising story / that / I / told]를 모두 바르게 배열한 것은?\n\n그것은 매우 놀라운 이야기여서 나는 그것을 내 친구들에게 말했다.",
+      "options": [
+        "It was such a surprising story that I told it to my friends.",
+        "It was so a surprising story that I told it to my friends.",
+        "It was such surprising a story that I told it to my friends.",
+        "It was a such surprising story that I told it to my friends.",
+        "It was such surprising story that I told it to my friends."
+      ],
+      "answer": 1,
+      "why_ko": "'매우 ~한 명사여서 …하다'는 such + a(n) + 형용사 + 명사 + that ~ 어순이다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 17,
+      "material_id": "T8",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "T8 포스터의 빈칸에 들어갈 문구로 가장 알맞은 것은?",
+      "options": [
+        "History is not only in books. Walk it with us!",
+        "Bring your ticket and enjoy the movie with us!",
+        "Buy a Korean history book at our school store today!",
+        "Call the museum and book a private guide for your family!",
+        "Send your old family photos to the school newspaper by March!"
+      ],
+      "answer": 1,
+      "why_ko": "1919년의 길을 직접 걷는 역사 걷기 캠페인이므로 '역사는 책 속에만 있지 않다, 함께 걷자'는 문구가 알맞다.",
+      "grammar_point": "BLANK"
+    },
+    {
+      "no": 18,
+      "material_id": "T8",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "T8 포스터의 내용과 일치하지 않는 것은?",
+      "options": [
+        "캠페인은 3월 1일 토요일 오전 10시에 시작한다.",
+        "출발 장소는 탑골공원이며 종로3가역에서 내리면 된다.",
+        "참가자들은 1919년에 학생들이 행진한 3km 길을 걷는다.",
+        "참가비는 무료이며 참가자 전원이 배지를 받는다.",
+        "신청은 2월 25일까지 학교 도서관에서 한다."
+      ],
+      "answer": 4,
+      "why_ko": "참가비는 무료이지만 배지는 선착순 50명에게만 준다고 했다.",
+      "grammar_point": "DETAIL"
+    }
+  ],
+  "essays": [
+    {
+      "no": 19,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "다음 우리말을 <조건>에 맞게 영작할 때, 3번째·6번째·7번째 단어를 쓰시오.",
+      "context": "Schofield 박사가 쓴 그 기사는 전 세계를 놀라게 했다.",
+      "conditions": [
+        "목적격 관계대명사 that(또는 which)을 반드시 사용할 것",
+        "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+        "과거시제로 쓸 것",
+        "Dr. Schofield 는 두 단어로 센다",
+        "단어 수는 띄어쓰기 기준으로 센다",
+        "답안에는 지정된 순서의 단어만 쓸 것 (문장 전체를 쓰지 말 것)"
+      ],
+      "given_words": [
+        "article",
+        "write",
+        "surprise",
+        "world"
+      ],
+      "word_limit": "9~11 단어",
+      "target_grammar": "REL_OBJECT (목적격 관계대명사)",
+      "answer_en": "3번째: that (which 도 정답)\n6번째: wrote\n7번째: surprised\n(완성 문장: The article that Dr. Schofield wrote surprised the (whole) world.)",
+      "why_ko": "wrote의 목적어 자리가 비어 있으므로 목적격 관계대명사 that/which로 연결하고, 주어는 The article, 동사는 surprised로 과거형을 쓴다. (9~10 단어) [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "3번째 단어: ________",
+        "6번째 단어: ________",
+        "7번째 단어: ________"
+      ],
+      "revised_from": {
+        "prompt_ko": "다음 우리말을 <조건>에 맞게 영작하시오.",
+        "context": "Schofield 박사가 쓴 그 기사는 전 세계를 놀라게 했다.",
+        "conditions": [
+          "목적격 관계대명사 that(또는 which)을 반드시 사용할 것",
+          "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+          "과거시제로 쓸 것"
+        ],
+        "given_words": [
+          "article",
+          "write",
+          "surprise",
+          "world"
+        ],
+        "word_limit": "9~11 단어",
+        "answer_en": "The article that Dr. Schofield wrote surprised the whole world."
+      }
+    },
+    {
+      "no": 20,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "다음 우리말을 <조건>에 맞게 영작할 때, 2번째·5번째 단어를 쓰시오.",
+      "context": "우리는 한 소년이 운동장에서 노래하고 있는 것을 보았다.",
+      "conditions": [
+        "지각동사와 목적격보어를 사용할 것 (진행 중인 동작을 살릴 것)",
+        "P1에 나온 표현을 세 단어 이상 연속으로 그대로 쓰지 말 것",
+        "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것",
+        "단어 수는 띄어쓰기 기준으로 센다",
+        "답안에는 지정된 순서의 단어만 쓸 것 (문장 전체를 쓰지 말 것)"
+      ],
+      "given_words": [
+        "see",
+        "boy",
+        "sing",
+        "playground"
+      ],
+      "word_limit": "6~8 단어",
+      "target_grammar": "PERCEPTION_VERB_OC (지각동사 + 목적격보어)",
+      "answer_en": "2번째: saw\n5번째: singing\n(완성 문장: We saw a boy singing in the playground.)",
+      "why_ko": "지각동사 saw의 목적격보어로 현재분사 singing(또는 동사원형 sing)을 쓴다. P1의 'heard people shouting for' 같은 연속 표현은 쓰지 않는다. (8 단어) [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "2번째 단어: ________",
+        "5번째 단어: ________"
+      ],
+      "revised_from": {
+        "prompt_ko": "다음 우리말을 <조건>에 맞게 영작하시오.",
+        "context": "우리는 한 소년이 운동장에서 노래하고 있는 것을 보았다.",
+        "conditions": [
+          "지각동사와 목적격보어를 사용할 것",
+          "P1에 나온 표현을 세 단어 이상 연속으로 그대로 쓰지 말 것",
+          "주어진 단어를 모두 사용하되 필요하면 형태를 바꿀 것"
+        ],
+        "given_words": [
+          "see",
+          "boy",
+          "sing",
+          "playground"
+        ],
+        "word_limit": "6~8 단어",
+        "answer_en": "We saw a boy singing in the playground."
+      }
+    },
+    {
+      "no": 21,
+      "points": 5,
+      "prompt_ko": "주어진 단어를 모두 사용하여 <조건>에 맞는 한 문장을 만들 때, 3번째·8번째 단어를 쓰시오.",
+      "context": "그 시험은 너무 어려워서 나는 많은 실수를 했다.",
+      "conditions": [
+        "완전한 한 문장으로 쓸 것",
+        "주어진 단어를 모두 사용하되 시제에 맞게 형태를 바꿀 것",
+        "단어를 추가하거나 빼지 말 것",
+        "단어 수는 띄어쓰기 기준으로 센다",
+        "답안에는 지정된 순서의 단어만 쓸 것 (문장 전체를 쓰지 말 것)"
+      ],
+      "given_words": [
+        "the test",
+        "be",
+        "so",
+        "difficult",
+        "that",
+        "I",
+        "make",
+        "many mistakes"
+      ],
+      "word_limit": "10단어 이하",
+      "target_grammar": "SO_SUCH_TOO_ENOUGH (so ~ that)",
+      "answer_en": "3번째: was\n8번째: made\n(완성 문장: The test was so difficult that I made many mistakes.)",
+      "why_ko": "'너무 ~해서 …하다'는 so + 형용사 + that + 주어 + 동사로 쓰고, 과거의 일이므로 be → was, make → made로 바꾼다. (10 단어) [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "3번째 단어: ________",
+        "8번째 단어: ________"
+      ],
+      "revised_from": {
+        "prompt_ko": "주어진 단어를 모두 사용하여 <조건>에 맞는 한 문장을 쓰시오.",
+        "context": "그 시험은 너무 어려워서 나는 많은 실수를 했다.",
+        "conditions": [
+          "완전한 한 문장으로 쓸 것",
+          "주어진 단어를 모두 사용하되 시제에 맞게 형태를 바꿀 것",
+          "단어를 추가하거나 빼지 말 것"
+        ],
+        "given_words": [
+          "the test",
+          "be",
+          "so",
+          "difficult",
+          "that",
+          "I",
+          "make",
+          "many mistakes"
+        ],
+        "word_limit": "10단어 이하",
+        "answer_en": "The test was so difficult that I made many mistakes."
+      }
+    },
+    {
+      "no": 22,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "P1과 P3의 내용에 맞게 다음 질문에 대한 답을 완성하시오.",
+      "context": "(a) Q: What did Dr. Schofield do in Korea in 1916?\n    A: He ______________ medicine in Korea.\n(b) Q: How can the girl get to the Dream Zoo?\n    A: She can get there ______________.",
+      "conditions": [
+        "(a)는 '~하곤 했다'의 뜻이 되도록 used to 를 사용하여 빈칸을 3단어로 쓸 것",
+        "(b)는 알맞은 전치사를 포함하여 빈칸을 2단어로 쓸 것",
+        "본문에 나온 단어만 사용할 것"
+      ],
+      "given_words": [],
+      "word_limit": "(a) 3단어 · (b) 2단어",
+      "target_grammar": "VERB_USED_TO (used to) + 전치사",
+      "answer_en": "(a) used to teach\n(b) by bus (by subway 도 정답)",
+      "why_ko": "(a) 1916년에 의학을 가르치러 왔으므로 used to + 동사원형 → used to teach. (b) 교통수단 앞에는 관사 없이 by. 대화에서 소녀는 결국 버스를 타기로 하고 본문은 \"by bus or by subway\" 둘 다 제시하므로 by bus · by subway 모두 정답. [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "(a) ______________",
+        "(b) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "P1과 P3의 내용에 맞게 다음 질문에 <조건>대로 답하시오.",
+        "context": "(a) Q: What did Dr. Schofield do in Korea in 1916?\n(b) Q: How can the girl get to the Dream Zoo?",
+        "conditions": [
+          "(a)는 '~하곤 했다'의 뜻이 되도록 used to를 사용하여 정확히 7단어로 쓸 것",
+          "(b)는 알맞은 전치사를 포함하여 정확히 6단어로 쓸 것",
+          "본문에 나온 단어만 사용할 것"
+        ],
+        "given_words": [
+          "use",
+          "teach",
+          "medicine",
+          "get",
+          "subway"
+        ],
+        "word_limit": "(a) 정확히 7단어 / (b) 정확히 6단어",
+        "answer_en": "(a) He used to teach medicine in Korea.\n(b) She can get there by bus. (by subway 도 정답)"
+      }
+    },
+    {
+      "no": 23,
+      "material_id": "T9",
+      "points": 5,
+      "prompt_ko": "T9의 ①~⑤ 중 어법상 틀린 문장 2개를 골라 기호를 쓰고, 틀린 부분을 바르게 고쳐 쓰시오.",
+      "context": "",
+      "conditions": [
+        "틀린 부분만 「틀린 말 → 고친 말」로 쓸 것 (문장 전체를 다시 쓰지 말 것)",
+        "한 문장에서 한 군데만 고칠 것"
+      ],
+      "given_words": [],
+      "word_limit": "",
+      "target_grammar": "VERB_USED_TO / PERCEPTION_VERB_OC",
+      "answer_en": "(a) ② going → go\n(b) ③ played → play (playing 도 정답)",
+      "why_ko": "② '~하곤 했다'는 used to + 동사원형이므로 going → go. ③ 지각동사 watched의 목적격보어는 동사원형이나 현재분사이므로 played → play(playing). [채점형 수정 2026-10-04]",
+      "answer_slots": [
+        "(a) 기호 ___ : ______ → ______",
+        "(b) 기호 ___ : ______ → ______"
+      ],
+      "revised_from": {
+        "prompt_ko": "T9의 ①~⑤ 중 어법상 틀린 문장 2개를 골라 기호를 쓰고, 틀린 부분을 고쳐 문장 전체를 다시 쓰시오.",
+        "context": "",
+        "conditions": [
+          "틀린 문장의 기호를 먼저 쓸 것",
+          "한 문장에서 한 군데만 고칠 것",
+          "문장 전체를 다시 쓸 것"
+        ],
+        "given_words": [],
+        "word_limit": "제한 없음",
+        "answer_en": "(a) ② → We used to go to the beach every summer.\n(b) ③ → I watched my brother play(playing) the guitar on the stage."
+      }
+    }
+  ],
+  "diagnostics": {
+    "problems": [
+      "모델이 응답에서 자료 P1·P3·P4·P5 를 빼먹어 원본으로 채워 넣음"
+    ],
+    "warnings": [
+      "서술형 19번 필수 단어가 답에 안 보임 ['write'] — 굴절형일 수 있으니 눈으로 확인",
+      "서술형 20번 필수 단어가 답에 안 보임 ['see'] — 굴절형일 수 있으니 눈으로 확인",
+      "서술형 21번 필수 단어가 답에 안 보임 ['be', 'make'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 18,
+    "n_essays": 5,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 7262,
+    "output": 24709,
+    "usd": 0.6748
+  }
+}

@@ -1,0 +1,585 @@
+{
+  "school": "영덕중",
+  "set_no": 4,
+  "range": "56",
+  "spec": {
+    "students": null,
+    "exam_date": "2026-12 (2학기 기말)",
+    "priority": "원장 2026-09-21: 「영덕 1학년 5과 동형문제가 급하다」",
+    "total_points": 100,
+    "selective": 17,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "교과서 본문·대화 그대로 + 어법 괄호 선택 / 단문 5지선다",
+    "vessel_note": "2025 기말: 본문 지문 3개(L5·L6·L7)를 그대로 싣고 각 2문항. 어법은 본문 안 (A)(B)(C) 괄호 선택 1문항(15번) + 밑줄 (A)~(E) 중 맞는 것 1문항(11번). 단문 나열은 논술형 4(틀린 것 3곳 고치기)에서.",
+    "signature": [
+      "1번은 **어휘 십자말** 5점 — 영영풀이 6개로 퍼즐을 채우고 ★ 철자를 조합해 나온 단어 고르기. 영덕 학습지 2쪽 형식 그대로",
+      "2번 **공통 빈칸 어휘** (인터넷 사전 화면 꾸밈) 3점",
+      "3번·12번 **문맥상 어색한 밑줄 어휘** — 본문 안 낱말을 바꿔치기 (throws→creates, slower→faster)",
+      "대화 **배열** (5번) + 단락 **배열** (7번) 각 5점",
+      "본문 **내용 일치 True/False 표** (10번) — 5행 체크박스",
+      "**답할 수 없는 질문** (13번) · 글의 목적 (16번) · 제목 (8번) · 내용 불일치 (9번)",
+      "논술형: ① 대화 읽고 조건 영작(대명사 주어·시간 부사절·want+grow up 각 1회) ② 본문 Q&A 2문항(be in charge of 표현) ③ 그림·표 보고 비교급·최상급 빈칸 3개(2단어·3단어·3단어 + of the three) ④ 대화에서 어법 틀린 3곳 찾아 고치기"
+    ],
+    "essay_rule": "채점형 — 질문 답하기는 문장 틀을 주고 빈칸 2~4단어, 고쳐 쓰기는 「틀린 것 → 고친 것」. 답 (1)(2)(3) 칸 표시.",
+    "essay_blueprint": [
+      {
+        "형식": "대화 읽고 질문에 답 — 문장 틀 + 빈칸 (1)(2)(3)",
+        "배점": 4,
+        "노리는 어법": "L6 to부정사 명사적 용법(want to / plan to) + 접속사 that (think that)",
+        "조건": "빈칸마다 2~4단어 · 대명사 주어"
+      },
+      {
+        "형식": "본문 Q&A 2문항 — 문장 틀 + 빈칸",
+        "배점": 4,
+        "노리는 어법": "본문 표현 그대로 (L5 또는 L6 본문)",
+        "조건": "빈칸마다 2~4단어 · 본문 표현 사용"
+      },
+      {
+        "형식": "그림·표 보고 빈칸 3개",
+        "배점": 6,
+        "노리는 어법": "L5 비교급 -er/more · 최상급 the -est of the three",
+        "조건": "(1) 2단어 (2) 3단어 (3) 3단어 · 비교급 2회 최상급 1회"
+      },
+      {
+        "형식": "대화에서 어법 틀린 3곳 찾아 고치기",
+        "배점": 6,
+        "노리는 어법": "L5 There was/were · must not/don't have to · L6 to부정사·that",
+        "조건": "틀린 것 → 고친 것 순서대로 (고친 쪽 4단어 이하)"
+      }
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "vocab_note": "1번 십자말(영영풀이 6개, 5점) + 2번 공통 빈칸(3점). 영영풀이 문장은 영덕 학습지의 것과 같다 (leftover · criminal · eyewitness · janitor · recycle 확인).",
+    "form_choice": 1,
+    "form_choice_note": "15번 — 본문 안 (A) to create/create (B) shooting/shoot (C) excited/exciting 조합 5지선다",
+    "standalone": 0,
+    "standalone_points": 0,
+    "points_pattern": "선택형 5점 12문항 + 4점 4문항 + 3점 1문항 = 79 … 실제 합 80 · 논술 4+4+6+6 = 20",
+    "external_passages": [],
+    "function_notes": [
+      "중1_L5.json",
+      "중1_L6.json"
+    ],
+    "passages_used_2025": [
+      "L5 본문 Who Threw a Cake (12~13)",
+      "L6 본문 Zero-Waste (10~11)",
+      "L7 본문 Let's Make a Movie (15~16 · 논술2)",
+      "L5 대화 A-1 (4번)",
+      "L7 대화 A-1 Jiho/Lucy (5번·논술1)",
+      "L7 대화 Minsu 기자 (14번)",
+      "교사 자작 단락 2개 (7번 학교 일과 · 8~9 스마트폰 설문)",
+      "L6 대화 (논술4 친구 위해 한 일 — 4형식·과거)"
+    ],
+    "range_2025_2": "L5 · L6 · L7 (7과까지). 2026 은 진도 확인 필요 — 원장: 영덕은 5과부터",
+    "range_2026_2": "L5 · L6 (원장 2026-10-04 「5·6과」로 결정)"
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문",
+      "text": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia. There were four eyewitnesses. What did they say? Read the following, and find the criminal. Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting. I turned around and saw an old man. He was standing in front of a wheelchair. I’m about 170 cm tall, and he was a little taller than me. Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head. It was his wig. I ran after him, but I couldn’t catch him. He was faster than me. In fact, the old man was not old. He was a young man with long brown hair. Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting. There was also a wheelchair near the painting, and I found a cake box next to the wheelchair. The box was from Camila’s Bakery. Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in. I spoke to him in Spanish, but he didn’t understand me. He spoke only English. We had a lot of different cakes, but he just wanted the smallest one. We sold only one cake that day, so I remember him clearly. Oh, he had blue eyes. Now, look at the information about the suspects. Who threw the cake at the Monalisa?"
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 본문",
+      "text": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker. Do you want to save the Earth? Then, join the zero-waste challenge, and share your stories. Challenge 01 Reduce Food Waste Olivia: My birthday was last Saturday, and my family and I ate out. There were lots of leftovers, but we brought them home. The next day, I made a nice lunch out of them. FYI, you can find great cooking ideas for leftovers on the Internet. Challenge 02 Reuse Domingo: My dog tore my bag. I wanted to buy a new one, but I thought again. I learned that reusing is important for zero-waste living. So, I decided to fix it and reuse it. I’m not very good at sewing, and I don’t think that the bag looks perfect. I guess it’s all right. Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t. Instead, I walked to my favorite restaurant with a reusable container and picked up the food. I heard that plastic never goes away completely. I didn’t use any single-use plastic today. I felt good! Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house. I put them into the machine one by one, and I got some points in return. What can I do with those points? Well, I can use them like money. Don’t you think that’s cool?"
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "L6 대화 ①②③",
+      "text": "W: Excuse me, but can you please close the door? The air conditioner is on.\nB: Oh, I didn’t know that. I’ll close it right away.\nW: Thanks.\nM: For here or to go?\nG: For here, please. And can you please put my smoothie in a plastic cup, not in a glass?\nM: I’m sorry, but we don’t use single-use plastic cups inside the café.\nG: Oh, I see.\nW: Look. Somebody forgot to turn off the water.\nB: Again? People are so forgetful.\nW: I know. Can you run over there and turn off the water?\nB: Sure. No problem."
+    },
+    {
+      "id": "T1",
+      "kind": "standalone_set",
+      "title": "어휘 십자말 퍼즐",
+      "text": "다음 영영풀이에 해당하는 낱말을 십자말판에 채우시오. 괄호 안은 그 낱말에서 ★에 해당하는 글자의 위치이다.\n1. a person who has committed a crime (★ 2번째 글자)\n2. a person who saw a crime or an accident happen (★ 1번째 글자)\n3. a person whose job is to watch over and protect a place (★ 5번째 글자)\n4. a person who the police think may have committed a crime (★ 2번째 글자)\n5. to treat used paper, glass, or plastic so that it can be used again (★ 3번째 글자)\n6. food that remains after a meal (★ 2번째 글자)"
+    },
+    {
+      "id": "T2",
+      "kind": "standalone_set",
+      "title": "인터넷 영어사전 검색 화면",
+      "text": "🔍 검색어: ________\n________ [weɪst]\n1. 〈명사〉 material that is no longer needed and is thrown away\n   · Every day, we produce lots of ________.\n2. 〈동사〉 to use more of something than you really need\n   · Don’t ________ water when you brush your teeth.\n3. 〈숙어〉 a ________ of time: 시간 낭비\n   · Waiting in that long line was a ________ of time."
+    },
+    {
+      "id": "T3",
+      "kind": "teacher_paragraph",
+      "title": "박물관 견학 안내",
+      "text": "Our class visited the City Art Museum last Friday. Before we went inside, the guide explained the rules. First, we ⓐmust not touching any of the paintings, because the oil on our hands can damage them. Second, we have to keep our voices low, but we ⓑdon’t have to be completely silent. Third, flash photos are not allowed, because strong light can make the colors of old paintings weaker. ⓒThere were many old paintings in the first room, and the oldest one was ⓓmore old than the museum building itself. Finally, the guide said ⓔthat food and drinks must stay outside."
+    },
+    {
+      "id": "T4",
+      "kind": "dialogue_set",
+      "title": "교실에서의 대화",
+      "text": "A: Minho, I need a favor. Can you please carry these boxes to the recycling room?\nB: ________________________ I hurt my arm yesterday.\nA: Oh, I’m sorry to hear that. I’ll ask Jiwon, then.\nB: Thanks. She is in the classroom now."
+    },
+    {
+      "id": "T5",
+      "kind": "dialogue_set",
+      "title": "로봇 전시실에서의 대화",
+      "text": "G: Excuse me. May I take a picture of this robot?\n(A) Then may I touch it? I just want to see how it moves.\n(B) No, you may not. You must not touch the robots in this room.\n(C) I’m sorry, but you may not. Photos are not allowed here.\n(D) OK, I understand. Thank you anyway."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "동아리 활동 이야기",
+      "text": "Last month, our club started a “no plastic” week.\n(A) On the first day, some of us forgot and bought drinks in plastic cups. We felt bad, so we made a rule: everyone must bring a reusable bottle.\n(B) The plan was simple. For seven days, we tried not to use any single-use plastic at school.\n(C) By Friday, our trash can was almost empty. We learned that small habits can change a lot."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "명화와 음식",
+      "text": "Why do people throw food at famous paintings?\nIn 2022, two young visitors threw tomato soup at a Van Gogh painting in London. A few months earlier, a man threw a cake at the Mona Lisa in Paris. People soon learned ①that strong glass protected both paintings, and the news traveled around the world in just a few hours.\nThe attackers were not thieves. Most of them were climate activists. They believed ②that a famous painting was the fastest way to get attention. One of them said, “Art is important, but our planet is more important.”\nMany people do not agree with them. They say ③that hurting art never helps the Earth. ④That is why museums now check visitors’ bags more carefully than before, and some of them do not allow any food inside. Many people hope ⑤that the debate will end soon, but it is still hot."
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "학교 벼룩시장",
+      "text": "Yesterday our school held a flea market. (A)There was many old books and toys on the tables. My plan was (B)sell my old comic books. Jinho told me (C)what the blue bike was cheaper than mine, but I didn’t believe him. A teacher said, “You (D)must not to shout here. It’s a rule.” Everyone bought something, so I think (E)that the market was a great success."
+    },
+    {
+      "id": "T9",
+      "kind": "teacher_paragraph",
+      "title": "Green Club 안내문",
+      "text": "Dear students,\nOur school’s Green Club is holding a “Second-Hand Day” next Friday in the gym. Bring the things you no longer use — books, clothes, toys, or sports gear — and trade them with your friends. Everything is free. You don’t have to pay anything.\nPlease remember two things. First, ________________________: broken or dirty items will be returned to you. Second, bring your own bag. We will not give out plastic bags that day.\nLast year more than two hundred students joined, and we saved three hundred kilograms of waste. Let’s make this year even better!\n— Green Club"
+    },
+    {
+      "id": "T10",
+      "kind": "teacher_paragraph",
+      "title": "우리 누나의 꿈",
+      "text": "My sister wants (A)[to become / becoming] a cook. Last winter there (B)[was / were] free cooking classes at the community center, and she joined one. The teacher said that her soup was (C)[better / best] than the others’, so now she practices every evening."
+    },
+    {
+      "id": "T11",
+      "kind": "dialogue_set",
+      "title": "주말 계획 대화",
+      "text": "A: Sumi, what are you going to do this weekend?\nB: I want to join the zero-waste challenge with my sister.\nA: Sounds great. What will you do first?\nB: We plan to make shopping bags out of old clothes.\nA: Will that be hard?\nB: My sister is good at sewing, so I think that it will be easy.\nA: Good luck!"
+    },
+    {
+      "id": "T12",
+      "kind": "standalone_set",
+      "title": "케이크 비교표",
+      "text": "             | Cake A  | Cake B  | Cake C\nPrice        | $10     | $15     | $20\nSize         | small   | medium  | large\nBaking time  | 30 min  | 50 min  | 70 min"
+    },
+    {
+      "id": "T13",
+      "kind": "dialogue_set",
+      "title": "미술관에 가는 날",
+      "text": "A: Mom, may I go to the art museum with Jiho tomorrow?\nB: Sure. But remember, you must not to touch anything there.\nA: I know. Last year there was many “Do Not Touch” signs on the walls.\nB: Right. Do you need money for a ticket?\nA: No. Students don’t have to pay. I hope to see the new paintings.\nB: Great. By the way, Jiho said what the museum closes at five.\nA: Really? Then we will leave right after lunch."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "T1",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 5,
+      "stem_ko": "[T1]의 영영풀이를 보고 십자말 퍼즐을 완성한 뒤, 각 낱말의 ★ 글자를 1~6번 순서대로 모아 만든 단어로 알맞은 것은?",
+      "options": [
+        "REDUCE",
+        "RECYCLE",
+        "REFUSE",
+        "REUSED",
+        "REPAIR"
+      ],
+      "answer": 1,
+      "why_ko": "1 criminal의 2번째 글자 R, 2 eyewitness의 1번째 글자 E, 3 guard의 5번째 글자 D, 4 suspect의 2번째 글자 U, 5 recycle의 3번째 글자 C, 6 leftover의 2번째 글자 E를 순서대로 모으면 REDUCE가 된다."
+    },
+    {
+      "no": 2,
+      "material_id": "T2",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 3,
+      "stem_ko": "[T2]의 사전 화면에서 빈칸에 공통으로 들어갈 말로 알맞은 것은?",
+      "options": [
+        "waste",
+        "trash",
+        "plastic",
+        "leftover",
+        "container"
+      ],
+      "answer": 1,
+      "why_ko": "'버려지는 물질(명사)', '필요 이상으로 쓰다(동사)', 'a waste of time(숙어)'의 세 가지 쓰임을 모두 만족시키는 낱말은 waste뿐이다. trash와 leftover는 동사 쓰임과 숙어가 맞지 않는다."
+    },
+    {
+      "no": 3,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T3]의 밑줄 친 ⓐ~ⓔ 중 어법상 옳은 것의 개수는?",
+      "options": [
+        "1개",
+        "2개",
+        "3개",
+        "4개",
+        "5개"
+      ],
+      "answer": 3,
+      "why_ko": "옳은 것은 ⓑ don’t have to(~할 필요 없다) · ⓒ There were + 복수(many old paintings) · ⓔ 접속사 that 의 3개. ⓐ 조동사 뒤에는 동사원형 → must not touch. ⓓ old 의 비교급은 older → more old 는 틀림. [유형 교체 2026-10-04 — 원래 「문맥상 어색한 낱말」]",
+      "revised_from": {
+        "type": "T-VOCAB-CONTEXT",
+        "stem_ko": "[T3]의 밑줄 친 ①~⑤ 중 문맥상 낱말의 쓰임이 어색한 것은?",
+        "options": [
+          "①",
+          "②",
+          "③",
+          "④",
+          "⑤"
+        ],
+        "answer": 4,
+        "why_ko": "플래시 사진을 금지하는 이유는 강한 빛이 오래된 그림의 색을 '흐리게(weaker/duller)' 만들기 때문이다. brighter는 금지의 이유와 맞지 않는다.",
+        "grammar_point": null,
+        "material_text": "Our class visited the City Art Museum last Friday. Before we went inside, the guide explained the rules. First, we ①must not touch any of the paintings, because the oil on our hands can ②damage them. Second, we have to keep our voices ③low, but we don’t have to be completely silent. Third, flash photos are not allowed, because the strong light makes the colors of old paintings ④brighter. Finally, food and drinks must stay outside the building. The rules sounded ⑤strict, but everyone followed them, and we had a great time."
+      },
+      "grammar_point": "VERB_MODAL_USAGE · MOD_COMPARATIVE · NOUN_CLAUSE_THAT"
+    },
+    {
+      "no": 4,
+      "material_id": "T4",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[T4]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "Sure. No problem.",
+        "Of course, I can.",
+        "I’m afraid, but I can’t.",
+        "Yes, you may.",
+        "Never mind. You don’t have to."
+      ],
+      "answer": 3,
+      "why_ko": "팔을 다쳤다는 이유를 덧붙이고 A가 다른 사람에게 부탁하겠다고 했으므로, 도움 요청을 거절하는 표현이 와야 한다. ④⑤는 허락·불필요를 나타내는 표현이라 부탁에 대한 대답으로 어색하다."
+    },
+    {
+      "no": 5,
+      "material_id": "T5",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "[T5]의 대화가 자연스럽게 이어지도록 (A)~(D)를 바르게 배열한 것은?",
+      "options": [
+        "(A)-(C)-(B)-(D)",
+        "(B)-(A)-(C)-(D)",
+        "(C)-(A)-(B)-(D)",
+        "(C)-(B)-(A)-(D)",
+        "(A)-(B)-(D)-(C)"
+      ],
+      "answer": 3,
+      "why_ko": "사진 촬영 허락 요청 → (C) 거절(사진 금지) → (A) 그럼 만져도 되는지 다시 허락 요청 → (B) 금지(만지면 안 됨) → (D) 수긍 순서가 자연스럽다."
+    },
+    {
+      "no": 6,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[P4]의 세 대화에 대한 설명으로 알맞은 것은?",
+      "options": [
+        "첫 번째 대화에서 소년은 에어컨이 켜져 있다는 것을 이미 알고 있었다.",
+        "첫 번째 대화에서 여자는 자신이 직접 문을 닫겠다고 말했다.",
+        "두 번째 대화에서 소녀는 음식을 포장해서 가지고 가기로 했다.",
+        "두 번째 대화에서 카페는 매장 안에서 일회용 플라스틱 컵을 쓰지 않는다.",
+        "세 번째 대화에서 소년은 물을 잠가 달라는 부탁을 거절했다."
+      ],
+      "answer": 4,
+      "why_ko": "두 번째 대화에서 점원은 매장 안에서는 일회용 플라스틱 컵을 사용하지 않는다고 말한다. 소년은 에어컨이 켜진 줄 몰랐고, 소녀는 For here(매장 내 취식)를 선택했으며, 세 번째 대화의 소년은 Sure. No problem.이라고 수락했다."
+    },
+    {
+      "no": 7,
+      "material_id": "T6",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "[T6]에서 주어진 문장 다음에 이어질 (A)~(C)의 순서로 가장 알맞은 것은?",
+      "options": [
+        "(A)-(C)-(B)",
+        "(B)-(C)-(A)",
+        "(C)-(A)-(B)",
+        "(B)-(A)-(C)",
+        "(C)-(B)-(A)"
+      ],
+      "answer": 4,
+      "why_ko": "활동을 시작했다는 도입 → (B) 계획 소개 → (A) 첫날의 실패와 새 규칙 → (C) 금요일의 결과와 깨달음 순서가 자연스럽다."
+    },
+    {
+      "no": 8,
+      "material_id": "T7",
+      "type": "T-TOPIC",
+      "points": 5,
+      "stem_ko": "[T7]의 제목으로 가장 알맞은 것은?",
+      "options": [
+        "The Mona Lisa’s Secret Smile",
+        "Why People Throw Food at Famous Paintings",
+        "How Museums Sell Famous Art",
+        "The Best Way to Clean an Oil Painting",
+        "Climate Activists Who Became Famous Artists"
+      ],
+      "answer": 2,
+      "why_ko": "글은 유명 그림에 음식을 던진 사건들과 그 이유(기후 문제에 대한 관심 끌기), 그리고 그에 대한 찬반을 다루고 있다."
+    },
+    {
+      "no": 9,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[P2]의 내용과 일치하지 않는 것은?",
+      "options": [
+        "Olivia의 가족은 외식 후 남은 음식을 집으로 가져왔다.",
+        "Olivia는 그다음 날 남은 음식으로 점심을 만들었다.",
+        "Emma는 오늘 음식 배달 서비스를 이용했다.",
+        "Minsu는 재활용 기계에 병을 하나씩 넣었다.",
+        "Minsu는 받은 포인트를 돈처럼 쓸 수 있다."
+      ],
+      "answer": 3,
+      "why_ko": "Emma는 평소에는 배달 서비스를 자주 이용하지만 오늘은 이용하지 않고(but today I didn’t) 다회용 용기를 들고 직접 식당에 걸어가 음식을 받아 왔다."
+    },
+    {
+      "no": 10,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "다음 (a)~(e)가 [P1]의 내용과 일치하면 T, 일치하지 않으면 F라고 할 때, 바르게 짝지어진 것은?\n(a) Carlos Diaz caught the running man.\n(b) Ann Jones saw an old man standing in front of a wheelchair.\n(c) Diego Perez saw pieces of cake all over the painting.\n(d) Camila Santos spoke to the young man in English.\n(e) The young man wanted the smallest cake in the bakery.",
+      "options": [
+        "T-T-T-F-T",
+        "F-F-T-F-T",
+        "F-T-T-F-T",
+        "F-T-F-T-F",
+        "T-F-T-F-T"
+      ],
+      "answer": 3,
+      "why_ko": "(a) Carlos는 쫓아갔지만 잡지 못했다(F). (b) Ann은 휠체어 앞에 서 있는 노인을 보았다(T). (c) 그림 전체에 케이크 조각이 있었다(T). (d) Camila는 스페인어로 말했고 그는 영어만 했다(F). (e) 그는 가장 작은 케이크를 원했다(T)."
+    },
+    {
+      "no": 11,
+      "material_id": "T8",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 5,
+      "stem_ko": "[T8]의 밑줄 친 (A)~(E) 중 어법상 옳은 것은?",
+      "options": [
+        "(A)",
+        "(B)",
+        "(C)",
+        "(D)",
+        "(E)"
+      ],
+      "answer": 5,
+      "why_ko": "(E) think의 목적어로 쓰인 접속사 that이 바르게 쓰였다. (A)는 복수 주어이므로 There were, (B)는 보어 자리의 to부정사 to sell, (C)는 접속사 that, (D)는 must not+동사원형(must not shout)이 되어야 한다.",
+      "grammar_point": "There was/were · to부정사 보어 · 접속사 that · must not+동사원형"
+    },
+    {
+      "no": 12,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 5,
+      "stem_ko": "[T7]의 밑줄 친 ①~⑤ 중 that 의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "①②③⑤ 는 learned · believed · say · hope 의 목적어가 되는 절을 이끄는 접속사 that (생략 가능). ④ 는 앞 문장 내용을 가리키는 지시대명사 That(「그것이 ~한 이유다」)이라 생략할 수 없다. [유형 교체 2026-10-04 — 원래 「문맥상 어색한 낱말」]",
+      "revised_from": {
+        "type": "T-VOCAB-CONTEXT",
+        "stem_ko": "[T7]의 밑줄 친 ①~⑤ 중 문맥상 낱말의 쓰임이 어색한 것은?",
+        "options": [
+          "①",
+          "②",
+          "③",
+          "④",
+          "⑤"
+        ],
+        "answer": 4,
+        "why_ko": "이런 사건들 이후 박물관은 가방을 전보다 '더 꼼꼼하게(more carefully)' 검사한다는 흐름이어야 한다. carelessly는 문맥과 반대이다.",
+        "grammar_point": null,
+        "material_text": "Why do people throw food at famous paintings?\nIn 2022, two young visitors threw tomato soup at a Van Gogh painting in London. A few months earlier, a man threw a cake at the Mona Lisa in Paris. Luckily, strong glass ①protected both paintings, and the news traveled around the world in just a few hours.\nThe attackers were not thieves. Most of them were climate activists. They wanted people to talk about the Earth, and a famous painting was the ②fastest way to get attention. One of them said, “Art is important, but our planet is more important.”\nMany people do not agree with them. They say that ③hurting art never helps the Earth. Museums now check visitors’ bags more ④carelessly than before, and some of them do not allow any food inside. The debate is still ⑤hot."
+      },
+      "grammar_point": "NOUN_CLAUSE_THAT"
+    },
+    {
+      "no": 13,
+      "material_id": "T7",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "[T7]을 읽고 대답할 수 없는 질문은?",
+      "options": [
+        "What did two young visitors throw at a Van Gogh painting?",
+        "Why were the two paintings not damaged?",
+        "How much money did the museums pay to clean the paintings?",
+        "Who were most of the attackers?",
+        "What do some museums not allow inside now?"
+      ],
+      "answer": 3,
+      "why_ko": "청소 비용에 대한 언급은 글에 없다. ①토마토 수프, ②강화 유리가 보호해서, ④기후 활동가들, ⑤음식물은 모두 글에서 확인할 수 있다."
+    },
+    {
+      "no": 14,
+      "material_id": "T9",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "[T9]의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "you have to pay a small fee for each item",
+        "you must bring only clean things that you can still use",
+        "you may take home as many plastic bags as you want",
+        "you don’t have to wash the clothes before you bring them",
+        "you must not trade your things with your friends"
+      ],
+      "answer": 2,
+      "why_ko": "뒤에 '부서지거나 더러운 물건은 돌려보낸다'는 설명이 이어지므로, 아직 쓸 수 있는 깨끗한 물건만 가져오라는 내용이 와야 한다. ①은 Everything is free와, ③은 비닐봉지를 주지 않는다는 내용과, ④는 돌려보낸다는 설명과 모순된다."
+    },
+    {
+      "no": 15,
+      "material_id": "T10",
+      "type": "T-FORM-CHOICE",
+      "points": 5,
+      "stem_ko": "[T10]의 (A), (B), (C) 각 네모 안에서 어법에 맞는 표현끼리 바르게 짝지은 것은?",
+      "options": [
+        "to become - was - better",
+        "to become - were - better",
+        "to become - were - best",
+        "becoming - were - better",
+        "becoming - was - best"
+      ],
+      "answer": 2,
+      "why_ko": "(A) want는 to부정사를 목적어로 취하므로 to become, (B) 뒤의 주어가 복수(free cooking classes)이므로 were, (C) than이 있으므로 비교급 better가 알맞다.",
+      "grammar_point": "want+to부정사 · There was/were · 비교급"
+    },
+    {
+      "no": 16,
+      "material_id": "T9",
+      "type": "T-TOPIC",
+      "points": 4,
+      "stem_ko": "[T9]의 글을 쓴 목적으로 가장 알맞은 것은?",
+      "options": [
+        "중고 물품 교환 행사를 안내하려고",
+        "동아리 신입 회원을 모집하려고",
+        "체육관 사용 시간 변경을 공지하려고",
+        "쓰레기 분리배출 방법을 설명하려고",
+        "플라스틱 사용 금지 법안을 소개하려고"
+      ],
+      "answer": 1,
+      "why_ko": "다음 주 금요일 체육관에서 열리는 Second-Hand Day 행사의 내용과 주의 사항을 알리는 안내문이다."
+    },
+    {
+      "no": 17,
+      "material_id": "P2",
+      "type": "T-PHRASE-INFER",
+      "points": 5,
+      "stem_ko": "[P2]에서 Domingo가 한 말 “I guess it’s all right.”에 담긴 의미로 가장 알맞은 것은?",
+      "options": [
+        "가방을 고친 것을 후회하고 있다.",
+        "가방이 완벽하지는 않지만 그대로 쓰기로 했다.",
+        "결국 새 가방을 사기로 마음을 바꾸었다.",
+        "자신의 바느질 솜씨가 뛰어나다고 자랑하고 있다.",
+        "가방을 버리고 재활용하러 보내기로 했다."
+      ],
+      "answer": 2,
+      "why_ko": "바느질을 잘하지 못해 가방이 완벽해 보이지는 않지만, 재사용이 중요하다고 배웠으므로 그 상태로 괜찮다고 받아들이는 말이다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 18,
+      "material_id": "T11",
+      "points": 4,
+      "prompt_ko": "[T11]의 대화를 읽고, 질문에 대한 답이 되도록 빈칸 (1)~(3)에 알맞은 말을 쓰시오.",
+      "context": "Q1: What does Sumi want to do this weekend?\nA1: She ____(1)____ the zero-waste challenge with her sister.\nQ2: What do Sumi and her sister plan to make with old clothes?\nA2: They ____(2)____ shopping bags out of old clothes.\nQ3: Why does Sumi think the work will be easy?\nA3: Because she thinks that ____(3)____ at sewing.",
+      "conditions": [
+        "대화에 나온 표현을 쓰되 주어에 맞게 형태를 바꿀 것",
+        "빈칸마다 2~4단어로 쓸 것",
+        "단어 수는 띄어쓰기 기준으로 세고, 줄임말은 한 단어로 셀 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________",
+        "(3) ______________"
+      ],
+      "given_words": [],
+      "word_limit": "각 빈칸 2~4단어",
+      "target_grammar": "to부정사 명사적 용법(want to / plan to) · 접속사 that",
+      "answer_en": "(1) wants to join\n(2) plan to make\n(3) her sister is good",
+      "why_ko": "(1) 주어가 3인칭 단수 She이므로 wants to join, (2) 주어가 They이므로 plan to make, (3) thinks 뒤의 that절 주어·동사를 써서 her sister is good at sewing이 된다."
+    },
+    {
+      "no": 19,
+      "material_id": "P1",
+      "points": 4,
+      "prompt_ko": "[P1]을 읽고, 질문에 대한 답이 되도록 빈칸에 본문의 표현을 써서 완성하시오.",
+      "context": "Q1: What fell off the old man’s head while he was running away?\nA1: ____(1)____ fell off his head.\nQ2: Where did Diego Perez find the cake box?\nA2: He found it ____(2)____.",
+      "conditions": [
+        "본문에 나온 표현을 그대로 쓸 것",
+        "(2)에는 전치사를 포함하여 쓸 것",
+        "빈칸마다 2~4단어로 쓸 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________"
+      ],
+      "given_words": [],
+      "word_limit": "각 빈칸 2~4단어",
+      "target_grammar": "본문 표현(It was his wig. / next to the wheelchair)",
+      "answer_en": "(1) His wig\n(2) next to the wheelchair",
+      "why_ko": "달아나던 남자의 머리에서 떨어진 것은 가발(his wig)이고, Diego Perez는 케이크 상자를 휠체어 '옆에서(next to the wheelchair)' 발견했다."
+    },
+    {
+      "no": 20,
+      "material_id": "T12",
+      "points": 6,
+      "prompt_ko": "[T12]의 표를 보고, 다음 문장의 빈칸을 지시된 단어 수에 맞게 채우시오.",
+      "context": "(1) Cake B is ____________ than Cake A. (가격)\n(2) Cake C takes ____________ Cake A to bake. (시간)\n(3) In size, Cake A is ____________ of the three. (크기)",
+      "conditions": [
+        "표의 정보와 일치하게 쓸 것",
+        "비교급을 2회, 최상급을 1회 사용할 것",
+        "단어 수는 띄어쓰기 기준으로 셀 것"
+      ],
+      "answer_slots": [
+        "(1) ______________",
+        "(2) ______________",
+        "(3) ______________"
+      ],
+      "given_words": [],
+      "word_limit": "(1) 2단어 / (2) 3단어 / (3) 3단어",
+      "target_grammar": "비교급 -er/more ~ than · 최상급 the -est of the three",
+      "answer_en": "(1) more expensive\n(2) more time than\n(3) the smallest one (the smallest cake 도 정답)",
+      "why_ko": "(1) $15 > $10이므로 more expensive than, (2) 70분 > 30분이므로 more time than, (3) 세 개 중 가장 작으므로 the smallest one of the three가 된다."
+    },
+    {
+      "no": 21,
+      "material_id": "T13",
+      "points": 6,
+      "prompt_ko": "[T13]의 대화에는 어법상 틀린 곳이 세 군데 있다. 대화에 나온 순서대로 〈틀린 것 → 고친 것〉의 형태로 쓰시오.",
+      "context": "",
+      "conditions": [
+        "대화에 나온 순서대로 (1)(2)(3)에 쓸 것",
+        "고친 쪽은 4단어 이하로 쓸 것",
+        "문장 전체를 다시 쓰지 말 것"
+      ],
+      "answer_slots": [
+        "(1) ____________ → ____________",
+        "(2) ____________ → ____________",
+        "(3) ____________ → ____________"
+      ],
+      "given_words": [],
+      "word_limit": "고친 표현은 4단어 이하",
+      "target_grammar": "must not+동사원형 · There was/were · 접속사 that",
+      "answer_en": "(1) must not to touch → must not touch\n(2) there was many → there were many\n(3) said what → said that",
+      "why_ko": "조동사 must 뒤에는 동사원형이 오고, 뒤따르는 주어가 복수(many signs)이므로 There were, 동사 said의 목적어가 되는 명사절은 접속사 that이 이끌어야 한다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [],
+    "warnings": [],
+    "n_items": 17,
+    "n_essays": 4,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 9430,
+    "output": 27488,
+    "usd": 0.7363
+  }
+}

@@ -1,6 +1,7 @@
 {
   "school": "영일중",
   "set_no": 1,
+  "range": "567",
   "spec": {
     "students": null,
     "exam_date": "2026-12 (2학기 기말)",
@@ -513,18 +514,40 @@
       "no": 22,
       "material_id": "T2",
       "points": 5,
-      "prompt_ko": "다음은 지호의 일기 중 일부이다. 우리말과 같은 뜻이 되도록 빈칸에 알맞은 말을 조건에 맞게 쓰시오. 【조건 1】 when, will, by subway를 모두 사용할 것 【조건 2】 8~9단어로 쓸 것 【조건 3】 시간을 나타내는 부사절의 시제에 유의할 것\n\nTomorrow I have a piano lesson at nine.\n(내가 지하철을 타고 가면, 나는 일찍 도착할 것이다.)\n→ ____________________________________.",
+      "prompt_ko": "다음은 지호의 일기 중 일부이다. 우리말과 같은 뜻이 되도록 빈칸에 알맞은 말을 쓰시오.",
       "given_words": [
-        "when",
-        "will",
         "by subway",
-        "arrive",
-        "early"
+        "will",
+        "arrive"
       ],
-      "word_limit": "8~9단어",
+      "word_limit": "(A) 3단어 · (B) 2단어",
       "target_grammar": "시간 부사절 when + 주절의 will · 전치사 결합 by subway",
-      "answer_en": "When I go by subway, I will arrive early",
-      "why_ko": "시간 부사절에서는 미래를 현재시제로 쓰므로 When I go로 쓰고, 주절에 will을 쓴다. 교통수단은 「by+무관사 명사」로 by subway라고 한다. 총 9단어."
+      "answer_en": "(A) go by subway\n(B) will arrive",
+      "why_ko": "시간 부사절에서는 미래를 현재시제로 쓰므로 When I go로 쓰고, 주절에 will을 쓴다. 교통수단은 「by+무관사 명사」로 by subway라고 한다. 총 9단어. [채점형 수정 2026-10-04]",
+      "context": "Tomorrow I have a piano lesson at nine.\n(내가 지하철을 타고 가면, 나는 일찍 도착할 것이다.)\n→ When I (A)______________, I (B)______________ early.",
+      "conditions": [
+        "(A)는 by subway 를 사용하여 3단어로 쓸 것",
+        "(B)는 will 을 사용하여 2단어로 쓸 것",
+        "시간을 나타내는 부사절의 시제에 유의할 것"
+      ],
+      "answer_slots": [
+        "(A) ______________",
+        "(B) ______________"
+      ],
+      "revised_from": {
+        "prompt_ko": "다음은 지호의 일기 중 일부이다. 우리말과 같은 뜻이 되도록 빈칸에 알맞은 말을 조건에 맞게 쓰시오. 【조건 1】 when, will, by subway를 모두 사용할 것 【조건 2】 8~9단어로 쓸 것 【조건 3】 시간을 나타내는 부사절의 시제에 유의할 것\n\nTomorrow I have a piano lesson at nine.\n(내가 지하철을 타고 가면, 나는 일찍 도착할 것이다.)\n→ ____________________________________.",
+        "context": null,
+        "conditions": null,
+        "given_words": [
+          "when",
+          "will",
+          "by subway",
+          "arrive",
+          "early"
+        ],
+        "word_limit": "8~9단어",
+        "answer_en": "When I go by subway, I will arrive early"
+      }
     },
     {
       "no": 23,

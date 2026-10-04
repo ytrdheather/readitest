@@ -58,6 +58,20 @@ SET_PASSAGES_567 = {
         ("L5 대화 ⑦⑧", ["중1 L5 대화-7", "중1 L5 대화-8"])],
 }
 
+# 중1 5·6과 합본 — 영덕중1 4·5·6세트 (원장 2026-10-04 「5·6과」). 1~3세트(5과 단독)와 번호를
+# 겹치지 않게 4부터. 영덕 2025 기말이 본문을 원문 그대로 싣고 각 2문항씩 냈으므로 **본문 두 편은
+# 매 세트 싣고** 대화 묶음만 돌린다.
+SET_PASSAGES_56 = {
+    n: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+        ("L6 본문", ["중1 L6 본문 — Join the Zero-Waste Challenge"]),
+        (f"L5 대화 {l5}", [f"중1 L5 대화-{i}" for i in i5]),
+        (f"L6 대화 {l6}", [f"중1 L6 대화-{i}" for i in i6])]
+    for n, l5, i5, l6, i6 in [
+        (4, "①②③", (1, 2, 3), "①②③", (1, 2, 3)),
+        (5, "④⑤⑥", (4, 5, 6), "④⑤⑥", (4, 5, 6)),
+        (6, "⑦⑧", (7, 8), "⑦⑧", (7, 8))]
+}
+
 # 중1 5과만 — 본문 하나뿐이라 세트마다 본문은 같고 대화 묶음을 돌린다.
 SET_PASSAGES_1 = {
     1: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
@@ -97,7 +111,27 @@ SET_PASSAGES = {
                           "L5 ReadMore-3", "L5 ReadMore-4"]),
         ("L6 Read More", ["L6 ReadMore-1", "L6 ReadMore-2",
                           "L6 ReadMore-3", "L6 ReadMore-4"])],
+    # 6세트 — 2026-10-04 영덕중 서술형 세트(4·5·6) 를 위해 추가. 영덕은 4·5 를 아직
+    # 안 썼으므로 그대로 쓰고, 6 은 1~5 에서 안 묶었던 대화 조합으로 돌린다.
+    6: [("L6 본문", ["Dr. Schofield, a Foreigner Who Loved Korea"]),
+        ("L5 대화 ⑦⑧⑨", ["L5 대화-7", "L5 대화-8", "L5 대화-9"]),
+        ("L6 대화 ④⑤⑥", ["L6 대화-4", "L6 대화-5", "L6 대화-6"])],
 }
+
+
+def spec_for(spec, set_no):
+    """세트별 구조 덮어쓰기. 설계도의 `essay_sets` 를 읽는다.
+
+    영덕중은 2026-1 기말이 서술형 0 이라 1~3세트가 객관식뿐이었다. 원장 2026-10-04
+    「주관식을 영일·태장·청명을 고려해서 3세트 더」 — 4·5·6세트만 서술형 5문항을 넣는다.
+    저장되는 JSON 의 `spec` 도 덮어쓴 것이라 렌더러·검사가 그대로 따라온다.
+    """
+    es = spec.get("essay_sets")
+    if not es or set_no not in es["sets"]:
+        return spec
+    out = {k: v for k, v in spec.items() if k != "essay_sets"}
+    out.update(es["override"])
+    return out
 
 
 def load_prior_sets(tag, school, set_no):
@@ -174,20 +208,25 @@ def gather(rest, spec, set_no, sets=SET_PASSAGES):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--school")
-    ap.add_argument("--set", type=int, choices=[1, 2, 3, 4, 5])
+    ap.add_argument("--set", type=int, choices=[1, 2, 3, 4, 5, 6])
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--run", action="store_true")
     ap.add_argument("--hard", action="store_true",
                     help="고난도 모드 — 시험 직전 최종 점검용 4·5세트에 쓴다")
     ap.add_argument("--grade", type=int, default=2, choices=[1, 2],
                     help="1 이면 중1 설계도·지문 묶음을 쓴다")
-    ap.add_argument("--lessons", default="567", choices=["5", "567"],
-                    help="중1 지문 범위. 기본 567 (2025 기말이 세 과를 섞었다)")
+    ap.add_argument("--lessons", default="567", choices=["5", "56", "567"],
+                    help="중1 지문 범위. 기본 567 (2025 기말이 세 과를 섞었다). 56 은 4·5·6세트")
     a = ap.parse_args()
 
     bp = json.load(io.open(BP1 if a.grade == 1 else BP, encoding="utf-8"))
+    common = bp["common"]
     if a.grade == 1:
-        passage_sets = SET_PASSAGES_1 if a.lessons == "5" else SET_PASSAGES_567
+        passage_sets = {"5": SET_PASSAGES_1, "56": SET_PASSAGES_56}.get(a.lessons, SET_PASSAGES_567)
+        # 범위 밖 과의 어법은 프롬프트에서 뺀다 — 5·6과 시험지에 L7 시간 부사절이 나오면 안 된다
+        rng = {k: v for k, v in common["range_2026_2"].items()
+               if not (k.startswith("L") and k[1:] not in a.lessons)}
+        common = {**common, "range_2026_2": rng}
     else:
         passage_sets = SET_PASSAGES
     tag = "중1_" if a.grade == 1 else ""
@@ -203,19 +242,21 @@ def main():
     cost = Cost()
 
     for school in schools:
-        spec = bp["schools"][school]
+        base_spec = bp["schools"][school]
+        spec = base_spec
         # 지문이 없어 아직 못 만드는 학교는 여기서 막는다. 설계도에 사유를 적어 두고
         # 코드가 그것을 읽게 한다 — 기억이 아니라 정해진 자리를 거치게 (CLAUDE.md 디자인 지침).
         # 2026-09-26 태장중1: 범위가 L4·L5 인데 L4 본문이 없다. 돌리면 L5 하나로 22문항을
         # 억지로 채운 시험지가 나오고, 그게 종이로 나가면 되돌릴 수 없다.
-        if spec.get("blocked"):
+        if base_spec.get("blocked"):
             print("=" * 74)
             print(f" {school} — 건너뜀")
             print("=" * 74)
-            print("    " + spec["blocked"])
+            print("    " + base_spec["blocked"])
             print()
             continue
         for set_no in sets:
+            spec = spec_for(base_spec, set_no)
             print("=" * 74)
             print(f" {school} 동형 {set_no}세트 — 선택 {spec['selective']} · "
                   f"서술 {spec.get('essay', 0)} · {spec['grammar_vessel']}")
@@ -231,7 +272,7 @@ def main():
             avoid = mock_exam.format_avoid(prior)
             if avoid:
                 print(f"    (다른 {len(prior)}개 세트의 문항을 겹치지 않게 참고시킴)")
-            params = mock_exam.build_params(school, spec, bp["common"],
+            params = mock_exam.build_params(school, spec, common,
                                             mats, points_hint(spec), set_no,
                                             hard=a.hard, avoid=avoid)
             # 시험지 한 벌은 출력이 길다(선택 21~25 × 선지 5 + 서술 4).
@@ -259,7 +300,9 @@ def main():
 
             path = os.path.join(OUT, f"{tag}{school}_{set_no}세트.json")
             with io.open(path, "w", encoding="utf-8") as f:
-                json.dump({"school": school, "set_no": set_no, "spec": spec, **res},
+                # 범위(과)를 파일에 남긴다 — PDF 이름이 이걸 읽는다 (build_mock_pdf)
+                rng = a.lessons if a.grade == 1 else "56"
+                json.dump({"school": school, "set_no": set_no, "range": rng, "spec": spec, **res},
                           f, ensure_ascii=False, indent=2)
                 f.write("\n")
             print(f"    저장 → {path}\n")
