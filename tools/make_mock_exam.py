@@ -69,7 +69,9 @@ SET_PASSAGES_56 = {
     for n, l5, i5, l6, i6 in [
         (4, "①②③", (1, 2, 3), "①②③", (1, 2, 3)),
         (5, "④⑤⑥", (4, 5, 6), "④⑤⑥", (4, 5, 6)),
-        (6, "⑦⑧", (7, 8), "⑦⑧", (7, 8))]
+        (6, "⑦⑧", (7, 8), "⑦⑧", (7, 8)),
+        # 7세트 — 원장 2026-10-06 「아주 어려운 난이도로 한 개 더」(--hard). 대화는 4~6세트와 다른 조합
+        (7, "②⑤⑧", (2, 5, 8), "③⑥⑦", (3, 6, 7))]
 }
 
 # 중1 5과만 — 본문 하나뿐이라 세트마다 본문은 같고 대화 묶음을 돌린다.
@@ -208,7 +210,7 @@ def gather(rest, spec, set_no, sets=SET_PASSAGES):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--school")
-    ap.add_argument("--set", type=int, choices=[1, 2, 3, 4, 5, 6])
+    ap.add_argument("--set", type=int, choices=[1, 2, 3, 4, 5, 6, 7])
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--run", action="store_true")
     ap.add_argument("--hard", action="store_true",

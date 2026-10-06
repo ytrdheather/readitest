@@ -288,10 +288,13 @@ def build(d, logo, part="both", title=None):
         shown = set()
 
         for it in d["items"]:
-            mid = it.get("material_id")
-            if not ans and mid in mats and mid not in shown:
-                body.append(mat_html(mats[mid]))
-                shown.add(mid)
+            # material_id 는 하나뿐인데 발문이 「[P3]과 [P4]의 대화」처럼 둘을 묻기도 한다 —
+            # 발문에 이름이 나온 자료도 같이 싣는다. 안 그러면 P4 가 시험지 어디에도 없다
+            # (2026-10-06 영덕중1 7세트 6번 · 태장중2 4세트 8번에서 발견).
+            for mid in [it.get("material_id")] + re.findall(r"\[([PT]\d+)\]", it["stem_ko"]):
+                if not ans and mid in mats and mid not in shown:
+                    body.append(mat_html(mats[mid]))
+                    shown.add(mid)
             opts = "".join(
                 f'<li><span class="c">{CIRCLED[i]}</span>'
                 f'<span class="{"ans" if ans and it["answer"] == i + 1 else ""}">'
