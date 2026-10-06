@@ -1,0 +1,627 @@
+{
+  "school": "영덕중",
+  "set_no": 7,
+  "range": "56",
+  "spec": {
+    "students": 8,
+    "exam_date": "2026-10-07",
+    "priority": "여유 있음 (가장 늦다). 다만 학생 수 1위",
+    "total_points": 100,
+    "selective": 18,
+    "essay": 5,
+    "grammar_vessel": "짧은 대화 여러 개 + 교과서 지문",
+    "vessel_note": "2026-1 문항 6·8·10·12·14·16 이 전부 이 형식이었다",
+    "signature": [
+      "어순 배열 2문항 (T-WORD-ORDER) — 영덕 고유. 1~6세트와 다른 문장으로",
+      "본문을 캠페인 포스터·광고 문구로 형식 전환 1묶음",
+      "외부지문 Yu Gwansun · Homer B. Hulbert 를 **두 편 다** 깊게 — 내용 일치 함정, 지시어·함축, 빈칸 추론, 문장 삽입·흐름, 두 인물 비교(교사 자작 단락으로 둘을 엮어도 됨) 중에서. 1~6세트가 이미 물은 문장은 피한다",
+      "영영풀이 2문항은 갈래가 다르다 — 단순 의미 1 + 지문에서 유추 1",
+      "**1~6세트와 똑같은 문항 금지** — 같은 지문이라도 같은 문장·같은 정답을 다시 쓰지 않는다"
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "form_choice": 1,
+    "standalone": 1,
+    "standalone_points": 4,
+    "external_passages": [
+      "Yu Gwansun",
+      "Homer B. Hulbert"
+    ],
+    "essay_points": 25,
+    "essay_rule": "채점형 — 문장 틀을 주고 **빈칸 하나에 4~7단어**만 쓰게 한다. 완전한 문장 통째 영작 금지 · 「○번째 단어」 한 단어 답 금지. 고쳐 쓰기만 「기호 / 틀린 말 → 고친 말」. 칸이 둘이면 (1)(2) 로 표시하고 answer_en 도 칸마다 한 줄.",
+    "essay_blueprint": [
+      {
+        "그릇": "영일형",
+        "자료": "외부지문 Homer B. Hulbert",
+        "형식": "우리말 + 영어 문장 틀 + 빈칸",
+        "필수어휘": "원형으로 주고 형태를 바꾸게",
+        "빈칸 단어수": "5~7",
+        "노리는 어법": "L5 목적격 관계대명사 (빈칸 안에 관계사절이 들어가게)"
+      },
+      {
+        "그릇": "영일형",
+        "자료": "외부지문 Yu Gwansun",
+        "형식": "우리말 + 영어 문장 틀 + 빈칸",
+        "필수어휘": "지정",
+        "빈칸 단어수": "4~6",
+        "노리는 어법": "L6 지각동사+목적보어 (원형/-ing 구별)",
+        "추가 조건": "제시문의 3단어 이상 연속 표현 사용 금지"
+      },
+      {
+        "그릇": "태장형",
+        "자료": "L6 본문",
+        "형식": "주어진 단어 전부 사용 + 문장 틀 + 빈칸",
+        "조건": "시제 변형 · 주어진 단어 전부 포함",
+        "빈칸 단어수": "5~7",
+        "노리는 어법": "L6 so ~ that (빈칸 안에 so ~ that 이 다 들어가게)"
+      },
+      {
+        "그릇": "태장형",
+        "자료": "L5 대화 또는 L5 본문",
+        "형식": "본문 질문(Q:)에 답 — 문장 틀 + 빈칸",
+        "조건": "본문 단어만 · 전치사 자리 포함",
+        "빈칸 단어수": "4~7",
+        "노리는 어법": "L5 used to 계열"
+      },
+      {
+        "그릇": "청명형",
+        "조건": "T-WRITE-FIX — 서로 무관한 문장 5개(standalone_set 자료로 새로 씀) 중 어법상 틀린 문장 2개 · 「기호 / 틀린 말 → 고친 말」 · 1~6세트의 틀린 지점(to cross · going · such→so · to run · played)과 다른 함정",
+        "노리는 어법": "L5·L6 네 포인트 혼합"
+      }
+    ],
+    "external_min": 6,
+    "essay_slot_words": [
+      4,
+      7
+    ],
+    "vocab_kinds": [
+      "영영풀이-기본",
+      "영영풀이-유추"
+    ],
+    "vocab_kind_notes": {
+      "영영풀이-기본": "영영풀이 하나를 주고 지문에서 그 낱말을 고르게 — 단순 의미. 1~6세트 정답 낱말(represent · independence · courage · article · praise · clue · promote · favor · control 등)은 다시 정답으로 쓰지 않는다",
+      "영영풀이-유추": "지문(가능하면 외부지문) 속 밑줄 친 낱말·구가 **그 문맥에서** 뜻하는 바에 가장 가까운 영영풀이를 고르게 — 사전 첫 뜻으로는 틀리고 앞뒤 문장을 읽어야 풀리는 지점. 오답 선지는 그 낱말의 다른 뜻 풀이, 주변 문맥을 반대로 읽은 풀이로 만든다"
+    }
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문",
+      "text": "Modern street art comes in many different forms, and it makes cities colorful and lively. Today, we are going to see some well-known street artworks in London.\nThe place that we are going to visit is Shoreditch. Poor workers used to live in this area, but now it is one of the hippest areas in London. We can find so many great pieces of street art here. Do you see the painting over there? It is by the artist STIK. He is famous for using only lines and dots in his paintings of human bodies. According to STIK, the three figures represent the past, present, and future of Shoreditch. Which figure represents which? Well, look closely at the eyes of the three figures. They are just dots, but they will give you a clue.\nWe are now in Finsbury Park to see a painting by Banksy, an internationally famous street artist. Banksy’s artworks often carry social messages, and the green tree (that) you see over there is a good example. As you can see, he created a green tree by spraying green paint on a wall behind a leafless tree. Next to the tree, there is a person who is holding a sprayer. What message does Banksy want to give us through this painting? In many people’s opinion, he is telling us that nature is having a hard time. They think (that) he wants us to take better care of it.\nThe final stop of our tour today is Muswell Hill. Can’t see any street artworks? Well, look down and look closely. Do you see the little chewing gum paintings? They are by the artist Ben Wilson. Wilson is well known for painting pictures on gum that people drop on the street. His gum paintings often carry personal messages from people (that) he meets on the street. For example, the one over here is a happy birthday wish for a loved one. Wilson’s gum paintings are tiny, but they give great pleasure to many people."
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 본문",
+      "text": "On February 28, 1919, a man came to Dr. Schofield’s house. A man: Dr. Schofield, I have a special favor to ask you. Dr. Schofield: What can I do for you? A man: Many people are going to gather tomorrow for the independence of Korea. Could you take pictures of the event and share them with the world? At 2 p.m. on March 1, Dr. Schofield was hiding in a building and saw a large group of people gathering outside. He began to take pictures. Dr. Schofield: Unbelievable! There are so many people here. I hope the world will learn about this important event through my pictures. Do you know Seok Hopil? His English name was Frank W. Schofield, but he loved his Korean name. It sounded similar to his real name, and it also had a good meaning. Dr. Schofield was a Canadian doctor, and he first came to Korea in 1916 to teach medicine. He wanted to teach in Korean, so he began to learn Korean right away. He studied so hard that he was able to teach in Korean after only a few years. He believed that every country has the right to be independent, so he helped the Korean independence movement. On March 1, 1919, Dr. Schofield heard people shouting for Korean independence in Tapgol Park. He took pictures of the event with his camera. He then wrote an article about the historic event and sent it to foreign newspapers with his pictures. Dr. Schofield’s fight for Korean independence didn’t stop even after the March 1st Movement. He continued to write about the terrible situation in Korea for foreign newspapers. He was under the watchful eye of the Japanese police, so he had to go back to Canada in 1920. In 1958, he returned to Korea at the invitation of the Korean government and never left again. For the rest of his life, he worked hard to help Koreans, especially poor students. Dr. Schofield died in April 1970, and he was buried in Seoul National Cemetery."
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L5 대화 ③⑥⑨",
+      "text": "G: Do you need help?\nB: Yes. How can I get to the Dream Shopping Mall from here? Can I walk?\nG: You can, but it’s a little far. Why don’t you go by bus? Take bus No. 12.\nB: OK. How long will it take by bus?\nG: Not very long. It’ll take less than 10 minutes.\nB: Excuse me, how can I get to Seoul Museum from here?\nG: Seoul Museum? You can get there by bus or by subway.\nB: Which is faster, the bus or the subway?\nG: Hmm, I think the bus is faster.\nB: Really? Then, I’ll take the bus.\nA: Excuse me, how can I get to the Brooklyn Bridge from SoHo?\nB: You can get there by subway.\nA: OK. How long will it take by subway?\nB: About 16 minutes."
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "L6 대화 ②⑤⑧",
+      "text": "G: What kinds of soft drinks do you usually have?\nB: I usually drink apple soda, but today, I want to try something else. Can you recommend some new soft drinks?\nG: Try a cherry soda. The cherry soda here is good.\nB: OK. I’ll give it a try, then.\nG: Liam, can you please help me? I need to find some books for my homework.\nB: What kinds of books are you looking for, Somi?\nG: I’m looking for books on famous people who helped others. I need to write an essay.\nB: Who do you want to write about?\nG: I was thinking about Dr. Schweitzer, but can you recommend someone else for me?\nB: What about Audrey Hepburn?\nG: I know she was a famous actor, but what did she do to help others?\nB: She did a lot of volunteer work, especially for children.\nG: Really? Then, I can write about her. Thank you!\nA: Can you recommend a restaurant for me?\nB: How about Morning in Venice?\nA: What kind of food do they have?\nB: They have Italian food. I strongly recommend their cheese pizza. It’s really good."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "외부지문 — Yu Gwansun",
+      "text": "Yu Gwansun showed her love for her country with courage. She was only a teenager when Korea was under Japan's control. Even though she was young, she believed she could do something with her courage. On March 1 in 1919, she bravely stood up and joined others to fight against Japan's control over Korea. She told her friends and neighbors not to give up hope. Although she faced many challenges, she never gave up. She was caught for her actions and had a difficult time in prison. However, even then, she stayed strong and hopeful and continued to inspire people around her. Her love wasn't loud or forceful but was full of kindness and care. Yu Gwansun's story teaches us that anyone, even a young person, can show great courage and deep love. It reminds us to fight for our rights and stay brave during challenging times."
+    },
+    {
+      "id": "P6",
+      "kind": "given",
+      "title": "외부지문 — Homer B. Hulbert",
+      "text": "Homer B. Hulbert was an American educator, writer, and missionary who truly believed in the future of Korea. He first came to Korea in the late 1800s to teach at a royal school, but his work quickly went beyond the classroom. Hulbert noticed that the Korean writing system, Hangeul, was logical and easy to learn. While many Westerners didn't care about it, Hulbert praised Hangeul and studied it deeply. He believed that promoting Hangeul and Korean culture could make the people stronger. When Japan began taking control of Korea, Hulbert didn't keep quiet. He wrote in international newspapers to say Korea should be free. He also traveled to the U.S. and Europe to tell people about Korea and ask for independence. His actions made him a trusted friend to many Koreans. Even after he left Korea, Hulbert continued to help the Korean independence movement. He returned to Korea in his later years and died in Seoul in 1949. Today, he is remembered as a foreigner who loved Korea with deep respect. Hulbert's story teaches us that true friendship and love can go beyond countries."
+    },
+    {
+      "id": "T1",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5]",
+      "text": "※ 각 대화에서 ①~⑤가 밑줄 친 부분이다.\n[1] B: Is this the restaurant ①that you told me about last week?\n    G: Yes. They have really good Italian food.\n[2] G: Did you find the book?\n    B: Not yet. The book ②which I need is already out.\n[3] B: You play the violin so well.\n    G: Thanks. There ③used to be a music school near my house.\n[4] G: Why are you walking to school these days?\n    B: My bike is broken. I ④used to riding it every morning.\n[5] B: Who is the woman in the photo?\n    G: She is the teacher ⑤whom everyone in my class likes."
+    },
+    {
+      "id": "T2",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5]",
+      "text": "※ 각 대화에서 ①~⑤가 밑줄 친 부분이다.\n[1] G: Why were you late this morning?\n    B: The subway was ①so crowded that I couldn't get on the first train.\n[2] B: Did you hear that sound?\n    G: Yes, I heard something ②fall in the kitchen.\n[3] G: How was the street festival?\n    B: There were ③so much people that we couldn't see the stage.\n[4] B: Why do you talk about that film all the time?\n    G: It was ④such a scary movie that I couldn't sleep that night.\n[5] G: What are the children doing over there?\n    B: I saw them ⑤drawing pictures on the ground."
+    },
+    {
+      "id": "T3",
+      "kind": "dialogue_set",
+      "title": "짧은 대화 [1]~[5]",
+      "text": "※ 각 대화에서 ①~⑤가 밑줄 친 부분이다.\n[1] B: Did you like the book?\n    G: Yes. It was ①so interesting that I finished it in one night.\n[2] G: Why didn't you answer my call?\n    B: Sorry. The music was ②too loud that I didn't hear my phone.\n[3] B: Is that your new camera?\n    G: Yes. It's the one ③that my uncle gave me for my birthday.\n[4] G: What's that smell?\n    B: I smell something ④burning in the kitchen.\n[5] B: Do you still go to the swimming pool?\n    G: No, but I ⑤used to go there every Sunday."
+    },
+    {
+      "id": "T4",
+      "kind": "teacher_paragraph",
+      "title": "미술 동아리 견학 글",
+      "text": "Last Saturday, my art club visited an old factory area ①that the city turned into an art space. Our guide said that many poor workers ②used to live there before the factories closed. Inside one building, we watched a young artist ③painting a huge whale on a gray wall. The whale was ④so big that it covered almost the whole wall. The picture ⑤what she finished that afternoon is now the most popular work in the area."
+    },
+    {
+      "id": "T5",
+      "kind": "standalone_set",
+      "title": "단문 ①~⑤",
+      "text": "① The problem that we talked about yesterday is still not solved.\n② I felt someone pulling my sleeve on the crowded bus.\n③ The song whom I like best is from an old movie.\n④ My grandfather used to swim in this river when he was a boy.\n⑤ It was such a cold night that we stayed at home all evening."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "할머니의 시계",
+      "text": "The old clock (A)[what / that] my grandmother left me still works well. Every morning I hear it (B)[ring / to ring] at exactly six o'clock. The sound is (C)[so / such] loud that nobody in my family can keep sleeping."
+    },
+    {
+      "id": "T7",
+      "kind": "standalone_set",
+      "title": "단문 ①~⑤ (-ing에 밑줄)",
+      "text": "※ 각 문장에서 -ing로 끝나는 말에 밑줄이 그어져 있다.\n① I saw a black cat climbing the old tree.\n② He kept talking about his trip to London all evening.\n③ Can you hear the birds singing outside the window?\n④ She watched her little brother riding a bike in the park.\n⑤ We felt the ground shaking under our feet."
+    },
+    {
+      "id": "T8",
+      "kind": "teacher_paragraph",
+      "title": "광고 포스터 — LONDON STREET ART WALK",
+      "text": "LONDON STREET ART WALK — Three Stops, Three Stories\n\nSTOP 1 · Shoreditch\nOnce a home for poor workers, now one of the coolest corners of the city. Look for STIK's three figures and read the past, present, and future in their eyes.\n\nSTOP 2 · Finsbury Park\nStand in front of Banksy's green tree and ask yourself: ______________________\n\nSTOP 3 · Muswell Hill\nLook down, not up! Tiny gum paintings by Ben Wilson carry birthday wishes and other personal messages from people on the street.\n\nWHEN: Every Saturday, 10 a.m. – 1 p.m.\nMEET: Shoreditch Station, Exit 2\nPRICE: Free for students under 16 / £8 for adults\nGUIDES: English, Korean, and Spanish\nBook online by Friday. Walking shoes only!"
+    },
+    {
+      "id": "T9",
+      "kind": "standalone_set",
+      "title": "단문 ①~⑤",
+      "text": "① There used to be a small bakery on this street, but it closed last year.\n② I felt someone touched my shoulder on the bus.\n③ The woman whom we met at the museum is a famous street artist.\n④ It was so an exciting game that I forgot the time.\n⑤ She watched her brother playing soccer in the park."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T1의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 4,
+      "why_ko": "④ used to 뒤에는 동사원형이 와야 하므로 used to riding은 used to ride로 고쳐야 한다. ①②는 목적격 관계대명사(that/which)로 올바르고, ③ There used to be ~는 '예전에 ~가 있었다'로 맞으며, ⑤ whom은 사람을 선행사로 하는 목적격 관계대명사로 옳다.",
+      "grammar_point": "VERB_USED_TO"
+    },
+    {
+      "no": 2,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T2의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "③ people은 셀 수 있는 명사의 복수형이므로 so much people이 아니라 so many people로 써야 한다. ① so+형용사+that, ② 지각동사 hear+목적어+동사원형, ④ such+a+형용사+명사+that, ⑤ 지각동사 see+목적어+-ing는 모두 옳다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 3,
+      "material_id": "P5",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말로, P5에서 찾을 수 있는 것은? : to give someone the hope or the strong wish to do something good",
+      "options": [
+        "face",
+        "remind",
+        "inspire",
+        "stay",
+        "prison"
+      ],
+      "answer": 3,
+      "why_ko": "'다른 사람에게 좋은 일을 하고 싶은 마음이나 희망을 불어넣다'는 inspire의 뜻이다. remind는 '기억나게 하다', face는 '(어려움을) 마주하다'로 뜻이 다르다.",
+      "grammar_point": "영영풀이-기본"
+    },
+    {
+      "no": 4,
+      "material_id": "P5",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "P5에서 Yu Gwansun에 관해 언급되지 않은 것은?",
+      "options": [
+        "그녀가 감옥에서 지낸 기간의 길이",
+        "그녀가 친구와 이웃에게 당부한 말의 내용",
+        "그녀가 일어나 다른 사람들과 함께 싸운 날짜",
+        "체포된 뒤에도 주변 사람들에게 미친 영향",
+        "그녀가 나라를 위해 나섰을 때의 나이대"
+      ],
+      "answer": 1,
+      "why_ko": "감옥에서 어려운 시간을 보냈다는 사실은 나오지만 그 기간이 얼마나 되는지는 언급되지 않았다. 날짜(1919년 3월 1일), 희망을 버리지 말라는 당부, 주변 사람들에게 계속 영감을 주었다는 점, 십 대였다는 점은 모두 나온다. [검수 2026-10-06: 정답 ③→① — ①이 0개라 선지 자리만 바꿈]"
+    },
+    {
+      "no": 5,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T3의 대화 [1]~[5]의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "② '너무 ~해서 …하다'는 so+형용사+that이므로 too loud that이 아니라 so loud that으로 써야 한다. too는 'too ~ to부정사' 형태로 쓴다. ③은 목적격 관계대명사, ④는 지각동사 smell+목적어+-ing, ⑤는 used to+동사원형으로 모두 옳다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 6,
+      "material_id": "P1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "P1의 Ben Wilson의 작품에 관한 다음 우리말과 뜻이 같도록 [the photos / that / showed / she / me]를 모두 바르게 배열한 것은? (그녀가 나에게 보여 준 그 사진들은 모두 껌 위에 그려진 것이었다. → ______________________ were all painted on gum.)",
+      "options": [
+        "The photos that she showed me",
+        "The photos that showed me she",
+        "The photos she that showed me",
+        "That the photos she showed me",
+        "The photos me that she showed"
+      ],
+      "answer": 1,
+      "why_ko": "목적격 관계대명사 that이 이끄는 절이 선행사 the photos를 뒤에서 꾸민다. 관계사절 안에서는 「주어(she)+동사(showed)+간접목적어(me)」 순서이며, showed의 직접목적어 자리는 관계대명사가 대신하므로 비워 둔다. [검수 2026-10-06: 정답 ③→① — ①이 0개라 선지 자리만 바꿈]",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 7,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "T4의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 5,
+      "why_ko": "⑤ 선행사 The picture가 앞에 있으므로 what이 아니라 목적격 관계대명사 that(또는 which)을 써야 한다. what은 선행사를 포함하는 관계대명사라 앞에 명사가 올 수 없다. ①은 목적격 관계대명사, ②는 used to+동사원형, ③은 watch+목적어+-ing, ④는 so+형용사+that으로 옳다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 8,
+      "material_id": "P6",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "P6의 his work quickly went beyond the classroom이 문맥에서 뜻하는 바에 가장 가까운 것은?",
+      "options": [
+        "to walk past a room without going inside it",
+        "to include much more than teaching students at school",
+        "to arrive at a place later than the other teachers",
+        "to stop working because the job was too hard",
+        "to understand something that is too difficult for others"
+      ],
+      "answer": 2,
+      "why_ko": "뒤에 한글 연구, 국제 신문 기고, 해외 순방 등이 이어지므로 '교실에서 학생을 가르치는 일을 훨씬 넘어서는 활동을 했다'는 뜻이다. ①은 beyond의 문자 그대로의 뜻, ④는 문맥과 반대, ⑤는 beyond의 다른 뜻(이해의 범위를 넘다)을 그대로 옮긴 함정이다.",
+      "grammar_point": "영영풀이-유추"
+    },
+    {
+      "no": 9,
+      "material_id": "P6",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "P6의 내용과 일치하는 것은?",
+      "options": [
+        "He came to Korea in the early 1900s to work at a hospital.",
+        "He thought Hangeul was logical but too difficult for ordinary people.",
+        "He stopped helping the independence movement after he left Korea.",
+        "He asked for Korea's independence both in newspapers and on trips abroad.",
+        "He spent his last years in Canada and was buried there."
+      ],
+      "answer": 4,
+      "why_ko": "그는 국제 신문에 글을 썼고 미국과 유럽을 다니며 독립을 호소했다. ①은 1800년대 후반에 왕립 학교에서 가르치려고 왔으므로 틀리고, ②는 한글이 논리적이고 배우기 쉽다고 보았으므로 틀리며, ③은 떠난 뒤에도 계속 도왔으므로 틀리다. ⑤는 Schofield 박사와 혼동시킨 선지로, Hulbert는 1949년 서울에서 생을 마쳤다."
+    },
+    {
+      "no": 10,
+      "material_id": "T5",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "T5의 ①~⑤ 중 어법상 틀린 문장은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 3,
+      "why_ko": "③ 선행사 The song은 사물이므로 whom을 쓸 수 없고 that이나 which로 고쳐야 한다. ①은 「전치사+목적격 관계대명사절」, ②는 feel+목적어+-ing, ④는 used to+동사원형, ⑤는 such+a+형용사+명사+that으로 모두 옳다.",
+      "grammar_point": "REL_OBJECT"
+    },
+    {
+      "no": 11,
+      "material_id": "P6",
+      "type": "T-PHRASE-INFER",
+      "points": 5,
+      "stem_ko": "P6의 Hulbert didn't keep quiet가 의미하는 바로 가장 알맞은 것은?",
+      "options": [
+        "그는 한국에 대한 글쓰기를 멈추고 조용히 지냈다.",
+        "그는 일본 경찰의 감시를 피해 곧바로 한국을 떠났다.",
+        "그는 교실 밖의 일에는 관여하지 않으려 했다.",
+        "그는 한글을 연구하는 일에만 조용히 몰두했다.",
+        "그는 한국이 자유로워야 한다고 국제 사회에 공개적으로 말했다."
+      ],
+      "answer": 5,
+      "why_ko": "바로 다음 문장에서 그가 국제 신문에 한국이 자유로워야 한다고 썼고 미국과 유럽을 다니며 독립을 호소했다고 했으므로, '침묵하지 않았다'는 공개적으로 목소리를 냈다는 뜻이다. ①③은 문맥과 반대이고, ④는 앞부분 내용만 떼어낸 함정, ②는 Schofield 박사의 일이다. [검수 2026-10-06: 정답 ②→⑤ — ①이 0개라 선지 자리만 바꿈]"
+    },
+    {
+      "no": 12,
+      "material_id": "T6",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "T6의 (A), (B), (C) 괄호 안에서 어법상 알맞은 것끼리 바르게 짝지은 것은?",
+      "options": [
+        "what – ring – so",
+        "what – to ring – such",
+        "that – to ring – so",
+        "that – ring – so",
+        "that – ring – such"
+      ],
+      "answer": 4,
+      "why_ko": "(A) 선행사 The old clock이 있으므로 목적격 관계대명사 that. (B) 지각동사 hear의 목적격보어는 동사원형(ring) 또는 -ing이며 to부정사는 쓸 수 없다. (C) 뒤에 형용사 loud가 오므로 so loud that이 맞고 such는 명사(구) 앞에 쓴다.",
+      "grammar_point": "REL_OBJECT / PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 13,
+      "material_id": "P5",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "P5와 P6의 두 인물에 대한 설명으로 알맞은 것은?",
+      "options": [
+        "두 사람 모두 자신의 신념을 행동으로 옮겨 주위 사람들에게 영향을 주었다.",
+        "두 사람 모두 일본의 감시 아래 국제 신문에 글을 실었다.",
+        "두 사람 모두 한국을 떠난 뒤에도 한국의 독립을 위해 계속 일했다.",
+        "두 사람 모두 어린 나이에 나라를 위해 처음으로 목소리를 냈다.",
+        "두 사람 모두 한국 정부의 초청을 받아 한국으로 돌아왔다."
+      ],
+      "answer": 1,
+      "why_ko": "Yu Gwansun은 용기를 내어 거리로 나서 사람들에게 희망을 주었고, Hulbert는 글과 여행으로 한국의 독립을 호소해 신뢰받는 친구가 되었다. ③②는 Hulbert에게만, ④는 Yu Gwansun에게만 해당하며, ⑤는 두 글 어디에도 없다(Schofield 박사의 일). [검수 2026-10-06: 정답 ③→① — ①이 0개라 선지 자리만 바꿈]"
+    },
+    {
+      "no": 14,
+      "material_id": "T7",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 4,
+      "stem_ko": "T7의 ①~⑤ 중 밑줄 친 -ing의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤"
+      ],
+      "answer": 2,
+      "why_ko": "②의 talking은 동사 kept의 목적어로 쓰인 동명사이고, 나머지는 모두 지각동사(saw, hear, watched, felt)의 목적격보어로 쓰인 현재분사이다.",
+      "grammar_point": "PERCEPTION_VERB_OC"
+    },
+    {
+      "no": 15,
+      "material_id": "P1",
+      "type": "T-WORD-ORDER",
+      "points": 5,
+      "stem_ko": "P1의 Ben Wilson의 작품에 관한 다음 우리말과 뜻이 같도록 [so / that / are / small / his gum paintings]를 모두 바르게 배열한 것은? (그의 껌 그림들은 너무 작아서 사람들은 종종 그것들을 알아채지 못한다. → ______________________ people often don't notice them.)",
+      "options": [
+        "His gum paintings so are small that",
+        "So small his gum paintings are that",
+        "His gum paintings small are so that",
+        "His gum paintings are so small that",
+        "His gum paintings are small so that"
+      ],
+      "answer": 4,
+      "why_ko": "'너무 ~해서 …하다'는 「so+형용사+that+주어+동사」이므로 are so small that 순서가 되어야 한다. ⑤의 so that은 '~하기 위해서'라는 목적의 뜻이어서 우리말과 맞지 않는다.",
+      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+    },
+    {
+      "no": 16,
+      "material_id": "T8",
+      "type": "T-BLANK",
+      "points": 3,
+      "stem_ko": "T8 포스터의 빈칸에 들어갈 말로 가장 알맞은 것은?",
+      "options": [
+        "Which figure shows the future of this area?",
+        "What is nature trying to tell us?",
+        "Who dropped this piece of gum here?",
+        "How many lines and dots did the artist use?",
+        "Which bus should we take to the next stop?"
+      ],
+      "answer": 2,
+      "why_ko": "STOP 2는 사회적 메시지를 담은 Banksy의 초록 나무 앞에서 던지는 질문이므로 자연이 우리에게 전하려는 말을 묻는 ②가 알맞다. ①④는 STOP 1의 STIK, ③은 STOP 3의 Ben Wilson과 관련된 내용이다."
+    },
+    {
+      "no": 17,
+      "material_id": "T8",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "T8 포스터의 내용과 일치하지 않는 것은?",
+      "options": [
+        "투어는 토요일 오전에 시작해 세 곳을 돈다.",
+        "Shoreditch는 예전에 가난한 노동자들이 살던 곳이다.",
+        "16세 미만 학생은 참가비를 내지 않아도 된다.",
+        "안내는 영어와 한국어 두 언어로만 제공된다.",
+        "참가하려면 금요일까지 온라인으로 예약해야 한다."
+      ],
+      "answer": 4,
+      "why_ko": "안내는 영어, 한국어, 스페인어 세 언어로 제공된다고 했으므로 ④가 일치하지 않는다."
+    },
+    {
+      "no": 18,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 3,
+      "stem_ko": "P4의 대화 내용과 일치하지 않는 것은?",
+      "options": [
+        "소년은 평소에 사과 소다를 마시지만 오늘은 다른 것을 마셔 보고 싶어 한다.",
+        "소년은 소녀가 추천한 체리 소다를 한번 마셔 보겠다고 했다.",
+        "Liam은 숙제에 쓸 책을 찾아 달라고 Somi에게 부탁했다.",
+        "Somi는 원래 Dr. Schweitzer에 대해 쓰려고 생각하고 있었다.",
+        "Morning in Venice는 이탈리아 음식을 파는 식당이다."
+      ],
+      "answer": 3,
+      "why_ko": "도움을 요청한 사람은 Somi이고 Liam이 책과 인물을 추천해 주었으므로 ③은 역할이 뒤바뀐 설명이다."
+    }
+  ],
+  "essays": [
+    {
+      "no": 19,
+      "material_id": "P6",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 뜻이 같도록 <조건>에 맞게 빈칸을 완성하시오.",
+      "context": "헐버트는 많은 한국인들이 깊이 신뢰한 친구가 되었다.\n→ Hulbert became ______________________ .",
+      "conditions": [
+        "주어진 단어를 모두 사용하되, 필요하면 형태를 바꿀 것",
+        "빈칸에 목적격 관계대명사가 이끄는 절이 들어가게 할 것",
+        "필요하면 관사를 추가할 것",
+        "빈칸은 7단어로 쓸 것(띄어쓰기 기준, 줄임말은 한 단어)"
+      ],
+      "answer_slots": [
+        "Hulbert became ______________________ ."
+      ],
+      "given_words": [
+        "friend",
+        "that",
+        "many",
+        "Korean",
+        "trust",
+        "deep"
+      ],
+      "word_limit": "7단어",
+      "target_grammar": "REL_OBJECT (목적격 관계대명사)",
+      "answer_en": "a friend that many Koreans trusted deeply (that 대신 who·whom 도 정답 · deeply trusted 도 정답)",
+      "why_ko": "선행사 a friend를 목적격 관계대명사 that이 이끄는 절이 뒤에서 꾸민다. Korean→Koreans(복수), trust→trusted(과거), deep→deeply(부사)로 형태를 바꿔야 하며, trusted의 목적어 자리는 비워 둔다. [검수 2026-10-06] 복수정답 표기"
+    },
+    {
+      "no": 20,
+      "material_id": "P5",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 뜻이 같도록 <조건>에 맞게 빈칸을 완성하시오.",
+      "context": "어려운 시기에도 사람들은 그녀가 감옥에서 강인함을 잃지 않고 버티고 있는 것을 지켜보았다.\n→ Even in hard times, people ______________________ .",
+      "conditions": [
+        "주어진 단어를 모두 사용하되, 필요하면 형태를 바꿀 것",
+        "목적격보어는 진행 중인 모습을 나타내는 형태로 쓸 것",
+        "주어진 단어에 없는 전치사 한 개를 스스로 넣을 것",
+        "P5에 나온 표현을 세 단어 이상 연속해서 그대로 옮겨 쓰지 말 것",
+        "빈칸은 6단어로 쓸 것(띄어쓰기 기준)"
+      ],
+      "answer_slots": [
+        "Even in hard times, people ______________________ ."
+      ],
+      "given_words": [
+        "watch",
+        "she",
+        "stay",
+        "strong",
+        "prison"
+      ],
+      "word_limit": "6단어",
+      "target_grammar": "PERCEPTION_VERB_OC (지각동사+목적격보어)",
+      "answer_en": "watched her staying strong in prison",
+      "why_ko": "지각동사 watch의 목적어는 목적격 her로, 목적격보어는 진행의 뜻을 살려 staying으로 쓴다. 장소를 나타내는 전치사 in을 넣어 in prison으로 마무리한다."
+    },
+    {
+      "no": 21,
+      "material_id": "P2",
+      "points": 5,
+      "prompt_ko": "다음 우리말과 뜻이 같도록 <조건>에 맞게 빈칸을 완성하시오.",
+      "context": "1919년 3월 1일 그곳에는 사람이 너무 많아서 Dr. Schofield는 그들을 모두 셀 수 없었다.\n→ On March 1, 1919, there ______________________ count them all.",
+      "conditions": [
+        "주어진 단어를 모두 사용하고, 과거 시제에 맞게 형태를 바꿀 것",
+        "부정은 줄임말 형태로 쓸 것(줄임말은 한 단어로 셈)",
+        "빈칸은 7단어로 쓸 것(띄어쓰기 기준)"
+      ],
+      "answer_slots": [
+        "On March 1, 1919, there ______________________ count them all."
+      ],
+      "given_words": [
+        "be",
+        "so",
+        "many",
+        "people",
+        "that",
+        "he",
+        "can"
+      ],
+      "word_limit": "7단어",
+      "target_grammar": "SO_SUCH_TOO_ENOUGH (so ~ that)",
+      "answer_en": "were so many people that he couldn't",
+      "why_ko": "people은 복수 취급이므로 There were, 셀 수 있는 명사 앞이므로 so many를 쓴다. 과거 시제이므로 can→couldn't로 바꾸고 뒤에 동사원형 count가 이어진다. [검수 2026-10-06] 「P2의 내용에 맞게」 삭제 — 「셀 수 없을 만큼」 은 본문에 없는 내용"
+    },
+    {
+      "no": 22,
+      "material_id": "P1",
+      "points": 5,
+      "prompt_ko": "다음 질문에 대한 답을 P1과 P3의 내용에 맞게 완성하시오.",
+      "context": "(1) Q: What kind of people used to live in Shoreditch?\nA: Poor workers ______________________ .\n(2) Q: How long will it take to get to the Dream Shopping Mall by bus?\nA: It will take ______________________ .",
+      "conditions": [
+        "본문에 나온 표현만 사용할 것",
+        "(1)은 used to를 포함해 6단어로 쓸 것",
+        "(2)는 교통수단을 나타내는 전치사구를 포함해 6단어로 쓸 것"
+      ],
+      "answer_slots": [
+        "(1) ______________________",
+        "(2) ______________________"
+      ],
+      "given_words": [],
+      "word_limit": "각 칸 6단어",
+      "target_grammar": "VERB_USED_TO (used to) + 전치사구",
+      "answer_en": "used to live in this area\nless than 10 minutes by bus",
+      "why_ko": "(1) '예전에는 ~했다'는 used to+동사원형이며 본문 표현 in this area를 그대로 쓴다. (2) 버스로 10분이 채 걸리지 않는다고 했고, 교통수단 앞에는 관사 없이 by bus를 쓴다. [검수 2026-10-06] (2) 근거 자료 P3(L5 대화 ③⑥⑨) 가 응답에서 빠져 원본으로 넣음"
+    },
+    {
+      "no": 23,
+      "material_id": "T9",
+      "points": 5,
+      "prompt_ko": "T9의 ①~⑤ 중 어법상 틀린 문장 2개를 골라 기호를 쓰고, 틀린 부분을 바르게 고쳐 쓰시오.",
+      "context": "※ 번호가 작은 것부터 순서대로 쓸 것.",
+      "conditions": [
+        "기호를 쓰고 「틀린 말 → 고친 말」 형태로 쓸 것",
+        "문장 전체를 다시 쓰지 말 것"
+      ],
+      "answer_slots": [
+        "(1) 기호: ___ / ____________ → ____________",
+        "(2) 기호: ___ / ____________ → ____________"
+      ],
+      "given_words": [],
+      "word_limit": "고친 말만 쓸 것",
+      "target_grammar": "PERCEPTION_VERB_OC / SO_SUCH_TOO_ENOUGH",
+      "answer_en": "② touched → touch (touching 도 정답)\n④ so an exciting game → such an exciting game",
+      "why_ko": "②는 지각동사 felt의 목적격보어이므로 과거형 touched가 아니라 동사원형 touch(또는 진행의 뜻이면 touching)를 써야 한다. ④는 「a+형용사+명사」 앞이므로 so가 아니라 such를 써야 한다. ①③⑤는 각각 There used to be, 목적격 관계대명사 whom, watch+목적어+-ing로 모두 옳다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [
+      "모델이 응답에서 자료 P1·P2·P4·P5·P6 를 빼먹어 원본으로 채워 넣음"
+    ],
+    "warnings": [
+      "서술형 20번 필수 단어가 답에 안 보임 ['she'] — 굴절형일 수 있으니 눈으로 확인",
+      "서술형 21번 필수 단어가 답에 안 보임 ['be', 'can'] — 굴절형일 수 있으니 눈으로 확인"
+    ],
+    "n_items": 18,
+    "n_essays": 5,
+    "total_points": 100
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 16399,
+    "output": 36907,
+    "usd": 1.0291
+  },
+  "review": [
+    "검수 2026-10-06: P3 자료 수동 보충 · 정답 위치 4문항 이동 · 19 복수정답 · 21 지시문"
+  ]
+}

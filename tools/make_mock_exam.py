@@ -118,6 +118,13 @@ SET_PASSAGES = {
     6: [("L6 본문", ["Dr. Schofield, a Foreigner Who Loved Korea"]),
         ("L5 대화 ⑦⑧⑨", ["L5 대화-7", "L5 대화-8", "L5 대화-9"]),
         ("L6 대화 ④⑤⑥", ["L6 대화-4", "L6 대화-5", "L6 대화-6"])],
+    # 7세트 — 원장 2026-10-06 「영덕중2 난이도 올려서 하나 더」(--hard). 본문 두 편을 다 싣고
+    # 대화는 1~6세트에서 한 번도 같이 묶이지 않은 조합. Read More 는 빼서 외부지문 몫을 늘린다.
+    7: [("L5 본문", ["Street Art in London-1", "Street Art in London-2",
+                     "Street Art in London-3", "Street Art in London-4"]),
+        ("L6 본문", ["Dr. Schofield, a Foreigner Who Loved Korea"]),
+        ("L5 대화 ③⑥⑨", ["L5 대화-3", "L5 대화-6", "L5 대화-9"]),
+        ("L6 대화 ②⑤⑧", ["L6 대화-2", "L6 대화-5", "L6 대화-8"])],
 }
 
 
@@ -133,6 +140,8 @@ def spec_for(spec, set_no):
         return spec
     out = {k: v for k, v in spec.items() if k != "essay_sets"}
     out.update(es["override"])
+    # 세트 하나만 다르게 — `by_set` 이 override 위에 한 번 더 덮는다 (영덕중2 7세트, 2026-10-06)
+    out.update(es.get("by_set", {}).get(str(set_no), {}))
     return out
 
 

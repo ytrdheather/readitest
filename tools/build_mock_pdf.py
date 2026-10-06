@@ -57,11 +57,15 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--school", action="append")
     ap.add_argument("--out", default=OUT)
+    ap.add_argument("--set", type=int, action="append",
+                    help="이 세트만 — 이미 배부한 세트 PDF 를 다시 덮어쓰지 않게 (2026-10-06)")
     a = ap.parse_args()
 
     files = sorted(glob.glob(os.path.join(MOCK, "*세트.json")))
     if a.school:
         files = [f for f in files if any(os.path.basename(f).startswith(s) for s in a.school)]
+    if a.set:
+        files = [f for f in files if any(os.path.basename(f).endswith(f"_{n}세트.json") for n in a.set)]
     if not files:
         raise SystemExit("세트 JSON 이 없습니다: " + MOCK)
 

@@ -241,14 +241,22 @@ def format_avoid(prior_sets):
     lines = []
     for ps in prior_sets:
         for it in ps.get("items", []):
-            lines.append(f"  [{ps['set_no']}세트] {it.get('type','')} · {it.get('stem_ko','')[:70]}")
+            # 정답 선지도 싣는다 — 지시문 앞 70자만 실었더니 영영풀이는 지시문이 다 같아서
+            # 정답 낱말(praise · promote · control)이 세트마다 되풀이됐다 (영덕중2 4~6세트, 2026-10-06 발견)
+            opts, ans = it.get("options", []), it.get("answer", 0)
+            key = opts[ans - 1][:40] if 1 <= ans <= len(opts) else ""
+            stem = " ".join(it.get("stem_ko", "").split())[:70]
+            lines.append(f"  [{ps['set_no']}세트] {it.get('type','')} · {stem} → 정답 {key}")
         for e in ps.get("essays", []):
-            lines.append(f"  [{ps['set_no']}세트] T-WRITE · {e.get('prompt_ko','')[:70]}")
+            ans = " / ".join(l for l in e.get("answer_en", "").split("\n") if l.strip())[:60]
+            lines.append(f"  [{ps['set_no']}세트] T-WRITE · {e.get('prompt_ko','')[:50]} → {ans}")
     return ("\n\n## 🔁 이미 낸 문항 — 같은 지점을 다시 묻지 마십시오\n\n"
             "같은 지문이 이번에도 재사용됩니다. 아래는 과거 세트에서 이미 낸 문항입니다. "
             "**같은 구절·같은 문장·같은 지시어를 다시 정답 근거로 쓰지 마시고, "
             "그 지문 안의 다른 문장·다른 지점을 겨냥하십시오.** 문항 유형이 같아도 "
-            "괜찮지만(예: T-DETAIL 여러 번), 노리는 부분은 매번 달라야 합니다.\n\n"
+            "괜찮지만(예: T-DETAIL 여러 번), 노리는 부분은 매번 달라야 합니다. "
+            "**「→ 정답」 에 나온 낱말·표현을 이번 세트의 정답으로 다시 쓰지 마십시오** "
+            "(영영풀이 정답 낱말, 서술형 모범답 문장 포함).\n\n"
             + "\n".join(lines) + "\n")
 
 
@@ -268,6 +276,20 @@ def build_params(school, spec, common, materials, points_hint, set_no, hard=Fals
                 "`get off at ~ Station` · `by subway` 처럼 굳어진 결합이 좋습니다.")
 
     sig = "\n".join(f"  · {x}" for x in spec["signature"])
+    # 설계도가 기계 검사(parse)로 거는 조건은 프롬프트에도 그대로 알린다 — 검사만 있고 지시가 없으면 버려지기만 한다
+    if spec.get("vocab_kinds"):
+        sig += ("\n  · **영영풀이 문항의 `grammar_point` 칸에 갈래 이름을 그대로 적으십시오: "
+                + " · ".join(f"「{k}」" for k in spec["vocab_kinds"]) + "** — 갈래마다 정확히 1문항")
+        for k, v in spec.get("vocab_kind_notes", {}).items():
+            sig += f"\n      {k}: {v}"
+    if spec.get("external_min"):
+        sig += (f"\n  · **외부지문(제목이 「외부지문」 인 P 자료)을 가리키는 문항이 선택형·서술형 합쳐 "
+                f"{spec['external_min']}개 이상** — 두 편 모두 고르게 쓰고, 문항이 그 P 번호를 `material_id` 로 가리켜야 셉니다")
+    if spec.get("essay_slot_words"):
+        lo, hi = spec["essay_slot_words"]
+        sig += (f"\n  · **서술형 답은 칸 하나에 {lo}~{hi}단어** (고쳐 쓰기 「틀린 말 → 고친 말」 만 예외). "
+                f"완전한 문장을 통째로 쓰게 하지 말고 문장 틀을 주고 빈칸을 {lo}~{hi}단어로, "
+                f"「○번째 단어」 한 단어짜리도 내지 마십시오. answer_en 은 칸마다 한 줄, 그 줄에 학생이 쓸 말만")
     hard_block = HARD_MODE if hard else ""
     user = f"""# {school} 동형 모의고사 {set_no}세트
 {hard_block}
@@ -405,6 +427,20 @@ def parse(raw, spec, given, source_mats=None):
     n_vocab = sum(1 for x in items if x.get("type") == "T-VOCAB-CONTEXT")
     if n_vocab != spec["vocab_items"]:
         problems.append(f"영영풀이 {n_vocab}문항 (설계 {spec['vocab_items']})")
+    # 외부지문 비중 (설계도 `external_min`) — 4~6세트는 외부지문 두 편에 2~3문항뿐이었다.
+    ext_min = spec.get("external_min")
+    if ext_min:
+        ext = {m["id"] for m in (source_mats or []) if m["title"].startswith("외부지문")}
+        n_ext = sum(1 for x in items + essays if x.get("material_id") in ext)
+        if n_ext < ext_min:
+            problems.append(f"외부지문 문항 {n_ext}개 (설계 {ext_min}개 이상)")
+    # 영영풀이 갈래 (설계도 `vocab_kinds`) — 모델이 `grammar_point` 에 갈래 이름을 적는다.
+    # 영덕중2 4~6세트는 둘 다 「풀이 → 낱말」 단순형이었다 (원장 2026-10-06 「단순 1 + 지문 유추 1」).
+    want = spec.get("vocab_kinds")
+    if want:
+        got = sorted(x.get("grammar_point", "") for x in items if x.get("type") == "T-VOCAB-CONTEXT")
+        if got != sorted(want):
+            problems.append(f"영영풀이 갈래 {got} (설계 {sorted(want)})")
 
     # 서술형은 **조건을 스스로 어기기 쉽다** — 단어 수를 정해 놓고 답이 그 밖으로
     # 나가거나, 필수 단어를 안 쓰는 일이 생긴다. 다만 여기는 **경고만** 한다:
@@ -423,6 +459,20 @@ def parse(raw, spec, given, source_mats=None):
             if len(re.findall(r"[A-Za-z][A-Za-z'’-]*", body)) > 7:
                 problems.append(f"서술형 {e.get('no')}번 답 한 칸이 7단어를 넘음 — 채점형 아님: {ln.strip()[:40]}")
                 break
+        # 칸 하나 단어 수 범위 (설계도 `essay_slot_words`) — 영덕중2 7세트 원장 2026-10-06
+        # 「긴 문장으로 답 안 쓰도록 4~7단어 정도」. 한 단어짜리 「○번째 단어」 도 막는다.
+        # 고쳐 쓰기(→)는 디자인 지침 4 의 「틀린 말 → 고친 말」 이라 세지 않는다.
+        lo_hi = spec.get("essay_slot_words")
+        if lo_hi:
+            for ln in e.get("answer_en", "").split("\n"):
+                if not ln.strip() or ln.strip().startswith("(완성 문장") or "→" in ln:
+                    continue
+                body = re.sub(r"^\s*(\(\w\)|\w+번째\s*(단어)?\s*:|[A-Za-z]\s*:)", "", ln)
+                body = re.sub(r"\([^)]*(정답|또는|가능)[^)]*\)", "", body)
+                n = len(re.findall(r"[A-Za-z][A-Za-z'’-]*", body))
+                if not lo_hi[0] <= n <= lo_hi[1]:
+                    problems.append(f"서술형 {e.get('no')}번 답 한 칸이 {n}단어 "
+                                    f"(설계 {lo_hi[0]}~{lo_hi[1]}): {ln.strip()[:40]}")
         ans_en = e.get("answer_en", "")
         if "(완성 문장" in ans_en:
             ans_en = ans_en.split("(완성 문장:", 1)[1].strip().rstrip(")")   # 단어 수는 완성 문장으로 센다
