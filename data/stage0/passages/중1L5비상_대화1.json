@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L5비상_대화1",
+  "kind": "textbook_dialogue",
+  "title": "중1 L5 비상 대화-1",
+  "textbook": {
+    "publisher": "비상",
+    "author": "황종배",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "M: Wow. This bookstore is really big.\nW: Yeah. There are many sections. What are you interested in?\nM: I’m interested in cooking these days.\nW: Okay. Let’s go to that section first.",
+  "body_text_sha256": "e0290384db01370f6b3db0b99be29bc4c0d75ecae473b02391f2b82b66a075c5",
+  "word_count": 33,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "내콘 중1 2학기 비상황.pdf",
+    "note": "내신콘서트 「DIALOGUES_대화」 해설 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화는 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Everyday Communication 1 A1",
+  "textbook_page": null,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "M",
+      "text": "Wow. This bookstore is really big."
+    },
+    {
+      "no": 2,
+      "speaker": "W",
+      "text": "Yeah. There are many sections. What are you interested in?"
+    },
+    {
+      "no": 3,
+      "speaker": "M",
+      "text": "I’m interested in cooking these days."
+    },
+    {
+      "no": 4,
+      "speaker": "W",
+      "text": "Okay. Let’s go to that section first."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

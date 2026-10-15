@@ -1,0 +1,375 @@
+{
+  "school": "청명중",
+  "grade": 1,
+  "lesson": 5,
+  "textbook": "비상(황종배) 2022개정",
+  "unit_title": "Give LIKEs to Our Game",
+  "source": "청명중1 L5 학습지 4쪽 (Z:/…/2026 2학기 학교 프린트 모음/청명중1 L5.pdf)",
+  "source_note": "텍스트 레이어 없는 스캔 + 학생 손글씨. 인쇄된 것만 옮겼다. New Words(No.1) 의 우리말 뜻·예문 해석은 손글씨 빈칸이라 없다. 영영풀이(No.2)는 표제어가 손글씨이고 풀이만 인쇄돼 있어, 풀이를 New Words 40개와 하나씩 맞춰 표제어를 정했다 (40개 전부 1:1로 맞음).",
+  "read_at": "2026-10-16",
+  "read_by": "Claude (비전 판독, 인쇄 글자만)",
+  "format": "1쪽 Lesson 5. Meet the New World 표지 + 학습 목표. 2쪽 New Words 40개 (품사·뜻 빈칸·예문·예문 해석 빈칸). 3쪽 영영풀이 40개 (표제어 빈칸, 순서는 New Words 와 다름). 4쪽 Review — <보기> 20개로 우리말 뜻 맞춰 빈칸 채우기 20문항 + 자기 문장 쓰기.",
+  "def_src_note": "def_src = '학교' — 40개 전부 학교 학습지에 인쇄된 영영풀이.",
+  "words": [
+    {
+      "no": 1,
+      "word": "add",
+      "pos": "동",
+      "def_en": "to put something more with something else",
+      "def_src": "학교",
+      "def_no": 6,
+      "example_en": "They'll add more flowers to the garden."
+    },
+    {
+      "no": 2,
+      "word": "adventure",
+      "pos": "명",
+      "def_en": "an exciting or dangerous experience",
+      "def_src": "학교",
+      "def_no": 7,
+      "example_en": "They went on an adventure."
+    },
+    {
+      "no": 3,
+      "word": "app",
+      "pos": "명",
+      "def_en": "a program you use on your phone or tablet",
+      "def_src": "학교",
+      "def_no": 8,
+      "example_en": "He made an interesting app."
+    },
+    {
+      "no": 4,
+      "word": "background",
+      "pos": "명",
+      "def_en": "the things behind the main subject or what happened before",
+      "def_src": "학교",
+      "def_no": 9,
+      "example_en": "He painted a building in the background."
+    },
+    {
+      "no": 5,
+      "word": "be interested in",
+      "pos": "동",
+      "def_en": "to like or want to learn more about something",
+      "def_src": "학교",
+      "def_no": 10,
+      "example_en": "She is interested in art."
+    },
+    {
+      "no": 6,
+      "word": "be into",
+      "pos": "동",
+      "def_en": "to enjoy something a lot; to be very interested in it",
+      "def_src": "학교",
+      "def_no": 16,
+      "example_en": "Mike is into robots."
+    },
+    {
+      "no": 7,
+      "word": "character",
+      "pos": "명",
+      "def_en": "a person in a story, movie, or game",
+      "def_src": "학교",
+      "def_no": 17,
+      "example_en": "She likes all the characters in this movie."
+    },
+    {
+      "no": 8,
+      "word": "code",
+      "pos": "동",
+      "def_en": "a set of instructions for a computer",
+      "def_src": "학교",
+      "def_no": 18,
+      "example_en": "She coded her first computer program."
+    },
+    {
+      "no": 9,
+      "word": "enjoy",
+      "pos": "동",
+      "def_en": "to feel happy when doing something",
+      "def_src": "학교",
+      "def_no": 19,
+      "example_en": "They enjoy playing soccer."
+    },
+    {
+      "no": 10,
+      "word": "exciting",
+      "pos": "형",
+      "def_en": "very fun or full of action",
+      "def_src": "학교",
+      "def_no": 20,
+      "example_en": "She heard an exciting idea."
+    },
+    {
+      "no": 11,
+      "word": "factory",
+      "pos": "명",
+      "def_en": "a place where things are made, often by machines",
+      "def_src": "학교",
+      "def_no": 26,
+      "example_en": "There are many factories in this city."
+    },
+    {
+      "no": 12,
+      "word": "finally",
+      "pos": "부",
+      "def_en": "after a long time or after many things happen",
+      "def_src": "학교",
+      "def_no": 27,
+      "example_en": "The writer finally published his first book."
+    },
+    {
+      "no": 13,
+      "word": "future",
+      "pos": "명",
+      "def_en": "the time that will come after now",
+      "def_src": "학교",
+      "def_no": 28,
+      "example_en": "We set up a plan for the future."
+    },
+    {
+      "no": 14,
+      "word": "giant",
+      "pos": "형",
+      "def_en": "very, very big",
+      "def_src": "학교",
+      "def_no": 29,
+      "example_en": "This giant tree is 500 years old."
+    },
+    {
+      "no": 15,
+      "word": "go through",
+      "pos": "동",
+      "def_en": "to experience something or move from start to end",
+      "def_src": "학교",
+      "def_no": 30,
+      "example_en": "I go through the park every day."
+    },
+    {
+      "no": 16,
+      "word": "interesting",
+      "pos": "형",
+      "def_en": "something that catches your attention or makes you curious",
+      "def_src": "학교",
+      "def_no": 36,
+      "example_en": "The class was very interesting."
+    },
+    {
+      "no": 17,
+      "word": "introduce",
+      "pos": "동",
+      "def_en": "to show or tell something for the first time",
+      "def_src": "학교",
+      "def_no": 37,
+      "example_en": "She will introduce her friend to us."
+    },
+    {
+      "no": 18,
+      "word": "island",
+      "pos": "명",
+      "def_en": "land with water all around it",
+      "def_src": "학교",
+      "def_no": 38,
+      "example_en": "We looked around the island."
+    },
+    {
+      "no": 19,
+      "word": "item",
+      "pos": "명",
+      "def_en": "one thing in a group or list",
+      "def_src": "학교",
+      "def_no": 39,
+      "example_en": "She bought a new item."
+    },
+    {
+      "no": 20,
+      "word": "kind",
+      "pos": "명",
+      "def_en": "a type or category of something",
+      "def_src": "학교",
+      "def_no": 40,
+      "example_en": "There are many kinds of music around the world."
+    },
+    {
+      "no": 21,
+      "word": "life jacket",
+      "pos": "명",
+      "def_en": "a vest that helps you float in water",
+      "def_src": "학교",
+      "def_no": 31,
+      "example_en": "He is wearing a life jacket."
+    },
+    {
+      "no": 22,
+      "word": "lost",
+      "pos": "형",
+      "def_en": "not knowing where you are; unable to be found",
+      "def_src": "학교",
+      "def_no": 32,
+      "example_en": "I found a lost cat."
+    },
+    {
+      "no": 23,
+      "word": "maker",
+      "pos": "명",
+      "def_en": "a person who creates or builds things",
+      "def_src": "학교",
+      "def_no": 33,
+      "example_en": "I met the maker of the game."
+    },
+    {
+      "no": 24,
+      "word": "musician",
+      "pos": "명",
+      "def_en": "a person who makes or plays music",
+      "def_src": "학교",
+      "def_no": 34,
+      "example_en": "I want to be a musician."
+    },
+    {
+      "no": 25,
+      "word": "own",
+      "pos": "형",
+      "def_en": "to have something; to belong to you",
+      "def_src": "학교",
+      "def_no": 35,
+      "example_en": "She painted her own room."
+    },
+    {
+      "no": 26,
+      "word": "part",
+      "pos": "명",
+      "def_en": "a piece or section of something whole",
+      "def_src": "학교",
+      "def_no": 21,
+      "example_en": "She read her favorite part of the book."
+    },
+    {
+      "no": 27,
+      "word": "perfect",
+      "pos": "형",
+      "def_en": "without any problems or mistakes",
+      "def_src": "학교",
+      "def_no": 22,
+      "example_en": "That section is perfect for you."
+    },
+    {
+      "no": 28,
+      "word": "publish",
+      "pos": "동",
+      "def_en": "to make something (like a book or app) available to others",
+      "def_src": "학교",
+      "def_no": 23,
+      "example_en": "She will publish her report."
+    },
+    {
+      "no": 29,
+      "word": "real",
+      "pos": "형",
+      "def_en": "not fake; something that truly exists",
+      "def_src": "학교",
+      "def_no": 24,
+      "example_en": "Is this story real?"
+    },
+    {
+      "no": 30,
+      "word": "report",
+      "pos": "명",
+      "def_en": "information about something that happened",
+      "def_src": "학교",
+      "def_no": 25,
+      "example_en": "She finally finished her science report."
+    },
+    {
+      "no": 31,
+      "word": "review",
+      "pos": "명",
+      "def_en": "an opinion about a book, movie, app, etc.",
+      "def_src": "학교",
+      "def_no": 11,
+      "example_en": "I like his movie reviews."
+    },
+    {
+      "no": 32,
+      "word": "section",
+      "pos": "명",
+      "def_en": "a smaller part of something larger",
+      "def_src": "학교",
+      "def_no": 12,
+      "example_en": "This is the last section of the city."
+    },
+    {
+      "no": 33,
+      "word": "share",
+      "pos": "동",
+      "def_en": "to give something to others or let them use it",
+      "def_src": "학교",
+      "def_no": 13,
+      "example_en": "They shared their favorite songs."
+    },
+    {
+      "no": 34,
+      "word": "soon",
+      "pos": "부",
+      "def_en": "in a short time from now",
+      "def_src": "학교",
+      "def_no": 14,
+      "example_en": "She will arrive soon."
+    },
+    {
+      "no": 35,
+      "word": "stage",
+      "pos": "명",
+      "def_en": "a step or level in a process or performance",
+      "def_src": "학교",
+      "def_no": 15,
+      "example_en": "The project is in the beginning stage."
+    },
+    {
+      "no": 36,
+      "word": "stair",
+      "pos": "명",
+      "def_en": "a step in a set used for going up or down",
+      "def_src": "학교",
+      "def_no": 1,
+      "example_en": "He ran up the stairs."
+    },
+    {
+      "no": 37,
+      "word": "tip",
+      "pos": "명",
+      "def_en": "a small piece of helpful advice",
+      "def_src": "학교",
+      "def_no": 2,
+      "example_en": "They need some study tips."
+    },
+    {
+      "no": 38,
+      "word": "useful",
+      "pos": "형",
+      "def_en": "helpful; something that makes a task easier",
+      "def_src": "학교",
+      "def_no": 3,
+      "example_en": "He needs some useful information."
+    },
+    {
+      "no": 39,
+      "word": "weekend",
+      "pos": "명",
+      "def_en": "Saturday and Sunday; the end of the week",
+      "def_src": "학교",
+      "def_no": 4,
+      "example_en": "This weekend was really fun."
+    },
+    {
+      "no": 40,
+      "word": "writer",
+      "pos": "명",
+      "def_en": "a person who writes stories, articles, or books",
+      "def_src": "학교",
+      "def_no": 5,
+      "example_en": "He wrote a letter to his favorite writer."
+    }
+  ]
+}

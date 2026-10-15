@@ -1,0 +1,50 @@
+{
+  "passage_id": "중1L5비상_대화7",
+  "kind": "textbook_dialogue",
+  "title": "중1 L5 비상 대화-7",
+  "textbook": {
+    "publisher": "비상",
+    "author": "황종배",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "W: Is there a musician’s section here?\nM: Yeah, it’s over there in the corner. Are you interested in music?\nW: Yes, I am. I want to be a musician.",
+  "body_text_sha256": "e1be351b3df66c905245e7d48e9288e3f208cafdf20e87782f46cebbe66f7da3",
+  "word_count": 30,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "내콘 중1 2학기 비상황.pdf",
+    "note": "내신콘서트 「DIALOGUES_대화」 해설 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화는 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Everyday Communication 2 A3",
+  "textbook_page": null,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "W",
+      "text": "Is there a musician’s section here?"
+    },
+    {
+      "no": 2,
+      "speaker": "M",
+      "text": "Yeah, it’s over there in the corner. Are you interested in music?"
+    },
+    {
+      "no": 3,
+      "speaker": "W",
+      "text": "Yes, I am. I want to be a musician."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

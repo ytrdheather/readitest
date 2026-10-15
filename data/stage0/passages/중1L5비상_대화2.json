@@ -1,0 +1,55 @@
+{
+  "passage_id": "중1L5비상_대화2",
+  "kind": "textbook_dialogue",
+  "title": "중1 L5 비상 대화-2",
+  "textbook": {
+    "publisher": "비상",
+    "author": "황종배",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "W: Hey, Jim. What book are you reading?\nM: It’s a book about robots.\nW: Are you into robots?\nM: Yeah, I’m really interested in robots.",
+  "body_text_sha256": "f14f537070e50146392f1f3fdee18bb64d6dcfd65eedfa000761d03175fd9c99",
+  "word_count": 26,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "내콘 중1 2학기 비상황.pdf",
+    "note": "내신콘서트 「DIALOGUES_대화」 해설 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화는 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Everyday Communication 1 A2",
+  "textbook_page": null,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "W",
+      "text": "Hey, Jim. What book are you reading?"
+    },
+    {
+      "no": 2,
+      "speaker": "M",
+      "text": "It’s a book about robots."
+    },
+    {
+      "no": 3,
+      "speaker": "W",
+      "text": "Are you into robots?"
+    },
+    {
+      "no": 4,
+      "speaker": "M",
+      "text": "Yeah, I’m really interested in robots."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

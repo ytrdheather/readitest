@@ -1,0 +1,36 @@
+{
+  "passage_id": "중1L5비상_본문",
+  "kind": "textbook_reading",
+  "title": "중1 L5 비상 본문 — Give LIKEs to Our Game",
+  "textbook": {
+    "publisher": "비상",
+    "author": "황종배",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 5",
+  "source_type": "교과서",
+  "body_text": "Hi! I’m Hyunsu. Last summer, my friends and I made our own adventure game, “The Lost Island.” We worked together as a team. First, I wrote a story. The story begins like this: One day you wake up on an island. There are many monsters on the island. You go through a high mountain, a long river, and a giant tower. Choose five items and get off the island. Sujin made the background music and monster sounds. Jean drew the main character and NPCs. Every character looked real. Minwoo coded the game. He put all the parts together. Sounds, characters, and a story were in the game. Our game looked and sounded good. Sumin played the game many times. Then she shared her ideas. She said, “I enjoyed playing the game. But it ends too soon. It needs one more stage. And add more items like a life jacket.” So we added an ice lake stage and more useful items. Now our game looked great. We finally published the game on the app market. We got a lot of reviews! Making a game was hard, but we did it together as a team.",
+  "body_text_sha256": "d5c4e85b7a96ee2abfe24e506c84f73984b3f723c94df79f260c27409c83a487",
+  "word_count": 193,
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "(2022개정)2025년_중1_비상(황종배)_5과_본문10단계 워크북 1 본문해석지_단계별.pdf",
+    "note": "이그잼포유 본문해석지 왼쪽 단(영어)에서 추출. 'STEP n …' 소제목은 body 에서 빼고 headings 에 남겼다. 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": []
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Give LIKEs to Our Game",
+  "sentence_count": 27,
+  "headings": [
+    "STEP 1 Story-making",
+    "STEP 2 Building",
+    "STEP 3 Testing",
+    "STEP 4 Publishing"
+  ]
+}
