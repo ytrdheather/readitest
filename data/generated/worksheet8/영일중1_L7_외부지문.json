@@ -1,0 +1,1144 @@
+{
+ "unit": "Lesson 7 More reading — Two Different Jobs",
+ "school": "영일중",
+ "grade": "1학년",
+ "sentences": [
+  {
+   "no": 1,
+   "en": "At a restaurant, Jane and Maria talked about their jobs.",
+   "ko": "한 식당에서 Jane과 Maria는 그들의 직업에 대해 이야기했다."
+  },
+  {
+   "no": 2,
+   "en": "They agreed that there are a few similarities.",
+   "ko": "그들은 몇 가지 비슷한 점이 있다는 데 동의했다."
+  },
+  {
+   "no": 3,
+   "en": "For both pilots and artists, there is a lot of competition and there are few famous women.",
+   "ko": "조종사와 예술가 둘 다 경쟁이 심하고, 유명한 여성이 거의 없다."
+  },
+  {
+   "no": 4,
+   "en": "In both jobs, you have to be very strong and sure of yourself.",
+   "ko": "두 직업 모두에서 너는 매우 강해야 하고 자신에 대한 확신이 있어야 한다."
+  },
+  {
+   "no": 5,
+   "en": "Of course, there are also many differences between the two jobs.",
+   "ko": "물론, 두 직업 사이에는 차이점도 많다."
+  },
+  {
+   "no": 6,
+   "en": "Pilots and artists have to be strong in different ways.",
+   "ko": "조종사와 예술가는 서로 다른 방식으로 강해야 한다."
+  },
+  {
+   "no": 7,
+   "en": "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly.",
+   "ko": "조종사는 오랜 시간 동안 깨어 있어야 하고, 때때로 중요한 결정을 빨리 내려야 한다."
+  },
+  {
+   "no": 8,
+   "en": "Artists, however, have to be strong in their ideas about art and life.",
+   "ko": "그러나 예술가는 예술과 삶에 대한 자신의 생각이 확고해야 한다."
+  },
+  {
+   "no": 9,
+   "en": "People in the two jobs also work in different ways.",
+   "ko": "두 직업의 사람들은 일하는 방식도 다르다."
+  },
+  {
+   "no": 10,
+   "en": "Pilots usually work with other people, but artists usually work alone.",
+   "ko": "조종사는 보통 다른 사람들과 함께 일하지만, 예술가는 보통 혼자 일한다."
+  },
+  {
+   "no": 11,
+   "en": "Pilots must understand other people. Artists must understand themselves.",
+   "ko": "조종사는 다른 사람들을 이해해야 한다. 예술가는 자기 자신을 이해해야 한다."
+  },
+  {
+   "no": 12,
+   "en": "Finally, there is an important difference in lifestyle.",
+   "ko": "마지막으로, 생활 방식에 중요한 차이가 있다."
+  },
+  {
+   "no": 13,
+   "en": "Pilots travel for their job and are often away from home.",
+   "ko": "조종사는 일 때문에 여행을 하고 자주 집을 떠나 있다."
+  },
+  {
+   "no": 14,
+   "en": "Artists, however, work at home or in a studio near home.",
+   "ko": "그러나 예술가는 집이나 집 근처의 작업실에서 일한다."
+  },
+  {
+   "no": 15,
+   "en": "Also, unlike pilots, artists can start and stop working when they want.",
+   "ko": "또한, 조종사와 달리 예술가는 원할 때 일을 시작하고 멈출 수 있다."
+  },
+  {
+   "no": 16,
+   "en": "Maria said she could never be a pilot because she hates airplanes.",
+   "ko": "Maria는 비행기를 싫어해서 절대 조종사는 될 수 없을 거라고 말했다."
+  },
+  {
+   "no": 17,
+   "en": "Jane said she could never be an artist because she hates working alone.",
+   "ko": "Jane은 혼자 일하는 것을 싫어해서 절대 예술가는 될 수 없을 거라고 말했다."
+  },
+  {
+   "no": 18,
+   "en": "There are many things to think about when choosing a job, but what you enjoy should come first.",
+   "ko": "직업을 고를 때 생각할 것이 많지만, 네가 즐기는 것이 가장 먼저 와야 한다."
+  }
+ ],
+ "prep": [
+  {
+   "word": "agree",
+   "pos": "v.",
+   "ko": "동의하다",
+   "def": "to have the same opinion as someone",
+   "example": "I **agree** with your idea.",
+   "example_ko": "나는 너의 생각에 동의해."
+  },
+  {
+   "word": "similarity",
+   "pos": "n.",
+   "ko": "비슷한 점, 유사점",
+   "def": "a way in which two things are like each other",
+   "example": "There is a **similarity** between the two songs.",
+   "example_ko": "그 두 노래 사이에는 비슷한 점이 있다."
+  },
+  {
+   "word": "both A and B",
+   "pos": "phr.",
+   "ko": "A와 B 둘 다",
+   "def": "the first thing and the second thing together",
+   "example": "I like **both cats and dogs**.",
+   "example_ko": "나는 고양이와 개 둘 다 좋아한다."
+  },
+  {
+   "word": "competition",
+   "pos": "n.",
+   "ko": "경쟁, 대회",
+   "def": "a situation in which people try to be more successful than others",
+   "example": "There is a lot of **competition** for the prize.",
+   "example_ko": "그 상을 두고 경쟁이 치열하다."
+  },
+  {
+   "word": "different",
+   "pos": "adj.",
+   "ko": "다른",
+   "def": "not the same as something or someone",
+   "example": "My sister and I have **different** hobbies.",
+   "example_ko": "언니와 나는 취미가 다르다."
+  },
+  {
+   "word": "difference",
+   "pos": "n.",
+   "ko": "차이(점)",
+   "def": "the way in which two things are not the same",
+   "example": "Can you see the **difference** in these two pictures?",
+   "example_ko": "이 두 그림에서 차이점을 찾을 수 있니?"
+  },
+  {
+   "word": "stay awake",
+   "pos": "phr.",
+   "ko": "깨어 있다",
+   "def": "to not fall asleep",
+   "example": "I tried to **stay awake** during the long movie.",
+   "example_ko": "나는 긴 영화를 보는 동안 깨어 있으려고 애썼다."
+  },
+  {
+   "word": "make a decision",
+   "pos": "phr.",
+   "ko": "결정을 내리다",
+   "def": "to choose what to do after thinking",
+   "example": "You need to **make a decision** by tomorrow.",
+   "example_ko": "너는 내일까지 결정을 내려야 해."
+  },
+  {
+   "word": "however",
+   "pos": "adv.",
+   "ko": "그러나, 하지만",
+   "def": "used to add a fact that is not what you expect after what was said before",
+   "example": "The test was hard. **However**, I passed it.",
+   "example_ko": "시험은 어려웠다. 하지만 나는 통과했다."
+  },
+  {
+   "word": "alone",
+   "pos": "adv.",
+   "ko": "혼자",
+   "def": "without any other people",
+   "example": "My grandfather lives **alone** in the country.",
+   "example_ko": "할아버지는 시골에서 혼자 사신다."
+  },
+  {
+   "word": "lifestyle",
+   "pos": "n.",
+   "ko": "생활 방식",
+   "def": "the usual way a person spends days, works, and eats",
+   "example": "Eating vegetables is part of a healthy **lifestyle**.",
+   "example_ko": "채소를 먹는 것은 건강한 생활 방식의 일부이다."
+  },
+  {
+   "word": "be away from",
+   "pos": "phr.",
+   "ko": "~에서 떨어져 있다, ~을 떠나 있다",
+   "def": "to not be at a place, such as your home, for some time",
+   "example": "My dad **is away from** home this week.",
+   "example_ko": "아빠는 이번 주에 집을 떠나 계신다."
+  },
+  {
+   "word": "pilot",
+   "pos": "n.",
+   "ko": "조종사",
+   "def": "a person who flies an airplane",
+   "example": "The **pilot** spoke to the passengers before landing.",
+   "example_ko": "조종사는 착륙 전에 승객들에게 말했다."
+  },
+  {
+   "word": "artist",
+   "pos": "n.",
+   "ko": "예술가, 화가",
+   "def": "a person who paints, draws, or makes beautiful things like sculptures",
+   "example": "The **artist** painted a picture of the sea.",
+   "example_ko": "그 예술가는 바다 그림을 그렸다."
+  }
+ ],
+ "ws1": [
+  {
+   "no": 1,
+   "en": "At a restaurant, / Jane and Maria talked about their jobs.",
+   "ko": "한 식당에서 / Jane과 Maria는 그들의 직업에 대해 이야기했다"
+  },
+  {
+   "no": 2,
+   "en": "They agreed((동의하다)) / that there are a few similarities((비슷한 점)).",
+   "ko": "그들은 동의했다 / 몇 가지 비슷한 점이 있다는 것에"
+  },
+  {
+   "no": 3,
+   "en": "For both pilots and artists, / there is a lot of competition((경쟁)) / and there are few famous women.",
+   "ko": "조종사와 예술가 둘 다에게 / 많은 경쟁이 있다 / 그리고 유명한 여성은 거의 없다"
+  },
+  {
+   "no": 4,
+   "en": "In both jobs, / you have to be very strong / and sure of yourself((자신에 대해 확신하는)).",
+   "ko": "두 직업 모두에서 / 당신은 매우 강해야 한다 / 그리고 자신에 대해 확신해야 한다"
+  },
+  {
+   "no": 5,
+   "en": "Of course, / there are also many differences((차이점)) / between the two jobs.",
+   "ko": "물론 / 많은 차이점도 있다 / 두 직업 사이에는"
+  },
+  {
+   "no": 6,
+   "en": "Pilots and artists have to be strong / in different ways.",
+   "ko": "조종사와 예술가는 강해야 한다 / 서로 다른 방식으로"
+  },
+  {
+   "no": 7,
+   "en": "Pilots have to stay awake((깨어 있다)) / for long hours, / and sometimes they have to make important decisions((결정)) / quickly.",
+   "ko": "조종사는 깨어 있어야 한다 / 오랜 시간 동안 / 그리고 때때로 그들은 중요한 결정을 내려야 한다 / 빠르게"
+  },
+  {
+   "no": 8,
+   "en": "Artists, however((그러나)), / have to be strong / in their ideas about art and life.",
+   "ko": "그러나 예술가는 / 강해야 한다 / 예술과 삶에 대한 그들의 생각에서"
+  },
+  {
+   "no": 9,
+   "en": "People in the two jobs / also work / in different ways.",
+   "ko": "두 직업의 사람들은 / 또한 일한다 / 서로 다른 방식으로"
+  },
+  {
+   "no": 10,
+   "en": "Pilots usually work with other people, / but artists usually work alone((혼자)).",
+   "ko": "조종사는 보통 다른 사람들과 함께 일한다 / 하지만 예술가는 보통 혼자 일한다"
+  },
+  {
+   "no": 11,
+   "en": "Pilots must understand other people. / Artists must understand themselves.",
+   "ko": "조종사는 다른 사람들을 이해해야 한다 / 예술가는 자기 자신을 이해해야 한다"
+  },
+  {
+   "no": 12,
+   "en": "Finally, / there is an important difference / in lifestyle((생활 방식)).",
+   "ko": "마지막으로 / 중요한 차이가 있다 / 생활 방식에"
+  },
+  {
+   "no": 13,
+   "en": "Pilots travel for their job / and are often away from((~을 떠나 있다)) home.",
+   "ko": "조종사는 일 때문에 여행한다 / 그리고 자주 집을 떠나 있다"
+  },
+  {
+   "no": 14,
+   "en": "Artists, however, / work at home / or in a studio near home.",
+   "ko": "그러나 예술가는 / 집에서 일한다 / 또는 집 근처의 작업실에서"
+  },
+  {
+   "no": 15,
+   "en": "Also, / unlike((~와 달리)) pilots, / artists can start and stop working / when they want.",
+   "ko": "또한 / 조종사와 달리 / 예술가는 일을 시작하고 멈출 수 있다 / 그들이 원할 때"
+  },
+  {
+   "no": 16,
+   "en": "Maria said / she could never be a pilot / because she hates airplanes.",
+   "ko": "Maria는 말했다 / 그녀는 결코 조종사가 될 수 없을 것이라고 / 그녀는 비행기를 싫어하기 때문에"
+  },
+  {
+   "no": 17,
+   "en": "Jane said / she could never be an artist / because she hates working alone.",
+   "ko": "Jane은 말했다 / 그녀는 결코 예술가가 될 수 없을 것이라고 / 그녀는 혼자 일하는 것을 싫어하기 때문에"
+  },
+  {
+   "no": 18,
+   "en": "There are many things to think about / when choosing a job, / but what you enjoy / should come first.",
+   "ko": "생각할 것들이 많다 / 직업을 고를 때 / 하지만 당신이 즐기는 것이 / 가장 먼저 와야 한다"
+  }
+ ],
+ "ws2": [
+  {
+   "no": 1,
+   "en": "At a **restaurant**, Jane and Maria **talked about** their jobs.",
+   "ko": "한 {{식당}}에서 Jane과 Maria는 그들의 직업에 대해 {{이야기했}}다."
+  },
+  {
+   "no": 2,
+   "en": "They **agreed** that there are a few **similarities**.",
+   "ko": "그들은 몇 가지 {{비슷한 점}}이 있다는 데 {{동의했}}다."
+  },
+  {
+   "no": 3,
+   "en": "For both pilots and artists, there is a lot of **competition** and there are **few** famous women.",
+   "ko": "조종사와 예술가 둘 다 {{경쟁}}이 심하고, 유명한 여성이 {{거의 없}}다."
+  },
+  {
+   "no": 4,
+   "en": "In both jobs, you have to be very **strong** and **sure of yourself**.",
+   "ko": "두 직업 모두에서 너는 매우 {{강해}}야 하고 {{자신에 대한 확신}}이 있어야 한다."
+  },
+  {
+   "no": 5,
+   "en": "Of course, there are also many **differences** between the two jobs.",
+   "ko": "물론, 두 직업 사이에는 {{차이점}}도 많다."
+  },
+  {
+   "no": 6,
+   "en": "Pilots and artists have to be strong in **different ways**.",
+   "ko": "조종사와 예술가는 {{서로 다른 방식}}으로 강해야 한다."
+  },
+  {
+   "no": 7,
+   "en": "Pilots have to **stay awake** for long hours, and sometimes they have to make important **decisions** **quickly**.",
+   "ko": "조종사는 오랜 시간 동안 {{깨어 있}}어야 하고, 때때로 중요한 {{결정}}을 {{빨리}} 내려야 한다."
+  },
+  {
+   "no": 8,
+   "en": "Artists, **however**, have to be strong in their **ideas** about art and life.",
+   "ko": "{{그러나}} 예술가는 예술과 삶에 대한 자신의 {{생각}}이 확고해야 한다."
+  },
+  {
+   "no": 9,
+   "en": "People in the two jobs also **work** in different ways.",
+   "ko": "두 직업의 사람들은 {{일하는}} 방식도 다르다."
+  },
+  {
+   "no": 10,
+   "en": "Pilots **usually** work with other people, but artists usually work **alone**.",
+   "ko": "조종사는 {{보통}} 다른 사람들과 함께 일하지만, 예술가는 보통 {{혼자}} 일한다."
+  },
+  {
+   "no": 11,
+   "en": "Pilots must **understand** other people. Artists must understand **themselves**.",
+   "ko": "조종사는 다른 사람들을 {{이해해}}야 한다. 예술가는 {{자기 자신}}을 이해해야 한다."
+  },
+  {
+   "no": 12,
+   "en": "Finally, there is an important **difference** in **lifestyle**.",
+   "ko": "마지막으로, {{생활 방식}}에 중요한 {{차이}}가 있다."
+  },
+  {
+   "no": 13,
+   "en": "Pilots **travel** for their job and are often **away from** home.",
+   "ko": "조종사는 일 때문에 {{여행을 하}}고 자주 집을 {{떠나 있}}다."
+  },
+  {
+   "no": 14,
+   "en": "Artists, however, work at home or in a **studio** **near** home.",
+   "ko": "그러나 예술가는 집이나 집 {{근처}}의 {{작업실}}에서 일한다."
+  },
+  {
+   "no": 15,
+   "en": "Also, **unlike** pilots, artists can **start and stop** working when they want.",
+   "ko": "또한, 조종사와 {{달리}} 예술가는 원할 때 일을 {{시작하고 멈출}} 수 있다."
+  },
+  {
+   "no": 16,
+   "en": "Maria said she could **never** be a pilot because she **hates** airplanes.",
+   "ko": "Maria는 비행기를 {{싫어해}}서 {{절대}} 조종사는 될 수 없을 거라고 말했다."
+  },
+  {
+   "no": 17,
+   "en": "Jane said she could never be an artist because she hates **working alone**.",
+   "ko": "Jane은 {{혼자 일하는 것}}을 싫어해서 절대 예술가는 될 수 없을 거라고 말했다."
+  },
+  {
+   "no": 18,
+   "en": "There are many things to think about when **choosing** a job, but what you **enjoy** should **come first**.",
+   "ko": "직업을 {{고를}} 때 생각할 것이 많지만, 네가 {{즐기는}} 것이 {{가장 먼저 와야}} 한다."
+  }
+ ],
+ "ws3": [
+  {
+   "no": 1,
+   "ko": "한 **식당**에서 Jane과 Maria는 그들의 직업에 대해 **이야기했**다.",
+   "en": "At a {{restaurant}}, Jane and Maria {{talked about}} their jobs."
+  },
+  {
+   "no": 2,
+   "ko": "그들은 몇 가지 **비슷한 점**이 있다는 데 **동의했**다.",
+   "en": "They {{agreed}} that there are a few {{similarities}}."
+  },
+  {
+   "no": 3,
+   "ko": "조종사와 예술가 둘 다 **경쟁**이 심하고, 유명한 여성이 **거의 없**다.",
+   "en": "For both pilots and artists, there is a lot of {{competition}} and there are {{few}} famous women."
+  },
+  {
+   "no": 4,
+   "ko": "두 직업 모두에서 너는 매우 **강해**야 하고 **자신에 대한 확신**이 있어야 한다.",
+   "en": "In both jobs, you have to be very {{strong}} and {{sure of yourself}}."
+  },
+  {
+   "no": 5,
+   "ko": "물론, 두 직업 사이에는 **차이점**도 많다.",
+   "en": "Of course, there are also many {{differences}} between the two jobs."
+  },
+  {
+   "no": 6,
+   "ko": "조종사와 예술가는 **서로 다른 방식**으로 강해야 한다.",
+   "en": "Pilots and artists have to be strong in {{different ways}}."
+  },
+  {
+   "no": 7,
+   "ko": "조종사는 오랜 시간 동안 **깨어 있**어야 하고, 때때로 중요한 **결정**을 **빨리** 내려야 한다.",
+   "en": "Pilots have to {{stay awake}} for long hours, and sometimes they have to make important {{decisions}} {{quickly}}."
+  },
+  {
+   "no": 8,
+   "ko": "**그러나** 예술가는 예술과 삶에 대한 자신의 **생각**이 확고해야 한다.",
+   "en": "Artists, {{however}}, have to be strong in their {{ideas}} about art and life."
+  },
+  {
+   "no": 9,
+   "ko": "두 직업의 사람들은 **일하는** 방식도 다르다.",
+   "en": "People in the two jobs also {{work}} in different ways."
+  },
+  {
+   "no": 10,
+   "ko": "조종사는 **보통** 다른 사람들과 함께 일하지만, 예술가는 보통 **혼자** 일한다.",
+   "en": "Pilots {{usually}} work with other people, but artists usually work {{alone}}."
+  },
+  {
+   "no": 11,
+   "ko": "조종사는 다른 사람들을 **이해해**야 한다. 예술가는 **자기 자신**을 이해해야 한다.",
+   "en": "Pilots must {{understand}} other people. Artists must understand {{themselves}}."
+  },
+  {
+   "no": 12,
+   "ko": "마지막으로, **생활 방식**에 중요한 **차이**가 있다.",
+   "en": "Finally, there is an important {{difference}} in {{lifestyle}}."
+  },
+  {
+   "no": 13,
+   "ko": "조종사는 일 때문에 **여행을 하**고 자주 집을 **떠나 있**다.",
+   "en": "Pilots {{travel}} for their job and are often {{away from}} home."
+  },
+  {
+   "no": 14,
+   "ko": "그러나 예술가는 집이나 집 **근처**의 **작업실**에서 일한다.",
+   "en": "Artists, however, work at home or in a {{studio}} {{near}} home."
+  },
+  {
+   "no": 15,
+   "ko": "또한, 조종사와 **달리** 예술가는 원할 때 일을 **시작하고 멈출** 수 있다.",
+   "en": "Also, {{unlike}} pilots, artists can {{start and stop}} working when they want."
+  },
+  {
+   "no": 16,
+   "ko": "Maria는 비행기를 **싫어해**서 **절대** 조종사는 될 수 없을 거라고 말했다.",
+   "en": "Maria said she could {{never}} be a pilot because she {{hates}} airplanes."
+  },
+  {
+   "no": 17,
+   "ko": "Jane은 **혼자 일하는 것**을 싫어해서 절대 예술가는 될 수 없을 거라고 말했다.",
+   "en": "Jane said she could never be an artist because she hates {{working alone}}."
+  },
+  {
+   "no": 18,
+   "ko": "직업을 **고를** 때 생각할 것이 많지만, 네가 **즐기는** 것이 **가장 먼저 와야** 한다.",
+   "en": "There are many things to think about when {{choosing}} a job, but what you {{enjoy}} should {{come first}}."
+  }
+ ],
+ "ws4": [
+  {
+   "no": 1,
+   "en": "At a restaurant, Jane and Maria ^^(talk)^^ about their jobs.",
+   "answer": [
+    "talked"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "They ^^(agree)^^ that there ^^(be)^^ a few similarities.",
+   "answer": [
+    "agreed",
+    "are"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "For both pilots and artists, there ^^(be)^^ a lot of competition and there ^^(be)^^ few famous women.",
+   "answer": [
+    "is",
+    "are"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "In both jobs, you ^^(have to, be)^^ very strong and sure of yourself.",
+   "answer": [
+    "have to be"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "Of course, there ^^(be)^^ also many differences between the two jobs.",
+   "answer": [
+    "are"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "Pilots and artists ^^(have to, be)^^ strong in different ways.",
+   "answer": [
+    "have to be"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "Pilots ^^(have to, stay)^^ awake for long hours, and sometimes they ^^(have to, make)^^ important decisions quickly.",
+   "answer": [
+    "have to stay",
+    "have to make"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "Artists, however, ^^(have to, be)^^ strong in their ideas about art and life.",
+   "answer": [
+    "have to be"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "People in the two jobs also ^^(work)^^ in different ways.",
+   "answer": [
+    "work"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "Pilots usually ^^(work)^^ with other people, but artists usually ^^(work)^^ alone.",
+   "answer": [
+    "work",
+    "work"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "Pilots ^^(must, understand)^^ other people. Artists ^^(must, understand)^^ themselves.",
+   "answer": [
+    "must understand",
+    "must understand"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "Finally, there ^^(be)^^ an important difference in lifestyle.",
+   "answer": [
+    "is"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "Pilots ^^(travel)^^ for their job and ^^(be)^^ often away from home.",
+   "answer": [
+    "travel",
+    "are"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Artists, however, ^^(work)^^ at home or in a studio near home.",
+   "answer": [
+    "work"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "Also, unlike pilots, artists ^^(can, start)^^ and ^^(stop)^^ ^^(work)^^ when they ^^(want)^^.",
+   "answer": [
+    "can start",
+    "stop",
+    "working",
+    "want"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "Maria ^^(say)^^ she ^^(could, never, be)^^ a pilot because she ^^(hate)^^ airplanes.",
+   "answer": [
+    "said",
+    "could never be",
+    "hates"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "Jane ^^(say)^^ she ^^(could, never, be)^^ an artist because she ^^(hate)^^ ^^(work)^^ alone.",
+   "answer": [
+    "said",
+    "could never be",
+    "hates",
+    "working"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "There ^^(be)^^ many things ^^(think)^^ about when ^^(choose)^^ a job, but what you ^^(enjoy)^^ ^^(should, come)^^ first.",
+   "answer": [
+    "are",
+    "to think",
+    "choosing",
+    "enjoy",
+    "should come"
+   ]
+  }
+ ],
+ "ws5": [
+  {
+   "no": 1,
+   "en": "At a restaurant, Jane and Maria ^^[talking / talked]^^ about their jobs.",
+   "answer": [
+    "talked"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "They agreed that there ^^[is / are]^^ a few similarities.",
+   "answer": [
+    "are"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "For both pilots and artists, there is a lot of competition and there are ^^[few / little]^^ famous women.",
+   "answer": [
+    "few"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "In both jobs, you have to ^^[being / be]^^ very strong and sure of ^^[yourself / you]^^.",
+   "answer": [
+    "be",
+    "yourself"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "Of course, there are also many ^^[difference / differences]^^ between the two jobs.",
+   "answer": [
+    "differences"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "Pilots and artists have to be strong in ^^[different / difference]^^ ways.",
+   "answer": [
+    "different"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "Pilots have to ^^[stays / stay]^^ awake for long hours, and sometimes they have to make important decisions ^^[quickly / quick]^^.",
+   "answer": [
+    "stay",
+    "quickly"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "Artists, however, have to be strong in ^^[they / their]^^ ideas about art and life.",
+   "answer": [
+    "their"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "People in the two jobs also ^^[work / works]^^ in different ways.",
+   "answer": [
+    "work"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "Pilots ^^[work usually / usually work]^^ with other people, but artists usually work alone.",
+   "answer": [
+    "usually work"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "Pilots must ^^[understands / understand]^^ other people. Artists must understand ^^[themselves / them]^^.",
+   "answer": [
+    "understand",
+    "themselves"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "Finally, there ^^[is / are]^^ an important difference in lifestyle.",
+   "answer": [
+    "is"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "Pilots travel for their job and ^^[is / are]^^ often away from home.",
+   "answer": [
+    "are"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Artists, however, ^^[works / work]^^ at home or in a studio near home.",
+   "answer": [
+    "work"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "Also, unlike pilots, artists can start and stop ^^[working / to work]^^ when they want.",
+   "answer": [
+    "working"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "Maria said she could never ^^[is / be]^^ a pilot because she ^^[hates / hate]^^ airplanes.",
+   "answer": [
+    "be",
+    "hates"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "Jane said she could never be ^^[a / an]^^ artist because she hates ^^[work / working]^^ alone.",
+   "answer": [
+    "an",
+    "working"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "There are many things ^^[thinking / to think]^^ about when choosing a job, but what you enjoy ^^[should come / should comes]^^ first.",
+   "answer": [
+    "to think",
+    "should come"
+   ]
+  }
+ ],
+ "ws6": [
+  {
+   "lines": [
+    "Two Different Jobs",
+    "At a restaurant, Jane and Maria **talked** about their jobs. They **agreed** that there **is** a few similarities. For both pilots and artists, there is a lot of **competition** and there are **little** famous women. In both jobs, you have to **be** very strong and sure of **you**."
+   ],
+   "errors": [
+    {
+     "wrong": "is",
+     "right": "are",
+     "reason": "There + be 는 뒤 명사(similarities 복수)에 맞춘다"
+    },
+    {
+     "wrong": "little",
+     "right": "few",
+     "reason": "셀 수 있는 명사(women) 앞에는 few"
+    },
+    {
+     "wrong": "you",
+     "right": "yourself",
+     "reason": "주어 자신을 가리키면 재귀대명사"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Of course, there are also many **difference** between the two jobs. Pilots and artists have to be strong in **different** ways. Pilots have to **stay** awake for long hours, and sometimes they have to make important decisions **quick**. Artists, **however**, have to be strong in **them** ideas about art and life."
+   ],
+   "errors": [
+    {
+     "wrong": "difference",
+     "right": "differences",
+     "reason": "many 뒤에는 복수명사"
+    },
+    {
+     "wrong": "quick",
+     "right": "quickly",
+     "reason": "동사 make 를 꾸미는 부사"
+    },
+    {
+     "wrong": "them",
+     "right": "their",
+     "reason": "명사 ideas 앞 — 소유격"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "People in the two jobs also **works** in different ways. Pilots **usually work** with other people, but artists usually work **alone**. Pilots must **understands** other people. Artists must understand **themselves**."
+   ],
+   "errors": [
+    {
+     "wrong": "works",
+     "right": "work",
+     "reason": "주어 People 은 복수"
+    },
+    {
+     "wrong": "understands",
+     "right": "understand",
+     "reason": "조동사 must + 동사원형"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Finally, there **are** an important difference in lifestyle. Pilots travel for their job and are often away **from** home. Artists, however, **works** at home or in a studio near home. Also, unlike pilots, artists can start and stop **working** when they **want**."
+   ],
+   "errors": [
+    {
+     "wrong": "are",
+     "right": "is",
+     "reason": "There + be 는 뒤 명사(an important difference 단수)에 맞춘다"
+    },
+    {
+     "wrong": "works",
+     "right": "work",
+     "reason": "주어 Artists 는 복수"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Maria said she could never **is** a pilot because she **hates** airplanes. Jane said she could never be **a** artist because she hates **working** alone. There are many things **to think** about when choosing a job, but what you enjoy should **comes** first."
+   ],
+   "errors": [
+    {
+     "wrong": "is",
+     "right": "be",
+     "reason": "조동사 could + 동사원형"
+    },
+    {
+     "wrong": "a",
+     "right": "an",
+     "reason": "artist 는 모음 소리로 시작"
+    },
+    {
+     "wrong": "comes",
+     "right": "come",
+     "reason": "조동사 should + 동사원형"
+    }
+   ]
+  }
+ ],
+ "ws7": [
+  {
+   "no": 1,
+   "en": "At a restaurant, (talk / Jane and Maria) (their jobs / about).",
+   "answer": "At a restaurant, Jane and Maria talked about their jobs."
+  },
+  {
+   "no": 2,
+   "en": "(agree / they) that (be / there / a few similarities).",
+   "answer": "They agreed that there are a few similarities."
+  },
+  {
+   "no": 3,
+   "en": "For both pilots and artists, (a lot of competition / be / there) and (few famous women / be / there).",
+   "answer": "For both pilots and artists, there is a lot of competition and there are few famous women."
+  },
+  {
+   "no": 4,
+   "en": "In both jobs, (very strong / have to / be / you) and (yourself / sure of).",
+   "answer": "In both jobs, you have to be very strong and sure of yourself."
+  },
+  {
+   "no": 5,
+   "en": "Of course, (also / be / there / many differences) (the two jobs / between).",
+   "answer": "Of course, there are also many differences between the two jobs."
+  },
+  {
+   "no": 6,
+   "en": "(strong / pilots and artists / be / have to) (different ways / in).",
+   "answer": "Pilots and artists have to be strong in different ways."
+  },
+  {
+   "no": 7,
+   "en": "(stay / awake / pilots / have to) (long hours / for), and (have to / they / sometimes / make) (quickly / important decisions).",
+   "answer": "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly."
+  },
+  {
+   "no": 8,
+   "en": "Artists, however, (strong / have to / be) (art and life / their ideas / about / in).",
+   "answer": "Artists, however, have to be strong in their ideas about art and life."
+  },
+  {
+   "no": 9,
+   "en": "(in the two jobs / people) (in different ways / work / also).",
+   "answer": "People in the two jobs also work in different ways."
+  },
+  {
+   "no": 10,
+   "en": "(with other people / usually / pilots / work), but (alone / work / usually / artists).",
+   "answer": "Pilots usually work with other people, but artists usually work alone."
+  },
+  {
+   "no": 11,
+   "en": "(other people / understand / must / pilots). (themselves / understand / must / artists).",
+   "answer": "Pilots must understand other people. Artists must understand themselves."
+  },
+  {
+   "no": 12,
+   "en": "Finally, (an important difference / be / there) (lifestyle / in).",
+   "answer": "Finally, there is an important difference in lifestyle."
+  },
+  {
+   "no": 13,
+   "en": "(for their job / travel / pilots) and (home / often / away from / be).",
+   "answer": "Pilots travel for their job and are often away from home."
+  },
+  {
+   "no": 14,
+   "en": "Artists, however, (at home / work) or (near home / in a studio).",
+   "answer": "Artists, however, work at home or in a studio near home."
+  },
+  {
+   "no": 15,
+   "en": "Also, unlike pilots, (start and stop / can / artists / work) (they / want / when).",
+   "answer": "Also, unlike pilots, artists can start and stop working when they want."
+  },
+  {
+   "no": 16,
+   "en": "(say / Maria) (a pilot / could never / be / she) (airplanes / hate / she / because).",
+   "answer": "Maria said she could never be a pilot because she hates airplanes."
+  },
+  {
+   "no": 17,
+   "en": "(say / Jane) (an artist / could never / be / she) (alone / work / hate / she / because).",
+   "answer": "Jane said she could never be an artist because she hates working alone."
+  },
+  {
+   "no": 18,
+   "en": "(many things / be / there / think about) (a job / choose / when), but (should / come / what you enjoy / first).",
+   "answer": "There are many things to think about when choosing a job, but what you enjoy should come first."
+  }
+ ],
+ "ws8": [
+  {
+   "no": 1,
+   "keywords": [
+    "restaurant",
+    "talk about",
+    "jobs"
+   ],
+   "frame": "At a restaurant, {{#7}}.",
+   "answer": "At a restaurant, Jane and Maria talked about their jobs."
+  },
+  {
+   "no": 2,
+   "keywords": [
+    "agree",
+    "similarities"
+   ],
+   "frame": "{{#2}} that {{#5}}.",
+   "answer": "They agreed that there are a few similarities."
+  },
+  {
+   "no": 3,
+   "keywords": [
+    "both",
+    "competition",
+    "few"
+   ],
+   "frame": "For both pilots and artists, {{#6}} and {{#5}}.",
+   "answer": "For both pilots and artists, there is a lot of competition and there are few famous women."
+  },
+  {
+   "no": 4,
+   "keywords": [
+    "have to",
+    "strong",
+    "sure of"
+   ],
+   "frame": "In both jobs, {{#10}}.",
+   "answer": "In both jobs, you have to be very strong and sure of yourself."
+  },
+  {
+   "no": 5,
+   "keywords": [
+    "differences",
+    "between"
+   ],
+   "frame": "Of course, {{#9}}.",
+   "answer": "Of course, there are also many differences between the two jobs."
+  },
+  {
+   "no": 6,
+   "keywords": [
+    "have to",
+    "strong",
+    "different ways"
+   ],
+   "frame": "{{#10}}.",
+   "answer": "Pilots and artists have to be strong in different ways."
+  },
+  {
+   "no": 7,
+   "keywords": [
+    "stay awake",
+    "long hours",
+    "make",
+    "decisions"
+   ],
+   "frame": "{{#8}}, and {{#8}}.",
+   "answer": "Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly."
+  },
+  {
+   "no": 8,
+   "keywords": [
+    "however",
+    "strong",
+    "ideas"
+   ],
+   "frame": "Artists, however, {{#11}}.",
+   "answer": "Artists, however, have to be strong in their ideas about art and life."
+  },
+  {
+   "no": 9,
+   "keywords": [
+    "people",
+    "also",
+    "different ways"
+   ],
+   "frame": "{{#10}}.",
+   "answer": "People in the two jobs also work in different ways."
+  },
+  {
+   "no": 10,
+   "keywords": [
+    "usually",
+    "other people",
+    "alone"
+   ],
+   "frame": "{{#6}}, but {{#4}}.",
+   "answer": "Pilots usually work with other people, but artists usually work alone."
+  },
+  {
+   "no": 11,
+   "keywords": [
+    "must",
+    "understand",
+    "themselves"
+   ],
+   "frame": "{{#5}}. {{#4}}.",
+   "answer": "Pilots must understand other people. Artists must understand themselves."
+  },
+  {
+   "no": 12,
+   "keywords": [
+    "difference",
+    "lifestyle"
+   ],
+   "frame": "Finally, {{#7}}.",
+   "answer": "Finally, there is an important difference in lifestyle."
+  },
+  {
+   "no": 13,
+   "keywords": [
+    "travel",
+    "job",
+    "away from"
+   ],
+   "frame": "{{#11}}.",
+   "answer": "Pilots travel for their job and are often away from home."
+  },
+  {
+   "no": 14,
+   "keywords": [
+    "however",
+    "studio",
+    "near"
+   ],
+   "frame": "Artists, however, {{#9}}.",
+   "answer": "Artists, however, work at home or in a studio near home."
+  },
+  {
+   "no": 15,
+   "keywords": [
+    "unlike",
+    "start and stop",
+    "want"
+   ],
+   "frame": "Also, {{#11}}.",
+   "answer": "Also, unlike pilots, artists can start and stop working when they want."
+  },
+  {
+   "no": 16,
+   "keywords": [
+    "say",
+    "could never",
+    "pilot",
+    "hate"
+   ],
+   "frame": "{{#12}}.",
+   "answer": "Maria said she could never be a pilot because she hates airplanes."
+  },
+  {
+   "no": 17,
+   "keywords": [
+    "could never",
+    "artist",
+    "work alone"
+   ],
+   "frame": "{{#13}}.",
+   "answer": "Jane said she could never be an artist because she hates working alone."
+  },
+  {
+   "no": 18,
+   "keywords": [
+    "think about",
+    "choose",
+    "enjoy",
+    "come first"
+   ],
+   "frame": "{{#11}}, but {{#6}}.",
+   "answer": "There are many things to think about when choosing a job, but what you enjoy should come first."
+  }
+ ]
+}

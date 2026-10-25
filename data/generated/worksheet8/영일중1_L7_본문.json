@@ -1,0 +1,1613 @@
+{
+ "unit": "Lesson 7 Find Your Dream",
+ "school": "영일중",
+ "grade": "1학년",
+ "sentences": [
+  {
+   "no": 1,
+   "en": "Hi, I’m Jim Brown, the director of Happy Days.",
+   "ko": "안녕, 나는 Happy Days의 감독 Jim Brown이야."
+  },
+  {
+   "no": 2,
+   "en": "It’s a movie about the friendship between Tom and his dog Max.",
+   "ko": "Happy Days는 Tom과 그의 강아지 Max의 우정에 관한 영화야."
+  },
+  {
+   "no": 3,
+   "en": "A lot of people are working hard to create this movie.",
+   "ko": "많은 사람들이 이 영화를 만들기 위해 열심히 일하고 있어."
+  },
+  {
+   "no": 4,
+   "en": "Do you want to meet some of them?",
+   "ko": "그들 중 몇 명을 만나 보고 싶니?"
+  },
+  {
+   "no": 5,
+   "en": "I’m Anna, and I found this beautiful beach.",
+   "ko": "나는 Anna이고, 내가 이 아름다운 해변을 찾아냈어."
+  },
+  {
+   "no": 6,
+   "en": "I’m a location manager, and my job is to find perfect places for shooting.",
+   "ko": "나는 로케이션 매니저인데, 내 일은 촬영을 위한 완벽한 장소를 찾는 거야."
+  },
+  {
+   "no": 7,
+   "en": "Of course, it is not easy, but I love my job.",
+   "ko": "물론, 쉽지는 않지만, 나는 내 일을 정말 좋아해."
+  },
+  {
+   "no": 8,
+   "en": "I like to travel and enjoy challenges.",
+   "ko": "나는 여행하는 것을 좋아하고 도전을 즐겨."
+  },
+  {
+   "no": 9,
+   "en": "I’m Peter, the director of photography for this movie.",
+   "ko": "나는 이 영화의 촬영 감독인 Peter야."
+  },
+  {
+   "no": 10,
+   "en": "I’m in charge of all the cameras.",
+   "ko": "나는 모든 카메라를 담당하고 있지."
+  },
+  {
+   "no": 11,
+   "en": "Today, Tom and Max are going to play together with a ball on the beach.",
+   "ko": "오늘, Tom과 Max는 해변에서 공을 가지고 함께 놀 예정이야."
+  },
+  {
+   "no": 12,
+   "en": "To capture their happy moments, I’m going to use drones.",
+   "ko": "그들의 행복한 순간을 포착하기 위해, 나는 드론을 사용할 거야."
+  },
+  {
+   "no": 13,
+   "en": "I’m Jennifer. I trained and took care of Max for a long time.",
+   "ko": "나는 Jennifer야. 나는 Max를 오랫동안 훈련하고 돌봤어."
+  },
+  {
+   "no": 14,
+   "en": "Max is a great actor, but he sometimes gets too excited when a lot of people are around.",
+   "ko": "Max는 훌륭한 배우이지만, 주변에 사람들이 많으면 가끔 너무 흥분할 때가 있어."
+  },
+  {
+   "no": 15,
+   "en": "So, I use hand signals to calm him.",
+   "ko": "그래서, 나는 그를 진정시키기 위해 수신호를 사용해."
+  },
+  {
+   "no": 16,
+   "en": "Who am I? I’m an animal wrangler.",
+   "ko": "나는 누구일까? 나는 동물 조련사야."
+  },
+  {
+   "no": 17,
+   "en": "My name is Emma, and I’m a film editor.",
+   "ko": "내 이름은 Emma이고, 나는 영화 편집자야."
+  },
+  {
+   "no": 18,
+   "en": "My work begins after the shooting is over.",
+   "ko": "내 일은 촬영이 끝난 뒤에 시작돼."
+  },
+  {
+   "no": 19,
+   "en": "To create a better story, I can change the order of scenes or delete some of them.",
+   "ko": "더 좋은 이야기를 만들기 위해서, 나는 장면의 순서를 바꾸거나 장면 중 일부를 삭제할 수도 있어."
+  },
+  {
+   "no": 20,
+   "en": "Storytelling skills are important for my job, so I read a lot.",
+   "ko": "내 일을 하는 데는 스토리텔링 능력이 중요해서, 나는 책을 많이 읽어."
+  },
+  {
+   "no": 21,
+   "en": "I’m Chris, and I’m a Foley artist.",
+   "ko": "나는 Chris이고, 폴리 아티스트야."
+  },
+  {
+   "no": 22,
+   "en": "I create sound effects in my studio when recording on location is not easy.",
+   "ko": "나는 현장에서 녹음하는 게 쉽지 않을 때 내 작업실에서 음향 효과를 만들어."
+  },
+  {
+   "no": 23,
+   "en": "Listen carefully. Do you hear the sound of waves?",
+   "ko": "잘 들어봐. 파도 소리가 들리니?"
+  },
+  {
+   "no": 24,
+   "en": "I made that sound with rice and a plastic container.",
+   "ko": "내가 쌀과 플라스틱 통으로 그 소리를 만들었어."
+  },
+  {
+   "no": 25,
+   "en": "Doesn’t it sound real?",
+   "ko": "진짜 같지 않니?"
+  }
+ ],
+ "prep": [
+  {
+   "word": "director",
+   "pos": "n.",
+   "ko": "감독",
+   "def": "a person who leads and makes big decisions in a company, movie, or show",
+   "example": "The **director** told the actors to stand still.",
+   "example_ko": "감독은 배우들에게 가만히 서 있으라고 말했다."
+  },
+  {
+   "word": "friendship",
+   "pos": "n.",
+   "ko": "우정",
+   "def": "the close and kind relationship between people who like each other",
+   "example": "Their **friendship** began in the first grade.",
+   "example_ko": "그들의 우정은 1학년 때 시작되었다."
+  },
+  {
+   "word": "create",
+   "pos": "v.",
+   "ko": "만들다, 창작하다",
+   "def": "to think of and make a new story, character, or idea",
+   "example": "The students **created** a poster for the festival.",
+   "example_ko": "학생들은 축제를 위한 포스터를 만들었다."
+  },
+  {
+   "word": "location",
+   "pos": "n.",
+   "ko": "(영화) 촬영지, 장소",
+   "def": "a real place outside a studio where a movie, TV show, or video is filmed",
+   "example": "This park is a popular **location** for TV dramas.",
+   "example_ko": "이 공원은 TV 드라마의 인기 촬영지이다."
+  },
+  {
+   "word": "manager",
+   "pos": "n.",
+   "ko": "관리자, 매니저",
+   "def": "a person who is in charge of people or work in a company, team, or place",
+   "example": "The store **manager** opened the door at nine.",
+   "example_ko": "가게 관리자가 9시에 문을 열었다."
+  },
+  {
+   "word": "shooting",
+   "pos": "n.",
+   "ko": "촬영",
+   "def": "using a camera to film scenes for a movie, TV show, or video",
+   "example": "The **shooting** of the music video took two days.",
+   "example_ko": "뮤직비디오 촬영은 이틀이 걸렸다."
+  },
+  {
+   "word": "challenge",
+   "pos": "n.",
+   "ko": "도전",
+   "def": "something that is hard to do but helps you grow or learn",
+   "example": "Running a marathon is a big **challenge** for me.",
+   "example_ko": "마라톤을 뛰는 것은 나에게 큰 도전이다."
+  },
+  {
+   "word": "photography",
+   "pos": "n.",
+   "ko": "사진 촬영(술)",
+   "def": "the art or work of using a camera to take pictures or record video",
+   "example": "My uncle studies **photography** in college.",
+   "example_ko": "삼촌은 대학에서 사진술을 공부한다."
+  },
+  {
+   "word": "be in charge of",
+   "pos": "phr.",
+   "ko": "~을 담당하다",
+   "def": "to be the person who controls or manages something",
+   "example": "Mr. Kim **is in charge of** our school library.",
+   "example_ko": "김 선생님은 우리 학교 도서관을 담당하신다."
+  },
+  {
+   "word": "capture",
+   "pos": "v.",
+   "ko": "포착하다, (사진·영상에) 담다",
+   "def": "to film or take a photo of something so you don't forget it and others can see it",
+   "example": "She **captured** the sunset with her phone.",
+   "example_ko": "그녀는 휴대폰으로 노을을 담았다."
+  },
+  {
+   "word": "moment",
+   "pos": "n.",
+   "ko": "순간",
+   "def": "a very short amount of time, or a special time",
+   "example": "Please wait a **moment** at the door.",
+   "example_ko": "문 앞에서 잠시만 기다려 주세요."
+  },
+  {
+   "word": "drone",
+   "pos": "n.",
+   "ko": "드론",
+   "def": "a small flying machine with no pilot inside, controlled by a person or computer",
+   "example": "We watched a **drone** fly over the soccer field.",
+   "example_ko": "우리는 드론이 축구장 위로 나는 것을 보았다."
+  },
+  {
+   "word": "train",
+   "pos": "v.",
+   "ko": "훈련하다",
+   "def": "to help a person or animal learn a skill by practicing again and again",
+   "example": "He **trains** his dog every morning.",
+   "example_ko": "그는 매일 아침 그의 개를 훈련시킨다."
+  },
+  {
+   "word": "take care of",
+   "pos": "phr.",
+   "ko": "~을 돌보다",
+   "def": "to help, protect, or look after someone or something",
+   "example": "I **take care of** my little brother after school.",
+   "example_ko": "나는 방과 후에 남동생을 돌본다."
+  },
+  {
+   "word": "excited",
+   "pos": "adj.",
+   "ko": "흥분한, 신이 난",
+   "def": "feeling very happy and full of energy because something good is happening",
+   "example": "The kids were **excited** about the trip.",
+   "example_ko": "아이들은 여행 때문에 신이 났다."
+  },
+  {
+   "word": "signal",
+   "pos": "n.",
+   "ko": "신호",
+   "def": "a sound, light, action, or sign that gives information or tells someone to do something",
+   "example": "The teacher gave us a **signal** to start.",
+   "example_ko": "선생님이 우리에게 시작하라는 신호를 주셨다."
+  },
+  {
+   "word": "calm",
+   "pos": "v.",
+   "ko": "진정시키다",
+   "def": "to make someone or something feel quiet and not afraid, angry, or excited",
+   "example": "Soft music can **calm** a crying baby.",
+   "example_ko": "부드러운 음악은 우는 아기를 진정시킬 수 있다."
+  },
+  {
+   "word": "wrangler",
+   "pos": "n.",
+   "ko": "(동물) 조련사",
+   "def": "a person who takes care of and controls animals, especially horses or cows",
+   "example": "The **wrangler** led the horses into the field.",
+   "example_ko": "조련사가 말들을 들판으로 이끌었다."
+  },
+  {
+   "word": "editor",
+   "pos": "n.",
+   "ko": "편집자",
+   "def": "a person who checks and changes writing, videos, or pictures to make them better",
+   "example": "The **editor** fixed the mistakes in my article.",
+   "example_ko": "편집자가 내 기사의 실수를 고쳤다."
+  },
+  {
+   "word": "scene",
+   "pos": "n.",
+   "ko": "장면",
+   "def": "a part of a movie, play, or story where something happens",
+   "example": "The last **scene** of the movie was very sad.",
+   "example_ko": "그 영화의 마지막 장면은 매우 슬펐다."
+  },
+  {
+   "word": "delete",
+   "pos": "v.",
+   "ko": "삭제하다",
+   "def": "to remove something, like words, pictures, or files",
+   "example": "I **deleted** the old photos from my phone.",
+   "example_ko": "나는 휴대폰에서 오래된 사진들을 삭제했다."
+  },
+  {
+   "word": "storytelling",
+   "pos": "n.",
+   "ko": "이야기하기, 스토리텔링",
+   "def": "the skill of making and sharing tales in an interesting way",
+   "example": "My grandmother is good at **storytelling**.",
+   "example_ko": "할머니는 이야기를 잘하신다."
+  },
+  {
+   "word": "Foley artist",
+   "pos": "n.",
+   "ko": "폴리 아티스트 (음향 효과 전문가)",
+   "def": "a person who creates sounds (like footsteps, doors closing, or clothes moving) to make a movie or show sound real",
+   "example": "A **Foley artist** made the sound of horse steps.",
+   "example_ko": "폴리 아티스트가 말발굽 소리를 만들었다."
+  },
+  {
+   "word": "effect",
+   "pos": "n.",
+   "ko": "효과",
+   "def": "a sound or image added to make something more real in a movie",
+   "example": "The movie has amazing special **effects**.",
+   "example_ko": "그 영화는 놀라운 특수 효과가 있다."
+  },
+  {
+   "word": "recording",
+   "pos": "n.",
+   "ko": "녹음, 녹화",
+   "def": "saving sound or video using a microphone or camera, so you can use it later",
+   "example": "The band started the **recording** of a new song.",
+   "example_ko": "밴드는 새 노래의 녹음을 시작했다."
+  }
+ ],
+ "ws1": [
+  {
+   "no": 1,
+   "en": "Hi, I’m Jim Brown, / the director((감독)) of Happy Days.",
+   "ko": "안녕, 나는 Jim Brown이다 / Happy Days의 감독인"
+  },
+  {
+   "no": 2,
+   "en": "It’s a movie / about the friendship((우정)) / between Tom and his dog Max.",
+   "ko": "그것은 영화이다 / 우정에 관한 / Tom과 그의 개 Max 사이의"
+  },
+  {
+   "no": 3,
+   "en": "A lot of people are working hard / to create this movie.",
+   "ko": "많은 사람들이 열심히 일하고 있다 / 이 영화를 만들기 위해"
+  },
+  {
+   "no": 4,
+   "en": "Do you want / to meet some of them?",
+   "ko": "당신은 원하는가 / 그들 중 몇 명을 만나기를"
+  },
+  {
+   "no": 5,
+   "en": "I’m Anna, / and I found this beautiful beach.",
+   "ko": "나는 Anna이다 / 그리고 나는 이 아름다운 해변을 찾았다"
+  },
+  {
+   "no": 6,
+   "en": "I’m a location manager((로케이션 매니저)), / and my job is / to find perfect places / for shooting((촬영)).",
+   "ko": "나는 로케이션 매니저이다 / 그리고 나의 일은 ~이다 / 완벽한 장소를 찾는 것 / 촬영을 위한"
+  },
+  {
+   "no": 7,
+   "en": "Of course, / it is not easy, / but I love my job.",
+   "ko": "물론 / 그것은 쉽지 않다 / 하지만 나는 내 일을 사랑한다"
+  },
+  {
+   "no": 8,
+   "en": "I like to travel / and enjoy challenges((도전)).",
+   "ko": "나는 여행하는 것을 좋아한다 / 그리고 도전을 즐긴다"
+  },
+  {
+   "no": 9,
+   "en": "I’m Peter, / the director of photography((촬영 감독)) / for this movie.",
+   "ko": "나는 Peter이다 / 촬영 감독인 / 이 영화의"
+  },
+  {
+   "no": 10,
+   "en": "I’m in charge of((~을 담당하다)) / all the cameras.",
+   "ko": "나는 담당한다 / 모든 카메라를"
+  },
+  {
+   "no": 11,
+   "en": "Today, / Tom and Max are going to play together / with a ball / on the beach.",
+   "ko": "오늘 / Tom과 Max는 함께 놀 예정이다 / 공을 가지고 / 해변에서"
+  },
+  {
+   "no": 12,
+   "en": "To capture((포착하다)) their happy moments((순간)), / I’m going to use drones.",
+   "ko": "그들의 행복한 순간을 포착하기 위해 / 나는 드론을 사용할 것이다"
+  },
+  {
+   "no": 13,
+   "en": "I’m Jennifer. / I trained((훈련하다)) and took care of Max / for a long time.",
+   "ko": "나는 Jennifer이다 / 나는 Max를 훈련하고 돌봤다 / 오랫동안"
+  },
+  {
+   "no": 14,
+   "en": "Max is a great actor, / but he sometimes gets too excited((흥분한)) / when a lot of people are around.",
+   "ko": "Max는 훌륭한 배우이다 / 하지만 그는 가끔 너무 흥분한다 / 많은 사람들이 주변에 있을 때"
+  },
+  {
+   "no": 15,
+   "en": "So, / I use hand signals((신호)) / to calm((진정시키다)) him.",
+   "ko": "그래서 / 나는 수신호를 사용한다 / 그를 진정시키기 위해"
+  },
+  {
+   "no": 16,
+   "en": "Who am I? / I’m an animal wrangler((조련사)).",
+   "ko": "나는 누구일까 / 나는 동물 조련사이다"
+  },
+  {
+   "no": 17,
+   "en": "My name is Emma, / and I’m a film editor((편집자)).",
+   "ko": "내 이름은 Emma이다 / 그리고 나는 영화 편집자이다"
+  },
+  {
+   "no": 18,
+   "en": "My work begins / after the shooting is over.",
+   "ko": "내 일은 시작된다 / 촬영이 끝난 후에"
+  },
+  {
+   "no": 19,
+   "en": "To create a better story, / I can change the order((순서)) of scenes((장면)) / or delete some of them.",
+   "ko": "더 좋은 이야기를 만들기 위해 / 나는 장면의 순서를 바꿀 수 있다 / 또는 그것들 중 일부를 삭제할 수 있다"
+  },
+  {
+   "no": 20,
+   "en": "Storytelling skills are important / for my job, / so I read a lot.",
+   "ko": "스토리텔링 능력이 중요하다 / 나의 일에 / 그래서 나는 많이 읽는다"
+  },
+  {
+   "no": 21,
+   "en": "I’m Chris, / and I’m a Foley artist((음향 효과 전문가)).",
+   "ko": "나는 Chris이다 / 그리고 나는 폴리 아티스트이다"
+  },
+  {
+   "no": 22,
+   "en": "I create sound effects((효과)) / in my studio / when recording on location((현장에서)) / is not easy.",
+   "ko": "나는 음향 효과를 만든다 / 나의 작업실에서 / 현장에서 녹음하는 것이 / 쉽지 않을 때"
+  },
+  {
+   "no": 23,
+   "en": "Listen carefully. / Do you hear the sound of waves((파도))?",
+   "ko": "주의 깊게 들어 봐 / 너는 파도 소리가 들리니"
+  },
+  {
+   "no": 24,
+   "en": "I made that sound / with rice and a plastic container((용기, 통)).",
+   "ko": "나는 그 소리를 만들었다 / 쌀과 플라스틱 통으로"
+  },
+  {
+   "no": 25,
+   "en": "Doesn’t it sound real?",
+   "ko": "그것은 진짜처럼 들리지 않니"
+  }
+ ],
+ "ws2": [
+  {
+   "no": 1,
+   "en": "Hi, I’m Jim Brown, the **director** of Happy Days.",
+   "ko": "안녕, 나는 Happy Days의 {{감독}} Jim Brown이야."
+  },
+  {
+   "no": 2,
+   "en": "It’s a movie about the **friendship** between Tom and his dog Max.",
+   "ko": "Happy Days는 Tom과 그의 강아지 Max의 {{우정}}에 관한 영화야."
+  },
+  {
+   "no": 3,
+   "en": "A lot of people are working **hard** to **create** this movie.",
+   "ko": "많은 사람들이 이 영화를 {{만들기}} 위해 {{열심히}} 일하고 있어."
+  },
+  {
+   "no": 4,
+   "en": "Do you want to **meet** some of them?",
+   "ko": "그들 중 몇 명을 {{만나}} 보고 싶니?"
+  },
+  {
+   "no": 5,
+   "en": "I’m Anna, and I **found** this beautiful **beach**.",
+   "ko": "나는 Anna이고, 내가 이 아름다운 {{해변}}을 {{찾아냈}}어."
+  },
+  {
+   "no": 6,
+   "en": "I’m a **location manager**, and my job is to find **perfect** places for **shooting**.",
+   "ko": "나는 {{로케이션 매니저}}인데, 내 일은 {{촬영}}을 위한 {{완벽한}} 장소를 찾는 거야."
+  },
+  {
+   "no": 7,
+   "en": "**Of course**, it is not **easy**, but I love my job.",
+   "ko": "{{물론}}, {{쉽}}지는 않지만, 나는 내 일을 정말 좋아해."
+  },
+  {
+   "no": 8,
+   "en": "I like to **travel** and enjoy **challenges**.",
+   "ko": "나는 {{여행하}}는 것을 좋아하고 {{도전}}을 즐겨."
+  },
+  {
+   "no": 9,
+   "en": "I’m Peter, the **director of photography** for this movie.",
+   "ko": "나는 이 영화의 {{촬영 감독}}인 Peter야."
+  },
+  {
+   "no": 10,
+   "en": "I’m **in charge of** all the cameras.",
+   "ko": "나는 모든 카메라를 {{담당하}}고 있지."
+  },
+  {
+   "no": 11,
+   "en": "Today, Tom and Max are going to play **together** with a ball on the **beach**.",
+   "ko": "오늘, Tom과 Max는 {{해변}}에서 공을 가지고 {{함께}} 놀 예정이야."
+  },
+  {
+   "no": 12,
+   "en": "To **capture** their happy **moments**, I’m going to use **drones**.",
+   "ko": "그들의 행복한 {{순간}}을 {{포착하}}기 위해, 나는 {{드론}}을 사용할 거야."
+  },
+  {
+   "no": 13,
+   "en": "I’m Jennifer. I **trained** and **took care of** Max **for a long time**.",
+   "ko": "나는 Jennifer야. 나는 Max를 {{오랫동안}} {{훈련하}}고 {{돌봤}}어."
+  },
+  {
+   "no": 14,
+   "en": "Max is a great **actor**, but he **sometimes** gets too **excited** when a lot of people are around.",
+   "ko": "Max는 훌륭한 {{배우}}이지만, 주변에 사람들이 많으면 {{가끔}} 너무 {{흥분할}} 때가 있어."
+  },
+  {
+   "no": 15,
+   "en": "So, I use hand **signals** to **calm** him.",
+   "ko": "그래서, 나는 그를 {{진정시키}}기 위해 {{수신호}}를 사용해."
+  },
+  {
+   "no": 16,
+   "en": "Who am I? I’m an animal **wrangler**.",
+   "ko": "나는 누구일까? 나는 동물 {{조련사}}야."
+  },
+  {
+   "no": 17,
+   "en": "My name is Emma, and I’m a film **editor**.",
+   "ko": "내 이름은 Emma이고, 나는 영화 {{편집자}}야."
+  },
+  {
+   "no": 18,
+   "en": "My work **begins** after the shooting is **over**.",
+   "ko": "내 일은 촬영이 {{끝난}} 뒤에 {{시작돼}}."
+  },
+  {
+   "no": 19,
+   "en": "To create a better story, I can change the **order** of **scenes** or **delete** some of them.",
+   "ko": "더 좋은 이야기를 만들기 위해서, 나는 {{장면}}의 {{순서}}를 바꾸거나 장면 중 일부를 {{삭제할}} 수도 있어."
+  },
+  {
+   "no": 20,
+   "en": "**Storytelling skills** are **important** for my job, so I read a lot.",
+   "ko": "내 일을 하는 데는 {{스토리텔링 능력}}이 {{중요해}}서, 나는 책을 많이 읽어."
+  },
+  {
+   "no": 21,
+   "en": "I’m Chris, and I’m a **Foley artist**.",
+   "ko": "나는 Chris이고, {{폴리 아티스트}}야."
+  },
+  {
+   "no": 22,
+   "en": "I create sound **effects** in my **studio** when **recording** on location is not easy.",
+   "ko": "나는 현장에서 {{녹음하는}} 게 쉽지 않을 때 내 {{작업실}}에서 음향 {{효과}}를 만들어."
+  },
+  {
+   "no": 23,
+   "en": "Listen **carefully**. Do you hear the sound of **waves**?",
+   "ko": "{{잘}} 들어봐. {{파도}} 소리가 들리니?"
+  },
+  {
+   "no": 24,
+   "en": "I made that sound with **rice** and a plastic **container**.",
+   "ko": "내가 {{쌀}}과 플라스틱 {{통}}으로 그 소리를 만들었어."
+  },
+  {
+   "no": 25,
+   "en": "Doesn’t it sound **real**?",
+   "ko": "{{진짜}} 같지 않니?"
+  }
+ ],
+ "ws3": [
+  {
+   "no": 1,
+   "ko": "안녕, 나는 Happy Days의 **감독** Jim Brown이야.",
+   "en": "Hi, I’m Jim Brown, the {{director}} of Happy Days."
+  },
+  {
+   "no": 2,
+   "ko": "Happy Days는 Tom과 그의 강아지 Max의 **우정**에 관한 영화야.",
+   "en": "It’s a movie about the {{friendship}} between Tom and his dog Max."
+  },
+  {
+   "no": 3,
+   "ko": "많은 사람들이 이 영화를 **만들기** 위해 **열심히** 일하고 있어.",
+   "en": "A lot of people are working {{hard}} to {{create}} this movie."
+  },
+  {
+   "no": 4,
+   "ko": "그들 중 몇 명을 **만나** 보고 싶니?",
+   "en": "Do you want to {{meet}} some of them?"
+  },
+  {
+   "no": 5,
+   "ko": "나는 Anna이고, 내가 이 아름다운 **해변**을 **찾아냈**어.",
+   "en": "I’m Anna, and I {{found}} this beautiful {{beach}}."
+  },
+  {
+   "no": 6,
+   "ko": "나는 **로케이션 매니저**인데, 내 일은 **촬영**을 위한 **완벽한** 장소를 찾는 거야.",
+   "en": "I’m a {{location manager}}, and my job is to find {{perfect}} places for {{shooting}}."
+  },
+  {
+   "no": 7,
+   "ko": "**물론**, **쉽**지는 않지만, 나는 내 일을 정말 좋아해.",
+   "en": "{{Of course}}, it is not {{easy}}, but I love my job."
+  },
+  {
+   "no": 8,
+   "ko": "나는 **여행하**는 것을 좋아하고 **도전**을 즐겨.",
+   "en": "I like to {{travel}} and enjoy {{challenges}}."
+  },
+  {
+   "no": 9,
+   "ko": "나는 이 영화의 **촬영 감독**인 Peter야.",
+   "en": "I’m Peter, the {{director of photography}} for this movie."
+  },
+  {
+   "no": 10,
+   "ko": "나는 모든 카메라를 **담당하**고 있지.",
+   "en": "I’m {{in charge of}} all the cameras."
+  },
+  {
+   "no": 11,
+   "ko": "오늘, Tom과 Max는 **해변**에서 공을 가지고 **함께** 놀 예정이야.",
+   "en": "Today, Tom and Max are going to play {{together}} with a ball on the {{beach}}."
+  },
+  {
+   "no": 12,
+   "ko": "그들의 행복한 **순간**을 **포착하**기 위해, 나는 **드론**을 사용할 거야.",
+   "en": "To {{capture}} their happy {{moments}}, I’m going to use {{drones}}."
+  },
+  {
+   "no": 13,
+   "ko": "나는 Jennifer야. 나는 Max를 **오랫동안** **훈련하**고 **돌봤**어.",
+   "en": "I’m Jennifer. I {{trained}} and {{took care of}} Max {{for a long time}}."
+  },
+  {
+   "no": 14,
+   "ko": "Max는 훌륭한 **배우**이지만, 주변에 사람들이 많으면 **가끔** 너무 **흥분할** 때가 있어.",
+   "en": "Max is a great {{actor}}, but he {{sometimes}} gets too {{excited}} when a lot of people are around."
+  },
+  {
+   "no": 15,
+   "ko": "그래서, 나는 그를 **진정시키**기 위해 **수신호**를 사용해.",
+   "en": "So, I use hand {{signals}} to {{calm}} him."
+  },
+  {
+   "no": 16,
+   "ko": "나는 누구일까? 나는 동물 **조련사**야.",
+   "en": "Who am I? I’m an animal {{wrangler}}."
+  },
+  {
+   "no": 17,
+   "ko": "내 이름은 Emma이고, 나는 영화 **편집자**야.",
+   "en": "My name is Emma, and I’m a film {{editor}}."
+  },
+  {
+   "no": 18,
+   "ko": "내 일은 촬영이 **끝난** 뒤에 **시작돼**.",
+   "en": "My work {{begins}} after the shooting is {{over}}."
+  },
+  {
+   "no": 19,
+   "ko": "더 좋은 이야기를 만들기 위해서, 나는 **장면**의 **순서**를 바꾸거나 장면 중 일부를 **삭제할** 수도 있어.",
+   "en": "To create a better story, I can change the {{order}} of {{scenes}} or {{delete}} some of them."
+  },
+  {
+   "no": 20,
+   "ko": "내 일을 하는 데는 **스토리텔링 능력**이 **중요해**서, 나는 책을 많이 읽어.",
+   "en": "{{Storytelling skills}} are {{important}} for my job, so I read a lot."
+  },
+  {
+   "no": 21,
+   "ko": "나는 Chris이고, **폴리 아티스트**야.",
+   "en": "I’m Chris, and I’m a {{Foley artist}}."
+  },
+  {
+   "no": 22,
+   "ko": "나는 현장에서 **녹음하는** 게 쉽지 않을 때 내 **작업실**에서 음향 **효과**를 만들어.",
+   "en": "I create sound {{effects}} in my {{studio}} when {{recording}} on location is not easy."
+  },
+  {
+   "no": 23,
+   "ko": "**잘** 들어봐. **파도** 소리가 들리니?",
+   "en": "Listen {{carefully}}. Do you hear the sound of {{waves}}?"
+  },
+  {
+   "no": 24,
+   "ko": "내가 **쌀**과 플라스틱 **통**으로 그 소리를 만들었어.",
+   "en": "I made that sound with {{rice}} and a plastic {{container}}."
+  },
+  {
+   "no": 25,
+   "ko": "**진짜** 같지 않니?",
+   "en": "Doesn’t it sound {{real}}?"
+  }
+ ],
+ "ws4": [
+  {
+   "no": 1,
+   "en": "Hi, I ^^(be)^^ Jim Brown, the director of Happy Days.",
+   "answer": [
+    "’m (am)"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "It ^^(be)^^ a movie about the friendship between Tom and his dog Max.",
+   "answer": [
+    "’s (is)"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "A lot of people ^^(work)^^ hard ^^(create)^^ this movie.",
+   "answer": [
+    "are working",
+    "to create"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "^^(Do)^^ you ^^(want)^^ ^^(meet)^^ some of them?",
+   "answer": [
+    "Do",
+    "want",
+    "to meet"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "I ^^(be)^^ Anna, and I ^^(find)^^ this beautiful beach.",
+   "answer": [
+    "’m (am)",
+    "found"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "I ^^(be)^^ a location manager, and my job ^^(be)^^ ^^(find)^^ perfect places for ^^(shoot)^^.",
+   "answer": [
+    "’m (am)",
+    "is",
+    "to find",
+    "shooting"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "Of course, it ^^(be)^^ not easy, but I ^^(love)^^ my job.",
+   "answer": [
+    "is",
+    "love"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "I ^^(like)^^ ^^(travel)^^ and ^^(enjoy)^^ challenges.",
+   "answer": [
+    "like",
+    "to travel",
+    "enjoy"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "I ^^(be)^^ Peter, the director of photography for this movie.",
+   "answer": [
+    "’m (am)"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I ^^(be)^^ in charge of all the cameras.",
+   "answer": [
+    "’m (am)"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "Today, Tom and Max ^^(be going to, play)^^ together with a ball on the beach.",
+   "answer": [
+    "are going to play"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "^^(capture)^^ their happy moments, I ^^(be going to, use)^^ drones.",
+   "answer": [
+    "To capture",
+    "’m going to use"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "I ^^(be)^^ Jennifer. I ^^(train)^^ and ^^(take)^^ care of Max for a long time.",
+   "answer": [
+    "’m (am)",
+    "trained",
+    "took"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Max ^^(be)^^ a great actor, but he sometimes ^^(get)^^ too ^^(excite)^^ when a lot of people ^^(be)^^ around.",
+   "answer": [
+    "is",
+    "gets",
+    "excited",
+    "are"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "So, I ^^(use)^^ hand signals ^^(calm)^^ him.",
+   "answer": [
+    "use",
+    "to calm"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "Who ^^(be)^^ I? I ^^(be)^^ an animal wrangler.",
+   "answer": [
+    "am",
+    "’m (am)"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "My name ^^(be)^^ Emma, and I ^^(be)^^ a film editor.",
+   "answer": [
+    "is",
+    "’m (am)"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "My work ^^(begin)^^ after the shooting ^^(be)^^ over.",
+   "answer": [
+    "begins",
+    "is"
+   ]
+  },
+  {
+   "no": 19,
+   "en": "^^(create)^^ a better story, I ^^(can, change)^^ the order of scenes or ^^(delete)^^ some of them.",
+   "answer": [
+    "To create",
+    "can change",
+    "delete"
+   ]
+  },
+  {
+   "no": 20,
+   "en": "Storytelling skills ^^(be)^^ important for my job, so I ^^(read)^^ a lot.",
+   "answer": [
+    "are",
+    "read"
+   ]
+  },
+  {
+   "no": 21,
+   "en": "I ^^(be)^^ Chris, and I ^^(be)^^ a Foley artist.",
+   "answer": [
+    "’m (am)",
+    "’m (am)"
+   ]
+  },
+  {
+   "no": 22,
+   "en": "I ^^(create)^^ sound effects in my studio when ^^(record)^^ on location ^^(be)^^ not easy.",
+   "answer": [
+    "create",
+    "recording",
+    "is"
+   ]
+  },
+  {
+   "no": 23,
+   "en": "^^(listen)^^ carefully. ^^(Do)^^ you ^^(hear)^^ the sound of waves?",
+   "answer": [
+    "Listen",
+    "Do",
+    "hear"
+   ]
+  },
+  {
+   "no": 24,
+   "en": "I ^^(make)^^ that sound with rice and a plastic container.",
+   "answer": [
+    "made"
+   ]
+  },
+  {
+   "no": 25,
+   "en": "Doesn’t it ^^(sound)^^ real?",
+   "answer": [
+    "sound"
+   ]
+  }
+ ],
+ "ws5": [
+  {
+   "no": 1,
+   "en": "Hi, I’m Jim Brown, the ^^[direct / director]^^ of Happy Days.",
+   "answer": [
+    "director"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "It’s a movie about the ^^[friendship / friend]^^ between Tom and his dog Max.",
+   "answer": [
+    "friendship"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "A lot of people ^^[is / are]^^ working hard ^^[to create / create]^^ this movie.",
+   "answer": [
+    "are",
+    "to create"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "Do you want ^^[meeting / to meet]^^ some of them?",
+   "answer": [
+    "to meet"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "I’m Anna, and I ^^[found / finded]^^ this beautiful beach.",
+   "answer": [
+    "found"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "I’m a location manager, and my job is ^^[find / to find]^^ perfect places for ^^[shooting / shoot]^^.",
+   "answer": [
+    "to find",
+    "shooting"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "Of course, it is not ^^[easily / easy]^^, but I love my job.",
+   "answer": [
+    "easy"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "I like to travel and ^^[enjoy / enjoying]^^ challenges.",
+   "answer": [
+    "enjoy"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "I’m Peter, the director of ^^[photograph / photography]^^ for this movie.",
+   "answer": [
+    "photography"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I’m in charge ^^[of / for]^^ all the cameras.",
+   "answer": [
+    "of"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "Today, Tom and Max ^^[is / are]^^ going to ^^[play / playing]^^ together with a ball on the beach.",
+   "answer": [
+    "are",
+    "play"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "^^[Capture / To capture]^^ their happy moments, I’m going to use drones.",
+   "answer": [
+    "To capture"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "I’m Jennifer. I trained and ^^[took / taken]^^ care of Max for a long time.",
+   "answer": [
+    "took"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Max is a great actor, but he ^^[gets sometimes / sometimes gets]^^ too ^^[excited / exciting]^^ when a lot of people are around.",
+   "answer": [
+    "sometimes gets",
+    "excited"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "So, I use hand signals ^^[calming / to calm]^^ him.",
+   "answer": [
+    "to calm"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "Who ^^[am I / I am]^^? I’m an animal wrangler.",
+   "answer": [
+    "am I"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "My name ^^[are / is]^^ Emma, and I’m a film editor.",
+   "answer": [
+    "is"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "My work ^^[begins / begin]^^ after the shooting is over.",
+   "answer": [
+    "begins"
+   ]
+  },
+  {
+   "no": 19,
+   "en": "To create a better story, I can ^^[changes / change]^^ the order of scenes or delete some of ^^[them / it]^^.",
+   "answer": [
+    "change",
+    "them"
+   ]
+  },
+  {
+   "no": 20,
+   "en": "Storytelling skills ^^[is / are]^^ important for my job, so I read a lot.",
+   "answer": [
+    "are"
+   ]
+  },
+  {
+   "no": 21,
+   "en": "I’m Chris, and I’m ^^[a / an]^^ Foley artist.",
+   "answer": [
+    "a"
+   ]
+  },
+  {
+   "no": 22,
+   "en": "I create sound effects in my studio when ^^[record / recording]^^ on location ^^[is / are]^^ not easy.",
+   "answer": [
+    "recording",
+    "is"
+   ]
+  },
+  {
+   "no": 23,
+   "en": "Listen ^^[carefully / careful]^^. Do you hear the sound of waves?",
+   "answer": [
+    "carefully"
+   ]
+  },
+  {
+   "no": 24,
+   "en": "I ^^[maked / made]^^ that sound with rice and a plastic container.",
+   "answer": [
+    "made"
+   ]
+  },
+  {
+   "no": 25,
+   "en": "Doesn’t it sound ^^[really / real]^^?",
+   "answer": [
+    "real"
+   ]
+  }
+ ],
+ "ws6": [
+  {
+   "lines": [
+    "Let’s Make a Movie!",
+    "Hi, I’m Jim Brown, the **director** of Happy Days. It’s a movie **about** the friendship between Tom and his dog Max. A lot of people **is** working **hard** **create** this movie. Do you want **meeting** some of them?"
+   ],
+   "errors": [
+    {
+     "wrong": "is",
+     "right": "are",
+     "reason": "주어 A lot of people 는 복수"
+    },
+    {
+     "wrong": "create",
+     "right": "to create",
+     "reason": "목적(~하기 위해)은 to부정사"
+    },
+    {
+     "wrong": "meeting",
+     "right": "to meet",
+     "reason": "want 는 to부정사를 목적어로"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "I’m Anna, and I **finded** this beautiful beach. I’m a location manager, and my job **is** **find** perfect places for **shooting**. Of course, it is not **easily**, but I **love** my job. I like to travel and **enjoy** challenges."
+   ],
+   "errors": [
+    {
+     "wrong": "finded",
+     "right": "found",
+     "reason": "find 의 과거형은 found (불규칙)"
+    },
+    {
+     "wrong": "find",
+     "right": "to find",
+     "reason": "be동사 뒤 보어 — to부정사 (명사적 용법)"
+    },
+    {
+     "wrong": "easily",
+     "right": "easy",
+     "reason": "be동사 뒤 보어는 형용사"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "I’m Peter, the director of **photography** for this movie. I’m in charge **of** all the cameras. Today, Tom and Max **is** going to **playing** together with a ball on the beach. **Capture** their happy moments, I’m going to **use** drones."
+   ],
+   "errors": [
+    {
+     "wrong": "is",
+     "right": "are",
+     "reason": "주어 Tom and Max 는 복수"
+    },
+    {
+     "wrong": "playing",
+     "right": "play",
+     "reason": "be going to + 동사원형"
+    },
+    {
+     "wrong": "Capture",
+     "right": "To capture",
+     "reason": "목적(~하기 위해)은 to부정사"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "I’m Jennifer. I trained and **took** care of Max for a long time. Max is a great actor, but he **gets sometimes** too **exciting** when a lot of people **are** around. So, I use hand signals **to calm** him. Who **I am**? I’m an animal wrangler."
+   ],
+   "errors": [
+    {
+     "wrong": "gets sometimes",
+     "right": "sometimes gets",
+     "reason": "빈도부사는 일반동사 앞"
+    },
+    {
+     "wrong": "exciting",
+     "right": "excited",
+     "reason": "감정을 느끼는 쪽(Max)은 -ed"
+    },
+    {
+     "wrong": "I am",
+     "right": "am I",
+     "reason": "의문문 어순: 의문사 + be동사 + 주어"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "My name is Emma, and I’m a film **editor**. My work **begin** after the shooting is over. To create a better story, I can **changes** the order of scenes or **delete** some of **them**. Storytelling skills **is** important for my job, so I read a lot."
+   ],
+   "errors": [
+    {
+     "wrong": "begin",
+     "right": "begins",
+     "reason": "주어 My work 는 3인칭 단수"
+    },
+    {
+     "wrong": "changes",
+     "right": "change",
+     "reason": "조동사 can + 동사원형"
+    },
+    {
+     "wrong": "is",
+     "right": "are",
+     "reason": "주어 Storytelling skills 는 복수"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "I’m Chris, and I’m **an** Foley artist. I **create** sound effects in my studio when **record** on location is not easy. Listen **careful**. Do you hear the sound of **waves**? I **made** that sound with rice and a plastic container. Doesn’t it sound **real**?"
+   ],
+   "errors": [
+    {
+     "wrong": "an",
+     "right": "a",
+     "reason": "Foley 는 자음 소리로 시작"
+    },
+    {
+     "wrong": "record",
+     "right": "recording",
+     "reason": "when 절의 주어 자리 — 동명사"
+    },
+    {
+     "wrong": "careful",
+     "right": "carefully",
+     "reason": "동사 Listen 을 꾸미는 부사"
+    }
+   ]
+  }
+ ],
+ "ws7": [
+  {
+   "no": 1,
+   "en": "Hi, (Jim Brown / I’m), (of Happy Days / the director).",
+   "answer": "Hi, I’m Jim Brown, the director of Happy Days."
+  },
+  {
+   "no": 2,
+   "en": "(a movie / it’s) (the friendship / about) (Tom and his dog Max / between).",
+   "answer": "It’s a movie about the friendship between Tom and his dog Max."
+  },
+  {
+   "no": 3,
+   "en": "(work / hard / a lot of people) (create / this movie).",
+   "answer": "A lot of people are working hard to create this movie."
+  },
+  {
+   "no": 4,
+   "en": "(want / do / you) (some of them / meet)?",
+   "answer": "Do you want to meet some of them?"
+  },
+  {
+   "no": 5,
+   "en": "(Anna / I’m), and (this beautiful beach / find / I).",
+   "answer": "I’m Anna, and I found this beautiful beach."
+  },
+  {
+   "no": 6,
+   "en": "(a location manager / I’m), and (be / my job) (perfect places / find) (shooting / for).",
+   "answer": "I’m a location manager, and my job is to find perfect places for shooting."
+  },
+  {
+   "no": 7,
+   "en": "Of course, (easy / it / not / be), but (my job / love / I).",
+   "answer": "Of course, it is not easy, but I love my job."
+  },
+  {
+   "no": 8,
+   "en": "(travel / like / I) and (challenges / enjoy).",
+   "answer": "I like to travel and enjoy challenges."
+  },
+  {
+   "no": 9,
+   "en": "(Peter / I’m), (the director / for this movie / of photography).",
+   "answer": "I’m Peter, the director of photography for this movie."
+  },
+  {
+   "no": 10,
+   "en": "(all the cameras / in charge of / I’m).",
+   "answer": "I’m in charge of all the cameras."
+  },
+  {
+   "no": 11,
+   "en": "Today, (be going to / Tom and Max / play) (on the beach / together / with a ball).",
+   "answer": "Today, Tom and Max are going to play together with a ball on the beach."
+  },
+  {
+   "no": 12,
+   "en": "(their happy moments / capture), (drones / be going to / I / use).",
+   "answer": "To capture their happy moments, I’m going to use drones."
+  },
+  {
+   "no": 13,
+   "en": "I’m Jennifer. (train / I) and (care of Max / take) (a long time / for).",
+   "answer": "I’m Jennifer. I trained and took care of Max for a long time."
+  },
+  {
+   "no": 14,
+   "en": "(a great actor / Max / be), but (too / excite / he / sometimes / get) (when / a lot of people / be / around).",
+   "answer": "Max is a great actor, but he sometimes gets too excited when a lot of people are around."
+  },
+  {
+   "no": 15,
+   "en": "So, (hand signals / use / I) (him / calm).",
+   "answer": "So, I use hand signals to calm him."
+  },
+  {
+   "no": 16,
+   "en": "(I / be / who)? I’m an animal wrangler.",
+   "answer": "Who am I? I’m an animal wrangler."
+  },
+  {
+   "no": 17,
+   "en": "(Emma / be / my name), and (a film editor / I’m).",
+   "answer": "My name is Emma, and I’m a film editor."
+  },
+  {
+   "no": 18,
+   "en": "(begin / my work) (over / the shooting / after / be).",
+   "answer": "My work begins after the shooting is over."
+  },
+  {
+   "no": 19,
+   "en": "(a better story / create), (the order of scenes / change / can / I) or (some of them / delete).",
+   "answer": "To create a better story, I can change the order of scenes or delete some of them."
+  },
+  {
+   "no": 20,
+   "en": "(important / storytelling skills / be) (my job / for), so (a lot / read / I).",
+   "answer": "Storytelling skills are important for my job, so I read a lot."
+  },
+  {
+   "no": 21,
+   "en": "(Chris / I’m), and (a Foley artist / I’m).",
+   "answer": "I’m Chris, and I’m a Foley artist."
+  },
+  {
+   "no": 22,
+   "en": "(sound effects / create / I) (my studio / in) (not easy / record / be / on location / when).",
+   "answer": "I create sound effects in my studio when recording on location is not easy."
+  },
+  {
+   "no": 23,
+   "en": "(carefully / listen). (the sound of waves / hear / do / you)?",
+   "answer": "Listen carefully. Do you hear the sound of waves?"
+  },
+  {
+   "no": 24,
+   "en": "(that sound / make / I) (rice and a plastic container / with).",
+   "answer": "I made that sound with rice and a plastic container."
+  },
+  {
+   "no": 25,
+   "en": "(it / doesn’t) (real / sound)?",
+   "answer": "Doesn’t it sound real?"
+  }
+ ],
+ "ws8": [
+  {
+   "no": 1,
+   "keywords": [
+    "director",
+    "Happy Days"
+   ],
+   "frame": "Hi, {{#8}}.",
+   "answer": "Hi, I’m Jim Brown, the director of Happy Days."
+  },
+  {
+   "no": 2,
+   "keywords": [
+    "movie",
+    "friendship",
+    "between"
+   ],
+   "frame": "{{#12}}.",
+   "answer": "It’s a movie about the friendship between Tom and his dog Max."
+  },
+  {
+   "no": 3,
+   "keywords": [
+    "work",
+    "hard",
+    "create"
+   ],
+   "frame": "{{#11}}.",
+   "answer": "A lot of people are working hard to create this movie."
+  },
+  {
+   "no": 4,
+   "keywords": [
+    "want",
+    "meet"
+   ],
+   "frame": "{{#8}}?",
+   "answer": "Do you want to meet some of them?"
+  },
+  {
+   "no": 5,
+   "keywords": [
+    "find",
+    "beach"
+   ],
+   "frame": "I’m Anna, and {{#5}}.",
+   "answer": "I’m Anna, and I found this beautiful beach."
+  },
+  {
+   "no": 6,
+   "keywords": [
+    "location manager",
+    "job",
+    "find",
+    "shooting"
+   ],
+   "frame": "{{#4}}, and {{#9}}.",
+   "answer": "I’m a location manager, and my job is to find perfect places for shooting."
+  },
+  {
+   "no": 7,
+   "keywords": [
+    "easy",
+    "love"
+   ],
+   "frame": "Of course, {{#4}}, but {{#4}}.",
+   "answer": "Of course, it is not easy, but I love my job."
+  },
+  {
+   "no": 8,
+   "keywords": [
+    "like",
+    "travel",
+    "enjoy",
+    "challenges"
+   ],
+   "frame": "{{#7}}.",
+   "answer": "I like to travel and enjoy challenges."
+  },
+  {
+   "no": 9,
+   "keywords": [
+    "director",
+    "photography",
+    "movie"
+   ],
+   "frame": "I’m Peter, {{#7}}.",
+   "answer": "I’m Peter, the director of photography for this movie."
+  },
+  {
+   "no": 10,
+   "keywords": [
+    "in charge of",
+    "cameras"
+   ],
+   "frame": "{{#7}}.",
+   "answer": "I’m in charge of all the cameras."
+  },
+  {
+   "no": 11,
+   "keywords": [
+    "be going to",
+    "play",
+    "ball",
+    "beach"
+   ],
+   "frame": "Today, {{#14}}.",
+   "answer": "Today, Tom and Max are going to play together with a ball on the beach."
+  },
+  {
+   "no": 12,
+   "keywords": [
+    "capture",
+    "moments",
+    "drones"
+   ],
+   "frame": "{{#5}}, {{#5}}.",
+   "answer": "To capture their happy moments, I’m going to use drones."
+  },
+  {
+   "no": 13,
+   "keywords": [
+    "train",
+    "take care of",
+    "a long time"
+   ],
+   "frame": "I’m Jennifer. {{#11}}.",
+   "answer": "I’m Jennifer. I trained and took care of Max for a long time."
+  },
+  {
+   "no": 14,
+   "keywords": [
+    "actor",
+    "sometimes",
+    "excited",
+    "around"
+   ],
+   "frame": "{{#5}}, but {{#12}}.",
+   "answer": "Max is a great actor, but he sometimes gets too excited when a lot of people are around."
+  },
+  {
+   "no": 15,
+   "keywords": [
+    "hand signals",
+    "calm"
+   ],
+   "frame": "So, {{#7}}.",
+   "answer": "So, I use hand signals to calm him."
+  },
+  {
+   "no": 16,
+   "keywords": [
+    "who",
+    "wrangler"
+   ],
+   "frame": "{{#3}}? {{#4}}.",
+   "answer": "Who am I? I’m an animal wrangler."
+  },
+  {
+   "no": 17,
+   "keywords": [
+    "name",
+    "film editor"
+   ],
+   "frame": "{{#4}}, and {{#4}}.",
+   "answer": "My name is Emma, and I’m a film editor."
+  },
+  {
+   "no": 18,
+   "keywords": [
+    "begin",
+    "shooting",
+    "over"
+   ],
+   "frame": "{{#8}}.",
+   "answer": "My work begins after the shooting is over."
+  },
+  {
+   "no": 19,
+   "keywords": [
+    "create",
+    "change",
+    "order",
+    "delete"
+   ],
+   "frame": "{{#5}}, {{#12}}.",
+   "answer": "To create a better story, I can change the order of scenes or delete some of them."
+  },
+  {
+   "no": 20,
+   "keywords": [
+    "storytelling skills",
+    "important",
+    "read"
+   ],
+   "frame": "{{#7}}, so {{#4}}.",
+   "answer": "Storytelling skills are important for my job, so I read a lot."
+  },
+  {
+   "no": 21,
+   "keywords": [
+    "Chris",
+    "Foley artist"
+   ],
+   "frame": "{{#2}}, and {{#4}}.",
+   "answer": "I’m Chris, and I’m a Foley artist."
+  },
+  {
+   "no": 22,
+   "keywords": [
+    "sound effects",
+    "studio",
+    "recording",
+    "on location"
+   ],
+   "frame": "{{#7}} when {{#6}}.",
+   "answer": "I create sound effects in my studio when recording on location is not easy."
+  },
+  {
+   "no": 23,
+   "keywords": [
+    "listen",
+    "hear",
+    "waves"
+   ],
+   "frame": "{{#2}}. {{#7}}?",
+   "answer": "Listen carefully. Do you hear the sound of waves?"
+  },
+  {
+   "no": 24,
+   "keywords": [
+    "make",
+    "rice",
+    "plastic container"
+   ],
+   "frame": "{{#10}}.",
+   "answer": "I made that sound with rice and a plastic container."
+  },
+  {
+   "no": 25,
+   "keywords": [
+    "sound",
+    "real"
+   ],
+   "frame": "{{#4}}?",
+   "answer": "Doesn’t it sound real?"
+  }
+ ]
+}
