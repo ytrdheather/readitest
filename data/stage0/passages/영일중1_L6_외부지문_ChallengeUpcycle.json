@@ -1,0 +1,51 @@
+{
+  "passage_id": "영일중1_L6_외부지문_ChallengeUpcycle",
+  "kind": "handout_external",
+  "title": "Challenge Upcycle",
+  "school": "영일중학교",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 1
+  },
+  "textbook_unit": "Lesson 6",
+  "source_type": "학교 배부물",
+  "body_text": "Mina: Did you know that we can turn trash into something new and valuable? We can even make an artwork out of it. This process is upcycling. It is reusing trash creatively. Today, my dog tore my bag apart, so I needed a new bag. Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans. Jeans are strong, so they are perfect for a bag. I then found a how-to for making a bag from old jeans on the Internet and made a bag. I wanted to decorate the bag, so I used the pins and buttons from my old dresses. I showed the bag to my friend, Suna, and she said that it looked unique and very nice!",
+  "body_text_sha256": "3e9d8458d9ab39322bd33e305b2eab554a87dce03a5af638ec272eb1425d4042",
+  "word_count": 127,
+  "glossed": [
+    "trash",
+    "valuable",
+    "artwork",
+    "process",
+    "upcycle",
+    "decorate",
+    "unique",
+    "tear apart",
+    "how-to"
+  ],
+  "blank_filled": {
+    "sentence": 4,
+    "printed": "It is ________.",
+    "filled": "reusing trash creatively",
+    "why": "학습지 1번 「Which of the following best fills the blank?」 의 ⓒ. 다른 선지(ⓐ a kind of trash · ⓑ a new type of a bag · ⓓ reducing food waste)는 앞 문장 「This process is upcycling」의 풀이가 될 수 없다. 원장 확인 필요."
+  },
+  "transcription": {
+    "status": "confirmed",
+    "method": "vision_single_pass",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/영일중1 L6.pdf (13쪽 = 학습지 6과-(12) 'More reading')",
+    "note": "영일중1 L6 학습지 「More reading」 상자 안 지문. 교과서 본문 Challenge 01~04 에 이어 붙인 「Challenge Upcycle」 — 교사 자작으로 보인다 (Domingo 의 「My dog tore my bag」 을 그대로 받는다). 인쇄 활자를 비전으로 읽었다 — 전 문장 확인 대상. 빈칸 하나를 채웠다 (blank_filled). how-to 에는 '* how-to: 방법, 제작법' 주석이 붙어 있다. 1문단.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-10-25T12:52:29.685024+00:00",
+    "confirmed_via": "전사확인지_영일중1_L6_외부지문.html 육안 대조 · 빈칸 채운 것(ⓒ reusing trash creatively)까지 확인 (2026-10-25)",
+    "reviewed_sentences": [
+      4
+    ]
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부 자료. 기획서 §6.6 — 학원 내부 지도용."
+}

@@ -1,0 +1,186 @@
+{
+  "book": "영일중 배부물",
+  "unit": "중1 L6 외부지문 — Challenge Upcycle",
+  "parts": [
+    "Challenge Upcycle"
+  ],
+  "passage_ids": [
+    "31ab672a-9f28-42f9-ac0e-7e961a70b673"
+  ],
+  "para_breaks": [
+    10
+  ],
+  "turn_breaks": [
+    10
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "Mina: Did you know that we can turn trash into something new and valuable?",
+    "We can even make an artwork out of it.",
+    "This process is upcycling.",
+    "It is reusing trash creatively.",
+    "Today, my dog tore my bag apart, so I needed a new bag.",
+    "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans.",
+    "Jeans are strong, so they are perfect for a bag.",
+    "I then found a how-to for making a bag from old jeans on the Internet and made a bag.",
+    "I wanted to decorate the bag, so I used the pins and buttons from my old dresses.",
+    "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "미나는 쓰레기를 새롭고 가치 있는 것으로 바꿀 수 있다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 쓰레기를 새롭고 가치 있는 것으로 바꿀 수 있다고 했다.",
+      "_evidence_text": [
+        "Mina: Did you know that we can turn trash into something new and valuable?"
+      ],
+      "_repeat": false,
+      "statement_en": "Mina says that trash can be changed into something new and valuable."
+    },
+    {
+      "type": "content",
+      "statement_ko": "쓰레기로 예술 작품을 만드는 것도 가능하다고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "2번 문장에서 쓰레기로 예술 작품도 만들 수 있다고 했다.",
+      "_evidence_text": [
+        "We can even make an artwork out of it."
+      ],
+      "_repeat": false,
+      "statement_en": "According to Mina, people can even create a piece of art from trash."
+    },
+    {
+      "type": "content",
+      "statement_ko": "미나는 이 과정을 '리사이클링(recycling)'이라고 불렀다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에서 이 과정은 '업사이클링(upcycling)'이라고 했다.",
+      "_evidence_text": [
+        "This process is upcycling."
+      ],
+      "_repeat": false,
+      "statement_en": "Mina calls this process \"recycling.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "업사이클링은 쓰레기를 창의적으로 재사용하는 것이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "4번 문장에 그대로 나와 있다.",
+      "_evidence_text": [
+        "It is reusing trash creatively."
+      ],
+      "_repeat": false,
+      "statement_en": "Upcycling means using trash again in a creative way."
+    },
+    {
+      "type": "content",
+      "statement_ko": "오늘 미나의 고양이가 가방을 찢어 놓았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "가방을 찢은 것은 고양이가 아니라 미나의 개(dog)이다.",
+      "_evidence_text": [
+        "Today, my dog tore my bag apart, so I needed a new bag."
+      ],
+      "_repeat": false,
+      "statement_en": "Mina's cat tore her bag apart today."
+    },
+    {
+      "type": "content",
+      "statement_ko": "미나는 새 가방을 사기로 결정했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "새것을 사거나 낡은 것을 고치는 대신 낡은 청바지를 업사이클하기로 했다.",
+      "_evidence_text": [
+        "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans."
+      ],
+      "_repeat": false,
+      "statement_en": "Mina decided to buy a new bag."
+    },
+    {
+      "type": "content",
+      "statement_ko": "미나는 청바지가 튼튼해서 가방으로 만들기에 좋다고 생각했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장에서 청바지는 튼튼해서 가방에 안성맞춤이라고 했다.",
+      "_evidence_text": [
+        "Jeans are strong, so they are perfect for a bag."
+      ],
+      "_repeat": false,
+      "statement_en": "Mina thought jeans make a great bag because they are strong."
+    },
+    {
+      "type": "content",
+      "statement_ko": "미나는 인터넷에서 낡은 청바지로 가방 만드는 방법을 찾았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "8번 문장에서 인터넷에서 만드는 방법을 찾아 가방을 만들었다고 했다.",
+      "_evidence_text": [
+        "I then found a how-to for making a bag from old jeans on the Internet and made a bag."
+      ],
+      "_repeat": false,
+      "statement_en": "Mina looked on the Internet to learn how to make a bag out of old jeans."
+    },
+    {
+      "type": "content",
+      "statement_ko": "가방을 꾸미기 위해 미나는 새로 산 핀과 단추를 사용했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "새로 산 것이 아니라 낡은 드레스에서 떼어 낸 핀과 단추를 사용했다.",
+      "_evidence_text": [
+        "I wanted to decorate the bag, so I used the pins and buttons from my old dresses."
+      ],
+      "_repeat": false,
+      "statement_en": "To decorate the bag, Mina used pins and buttons that she had just bought."
+    },
+    {
+      "type": "content",
+      "statement_ko": "친구 수나는 그 가방이 독특하고 아주 멋져 보인다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번 문장에서 수나가 unique하고 very nice하다고 말했다.",
+      "_evidence_text": [
+        "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+      ],
+      "_repeat": false,
+      "statement_en": "Her friend Suna told her the bag looked unique and really nice."
+    }
+  ],
+  "diagnostics": {
+    "returned": 10,
+    "kept": 10,
+    "by_type": {
+      "content": 10
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 6,
+      "X": 4
+    },
+    "sentences_covered": 10,
+    "sentence_count": 10,
+    "repeated": 0
+  }
+}

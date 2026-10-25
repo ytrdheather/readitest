@@ -1,0 +1,751 @@
+{
+  "passage_id": "31ab672a-9f28-42f9-ac0e-7e961a70b673",
+  "body_text_sha256": "3e9d8458d9ab39322bd33e305b2eab554a87dce03a5af638ec272eb1425d4042",
+  "tags": [
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 6,
+      "span_end": 23,
+      "surface": "Did you know that",
+      "sentence_no": 1,
+      "rationale": "know의 목적어로 쓰인 명사절 접속사 that. 뒤에 완전한 절(we can turn trash into ~)이 오므로 what으로 바꾸면 틀린다. that/what 선택형으로 자주 출제됨.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 31,
+      "span_end": 46,
+      "surface": "turn trash into",
+      "sentence_no": 1,
+      "rationale": "turn A into B(A를 B로 바꾸다) 고정 결합. into를 to/in/onto로 바꾸거나 전치사를 삭제하는 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_POSTPOSITIVE",
+      "span_start": 47,
+      "span_end": 73,
+      "surface": "something new and valuable",
+      "sentence_no": 1,
+      "rationale": "-thing으로 끝나는 부정대명사는 형용사가 뒤에서 수식한다. new and valuable something 같은 어순 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 87,
+      "span_end": 112,
+      "surface": "make an artwork out of it",
+      "sentence_no": 2,
+      "rationale": "make A out of B(재료가 보이는 경우) 구문의 out of. from/with/by로 바꾸거나 out을 빼는 전치사 오류 출제 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 144,
+      "span_end": 154,
+      "surface": "is reusing",
+      "sentence_no": 4,
+      "rationale": "be동사 뒤 보어로 쓰인 동명사(reusing). 진행형으로 오해하기 쉬운 자리이며 to reuse / reuse 와의 구별을 묻는다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 161,
+      "span_end": 171,
+      "surface": "creatively",
+      "sentence_no": 4,
+      "rationale": "동명사 reusing을 수식하는 부사. creative(형용사)로 바꾼 오답 선지를 만들기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 187,
+      "span_end": 204,
+      "surface": "tore my bag apart",
+      "sentence_no": 5,
+      "rationale": "Today로 시작하지만 이미 끝난 일이므로 tear의 과거형 tore. teared/tears/has torn 등 시제·불규칙 변화 오류를 유도할 수 있고, 목적어가 있으므로 수동태 전환 함정도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 229,
+      "span_end": 246,
+      "surface": "Instead of buying",
+      "sentence_no": 6,
+      "rationale": "전치사 of 뒤에는 동명사가 와야 한다. Instead of buy / to buy 로 바꾼 오류(EI_GERUND_TO_VERB) 출제 빈도가 높다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 240,
+      "span_end": 278,
+      "surface": "buying a new one or fixing the old one",
+      "sentence_no": 6,
+      "rationale": "or로 연결된 두 동명사의 병렬. 뒤쪽을 fixes/to fix로 바꿔 병렬을 깨는 오답을 만들 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 282,
+      "span_end": 300,
+      "surface": "decided to upcycle",
+      "sentence_no": 6,
+      "rationale": "decide는 목적어로 to부정사만 취한다. decided upcycling 으로 바꾼 오류(EI_VERB_COMPLEMENT) 유도 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 315,
+      "span_end": 331,
+      "surface": "Jeans are strong",
+      "sentence_no": 7,
+      "rationale": "Jeans는 항상 복수 취급이므로 are. is로 바꾼 수일치 오류, 또는 보어 자리에 strongly(부사)를 넣는 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 418,
+      "span_end": 433,
+      "surface": "on the Internet",
+      "sentence_no": 8,
+      "rationale": "인터넷상에서는 전치사 on을 쓴다. in/at the Internet 으로 바꾼 전치사 선택 오류 빈출.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 434,
+      "span_end": 448,
+      "surface": "and made a bag",
+      "sentence_no": 8,
+      "rationale": "앞의 found와 and로 병렬 연결된 과거동사 made. making/makes로 바꿔 병렬을 깨는 오답을 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOO_DATIVE",
+      "span_start": 534,
+      "span_end": 561,
+      "surface": "showed the bag to my friend",
+      "sentence_no": 10,
+      "rationale": "4형식 show A B의 3형식 전환형(show B to A). 전치사 to를 for로 바꾸거나 삭제하는 오류, 4형식↔3형식 전환 영작으로 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 587,
+      "span_end": 603,
+      "surface": "it looked unique",
+      "sentence_no": 10,
+      "rationale": "감각동사 look 뒤에는 형용사 보어가 온다. uniquely(부사)로 바꾼 오답이 전형적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "부연",
+      "signal": "even",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "정의(주제문)",
+      "signal": "This process",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "정의 보충",
+      "signal": "It",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "원인(경험 도입)",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "해결책",
+      "signal": "Instead of",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "근거",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "과정",
+      "signal": "then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "과정 추가",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "결과요약",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "①"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "윗글의 내용을 옮긴 다음 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "감각동사 look은 뒤에 형용사 보어가 와야 하므로 looked uniquely가 아니라 looked unique가 맞다. 나머지는 모두 본문 그대로의 올바른 문장이다(① 보어 동명사 reusing + 부사 creatively, ② 전치사 of + 동명사 및 decide + to부정사, ③ Jeans는 복수 취급 are, ⑤ want + to부정사).",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        14,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "This process is upcycling. It is reusing trash creatively.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jeans are strong, so they are perfect for a bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I showed the bag to my friend, Suna, and she said that it looked uniquely and very nice!",
+          "is_answer": true,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I wanted to decorate the bag, so I used the pins and buttons from my old dresses.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "윗글에서 가져온 다음 문장 중, 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "Instead of는 전치사 of로 끝나므로 뒤에는 동명사가 와야 한다(buy → buying). 또한 or 뒤의 fixing과 병렬을 이루려면 buying이어야 한다. 나머지는 본문 그대로의 올바른 문장이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        8,
+        0,
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Did you know that we can turn trash into something new and valuable?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "We can even make an artwork out of it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Instead of buy a new one or fixing the old one, I decided to upcycle my old jeans.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I then found a how-to for making a bag from old jeans on the Internet and made a bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Today, my dog tore my bag apart, so I needed a new bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "stem": "윗글의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\n· Did you know (a)[that / what] we can turn trash into something new and valuable?\n· It is reusing trash (b)[creative / creatively].\n· She said that it looked (c)[nice / nicely]!",
+      "answer_key": "①",
+      "explanation": "(a) know의 목적어 자리에 완전한 절이 이어지므로 명사절 접속사 that. what은 뒤에 불완전한 절이 와야 한다. (b) 동명사 reusing을 수식하므로 부사 creatively. (c) 감각동사 look 뒤에는 형용사 nice.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        5,
+        14
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) that — (b) creatively — (c) nice",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) what — (b) creatively — (c) nice",
+          "is_answer": false,
+          "violates_point_code": "REL_WHAT_VS_THAT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) that — (b) creative — (c) nice",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) that — (b) creatively — (c) nicely",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) what — (b) creative — (c) nicely",
+          "is_answer": false,
+          "violates_point_code": "REL_WHAT_VS_THAT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "윗글의 흐름으로 보아, 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "청바지가 가방 재료로 완벽한 이유는 '튼튼하기(strong)' 때문이므로 weak는 문맥상 어울리지 않는다. 나머지는 업사이클링의 정의와 과정을 자연스럽게 설명한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        10,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "we can turn trash into something new and valuable",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "This process is upcycling. It is reusing trash creatively.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "my dog tore my bag apart, so I needed a new bag",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Jeans are weak, so they are perfect for a bag.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I wanted to decorate the bag, so I used the pins and buttons",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "윗글의 주제로 가장 적절한 것은?",
+      "answer_key": "②",
+      "explanation": "글쓴이는 업사이클링의 뜻을 설명한 뒤, 낡은 청바지로 가방을 만든 자신의 경험을 소개하고 있으므로 ②가 주제이다. 개는 사건의 계기일 뿐이고, 인터넷은 방법을 찾은 수단일 뿐이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "how to wash and keep old jeans clean",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "upcycling old jeans into a new and useful bag",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "reasons why dogs tear their owners' things apart",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best places to buy cheap bags on the Internet",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "how artists sell their artwork made of trash",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "윗글의 내용과 일치하지 않는 것은?",
+      "answer_key": "③",
+      "explanation": "미나는 새 가방을 사거나 낡은 가방을 고치는 대신(Instead of) 낡은 청바지를 업사이클하기로 했으므로 ③은 본문과 반대이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        7,
+        6,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Upcycling means reusing trash in a creative way.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Mina needed a new bag because her dog tore her bag apart.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Mina bought a new bag instead of upcycling her old jeans.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Mina found a how-to for making a bag on the Internet.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Mina used pins and buttons from her old dresses to decorate the bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "윗글의 [4] 문장 It is ________. 의 빈칸에 들어갈 말로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "앞 문장에서 쓰레기를 새롭고 가치 있는 것으로 바꾸는 과정을 upcycling이라고 했고, 뒤에는 낡은 청바지를 창의적으로 다시 쓴 사례가 이어지므로 '쓰레기를 창의적으로 재사용하는 것'이 정의로 알맞다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "reusing trash creatively",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "buying new things more cheaply",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "throwing away old clothes quickly",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "selling used bags on the Internet",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "collecting pins and buttons from friends",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n우리말: 너는 우리가 쓰레기를 새롭고 가치 있는 것으로 바꿀 수 있다는 것을 알았니?\n단어: (you / know / did / we / that / turn / can / trash / into / something new and valuable)",
+      "answer_key": "Did you know that we can turn trash into something new and valuable?",
+      "explanation": "know의 목적어로 명사절 that절을 쓰고, 그 안에서 can turn A into B(A를 B로 바꾸다) 구문을 사용한다. -thing으로 끝나는 말은 형용사가 뒤에서 수식하므로 something new and valuable 어순이 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SVOO_DATIVE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (본문 [10] 참고)\n\nI showed the bag for my friend, Suna, and she said that it looked unique and very nice!",
+      "answer_key": "for → to (I showed the bag to my friend, Suna, ~)",
+      "explanation": "show는 3형식으로 전환할 때 간접목적어 앞에 전치사 to를 쓰는 동사이다(show B to A). for를 쓰는 동사는 buy, make, cook 등이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        13
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n우리말: 나는 새 가방을 사는 대신 나의 낡은 청바지를 업사이클하기로 결심했다.\n<조건> 1) Instead of 로 문장을 시작할 것  2) decide, upcycle, buy 를 알맞은 형태로 쓸 것  3) 총 12단어로 쓸 것",
+      "answer_key": "Instead of buying a new bag, I decided to upcycle my old jeans.",
+      "explanation": "전치사 of 뒤에는 동명사 buying을 쓰고, decide는 목적어로 to부정사를 취하므로 decided to upcycle로 쓴다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        9
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 10,
+    "tags_returned": 15,
+    "tags_kept": 15,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 10,
+    "item_rejects": [
+      {
+        "where": "문항 #4 T-PHRASE-INFER",
+        "reason": "정답 선지가 0개"
+      }
+    ],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "①"
+        ]
+      }
+    ]
+  }
+}

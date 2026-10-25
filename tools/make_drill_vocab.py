@@ -121,6 +121,9 @@ SETS = {
                   ["태장중2_L6_vocab_handout"], "L6_vocab", None),
     "영일중1_L7": ("동아 윤정미 중1 L7 어휘 — 영일",
                   ["영일중1_L7_vocab_handout"], "중1_L7_vocab", None),
+    # 외부지문 「Challenge Upcycle」 낱말 8개는 extra_words 로 같은 세트에 들어간다 (2026-10-25)
+    "영일중1_L6": ("동아 윤정미 중1 L6 어휘 — 영일",
+                  ["영일중1_L6_vocab_handout"], "중1_L6_vocab", None),
 }
 
 

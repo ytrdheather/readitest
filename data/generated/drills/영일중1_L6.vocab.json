@@ -1,0 +1,742 @@
+{
+  "set": "영일중1_L6",
+  "title": "동아 윤정미 중1 L6 어휘 — 영일",
+  "sources": {
+    "school": [
+      "영일중1_L6_vocab_handout"
+    ],
+    "jasup": "중1_L6_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 중1 L6 어휘 — 영일",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "completely",
+              "answer": "완전히"
+            },
+            {
+              "word": "container",
+              "answer": "그릇, 용기"
+            },
+            {
+              "word": "eat out",
+              "answer": "외식하다"
+            },
+            {
+              "word": "environment",
+              "answer": "환경"
+            },
+            {
+              "word": "favor",
+              "answer": "호의, 친절"
+            },
+            {
+              "word": "in return",
+              "answer": "대가로, 보답으로"
+            },
+            {
+              "word": "label",
+              "answer": "상표"
+            },
+            {
+              "word": "leftover",
+              "answer": "남은 음식"
+            },
+            {
+              "word": "machine",
+              "answer": "기계"
+            },
+            {
+              "word": "plog",
+              "answer": "플로깅하다"
+            },
+            {
+              "word": "produce",
+              "answer": "생산하다"
+            },
+            {
+              "word": "reduce",
+              "answer": "줄이다"
+            },
+            {
+              "word": "sew",
+              "answer": "바느질하다"
+            },
+            {
+              "word": "tear",
+              "answer": "찢다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "호의, 친절",
+              "answer": "favor"
+            },
+            {
+              "ko": "환경",
+              "answer": "environment"
+            },
+            {
+              "ko": "상표",
+              "answer": "label"
+            },
+            {
+              "ko": "플로깅하다",
+              "answer": "plog"
+            },
+            {
+              "ko": "생산하다",
+              "answer": "produce"
+            },
+            {
+              "ko": "대가로, 보답으로",
+              "answer": "in return"
+            },
+            {
+              "ko": "줄이다",
+              "answer": "reduce"
+            },
+            {
+              "ko": "완전히",
+              "answer": "completely"
+            },
+            {
+              "ko": "남은 음식",
+              "answer": "leftover"
+            },
+            {
+              "ko": "바느질하다",
+              "answer": "sew"
+            },
+            {
+              "ko": "기계",
+              "answer": "machine"
+            },
+            {
+              "ko": "외식하다",
+              "answer": "eat out"
+            },
+            {
+              "ko": "찢다",
+              "answer": "tear"
+            },
+            {
+              "ko": "그릇, 용기",
+              "answer": "container"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "something that needs great mental or physical effort to be done successfully",
+              "ko": "",
+              "answer": "challenge"
+            },
+            {
+              "def_en": "in every way; totally",
+              "ko": "완전히",
+              "answer": "completely"
+            },
+            {
+              "def_en": "an object for holding things, such as a can, box, or bottle",
+              "ko": "그릇, 용기",
+              "answer": "container"
+            },
+            {
+              "def_en": "the act of taking goods, letters, etc. to people's houses or places of work",
+              "ko": "",
+              "answer": "delivery"
+            },
+            {
+              "def_en": "to eat in a restaurant",
+              "ko": "외식하다",
+              "answer": "eat out"
+            },
+            {
+              "def_en": "the natural world, including water, air, land, and plants",
+              "ko": "환경",
+              "answer": "environment"
+            },
+            {
+              "def_en": "something helpful that you do for someone",
+              "ko": "호의, 친절",
+              "answer": "favor"
+            },
+            {
+              "def_en": "as a response, exchange, or reward for something",
+              "ko": "대가로, 보답으로",
+              "answer": "in return"
+            },
+            {
+              "def_en": "the name or symbol of a company that produces goods for sale",
+              "ko": "상표",
+              "answer": "label"
+            },
+            {
+              "def_en": "a person who is in control of a group of people",
+              "ko": "",
+              "answer": "leader"
+            },
+            {
+              "def_en": "food remaining after a meal",
+              "ko": "남은 음식",
+              "answer": "leftover"
+            },
+            {
+              "def_en": "a piece of equipment that you use to do a job",
+              "ko": "기계",
+              "answer": "machine"
+            },
+            {
+              "def_en": "to have something as a meaning",
+              "ko": "",
+              "answer": "mean"
+            },
+            {
+              "def_en": "belonging to a particular person or thing",
+              "ko": "",
+              "answer": "own"
+            },
+            {
+              "def_en": "n. a living thing that has leaves and roots / v. to put a plant into the ground or into a container of soil so that it will grow",
+              "ko": "",
+              "answer": "plant"
+            },
+            {
+              "def_en": "to pick up trash while jogging",
+              "ko": "플로깅하다",
+              "answer": "plog"
+            },
+            {
+              "def_en": "to make or grow something",
+              "ko": "생산하다",
+              "answer": "produce"
+            },
+            {
+              "def_en": "to put old paper, glass, or other materials through a special process so that they can be used again",
+              "ko": "",
+              "answer": "recycle"
+            },
+            {
+              "def_en": "to make something less or smaller",
+              "ko": "줄이다",
+              "answer": "reduce"
+            },
+            {
+              "def_en": "to use again or more than once",
+              "ko": "",
+              "answer": "reuse"
+            },
+            {
+              "def_en": "able to be used again or more than once",
+              "ko": "",
+              "answer": "reusable"
+            },
+            {
+              "def_en": "used by someone else before",
+              "ko": "",
+              "answer": "secondhand"
+            },
+            {
+              "def_en": "to use a needle and thread to make or fix clothes",
+              "ko": "바느질하다",
+              "answer": "sew"
+            },
+            {
+              "def_en": "designed to be used once and then disposed of or destroyed",
+              "ko": "",
+              "answer": "single-use"
+            },
+            {
+              "def_en": "to pull paper, cloth, or another material into two pieces",
+              "ko": "찢다",
+              "answer": "tear"
+            },
+            {
+              "def_en": "one person or thing following another in order",
+              "ko": "",
+              "answer": "one by one"
+            },
+            {
+              "def_en": "Things that you throw away because you no longer want them or need them, such as old food, paper, or plastic.",
+              "ko": "",
+              "answer": "trash"
+            },
+            {
+              "def_en": "Worth a lot of money, or very useful or important.",
+              "ko": "",
+              "answer": "valuable"
+            },
+            {
+              "def_en": "A piece of art such as a painting or sculpture.",
+              "ko": "",
+              "answer": "artwork"
+            },
+            {
+              "def_en": "A series of actions or steps taken in order to achieve a particular end.",
+              "ko": "",
+              "answer": "process"
+            },
+            {
+              "def_en": "To take old or thrown away materials and objects and turn them into something new and usually better or more valuable.",
+              "ko": "",
+              "answer": "upcycle"
+            },
+            {
+              "def_en": "To make something look more attractive by adding things to it.",
+              "ko": "",
+              "answer": "decorate"
+            },
+            {
+              "def_en": "Being the only one of its kind; unusually special.",
+              "ko": "",
+              "answer": "unique"
+            },
+            {
+              "def_en": "To pull something into pieces, or to separate it by force.",
+              "ko": "",
+              "answer": "tear apart"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "completely",
+                  "ko": "완전히",
+                  "def_en": "in every way; totally",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "trash",
+                  "ko": "",
+                  "def_en": "Things that you throw away because you no longer want them or need them, such as old food, paper, or plastic.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "eat out",
+                  "ko": "외식하다",
+                  "def_en": "to eat in a restaurant",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "upcycle",
+                  "ko": "",
+                  "def_en": "To take old or thrown away materials and objects and turn them into something new and usually better or more valuable.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "completely",
+                "eat out",
+                "upcycle",
+                "trash"
+              ],
+              "kos": [
+                "완전히",
+                "",
+                "외식하다",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "reusable",
+                  "ko": "",
+                  "def_en": "able to be used again or more than once",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "process",
+                  "ko": "",
+                  "def_en": "A series of actions or steps taken in order to achieve a particular end.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "decorate",
+                  "ko": "",
+                  "def_en": "To make something look more attractive by adding things to it.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "container",
+                  "ko": "그릇, 용기",
+                  "def_en": "an object for holding things, such as a can, box, or bottle",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "reusable",
+                "process",
+                "decorate",
+                "container"
+              ],
+              "kos": [
+                "",
+                "그릇, 용기",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "valuable",
+                  "ko": "",
+                  "def_en": "Worth a lot of money, or very useful or important.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "leftover",
+                  "ko": "남은 음식",
+                  "def_en": "food remaining after a meal",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "delivery",
+                  "ko": "",
+                  "def_en": "the act of taking goods, letters, etc. to people's houses or places of work",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "recycle",
+                  "ko": "",
+                  "def_en": "to put old paper, glass, or other materials through a special process so that they can be used again",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "delivery",
+                "recycle",
+                "leftover",
+                "valuable"
+              ],
+              "kos": [
+                "남은 음식",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "label",
+                  "ko": "상표",
+                  "def_en": "the name or symbol of a company that produces goods for sale",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "one by one",
+                  "ko": "",
+                  "def_en": "one person or thing following another in order",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "secondhand",
+                  "ko": "",
+                  "def_en": "used by someone else before",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "sew",
+                  "ko": "바느질하다",
+                  "def_en": "to use a needle and thread to make or fix clothes",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "one by one",
+                "secondhand",
+                "sew",
+                "label"
+              ],
+              "kos": [
+                "바느질하다",
+                "상표",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "reuse",
+                  "ko": "",
+                  "def_en": "to use again or more than once",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "produce",
+                  "ko": "생산하다",
+                  "def_en": "to make or grow something",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "unique",
+                  "ko": "",
+                  "def_en": "Being the only one of its kind; unusually special.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "in return",
+                  "ko": "대가로, 보답으로",
+                  "def_en": "as a response, exchange, or reward for something",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "produce",
+                "reuse",
+                "unique",
+                "in return"
+              ],
+              "kos": [
+                "대가로, 보답으로",
+                "생산하다",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "reduce",
+                  "ko": "줄이다",
+                  "def_en": "to make something less or smaller",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "plant",
+                  "ko": "",
+                  "def_en": "n. a living thing that has leaves and roots / v. to put a plant into the ground or into a container of soil so that it will grow",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "plog",
+                  "ko": "플로깅하다",
+                  "def_en": "to pick up trash while jogging",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "challenge",
+                  "ko": "",
+                  "def_en": "something that needs great mental or physical effort to be done successfully",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "reduce",
+                "plog",
+                "plant",
+                "challenge"
+              ],
+              "kos": [
+                "플로깅하다",
+                "",
+                "줄이다",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "favor",
+                  "ko": "호의, 친절",
+                  "def_en": "something helpful that you do for someone",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "own",
+                  "ko": "",
+                  "def_en": "belonging to a particular person or thing",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "tear apart",
+                  "ko": "",
+                  "def_en": "To pull something into pieces, or to separate it by force.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "single-use",
+                  "ko": "",
+                  "def_en": "designed to be used once and then disposed of or destroyed",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "single-use",
+                "own",
+                "favor",
+                "tear apart"
+              ],
+              "kos": [
+                "호의, 친절",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "machine",
+                  "ko": "기계",
+                  "def_en": "a piece of equipment that you use to do a job",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "leader",
+                  "ko": "",
+                  "def_en": "a person who is in control of a group of people",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "environment",
+                  "ko": "환경",
+                  "def_en": "the natural world, including water, air, land, and plants",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "mean",
+                  "ko": "",
+                  "def_en": "to have something as a meaning",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "environment",
+                "mean",
+                "machine",
+                "leader"
+              ],
+              "kos": [
+                "환경",
+                "기계",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "n_words": 56,
+      "counts": {
+        "both": 28,
+        "def": 34,
+        "match": 32
+      }
+    }
+  ]
+}

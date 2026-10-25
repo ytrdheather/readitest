@@ -1,0 +1,517 @@
+{
+  "school": "영일중",
+  "grade": 1,
+  "lesson": 6,
+  "unit_title": "Good for the Earth, Good for Us",
+  "source": "영일중1 L6 학습지 14쪽 (Z:/…/2026 2학기 학교 프린트 모음/영일중1 L6.pdf) — 1~2쪽 New Words · 3쪽 영영풀이 23개 · 4쪽 Vocabulary activity · 5쪽 십자말 · 13쪽 More reading 낱말 상자",
+  "source_note": "스캔 + 학생 손글씨. 1~2쪽 우리말 뜻 칸은 손글씨라 옮기지 않았다 (ko=null) — 인쇄된 것은 초성 힌트뿐. 3쪽 영영풀이는 표제어 칸이 손글씨지만 [보기] 23단어가 인쇄돼 있어 풀이와 1:1 로 맞췄다. 1쪽 번호는 45까지이나 한 번호에 둘이 묶인 칸(22 reuse/reusable · 25 single/single-use · 34 take a shower/showers)과 44 가 두 번 나와 낱말은 48개.",
+  "read_at": "2026-10-25",
+  "read_by": "Claude (비전 판독, 인쇄 글자만)",
+  "format": "영일 형식 = 영영풀이 빈칸 (L7 과 같다). 4쪽: [보기] 고르기 5 · 첫 철자 5 · 우리말 맞춰 쓰기 5. 5쪽: 영영풀이·예문으로 십자말 11칸.",
+  "why_best": "학교 New Words 48개 + 학교가 직접 쓴 영영풀이 23개 + 외부지문 낱말 영영풀이 8개. 동의어 묶음(waste = trash…, single-use = disposable, right away = immediately)이 인쇄돼 있다.",
+  "words": [
+    {
+      "no": 1,
+      "word": "challenge",
+      "ko": null,
+      "def_en": "something that needs great mental or physical effort to be done successfully",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 2,
+      "word": "completely",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "= entirely, fully, totally, absolutely (11쪽 본문 학습지)"
+    },
+    {
+      "no": 3,
+      "word": "container",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 4,
+      "word": "delivery",
+      "ko": null,
+      "def_en": "the act of taking goods, letters, etc. to people's houses or places of work",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 5,
+      "word": "eat out",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 6,
+      "word": "environment",
+      "ko": null,
+      "def_en": "the natural world, including water, air, land, and plants",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 7,
+      "word": "favor",
+      "ko": null,
+      "def_en": "something helpful that you do for someone",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 8,
+      "word": "fix",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 9,
+      "word": "forgetful",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 10,
+      "word": "in return",
+      "ko": null,
+      "def_en": "as a response, exchange, or reward for something",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 11,
+      "word": "label",
+      "ko": null,
+      "def_en": "the name or symbol of a company that produces goods for sale",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 12,
+      "word": "leader",
+      "ko": null,
+      "def_en": "a person who is in control of a group of people",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 13,
+      "word": "leftover",
+      "ko": null,
+      "def_en": "food remaining after a meal",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 14,
+      "word": "machine",
+      "ko": null,
+      "def_en": "a piece of equipment that you use to do a job",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 15,
+      "word": "mean",
+      "ko": null,
+      "def_en": "to have something as a meaning",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 16,
+      "word": "own",
+      "ko": null,
+      "def_en": "belonging to a particular person or thing",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 17,
+      "word": "plant",
+      "ko": null,
+      "def_en": "n. a living thing that has leaves and roots / v. to put a plant into the ground or into a container of soil so that it will grow",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 18,
+      "word": "plog",
+      "ko": null,
+      "def_en": "to pick up trash while jogging",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": "조깅을 하며 쓰레기를 줍다 (인쇄)"
+    },
+    {
+      "no": 19,
+      "word": "produce",
+      "ko": null,
+      "def_en": "to make or grow something",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 20,
+      "word": "recycle",
+      "ko": null,
+      "def_en": "to put old paper, glass, or other materials through a special process so that they can be used again",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 21,
+      "word": "reduce",
+      "ko": null,
+      "def_en": "to make something less or smaller",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 22,
+      "word": "reuse",
+      "ko": null,
+      "def_en": "to use again or more than once",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 23,
+      "word": "reusable",
+      "ko": null,
+      "def_en": "able to be used again or more than once",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 24,
+      "word": "secondhand",
+      "ko": null,
+      "def_en": "used by someone else before",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 25,
+      "word": "sew",
+      "ko": null,
+      "def_en": "to use a needle and thread to make or fix clothes",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": "sew-sewed-sewed/sewn"
+    },
+    {
+      "no": 26,
+      "word": "single",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 27,
+      "word": "single-use",
+      "ko": null,
+      "def_en": "designed to be used once and then disposed of or destroyed",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": "= disposable"
+    },
+    {
+      "no": 28,
+      "word": "tear",
+      "ko": null,
+      "def_en": "to pull paper, cloth, or another material into two pieces",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": "tear-tore-torn"
+    },
+    {
+      "no": 29,
+      "word": "waste",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "= trash, garbage, rubbish, litter"
+    },
+    {
+      "no": 30,
+      "word": "FYI",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "for your information"
+    },
+    {
+      "no": 31,
+      "word": "go away",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 32,
+      "word": "make A out of B",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "B를 이용하여 A를 만들다 (인쇄)"
+    },
+    {
+      "no": 33,
+      "word": "one by one",
+      "ko": null,
+      "def_en": "one person or thing following another in order",
+      "def_src": "학교",
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 34,
+      "word": "take A to B",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "A를 B로 가져가다"
+    },
+    {
+      "no": 35,
+      "word": "put A into B",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "A를 B에 넣다"
+    },
+    {
+      "no": 36,
+      "word": "take a shower",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "take showers 도 함께 인쇄"
+    },
+    {
+      "no": 37,
+      "word": "air conditioner",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 38,
+      "word": "water",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 39,
+      "word": "right away",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "= immediately = instantly"
+    },
+    {
+      "no": 40,
+      "word": "turn off",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 41,
+      "word": "smoothie",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": "(과일을 갈아 만든) 걸쭉한 음료 (인쇄)"
+    },
+    {
+      "no": 42,
+      "word": "online",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 43,
+      "word": "give away",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 44,
+      "word": "for free",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 45,
+      "word": "be in good condition",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 46,
+      "word": "take off",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 47,
+      "word": "clean up",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    },
+    {
+      "no": 48,
+      "word": "save",
+      "ko": null,
+      "def_en": null,
+      "def_src": null,
+      "example_en": "",
+      "printed_note": null
+    }
+  ],
+  "distribution_scope": "internal_only",
+  "extra_words": {
+    "_note": "13쪽 More reading 낱말 상자 — 외부지문 「Challenge Upcycle」 낱말. 영영풀이 인쇄, 우리말 뜻은 초성 힌트뿐이라 ko 없음. 학교가 아는 어휘로 보고 드릴에 넣는다.",
+    "passage": "영일중1_L6_외부지문_ChallengeUpcycle",
+    "items": [
+      {
+        "word": "trash",
+        "ko": null,
+        "def_en": "Things that you throw away because you no longer want them or need them, such as old food, paper, or plastic.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "valuable",
+        "ko": null,
+        "def_en": "Worth a lot of money, or very useful or important.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "artwork",
+        "ko": null,
+        "def_en": "A piece of art such as a painting or sculpture.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "process",
+        "ko": null,
+        "def_en": "A series of actions or steps taken in order to achieve a particular end.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "upcycle",
+        "ko": null,
+        "def_en": "To take old or thrown away materials and objects and turn them into something new and usually better or more valuable.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "decorate",
+        "ko": null,
+        "def_en": "To make something look more attractive by adding things to it.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "unique",
+        "ko": null,
+        "def_en": "Being the only one of its kind; unusually special.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      },
+      {
+        "word": "tear apart",
+        "ko": null,
+        "def_en": "To pull something into pieces, or to separate it by force.",
+        "def_src": "학교",
+        "example_en": "",
+        "printed_note": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "book": "영일중 배부물",
+  "unit": "중1 L6 외부지문 — Challenge Upcycle",
+  "kind": "handout_external",
+  "parts": [
+    "Challenge Upcycle"
+  ],
+  "body": "Mina: Did you know that we can turn trash into something new and valuable? We can even make an artwork out of it. This process is upcycling. It is reusing trash creatively. Today, my dog tore my bag apart, so I needed a new bag. Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans. Jeans are strong, so they are perfect for a bag. I then found a how-to for making a bag from old jeans on the Internet and made a bag. I wanted to decorate the bag, so I used the pins and buttons from my old dresses. I showed the bag to my friend, Suna, and she said that it looked unique and very nice!",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "d064dbbd-56ff-46c7-98b9-f5e1edf7d966",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 6,
+      "span_end": 23,
+      "correct": "Did you know that",
+      "wrong": [
+        "Did you know what",
+        "Did you knew that"
+      ],
+      "why_ko": "뒤에 빠진 것 없는 완전한 절이 오므로 접속사 that을 쓰고, 의문문은 Did 뒤에 동사원형 know를 씁니다.",
+      "rationale": "know의 목적어로 쓰인 명사절 접속사 that. 뒤에 완전한 절(we can turn trash into ~)이 오므로 what으로 바꾸면 틀린다. that/what 선택형으로 자주 출제됨.",
+      "sentence_no": 1,
+      "sentence": "Mina: Did you know that we can turn trash into something new and valuable?"
+    },
+    {
+      "tag_id": "11a06bb0-adc7-4f59-a941-3e35fd030ebd",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 31,
+      "span_end": 46,
+      "correct": "turn trash into",
+      "wrong": [
+        "turn trash in"
+      ],
+      "why_ko": "'A를 B로 바꾸다'는 turn A into B로 굳어진 표현이라 into를 써야 합니다.",
+      "rationale": "turn A into B(A를 B로 바꾸다) 고정 결합. into를 to/in/onto로 바꾸거나 전치사를 삭제하는 오류를 유도할 수 있다.",
+      "sentence_no": 1,
+      "sentence": "Mina: Did you know that we can turn trash into something new and valuable?",
+      "verify_dropped": [
+        {
+          "wrong": "turn trash to",
+          "judgement": "odd",
+          "note_ko": "turn A into B가 관용 결합. to는 이 자리에서 매우 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "3b62b880-a478-432c-8d91-81b11a1b51a3",
+      "point": "MOD_POSTPOSITIVE",
+      "span_start": 47,
+      "span_end": 73,
+      "correct": "something new and valuable",
+      "wrong": [
+        "new and valuable something",
+        "something newly and valuable"
+      ],
+      "why_ko": "-thing으로 끝나는 말은 형용사가 뒤에서 꾸미므로 something new and valuable 순서입니다.",
+      "rationale": "-thing으로 끝나는 부정대명사는 형용사가 뒤에서 수식한다. new and valuable something 같은 어순 오류를 유도할 수 있다.",
+      "sentence_no": 1,
+      "sentence": "Mina: Did you know that we can turn trash into something new and valuable?"
+    },
+    {
+      "tag_id": "0165a642-478f-4f75-ad5e-0c0b082e25cd",
+      "point": "PREP_USAGE",
+      "span_start": 87,
+      "span_end": 112,
+      "correct": "make an artwork out of it",
+      "wrong": [
+        "make an artwork out it"
+      ],
+      "why_ko": "재료가 그대로 보일 때는 make A out of B를 쓰므로 out of를 통째로 써야 합니다.",
+      "rationale": "make A out of B(재료가 보이는 경우) 구문의 out of. from/with/by로 바꾸거나 out을 빼는 전치사 오류 출제 지점.",
+      "sentence_no": 2,
+      "sentence": "We can even make an artwork out of it.",
+      "verify_dropped": [
+        {
+          "wrong": "make an artwork by it",
+          "judgement": "odd",
+          "note_ko": "재료를 나타내는 out of 자리에 by는 뜻이 통하지 않아 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "13cf1bea-6056-4d5b-b766-0a69836c12ea",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 144,
+      "span_end": 154,
+      "correct": "is reusing",
+      "wrong": [
+        "is reuse",
+        "is to reusing"
+      ],
+      "why_ko": "be동사 뒤 보어 자리이므로 동명사 reusing이 맞고 동사원형은 올 수 없습니다.",
+      "rationale": "be동사 뒤 보어로 쓰인 동명사(reusing). 진행형으로 오해하기 쉬운 자리이며 to reuse / reuse 와의 구별을 묻는다.",
+      "sentence_no": 4,
+      "sentence": "It is reusing trash creatively."
+    },
+    {
+      "tag_id": "b663b280-ec0f-49f9-a8bb-a2db1aace99e",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 161,
+      "span_end": 171,
+      "correct": "creatively",
+      "wrong": [
+        "creative",
+        "creativity"
+      ],
+      "why_ko": "동사(reusing)의 방법을 꾸미는 자리라 부사 creatively를 씁니다.",
+      "rationale": "동명사 reusing을 수식하는 부사. creative(형용사)로 바꾼 오답 선지를 만들기 쉬운 자리.",
+      "sentence_no": 4,
+      "sentence": "It is reusing trash creatively."
+    },
+    {
+      "tag_id": "f61e9055-0cb3-4054-a596-aa46a00f889b",
+      "point": "VERB_TENSE",
+      "span_start": 187,
+      "span_end": 204,
+      "correct": "tore my bag apart",
+      "wrong": [
+        "teared my bag apart"
+      ],
+      "why_ko": "tear의 과거형은 불규칙형 tore이고, 오늘 이미 일어난 일이라 과거시제입니다.",
+      "rationale": "Today로 시작하지만 이미 끝난 일이므로 tear의 과거형 tore. teared/tears/has torn 등 시제·불규칙 변화 오류를 유도할 수 있고, 목적어가 있으므로 수동태 전환 함정도 가능.",
+      "sentence_no": 5,
+      "sentence": "Today, my dog tore my bag apart, so I needed a new bag.",
+      "verify_dropped": [
+        {
+          "wrong": "tears my bag apart",
+          "judgement": "odd",
+          "note_ko": "Today~needed와 시제가 충돌해 매우 부자연스러움."
+        }
+      ]
+    },
+    {
+      "tag_id": "b20fd2f2-f429-4f57-95f9-a2d10ee54f49",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 229,
+      "span_end": 246,
+      "correct": "Instead of buying",
+      "wrong": [
+        "Instead of buy",
+        "Instead of to buy"
+      ],
+      "why_ko": "of는 전치사라서 뒤에 동명사(buying)가 와야 합니다.",
+      "rationale": "전치사 of 뒤에는 동명사가 와야 한다. Instead of buy / to buy 로 바꾼 오류(EI_GERUND_TO_VERB) 출제 빈도가 높다.",
+      "sentence_no": 6,
+      "sentence": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans."
+    },
+    {
+      "tag_id": "a9c4c550-f560-4501-bfdf-f608f2fef76e",
+      "point": "CONJ_PARALLEL",
+      "span_start": 240,
+      "span_end": 278,
+      "correct": "buying a new one or fixing the old one",
+      "wrong": [
+        "buying a new one or to fix the old one",
+        "buying a new one or fixes the old one"
+      ],
+      "why_ko": "or로 이어진 두 자리는 같은 형태여야 하므로 buying과 fixing으로 맞춥니다.",
+      "rationale": "or로 연결된 두 동명사의 병렬. 뒤쪽을 fixes/to fix로 바꿔 병렬을 깨는 오답을 만들 수 있다.",
+      "sentence_no": 6,
+      "sentence": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans."
+    },
+    {
+      "tag_id": "3c47ecbc-fd84-4645-824c-ced6eb133929",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 282,
+      "span_end": 300,
+      "correct": "decided to upcycle",
+      "wrong": [
+        "decided upcycling",
+        "decided upcycle"
+      ],
+      "why_ko": "decide는 to부정사만 목적어로 받으므로 to upcycle이 맞습니다.",
+      "rationale": "decide는 목적어로 to부정사만 취한다. decided upcycling 으로 바꾼 오류(EI_VERB_COMPLEMENT) 유도 가능.",
+      "sentence_no": 6,
+      "sentence": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans."
+    },
+    {
+      "tag_id": "dd61af2c-b792-43c0-b484-f5784065ff47",
+      "point": "VERB_SVA",
+      "span_start": 315,
+      "span_end": 331,
+      "correct": "Jeans are strong",
+      "wrong": [
+        "Jeans is strong",
+        "Jeans are strongly"
+      ],
+      "why_ko": "jeans는 항상 복수 취급이라 are를 쓰고, 보어 자리에는 형용사 strong이 옵니다.",
+      "rationale": "Jeans는 항상 복수 취급이므로 are. is로 바꾼 수일치 오류, 또는 보어 자리에 strongly(부사)를 넣는 오류를 유도할 수 있다.",
+      "sentence_no": 7,
+      "sentence": "Jeans are strong, so they are perfect for a bag."
+    },
+    {
+      "tag_id": "2c6a3f64-a3c1-43ae-b64e-3d63d0f2a402",
+      "point": "PREP_USAGE",
+      "span_start": 418,
+      "span_end": 433,
+      "correct": "on the Internet",
+      "wrong": [
+        "in the Internet",
+        "at the Internet"
+      ],
+      "why_ko": "인터넷에서는 전치사 on을 쓰는 것이 정해진 표현입니다.",
+      "rationale": "인터넷상에서는 전치사 on을 쓴다. in/at the Internet 으로 바꾼 전치사 선택 오류 빈출.",
+      "sentence_no": 8,
+      "sentence": "I then found a how-to for making a bag from old jeans on the Internet and made a bag."
+    },
+    {
+      "tag_id": "2327b1f6-257f-4418-a10f-ac0ac88580d0",
+      "point": "CONJ_PARALLEL",
+      "span_start": 434,
+      "span_end": 448,
+      "correct": "and made a bag",
+      "wrong": [
+        "and making a bag",
+        "and makes a bag"
+      ],
+      "why_ko": "앞의 found와 병렬이므로 같은 과거형 made를 써야 합니다.",
+      "rationale": "앞의 found와 and로 병렬 연결된 과거동사 made. making/makes로 바꿔 병렬을 깨는 오답을 만들 수 있다.",
+      "sentence_no": 8,
+      "sentence": "I then found a how-to for making a bag from old jeans on the Internet and made a bag."
+    },
+    {
+      "tag_id": "7ddc2737-3d16-45f8-af9f-08b5ec08d982",
+      "point": "SVOO_DATIVE",
+      "span_start": 534,
+      "span_end": 561,
+      "correct": "showed the bag to my friend",
+      "wrong": [
+        "showed the bag for my friend",
+        "showed the bag my friend"
+      ],
+      "why_ko": "show는 3형식으로 바꿀 때 전치사 to를 쓰며, to 없이 '사물+사람' 순서는 안 됩니다.",
+      "rationale": "4형식 show A B의 3형식 전환형(show B to A). 전치사 to를 for로 바꾸거나 삭제하는 오류, 4형식↔3형식 전환 영작으로 출제된다.",
+      "sentence_no": 10,
+      "sentence": "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+    },
+    {
+      "tag_id": "9a207d68-211a-4298-848f-404f89aee920",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 587,
+      "span_end": 603,
+      "correct": "it looked unique",
+      "wrong": [
+        "it looked uniquely",
+        "it looked like unique"
+      ],
+      "why_ko": "감각동사 look 뒤에는 형용사 보어가 오므로 unique가 맞습니다.",
+      "rationale": "감각동사 look 뒤에는 형용사 보어가 온다. uniquely(부사)로 바꾼 오답이 전형적 출제 지점.",
+      "sentence_no": 10,
+      "sentence": "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+    }
+  ],
+  "diagnostics": {
+    "returned": 15,
+    "kept": 15,
+    "given": 15,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [],
+      "dropped_wrongs": 3
+    }
+  },
+  "verified": true
+}
