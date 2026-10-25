@@ -1,0 +1,1484 @@
+{
+ "unit": "Lesson 6 Good for the Earth, Good for Us",
+ "school": "영일중",
+ "grade": "1학년",
+ "sentences": [
+  {
+   "no": 1,
+   "en": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker.",
+   "ko": "매일 우리는 많은 양의 쓰레기를 생산하고, 지구는 점점 더 병들고 있습니다."
+  },
+  {
+   "no": 2,
+   "en": "Do you want to save the Earth?",
+   "ko": "지구를 구하고 싶나요?"
+  },
+  {
+   "no": 3,
+   "en": "Then, join the zero-waste challenge, and share your stories.",
+   "ko": "그렇다면 제로 웨이스트 챌린지에 동참하고 당신의 이야기를 공유해 주세요."
+  },
+  {
+   "no": 4,
+   "en": "Olivia: My birthday was last Saturday, and my family and I ate out.",
+   "ko": "Olivia: 내 생일은 지난주 토요일이었고, 나의 가족과 나는 외식을 했어."
+  },
+  {
+   "no": 5,
+   "en": "There were lots of leftovers, but we brought them home.",
+   "ko": "남은 음식이 많았지만, 우리는 그것들을 집으로 가져왔어."
+  },
+  {
+   "no": 6,
+   "en": "The next day, I made a nice lunch out of them.",
+   "ko": "그 다음 날 나는 그것들로 맛있는 점심을 만들었어."
+  },
+  {
+   "no": 7,
+   "en": "FYI, you can find great cooking ideas for leftovers on the Internet.",
+   "ko": "참고로, 남은 음식을 활용하는 멋진 요리 아이디어는 인터넷에서 찾을 수 있어."
+  },
+  {
+   "no": 8,
+   "en": "Domingo: My dog tore my bag.",
+   "ko": "Domingo: 내 강아지가 내 가방을 찢어 버렸어."
+  },
+  {
+   "no": 9,
+   "en": "I wanted to buy a new one, but I thought again.",
+   "ko": "나는 새것을 사고 싶었지만, 다시 생각해 봤어."
+  },
+  {
+   "no": 10,
+   "en": "I learned that reusing is important for zero-waste living.",
+   "ko": "나는 재사용하는 것은 제로 웨이스트 생활에 중요하다고 배웠어."
+  },
+  {
+   "no": 11,
+   "en": "So, I decided to fix it and reuse it.",
+   "ko": "그래서 나는 그것을 고쳐서 다시 사용하기로 결심했어."
+  },
+  {
+   "no": 12,
+   "en": "I’m not very good at sewing, and I don’t think that the bag looks perfect.",
+   "ko": "나는 바느질을 잘하지 못해서, 가방이 완벽해 보인다고 생각하진 않아."
+  },
+  {
+   "no": 13,
+   "en": "I guess it’s all right.",
+   "ko": "그래도 괜찮은 것 같아."
+  },
+  {
+   "no": 14,
+   "en": "Emma: I often use food delivery services, but today I didn’t.",
+   "ko": "Emma: 나는 음식 배달 서비스를 자주 이용하는데, 오늘은 이용하지 않았어."
+  },
+  {
+   "no": 15,
+   "en": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food.",
+   "ko": "대신에, 재사용 가능한 용기를 가지고 내가 가장 좋아하는 식당으로 걸어가서 음식을 가져왔어."
+  },
+  {
+   "no": 16,
+   "en": "I heard that plastic never goes away completely.",
+   "ko": "나는 플라스틱은 절대로 완전히 없어지지 않는다고 들었어."
+  },
+  {
+   "no": 17,
+   "en": "I didn’t use any single-use plastic today.",
+   "ko": "나는 오늘 어떠한 일회용 플라스틱도 사용하지 않았어."
+  },
+  {
+   "no": 18,
+   "en": "I felt good!",
+   "ko": "기분이 좋았어!"
+  },
+  {
+   "no": 19,
+   "en": "Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house.",
+   "ko": "민수: 어제 나는 플라스틱 병과 유리병 몇 개를 집 근처에 있는 재활용 기계로 가져갔어."
+  },
+  {
+   "no": 20,
+   "en": "I put them into the machine one by one, and I got some points in return.",
+   "ko": "나는 그것들을 하나씩 기계에 집어넣었고, 대가로 포인트를 얻었어."
+  },
+  {
+   "no": 21,
+   "en": "What can I do with those points?",
+   "ko": "그 포인트로 뭘 할 수 있냐고?"
+  },
+  {
+   "no": 22,
+   "en": "Well, I can use them like money.",
+   "ko": "음, 나는 포인트를 돈처럼 사용할 수 있어."
+  },
+  {
+   "no": 23,
+   "en": "Don’t you think that’s cool?",
+   "ko": "멋지다고 생각하지 않니?"
+  }
+ ],
+ "prep": [
+  {
+   "word": "challenge",
+   "pos": "n.",
+   "ko": "도전",
+   "def": "something that needs great mental or physical effort to be done successfully",
+   "example": "Climbing that mountain was a big **challenge** for me.",
+   "example_ko": "그 산을 오르는 것은 나에게 큰 도전이었다."
+  },
+  {
+   "word": "produce",
+   "pos": "v.",
+   "ko": "생산하다, 만들어 내다",
+   "def": "to make or grow something",
+   "example": "This farm **produces** fresh milk every day.",
+   "example_ko": "이 농장은 매일 신선한 우유를 생산한다."
+  },
+  {
+   "word": "waste",
+   "pos": "n.",
+   "ko": "쓰레기, 낭비",
+   "def": "things that people throw away because they do not need them",
+   "example": "Please put your **waste** in the right bin.",
+   "example_ko": "쓰레기를 알맞은 통에 넣어 주세요."
+  },
+  {
+   "word": "reduce",
+   "pos": "v.",
+   "ko": "줄이다",
+   "def": "to make something less or smaller",
+   "example": "We should **reduce** the time we spend on our phones.",
+   "example_ko": "우리는 휴대폰에 쓰는 시간을 줄여야 한다."
+  },
+  {
+   "word": "eat out",
+   "pos": "phr.",
+   "ko": "외식하다",
+   "def": "to have a meal in a restaurant, not at home",
+   "example": "We **eat out** on Friday nights.",
+   "example_ko": "우리는 금요일 밤마다 외식한다."
+  },
+  {
+   "word": "leftover",
+   "pos": "n.",
+   "ko": "남은 음식",
+   "def": "food remaining after a meal",
+   "example": "Mom put the **leftovers** in the fridge.",
+   "example_ko": "엄마가 남은 음식을 냉장고에 넣었다."
+  },
+  {
+   "word": "make A out of B",
+   "pos": "phr.",
+   "ko": "B로 A를 만들다",
+   "def": "to use one thing as the material to create another thing",
+   "example": "He **made a boat out of** old paper.",
+   "example_ko": "그는 낡은 종이로 배를 만들었다."
+  },
+  {
+   "word": "FYI",
+   "pos": "phr.",
+   "ko": "참고로",
+   "def": "a short way to say 'for your information'",
+   "example": "**FYI**, the library closes at six today.",
+   "example_ko": "참고로, 도서관은 오늘 6시에 문을 닫아."
+  },
+  {
+   "word": "reuse",
+   "pos": "v.",
+   "ko": "재사용하다",
+   "def": "to use again or more than once",
+   "example": "You can **reuse** this paper bag many times.",
+   "example_ko": "이 종이봉투는 여러 번 재사용할 수 있다."
+  },
+  {
+   "word": "tear",
+   "pos": "v.",
+   "ko": "찢다 (tear-tore-torn)",
+   "def": "to pull paper, cloth, or another material into two pieces",
+   "example": "Be careful not to **tear** the page.",
+   "example_ko": "페이지를 찢지 않도록 조심해."
+  },
+  {
+   "word": "fix",
+   "pos": "v.",
+   "ko": "고치다, 수리하다",
+   "def": "to make something work well again",
+   "example": "My dad **fixed** my bike yesterday.",
+   "example_ko": "아빠가 어제 내 자전거를 고쳐 주셨다."
+  },
+  {
+   "word": "sew",
+   "pos": "v.",
+   "ko": "바느질하다 (sew-sewed-sewed/sewn)",
+   "def": "to use a needle and thread to make or repair clothes",
+   "example": "Grandma **sewed** a button on my coat.",
+   "example_ko": "할머니가 내 코트에 단추를 달아 주셨다."
+  },
+  {
+   "word": "single-use",
+   "pos": "adj.",
+   "ko": "일회용의",
+   "def": "designed to be used once and then disposed of or destroyed",
+   "example": "Try not to buy **single-use** cups.",
+   "example_ko": "일회용 컵을 사지 않도록 노력해."
+  },
+  {
+   "word": "delivery",
+   "pos": "n.",
+   "ko": "배달",
+   "def": "the act of taking goods, letters, etc. to people's houses or places of work",
+   "example": "The pizza **delivery** took thirty minutes.",
+   "example_ko": "피자 배달은 30분이 걸렸다."
+  },
+  {
+   "word": "instead",
+   "pos": "adv.",
+   "ko": "대신에",
+   "def": "in place of something else",
+   "example": "It was raining, so we stayed home **instead**.",
+   "example_ko": "비가 와서 우리는 대신 집에 있었다."
+  },
+  {
+   "word": "reusable",
+   "pos": "adj.",
+   "ko": "재사용할 수 있는",
+   "def": "able to be used again or more than once",
+   "example": "I always carry a **reusable** water bottle.",
+   "example_ko": "나는 항상 재사용할 수 있는 물병을 가지고 다닌다."
+  },
+  {
+   "word": "container",
+   "pos": "n.",
+   "ko": "그릇, 용기",
+   "def": "an object for holding things, such as a can, box, or bottle",
+   "example": "Keep the cookies in a glass **container**.",
+   "example_ko": "쿠키를 유리 용기에 보관해."
+  },
+  {
+   "word": "go away",
+   "pos": "phr.",
+   "ko": "없어지다, 사라지다",
+   "def": "to disappear or stop being there",
+   "example": "My headache finally **went away**.",
+   "example_ko": "내 두통이 마침내 사라졌다."
+  },
+  {
+   "word": "completely",
+   "pos": "adv.",
+   "ko": "완전히",
+   "def": "in every way; totally",
+   "example": "I **completely** forgot her birthday.",
+   "example_ko": "나는 그녀의 생일을 완전히 잊어버렸다."
+  },
+  {
+   "word": "recycle",
+   "pos": "v.",
+   "ko": "재활용하다",
+   "def": "to put old paper, glass, or other materials through a special process so that they can be used again",
+   "example": "We **recycle** cans and paper at school.",
+   "example_ko": "우리는 학교에서 캔과 종이를 재활용한다."
+  },
+  {
+   "word": "machine",
+   "pos": "n.",
+   "ko": "기계",
+   "def": "a piece of equipment that you use to do a job",
+   "example": "This **machine** makes ice cream.",
+   "example_ko": "이 기계는 아이스크림을 만든다."
+  },
+  {
+   "word": "take A to B",
+   "pos": "phr.",
+   "ko": "A를 B로 가져가다",
+   "def": "to carry something with you to a place",
+   "example": "Please **take this book to** the teacher.",
+   "example_ko": "이 책을 선생님께 가져다 드려."
+  },
+  {
+   "word": "put A into B",
+   "pos": "phr.",
+   "ko": "A를 B에 넣다",
+   "def": "to place one thing inside another thing",
+   "example": "**Put the eggs into** the basket.",
+   "example_ko": "달걀을 바구니에 넣어라."
+  },
+  {
+   "word": "one by one",
+   "pos": "phr.",
+   "ko": "하나씩, 차례차례",
+   "def": "one person or thing following another in order",
+   "example": "The students came in **one by one**.",
+   "example_ko": "학생들이 한 명씩 들어왔다."
+  },
+  {
+   "word": "in return",
+   "pos": "phr.",
+   "ko": "대가로, 보답으로",
+   "def": "as a response, exchange, or reward for something",
+   "example": "I helped him, and he bought me lunch **in return**.",
+   "example_ko": "내가 그를 도왔고, 그는 보답으로 내게 점심을 사 주었다."
+  }
+ ],
+ "ws1": [
+  {
+   "no": 1,
+   "en": "Every day, / we produce((생산하다)) lots of waste((쓰레기)), / and the Earth / is getting sicker and sicker.",
+   "ko": "매일 / 우리는 많은 쓰레기를 생산한다 / 그리고 지구는 / 점점 더 병들어 가고 있다"
+  },
+  {
+   "no": 2,
+   "en": "Do you want / to save the Earth?",
+   "ko": "당신은 원하는가 / 지구를 구하기를"
+  },
+  {
+   "no": 3,
+   "en": "Then, / join the zero-waste challenge((도전)), / and share your stories.",
+   "ko": "그렇다면 / 제로 웨이스트 챌린지에 동참하라 / 그리고 당신의 이야기를 공유하라"
+  },
+  {
+   "no": 4,
+   "en": "Olivia: My birthday was last Saturday, / and my family and I / ate out((외식하다)).",
+   "ko": "Olivia: 내 생일은 지난 토요일이었다 / 그리고 나의 가족과 나는 / 외식을 했다"
+  },
+  {
+   "no": 5,
+   "en": "There were lots of leftovers((남은 음식)), / but we brought them / home.",
+   "ko": "남은 음식이 많이 있었다 / 하지만 우리는 그것들을 가져왔다 / 집으로"
+  },
+  {
+   "no": 6,
+   "en": "The next day, / I made a nice lunch / out of them.",
+   "ko": "그 다음 날 / 나는 맛있는 점심을 만들었다 / 그것들로"
+  },
+  {
+   "no": 7,
+   "en": "FYI((참고로)), / you can find great cooking ideas / for leftovers / on the Internet.",
+   "ko": "참고로 / 당신은 멋진 요리 아이디어를 찾을 수 있다 / 남은 음식을 위한 / 인터넷에서"
+  },
+  {
+   "no": 8,
+   "en": "Domingo: My dog tore((찢다)) my bag.",
+   "ko": "Domingo: 내 강아지가 내 가방을 찢었다"
+  },
+  {
+   "no": 9,
+   "en": "I wanted to buy a new one, / but I thought again.",
+   "ko": "나는 새것을 사고 싶었다 / 하지만 나는 다시 생각했다"
+  },
+  {
+   "no": 10,
+   "en": "I learned / that reusing is important / for zero-waste living.",
+   "ko": "나는 배웠다 / 재사용하는 것이 중요하다는 것을 / 제로 웨이스트 생활에"
+  },
+  {
+   "no": 11,
+   "en": "So, / I decided to fix it / and reuse((재사용하다)) it.",
+   "ko": "그래서 / 나는 그것을 고치기로 결심했다 / 그리고 그것을 재사용하기로"
+  },
+  {
+   "no": 12,
+   "en": "I’m not very good at sewing((바느질하다)), / and I don’t think / that the bag looks perfect.",
+   "ko": "나는 바느질을 아주 잘하지는 못한다 / 그리고 나는 생각하지 않는다 / 그 가방이 완벽해 보인다고"
+  },
+  {
+   "no": 13,
+   "en": "I guess it’s all right.",
+   "ko": "나는 그것이 괜찮다고 생각한다"
+  },
+  {
+   "no": 14,
+   "en": "Emma: I often use food delivery((배달)) services, / but today I didn’t.",
+   "ko": "Emma: 나는 자주 음식 배달 서비스를 이용한다 / 하지만 오늘 나는 이용하지 않았다"
+  },
+  {
+   "no": 15,
+   "en": "Instead, / I walked to my favorite restaurant / with a reusable((재사용할 수 있는)) container((그릇, 용기)) / and picked up the food.",
+   "ko": "대신에 / 나는 내가 가장 좋아하는 식당으로 걸어갔다 / 재사용할 수 있는 용기를 가지고 / 그리고 음식을 가져왔다"
+  },
+  {
+   "no": 16,
+   "en": "I heard / that plastic never goes away((없어지다)) completely((완전히)).",
+   "ko": "나는 들었다 / 플라스틱은 절대 완전히 없어지지 않는다고"
+  },
+  {
+   "no": 17,
+   "en": "I didn’t use / any single-use((일회용의)) plastic today.",
+   "ko": "나는 사용하지 않았다 / 오늘 어떤 일회용 플라스틱도"
+  },
+  {
+   "no": 18,
+   "en": "I felt good!",
+   "ko": "나는 기분이 좋았다"
+  },
+  {
+   "no": 19,
+   "en": "Minsu: Yesterday, / I took some plastic and glass bottles / to a recycling machine((기계)) / near my house.",
+   "ko": "민수: 어제 / 나는 플라스틱 병과 유리병 몇 개를 가져갔다 / 재활용 기계로 / 우리 집 근처에 있는"
+  },
+  {
+   "no": 20,
+   "en": "I put them into the machine / one by one((하나씩)), / and I got some points / in return((대가로)).",
+   "ko": "나는 그것들을 기계에 넣었다 / 하나씩 / 그리고 나는 약간의 포인트를 얻었다 / 대가로"
+  },
+  {
+   "no": 21,
+   "en": "What can I do / with those points?",
+   "ko": "내가 무엇을 할 수 있을까 / 그 포인트로"
+  },
+  {
+   "no": 22,
+   "en": "Well, / I can use them / like money.",
+   "ko": "음 / 나는 그것들을 사용할 수 있다 / 돈처럼"
+  },
+  {
+   "no": 23,
+   "en": "Don’t you think / that’s cool?",
+   "ko": "당신은 생각하지 않는가 / 그것이 멋지다고"
+  }
+ ],
+ "ws2": [
+  {
+   "no": 1,
+   "en": "Every day, we **produce** lots of **waste**, and the Earth is getting sicker and sicker.",
+   "ko": "매일 우리는 많은 양의 {{쓰레기}}를 {{생산하}}고, 지구는 점점 더 병들고 있습니다."
+  },
+  {
+   "no": 2,
+   "en": "Do you want to **save** the Earth?",
+   "ko": "지구를 {{구하}}고 싶나요?"
+  },
+  {
+   "no": 3,
+   "en": "Then, **join** the zero-waste **challenge**, and **share** your stories.",
+   "ko": "그렇다면 제로 웨이스트 {{챌린지}}에 {{동참하}}고 당신의 이야기를 {{공유해}} 주세요."
+  },
+  {
+   "no": 4,
+   "en": "Olivia: My birthday was last Saturday, and my family and I **ate out**.",
+   "ko": "Olivia: 내 생일은 지난주 토요일이었고, 나의 가족과 나는 {{외식}}을 했어."
+  },
+  {
+   "no": 5,
+   "en": "There were lots of **leftovers**, but we **brought** them home.",
+   "ko": "{{남은 음식}}이 많았지만, 우리는 그것들을 집으로 {{가져왔}}어."
+  },
+  {
+   "no": 6,
+   "en": "The next day, I **made** a nice lunch out of them.",
+   "ko": "그 다음 날 나는 그것들로 맛있는 점심을 {{만들었}}어."
+  },
+  {
+   "no": 7,
+   "en": "**FYI**, you can find great cooking ideas for **leftovers** on the Internet.",
+   "ko": "{{참고로}}, {{남은 음식}}을 활용하는 멋진 요리 아이디어는 인터넷에서 찾을 수 있어."
+  },
+  {
+   "no": 8,
+   "en": "Domingo: My dog **tore** my bag.",
+   "ko": "Domingo: 내 강아지가 내 가방을 {{찢어}} 버렸어."
+  },
+  {
+   "no": 9,
+   "en": "I wanted to buy a new one, but I **thought again**.",
+   "ko": "나는 새것을 사고 싶었지만, {{다시 생각해}} 봤어."
+  },
+  {
+   "no": 10,
+   "en": "I learned that **reusing** is **important** for zero-waste living.",
+   "ko": "나는 {{재사용하는}} 것은 제로 웨이스트 생활에 {{중요하}}다고 배웠어."
+  },
+  {
+   "no": 11,
+   "en": "So, I **decided** to **fix** it and reuse it.",
+   "ko": "그래서 나는 그것을 {{고쳐서}} 다시 사용하기로 {{결심했}}어."
+  },
+  {
+   "no": 12,
+   "en": "I’m not very good at **sewing**, and I don’t think that the bag looks **perfect**.",
+   "ko": "나는 {{바느질}}을 잘하지 못해서, 가방이 {{완벽해}} 보인다고 생각하진 않아."
+  },
+  {
+   "no": 13,
+   "en": "I **guess** it’s all right.",
+   "ko": "그래도 괜찮은 {{것 같아}}."
+  },
+  {
+   "no": 14,
+   "en": "Emma: I **often** use food **delivery** services, but today I didn’t.",
+   "ko": "Emma: 나는 음식 {{배달}} 서비스를 {{자주}} 이용하는데, 오늘은 이용하지 않았어."
+  },
+  {
+   "no": 15,
+   "en": "**Instead**, I walked to my favorite restaurant with a **reusable container** and **picked up** the food.",
+   "ko": "{{대신에}}, {{재사용 가능한 용기}}를 가지고 내가 가장 좋아하는 식당으로 걸어가서 음식을 {{가져왔}}어."
+  },
+  {
+   "no": 16,
+   "en": "I heard that plastic never **goes away** **completely**.",
+   "ko": "나는 플라스틱은 절대로 {{완전히}} {{없어지}}지 않는다고 들었어."
+  },
+  {
+   "no": 17,
+   "en": "I didn’t use any **single-use** plastic today.",
+   "ko": "나는 오늘 어떠한 {{일회용}} 플라스틱도 사용하지 않았어."
+  },
+  {
+   "no": 18,
+   "en": "I **felt good**!",
+   "ko": "{{기분이 좋았}}어!"
+  },
+  {
+   "no": 19,
+   "en": "Minsu: Yesterday, I **took** some plastic and glass bottles to a **recycling machine** near my house.",
+   "ko": "민수: 어제 나는 플라스틱 병과 유리병 몇 개를 집 근처에 있는 {{재활용 기계}}로 {{가져갔}}어."
+  },
+  {
+   "no": 20,
+   "en": "I put them into the machine **one by one**, and I got some points **in return**.",
+   "ko": "나는 그것들을 {{하나씩}} 기계에 집어넣었고, {{대가로}} 포인트를 얻었어."
+  },
+  {
+   "no": 21,
+   "en": "What can I do with those **points**?",
+   "ko": "그 {{포인트}}로 뭘 할 수 있냐고?"
+  },
+  {
+   "no": 22,
+   "en": "Well, I can use them **like** money.",
+   "ko": "음, 나는 포인트를 돈{{처럼}} 사용할 수 있어."
+  },
+  {
+   "no": 23,
+   "en": "Don’t you think that’s **cool**?",
+   "ko": "{{멋지}}다고 생각하지 않니?"
+  }
+ ],
+ "ws3": [
+  {
+   "no": 1,
+   "ko": "매일 우리는 많은 양의 **쓰레기**를 **생산하**고, 지구는 점점 더 병들고 있습니다.",
+   "en": "Every day, we {{produce}} lots of {{waste}}, and the Earth is getting sicker and sicker."
+  },
+  {
+   "no": 2,
+   "ko": "지구를 **구하**고 싶나요?",
+   "en": "Do you want to {{save}} the Earth?"
+  },
+  {
+   "no": 3,
+   "ko": "그렇다면 제로 웨이스트 **챌린지**에 **동참하**고 당신의 이야기를 **공유해** 주세요.",
+   "en": "Then, {{join}} the zero-waste {{challenge}}, and {{share}} your stories."
+  },
+  {
+   "no": 4,
+   "ko": "Olivia: 내 생일은 지난주 토요일이었고, 나의 가족과 나는 **외식**을 했어.",
+   "en": "Olivia: My birthday was last Saturday, and my family and I {{ate out}}."
+  },
+  {
+   "no": 5,
+   "ko": "**남은 음식**이 많았지만, 우리는 그것들을 집으로 **가져왔**어.",
+   "en": "There were lots of {{leftovers}}, but we {{brought}} them home."
+  },
+  {
+   "no": 6,
+   "ko": "그 다음 날 나는 그것들로 맛있는 점심을 **만들었**어.",
+   "en": "The next day, I {{made}} a nice lunch out of them."
+  },
+  {
+   "no": 7,
+   "ko": "**참고로**, **남은 음식**을 활용하는 멋진 요리 아이디어는 인터넷에서 찾을 수 있어.",
+   "en": "{{FYI}}, you can find great cooking ideas for {{leftovers}} on the Internet."
+  },
+  {
+   "no": 8,
+   "ko": "Domingo: 내 강아지가 내 가방을 **찢어** 버렸어.",
+   "en": "Domingo: My dog {{tore}} my bag."
+  },
+  {
+   "no": 9,
+   "ko": "나는 새것을 사고 싶었지만, **다시 생각해** 봤어.",
+   "en": "I wanted to buy a new one, but I {{thought again}}."
+  },
+  {
+   "no": 10,
+   "ko": "나는 **재사용하는** 것은 제로 웨이스트 생활에 **중요하**다고 배웠어.",
+   "en": "I learned that {{reusing}} is {{important}} for zero-waste living."
+  },
+  {
+   "no": 11,
+   "ko": "그래서 나는 그것을 **고쳐서** 다시 사용하기로 **결심했**어.",
+   "en": "So, I {{decided}} to {{fix}} it and reuse it."
+  },
+  {
+   "no": 12,
+   "ko": "나는 **바느질**을 잘하지 못해서, 가방이 **완벽해** 보인다고 생각하진 않아.",
+   "en": "I’m not very good at {{sewing}}, and I don’t think that the bag looks {{perfect}}."
+  },
+  {
+   "no": 13,
+   "ko": "그래도 괜찮은 **것 같아**.",
+   "en": "I {{guess}} it’s all right."
+  },
+  {
+   "no": 14,
+   "ko": "Emma: 나는 음식 **배달** 서비스를 **자주** 이용하는데, 오늘은 이용하지 않았어.",
+   "en": "Emma: I {{often}} use food {{delivery}} services, but today I didn’t."
+  },
+  {
+   "no": 15,
+   "ko": "**대신에**, **재사용 가능한 용기**를 가지고 내가 가장 좋아하는 식당으로 걸어가서 음식을 **가져왔**어.",
+   "en": "{{Instead}}, I walked to my favorite restaurant with a {{reusable container}} and {{picked up}} the food."
+  },
+  {
+   "no": 16,
+   "ko": "나는 플라스틱은 절대로 **완전히** **없어지**지 않는다고 들었어.",
+   "en": "I heard that plastic never {{goes away}} {{completely}}."
+  },
+  {
+   "no": 17,
+   "ko": "나는 오늘 어떠한 **일회용** 플라스틱도 사용하지 않았어.",
+   "en": "I didn’t use any {{single-use}} plastic today."
+  },
+  {
+   "no": 18,
+   "ko": "**기분이 좋았**어!",
+   "en": "I {{felt good}}!"
+  },
+  {
+   "no": 19,
+   "ko": "민수: 어제 나는 플라스틱 병과 유리병 몇 개를 집 근처에 있는 **재활용 기계**로 **가져갔**어.",
+   "en": "Minsu: Yesterday, I {{took}} some plastic and glass bottles to a {{recycling machine}} near my house."
+  },
+  {
+   "no": 20,
+   "ko": "나는 그것들을 **하나씩** 기계에 집어넣었고, **대가로** 포인트를 얻었어.",
+   "en": "I put them into the machine {{one by one}}, and I got some points {{in return}}."
+  },
+  {
+   "no": 21,
+   "ko": "그 **포인트**로 뭘 할 수 있냐고?",
+   "en": "What can I do with those {{points}}?"
+  },
+  {
+   "no": 22,
+   "ko": "음, 나는 포인트를 돈**처럼** 사용할 수 있어.",
+   "en": "Well, I can use them {{like}} money."
+  },
+  {
+   "no": 23,
+   "ko": "**멋지**다고 생각하지 않니?",
+   "en": "Don’t you think that’s {{cool}}?"
+  }
+ ],
+ "ws4": [
+  {
+   "no": 1,
+   "en": "Every day, we ^^(produce)^^ lots of waste, and the Earth ^^(get)^^ sicker and sicker.",
+   "answer": [
+    "produce",
+    "is getting"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "^^(Do)^^ you ^^(want)^^ ^^(save)^^ the Earth?",
+   "answer": [
+    "Do",
+    "want",
+    "to save"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "Then, ^^(join)^^ the zero-waste challenge, and ^^(share)^^ your stories.",
+   "answer": [
+    "join",
+    "share"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "Olivia: My birthday ^^(be)^^ last Saturday, and my family and I ^^(eat)^^ out.",
+   "answer": [
+    "was",
+    "ate"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "There ^^(be)^^ lots of leftovers, but we ^^(bring)^^ them home.",
+   "answer": [
+    "were",
+    "brought"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "The next day, I ^^(make)^^ a nice lunch out of them.",
+   "answer": [
+    "made"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "FYI, you ^^(can, find)^^ great ^^(cook)^^ ideas for leftovers on the Internet.",
+   "answer": [
+    "can find",
+    "cooking"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "Domingo: My dog ^^(tear)^^ my bag.",
+   "answer": [
+    "tore"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "I ^^(want)^^ ^^(buy)^^ a new one, but I ^^(think)^^ again.",
+   "answer": [
+    "wanted",
+    "to buy",
+    "thought"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I ^^(learn)^^ that ^^(reuse)^^ ^^(be)^^ important for zero-waste ^^(live)^^.",
+   "answer": [
+    "learned",
+    "reusing",
+    "is",
+    "living"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "So, I ^^(decide)^^ ^^(fix)^^ it and ^^(reuse)^^ it.",
+   "answer": [
+    "decided",
+    "to fix",
+    "reuse"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "I’m not very good at ^^(sew)^^, and I don’t ^^(think)^^ that the bag ^^(look)^^ perfect.",
+   "answer": [
+    "sewing",
+    "think",
+    "looks"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "I ^^(guess)^^ it’s all right.",
+   "answer": [
+    "guess"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Emma: I often ^^(use)^^ food delivery services, but today I didn’t.",
+   "answer": [
+    "use"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "Instead, I ^^(walk)^^ to my favorite restaurant with a reusable container and ^^(pick)^^ up the food.",
+   "answer": [
+    "walked",
+    "picked"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "I ^^(hear)^^ that plastic never ^^(go)^^ away completely.",
+   "answer": [
+    "heard",
+    "goes"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "I didn’t ^^(use)^^ any single-use plastic today.",
+   "answer": [
+    "use"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "I ^^(feel)^^ good!",
+   "answer": [
+    "felt"
+   ]
+  },
+  {
+   "no": 19,
+   "en": "Minsu: Yesterday, I ^^(take)^^ some plastic and glass bottles to a ^^(recycle)^^ machine near my house.",
+   "answer": [
+    "took",
+    "recycling"
+   ]
+  },
+  {
+   "no": 20,
+   "en": "I ^^(put)^^ them into the machine one by one, and I ^^(get)^^ some points in return.",
+   "answer": [
+    "put",
+    "got"
+   ]
+  },
+  {
+   "no": 21,
+   "en": "What ^^(can)^^ I ^^(do)^^ with those points?",
+   "answer": [
+    "can",
+    "do"
+   ]
+  },
+  {
+   "no": 22,
+   "en": "Well, I ^^(can, use)^^ them like money.",
+   "answer": [
+    "can use"
+   ]
+  },
+  {
+   "no": 23,
+   "en": "Don’t you ^^(think)^^ that’s cool?",
+   "answer": [
+    "think"
+   ]
+  }
+ ],
+ "ws5": [
+  {
+   "no": 1,
+   "en": "Every day, we ^^[produce / produces]^^ lots of waste, and the Earth is getting ^^[sick and sicker / sicker and sicker]^^.",
+   "answer": [
+    "produce",
+    "sicker and sicker"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "Do you want ^^[saving / to save]^^ the Earth?",
+   "answer": [
+    "to save"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "Then, ^^[join / joins]^^ the zero-waste challenge, and share your stories.",
+   "answer": [
+    "join"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "Olivia: My birthday ^^[is / was]^^ last Saturday, and my family and I ^^[ate / eat]^^ out.",
+   "answer": [
+    "was",
+    "ate"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "There ^^[were / was]^^ lots of leftovers, but we brought ^^[it / them]^^ home.",
+   "answer": [
+    "were",
+    "them"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "The next day, I made a nice lunch out of ^^[them / it]^^.",
+   "answer": [
+    "them"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "FYI, you can ^^[found / find]^^ great cooking ideas for leftovers on the Internet.",
+   "answer": [
+    "find"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "Domingo: My dog ^^[tore / torn]^^ my bag.",
+   "answer": [
+    "tore"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "I wanted ^^[buying / to buy]^^ a new one, but I ^^[thought / think]^^ again.",
+   "answer": [
+    "to buy",
+    "thought"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I learned that reusing ^^[are / is]^^ important for zero-waste living.",
+   "answer": [
+    "is"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "So, I decided ^^[to fix / fixing]^^ it and reuse it.",
+   "answer": [
+    "to fix"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "I’m not very good at ^^[sew / sewing]^^, and I don’t think that the bag looks ^^[perfect / perfectly]^^.",
+   "answer": [
+    "sewing",
+    "perfect"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "I guess ^^[its / it’s]^^ all right.",
+   "answer": [
+    "it’s"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Emma: I ^^[often use / use often]^^ food delivery services, but today I ^^[don’t / didn’t]^^.",
+   "answer": [
+    "often use",
+    "didn’t"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "Instead, I walked to my favorite restaurant with a reusable container and ^^[picked / pick]^^ up the food.",
+   "answer": [
+    "picked"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "I heard that plastic never ^^[go / goes]^^ away ^^[completely / complete]^^.",
+   "answer": [
+    "goes",
+    "completely"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "I didn’t ^^[used / use]^^ any single-use plastic today.",
+   "answer": [
+    "use"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "I felt ^^[good / nicely]^^!",
+   "answer": [
+    "good"
+   ]
+  },
+  {
+   "no": 19,
+   "en": "Minsu: Yesterday, I ^^[taken / took]^^ some plastic and glass bottles to a recycling machine near my house.",
+   "answer": [
+    "took"
+   ]
+  },
+  {
+   "no": 20,
+   "en": "I put them into the machine one by one, and I ^^[got / get]^^ some points in return.",
+   "answer": [
+    "got"
+   ]
+  },
+  {
+   "no": 21,
+   "en": "What can I ^^[to do / do]^^ with those points?",
+   "answer": [
+    "do"
+   ]
+  },
+  {
+   "no": 22,
+   "en": "Well, I can use ^^[them / it]^^ like money.",
+   "answer": [
+    "them"
+   ]
+  },
+  {
+   "no": 23,
+   "en": "^^[Doesn’t / Don’t]^^ you think that’s cool?",
+   "answer": [
+    "Don’t"
+   ]
+  }
+ ],
+ "ws6": [
+  {
+   "lines": [
+    "Every day, we **produce** lots of waste, and the Earth is **getting** sicker and **sicker**. Do you want **saving** the Earth? Then, **joins** the zero-waste challenge, and **share** your stories."
+   ],
+   "errors": [
+    {
+     "wrong": "saving",
+     "right": "to save",
+     "reason": "want 는 to부정사를 목적어로"
+    },
+    {
+     "wrong": "joins",
+     "right": "join",
+     "reason": "명령문은 동사원형으로 시작"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Challenge 01 Reduce Food Waste",
+    "^^Olivia:^^ My birthday **is** last Saturday, and my family and I **ate** out. There **was** lots of leftovers, but we **brought** **it** home. The next day, I **made** a nice lunch out of them. FYI, you can **find** great cooking ideas for leftovers on the Internet."
+   ],
+   "errors": [
+    {
+     "wrong": "is",
+     "right": "was",
+     "reason": "last Saturday 는 과거"
+    },
+    {
+     "wrong": "was",
+     "right": "were",
+     "reason": "There + be 는 뒤 명사(leftovers 복수)에 맞춘다"
+    },
+    {
+     "wrong": "it",
+     "right": "them",
+     "reason": "가리키는 것이 leftovers(복수)"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Challenge 02 Reuse",
+    "^^Domingo:^^ My dog **teared** my bag. I wanted **to buy** a new **one**, but I thought again. I learned that reusing **are** important for zero-waste living. So, I decided **to fix** it and reuse it. I’m not very good at **sewing**, and I don’t think that the bag looks **perfectly**. I guess it’s all right."
+   ],
+   "errors": [
+    {
+     "wrong": "teared",
+     "right": "tore",
+     "reason": "tear 의 과거형은 tore (불규칙)"
+    },
+    {
+     "wrong": "are",
+     "right": "is",
+     "reason": "동명사 주어(reusing)는 단수 취급"
+    },
+    {
+     "wrong": "perfectly",
+     "right": "perfect",
+     "reason": "감각동사 look + 형용사"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Challenge 03 Say No to Single-Use Plastic",
+    "^^Emma:^^ I often **uses** food delivery services, but today I **didn’t**. Instead, I walked to my favorite restaurant with a **reusable** container and **pick** up the food. I heard that plastic never **goes** away **complete**. I didn’t use any single-use plastic today. I felt **good**!"
+   ],
+   "errors": [
+    {
+     "wrong": "uses",
+     "right": "use",
+     "reason": "주어 I 에는 use"
+    },
+    {
+     "wrong": "pick",
+     "right": "picked",
+     "reason": "walked 와 and 로 나란히 — 과거형"
+    },
+    {
+     "wrong": "complete",
+     "right": "completely",
+     "reason": "동사 goes away 를 꾸미는 부사"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Challenge 04 Recycle",
+    "^^Minsu:^^ Yesterday, I **took** some plastic and glass bottles to a **recycling** machine near my house. I put **it** into the machine one by one, and I **got** some points in return. What can I **do** with those points? Well, I can **used** them like money. Don’t you think **that’s** cool?"
+   ],
+   "errors": [
+    {
+     "wrong": "it",
+     "right": "them",
+     "reason": "가리키는 것이 bottles(복수)"
+    },
+    {
+     "wrong": "used",
+     "right": "use",
+     "reason": "조동사 can + 동사원형"
+    }
+   ]
+  }
+ ],
+ "ws7": [
+  {
+   "no": 1,
+   "en": "Every day, (lots of waste / produce / we), and (sicker and sicker / the Earth / get).",
+   "answer": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker."
+  },
+  {
+   "no": 2,
+   "en": "(want / do / you) (the Earth / save)?",
+   "answer": "Do you want to save the Earth?"
+  },
+  {
+   "no": 3,
+   "en": "Then, (the zero-waste challenge / join), and (your stories / share).",
+   "answer": "Then, join the zero-waste challenge, and share your stories."
+  },
+  {
+   "no": 4,
+   "en": "Olivia: (last Saturday / my birthday / be), and (out / eat / my family and I).",
+   "answer": "Olivia: My birthday was last Saturday, and my family and I ate out."
+  },
+  {
+   "no": 5,
+   "en": "(lots of leftovers / there / be), but (home / them / bring / we).",
+   "answer": "There were lots of leftovers, but we brought them home."
+  },
+  {
+   "no": 6,
+   "en": "The next day, (out of them / a nice lunch / I / make).",
+   "answer": "The next day, I made a nice lunch out of them."
+  },
+  {
+   "no": 7,
+   "en": "FYI, (great cooking ideas / can / you / find) (on the Internet / for leftovers).",
+   "answer": "FYI, you can find great cooking ideas for leftovers on the Internet."
+  },
+  {
+   "no": 8,
+   "en": "Domingo: (my bag / tear / my dog).",
+   "answer": "Domingo: My dog tore my bag."
+  },
+  {
+   "no": 9,
+   "en": "(a new one / buy / want / I), but (again / I / think).",
+   "answer": "I wanted to buy a new one, but I thought again."
+  },
+  {
+   "no": 10,
+   "en": "(learn / I) that (important / reuse / be) (zero-waste living / for).",
+   "answer": "I learned that reusing is important for zero-waste living."
+  },
+  {
+   "no": 11,
+   "en": "So, (fix it / decide / I) and (it / reuse).",
+   "answer": "So, I decided to fix it and reuse it."
+  },
+  {
+   "no": 12,
+   "en": "(at / I’m / not very good / sew), and (think / don’t / I) that (perfect / the bag / look).",
+   "answer": "I’m not very good at sewing, and I don’t think that the bag looks perfect."
+  },
+  {
+   "no": 13,
+   "en": "(all right / it’s / guess / I).",
+   "answer": "I guess it’s all right."
+  },
+  {
+   "no": 14,
+   "en": "Emma: (food delivery services / often / use / I), but (didn’t / today / I).",
+   "answer": "Emma: I often use food delivery services, but today I didn’t."
+  },
+  {
+   "no": 15,
+   "en": "Instead, (to my favorite restaurant / walk / I) (a reusable container / with) and (the food / pick up).",
+   "answer": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food."
+  },
+  {
+   "no": 16,
+   "en": "(hear / I) that (completely / never / go away / plastic).",
+   "answer": "I heard that plastic never goes away completely."
+  },
+  {
+   "no": 17,
+   "en": "(any single-use plastic / didn’t / use / I) today.",
+   "answer": "I didn’t use any single-use plastic today."
+  },
+  {
+   "no": 18,
+   "en": "(good / feel / I)!",
+   "answer": "I felt good!"
+  },
+  {
+   "no": 19,
+   "en": "Minsu: Yesterday, (some plastic and glass bottles / take / I) (near my house / to a recycling machine).",
+   "answer": "Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house."
+  },
+  {
+   "no": 20,
+   "en": "(into the machine / them / put / I) one by one, and (in return / some points / get / I).",
+   "answer": "I put them into the machine one by one, and I got some points in return."
+  },
+  {
+   "no": 21,
+   "en": "(do / can / what / I) (those points / with)?",
+   "answer": "What can I do with those points?"
+  },
+  {
+   "no": 22,
+   "en": "Well, (them / can / use / I) (money / like).",
+   "answer": "Well, I can use them like money."
+  },
+  {
+   "no": 23,
+   "en": "(think / you / don’t) (cool / that’s)?",
+   "answer": "Don’t you think that’s cool?"
+  }
+ ],
+ "ws8": [
+  {
+   "no": 1,
+   "keywords": [
+    "produce",
+    "waste",
+    "get"
+   ],
+   "frame": "Every day, {{#5}}, and {{#7}}.",
+   "answer": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker."
+  },
+  {
+   "no": 2,
+   "keywords": [
+    "want",
+    "save"
+   ],
+   "frame": "{{#7}}?",
+   "answer": "Do you want to save the Earth?"
+  },
+  {
+   "no": 3,
+   "keywords": [
+    "join",
+    "challenge",
+    "share"
+   ],
+   "frame": "Then, {{#4}}, and {{#3}}.",
+   "answer": "Then, join the zero-waste challenge, and share your stories."
+  },
+  {
+   "no": 4,
+   "keywords": [
+    "birthday",
+    "last Saturday",
+    "eat out"
+   ],
+   "frame": "Olivia: {{#5}}, and {{#6}}.",
+   "answer": "Olivia: My birthday was last Saturday, and my family and I ate out."
+  },
+  {
+   "no": 5,
+   "keywords": [
+    "leftovers",
+    "bring",
+    "home"
+   ],
+   "frame": "{{#5}}, but {{#4}}.",
+   "answer": "There were lots of leftovers, but we brought them home."
+  },
+  {
+   "no": 6,
+   "keywords": [
+    "the next day",
+    "make",
+    "out of"
+   ],
+   "frame": "The next day, {{#8}}.",
+   "answer": "The next day, I made a nice lunch out of them."
+  },
+  {
+   "no": 7,
+   "keywords": [
+    "find",
+    "cooking ideas",
+    "the Internet"
+   ],
+   "frame": "FYI, {{#11}}.",
+   "answer": "FYI, you can find great cooking ideas for leftovers on the Internet."
+  },
+  {
+   "no": 8,
+   "keywords": [
+    "dog",
+    "tear",
+    "bag"
+   ],
+   "frame": "Domingo: {{#5}}.",
+   "answer": "Domingo: My dog tore my bag."
+  },
+  {
+   "no": 9,
+   "keywords": [
+    "want",
+    "buy",
+    "think"
+   ],
+   "frame": "{{#7}}, but {{#3}}.",
+   "answer": "I wanted to buy a new one, but I thought again."
+  },
+  {
+   "no": 10,
+   "keywords": [
+    "learn",
+    "reuse",
+    "important",
+    "living"
+   ],
+   "frame": "{{#2}} that {{#6}}.",
+   "answer": "I learned that reusing is important for zero-waste living."
+  },
+  {
+   "no": 11,
+   "keywords": [
+    "decide",
+    "fix",
+    "reuse"
+   ],
+   "frame": "So, {{#8}}.",
+   "answer": "So, I decided to fix it and reuse it."
+  },
+  {
+   "no": 12,
+   "keywords": [
+    "good at",
+    "sew",
+    "think",
+    "look"
+   ],
+   "frame": "{{#6}}, and {{#3}} that {{#4}}.",
+   "answer": "I’m not very good at sewing, and I don’t think that the bag looks perfect."
+  },
+  {
+   "no": 13,
+   "keywords": [
+    "guess",
+    "all right"
+   ],
+   "frame": "{{#5}}.",
+   "answer": "I guess it’s all right."
+  },
+  {
+   "no": 14,
+   "keywords": [
+    "often",
+    "delivery",
+    "today"
+   ],
+   "frame": "Emma: {{#6}}, but {{#3}}.",
+   "answer": "Emma: I often use food delivery services, but today I didn’t."
+  },
+  {
+   "no": 15,
+   "keywords": [
+    "walk",
+    "reusable container",
+    "pick up"
+   ],
+   "frame": "Instead, {{#15}}.",
+   "answer": "Instead, I walked to my favorite restaurant with a reusable container and picked up the food."
+  },
+  {
+   "no": 16,
+   "keywords": [
+    "hear",
+    "never",
+    "go away",
+    "completely"
+   ],
+   "frame": "{{#2}} that {{#5}}.",
+   "answer": "I heard that plastic never goes away completely."
+  },
+  {
+   "no": 17,
+   "keywords": [
+    "single-use",
+    "plastic",
+    "today"
+   ],
+   "frame": "{{#7}}.",
+   "answer": "I didn’t use any single-use plastic today."
+  },
+  {
+   "no": 18,
+   "keywords": [
+    "feel",
+    "good"
+   ],
+   "frame": "{{#3}}!",
+   "answer": "I felt good!"
+  },
+  {
+   "no": 19,
+   "keywords": [
+    "take",
+    "bottles",
+    "recycling machine",
+    "near"
+   ],
+   "frame": "Minsu: Yesterday, {{#14}}.",
+   "answer": "Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house."
+  },
+  {
+   "no": 20,
+   "keywords": [
+    "put",
+    "one by one",
+    "in return"
+   ],
+   "frame": "{{#9}}, and {{#6}}.",
+   "answer": "I put them into the machine one by one, and I got some points in return."
+  },
+  {
+   "no": 21,
+   "keywords": [
+    "can",
+    "do",
+    "points"
+   ],
+   "frame": "{{#7}}?",
+   "answer": "What can I do with those points?"
+  },
+  {
+   "no": 22,
+   "keywords": [
+    "use",
+    "like",
+    "money"
+   ],
+   "frame": "Well, {{#6}}.",
+   "answer": "Well, I can use them like money."
+  },
+  {
+   "no": 23,
+   "keywords": [
+    "think",
+    "cool"
+   ],
+   "frame": "{{#5}}?",
+   "answer": "Don’t you think that’s cool?"
+  }
+ ]
+}

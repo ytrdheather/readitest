@@ -1,0 +1,679 @@
+{
+ "unit": "Lesson 6 More reading — Challenge Upcycle",
+ "school": "영일중",
+ "grade": "1학년",
+ "sentences": [
+  {
+   "no": 1,
+   "en": "Mina: Did you know that we can turn trash into something new and valuable?",
+   "ko": "Mina: 우리가 쓰레기를 새롭고 가치 있는 것으로 바꿀 수 있다는 것을 알고 있었니?"
+  },
+  {
+   "no": 2,
+   "en": "We can even make an artwork out of it.",
+   "ko": "우리는 그것으로 예술 작품을 만들 수도 있어."
+  },
+  {
+   "no": 3,
+   "en": "This process is upcycling.",
+   "ko": "이 과정이 업사이클링이야."
+  },
+  {
+   "no": 4,
+   "en": "It is reusing trash creatively.",
+   "ko": "그것은 쓰레기를 창의적으로 재사용하는 거야."
+  },
+  {
+   "no": 5,
+   "en": "Today, my dog tore my bag apart, so I needed a new bag.",
+   "ko": "오늘 우리 강아지가 내 가방을 갈기갈기 찢어 놓아서, 나는 새 가방이 필요했어."
+  },
+  {
+   "no": 6,
+   "en": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans.",
+   "ko": "새것을 사거나 낡은 것을 고치는 대신, 나는 내 낡은 청바지를 업사이클하기로 결심했어."
+  },
+  {
+   "no": 7,
+   "en": "Jeans are strong, so they are perfect for a bag.",
+   "ko": "청바지는 튼튼해서 가방으로 딱 알맞아."
+  },
+  {
+   "no": 8,
+   "en": "I then found a how-to for making a bag from old jeans on the Internet and made a bag.",
+   "ko": "그러고 나서 나는 인터넷에서 낡은 청바지로 가방을 만드는 방법을 찾아서 가방을 만들었어."
+  },
+  {
+   "no": 9,
+   "en": "I wanted to decorate the bag, so I used the pins and buttons from my old dresses.",
+   "ko": "나는 가방을 꾸미고 싶어서, 내 낡은 원피스에서 떼어 낸 핀과 단추를 사용했어."
+  },
+  {
+   "no": 10,
+   "en": "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!",
+   "ko": "나는 그 가방을 내 친구 수나에게 보여 줬고, 그녀는 그것이 독특하고 아주 멋져 보인다고 말했어!"
+  }
+ ],
+ "prep": [
+  {
+   "word": "trash",
+   "pos": "n.",
+   "ko": "쓰레기",
+   "def": "things that you throw away because you no longer want them or need them, such as old food, paper, or plastic",
+   "example": "Please don’t leave **trash** in the park.",
+   "example_ko": "공원에 쓰레기를 남기지 마세요."
+  },
+  {
+   "word": "valuable",
+   "pos": "adj.",
+   "ko": "가치 있는, 귀중한",
+   "def": "worth a lot of money, or very useful or important",
+   "example": "This old coin is very **valuable**.",
+   "example_ko": "이 오래된 동전은 매우 귀중하다."
+  },
+  {
+   "word": "artwork",
+   "pos": "n.",
+   "ko": "예술 작품",
+   "def": "a painting, drawing, or sculpture that someone creates",
+   "example": "Her **artwork** is shown in the school hall.",
+   "example_ko": "그녀의 예술 작품이 학교 강당에 전시되어 있다."
+  },
+  {
+   "word": "process",
+   "pos": "n.",
+   "ko": "과정",
+   "def": "a series of actions or steps taken in order to achieve a particular end",
+   "example": "Learning a language is a long **process**.",
+   "example_ko": "언어를 배우는 것은 긴 과정이다."
+  },
+  {
+   "word": "upcycle",
+   "pos": "v.",
+   "ko": "업사이클하다 (헌 물건을 더 좋은 것으로 다시 만들다)",
+   "def": "to take old or thrown away materials and objects and change them into something new and usually better",
+   "example": "I **upcycled** an old box as a pencil case.",
+   "example_ko": "나는 낡은 상자를 필통으로 업사이클했다."
+  },
+  {
+   "word": "decorate",
+   "pos": "v.",
+   "ko": "꾸미다, 장식하다",
+   "def": "to make something look more attractive by adding things to it",
+   "example": "We **decorated** the classroom with balloons.",
+   "example_ko": "우리는 풍선으로 교실을 꾸몄다."
+  },
+  {
+   "word": "unique",
+   "pos": "adj.",
+   "ko": "독특한, 유일한",
+   "def": "being the only one of its kind; unusually special",
+   "example": "Everyone has a **unique** voice.",
+   "example_ko": "모든 사람은 자기만의 독특한 목소리를 가지고 있다."
+  },
+  {
+   "word": "tear apart",
+   "pos": "phr.",
+   "ko": "갈기갈기 찢다",
+   "def": "to pull something into pieces, or to separate it by force",
+   "example": "The angry child **tore apart** the paper.",
+   "example_ko": "화난 아이가 종이를 갈기갈기 찢었다."
+  },
+  {
+   "word": "turn A into B",
+   "pos": "phr.",
+   "ko": "A를 B로 바꾸다",
+   "def": "to change one thing so that it becomes another thing",
+   "example": "The magician **turned the scarf into** a bird.",
+   "example_ko": "마술사는 스카프를 새로 바꾸었다."
+  },
+  {
+   "word": "instead of",
+   "pos": "phr.",
+   "ko": "~ 대신에",
+   "def": "in place of something else",
+   "example": "I drank water **instead of** soda.",
+   "example_ko": "나는 탄산음료 대신 물을 마셨다."
+  },
+  {
+   "word": "how-to",
+   "pos": "n.",
+   "ko": "방법, 제작법",
+   "def": "instructions that show you the steps to do something",
+   "example": "I watched a **how-to** video about cooking.",
+   "example_ko": "나는 요리 방법 영상을 봤다."
+  },
+  {
+   "word": "perfect for",
+   "pos": "phr.",
+   "ko": "~에 딱 알맞은",
+   "def": "exactly right for a person or a use",
+   "example": "This small backpack is **perfect for** a short trip.",
+   "example_ko": "이 작은 배낭은 짧은 여행에 딱 알맞다."
+  }
+ ],
+ "ws1": [
+  {
+   "no": 1,
+   "en": "Mina: Did you know / that we can turn trash((쓰레기)) into something / new and valuable((가치 있는))?",
+   "ko": "Mina: 너는 알고 있었니 / 우리가 쓰레기를 무언가로 바꿀 수 있다는 것을 / 새롭고 가치 있는"
+  },
+  {
+   "no": 2,
+   "en": "We can even make an artwork((예술 작품)) / out of it.",
+   "ko": "우리는 심지어 예술 작품을 만들 수도 있다 / 그것으로"
+  },
+  {
+   "no": 3,
+   "en": "This process((과정)) is upcycling.",
+   "ko": "이 과정이 업사이클링이다"
+  },
+  {
+   "no": 4,
+   "en": "It is reusing trash creatively((창의적으로)).",
+   "ko": "그것은 쓰레기를 창의적으로 재사용하는 것이다"
+  },
+  {
+   "no": 5,
+   "en": "Today, / my dog tore my bag apart((갈기갈기 찢다)), / so I needed a new bag.",
+   "ko": "오늘 / 우리 강아지가 내 가방을 갈기갈기 찢었다 / 그래서 나는 새 가방이 필요했다"
+  },
+  {
+   "no": 6,
+   "en": "Instead of buying a new one / or fixing the old one, / I decided / to upcycle((업사이클하다)) my old jeans.",
+   "ko": "새것을 사는 대신 / 또는 낡은 것을 고치는 (대신) / 나는 결심했다 / 내 낡은 청바지를 업사이클하기로"
+  },
+  {
+   "no": 7,
+   "en": "Jeans are strong, / so they are perfect for a bag.",
+   "ko": "청바지는 튼튼하다 / 그래서 그것은 가방으로 딱 알맞다"
+  },
+  {
+   "no": 8,
+   "en": "I then found a how-to((방법)) / for making a bag / from old jeans / on the Internet / and made a bag.",
+   "ko": "그러고 나서 나는 방법을 찾았다 / 가방을 만드는 / 낡은 청바지로 / 인터넷에서 / 그리고 가방을 만들었다"
+  },
+  {
+   "no": 9,
+   "en": "I wanted to decorate((꾸미다)) the bag, / so I used the pins and buttons / from my old dresses.",
+   "ko": "나는 그 가방을 꾸미고 싶었다 / 그래서 나는 핀과 단추를 사용했다 / 내 낡은 원피스에서 나온"
+  },
+  {
+   "no": 10,
+   "en": "I showed the bag / to my friend, Suna, / and she said / that it looked unique((독특한)) and very nice!",
+   "ko": "나는 그 가방을 보여 주었다 / 내 친구 수나에게 / 그리고 그녀는 말했다 / 그것이 독특하고 아주 멋져 보인다고"
+  }
+ ],
+ "ws2": [
+  {
+   "no": 1,
+   "en": "Mina: Did you know that we can **turn** **trash** into something new and **valuable**?",
+   "ko": "Mina: 우리가 {{쓰레기}}를 새롭고 {{가치 있는}} 것으로 {{바꿀}} 수 있다는 것을 알고 있었니?"
+  },
+  {
+   "no": 2,
+   "en": "We can even make an **artwork** out of it.",
+   "ko": "우리는 그것으로 {{예술 작품}}을 만들 수도 있어."
+  },
+  {
+   "no": 3,
+   "en": "This **process** is upcycling.",
+   "ko": "이 {{과정}}이 업사이클링이야."
+  },
+  {
+   "no": 4,
+   "en": "It is **reusing** trash **creatively**.",
+   "ko": "그것은 쓰레기를 {{창의적으로}} {{재사용하는}} 거야."
+  },
+  {
+   "no": 5,
+   "en": "Today, my dog **tore** my bag **apart**, so I **needed** a new bag.",
+   "ko": "오늘 우리 강아지가 내 가방을 {{갈기갈기 찢어}} 놓아서, 나는 새 가방이 {{필요했}}어."
+  },
+  {
+   "no": 6,
+   "en": "**Instead of** buying a new one or **fixing** the old one, I decided to **upcycle** my old jeans.",
+   "ko": "새것을 사거나 낡은 것을 {{고치는}} {{대신}}, 나는 내 낡은 청바지를 {{업사이클하}}기로 결심했어."
+  },
+  {
+   "no": 7,
+   "en": "Jeans are **strong**, so they are **perfect for** a bag.",
+   "ko": "청바지는 {{튼튼해}}서 가방으로 {{딱 알맞아}}."
+  },
+  {
+   "no": 8,
+   "en": "I then found a **how-to** for making a bag from old jeans on the Internet and made a bag.",
+   "ko": "그러고 나서 나는 인터넷에서 낡은 청바지로 가방을 만드는 {{방법}}을 찾아서 가방을 만들었어."
+  },
+  {
+   "no": 9,
+   "en": "I wanted to **decorate** the bag, so I used the **pins** and **buttons** from my old dresses.",
+   "ko": "나는 가방을 {{꾸미}}고 싶어서, 내 낡은 원피스에서 떼어 낸 {{핀}}과 {{단추}}를 사용했어."
+  },
+  {
+   "no": 10,
+   "en": "I **showed** the bag to my friend, Suna, and she said that it looked **unique** and very nice!",
+   "ko": "나는 그 가방을 내 친구 수나에게 {{보여 줬}}고, 그녀는 그것이 {{독특하}}고 아주 멋져 보인다고 말했어!"
+  }
+ ],
+ "ws3": [
+  {
+   "no": 1,
+   "ko": "Mina: 우리가 **쓰레기**를 새롭고 **가치 있는** 것으로 **바꿀** 수 있다는 것을 알고 있었니?",
+   "en": "Mina: Did you know that we can {{turn}} {{trash}} into something new and {{valuable}}?"
+  },
+  {
+   "no": 2,
+   "ko": "우리는 그것으로 **예술 작품**을 만들 수도 있어.",
+   "en": "We can even make an {{artwork}} out of it."
+  },
+  {
+   "no": 3,
+   "ko": "이 **과정**이 업사이클링이야.",
+   "en": "This {{process}} is upcycling."
+  },
+  {
+   "no": 4,
+   "ko": "그것은 쓰레기를 **창의적으로** **재사용하는** 거야.",
+   "en": "It is {{reusing}} trash {{creatively}}."
+  },
+  {
+   "no": 5,
+   "ko": "오늘 우리 강아지가 내 가방을 **갈기갈기 찢어** 놓아서, 나는 새 가방이 **필요했**어.",
+   "en": "Today, my dog {{tore}} my bag {{apart}}, so I {{needed}} a new bag."
+  },
+  {
+   "no": 6,
+   "ko": "새것을 사거나 낡은 것을 **고치는** **대신**, 나는 내 낡은 청바지를 **업사이클하**기로 결심했어.",
+   "en": "{{Instead of}} buying a new one or {{fixing}} the old one, I decided to {{upcycle}} my old jeans."
+  },
+  {
+   "no": 7,
+   "ko": "청바지는 **튼튼해**서 가방으로 **딱 알맞아**.",
+   "en": "Jeans are {{strong}}, so they are {{perfect for}} a bag."
+  },
+  {
+   "no": 8,
+   "ko": "그러고 나서 나는 인터넷에서 낡은 청바지로 가방을 만드는 **방법**을 찾아서 가방을 만들었어.",
+   "en": "I then found a {{how-to}} for making a bag from old jeans on the Internet and made a bag."
+  },
+  {
+   "no": 9,
+   "ko": "나는 가방을 **꾸미**고 싶어서, 내 낡은 원피스에서 떼어 낸 **핀**과 **단추**를 사용했어.",
+   "en": "I wanted to {{decorate}} the bag, so I used the {{pins}} and {{buttons}} from my old dresses."
+  },
+  {
+   "no": 10,
+   "ko": "나는 그 가방을 내 친구 수나에게 **보여 줬**고, 그녀는 그것이 **독특하**고 아주 멋져 보인다고 말했어!",
+   "en": "I {{showed}} the bag to my friend, Suna, and she said that it looked {{unique}} and very nice!"
+  }
+ ],
+ "ws4": [
+  {
+   "no": 1,
+   "en": "Mina: ^^(Do)^^ you ^^(know)^^ that we ^^(can, turn)^^ trash into something new and valuable?",
+   "answer": [
+    "Did",
+    "know",
+    "can turn"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "We ^^(can, even, make)^^ an artwork out of it.",
+   "answer": [
+    "can even make"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "This process ^^(be)^^ upcycling.",
+   "answer": [
+    "is"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "It ^^(be)^^ ^^(reuse)^^ trash creatively.",
+   "answer": [
+    "is",
+    "reusing"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "Today, my dog ^^(tear)^^ my bag apart, so I ^^(need)^^ a new bag.",
+   "answer": [
+    "tore",
+    "needed"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "Instead of ^^(buy)^^ a new one or ^^(fix)^^ the old one, I ^^(decide)^^ ^^(upcycle)^^ my old jeans.",
+   "answer": [
+    "buying",
+    "fixing",
+    "decided",
+    "to upcycle"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "Jeans ^^(be)^^ strong, so they ^^(be)^^ perfect for a bag.",
+   "answer": [
+    "are",
+    "are"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "I then ^^(find)^^ a how-to for ^^(make)^^ a bag from old jeans on the Internet and ^^(make)^^ a bag.",
+   "answer": [
+    "found",
+    "making",
+    "made"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "I ^^(want)^^ ^^(decorate)^^ the bag, so I ^^(use)^^ the pins and buttons from my old dresses.",
+   "answer": [
+    "wanted",
+    "to decorate",
+    "used"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I ^^(show)^^ the bag to my friend, Suna, and she ^^(say)^^ that it ^^(look)^^ unique and very nice!",
+   "answer": [
+    "showed",
+    "said",
+    "looked"
+   ]
+  }
+ ],
+ "ws5": [
+  {
+   "no": 1,
+   "en": "Mina: Did you ^^[knew / know]^^ that we can turn trash into ^^[something new / new something]^^ and valuable?",
+   "answer": [
+    "know",
+    "something new"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "We can even ^^[make / makes]^^ an artwork out of ^^[them / it]^^.",
+   "answer": [
+    "make",
+    "it"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "This process ^^[are / is]^^ upcycling.",
+   "answer": [
+    "is"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "It is ^^[reusing / reused]^^ trash ^^[creative / creatively]^^.",
+   "answer": [
+    "reusing",
+    "creatively"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "Today, my dog ^^[teared / tore]^^ my bag apart, so I ^^[needed / need]^^ a new bag.",
+   "answer": [
+    "tore",
+    "needed"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "Instead of ^^[buy / buying]^^ a new one or fixing the old one, I decided ^^[to upcycle / upcycling]^^ my old jeans.",
+   "answer": [
+    "buying",
+    "to upcycle"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "Jeans are strong, so ^^[it / they]^^ ^^[are / is]^^ perfect for a bag.",
+   "answer": [
+    "they",
+    "are"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "I then found a how-to for ^^[making / make]^^ a bag from old jeans on the Internet and ^^[making / made]^^ a bag.",
+   "answer": [
+    "making",
+    "made"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "I wanted ^^[decorating / to decorate]^^ the bag, so I used the pins and buttons from my old dresses.",
+   "answer": [
+    "to decorate"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I showed the bag ^^[to / for]^^ my friend, Suna, and she said that it looked ^^[uniquely / unique]^^ and very nice!",
+   "answer": [
+    "to",
+    "unique"
+   ]
+  }
+ ],
+ "ws6": [
+  {
+   "lines": [
+    "Challenge Upcycle",
+    "^^Mina:^^ Did you **know** that we can **turn** trash into something **newly** and valuable? We can even **makes** an artwork out of **it**. This process **is** upcycling. It is **reusing** trash creatively. Today, my dog **teared** my bag apart, so I needed a new bag."
+   ],
+   "errors": [
+    {
+     "wrong": "newly",
+     "right": "new",
+     "reason": "something 은 형용사가 뒤에서 꾸민다 (부사 X)"
+    },
+    {
+     "wrong": "makes",
+     "right": "make",
+     "reason": "조동사 can + 동사원형"
+    },
+    {
+     "wrong": "teared",
+     "right": "tore",
+     "reason": "tear 의 과거형은 tore (불규칙)"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "Instead of **buy** a new one or **fixing** the old one, I decided **to upcycle** my old jeans. Jeans are strong, so **it is** perfect for a bag. I then found a how-to for **making** a bag from old jeans on the Internet and **made** a bag. I wanted to decorate the bag, so I **used** the pins and buttons from my old dresses. I showed the bag to my friend, Suna, and she said that it looked **uniquely** and very nice!"
+   ],
+   "errors": [
+    {
+     "wrong": "buy",
+     "right": "buying",
+     "reason": "전치사 of 뒤에는 동명사 (fixing 과 나란히)"
+    },
+    {
+     "wrong": "it is",
+     "right": "they are",
+     "reason": "가리키는 것이 Jeans(복수)"
+    },
+    {
+     "wrong": "uniquely",
+     "right": "unique",
+     "reason": "감각동사 look + 형용사"
+    }
+   ]
+  }
+ ],
+ "ws7": [
+  {
+   "no": 1,
+   "en": "Mina: (know / you / do) that (turn / can / we / trash) (something new and valuable / into)?",
+   "answer": "Mina: Did you know that we can turn trash into something new and valuable?"
+  },
+  {
+   "no": 2,
+   "en": "(can / we / make / even) (out of it / an artwork).",
+   "answer": "We can even make an artwork out of it."
+  },
+  {
+   "no": 3,
+   "en": "(upcycling / this process / be).",
+   "answer": "This process is upcycling."
+  },
+  {
+   "no": 4,
+   "en": "(trash / be / it / reuse) creatively.",
+   "answer": "It is reusing trash creatively."
+  },
+  {
+   "no": 5,
+   "en": "Today, (my bag / tear / apart / my dog), so (a new bag / need / I).",
+   "answer": "Today, my dog tore my bag apart, so I needed a new bag."
+  },
+  {
+   "no": 6,
+   "en": "Instead of (a new one / buy) or (the old one / fix), (decide / I) (my old jeans / upcycle).",
+   "answer": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans."
+  },
+  {
+   "no": 7,
+   "en": "(strong / jeans / be), so (perfect / they / for a bag / be).",
+   "answer": "Jeans are strong, so they are perfect for a bag."
+  },
+  {
+   "no": 8,
+   "en": "(a how-to / then / find / I) (a bag / for / make) (from old jeans / on the Internet) and (a bag / make).",
+   "answer": "I then found a how-to for making a bag from old jeans on the Internet and made a bag."
+  },
+  {
+   "no": 9,
+   "en": "(decorate / want / I) the bag, so (the pins and buttons / use / I) (my old dresses / from).",
+   "answer": "I wanted to decorate the bag, so I used the pins and buttons from my old dresses."
+  },
+  {
+   "no": 10,
+   "en": "(the bag / show / I) (my friend, Suna / to), and (that / say / she) (unique and very nice / look / it)!",
+   "answer": "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+  }
+ ],
+ "ws8": [
+  {
+   "no": 1,
+   "keywords": [
+    "know",
+    "turn",
+    "trash",
+    "valuable"
+   ],
+   "frame": "Mina: {{#13}}?",
+   "answer": "Mina: Did you know that we can turn trash into something new and valuable?"
+  },
+  {
+   "no": 2,
+   "keywords": [
+    "even",
+    "artwork",
+    "out of"
+   ],
+   "frame": "{{#9}}.",
+   "answer": "We can even make an artwork out of it."
+  },
+  {
+   "no": 3,
+   "keywords": [
+    "process",
+    "upcycling"
+   ],
+   "frame": "{{#4}}.",
+   "answer": "This process is upcycling."
+  },
+  {
+   "no": 4,
+   "keywords": [
+    "reuse",
+    "trash",
+    "creatively"
+   ],
+   "frame": "{{#5}}.",
+   "answer": "It is reusing trash creatively."
+  },
+  {
+   "no": 5,
+   "keywords": [
+    "tear",
+    "apart",
+    "need"
+   ],
+   "frame": "Today, {{#6}}, so {{#5}}.",
+   "answer": "Today, my dog tore my bag apart, so I needed a new bag."
+  },
+  {
+   "no": 6,
+   "keywords": [
+    "instead of",
+    "fix",
+    "decide",
+    "upcycle"
+   ],
+   "frame": "{{#11}}, {{#7}}.",
+   "answer": "Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans."
+  },
+  {
+   "no": 7,
+   "keywords": [
+    "strong",
+    "perfect for"
+   ],
+   "frame": "{{#3}}, so {{#6}}.",
+   "answer": "Jeans are strong, so they are perfect for a bag."
+  },
+  {
+   "no": 8,
+   "keywords": [
+    "find",
+    "how-to",
+    "old jeans",
+    "the Internet"
+   ],
+   "frame": "I then {{#17}}.",
+   "answer": "I then found a how-to for making a bag from old jeans on the Internet and made a bag."
+  },
+  {
+   "no": 9,
+   "keywords": [
+    "decorate",
+    "use",
+    "pins and buttons"
+   ],
+   "frame": "{{#6}}, so {{#10}}.",
+   "answer": "I wanted to decorate the bag, so I used the pins and buttons from my old dresses."
+  },
+  {
+   "no": 10,
+   "keywords": [
+    "show",
+    "say",
+    "unique"
+   ],
+   "frame": "{{#4}} to my friend, Suna, and {{#9}}!",
+   "answer": "I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+  }
+ ]
+}
