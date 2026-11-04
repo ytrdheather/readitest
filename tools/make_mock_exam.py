@@ -25,7 +25,7 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
-from pipeline import mock_exam                                       # noqa: E402
+from pipeline import item_principles, mock_exam, mock_verify         # noqa: E402
 from pipeline.env import load_env                                    # noqa: E402
 from pipeline.models import Cost, client                             # noqa: E402
 from pipeline.pass_a import extract_json                             # noqa: E402
@@ -228,6 +228,8 @@ def main():
                     help="1 이면 중1 설계도·지문 묶음을 쓴다")
     ap.add_argument("--lessons", default="567", choices=["5", "56", "567"],
                     help="중1 지문 범위. 기본 567 (2025 기말이 세 과를 섞었다). 56 은 4·5·6세트")
+    ap.add_argument("--no-verify", action="store_true",
+                    help="선지 유일성 검증(세트당 호출 1번 더)을 건너뛴다")
     a = ap.parse_args()
 
     bp = json.load(io.open(BP1 if a.grade == 1 else BP, encoding="utf-8"))
@@ -298,6 +300,29 @@ def main():
             res = mock_exam.parse(extract_json(msg), spec, given, mats)
             res["usage"] = usage
             d = res["diagnostics"]
+
+            # 일반 출제 원리 (2026-11-04) — 정답 위치는 모델에 맡기지 않고 여기서 배치한다.
+            # 시드를 학교·세트로 고정해 다시 돌려도 같은 자리에 온다.
+            mat_by_id = {m["id"]: m for m in res["materials"]}
+            moves = item_principles.balance(res["items"], mat_by_id, f"{tag}{school}-{set_no}")
+            d["answer_moves"] = moves
+            pp, ww = item_principles.check(res["items"], mat_by_id)
+            d["problems"] += pp
+            d["warnings"] = d.get("warnings", []) + ww
+            print(f"    정답 위치 {len(moves)}문항 옮김 → "
+                  + "".join(item_principles.CIRC[it["answer"] - 1] for it in res["items"]))
+
+            # 선지 유일성 — 정답을 모르는 다른 호출이 풀어 본다 (pipeline/mock_verify.py)
+            if not a.no_verify:
+                vp = mock_verify.build_params(f"{school} {set_no}세트", res["materials"], res["items"])
+                with api.messages.stream(**vp) as stream:
+                    vmsg = stream.get_final_message()
+                vusd = cost.add(f"{school}-{set_no} 검증", vp["model"], vmsg.usage)
+                usage["verify_usd"] = round(vusd, 4)
+                d["review_needed"] = mock_verify.apply(res["items"], extract_json(vmsg))
+                print(f"    선지 유일성 검증 ${vusd:.3f} — 검수 필요 {len(d['review_needed'])}문항")
+                for r in d["review_needed"]:
+                    print(f"      ? {r['no']}번 {r['kind']}: {r['note'][:70]}")
 
             print(f"    선택 {d['n_items']} · 서술 {d['n_essays']} · "
                   f"배점 {d['total_points']} · ${usd:.3f} "

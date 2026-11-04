@@ -1,0 +1,386 @@
+{
+  "note": "tools/check_item_principles.py 결과 — 문항은 바꾸지 않음",
+  "distribution": [
+    129,
+    156,
+    157,
+    129,
+    74
+  ],
+  "sets": [
+    {
+      "set": "영덕중_1세트",
+      "answers": "①②③②③③②④①③③④①⑤④⑤③④④⑤④②⑤",
+      "fixed": 6,
+      "negative_stems": 12,
+      "problems": [],
+      "warnings": [
+        "2번 정답 선지만 눈에 띄게 김 (12자 · 나머지 최장 8자) — 길이로 답이 보임",
+        "13번 정답 선지만 눈에 띄게 김 (54자 · 나머지 최장 41자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영덕중_2세트",
+      "answers": "③②④③④①②②④②②②③③①④②④④④②③②",
+      "fixed": 7,
+      "negative_stems": 10,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①2 ②9 ③5 ④7 ⑤0 — 고르지 않음",
+        "10~12번 정답이 ② 로 3번 이상 이어짐",
+        "18~20번 정답이 ④ 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영덕중_3세트",
+      "answers": "②④⑤③②③③③②⑤③④③④②⑤①④④③③③②",
+      "fixed": 6,
+      "negative_stems": 11,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①1 ②5 ③9 ④5 ⑤3 — 고르지 않음",
+        "6~8번 정답이 ③ 로 3번 이상 이어짐",
+        "20~22번 정답이 ③ 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영덕중_4세트",
+      "answers": "①④①①③⑤④⑤⑤④③②①①①①①④",
+      "fixed": 5,
+      "negative_stems": 8,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①8 ②1 ③2 ④4 ⑤3 — 고르지 않음",
+        "13~15번 정답이 ① 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영덕중_5세트",
+      "answers": "②⑤④①②⑤⑤③②②②⑤①③①③②③",
+      "fixed": 7,
+      "negative_stems": 10,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①3 ②6 ③4 ④1 ⑤4 — 고르지 않음",
+        "9~11번 정답이 ② 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영덕중_6세트",
+      "answers": "①⑤①③③⑤②①④②②②④③⑤①①④",
+      "fixed": 6,
+      "negative_stems": 9,
+      "problems": [],
+      "warnings": [
+        "10~12번 정답이 ② 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영덕중_7세트",
+      "answers": "④③③①②①⑤②④③⑤④①②④②④③",
+      "fixed": 6,
+      "negative_stems": 9,
+      "problems": [],
+      "warnings": [],
+      "review_needed": null
+    },
+    {
+      "set": "영일중_1세트",
+      "answers": "⑤③②①④②③②③②⑤②④①③③①③①②④",
+      "fixed": 5,
+      "negative_stems": 9,
+      "problems": [],
+      "warnings": [
+        "16번 정답 선지만 눈에 띄게 김 (14자 · 나머지 최장 10자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영일중_2세트",
+      "answers": "①④②③②②②①③④②①③②②①③②①①④",
+      "fixed": 3,
+      "negative_stems": 6,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①6 ②8 ③4 ④3 ⑤0 — 고르지 않음",
+        "5~7번 정답이 ② 로 3번 이상 이어짐",
+        "19번 정답 선지만 눈에 띄게 김 (30자 · 나머지 최장 20자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영일중_3세트",
+      "answers": "④③①②②③②⑤①④②④②②④③①②①③③",
+      "fixed": 5,
+      "negative_stems": 8,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①4 ②7 ③5 ④4 ⑤1 — 고르지 않음",
+        "6번 정답 선지만 눈에 띄게 김 (14자 · 나머지 최장 10자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영일중_4세트",
+      "answers": "③④②②②④④①④③③①③③①①②②③①②",
+      "fixed": 5,
+      "negative_stems": 6,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①5 ②6 ③6 ④4 ⑤0 — 고르지 않음",
+        "3~5번 정답이 ② 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "영일중_5세트",
+      "answers": "①④②①①④①③④③①④②②③④④①①③③",
+      "fixed": 5,
+      "negative_stems": 8,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①7 ②3 ③5 ④6 ⑤0 — 고르지 않음"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_1세트",
+      "answers": "①①⑤④④②②①②②④③⑤③③②②",
+      "fixed": 5,
+      "negative_stems": 4,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①3 ②6 ③3 ④3 ⑤2 — 고르지 않음",
+        "4번 정답 선지만 눈에 띄게 김 (21자 · 나머지 최장 15자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_2세트",
+      "answers": "②①⑤⑤③⑤⑤②④①③④④①①②②",
+      "fixed": 8,
+      "negative_stems": 5,
+      "problems": [],
+      "warnings": [
+        "4번 정답 선지만 눈에 띄게 김 (21자 · 나머지 최장 15자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_3세트",
+      "answers": "①②③⑤④⑤④②⑤③③⑤④④③①②",
+      "fixed": 6,
+      "negative_stems": 5,
+      "problems": [],
+      "warnings": [
+        "4번 정답 선지만 눈에 띄게 김 (21자 · 나머지 최장 15자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_4세트",
+      "answers": "①①③③③④④②③③⑤④③②②①②",
+      "fixed": 5,
+      "negative_stems": 2,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①3 ②4 ③6 ④3 ⑤1 — 고르지 않음",
+        "3~5번 정답이 ③ 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_5세트",
+      "answers": "①①②③③④③①③③③②④①③②②",
+      "fixed": 2,
+      "negative_stems": 3,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①4 ②4 ③7 ④2 ⑤0 — 고르지 않음",
+        "9~11번 정답이 ③ 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_6세트",
+      "answers": "①②③②③②③①②①④⑤③②④①②",
+      "fixed": 2,
+      "negative_stems": 2,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①4 ②6 ③4 ④2 ⑤1 — 고르지 않음",
+        "9번 정답 선지만 눈에 띄게 김 (35자 · 나머지 최장 27자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영덕중_7세트",
+      "answers": "③②②⑤①③③⑤④①③②④⑤②③④",
+      "fixed": 4,
+      "negative_stems": 3,
+      "problems": [],
+      "warnings": [],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영일중_1세트",
+      "answers": "④②③①④③⑤②②④①③④③③③⑤④①③",
+      "fixed": 4,
+      "negative_stems": 10,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①3 ②3 ③7 ④5 ⑤2 — 고르지 않음",
+        "14~16번 정답이 ③ 로 3번 이상 이어짐"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영일중_2세트",
+      "answers": "③②②④④⑤③①④④②②⑤③④③⑤④③①",
+      "fixed": 4,
+      "negative_stems": 0,
+      "problems": [],
+      "warnings": [
+        "3번 정답 선지만 눈에 띄게 김 (23자 · 나머지 최장 17자) — 길이로 답이 보임",
+        "8번 정답 선지만 눈에 띄게 김 (29자 · 나머지 최장 23자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "중1_영일중_3세트",
+      "answers": "①⑤④③③④③④④②②④②③③⑤③②④④",
+      "fixed": 4,
+      "negative_stems": 0,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①1 ②4 ③6 ④7 ⑤2 — 고르지 않음",
+        "20번 정답 선지만 눈에 띄게 김 (8자 · 나머지 최장 4자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "청명중_1세트",
+      "answers": "①②③②①①①⑤③⑤①①④⑤③①①④⑤②①①②③⑤",
+      "fixed": 0,
+      "negative_stems": 10,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①10 ②4 ③4 ④2 ⑤5 — 고르지 않음",
+        "5~7번 정답이 ① 로 3번 이상 이어짐",
+        "8번 정답 선지만 눈에 띄게 김 (39자 · 나머지 최장 30자) — 길이로 답이 보임",
+        "16번 정답 선지만 눈에 띄게 김 (31자 · 나머지 최장 24자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "청명중_2세트",
+      "answers": "②③①②⑤①⑤③④③④③④①①①①④①④③②④③②",
+      "fixed": 5,
+      "negative_stems": 10,
+      "problems": [],
+      "warnings": [
+        "14~16번 정답이 ① 로 3번 이상 이어짐",
+        "1번 정답 선지만 눈에 띄게 김 (11자 · 나머지 최장 8자) — 길이로 답이 보임",
+        "19번 정답 선지만 눈에 띄게 김 (58자 · 나머지 최장 44자) — 길이로 답이 보임",
+        "24번 정답 선지만 눈에 띄게 김 (29자 · 나머지 최장 21자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "청명중_3세트",
+      "answers": "②①⑤②⑤②②①③④②②③①②①②③①⑤②①③④②",
+      "fixed": 5,
+      "negative_stems": 9,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①6 ②10 ③4 ④2 ⑤3 — 고르지 않음",
+        "1번 정답 선지만 눈에 띄게 김 (60자 · 나머지 최장 47자) — 길이로 답이 보임",
+        "17번 정답 선지만 눈에 띄게 김 (52자 · 나머지 최장 40자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "청명중_4세트",
+      "answers": "②①④④③③⑤③①②③①①③④⑤①④③①③②④③③",
+      "fixed": 5,
+      "negative_stems": 9,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①6 ②3 ③9 ④5 ⑤2 — 고르지 않음"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "청명중_5세트",
+      "answers": "②③④⑤④④②③③②②②③②②②①③③③②①③④①",
+      "fixed": 5,
+      "negative_stems": 8,
+      "problems": [],
+      "warnings": [
+        "정답 번호 분포 ①3 ②9 ③8 ④4 ⑤1 — 고르지 않음",
+        "10~12번 정답이 ② 로 3번 이상 이어짐",
+        "14~16번 정답이 ② 로 3번 이상 이어짐",
+        "18~20번 정답이 ③ 로 3번 이상 이어짐",
+        "7번 정답 선지만 눈에 띄게 김 (48자 · 나머지 최장 32자) — 길이로 답이 보임",
+        "10번 정답 선지만 눈에 띄게 김 (80자 · 나머지 최장 63자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "태장중_1세트",
+      "answers": "①③⑤③②⑤④②⑤③④④②②④⑤④②①",
+      "fixed": 8,
+      "negative_stems": 8,
+      "problems": [],
+      "warnings": [],
+      "review_needed": null
+    },
+    {
+      "set": "태장중_2세트",
+      "answers": "②③②③③①②④④⑤⑤③②①④③⑤①①",
+      "fixed": 6,
+      "negative_stems": 9,
+      "problems": [],
+      "warnings": [
+        "3번 정답 선지만 눈에 띄게 김 (9자 · 나머지 최장 7자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "태장중_3세트",
+      "answers": "④①①④①②④⑤⑤③②①①①④②⑤③③",
+      "fixed": 4,
+      "negative_stems": 8,
+      "problems": [],
+      "warnings": [
+        "12~14번 정답이 ① 로 3번 이상 이어짐",
+        "9번 정답 선지만 눈에 띄게 김 (49자 · 나머지 최장 36자) — 길이로 답이 보임"
+      ],
+      "review_needed": null
+    },
+    {
+      "set": "태장중_4세트",
+      "answers": "①②⑤①③④②⑤④⑤④②④①③②③⑤④",
+      "fixed": 7,
+      "negative_stems": 7,
+      "problems": [],
+      "warnings": [],
+      "review_needed": null
+    },
+    {
+      "set": "태장중_5세트",
+      "answers": "②①③①②⑤⑤②④③⑤③④②②③④④①",
+      "fixed": 8,
+      "negative_stems": 10,
+      "problems": [],
+      "warnings": [],
+      "review_needed": null
+    }
+  ]
+}

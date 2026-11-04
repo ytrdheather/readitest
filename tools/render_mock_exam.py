@@ -23,6 +23,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO, FONT      # noqa: E402
+from pipeline import item_principles                                 # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -97,6 +98,8 @@ h2 { font-size: 10.5pt; margin: 4mm 0 2mm; padding: 1mm 2mm; background: #eef2f7
 .newpage { break-before: page; }
 .prob { border: 1px solid #f0c9c4; background: #fdf4f3; border-radius: 3px;
         padding: 2mm 3mm; margin-bottom: 3mm; font-size: 8pt; color: #8a3128; }
+/* 부정 발문 — 「틀린」 「않은」 을 아이가 놓치지 않게 (디자인 지침 6) */
+.neg { text-decoration: underline; text-underline-offset: 0.6mm; font-weight: 800; }
 /* 정답표 — 정답지 첫 쪽 맨 위, 해설 앞 (디자인 지침 5) */
 .qk { margin: 0 0 3.5mm; }
 .qk .t { font-size: 10pt; font-weight: 700; color: #1f2d3d; margin-bottom: 1mm; }
@@ -120,6 +123,8 @@ def quick_key(mc, essays=()):
     """
     marks = dict(mc)
     last = max(marks) if marks else 0
+    if sorted(marks) != list(range(1, last + 1)):
+        return _quick_key_sparse(mc, essays)
     rows = ['<tr class="h"><td>번호</td><td></td><td></td></tr>']
     for s in range(1, last + 1, 10):
         e = min(s + 9, last)
@@ -136,6 +141,29 @@ def quick_key(mc, essays=()):
     return f'<div class="qk"><div class="t">정답표</div><table>{"".join(rows)}</table></div>'
 
 
+def _quick_key_sparse(mc, essays):
+    """번호가 1..N 으로 이어지지 않을 때 (학생별 오답 다시 풀기) — 실린 문항만 `번호 / 정답` 두 줄.
+
+    1..N 격자에 빈 번호를 「·」 로 채우면 어느 칸이 실린 문항인지 오히려 헷갈린다.
+    """
+    cols = min(len(mc), 10) or 1
+    rows = []
+    for s in range(0, len(mc), 10):
+        chunk = mc[s:s + 10]
+        pad = "<td></td>" * (cols - len(chunk))
+        rows.append('<tr class="h"><td>번호</td>' + "".join(f"<td>{n}</td>" for n, _ in chunk) + pad + "</tr>")
+        rows.append('<tr><td class="n">정답</td>'
+                    + "".join(f'<td class="a" style="min-width:0;text-align:center">{esc(a)}</td>'
+                              for _, a in chunk) + pad + "</tr>")
+    last = max((n for n, _ in mc), default=0)
+    restart = bool(essays) and essays[0][0] <= last
+    for n, lines in essays:
+        label = f"서술형 {n}번" if restart else f"{n:02d}번"
+        rows.append(f'<tr><td class="n">{label}</td><td class="e" colspan="{cols}">'
+                    + "".join(f"<div>{esc(l)}</div>" for l in lines) + "</td></tr>")
+    return f'<div class="qk"><div class="t">정답표</div><table>{"".join(rows)}</table></div>'
+
+
 def essay_key_lines(answer_en):
     """모범답에서 채점에 필요한 줄만 — 「(완성 문장: …)」 은 해설 쪽에만 둔다."""
     return [l.strip() for l in answer_en.split("\n")
@@ -144,6 +172,11 @@ def essay_key_lines(answer_en):
 
 def esc(s):
     return html.escape(s or "", quote=False)
+
+
+def stem_html(s):
+    """발문 — 부정어(틀린·않은·없는·다른 …)에 밑줄·굵게 (디자인 지침 6)."""
+    return item_principles.NEG.sub(r'<span class="neg">\1</span>', esc(s))
 
 
 def mat_html(m):
@@ -214,7 +247,7 @@ def split_conds(body):
 def essay_html(e, ans):
     stem, ctx, conds = essay_parts(e)
     out = [f'<div class="essay"><div class="stem"><span class="no">{e["no"]}.</span>'
-           f'<span>{esc(stem)}</span><span class="pts">{e["points"]}점</span></div>']
+           f'<span>{stem_html(stem)}</span><span class="pts">{e["points"]}점</span></div>']
     qa = any("Q:" in c for c in ctx)
     if ctx:
         out.append('<div class="ctx">' + "".join(
@@ -279,6 +312,11 @@ def build(d, logo, part="both", title=None):
         if ans and d["diagnostics"]["problems"]:
             lis = "".join(f"<li>{esc(p)}</li>" for p in d["diagnostics"]["problems"])
             prob = f'<div class="prob"><b>구조 검사에서 걸린 것</b><ul>{lis}</ul></div>'
+        # 선지 유일성 검증에서 걸린 문항 (pipeline/mock_verify.py) — 원장이 이것만 보면 된다
+        if ans and d["diagnostics"].get("review_needed"):
+            lis = "".join(f"<li><b>{r['no']}번 {esc(r['kind'])}</b> · {esc(r['note'])}</li>"
+                          for r in d["diagnostics"]["review_needed"])
+            prob += f'<div class="prob"><b>검수 필요 — 정답을 모르는 검토자가 풀어 본 결과</b><ul>{lis}</ul></div>'
 
         # 자료를 **그 자료를 처음 쓰는 문항 바로 앞**에 둔다.
         # 처음에는 자료를 다 모아 놓고 문항을 뒤에 붙였는데, 실제 시험지는 그렇지
@@ -310,7 +348,7 @@ def build(d, logo, part="both", title=None):
                    if it.get("material_id") else "")
             body.append(
                 f'<div class="q"><div class="stem"><span class="no">{it["no"]}.</span>'
-                f'<span>{esc(it["stem_ko"])} {ref}</span>'
+                f'<span>{stem_html(it["stem_ko"])} {ref}</span>'
                 f'<span class="pts">{it["points"]}점</span></div>'
                 f'<ol class="opt">{opts}</ol>{why}</div>')
         body.append("</div>")

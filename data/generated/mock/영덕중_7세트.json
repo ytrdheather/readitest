@@ -613,7 +613,8 @@
     ],
     "n_items": 18,
     "n_essays": 5,
-    "total_points": 100
+    "total_points": 100,
+    "review_needed": []
   },
   "usage": {
     "model": "claude-opus-5",

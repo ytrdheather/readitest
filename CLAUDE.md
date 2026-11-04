@@ -56,6 +56,7 @@ Supabase SQL Editor의 경고는 정상 동작이므로 근거를 보여주고 �
 5. **정답지 맨 위에 정답표** — `01~10번 | ④②②③② | ⑤①②⑤⑤` 꼴, 서술형은 아래에 답을 한 줄씩
    (「주」 로 비우지 말 것).
    `render_mock_exam.quick_key()`. 다시 뽑을 땐 시험지를 Z: 것과 먼저 대조할 것.
+6. **부정 발문(틀린·않은·다른)은 밑줄·굵게** — `render_mock_exam.stem_html()` 이 `item_principles.NEG` 로 찍는다.
 
 ## 작업 스타일
 
