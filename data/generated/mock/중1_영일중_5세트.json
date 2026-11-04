@@ -1,0 +1,714 @@
+{
+  "school": "영일중",
+  "set_no": 5,
+  "range": "567",
+  "spec": {
+    "students": null,
+    "exam_date": "2026-12 (2학기 기말)",
+    "priority": "원장 2026-09-24: 「오늘은 영일중을 하자」",
+    "total_points": 100,
+    "selective": 20,
+    "essay": 4,
+    "essay_points": 20,
+    "grammar_vessel": "<보기> 단문 5개 나열 + 교과서 본문 밑줄·괄호 조합",
+    "vessel_note": "2025 기말: 단문 나열형이 4문항 16점(3·5·9·12번)으로 영덕(0문항)과 가장 크게 갈린다. <보기> a~e 5문장을 늘어놓고 「어법상 옳지 않은 것만」 「쓰임이 다른 하나」 「생략할 수 있는 것만」을 있는 대로 고르게 한다. 본문 쪽은 밑줄 ⓐ~ⓔ(7번)와 괄호 ⓐⓑⓒ 조합(15·19번).",
+    "signature": [
+      "**단문 나열형 4문항 16점** — 네 학교 중 중1에서 가장 많다. <보기> a~e 를 '있는 대로 고르시오'",
+      "**「개수 세기」 3문항 14점** (16·18·20번) — <보기> 6~7문장을 주고 일치/답할 수 있는 **개수**를 묻는다 (①2개 ②3개 …)",
+      "**T-FORM-CHOICE 2문항** (15·19번) — 본문 안 ⓐⓑⓒ 괄호 조합. 중2는 학교당 1개인데 영일중1은 2개",
+      "교사 자작 지문 3개 (Foley artist 소개 · Global warming · 경찰관이 되고 싶다)",
+      "영영풀이를 **부정형으로** 묻는다 — 6번 「해당하는 단어가 아닌 것」 · 17번 「윗글에서 찾을 수 없는 것」",
+      "논술 4개가 전부 **단어 수 지정 조건 영작** (5단어 / 8~9단어 / 4단어 / 5~8단어)"
+    ],
+    "essay_rule": "조건 영작 — 단어 수를 반드시 지정하고, 쓸 단어·문법 요소를 조건으로 준다. 각 5점.",
+    "essay_blueprint": [
+      {
+        "형식": "그림 보고 빈칸",
+        "배점": 5,
+        "노리는 어법": "be going to",
+        "조건": "5단어"
+      },
+      {
+        "형식": "그림 + 일기 빈칸",
+        "배점": 5,
+        "노리는 어법": "시간 부사절 when + will",
+        "조건": "when, will 사용 · 8~9단어"
+      },
+      {
+        "형식": "짧은 글 빈칸",
+        "배점": 5,
+        "노리는 어법": "be + 형용사 + to부정사",
+        "조건": "be, hard, understand 를 변형해 모두 사용 · 4단어"
+      },
+      {
+        "형식": "대화 빈칸 (가격 비교)",
+        "배점": 5,
+        "노리는 어법": "최상급 the most ~",
+        "조건": "expensive 활용 · 셋을 비교해 최상급 · 5~8단어"
+      }
+    ],
+    "vocab_items": 2,
+    "vocab_points": 8,
+    "vocab_note": "6번 영영풀이 5개 중 「해당하는 단어가 아닌 것」(4점) + 17번 「윗글에서 찾을 수 없는 것」(4점). 둘 다 부정형이다.",
+    "form_choice": 2,
+    "form_choice_note": "15번 L7 (shooting/shouting · photographer/photography · wrangle/wrangler) · 19번 L5 (There/Here · smallest/smaller · bluest/bluer)",
+    "standalone": 4,
+    "standalone_points": 16,
+    "standalone_note": "3번 -ing 쓰임 구별(3점) · 5번 to부정사 vs 동명사 목적어(5점) · 9번 to부정사 부사적 용법(5점) · 12번 that 생략(5점)",
+    "count_items": 3,
+    "count_items_note": "16·18·20번 — <보기> 6~7문장 중 일치/답할 수 있는 **개수**를 고르는 형식. 한 문항에 7문장을 다 따져야 한다",
+    "points_pattern": "선택형 5점 ×6 · 4점 ×9 · 3점 ×5 = 80 · 논술 5×4 = 20",
+    "_2026_11_04": "원장: 「이미 인쇄해 나간 세트는 파기. 모든 자료를 다 포함한 동형 (5.6.7과 및 학교 자료들) 5세트」. 옛 1~3세트(10/4)는 외부지문 칸이 비어 있어 7과 외부지문(9/18 확정)조차 안 실렸고, 학교 프린트·학교 영영풀이를 생성기가 읽지 않았다. 옛 세트 PDF 12개는 Z: 영일중/1학년/_폐기_2026-11-04 로 옮김.",
+    "external_passages": [
+      "Challenge Upcycle",
+      "Two Different Jobs"
+    ],
+    "external_min": 5,
+    "school_notes": [
+      "영일중1_L5-7_학교프린트.json"
+    ],
+    "vocab_handouts": [
+      "영일중1_L6_vocab_handout.json",
+      "영일중1_L7_vocab_handout.json"
+    ],
+    "function_notes": [
+      "중1_L5.json",
+      "중1_L6.json",
+      "중1_L7.json"
+    ],
+    "passages_used_2025": [
+      "L5 본문 앞부분(17·18) · 뒷부분(19·20)",
+      "L6 본문 Challenge 01~02(7·8) · 03~04(10·11)",
+      "L7 본문(15·16)",
+      "L6 대화 플로깅(2번) · For here or to go(4번)",
+      "교사 자작 3개 (Foley artist · Global warming · 경찰관)"
+    ],
+    "range_2025_2": "L5 · L6 · L7. 2026 도 5·6·7과 (원장 2026-09-21)"
+  },
+  "materials": [
+    {
+      "id": "P1",
+      "kind": "given",
+      "title": "L5 본문",
+      "text": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia. There were four eyewitnesses. What did they say? Read the following, and find the criminal. Ann Jones, a visitor I was looking at the Monalisa, and someone threw a cake at the painting. I turned around and saw an old man. He was standing in front of a wheelchair. I’m about 170 cm tall, and he was a little taller than me. Carlos Diaz, a janitor An old man with gray hair was running away, and something fell off his head. It was his wig. I ran after him, but I couldn’t catch him. He was faster than me. In fact, the old man was not old. He was a young man with long brown hair. Diego Perez, a guard I went to the crime scene, and there were pieces of cake all over the painting. There was also a wheelchair near the painting, and I found a cake box next to the wheelchair. The box was from Camila’s Bakery. Camila Santos, the owner of Camila’s Bakery Last Friday, a young man came in. I spoke to him in Spanish, but he didn’t understand me. He spoke only English. We had a lot of different cakes, but he just wanted the smallest one. We sold only one cake that day, so I remember him clearly. Oh, he had blue eyes. Now, look at the information about the suspects. Who threw the cake at the Monalisa?"
+    },
+    {
+      "id": "P2",
+      "kind": "given",
+      "title": "L6 본문",
+      "text": "Every day, we produce lots of waste, and the Earth is getting sicker and sicker. Do you want to save the Earth? Then, join the zero-waste challenge, and share your stories. Challenge 01 Reduce Food Waste Olivia: My birthday was last Saturday, and my family and I ate out. There were lots of leftovers, but we brought them home. The next day, I made a nice lunch out of them. FYI, you can find great cooking ideas for leftovers on the Internet. Challenge 02 Reuse Domingo: My dog tore my bag. I wanted to buy a new one, but I thought again. I learned that reusing is important for zero-waste living. So, I decided to fix it and reuse it. I’m not very good at sewing, and I don’t think that the bag looks perfect. I guess it’s all right. Challenge 03 Say No to Single-Use Plastic Emma: I often use food delivery services, but today I didn’t. Instead, I walked to my favorite restaurant with a reusable container and picked up the food. I heard that plastic never goes away completely. I didn’t use any single-use plastic today. I felt good! Challenge 04 Recycle Minsu: Yesterday, I took some plastic and glass bottles to a recycling machine near my house. I put them into the machine one by one, and I got some points in return. What can I do with those points? Well, I can use them like money. Don’t you think that’s cool?"
+    },
+    {
+      "id": "P3",
+      "kind": "given",
+      "title": "L7 본문",
+      "text": "Hi, I’m Jim Brown, the director of Happy Days. It’s a movie about the friendship between Tom and his dog Max. A lot of people are working hard to create this movie. Do you want to meet some of them? I’m Anna, and I found this beautiful beach. I’m a location manager, and my job is to find perfect places for shooting. Of course, it is not easy, but I love my job. I like to travel and enjoy challenges. I’m Peter, the director of photography for this movie. I’m in charge of all the cameras. Today, Tom and Max are going to play together with a ball on the beach. To capture their happy moments, I’m going to use drones. I’m Jennifer. I trained and took care of Max for a long time. Max is a great actor, but he sometimes gets too excited when a lot of people are around. So, I use hand signals to calm him. Who am I? I’m an animal wrangler. My name is Emma, and I’m a film editor. My work begins after the shooting is over. To create a better story, I can change the order of scenes or delete some of them. Storytelling skills are important for my job, so I read a lot. I’m Chris, and I’m a Foley artist. I create sound effects in my studio when recording on location is not easy. Listen carefully. Do you hear the sound of waves? I made that sound with rice and a plastic container. Doesn’t it sound real?"
+    },
+    {
+      "id": "P4",
+      "kind": "given",
+      "title": "L5 대화 ②⑤⑧",
+      "text": "G: Excuse me. May I touch this golden bear?\nM: No, you may not. You must not touch anything in this room.\nG: OK, I understand.\nM: Everybody, look over here, please. This is Sunflowers by Van Gogh.\nG: Wow, this is my favorite painting. May I take a picture of it?\nM: Yes, you may, but you must not use the flash.\nG: Why not? It’s a little dark in here.\nM: I’m sorry, but using the flash can damage paintings.\nG: Oh, I didn’t know that.\nM: Everyone, we’ll move on to Monet’s paintings next.\nG: Great!\nB: May I eat here?\nW: No, you may not eat inside the museum.\nB: How about water? May I drink water?\nW: Sure, water is OK."
+    },
+    {
+      "id": "P5",
+      "kind": "given",
+      "title": "L6 대화 ③⑥⑦",
+      "text": "W: Look. Somebody forgot to turn off the water.\nB: Again? People are so forgetful.\nW: I know. Can you run over there and turn off the water?\nB: Sure. No problem.\nG: Dad, can you please fix my bag?\nM: Now? I’m cooking dinner.\nG: Oh, I see. Then, when can you fix it?\nM: I’ll do it right after dinner.\nG: I’d like a banana smoothie, please.\nM: For here or to go?\nG: For here, please. And can you please put it in a plastic cup, not in a glass?"
+    },
+    {
+      "id": "P6",
+      "kind": "given",
+      "title": "L7 대화 ①④⑥",
+      "text": "G: What do you want to be in the future, Minsu?\nB: I want to be a sports reporter.\nG: Oh, really? Do you watch a lot of sports games?\nB: Yes, I do. I’m interested in all kinds of sports.\nG: Are you interested in fashion, Jacob?\nB: Yes, I love to make clothes.\nG: Really? That’s so cool!\nB: \u0007Thanks. I want to be a fashion designer. I’ll make clothes for you someday.\nA: What are you interested in?\nB: I’m interested in soccer.\nA: What do you want to be in the future?\nB: I want to be a soccer player."
+    },
+    {
+      "id": "P13",
+      "kind": "given",
+      "title": "외부지문 — Challenge Upcycle",
+      "text": "Mina: Did you know that we can turn trash into something new and valuable? We can even make an artwork out of it. This process is upcycling. It is reusing trash creatively. Today, my dog tore my bag apart, so I needed a new bag. Instead of buying a new one or fixing the old one, I decided to upcycle my old jeans. Jeans are strong, so they are perfect for a bag. I then found a how-to for making a bag from old jeans on the Internet and made a bag. I wanted to decorate the bag, so I used the pins and buttons from my old dresses. I showed the bag to my friend, Suna, and she said that it looked unique and very nice!"
+    },
+    {
+      "id": "P14",
+      "kind": "given",
+      "title": "외부지문 — Two Different Jobs",
+      "text": "At a restaurant, Jane and Maria talked about their jobs. They agreed that there are a few similarities. For both pilots and artists, there is a lot of competition and there are few famous women. In both jobs, you have to be very strong and sure of yourself. Of course, there are also many differences between the two jobs. Pilots and artists have to be strong in different ways. Pilots have to stay awake for long hours, and sometimes they have to make important decisions quickly. Artists, however, have to be strong in their ideas about art and life. People in the two jobs also work in different ways. Pilots usually work with other people, but artists usually work alone. Pilots must understand other people. Artists must understand themselves. Finally, there is an important difference in lifestyle. Pilots travel for their job and are often away from home. Artists, however, work at home or in a studio near home. Also, unlike pilots, artists can start and stop working when they want. Maria said she could never be a pilot because she hates airplanes. Jane said she could never be an artist because she hates working alone. There are many things to think about when choosing a job, but what you enjoy should come first."
+    },
+    {
+      "id": "T1",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 나열 — L5 어법",
+      "text": "a. There were four eyewitnesses in the museum last Saturday.\nb. My brother is much taller than me.\nc. This box is the heavyest of the three.\nd. You must not run in the museum.\ne. Today is more hot than yesterday."
+    },
+    {
+      "id": "T2",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 나열 — 동사의 목적어 형태",
+      "text": "a. She enjoys to take pictures of wild animals.\nb. We decided fixing the old bag together.\nc. He finished washing the dishes after dinner.\nd. They hope to see the new movie this weekend.\ne. I promised to call her before noon."
+    },
+    {
+      "id": "T3",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 나열 — 접속사 that",
+      "text": "a. I think that she will comes to the party.\nb. The problem is that we don't have enough time.\nc. He believes that honesty are the best policy.\nd. We know that plastic never goes away completely.\ne. That he is a Foley artist are true."
+    },
+    {
+      "id": "T4",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 나열 — 시간 접속사와 to부정사",
+      "text": "a. Before you leave, you must close all the windows.\nb. I was happy to meet the movie director in person.\nc. When summer comes, we will go to the beach.\nd. She ran fast for catching the last bus.\ne. After the shooting will be over, Emma starts her work."
+    },
+    {
+      "id": "T5",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 — A Foley Artist in My Family",
+      "text": "My uncle is a Foley artist, and he makes sound effects in a small studio. When he was a child, he wanted (A)[to become / becoming] a drummer. Now he creates the sound of rain with rice and a plastic container. He always tests his sounds before the shooting (B)[starts / will start]. He also thinks (C)[that / what] small sounds can make a movie more real. \"Sound is half of a movie,\" he often says to me."
+    },
+    {
+      "id": "T6",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 — Global Warming",
+      "text": "Global warming is a serious problem today. The Earth is getting ⓐsicker and sicker because of our waste. Last summer was ⓑmore hot than any other summer in Korea. There ⓒwere many wildfires around the world last year. Scientists hope ⓓthat people will change their habits soon. We must not ⓔwaste water and electricity."
+    },
+    {
+      "id": "T7",
+      "kind": "teacher_paragraph",
+      "title": "교사 자작 단락 — My Dream Job",
+      "text": "Hello, my name is Jiwon. I want (A)[to be / being] a police officer in the future. I am interested in (B)[protect / protecting] people in my town. Last month, there (C)[was / were] a small accident in front of my school, and a police officer helped everyone quickly. I was really moved that day. After I finish middle school, I will study hard and exercise every day."
+    },
+    {
+      "id": "T8",
+      "kind": "standalone_set",
+      "title": "<보기> 단문 나열 — to부정사의 쓰임",
+      "text": "a. I went to the store to buy some milk.\nb. Peter uses drones to capture happy moments.\nc. Emma reads a lot to improve her storytelling skills.\nd. My plan is to visit the film studio next week.\ne. Anna travels around the country to find perfect places."
+    }
+  ],
+  "items": [
+    {
+      "no": 1,
+      "material_id": "P1",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "윗글의 내용과 일치하는 것은?",
+      "options": [
+        "그 남자는 Camila의 가게에서 가장 작은 케이크를 원했다.",
+        "Ann Jones는 휠체어에 앉아 있는 노인을 보았다.",
+        "Carlos Diaz는 달아나는 남자를 쫓아가 붙잡았다.",
+        "Diego Perez는 그림 근처에서 가발을 발견했다.",
+        "케이크를 던진 사건은 지난 금요일에 일어났다."
+      ],
+      "answer": 1,
+      "why_ko": "Camila는 손님이 여러 케이크 중 가장 작은 것만 원했다고 말했으므로 ①이 일치한다. ②은 노인이 휠체어 앞에 서 있었고, ③는 붙잡지 못했으며, ④는 휠체어 옆에서 케이크 상자를 발견했고, ⑤ 사건은 지난 토요일이다."
+    },
+    {
+      "no": 2,
+      "material_id": "T1",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "<보기>의 a~e 중 어법상 옳지 않은 것을 있는 대로 고른 것은?",
+      "options": [
+        "a, c",
+        "b, d",
+        "c, d, e",
+        "a, b, e",
+        "c, e"
+      ],
+      "answer": 5,
+      "why_ko": "c는 heavy의 최상급이 heaviest이므로 the heavyest → the heaviest, e는 1음절 형용사 hot의 비교급이 hotter이므로 more hot → hotter로 고쳐야 한다. a의 There were, b의 비교급 taller than, d의 must not+동사원형은 모두 옳다.",
+      "grammar_point": "MOD_COMPARATIVE"
+    },
+    {
+      "no": 3,
+      "material_id": "P4",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "윗글의 두 대화 내용과 일치하는 것은?",
+      "options": [
+        "소녀는 황금 곰을 만져도 된다는 허락을 받았다.",
+        "일행은 다음으로 Monet의 그림을 보러 갈 것이다.",
+        "소녀는 그 방의 그림을 사진으로 찍을 수 없다.",
+        "남자는 방이 어두우니 플래시를 쓰라고 했다.",
+        "소년은 박물관 안에서 음식을 먹어도 된다."
+      ],
+      "answer": 2,
+      "why_ko": "남자가 마지막에 Monet의 그림으로 이동하겠다고 했으므로 ②이 맞다. ① 만지면 안 되고, ③ 사진은 찍어도 되며, ④ 플래시는 그림을 손상시켜 금지되고, ⑤ 박물관 안에서 먹는 것은 금지된다."
+    },
+    {
+      "no": 4,
+      "material_id": "T5",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "윗글의 (A), (B), (C)의 각 네모 안에서 어법에 맞는 표현으로 바르게 짝지어진 것은?",
+      "options": [
+        "to become – starts – that",
+        "to become – will start – what",
+        "becoming – starts – what",
+        "becoming – will start – that",
+        "to become – will start – that"
+      ],
+      "answer": 1,
+      "why_ko": "(A) want는 to부정사를 목적어로 취하므로 to become, (B) 시간을 나타내는 부사절에서는 미래를 현재시제로 쓰므로 starts, (C) 뒤에 완전한 절이 오므로 접속사 that이 알맞다.",
+      "grammar_point": "NONFIN_TO_ROLE / CONJ_VS_PREP / NOUN_CLAUSE_THAT"
+    },
+    {
+      "no": 5,
+      "material_id": "P2",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "다음 <보기>에서 윗글의 내용과 일치하는 것은 모두 몇 개인가?  <보기>  a. The Earth is getting sicker because people produce lots of waste.  b. Domingo decided to fix his bag and reuse it.  c. Domingo is very good at sewing.  d. Emma used a food delivery service today.  e. Emma heard that plastic never goes away completely.  f. Minsu can use his points like money.",
+      "options": [
+        "2개",
+        "3개",
+        "4개",
+        "5개",
+        "6개"
+      ],
+      "answer": 3,
+      "why_ko": "a, b, e, f가 일치하여 4개이다. c는 Domingo가 바느질을 잘하지 못한다고 했고, d는 오늘은 배달 서비스를 이용하지 않고 직접 걸어가서 음식을 받아 왔다."
+    },
+    {
+      "no": 6,
+      "material_id": "T2",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "<보기>의 a~e 중 어법상 옳지 않은 것을 있는 대로 고른 것은?",
+      "options": [
+        "a, c",
+        "b, d",
+        "a, b, d",
+        "a, b",
+        "c, e"
+      ],
+      "answer": 4,
+      "why_ko": "a의 enjoy는 동명사를 목적어로 취하므로 to take → taking, b의 decide는 to부정사를 목적어로 취하므로 fixing → to fix로 고쳐야 한다. c(finish+동명사), d(hope+to부정사), e(promise+to부정사)는 모두 옳다.",
+      "grammar_point": "NONFIN_TO_ROLE"
+    },
+    {
+      "no": 7,
+      "material_id": "P2",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "다음 영영풀이에 해당하는 낱말 중 윗글에서 찾을 수 없는 것은?",
+      "options": [
+        "food remaining after a meal",
+        "to make or grow something",
+        "as a response, exchange, or reward for something",
+        "designed to be used once and then disposed of or destroyed",
+        "something helpful that you do for someone"
+      ],
+      "answer": 5,
+      "why_ko": "⑤는 favor(부탁, 호의)의 뜻풀이로 윗글에는 쓰이지 않았다. ①은 leftover, ②는 produce, ③은 in return, ④는 single-use로 모두 윗글에 나온다."
+    },
+    {
+      "no": 8,
+      "material_id": "P5",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "윗글의 세 대화 내용과 일치하지 않는 것은?",
+      "options": [
+        "누군가 물을 잠그는 것을 잊어버렸다.",
+        "아버지는 지금 저녁 식사를 요리하는 중이다.",
+        "소년은 물을 잠그러 가는 것을 거절했다.",
+        "아버지는 저녁 식사 직후에 가방을 고쳐 주겠다고 했다.",
+        "소녀는 바나나 스무디를 주문했다."
+      ],
+      "answer": 3,
+      "why_ko": "소년은 Sure. No problem.이라고 하며 흔쾌히 도와주겠다고 했으므로 ③가 일치하지 않는다."
+    },
+    {
+      "no": 9,
+      "material_id": "T3",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "<보기>의 a~e 중 어법상 옳은 것을 있는 대로 고른 것은?",
+      "options": [
+        "b, d",
+        "a, c",
+        "b, e",
+        "a, b, d",
+        "c, d, e"
+      ],
+      "answer": 1,
+      "why_ko": "b는 보어로 쓰인 that절, d는 목적어로 쓰인 that절로 모두 옳다. a는 will comes → will come, c는 honesty are → honesty is, e는 주어로 쓰인 that절이 단수 취급이므로 are true → is true로 고쳐야 한다.",
+      "grammar_point": "NOUN_CLAUSE_THAT"
+    },
+    {
+      "no": 10,
+      "material_id": "P3",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "윗글의 내용과 일치하는 것은?",
+      "options": [
+        "Anna는 촬영 장소를 찾는 일이 쉽다고 말한다.",
+        "Jennifer는 Max를 짧은 기간 동안만 훈련시켰다.",
+        "Emma의 일은 촬영이 시작되기 전에 끝난다.",
+        "Chris는 야외 녹음이 쉬울 때 음향 효과를 만든다.",
+        "Peter는 이 영화의 모든 카메라를 책임지고 있다."
+      ],
+      "answer": 5,
+      "why_ko": "Peter는 I'm in charge of all the cameras.라고 했으므로 ⑤가 일치한다. ① 쉽지 않다고 했고, ② 오랫동안 훈련시켰으며, ③ Emma의 일은 촬영이 끝난 후 시작되고, ④ Chris는 야외 녹음이 쉽지 않을 때 음향 효과를 만든다."
+    },
+    {
+      "no": 11,
+      "material_id": "P3",
+      "type": "T-VOCAB-CONTEXT",
+      "points": 4,
+      "stem_ko": "윗글에 쓰인 낱말과 그 영영풀이가 알맞게 짝지어지지 않은 것은?",
+      "options": [
+        "location – a real place outside a studio where a movie, TV show, or video is filmed",
+        "drone – a small flying machine with no pilot inside, controlled by a person or computer",
+        "calm – to make someone or something feel quiet and not afraid, angry, or excited",
+        "wrangler – a person who checks and changes writing, videos, or pictures to make them better",
+        "studio – a place where people make things like music, sound, videos, or art"
+      ],
+      "answer": 4,
+      "why_ko": "④의 뜻풀이는 editor에 해당한다. wrangler는 동물을 돌보고 다루는 사람이다."
+    },
+    {
+      "no": 12,
+      "material_id": "T6",
+      "type": "T-GRAMMAR-INLINE",
+      "points": 4,
+      "stem_ko": "윗글의 밑줄 친 ⓐ~ⓔ 중 어법상 옳지 않은 것은?",
+      "options": [
+        "ⓐ sicker and sicker",
+        "ⓑ more hot",
+        "ⓒ were",
+        "ⓓ that",
+        "ⓔ waste"
+      ],
+      "answer": 2,
+      "why_ko": "hot은 1음절 형용사이므로 비교급은 hotter이다. more hot → hotter로 고쳐야 한다.",
+      "grammar_point": "MOD_COMPARATIVE"
+    },
+    {
+      "no": 13,
+      "material_id": "P6",
+      "type": "T-BLANK",
+      "points": 4,
+      "stem_ko": "다음은 윗글의 대화를 바탕으로 쓴 글이다. 빈칸 (A), (B)에 들어갈 말로 알맞은 것은?  Minsu watches a lot of games and is interested in all kinds of (A)______, so he wants to be a sports reporter. Another boy is interested in (B)______, so he wants to be a soccer player.",
+      "options": [
+        "sports – fashion",
+        "sports – soccer",
+        "movies – soccer",
+        "clothes – soccer",
+        "sports – clothes"
+      ],
+      "answer": 2,
+      "why_ko": "Minsu는 모든 종류의 스포츠에, 마지막 대화의 소년은 축구에 관심이 있다고 했다."
+    },
+    {
+      "no": 14,
+      "material_id": "T4",
+      "type": "T-GRAMMAR-STANDALONE",
+      "points": 4,
+      "stem_ko": "<보기>의 a~e 중 어법상 옳지 않은 것을 있는 대로 고른 것은?",
+      "options": [
+        "c, d",
+        "a, e",
+        "b, d, e",
+        "a, c",
+        "d, e"
+      ],
+      "answer": 5,
+      "why_ko": "d는 '~하기 위해'라는 목적의 뜻이므로 for catching → to catch, e는 시간 부사절이므로 will be over → is over로 고쳐야 한다. a, b, c는 모두 옳다.",
+      "grammar_point": "NONFIN_TO_ROLE / CONJ_VS_PREP"
+    },
+    {
+      "no": 15,
+      "material_id": "P13",
+      "type": "T-DETAIL",
+      "points": 5,
+      "stem_ko": "다음 <보기>에서 윗글의 내용과 일치하는 것은 모두 몇 개인가?  <보기>  a. Upcycling means reusing trash creatively.  b. Mina's dog tore her bag apart.  c. Mina bought a new bag at a store.  d. Mina chose jeans because they are strong.  e. Mina found a how-to on the Internet.  f. Upcycling can turn trash into an artwork.",
+      "options": [
+        "2개",
+        "3개",
+        "4개",
+        "5개",
+        "6개"
+      ],
+      "answer": 4,
+      "why_ko": "a, b, d, e, f의 5개가 일치한다. c는 새 가방을 사는 대신 낡은 청바지를 업사이클하기로 했으므로 일치하지 않는다."
+    },
+    {
+      "no": 16,
+      "material_id": "P13",
+      "type": "T-PHRASE-INFER",
+      "points": 3,
+      "stem_ko": "윗글에서 Mina가 인터넷에서 찾은 a how-to가 의미하는 것으로 가장 알맞은 것은?",
+      "options": [
+        "오래된 청바지로 가방을 만드는 방법",
+        "찢어진 가방을 바느질로 수선하는 방법",
+        "입지 않는 옷을 싸게 파는 방법",
+        "쓰레기를 종류별로 분리배출하는 방법",
+        "단추와 핀을 직접 만드는 방법"
+      ],
+      "answer": 1,
+      "why_ko": "a how-to for making a bag from old jeans라고 했으므로 낡은 청바지로 가방을 만드는 방법을 가리킨다."
+    },
+    {
+      "no": 17,
+      "material_id": "P14",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "다음 <보기>의 질문 중 윗글을 읽고 답할 수 있는 것은 모두 몇 개인가?  <보기>  a. Why can't Maria be a pilot?  b. How many hours a day do artists work?  c. Where do artists usually work?  d. What is Jane's favorite airplane?  e. Do pilots usually work alone?  f. How much money do pilots earn?",
+      "options": [
+        "1개",
+        "2개",
+        "3개",
+        "4개",
+        "5개"
+      ],
+      "answer": 3,
+      "why_ko": "a(비행기를 싫어해서), c(집이나 집 근처 작업실에서), e(아니오, 보통 다른 사람들과 함께 일함)의 3개에 답할 수 있다. b, d, f는 언급되지 않았다."
+    },
+    {
+      "no": 18,
+      "material_id": "P14",
+      "type": "T-DETAIL",
+      "points": 4,
+      "stem_ko": "윗글에서 두 직업에 대해 언급되지 않은 것은?",
+      "options": [
+        "두 직업 모두 경쟁이 심하다는 점",
+        "조종사와 화가가 되기 위한 교육 과정",
+        "두 직업 모두 유명한 여성이 적다는 점",
+        "조종사와 화가의 생활 방식 차이",
+        "조종사와 화가가 일하는 방식의 차이"
+      ],
+      "answer": 2,
+      "why_ko": "경쟁, 유명한 여성의 수, 생활 방식, 일하는 방식의 차이는 모두 언급되었으나 직업을 갖기 위한 교육 과정은 언급되지 않았다."
+    },
+    {
+      "no": 19,
+      "material_id": "T7",
+      "type": "T-FORM-CHOICE",
+      "points": 4,
+      "stem_ko": "윗글의 (A), (B), (C)의 각 네모 안에서 어법에 맞는 표현으로 바르게 짝지어진 것은?",
+      "options": [
+        "to be – protect – were",
+        "being – protecting – were",
+        "to be – protecting – was",
+        "being – protect – was",
+        "to be – protecting – were"
+      ],
+      "answer": 3,
+      "why_ko": "(A) want는 to부정사를 목적어로 쓰므로 to be, (B) 전치사 in 뒤에는 동명사가 오므로 protecting, (C) 뒤의 주어가 단수(a small accident)이고 과거이므로 was가 알맞다.",
+      "grammar_point": "NONFIN_TO_ROLE / VERB_MODAL_USAGE"
+    },
+    {
+      "no": 20,
+      "material_id": "T8",
+      "type": "T-GRAMMAR-USAGE",
+      "points": 3,
+      "stem_ko": "<보기>의 a~e 중 밑줄 친 to부정사의 쓰임이 나머지 넷과 다른 것은?",
+      "options": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "answer": 4,
+      "why_ko": "d의 to visit은 be동사의 보어로 쓰인 명사적 용법이고, 나머지는 모두 '~하기 위해'라는 목적을 나타내는 부사적 용법이다.",
+      "grammar_point": "NONFIN_TO_ROLE"
+    }
+  ],
+  "essays": [
+    {
+      "no": 21,
+      "material_id": "T5",
+      "points": 5,
+      "prompt_ko": "다음 그림을 보고 <조건>에 맞게 대화의 빈칸을 완성하시오.",
+      "context": "[그림] 수호가 마당에서 나무를 심고 있다.\nA: What are you going to do this weekend, Suho?\nB: I ______________________________.",
+      "conditions": [
+        "be going to를 사용할 것",
+        "그림의 내용에 맞게 쓸 것",
+        "주어진 단어를 모두 쓰되 필요하면 형태를 바꿀 것",
+        "단어 수는 띄어쓰기 기준으로 세고, 줄임말은 한 단어로 셀 것"
+      ],
+      "answer_slots": [
+        "I ______________________________."
+      ],
+      "given_words": [
+        "plant",
+        "a tree"
+      ],
+      "word_limit": "5단어",
+      "target_grammar": "be going to + 동사원형",
+      "answer_en": "am going to plant a tree\n(완성 문장: I am going to plant a tree.)",
+      "why_ko": "가까운 미래의 계획은 「be going to+동사원형」으로 나타내며, 주어가 I이므로 am going to plant a tree(5단어)가 된다."
+    },
+    {
+      "no": 22,
+      "material_id": "T6",
+      "points": 5,
+      "prompt_ko": "다음은 지호의 일기이다. <조건>에 맞게 우리말을 영어로 옮길 때, 지정된 순서의 단어를 쓰시오.",
+      "context": "[지호의 일기]\nIt rained all day today, so I stayed at home.\n비가 그치면, 나는 버스로 갈 것이다.",
+      "conditions": [
+        "when과 will을 모두 사용할 것",
+        "주어진 단어를 모두 쓰되 필요하면 형태를 바꿀 것",
+        "교통수단을 나타내는 알맞은 전치사를 넣을 것",
+        "단어 수는 띄어쓰기 기준으로 세고, 줄임말은 한 단어로 셀 것"
+      ],
+      "answer_slots": [
+        "4번째 단어: ____________",
+        "8번째 단어: ____________"
+      ],
+      "given_words": [
+        "when",
+        "the rain",
+        "stop",
+        "go",
+        "bus"
+      ],
+      "word_limit": "8~9단어",
+      "target_grammar": "시간 부사절의 현재시제 + 교통수단 전치사 by",
+      "answer_en": "stops\nby\n(완성 문장: When the rain stops, I will go by bus.)",
+      "why_ko": "시간을 나타내는 부사절에서는 미래의 일이라도 현재시제를 쓰므로 the rain stops이고, 교통수단은 「by+교통수단」으로 나타내어 by bus가 된다. 단어 순서는 When(1) the(2) rain(3) stops(4) I(5) will(6) go(7) by(8) bus(9)이다."
+    },
+    {
+      "no": 23,
+      "material_id": "P14",
+      "points": 5,
+      "prompt_ko": "윗글의 내용에 맞게 <조건>에 따라 빈칸을 완성하시오.",
+      "context": "Maria said she could never be a pilot because she hates airplanes.\n→ For Maria, a pilot's long hours and quick decisions ______________________.",
+      "conditions": [
+        "주어진 단어를 모두 쓰되 필요하면 형태를 바꿀 것",
+        "과거시제로 쓸 것",
+        "단어 수는 띄어쓰기 기준으로 셀 것"
+      ],
+      "answer_slots": [
+        "______________________ (4단어)"
+      ],
+      "given_words": [
+        "be",
+        "hard",
+        "understand"
+      ],
+      "word_limit": "4단어",
+      "target_grammar": "be동사 + 형용사 + to부정사",
+      "answer_en": "were hard to understand\n(완성 문장: For Maria, a pilot's long hours and quick decisions were hard to understand.)",
+      "why_ko": "「be동사+형용사+to부정사」 형태이며, 주어가 복수이고 과거의 일이므로 were hard to understand(4단어)가 알맞다."
+    },
+    {
+      "no": 24,
+      "material_id": "T7",
+      "points": 5,
+      "prompt_ko": "다음 대화의 빈칸을 <조건>에 맞게 완성하시오.",
+      "context": "A: How much is this blue cap?\nB: It's 20 dollars.\nA: Then how about the green one and the white one?\nB: The green one is 35 dollars, and the white one is 28 dollars.\nA: So, ______________________________.",
+      "conditions": [
+        "주어진 단어를 활용하여 최상급으로 쓸 것",
+        "세 개의 모자를 비교하는 내용으로 쓸 것",
+        "단어 수는 띄어쓰기 기준으로 세고, 줄임말은 한 단어로 셀 것"
+      ],
+      "answer_slots": [
+        "So, ______________________________."
+      ],
+      "given_words": [
+        "expensive"
+      ],
+      "word_limit": "5~8단어",
+      "target_grammar": "최상급 the most + 형용사",
+      "answer_en": "the green cap is the most expensive\n(완성 문장: So, the green cap is the most expensive.)",
+      "why_ko": "셋 이상을 비교할 때는 최상급을 쓰며, expensive는 3음절 이상이므로 the most expensive로 쓴다. 35달러인 초록색 모자가 가장 비싸다."
+    }
+  ],
+  "diagnostics": {
+    "problems": [
+      "모델이 응답에서 자료 P1·P2·P3·P4·P5·P6·P13·P14 를 빼먹어 원본으로 채워 넣음"
+    ],
+    "warnings": [
+      "서술형 23번 필수 단어가 답에 안 보임 ['be'] — 굴절형일 수 있으니 눈으로 확인",
+      "1번 정답 선지만 눈에 띄게 김 (44자 · 나머지 최장 31자) — 길이로 답이 보임"
+    ],
+    "n_items": 20,
+    "n_essays": 4,
+    "total_points": 100,
+    "answer_moves": [
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        3,
+        3,
+        2
+      ],
+      [
+        6,
+        1,
+        4
+      ],
+      [
+        7,
+        4,
+        5
+      ],
+      [
+        8,
+        2,
+        3
+      ],
+      [
+        9,
+        2,
+        1
+      ],
+      [
+        10,
+        2,
+        5
+      ],
+      [
+        11,
+        3,
+        4
+      ],
+      [
+        13,
+        1,
+        2
+      ],
+      [
+        14,
+        2,
+        5
+      ],
+      [
+        18,
+        5,
+        2
+      ],
+      [
+        19,
+        1,
+        3
+      ]
+    ],
+    "review_needed": [
+      {
+        "no": 7,
+        "kind": "검토 메모",
+        "note": "⑤의 풀이를 service로 보면 본문에 'food delivery services'가 있어 혼동 소지가 있음.",
+        "resolution": "확인: ⑤ 는 학교 영영풀이 favor 정의, 본문엔 favorite 뿐 — 정답 맞음"
+      }
+    ]
+  },
+  "usage": {
+    "model": "claude-opus-5",
+    "input": 18405,
+    "output": 31508,
+    "usd": 0.9064,
+    "verify_usd": 0.1679
+  },
+  "review": [
+    "검수 2026-11-04: 검토자 메모 7번 ⑤는 학교 영영풀이 favor 정의(본문엔 favorite만) — 문제없음",
+    "검수 2026-11-04: 1번 정답 ① 선지만 길어 줄임 (출제 원리 — 길이로 답이 보임)"
+  ]
+}

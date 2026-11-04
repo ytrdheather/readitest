@@ -74,6 +74,27 @@ SET_PASSAGES_56 = {
         (7, "②⑤⑧", (2, 5, 8), "③⑥⑦", (3, 6, 7))]
 }
 
+# 영일중1 5·6·7과 — 원장 2026-11-04 「모든 자료를 다 포함한 동형 5세트」. 옛 1~3세트는 파기.
+# 본문 세 편은 **매 세트** 싣고(외부지문 두 편도 설계도 `external_passages` 로 매 세트),
+# 대화 24편(과마다 8편)은 다섯 세트에 나눠 **한 편도 빠지지 않게** 한다. 5세트는 남는 자리라
+# 앞 세트와 다른 조합으로 다시 묶는다.
+_BODIES_567 = [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
+               ("L6 본문", ["중1 L6 본문 — Join the Zero-Waste Challenge"]),
+               ("L7 본문", ["중1 L7 본문 — Let’s Make a Movie!"])]
+_CIRC8 = "①②③④⑤⑥⑦⑧"
+SET_PASSAGES_YI_567 = {
+    n: _BODIES_567 + [(f"L{l} 대화 " + "".join(_CIRC8[i - 1] for i in idx),
+                       [f"중1 L{l} 대화-{i}" for i in idx])
+                      for l, idx in groups]
+    for n, groups in {
+        1: [(5, (1, 2)), (6, (1, 2)), (7, (1, 2))],
+        2: [(5, (3, 4)), (6, (3, 4)), (7, (3, 4))],
+        3: [(5, (5, 6)), (6, (5, 6)), (7, (5, 6))],
+        4: [(5, (7, 8)), (6, (7, 8)), (7, (7, 8))],
+        5: [(5, (2, 5, 8)), (6, (3, 6, 7)), (7, (1, 4, 6))],
+    }.items()
+}
+
 # 중1 5과만 — 본문 하나뿐이라 세트마다 본문은 같고 대화 묶음을 돌린다.
 SET_PASSAGES_1 = {
     1: [("L5 본문", ["중1 L5 본문 — Who Threw a Cake at the Monalisa?"]),
@@ -204,6 +225,26 @@ def gather(rest, spec, set_no, sets=SET_PASSAGES):
         mid = f"F{n}"; n += 1
         mats.append({"id": mid, "kind": "reference", "title": f"의사소통 기능 정리 — L{fd['lesson']}",
                      "text": chr(10).join(lines)})
+    # 학교 프린트 — 학교가 짚은 문법·낸 꼴 (원장 2026-11-04 「학교 자료들 다 포함」). 참고 자료(F)다.
+    for fjson in spec.get("school_notes", []):
+        fp = os.path.join(ROOT, "data", "stage0", "school_notes", fjson)
+        if not os.path.exists(fp):
+            raise SystemExit(f"학교 프린트 정리 없음: {fp}")
+        fd = json.load(io.open(fp, encoding="utf-8"))
+        mid = f"F{n}"; n += 1
+        mats.append({"id": mid, "kind": "reference", "title": fd["title"],
+                     "text": chr(10).join(fd["lines"])})
+    # 학교 영영풀이 — 학교가 쓴 정의 문장. 시험은 학교가 내니 영영풀이 문항은 이 문장을 쓴다.
+    for vjson in spec.get("vocab_handouts", []):
+        fp = os.path.join(ROOT, "data", "stage0", "vocab", vjson)
+        if not os.path.exists(fp):
+            raise SystemExit(f"학교 단어 프린트 없음: {fp}")
+        fd = json.load(io.open(fp, encoding="utf-8"))
+        rows = [f"{w['word']}: {w['def_en']}" for w in fd["words"] if w.get("def_en")]
+        mid = f"F{n}"; n += 1
+        mats.append({"id": mid, "kind": "reference",
+                     "title": f"학교 영영풀이 — {fd['school']}{fd['grade']} L{fd['lesson']} ({len(rows)}개)",
+                     "text": chr(10).join(rows)})
     for t in spec.get("external_passages", []):
         row = ps.get(t)
         if not row:
@@ -268,13 +309,16 @@ def main():
             print("    " + base_spec["blocked"])
             print()
             continue
+        school_sets = passage_sets
+        if a.grade == 1 and a.lessons == "567" and school == "영일중":
+            school_sets = SET_PASSAGES_YI_567
         for set_no in sets:
             spec = spec_for(base_spec, set_no)
             print("=" * 74)
             print(f" {school} 동형 {set_no}세트 — 선택 {spec['selective']} · "
                   f"서술 {spec.get('essay', 0)} · {spec['grammar_vessel']}")
             print("=" * 74)
-            mats, given = gather(rest, spec, set_no, passage_sets)
+            mats, given = gather(rest, spec, set_no, school_sets)
             for m in mats:
                 print(f"    {m['id']} {m['title'][:34]:36} {len(m['text']):>5}자")
             if not a.run:

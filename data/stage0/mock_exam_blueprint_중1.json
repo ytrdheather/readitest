@@ -145,7 +145,11 @@
       "count_items": 3,
       "count_items_note": "16·18·20번 — <보기> 6~7문장 중 일치/답할 수 있는 **개수**를 고르는 형식. 한 문항에 7문장을 다 따져야 한다",
       "points_pattern": "선택형 5점 ×6 · 4점 ×9 · 3점 ×5 = 80 · 논술 5×4 = 20",
-      "external_passages": [],
+      "_2026_11_04": "원장: 「이미 인쇄해 나간 세트는 파기. 모든 자료를 다 포함한 동형 (5.6.7과 및 학교 자료들) 5세트」. 옛 1~3세트(10/4)는 외부지문 칸이 비어 있어 7과 외부지문(9/18 확정)조차 안 실렸고, 학교 프린트·학교 영영풀이를 생성기가 읽지 않았다. 옛 세트 PDF 12개는 Z: 영일중/1학년/_폐기_2026-11-04 로 옮김.",
+      "external_passages": ["Challenge Upcycle", "Two Different Jobs"],
+      "external_min": 5,
+      "school_notes": ["영일중1_L5-7_학교프린트.json"],
+      "vocab_handouts": ["영일중1_L6_vocab_handout.json", "영일중1_L7_vocab_handout.json"],
       "function_notes": [
         "중1_L5.json",
         "중1_L6.json",

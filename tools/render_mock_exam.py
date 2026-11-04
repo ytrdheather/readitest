@@ -314,7 +314,9 @@ def build(d, logo, part="both", title=None):
             prob = f'<div class="prob"><b>구조 검사에서 걸린 것</b><ul>{lis}</ul></div>'
         # 선지 유일성 검증에서 걸린 문항 (pipeline/mock_verify.py) — 원장이 이것만 보면 된다
         if ans and d["diagnostics"].get("review_needed"):
-            lis = "".join(f"<li><b>{r['no']}번 {esc(r['kind'])}</b> · {esc(r['note'])}</li>"
+            # 원장·Claude 가 확인한 것은 `resolution` 에 결과를 적는다 — 「걸렸다」만 남으면 다시 의심하게 된다
+            lis = "".join(f"<li><b>{r['no']}번 {esc(r['kind'])}</b> · {esc(r['note'])}"
+                          + (f" <b>→ {esc(r['resolution'])}</b>" if r.get("resolution") else "") + "</li>"
                           for r in d["diagnostics"]["review_needed"])
             prob += f'<div class="prob"><b>검수 필요 — 정답을 모르는 검토자가 풀어 본 결과</b><ul>{lis}</ul></div>'
 
