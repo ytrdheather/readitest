@@ -52,7 +52,8 @@ try:
 except Exception:
     pass
 
-MOCK = os.path.join(ROOT, "data", "generated", "mock")
+# 저장소에 JSON 이 없는 세트(다른 PC 에서 만들어 Z: 에 PDF 만 있는 것)는 --mock-dir 로 다른 폴더를 준다
+MOCK = os.environ.get("READI_MOCK_DIR") or os.path.join(ROOT, "data", "generated", "mock")
 LEDGER = r"Z:\학원파일\내신자료\중등 내신 동형 모의고사\채점"
 CIRCLED = "①②③④⑤"
 
@@ -149,7 +150,12 @@ def main():
     ap.add_argument("--root", default=LEDGER, help="기록 폴더 (기본 Z:)")
     ap.add_argument("--dry", action="store_true", help="점수만 보고 아무것도 쓰지 않음")
     ap.add_argument("--history", help="출결번호 — 그 학생의 지난 기록")
+    ap.add_argument("--mock-dir", help="세트 JSON 폴더 (기본 data/generated/mock)")
     a = ap.parse_args()
+    global MOCK
+    if a.mock_dir:
+        MOCK = os.path.abspath(a.mock_dir)
+        os.environ["READI_MOCK_DIR"] = MOCK          # 결과지(build_report_card) 도 같은 폴더를 읽게
     book_p = os.path.join(a.root, "학생기록.json")
 
     if a.history:
@@ -188,12 +194,16 @@ def main():
             print(f"  ⚠ {s['id']} 이름이 기록({st['name']})과 다름 — 채점지 {s['name']}. 출결번호 확인")
         others = [r for r in st["records"] if not (r["date"] == sheet["date"] and r["set"] == sheet["set"])]
         others.sort(key=lambda r: (r["date"], r["set"]))
-        rnd = f"{len(others) + 1}차"
+        # 회차는 「이 시험보다 앞선 기록 수 + 1」 — 지난 시험을 다시 돌려도 뒤 기록까지 세지 않게
+        # (2026-11-08: 1세트를 다시 돌렸더니 이미 있던 2세트까지 세어 「2차」 가 됐다)
+        rnd = f"{sum(1 for r in others if (r['date'], r['set']) < (sheet['date'], sheet['set'])) + 1}차"
         rec = {"date": sheet["date"], "set": sheet["set"], "round": rnd, "score": g["score"],
                "mc": g["mc"], "essay": g["essay"], "wrong": [w["no"] for w in g["wrong"]],
                "areas": {k: [v[2], v[3]] for k, v in g["areas"].items()},
                "file": os.path.basename(rec_p)}
         st["records"] = sorted(others + [rec], key=lambda r: (r["date"], r["set"]))
+        for i, r in enumerate(st["records"]):    # 앞에 끼워 넣으면 뒤 기록의 회차도 다시 매긴다
+            r["round"] = f"{i + 1}차"
         st["name"] = s["name"]
         book[s["id"]] = st
         s["round"] = rnd
