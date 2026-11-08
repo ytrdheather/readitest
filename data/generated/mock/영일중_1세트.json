@@ -147,7 +147,14 @@
       ],
       "answer": 3,
       "why_ko": "③은 뒤에 주어가 없고 동사 helped가 바로 오므로 주격 관계대명사 who(that)가 와야 한다. 나머지는 모두 뒤에 「주어+타동사」가 이어지는 목적격 관계대명사(또는 생략) 자리로 올바르다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "①[which the city gave us]",
+        "②[that we chose]",
+        "③[whom helped us]",
+        "④[we mixed]",
+        "⑤[that visitors notice]"
+      ]
     },
     {
       "no": 3,
@@ -227,7 +234,10 @@
         "the social message"
       ],
       "answer": 3,
-      "why_ko": "바로 앞 문장에서 '자연이 힘든 시간을 보내고 있다'고 했으므로 it은 nature를 가리킨다."
+      "why_ko": "바로 앞 문장에서 '자연이 힘든 시간을 보내고 있다'고 했으므로 it은 nature를 가리킨다.",
+      "underline": [
+        "he wants us to take better care of it"
+      ]
     },
     {
       "no": 8,
@@ -244,7 +254,14 @@
       ],
       "answer": 2,
       "why_ko": "'~하곤 했다'는 「used to+동사원형」이므로 ②는 used to spend가 되어야 한다. ③④는 「be used to+명사/-ing(익숙하다)」, ⑤는 「be used to+동사원형(~하는 데 사용되다)」으로 모두 올바르다.",
-      "grammar_point": "VERB_USED_TO"
+      "grammar_point": "VERB_USED_TO",
+      "underline": [
+        "①[used to be]",
+        "②[used to spending]",
+        "③[used to the empty space]",
+        "④[is used to reading]",
+        "⑤[are used to decorate]"
+      ]
     },
     {
       "no": 9,
@@ -277,7 +294,14 @@
       ],
       "answer": 2,
       "why_ko": "지각동사 see는 목적격보어로 동사원형이나 현재분사를 쓰므로 ②는 stand 또는 standing이 되어야 한다. to부정사는 쓸 수 없다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[heard someone knocking]",
+        "②[saw my cousin to stand]",
+        "③[felt something move]",
+        "④[watched a small puppy jump]",
+        "⑤[heard the puppy cry]"
+      ]
     },
     {
       "no": 11,
@@ -294,7 +318,14 @@
       ],
       "answer": 5,
       "why_ko": "enough가 형용사를 수식할 때는 형용사 뒤에 오므로 kind enough to sing이 되어야 한다.",
-      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+      "grammar_point": "SO_SUCH_TOO_ENOUGH",
+      "underline": [
+        "①[so crowded that]",
+        "②[such a hot day that]",
+        "③[too tired to stay]",
+        "④[so beautiful that]",
+        "⑤[enough kind to sing]"
+      ]
     },
     {
       "no": 12,
@@ -359,7 +390,10 @@
         "different interpretations of the painting"
       ],
       "answer": 3,
-      "why_ko": "바로 앞에서 빨간 풍선이 어린 시절과 그것이 상징하는 순수함, 꿈, 희망을 나타낸다고 했으므로 those things는 이를 가리킨다."
+      "why_ko": "바로 앞에서 빨간 풍선이 어린 시절과 그것이 상징하는 순수함, 꿈, 희망을 나타낸다고 했으므로 those things는 이를 가리킨다.",
+      "underline": [
+        "those things"
+      ]
     },
     {
       "no": 16,
@@ -440,7 +474,14 @@
       ],
       "answer": 2,
       "why_ko": "②는 says의 목적어가 되는 명사절을 이끄는 접속사 that이고, 나머지는 모두 앞의 명사를 수식하는 목적격 관계대명사이다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "①[that my uncle took in Paris]",
+        "②[that it was raining hard that morning]",
+        "③[that he used]",
+        "④[that he had bought in Japan]",
+        "⑤[that I sent him last winter]"
+      ]
     },
     {
       "no": 21,

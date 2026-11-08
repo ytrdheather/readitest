@@ -228,7 +228,14 @@
       ],
       "answer": 3,
       "why_ko": "loud는 형용사 단독이므로 so loud that이 되어야 한다. such는 [such + a(n) + 형용사 + 명사] 형태로 쓴다.",
-      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+      "grammar_point": "SO_SUCH_TOO_ENOUGH",
+      "underline": [
+        "①[that you fixed]",
+        "②[so old that]",
+        "③[such loud that]",
+        "④[used to wear]",
+        "⑤[reading]"
+      ]
     },
     {
       "no": 7,
@@ -261,7 +268,14 @@
       ],
       "answer": 4,
       "why_ko": "지각동사 saw의 목적격보어로는 to부정사를 쓸 수 없으므로 smile 또는 smiling으로 고쳐야 한다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[that you see]",
+        "②[used to throw]",
+        "③[so beautiful that]",
+        "④[to smile]",
+        "⑤[which our neighbors love]"
+      ]
     },
     {
       "no": 9,
@@ -294,7 +308,14 @@
       ],
       "answer": 3,
       "why_ko": "지각동사 felt의 목적격보어는 원형부정사(shake) 또는 현재분사(shaking)를 쓴다. to shake는 쓸 수 없다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[singing]",
+        "②[hit]",
+        "③[to shake]",
+        "④[so loud that]",
+        "⑤[that you played]"
+      ]
     },
     {
       "no": 11,
@@ -327,7 +348,14 @@
       ],
       "answer": 4,
       "why_ko": "saw tears ______ down에서 지각동사 saw의 목적격보어이므로 run 또는 running이 되어야 한다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[who worked]",
+        "②[used to work]",
+        "③[so tired that]",
+        "④[to run]",
+        "⑤[that I will never forget]"
+      ]
     },
     {
       "no": 13,
@@ -360,7 +388,14 @@
       ],
       "answer": 5,
       "why_ko": "which가 borrowed의 목적어 역할을 하므로 it을 함께 쓸 수 없다. it을 삭제해야 한다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "①[whom you were talking to]",
+        "②[that I told you about]",
+        "③[so touching that]",
+        "④[crying]",
+        "⑤[which you borrowed it]"
+      ]
     },
     {
       "no": 15,
@@ -393,7 +428,14 @@
       ],
       "answer": 5,
       "why_ko": "지각동사 heard의 목적격보어이므로 speak 또는 speaking이 알맞다. to speak는 쓸 수 없다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[whom Korean students still remember]",
+        "②[used to teach]",
+        "③[so logical that]",
+        "④[which the world could not ignore]",
+        "⑤[to speak]"
+      ]
     },
     {
       "no": 17,

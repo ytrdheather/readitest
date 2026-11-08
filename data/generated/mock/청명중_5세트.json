@@ -231,7 +231,10 @@
       ],
       "answer": 3,
       "why_ko": "the one은 앞에 언급된 little chewing gum paintings 중 하나를 가리키는 부정대명사이다. 그림이 그려지는 바탕인 gum 자체나 그림을 의뢰한 사람이 아니라 '껌 그림 한 점'을 뜻한다.",
-      "grammar_point": "대명사 one"
+      "grammar_point": "대명사 one",
+      "underline": [
+        "the one over here is a happy birthday wish for a loved one"
+      ]
     },
     {
       "no": 9,

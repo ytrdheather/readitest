@@ -205,7 +205,10 @@
         "⑤ 그가 한국어로 의학을 가르치기 시작한 일"
       ],
       "answer": 1,
-      "why_ko": "바로 앞 문장에서 1919년 3월 1일 탑골 공원의 독립 만세 운동을 사진으로 찍었다고 했으므로 the historic event는 3·1 운동을 가리킨다."
+      "why_ko": "바로 앞 문장에서 1919년 3월 1일 탑골 공원의 독립 만세 운동을 사진으로 찍었다고 했으므로 the historic event는 3·1 운동을 가리킨다.",
+      "underline": [
+        "the historic event"
+      ]
     },
     {
       "no": 7,
@@ -286,7 +289,14 @@
       ],
       "answer": 5,
       "why_ko": "「so + 형용사/부사 + that」 구문에서 was의 보어 자리이므로 부사 happily가 아니라 형용사 happy를 써서 so happy that이 되어야 한다.",
-      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+      "grammar_point": "SO_SUCH_TOO_ENOUGH",
+      "underline": [
+        "①[which]",
+        "②[used to listen]",
+        "③[working]",
+        "④[come]",
+        "⑤[so happily]"
+      ]
     },
     {
       "no": 12,
@@ -353,7 +363,14 @@
       ],
       "answer": 4,
       "why_ko": "사역동사 let의 목적보어는 원형부정사를 쓰므로 to try → try로 고쳐야 한다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[that]",
+        "②[which]",
+        "③[whom]",
+        "④[to try]",
+        "⑤[so beautiful that]"
+      ]
     },
     {
       "no": 16,
@@ -387,7 +404,14 @@
       ],
       "answer": 5,
       "why_ko": "선행사 a comic book이 있으므로 선행사를 포함하는 관계대명사 what은 쓸 수 없다. what → that(which)으로 고쳐야 한다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "①[used to be]",
+        "②[who I called]",
+        "③[calling]",
+        "④[so angry that]",
+        "⑤[what I really wanted]"
+      ]
     },
     {
       "no": 18,

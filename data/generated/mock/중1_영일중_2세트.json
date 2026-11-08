@@ -330,7 +330,7 @@
       "material_id": "P13",
       "type": "T-PHRASE-INFER",
       "points": 4,
-      "stem_ko": "윗글의 「Jeans are strong, so they are perfect for a bag.」에서 they가 가리키는 것으로 가장 알맞은 것은?",
+      "stem_ko": "윗글의 밑줄 친 they가 가리키는 것으로 가장 알맞은 것은?",
       "options": [
         "old jeans",
         "pins and buttons",
@@ -339,7 +339,10 @@
         "new bags in the store"
       ],
       "answer": 1,
-      "why_ko": "Jeans are strong, so they are perfect for a bag.에서 they는 앞에 나온 (Mina의 낡은) jeans를 가리킨다. [검수 2026-11-08] 발문이 they 한 낱말만 대 지문 속 위치 표시가 없었다 — 문장을 인용하도록 고침 (원장)."
+      "why_ko": "Jeans are strong, so they are perfect for a bag.에서 they는 앞에 나온 (Mina의 낡은) jeans를 가리킨다. [검수 2026-11-08] 발문이 they 한 낱말만 대 지문 속 위치 표시가 없었다 — 문장을 인용하도록 고침 (원장).",
+      "underline": [
+        "Jeans are strong, so [they] are perfect"
+      ]
     },
     {
       "no": 11,
@@ -486,7 +489,14 @@
       ],
       "answer": 5,
       "why_ko": "when이 이끄는 시간의 부사절에서는 미래의 일도 현재시제로 나타내므로 will grow → grow로 고쳐야 한다. ⓑ는 want의 목적어인 to부정사, ⓒ는 목적을 나타내는 부사적 용법으로 모두 옳다.",
-      "grammar_point": "시간 부사절의 현재시제 · NONFIN_TO_ROLE"
+      "grammar_point": "시간 부사절의 현재시제 · NONFIN_TO_ROLE",
+      "underline": [
+        "ⓐ[am interested in]",
+        "ⓑ[to be]",
+        "ⓒ[to talk]",
+        "ⓓ[was]",
+        "ⓔ[will grow]"
+      ]
     },
     {
       "no": 20,

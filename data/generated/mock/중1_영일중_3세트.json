@@ -242,7 +242,14 @@
       ],
       "answer": 3,
       "why_ko": "ⓒ 뒤의 주어가 three paintings로 복수이므로 There was가 아니라 There were가 되어야 한다.",
-      "grammar_point": "There was/were 수 일치"
+      "grammar_point": "There was/were 수 일치",
+      "underline": [
+        "ⓐ[were]",
+        "ⓑ[must not use]",
+        "ⓒ[was]",
+        "ⓓ[smaller]",
+        "ⓔ[to buy]"
+      ]
     },
     {
       "no": 5,
@@ -373,7 +380,14 @@
       ],
       "answer": 2,
       "why_ko": "a·c·e의 that은 뒤에 완전한 문장을 이끄는 명사절 접속사이다. b의 that은 painting을 꾸미는 지시형용사, d의 That은 주어로 쓰인 지시대명사이다.",
-      "grammar_point": "NOUN_CLAUSE_THAT"
+      "grammar_point": "NOUN_CLAUSE_THAT",
+      "underline": [
+        "a. I don't think [that] the bag",
+        "b. Look at [that] painting",
+        "c. I heard [that] plastic",
+        "d. [That] is my brother",
+        "e. Do you know [that] Chris"
+      ]
     },
     {
       "no": 13,

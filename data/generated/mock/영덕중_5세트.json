@@ -208,7 +208,10 @@
       ],
       "answer": 4,
       "why_ko": "Muswell Hill에서 소개된 Ben Wilson의 껌 그림들 가운데 하나를 가리키며, 그것이 사랑하는 사람을 위한 생일 축하 메시지라고 설명하고 있다.",
-      "grammar_point": "REFERENCE"
+      "grammar_point": "REFERENCE",
+      "underline": [
+        "the one over here"
+      ]
     },
     {
       "no": 4,

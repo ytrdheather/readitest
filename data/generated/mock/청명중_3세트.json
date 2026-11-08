@@ -272,7 +272,10 @@
         "the social messages in Banksy's works"
       ],
       "answer": 2,
-      "why_ko": "바로 앞 문장에서 세 인물의 '눈'을 자세히 보라고 했고, 그 눈이 점(dots)일 뿐이지만 단서를 준다고 했다."
+      "why_ko": "바로 앞 문장에서 세 인물의 '눈'을 자세히 보라고 했고, 그 눈이 점(dots)일 뿐이지만 단서를 준다고 했다.",
+      "underline": [
+        "but they will give you a clue"
+      ]
     },
     {
       "no": 12,

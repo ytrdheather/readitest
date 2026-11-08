@@ -79,6 +79,8 @@ ul.pts li { margin: 0.8mm 0; }
 .mat .t { font-size: 7.5pt; font-weight: 700; color: #1f2d3d; background: #e8edf3;
           border-radius: 2px; padding: 0.3mm 1.5mm; display: inline-block; margin-bottom: 1mm; }
 .mat p { margin: 0 0 0.8mm; }
+.mat .choice { border: 1px solid #333; padding: 0 1.2mm; margin: 0 0.3mm; white-space: nowrap; }
+.mat u { text-decoration-thickness: 1.2px; text-underline-offset: 0.7mm; }
 ol.opt { list-style: none; padding: 0; margin: 1.2mm 0 0 3mm; font-size: 9pt; }
 ol.opt li { padding: 0.3mm 0; }
 ol.opt li.me { color: #b23a2e; font-weight: 700; }
@@ -132,7 +134,7 @@ def item_html(it, w, mats, shown):
     mid = it.get("material_id")
     mat = ""
     if mid in mats and mid not in shown:
-        mat = mat_html(mats[mid])
+        mat = mat_html(mats[mid], it.get("underline", ()))
         shown.add(mid)
     me = w["student"]
     opts = ""
@@ -154,7 +156,7 @@ def essay_html(e, w, mats, shown):
     mid = e.get("material_id")
     mat = ""
     if mid in mats and mid not in shown:
-        mat = mat_html(mats[mid])
+        mat = mat_html(mats[mid], e.get("underline", ()))
         shown.add(mid)
     stem, ctx, _ = essay_parts(e)
     ctx_html = ('<div class="ctx">' + "".join(f"<p>{esc(c)}</p>" for c in ctx) + "</div>") if ctx else ""

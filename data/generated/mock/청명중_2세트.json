@@ -487,7 +487,10 @@
         "the two chairs"
       ],
       "answer": 3,
-      "why_ko": "바로 앞 문장에서 I like the red color of this painting이라고 했으므로 it은 그림의 붉은색을 가리킨다."
+      "why_ko": "바로 앞 문장에서 I like the red color of this painting이라고 했으므로 it은 그림의 붉은색을 가리킨다.",
+      "underline": [
+        "I think that the room feels warm because of it."
+      ]
     },
     {
       "no": 25,

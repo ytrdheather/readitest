@@ -24,6 +24,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO, FONT      # noqa: E402
 from pipeline import item_principles                                 # noqa: E402
+from pipeline.underline import html_with_underline                   # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -100,6 +101,9 @@ h2 { font-size: 10.5pt; margin: 4mm 0 2mm; padding: 1mm 2mm; background: #eef2f7
         padding: 2mm 3mm; margin-bottom: 3mm; font-size: 8pt; color: #8a3128; }
 /* 부정 발문 — 「틀린」 「않은」 을 아이가 놓치지 않게 (디자인 지침 6) */
 .neg { text-decoration: underline; text-underline-offset: 0.6mm; font-weight: 800; }
+/* 지문 속 밑줄 (pipeline/underline.py) — 실제 내신처럼 또렷하게, 글자 아래로 조금 띄워 */
+.mat .choice { border: 1px solid #333; padding: 0 1.2mm; margin: 0 0.3mm; white-space: nowrap; }
+.mat u { text-decoration: underline; text-decoration-thickness: 1.2px; text-underline-offset: 0.7mm; }
 /* 정답표 — 정답지 첫 쪽 맨 위, 해설 앞 (디자인 지침 5) */
 .qk { margin: 0 0 3.5mm; }
 .qk .t { font-size: 10pt; font-weight: 700; color: #1f2d3d; margin-bottom: 1mm; }
@@ -179,8 +183,18 @@ def stem_html(s):
     return item_principles.NEG.sub(r'<span class="neg">\1</span>', esc(s))
 
 
-def mat_html(m):
-    body = "".join(f"<p>{esc(ln)}</p>" for ln in m["text"].split("\n") if ln.strip())
+def underlines_by_material(d):
+    """세트 안 문항들의 `underline` 을 자료별로 모은다 — 자료는 한 번 찍히고 문항 여럿이 쓴다."""
+    out = {}
+    for it in d.get("items", []) + d.get("essays", []):
+        if it.get("underline"):
+            out.setdefault(it.get("material_id"), []).extend(it["underline"])
+    return out
+
+
+def mat_html(m, underline=()):
+    """지문 — 문항이 적은 밑줄을 긋는다 (pipeline/underline.py, 2026-11-08)."""
+    body = html_with_underline(m["text"], underline)
     t = m["title"]
     t = t if t.startswith(m["id"]) else f'{m["id"]} · {t}'     # 「T9 · T9 · …」 중복 방지
     return f'<div class="mat"><span class="t">{esc(t)}</span>{body}</div>'
@@ -290,6 +304,7 @@ def build(d, logo, part="both", title=None):
     """
     title = title or f"{d['school']} 동형 모의고사 {d['set_no']}세트"
     mats = {m["id"]: m for m in d["materials"]}
+    unders = underlines_by_material(d)
     used_order = []
     for it in d["items"]:
         mid = it.get("material_id")
@@ -333,7 +348,7 @@ def build(d, logo, part="both", title=None):
             # (2026-10-06 영덕중1 7세트 6번 · 태장중2 4세트 8번에서 발견).
             for mid in [it.get("material_id")] + re.findall(r"\[([PT]\d+)\]", it["stem_ko"]):
                 if not ans and mid in mats and mid not in shown:
-                    body.append(mat_html(mats[mid]))
+                    body.append(mat_html(mats[mid], unders.get(mid, ())))
                     shown.add(mid)
             opts = "".join(
                 f'<li><span class="c">{CIRCLED[i]}</span>'
@@ -348,11 +363,19 @@ def build(d, logo, part="both", title=None):
                        f'{esc(it["why_ko"])}</span>')
             ref = (f'<span class="ref">[{esc(it["material_id"])}]</span>'
                    if it.get("material_id") else "")
+            # 발문 속 <보기> a. b. c. … 는 줄을 나눠 상자에 — 한 줄로 이으면 못 읽는다 (2026-11-08)
+            stem, *rest = it["stem_ko"].split("\n")
+            rest = [l.strip() for l in rest if l.strip()]
+            box = ""
+            if rest:
+                lab = rest.pop(0) if rest[0] in ("<보기>", "[보기]") else ""
+                box = ('<div class="ctx">' + (f'<p><b>{esc(lab)}</b></p>' if lab else "")
+                       + "".join(f"<p>{esc(l)}</p>" for l in rest) + "</div>")
             body.append(
                 f'<div class="q"><div class="stem"><span class="no">{it["no"]}.</span>'
-                f'<span>{stem_html(it["stem_ko"])} {ref}</span>'
+                f'<span>{stem_html(stem)} {ref}</span>'
                 f'<span class="pts">{it["points"]}점</span></div>'
-                f'<ol class="opt">{opts}</ol>{why}</div>')
+                f'{box}<ol class="opt">{opts}</ol>{why}</div>')
         body.append("</div>")
 
         if d["essays"]:
@@ -363,7 +386,7 @@ def build(d, logo, part="both", title=None):
                 # 갈라져 나왔다 (영덕중1 5세트 20번, 2026-10-04)
                 head_mat = ""
                 if not ans and mid in mats and mid not in shown:
-                    head_mat = mat_html(mats[mid])
+                    head_mat = mat_html(mats[mid], unders.get(mid, ()))
                     shown.add(mid)
                 body.append('<div style="break-inside: avoid">' + head_mat + essay_html(e, ans) + "</div>")
             body.append("</div>")

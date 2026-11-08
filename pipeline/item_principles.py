@@ -120,8 +120,8 @@ _MARK = re.compile(r"[ⓐ-ⓩ]|\([a-e]\)|\[[A-E]\]")
 def unlocated_ref(it, mats):
     """「X가 가리키는 / 의미하는」 문항에서 X 가 지문 어디인지 학생이 찾을 수 없으면 경고.
 
-    렌더러는 지문에 밑줄·굵게를 못 넣는다 (텍스트만 찍는다). 그래서 발문이 「they」 한 낱말만 대면
-    지문 속 어느 they 인지 표시가 없다 — 영일중1 2세트 10번 (원장 2026-11-08).
+    발문이 「they」 한 낱말만 대면 지문 속 어느 they 인지 표시가 없다 — 영일중1 2세트 10번
+    (원장 2026-11-08). 같은 날 렌더러가 밑줄을 긋게 됐으니 `underline` 을 채우는 것이 첫째 해법.
     통과 조건: 발문이 지문의 3낱말 이상을 그대로 인용 · 2낱말 이상이 지문에 한 번뿐 ·
     「○번째 · 마지막」 처럼 자리를 댐 · 지문에 ⓐ·(a) 같은 표시가 있다.
     """
@@ -129,6 +129,8 @@ def unlocated_ref(it, mats):
     if not mats or it.get("type") != "T-PHRASE-INFER" or not re.search(r"가리키|의미하", stem):
         return None
     if re.search(r"번째|마지막|첫", stem):          # 「세 번째 단락 마지막 문장의 it」 — 자리로 찾을 수 있다
+        return None
+    if it.get("underline"):                          # 밑줄로 짚었다 — 찾히는지는 underline_problems 가 본다
         return None
     m = mats.get(it.get("material_id"))
     if not m:
@@ -145,6 +147,20 @@ def unlocated_ref(it, mats):
     refs = [r.strip(" ,") for r in _ENG.findall(stem)]
     return (f"{it.get('no')}번 「{' / '.join(refs) or '?'}」 가 지문 어디인지 표시가 없음 — "
             "발문에 그 문장을 인용하거나 지문에 ⓐ 표시를 할 것")
+
+
+def underline_problems(it, mats):
+    """(problems, warnings) — `underline` 이 지문에서 찾히는가 · 「밑줄 친」 인데 밑줄이 없는가."""
+    from pipeline.underline import locate, _INLINE
+    m = (mats or {}).get(it.get("material_id"))
+    if not m:
+        return [], []
+    _, _, missing = locate(m.get("text", ""), it.get("underline"))
+    probs = [f"{it.get('no')}번 밑줄 「{u}」 을 지문에서 못 찾음" for u in missing]
+    warns = []
+    if "밑줄" in (it.get("stem_ko") or "") and not it.get("underline") and not _INLINE.search(m.get("text", "")):
+        warns.append(f"{it.get('no')}번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다")
+    return probs, warns
 
 
 def check(items, mats=None):
@@ -166,6 +182,9 @@ def check(items, mats=None):
         w = unlocated_ref(it, mats)
         if w:
             warnings.append(w)
+        pp, ww = underline_problems(it, mats)
+        problems += pp
+        warnings += ww
         opts = [_LEAD.sub("", o).strip() or o.strip() for o in it.get("options", [])]   # 「①」 뿐인 선지는 그대로
         a = it.get("answer", 0)
         if len({o.lower() for o in opts}) < len(opts):

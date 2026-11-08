@@ -190,7 +190,10 @@
       ],
       "answer": 1,
       "why_ko": "under the watchful eye of ~는 '~의 감시를 받는'이라는 뜻으로, 그래서 그는 1920년에 캐나다로 돌아가야 했다.",
-      "grammar_point": "INFER"
+      "grammar_point": "INFER",
+      "underline": [
+        "He was under the watchful eye of the Japanese police"
+      ]
     },
     {
       "no": 4,
@@ -394,7 +397,10 @@
       ],
       "answer": 1,
       "why_ko": "loud or forceful(요란하고 강압적인)이 아니라 kindness and care(친절과 배려)로 가득했다는 뜻이다.",
-      "grammar_point": "INFER"
+      "grammar_point": "INFER",
+      "underline": [
+        "Her love wasn't loud or forceful but was full of kindness and care."
+      ]
     },
     {
       "no": 16,

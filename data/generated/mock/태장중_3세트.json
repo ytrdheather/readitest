@@ -313,7 +313,10 @@
         "Banksy's other artworks"
       ],
       "answer": 1,
-      "why_ko": "바로 앞 문장에서 'nature is having a hard time'이라고 했으므로 it은 nature를 가리킨다."
+      "why_ko": "바로 앞 문장에서 'nature is having a hard time'이라고 했으므로 it은 nature를 가리킨다.",
+      "underline": [
+        "he wants us to take better care of it"
+      ]
     },
     {
       "no": 14,

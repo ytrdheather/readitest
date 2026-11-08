@@ -220,7 +220,14 @@
       ],
       "answer": 3,
       "why_ko": "'~하곤 했다'의 used to 뒤에는 동사원형이 와야 하므로 used to working은 used to work로 고쳐야 한다. ①②④는 목적격 관계대명사, ⑤는 used to+동사원형으로 올바르다.",
-      "grammar_point": "VERB_USED_TO"
+      "grammar_point": "VERB_USED_TO",
+      "underline": [
+        "①[which you lost]",
+        "②[whom you met]",
+        "③[used to working]",
+        "④[that we watched]",
+        "⑤[used to be]"
+      ]
     },
     {
       "no": 7,
@@ -236,7 +243,10 @@
         "⑤ the wall behind the tree"
       ],
       "answer": 3,
-      "why_ko": "바로 앞 문장에서 '자연이 힘든 시간을 보내고 있다(nature is having a hard time)'고 했으므로 it은 nature를 가리킨다."
+      "why_ko": "바로 앞 문장에서 '자연이 힘든 시간을 보내고 있다(nature is having a hard time)'고 했으므로 it은 nature를 가리킨다.",
+      "underline": [
+        "he wants us to take better care of it"
+      ]
     },
     {
       "no": 8,
@@ -253,7 +263,14 @@
       ],
       "answer": 3,
       "why_ko": "지각동사 see의 목적격보어로는 동사원형이나 현재분사가 오므로 to play가 아니라 play 또는 playing이 알맞다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[calling]",
+        "②[so hot that]",
+        "③[to play]",
+        "④[such a good movie that]",
+        "⑤[shake]"
+      ]
     },
     {
       "no": 9,
@@ -286,7 +303,14 @@
       ],
       "answer": 5,
       "why_ko": "hear는 지각동사이므로 목적격보어로 shout 또는 shouting을 써야 한다. to shout는 쓸 수 없다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[that my art teacher recommended]",
+        "②[used to live]",
+        "③[which we saw]",
+        "④[that I almost missed them]",
+        "⑤[to shout]"
+      ]
     },
     {
       "no": 11,
@@ -319,7 +343,14 @@
       ],
       "answer": 4,
       "why_ko": "①②③⑤의 that은 목적격 관계대명사이지만, ④의 that은 형용사·부사를 수식해 '그렇게, 그만큼'의 뜻을 나타내는 부사이다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "① [The painting that we saw yesterday was amazing.]",
+        "② [This is the gum art that Ben Wilson made last year.]",
+        "③ [Do you know the man that I met at the park?]",
+        "④ [I can't walk that far in only one hour.]",
+        "⑤ [The book that she wants to read is sold out.]"
+      ]
     },
     {
       "no": 13,

@@ -223,7 +223,14 @@
         "⑤ one"
       ],
       "answer": 3,
-      "why_ko": "쫓아갔지만 잡지 못한 이유이므로 남자가 더 ‘빨랐다(faster)’여야 한다. slower는 문맥에 어긋난다."
+      "why_ko": "쫓아갔지만 잡지 못한 이유이므로 남자가 더 ‘빨랐다(faster)’여야 한다. slower는 문맥에 어긋난다.",
+      "underline": [
+        "①[crime]",
+        "②[taller]",
+        "③[slower]",
+        "④[next to]",
+        "⑤[one]"
+      ]
     },
     {
       "no": 4,
@@ -368,7 +375,14 @@
         "⑤ strange"
       ],
       "answer": 5,
-      "why_ko": "진짜 소리는 아니지만 장면을 더 ‘진짜처럼(real)’ 느끼게 한다는 흐름이므로 strange는 어색하다."
+      "why_ko": "진짜 소리는 아니지만 장면을 더 ‘진짜처럼(real)’ 느끼게 한다는 흐름이므로 strange는 어색하다.",
+      "underline": [
+        "①[creates]",
+        "②[to watch]",
+        "③[pours]",
+        "④[plan]",
+        "⑤[strange]"
+      ]
     },
     {
       "no": 13,

@@ -414,7 +414,10 @@
       ],
       "answer": 3,
       "why_ko": "바로 앞 문장 This process is upcycling.에서 '이 과정'을 upcycling이라고 했으므로, 이어지는 It은 upcycling을 가리킨다.",
-      "grammar_point": "지시어"
+      "grammar_point": "지시어",
+      "underline": [
+        "It is reusing trash creatively."
+      ]
     },
     {
       "no": 15,
@@ -465,7 +468,14 @@
       ],
       "answer": 3,
       "why_ko": "practice는 동명사를 목적어로 취하므로 ⓒ to run은 running이 되어야 한다. ⓐ be good at+동명사, ⓑ want+to부정사, ⓓ thought의 목적어절을 이끄는 접속사 that, ⓔ 시간 부사절의 현재시제는 모두 옳다.",
-      "grammar_point": "NONFIN_TO_ROLE / NOUN_CLAUSE_THAT / 시간 부사절"
+      "grammar_point": "NONFIN_TO_ROLE / NOUN_CLAUSE_THAT / 시간 부사절",
+      "underline": [
+        "ⓐ[am]",
+        "ⓑ[to be]",
+        "ⓒ[to run]",
+        "ⓓ[that]",
+        "ⓔ[grow]"
+      ]
     },
     {
       "no": 18,

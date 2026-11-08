@@ -257,7 +257,10 @@
         "a new container"
       ],
       "answer": 3,
-      "why_ko": "개가 가방을 찢어서 새것을 사고 싶었다는 흐름이므로 one은 앞에 나온 bag을 대신한다."
+      "why_ko": "개가 가방을 찢어서 새것을 사고 싶었다는 흐름이므로 one은 앞에 나온 bag을 대신한다.",
+      "underline": [
+        "a new one"
+      ]
     },
     {
       "no": 6,
@@ -291,7 +294,14 @@
       ],
       "answer": 4,
       "why_ko": "ⓓ는 ‘빗소리를 만들기 위해서’라는 목적을 나타내므로 부사적 용법의 to make가 되어야 한다. ⓐ는 enjoy의 목적어 동명사, ⓑ는 want의 목적어, ⓒ는 보어로 쓰인 to부정사이다.",
-      "grammar_point": "NONFIN_TO_ROLE"
+      "grammar_point": "NONFIN_TO_ROLE",
+      "underline": [
+        "ⓐ [making]",
+        "ⓑ [to work]",
+        "ⓒ [to create]",
+        "ⓓ [making]",
+        "ⓔ [more important]"
+      ]
     },
     {
       "no": 8,

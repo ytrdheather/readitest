@@ -355,7 +355,14 @@
         "(e) opinion"
       ],
       "answer": 4,
-      "why_ko": "행복하거나 즐거운 감정을 뜻하는 낱말은 pleasure이다."
+      "why_ko": "행복하거나 즐거운 감정을 뜻하는 낱말은 pleasure이다.",
+      "underline": [
+        "(a)[forms]",
+        "(b)[figures]",
+        "(c)[clue]",
+        "(d)[pleasure]",
+        "(e)[opinion]"
+      ]
     },
     {
       "no": 19,

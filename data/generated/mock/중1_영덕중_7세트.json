@@ -387,7 +387,14 @@
       ],
       "answer": 2,
       "why_ko": "②는 a schoolbag을 수식하는 관계대명사(목적격)로, 뒤 문장에 tore의 목적어가 빠져 있다. 나머지는 모두 동사의 목적어 역할을 하는 명사절을 이끄는 접속사 that이다.",
-      "grammar_point": "접속사 that vs 관계대명사 that"
+      "grammar_point": "접속사 that vs 관계대명사 that",
+      "underline": [
+        "①[that repairing is better than buying]",
+        "②[that his dog tore]",
+        "③[that I had to throw it away]",
+        "④[that her son now fixes his own socks]",
+        "⑤[that sharing skills is the best part of the day]"
+      ]
     },
     {
       "no": 13,

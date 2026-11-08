@@ -65,6 +65,19 @@ SYSTEM = """당신은 중학교 2학년 영어 내신 시험지를 만듭니다.
   긴 외부지문      긴 지문 하나에 밑줄 여럿을 치고 그중 틀린 것을 찾게 합니다
   짧은 대화        짧은 대화 여러 개에 각각 밑줄을 칩니다
 
+## 지문 속 밑줄은 `underline` 에 적으십시오 — 지문 글자에는 표시하지 마십시오
+
+렌더러가 지문을 찍을 때 `underline` 의 자리에 **진짜 밑줄**을 긋습니다. 발문이 「밑줄 친」 을
+말하거나 「○○가 가리키는 / 의미하는」 처럼 지문의 한 곳을 짚으면 반드시 채우십시오. 없으면 [].
+
+  · 항목 하나 = 밑줄 하나. **지문에 있는 글을 그대로** 쓰고, 밑줄 칠 부분만 [ ] 로 감쌉니다.
+    [ ] 밖의 앞뒤 글은 자리를 찾는 닻입니다 — 같은 낱말이 지문에 여러 번 나오면 닻을 붙이십시오.
+  · 번호 밑줄: 지문에는 기호만 넣고(「…the bike ①that you fixed…」) underline 에
+    ["①[that you fixed]", "②[so old that]", …] — 기호는 밑줄 밖, 시험 범위인 말만 [ ] 안.
+  · 한 낱말을 짚을 때: 「they」 하나만 쓰지 말고 ["Jeans are strong, so [they] are perfect"].
+    발문은 「윗글의 밑줄 친 they가 가리키는 것은?」 처럼 씁니다.
+  · 지문에서 그 글을 못 찾으면 생성 뒤 검사에서 걸립니다 — 대소문자·문장부호까지 지문과 같게.
+
 ## 선택형 문항
 
 `options` 는 **정확히 5개**, `answer` 는 1~5 입니다.
@@ -176,9 +189,11 @@ def schema(n_sel, n_essay):
                         "answer": {"type": "integer"},
                         "why_ko": {"type": "string"},
                         "grammar_point": {"type": "string"},
+                        # 지문 속 밑줄 자리 (pipeline/underline.py) — 없으면 [] (2026-11-08)
+                        "underline": {"type": "array", "items": {"type": "string"}},
                     },
                     "required": ["no", "material_id", "type", "points",
-                                 "stem_ko", "options", "answer", "why_ko"],
+                                 "stem_ko", "options", "answer", "why_ko", "underline"],
                     "additionalProperties": False,
                 },
             },

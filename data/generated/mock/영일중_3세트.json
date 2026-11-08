@@ -165,7 +165,14 @@
       ],
       "answer": 3,
       "why_ko": "선행사 the paint가 있으므로 목적격 관계대명사 that/which를 써야 한다. what은 선행사를 포함하므로 쓸 수 없다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "①[that local teenagers painted]",
+        "②[whom we met in front of it]",
+        "③[what he used]",
+        "④[used to be]",
+        "⑤[so interesting that]"
+      ]
     },
     {
       "no": 3,
@@ -294,7 +301,14 @@
       ],
       "answer": 4,
       "why_ko": "'~에 익숙하다'는 be used to+동명사이므로 is used to riding이 되어야 한다.",
-      "grammar_point": "VERB_USED_TO"
+      "grammar_point": "VERB_USED_TO",
+      "underline": [
+        "①[used to work]",
+        "②[was used to getting up]",
+        "③[was used to bake]",
+        "④[is used to ride]",
+        "⑤[didn't use to eat]"
+      ]
     },
     {
       "no": 11,
@@ -311,7 +325,14 @@
       ],
       "answer": 2,
       "why_ko": "지각동사 see의 목적격보어로는 원형부정사나 현재분사를 쓰므로 stand 또는 standing이 되어야 한다.",
-      "grammar_point": "PERCEPTION_VERB_OC"
+      "grammar_point": "PERCEPTION_VERB_OC",
+      "underline": [
+        "①[calling my name]",
+        "②[to stand next to the door]",
+        "③[play it once]",
+        "④[shaking under my feet]",
+        "⑤[dancing together]"
+      ]
     },
     {
       "no": 12,
@@ -328,7 +349,14 @@
       ],
       "answer": 4,
       "why_ko": "enough는 형용사·부사를 뒤에서 수식하므로 loudly enough가 되어야 한다.",
-      "grammar_point": "SO_SUCH_TOO_ENOUGH"
+      "grammar_point": "SO_SUCH_TOO_ENOUGH",
+      "underline": [
+        "①[so exciting that]",
+        "②[such a long line that]",
+        "③[too small for me to sit]",
+        "④[enough loudly]",
+        "⑤[so kind that]"
+      ]
     },
     {
       "no": 13,
@@ -393,7 +421,10 @@
         "Banksy's identity and his mystery"
       ],
       "answer": 3,
-      "why_ko": "바로 앞에서 붉은 풍선이 상징하는 어린 시절의 것들로 innocence, dreams, and hope를 들었다."
+      "why_ko": "바로 앞에서 붉은 풍선이 상징하는 어린 시절의 것들로 innocence, dreams, and hope를 들었다.",
+      "underline": [
+        "those things"
+      ]
     },
     {
       "no": 17,
@@ -442,7 +473,14 @@
       ],
       "answer": 1,
       "why_ko": "①은 knows의 목적어인 명사절을 이끄는 접속사이고, ②③④⑤는 모두 목적격 관계대명사이다.",
-      "grammar_point": "REL_OBJECT"
+      "grammar_point": "REL_OBJECT",
+      "underline": [
+        "①[that Banksy is a mysterious artist]",
+        "②[that he left on a wall in my town]",
+        "③[that our neighbors loved so much]",
+        "④[that the girl was holding]",
+        "⑤[that I talked to]"
+      ]
     },
     {
       "no": 20,

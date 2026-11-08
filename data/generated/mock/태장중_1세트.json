@@ -200,7 +200,10 @@
         "nature"
       ],
       "answer": 5,
-      "why_ko": "바로 앞 문장에서 '자연이 힘든 시기를 보내고 있다'고 했으므로 it은 nature를 가리킨다."
+      "why_ko": "바로 앞 문장에서 '자연이 힘든 시기를 보내고 있다'고 했으므로 it은 nature를 가리킨다.",
+      "underline": [
+        "take better care of it"
+      ]
     },
     {
       "no": 7,

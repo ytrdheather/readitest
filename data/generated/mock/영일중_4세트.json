@@ -191,7 +191,10 @@
         "the meaning of the word independence"
       ],
       "answer": 2,
-      "why_ko": "앞 문장에서 그가 사랑한 것은 '한국 이름(Seok Hopil)'이며, 그 이름이 본명과 발음이 비슷하고 뜻도 좋았다는 설명이다. ①은 비교 대상인 본명이므로 가리키는 대상이 될 수 없다."
+      "why_ko": "앞 문장에서 그가 사랑한 것은 '한국 이름(Seok Hopil)'이며, 그 이름이 본명과 발음이 비슷하고 뜻도 좋았다는 설명이다. ①은 비교 대상인 본명이므로 가리키는 대상이 될 수 없다.",
+      "underline": [
+        "It sounded similar to his real name, and it also had a good meaning."
+      ]
     },
     {
       "no": 5,
@@ -372,7 +375,10 @@
         "the subway station near the museum"
       ],
       "answer": 1,
-      "why_ko": "소년이 가려는 목적지인 국립미술관의 위치를 알려 주는 말이다. ②·③은 길 안내 과정에 나오는 지점일 뿐이고, ④·⑤는 대화에 언급조차 되지 않는다(이 대화에서는 걸어가라고 안내했다)."
+      "why_ko": "소년이 가려는 목적지인 국립미술관의 위치를 알려 주는 말이다. ②·③은 길 안내 과정에 나오는 지점일 뿐이고, ④·⑤는 대화에 언급조차 되지 않는다(이 대화에서는 걸어가라고 안내했다).",
+      "underline": [
+        "It’ll be on your right."
+      ]
     },
     {
       "no": 16,
@@ -436,7 +442,10 @@
         "그의 작품이 이천 년대 초에 처음 등장했다는 점"
       ],
       "answer": 3,
-      "why_ko": "this는 바로 앞의 'Even though he is internationally well-known, nobody knows his real identity' 전체를 받는다. ④는 뒤 문장에 나오는 별개의 정보이고, ①·②·⑤도 신비로움을 더한다는 앞 절의 내용과 직접 연결되지 않는다."
+      "why_ko": "this는 바로 앞의 'Even though he is internationally well-known, nobody knows his real identity' 전체를 받는다. ④는 뒤 문장에 나오는 별개의 정보이고, ①·②·⑤도 신비로움을 더한다는 앞 절의 내용과 직접 연결되지 않는다.",
+      "underline": [
+        "this adds to his mystery"
+      ]
     },
     {
       "no": 20,

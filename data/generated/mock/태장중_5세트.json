@@ -212,7 +212,10 @@
       ],
       "answer": 2,
       "why_ko": "바로 뒤에 is a happy birthday wish for a loved one이 이어지므로 the one은 앞에서 말한 gum paintings 중 하나를 가리킨다. ③은 그림이 그려지기 전의 껌일 뿐이다.",
-      "grammar_point": "지시어"
+      "grammar_point": "지시어",
+      "underline": [
+        "the one over here"
+      ]
     },
     {
       "no": 6,

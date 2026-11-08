@@ -379,7 +379,14 @@
       ],
       "answer": 2,
       "why_ko": "hot은 1음절 형용사이므로 비교급은 hotter이다. more hot → hotter로 고쳐야 한다.",
-      "grammar_point": "MOD_COMPARATIVE"
+      "grammar_point": "MOD_COMPARATIVE",
+      "underline": [
+        "ⓐ[sicker and sicker]",
+        "ⓑ[more hot]",
+        "ⓒ[were]",
+        "ⓓ[that]",
+        "ⓔ[waste]"
+      ]
     },
     {
       "no": 13,
@@ -444,7 +451,10 @@
         "단추와 핀을 직접 만드는 방법"
       ],
       "answer": 1,
-      "why_ko": "a how-to for making a bag from old jeans라고 했으므로 낡은 청바지로 가방을 만드는 방법을 가리킨다."
+      "why_ko": "a how-to for making a bag from old jeans라고 했으므로 낡은 청바지로 가방을 만드는 방법을 가리킨다.",
+      "underline": [
+        "a how-to"
+      ]
     },
     {
       "no": 17,
@@ -510,7 +520,14 @@
       ],
       "answer": 4,
       "why_ko": "d의 to visit은 be동사의 보어로 쓰인 명사적 용법이고, 나머지는 모두 '~하기 위해'라는 목적을 나타내는 부사적 용법이다.",
-      "grammar_point": "NONFIN_TO_ROLE"
+      "grammar_point": "NONFIN_TO_ROLE",
+      "underline": [
+        "a. I went to the store [to buy]",
+        "b. Peter uses drones [to capture]",
+        "c. Emma reads a lot [to improve]",
+        "d. My plan is [to visit]",
+        "e. Anna travels around the country [to find]"
+      ]
     }
   ],
   "essays": [

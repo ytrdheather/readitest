@@ -211,7 +211,14 @@
         "⑤ loud"
       ],
       "answer": 5,
-      "why_ko": "뒤에 '우리는 그것을 거의 알아채지 못한다'가 이어지므로 loud(시끄러운)가 아니라 quiet(조용한)/hidden(드러나지 않는)이 문맥에 맞다."
+      "why_ko": "뒤에 '우리는 그것을 거의 알아채지 못한다'가 이어지므로 loud(시끄러운)가 아니라 quiet(조용한)/hidden(드러나지 않는)이 문맥에 맞다.",
+      "underline": [
+        "①[in charge of]",
+        "②[real]",
+        "③[pour]",
+        "④[to match]",
+        "⑤[loud]"
+      ]
     },
     {
       "no": 4,
@@ -340,7 +347,14 @@
       ],
       "answer": 4,
       "why_ko": "(D)는 told의 직접목적어 역할을 하는 명사절을 이끄는 접속사 that으로 옳다. (A)는 to become, (B)는 that, (C)는 To write(=Writing), (E)는 to join이 되어야 한다.",
-      "grammar_point": "NOUN_CLAUSE_THAT / NONFIN_TO_ROLE"
+      "grammar_point": "NOUN_CLAUSE_THAT / NONFIN_TO_ROLE",
+      "underline": [
+        "(A) [become]",
+        "(B) [what]",
+        "(C) [Write]",
+        "(D) [that]",
+        "(E) [joining]"
+      ]
     },
     {
       "no": 12,
@@ -356,7 +370,14 @@
         "⑤ hopes"
       ],
       "answer": 3,
-      "why_ko": "1초 만에 도둑을 잡을 수 있다고 했으므로 새 카메라는 예전 것보다 slower가 아니라 faster여야 한다."
+      "why_ko": "1초 만에 도둑을 잡을 수 있다고 했으므로 새 카메라는 예전 것보다 slower가 아니라 faster여야 한다.",
+      "underline": [
+        "①[must not]",
+        "②[were]",
+        "③[slower]",
+        "④[safer]",
+        "⑤[hopes]"
+      ]
     },
     {
       "no": 13,
@@ -439,7 +460,10 @@
       ],
       "answer": 2,
       "why_ko": "don’t have to는 '~할 필요가 없다'는 불필요를 나타내며, 금지의 must not과 바꿔 쓸 수 없다.",
-      "grammar_point": "VERB_MODAL_USAGE"
+      "grammar_point": "VERB_MODAL_USAGE",
+      "underline": [
+        "You don’t have to."
+      ]
     }
   ],
   "essays": [
