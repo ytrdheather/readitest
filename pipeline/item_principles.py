@@ -113,6 +113,40 @@ def balance(items, mats, seed):
     return moves
 
 
+_ENG = re.compile(r"[A-Za-z][A-Za-z’'\- ,]*[A-Za-z]")
+_MARK = re.compile(r"[ⓐ-ⓩ]|\([a-e]\)|\[[A-E]\]")
+
+
+def unlocated_ref(it, mats):
+    """「X가 가리키는 / 의미하는」 문항에서 X 가 지문 어디인지 학생이 찾을 수 없으면 경고.
+
+    렌더러는 지문에 밑줄·굵게를 못 넣는다 (텍스트만 찍는다). 그래서 발문이 「they」 한 낱말만 대면
+    지문 속 어느 they 인지 표시가 없다 — 영일중1 2세트 10번 (원장 2026-11-08).
+    통과 조건: 발문이 지문의 3낱말 이상을 그대로 인용 · 2낱말 이상이 지문에 한 번뿐 ·
+    「○번째 · 마지막」 처럼 자리를 댐 · 지문에 ⓐ·(a) 같은 표시가 있다.
+    """
+    stem = it.get("stem_ko") or ""
+    if not mats or it.get("type") != "T-PHRASE-INFER" or not re.search(r"가리키|의미하", stem):
+        return None
+    if re.search(r"번째|마지막|첫", stem):          # 「세 번째 단락 마지막 문장의 it」 — 자리로 찾을 수 있다
+        return None
+    m = mats.get(it.get("material_id"))
+    if not m:
+        return None
+    text = re.sub(r"\s+", " ", m.get("text", "")).replace("'", "’").lower()
+    if _MARK.search(stem) and _MARK.search(m.get("text", "")):
+        return None
+    for run in _ENG.findall(stem):
+        run = run.strip(" ,").replace("'", "’")
+        n = len(re.findall(r"(?<![a-z])" + re.escape(run.lower()) + r"(?![a-z])", text))
+        # 3낱말 이상 인용 · 또는 2낱말 이상이 지문에 딱 한 번 (a how-to · those things)
+        if n and (len(run.split()) >= 3 or (len(run.split()) >= 2 and n == 1)):
+            return None
+    refs = [r.strip(" ,") for r in _ENG.findall(stem)]
+    return (f"{it.get('no')}번 「{' / '.join(refs) or '?'}」 가 지문 어디인지 표시가 없음 — "
+            "발문에 그 문장을 인용하거나 지문에 ⓐ 표시를 할 것")
+
+
 def check(items, mats=None):
     """(problems, warnings). problems 는 틀린 것이 확실한 것만."""
     problems, warnings = [], []
@@ -129,6 +163,9 @@ def check(items, mats=None):
             warnings.append(f"{items[i - 2].get('no')}~{items[i].get('no')}번 정답이 "
                             f"{CIRC[seq[i] - 1]} 로 3번 이상 이어짐")
     for it in items:
+        w = unlocated_ref(it, mats)
+        if w:
+            warnings.append(w)
         opts = [_LEAD.sub("", o).strip() or o.strip() for o in it.get("options", [])]   # 「①」 뿐인 선지는 그대로
         a = it.get("answer", 0)
         if len({o.lower() for o in opts}) < len(opts):

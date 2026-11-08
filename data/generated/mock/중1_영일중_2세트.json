@@ -330,7 +330,7 @@
       "material_id": "P13",
       "type": "T-PHRASE-INFER",
       "points": 4,
-      "stem_ko": "윗글에서 they가 가리키는 것으로 가장 알맞은 것은?",
+      "stem_ko": "윗글의 「Jeans are strong, so they are perfect for a bag.」에서 they가 가리키는 것으로 가장 알맞은 것은?",
       "options": [
         "old jeans",
         "pins and buttons",
@@ -339,7 +339,7 @@
         "new bags in the store"
       ],
       "answer": 1,
-      "why_ko": "Jeans are strong, so they are perfect for a bag.에서 they는 앞에 나온 (Mina의 낡은) jeans를 가리킨다."
+      "why_ko": "Jeans are strong, so they are perfect for a bag.에서 they는 앞에 나온 (Mina의 낡은) jeans를 가리킨다. [검수 2026-11-08] 발문이 they 한 낱말만 대 지문 속 위치 표시가 없었다 — 문장을 인용하도록 고침 (원장)."
     },
     {
       "no": 11,
@@ -703,6 +703,7 @@
     "verify_usd": 0.1733
   },
   "review": [
-    "검수 2026-11-04: 15번 보기 d 보어절 that → 지시대명사 That · 서술형 번호 1~4 → 21~24 (다른 세트와 맞춤). 검토자 메모 18번은 확인 결과 문제없음"
+    "검수 2026-11-04: 15번 보기 d 보어절 that → 지시대명사 That · 서술형 번호 1~4 → 21~24 (다른 세트와 맞춤). 검토자 메모 18번은 확인 결과 문제없음",
+    "검수 2026-11-08: 10번 they 위치 표시 없음 → 발문에 문장 인용 (원장). 같은 검사를 item_principles.unlocated_ref 로 넣음"
   ]
 }

@@ -58,6 +58,16 @@ Supabase SQL Editor의 경고는 정상 동작이므로 근거를 보여주고 �
    `render_mock_exam.quick_key()`. 다시 뽑을 땐 시험지를 Z: 것과 먼저 대조할 것.
 6. **부정 발문(틀린·않은·다른)은 밑줄·굵게** — `render_mock_exam.stem_html()` 이 `item_principles.NEG` 로 찍는다.
 
+## OMR 채점 — [`tools/grade_mock.py`](tools/grade_mock.py) 로만 한다
+
+원장이 OMR 사진·스캔을 주며 채점을 부탁하면 결과지를 손으로 만들지 말고 이 흐름을 탄다 (2026-11-08 원장 「1회성이잖아?」).
+
+1. 마킹·출결번호·서술형 답을 읽는다 (스캔본은 `read_omr.py`, 사진은 눈으로). 출결번호 칸과 적은 숫자가 맞는지 본다
+2. 채점지 JSON 을 **스크래치에** 쓴다 (학생 이름 — 규칙 3). 꼴은 `grade_mock.py` 맨 위
+3. `--dry` 로 점수 확인 → 서술형 인정 여부 등 애매한 것은 원장에게 묻는다. 도구가 같은 세트의 이전 판정을 보여 준다
+4. `python tools/grade_mock.py <채점지>` → Z: `중등 내신 동형 모의고사\채점\` 에 기록 · 학생 누적 · 결과지(PDF·PNG)
+5. 채점하다 문항 오류를 찾으면 세트 JSON 을 고치고 `why_ko` 끝에 `[검수 날짜]` · `review` 에 한 줄
+
 ## 작업 스타일
 
 - 판단 근거가 되는 숫자는 **파일로 남긴다** (`data/stage0/*.json`). 대화는 요약되지만 파일은 남는다
@@ -72,6 +82,7 @@ python tools/diag_supabase.py  # 연결 실패 시 DNS/TCP/TLS/HTTP 중 어디�
 python tools/check_schema.py   # 테이블 18개 + 마스터 시드 + 인제스트 행수
 python tools/check_ingest.py   # 적재된 값 검증 (해시·스팬·정답·RLS)
 python db/002_ingest.py        # 0단계 JSON 검증 (네트워크 안 씀). --apply 로 적재
+python tools/grade_mock.py <채점지.json>   # 동형 OMR 채점 → Z: 기록 · 결과지 (--dry · --history 출결번호)
 ```
 
 `002_ingest.py --reset`은 **DELETE를 실행한다** — 위 규칙 4가 그대로 적용된다.
