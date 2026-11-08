@@ -231,6 +231,12 @@ def main():
         return
 
     sheet["graded_at"] = dt.datetime.now().isoformat(timespec="seconds")
+    # 같은 날·같은 세트를 학생 몇 명씩 나눠 채점해도 한 파일에 모인다 — 출결번호가 같으면 새 것으로 바꾼다.
+    # (2026-11-08: 한 명만 담은 채점지로 돌렸더니 먼저 기록한 두 명의 마킹이 사라졌다)
+    if os.path.exists(rec_p):
+        old = load(rec_p)
+        mine = {s["id"] for s in sheet["students"]}
+        sheet["students"] = [s for s in old.get("students", []) if s["id"] not in mine] + sheet["students"]
     save(rec_p, sheet)
     save(book_p, book)
     tmp = tempfile.mkdtemp(prefix="grade_")
