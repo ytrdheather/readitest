@@ -87,13 +87,15 @@ def show_mark(x):
     return " · ".join(CIRCLED[int(c) - 1] for c in x.replace(",", "/").split("/") if c.isdigit()) + " (두 칸)"
 
 
-def grade(d, s):
+def grade(d, s, accept=None):
+    """accept: {문항 번호: [인정 번호 …]} — 채점지 `accept` 칸. 복수정답 판정 (2026-11-08 영일중1 3세트 7번)."""
     items, essays = d["items"], d["essays"]
     ms = marks(s["mc"], len(items))
     wrong, lost_mc = [], set()
     mc_got = 0
+    ok_by = {int(k): {str(v) for v in vs} for k, vs in (accept or {}).items()}
     for it, x in zip(items, ms):
-        if x == str(it["answer"]):
+        if x == str(it["answer"]) or x in ok_by.get(it["no"], ()):
             mc_got += it["points"]
         else:
             lost_mc.add(it["no"])
@@ -186,7 +188,7 @@ def main():
     report = {"school": sheet["school"], "exam": sheet.get("exam", "중간고사"),
               "date": sheet.get("date", ""), "students": []}
     for s in sheet["students"]:
-        g = grade(d, s)
+        g = grade(d, s, sheet.get("accept"))
         s.update({k: g[k] for k in ("score", "mc", "essay", "wrong", "areas")})
         st = book.get(s["id"]) or {"name": s["name"], "school": sheet["school"],
                                    "grade": s["grade"], "records": []}
