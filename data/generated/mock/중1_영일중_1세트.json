@@ -525,10 +525,10 @@
         "ride",
         "bike"
       ],
-      "word_limit": "5단어",
+      "word_limit": "6단어",
       "target_grammar": "be going to",
-      "answer_en": "am going to ride my bike\n(완성 문장: I am going to ride my bike.)",
-      "why_ko": "가까운 미래의 계획은 「be going to+동사원형」으로 쓴다. 빈칸은 am going to ride my bike로 정확히 5단어이다."
+      "answer_en": "am going to ride my bike (a bike 도 정답)\n(완성 문장: I am going to ride my bike.)",
+      "why_ko": "가까운 미래의 계획은 「be going to+동사원형」으로 쓴다. 빈칸은 am going to ride my bike로 정확히 6단어이다. [검수 2026-11-08] 단어 수 5→6 — am going to ride my bike 는 6단어인데 5로 잘못 셌다. 학생 답 a bike 도 인정 (원장)."
     },
     {
       "no": 22,
@@ -744,6 +744,7 @@
     "verify_usd": 0.1749
   },
   "review": [
-    "검수 2026-11-04: 9번 보기 c 보어절 that(생략 여부가 문법서마다 갈림) → 지시대명사 That · 서술형 22·24 한 칸 7단어 초과 → 빈칸형(디자인 지침 4). 검토자 메모 8·16·19번은 확인 결과 문제없음(16번은 검토자가 선지 번호를 착각)"
+    "검수 2026-11-04: 9번 보기 c 보어절 that(생략 여부가 문법서마다 갈림) → 지시대명사 That · 서술형 22·24 한 칸 7단어 초과 → 빈칸형(디자인 지침 4). 검토자 메모 8·16·19번은 확인 결과 문제없음(16번은 검토자가 선지 번호를 착각)",
+    "검수 2026-11-08 (채점 중 발견): 21번 단어 수 5→6 (모범답안이 6단어) · 학생 답 「ride a bike」 인정 (원장)"
   ]
 }
