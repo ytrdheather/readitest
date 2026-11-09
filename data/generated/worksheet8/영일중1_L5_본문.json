@@ -1,0 +1,1481 @@
+{
+ "unit": "Lesson 5 Think like Sherlock Holmes!",
+ "school": "영일중",
+ "grade": "1학년",
+ "sentences": [
+  {
+   "no": 1,
+   "en": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia.",
+   "ko": "지난 토요일, 누군가가 콜롬비아 보고타에 있는 보테로 박물관의 ‘모나리자’에 케이크를 던졌다."
+  },
+  {
+   "no": 2,
+   "en": "There were four eyewitnesses. What did they say?",
+   "ko": "네 명의 목격자가 있었다. 그들이 뭐라고 말했을까?"
+  },
+  {
+   "no": 3,
+   "en": "Read the following, and find the criminal.",
+   "ko": "다음을 읽고, 범인을 찾아보자."
+  },
+  {
+   "no": 4,
+   "en": "Ann Jones, a visitor: I was looking at the Monalisa, and someone threw a cake at the painting.",
+   "ko": "Ann Jones, 방문객: 저는 ‘모나리자’를 보고 있었는데, 누군가가 그림을 향해 케이크를 던졌어요."
+  },
+  {
+   "no": 5,
+   "en": "I turned around and saw an old man.",
+   "ko": "저는 뒤를 돌아봤고 한 노인을 봤어요."
+  },
+  {
+   "no": 6,
+   "en": "He was standing in front of a wheelchair.",
+   "ko": "그는 휠체어 앞에 서 있었어요."
+  },
+  {
+   "no": 7,
+   "en": "I’m about 170 cm tall, and he was a little taller than me.",
+   "ko": "저는 키가 약 170 cm 정도인데, 그는 저보다 조금 더 컸어요."
+  },
+  {
+   "no": 8,
+   "en": "Carlos Diaz, a janitor: An old man with gray hair was running away, and something fell off his head.",
+   "ko": "Carlos Diaz, 청소부: 회색 머리의 한 노인이 도망가고 있었고, 그의 머리에서 뭔가가 떨어졌어요."
+  },
+  {
+   "no": 9,
+   "en": "It was his wig.",
+   "ko": "그것은 그의 가발이었어요."
+  },
+  {
+   "no": 10,
+   "en": "I ran after him, but I couldn’t catch him.",
+   "ko": "저는 그를 뒤쫓았지만, 잡지 못했어요."
+  },
+  {
+   "no": 11,
+   "en": "He was faster than me.",
+   "ko": "그는 저보다 더 빨랐어요."
+  },
+  {
+   "no": 12,
+   "en": "In fact, the old man was not old.",
+   "ko": "사실, 그 노인은 나이 든 사람이 아니었어요."
+  },
+  {
+   "no": 13,
+   "en": "He was a young man with long brown hair.",
+   "ko": "그는 긴 갈색 머리의 젊은 남자였어요."
+  },
+  {
+   "no": 14,
+   "en": "Diego Perez, a guard: I went to the crime scene, and there were pieces of cake all over the painting.",
+   "ko": "Diego Perez, 경비원: 저는 범죄 현장에 갔는데, 그림 곳곳에 케이크 조각들이 있었어요."
+  },
+  {
+   "no": 15,
+   "en": "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair.",
+   "ko": "그림 근처에는 휠체어도 있었고, 저는 휠체어 옆에 있는 케이크 상자를 발견했어요."
+  },
+  {
+   "no": 16,
+   "en": "The box was from Camila’s Bakery.",
+   "ko": "그 상자는 카밀라 빵집의 상자였어요."
+  },
+  {
+   "no": 17,
+   "en": "Camila Santos, the owner of Camila’s Bakery: Last Friday, a young man came in.",
+   "ko": "Camila Santos, 카밀라 빵집의 주인: 지난 금요일, 한 젊은 남자가 들어 왔어요."
+  },
+  {
+   "no": 18,
+   "en": "I spoke to him in Spanish, but he didn’t understand me. He spoke only English.",
+   "ko": "저는 그에게 스페인어로 말했지만, 그는 제 말을 이해하지 못했어요. 그는 영어로만 말했어요."
+  },
+  {
+   "no": 19,
+   "en": "We had a lot of different cakes, but he just wanted the smallest one.",
+   "ko": "우리 가게에는 많은 다른 케이크들이 있었는데, 그는 그냥 가장 작은 것을 원했어요."
+  },
+  {
+   "no": 20,
+   "en": "We sold only one cake that day, so I remember him clearly.",
+   "ko": "우리는 그날 케이크를 딱 한 개 팔았어요. 그래서 그를 똑똑히 기억해요."
+  },
+  {
+   "no": 21,
+   "en": "Oh, he had blue eyes.",
+   "ko": "아, 그의 눈은 파란색이었어요."
+  },
+  {
+   "no": 22,
+   "en": "Now, look at the information about the suspects.",
+   "ko": "이제, 용의자들에 대한 정보를 보자."
+  },
+  {
+   "no": 23,
+   "en": "Who threw the cake at the Monalisa?",
+   "ko": "누가 ‘모나리자’에게 케이크를 던졌을까?"
+  }
+ ],
+ "prep": [
+  {
+   "word": "throw",
+   "pos": "v.",
+   "ko": "던지다",
+   "def": "to send something through the air with your hand",
+   "example": "He **threw** the ball to his little sister.",
+   "example_ko": "그는 여동생에게 공을 던졌다."
+  },
+  {
+   "word": "eyewitness",
+   "pos": "n.",
+   "ko": "목격자",
+   "def": "someone who saw a crime or an accident",
+   "example": "An **eyewitness** told the police about the car accident.",
+   "example_ko": "한 목격자가 경찰에게 그 자동차 사고에 대해 말했다."
+  },
+  {
+   "word": "following",
+   "pos": "n.",
+   "ko": "다음에 말하는 것, 다음에 쓴 것",
+   "def": "the things that come next in a list or a text",
+   "example": "Read the **following** and choose the right answer.",
+   "example_ko": "다음을 읽고 알맞은 답을 고르시오."
+  },
+  {
+   "word": "criminal",
+   "pos": "n.",
+   "ko": "범인, 범죄자",
+   "def": "a person who does something against the law, like stealing or hurting others",
+   "example": "The **criminal** went to prison for ten years.",
+   "example_ko": "그 범죄자는 10년 동안 감옥에 갔다."
+  },
+  {
+   "word": "visitor",
+   "pos": "n.",
+   "ko": "방문객",
+   "def": "a person who comes to see a place or a person",
+   "example": "Many **visitors** come to Jeju Island every summer.",
+   "example_ko": "매년 여름 많은 방문객이 제주도에 온다."
+  },
+  {
+   "word": "turn around",
+   "pos": "phr.",
+   "ko": "뒤돌아보다",
+   "def": "to move your body so that you face the other way",
+   "example": "She **turned around** when I called her name.",
+   "example_ko": "내가 이름을 부르자 그녀는 뒤돌아보았다."
+  },
+  {
+   "word": "in front of",
+   "pos": "phr.",
+   "ko": "~ 앞에",
+   "def": "close to the face side of something or someone",
+   "example": "Let’s meet **in front of** the library at three.",
+   "example_ko": "3시에 도서관 앞에서 만나자."
+  },
+  {
+   "word": "wheelchair",
+   "pos": "n.",
+   "ko": "휠체어",
+   "def": "a seat that moves on round parts, used by people who cannot walk",
+   "example": "My grandfather uses a **wheelchair** after his surgery.",
+   "example_ko": "할아버지는 수술 후에 휠체어를 사용하신다."
+  },
+  {
+   "word": "a little",
+   "pos": "phr.",
+   "ko": "약간, 조금",
+   "def": "a small amount; slightly",
+   "example": "This soup is **a little** salty for me.",
+   "example_ko": "이 수프는 나에게 조금 짜다."
+  },
+  {
+   "word": "janitor",
+   "pos": "n.",
+   "ko": "청소부, 관리인",
+   "def": "a person in charge of cleaning and fixing things in a building",
+   "example": "The **janitor** fixed the broken door in our classroom.",
+   "example_ko": "관리인이 우리 교실의 고장 난 문을 고쳤다."
+  },
+  {
+   "word": "run away",
+   "pos": "phr.",
+   "ko": "도망가다",
+   "def": "to leave a place or person secretly and suddenly",
+   "example": "The cat **ran away** from the big dog.",
+   "example_ko": "고양이가 큰 개에게서 도망갔다."
+  },
+  {
+   "word": "fall off",
+   "pos": "phr.",
+   "ko": "~에서 떨어지다",
+   "def": "to drop to the ground from a high object",
+   "example": "A book **fell off** my desk.",
+   "example_ko": "책 한 권이 내 책상에서 떨어졌다."
+  },
+  {
+   "word": "wig",
+   "pos": "n.",
+   "ko": "가발",
+   "def": "an object with hair on it that someone wears on their head",
+   "example": "The actor wore a long black **wig** on stage.",
+   "example_ko": "그 배우는 무대에서 길고 검은 가발을 썼다."
+  },
+  {
+   "word": "run after",
+   "pos": "phr.",
+   "ko": "~을 뒤쫓다",
+   "def": "to follow someone quickly to get them",
+   "example": "The boy **ran after** the bus, but it left.",
+   "example_ko": "소년은 버스를 뒤쫓았지만 버스는 떠났다."
+  },
+  {
+   "word": "catch",
+   "pos": "v.",
+   "ko": "잡다",
+   "def": "to take and hold a person or thing that is moving",
+   "example": "Can you **catch** this ball with one hand?",
+   "example_ko": "이 공을 한 손으로 잡을 수 있니?"
+  },
+  {
+   "word": "in fact",
+   "pos": "phr.",
+   "ko": "사실은",
+   "def": "used to say what is really true",
+   "example": "He looks quiet, but **in fact** he talks a lot.",
+   "example_ko": "그는 조용해 보이지만, 사실은 말을 많이 한다."
+  },
+  {
+   "word": "guard",
+   "pos": "n.",
+   "ko": "경비원",
+   "def": "a person whose job is to protect a person, place, or thing from danger or attack",
+   "example": "A **guard** stands at the gate of the building.",
+   "example_ko": "경비원이 건물 입구에 서 있다."
+  },
+  {
+   "word": "scene",
+   "pos": "n.",
+   "ko": "현장",
+   "def": "the place where something happens",
+   "example": "Police cars came to the **scene** of the accident.",
+   "example_ko": "경찰차들이 사고 현장에 왔다."
+  },
+  {
+   "word": "piece",
+   "pos": "n.",
+   "ko": "조각",
+   "def": "a part that is cut or broken from something bigger",
+   "example": "Can I have a **piece** of pizza?",
+   "example_ko": "피자 한 조각 먹어도 돼?"
+  },
+  {
+   "word": "next to",
+   "pos": "phr.",
+   "ko": "~ 옆에",
+   "def": "very close to someone or something, at the side",
+   "example": "My best friend sits **next to** me in class.",
+   "example_ko": "가장 친한 친구가 수업 시간에 내 옆에 앉는다."
+  },
+  {
+   "word": "bakery",
+   "pos": "n.",
+   "ko": "빵집",
+   "def": "a place where bread and cakes are made or sold",
+   "example": "The new **bakery** sells fresh bread every morning.",
+   "example_ko": "새 빵집은 매일 아침 신선한 빵을 판다."
+  },
+  {
+   "word": "owner",
+   "pos": "n.",
+   "ko": "주인",
+   "def": "a person who has something",
+   "example": "The **owner** of this dog lives next door.",
+   "example_ko": "이 개의 주인은 옆집에 산다."
+  },
+  {
+   "word": "understand",
+   "pos": "v.",
+   "ko": "이해하다",
+   "def": "to know the meaning of something",
+   "example": "I don’t **understand** this math problem.",
+   "example_ko": "나는 이 수학 문제를 이해하지 못한다."
+  },
+  {
+   "word": "clearly",
+   "pos": "adv.",
+   "ko": "또렷하게, 분명히",
+   "def": "in a way that is easy to see, hear, or know",
+   "example": "Please speak **clearly** so everyone can hear you.",
+   "example_ko": "모두가 들을 수 있도록 또렷하게 말해 주세요."
+  },
+  {
+   "word": "suspect",
+   "pos": "n.",
+   "ko": "용의자",
+   "def": "a person who is believed to be guilty of something",
+   "example": "The police asked the **suspect** many questions.",
+   "example_ko": "경찰은 용의자에게 많은 질문을 했다."
+  }
+ ],
+ "ws1": [
+  {
+   "no": 1,
+   "en": "Last Saturday, / someone threw((던지다)) a cake / at the Monalisa / in the Botero Museum / in Bogota, Colombia.",
+   "ko": "지난 토요일 / 누군가가 케이크를 던졌다 / 모나리자에 / 보테로 박물관에 있는 / 콜롬비아 보고타의"
+  },
+  {
+   "no": 2,
+   "en": "There were four eyewitnesses((목격자)). / What did they say?",
+   "ko": "네 명의 목격자가 있었다 / 그들은 무엇을 말했을까"
+  },
+  {
+   "no": 3,
+   "en": "Read the following((다음에 말하는 것)), / and find the criminal((범인)).",
+   "ko": "다음을 읽어라 / 그리고 범인을 찾아라"
+  },
+  {
+   "no": 4,
+   "en": "Ann Jones, a visitor((방문객)): / I was looking at the Monalisa, / and someone threw a cake / at the painting.",
+   "ko": "Ann Jones, 방문객 / 나는 모나리자를 보고 있었다 / 그리고 누군가가 케이크를 던졌다 / 그 그림에"
+  },
+  {
+   "no": 5,
+   "en": "I turned around((뒤돌아보다)) / and saw an old man.",
+   "ko": "나는 뒤돌아봤다 / 그리고 한 노인을 봤다"
+  },
+  {
+   "no": 6,
+   "en": "He was standing / in front of((~ 앞에)) a wheelchair((휠체어)).",
+   "ko": "그는 서 있었다 / 휠체어 앞에"
+  },
+  {
+   "no": 7,
+   "en": "I’m about 170 cm tall, / and he was a little((조금)) taller / than me.",
+   "ko": "나는 키가 약 170 cm이다 / 그리고 그는 조금 더 컸다 / 나보다"
+  },
+  {
+   "no": 8,
+   "en": "Carlos Diaz, a janitor((청소부)): / An old man / with gray hair / was running away((도망가다)), / and something fell off((~에서 떨어지다)) / his head.",
+   "ko": "Carlos Diaz, 청소부 / 한 노인이 / 회색 머리를 한 / 도망가고 있었다 / 그리고 무언가가 떨어졌다 / 그의 머리에서"
+  },
+  {
+   "no": 9,
+   "en": "It was his wig((가발)).",
+   "ko": "그것은 그의 가발이었다"
+  },
+  {
+   "no": 10,
+   "en": "I ran after((~을 뒤쫓다)) him, / but I couldn’t catch((잡다)) him.",
+   "ko": "나는 그를 뒤쫓았다 / 하지만 나는 그를 잡을 수 없었다"
+  },
+  {
+   "no": 11,
+   "en": "He was faster / than me.",
+   "ko": "그는 더 빨랐다 / 나보다"
+  },
+  {
+   "no": 12,
+   "en": "In fact((사실은)), / the old man was not old.",
+   "ko": "사실은 / 그 노인은 늙지 않았다"
+  },
+  {
+   "no": 13,
+   "en": "He was a young man / with long brown hair.",
+   "ko": "그는 젊은 남자였다 / 긴 갈색 머리를 한"
+  },
+  {
+   "no": 14,
+   "en": "Diego Perez, a guard((경비원)): / I went to the crime scene((범죄 현장)), / and there were pieces((조각)) of cake / all over the painting.",
+   "ko": "Diego Perez, 경비원 / 나는 범죄 현장에 갔다 / 그리고 케이크 조각들이 있었다 / 그림 곳곳에"
+  },
+  {
+   "no": 15,
+   "en": "There was also a wheelchair / near the painting, / and I found a cake box / next to((~ 옆에)) the wheelchair.",
+   "ko": "휠체어도 있었다 / 그림 근처에 / 그리고 나는 케이크 상자를 발견했다 / 휠체어 옆에서"
+  },
+  {
+   "no": 16,
+   "en": "The box was / from Camila’s Bakery((빵집)).",
+   "ko": "그 상자는 ~였다 / 카밀라 빵집에서 온"
+  },
+  {
+   "no": 17,
+   "en": "Camila Santos, the owner((주인)) of Camila’s Bakery: / Last Friday, / a young man came in.",
+   "ko": "Camila Santos, 카밀라 빵집의 주인 / 지난 금요일 / 한 젊은 남자가 들어왔다"
+  },
+  {
+   "no": 18,
+   "en": "I spoke to him / in Spanish((스페인어)), / but he didn’t understand me. / He spoke only English.",
+   "ko": "나는 그에게 말했다 / 스페인어로 / 하지만 그는 내 말을 이해하지 못했다 / 그는 영어만 말했다"
+  },
+  {
+   "no": 19,
+   "en": "We had a lot of different cakes, / but he just wanted / the smallest one.",
+   "ko": "우리는 많은 다른 케이크가 있었다 / 하지만 그는 단지 원했다 / 가장 작은 것을"
+  },
+  {
+   "no": 20,
+   "en": "We sold only one cake / that day, / so I remember him clearly((또렷하게)).",
+   "ko": "우리는 케이크를 딱 한 개 팔았다 / 그날 / 그래서 나는 그를 또렷하게 기억한다"
+  },
+  {
+   "no": 21,
+   "en": "Oh, he had blue eyes.",
+   "ko": "아, 그는 파란 눈을 가지고 있었다"
+  },
+  {
+   "no": 22,
+   "en": "Now, / look at the information((정보)) / about the suspects((용의자)).",
+   "ko": "이제 / 정보를 보아라 / 용의자들에 대한"
+  },
+  {
+   "no": 23,
+   "en": "Who threw the cake / at the Monalisa?",
+   "ko": "누가 케이크를 던졌을까 / 모나리자에"
+  }
+ ],
+ "ws2": [
+  {
+   "no": 1,
+   "en": "Last Saturday, someone **threw** a cake at the Monalisa in the Botero **Museum** in Bogota, Colombia.",
+   "ko": "지난 토요일, 누군가가 콜롬비아 보고타에 있는 보테로 {{박물관}}의 ‘모나리자’에 케이크를 {{던졌}}다."
+  },
+  {
+   "no": 2,
+   "en": "There were four **eyewitnesses**. What did they **say**?",
+   "ko": "네 명의 {{목격자}}가 있었다. 그들이 뭐라고 {{말했}}을까?"
+  },
+  {
+   "no": 3,
+   "en": "Read the **following**, and find the **criminal**.",
+   "ko": "{{다음}}을 읽고, {{범인}}을 찾아보자."
+  },
+  {
+   "no": 4,
+   "en": "Ann Jones, a **visitor**: I was **looking at** the Monalisa, and someone threw a cake at the **painting**.",
+   "ko": "Ann Jones, {{방문객}}: 저는 ‘모나리자’를 {{보고}} 있었는데, 누군가가 {{그림}}을 향해 케이크를 던졌어요."
+  },
+  {
+   "no": 5,
+   "en": "I **turned around** and saw an **old man**.",
+   "ko": "저는 {{뒤를 돌아봤}}고 한 {{노인}}을 봤어요."
+  },
+  {
+   "no": 6,
+   "en": "He was **standing** **in front of** a **wheelchair**.",
+   "ko": "그는 {{휠체어}} {{앞에}} {{서}} 있었어요."
+  },
+  {
+   "no": 7,
+   "en": "I’m **about** 170 cm **tall**, and he was **a little** taller than me.",
+   "ko": "저는 {{키}}가 {{약}} 170 cm 정도인데, 그는 저보다 {{조금}} 더 컸어요."
+  },
+  {
+   "no": 8,
+   "en": "Carlos Diaz, a **janitor**: An old man with gray hair was **running away**, and something **fell off** his head.",
+   "ko": "Carlos Diaz, {{청소부}}: 회색 머리의 한 노인이 {{도망가}}고 있었고, 그의 머리에서 뭔가가 {{떨어졌}}어요."
+  },
+  {
+   "no": 9,
+   "en": "It was his **wig**.",
+   "ko": "그것은 그의 {{가발}}이었어요."
+  },
+  {
+   "no": 10,
+   "en": "I **ran after** him, but I couldn’t **catch** him.",
+   "ko": "저는 그를 {{뒤쫓았}}지만, {{잡}}지 못했어요."
+  },
+  {
+   "no": 11,
+   "en": "He was **faster** than me.",
+   "ko": "그는 저보다 {{더 빨랐}}어요."
+  },
+  {
+   "no": 12,
+   "en": "**In fact**, the old man was not **old**.",
+   "ko": "{{사실}}, 그 노인은 {{나이 든}} 사람이 아니었어요."
+  },
+  {
+   "no": 13,
+   "en": "He was a **young** man with long **brown** hair.",
+   "ko": "그는 긴 {{갈색}} 머리의 {{젊은}} 남자였어요."
+  },
+  {
+   "no": 14,
+   "en": "Diego Perez, a **guard**: I went to the **crime scene**, and there were **pieces** of cake all over the painting.",
+   "ko": "Diego Perez, {{경비원}}: 저는 {{범죄 현장}}에 갔는데, 그림 곳곳에 케이크 {{조각}}들이 있었어요."
+  },
+  {
+   "no": 15,
+   "en": "There was also a wheelchair **near** the painting, and I **found** a cake box **next to** the wheelchair.",
+   "ko": "그림 {{근처}}에는 휠체어도 있었고, 저는 휠체어 {{옆에}} 있는 케이크 상자를 {{발견했}}어요."
+  },
+  {
+   "no": 16,
+   "en": "The box was from Camila’s **Bakery**.",
+   "ko": "그 상자는 카밀라 {{빵집}}의 상자였어요."
+  },
+  {
+   "no": 17,
+   "en": "Camila Santos, the **owner** of Camila’s Bakery: **Last** Friday, a young man **came in**.",
+   "ko": "Camila Santos, 카밀라 빵집의 {{주인}}: {{지난}} 금요일, 한 젊은 남자가 {{들어}} 왔어요."
+  },
+  {
+   "no": 18,
+   "en": "I spoke to him in **Spanish**, but he didn’t **understand** me. He spoke only English.",
+   "ko": "저는 그에게 {{스페인어}}로 말했지만, 그는 제 말을 {{이해하}}지 못했어요. 그는 영어로만 말했어요."
+  },
+  {
+   "no": 19,
+   "en": "We had a lot of **different** cakes, but he just wanted the **smallest** one.",
+   "ko": "우리 가게에는 많은 {{다른}} 케이크들이 있었는데, 그는 그냥 {{가장 작은}} 것을 원했어요."
+  },
+  {
+   "no": 20,
+   "en": "We **sold** only one cake that day, so I **remember** him **clearly**.",
+   "ko": "우리는 그날 케이크를 딱 한 개 {{팔았}}어요. 그래서 그를 {{똑똑히}} {{기억해}}요."
+  },
+  {
+   "no": 21,
+   "en": "Oh, he had **blue** **eyes**.",
+   "ko": "아, 그의 {{눈}}은 {{파란색}}이었어요."
+  },
+  {
+   "no": 22,
+   "en": "Now, look at the **information** about the **suspects**.",
+   "ko": "이제, {{용의자}}들에 대한 {{정보}}를 보자."
+  },
+  {
+   "no": 23,
+   "en": "**Who** **threw** the cake at the Monalisa?",
+   "ko": "{{누가}} ‘모나리자’에게 케이크를 {{던졌}}을까?"
+  }
+ ],
+ "ws3": [
+  {
+   "no": 1,
+   "ko": "지난 토요일, 누군가가 콜롬비아 보고타에 있는 보테로 **박물관**의 ‘모나리자’에 케이크를 **던졌**다.",
+   "en": "Last Saturday, someone {{threw}} a cake at the Monalisa in the Botero {{Museum}} in Bogota, Colombia."
+  },
+  {
+   "no": 2,
+   "ko": "네 명의 **목격자**가 있었다. 그들이 뭐라고 **말했**을까?",
+   "en": "There were four {{eyewitnesses}}. What did they {{say}}?"
+  },
+  {
+   "no": 3,
+   "ko": "**다음**을 읽고, **범인**을 찾아보자.",
+   "en": "Read the {{following}}, and find the {{criminal}}."
+  },
+  {
+   "no": 4,
+   "ko": "Ann Jones, **방문객**: 저는 ‘모나리자’를 **보고** 있었는데, 누군가가 **그림**을 향해 케이크를 던졌어요.",
+   "en": "Ann Jones, a {{visitor}}: I was {{looking at}} the Monalisa, and someone threw a cake at the {{painting}}."
+  },
+  {
+   "no": 5,
+   "ko": "저는 **뒤를 돌아봤**고 한 **노인**을 봤어요.",
+   "en": "I {{turned around}} and saw an {{old man}}."
+  },
+  {
+   "no": 6,
+   "ko": "그는 **휠체어** **앞에** **서** 있었어요.",
+   "en": "He was {{standing}} {{in front of}} a {{wheelchair}}."
+  },
+  {
+   "no": 7,
+   "ko": "저는 **키**가 **약** 170 cm 정도인데, 그는 저보다 **조금** 더 컸어요.",
+   "en": "I’m {{about}} 170 cm {{tall}}, and he was {{a little}} taller than me."
+  },
+  {
+   "no": 8,
+   "ko": "Carlos Diaz, **청소부**: 회색 머리의 한 노인이 **도망가**고 있었고, 그의 머리에서 뭔가가 **떨어졌**어요.",
+   "en": "Carlos Diaz, a {{janitor}}: An old man with gray hair was {{running away}}, and something {{fell off}} his head."
+  },
+  {
+   "no": 9,
+   "ko": "그것은 그의 **가발**이었어요.",
+   "en": "It was his {{wig}}."
+  },
+  {
+   "no": 10,
+   "ko": "저는 그를 **뒤쫓았**지만, **잡**지 못했어요.",
+   "en": "I {{ran after}} him, but I couldn’t {{catch}} him."
+  },
+  {
+   "no": 11,
+   "ko": "그는 저보다 **더 빨랐**어요.",
+   "en": "He was {{faster}} than me."
+  },
+  {
+   "no": 12,
+   "ko": "**사실**, 그 노인은 **나이 든** 사람이 아니었어요.",
+   "en": "{{In fact}}, the old man was not {{old}}."
+  },
+  {
+   "no": 13,
+   "ko": "그는 긴 **갈색** 머리의 **젊은** 남자였어요.",
+   "en": "He was a {{young}} man with long {{brown}} hair."
+  },
+  {
+   "no": 14,
+   "ko": "Diego Perez, **경비원**: 저는 **범죄 현장**에 갔는데, 그림 곳곳에 케이크 **조각**들이 있었어요.",
+   "en": "Diego Perez, a {{guard}}: I went to the {{crime scene}}, and there were {{pieces}} of cake all over the painting."
+  },
+  {
+   "no": 15,
+   "ko": "그림 **근처**에는 휠체어도 있었고, 저는 휠체어 **옆에** 있는 케이크 상자를 **발견했**어요.",
+   "en": "There was also a wheelchair {{near}} the painting, and I {{found}} a cake box {{next to}} the wheelchair."
+  },
+  {
+   "no": 16,
+   "ko": "그 상자는 카밀라 **빵집**의 상자였어요.",
+   "en": "The box was from Camila’s {{Bakery}}."
+  },
+  {
+   "no": 17,
+   "ko": "Camila Santos, 카밀라 빵집의 **주인**: **지난** 금요일, 한 젊은 남자가 **들어** 왔어요.",
+   "en": "Camila Santos, the {{owner}} of Camila’s Bakery: {{Last}} Friday, a young man {{came in}}."
+  },
+  {
+   "no": 18,
+   "ko": "저는 그에게 **스페인어**로 말했지만, 그는 제 말을 **이해하**지 못했어요. 그는 영어로만 말했어요.",
+   "en": "I spoke to him in {{Spanish}}, but he didn’t {{understand}} me. He spoke only English."
+  },
+  {
+   "no": 19,
+   "ko": "우리 가게에는 많은 **다른** 케이크들이 있었는데, 그는 그냥 **가장 작은** 것을 원했어요.",
+   "en": "We had a lot of {{different}} cakes, but he just wanted the {{smallest}} one."
+  },
+  {
+   "no": 20,
+   "ko": "우리는 그날 케이크를 딱 한 개 **팔았**어요. 그래서 그를 **똑똑히** **기억해**요.",
+   "en": "We {{sold}} only one cake that day, so I {{remember}} him {{clearly}}."
+  },
+  {
+   "no": 21,
+   "ko": "아, 그의 **눈**은 **파란색**이었어요.",
+   "en": "Oh, he had {{blue}} {{eyes}}."
+  },
+  {
+   "no": 22,
+   "ko": "이제, **용의자**들에 대한 **정보**를 보자.",
+   "en": "Now, look at the {{information}} about the {{suspects}}."
+  },
+  {
+   "no": 23,
+   "ko": "**누가** ‘모나리자’에게 케이크를 **던졌**을까?",
+   "en": "{{Who}} {{threw}} the cake at the Monalisa?"
+  }
+ ],
+ "ws4": [
+  {
+   "no": 1,
+   "en": "Last Saturday, someone ^^(throw)^^ a cake at the Monalisa in the Botero Museum in Bogota, Colombia.",
+   "answer": [
+    "threw"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "There ^^(be)^^ four eyewitnesses. What ^^(do)^^ they ^^(say)^^?",
+   "answer": [
+    "were",
+    "did",
+    "say"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "^^(read)^^ the following, and ^^(find)^^ the criminal.",
+   "answer": [
+    "Read",
+    "find"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "Ann Jones, a visitor: I ^^(look)^^ at the Monalisa, and someone ^^(throw)^^ a cake at the painting.",
+   "answer": [
+    "was looking",
+    "threw"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "I ^^(turn)^^ around and ^^(see)^^ an old man.",
+   "answer": [
+    "turned",
+    "saw"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "He ^^(stand)^^ in front of a wheelchair.",
+   "answer": [
+    "was standing"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "I ^^(be)^^ about 170 cm tall, and he ^^(be)^^ a little taller than me.",
+   "answer": [
+    "’m (am)",
+    "was"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "Carlos Diaz, a janitor: An old man with gray hair ^^(run)^^ away, and something ^^(fall)^^ off his head.",
+   "answer": [
+    "was running",
+    "fell"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "It ^^(be)^^ his wig.",
+   "answer": [
+    "was"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I ^^(run)^^ after him, but I ^^(can’t, catch)^^ him.",
+   "answer": [
+    "ran",
+    "couldn’t catch"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "He ^^(be)^^ faster than me.",
+   "answer": [
+    "was"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "In fact, the old man ^^(be)^^ not old.",
+   "answer": [
+    "was"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "He ^^(be)^^ a young man with long brown hair.",
+   "answer": [
+    "was"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Diego Perez, a guard: I ^^(go)^^ to the crime scene, and there ^^(be)^^ pieces of cake all over the painting.",
+   "answer": [
+    "went",
+    "were"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "There ^^(be)^^ also a wheelchair near the painting, and I ^^(find)^^ a cake box next to the wheelchair.",
+   "answer": [
+    "was",
+    "found"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "The box ^^(be)^^ from Camila’s Bakery.",
+   "answer": [
+    "was"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "Camila Santos, the owner of Camila’s Bakery: Last Friday, a young man ^^(come)^^ in.",
+   "answer": [
+    "came"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "I ^^(speak)^^ to him in Spanish, but he ^^(don’t, understand)^^ me. He ^^(speak)^^ only English.",
+   "answer": [
+    "spoke",
+    "didn’t understand",
+    "spoke"
+   ]
+  },
+  {
+   "no": 19,
+   "en": "We ^^(have)^^ a lot of different cakes, but he just ^^(want)^^ the smallest one.",
+   "answer": [
+    "had",
+    "wanted"
+   ]
+  },
+  {
+   "no": 20,
+   "en": "We ^^(sell)^^ only one cake that day, so I ^^(remember)^^ him clearly.",
+   "answer": [
+    "sold",
+    "remember"
+   ]
+  },
+  {
+   "no": 21,
+   "en": "Oh, he ^^(have)^^ blue eyes.",
+   "answer": [
+    "had"
+   ]
+  },
+  {
+   "no": 22,
+   "en": "Now, ^^(look)^^ at the information about the suspects.",
+   "answer": [
+    "look"
+   ]
+  },
+  {
+   "no": 23,
+   "en": "Who ^^(throw)^^ the cake at the Monalisa?",
+   "answer": [
+    "threw"
+   ]
+  }
+ ],
+ "ws5": [
+  {
+   "no": 1,
+   "en": "Last Saturday, someone ^^[throws / threw]^^ a cake at the Monalisa in the Botero Museum ^^[in Bogota, Colombia / in Colombia, Bogota]^^.",
+   "answer": [
+    "threw",
+    "in Bogota, Colombia"
+   ]
+  },
+  {
+   "no": 2,
+   "en": "There ^^[was / were]^^ four eyewitnesses. What ^^[they said / did they say]^^?",
+   "answer": [
+    "were",
+    "did they say"
+   ]
+  },
+  {
+   "no": 3,
+   "en": "Read the following, and ^^[find / finds]^^ the criminal.",
+   "answer": [
+    "find"
+   ]
+  },
+  {
+   "no": 4,
+   "en": "Ann Jones, a visitor: I ^^[were / was]^^ looking at the Monalisa, and someone ^^[threw / thrown]^^ a cake at the painting.",
+   "answer": [
+    "was",
+    "threw"
+   ]
+  },
+  {
+   "no": 5,
+   "en": "I turned around and ^^[seen / saw]^^ an old man.",
+   "answer": [
+    "saw"
+   ]
+  },
+  {
+   "no": 6,
+   "en": "He was ^^[standing / stand]^^ in front of a wheelchair.",
+   "answer": [
+    "standing"
+   ]
+  },
+  {
+   "no": 7,
+   "en": "I’m about 170 cm tall, and he was a little ^^[more tall / taller]^^ than me.",
+   "answer": [
+    "taller"
+   ]
+  },
+  {
+   "no": 8,
+   "en": "Carlos Diaz, a janitor: An old man with gray hair ^^[was / were]^^ running away, and something ^^[falled / fell]^^ off his head.",
+   "answer": [
+    "was",
+    "fell"
+   ]
+  },
+  {
+   "no": 9,
+   "en": "It ^^[were / was]^^ his wig.",
+   "answer": [
+    "was"
+   ]
+  },
+  {
+   "no": 10,
+   "en": "I ran after him, but I couldn’t ^^[catch / caught]^^ him.",
+   "answer": [
+    "catch"
+   ]
+  },
+  {
+   "no": 11,
+   "en": "He was ^^[fast / faster]^^ than me.",
+   "answer": [
+    "faster"
+   ]
+  },
+  {
+   "no": 12,
+   "en": "In fact, the old man ^^[did not / was not]^^ old.",
+   "answer": [
+    "was not"
+   ]
+  },
+  {
+   "no": 13,
+   "en": "He was ^^[a / an]^^ young man with long brown hair.",
+   "answer": [
+    "a"
+   ]
+  },
+  {
+   "no": 14,
+   "en": "Diego Perez, a guard: I ^^[went / go]^^ to the crime scene, and there were ^^[piece / pieces]^^ of cake all over the painting.",
+   "answer": [
+    "went",
+    "pieces"
+   ]
+  },
+  {
+   "no": 15,
+   "en": "There ^^[were / was]^^ also a wheelchair near the painting, and I found a cake box next ^^[to / of]^^ the wheelchair.",
+   "answer": [
+    "was",
+    "to"
+   ]
+  },
+  {
+   "no": 16,
+   "en": "The box was from ^^[Camila’s / Camilas]^^ Bakery.",
+   "answer": [
+    "Camila’s"
+   ]
+  },
+  {
+   "no": 17,
+   "en": "Camila Santos, the owner of Camila’s Bakery: ^^[On last Friday / Last Friday]^^, a young man ^^[came / come]^^ in.",
+   "answer": [
+    "Last Friday",
+    "came"
+   ]
+  },
+  {
+   "no": 18,
+   "en": "I spoke to ^^[he / him]^^ in Spanish, but he ^^[doesn’t / didn’t]^^ understand me. He spoke only English.",
+   "answer": [
+    "him",
+    "didn’t"
+   ]
+  },
+  {
+   "no": 19,
+   "en": "We had a lot of different ^^[cakes / cake]^^, but he just wanted the ^^[smaller / smallest]^^ one.",
+   "answer": [
+    "cakes",
+    "smallest"
+   ]
+  },
+  {
+   "no": 20,
+   "en": "We sold only one cake that day, so I remember him ^^[clearly / clear]^^.",
+   "answer": [
+    "clearly"
+   ]
+  },
+  {
+   "no": 21,
+   "en": "Oh, he ^^[has / had]^^ blue eyes.",
+   "answer": [
+    "had"
+   ]
+  },
+  {
+   "no": 22,
+   "en": "Now, ^^[look / looks]^^ at the ^^[informations / information]^^ about the suspects.",
+   "answer": [
+    "look",
+    "information"
+   ]
+  },
+  {
+   "no": 23,
+   "en": "Who ^^[did throw / threw]^^ the cake at the Monalisa?",
+   "answer": [
+    "threw"
+   ]
+  }
+ ],
+ "ws6": [
+  {
+   "lines": [
+    "Who Threw a Cake at the Monalisa?",
+    "Last Saturday, someone **throws** a cake at the Monalisa **in** the Botero Museum **in Bogota, Colombia**. There **were** four eyewitnesses. What **they said**? **Read** the following, and **find** the criminal."
+   ],
+   "errors": [
+    {
+     "wrong": "throws",
+     "right": "threw",
+     "reason": "Last Saturday 는 과거 — throw 의 과거형 threw"
+    },
+    {
+     "wrong": "they said",
+     "right": "did they say",
+     "reason": "의문사 의문문 어순: 의문사 + did + 주어 + 동사원형"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "^^Ann Jones, a visitor^^",
+    "I **were** looking at the Monalisa, and someone **threw** a cake at the painting. I turned around and **see** an old man. He was **standing** in front of a wheelchair. I’m **about** 170 cm tall, and he was a little **more taller** than me."
+   ],
+   "errors": [
+    {
+     "wrong": "were",
+     "right": "was",
+     "reason": "주어 I 의 과거진행형은 was + -ing"
+    },
+    {
+     "wrong": "see",
+     "right": "saw",
+     "reason": "turned 와 and 로 이어진 과거 — see 의 과거형 saw"
+    },
+    {
+     "wrong": "more taller",
+     "right": "taller",
+     "reason": "taller 가 이미 비교급 — more 를 겹쳐 쓰지 않는다"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "^^Carlos Diaz, a janitor^^",
+    "An old man with gray hair **was** running away, and something **falled** off his head. It **was** his wig. I ran after him, but I couldn’t **caught** him. He was **faster** than me. In fact, the old man was not old. He was **a** young man with long brown hair."
+   ],
+   "errors": [
+    {
+     "wrong": "falled",
+     "right": "fell",
+     "reason": "fall 의 과거형은 fell (불규칙)"
+    },
+    {
+     "wrong": "caught",
+     "right": "catch",
+     "reason": "조동사 couldn’t + 동사원형"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "^^Diego Perez, a guard^^",
+    "I **went** to the crime scene, and there **was** pieces of cake all over the painting. There was also a wheelchair **near** the painting, and I **find** a cake box **next to** the wheelchair. The box was **from** Camila’s Bakery."
+   ],
+   "errors": [
+    {
+     "wrong": "was",
+     "right": "were",
+     "reason": "there + be 뒤의 주어 pieces 가 복수"
+    },
+    {
+     "wrong": "find",
+     "right": "found",
+     "reason": "지난 일 — find 의 과거형 found"
+    }
+   ]
+  },
+  {
+   "lines": [
+    "^^Camila Santos, the owner of Camila’s Bakery^^",
+    "Last Friday, a young man came in. I spoke to **he** in Spanish, but he **didn’t understand** me. He spoke only English. We had a lot of different **cake**, but he just wanted the smallest one. We sold only one cake that day, so I remember him **clear**. Oh, he **had** blue eyes.",
+    "Now, **looks** at the information about the suspects. Who threw the cake at the Monalisa?"
+   ],
+   "errors": [
+    {
+     "wrong": "he",
+     "right": "him",
+     "reason": "전치사 to 뒤는 목적격"
+    },
+    {
+     "wrong": "cake",
+     "right": "cakes",
+     "reason": "a lot of different + 셀 수 있는 명사 복수"
+    },
+    {
+     "wrong": "clear",
+     "right": "clearly",
+     "reason": "동사 remember 를 꾸미는 부사"
+    },
+    {
+     "wrong": "looks",
+     "right": "look",
+     "reason": "명령문은 동사원형으로 시작"
+    }
+   ]
+  }
+ ],
+ "ws7": [
+  {
+   "no": 1,
+   "en": "Last Saturday, (a cake / someone / throw) (in the Botero Museum / at the Monalisa) in Bogota, Colombia.",
+   "answer": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia."
+  },
+  {
+   "no": 2,
+   "en": "(four eyewitnesses / there / be). (say / they / what / do)?",
+   "answer": "There were four eyewitnesses. What did they say?"
+  },
+  {
+   "no": 3,
+   "en": "(the following / read), and (the criminal / find).",
+   "answer": "Read the following, and find the criminal."
+  },
+  {
+   "no": 4,
+   "en": "Ann Jones, a visitor: (at the Monalisa / I / look), and (a cake / throw / someone) (the painting / at).",
+   "answer": "Ann Jones, a visitor: I was looking at the Monalisa, and someone threw a cake at the painting."
+  },
+  {
+   "no": 5,
+   "en": "(around / I / turn) and (an old man / see).",
+   "answer": "I turned around and saw an old man."
+  },
+  {
+   "no": 6,
+   "en": "(stand / he) (a wheelchair / in front of).",
+   "answer": "He was standing in front of a wheelchair."
+  },
+  {
+   "no": 7,
+   "en": "(about 170 cm / I’m / tall), and (taller / he / a little / be) (me / than).",
+   "answer": "I’m about 170 cm tall, and he was a little taller than me."
+  },
+  {
+   "no": 8,
+   "en": "Carlos Diaz, a janitor: (with gray hair / an old man / run / away), and (his head / off / fall / something).",
+   "answer": "Carlos Diaz, a janitor: An old man with gray hair was running away, and something fell off his head."
+  },
+  {
+   "no": 9,
+   "en": "(his wig / be / it).",
+   "answer": "It was his wig."
+  },
+  {
+   "no": 10,
+   "en": "(him / run / after / I), but (him / can’t / catch / I).",
+   "answer": "I ran after him, but I couldn’t catch him."
+  },
+  {
+   "no": 11,
+   "en": "(faster / be / he) (me / than).",
+   "answer": "He was faster than me."
+  },
+  {
+   "no": 12,
+   "en": "In fact, (not / be / old / the old man).",
+   "answer": "In fact, the old man was not old."
+  },
+  {
+   "no": 13,
+   "en": "(a young man / be / he) (long brown hair / with).",
+   "answer": "He was a young man with long brown hair."
+  },
+  {
+   "no": 14,
+   "en": "Diego Perez, a guard: (the crime scene / go / to / I), and (pieces of cake / there / be) (the painting / all over).",
+   "answer": "Diego Perez, a guard: I went to the crime scene, and there were pieces of cake all over the painting."
+  },
+  {
+   "no": 15,
+   "en": "(also / a wheelchair / be / there) (the painting / near), and (a cake box / find / I) (the wheelchair / next to).",
+   "answer": "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair."
+  },
+  {
+   "no": 16,
+   "en": "(be / the box) (Camila’s Bakery / from).",
+   "answer": "The box was from Camila’s Bakery."
+  },
+  {
+   "no": 17,
+   "en": "Camila Santos, the owner of Camila’s Bakery: Last Friday, (in / come / a young man).",
+   "answer": "Camila Santos, the owner of Camila’s Bakery: Last Friday, a young man came in."
+  },
+  {
+   "no": 18,
+   "en": "(him / speak / I / to) (Spanish / in), but (understand / me / don’t / he). (only English / speak / he).",
+   "answer": "I spoke to him in Spanish, but he didn’t understand me. He spoke only English."
+  },
+  {
+   "no": 19,
+   "en": "(a lot of / we / have / different cakes), but (want / he / just) (one / the smallest).",
+   "answer": "We had a lot of different cakes, but he just wanted the smallest one."
+  },
+  {
+   "no": 20,
+   "en": "(one cake / sell / only / we) (day / that), so (clearly / him / I / remember).",
+   "answer": "We sold only one cake that day, so I remember him clearly."
+  },
+  {
+   "no": 21,
+   "en": "Oh, (blue eyes / have / he).",
+   "answer": "Oh, he had blue eyes."
+  },
+  {
+   "no": 22,
+   "en": "Now, (the information / look at) (the suspects / about).",
+   "answer": "Now, look at the information about the suspects."
+  },
+  {
+   "no": 23,
+   "en": "(throw / who) (the cake / at the Monalisa)?",
+   "answer": "Who threw the cake at the Monalisa?"
+  }
+ ],
+ "ws8": [
+  {
+   "no": 1,
+   "keywords": [
+    "throw",
+    "cake",
+    "museum"
+   ],
+   "frame": "Last Saturday, {{#14}}.",
+   "answer": "Last Saturday, someone threw a cake at the Monalisa in the Botero Museum in Bogota, Colombia."
+  },
+  {
+   "no": 2,
+   "keywords": [
+    "there",
+    "eyewitness",
+    "say"
+   ],
+   "frame": "{{#4}}. {{#4}}?",
+   "answer": "There were four eyewitnesses. What did they say?"
+  },
+  {
+   "no": 3,
+   "keywords": [
+    "read",
+    "following",
+    "criminal"
+   ],
+   "frame": "{{#7}}.",
+   "answer": "Read the following, and find the criminal."
+  },
+  {
+   "no": 4,
+   "keywords": [
+    "look at",
+    "throw",
+    "painting"
+   ],
+   "frame": "Ann Jones, a visitor: {{#6}}, and {{#7}}.",
+   "answer": "Ann Jones, a visitor: I was looking at the Monalisa, and someone threw a cake at the painting."
+  },
+  {
+   "no": 5,
+   "keywords": [
+    "turn around",
+    "see",
+    "old man"
+   ],
+   "frame": "{{#8}}.",
+   "answer": "I turned around and saw an old man."
+  },
+  {
+   "no": 6,
+   "keywords": [
+    "stand",
+    "in front of",
+    "wheelchair"
+   ],
+   "frame": "{{#8}}.",
+   "answer": "He was standing in front of a wheelchair."
+  },
+  {
+   "no": 7,
+   "keywords": [
+    "about",
+    "tall",
+    "a little",
+    "than"
+   ],
+   "frame": "{{#5}}, and {{#7}}.",
+   "answer": "I’m about 170 cm tall, and he was a little taller than me."
+  },
+  {
+   "no": 8,
+   "keywords": [
+    "gray hair",
+    "run away",
+    "fall off"
+   ],
+   "frame": "Carlos Diaz, a janitor: {{#9}}, and {{#5}}.",
+   "answer": "Carlos Diaz, a janitor: An old man with gray hair was running away, and something fell off his head."
+  },
+  {
+   "no": 9,
+   "keywords": [
+    "it",
+    "wig"
+   ],
+   "frame": "{{#4}}.",
+   "answer": "It was his wig."
+  },
+  {
+   "no": 10,
+   "keywords": [
+    "run after",
+    "can",
+    "catch"
+   ],
+   "frame": "{{#4}}, but {{#4}}.",
+   "answer": "I ran after him, but I couldn’t catch him."
+  },
+  {
+   "no": 11,
+   "keywords": [
+    "fast",
+    "than"
+   ],
+   "frame": "{{#5}}.",
+   "answer": "He was faster than me."
+  },
+  {
+   "no": 12,
+   "keywords": [
+    "in fact",
+    "old"
+   ],
+   "frame": "{{#8}}.",
+   "answer": "In fact, the old man was not old."
+  },
+  {
+   "no": 13,
+   "keywords": [
+    "young",
+    "with",
+    "brown hair"
+   ],
+   "frame": "{{#9}}.",
+   "answer": "He was a young man with long brown hair."
+  },
+  {
+   "no": 14,
+   "keywords": [
+    "crime scene",
+    "pieces",
+    "all over"
+   ],
+   "frame": "Diego Perez, a guard: {{#6}}, and {{#9}}.",
+   "answer": "Diego Perez, a guard: I went to the crime scene, and there were pieces of cake all over the painting."
+  },
+  {
+   "no": 15,
+   "keywords": [
+    "also",
+    "near",
+    "find",
+    "next to"
+   ],
+   "frame": "{{#8}}, and {{#9}}.",
+   "answer": "There was also a wheelchair near the painting, and I found a cake box next to the wheelchair."
+  },
+  {
+   "no": 16,
+   "keywords": [
+    "box",
+    "from",
+    "bakery"
+   ],
+   "frame": "{{#6}}.",
+   "answer": "The box was from Camila’s Bakery."
+  },
+  {
+   "no": 17,
+   "keywords": [
+    "last",
+    "come in"
+   ],
+   "frame": "Camila Santos, the owner of Camila’s Bakery: {{#7}}.",
+   "answer": "Camila Santos, the owner of Camila’s Bakery: Last Friday, a young man came in."
+  },
+  {
+   "no": 18,
+   "keywords": [
+    "speak",
+    "Spanish",
+    "understand",
+    "only"
+   ],
+   "frame": "{{#6}}, but {{#4}}. {{#4}}.",
+   "answer": "I spoke to him in Spanish, but he didn’t understand me. He spoke only English."
+  },
+  {
+   "no": 19,
+   "keywords": [
+    "different",
+    "just",
+    "want",
+    "smallest"
+   ],
+   "frame": "{{#7}}, but {{#6}}.",
+   "answer": "We had a lot of different cakes, but he just wanted the smallest one."
+  },
+  {
+   "no": 20,
+   "keywords": [
+    "sell",
+    "only",
+    "remember",
+    "clearly"
+   ],
+   "frame": "{{#7}}, so {{#4}}.",
+   "answer": "We sold only one cake that day, so I remember him clearly."
+  },
+  {
+   "no": 21,
+   "keywords": [
+    "have",
+    "blue eyes"
+   ],
+   "frame": "Oh, {{#4}}.",
+   "answer": "Oh, he had blue eyes."
+  },
+  {
+   "no": 22,
+   "keywords": [
+    "look at",
+    "information",
+    "suspect"
+   ],
+   "frame": "Now, {{#7}}.",
+   "answer": "Now, look at the information about the suspects."
+  },
+  {
+   "no": 23,
+   "keywords": [
+    "who",
+    "throw"
+   ],
+   "frame": "{{#7}}?",
+   "answer": "Who threw the cake at the Monalisa?"
+  }
+ ]
+}
