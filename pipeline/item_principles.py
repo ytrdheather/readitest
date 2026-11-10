@@ -28,7 +28,9 @@ CIRC = "①②③④⑤"
 # 뒤에 「것·곳·말…」 이 와야 발문으로 본다 (「다른 사람」 같은 본문 낱말은 건드리지 않는다).
 NEG = re.compile(r"(않은|않는|없는|아닌|틀린|어색한|다른)(?=\s*(것|하나|곳|말|문장|낱말|부분|짝|선지))")
 
-_BARE = re.compile(r"^\s*([①②③④⑤]|\[\d\]|\(\d\))\s*$")
+# ⓐ~ⓔ 도 번호뿐인 선지다 — 2026-11-10 「ⓐ~ⓔ 중 문맥상 낱말」(VOCAB) 문항이 GRAMMAR-INLINE 이 아니라서
+# 옮겨져 선지가 ⓔⓐⓑⓒⓓ 로 섞였다 (영일중3 4세트, 종이로 나가기 전에 잡음).
+_BARE = re.compile(r"^\s*([①②③④⑤ⓐ-ⓔ]|\[\d\]|\(\d\)|\([A-Ea-e]\))\s*$")
 _LEAD = re.compile(r"^\s*[①②③④⑤]\s*")
 _NUM = re.compile(r"\d+")
 _ALL = re.compile(r"^(모두|위의? .*모두|all of the above|none of the above)", re.I)

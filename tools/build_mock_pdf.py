@@ -77,7 +77,9 @@ def main():
         for f in files:
             d = json.load(io.open(f, encoding="utf-8"))
             # 학년은 파일명 접두어 '중1_' 로 안다 (make_mock_exam --grade 1). 없으면 중2.
-            grade = "1" if os.path.basename(f).startswith("중1_") else GRADE
+            # 중3 도 있다 (2026-11-10 영일중3 4세트) — 「중3_」 을 중2 로 읽으면 「영일중2 … 4세트」 로 나간다.
+            gm = re.match(r"중(\d)_", os.path.basename(f))
+            grade = gm.group(1) if gm else GRADE
             # 중1 은 과를 이름에 붙인다 — 실제로 실은 지문(P)의 과에서 읽는다. 「5과」 를 박아 두었더니
             # 5·6·7과 혼합인 영일중1 세트가 「5과」 로 나갔다 (2026-10-04).
             # 세트마다 실은 과가 달라도(영일중1 3세트는 L5·L7 만) 시험 범위는 같으니 학교 전체로 모은다.
@@ -85,7 +87,7 @@ def main():
             # 5과 단독(1~3)과 5·6과 합본(4~6)이 한 학교에 같이 있다.
             lessons = ([int(c) for c in d["range"]] if d.get("range")
                        else school_lessons(files, os.path.basename(f).rsplit("_", 1)[0]))
-            lesson = (" " + "·".join(map(str, lessons)) + "과") if grade == "1" and lessons else ""
+            lesson = (" " + "·".join(map(str, lessons)) + "과") if grade != GRADE and lessons else ""
             base = f"{d['school']}{grade}{lesson} 동형모의고사 {d['set_no']}세트"
             # 줄바꿈·고쳐쓰기는 parse() 가 원본으로 덮어써 이미 해결된 기록이다
             # 구조가 깨진 세트(문항 수·배점이 설계와 다름)는 종이로 내보내지 않는다 —
