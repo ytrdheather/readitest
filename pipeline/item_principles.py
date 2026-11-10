@@ -195,4 +195,11 @@ def check(items, mats=None):
             if L[a - 1] >= 8 and L[a - 1] > rest * 1.25:
                 warnings.append(f"{it.get('no')}번 정답 선지만 눈에 띄게 김 "
                                 f"({L[a - 1]}자 · 나머지 최장 {rest}자) — 길이로 답이 보임")
+    # 디자인 지침 7 — 줄 나눔 없이 긴 지문 (교사 자작 단락처럼 원래 한 단락인 짧은 글은 400자 이하라 안 걸린다)
+    from pipeline.layout import breaks_for, unbroken
+    for mid in dict.fromkeys(it.get("material_id") for it in items):
+        m = (mats or {}).get(mid)
+        if m and unbroken(m.get("text", ""), 600) and not breaks_for(m):
+            warnings.append(f"자료 {mid} 「{m.get('title', '')}」 {len(m['text'])}자가 줄 나눔 없이 한 덩어리 — "
+                            "data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)")
     return problems, warnings

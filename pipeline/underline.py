@@ -68,9 +68,17 @@ def locate(text, entries):
     return sorted(spans), drop, missing
 
 
-def html_with_underline(text, entries):
-    """지문 한 덩어리를 HTML 로 — 줄마다 <p>, 밑줄은 <u>."""
+def html_with_underline(text, entries, breaks=()):
+    """지문 한 덩어리를 HTML 로 — 줄마다 <p>, 밑줄은 <u>.
+
+    breaks: 손 줄 나눔(pipeline/layout.py). 화자 · 소제목 · 보기 항목 앞 자동 줄 나눔도 여기서 —
+    글자는 그대로 두고 그 자리의 공백만 줄바꿈으로 찍는다 (디자인 지침 7, 2026-11-08).
+    """
+    from pipeline.layout import break_positions
     spans, drop, _ = locate(text, entries)
+    nl = break_positions(text, breaks)
+    for p, n in nl.items():
+        drop.update(range(p, p + n))
     boxes = locate.boxes
     bstart = {a for a, _ in boxes}
     bend = {b for _, b in boxes}
@@ -92,6 +100,8 @@ def html_with_underline(text, entries):
             depth += starts[i]
         if i in bstart:
             out.append('<span class="choice">')
+        if i in nl:                                         # 자동 · 손 줄 나눔
+            out.append("</u>" * depth + "\n" + "<u>" * depth)
         if ch == "\0" or i in drop:
             continue
         if ch == "\n":
@@ -99,5 +109,11 @@ def html_with_underline(text, entries):
             continue
         out.append(html.escape(ch, quote=False))
     out.append("</u>" * depth)
-    return "".join(f"<p>{ln}</p>" for ln in "".join(out).split("\n")
+
+    def p(ln):
+        # 소제목 · 화자 이름 줄(「Challenge 01 Reduce Food Waste」 「Ann Jones, a visitor」)은 굵게 — 짧고 문장부호로 안 끝남
+        plain = re.sub(r"<[^>]+>", "", ln).strip()
+        sub = len(plain) <= 45 and not re.search(r"[.?!:”\"’)]$", plain) and not re.match(r"^[a-h]\. |^\(|^[①-⑤]", plain)
+        return f'<p class="sub">{ln}</p>' if sub else f"<p>{ln}</p>"
+    return "".join(p(ln) for ln in "".join(out).split("\n")
                    if re.sub(r"</?u>", "", ln).strip())

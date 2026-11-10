@@ -25,6 +25,7 @@ sys.path.insert(0, ROOT)
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO, FONT      # noqa: E402
 from pipeline import item_principles                                 # noqa: E402
 from pipeline.underline import html_with_underline                   # noqa: E402
+from pipeline.layout import breaks_for, split_lines                  # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -54,6 +55,7 @@ h1 { font-size: 14pt; margin: 0 0 0.5mm; }
           border-radius: 2px; padding: 0.3mm 1.5mm; display: inline-block;
           margin-bottom: 1.2mm; }
 .mat p { margin: 0 0 1.2mm; }
+.mat p.sub { font-weight: 700; margin-top: 1.6mm; }   /* 소제목 · 화자 이름 줄 (디자인 지침 7) */
 .q { break-inside: avoid; margin-bottom: 2.6mm; }
 .q .stem, .essay .stem { display: flex; gap: 1.5mm; align-items: baseline; font-weight: 600;
            font-size: 8.5pt; }
@@ -194,7 +196,7 @@ def underlines_by_material(d):
 
 def mat_html(m, underline=()):
     """지문 — 문항이 적은 밑줄을 긋는다 (pipeline/underline.py, 2026-11-08)."""
-    body = html_with_underline(m["text"], underline)
+    body = html_with_underline(m["text"], underline, breaks_for(m))   # 줄 나눔 — 디자인 지침 7
     t = m["title"]
     t = t if t.startswith(m["id"]) else f'{m["id"]} · {t}'     # 「T9 · T9 · …」 중복 방지
     return f'<div class="mat"><span class="t">{esc(t)}</span>{body}</div>'
@@ -364,7 +366,8 @@ def build(d, logo, part="both", title=None):
             ref = (f'<span class="ref">[{esc(it["material_id"])}]</span>'
                    if it.get("material_id") else "")
             # 발문 속 <보기> a. b. c. … 는 줄을 나눠 상자에 — 한 줄로 이으면 못 읽는다 (2026-11-08)
-            stem, *rest = it["stem_ko"].split("\n")
+            # 모델이 한 줄로 이어 쓴 <보기> a. b. c. 도 항목마다 줄을 나눈다 (디자인 지침 7)
+            stem, *rest = split_lines(it["stem_ko"]).split("\n")
             rest = [l.strip() for l in rest if l.strip()]
             box = ""
             if rest:

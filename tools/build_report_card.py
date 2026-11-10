@@ -37,6 +37,7 @@ from tools.pdf_pages import stamp_file                                # noqa: E4
 from tools.render_mock_exam import (CIRCLED, esc, essay_key_lines,    # noqa: E402
                                     essay_parts, mat_html)
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO, FONT      # noqa: E402
+from pipeline.layout import split_lines                              # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -81,6 +82,7 @@ ul.pts li { margin: 0.8mm 0; }
 .mat .t { font-size: 7.5pt; font-weight: 700; color: #1f2d3d; background: #e8edf3;
           border-radius: 2px; padding: 0.3mm 1.5mm; display: inline-block; margin-bottom: 1mm; }
 .mat p { margin: 0 0 0.8mm; }
+.mat p.sub { font-weight: 700; margin-top: 1.2mm; }
 .mat .choice { border: 1px solid #333; padding: 0 1.2mm; margin: 0 0.3mm; white-space: nowrap; }
 .mat u { text-decoration-thickness: 1.2px; text-underline-offset: 0.7mm; }
 ol.opt { list-style: none; padding: 0; margin: 1.2mm 0 0 3mm; font-size: 9pt; }
@@ -172,7 +174,7 @@ def item_html(it, w, mats, shown, show_answers=False):
                '<span class="tag me">내 답</span>' if cls == "me" else "")
         opts += f'<li class="{cls}">{c} {esc(o)}{tag}</li>'
     # 발문 안의 <보기> 줄(a. b. c. …)은 줄을 나눠 찍는다 — 한 줄로 이으면 학부모가 못 읽는다
-    stem, *rest = it["stem_ko"].split("\n")
+    stem, *rest = split_lines(it["stem_ko"]).split("\n")      # 한 줄로 이어 쓴 것도 (디자인 지침 7)
     box = ('<div class="ctx">' + "".join(f"<p>{esc(l)}</p>" for l in rest if l.strip()) + "</div>") if rest else ""
     redo = "" if show_answers else '<div class="redo">다시 푼 답: <span class="blank"></span></div>'
     return (f'<div class="q"><div class="stem"><span class="no">{it["no"]}.</span>'

@@ -16,7 +16,9 @@
       "problems": [],
       "warnings": [
         "2번 정답 선지만 눈에 띄게 김 (12자 · 나머지 최장 8자) — 길이로 답이 보임",
-        "13번 정답 선지만 눈에 띄게 김 (54자 · 나머지 최장 41자) — 길이로 답이 보임"
+        "13번 정답 선지만 눈에 띄게 김 (54자 · 나머지 최장 41자) — 길이로 답이 보임",
+        "자료 P5 「외부지문 · Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P4 「외부지문 · Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -31,7 +33,9 @@
         "10~12번 정답이 ② 로 3번 이상 이어짐",
         "18~20번 정답이 ④ 로 3번 이상 이어짐",
         "14번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "17번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "17번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 P4 「외부지문 Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P5 「외부지문 Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -44,7 +48,9 @@
       "warnings": [
         "정답 번호 분포 ①1 ②5 ③9 ④5 ⑤3 — 고르지 않음",
         "6~8번 정답이 ③ 로 3번 이상 이어짐",
-        "20~22번 정답이 ③ 로 3번 이상 이어짐"
+        "20~22번 정답이 ③ 로 3번 이상 이어짐",
+        "자료 P4 「외부지문 — Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P5 「외부지문 — Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -59,7 +65,10 @@
         "13~15번 정답이 ① 로 3번 이상 이어짐",
         "5번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "7번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "10번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "10번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T4 「T4 · My History Club Plan」 706자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P5 「외부지문 — Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P4 「외부지문 — Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -77,7 +86,9 @@
         "10번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "12번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "14번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "16번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "16번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 P5 「외부지문 — Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P4 「외부지문 — Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -93,7 +104,9 @@
         "7번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "9번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "13번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "15번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "15번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 P5 「외부지문 — Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P4 「외부지문 — Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -108,7 +121,9 @@
         "2번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "5번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "7번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "14번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "14번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 P5 「외부지문 — Yu Gwansun」 824자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 P6 「외부지문 — Homer B. Hulbert」 1082자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": []
     },
@@ -194,7 +209,8 @@
       "problems": [],
       "warnings": [
         "4번 정답 선지만 눈에 띄게 김 (21자 · 나머지 최장 15자) — 길이로 답이 보임",
-        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T1 「[3·8·9번, 논술형 2 자료] Sounds in Movies」 677자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -236,7 +252,8 @@
         "정답 번호 분포 ①4 ②4 ③7 ④2 ⑤0 — 고르지 않음",
         "9~11번 정답이 ③ 로 3번 이상 이어짐",
         "3번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T7 「박물관의 규칙」 715자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -250,7 +267,8 @@
         "정답 번호 분포 ①4 ②6 ③4 ④2 ⑤1 — 고르지 않음",
         "3번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "9번 정답 선지만 눈에 띄게 김 (35자 · 나머지 최장 27자) — 길이로 답이 보임",
-        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T7 「수리 카페 이야기」 716자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -262,7 +280,8 @@
       "problems": [],
       "warnings": [
         "3번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T7 「Fix-It Café」 629자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -272,7 +291,9 @@
       "fixed": 4,
       "negative_stems": 8,
       "problems": [],
-      "warnings": [],
+      "warnings": [
+        "자료 P13 「외부지문 — Challenge Upcycle」 618자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
+      ],
       "review_needed": [
         {
           "no": 8,
@@ -306,7 +327,9 @@
       "fixed": 4,
       "negative_stems": 8,
       "problems": [],
-      "warnings": [],
+      "warnings": [
+        "자료 P13 「외부지문 — Challenge Upcycle」 618자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
+      ],
       "review_needed": [
         {
           "no": 15,
@@ -328,7 +351,9 @@
       "fixed": 4,
       "negative_stems": 8,
       "problems": [],
-      "warnings": [],
+      "warnings": [
+        "자료 P13 「외부지문 — Challenge Upcycle」 618자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
+      ],
       "review_needed": []
     },
     {
@@ -337,7 +362,9 @@
       "fixed": 4,
       "negative_stems": 7,
       "problems": [],
-      "warnings": [],
+      "warnings": [
+        "자료 P13 「외부지문 — Challenge Upcycle」 618자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
+      ],
       "review_needed": [
         {
           "no": 7,
@@ -353,7 +380,9 @@
       "fixed": 4,
       "negative_stems": 9,
       "problems": [],
-      "warnings": [],
+      "warnings": [
+        "자료 P13 「외부지문 — Challenge Upcycle」 618자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
+      ],
       "review_needed": [
         {
           "no": 7,
@@ -373,7 +402,8 @@
         "정답 번호 분포 ①10 ②4 ③4 ④2 ⑤5 — 고르지 않음",
         "5~7번 정답이 ① 로 3번 이상 이어짐",
         "8번 정답 선지만 눈에 띄게 김 (39자 · 나머지 최장 30자) — 길이로 답이 보임",
-        "16번 정답 선지만 눈에 띄게 김 (31자 · 나머지 최장 24자) — 길이로 답이 보임"
+        "16번 정답 선지만 눈에 띄게 김 (31자 · 나머지 최장 24자) — 길이로 답이 보임",
+        "자료 T2 「교사 자작 단락 · Our School Art Festival」 616자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -387,7 +417,8 @@
         "14~16번 정답이 ① 로 3번 이상 이어짐",
         "1번 정답 선지만 눈에 띄게 김 (11자 · 나머지 최장 8자) — 길이로 답이 보임",
         "19번 정답 선지만 눈에 띄게 김 (58자 · 나머지 최장 44자) — 길이로 답이 보임",
-        "24번 정답 선지만 눈에 띄게 김 (29자 · 나머지 최장 21자) — 길이로 답이 보임"
+        "24번 정답 선지만 눈에 띄게 김 (29자 · 나머지 최장 21자) — 길이로 답이 보임",
+        "자료 T7 「창작 지문 · Homer Hulbert」 816자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -401,7 +432,8 @@
         "정답 번호 분포 ①6 ②10 ③4 ④2 ⑤3 — 고르지 않음",
         "1번 정답 선지만 눈에 띄게 김 (60자 · 나머지 최장 47자) — 길이로 답이 보임",
         "17번 정답 선지만 눈에 띄게 김 (52자 · 나머지 최장 40자) — 길이로 답이 보임",
-        "23번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "23번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T1 「교사 자작 단락 (본문 어휘 활용)」 664자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -443,7 +475,9 @@
         "2번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "3번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "12번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "18번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "18번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T1 「외부지문 A · The Village on the Wall」 648자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 T6 「에세이 전환 · A Day with Street Art in London (by Jiho)」 663자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -455,7 +489,8 @@
       "problems": [],
       "warnings": [
         "3번 정답 선지만 눈에 띄게 김 (9자 · 나머지 최장 7자) — 길이로 답이 보임",
-        "16번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "16번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T1 「외부지문 A · My Grandfather's Old Radio」 676자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -467,7 +502,8 @@
       "problems": [],
       "warnings": [
         "12~14번 정답이 ① 로 3번 이상 이어짐",
-        "9번 정답 선지만 눈에 띄게 김 (49자 · 나머지 최장 36자) — 길이로 답이 보임"
+        "9번 정답 선지만 눈에 띄게 김 (49자 · 나머지 최장 36자) — 길이로 답이 보임",
+        "자료 T5 「Street Art in London — A Tour Report (에세이 형식)」 759자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -481,7 +517,10 @@
         "11번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "15번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
         "17번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
-        "18번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다"
+        "18번 발문은 「밑줄 친」 인데 underline 이 비었음 — 시험지에 밑줄이 안 찍힌다",
+        "자료 T1 「T1 · 외부 지문 (밑줄 ①~⑤)」 645자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 T7 「T7 · P1을 읽은 학생의 에세이」 716자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 T2 「T2 · 외부 지문 (밑줄 ①~⑤)」 616자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
       ],
       "review_needed": null
     },
@@ -491,7 +530,10 @@
       "fixed": 8,
       "negative_stems": 10,
       "problems": [],
-      "warnings": [],
+      "warnings": [
+        "자료 T1 「A Lane That Changed」 711자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)",
+        "자료 T7 「Somi의 에세이 (본문 전환)」 610자가 줄 나눔 없이 한 덩어리 — data/stage0/passage_breaks.json 에 단락 자리를 적을 것 (디자인 지침 7)"
+      ],
       "review_needed": null
     }
   ]

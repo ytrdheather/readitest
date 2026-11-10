@@ -57,6 +57,8 @@ Supabase SQL Editor의 경고는 정상 동작이므로 근거를 보여주고 �
    (「주」 로 비우지 말 것).
    `render_mock_exam.quick_key()`. 다시 뽑을 땐 시험지를 Z: 것과 먼저 대조할 것.
 6. **부정 발문(틀린·않은·다른)은 밑줄·굵게** — `render_mock_exam.stem_html()` 이 `item_principles.NEG` 로 찍는다.
+7. **보기 · 대화 · 지문은 줄을 나눠 찍는다** — 보기 항목 하나에 한 줄, 화자 · 소제목 · 단락마다 줄바꿈. 글자는 안 바꾸고
+   `pipeline/layout.py` 가 자리만 계산해 렌더러가 찍는다. 기계가 단락을 모르는 지문은 `data/stage0/passage_breaks.json`.
 
 ## OMR 채점 — [`tools/grade_mock.py`](tools/grade_mock.py) 로만 한다
 

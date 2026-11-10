@@ -1,0 +1,7 @@
+{
+ "_about": "디자인 지침 7 — 화자 · 소제목이 없어 기계가 단락을 모르는 지문의 줄 나눔. 키는 지문 첫 40글자, 값은 「이 글 앞에서 줄을 바꾼다」 목록. 지문 글자는 바꾸지 않는다 (pipeline/layout.py). 2026-11-08 영일중1 기말 지문부터.",
+ "Last Saturday, someone threw a cake at th": ["Ann Jones, a visitor", "I was looking at the Monalisa", "Carlos Diaz, a janitor", "An old man with gray hair", "Diego Perez, a guard", "I went to the crime scene", "Camila Santos, the owner", "Last Friday, a young man", "Now, look at the information"],
+ "Hi, I’m Jim Brown, the director of Happy ": ["I’m Anna, and I found", "I’m Peter, the director", "I’m Jennifer. I trained", "My name is Emma", "I’m Chris, and I’m a Foley"],
+ "Mina: Did you know that we can turn trash": ["Today, my dog tore my bag apart", "I showed the bag to my friend"],
+ "At a restaurant, Jane and Maria talked ab": ["Of course, there are also many differences", "Finally, there is an important difference", "Maria said she could never", "There are many things to think about"]
+}
