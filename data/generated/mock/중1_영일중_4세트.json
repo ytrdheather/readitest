@@ -577,10 +577,10 @@
         "school",
         "will"
       ],
-      "word_limit": "9단어",
+      "word_limit": "9~10단어",
       "target_grammar": "시간 부사절 when + 주절 will / 장소 전치사",
-      "answer_en": "3번째 단어: ends\n8번째 단어: at\n(완성 문장: When class ends, I will meet Mina at school.)",
-      "why_ko": "시간 부사절에서는 미래의 일이라도 현재시제를 쓰므로 When class ends가 되고, 주절에는 will meet를 쓴다. '학교에서'는 장소 전치사 at을 써서 at school로 나타낸다."
+      "answer_en": "3번째 단어: ends\n8번째 단어: at\n(완성 문장: When class ends, I will meet Mina at school.)\n(the 를 넣은 10단어 When the class ends, I will meet Mina at school. 이면 3번째 class · 8번째 Mina 도 정답)",
+      "why_ko": "시간 부사절에서는 미래의 일이라도 현재시제를 쓰므로 When class ends가 되고, 주절에는 will meet를 쓴다. '학교에서'는 장소 전치사 at을 써서 at school로 나타낸다. [검수 2026-11-10] 「수업이 끝나면」 은 When class ends · When the class ends 가 둘 다 맞아 9단어만 정답으로 둘 수 없다 — 단어 수를 9~10단어로 고치고 10단어 답(class · Mina)도 정답."
     },
     {
       "no": 23,
@@ -603,8 +603,8 @@
       ],
       "word_limit": "4단어",
       "target_grammar": "be동사+형용사+to부정사",
-      "answer_en": "is hard to understand\n(완성 문장: For her, an artist's way of working is hard to understand.)",
-      "why_ko": "주어가 3인칭 단수이고 현재의 사실이므로 is를 쓰고, 「be동사+형용사+to부정사」 형태로 hard to understand를 이어 4단어로 완성한다."
+      "answer_en": "is hard to understand\n(완성 문장: For her, an artist's way of working is hard to understand.)\n(앞 문장 Jane said … 에 시제를 맞춘 was hard to understand 도 정답)",
+      "why_ko": "주어가 3인칭 단수이고 현재의 사실이므로 is를 쓰고, 「be동사+형용사+to부정사」 형태로 hard to understand를 이어 4단어로 완성한다. [검수 2026-11-10] 앞 문장이 과거(said)라 was 도 말이 된다 — was hard to understand 도 정답."
     },
     {
       "no": 24,
@@ -721,6 +721,8 @@
   },
   "review": [
     "검수 2026-11-04: 검토자 메모 7번 ④는 학교 영영풀이 machine 정의 그대로 — 문제없음",
-    "검수 2026-11-04: 16번 정답 ⑤ 선지만 길어 줄임 (출제 원리 — 길이로 답이 보임)"
+    "검수 2026-11-04: 16번 정답 ⑤ 선지만 길어 줄임 (출제 원리 — 길이로 답이 보임)",
+    "검수 2026-11-10: 서술형 22번 9단어 → 9~10단어. When the class ends(10단어)도 맞는 영어라 학생 3명이 class · Mina 로 답함 — 정답 인정 (원장)",
+    "검수 2026-11-10: 서술형 23번 was hard to understand 도 정답 (앞 문장 said 에 시제 일치, 원장)"
   ]
 }

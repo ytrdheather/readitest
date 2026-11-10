@@ -140,7 +140,8 @@ def prior_judgments(root, set_name, skip):
         if os.path.abspath(p) == os.path.abspath(skip):
             continue
         for s in load(p)["students"]:
-            for no, g in (s.get("essay") or {}).items():
+            ess = s.get("essay")
+            for no, g in (ess.items() if isinstance(ess, dict) else ()):
                 out.setdefault(int(no), set()).add(
                     (" / ".join((g.get("answer") or "").split("\n")), int(g.get("lost", 0)), g.get("note", "")))
     return out
@@ -189,7 +190,9 @@ def main():
               "date": sheet.get("date", ""), "students": []}
     for s in sheet["students"]:
         g = grade(d, s, sheet.get("accept"))
-        s.update({k: g[k] for k in ("score", "mc", "essay", "wrong", "areas")})
+        # 계산 결과는 result 에 — mc · essay 에 덮어쓰면 칠한 답과 서술형 판정이 기록에서 사라진다
+        # (2026-11-10: 11-08 기록이 전부 그랬고, 같은 세트의 이전 판정을 읽다 멈췄다)
+        s["result"] = {k: g[k] for k in ("score", "mc", "essay", "wrong", "areas")}
         st = book.get(s["id"]) or {"name": s["name"], "school": sheet["school"],
                                    "grade": s["grade"], "records": []}
         if st["name"] != s["name"]:
