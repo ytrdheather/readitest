@@ -48,6 +48,8 @@ from pypdf import PdfReader, PdfWriter                                # noqa: E4
 from tools.build_drill_pdf import find_chrome, to_pdf                 # noqa: E402
 from tools.pdf_pages import save_pdf                                  # noqa: E402
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO, FONT       # noqa: E402
+from tools import form_drill_l7                                       # noqa: E402
+from tools import form_drill_yd1_l7                                   # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -198,10 +200,57 @@ UNITS = {
         "sub": "비교급·최상급 / There is/are — 규칙 훈련 (교과서 단위 · 학교 무관)",
         "adj": ADJ, "fix": FIX, "build": BUILD, "there": THERE,
     },
+    # 변화표가 없는 단원은 구역 목록(sections)으로 적는다 — 문항은 tools/form_drill_l7.py (2026-11-12)
+    "중2L7": {
+        "title": "동아윤정미 중2 7과 어법드릴",
+        "sub": "가주어 It ~ to부정사 · that절 / 의미상 주어 for · of / it 구별 / call + 목적어 + 명사 — 규칙 훈련",
+        "sections": form_drill_l7.SECTIONS,
+    },
+    # 학교 학습지가 교과서보다 넓게 가르친 것만 — 문항은 tools/form_drill_yd1_l7.py (2026-11-12)
+    "영덕중1L7": {
+        "title": "영덕중1 7과 어법 보충드릴",
+        "sub": "to부정사 부사 역할(목적 · 원인 · 결과 · 형용사 수식) · 명사 / 형용사 / 부사 구별 · "
+               "when 구별 · 시간의 부사절 — 영덕 학습지 범위",
+        "sections": form_drill_yd1_l7.SECTIONS,
+    },
 }
 
 
+def split_rounds(rng, sec):
+    """구역 하나를 회차로 나눈다. mix 가 있으면 답 종류가 회마다 고르게 들어가게 한다."""
+    items, per = list(sec["items"]), sec["per"]
+    n = len(items) // per
+    mix = sec.get("mix")
+    if not mix:
+        rng.shuffle(items)
+        return [items[i * per:(i + 1) * per] for i in range(n)]
+    if mix == "OX":
+        groups = [[x for x in items if x[1] != "O"], [x for x in items if x[1] == "O"]]
+    else:
+        groups = [[x for x in items if x[1].startswith(m)] for m in mix]
+    assert sum(len(g) for g in groups) == len(items), sec["key"]
+    rounds = [[] for _ in range(n)]
+    for g in groups:
+        rng.shuffle(g)
+        for i, x in enumerate(g):
+            rounds[i % n].append(x)
+    for r in rounds:
+        rng.shuffle(r)
+    return rounds
+
+
+def plan_sections(u, seed):
+    rng = random.Random(seed)
+    diag, secs = [], []
+    for sec in u["sections"]:
+        diag.append({"key": sec["key"], "items": rng.sample(sec["items"], sec["diag"])})
+        secs.append({"key": sec["key"], "rounds": split_rounds(rng, sec)})
+    return {"diag": diag, "sections": secs}
+
+
 def plan(u, seed=20260921):
+    if "sections" in u:
+        return plan_sections(u, seed)
     rng = random.Random(seed)
     adj, fix, build, there = u["adj"], list(u["fix"]), list(u["build"]), list(u["there"])
     # 0 진단 — 각 칸에서 골고루
@@ -322,7 +371,35 @@ def there_items(items, ans, start=1):
     return "".join(out)
 
 
+ITEMS = {"fix": fix_items, "build": build_items, "fill": there_items}
+
+
+def render_sections(u, p, logo, part):
+    ans = part == "answers"
+    by = {s["key"]: s for s in u["sections"]}
+    H = [f"<style>{CSS}</style>{head(u, logo, part)}"]
+    n_diag = sum(len(d["items"]) for d in p["diag"])
+    H.append(f'<h2>진단 <span class="n">{n_diag}문항 · 어느 규칙이 비는지 본다</span></h2>')
+    no = 1
+    for d in p["diag"]:
+        sec = by[d["key"]]
+        H.append(f'<div class="rule"><b>{esc(sec["head"])}</b></div>')
+        H.append(ITEMS[sec["kind"]](d["items"], ans, no))
+        no += len(d["items"])
+    for k, ps in enumerate(p["sections"], 1):
+        sec = by[ps["key"]]
+        for i, items in enumerate(ps["rounds"], 1):
+            H.append(f'<div class="pb"></div><h2>{k}. {esc(sec["head"])} — {i}회 '
+                     f'<span class="n">{len(items)}문항</span></h2>')
+            H.append(f'<div class="rule">{sec["rule"]}</div>')
+            H.append(ITEMS[sec["kind"]](items, ans))
+    H.append('<div class="mark">리디튜드 · 학원 내부 지도용 · 규칙 기반 생성 (모델 미사용)</div>')
+    return "\n".join(H)
+
+
 def render(u, p, logo, part):
+    if "sections" in u:
+        return render_sections(u, p, logo, part)
     ans = part == "answers"
     H = []
     H.append(f"<style>{CSS}</style>{head(u, logo, part)}")
@@ -367,11 +444,17 @@ def main():
     a = ap.parse_args()
     u = UNITS[a.unit]
     p = plan(u, a.seed)
-    n = (10 + sum(len(t) for t in p["tables"]) + sum(len(f) for f in p["fixes"])
-         + sum(len(b) for b in p["builds"]) + sum(len(t) for t in p["theres"]))
-    print(f"■ {u['title']}\n   진단 10 · 변화표 {len(p['tables'])}×{len(p['tables'][0])} · "
-          f"고치기 {len(p['fixes'])}×{len(p['fixes'][0])} · 구조 {len(p['builds'])}×{len(p['builds'][0])} · "
-          f"There {len(p['theres'])}×{len(p['theres'][0])}  = {n}문항")
+    if "sections" in u:
+        nd = sum(len(d["items"]) for d in p["diag"])
+        n = nd + sum(len(r) for x in p["sections"] for r in x["rounds"])
+        print(f"■ {u['title']}\n   진단 {nd} · " + " · ".join(
+            f"{x['key']} {len(x['rounds'])}×{len(x['rounds'][0])}" for x in p["sections"]) + f"  = {n}문항")
+    else:
+        n = (10 + sum(len(t) for t in p["tables"]) + sum(len(f) for f in p["fixes"])
+             + sum(len(b) for b in p["builds"]) + sum(len(t) for t in p["theres"]))
+        print(f"■ {u['title']}\n   진단 10 · 변화표 {len(p['tables'])}×{len(p['tables'][0])} · "
+              f"고치기 {len(p['fixes'])}×{len(p['fixes'][0])} · 구조 {len(p['builds'])}×{len(p['builds'][0])} · "
+              f"There {len(p['theres'])}×{len(p['theres'][0])}  = {n}문항")
     os.makedirs(GEN, exist_ok=True)
     with io.open(os.path.join(GEN, f"{a.unit}.form.json"), "w", encoding="utf-8") as f:
         json.dump({"unit": a.unit, "title": u["title"], "seed": a.seed, "plan": p}, f, ensure_ascii=False, indent=1)

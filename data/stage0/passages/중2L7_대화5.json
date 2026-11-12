@@ -1,0 +1,83 @@
+{
+  "passage_id": "중2L7_대화5",
+  "kind": "textbook_dialogue",
+  "title": "중2 L7 대화-5",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "G: Hi, Jihan. What a surprise!\nB: Hey, Emma. Are you here to see the fireworks, too?\nG: Yes. I hear China, Italy, and the USA are participating this year.\nB: Don’t forget Korea.\nG: Of course, Korea, too. So, the fireworks start at 7 p.m. Right?\nB: Yeah. Let’s do something together until then.\nG: I guess we can ride bikes or go for a boat ride. Which do you like more?\nB: Going for a boat ride. I think it’ll be more fun.\nG: Then, let’s go for a boat ride.",
+  "body_text_sha256": "b62f14ce1f46ee3ef10fb5b354efbf442a52497044bf8badf873328a7affd9fd",
+  "word_count": 93,
+  "transcription": {
+    "status": "confirmed",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "2학년 7과.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T10:34:47.525258+00:00",
+    "confirmed_via": "전사확인지_중2_L7.html · 원장 「틀린 곳 없음, 진행」 (2026-11-12)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk C",
+  "textbook_page": 121,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Hi, Jihan. What a surprise!"
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Hey, Emma. Are you here to see the fireworks, too?"
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "Yes. I hear China, Italy, and the USA are participating this year."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Don’t forget Korea."
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "Of course, Korea, too. So, the fireworks start at 7 p.m. Right?"
+    },
+    {
+      "no": 6,
+      "speaker": "B",
+      "text": "Yeah. Let’s do something together until then."
+    },
+    {
+      "no": 7,
+      "speaker": "G",
+      "text": "I guess we can ride bikes or go for a boat ride. Which do you like more?"
+    },
+    {
+      "no": 8,
+      "speaker": "B",
+      "text": "Going for a boat ride. I think it’ll be more fun."
+    },
+    {
+      "no": 9,
+      "speaker": "G",
+      "text": "Then, let’s go for a boat ride."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

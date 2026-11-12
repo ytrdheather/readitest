@@ -1,0 +1,240 @@
+{
+  "exam": {
+    "school": "영덕중",
+    "grade": 2,
+    "year": 2026,
+    "semester": 2,
+    "round": "중간 (1차 정기시험)",
+    "date": "2026-10-07",
+    "mc": 19,
+    "essay": 3,
+    "total": 100,
+    "pages": 5
+  },
+  "source": "원장이 준 시험지 사진 5쪽 + 학교 정답/배점표 + 논술형 채점기준표 (2026-10-13). 원본은 Z: 에만.",
+  "note": "type·source_type·difficulty 는 리디플랜 채점기(exam-analyzer) 의 분류값. 선택형 정답·배점은 학교 정답표 그대로, 논술형 답은 채점기준표 기본답안 그대로. source_type 은 배포판 분류(교과서본문/외부지문/대화문/학습지). 원장 기준(2026-10-13): 학습지에 추가로 준 외부지문(Graffiti·Girl with Balloon·Hulbert·유관순)도 「외부지문」, 영영풀이도 「외부지문」. 근거 대조: 9·논술형2(Graffiti)·10(Girl with Balloon)은 영덕 L5 배부물에 있었으나 리디테스트에 미입수 — 10은 영일 L5 More Reading 으로만 있음.",
+  "questions": [
+    {
+      "number": "1",
+      "type": "주제찾기",
+      "source_type": "대화문",
+      "grammar_point": "",
+      "score": 4,
+      "difficulty": "하",
+      "answer": "5",
+      "topic": "두 대화의 공통 주제 — 교통편·소요 시간 묻고 답하기"
+    },
+    {
+      "number": "2",
+      "type": "영영풀이",
+      "source_type": "외부지문",
+      "grammar_point": "",
+      "score": 5,
+      "difficulty": "중",
+      "answer": "5",
+      "topic": "modern·hip·canvas·represent 풀이 빈칸 (present·latest·paint·show)"
+    },
+    {
+      "number": "3",
+      "type": "내용일치",
+      "source_type": "대화문",
+      "grammar_point": "",
+      "score": 5,
+      "difficulty": "중",
+      "answer": "4",
+      "topic": "답할 수 없는 질문 (Sebit Park 대화)"
+    },
+    {
+      "number": "4",
+      "type": "기타",
+      "source_type": "대화문",
+      "grammar_point": "",
+      "score": 4,
+      "difficulty": "중",
+      "answer": "1",
+      "topic": "심경 변화 worried → pleased"
+    },
+    {
+      "number": "5",
+      "type": "어법이해",
+      "source_type": "교과서본문",
+      "grammar_point": "목적격 관계대명사 생략 + 관계절 안 목적어 중복 (the tree you see it)",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "1",
+      "topic": "Banksy·Ben Wilson 본문 (A)~(E) 중 틀린 것"
+    },
+    {
+      "number": "논술형1",
+      "type": "서술형",
+      "source_type": "교과서본문",
+      "grammar_point": "요약문 완성 — 본문 낱말 그대로 + 대조 접속사 While/As",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "ⓐ carry/give ⓑ social ⓒ While(As) ⓓ personal"
+    },
+    {
+      "number": "6",
+      "type": "어구추론",
+      "source_type": "교과서본문",
+      "grammar_point": "",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "2",
+      "topic": "미술 비평문 빈칸 (가) — 두 작가 작품 세계 종합"
+    },
+    {
+      "number": "7",
+      "type": "내용일치",
+      "source_type": "교과서본문",
+      "grammar_point": "",
+      "score": 4,
+      "difficulty": "중",
+      "answer": "5",
+      "topic": "Shoreditch·STIK 본문 — 학생 대화 중 불일치"
+    },
+    {
+      "number": "8",
+      "type": "어법이해",
+      "source_type": "교과서본문",
+      "grammar_point": "make+O+형용사 · used to+동사원형 · one of the+복수명사 · 전치사+동명사",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "2",
+      "topic": "ⓐ~ⓕ 중 옳은 것만 (ⓑ is, ⓕ using)"
+    },
+    {
+      "number": "9",
+      "type": "순서배열",
+      "source_type": "외부지문",
+      "grammar_point": "",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "1",
+      "topic": "글의 순서 (B)-(D)-(A)-(C)"
+    },
+    {
+      "number": "논술형2",
+      "type": "서술형",
+      "source_type": "외부지문",
+      "grammar_point": "used to (과거의 상태 — 지금은 아님) · 5단어 영작",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "used to be a problem"
+    },
+    {
+      "number": "10",
+      "type": "어휘추론",
+      "source_type": "외부지문",
+      "grammar_point": "",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "4",
+      "topic": "Girl with Balloon — 문맥상 부적절한 낱말 ⓓ ignoring"
+    },
+    {
+      "number": "11",
+      "type": "어법이해",
+      "source_type": "외부지문",
+      "grammar_point": "사역동사 make+O+동사원형 · 4형식 show · 시제 일치 · keep+형용사 · remind A of B / 병렬",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "3",
+      "topic": "유관순 외부지문 (A)~(E) 중 옳은 것"
+    },
+    {
+      "number": "12",
+      "type": "어법이해",
+      "source_type": "외부지문",
+      "grammar_point": "주격 관계대명사 that · 명사절 접속사 that · 접속사 as",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "1",
+      "topic": "Hulbert 외부지문 빈칸 ⓐ~ⓓ"
+    },
+    {
+      "number": "13",
+      "type": "내용일치",
+      "source_type": "외부지문",
+      "grammar_point": "",
+      "score": 3,
+      "difficulty": "중",
+      "answer": "3",
+      "topic": "Hulbert 내용 불일치 (한국어 선지)"
+    },
+    {
+      "number": "14",
+      "type": "영영풀이",
+      "source_type": "외부지문",
+      "grammar_point": "",
+      "score": 4,
+      "difficulty": "중",
+      "answer": "5",
+      "topic": "ⓐ~ⓔ 낱말 풀이 중 틀린 것 (ⓔ unbelievable)"
+    },
+    {
+      "number": "논술형3",
+      "type": "서술형",
+      "source_type": "대화문",
+      "grammar_point": "What kind(s) of + 명사 의문문 · recommend + 목적어",
+      "score": 5,
+      "difficulty": "중",
+      "answer": "(A) kinds of books (B) recommend someone else"
+    },
+    {
+      "number": "15",
+      "type": "어법이해",
+      "source_type": "외부지문",
+      "grammar_point": "지각동사+목적격보어(동사원형) · want+to부정사 · so~that / too~to",
+      "score": 4,
+      "difficulty": "상",
+      "answer": "2",
+      "topic": "어법상 올바른 문장 (단문 5개)"
+    },
+    {
+      "number": "16",
+      "type": "어법이해",
+      "source_type": "교과서본문",
+      "grammar_point": "to부정사 형용사적 용법 (a favor to ask) · 지각동사+현재분사 · begin+to부정사/동명사",
+      "score": 5,
+      "difficulty": "상",
+      "answer": "2",
+      "topic": "Schofield 외부지문 빈칸 ⓐ~ⓒ"
+    },
+    {
+      "number": "17",
+      "type": "내용일치",
+      "source_type": "교과서본문",
+      "grammar_point": "",
+      "score": 4,
+      "difficulty": "중",
+      "answer": "3",
+      "topic": "Schofield — 답할 수 없는 질문"
+    },
+    {
+      "number": "18",
+      "type": "어법이해",
+      "source_type": "교과서본문",
+      "grammar_point": "so+부사+that+주어+could (결과, 시제 일치)",
+      "score": 4,
+      "difficulty": "상",
+      "answer": "2",
+      "topic": "우리말 → 배열, 빈칸 ⓐ so ⓑ could"
+    },
+    {
+      "number": "19",
+      "type": "어구추론",
+      "source_type": "교과서본문",
+      "grammar_point": "",
+      "score": 4,
+      "difficulty": "상",
+      "answer": "3",
+      "topic": "Schofield 빈칸 (A)~(E) — at the invitation of"
+    }
+  ],
+  "check": {
+    "mc_total": 85,
+    "essay_total": 15,
+    "total": 100
+  }
+}

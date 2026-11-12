@@ -1,0 +1,802 @@
+{
+  "set": "영덕중1_L7",
+  "title": "동아 윤정미 중1 L7 어휘 — 영덕",
+  "sources": {
+    "school": [
+      "영덕중1_L7_vocab_handout"
+    ],
+    "jasup": "중1_L7_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 중1 L7 어휘 — 영덕",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "airplane",
+              "answer": "비행기"
+            },
+            {
+              "word": "director",
+              "answer": "감독"
+            },
+            {
+              "word": "calm",
+              "answer": "진정시키다"
+            },
+            {
+              "word": "train",
+              "answer": "훈련하다"
+            },
+            {
+              "word": "studio",
+              "answer": "작업실"
+            },
+            {
+              "word": "wrangler",
+              "answer": "조련사"
+            },
+            {
+              "word": "moment",
+              "answer": "순간"
+            },
+            {
+              "word": "create",
+              "answer": "창조하다"
+            },
+            {
+              "word": "skill",
+              "answer": "기술, 기량"
+            },
+            {
+              "word": "effect",
+              "answer": "효과"
+            },
+            {
+              "word": "rice",
+              "answer": "쌀"
+            },
+            {
+              "word": "shoot",
+              "answer": "촬영하다"
+            },
+            {
+              "word": "location",
+              "answer": "장소"
+            },
+            {
+              "word": "signal",
+              "answer": "신호"
+            },
+            {
+              "word": "record",
+              "answer": "녹음[녹화]하다"
+            },
+            {
+              "word": "editor",
+              "answer": "편집자"
+            },
+            {
+              "word": "capture",
+              "answer": "포착하다"
+            },
+            {
+              "word": "carefully",
+              "answer": "주의 깊게, 신중히"
+            },
+            {
+              "word": "pilot",
+              "answer": "조종사"
+            },
+            {
+              "word": "easy",
+              "answer": "쉬운"
+            },
+            {
+              "word": "delete",
+              "answer": "지우다, 삭제하다"
+            },
+            {
+              "word": "wave",
+              "answer": "파도"
+            },
+            {
+              "word": "manager",
+              "answer": "관리자"
+            },
+            {
+              "word": "storytelling",
+              "answer": "이야기하기"
+            },
+            {
+              "word": "order",
+              "answer": "순서"
+            },
+            {
+              "word": "photography",
+              "answer": "사진[촬영]술"
+            },
+            {
+              "word": "work out",
+              "answer": "운동하다"
+            },
+            {
+              "word": "take care of",
+              "answer": "~을 돌보다"
+            },
+            {
+              "word": "of course",
+              "answer": "물론"
+            },
+            {
+              "word": "be in charge of",
+              "answer": "~을 담당하다"
+            },
+            {
+              "word": "real",
+              "answer": "진짜의"
+            },
+            {
+              "word": "clothes",
+              "answer": "옷, 의복"
+            },
+            {
+              "word": "job",
+              "answer": "직업"
+            },
+            {
+              "word": "all kinds of",
+              "answer": "모든 종류의"
+            },
+            {
+              "word": "world-famous",
+              "answer": "세계적으로 유명한"
+            },
+            {
+              "word": "role",
+              "answer": "역할"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "모든 종류의",
+              "answer": "all kinds of"
+            },
+            {
+              "ko": "주의 깊게, 신중히",
+              "answer": "carefully"
+            },
+            {
+              "ko": "신호",
+              "answer": "signal"
+            },
+            {
+              "ko": "기술, 기량",
+              "answer": "skill"
+            },
+            {
+              "ko": "감독",
+              "answer": "director"
+            },
+            {
+              "ko": "세계적으로 유명한",
+              "answer": "world-famous"
+            },
+            {
+              "ko": "진정시키다",
+              "answer": "calm"
+            },
+            {
+              "ko": "쉬운",
+              "answer": "easy"
+            },
+            {
+              "ko": "포착하다",
+              "answer": "capture"
+            },
+            {
+              "ko": "사진[촬영]술",
+              "answer": "photography"
+            },
+            {
+              "ko": "운동하다",
+              "answer": "work out"
+            },
+            {
+              "ko": "훈련하다",
+              "answer": "train"
+            },
+            {
+              "ko": "~을 돌보다",
+              "answer": "take care of"
+            },
+            {
+              "ko": "지우다, 삭제하다",
+              "answer": "delete"
+            },
+            {
+              "ko": "순서",
+              "answer": "order"
+            },
+            {
+              "ko": "촬영하다",
+              "answer": "shoot"
+            },
+            {
+              "ko": "~을 담당하다",
+              "answer": "be in charge of"
+            },
+            {
+              "ko": "역할",
+              "answer": "role"
+            },
+            {
+              "ko": "순간",
+              "answer": "moment"
+            },
+            {
+              "ko": "녹음[녹화]하다",
+              "answer": "record"
+            },
+            {
+              "ko": "장소",
+              "answer": "location"
+            },
+            {
+              "ko": "편집자",
+              "answer": "editor"
+            },
+            {
+              "ko": "조종사",
+              "answer": "pilot"
+            },
+            {
+              "ko": "이야기하기",
+              "answer": "storytelling"
+            },
+            {
+              "ko": "물론",
+              "answer": "of course"
+            },
+            {
+              "ko": "직업",
+              "answer": "job"
+            },
+            {
+              "ko": "옷, 의복",
+              "answer": "clothes"
+            },
+            {
+              "ko": "관리자",
+              "answer": "manager"
+            },
+            {
+              "ko": "파도",
+              "answer": "wave"
+            },
+            {
+              "ko": "효과",
+              "answer": "effect"
+            },
+            {
+              "ko": "비행기",
+              "answer": "airplane"
+            },
+            {
+              "ko": "진짜의",
+              "answer": "real"
+            },
+            {
+              "ko": "창조하다",
+              "answer": "create"
+            },
+            {
+              "ko": "쌀",
+              "answer": "rice"
+            },
+            {
+              "ko": "작업실",
+              "answer": "studio"
+            },
+            {
+              "ko": "조련사",
+              "answer": "wrangler"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "a person in charge of a film or play who tells the actors and staff what to do",
+              "ko": "감독",
+              "answer": "director"
+            },
+            {
+              "def_en": "to make someone stop feeling upset, angry, or excited",
+              "ko": "진정시키다",
+              "answer": "calm"
+            },
+            {
+              "def_en": "to teach someone the skills needed to do something",
+              "ko": "훈련하다",
+              "answer": "train"
+            },
+            {
+              "def_en": "someone who controls and looks after animals, especially horses or cows on a large farm",
+              "ko": "조련사",
+              "answer": "wrangler"
+            },
+            {
+              "def_en": "a very short period of time",
+              "ko": "순간",
+              "answer": "moment"
+            },
+            {
+              "def_en": "an ability to do something very well because you have learned it",
+              "ko": "기술, 기량",
+              "answer": "skill"
+            },
+            {
+              "def_en": "lights, sounds, special scenery, computer images, etc. used in a play or film",
+              "ko": "효과",
+              "answer": "effect"
+            },
+            {
+              "def_en": "small white or brown grains",
+              "ko": "쌀",
+              "answer": "rice"
+            },
+            {
+              "def_en": "to use a camera to record a video or take a photograph",
+              "ko": "촬영하다",
+              "answer": "shoot"
+            },
+            {
+              "def_en": "a particular place or position that something is in",
+              "ko": "장소",
+              "answer": "location"
+            },
+            {
+              "def_en": "an action or thing that sends a message, often not using words",
+              "ko": "신호",
+              "answer": "signal"
+            },
+            {
+              "def_en": "to store music, sound, or pictures on tape or disks",
+              "ko": "녹음[녹화]하다",
+              "answer": "record"
+            },
+            {
+              "def_en": "a person who makes changes to texts or films",
+              "ko": "편집자",
+              "answer": "editor"
+            },
+            {
+              "def_en": "to photograph, film, record, paint, etc. somebody or something",
+              "ko": "포착하다",
+              "answer": "capture"
+            },
+            {
+              "def_en": "to remove something from a written or electronic text",
+              "ko": "지우다, 삭제하다",
+              "answer": "delete"
+            },
+            {
+              "def_en": "moving water on the surface of the sea",
+              "ko": "파도",
+              "answer": "wave"
+            },
+            {
+              "def_en": "a person in control of an office, shop, team, etc.",
+              "ko": "관리자",
+              "answer": "manager"
+            },
+            {
+              "def_en": "the activity of writing, telling, or reading stories",
+              "ko": "이야기하기",
+              "answer": "storytelling"
+            },
+            {
+              "def_en": "the skill or activity of taking photographs",
+              "ko": "사진[촬영]술",
+              "answer": "photography"
+            },
+            {
+              "def_en": "to protect someone or something and provide the things that person or thing needs",
+              "ko": "~을 돌보다",
+              "answer": "take care of"
+            },
+            {
+              "def_en": "to manage or take control of something or someone",
+              "ko": "~을 담당하다",
+              "answer": "be in charge of"
+            },
+            {
+              "def_en": "the things that people wear to cover their bodies and that are usually made from cloth",
+              "ko": "옷, 의복",
+              "answer": "clothes"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "signal",
+                  "ko": "신호",
+                  "def_en": "an action or thing that sends a message, often not using words",
+                  "example_en": "The team coach uses a special hand signal to the players.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "wrangler",
+                  "ko": "조련사",
+                  "def_en": "someone who controls and looks after animals, especially horses or cows on a large farm",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "wave",
+                  "ko": "파도",
+                  "def_en": "moving water on the surface of the sea",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "manager",
+                  "ko": "관리자",
+                  "def_en": "a person in control of an office, shop, team, etc.",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "signal",
+                "wrangler",
+                "wave",
+                "manager"
+              ],
+              "kos": [
+                "신호",
+                "관리자",
+                "파도",
+                "조련사"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "storytelling",
+                  "ko": "이야기하기",
+                  "def_en": "the activity of writing, telling, or reading stories",
+                  "example_en": "Jane has great storytelling skills. Her stories are always fun.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "record",
+                  "ko": "녹음[녹화]하다",
+                  "def_en": "to store music, sound, or pictures on tape or disks",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "clothes",
+                  "ko": "옷, 의복",
+                  "def_en": "the things that people wear to cover their bodies and that are usually made from cloth",
+                  "example_en": "We wear warm clothes in winter.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "train",
+                  "ko": "훈련하다",
+                  "def_en": "to teach someone the skills needed to do something",
+                  "example_en": "They train and take care of animals for movies.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "clothes",
+                "train",
+                "record",
+                "storytelling"
+              ],
+              "kos": [
+                "녹음[녹화]하다",
+                "훈련하다",
+                "이야기하기",
+                "옷, 의복"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "editor",
+                  "ko": "편집자",
+                  "def_en": "a person who makes changes to texts or films",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "director",
+                  "ko": "감독",
+                  "def_en": "a person in charge of a film or play who tells the actors and staff what to do",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "take care of",
+                  "ko": "~을 돌보다",
+                  "def_en": "to protect someone or something and provide the things that person or thing needs",
+                  "example_en": "I have to take care of Jenny's dog this weekend.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "shoot",
+                  "ko": "촬영하다",
+                  "def_en": "to use a camera to record a video or take a photograph",
+                  "example_en": "Where are you going to shoot the movie?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "director",
+                "take care of",
+                "shoot",
+                "editor"
+              ],
+              "kos": [
+                "촬영하다",
+                "편집자",
+                "감독",
+                "~을 돌보다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "capture",
+                  "ko": "포착하다",
+                  "def_en": "to photograph, film, record, paint, etc. somebody or something",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "location",
+                  "ko": "장소",
+                  "def_en": "a particular place or position that something is in",
+                  "example_en": "Can you tell me the location of the restaurant?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "moment",
+                  "ko": "순간",
+                  "def_en": "a very short period of time",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "delete",
+                  "ko": "지우다, 삭제하다",
+                  "def_en": "to remove something from a written or electronic text",
+                  "example_en": "Please don't delete the data. It's important.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "location",
+                "capture",
+                "moment",
+                "delete"
+              ],
+              "kos": [
+                "지우다, 삭제하다",
+                "장소",
+                "포착하다",
+                "순간"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "photography",
+                  "ko": "사진[촬영]술",
+                  "def_en": "the skill or activity of taking photographs",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "skill",
+                  "ko": "기술, 기량",
+                  "def_en": "an ability to do something very well because you have learned it",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "calm",
+                  "ko": "진정시키다",
+                  "def_en": "to make someone stop feeling upset, angry, or excited",
+                  "example_en": "Why is he shouting loudly? Please try to calm him.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "rice",
+                  "ko": "쌀",
+                  "def_en": "small white or brown grains",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "photography",
+                "calm",
+                "skill",
+                "rice"
+              ],
+              "kos": [
+                "진정시키다",
+                "쌀",
+                "사진[촬영]술",
+                "기술, 기량"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "Please don't __________ the data. It's important.",
+                "answer": "delete",
+                "ko": ""
+              },
+              {
+                "sentence": "Why is he shouting loudly? Please try to __________ him.",
+                "answer": "calm",
+                "ko": ""
+              },
+              {
+                "sentence": "Can you tell me the __________ of the restaurant?",
+                "answer": "location",
+                "ko": ""
+              },
+              {
+                "sentence": "Jane has great __________ skills. Her stories are always fun.",
+                "answer": "storytelling",
+                "ko": ""
+              },
+              {
+                "sentence": "The team coach uses a special hand __________ to the players.",
+                "answer": "signal",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "She loves to __________ a new recipe.",
+                "answer": "create",
+                "ko": ""
+              },
+              {
+                "sentence": "This math problem is __________. I can solve it quickly.",
+                "answer": "easy",
+                "ko": ""
+              },
+              {
+                "sentence": "Look at the lion in the picture! It looks so __________.",
+                "answer": "real",
+                "ko": ""
+              },
+              {
+                "sentence": "We wear warm __________ in winter.",
+                "answer": "clothes",
+                "ko": ""
+              },
+              {
+                "sentence": "Mike is __________ the hotel's restaurant. He's the head chef.",
+                "answer": "be in charge of",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "She plays the __________ of a doctor in the movie.",
+                "answer": "role",
+                "ko": ""
+              },
+              {
+                "sentence": "I have to __________ Jenny's dog this weekend.",
+                "answer": "take care of",
+                "ko": ""
+              },
+              {
+                "sentence": "They __________ and take care of animals for movies.",
+                "answer": "train",
+                "ko": ""
+              },
+              {
+                "sentence": "Where are you going to __________ the movie?",
+                "answer": "shoot",
+                "ko": ""
+              },
+              {
+                "sentence": "Exercise has a positive __________ on your health.",
+                "answer": "effect",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "I enjoy __________ music.",
+                "answer": "all kinds of",
+                "ko": ""
+              },
+              {
+                "sentence": "My sister has a __________ as a nurse.",
+                "answer": "job",
+                "ko": ""
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 36,
+      "counts": {
+        "both": 72,
+        "def": 22,
+        "match": 20,
+        "cloze": 17
+      }
+    }
+  ]
+}

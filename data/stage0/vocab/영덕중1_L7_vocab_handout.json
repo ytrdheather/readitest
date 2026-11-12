@@ -1,0 +1,292 @@
+{
+ "school": "영덕중",
+ "grade": 1,
+ "lesson": 7,
+ "unit_title": "Find Your Dream",
+ "source": "영덕중1 2학기 7과 학습지 16쪽 중 1~4쪽 (Z:/…/기말/영덕중1/영덕중1 7과.pdf)",
+ "source_note": "인쇄된 것만 옮겼다 (손글씨 답은 안 옮김 — 예문 빈칸은 [보기]·우리말로 정해지는 답을 채움). 1쪽 Warm-Up 30단어(영→한 30 · 한→영 30, 우리말 뜻은 31~60번 인쇄분). 2쪽 영영풀이 5 + 문맥 4 + 표현 3, 3쪽 Workbook 영영풀이 4 + 대화 빈칸 5, 4쪽 Advanced 영영풀이 8 + 문맥 5 + 표현 5. 2쪽 editor 풀이는 'texts of films' 로 찍혀 있으나 3·4쪽 'texts or films' 를 따랐다. shoot 는 2쪽 예문(Let's shoot now!)도 있다. director·effect·take care of·clothes 풀이는 학교가 안 줘서 특급기출 Words(125쪽) 것 — def_src 로 구분.",
+ "read_at": "2026-11-12",
+ "read_by": "Claude (비전 판독, 인쇄 글자만)",
+ "why_best": "학교 지정 30단어 + 학교가 인쇄한 영영풀이 12개 + 예문 18개.",
+ "words": [
+  {
+   "no": 1,
+   "word": "airplane",
+   "ko": "비행기",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 2,
+   "word": "director",
+   "ko": "감독",
+   "def_en": "a person in charge of a film or play who tells the actors and staff what to do",
+   "def_src": "자습서",
+   "example_en": ""
+  },
+  {
+   "no": 3,
+   "word": "calm",
+   "ko": "진정시키다",
+   "def_en": "to make someone stop feeling upset, angry, or excited",
+   "def_src": "학교",
+   "example_en": "Why is he shouting loudly? Please try to calm him."
+  },
+  {
+   "no": 4,
+   "word": "train",
+   "ko": "훈련하다",
+   "def_en": null,
+   "def_src": null,
+   "example_en": "They train and take care of animals for movies."
+  },
+  {
+   "no": 5,
+   "word": "studio",
+   "ko": "작업실",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 6,
+   "word": "wrangler",
+   "ko": "조련사",
+   "def_en": "someone who controls and looks after animals, especially horses or cows on a large farm",
+   "def_src": "학교",
+   "example_en": "",
+   "def_en_alt": "a person who trains and looks after animals"
+  },
+  {
+   "no": 7,
+   "word": "moment",
+   "ko": "순간",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 8,
+   "word": "create",
+   "ko": "창조하다",
+   "def_en": null,
+   "def_src": null,
+   "example_en": "She loves to create a new recipe."
+  },
+  {
+   "no": 9,
+   "word": "skill",
+   "ko": "기술, 기량",
+   "def_en": "an ability to do something very well because you have learned it",
+   "def_src": "학교",
+   "example_en": ""
+  },
+  {
+   "no": 10,
+   "word": "effect",
+   "ko": "효과",
+   "def_en": "lights, sounds, special scenery, computer images, etc. used in a play or film",
+   "def_src": "자습서",
+   "example_en": "Exercise has a positive effect on your health."
+  },
+  {
+   "no": 11,
+   "word": "rice",
+   "ko": "쌀",
+   "def_en": "small white or brown grains",
+   "def_src": "학교",
+   "example_en": ""
+  },
+  {
+   "no": 12,
+   "word": "shoot",
+   "ko": "촬영하다",
+   "def_en": "to use a camera to record a video or take a photograph",
+   "def_src": "학교",
+   "example_en": "Where are you going to shoot the movie?"
+  },
+  {
+   "no": 13,
+   "word": "location",
+   "ko": "장소",
+   "def_en": "a particular place or position that something is in",
+   "def_src": "학교",
+   "example_en": "Can you tell me the location of the restaurant?"
+  },
+  {
+   "no": 14,
+   "word": "signal",
+   "ko": "신호",
+   "def_en": null,
+   "def_src": null,
+   "example_en": "The team coach uses a special hand signal to the players."
+  },
+  {
+   "no": 15,
+   "word": "record",
+   "ko": "녹음[녹화]하다",
+   "def_en": "to store music, sound, or pictures on tape or disks",
+   "def_src": "학교",
+   "example_en": ""
+  },
+  {
+   "no": 16,
+   "word": "editor",
+   "ko": "편집자",
+   "def_en": "a person who makes changes to texts or films",
+   "def_src": "학교",
+   "example_en": ""
+  },
+  {
+   "no": 17,
+   "word": "capture",
+   "ko": "포착하다",
+   "def_en": "to photograph, film, record, paint, etc. somebody or something",
+   "def_src": "학교",
+   "example_en": ""
+  },
+  {
+   "no": 18,
+   "word": "carefully",
+   "ko": "주의 깊게, 신중히",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 19,
+   "word": "pilot",
+   "ko": "조종사",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 20,
+   "word": "easy",
+   "ko": "쉬운",
+   "def_en": null,
+   "def_src": null,
+   "example_en": "This math problem is easy. I can solve it quickly."
+  },
+  {
+   "no": 21,
+   "word": "delete",
+   "ko": "지우다, 삭제하다",
+   "def_en": "to remove something from a written or electronic text",
+   "def_src": "학교",
+   "example_en": "Please don't delete the data. It's important."
+  },
+  {
+   "no": 22,
+   "word": "wave",
+   "ko": "파도",
+   "def_en": "moving water on the surface of the sea",
+   "def_src": "학교",
+   "example_en": ""
+  },
+  {
+   "no": 23,
+   "word": "manager",
+   "ko": "관리자",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 24,
+   "word": "storytelling",
+   "ko": "이야기하기",
+   "def_en": null,
+   "def_src": null,
+   "example_en": "Jane has great storytelling skills. Her stories are always fun."
+  },
+  {
+   "no": 25,
+   "word": "order",
+   "ko": "순서",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 26,
+   "word": "photography",
+   "ko": "사진[촬영]술",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 27,
+   "word": "work out",
+   "ko": "운동하다",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 28,
+   "word": "take care of",
+   "ko": "~을 돌보다",
+   "def_en": "to protect someone or something and provide the things that person or thing needs",
+   "def_src": "자습서",
+   "example_en": "I have to take care of Jenny's dog this weekend."
+  },
+  {
+   "no": 29,
+   "word": "of course",
+   "ko": "물론",
+   "def_en": null,
+   "def_src": null,
+   "example_en": ""
+  },
+  {
+   "no": 30,
+   "word": "be in charge of",
+   "ko": "~을 담당하다",
+   "def_en": "to manage or take control of something or someone",
+   "def_src": "학교",
+   "example_en": "Mike is in charge of the hotel's restaurant. He's the head chef."
+  }
+ ],
+ "extra_words": {
+  "_note": "2~4쪽 연습에만 나온 말. 뜻은 특급기출 Words (real 은 본문 해석).",
+  "items": [
+   {
+    "word": "real",
+    "ko": "진짜의",
+    "example_en": "Look at the lion in the picture! It looks so real."
+   },
+   {
+    "word": "clothes",
+    "ko": "옷, 의복",
+    "def_en": "the things that people wear to cover their bodies and that are usually made from cloth",
+    "def_src": "자습서",
+    "example_en": "We wear warm clothes in winter."
+   },
+   {
+    "word": "job",
+    "ko": "직업",
+    "example_en": "My sister has a job as a nurse."
+   },
+   {
+    "word": "all kinds of",
+    "ko": "모든 종류의",
+    "example_en": "I enjoy all kinds of music."
+   },
+   {
+    "word": "world-famous",
+    "ko": "세계적으로 유명한",
+    "example_en": "She wrote a world-famous book."
+   },
+   {
+    "word": "role",
+    "ko": "역할",
+    "example_en": "She plays the role of a doctor in the movie."
+   }
+  ]
+ },
+ "distribution_scope": "internal_only"
+}

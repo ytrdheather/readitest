@@ -1,0 +1,58 @@
+{
+  "passage_id": "중2L7_대화1",
+  "kind": "textbook_dialogue",
+  "title": "중2 L7 대화-1",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "B: \u0007We can do face painting or play VR games. Which do you like more?\nG: I like face painting more. What about you?\nB: \u0007I want to play VR games. I don’t want to wash my face again.\nG: \u0007Playing VR games is OK, too. Let’s go play VR games together.",
+  "body_text_sha256": "0ba1bc5a77b1a63e81da114c40b9821fd89cb7d934db30143beca03404721933",
+  "word_count": 52,
+  "transcription": {
+    "status": "confirmed",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "2학년 7과.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T10:34:47.525258+00:00",
+    "confirmed_via": "전사확인지_중2_L7.html · 원장 「틀린 곳 없음, 진행」 (2026-11-12)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-1",
+  "textbook_page": 120,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "B",
+      "text": "\u0007We can do face painting or play VR games. Which do you like more?"
+    },
+    {
+      "no": 2,
+      "speaker": "G",
+      "text": "I like face painting more. What about you?"
+    },
+    {
+      "no": 3,
+      "speaker": "B",
+      "text": "\u0007I want to play VR games. I don’t want to wash my face again."
+    },
+    {
+      "no": 4,
+      "speaker": "G",
+      "text": "\u0007Playing VR games is OK, too. Let’s go play VR games together."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

@@ -1,0 +1,174 @@
+{
+  "school": "태장중",
+  "grade": 2,
+  "lesson": 7,
+  "unit_title": "Let's Enjoy Festivals",
+  "source": "Z:/…/2026 2학기 학교 프린트 모음/기말/태장중2/태장중2 L7.pdf — 13쪽 Worksheet 7-6 «Words and Phrases» A",
+  "source_note": "스캔 + 학생 손글씨. 단어 · 뜻 · 예문(영어+우리말) 표. 단어 칸과 뜻 칸이 번갈아 비어 있다 — printed 가 'word' 면 단어가, 'ko' 면 뜻이 인쇄된 칸이다. 빈 칸은 손글씨가 없어 옮길 것이 없었고, **인쇄된 예문과 그 우리말 해석에서 채웠다** (단어가 빈 칸: 예문 속 낱말 · 뜻이 빈 칸: 예문 해석 속 말). 원장 확인 대상.",
+  "read_at": "2026-11-12",
+  "read_by": "Claude (비전 판독, 인쇄 글자만)",
+  "why_best": "외부지문 「Holmenkollen Ski Festival」 전용 어휘 16개. 6과와 달리 영영풀이가 없고 **예문 + 해석**이 인쇄돼 있다 — 문맥 빈칸 문항은 이 예문으로 낸다.",
+  "format": "단어 · 뜻 · 예문 3단 표 (태장 L6 은 영영풀이, L7 은 예문).",
+  "words": [
+    {
+      "no": 1,
+      "word": "tradition",
+      "ko": "전통",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Eating rice cake soup on New Year's Day is a popular tradition in Korea.",
+      "example_ko": "설날에 떡국을 먹는 것은 한국의 인기 있는 전통이다."
+    },
+    {
+      "no": 2,
+      "word": "traditional",
+      "ko": "전통적인, 전통의",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "My grandmother baked traditional cookies for the festival.",
+      "example_ko": "우리 할머니는 축제를 위해 전통 과자를 구우셨다."
+    },
+    {
+      "no": 3,
+      "word": "gathering",
+      "ko": "모임",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "We had a small family gathering at my uncle's house last weekend.",
+      "example_ko": "우리는 지난 주말에 삼촌 집에서 작은 가족 모임을 가졌다."
+    },
+    {
+      "no": 4,
+      "word": "remain",
+      "ko": "(여전히) ~이다",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Even after everyone left, a few students remained in the classroom to study.",
+      "example_ko": "모두가 떠난 후에도, 몇몇 학생들은 공부하기 위해 교실에 남아 있었다."
+    },
+    {
+      "no": 5,
+      "word": "blend",
+      "ko": "혼합하다, 섞다",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "You should blend the milk and fruit in a blender to make a smoothie.",
+      "example_ko": "스무디를 만들기 위해서는 믹서기에 우유와 과일을 섞어야 한다."
+    },
+    {
+      "no": 6,
+      "word": "iconic",
+      "ko": "상징적인",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "The Eiffel Tower in Paris is an iconic landmark known all over the world.",
+      "example_ko": "파리의 에펠탑은 전 세계에 알려진 상징적인 랜드마크이다."
+    },
+    {
+      "no": 7,
+      "word": "structure",
+      "ko": "구조물",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "The ancient structure was built hundreds of years ago.",
+      "example_ko": "그 고대 구조물은 수백 년 전에 만들어졌다."
+    },
+    {
+      "no": 8,
+      "word": "offer",
+      "ko": "제공하다",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "The restaurant offers free drinks to students on weekdays.",
+      "example_ko": "그 식당은 평일에 학생들에게 무료 음료를 제공한다."
+    },
+    {
+      "no": 9,
+      "word": "athlete",
+      "ko": "운동선수",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Every athlete practices hard to win a medal at the Olympics.",
+      "example_ko": "모든 운동선수는 올림픽에서 메달을 따기 위해 열심히 연습한다."
+    },
+    {
+      "no": 10,
+      "word": "compete",
+      "ko": "겨루다",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Players from different schools came together to compete in the game.",
+      "example_ko": "서로 다른 학교의 선수들이 경기에서 겨루기 위해 모였다."
+    },
+    {
+      "no": 11,
+      "word": "competition",
+      "ko": "대회, 시합",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "She won first prize in the school singing competition.",
+      "example_ko": "그녀는 학교 노래 대회에서 1등상을 탔다."
+    },
+    {
+      "no": 12,
+      "word": "thousands of",
+      "ko": "수천의, 수많은",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "Thousands of people visited the park to see the cherry blossoms.",
+      "example_ko": "벚꽃을 보기 위해 수천 명의 사람들이 공원을 방문했다."
+    },
+    {
+      "no": 13,
+      "word": "atmosphere",
+      "ko": "분위기",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "The warm lighting gave the cozy cafe a friendly atmosphere.",
+      "example_ko": "따뜻한 조명이 그 아늑한 카페에 친근한 분위기를 더해 주었다."
+    },
+    {
+      "no": 14,
+      "word": "pride",
+      "ko": "자부심, 긍지",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "He took great pride in completing the project by himself.",
+      "example_ko": "그는 자신의 힘으로 프로젝트를 끝낸 것에 대해 큰 자부심을 느꼈다."
+    },
+    {
+      "no": 15,
+      "word": "must-see",
+      "ko": "꼭 봐야 할 것",
+      "printed": "ko",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "This new animated movie is a must-see for children.",
+      "example_ko": "이 새로운 애니메이션 영화는 아이들이 꼭 봐야 할 작품이다."
+    },
+    {
+      "no": 16,
+      "word": "attraction",
+      "ko": "명소",
+      "printed": "word",
+      "def_en": null,
+      "def_src": null,
+      "example_en": "The amusement park is a popular attraction for families.",
+      "example_ko": "그 놀이공원은 가족들에게 인기 있는 명소입니다."
+    }
+  ]
+}

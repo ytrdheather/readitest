@@ -1,0 +1,231 @@
+{
+  "book": "태장중 배부물",
+  "unit": "L7 외부지문 — Holmenkollen Ski Festival",
+  "parts": [
+    "Holmenkollen Ski Festival"
+  ],
+  "passage_ids": [
+    "c9802f6c-fd65-4c3a-bb8b-d8d33c41d1ce"
+  ],
+  "para_breaks": [
+    13
+  ],
+  "turn_breaks": [
+    13
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "The Holmenkollen Ski festival is held every March in Oslo and is one of Norway's most loved winter traditions.",
+    "The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races.",
+    "Today, it remains a symbol of Norwegian culture and blends sport with tradition.",
+    "At the heart of the festival is the iconic Holmenkollen Ski Jump, a towering structure that offers beautiful views of Oslo.",
+    "Here, world-class athletes compete in front of thousands of cheering fans.",
+    "Beyond the competitions, the festival brings people together in a warm and lively atmosphere.",
+    "Families and friends gather outdoors to enjoy the winter.",
+    "Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities like ziplining.",
+    "Also, the festival streets are filled with food trucks and music.",
+    "And of course, you can taste traditional Norwegian waffles.",
+    "Holmenkollen is more than a sporting event.",
+    "It is a celebration of nature, tradition, and national pride.",
+    "For those who love winter, skiing, and cultural experiences, this historic festival is a must-see."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "홀멘콜렌 스키 축제는 매년 3월 오슬로에서 열린다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 매년 3월 오슬로에서 열린다고 했다.",
+      "_evidence_text": [
+        "The Holmenkollen Ski festival is held every March in Oslo and is one of Norway's most loved winter traditions."
+      ],
+      "_repeat": false,
+      "statement_en": "Every year in March, the city of Oslo holds the Holmenkollen Ski Festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 축제는 1982년에 처음 열렸다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "처음 열린 해는 1892년이다.",
+      "_evidence_text": [
+        "The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races."
+      ],
+      "_repeat": false,
+      "statement_en": "The first Holmenkollen Ski Festival took place in 1982."
+    },
+    {
+      "type": "content",
+      "statement_ko": "오늘날에도 이 축제는 노르웨이 문화의 상징으로 남아 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에서 노르웨이 문화의 상징으로 남아 있다고 했다.",
+      "_evidence_text": [
+        "Today, it remains a symbol of Norwegian culture and blends sport with tradition."
+      ],
+      "_repeat": false,
+      "statement_en": "Even now, the festival still stands as a symbol of Norway's culture."
+    },
+    {
+      "type": "content",
+      "statement_ko": "축제의 중심에는 오슬로의 아름다운 경치를 볼 수 있는 홀멘콜렌 스키 점프대가 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "4번 문장과 일치한다.",
+      "_evidence_text": [
+        "At the heart of the festival is the iconic Holmenkollen Ski Jump, a towering structure that offers beautiful views of Oslo."
+      ],
+      "_repeat": false,
+      "statement_en": "The Holmenkollen Ski Jump, which gives beautiful views of Oslo, is the center of the festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "스키 점프대에서는 선수들만 경기를 하고 응원하는 관중은 없다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "수천 명의 환호하는 팬들 앞에서 경기한다고 했다.",
+      "_evidence_text": [
+        "Here, world-class athletes compete in front of thousands of cheering fans."
+      ],
+      "_repeat": false,
+      "statement_en": "At the ski jump, only the athletes are there to compete, and no fans come to cheer for them."
+    },
+    {
+      "type": "content",
+      "statement_ko": "경기 외에도 축제는 따뜻하고 활기찬 분위기 속에서 사람들을 하나로 모은다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "6번 문장과 일치한다.",
+      "_evidence_text": [
+        "Beyond the competitions, the festival brings people together in a warm and lively atmosphere."
+      ],
+      "_repeat": false,
+      "statement_en": "Besides the games, the festival pulls people together in a warm and lively mood."
+    },
+    {
+      "type": "content",
+      "statement_ko": "가족과 친구들은 추위를 피해 실내에 모여 축제를 즐긴다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "야외에 모여 겨울을 즐긴다고 했다.",
+      "_evidence_text": [
+        "Families and friends gather outdoors to enjoy the winter."
+      ],
+      "_repeat": false,
+      "statement_en": "Families and friends stay inside buildings to avoid the cold while they enjoy the festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "방문객은 세계에서 가장 큰 스키 박물관을 둘러볼 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "가장 큰 것이 아니라 세계에서 가장 오래된 스키 박물관이다.",
+      "_evidence_text": [
+        "Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities like ziplining."
+      ],
+      "_repeat": false,
+      "statement_en": "Visitors can look around the largest ski museum in the world."
+    },
+    {
+      "type": "content",
+      "statement_ko": "축제 기간에 거리는 푸드트럭과 음악으로 가득 찬다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "9번 문장과 일치한다.",
+      "_evidence_text": [
+        "Also, the festival streets are filled with food trucks and music."
+      ],
+      "_repeat": false,
+      "statement_en": "During the festival, the streets are full of music and food trucks."
+    },
+    {
+      "type": "content",
+      "statement_ko": "축제에서 맛볼 수 있는 전통 음식으로 노르웨이 초콜릿이 소개되어 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "전통 노르웨이 와플을 맛볼 수 있다고 했다.",
+      "_evidence_text": [
+        "And of course, you can taste traditional Norwegian waffles."
+      ],
+      "_repeat": false,
+      "statement_en": "Norwegian chocolate is introduced as the traditional food you can taste at the festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 홀멘콜렌이 단순한 스포츠 행사 그 이상이라고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "11번 문장과 일치한다.",
+      "_evidence_text": [
+        "Holmenkollen is more than a sporting event."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer says that Holmenkollen is more than just a sports event."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 축제는 자연, 전통, 종교를 기념하는 행사라고 소개된다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "종교가 아니라 자연, 전통, 국민적 자부심이다.",
+      "_evidence_text": [
+        "It is a celebration of nature, tradition, and national pride."
+      ],
+      "_repeat": false,
+      "statement_en": "The festival is introduced as a celebration of nature, tradition, and religion."
+    },
+    {
+      "type": "content",
+      "statement_ko": "겨울과 스키, 문화 체험을 좋아하는 사람에게 이 축제는 꼭 봐야 할 행사라고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "13번 문장과 일치한다.",
+      "_evidence_text": [
+        "For those who love winter, skiing, and cultural experiences, this historic festival is a must-see."
+      ],
+      "_repeat": false,
+      "statement_en": "According to the text, people who enjoy winter, skiing, and cultural experiences should not miss this festival."
+    }
+  ],
+  "diagnostics": {
+    "returned": 13,
+    "kept": 13,
+    "by_type": {
+      "content": 13
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 7,
+      "X": 6
+    },
+    "sentences_covered": 13,
+    "sentence_count": 13,
+    "repeated": 0
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 대화 ①②③④",
+  "parts": [
+    "중2 L7 대화-1",
+    "중2 L7 대화-2",
+    "중2 L7 대화-3",
+    "중2 L7 대화-4"
+  ],
+  "passage_ids": [
+    "c257ad6b-db9b-4c8f-8518-f5a8b4829e4c",
+    "d62eb060-26e4-4388-a913-caeb4d7cc5a0",
+    "fe21b339-f793-4a15-89ad-2998a9553e2a",
+    "e066b5aa-fdcb-43cc-b6be-df1298abff98"
+  ],
+  "para_breaks": [
+    8,
+    16,
+    21,
+    27
+  ],
+  "turn_breaks": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "B: \u0007We can do face painting or play VR games.",
+    "Which do you like more?",
+    "G: I like face painting more.",
+    "What about you?",
+    "B: \u0007I want to play VR games.",
+    "I don’t want to wash my face again.",
+    "G: \u0007Playing VR games is OK, too.",
+    "Let’s go play VR games together.",
+    "B: They have tteokbokki and gimbap here.",
+    "Which of the two do you like better?",
+    "G: I like tteokbokki much better.",
+    "I like spicy food.",
+    "B: Then, let’s order tteokbokki.",
+    "It looks delicious.",
+    "G: OK.",
+    "I’m so hungry!",
+    "G: Let’s get a souvenir.",
+    "B: Which do you like better, the T-shirt or the cap?",
+    "G: I like the T-shirt better.",
+    "B: Why?",
+    "G: There is a nice picture of the festival on it.",
+    "G: Look!",
+    "There are lots of pretty flowers here.",
+    "B: Which do you like more, the red flowers or the yellow flowers?",
+    "G: I like the yellow flowers more.",
+    "B: Why do you like them more?",
+    "G: Well, yellow is my favorite color."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 페이스페인팅을 하거나 보드게임을 하자고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "보드게임이 아니라 VR 게임을 하자고 했다.",
+      "_evidence_text": [
+        "B: \u0007We can do face painting or play VR games."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says they can do face painting or play board games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 여자아이에게 둘 중 어느 것이 더 좋은지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "\"Which do you like more?\"라고 물었다.",
+      "_evidence_text": [
+        "Which do you like more?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks the girl which of the two she likes more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 VR 게임이 더 좋다고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "여자아이는 페이스페인팅이 더 좋다고 답했다.",
+      "_evidence_text": [
+        "G: I like face painting more."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answers that she likes VR games more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 대답한 뒤 남자아이에게 너는 어떠냐고 되묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "\"What about you?\"라고 되물었다.",
+      "_evidence_text": [
+        "What about you?"
+      ],
+      "_repeat": false,
+      "statement_en": "After giving her answer, the girl asks the boy about his choice."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 VR 게임을 하고 싶어 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "\"I want to play VR games.\"라고 말했다.",
+      "_evidence_text": [
+        "B: \u0007I want to play VR games."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy wants to play VR games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 얼굴을 또 씻고 싶지 않다는 이유를 든다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "얼굴을 다시 씻기 싫다고 말했다.",
+      "_evidence_text": [
+        "I don’t want to wash my face again."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy gives the reason that he does not want to wash his face one more time."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 VR 게임도 괜찮다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "\"Playing VR games is OK, too.\"라고 했다.",
+      "_evidence_text": [
+        "G: \u0007Playing VR games is OK, too."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says that playing VR games is fine with her, too."
+    },
+    {
+      "type": "content",
+      "statement_ko": "함께 VR 게임을 하러 가자고 제안한 사람은 남자아이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "\"Let's go play VR games together.\"는 여자아이의 말이다.",
+      "_evidence_text": [
+        "Let’s go play VR games together."
+      ],
+      "_repeat": false,
+      "statement_en": "It is the boy who suggests going to play VR games together."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 여기에 떡볶이와 김밥이 있다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "떡볶이와 김밥이 있다고 알려 주었다.",
+      "_evidence_text": [
+        "B: They have tteokbokki and gimbap here."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says that tteokbokki and gimbap are sold here."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 음식 중 어느 것이 더 좋은지 물은 사람은 여자아이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "묻는 사람은 남자아이(B)다.",
+      "_evidence_text": [
+        "Which of the two do you like better?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl is the one who asks which of the two foods the other person likes better."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 떡볶이가 훨씬 더 좋다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "\"I like tteokbokki much better.\"라고 했다.",
+      "_evidence_text": [
+        "G: I like tteokbokki much better."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says she likes tteokbokki much better."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 매운 음식을 싫어한다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "매운 음식을 좋아한다고 말했다.",
+      "_evidence_text": [
+        "I like spicy food."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says that she does not like spicy food."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 김밥을 주문하자고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "떡볶이를 주문하자고 했다.",
+      "_evidence_text": [
+        "B: Then, let’s order tteokbokki."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says they should order gimbap."
+    },
+    {
+      "type": "content",
+      "statement_ko": "음식이 맛있어 보인다고 말한 사람은 여자아이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "\"It looks delicious.\"는 남자아이의 말이다.",
+      "_evidence_text": [
+        "It looks delicious."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl is the one who says the food looks delicious."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 주문 제안에 동의한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "\"OK.\"라고 답했다.",
+      "_evidence_text": [
+        "G: OK."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl agrees with the idea of ordering."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 배가 많이 고프다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "\"I'm so hungry!\"라고 했다.",
+      "_evidence_text": [
+        "I’m so hungry!"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says that she is very hungry."
+    },
+    {
+      "type": "content",
+      "statement_ko": "기념품을 사자고 먼저 말한 사람은 여자아이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "\"Let's get a souvenir.\"는 여자아이(G)의 말이다.",
+      "_evidence_text": [
+        "G: Let’s get a souvenir."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl is the first one to say that they should buy a souvenir."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 티셔츠와 모자 중 어느 것이 더 좋은지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "T-shirt와 cap 중에서 물었다.",
+      "_evidence_text": [
+        "B: Which do you like better, the T-shirt or the cap?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks which she likes better, the T-shirt or the cap."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 모자가 더 좋다고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "티셔츠가 더 좋다고 답했다.",
+      "_evidence_text": [
+        "G: I like the T-shirt better."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answers that she likes the cap better."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 그 이유를 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "\"Why?\"라고 물었다.",
+      "_evidence_text": [
+        "B: Why?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks her the reason for her choice."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 그 위에 축제의 멋진 그림이 있어서 좋다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "축제의 멋진 그림이 있다고 이유를 말했다.",
+      "_evidence_text": [
+        "G: There is a nice picture of the festival on it."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says she likes it because there is a nice festival picture on it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "\"Look!\"이라고 말하며 상대의 주의를 끈 사람은 여자아이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "G가 \"Look!\"이라고 말했다.",
+      "_evidence_text": [
+        "G: Look!"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl is the one who says \"Look!\" to get the other person's attention."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 여기에 예쁜 나비가 많다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "나비가 아니라 예쁜 꽃이 많다고 했다.",
+      "_evidence_text": [
+        "There are lots of pretty flowers here."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says that there are many pretty butterflies here."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 빨간 꽃과 하얀 꽃 중 어느 것이 더 좋은지 묻는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "빨간 꽃과 노란 꽃 중에서 물었다.",
+      "_evidence_text": [
+        "B: Which do you like more, the red flowers or the yellow flowers?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks which she likes more, the red flowers or the white flowers."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 빨간 꽃이 더 좋다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "노란 꽃이 더 좋다고 했다.",
+      "_evidence_text": [
+        "G: I like the yellow flowers more."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says that she likes the red flowers more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "왜 그 꽃을 더 좋아하는지 물은 사람은 여자아이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "이유를 물은 사람은 남자아이(B)다.",
+      "_evidence_text": [
+        "B: Why do you like them more?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl is the one who asks why the other person likes those flowers more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이가 가장 좋아하는 색은 노란색이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "\"yellow is my favorite color\"라고 말했다.",
+      "_evidence_text": [
+        "G: Well, yellow is my favorite color."
+      ],
+      "_repeat": false,
+      "statement_en": "Yellow is the girl's favorite color."
+    }
+  ],
+  "diagnostics": {
+    "returned": 27,
+    "kept": 27,
+    "by_type": {
+      "content": 27
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 15,
+      "X": 12
+    },
+    "sentences_covered": 27,
+    "sentence_count": 27,
+    "repeated": 0
+  }
+}

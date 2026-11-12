@@ -119,6 +119,13 @@ SETS = {
     # 태장 6과 권에는 둘 다 들어간다.
     "태장중2_L6": ("L6 외부지문 어휘 — 태장 Hulbert 16",
                   ["태장중2_L6_vocab_handout"], "L6_vocab", None),
+    # 중2 7과 (2026-11-12). 학교분 = 외부지문 「Holmenkollen」 낱말 16 (예문 인쇄, 영영풀이 없음),
+    # 자습서분 = 특급기출 Words 60 (영영풀이 21).
+    "태장중2_L7": ("동아 윤정미 L7 어휘 — 태장",
+                  ["태장중2_L7_vocab_handout"], "L7_vocab", None),
+    # 영덕중1 7과 (2026-11-12). Warm-Up 30 + 연습 쪽 6, 학교 영영풀이 12.
+    "영덕중1_L7": ("동아 윤정미 중1 L7 어휘 — 영덕",
+                  ["영덕중1_L7_vocab_handout"], "중1_L7_vocab", None),
     "영일중1_L7": ("동아 윤정미 중1 L7 어휘 — 영일",
                   ["영일중1_L7_vocab_handout"], "중1_L7_vocab", None),
     # 외부지문 「Challenge Upcycle」 낱말 8개는 extra_words 로 같은 세트에 들어간다 (2026-10-25)

@@ -1,0 +1,63 @@
+{
+  "passage_id": "태장중2_L7_외부지문_Holmenkollen",
+  "kind": "handout_external",
+  "title": "Holmenkollen Ski Festival",
+  "school": "태장중학교",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "학교 배부물",
+  "body_text": "The Holmenkollen Ski festival is held every March in Oslo and is one of Norway's most loved winter traditions. The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races. Today, it remains a symbol of Norwegian culture and blends sport with tradition. At the heart of the festival is the iconic Holmenkollen Ski Jump, a towering structure that offers beautiful views of Oslo. Here, world-class athletes compete in front of thousands of cheering fans. Beyond the competitions, the festival brings people together in a warm and lively atmosphere. Families and friends gather outdoors to enjoy the winter. Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities like ziplining. Also, the festival streets are filled with food trucks and music. And of course, you can taste traditional Norwegian waffles. Holmenkollen is more than a sporting event. It is a celebration of nature, tradition, and national pride. For those who love winter, skiing, and cultural experiences, this historic festival is a must-see.",
+  "body_text_sha256": "593d80b105f70415ef5c87dc2c1160dce491054eb5f1918cf81d28acff32c061",
+  "word_count": 186,
+  "handout_title": "Holmenkollen Ski Festival: Norway's Iconic Winter Tradition",
+  "paragraph_breaks_after_sentence": [
+    2,
+    5,
+    10
+  ],
+  "glossed": [
+    "remain",
+    "blend",
+    "atmosphere"
+  ],
+  "handout_questions": {
+    "1": {
+      "stem": "Which is NOT true about the Holmenkollen Ski festival?",
+      "options": {
+        "a": "The festival takes place every March in Oslo.",
+        "b": "The first festival was held in 1892.",
+        "c": "Ziplining competitions are the main attraction of the festival.",
+        "d": "There is a traditional Norwegian treat at the festival."
+      },
+      "note": "정답표 없음. 본문상 ⓒ (ziplining 은 fun activities 의 하나일 뿐, 중심은 Ski Jump)."
+    },
+    "2": {
+      "stem": "Answer the following questions in complete English sentences.",
+      "items": [
+        "What was the original purpose of the Holmenkollen Ski festival?",
+        "What activities can visitors do at the Holmenkollen Ski festival?"
+      ]
+    }
+  },
+  "transcription": {
+    "status": "confirmed",
+    "method": "vision_single_pass",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/기말/태장중2/태장중2 L7.pdf (14쪽 = Worksheet 7-6 «Words and Phrases» 뒷면 B)",
+    "note": "태장중2 L7 학습지의 외부지문. 인쇄 활자를 비전으로 한 번 읽었다. 낱말풀이 표시 * 셋(remains · blends · atmosphere)은 떼고 glossed 에 적었다. 아포스트로피는 곧은 것(')으로 — 태장 L6 외부지문과 같게.",
+    "has_handwriting": true,
+    "handwriting_note": "학습지 다른 쪽에 학생 손글씨가 있으나 이 지문 상자 안에는 없다.",
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T10:34:47.525258+00:00",
+    "confirmed_via": "전사확인지_중2_L7.html · 원장 「틀린 곳 없음, 진행」 (2026-11-12)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부 자료. 기획서 §6.6 — 학원 내부 지도용."
+}

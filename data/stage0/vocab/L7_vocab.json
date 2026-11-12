@@ -1,0 +1,525 @@
+{
+  "lesson": 7,
+  "grade": 2,
+  "unit_title": "Let's Enjoy Festivals",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "source_file": "2학년 7과.pdf (특급기출 중학 영어(윤) 2-2 본책 7과 발췌 13쪽, 원장 제공 2026-11-12)",
+  "source_detail": "특급기출 본책 STEP A Words 두 쪽 (자습서 계열 뜻 · 영영풀이 21개) — 텍스트 레이어",
+  "transcription": {
+    "status": "pending",
+    "method": "workbook_pdf_text_layer"
+  },
+  "words": [
+    {
+      "word": "chef",
+      "pos": "명",
+      "ko": "요리사, 주방장",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "festival",
+      "pos": "명",
+      "ko": "축제, 기념제",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "fireworks",
+      "pos": "명",
+      "ko": "불꽃놀이",
+      "section": "Watch and Talk",
+      "def_en": "the pattern of colorful explosions in the air planned as a show"
+    },
+    {
+      "word": "forget",
+      "pos": "동",
+      "ko": "잊다 (↔ remember)",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "miss",
+      "pos": "동",
+      "ko": "(기회를) 놓치다",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "order",
+      "pos": "동",
+      "ko": "주문하다 명 주문; 순서",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "participate",
+      "pos": "동",
+      "ko": "참가〔참여〕하다",
+      "section": "Watch and Talk",
+      "def_en": "to join or do something with others"
+    },
+    {
+      "word": "recipe",
+      "pos": "명",
+      "ko": "요리법, 조리법",
+      "section": "Watch and Talk",
+      "def_en": "a set of instructions for cooking food"
+    },
+    {
+      "word": "souvenir",
+      "pos": "명",
+      "ko": "기념품, 선물",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "spicy",
+      "pos": "형",
+      "ko": "양념 맛이 강한, 매운",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "surprise",
+      "pos": "명",
+      "ko": "뜻밖의 일, 놀라운 소식",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "together",
+      "pos": "부",
+      "ko": "함께, 같이",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "for free",
+      "pos": null,
+      "ko": "무료로, 공짜로",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "wash one’s face",
+      "pos": null,
+      "ko": "세수하다",
+      "section": "Watch and Talk",
+      "def_en": null
+    },
+    {
+      "word": "altar",
+      "pos": "명",
+      "ko": "제단",
+      "section": "Reading",
+      "def_en": "a type of table used in ceremonies"
+    },
+    {
+      "word": "area",
+      "pos": "명",
+      "ko": "지역",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "burn",
+      "pos": "동",
+      "ko": "태우다",
+      "section": "Reading",
+      "def_en": "to destroy or damage something with fire"
+    },
+    {
+      "word": "celebrate",
+      "pos": "동",
+      "ko": "축하하다, 기념하다",
+      "section": "Reading",
+      "def_en": "to show that a day or an event is important by doing something special"
+    },
+    {
+      "word": "costume",
+      "pos": "명",
+      "ko": "의상, 복장",
+      "section": "Reading",
+      "def_en": "\u0007the clothes that are worn to make someone look like another person, animal, or thing"
+    },
+    {
+      "word": "dead",
+      "pos": "형",
+      "ko": "죽은  *death 명 죽음",
+      "section": "Reading",
+      "def_en": "no longer alive or living"
+    },
+    {
+      "word": "decorate",
+      "pos": "동",
+      "ko": "장식하다, 꾸미다",
+      "section": "Reading",
+      "def_en": "to make something more attractive by putting things on it"
+    },
+    {
+      "word": "end",
+      "pos": "동",
+      "ko": "끝나다 명 끝, 말",
+      "section": "Reading",
+      "def_en": "to stop or finish"
+    },
+    {
+      "word": "February",
+      "pos": "명",
+      "ko": "2월",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "fur",
+      "pos": "명",
+      "ko": "모피; (일부 동물의) 털",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "giant",
+      "pos": "형",
+      "ko": "거대한 (= huge)",
+      "section": "Reading",
+      "def_en": "very large"
+    },
+    {
+      "word": "hardly",
+      "pos": "부",
+      "ko": "거의 ~ 아니다, 좀처럼 ~ 않다",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "hold",
+      "pos": "동",
+      "ko": "개최하다, 열다",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "matter",
+      "pos": "동",
+      "ko": "중요하다 명 일, 문제",
+      "section": "Reading",
+      "def_en": "to be important"
+    },
+    {
+      "word": "Mexican",
+      "pos": "명",
+      "ko": "멕시코 사람 형 멕시코(인)의",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "midsummer",
+      "pos": "명",
+      "ko": "한여름",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "parade",
+      "pos": "명",
+      "ko": "퍼레이드, 행진",
+      "section": "Reading",
+      "def_en": "people or vehicles moving together in a line for a special celebration"
+    },
+    {
+      "word": "pole",
+      "pos": "명",
+      "ko": "기둥, 막대기",
+      "section": "Reading",
+      "def_en": "\u0007a long, thin stick of wood or metal that is often used to support something"
+    },
+    {
+      "word": "possible",
+      "pos": "형",
+      "ko": "가능한 (↔ impossible)",
+      "section": "Reading",
+      "def_en": "able to be done or achieved"
+    },
+    {
+      "word": "reindeer",
+      "pos": "명",
+      "ko": "순록",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "seasonal",
+      "pos": "형",
+      "ko": "계절의, 계절적인",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "skeleton",
+      "pos": "명",
+      "ko": "해골",
+      "section": "Reading",
+      "def_en": "the structure of bones that supports the body of a person or an animal"
+    },
+    {
+      "word": "statue",
+      "pos": "명",
+      "ko": "조각상",
+      "section": "Reading",
+      "def_en": "an art object of a person or an animal that is made from a hard material"
+    },
+    {
+      "word": "symbolize",
+      "pos": "동",
+      "ko": "상징하다",
+      "section": "Reading",
+      "def_en": "to represent or stand for something"
+    },
+    {
+      "word": "traditional",
+      "pos": "형",
+      "ko": "전통의, 전통적인",
+      "section": "Reading",
+      "def_en": "\u0007following ideas and methods that have existed in a particular culture for a long time"
+    },
+    {
+      "word": "wear",
+      "pos": "동",
+      "ko": "입고〔쓰고, 신고〕 있다",
+      "section": "Reading",
+      "def_en": "to have clothing, shoes, etc. on your body"
+    },
+    {
+      "word": "welcome",
+      "pos": "동",
+      "ko": "환영하다",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "at the end of",
+      "pos": null,
+      "ko": "~의 말에, ~의 끝에",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "between A and B",
+      "pos": null,
+      "ko": "A와 B 사이에",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "dress up",
+      "pos": null,
+      "ko": "분장하다, 차려입다",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "set up",
+      "pos": null,
+      "ko": "세우다, 설치하다",
+      "section": "Reading",
+      "def_en": null
+    },
+    {
+      "word": "take place",
+      "pos": null,
+      "ko": "열리다, 개최되다",
+      "section": "Reading",
+      "def_en": "to happen"
+    },
+    {
+      "word": "hard",
+      "pos": "형",
+      "ko": "어려운, 힘든",
+      "section": "Language in Use",
+      "def_en": null
+    },
+    {
+      "word": "keep a diary",
+      "pos": null,
+      "ko": "일기를 쓰다",
+      "section": "Language in Use",
+      "def_en": null
+    },
+    {
+      "word": "cheap",
+      "pos": "형",
+      "ko": "싼, 값싼 (↔ expensive)",
+      "section": "Review",
+      "def_en": null
+    },
+    {
+      "word": "holiday",
+      "pos": "명",
+      "ko": "휴일; 휴가",
+      "section": "Review",
+      "def_en": null
+    },
+    {
+      "word": "light",
+      "pos": "형",
+      "ko": "가벼운 (↔ heavy)",
+      "section": "Review",
+      "def_en": null
+    },
+    {
+      "word": "look for",
+      "pos": null,
+      "ko": "~을 찾다",
+      "section": "Review",
+      "def_en": null
+    },
+    {
+      "word": "director",
+      "pos": "명",
+      "ko": "(영화·연극의) 감독",
+      "section": "Think and Write & Culture Project",
+      "def_en": null
+    },
+    {
+      "word": "event",
+      "pos": "명",
+      "ko": "행사",
+      "section": "Think and Write & Culture Project",
+      "def_en": null
+    },
+    {
+      "word": "live",
+      "pos": "형",
+      "ko": "생방송인, 녹음이 아닌",
+      "section": "Think and Write & Culture Project",
+      "def_en": null
+    },
+    {
+      "word": "magic",
+      "pos": "명",
+      "ko": "마술, 마법",
+      "section": "Think and Write & Culture Project",
+      "def_en": null
+    },
+    {
+      "word": "throw",
+      "pos": "동",
+      "ko": "던지다",
+      "section": "Think and Write & Culture Project",
+      "def_en": null
+    },
+    {
+      "word": "take part in",
+      "pos": null,
+      "ko": "~에 참여하다",
+      "section": "Think and Write & Culture Project",
+      "def_en": null
+    },
+    {
+      "word": "cute",
+      "pos": "형",
+      "ko": "귀여운, 예쁜",
+      "section": "Talk and Play",
+      "def_en": null
+    },
+    {
+      "word": "playful",
+      "pos": "형",
+      "ko": "장난기 많은, 놀기 좋아하는",
+      "section": "Talk and Play",
+      "def_en": null
+    }
+  ],
+  "derivations": [
+    {
+      "base": "symbol",
+      "base_ko": "상징",
+      "derived": "symbolize",
+      "derived_ko": "상징하다"
+    },
+    {
+      "base": "belief",
+      "base_ko": "믿음",
+      "derived": "believe",
+      "derived_ko": "믿다"
+    },
+    {
+      "base": "celebration",
+      "base_ko": "축하, 기념",
+      "derived": "celebrate",
+      "derived_ko": "축하하다, 기념하다"
+    },
+    {
+      "base": "decoration",
+      "base_ko": "장식",
+      "derived": "decorate",
+      "derived_ko": "장식하다"
+    },
+    {
+      "base": "season",
+      "base_ko": "계절",
+      "derived": "seasonal",
+      "derived_ko": "계절의, 계절적인"
+    },
+    {
+      "base": "spice",
+      "base_ko": "양념, 향신료",
+      "derived": "spicy",
+      "derived_ko": "양념 맛이 강한, 매운"
+    },
+    {
+      "base": "tradition",
+      "base_ko": "전통",
+      "derived": "traditional",
+      "derived_ko": "전통의, 전통적인"
+    },
+    {
+      "base": "color",
+      "base_ko": "색깔",
+      "derived": "colorful",
+      "derived_ko": "다채로운, 색채가 풍부한"
+    },
+    {
+      "base": "possible",
+      "base_ko": "가능한",
+      "derived": "possibly",
+      "derived_ko": "가능하게"
+    },
+    {
+      "base": "surprising",
+      "base_ko": "놀라운",
+      "derived": "surprisingly",
+      "derived_ko": "놀랍게도"
+    }
+  ],
+  "polysemy": [
+    {
+      "word": "matter",
+      "senses": [
+        "동 중요하다",
+        "명 문제"
+      ]
+    },
+    {
+      "word": "miss",
+      "senses": [
+        "동 (기회를) 놓치다",
+        "동 그리워하다"
+      ]
+    },
+    {
+      "word": "order",
+      "senses": [
+        "동 주문하다",
+        "명 순서"
+      ]
+    }
+  ],
+  "distribution_scope": "internal_only"
+}

@@ -1,0 +1,33 @@
+{
+  "passage_id": "중2L7_본문",
+  "kind": "textbook_reading",
+  "title": "중2 L7 본문 — Seasonal Festivals Around the World",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "Fallas Festival in Valencia, Spain People in Valencia celebrate the coming of spring with the Fallas festival. This festival takes place from March 15 to 19. During the festival, people enjoy parades and fireworks. The stars of the festival are fallas, giant wooden statues. You can find hundreds of them all over the city. Surprisingly, the fallas are burned on the last day of the festival. Burning them symbolizes saying goodbye to old things and hello to a new start. Midsummer Festival in Sweden Winter in Sweden is long and dark, so the people there especially welcome summer. To celebrate the longest day of the year, they have a special festival. They call it the Midsummer festival. The festival starts on the Friday evening between June 19 and 25 and ends on the Sunday. During the festival, people decorate a tall pole with flowers and green leaves and enjoy traditional dances around it. Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long. Day of the Dead Festival in Mexico Many Mexicans believe that once a year dead people come back home to meet their family and friends. They call this day the Day of the Dead. To welcome dead people, Mexicans hold a festival on November 1 and 2. They believe it is important to remember dead people. So, people set up altars in their homes and have big parties in cemeteries. In some areas, people dress up like skeletons and hold big parades. Fur Rondy Festival in Alaska, USA At the end of February, people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world. During this festival, visitors can enjoy various winter sports and Alaskan traditional games. They can also enjoy many special events such as the Running of the Reindeer. People who participate in this race wear fun costumes and try to run faster than reindeer. Is it possible to do so? Not really, but it doesn’t matter. Everyone is just having fun!",
+  "body_text_sha256": "a9172ca11af0abc029f610297649b7d9c894af6378789042eb74111b57cc1b60",
+  "word_count": 337,
+  "transcription": {
+    "status": "confirmed",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "2학년 7과.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T10:34:47.525258+00:00",
+    "confirmed_via": "전사확인지_중2_L7.html · 원장 「틀린 곳 없음, 진행」 (2026-11-12)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "reading_title": "Seasonal Festivals Around the World",
+  "sentence_count": 26
+}

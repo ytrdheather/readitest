@@ -1,0 +1,426 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 본문 — Seasonal Festivals Around the World",
+  "parts": [
+    "중2 L7 본문 — Seasonal Festivals Around the World"
+  ],
+  "passage_ids": [
+    "07793b5d-7515-43be-b558-bca02f08cacc"
+  ],
+  "para_breaks": [
+    26
+  ],
+  "turn_breaks": [
+    26
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "Fallas Festival in Valencia, Spain People in Valencia celebrate the coming of spring with the Fallas festival.",
+    "This festival takes place from March 15 to 19.",
+    "During the festival, people enjoy parades and fireworks.",
+    "The stars of the festival are fallas, giant wooden statues.",
+    "You can find hundreds of them all over the city.",
+    "Surprisingly, the fallas are burned on the last day of the festival.",
+    "Burning them symbolizes saying goodbye to old things and hello to a new start.",
+    "Midsummer Festival in Sweden Winter in Sweden is long and dark, so the people there especially welcome summer.",
+    "To celebrate the longest day of the year, they have a special festival.",
+    "They call it the Midsummer festival.",
+    "The festival starts on the Friday evening between June 19 and 25 and ends on the Sunday.",
+    "During the festival, people decorate a tall pole with flowers and green leaves and enjoy traditional dances around it.",
+    "Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long.",
+    "Day of the Dead Festival in Mexico Many Mexicans believe that once a year dead people come back home to meet their family and friends.",
+    "They call this day the Day of the Dead.",
+    "To welcome dead people, Mexicans hold a festival on November 1 and 2.",
+    "They believe it is important to remember dead people.",
+    "So, people set up altars in their homes and have big parties in cemeteries.",
+    "In some areas, people dress up like skeletons and hold big parades.",
+    "Fur Rondy Festival in Alaska, USA At the end of February, people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world.",
+    "During this festival, visitors can enjoy various winter sports and Alaskan traditional games.",
+    "They can also enjoy many special events such as the Running of the Reindeer.",
+    "People who participate in this race wear fun costumes and try to run faster than reindeer.",
+    "Is it possible to do so?",
+    "Not really, but it doesn’t matter.",
+    "Everyone is just having fun!"
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "스페인 발렌시아 사람들은 Fallas 축제로 봄이 오는 것을 기념한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 봄이 오는 것을 Fallas 축제로 축하한다고 했다.",
+      "_evidence_text": [
+        "Fallas Festival in Valencia, Spain People in Valencia celebrate the coming of spring with the Fallas festival."
+      ],
+      "_repeat": false,
+      "statement_en": "In Valencia, Spain, people welcome the arrival of spring through the Fallas festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Fallas 축제는 3월 5일부터 9일까지 열린다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "3월 15일부터 19일까지 열린다고 했다.",
+      "_evidence_text": [
+        "This festival takes place from March 15 to 19."
+      ],
+      "_repeat": false,
+      "statement_en": "The Fallas festival runs from March 5 to March 9."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Fallas 축제 기간에 퍼레이드는 열리지만 불꽃놀이는 하지 않는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "퍼레이드와 불꽃놀이를 모두 즐긴다고 했다.",
+      "_evidence_text": [
+        "During the festival, people enjoy parades and fireworks."
+      ],
+      "_repeat": false,
+      "statement_en": "At the Fallas festival, there are parades but no fireworks."
+    },
+    {
+      "type": "content",
+      "statement_ko": "축제의 주인공인 fallas는 거대한 돌 조각상이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "돌이 아니라 나무로 만든(wooden) 거대한 조각상이다.",
+      "_evidence_text": [
+        "The stars of the festival are fallas, giant wooden statues."
+      ],
+      "_repeat": false,
+      "statement_en": "The fallas, the main stars of the festival, are huge statues made of stone."
+    },
+    {
+      "type": "content",
+      "statement_ko": "도시 곳곳에서 수백 개의 fallas를 볼 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번 문장에서 도시 전역에 수백 개가 있다고 했다.",
+      "_evidence_text": [
+        "You can find hundreds of them all over the city."
+      ],
+      "_repeat": false,
+      "statement_en": "Hundreds of fallas can be seen in many places around the city."
+    },
+    {
+      "type": "content",
+      "statement_ko": "fallas는 축제 첫날에 불태워진다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "첫날이 아니라 축제 마지막 날에 태운다.",
+      "_evidence_text": [
+        "Surprisingly, the fallas are burned on the last day of the festival."
+      ],
+      "_repeat": false,
+      "statement_en": "The fallas are set on fire on the first day of the festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "fallas를 태우는 것은 옛것과 작별하고 새 출발을 맞이한다는 의미이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장에 그 상징적 의미가 그대로 나온다.",
+      "_evidence_text": [
+        "Burning them symbolizes saying goodbye to old things and hello to a new start."
+      ],
+      "_repeat": false,
+      "statement_en": "Burning the fallas means saying goodbye to old things and welcoming a fresh start."
+    },
+    {
+      "type": "content",
+      "statement_ko": "스웨덴은 겨울이 길고 어두워서 사람들이 여름을 특별히 반긴다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "8번 문장과 일치한다.",
+      "_evidence_text": [
+        "Midsummer Festival in Sweden Winter in Sweden is long and dark, so the people there especially welcome summer."
+      ],
+      "_repeat": false,
+      "statement_en": "Because winter is long and dark in Sweden, people there are especially glad when summer comes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "스웨덴 사람들은 일 년 중 가장 짧은 날을 기념하기 위해 축제를 연다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "가장 짧은 날이 아니라 가장 긴 날을 기념한다.",
+      "_evidence_text": [
+        "To celebrate the longest day of the year, they have a special festival."
+      ],
+      "_repeat": false,
+      "statement_en": "Swedish people hold their festival to celebrate the shortest day of the year."
+    },
+    {
+      "type": "content",
+      "statement_ko": "스웨덴 사람들은 그 축제를 Midsummer 축제라고 부른다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번 문장과 일치한다.",
+      "_evidence_text": [
+        "They call it the Midsummer festival."
+      ],
+      "_repeat": false,
+      "statement_en": "Swedish people give this festival the name Midsummer festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Midsummer 축제는 6월 19일과 25일 사이의 토요일 아침에 시작한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "금요일 저녁에 시작해서 일요일에 끝난다.",
+      "_evidence_text": [
+        "The festival starts on the Friday evening between June 19 and 25 and ends on the Sunday."
+      ],
+      "_repeat": false,
+      "statement_en": "The Midsummer festival begins on the Saturday morning between June 19 and 25."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 높은 기둥을 꽃과 푸른 잎으로 장식하고 그 주위에서 전통 춤을 춘다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "12번 문장과 일치한다.",
+      "_evidence_text": [
+        "During the festival, people decorate a tall pole with flowers and green leaves and enjoy traditional dances around it."
+      ],
+      "_repeat": false,
+      "statement_en": "People put flowers and green leaves on a tall pole and dance traditional dances around it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 시기 스웨덴에서는 해가 거의 지지 않아 밤새 축제를 즐길 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "13번 문장과 일치한다.",
+      "_evidence_text": [
+        "Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long."
+      ],
+      "_repeat": false,
+      "statement_en": "At this time of year the sun almost never goes down in Sweden, so people can enjoy the festival through the whole night."
+    },
+    {
+      "type": "content",
+      "statement_ko": "많은 멕시코인은 한 달에 한 번 죽은 사람들이 집으로 돌아온다고 믿는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "한 달에 한 번이 아니라 일 년에 한 번이다.",
+      "_evidence_text": [
+        "Day of the Dead Festival in Mexico Many Mexicans believe that once a year dead people come back home to meet their family and friends."
+      ],
+      "_repeat": false,
+      "statement_en": "Many Mexicans believe that dead people return home once a month."
+    },
+    {
+      "type": "content",
+      "statement_ko": "멕시코인들은 죽은 사람이 돌아오는 그날을 Day of the Dead라고 부른다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "15번 문장과 일치한다.",
+      "_evidence_text": [
+        "They call this day the Day of the Dead."
+      ],
+      "_repeat": false,
+      "statement_en": "Mexicans call the day when dead people come back the Day of the Dead."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Day of the Dead 축제는 10월 31일 하루 동안 열린다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "11월 1일과 2일 이틀 동안 축제를 연다.",
+      "_evidence_text": [
+        "To welcome dead people, Mexicans hold a festival on November 1 and 2."
+      ],
+      "_repeat": false,
+      "statement_en": "The Day of the Dead festival is held for only one day, on October 31."
+    },
+    {
+      "type": "content",
+      "statement_ko": "멕시코인들은 죽은 사람들을 기억하는 것이 중요하다고 믿는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "17번 문장과 일치한다.",
+      "_evidence_text": [
+        "They believe it is important to remember dead people."
+      ],
+      "_repeat": false,
+      "statement_en": "Mexicans think that remembering people who have died matters a lot."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 묘지에 제단을 세우고 집에서 큰 파티를 연다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "제단은 집에 세우고, 큰 파티는 묘지에서 연다.",
+      "_evidence_text": [
+        "So, people set up altars in their homes and have big parties in cemeteries."
+      ],
+      "_repeat": false,
+      "statement_en": "People build altars in cemeteries and hold big parties in their homes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "일부 지역에서는 사람들이 해골처럼 분장하고 큰 퍼레이드를 벌인다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "19번 문장과 일치한다.",
+      "_evidence_text": [
+        "In some areas, people dress up like skeletons and hold big parades."
+      ],
+      "_repeat": false,
+      "statement_en": "In some places, people put on skeleton costumes and have big parades."
+    },
+    {
+      "type": "content",
+      "statement_ko": "알래스카의 Fur Rondy 축제는 12월 말에 열린다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "12월 말이 아니라 2월 말에 열린다.",
+      "_evidence_text": [
+        "Fur Rondy Festival in Alaska, USA At the end of February, people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world."
+      ],
+      "_repeat": false,
+      "statement_en": "The Fur Rondy festival in Alaska takes place at the end of December."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Fur Rondy 축제에서 방문객들은 다양한 겨울 스포츠와 알래스카 전통 놀이를 즐길 수 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "21번 문장과 일치한다.",
+      "_evidence_text": [
+        "During this festival, visitors can enjoy various winter sports and Alaskan traditional games."
+      ],
+      "_repeat": false,
+      "statement_en": "Visitors to the Fur Rondy festival can try many kinds of winter sports and traditional Alaskan games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Running of the Reindeer는 Fur Rondy 축제의 특별 행사 중 하나이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "22번 문장에서 특별 행사의 예로 소개된다.",
+      "_evidence_text": [
+        "They can also enjoy many special events such as the Running of the Reindeer."
+      ],
+      "_repeat": false,
+      "statement_en": "The Running of the Reindeer is one of the special events at the Fur Rondy festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 경주에 참가하는 사람들은 순록을 타고 달린다.",
+      "answer": "X",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "순록을 타는 것이 아니라 재미있는 옷을 입고 순록보다 빨리 달리려 한다.",
+      "_evidence_text": [
+        "People who participate in this race wear fun costumes and try to run faster than reindeer."
+      ],
+      "_repeat": false,
+      "statement_en": "People who join this race ride on the backs of reindeer."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 순록보다 빨리 달리는 것이 가능한지 질문을 던진다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "24번 문장이 그런 질문이다.",
+      "_evidence_text": [
+        "Is it possible to do so?"
+      ],
+      "_repeat": false,
+      "statement_en": "The writer asks whether running faster than a reindeer can really be done."
+    },
+    {
+      "type": "content",
+      "statement_ko": "대부분의 참가자는 실제로 순록보다 빨리 달릴 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "사실상 불가능하지만 그것은 중요하지 않다고 했다.",
+      "_evidence_text": [
+        "Not really, but it doesn’t matter."
+      ],
+      "_repeat": false,
+      "statement_en": "Most of the runners are actually able to beat the reindeer in speed."
+    },
+    {
+      "type": "content",
+      "statement_ko": "참가자들은 모두 그저 즐거운 시간을 보낸다.",
+      "answer": "O",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "26번 문장과 일치한다.",
+      "_evidence_text": [
+        "Everyone is just having fun!"
+      ],
+      "_repeat": false,
+      "statement_en": "All the people there are simply enjoying themselves."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "by_type": {
+      "content": 26
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 14,
+      "X": 12
+    },
+    "sentences_covered": 26,
+    "sentence_count": 26,
+    "repeated": 0
+  }
+}

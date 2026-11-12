@@ -1,0 +1,778 @@
+{
+ "unit": "중2L7",
+ "title": "동아윤정미 중2 7과 어법드릴",
+ "seed": 20260921,
+ "plan": {
+  "diag": [
+   {
+    "key": "rewrite",
+    "items": [
+     [
+      "To remember dead people is important.",
+      "It ~ to",
+      "It is important to remember dead people."
+     ],
+     [
+      "To learn a foreign language takes time.",
+      "It ~ to",
+      "It takes time to learn a foreign language."
+     ]
+    ]
+   },
+   {
+    "key": "forof",
+    "items": [
+     [
+      "It is possible ___ visitors to enjoy winter sports there.",
+      "for"
+     ],
+     [
+      "It is important ___ Mexicans to remember dead people.",
+      "for"
+     ]
+    ]
+   },
+   {
+    "key": "it",
+    "items": [
+     [
+      "【It】 was not easy to find the house.",
+      "가주어"
+     ],
+     [
+      "Look at the statue. 【It】 is made of wood.",
+      "대명사"
+     ]
+    ]
+   },
+   {
+    "key": "fix",
+    "items": [
+     [
+      "【That】 is always sad to say goodbye to friends.",
+      "It"
+     ],
+     [
+      "We call 【him】 Mr. Kim.",
+      "O"
+     ]
+    ]
+   },
+   {
+    "key": "call",
+    "items": [
+     [
+      "Don't 【call】 me during class.",
+      "3형식 · 전화하다"
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "items": [
+     [
+      "그녀는 그 로봇을 Clean Master라고 부른다.",
+      "call, the robot",
+      "She calls the robot Clean Master."
+     ]
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "rewrite",
+    "rounds": [
+     [
+      [
+       "To remember dead people is important.",
+       "It ~ to",
+       "It is important to remember dead people."
+      ],
+      [
+       "That the Earth is round is true.",
+       "It ~ that",
+       "It is true that the Earth is round."
+      ],
+      [
+       "That everyone was having fun was obvious.",
+       "It ~ that",
+       "It was obvious that everyone was having fun."
+      ],
+      [
+       "To make gimchi together will be fun.",
+       "It ~ to",
+       "It will be fun to make gimchi together."
+      ],
+      [
+       "That she passed the exam is surprising.",
+       "It ~ that",
+       "It is surprising that she passed the exam."
+      ],
+      [
+       "To ride a bike without a helmet is dangerous.",
+       "It ~ to",
+       "It is dangerous to ride a bike without a helmet."
+      ],
+      [
+       "To solve the problem was not easy.",
+       "It ~ to",
+       "It was not easy to solve the problem."
+      ],
+      [
+       "To wear a seat belt is necessary.",
+       "It ~ to",
+       "It is necessary to wear a seat belt."
+      ],
+      [
+       "To run faster than reindeer is not possible.",
+       "It ~ to",
+       "It is not possible to run faster than reindeer."
+      ],
+      [
+       "That we keep our promises is important.",
+       "It ~ that",
+       "It is important that we keep our promises."
+      ]
+     ],
+     [
+      [
+       "That no one answered the phone is strange.",
+       "It ~ that",
+       "It is strange that no one answered the phone."
+      ],
+      [
+       "That he told a lie is clear.",
+       "It ~ that",
+       "It is clear that he told a lie."
+      ],
+      [
+       "Learning a new language is not easy.",
+       "It ~ to",
+       "It is not easy to learn a new language."
+      ],
+      [
+       "To keep a diary every day is hard.",
+       "It ~ to",
+       "It is hard to keep a diary every day."
+      ],
+      [
+       "That she knows the truth is certain.",
+       "It ~ that",
+       "It is certain that she knows the truth."
+      ],
+      [
+       "Swimming in this river is dangerous.",
+       "It ~ to",
+       "It is dangerous to swim in this river."
+      ],
+      [
+       "To lie to friends is bad.",
+       "It ~ to",
+       "It is bad to lie to friends."
+      ],
+      [
+       "To learn a foreign language takes time.",
+       "It ~ to",
+       "It takes time to learn a foreign language."
+      ],
+      [
+       "To read books every day is good for you.",
+       "It ~ to",
+       "It is good for you to read books every day."
+      ],
+      [
+       "To watch a movie with friends is fun.",
+       "It ~ to",
+       "It is fun to watch a movie with friends."
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "forof",
+    "rounds": [
+     [
+      [
+       "It was careful ___ her to check the answers twice.",
+       "of"
+      ],
+      [
+       "It was nice ___ her to help the old man.",
+       "of"
+      ],
+      [
+       "It was brave ___ the boy to tell the truth.",
+       "of"
+      ],
+      [
+       "It is good ___ you to read books every day.",
+       "for"
+      ],
+      [
+       "It is exciting ___ me to watch fireworks.",
+       "for"
+      ],
+      [
+       "It is necessary ___ us to save water.",
+       "for"
+      ],
+      [
+       "It was generous ___ them to share their food.",
+       "of"
+      ],
+      [
+       "It is impossible ___ me to finish the work today.",
+       "for"
+      ],
+      [
+       "It is difficult ___ foreigners to learn Korean.",
+       "for"
+      ],
+      [
+       "It isn't easy ___ me to exercise every day.",
+       "for"
+      ],
+      [
+       "It is kind ___ you to help me.",
+       "of"
+      ],
+      [
+       "It was silly ___ me to make the same mistake again.",
+       "of"
+      ],
+      [
+       "It is strange ___ no one answered the phone.",
+       "that (that절 진주어 — for/of 를 쓰지 않는다)"
+      ],
+      [
+       "It is fun ___ us to play board games together.",
+       "for"
+      ],
+      [
+       "It was rude ___ him to leave without saying goodbye.",
+       "of"
+      ]
+     ],
+     [
+      [
+       "It is important ___ you to help them.",
+       "for"
+      ],
+      [
+       "It is clear ___ she knows the truth.",
+       "that (that절 진주어 — for/of 를 쓰지 않는다)"
+      ],
+      [
+       "It is not safe ___ you to ride a bike without a helmet.",
+       "for"
+      ],
+      [
+       "It was nice ___ you to invite us to the festival.",
+       "of"
+      ],
+      [
+       "It is possible ___ visitors to enjoy winter sports there.",
+       "for"
+      ],
+      [
+       "It is dangerous ___ kids to swim here alone.",
+       "for"
+      ],
+      [
+       "It is important ___ Mexicans to remember dead people.",
+       "for"
+      ],
+      [
+       "It was polite ___ her to give her seat to the old man.",
+       "of"
+      ],
+      [
+       "It wasn't easy ___ him to solve the problem.",
+       "for"
+      ],
+      [
+       "It was wise ___ you to bring an umbrella.",
+       "of"
+      ],
+      [
+       "It was clever ___ the girl to solve the puzzle that way.",
+       "of"
+      ],
+      [
+       "It was careless ___ me to lose the key.",
+       "of"
+      ],
+      [
+       "It was foolish ___ him to believe the rumor.",
+       "of"
+      ],
+      [
+       "It is hard ___ children to sit still for an hour.",
+       "for"
+      ],
+      [
+       "It is smart ___ you to save money for the trip.",
+       "of"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "it",
+    "rounds": [
+     [
+      [
+       "【It】 is dangerous to swim here.",
+       "가주어"
+      ],
+      [
+       "That bag looks nice. I'll take 【it】.",
+       "대명사"
+      ],
+      [
+       "【It】 is already ten o'clock.",
+       "비인칭"
+      ],
+      [
+       "【It】 is clear that he told a lie.",
+       "가주어"
+      ],
+      [
+       "【It】 is necessary to wear a seat belt.",
+       "가주어"
+      ],
+      [
+       "They have a special festival. They call 【it】 the Midsummer festival.",
+       "대명사"
+      ],
+      [
+       "【It】 is November 1 today.",
+       "비인칭"
+      ],
+      [
+       "【It】 is getting cold these days.",
+       "비인칭"
+      ],
+      [
+       "I like the T-shirt. There is a nice picture on 【it】.",
+       "대명사"
+      ],
+      [
+       "People decorate a tall pole and dance around 【it】.",
+       "대명사"
+      ],
+      [
+       "I bought a new bike. 【It】 is very fast.",
+       "대명사"
+      ],
+      [
+       "【It】 is strange that she didn't come.",
+       "가주어"
+      ],
+      [
+       "What time is 【it】 now?",
+       "비인칭"
+      ],
+      [
+       "【It】 is nice of you to say so.",
+       "가주어"
+      ],
+      [
+       "【It】 is raining outside, so take an umbrella.",
+       "비인칭"
+      ]
+     ],
+     [
+      [
+       "This bag is big, but 【it】 is very light.",
+       "대명사"
+      ],
+      [
+       "【It】 was very dark outside.",
+       "비인칭"
+      ],
+      [
+       "I read the book yesterday. 【It】 was really interesting.",
+       "대명사"
+      ],
+      [
+       "【It】 is summer in Australia now.",
+       "비인칭"
+      ],
+      [
+       "Where is my phone? — 【It】 is on the desk.",
+       "대명사"
+      ],
+      [
+       "Look at the statue. 【It】 is made of wood.",
+       "대명사"
+      ],
+      [
+       "【It】 is Friday today.",
+       "비인칭"
+      ],
+      [
+       "【It】 will be fun to make gimchi together.",
+       "가주어"
+      ],
+      [
+       "I lost my umbrella. 【It】 was blue.",
+       "대명사"
+      ],
+      [
+       "【It】 was not easy to find the house.",
+       "가주어"
+      ],
+      [
+       "Is 【it】 possible to do so?",
+       "가주어"
+      ],
+      [
+       "They believe 【it】 is important to remember dead people.",
+       "가주어"
+      ],
+      [
+       "【It】 is cloudy today.",
+       "비인칭"
+      ],
+      [
+       "【It】 is fun to play board games.",
+       "가주어"
+      ],
+      [
+       "【It】 is five kilometers from here to the station.",
+       "비인칭"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "fix",
+    "rounds": [
+     [
+      [
+       "【This】 is dangerous to ride a bike without a helmet.",
+       "It"
+      ],
+      [
+       "It is difficult 【learns】 a foreign language.",
+       "to learn"
+      ],
+      [
+       "People call Chicago 【the Windy City】.",
+       "O"
+      ],
+      [
+       "They called their daughter 【to Lily】.",
+       "Lily"
+      ],
+      [
+       "They believe it is important 【to remember】 dead people.",
+       "O"
+      ],
+      [
+       "She 【call】 her robot Clean Master.",
+       "calls"
+      ],
+      [
+       "It isn't easy for 【he】 to learn a foreign language.",
+       "him"
+      ],
+      [
+       "They call 【me to Bob】.",
+       "me Bob"
+      ],
+      [
+       "They will call their daughter 【Lily】.",
+       "O"
+      ],
+      [
+       "It was nice of 【they】 to invite us.",
+       "them"
+      ],
+      [
+       "It is necessary 【to wear】 a seat belt.",
+       "O"
+      ],
+      [
+       "It 【good】 for you to read books every day.",
+       "is good"
+      ],
+      [
+       "It is possible 【learn】 a new language at any age.",
+       "to learn"
+      ],
+      [
+       "They call 【this day】 the Day of the Dead.",
+       "O"
+      ],
+      [
+       "It is clear 【for her that】 she knows the truth.",
+       "that"
+      ]
+     ],
+     [
+      [
+       "It is dangerous 【walked】 alone in the dark.",
+       "to walk"
+      ],
+      [
+       "It is necessary 【of】 us to save water.",
+       "for"
+      ],
+      [
+       "It is bad 【for lie】 to friends.",
+       "to lie"
+      ],
+      [
+       "Is 【it】 possible to run faster than reindeer?",
+       "O"
+      ],
+      [
+       "We call 【him】 Mr. Kim.",
+       "O"
+      ],
+      [
+       "It is strange 【that】 no one answered the phone.",
+       "O"
+      ],
+      [
+       "It is foolish 【give】 up without trying.",
+       "to give"
+      ],
+      [
+       "It was wise 【of】 you to bring an umbrella.",
+       "O"
+      ],
+      [
+       "People call the boy 【as a genius】.",
+       "a genius"
+      ],
+      [
+       "My friends call 【I】 Bob.",
+       "me"
+      ],
+      [
+       "People call 【a genius the boy】.",
+       "the boy a genius"
+      ],
+      [
+       "It is important 【that to drink】 water every day.",
+       "to drink"
+      ],
+      [
+       "【That】 is always sad to say goodbye to friends.",
+       "It"
+      ],
+      [
+       "It wasn't easy 【for him】 to solve the problem.",
+       "O"
+      ],
+      [
+       "It was kind 【for】 her to help the old man.",
+       "of"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "call",
+    "rounds": [
+     [
+      [
+       "People 【call】 Chicago the Windy City.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "Did you 【call】 me last night?",
+       "3형식 · 전화하다"
+      ],
+      [
+       "We 【call】 him Mr. Kim.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "I will 【call】 the hotel tomorrow.",
+       "3형식 · 전화하다"
+      ],
+      [
+       "Please 【call】 me when you arrive.",
+       "3형식 · 전화하다"
+      ],
+      [
+       "She 【calls】 her cleaning robot Clean Master.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "They will 【call】 their daughter Lily.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "He 【calls】 his dog Max.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "I heard someone 【calling】 my name.",
+       "3형식 · 부르다"
+      ],
+      [
+       "I'll 【call】 you later.",
+       "3형식 · 전화하다"
+      ]
+     ],
+     [
+      [
+       "She 【called】 her mom at night.",
+       "3형식 · 전화하다"
+      ],
+      [
+       "I decided to 【call】 my cat Kitty.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "He 【called】 the police right away.",
+       "3형식 · 전화하다"
+      ],
+      [
+       "Don't 【call】 me during class.",
+       "3형식 · 전화하다"
+      ],
+      [
+       "My friends 【call】 me Bob.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "Who 【called】 you this morning?",
+       "3형식 · 전화하다"
+      ],
+      [
+       "I 【called】 my grandmother on her birthday.",
+       "3형식 · 전화하다"
+      ],
+      [
+       "They 【call】 it the Midsummer festival.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "They 【call】 this day the Day of the Dead.",
+       "5형식 · ~을 …라고 부르다"
+      ],
+      [
+       "People 【call】 the boy a genius.",
+       "5형식 · ~을 …라고 부르다"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "rounds": [
+     [
+      [
+       "그녀가 진실을 알고 있는 것이 분명하다.",
+       "it, clear, that",
+       "It is clear that she knows the truth."
+      ],
+      [
+       "그가 그 문제를 푸는 것은 쉽지 않았다.",
+       "it, easy, solve",
+       "It wasn't easy for him to solve the problem."
+      ],
+      [
+       "그들은 그것을 Midsummer 축제라고 부른다.",
+       "call, it",
+       "They call it the Midsummer festival."
+      ],
+      [
+       "그들은 이날을 Day of the Dead라고 부른다.",
+       "call, this day",
+       "They call this day the Day of the Dead."
+      ],
+      [
+       "우리가 물을 절약하는 것은 필요하다.",
+       "it, necessary, save",
+       "It is necessary for us to save water."
+      ],
+      [
+       "그가 거짓말을 한 것은 사실이다.",
+       "it, true, that, tell a lie",
+       "It is true that he told a lie."
+      ],
+      [
+       "헬멧 없이 자전거를 타는 것은 위험하다.",
+       "it, dangerous, without",
+       "It is dangerous to ride a bike without a helmet."
+      ],
+      [
+       "새로운 언어를 배우는 것은 중요하다.",
+       "it, important, learn",
+       "It is important to learn a new language."
+      ],
+      [
+       "나는 내 고양이를 Kitty라고 부르기로 결정했다.",
+       "decide, call",
+       "I decided to call my cat Kitty."
+      ],
+      [
+       "사람들은 그 소년을 천재라고 부른다.",
+       "call, a genius",
+       "People call the boy a genius."
+      ]
+     ],
+     [
+      [
+       "보드게임을 하는 것은 즐겁다.",
+       "it, exciting, play",
+       "It is exciting to play board games."
+      ],
+      [
+       "내 친구들은 나를 Bob이라고 부른다.",
+       "call",
+       "My friends call me Bob."
+      ],
+      [
+       "그녀는 그 로봇을 Clean Master라고 부른다.",
+       "call, the robot",
+       "She calls the robot Clean Master."
+      ],
+      [
+       "매일 일기를 쓰는 것은 어렵다.",
+       "it, hard, keep a diary",
+       "It is hard to keep a diary every day."
+      ],
+      [
+       "그들은 자신들의 딸을 Lily라고 부를 것이다.",
+       "will, call",
+       "They will call their daughter Lily."
+      ],
+      [
+       "그 노인을 도와주다니 그녀는 친절했다.",
+       "it, kind, help, the old man",
+       "It was kind of her to help the old man."
+      ],
+      [
+       "그렇게 하는 것이 가능한가요?",
+       "it, possible, do so",
+       "Is it possible to do so?"
+      ],
+      [
+       "나를 도와주다니 너는 친절하구나.",
+       "it, kind, help",
+       "It is kind of you to help me."
+      ],
+      [
+       "죽은 사람들을 기억하는 것은 중요하다.",
+       "it, important, remember",
+       "It is important to remember dead people."
+      ],
+      [
+       "친구들과 함께 영화를 보는 것은 재미있다.",
+       "it, fun, watch",
+       "It is fun to watch a movie with friends."
+      ]
+     ]
+    ]
+   }
+  ]
+ }
+}

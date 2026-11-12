@@ -121,9 +121,21 @@ def reading(pages):
                     title = lines[k + 1].strip()
                     break
         cur = None
-        for l in lines:
+        for k, l in enumerate(lines):
             s = l.strip()
             nm = NUMBERED.match(l)
+            # 소제목 — 번호 없는 영어 줄인데 바로 다음 줄이 번호 문장이다 ('Midsummer Festival in Sweden').
+            # 2026-11-12 중2 L7: 앞 문장에 감긴 줄로 붙거나(07 뒤) 아예 빠졌다(01 앞). 따로 한 칸으로 둔다.
+            nxt = next((x for x in lines[k + 1:] if x.strip()), "")
+            nx = NUMBERED.match(nxt)
+            if (not nm and s and not HANGUL.search(s) and nx and not HANGUL.search(nx.group(2))
+                    and not re.search(r"[.?!]$", s) and not re.search(r"Lesson \d|^STEP|^\d+\s*$", s)
+                    and (cur is None or re.search(r"[.?!]$", cur[1]))):
+                sents.append([last_no + 0.5, clean(s)])
+                cur = None
+                continue
+            if not s and cur:
+                continue                        # 탭만 있는 빈 줄 뒤에 문장이 이어진다 ('flowers and' / 'green leaves')
             if nm:
                 if HANGUL.search(nm.group(2)):
                     cur = None                  # 우리말 해석 구간에 들어왔다
@@ -140,7 +152,8 @@ def reading(pages):
             else:
                 cur = None
     sents.sort(key=lambda x: x[0])
-    return title, [t for _, t in sents]
+    # 구문 표시 괄호 [that …] 는 책의 주석이다 — 원문에 없다.
+    return title, [re.sub(r"[\[\]]", "", t) for _, t in sents], sum(1 for n, _ in sents if n == int(n))
 
 
 def record(pid, kind, title, body, grade, lesson, src, extra):
@@ -199,13 +212,13 @@ def main():
              "turns": [{"no": i, "speaker": sp, "text": tx} for i, (sp, tx) in enumerate(turns, 1)],
              "functions": [], "key_expressions": [], "vocab_headwords": []}))
 
-    title, sents = reading(pages)
+    title, sents, n_numbered = reading(pages)
     if sents:
         body = " ".join(sents)
         recs.append(record(
             f"{G}L{L}_본문", "textbook_reading", f"{G} L{L} 본문 — {title}", body,
             a.grade, L, a.pdf,
-            {"reading_title": title, "sentence_count": len(sents)}))
+            {"reading_title": title, "sentence_count": n_numbered}))
 
     print(f"■ {os.path.basename(a.pdf)} — {G} Lesson {L}")
     for r in recs:
@@ -216,8 +229,8 @@ def main():
     # 본문 문장 수와 split_sentences 가 세는 수가 다르면 확인지 번호가 어긋난다
     if sents:
         got = len(split_sentences(body))
-        if got != len(sents):
-            print(f"   · 책 번호 {len(sents)}문장 vs 분리기 {got}문장 — 마침표 없는 제목줄"
+        if got != n_numbered:
+            print(f"   · 책 번호 {n_numbered}문장 vs 분리기 {got}문장 — 마침표 없는 제목줄"
                   f"('Ann Jones, a visitor')이 다음 문장에 붙는다. 확인지 번호는 분리기 기준.")
 
     if not a.write:

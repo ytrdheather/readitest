@@ -1,0 +1,63 @@
+{
+  "passage_id": "중2L7_대화4",
+  "kind": "textbook_dialogue",
+  "title": "중2 L7 대화-4",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "G: Look! There are lots of pretty flowers here.\nB: Which do you like more, the red flowers or the yellow flowers?\nG: I like the yellow flowers more.\nB: Why do you like them more?\nG: Well, yellow is my favorite color.",
+  "body_text_sha256": "ff3bd8e5e7a3e4705192426a83f25db9ba34ddb51bd651de24a82d22049a764e",
+  "word_count": 43,
+  "transcription": {
+    "status": "confirmed",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "2학년 7과.pdf",
+    "note": "특급기출 본책의 「주요 표현·구문 해설」(대화) · 「주요 문장」(본문) 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화·문장은 기계가 모른다 — 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T10:34:47.525258+00:00",
+    "confirmed_via": "전사확인지_중2_L7.html · 원장 「틀린 곳 없음, 진행」 (2026-11-12)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Watch and Talk A-4",
+  "textbook_page": 120,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "G",
+      "text": "Look! There are lots of pretty flowers here."
+    },
+    {
+      "no": 2,
+      "speaker": "B",
+      "text": "Which do you like more, the red flowers or the yellow flowers?"
+    },
+    {
+      "no": 3,
+      "speaker": "G",
+      "text": "I like the yellow flowers more."
+    },
+    {
+      "no": 4,
+      "speaker": "B",
+      "text": "Why do you like them more?"
+    },
+    {
+      "no": 5,
+      "speaker": "G",
+      "text": "Well, yellow is my favorite color."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

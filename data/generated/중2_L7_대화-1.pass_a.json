@@ -1,0 +1,659 @@
+{
+  "passage_id": "c257ad6b-db9b-4c8f-8518-f5a8b4829e4c",
+  "body_text_sha256": "0ba1bc5a77b1a63e81da114c40b9821fd89cb7d934db30143beca03404721933",
+  "tags": [
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 11,
+      "span_end": 44,
+      "surface": "do face painting or play VR games",
+      "sentence_no": 1,
+      "rationale": "조동사 can 뒤에 동사원형 do와 play가 or로 병렬 연결됨. plays/playing 으로 바꾸는 병렬 깨기 오류 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 46,
+      "span_end": 69,
+      "surface": "Which do you like more?",
+      "sentence_no": 2,
+      "rationale": "둘 중 선택을 묻는 비교급 more. most / much 로 바꾸는 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 73,
+      "span_end": 98,
+      "surface": "I like face painting more",
+      "sentence_no": 3,
+      "rationale": "like의 목적어로 동명사구 face painting 사용. to paint face 등 형태 혼동 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 100,
+      "span_end": 115,
+      "surface": "What about you?",
+      "sentence_no": 4,
+      "rationale": "전치사 about 뒤 목적격 you. What about + 명사(동명사) 구조이며 about을 빈칸으로 뚫기 쉬움",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 120,
+      "span_end": 143,
+      "surface": "I want to play VR games",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사만 취함. want playing 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 147,
+      "span_end": 179,
+      "surface": "don’t want to wash my face again",
+      "sentence_no": 6,
+      "rationale": "to wash는 want의 목적어로 쓰인 명사적 용법 to부정사. washing/wash 형태 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_SUBJECT",
+      "span_start": 185,
+      "span_end": 207,
+      "surface": "Playing VR games is OK",
+      "sentence_no": 7,
+      "rationale": "동명사구 주어는 단수 취급 → is. Play/To playing 또는 are 로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 196,
+      "span_end": 207,
+      "surface": "games is OK",
+      "sentence_no": 7,
+      "rationale": "주어는 games가 아니라 동명사구 Playing VR games 전체이므로 단수 is. 바로 앞 복수명사 games에 끌려 are로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 214,
+      "span_end": 245,
+      "surface": "Let’s go play VR games together",
+      "sentence_no": 8,
+      "rationale": "Let's 뒤 동사원형 go, 그리고 go + 동사원형(구어체) 구조. go to play / go playing 혼동 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 4,
+      "span_end": 27,
+      "surface": "We can do face painting",
+      "sentence_no": 1,
+      "rationale": "조동사 can + 동사원형. can to do / can doing 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입-선택지 제시",
+      "signal": "or",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문",
+      "signal": "Which",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답-선호 표명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "되묻기",
+      "signal": "What about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "상대 선호 표명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "원인·이유",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "양보·수용(전환)",
+      "signal": "too",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 8,
+      "role": "결론-합의",
+      "signal": "Let's",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "③"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_SUBJECT",
+      "stem": "위 대화의 문장을 한 군데만 고친 것들이다. 어법상 옳은 것은?",
+      "answer_key": "③",
+      "explanation": "③은 조동사 can 뒤에 동사원형 do와 play가 or로 올바르게 병렬 연결된 원문이다. ①은 동명사구 주어가 단수 취급이므로 are가 아니라 is여야 한다. ②와 ⑤는 want가 to부정사를 목적어로 취하므로 want to play, want to wash가 맞다. ④는 or 뒤에 plays가 와서 병렬이 깨졌다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        4,
+        0,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Playing VR games are OK, too.",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I want playing VR games.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "We can do face painting or play VR games.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "We can do face painting or plays VR games.",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I don’t want wash my face again.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "대화의 (a)~(c)에 들어갈 말로 가장 적절한 것끼리 짝지은 것은?\nB: I want (a)[to play / playing] VR games.\nG: (b)[Play / Playing] VR games (c)[is / are] OK, too.",
+      "answer_key": "①",
+      "explanation": "(a) want는 to부정사를 목적어로 취한다. (b) 문장의 주어 자리이므로 동명사 Playing이 와야 한다. (c) 동명사구 주어는 단수 취급하므로 is가 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        6,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to play — (b) Playing — (c) is",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) playing — (b) Playing — (c) is",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to play — (b) Play — (c) is",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_SUBJECT",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to play — (b) Playing — (c) are",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) playing — (b) Play — (c) are",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 중 밑줄 친 부분이 어법상 틀린 문장은?",
+      "answer_key": "③",
+      "explanation": "③의 주어는 바로 앞의 복수명사 games가 아니라 동명사구 Playing VR games 전체이므로 단수 취급하여 is가 와야 한다. 나머지는 모두 본문 그대로 옳은 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        1,
+        2,
+        8,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Which do you like more?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I like face painting more.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Playing VR games are OK, too.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Let’s go play VR games together.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I don’t want to wash my face again.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "②",
+      "explanation": "소년은 \"I don’t want to wash my face again.\"이라고 말했으므로 ②가 일치한다. 소녀는 face painting을 더 좋아한다고 했으므로 ①은 틀리고, 마지막에 둘은 VR 게임을 하러 가기로 했으므로 ③·⑤도 틀리다. ④는 대화에 언급이 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl prefers playing VR games to face painting.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The boy doesn't want to wash his face again.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "They decide to do face painting together.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The boy has never played VR games before.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl refuses to play VR games with the boy.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 I don’t want to wash my face again. 이 뜻하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "앞에서 VR 게임을 하고 싶다고 말한 뒤 이어지는 말이므로, 페이스 페인팅을 하면 나중에 얼굴을 다시 씻어야 해서 싫다는 이유를 밝힌 것이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "얼굴을 씻는 일이 귀찮아서 페이스 페인팅을 하고 싶지 않다는 뜻",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "이미 세수를 했으므로 지금은 더 씻을 필요가 없다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "VR 게임을 하면 얼굴이 더러워진다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "물이 부족해서 세수를 할 수 없다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "페이스 페인팅 물감이 피부에 해롭다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "두 사람은 face painting과 VR games 중 무엇을 할지 선호를 묻고 답한 뒤 함께 할 활동을 정하고 있다. 따라서 '함께 할 활동 고르기'가 주제다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "choosing an activity to do together",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "learning how to paint faces well",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the danger of playing VR games too long",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "washing your face after a festival",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "buying tickets for a school festival",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 적절한 것은?\nG: I like face painting more. What about you?\nB: I want to play VR games. I don’t want to wash my face again.\nG: ____________ Let’s go play VR games together.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤에서 함께 VR 게임을 하러 가자고 제안하므로, 소녀가 상대의 선택을 받아들이는 말이 와야 한다. 나머지는 모두 뒤 문장과 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Playing VR games is OK, too.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I don't like VR games at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "You should wash your face first.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Face painting is the only choice.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Let's not do anything today.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ Playing VR games are OK, too.",
+      "answer_key": "are → is",
+      "explanation": "주어가 동명사구 Playing VR games이므로 단수 취급하여 동사는 is가 되어야 한다. 바로 앞 복수명사 games에 수를 맞추지 않도록 주의한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "<조건>에 맞게 우리말을 영어로 쓰시오.\n우리말: 나는 VR 게임을 하고 싶어.\n<조건> 1) want를 사용할 것 2) 총 6단어로 쓸 것",
+      "answer_key": "I want to play VR games.",
+      "explanation": "want는 목적어로 to부정사를 취하므로 want to play로 써야 한다. want playing은 틀린 표현이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열하시오.\n우리말: 우리는 페이스 페인팅을 하거나 VR 게임을 할 수 있어.\n(play / can / face painting / or / we / VR games / do)",
+      "answer_key": "We can do face painting or play VR games.",
+      "explanation": "조동사 can 뒤에는 동사원형이 오고, or로 연결된 두 번째 동사도 동사원형 play로 병렬을 맞춘다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        9
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 8,
+    "tags_returned": 10,
+    "tags_kept": 10,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "③"
+        ]
+      }
+    ]
+  }
+}

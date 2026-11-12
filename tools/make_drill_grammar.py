@@ -60,6 +60,12 @@ UNITS = [
     ("L5 외부지문 — A girl with a red balloon", ["A girl with a red balloon"]),
     ("L6 외부지문 — Yu Gwansun", ["Yu Gwansun"]),
     ("L6 외부지문 — Homer B. Hulbert", ["Homer B. Hulbert"]),
+    # 중2 7과 (2026-11-12). 대화 7편 — 짧은 A-1~4 넷을 한 묶음, C · Review 둘을 한 묶음.
+    ("L7 대화 ①②③④", ["중2 L7 대화-1", "중2 L7 대화-2", "중2 L7 대화-3", "중2 L7 대화-4"]),
+    ("L7 대화 ⑤⑥⑦", ["중2 L7 대화-5", "중2 L7 대화-6", "중2 L7 대화-7"]),
+    ("L7 본문 — Seasonal Festivals Around the World",
+     ["중2 L7 본문 — Seasonal Festivals Around the World"]),
+    ("L7 외부지문 — Holmenkollen Ski Festival", ["Holmenkollen Ski Festival"]),
     # 중1 (2026-09-18). 대화 8편이라 3·3·2. 제목 앞의 '중1' 로 중2 와 구분한다.
     ("중1 L5 대화 ①②③", ["중1 L5 대화-1", "중1 L5 대화-2", "중1 L5 대화-3"]),
     ("중1 L5 대화 ④⑤⑥", ["중1 L5 대화-4", "중1 L5 대화-5", "중1 L5 대화-6"]),
@@ -84,7 +90,8 @@ EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부�
             "L6 외부지문 — Homer B. Hulbert": "영덕중 배부물",
             "중1 L7 외부지문 — Two Different Jobs": "영일중 배부물",
             "중1 L6 외부지문 — Challenge Upcycle": "영일중 배부물",
-            "L6 외부지문 — Homer B. Hulbert (태장)": "태장중 배부물"}
+            "L6 외부지문 — Homer B. Hulbert (태장)": "태장중 배부물",
+            "L7 외부지문 — Holmenkollen Ski Festival": "태장중 배부물"}
 
 
 def slug(title):

@@ -1,0 +1,765 @@
+{
+ "unit": "영덕중1L7",
+ "title": "영덕중1 7과 어법 보충드릴",
+ "seed": 20260921,
+ "plan": {
+  "diag": [
+   {
+    "key": "use",
+    "items": [
+     [
+      "The smartphone is expensive 【to buy】.",
+      "형용사 수식 (~하기에)"
+     ],
+     [
+      "Jenny ran fast 【to catch】 the train.",
+      "목적 (~하기 위해)"
+     ]
+    ]
+   },
+   {
+    "key": "role",
+    "items": [
+     [
+      "What should I do 【to improve】 my English?",
+      "부사 · 목적"
+     ],
+     [
+      "My job is 【to find】 perfect places for shooting.",
+      "명사 · 보어 (~하는 것이다)"
+     ]
+    ]
+   },
+   {
+    "key": "when",
+    "items": [
+     [
+      "【When】 are you going to shoot the movie?",
+      "의문사 (언제)"
+     ],
+     [
+      "【When】 did you hear that he was sick?",
+      "의문사 (언제)"
+     ]
+    ]
+   },
+   {
+    "key": "conj",
+    "items": [
+     [
+      "My work begins ___ the shooting is over. (촬영이 끝난 뒤에)",
+      "after"
+     ],
+     [
+      "___ we saw the cat, it ran away. (고양이를 봤을 때)",
+      "When"
+     ]
+    ]
+   },
+   {
+    "key": "fix",
+    "items": [
+     [
+      "After the class 【is】 over, we will eat lunch.",
+      "O"
+     ],
+     [
+      "Greg lived 【to be】 ninety.",
+      "O"
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "items": [
+     [
+      "나는 사진을 찍기 위해 스마트폰을 사용한다.",
+      "use my smartphone, take pictures",
+      "I use my smartphone to take pictures."
+     ],
+     [
+      "건강을 유지하기 위해 그녀는 매일 요가를 한다.",
+      "To 로 시작 · stay healthy, do yoga",
+      "To stay healthy, she does yoga every day."
+     ]
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "use",
+    "rounds": [
+     [
+      [
+       "I use hand signals 【to calm】 the dog.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "I turned on the light 【to see】 better.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "Greg lived 【to be】 ninety.",
+       "결과 (~해서 …하다)"
+      ],
+      [
+       "I'm so glad 【to meet】 you.",
+       "원인 (~해서)"
+      ],
+      [
+       "We are sorry 【to hear】 that.",
+       "원인 (~해서)"
+      ],
+      [
+       "This river is dangerous 【to swim】 in.",
+       "형용사 수식 (~하기에)"
+      ],
+      [
+       "【To stay】 healthy, he exercises every day.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "She grew up 【to be】 a world-famous chef.",
+       "결과 (~해서 …하다)"
+      ],
+      [
+       "A lot of people are working hard 【to create】 this movie.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "She wore a helmet 【to protect】 herself.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "The smartphone is expensive 【to buy】.",
+       "형용사 수식 (~하기에)"
+      ],
+      [
+       "They were excited 【to see】 the singer in person.",
+       "원인 (~해서)"
+      ],
+      [
+       "She was happy 【to see】 her friends.",
+       "원인 (~해서)"
+      ],
+      [
+       "The question was difficult 【to answer】.",
+       "형용사 수식 (~하기에)"
+      ],
+      [
+       "【To capture】 their happy moments, I'm going to use drones.",
+       "목적 (~하기 위해)"
+      ]
+     ],
+     [
+      [
+       "He is saving money 【to buy】 a skateboard.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "English is not hard 【to learn】.",
+       "형용사 수식 (~하기에)"
+      ],
+      [
+       "I got up early 【to prepare】 breakfast.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "My grandmother lived 【to be】 a hundred.",
+       "결과 (~해서 …하다)"
+      ],
+      [
+       "I was surprised 【to find】 the door open.",
+       "원인 (~해서)"
+      ],
+      [
+       "He was sad 【to hear】 the news.",
+       "원인 (~해서)"
+      ],
+      [
+       "She went to the store 【to buy】 some milk.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "We recycle 【to reduce】 waste.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "He was pleased 【to get】 a new tablet.",
+       "원인 (~해서)"
+      ],
+      [
+       "The quiz is fun 【to solve】.",
+       "형용사 수식 (~하기에)"
+      ],
+      [
+       "We went to the library 【to borrow】 some books.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "This book is easy 【to read】.",
+       "형용사 수식 (~하기에)"
+      ],
+      [
+       "Jenny ran fast 【to catch】 the train.",
+       "목적 (~하기 위해)"
+      ],
+      [
+       "The boy grew up 【to be】 a great musician.",
+       "결과 (~해서 …하다)"
+      ],
+      [
+       "She was disappointed 【to lose】 the game.",
+       "원인 (~해서)"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "role",
+    "rounds": [
+     [
+      [
+       "We left early 【to avoid】 traffic.",
+       "부사 · 목적"
+      ],
+      [
+       "I like 【to travel】.",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "【To create】 a better story, I can change the order of scenes.",
+       "부사 · 목적"
+      ],
+      [
+       "I have something 【to tell】 you.",
+       "형용사 · 앞의 명사를 꾸민다 (~할)"
+      ],
+      [
+       "My job is 【to find】 perfect places for shooting.",
+       "명사 · 보어 (~하는 것이다)"
+      ],
+      [
+       "He doesn't like 【to wake】 up early.",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "What should I do 【to improve】 my English?",
+       "부사 · 목적"
+      ],
+      [
+       "She hopes 【to travel】 the world.",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "We need 【to save】 water.",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "She was very happy 【to see】 her friends.",
+       "부사 · 원인"
+      ],
+      [
+       "I stopped working 【to have】 lunch.",
+       "부사 · 목적"
+      ],
+      [
+       "I want 【to be】 a sports reporter.",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "This math problem is easy 【to solve】.",
+       "부사 · 형용사 수식"
+      ],
+      [
+       "He has many friends 【to help】 him.",
+       "형용사 · 앞의 명사를 꾸민다 (~할)"
+      ],
+      [
+       "I need a book 【to read】 on the train.",
+       "형용사 · 앞의 명사를 꾸민다 (~할)"
+      ]
+     ],
+     [
+      [
+       "She came home early 【to see】 her children.",
+       "부사 · 목적"
+      ],
+      [
+       "They decided 【to clean】 the room.",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "Our plan is 【to go】 on a trip next summer.",
+       "명사 · 보어 (~하는 것이다)"
+      ],
+      [
+       "My dream is 【to help】 children in Africa.",
+       "명사 · 보어 (~하는 것이다)"
+      ],
+      [
+       "We studied hard 【to get】 good grades.",
+       "부사 · 목적"
+      ],
+      [
+       "The boy grew up 【to be】 a great scientist.",
+       "부사 · 결과"
+      ],
+      [
+       "Give me something 【to drink】, please.",
+       "형용사 · 앞의 명사를 꾸민다 (~할)"
+      ],
+      [
+       "He went to the gym 【to exercise】 for an hour.",
+       "부사 · 목적"
+      ],
+      [
+       "She has no time 【to play】 games.",
+       "형용사 · 앞의 명사를 꾸민다 (~할)"
+      ],
+      [
+       "What do you want 【to do】 after school?",
+       "명사 · 목적어 (~하는 것을)"
+      ],
+      [
+       "They went to the park 【to walk】 their dog.",
+       "부사 · 목적"
+      ],
+      [
+       "Do you have a lot of work 【to do】?",
+       "형용사 · 앞의 명사를 꾸민다 (~할)"
+      ],
+      [
+       "He was glad 【to join】 the team.",
+       "부사 · 원인"
+      ],
+      [
+       "【To sleep】 well is important.",
+       "명사 · 주어 (~하는 것은)"
+      ],
+      [
+       "【To watch】 dramas is fun.",
+       "명사 · 주어 (~하는 것은)"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "when",
+    "rounds": [
+     [
+      [
+       "【When】 did you hear that he was sick?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 will you be back home?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 is your birthday?",
+       "의문사 (언제)"
+      ],
+      [
+       "I create sound effects in my studio 【when】 recording on location is not easy.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "【When】 are you going to shoot the movie?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 he heard the news, he was very excited.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "【When】 did she first meet him?",
+       "의문사 (언제)"
+      ],
+      [
+       "I listen to music 【when】 I'm free.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "【When】 he opened the gift, he was surprised.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "【When】 I feel tired, I take a nap.",
+       "접속사 (~할 때)"
+      ]
+     ],
+     [
+      [
+       "【When】 can we meet again?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 it rains, don't forget your umbrella.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "Did you call me 【when】 I was sleeping?",
+       "접속사 (~할 때)"
+      ],
+      [
+       "Max gets too excited 【when】 a lot of people are around.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "She called me 【when】 she needed help.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "He loved chocolate 【when】 he was a child.",
+       "접속사 (~할 때)"
+      ],
+      [
+       "【When】 do you usually have dinner?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 do you do your homework?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 does the movie start?",
+       "의문사 (언제)"
+      ],
+      [
+       "【When】 did they arrive at the beach?",
+       "의문사 (언제)"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "conj",
+    "rounds": [
+     [
+      [
+       "___ we saw the cat, it ran away. (고양이를 봤을 때)",
+       "When"
+      ],
+      [
+       "___ he finished his homework, he played a mobile game. (숙제를 끝낸 뒤에)",
+       "After"
+      ],
+      [
+       "We turned off the lights ___ we left. (떠나기 전에)",
+       "before"
+      ],
+      [
+       "You need to warm up ___ you swim. (수영하기 전에)",
+       "before"
+      ],
+      [
+       "Wash your hands ___ you eat. (먹기 전에)",
+       "before"
+      ],
+      [
+       "___ you leave, close all the windows. (떠나기 전에)",
+       "Before"
+      ],
+      [
+       "___ Kevin did his homework, he played outside. (숙제를 한 후에)",
+       "After"
+      ],
+      [
+       "My work begins ___ the shooting is over. (촬영이 끝난 뒤에)",
+       "after"
+      ],
+      [
+       "Let's go out ___ it stops raining. (비가 그친 후에)",
+       "after"
+      ],
+      [
+       "Where did you live ___ you moved here? (이곳으로 이사 오기 전에)",
+       "before"
+      ]
+     ],
+     [
+      [
+       "___ I feel tired, I take a nap. (피곤할 때)",
+       "When"
+      ],
+      [
+       "He paints pictures ___ he has free time. (시간이 날 때)",
+       "when"
+      ],
+      [
+       "He got better ___ he took the medicine. (약을 먹은 후에)",
+       "after"
+      ],
+      [
+       "She cleaned the kitchen ___ she baked cookies. (쿠키를 구운 후에)",
+       "after"
+      ],
+      [
+       "Brush your teeth ___ you go to bed. (잠자리에 들기 전에)",
+       "before"
+      ],
+      [
+       "You should be careful ___ you cross the street. (길을 건널 때)",
+       "when"
+      ],
+      [
+       "___ the game ended, everyone went home. (경기가 끝난 후에)",
+       "After"
+      ],
+      [
+       "She called me ___ she needed help. (도움이 필요했을 때)",
+       "when"
+      ],
+      [
+       "She smiles ___ she sees her friends. (친구들을 볼 때)",
+       "when"
+      ],
+      [
+       "I read a book ___ I go to bed. (자기 전에)",
+       "before"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "fix",
+    "rounds": [
+     [
+      [
+       "When I 【hear】 that song, I feel happy.",
+       "O"
+      ],
+      [
+       "I was happy 【to met】 my old friend.",
+       "to meet"
+      ],
+      [
+       "We will have a party when Dad 【gets】 home.",
+       "O"
+      ],
+      [
+       "Before I 【will go】 home, I will check my homework.",
+       "go"
+      ],
+      [
+       "I hurried 【not to be】 late for my class.",
+       "O"
+      ],
+      [
+       "We saved money 【to went】 on a trip.",
+       "to go"
+      ],
+      [
+       "I'll lend you this book after I 【finish】 it.",
+       "O"
+      ],
+      [
+       "Before she 【will cook】 dinner, she will wash the vegetables.",
+       "cooks"
+      ],
+      [
+       "I'll text you when I 【will finish】 my homework.",
+       "finish"
+      ],
+      [
+       "After school 【will be】 over, I'll go to the gym.",
+       "is"
+      ],
+      [
+       "【To learn】 more, I ask questions.",
+       "O"
+      ],
+      [
+       "When she 【comes】 back, I will tell her the news.",
+       "O"
+      ],
+      [
+       "After the class 【is】 over, we will eat lunch.",
+       "O"
+      ],
+      [
+       "The quiz is fun 【to solves】.",
+       "to solve"
+      ],
+      [
+       "He left early 【to get】 good seats.",
+       "O"
+      ],
+      [
+       "After it 【will stop】 raining, we will go out.",
+       "stops"
+      ]
+     ],
+     [
+      [
+       "He took a shower before he 【went】 to bed.",
+       "O"
+      ],
+      [
+       "He ran fast 【for catch】 the ball.",
+       "to catch"
+      ],
+      [
+       "After I finish my homework, I 【will play】 computer games.",
+       "O"
+      ],
+      [
+       "I will call you when the movie 【will end】.",
+       "ends"
+      ],
+      [
+       "She 【will wash】 the vegetables before she cooks dinner.",
+       "O"
+      ],
+      [
+       "【Stay】 healthy, she does yoga every day.",
+       "To stay"
+      ],
+      [
+       "Greg lived 【to be】 ninety.",
+       "O"
+      ],
+      [
+       "When Amy 【will arrive】, we will have dinner.",
+       "arrives"
+      ],
+      [
+       "Before their guests 【arrived】, they cleaned the house.",
+       "O"
+      ],
+      [
+       "I use my smartphone 【to take】 pictures.",
+       "O"
+      ],
+      [
+       "She went to the library 【borrow】 some books.",
+       "to borrow"
+      ],
+      [
+       "They went there 【to playing】 soccer.",
+       "to play"
+      ],
+      [
+       "She was excited 【to see】 the concert.",
+       "O"
+      ],
+      [
+       "We will start the game after he 【will come】.",
+       "comes"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "rounds": [
+     [
+      [
+       "She washed her hands. Then she ate dinner.",
+       "한 문장으로 · Before 로 시작",
+       "Before she ate dinner, she washed her hands."
+      ],
+      [
+       "I feel tired. I take a nap then.",
+       "한 문장으로 · when 을 가운데에",
+       "I take a nap when I feel tired."
+      ],
+      [
+       "We want to reduce waste, so we recycle.",
+       "to부정사 · We recycle 로 시작",
+       "We recycle to reduce waste."
+      ],
+      [
+       "나는 숙제를 끝낼 때 너한테 문자 할게.",
+       "will text, when, finish",
+       "I'll text you when I finish my homework."
+      ],
+      [
+       "He closed the door. Then he went out.",
+       "한 문장으로 · Before 로 시작",
+       "Before he went out, he closed the door."
+      ],
+      [
+       "나는 사진을 찍기 위해 스마트폰을 사용한다.",
+       "use my smartphone, take pictures",
+       "I use my smartphone to take pictures."
+      ],
+      [
+       "She saved money. She wanted to buy a new bike.",
+       "한 문장으로 · to부정사",
+       "She saved money to buy a new bike."
+      ],
+      [
+       "I had breakfast, and then I started studying.",
+       "After 로 시작",
+       "After I had breakfast, I started studying."
+      ],
+      [
+       "그들은 그 책을 읽은 후에 독후감을 써야 한다.",
+       "should write a book report, after, read",
+       "They should write a book report after they read the book."
+      ],
+      [
+       "He was a child. He loved chocolate then.",
+       "한 문장으로 · When 으로 시작",
+       "When he was a child, he loved chocolate."
+      ]
+     ],
+     [
+      [
+       "그는 아이들을 보기 위해 집에 일찍 왔다.",
+       "come home early, see his kids",
+       "He came home early to see his kids."
+      ],
+      [
+       "건강을 유지하기 위해 그녀는 매일 요가를 한다.",
+       "To 로 시작 · stay healthy, do yoga",
+       "To stay healthy, she does yoga every day."
+      ],
+      [
+       "I do my homework. Then I eat dinner.",
+       "한 문장으로 · before 를 가운데에",
+       "I do my homework before I eat dinner."
+      ],
+      [
+       "당신을 만나서 정말 기뻐요.",
+       "so glad, meet",
+       "I'm so glad to meet you."
+      ],
+      [
+       "밖에 나가기 전에 네 방을 청소해라.",
+       "clean, before, go out",
+       "Clean your room before you go out."
+      ],
+      [
+       "I went to the bakery. I wanted to get some bread.",
+       "한 문장으로 · to부정사",
+       "I went to the bakery to get some bread."
+      ],
+      [
+       "The game ended. Then everyone went home.",
+       "한 문장으로 · after 를 가운데에",
+       "Everyone went home after the game ended."
+      ],
+      [
+       "They are going to the gym. They will exercise for an hour.",
+       "한 문장으로 · to부정사",
+       "They are going to the gym to exercise for an hour."
+      ],
+      [
+       "I eat lunch. Then I take two more classes.",
+       "한 문장으로 · After 로 시작",
+       "After I eat lunch, I take two more classes."
+      ],
+      [
+       "그녀는 저녁을 요리하기 전에 채소를 씻을 것이다.",
+       "Before 로 시작 · cook, will wash",
+       "Before she cooks dinner, she will wash the vegetables."
+      ]
+     ]
+    ]
+   }
+  ]
+ }
+}

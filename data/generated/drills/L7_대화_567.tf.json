@@ -1,0 +1,539 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 대화 ⑤⑥⑦",
+  "parts": [
+    "중2 L7 대화-5",
+    "중2 L7 대화-6",
+    "중2 L7 대화-7"
+  ],
+  "passage_ids": [
+    "5acea219-b6ea-4911-9419-c56ab4c91e72",
+    "28b6aabd-0429-4090-a8dc-936c4e4641a0",
+    "af0a961f-2f16-43f0-ab5c-33534c5015f8"
+  ],
+  "para_breaks": [
+    16,
+    23,
+    32
+  ],
+  "turn_breaks": [
+    2,
+    4,
+    6,
+    7,
+    9,
+    11,
+    13,
+    15,
+    16,
+    17,
+    19,
+    20,
+    23,
+    24,
+    25,
+    27,
+    30,
+    32
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "G: Hi, Jihan.",
+    "What a surprise!",
+    "B: Hey, Emma.",
+    "Are you here to see the fireworks, too?",
+    "G: Yes.",
+    "I hear China, Italy, and the USA are participating this year.",
+    "B: Don’t forget Korea.",
+    "G: Of course, Korea, too.",
+    "So, the fireworks start at 7 p.m. Right?",
+    "B: Yeah.",
+    "Let’s do something together until then.",
+    "G: I guess we can ride bikes or go for a boat ride.",
+    "Which do you like more?",
+    "B: Going for a boat ride.",
+    "I think it’ll be more fun.",
+    "G: Then, let’s go for a boat ride.",
+    "B: Let’s go to the movies this weekend.",
+    "G: I’m sorry, but I can’t.",
+    "I have an exam on Monday.",
+    "B: So, you’re going to be in the library all weekend?",
+    "G: No.",
+    "I’ll be home.",
+    "I like studying at home more than at the library.",
+    "B: I’m looking for a gift for my grandmother.",
+    "W: How about this bag?",
+    "B: It’s too big.",
+    "I think it’ll be heavy, too.",
+    "W: \u0007Not at all.",
+    "It’s big but very light.",
+    "It’s perfect for older women.",
+    "B: Really?",
+    "Then, I’ll take it."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "여자아이가 지한에게 먼저 인사를 건넨다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "여자아이가 'Hi, Jihan.'이라고 먼저 인사한다.",
+      "_evidence_text": [
+        "G: Hi, Jihan."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says hello to Jihan first."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 지한을 만날 것을 미리 알고 있었다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "'What a surprise!'라고 했으므로 뜻밖의 만남이다.",
+      "_evidence_text": [
+        "What a surprise!"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says she already knew she would meet Jihan there."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이의 이름은 Emma이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "남자아이가 여자아이를 Emma라고 부르므로 Emma는 여자아이의 이름이다.",
+      "_evidence_text": [
+        "B: Hey, Emma."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy's name is Emma."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 여자아이에게 불꽃놀이를 보러 왔는지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "'Are you here to see the fireworks, too?'라고 묻는다.",
+      "_evidence_text": [
+        "Are you here to see the fireworks, too?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks the girl if she came to watch the fireworks."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 불꽃놀이를 보러 온 것이 아니라고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "여자아이는 'Yes.'라고 답했다.",
+      "_evidence_text": [
+        "G: Yes."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answers that she did not come for the fireworks."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 올해 중국, 이탈리아, 미국이 참가한다고 들었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "세 나라를 그대로 언급한다.",
+      "_evidence_text": [
+        "I hear China, Italy, and the USA are participating this year."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl heard that China, Italy, and the USA are joining this year."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 일본도 잊지 말라고 덧붙인다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "남자아이가 말한 나라는 일본이 아니라 한국이다.",
+      "_evidence_text": [
+        "B: Don’t forget Korea."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy adds that they should not forget Japan."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 한국도 참가한다는 말을 인정한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "'Of course, Korea, too.'라고 응한다.",
+      "_evidence_text": [
+        "G: Of course, Korea, too."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl agrees that Korea is taking part as well."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 불꽃놀이가 오후 9시에 시작하는지 확인한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "여자아이가 말한 시각은 오후 7시이다.",
+      "_evidence_text": [
+        "So, the fireworks start at 7 p.m. Right?"
+      ],
+      "_repeat": false,
+      "statement_en": "The girl checks if the fireworks begin at 9 p.m."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 시작 시각이 맞다고 확인해 준다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "'Yeah.'라고 답한다.",
+      "_evidence_text": [
+        "B: Yeah."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says that the starting time she said is right."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 불꽃놀이 시작 전까지 함께 무언가를 하자고 제안한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "'Let's do something together until then.'이라고 말한다.",
+      "_evidence_text": [
+        "Let’s do something together until then."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy suggests doing something together before the fireworks begin."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 자전거 타기나 보트 타기를 할 수 있을 것 같다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "두 가지 활동을 여자아이가 언급한다.",
+      "_evidence_text": [
+        "G: I guess we can ride bikes or go for a boat ride."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says they could ride bikes or take a boat ride."
+    },
+    {
+      "type": "content",
+      "statement_ko": "어느 것이 더 좋은지 물어본 사람은 남자아이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "'Which do you like more?'라고 물은 사람은 여자아이다.",
+      "_evidence_text": [
+        "Which do you like more?"
+      ],
+      "_repeat": false,
+      "statement_en": "It is the boy who asks which one the other person likes more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 자전거 타기를 더 좋아한다고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "남자아이는 보트 타기를 고른다.",
+      "_evidence_text": [
+        "B: Going for a boat ride."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy answers that he likes riding bikes more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 자신이 고른 활동이 더 재미있을 것 같다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "'I think it'll be more fun.'이라고 한다.",
+      "_evidence_text": [
+        "I think it’ll be more fun."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says the activity he chose will be more fun."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 사람은 결국 자전거를 타기로 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "여자아이가 보트를 타러 가자고 결론 짓는다.",
+      "_evidence_text": [
+        "G: Then, let’s go for a boat ride."
+      ],
+      "_repeat": false,
+      "statement_en": "In the end, the two decide to ride bikes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 이번 주말에 영화 보러 가자고 제안한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "'Let's go to the movies this weekend.'라고 말한다.",
+      "_evidence_text": [
+        "B: Let’s go to the movies this weekend."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy suggests going to see a movie this weekend."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 기꺼이 가겠다고 수락한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "미안하지만 갈 수 없다고 거절한다.",
+      "_evidence_text": [
+        "G: I’m sorry, but I can’t."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl happily says yes to his idea."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 월요일에 시험이 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "'I have an exam on Monday.'라고 말한다.",
+      "_evidence_text": [
+        "I have an exam on Monday."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl has a test on Monday."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 여자아이가 주말 내내 도서관에 있을 것인지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "도서관에 있을 거냐고 확인하는 질문을 한다.",
+      "_evidence_text": [
+        "B: So, you’re going to be in the library all weekend?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy asks if she will stay in the library for the whole weekend."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 주말 내내 도서관에 있을 것이라고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "여자아이는 'No.'라고 답했다.",
+      "_evidence_text": [
+        "G: No."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl answers that she will be in the library all weekend."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 주말에 집에 있을 것이라고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "'I'll be home.'이라고 말한다.",
+      "_evidence_text": [
+        "I’ll be home."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl says she will stay at home on the weekend."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자아이는 도서관보다 집에서 공부하는 것을 더 좋아한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "집에서 공부하는 것을 더 좋아한다고 직접 말한다.",
+      "_evidence_text": [
+        "I like studying at home more than at the library."
+      ],
+      "_repeat": false,
+      "statement_en": "The girl likes studying at home better than in the library."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 어머니께 드릴 선물을 찾고 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "할머니께 드릴 선물을 찾고 있다.",
+      "_evidence_text": [
+        "B: I’m looking for a gift for my grandmother."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy is looking for a present for his mother."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자 점원은 가방을 추천한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "'How about this bag?'이라고 권한다.",
+      "_evidence_text": [
+        "W: How about this bag?"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman in the shop suggests a bag."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 그 가방이 너무 작다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "너무 크다(too big)고 말했다.",
+      "_evidence_text": [
+        "B: It’s too big."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy says the bag is too small."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 그 가방이 무거울 것 같다고 생각한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "'I think it'll be heavy, too.'라고 말한다.",
+      "_evidence_text": [
+        "I think it’ll be heavy, too."
+      ],
+      "_repeat": false,
+      "statement_en": "The boy thinks the bag will be heavy."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자 점원은 가방이 무거울 거라는 말에 동의한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        28
+      ],
+      "why_ko": "'Not at all.'이라며 부정한다.",
+      "_evidence_text": [
+        "W: \u0007Not at all."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman agrees that the bag will be heavy."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자 점원은 가방이 크지만 매우 가볍다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        29
+      ],
+      "why_ko": "'It's big but very light.'라고 말한다.",
+      "_evidence_text": [
+        "It’s big but very light."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says the bag is big but very light."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자 점원은 그 가방이 나이 든 여성에게 딱 알맞다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        30
+      ],
+      "why_ko": "'perfect for older women'이라고 한다.",
+      "_evidence_text": [
+        "It’s perfect for older women."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says the bag is just right for older women."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 점원의 말에 놀라며 정말이냐고 되묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        31
+      ],
+      "why_ko": "'Really?'라고 되묻는다.",
+      "_evidence_text": [
+        "B: Really?"
+      ],
+      "_repeat": false,
+      "statement_en": "The boy is surprised and asks the woman if that is true."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자아이는 결국 그 가방을 사지 않기로 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        32
+      ],
+      "why_ko": "'Then, I'll take it.'이라며 사기로 한다.",
+      "_evidence_text": [
+        "Then, I’ll take it."
+      ],
+      "_repeat": false,
+      "statement_en": "In the end, the boy decides not to buy the bag."
+    }
+  ],
+  "diagnostics": {
+    "returned": 32,
+    "kept": 32,
+    "by_type": {
+      "content": 32
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 18,
+      "X": 14
+    },
+    "sentences_covered": 32,
+    "sentence_count": 32,
+    "repeated": 0
+  }
+}

@@ -1,0 +1,639 @@
+{
+  "passage_id": "d62eb060-26e4-4388-a913-caeb4d7cc5a0",
+  "body_text_sha256": "befc24e0c9ac82132210b12943a54fbccbeee17f1f560e1a9e995f1bb5520d0f",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 8,
+      "span_end": 12,
+      "surface": "have",
+      "sentence_no": 1,
+      "rationale": "주어 They(복수)에 맞춘 현재형 have. has로 바꾼 수일치 오류 유도 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 41,
+      "span_end": 77,
+      "surface": "Which of the two do you like better?",
+      "sentence_no": 2,
+      "rationale": "둘 중 선택을 묻는 비교급 better. best/good 등 최상급·원급 교체로 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 47,
+      "span_end": 57,
+      "surface": "of the two",
+      "sentence_no": 2,
+      "rationale": "'둘 중에서'를 나타내는 of. in/between 등으로 바꾸는 전치사 선택 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 99,
+      "span_end": 110,
+      "surface": "much better",
+      "sentence_no": 3,
+      "rationale": "비교급 강조 부사 much. very better로 바꾸는 전형적 오류 유도 (very/so는 비교급 강조 불가)",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 119,
+      "span_end": 129,
+      "surface": "spicy food",
+      "sentence_no": 4,
+      "rationale": "명사 food를 수식하는 형용사 spicy. spicily 같은 부사형 교체 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 140,
+      "span_end": 162,
+      "surface": "let’s order tteokbokki",
+      "sentence_no": 5,
+      "rationale": "let's 뒤에는 동사원형. ordering / to order 로 바꾸는 사역 let 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_CAUSATIVE_FORM",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 164,
+      "span_end": 182,
+      "surface": "It looks delicious",
+      "sentence_no": 6,
+      "rationale": "감각동사 look + 형용사 보어. deliciously(부사)나 like delicious로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 195,
+      "span_end": 204,
+      "surface": "so hungry",
+      "sentence_no": 8,
+      "rationale": "형용사 단독 수식은 so. such hungry / too hungry 로 바꾸는 so-such 구별 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입(메뉴 정보 제시)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문(선호 묻기)",
+      "signal": "Which of the two",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답(선호 표현)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "원인(선호 이유)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "전환(제안)",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "부연(제안 근거)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "수락",
+      "signal": "OK",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "결과요약(감정 표현)",
+      "signal": null,
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "위 대화문의 문장을 옮긴 것이다. 어법상 옳은 것은?",
+      "answer_key": "③",
+      "explanation": "③은 비교급 better를 much가 강조한 올바른 문장이다. ①은 감각동사 look 뒤에 형용사 delicious가 와야 한다. ②는 let's 뒤에 동사원형 order가 와야 한다. ④는 둘 중 하나를 고르므로 최상급 best가 아니라 비교급 better를 쓴다. ⑤는 형용사 hungry 단독 수식이므로 such가 아니라 so를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        4,
+        2,
+        1,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "It looks deliciously.",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Then, let's ordering tteokbokki.",
+          "is_answer": false,
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
+          "via_modification": "EI_CAUSATIVE_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I like tteokbokki much better.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Which of the two do you like best?",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I'm such hungry!",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음은 위 대화의 일부이다. (a)~(c)에 들어갈 말로 알맞게 짝지어진 것은?\nB: Which (a)[of / in] the two do you like better?\nG: I like tteokbokki (b)[very / much] better. I like spicy food.\nB: Then, let's (c)[order / to order] tteokbokki.",
+      "answer_key": "①",
+      "explanation": "(a) '둘 중에서'는 of the two. (b) 비교급 better를 강조하는 부사는 much이며 very는 비교급을 강조할 수 없다. (c) let's 뒤에는 동사원형 order가 온다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) of — (b) much — (c) order",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) in — (b) much — (c) order",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) of — (b) very — (c) order",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) of — (b) much — (c) to order",
+          "is_answer": false,
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
+          "via_modification": "EI_CAUSATIVE_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) in — (b) very — (c) to order",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①",
+        "②",
+        "③",
+        "④",
+        "⑤",
+        "⑥"
+      ],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "위 대화의 It looks delicious.의 밑줄 친 looks와 쓰임이 같은 것은?",
+      "answer_key": "②",
+      "explanation": "본문의 looks는 뒤에 형용사 보어가 오는 감각동사(~해 보이다)이다. ②의 looks spicy가 같은 쓰임이다. 나머지는 모두 '보다/찾다' 등 전치사와 결합한 일반동사 쓰임이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "She looks at the menu on the wall.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The tteokbokki looks spicy.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "He looks for his friend in the shop.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "They look around the food court.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Look at this gimbap!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "I look out the window.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "②",
+      "explanation": "소녀가 I like spicy food.라고 말했으므로 ②가 일치한다. 소녀는 떡볶이를 훨씬 더 좋아하고(①×), 배고프다고 말한 사람은 소녀이며(③은 본문에 근거 없음), 그곳에는 떡볶이와 김밥이 모두 있고(④×), 둘은 떡볶이를 주문하기로 한다(⑤×).",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl prefers gimbap to tteokbokki.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl likes spicy food.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy is not hungry at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The place sells only gimbap.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They decide to order nothing.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly doing in the conversation?",
+      "answer_key": "①",
+      "explanation": "메뉴 두 가지 중 무엇을 더 좋아하는지 묻고 떡볶이를 주문하기로 하는 대화이므로 '주문할 음식 고르기'가 중심 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "Choosing what food to order",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Cooking tteokbokki together",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Paying for their meal",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Looking for a new restaurant",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Learning a recipe for gimbap",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\nB: They have tteokbokki and gimbap here. ________\nG: I like tteokbokki much better. I like spicy food.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤에서 소녀가 둘 중 하나를 '훨씬 더 좋아한다'고 답하므로, 두 가지 중 선호를 묻는 ①이 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Which of the two do you like better?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How much is the gimbap?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "When did you come here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Where can we sit down?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Who made this tteokbokki?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 I like tteokbokki much better.가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "앞에서 두 음식 중 어느 것을 더 좋아하는지 물었으므로, much better는 '(김밥보다) 훨씬 더 좋아한다'는 비교의 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "떡볶이를 김밥보다 훨씬 더 좋아한다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "떡볶이를 예전보다 잘 만들게 되었다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "떡볶이 맛이 전보다 좋아졌다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "떡볶이를 많이 먹을 수 있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "떡볶이가 김밥보다 값이 싸다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nB: Then, let's order tteokbokki. It looks deliciously.",
+      "answer_key": "deliciously → delicious",
+      "explanation": "look은 감각동사로 뒤에 보어로 형용사가 와야 한다. 부사 deliciously는 보어가 될 수 없으므로 delicious로 고친다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n(둘 중에 어느 것을 더 좋아하니?)\n[ do / which / the two / better / you / of / like ]",
+      "answer_key": "Which of the two do you like better?",
+      "explanation": "의문사 Which + of the two(둘 중에서) + 의문문 어순 do you like + 비교급 better 순으로 배열한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "<조건>에 맞게 소녀의 대답을 완성하시오.\n<조건> 1) much와 better를 모두 쓸 것 2) 주어 I로 시작할 것 3) 7단어로 쓸 것\nB: Which of the two do you like better?\nG: ____________________ (tteokbokki)\nG: I like spicy food.",
+      "answer_key": "I like tteokbokki much better than gimbap.",
+      "explanation": "비교급 better를 강조하는 부사 much를 앞에 두고, 비교 대상은 than gimbap으로 나타낸다. (I/like/tteokbokki/much/better/than/gimbap = 7단어)",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 8,
+    "tags_returned": 8,
+    "tags_kept": 8,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-USAGE",
+        "options": [
+          "①",
+          "②",
+          "③",
+          "④",
+          "⑤",
+          "⑥"
+        ]
+      }
+    ]
+  }
+}
