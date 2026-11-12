@@ -1,0 +1,851 @@
+{
+  "passage_id": "c9802f6c-fd65-4c3a-bb8b-d8d33c41d1ce",
+  "body_text_sha256": "593d80b105f70415ef5c87dc2c1160dce491054eb5f1918cf81d28acff32c061",
+  "tags": [
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 30,
+      "span_end": 37,
+      "surface": "is held",
+      "sentence_no": 1,
+      "rationale": "축제가 '열리는' 대상이므로 수동태. holds / is holding / is held 를 섞어 능동·수동 혼동을 유도할 수 있는 1순위 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 65,
+      "span_end": 109,
+      "surface": "one of Norway's most loved winter traditions",
+      "sentence_no": 1,
+      "rationale": "「one of + 최상급 + 복수명사」 구문. most loved → more loved, tradition(단수)로 바꾸는 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 124,
+      "span_end": 144,
+      "surface": "was first celebrated",
+      "sentence_no": 2,
+      "rationale": "축제가 '기념된' 것이므로 수동. was first celebrating / first celebrated 로 바꾸는 형태 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 192,
+      "span_end": 212,
+      "surface": "who traveled on skis",
+      "sentence_no": 2,
+      "rationale": "선행사 people(사람)에 대한 주격 관계대명사 who. which/where 로 바꾸는 선행사 불일치 함정. 더불어 on skis 의 전치사도 삭제 대상",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_REL_ANTECEDENT",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 213,
+      "span_end": 240,
+      "surface": "to watch exciting ski jumps",
+      "sentence_no": 2,
+      "rationale": "'~하기 위해' 목적을 나타내는 부사적 용법의 to부정사. to watching / for watch 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 222,
+      "span_end": 240,
+      "surface": "exciting ski jumps",
+      "sentence_no": 2,
+      "rationale": "ski jumps가 흥분을 '주는' 것이므로 현재분사 exciting. excited 로 바꾸는 분사 뒤집기 함정",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 276,
+      "span_end": 345,
+      "surface": "remains a symbol of Norwegian culture and blends sport with tradition",
+      "sentence_no": 3,
+      "rationale": "주어 it에 remains와 blends 두 동사가 and로 병렬. blending / blend 로 바꿔 병렬·수일치를 깨는 변형 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 318,
+      "span_end": 345,
+      "surface": "blends sport with tradition",
+      "sentence_no": 3,
+      "rationale": "blend A with B 고정 결합. with → to / in 으로 바꾸거나 삭제하는 전치사 문항 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "INVERSION",
+      "span_start": 347,
+      "span_end": 411,
+      "surface": "At the heart of the festival is the iconic Holmenkollen Ski Jump",
+      "sentence_no": 4,
+      "rationale": "장소 부사구 문두 도치로 주어가 뒤에 옴. 어순 배열·도치 영작의 핵심 자리이며 동사 is/are 수일치도 함께 물을 수 있음",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 434,
+      "span_end": 469,
+      "surface": "that offers beautiful views of Oslo",
+      "sentence_no": 4,
+      "rationale": "선행사 a towering structure(단수)에 맞춘 주격 관계대명사절 동사 offers. offer 로 바꾸는 수일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 506,
+      "span_end": 517,
+      "surface": "in front of",
+      "sentence_no": 5,
+      "rationale": "'~앞에서'를 뜻하는 굳어진 전치사구. in front of → on front of / in the front 처럼 바꾸거나 빈칸 처리하기 쉬운 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 531,
+      "span_end": 544,
+      "surface": "cheering fans",
+      "sentence_no": 5,
+      "rationale": "팬들이 직접 환호하므로 능동의 현재분사. cheered 로 뒤집는 분사 함정",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 661,
+      "span_end": 696,
+      "surface": "gather outdoors to enjoy the winter",
+      "sentence_no": 7,
+      "rationale": "목적을 나타내는 부사적 용법 to enjoy. enjoying / enjoy 로 바꾸는 준동사 형태 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 711,
+      "span_end": 811,
+      "surface": "explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities",
+      "sentence_no": 8,
+      "rationale": "조동사 can에 이어지는 동사원형 세 개의 or 병렬. 마지막을 trying / tries 로 바꿔 병렬을 깨는 전형적 출제 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 719,
+      "span_end": 748,
+      "surface": "the world's oldest ski museum",
+      "sentence_no": 8,
+      "rationale": "최상급 oldest + 소유격. older / most old 로 바꾸는 최상급 형태 오류 및 내용일치(가장 오래된 vs 가장 새로운) 함정",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 855,
+      "span_end": 865,
+      "surface": "are filled",
+      "sentence_no": 9,
+      "rationale": "거리가 '채워지는' 것이므로 수동태. fill / are filling 으로 바꾸는 능동·수동 혼동 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 859,
+      "span_end": 882,
+      "surface": "filled with food trucks",
+      "sentence_no": 9,
+      "rationale": "be filled with 고정 결합. with 를 by/of 로 바꾸거나 통째로 삭제하는 전치사 문항 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 970,
+      "span_end": 996,
+      "surface": "more than a sporting event",
+      "sentence_no": 11,
+      "rationale": "'~ 이상의'를 뜻하는 more than. most than / more as 등으로 바꾸는 비교 표현 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 1060,
+      "span_end": 1085,
+      "surface": "For those who love winter",
+      "sentence_no": 13,
+      "rationale": "선행사 those(사람들)에 대한 주격 관계대명사 who + 복수동사 love. which/whose 로 바꾸거나 loves 로 수일치를 깨는 변형 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_REL_ANTECEDENT",
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입·주제문",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "배경(기원·역사)",
+      "signal": "first",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "주제문(현재의 의의)",
+      "signal": "Today",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "세부(핵심 장소 소개)",
+      "signal": "At the heart of",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "세부(경기 장면)",
+      "signal": "Here",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "전환(경기 외 측면)",
+      "signal": "Beyond the competitions",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부(참여 모습)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "세부(체험 활동 열거)",
+      "signal": "or",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "세부 추가(거리 풍경)",
+      "signal": "Also",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "세부 추가(음식)",
+      "signal": "And of course",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "결론 도입(의미 확장)",
+      "signal": "more than",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 12,
+      "role": "결론문(요약)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 13,
+      "role": "마무리 권유",
+      "signal": "For those who",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "윗글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③의 관계대명사 that의 선행사는 단수명사 a towering structure이므로 동사는 offers가 되어야 한다. 나머지는 모두 올바르다 — ①은 축제가 '열리는' 것이므로 수동태 is held, ②는 선행사 people에 맞는 주격 who, ④는 팬들이 직접 환호하므로 현재분사 cheering, ⑤는 be filled with(~로 가득 차다) 고정 결합이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        9,
+        0,
+        3,
+        11,
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The Holmenkollen Ski festival is held every March in Oslo",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "it began as a gathering of people who traveled on skis",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "a towering structure that offer beautiful views of Oslo",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "world-class athletes compete in front of thousands of cheering fans",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the festival streets are filled with food trucks and music",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "윗글의 (a), (b), (c)에 들어갈 말로 가장 적절한 것끼리 짝지은 것은?\n\n(a) The Holmenkollen Ski festival [is held / is holding] every March in Oslo.\n(b) ... to watch [exciting / excited] ski jumps and cross-country races.\n(c) Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or [try / trying / tries] fun activities like ziplining.",
+      "answer_key": "①",
+      "explanation": "(a) 축제는 사람에 의해 '개최되는' 대상이므로 수동태 is held. (b) ski jumps가 흥분을 주는 쪽이므로 현재분사 exciting. (c) 조동사 can 뒤의 explore, climb과 or로 병렬되므로 동사원형 try. ④와 ⑤는 병렬이 깨졌고, ②는 능동형, ③은 분사 선택이 반대다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        5,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "is held – exciting – try",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "is holding – exciting – try",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "is held – excited – try",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "is held – exciting – trying",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "is held – exciting – tries",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "②"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음은 윗글에서 가져온 문장들이다. 어법상 어색한 것은?",
+      "answer_key": "④",
+      "explanation": "④는 'be filled with(~로 가득 차다)'에서 전치사 with가 빠졌다. are filled with food trucks and music이 되어야 한다. ①은 remains와 blends의 정상적 병렬, ②는 장소 부사구 문두 도치, ③은 목적을 나타내는 to부정사, ⑤는 선행사 those에 맞는 who + 복수동사 love로 모두 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        8,
+        12,
+        16,
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Today, it remains a symbol of Norwegian culture and blends sport with tradition.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "At the heart of the festival is the iconic Holmenkollen Ski Jump.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Families and friends gather outdoors to enjoy the winter.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Also, the festival streets are filled food trucks and music.",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "For those who love winter, skiing, and cultural experiences, this historic festival is a must-see.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "윗글의 흐름으로 보아, 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "④는 사람들이 함께 모여 즐기는 분위기를 설명하는 문장이므로 '외로운(lonely)'은 문맥에 어긋난다. 원문의 lively(활기찬)가 적절하다. 나머지는 모두 축제의 오랜 전통과 인기, 볼 만한 가치를 설명하는 흐름에 맞는 낱말이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        3,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "one of Norway's most loved winter traditions",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "it began as a gathering of people who traveled on skis",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "it remains a symbol of Norwegian culture and blends sport with tradition",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the festival brings people together in a warm and lonely atmosphere",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "this historic festival is a must-see",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "윗글의 밑줄 친 this historic festival is a must-see가 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "must-see는 '꼭 봐야 할 것'을 뜻하는 명사 표현이다. 앞 문장에서 축제를 자연·전통·국가적 자부심의 축제라 칭하며 겨울과 문화 체험을 좋아하는 사람들에게 권하는 흐름이므로 ①이 적절하다. 나머지는 본문에 근거가 없다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "이 역사적인 축제는 반드시 한 번은 볼 만한 가치가 있다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "이 축제는 역사가 오래되어 지금은 보기 어려워졌다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "이 축제는 입장권을 미리 사 두어야 한다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "이 축제는 전문 선수들만 관람할 수 있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "이 축제는 매년 보던 사람만 다시 볼 수 있다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the best topic of the passage?",
+      "answer_key": "①",
+      "explanation": "글은 Holmenkollen 스키 축제의 역사, 경기, 그리고 사람들이 함께 즐기는 분위기와 문화적 의미를 전체적으로 소개한다. ②③④는 본문에서 다루지 않고, ⑤의 와플은 세부 사항일 뿐 글 전체의 주제가 아니다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a Norwegian winter festival that blends sport, tradition, and community",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the history of modern ski jumping techniques",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "how engineers build a safe ski jump tower",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the decline of traditional winter sports in Norway",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "famous Norwegian foods and how to cook them",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "윗글의 내용과 일치하지 않는 것은?",
+      "answer_key": "④",
+      "explanation": "본문 [8]에 the world's oldest ski museum이라고 했으므로 '세계에서 가장 새로운' 박물관이라는 ④는 일치하지 않는다. ①은 [1], ②는 [2], ③은 [8], ⑤는 [9]에서 각각 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        14,
+        0,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The festival takes place every March in Oslo.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It was first celebrated in 1892.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Visitors can climb the jump tower for amazing views.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The ski museum at the festival is the newest one in the world.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Food trucks and music fill the festival streets.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "윗글의 흐름으로 보아, 빈칸에 들어갈 말로 가장 적절한 것은?\n\nHolmenkollen is more than a sporting event. It is a celebration of ________.",
+      "answer_key": "①",
+      "explanation": "글은 축제가 스키 점프 경기뿐 아니라 노르웨이의 전통과 문화를 상징하고, 사람들이 야외에서 겨울을 함께 즐기는 자리임을 강조한다. 따라서 '자연·전통·국가적 자부심의 축제'인 ①이 적절하다. ③⑤는 경기 측면만, ②④는 본문과 반대되는 내용이다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        17,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "nature, tradition, and national pride",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "new technology and modern city life",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "world records and prize money",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "quiet rest away from other people",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "strict training for professional athletes",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음은 윗글 [2]번 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 단어만 고칠 것)\n\nThe festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watching exciting ski jumps and cross-country races.",
+      "answer_key": "watching → watch (to watch exciting ski jumps)",
+      "explanation": "'~하기 위해'라는 목적을 나타내는 부사적 용법의 to부정사이므로 to 뒤에는 동사원형 watch가 와야 한다. 여기서 to는 전치사가 아니므로 동명사 watching은 올 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "INVERSION",
+      "stem": "다음 우리말과 같은 뜻이 되도록 <보기>의 단어를 모두 사용하여 윗글 [4]번 문장의 앞부분을 영작하시오.\n\n우리말: 축제의 중심에는 상징적인 Holmenkollen 스키 점프대가 있다.\n<보기> the heart / of / is / at / the iconic Holmenkollen Ski Jump / the festival\n조건: 장소를 나타내는 부사구를 문장 맨 앞에 두어 도치 구문으로 쓸 것.",
+      "answer_key": "At the heart of the festival is the iconic Holmenkollen Ski Jump",
+      "explanation": "장소를 나타내는 부사구(At the heart of the festival)가 문두에 오면 주어와 동사가 도치되어 「부사구 + 동사 + 주어」 어순이 된다. 주어가 단수(the iconic Holmenkollen Ski Jump)이므로 동사는 is를 쓴다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 13,
+    "tags_returned": 19,
+    "tags_kept": 19,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "②"
+        ]
+      }
+    ]
+  }
+}

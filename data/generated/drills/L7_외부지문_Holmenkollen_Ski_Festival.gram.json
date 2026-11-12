@@ -1,0 +1,329 @@
+{
+  "book": "태장중 배부물",
+  "unit": "L7 외부지문 — Holmenkollen Ski Festival",
+  "kind": "handout_external",
+  "parts": [
+    "Holmenkollen Ski Festival"
+  ],
+  "body": "The Holmenkollen Ski festival is held every March in Oslo and is one of Norway's most loved winter traditions. The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races. Today, it remains a symbol of Norwegian culture and blends sport with tradition. At the heart of the festival is the iconic Holmenkollen Ski Jump, a towering structure that offers beautiful views of Oslo. Here, world-class athletes compete in front of thousands of cheering fans. Beyond the competitions, the festival brings people together in a warm and lively atmosphere. Families and friends gather outdoors to enjoy the winter. Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities like ziplining. Also, the festival streets are filled with food trucks and music. And of course, you can taste traditional Norwegian waffles. Holmenkollen is more than a sporting event. It is a celebration of nature, tradition, and national pride. For those who love winter, skiing, and cultural experiences, this historic festival is a must-see.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "51d521e6-7e44-4ff8-82d8-3f0b7b62b2bb",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 30,
+      "span_end": 37,
+      "correct": "is held",
+      "wrong": [
+        "holds",
+        "is holding"
+      ],
+      "why_ko": "축제는 사람들에 의해 '열리는' 대상이라 수동태 is held가 맞고, 능동 holds/is holding은 틀립니다.",
+      "rationale": "축제가 '열리는' 대상이므로 수동태. holds / is holding / is held 를 섞어 능동·수동 혼동을 유도할 수 있는 1순위 자리",
+      "sentence_no": 1,
+      "sentence": "The Holmenkollen Ski festival is held every March in Oslo and is one of Norway's most loved winter traditions."
+    },
+    {
+      "tag_id": "afe74257-c86b-4dd5-aae9-58c655a84289",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 65,
+      "span_end": 109,
+      "correct": "one of Norway's most loved winter traditions",
+      "wrong": [
+        "one of Norway's most loved winter tradition"
+      ],
+      "why_ko": "「one of + 최상급 + 복수명사」이므로 most loved와 복수 traditions를 써야 합니다.",
+      "rationale": "「one of + 최상급 + 복수명사」 구문. most loved → more loved, tradition(단수)로 바꾸는 오류 유도",
+      "sentence_no": 1,
+      "sentence": "The Holmenkollen Ski festival is held every March in Oslo and is one of Norway's most loved winter traditions.",
+      "verify_dropped": [
+        {
+          "wrong": "one of Norway's more loved winter traditions",
+          "judgement": "ok",
+          "note_ko": "'one of the more ~' 형태는 영어에서 실제로 쓰이는 표현이라 문장은 성립. 의미만 약해짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "68ba0e6c-7ca7-4e29-969f-7d3dc204bf2b",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 124,
+      "span_end": 144,
+      "correct": "was first celebrated",
+      "wrong": [
+        "was first celebrating"
+      ],
+      "why_ko": "축제가 '기념되는' 대상이므로 was + 과거분사(celebrated) 수동태가 맞습니다.",
+      "rationale": "축제가 '기념된' 것이므로 수동. was first celebrating / first celebrated 로 바꾸는 형태 오류 유도",
+      "sentence_no": 2,
+      "sentence": "The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races.",
+      "verify_dropped": [
+        {
+          "wrong": "first celebrated",
+          "judgement": "odd",
+          "note_ko": "형태상 문장은 되지만 축제가 무언가를 기념했다는 뜻이 되어 의미가 통하지 않음."
+        }
+      ]
+    },
+    {
+      "tag_id": "17b536f0-f05a-4c3b-8bea-81bd4e3cc789",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 192,
+      "span_end": 212,
+      "correct": "who traveled on skis",
+      "wrong": [
+        "which traveled on skis",
+        "where traveled on skis",
+        "who traveled skis"
+      ],
+      "why_ko": "선행사가 people(사람)이라 주격 관계대명사 who를 쓰고, '스키를 타고'는 on skis로 전치사가 필요합니다.",
+      "rationale": "선행사 people(사람)에 대한 주격 관계대명사 who. which/where 로 바꾸는 선행사 불일치 함정. 더불어 on skis 의 전치사도 삭제 대상",
+      "sentence_no": 2,
+      "sentence": "The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races."
+    },
+    {
+      "tag_id": "bf612d9c-2f27-4397-93c2-1626f139d8ad",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 213,
+      "span_end": 240,
+      "correct": "to watch exciting ski jumps",
+      "wrong": [
+        "to watching exciting ski jumps",
+        "for watch exciting ski jumps"
+      ],
+      "why_ko": "'~하기 위해'라는 목적의 to부정사이므로 to + 동사원형 watch가 와야 합니다.",
+      "rationale": "'~하기 위해' 목적을 나타내는 부사적 용법의 to부정사. to watching / for watch 형태 오류 유도",
+      "sentence_no": 2,
+      "sentence": "The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races."
+    },
+    {
+      "tag_id": "0777b565-3af5-4b53-843b-63e525d7905b",
+      "point": "VOICE_PARTICIPLE",
+      "span_start": 222,
+      "span_end": 240,
+      "correct": "exciting ski jumps",
+      "wrong": [
+        "excited ski jumps",
+        "excite ski jumps"
+      ],
+      "why_ko": "스키 점프가 흥분을 '주는' 것이므로 현재분사 exciting이 맞습니다.",
+      "rationale": "ski jumps가 흥분을 '주는' 것이므로 현재분사 exciting. excited 로 바꾸는 분사 뒤집기 함정",
+      "sentence_no": 2,
+      "sentence": "The festival was first celebrated in 1892, and it began as a gathering of people who traveled on skis to watch exciting ski jumps and cross-country races."
+    },
+    {
+      "tag_id": "9ebfe7cc-9fa9-4314-8f4e-d12b16753b39",
+      "point": "CONJ_PARALLEL",
+      "span_start": 276,
+      "span_end": 345,
+      "correct": "remains a symbol of Norwegian culture and blends sport with tradition",
+      "wrong": [
+        "remains a symbol of Norwegian culture and blending sport with tradition",
+        "remains a symbol of Norwegian culture and blend sport with tradition"
+      ],
+      "why_ko": "and로 연결된 두 동사는 같은 형태여야 하고 주어 it에 맞춰 blends(3인칭 단수)가 맞습니다.",
+      "rationale": "주어 it에 remains와 blends 두 동사가 and로 병렬. blending / blend 로 바꿔 병렬·수일치를 깨는 변형 가능",
+      "sentence_no": 3,
+      "sentence": "Today, it remains a symbol of Norwegian culture and blends sport with tradition."
+    },
+    {
+      "tag_id": "78dbb5a2-ae74-4f60-99ff-c7d599f12210",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 318,
+      "span_end": 345,
+      "correct": "blends sport with tradition",
+      "wrong": [
+        "blends sport to tradition",
+        "blends sport in tradition"
+      ],
+      "why_ko": "blend A with B가 굳어진 표현이라 with를 써야 합니다.",
+      "rationale": "blend A with B 고정 결합. with → to / in 으로 바꾸거나 삭제하는 전치사 문항 자리",
+      "sentence_no": 3,
+      "sentence": "Today, it remains a symbol of Norwegian culture and blends sport with tradition."
+    },
+    {
+      "tag_id": "8353f382-10de-400f-9012-3b6aee3965f7",
+      "point": "INVERSION",
+      "span_start": 347,
+      "span_end": 411,
+      "correct": "At the heart of the festival is the iconic Holmenkollen Ski Jump",
+      "wrong": [
+        "At the heart of the festival are the iconic Holmenkollen Ski Jump",
+        "At the heart of the festival it is the iconic Holmenkollen Ski Jump"
+      ],
+      "why_ko": "장소 부사구가 앞에 나와 도치된 문장으로, 진짜 주어가 단수(Ski Jump)라 is가 맞고 주어를 또 넣으면 안 됩니다.",
+      "rationale": "장소 부사구 문두 도치로 주어가 뒤에 옴. 어순 배열·도치 영작의 핵심 자리이며 동사 is/are 수일치도 함께 물을 수 있음",
+      "sentence_no": 4,
+      "sentence": "At the heart of the festival is the iconic Holmenkollen Ski Jump, a towering structure that offers beautiful views of Oslo."
+    },
+    {
+      "tag_id": "9d0b0abc-9d54-4c24-86bd-78eb260ef32c",
+      "point": "VERB_SVA",
+      "span_start": 434,
+      "span_end": 469,
+      "correct": "that offers beautiful views of Oslo",
+      "wrong": [
+        "that offer beautiful views of Oslo",
+        "that offering beautiful views of Oslo"
+      ],
+      "why_ko": "선행사가 단수 a towering structure이므로 관계사절 동사도 offers여야 합니다.",
+      "rationale": "선행사 a towering structure(단수)에 맞춘 주격 관계대명사절 동사 offers. offer 로 바꾸는 수일치 오류 유도",
+      "sentence_no": 4,
+      "sentence": "At the heart of the festival is the iconic Holmenkollen Ski Jump, a towering structure that offers beautiful views of Oslo."
+    },
+    {
+      "tag_id": "2abdf9a4-4d07-4fdc-88f2-888d2d9da3d4",
+      "point": "PREP_USAGE",
+      "span_start": 506,
+      "span_end": 517,
+      "correct": "in front of",
+      "wrong": [
+        "on front of",
+        "in the front"
+      ],
+      "why_ko": "'~앞에서'는 in front of로 굳어진 전치사구입니다.",
+      "rationale": "'~앞에서'를 뜻하는 굳어진 전치사구. in front of → on front of / in the front 처럼 바꾸거나 빈칸 처리하기 쉬운 자리",
+      "sentence_no": 5,
+      "sentence": "Here, world-class athletes compete in front of thousands of cheering fans."
+    },
+    {
+      "tag_id": "f838f16b-7472-4353-a5b5-5fc11a2e54e4",
+      "point": "VOICE_PARTICIPLE",
+      "span_start": 531,
+      "span_end": 544,
+      "correct": "cheering fans",
+      "wrong": [
+        "cheered fans",
+        "cheer fans"
+      ],
+      "why_ko": "팬들이 직접 환호하는 능동 의미라 현재분사 cheering이 맞습니다.",
+      "rationale": "팬들이 직접 환호하므로 능동의 현재분사. cheered 로 뒤집는 분사 함정",
+      "sentence_no": 5,
+      "sentence": "Here, world-class athletes compete in front of thousands of cheering fans."
+    },
+    {
+      "tag_id": "2b28cbc9-ac7d-45dd-aa0d-2e10c7a1ab2f",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 661,
+      "span_end": 696,
+      "correct": "gather outdoors to enjoy the winter",
+      "wrong": [
+        "gather outdoors to enjoying the winter"
+      ],
+      "why_ko": "'겨울을 즐기기 위해'라는 목적이므로 to + 동사원형 enjoy를 씁니다.",
+      "rationale": "목적을 나타내는 부사적 용법 to enjoy. enjoying / enjoy 로 바꾸는 준동사 형태 오류 유도",
+      "sentence_no": 7,
+      "sentence": "Families and friends gather outdoors to enjoy the winter.",
+      "verify_dropped": [
+        {
+          "wrong": "gather outdoors enjoying the winter",
+          "judgement": "ok",
+          "note_ko": "분사구문으로 자연스럽게 성립하는 문장."
+        }
+      ]
+    },
+    {
+      "tag_id": "76f82371-0b7f-4bfa-a971-e196d71f8ed3",
+      "point": "CONJ_PARALLEL",
+      "span_start": 711,
+      "span_end": 811,
+      "correct": "explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities",
+      "wrong": [
+        "explore the world's oldest ski museum, climb the jump tower for amazing views, or trying fun activities",
+        "explore the world's oldest ski museum, climbing the jump tower for amazing views, or try fun activities"
+      ],
+      "why_ko": "조동사 can 뒤에 or로 이어지는 세 동사는 모두 동사원형으로 병렬이어야 합니다.",
+      "rationale": "조동사 can에 이어지는 동사원형 세 개의 or 병렬. 마지막을 trying / tries 로 바꿔 병렬을 깨는 전형적 출제 자리",
+      "sentence_no": 8,
+      "sentence": "Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities like ziplining."
+    },
+    {
+      "tag_id": "746148f8-23cf-45e6-b8e4-6504ade48c31",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 719,
+      "span_end": 748,
+      "correct": "the world's oldest ski museum",
+      "wrong": [
+        "the world's most old ski museum"
+      ],
+      "why_ko": "'세계에서 가장 오래된'이라는 최상급이므로 oldest가 맞습니다(old는 -est형).",
+      "rationale": "최상급 oldest + 소유격. older / most old 로 바꾸는 최상급 형태 오류 및 내용일치(가장 오래된 vs 가장 새로운) 함정",
+      "sentence_no": 8,
+      "sentence": "Visitors can explore the world's oldest ski museum, climb the jump tower for amazing views, or try fun activities like ziplining.",
+      "verify_dropped": [
+        {
+          "wrong": "the world's older ski museum",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 '세계에서 더 오래된 박물관'이라는 의미가 성립하지 않아 매우 어색."
+        }
+      ]
+    },
+    {
+      "tag_id": "31a1e3a4-ba64-4e64-aacf-0b4ad34f0ced",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 859,
+      "span_end": 882,
+      "correct": "filled with food trucks",
+      "wrong": [
+        "filled of food trucks"
+      ],
+      "why_ko": "be filled with(~로 가득 차다)가 굳어진 표현이라 with를 씁니다.",
+      "rationale": "be filled with 고정 결합. with 를 by/of 로 바꾸거나 통째로 삭제하는 전치사 문항 자리",
+      "sentence_no": 9,
+      "sentence": "Also, the festival streets are filled with food trucks and music.",
+      "verify_dropped": [
+        {
+          "wrong": "filled by food trucks",
+          "judgement": "ok",
+          "note_ko": "be filled by도 가능한 결합으로 문장 성립."
+        }
+      ]
+    },
+    {
+      "tag_id": "278d5d73-c4ae-45a4-b2e8-8feaeadb880a",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 970,
+      "span_end": 996,
+      "correct": "more than a sporting event",
+      "wrong": [
+        "most than a sporting event",
+        "more as a sporting event"
+      ],
+      "why_ko": "'~ 이상'은 more than으로 쓰며, than 앞에는 비교급 more가 와야 합니다.",
+      "rationale": "'~ 이상의'를 뜻하는 more than. most than / more as 등으로 바꾸는 비교 표현 오류 유도",
+      "sentence_no": 11,
+      "sentence": "Holmenkollen is more than a sporting event."
+    },
+    {
+      "tag_id": "4d370791-a3a3-4aa8-97a0-752fff71f1fe",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 1060,
+      "span_end": 1085,
+      "correct": "For those who love winter",
+      "wrong": [
+        "For those which love winter",
+        "For those who loves winter"
+      ],
+      "why_ko": "선행사 those가 사람이라 who를 쓰고, 복수이므로 동사도 love입니다.",
+      "rationale": "선행사 those(사람들)에 대한 주격 관계대명사 who + 복수동사 love. which/whose 로 바꾸거나 loves 로 수일치를 깨는 변형 가능",
+      "sentence_no": 13,
+      "sentence": "For those who love winter, skiing, and cultural experiences, this historic festival is a must-see."
+    }
+  ],
+  "diagnostics": {
+    "returned": 19,
+    "kept": 19,
+    "given": 19,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "are filled",
+          "모든 오답이 실은 맞는 표현이라 버림: fill(ok), are filling(ok)"
+        ]
+      ],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
+}

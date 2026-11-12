@@ -1,0 +1,1064 @@
+{
+  "passage_id": "07793b5d-7515-43be-b558-bca02f08cacc",
+  "body_text_sha256": "a9172ca11af0abc029f610297649b7d9c894af6378789042eb74111b57cc1b60",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 85,
+      "span_end": 109,
+      "surface": "with the Fallas festival",
+      "sentence_no": 1,
+      "rationale": "'~로써/~와 함께'를 뜻하는 수단·동반의 with. by/in/for 로 바꾼 선지나 전치사 삭제(EI_PREP_DELETE)로 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 137,
+      "span_end": 156,
+      "surface": "from March 15 to 19",
+      "sentence_no": 2,
+      "rationale": "기간을 나타내는 from A to B 짝. to 를 until/till/at 으로 바꾸거나 전치사를 빼는 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 158,
+      "span_end": 177,
+      "surface": "During the festival",
+      "sentence_no": 3,
+      "rationale": "during + 명사구 자리. 뒤에 절이 없으므로 While 로 바꾸면 틀림. [During / While] 선택형으로 가장 흔히 출제",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 288,
+      "span_end": 304,
+      "surface": "hundreds of them",
+      "sentence_no": 5,
+      "rationale": "them = fallas(복수)를 받는 목적격 대명사. it/its/they 로 바꾼 수·격 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 324,
+      "span_end": 336,
+      "surface": "Surprisingly",
+      "sentence_no": 6,
+      "rationale": "문장 전체를 수식하는 문장부사. Surprising(형용사)으로 바꾼 형용사-부사 혼동 선지 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 349,
+      "span_end": 359,
+      "surface": "are burned",
+      "sentence_no": 6,
+      "rationale": "fallas가 '태워지는' 대상이므로 수동태. burn / are burning / were burn 등 능동·형태 오류 선지로 출제 1순위",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM",
+        "EI_ACTIVE_TO_PASSIVE_NO_BY"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 393,
+      "span_end": 416,
+      "surface": "Burning them symbolizes",
+      "sentence_no": 7,
+      "rationale": "동명사구 주어는 단수 취급 → symbolizes. symbolize 로 바꾼 수일치 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 406,
+      "span_end": 431,
+      "surface": "symbolizes saying goodbye",
+      "sentence_no": 7,
+      "rationale": "symbolize는 동명사를 목적어로 취함. to say 로 바꾼 선지와 구별",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 501,
+      "span_end": 520,
+      "surface": "Winter in Sweden is",
+      "sentence_no": 8,
+      "rationale": "주어 Winter + 전치사구 in Sweden 삽입. Sweden에 끌려 are 로 쓰는 수일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 583,
+      "span_end": 623,
+      "surface": "To celebrate the longest day of the year",
+      "sentence_no": 9,
+      "rationale": "'~하기 위해'의 부사적 용법(목적). Celebrating / For celebrate 등 형태 오류나 용법 구별 문항으로 출제",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 596,
+      "span_end": 623,
+      "surface": "the longest day of the year",
+      "sentence_no": 9,
+      "rationale": "최상급 + the + of the year 범위 표현. longer / most long 으로 바꾼 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 655,
+      "span_end": 690,
+      "surface": "They call it the Midsummer festival",
+      "sentence_no": 10,
+      "rationale": "call + 목적어 + 목적격보어(명사) 5형식. call it as / call to it 처럼 전치사를 넣는 오류가 전형",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 757,
+      "span_end": 779,
+      "surface": "and ends on the Sunday",
+      "sentence_no": 11,
+      "rationale": "starts와 ends가 and로 병렬. ending / to end 로 바꾸면 병렬 파괴",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 734,
+      "span_end": 756,
+      "surface": "between June 19 and 25",
+      "sentence_no": 11,
+      "rationale": "between A and B 짝 전치사. from/among 으로 바꾸거나 and 를 to 로 바꾼 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 809,
+      "span_end": 842,
+      "surface": "decorate a tall pole with flowers",
+      "sentence_no": 12,
+      "rationale": "decorate A with B 고정 결합. to/by/in 으로 바꾸거나 전치사를 삭제하는 선지가 전형",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 900,
+      "span_end": 915,
+      "surface": "Because the sun",
+      "sentence_no": 13,
+      "rationale": "뒤에 주어+동사 절이 오므로 접속사 Because. Because of(전치사구)로 바꾼 선지와 구별",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 916,
+      "span_end": 922,
+      "surface": "hardly",
+      "sentence_no": 13,
+      "rationale": "'거의 ~않다'의 준부정 부사 hardly. '열심히'의 hard 와 혼동시키는 선지가 단골",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 923,
+      "span_end": 948,
+      "surface": "sets at this time of year",
+      "sentence_no": 13,
+      "rationale": "'해가 지다'의 set은 자동사라 수동태 불가. is set / is sat 같은 자동사 수동태 함정 선지 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 1055,
+      "span_end": 1106,
+      "surface": "believe that once a year dead people come back home",
+      "sentence_no": 14,
+      "rationale": "believe의 목적어가 되는 명사절 접속사 that. what/which 로 바꾼 선지와 구별, 생략 여부도 출제 포인트",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 1181,
+      "span_end": 1203,
+      "surface": "To welcome dead people",
+      "sentence_no": 16,
+      "rationale": "목적을 나타내는 부사적 용법. Welcoming / To welcoming 형태 오류 및 용법 구별 문항으로 출제",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 1264,
+      "span_end": 1303,
+      "surface": "it is important to remember dead people",
+      "sentence_no": 17,
+      "rationale": "가주어 it + 진주어 to부정사 구문. it→that 또는 to remember→remembering/remember 로 바꾼 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 1316,
+      "span_end": 1365,
+      "surface": "set up altars in their homes and have big parties",
+      "sentence_no": 18,
+      "rationale": "set up과 have가 and로 병렬된 동사구. having 으로 바꾸면 병렬 파괴",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1412,
+      "span_end": 1426,
+      "surface": "like skeletons",
+      "sentence_no": 19,
+      "rationale": "'~처럼'의 전치사 like + 명사. 접속사 as / alike 로 바꾸거나 전치사를 삭제하는 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 1553,
+      "span_end": 1601,
+      "surface": "one of the biggest winter festivals in the world",
+      "sentence_no": 20,
+      "rationale": "one of the + 최상급 + 복수명사 구문. festival(단수)이나 bigger 로 바꾼 오류 유도, 어순 배열 문항으로도 적합",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1483,
+      "span_end": 1505,
+      "surface": "At the end of February",
+      "sentence_no": 20,
+      "rationale": "굳어진 시간 부사구 at the end of. In/On 으로 바꾼 빈칸 선지가 전형",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 1737,
+      "span_end": 1772,
+      "surface": "such as the Running of the Reindeer",
+      "sentence_no": 22,
+      "rationale": "예시를 드는 such as + 명사구. such that / as such 로 바꾸거나 절을 붙이는 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_PRON_VS_ADV",
+      "span_start": 1781,
+      "span_end": 1809,
+      "surface": "who participate in this race",
+      "sentence_no": 23,
+      "rationale": "선행사 People(사람)에 맞는 주격 관계대명사 who. which/where 로 바꾼 선행사 불일치 선지 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 1774,
+      "span_end": 1814,
+      "surface": "People who participate in this race wear",
+      "sentence_no": 23,
+      "rationale": "관계절이 길게 끼어든 뒤 본동사 wear. race에 끌려 wears 로 쓰는 수일치 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 1832,
+      "span_end": 1863,
+      "surface": "try to run faster than reindeer",
+      "sentence_no": 23,
+      "rationale": "try to-V(~하려고 애쓰다) vs try -ing(시험 삼아 해보다) 의미 구별. try running 선지와 대비",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 1925,
+      "span_end": 1952,
+      "surface": "Everyone is just having fun",
+      "sentence_no": 26,
+      "rationale": "부정대명사 Everyone은 단수 취급 → is. are 로 바꾼 수일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "소주제문 (Fallas 축제 소개)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "세부정보 (기간)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "세부정보 (행사 내용)",
+      "signal": "During",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "정의 (fallas가 무엇인가)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "부연 (규모)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "전환 (예상 밖의 사실)",
+      "signal": "Surprisingly",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "의미 요약 (상징성)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 8,
+      "role": "원인 (긴 겨울 → 여름 환영)",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "소주제문 (Midsummer 축제 소개)",
+      "signal": "To celebrate",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 10,
+      "role": "명명 (축제 이름)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "세부정보 (기간)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "세부정보 (행사 내용)",
+      "signal": "During",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "원인 (백야 → 밤새 즐김)",
+      "signal": "Because",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "소주제문 (멕시코인의 믿음)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 15,
+      "role": "명명 (날 이름)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "세부정보 (목적과 날짜)",
+      "signal": "To welcome",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 17,
+      "role": "이유 (축제의 가치)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "결과 (구체적 행동)",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "추가 예시",
+      "signal": "In some areas",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "소주제문 (Fur Rondy 축제 소개)",
+      "signal": "At the end of February",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 21,
+      "role": "세부정보 (즐길 거리)",
+      "signal": "During",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 22,
+      "role": "추가 세부정보",
+      "signal": "also",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 23,
+      "role": "예시 설명 (순록 달리기)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 24,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 25,
+      "role": "응답 (전환)",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 26,
+      "role": "결론문 (즐기는 것이 핵심)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 본문에서 가져온 문장들이다. 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "'해가 지다'라는 뜻의 set은 목적어를 갖지 않는 자동사이므로 수동태(is set)로 쓸 수 없다. 본문대로 'the sun hardly sets'가 옳다. ①은 fallas가 '태워지는' 대상이므로 수동태가 맞고, ②는 동명사 주어에 단수동사 symbolizes가 맞으며, ④는 call+목적어+목적격보어 5형식, ⑤는 관계절 뒤 복수주어에 맞는 wear로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6,
+        17,
+        11,
+        27
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Surprisingly, the fallas are burned on the last day of the festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Burning them symbolizes saying goodbye to old things and hello to a new start.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Because the sun is hardly set at this time of year in Sweden, people can enjoy the festival all night long.",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "They call it the Midsummer festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "People who participate in this race wear fun costumes and try to run faster than reindeer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "본문에서 밑줄 친 to부정사 중, 쓰임(용법)이 나머지와 다른 것은?",
+      "answer_key": "④",
+      "explanation": "①②③은 모두 '~하기 위해'라는 목적을 나타내는 부사적 용법이다. ④의 to remember는 가주어 it에 대한 진주어로 쓰인 명사적 용법이므로 쓰임이 다르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        9,
+        19,
+        20
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "To celebrate the longest day of the year, they have a special festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "To welcome dead people, Mexicans hold a festival on November 1 and 2.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "... dead people come back home to meet their family and friends.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "They believe it is important to remember dead people.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "본문의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\n• (a)[Surprising / Surprisingly], the fallas are burned on the last day of the festival.\n• During the festival, people decorate a tall pole (b)[with / to] flowers and green leaves ...\n• People who participate in this race (c)[wear / wears] fun costumes ...",
+      "answer_key": "②",
+      "explanation": "(a) 문장 전체를 수식하는 자리이므로 부사 Surprisingly. (b) decorate A with B가 고정된 결합이므로 with. (c) 주어가 복수 People이고 who participate in this race는 삽입된 관계절이므로 본동사는 wear.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        14,
+        27
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) Surprising – (b) with – (c) wear",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) Surprisingly – (b) with – (c) wear",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) Surprisingly – (b) to – (c) wear",
+          "is_answer": false,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) Surprisingly – (b) with – (c) wears",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 중 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "겨울이 길고 어둡기 때문에 스웨덴 사람들은 여름을 '특히 반긴다(welcome)'는 흐름이어야 한다. avoid(피하다)는 so로 연결된 인과 관계와 모순된다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "People in Valencia celebrate the coming of spring with the Fallas festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Surprisingly, the fallas are burned on the last day of the festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Winter in Sweden is long and dark, so the people there especially avoid summer.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "In some areas, people dress up like skeletons and hold big parades.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 Not really, but it doesn’t matter. 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞 문장 Is it possible to do so?(순록보다 빨리 달리는 것이 가능한가?)에 대한 대답이다. '사실상 불가능하지만 그것은 중요하지 않다'는 뜻이며, 뒤 문장 Everyone is just having fun!이 그 이유를 밝혀 준다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        28,
+        29
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "순록보다 빨리 달리는 것은 사실상 불가능하지만, 중요한 것은 즐기는 것이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "경주에 참가하려면 반드시 우스꽝스러운 의상을 입어야 한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "순록 경주는 위험하므로 참가자를 제한해야 한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "알래스카의 겨울 스포츠는 생각보다 어렵지 않다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "경주에서 이긴 사람에게는 특별한 상이 주어진다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "글은 스페인의 Fallas, 스웨덴의 Midsummer, 멕시코의 Day of the Dead, 알래스카의 Fur Rondy 등 여러 나라의 계절 축제를 차례로 소개하고 있다. 나머지는 지문의 일부 소재만 다루거나 지문에 없는 내용이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        9,
+        19,
+        23
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "seasonal festivals celebrated in different countries",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the history of winter sports in Alaska",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the best way to make giant wooden statues",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "how weather changes people’s eating habits",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the best season to travel around Europe",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the passage?",
+      "answer_key": "⑤",
+      "explanation": "본문 [20]에 At the end of February(2월 말)라고 되어 있으므로 '2월 초'는 사실과 다르다. ①은 [2], ②는 [6], ③은 [11], ④는 [16]과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        5,
+        12,
+        24
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The Fallas festival takes place from March 15 to 19.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The fallas are burned on the last day of the Fallas festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The Midsummer festival in Sweden starts on a Friday evening.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Mexicans hold the Day of the Dead festival on November 1 and 2.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The Fur Rondy festival is held at the beginning of February.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "글의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nSurprisingly, the fallas are burned on the last day of the festival. Burning them symbolizes ______.",
+      "answer_key": "①",
+      "explanation": "Fallas 축제는 봄이 오는 것을 기념하는 축제([1])이므로, 조각상을 태우는 행위는 옛것과 작별하고 새 출발을 맞이한다는 상징이다. ③은 멕시코의 Day of the Dead 내용이고 나머지는 지문에 근거가 없다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        6,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "saying goodbye to old things and hello to a new start",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "protecting the city from the cold winter wind",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "remembering the people who died during the year",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "welcoming visitors from other countries",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "praying for a good harvest in autumn",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "IT_CLEFT",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n우리말: 죽은 사람들을 기억하는 것은 중요하다.\n<조건> 1) 가주어 it 으로 시작할 것  2) to부정사를 진주어로 쓸 것  3) important, remember, dead people 을 활용하여 6단어로 쓸 것",
+      "answer_key": "It is important to remember dead people.",
+      "explanation": "본문 [17]의 They believe it is important to remember dead people. 에서 that절 부분을 그대로 쓴 형태다. 가주어 It + be동사 + 형용사 + 진주어 to부정사 구조이며, Remembering dead people is important.는 조건 1)·2)를 어겨 오답 처리한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        20
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n\nSurprisingly, the fallas burn on the last day of the festival.",
+      "answer_key": "burn → are burned",
+      "explanation": "fallas(나무 조각상)는 스스로 태우는 주체가 아니라 사람들에 의해 '태워지는' 대상이므로 수동태 are burned가 되어야 한다. 축제 전반을 설명하는 현재시제이므로 were burned가 아니라 are burned로 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n우리말: 알래스카 사람들은 세계에서 가장 큰 겨울 축제 중 하나인 Fur Rondy 축제를 연다.\n주어진 말: people in Alaska hold the Fur Rondy festival, ( of / the / one / in / biggest / festivals / winter / the world )",
+      "answer_key": "people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world",
+      "explanation": "'~중 하나'는 one of the + 최상급 + 복수명사 구조로 쓴다. 따라서 one of the biggest winter festivals in the world 가 되며, festival(단수)로 쓰지 않도록 주의한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        23
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 26,
+    "tags_returned": 30,
+    "tags_kept": 30,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

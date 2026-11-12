@@ -1,0 +1,562 @@
+{
+  "passage_id": "fe21b339-f793-4a15-89ad-2998a9553e2a",
+  "body_text_sha256": "6a870d71416160c4a1432f3d9ed249ecc146c636e57f90f10ca3b83873898dc2",
+  "tags": [
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 3,
+      "span_end": 12,
+      "surface": "Let’s get",
+      "sentence_no": 1,
+      "rationale": "Let's(= Let us) 뒤에는 반드시 동사원형이 온다. Let's getting / Let's to get 같은 형태 오류를 유도할 수 있는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_CAUSATIVE_FORM",
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 41,
+      "span_end": 52,
+      "surface": "like better",
+      "sentence_no": 2,
+      "rationale": "둘 중 하나를 고를 때 쓰는 비교급 better(well의 비교급). good / best / more well 등으로 바꿔 묻기 쉬운 전형적 빈칸 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 54,
+      "span_end": 76,
+      "surface": "the T-shirt or the cap",
+      "sentence_no": 2,
+      "rationale": "Which ~ A or B? 구조에서 두 명사구가 or로 대등하게 연결된다. or를 and로 바꾸거나 한쪽 관사를 빼는 변형이 가능.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP",
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 81,
+      "span_end": 106,
+      "surface": "I like the T-shirt better",
+      "sentence_no": 3,
+      "rationale": "질문의 better에 호응하는 대답. best(최상급)나 원급 good으로 바꾸는 오답 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 119,
+      "span_end": 127,
+      "surface": "There is",
+      "sentence_no": 5,
+      "rationale": "There + be동사 구문은 뒤에 오는 실주어(a nice picture, 단수)에 수를 맞춘다. There are로 바꾼 수일치 오류가 가장 흔한 출제 형태.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 143,
+      "span_end": 158,
+      "surface": "of the festival",
+      "sentence_no": 5,
+      "rationale": "'축제의 사진'이라는 소유·내용 관계를 나타내는 of. for / about / from 등으로 바꿔 전치사를 빈칸으로 뚫기 쉽다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 159,
+      "span_end": 164,
+      "surface": "on it",
+      "sentence_no": 5,
+      "rationale": "티셔츠 '표면에' 그림이 있으므로 접촉의 on. in / at 으로 바꾸거나 전치사를 삭제하는 변형이 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 162,
+      "span_end": 164,
+      "surface": "it",
+      "sentence_no": 5,
+      "rationale": "앞서 언급된 the T-shirt(단수 사물)를 받는 대명사. them / they / that 등으로 바꾼 수·격 오류 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입·제안",
+      "signal": "Let’s",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "선택 질문",
+      "signal": "Which ~ or",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "선호 표명 (대화의 핵심 응답)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "이유 요구 (전환)",
+      "signal": "Why",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "이유 제시 (결론·근거)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 대화의 빈칸 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\n\nG: Let’s get a souvenir.\nB: Which do you like (a)[good / better], the T-shirt or the cap?\nG: I like the T-shirt better.\nB: Why?\nG: There (b)[is / are] a nice picture of the festival (c)[on / in] it.",
+      "answer_key": "①",
+      "explanation": "(a) 두 가지 중 하나를 고르는 질문이므로 well의 비교급 better가 와야 한다. (b) There 구문의 실주어가 a nice picture(단수)이므로 is. (c) 티셔츠 표면에 그림이 있으므로 접촉을 나타내는 on. 따라서 better-is-on인 ①이 정답이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) better — (b) is — (c) on",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) good — (b) is — (c) on",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) better — (b) are — (c) on",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) better — (b) is — (c) in",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) good — (b) are — (c) in",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음은 위 대화의 문장들이다. 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "④는 There 구문의 실제 주어가 단수인 a nice picture이므로 are가 아니라 is를 써야 한다(⑤가 올바른 형태). ①의 Let's 뒤 동사원형 get, ②③의 비교급 better는 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Let’s get a souvenir.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Which do you like better, the T-shirt or the cap?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I like the T-shirt better.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "There are a nice picture of the festival on it.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "There is a nice picture of the festival on it.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "PRON_AGREEMENT",
+      "stem": "다음 대화의 밑줄 친 부분 중 어법상 틀린 것은?\n\nG: ⓐLet’s get a souvenir.\nB: Which do you ⓑlike better, the T-shirt or the cap?\nG: I like the T-shirt ⓒbetter.\nB: Why?\nG: There ⓓis a nice picture of the festival ⓔon them.",
+      "answer_key": "ⓔ",
+      "explanation": "ⓔ의 대명사가 가리키는 것은 앞에 나온 단수 명사 the T-shirt이므로 them이 아니라 it을 써야 한다. ⓐ Let's 뒤의 동사원형, ⓑⓒ 둘 중 하나를 고를 때의 비교급 better, ⓓ 단수 주어 a nice picture에 맞춘 is는 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "ⓐ",
+          "body": "Let’s get",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "ⓑ",
+          "body": "like better",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "ⓒ",
+          "body": "better",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "ⓓ",
+          "body": "is",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "ⓔ",
+          "body": "on them",
+          "is_answer": true,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "PRON_AGREEMENT",
+      "stem": "위 대화의 마지막 문장에서 밑줄 친 it이 가리키는 것으로 알맞은 것은?\n\nG: There is a nice picture of the festival on it.",
+      "answer_key": "①",
+      "explanation": "소녀는 'I like the T-shirt better.'라고 한 뒤 그 이유를 말하고 있으므로, it은 바로 앞에서 언급한 the T-shirt를 가리킨다. 모자는 선택되지 않았고, 축제와 사진은 전치사 on의 대상이 될 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "티셔츠",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "모자",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "축제",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "사진",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "기념품 가게",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "②",
+      "explanation": "소녀는 티셔츠가 더 좋다고 말하고 그 이유로 티셔츠에 축제 사진이 있다는 점을 들었으므로 ②가 일치한다. 가격, 두 개 구입, 모자 사진, 구매 포기에 대한 언급은 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl chooses the cap because it is cheaper.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl likes the T-shirt better because of the picture on it.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy wants to buy two souvenirs.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "There is a picture of the cap on the T-shirt.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They decide not to buy anything.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
+      "answer_key": "①",
+      "explanation": "'Let's get a souvenir.'로 시작해 티셔츠와 모자 중 무엇이 더 좋은지 고르고 이유를 말하는 대화이므로 주제는 '살 기념품 고르기'이다. 축제는 티셔츠 그림의 소재로만 언급된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Choosing a souvenir to buy",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Planning a school festival",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Taking pictures at a festival",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Returning a T-shirt to a shop",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Looking for a lost cap",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n티셔츠와 모자 중에 너는 어느 것이 더 좋니?\n(like / which / you / better, / do / the T-shirt / the cap / or)",
+      "answer_key": "Which do you like better, the T-shirt or the cap?",
+      "explanation": "의문사 Which를 문두에 두고 do you like 어순의 의문문을 만든 뒤, '더 좋다'는 비교급 better를 동사 뒤에 쓴다. 마지막에 선택 대상 두 개를 or로 연결한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음은 위 대화의 마지막 문장을 바꿔 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nThere are a nice picture of the festival on it.",
+      "answer_key": "are → is",
+      "explanation": "There + be동사 구문에서 be동사는 뒤에 오는 실제 주어에 수를 맞춘다. 주어가 단수 명사구 a nice picture이므로 are를 is로 고쳐야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화의 내용에 맞게 <조건>에 따라 소녀가 티셔츠를 고른 이유를 영어로 쓰시오.\n\n<조건>\n1. There로 문장을 시작할 것\n2. a nice picture, the festival, it 을 모두 사용할 것\n3. 알맞은 전치사 of와 on을 사용하고, 총 10단어로 쓸 것",
+      "answer_key": "There is a nice picture of the festival on it.",
+      "explanation": "단수 주어 a nice picture에 맞추어 There is로 시작하고, '축제의 사진'은 of로, '티셔츠 위에'는 접촉을 나타내는 on it으로 표현한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 8,
+    "tags_kept": 8,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

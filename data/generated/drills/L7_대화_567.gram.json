@@ -1,0 +1,560 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 대화 ⑤⑥⑦",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중2 L7 대화-5",
+    "중2 L7 대화-6",
+    "중2 L7 대화-7"
+  ],
+  "body": "G: Hi, Jihan. What a surprise!\nB: Hey, Emma. Are you here to see the fireworks, too?\nG: Yes. I hear China, Italy, and the USA are participating this year.\nB: Don’t forget Korea.\nG: Of course, Korea, too. So, the fireworks start at 7 p.m. Right?\nB: Yeah. Let’s do something together until then.\nG: I guess we can ride bikes or go for a boat ride. Which do you like more?\nB: Going for a boat ride. I think it’ll be more fun.\nG: Then, let’s go for a boat ride.\nB: Let’s go to the movies this weekend.\nG: I’m sorry, but I can’t. I have an exam on Monday.\nB: So, you’re going to be in the library all weekend?\nG: No. I’ll be home. I like studying at home more than at the library.\nB: I’m looking for a gift for my grandmother.\nW: How about this bag?\nB: It’s too big. I think it’ll be heavy, too.\nW: \u0007Not at all. It’s big but very light. It’s perfect for older women.\nB: Really? Then, I’ll take it.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "b48fb2a9-cd2f-4625-a6d7-537576734f64",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 58,
+      "span_end": 64,
+      "correct": "to see",
+      "wrong": [
+        "for see"
+      ],
+      "why_ko": "'~하러'라는 목적은 to부정사로 쓰므로 to see가 맞고, seeing이나 for see는 쓸 수 없어요.",
+      "rationale": "'여기 ~하러 왔니?'의 목적을 나타내는 부사적 용법 to부정사. seeing / for see 같은 형태 오류를 유도할 수 있다.",
+      "sentence_no": 4,
+      "sentence": "Are you here to see the fireworks, too?",
+      "verify_dropped": [
+        {
+          "wrong": "seeing",
+          "judgement": "odd",
+          "note_ko": "'be here + 동명사'로 목적을 나타내지 않아 매우 어색함"
+        }
+      ]
+    },
+    {
+      "tag_id": "c56a88c8-bb28-4b81-97cb-fb9e03cd56aa",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 93,
+      "span_end": 143,
+      "correct": "I hear China, Italy, and the USA are participating",
+      "wrong": [
+        "I hear what China, Italy, and the USA are participating"
+      ],
+      "why_ko": "hear의 목적어절은 접속사 that(생략 가능)이 이끌며 완전한 절이 와야 해요. what은 쓸 수 없어요.",
+      "rationale": "hear의 목적어절을 이끄는 접속사 that이 생략된 구조. that 삽입 가능 여부, what으로 바꿔치기하는 오답 유도가 가능하다.",
+      "sentence_no": 6,
+      "sentence": "I hear China, Italy, and the USA are participating this year.",
+      "verify_dropped": [
+        {
+          "wrong": "I hear China, Italy, and the USA participating",
+          "judgement": "odd",
+          "note_ko": "지각동사 구문으로는 문법적이나 '들었다'는 전언 의미가 사라져 어색"
+        }
+      ]
+    },
+    {
+      "tag_id": "7835bedc-cccf-4095-91a4-74864ae7970d",
+      "point": "CONJ_PARALLEL",
+      "span_start": 100,
+      "span_end": 125,
+      "correct": "China, Italy, and the USA",
+      "wrong": [
+        "China, Italy, the USA and"
+      ],
+      "why_ko": "A, B, and C 형태로 마지막 항목 앞에 and를 써야 올바른 병렬이에요.",
+      "rationale": "A, B, and C 형태의 명사 병렬. 마지막 항목 앞 and 위치·형태를 묻거나 병렬을 깨는 변형이 가능하다.",
+      "sentence_no": 6,
+      "sentence": "I hear China, Italy, and the USA are participating this year.",
+      "verify_dropped": [
+        {
+          "wrong": "China and Italy, the USA",
+          "judgement": "odd",
+          "note_ko": "나열 구조가 깨져 의미 전달이 어색함"
+        }
+      ]
+    },
+    {
+      "tag_id": "667ce93e-3dd5-4d16-a140-9980dbc2de21",
+      "point": "VERB_SVA",
+      "span_start": 126,
+      "span_end": 143,
+      "correct": "are participating",
+      "wrong": [
+        "is participating",
+        "are participate"
+      ],
+      "why_ko": "주어가 세 나라로 복수이니 are, 뒤에는 -ing형이 와야 해요.",
+      "rationale": "주어가 China, Italy, and the USA 로 복수이므로 are. 가장 가까운 명사 the USA에 끌려 is participating으로 바꾸는 수일치 오류 유도가 전형적이다.",
+      "sentence_no": 6,
+      "sentence": "I hear China, Italy, and the USA are participating this year."
+    },
+    {
+      "tag_id": "9b8cc435-1915-4222-8425-48fdfe2dfa75",
+      "point": "VERB_SVA",
+      "span_start": 208,
+      "span_end": 227,
+      "correct": "the fireworks start",
+      "wrong": [
+        "the fireworks starts",
+        "the fireworks is starting"
+      ],
+      "why_ko": "fireworks는 복수 주어라서 동사에 -s를 붙이지 않아요.",
+      "rationale": "fireworks는 복수 명사이므로 동사원형 start. starts로 바꾸는 수일치 오류 유도 지점.",
+      "sentence_no": 9,
+      "sentence": "So, the fireworks start at 7 p.m. Right?"
+    },
+    {
+      "tag_id": "b0adfeaa-25f2-4a7c-b5c5-146c49c6f46d",
+      "point": "PREP_USAGE",
+      "span_start": 228,
+      "span_end": 237,
+      "correct": "at 7 p.m.",
+      "wrong": [
+        "on 7 p.m.",
+        "in 7 p.m."
+      ],
+      "why_ko": "구체적인 시각 앞에는 전치사 at을 써요.",
+      "rationale": "구체적 시각 앞에는 at. on/in 으로 바꾸는 전치사 빈칸 문제로 자주 출제된다.",
+      "sentence_no": 9,
+      "sentence": "So, the fireworks start at 7 p.m. Right?"
+    },
+    {
+      "tag_id": "2e3809ac-9784-4761-a631-02046c950dbe",
+      "point": "PREP_USAGE",
+      "span_start": 282,
+      "span_end": 292,
+      "correct": "until then",
+      "wrong": [
+        "till to then"
+      ],
+      "why_ko": "그때까지 계속 이어지는 상황이므로 until, 완료 시점을 뜻하는 by는 어울리지 않아요.",
+      "rationale": "동작의 '계속'이 7시까지 이어짐을 나타내는 until. 완료 시점의 by와 구별하는 전형적 전치사 문제.",
+      "sentence_no": 11,
+      "sentence": "Let’s do something together until then.",
+      "verify_dropped": [
+        {
+          "wrong": "by then",
+          "judgement": "ok",
+          "note_ko": "문법적으로 가능, 의미만 달라짐"
+        }
+      ]
+    },
+    {
+      "tag_id": "2fea50ba-801d-4912-99ca-380c8dfedf99",
+      "point": "CONJ_PARALLEL",
+      "span_start": 312,
+      "span_end": 344,
+      "correct": "ride bikes or go for a boat ride",
+      "wrong": [
+        "ride bikes or goes for a boat ride",
+        "ride bikes or going for a boat ride"
+      ],
+      "why_ko": "can 뒤에 동사원형 ride와 go가 or로 나란히 연결되어야 해요.",
+      "rationale": "조동사 can 뒤에 ride와 go가 or로 병렬 연결됨. goes / going 으로 바꾸어 병렬을 깨는 오류가 가장 흔하다.",
+      "sentence_no": 12,
+      "sentence": "G: I guess we can ride bikes or go for a boat ride."
+    },
+    {
+      "tag_id": "b9f823f4-fd2a-457e-b1d0-f1c1d0fa4d06",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 326,
+      "span_end": 344,
+      "correct": "go for a boat ride",
+      "wrong": [
+        "go a boat ride",
+        "go to a boat ride"
+      ],
+      "why_ko": "'~하러 가다'는 go for a ~로 굳어진 표현이에요.",
+      "rationale": "'~하러 가다'의 go for 고정 결합. for 삭제나 to/on 교체 오류 유도가 가능하다.",
+      "sentence_no": 12,
+      "sentence": "G: I guess we can ride bikes or go for a boat ride."
+    },
+    {
+      "tag_id": "6ae24904-b417-4ad8-8930-8a73b1887c77",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 346,
+      "span_end": 369,
+      "correct": "Which do you like more?",
+      "wrong": [
+        "Which do you like much?"
+      ],
+      "why_ko": "둘 중 하나를 고르는 비교이므로 최상급 most가 아니라 비교급 more를 써요.",
+      "rationale": "둘 중 선택을 묻는 비교급 more. most / much 로 바꾸는 오류 유도 지점.",
+      "sentence_no": 13,
+      "sentence": "Which do you like more?",
+      "verify_dropped": [
+        {
+          "wrong": "Which do you like most?",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립하는 문장"
+        }
+      ]
+    },
+    {
+      "tag_id": "1f75a931-5583-49a4-8995-62d22a822228",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 373,
+      "span_end": 395,
+      "correct": "Going for a boat ride.",
+      "wrong": [
+        "To going for a boat ride."
+      ],
+      "why_ko": "무엇을 더 좋아하는지 답하는 자리라 동명사구로 말해야 자연스러워요.",
+      "rationale": "선택을 답하는 축약 응답으로 동명사구 사용. To go / Go 와의 구별을 물을 수 있다.",
+      "sentence_no": 14,
+      "sentence": "B: Going for a boat ride.",
+      "verify_dropped": [
+        {
+          "wrong": "Go for a boat ride.",
+          "judgement": "odd",
+          "note_ko": "선호를 묻는 질문의 답으로는 동명사가 와야 자연스러움"
+        }
+      ]
+    },
+    {
+      "tag_id": "426c52b8-4330-4868-850e-6fc24007ab39",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 396,
+      "span_end": 421,
+      "correct": "I think it’ll be more fun",
+      "wrong": [
+        "I think what it’ll be more fun",
+        "I think it’ll more fun"
+      ],
+      "why_ko": "think의 목적어절은 that(생략)으로 연결하고 절 안에 be동사도 있어야 해요.",
+      "rationale": "think의 목적어절에서 접속사 that이 생략된 구조. that/what 교체 오답 유도 가능.",
+      "sentence_no": 15,
+      "sentence": "I think it’ll be more fun."
+    },
+    {
+      "tag_id": "170c787b-1431-4993-988a-bf6511664d05",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 413,
+      "span_end": 421,
+      "correct": "more fun",
+      "wrong": [
+        "funner"
+      ],
+      "why_ko": "fun의 비교급은 funner가 아니라 more fun이에요.",
+      "rationale": "fun의 비교급은 funner가 아니라 more fun. 비교급 형태 오류 유도 지점.",
+      "sentence_no": 15,
+      "sentence": "I think it’ll be more fun.",
+      "verify_dropped": [
+        {
+          "wrong": "most fun",
+          "judgement": "odd",
+          "note_ko": "두 가지 비교 맥락에서 최상급은 부자연스러움"
+        }
+      ]
+    },
+    {
+      "tag_id": "0b016ad6-dc72-475e-8fb8-f5faf4e6d92f",
+      "point": "PREP_USAGE",
+      "span_start": 470,
+      "span_end": 483,
+      "correct": "to the movies",
+      "wrong": [
+        "the movies",
+        "at the movies"
+      ],
+      "why_ko": "'영화 보러 가다'는 go to the movies로 to가 꼭 필요해요.",
+      "rationale": "'영화 보러 가다' go to the movies의 고정 전치사. to를 in/at으로 바꾸거나 통째로 삭제(go the movies)하는 오류를 유도할 수 있어 빈칸 출제 1순위.",
+      "sentence_no": 17,
+      "sentence": "B: Let’s go to the movies this weekend."
+    },
+    {
+      "tag_id": "3d230e0d-bfc6-4765-a120-a6882869b2b0",
+      "point": "PREP_USAGE",
+      "span_start": 540,
+      "span_end": 549,
+      "correct": "on Monday",
+      "wrong": [
+        "in Monday",
+        "at Monday"
+      ],
+      "why_ko": "요일 앞에는 전치사 on을 써요.",
+      "rationale": "요일 앞 전치사는 on. in Monday / at Monday 로 바꾸거나 전치사를 삭제하는 전형적 함정.",
+      "sentence_no": 19,
+      "sentence": "I have an exam on Monday."
+    },
+    {
+      "tag_id": "ec5c7799-face-45b9-b6c6-29a82fb4fdcd",
+      "point": "VERB_TENSE",
+      "span_start": 558,
+      "span_end": 576,
+      "correct": "you’re going to be",
+      "wrong": [
+        "you’re going to being",
+        "you’re going to will be"
+      ],
+      "why_ko": "be going to 뒤에는 반드시 동사원형이 와요.",
+      "rationale": "be going to + 동사원형의 미래 표현. going to being / going to will be 처럼 뒤에 원형이 아닌 형태를 넣는 오류를 유도. will과의 교체 가능성도 출제 지점.",
+      "sentence_no": 20,
+      "sentence": "B: So, you’re going to be in the library all weekend?"
+    },
+    {
+      "tag_id": "80c4135f-508f-44b0-9f98-dcdf9382a61d",
+      "point": "PREP_USAGE",
+      "span_start": 577,
+      "span_end": 591,
+      "correct": "in the library",
+      "wrong": [
+        "on the library",
+        "the library"
+      ],
+      "why_ko": "건물 안에 있다는 뜻이므로 in the library가 맞아요.",
+      "rationale": "내부 공간을 나타내는 in. on/at the library로 바꾸거나 전치사를 지우는 변형이 가능.",
+      "sentence_no": 20,
+      "sentence": "B: So, you’re going to be in the library all weekend?"
+    },
+    {
+      "tag_id": "62ab3962-4349-489e-9aea-6ec6b2ef3d1e",
+      "point": "VERB_TENSE",
+      "span_start": 612,
+      "span_end": 624,
+      "correct": "I’ll be home",
+      "wrong": [
+        "I’ll am home",
+        "I’ll being home"
+      ],
+      "why_ko": "will 뒤에는 동사원형 be를 써야 해요.",
+      "rationale": "will + 동사원형의 미래. will am/will being 같은 형태 오류, 또는 앞 문장 be going to와의 대응을 묻는 자리.",
+      "sentence_no": 22,
+      "sentence": "I’ll be home."
+    },
+    {
+      "tag_id": "d8f25cfb-2246-4941-8de1-736704d80c9a",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 628,
+      "span_end": 641,
+      "correct": "like studying",
+      "wrong": [
+        "like studied",
+        "like studies"
+      ],
+      "why_ko": "like의 목적어 자리에는 동명사나 to부정사가 오고, 정동사 형태는 올 수 없어요.",
+      "rationale": "like는 동명사·to부정사를 모두 목적어로 취하지만, studied/studies 같은 정동사 형태를 넣으면 명백한 오류. 목적어 자리 준동사 형태 묻기.",
+      "sentence_no": 23,
+      "sentence": "I like studying at home more than at the library."
+    },
+    {
+      "tag_id": "d4c5d59c-66c6-47ff-91af-012d84d6c22e",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 650,
+      "span_end": 659,
+      "correct": "more than",
+      "wrong": [
+        "most than",
+        "more as"
+      ],
+      "why_ko": "비교급은 more ~ than 짝으로 쓰고 most나 as와는 짝이 되지 않아요.",
+      "rationale": "두 장소를 비교하는 비교급 more ~ than. most than / more as 로 바꾸는 오류를 유도하기 쉬운 자리.",
+      "sentence_no": 23,
+      "sentence": "I like studying at home more than at the library."
+    },
+    {
+      "tag_id": "54aba489-8130-459f-88ec-287fecf6b610",
+      "point": "VERB_TENSE",
+      "span_start": 679,
+      "span_end": 690,
+      "correct": "I’m looking",
+      "wrong": [
+        "I’m look"
+      ],
+      "why_ko": "지금 가게에서 찾는 중이니 be동사+-ing의 현재진행형을 써요.",
+      "rationale": "지금 가게에서 찾는 중이므로 현재진행형. 'I look for' 같은 단순현재나 'I'm look'처럼 be+동사원형 오류를 심을 수 있는 자리.",
+      "sentence_no": 24,
+      "sentence": "B: I’m looking for a gift for my grandmother.",
+      "verify_dropped": [
+        {
+          "wrong": "I look",
+          "judgement": "ok",
+          "note_ko": "단순현재로도 문법적으로 성립"
+        }
+      ]
+    },
+    {
+      "tag_id": "3539a921-a34d-4741-9332-357406be3a77",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 683,
+      "span_end": 694,
+      "correct": "looking for",
+      "wrong": [
+        "looking"
+      ],
+      "why_ko": "'~을 찾다'는 look for로 for가 반드시 필요해요.",
+      "rationale": "'look for(~을 찾다)'는 동사+전치사 고정 결합. for를 삭제하거나 at/after 등으로 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 24,
+      "sentence": "B: I’m looking for a gift for my grandmother.",
+      "verify_dropped": [
+        {
+          "wrong": "looking at",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립, 의미만 달라짐"
+        }
+      ]
+    },
+    {
+      "tag_id": "e1b0f8c6-06be-46a2-835e-a00e307c84fe",
+      "point": "PREP_USAGE",
+      "span_start": 702,
+      "span_end": 720,
+      "correct": "for my grandmother",
+      "wrong": [
+        "to my grandmother"
+      ],
+      "why_ko": "'~에게 줄 선물'의 대상은 전치사 for로 나타내요.",
+      "rationale": "'~을 위한/~에게 줄'의 대상을 나타내는 전치사 for. to/with 로 바꾼 선지가 자주 나오고 빈칸으로도 잘 뚫린다.",
+      "sentence_no": 24,
+      "sentence": "B: I’m looking for a gift for my grandmother.",
+      "verify_dropped": [
+        {
+          "wrong": "with my grandmother",
+          "judgement": "ok",
+          "note_ko": "'할머니와 함께 찾는다'로 해석되어 문법적으로 성립"
+        }
+      ]
+    },
+    {
+      "tag_id": "b9fbcbb2-2321-4891-b9f8-873cc8d76e9e",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 725,
+      "span_end": 744,
+      "correct": "How about this bag?",
+      "wrong": [
+        "How about to buy this bag?",
+        "How about buy this bag?"
+      ],
+      "why_ko": "How about 뒤에는 명사(구)나 동명사가 와야 하고 to부정사·동사원형은 안 돼요.",
+      "rationale": "제안 표현 How about 뒤에는 명사(구) 또는 동명사가 온다. 'How about to buy ~'처럼 to부정사를 넣는 오류 유도가 가능하다.",
+      "sentence_no": 25,
+      "sentence": "W: How about this bag?"
+    },
+    {
+      "tag_id": "7603e824-9671-4c3b-80b2-6e892f4decdf",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 753,
+      "span_end": 760,
+      "correct": "too big",
+      "wrong": [
+        "enough big"
+      ],
+      "why_ko": "'너무 ~한'은 too+형용사이고, enough는 형용사 뒤에 와야 해요.",
+      "rationale": "'너무 ~한'의 too + 형용사. enough big(어순/의미 오류)·so big 과 구별하는 선지를 만들 수 있다.",
+      "sentence_no": 26,
+      "sentence": "B: It’s too big.",
+      "verify_dropped": [
+        {
+          "wrong": "big too",
+          "judgement": "ok",
+          "note_ko": "'그것도 크다'로 문법적으로 성립"
+        }
+      ]
+    },
+    {
+      "tag_id": "8b48ec89-905f-417b-8393-7923f0e01929",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 762,
+      "span_end": 784,
+      "correct": "I think it’ll be heavy",
+      "wrong": [
+        "I think what it’ll be heavy",
+        "I think it’ll heavy"
+      ],
+      "why_ko": "think의 목적어절은 that(생략)으로 이어지고, 절 안에 be동사가 필요해요.",
+      "rationale": "think 뒤 목적어절을 이끄는 접속사 that이 생략된 구조. that/what 구별 선지를 만들 수 있다.",
+      "sentence_no": 27,
+      "sentence": "I think it’ll be heavy, too."
+    },
+    {
+      "tag_id": "a1a9cc90-22c2-4299-a049-5a43353d60a0",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 776,
+      "span_end": 784,
+      "correct": "be heavy",
+      "wrong": [
+        "be heavily",
+        "heavy be"
+      ],
+      "why_ko": "be동사 뒤 보어 자리에는 형용사 heavy를 써요.",
+      "rationale": "be동사의 보어 자리이므로 형용사 heavy. heavily로 바꾸는 부사화 오류(EI_ADJ_TO_ADV)가 전형적 출제 지점.",
+      "sentence_no": 27,
+      "sentence": "I think it’ll be heavy, too."
+    },
+    {
+      "tag_id": "02ae7b4f-daa1-4115-a89c-c6aa7ea2952b",
+      "point": "CONJ_PARALLEL",
+      "span_start": 807,
+      "span_end": 831,
+      "correct": "It’s big but very light.",
+      "wrong": [
+        "It’s big but very lightly.",
+        "It’s bigly but very light."
+      ],
+      "why_ko": "but이 형용사끼리 연결하므로 양쪽 모두 형용사여야 해요.",
+      "rationale": "but이 형용사 big과 light를 대등하게 연결. 한쪽을 부사(lightly)나 절로 바꿔 병렬을 깨는 오류를 심을 수 있다.",
+      "sentence_no": 29,
+      "sentence": "It’s big but very light."
+    },
+    {
+      "tag_id": "92ad4647-0981-4152-a5b7-3e0d07073285",
+      "point": "PREP_USAGE",
+      "span_start": 837,
+      "span_end": 860,
+      "correct": "perfect for older women",
+      "wrong": [
+        "perfect to older women",
+        "perfect with older women"
+      ],
+      "why_ko": "be perfect for(~에게 딱 맞다)로 전치사 for를 써요.",
+      "rationale": "be perfect for(~에게 안성맞춤인)의 for. to/with 로 교체하거나 삭제하는 선지가 나온다.",
+      "sentence_no": 30,
+      "sentence": "It’s perfect for older women."
+    },
+    {
+      "tag_id": "d465cfda-5e47-4f65-bf94-f89ee20e3f83",
+      "point": "PRON_AGREEMENT",
+      "span_start": 879,
+      "span_end": 891,
+      "correct": "I’ll take it",
+      "wrong": [
+        "I’ll take they"
+      ],
+      "why_ko": "앞의 this bag이 단수이므로 대명사 it으로 받아야 해요.",
+      "rationale": "대명사 it이 앞의 단수명사 this bag을 받음. them/they로 바꾸면 수 불일치가 되는 자리.",
+      "sentence_no": 32,
+      "sentence": "Then, I’ll take it.",
+      "verify_dropped": [
+        {
+          "wrong": "I’ll take them",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립, 지시 대상만 달라짐"
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 33,
+    "kept": 33,
+    "given": 33,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "something",
+          "모든 오답이 실은 맞는 표현이라 버림: anything(ok), some thing(odd)"
+        ],
+        [
+          "at home",
+          "모든 오답이 실은 맞는 표현이라 버림: at the home(odd), in the home(odd)"
+        ],
+        [
+          "older women",
+          "모든 오답이 실은 맞는 표현이라 버림: more old women(odd), most old women(ok)"
+        ]
+      ],
+      "dropped_wrongs": 12
+    }
+  },
+  "verified": true
+}

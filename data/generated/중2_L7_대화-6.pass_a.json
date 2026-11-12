@@ -1,0 +1,624 @@
+{
+  "passage_id": "28b6aabd-0429-4090-a8dc-936c4e4641a0",
+  "body_text_sha256": "67bbe9fb57571cc150336aeecdd2af6529c2766e0cf168a08396a985ec2dc228",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 12,
+      "span_end": 25,
+      "surface": "to the movies",
+      "sentence_no": 1,
+      "rationale": "'영화 보러 가다' go to the movies의 고정 전치사. to를 in/at으로 바꾸거나 통째로 삭제(go the movies)하는 오류를 유도할 수 있어 빈칸 출제 1순위.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 82,
+      "span_end": 91,
+      "surface": "on Monday",
+      "sentence_no": 3,
+      "rationale": "요일 앞 전치사는 on. in Monday / at Monday 로 바꾸거나 전치사를 삭제하는 전형적 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 100,
+      "span_end": 118,
+      "surface": "you’re going to be",
+      "sentence_no": 4,
+      "rationale": "be going to + 동사원형의 미래 표현. going to being / going to will be 처럼 뒤에 원형이 아닌 형태를 넣는 오류를 유도. will과의 교체 가능성도 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 119,
+      "span_end": 133,
+      "surface": "in the library",
+      "sentence_no": 4,
+      "rationale": "내부 공간을 나타내는 in. on/at the library로 바꾸거나 전치사를 지우는 변형이 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 154,
+      "span_end": 166,
+      "surface": "I’ll be home",
+      "sentence_no": 6,
+      "rationale": "will + 동사원형의 미래. will am/will being 같은 형태 오류, 또는 앞 문장 be going to와의 대응을 묻는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 170,
+      "span_end": 183,
+      "surface": "like studying",
+      "sentence_no": 7,
+      "rationale": "like는 동명사·to부정사를 모두 목적어로 취하지만, studied/studies 같은 정동사 형태를 넣으면 명백한 오류. 목적어 자리 준동사 형태 묻기.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 192,
+      "span_end": 201,
+      "surface": "more than",
+      "sentence_no": 7,
+      "rationale": "두 장소를 비교하는 비교급 more ~ than. most than / more as 로 바꾸는 오류를 유도하기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 184,
+      "span_end": 191,
+      "surface": "at home",
+      "sentence_no": 7,
+      "rationale": "at home은 관사 없이 굳어진 표현. in the home / at the home 으로 바꾸거나 전치사를 지우는 변형이 출제될 수 있음.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "제안(대화 도입)",
+      "signal": "Let’s",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "거절",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "원인(거절 이유)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "확인 질문",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "부정 응답(전환)",
+      "signal": "No",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "대안 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "결론문(선호 이유 요약)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "위 대화문에서 가져온 다음 문장 중, 어법상 틀린 것은?",
+      "answer_key": "②",
+      "explanation": "요일 앞에는 전치사 on이 필요하므로 'I have an exam on Monday.'가 되어야 한다. ②는 전치사 on이 빠진 형태다. ①의 go to the movies, ③의 in the library, ⑤의 at home / more than은 모두 원문 그대로의 올바른 표현이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        0,
+        3,
+        7,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Let’s go to the movies this weekend.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I have an exam Monday.",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "So, you’re going to be in the library all weekend?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’ll be home.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I like studying at home more than at the library.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "②"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "대화의 (a)~(d)에 들어갈 말로 알맞게 짝지어진 것은?\nG: I have an exam (a)[on / in] Monday.\nB: So, you’re going to (b)[be / being] in the library all weekend?\nG: No. I’ll be home. I like (c)[studying / studied] at home (d)[more / most] than at the library.",
+      "answer_key": "①",
+      "explanation": "(a) 요일 앞에는 on. (b) be going to 뒤에는 동사원형 be. (c) like의 목적어 자리에는 동명사 studying(또는 to study)이 오며 과거형 studied는 올 수 없다. (d) than과 호응하는 것은 비교급 more이며 최상급 most는 쓸 수 없다. 네 자리를 모두 만족하는 것은 ①뿐이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) on – (b) be – (c) studying – (d) more",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) in – (b) be – (c) studying – (d) more",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) on – (b) being – (c) studying – (d) more",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) on – (b) be – (c) studied – (d) more",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) on – (b) be – (c) studying – (d) most",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "다음 대화의 밑줄 친 ①~⑤ 중 어법상 틀린 것은?\nB: Let’s go ①to the movies this weekend.\nG: I’m sorry, but I can’t. I have an exam ②on Monday.\nB: So, you’re ③going to being in the library all weekend?\nG: No. ④I’ll be home. I like studying at home ⑤more than at the library.",
+      "answer_key": "③",
+      "explanation": "be going to 뒤에는 동사원형이 와야 하므로 going to being이 아니라 going to be가 맞다. 나머지는 모두 원문 그대로의 올바른 표현이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0,
+        1,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "to the movies",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "on Monday",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "going to being",
+          "is_answer": true,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’ll be home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "more than at the library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것은?",
+      "answer_key": "③",
+      "explanation": "소녀는 소년의 '도서관에 있을 거냐'는 질문에 No라고 답하고 집에 있을 것이라고 했으므로 ③은 대화 내용과 일치하지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy suggests going to the movies this weekend.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The girl cannot go because she has an exam on Monday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl is going to stay in the library all weekend.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl will be at home this weekend.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The girl prefers studying at home to studying at the library.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "소년의 영화 제안을 소녀가 시험 때문에 거절하고, 도서관이 아니라 집에서 공부하겠다고 말하는 대화이므로 ①이 주제로 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Turning down an invitation because of an exam and explaining where to study",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Choosing which movie to watch at the theater",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Asking a friend for help with a difficult subject",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Comparing the rules of different school libraries",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Making a weekend plan to travel with family",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 밑줄 친 I’ll be home.이 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "앞에서 월요일 시험 때문에 영화를 거절했고, 뒤에서 도서관보다 집에서 공부하는 것이 더 좋다고 했으므로 집에 머물며 공부하겠다는 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "주말 동안 도서관 대신 집에 머무르며 시험 공부를 하겠다는 뜻",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "집에 손님이 와서 외출할 수 없다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "영화를 집에서 보겠다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "시험이 끝나면 바로 집에 가겠다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "도서관이 주말에 문을 닫는다는 뜻",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\nB: So, you’re going to be in the library all weekend?\nG: No. I’ll be home. I like ________________.",
+      "answer_key": "①",
+      "explanation": "도서관에 있을 것이냐는 질문에 No라고 답하고 집에 있겠다고 했으므로, 그 이유로는 '도서관보다 집에서 공부하는 것을 더 좋아한다'가 와야 한다. ③은 앞의 No, I’ll be home.과 모순된다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        5,
+        6,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "studying at home more than at the library",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "going to the movies more than studying",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "studying at the library more than at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "taking an exam on Monday morning",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "meeting my friends at the library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음은 위 대화의 마지막 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ I like studying at home most than at the library.",
+      "answer_key": "most → more",
+      "explanation": "than과 짝을 이루는 것은 비교급이므로 최상급 most가 아니라 more를 써야 한다. 바른 문장은 'I like studying at home more than at the library.'이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "〈조건〉에 맞게 빈칸을 완성하시오.\n[조건] ① 대화의 내용과 일치할 것 ② 괄호 안의 말을 모두 사용할 것 ③ 필요한 전치사를 넣을 것\nG: I’m sorry, but I can’t. I ______________________. (an exam, have, Monday)",
+      "answer_key": "have an exam on Monday",
+      "explanation": "요일 앞에는 전치사 on을 쓰므로 'I have an exam on Monday.'가 된다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 바르게 배열하시오.\n→ 그래서 너는 주말 내내 도서관에 있을 거니?\n(going / you’re / be / to / in the library / all weekend / So,)",
+      "answer_key": "So, you’re going to be in the library all weekend?",
+      "explanation": "be going to + 동사원형 형태로 미래를 나타내므로 you’re going to be 순서가 되고, 그 뒤에 장소(in the library)와 기간(all weekend)을 차례로 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 7,
+    "tags_returned": 8,
+    "tags_kept": 8,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

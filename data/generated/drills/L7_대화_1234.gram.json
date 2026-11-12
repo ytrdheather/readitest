@@ -1,0 +1,610 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 대화 ①②③④",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중2 L7 대화-1",
+    "중2 L7 대화-2",
+    "중2 L7 대화-3",
+    "중2 L7 대화-4"
+  ],
+  "body": "B: \u0007We can do face painting or play VR games. Which do you like more?\nG: I like face painting more. What about you?\nB: \u0007I want to play VR games. I don’t want to wash my face again.\nG: \u0007Playing VR games is OK, too. Let’s go play VR games together.\nB: They have tteokbokki and gimbap here. Which of the two do you like better?\nG: I like tteokbokki much better. I like spicy food.\nB: Then, let’s order tteokbokki. It looks delicious.\nG: OK. I’m so hungry!\nG: Let’s get a souvenir.\nB: Which do you like better, the T-shirt or the cap?\nG: I like the T-shirt better.\nB: Why?\nG: There is a nice picture of the festival on it.\nG: Look! There are lots of pretty flowers here.\nB: Which do you like more, the red flowers or the yellow flowers?\nG: I like the yellow flowers more.\nB: Why do you like them more?\nG: Well, yellow is my favorite color.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "31dbd5f5-5c8a-4b8c-a80f-0e862740543c",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 4,
+      "span_end": 27,
+      "correct": "We can do face painting",
+      "wrong": [
+        "We can to do face painting",
+        "We can doing face painting"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형이 와야 하므로 do가 맞고, to do나 doing은 틀립니다.",
+      "rationale": "조동사 can + 동사원형. can to do / can doing 오류 유도",
+      "sentence_no": 1,
+      "sentence": "B: \u0007We can do face painting or play VR games."
+    },
+    {
+      "tag_id": "09f548fa-b5d5-49c0-9e75-75ed2856881c",
+      "point": "CONJ_PARALLEL",
+      "span_start": 11,
+      "span_end": 44,
+      "correct": "do face painting or play VR games",
+      "wrong": [
+        "do face painting or plays VR games",
+        "do face painting or playing VR games"
+      ],
+      "why_ko": "can 뒤의 동사원형 do와 play가 or로 나란히 연결되므로 plays/playing은 병렬이 깨져 틀립니다.",
+      "rationale": "조동사 can 뒤에 동사원형 do와 play가 or로 병렬 연결됨. plays/playing 으로 바꾸는 병렬 깨기 오류 유도 가능",
+      "sentence_no": 1,
+      "sentence": "B: \u0007We can do face painting or play VR games."
+    },
+    {
+      "tag_id": "d5ee8bd9-2570-4aaf-af62-d8e2ef4380e8",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 46,
+      "span_end": 69,
+      "correct": "Which do you like more?",
+      "wrong": [
+        "Which do you like much?"
+      ],
+      "why_ko": "둘 중 하나를 고르는 질문이라 비교급 more를 쓰며, 최상급 most나 원급 much는 안 됩니다.",
+      "rationale": "둘 중 선택을 묻는 비교급 more. most / much 로 바꾸는 오류 유도 가능",
+      "sentence_no": 2,
+      "sentence": "Which do you like more?",
+      "verify_dropped": [
+        {
+          "wrong": "Which do you like most?",
+          "judgement": "ok",
+          "note_ko": "최상급 표현으로 문법상 성립한다."
+        }
+      ]
+    },
+    {
+      "tag_id": "b416ebe6-e3ec-459c-8246-2a4a761892ec",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 73,
+      "span_end": 98,
+      "correct": "I like face painting more",
+      "wrong": [
+        "I like to face painting more",
+        "I like paint face more"
+      ],
+      "why_ko": "like의 목적어로 face painting(동명사구)이 그대로 와야 하며, to face painting이나 paint face는 형태가 어긋납니다.",
+      "rationale": "like의 목적어로 동명사구 face painting 사용. to paint face 등 형태 혼동 유도 가능",
+      "sentence_no": 3,
+      "sentence": "G: I like face painting more."
+    },
+    {
+      "tag_id": "e84e4edf-c548-4ef9-9024-0563b824d850",
+      "point": "PREP_USAGE",
+      "span_start": 100,
+      "span_end": 115,
+      "correct": "What about you?",
+      "wrong": [
+        "What about your?"
+      ],
+      "why_ko": "전치사 about 뒤에는 목적격 you가 와야 하고, 상대 의견을 되묻는 표현은 What about ~?입니다.",
+      "rationale": "전치사 about 뒤 목적격 you. What about + 명사(동명사) 구조이며 about을 빈칸으로 뚫기 쉬움",
+      "sentence_no": 4,
+      "sentence": "What about you?",
+      "verify_dropped": [
+        {
+          "wrong": "What for you?",
+          "judgement": "odd",
+          "note_ko": "상대 의견을 묻는 관용 표현이 아니며 매우 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "9105a6a7-54b7-4f27-b4b0-13efb1cd0ccc",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 120,
+      "span_end": 143,
+      "correct": "I want to play VR games",
+      "wrong": [
+        "I want playing VR games",
+        "I want play VR games"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 취하므로 to play가 맞습니다.",
+      "rationale": "want는 목적어로 to부정사만 취함. want playing 오류 유도",
+      "sentence_no": 5,
+      "sentence": "B: \u0007I want to play VR games."
+    },
+    {
+      "tag_id": "c4af1f9e-42e8-402b-8f9b-45b4689d69ac",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 147,
+      "span_end": 179,
+      "correct": "don’t want to wash my face again",
+      "wrong": [
+        "don’t want washing my face again",
+        "don’t want wash my face again"
+      ],
+      "why_ko": "want의 목적어 자리는 to부정사이므로 to wash가 맞습니다.",
+      "rationale": "to wash는 want의 목적어로 쓰인 명사적 용법 to부정사. washing/wash 형태 오류 유도",
+      "sentence_no": 6,
+      "sentence": "I don’t want to wash my face again."
+    },
+    {
+      "tag_id": "f1ace6fd-f5a6-4db6-9fed-32b61a0bd5dc",
+      "point": "NONFIN_SUBJECT",
+      "span_start": 185,
+      "span_end": 207,
+      "correct": "Playing VR games is OK",
+      "wrong": [
+        "Play VR games is OK",
+        "Playing VR games are OK"
+      ],
+      "why_ko": "동명사구가 주어이므로 Playing이 맞고, 동명사구 주어는 단수 취급해 is를 씁니다.",
+      "rationale": "동명사구 주어는 단수 취급 → is. Play/To playing 또는 are 로 바꾸는 오류 유도",
+      "sentence_no": 7,
+      "sentence": "G: \u0007Playing VR games is OK, too."
+    },
+    {
+      "tag_id": "26d68ca5-8ca1-4a63-b63d-186596167602",
+      "point": "VERB_SVA",
+      "span_start": 196,
+      "span_end": 207,
+      "correct": "games is OK",
+      "wrong": [
+        "games are OK"
+      ],
+      "why_ko": "주어는 바로 앞 games가 아니라 동명사구 전체라 단수 is가 맞습니다.",
+      "rationale": "주어는 games가 아니라 동명사구 Playing VR games 전체이므로 단수 is. 바로 앞 복수명사 games에 끌려 are로 바꾸는 오류 유도",
+      "sentence_no": 7,
+      "sentence": "G: \u0007Playing VR games is OK, too."
+    },
+    {
+      "tag_id": "89f93815-7434-420b-b14d-7bd3b880dc8c",
+      "point": "CONJ_PARALLEL",
+      "span_start": 214,
+      "span_end": 245,
+      "correct": "Let’s go play VR games together",
+      "wrong": [
+        "Let’s going play VR games together"
+      ],
+      "why_ko": "Let's 뒤에는 동사원형 go가 오고, go 다음에도 동사원형 play가 이어집니다.",
+      "rationale": "Let's 뒤 동사원형 go, 그리고 go + 동사원형(구어체) 구조. go to play / go playing 혼동 유도",
+      "sentence_no": 8,
+      "sentence": "Let’s go play VR games together.",
+      "verify_dropped": [
+        {
+          "wrong": "Let’s go playing VR games together",
+          "judgement": "odd",
+          "note_ko": "go -ing는 swimming 등 관용 표현에 한정되어 매우 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "1138fc54-32ae-497f-bbb9-14cb5d142cba",
+      "point": "VERB_SVA",
+      "span_start": 255,
+      "span_end": 259,
+      "correct": "have",
+      "wrong": [
+        "has",
+        "having"
+      ],
+      "why_ko": "주어 They가 복수이므로 현재형 have를 씁니다.",
+      "rationale": "주어 They(복수)에 맞춘 현재형 have. has로 바꾼 수일치 오류 유도 가능",
+      "sentence_no": 9,
+      "sentence": "B: They have tteokbokki and gimbap here."
+    },
+    {
+      "tag_id": "4be6647b-41ca-464d-91b4-4ffff845d66a",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 288,
+      "span_end": 324,
+      "correct": "Which of the two do you like better?",
+      "wrong": [
+        "Which of the two do you like good?"
+      ],
+      "why_ko": "둘 중 하나를 고르는 질문이므로 비교급 better가 맞고 best/good은 틀립니다.",
+      "rationale": "둘 중 선택을 묻는 비교급 better. best/good 등 최상급·원급 교체로 오류 유도",
+      "sentence_no": 10,
+      "sentence": "Which of the two do you like better?",
+      "verify_dropped": [
+        {
+          "wrong": "Which of the two do you like best?",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립하는 문장이다."
+        }
+      ]
+    },
+    {
+      "tag_id": "614b91a3-6d6f-4415-8e7f-08ca5bb256ab",
+      "point": "PREP_USAGE",
+      "span_start": 294,
+      "span_end": 304,
+      "correct": "of the two",
+      "wrong": [
+        "in the two",
+        "between the two ones"
+      ],
+      "why_ko": "'둘 중에서'는 Which of the two로 of를 씁니다.",
+      "rationale": "'둘 중에서'를 나타내는 of. in/between 등으로 바꾸는 전치사 선택 오류 유도",
+      "sentence_no": 10,
+      "sentence": "Which of the two do you like better?"
+    },
+    {
+      "tag_id": "39263147-0a1e-4692-90b2-9b7dab2739f0",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 346,
+      "span_end": 357,
+      "correct": "much better",
+      "wrong": [
+        "very better",
+        "so better"
+      ],
+      "why_ko": "비교급을 강조할 때는 much를 쓰고 very/so는 비교급을 꾸밀 수 없습니다.",
+      "rationale": "비교급 강조 부사 much. very better로 바꾸는 전형적 오류 유도 (very/so는 비교급 강조 불가)",
+      "sentence_no": 11,
+      "sentence": "G: I like tteokbokki much better."
+    },
+    {
+      "tag_id": "188da15d-b8d1-4a6b-adf3-ec66d879fc04",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 366,
+      "span_end": 376,
+      "correct": "spicy food",
+      "wrong": [
+        "spicily food"
+      ],
+      "why_ko": "명사 food를 꾸미는 자리이므로 형용사 spicy가 맞습니다.",
+      "rationale": "명사 food를 수식하는 형용사 spicy. spicily 같은 부사형 교체 오류 유도",
+      "sentence_no": 12,
+      "sentence": "I like spicy food.",
+      "verify_dropped": [
+        {
+          "wrong": "spice food",
+          "judgement": "odd",
+          "note_ko": "spicy food를 뜻하는 표현으로 쓰이지 않아 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "e697a5e7-c605-41dc-95de-55e201a64f19",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 387,
+      "span_end": 409,
+      "correct": "let’s order tteokbokki",
+      "wrong": [
+        "let’s ordering tteokbokki",
+        "let’s to order tteokbokki"
+      ],
+      "why_ko": "Let's 뒤에는 반드시 동사원형이 옵니다.",
+      "rationale": "let's 뒤에는 동사원형. ordering / to order 로 바꾸는 사역 let 형태 오류 유도",
+      "sentence_no": 13,
+      "sentence": "B: Then, let’s order tteokbokki."
+    },
+    {
+      "tag_id": "8a8b0fa3-e2f0-4b94-8f45-3f3566b083f0",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 411,
+      "span_end": 429,
+      "correct": "It looks delicious",
+      "wrong": [
+        "It looks deliciously",
+        "It looks like delicious"
+      ],
+      "why_ko": "감각동사 look 뒤에는 형용사 보어가 오고, like 뒤에는 명사가 와야 합니다.",
+      "rationale": "감각동사 look + 형용사 보어. deliciously(부사)나 like delicious로 바꾸는 오류 유도",
+      "sentence_no": 14,
+      "sentence": "It looks delicious."
+    },
+    {
+      "tag_id": "d5f1c363-e2f3-4481-915b-da02721d06f0",
+      "point": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 442,
+      "span_end": 451,
+      "correct": "so hungry",
+      "wrong": [
+        "such hungry",
+        "very much hungry"
+      ],
+      "why_ko": "형용사만 꾸밀 때는 so를 쓰고, such는 뒤에 명사(구)가 필요합니다.",
+      "rationale": "형용사 단독 수식은 so. such hungry / too hungry 로 바꾸는 so-such 구별 오류 유도",
+      "sentence_no": 16,
+      "sentence": "I’m so hungry!"
+    },
+    {
+      "tag_id": "39f983f8-31de-405e-bffd-785310fb83d4",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 456,
+      "span_end": 465,
+      "correct": "Let’s get",
+      "wrong": [
+        "Let’s getting",
+        "Let’s to get"
+      ],
+      "why_ko": "Let's(= Let us) 뒤에는 동사원형 get이 와야 합니다.",
+      "rationale": "Let's(= Let us) 뒤에는 반드시 동사원형이 온다. Let's getting / Let's to get 같은 형태 오류를 유도할 수 있는 자리.",
+      "sentence_no": 17,
+      "sentence": "G: Let’s get a souvenir."
+    },
+    {
+      "tag_id": "812600ec-397c-4856-aaaa-427d3f7c8d9c",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 494,
+      "span_end": 505,
+      "correct": "like better",
+      "wrong": [
+        "like more well"
+      ],
+      "why_ko": "둘 중 하나를 고를 때는 well의 비교급 better를 씁니다.",
+      "rationale": "둘 중 하나를 고를 때 쓰는 비교급 better(well의 비교급). good / best / more well 등으로 바꿔 묻기 쉬운 전형적 빈칸 자리.",
+      "sentence_no": 18,
+      "sentence": "B: Which do you like better, the T-shirt or the cap?",
+      "verify_dropped": [
+        {
+          "wrong": "like best",
+          "judgement": "ok",
+          "note_ko": "문법적으로는 성립하는 형태다."
+        }
+      ]
+    },
+    {
+      "tag_id": "449e2205-b8c7-4196-8040-63ba661389fe",
+      "point": "CONJ_PARALLEL",
+      "span_start": 507,
+      "span_end": 529,
+      "correct": "the T-shirt or the cap",
+      "wrong": [
+        "the T-shirt or cap is"
+      ],
+      "why_ko": "Which ~ A or B? 선택의문문이므로 or로 두 명사구를 대등하게 연결합니다.",
+      "rationale": "Which ~ A or B? 구조에서 두 명사구가 or로 대등하게 연결된다. or를 and로 바꾸거나 한쪽 관사를 빼는 변형이 가능.",
+      "sentence_no": 18,
+      "sentence": "B: Which do you like better, the T-shirt or the cap?",
+      "verify_dropped": [
+        {
+          "wrong": "the T-shirt and the cap",
+          "judgement": "odd",
+          "note_ko": "비교 선택 의문문에서는 or를 쓰며 and는 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "840d302c-48a5-4add-87d1-34ba03fa902d",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 534,
+      "span_end": 559,
+      "correct": "I like the T-shirt better",
+      "wrong": [
+        "I like the T-shirt good"
+      ],
+      "why_ko": "둘 중 하나를 고른 대답이므로 비교급 better가 맞습니다.",
+      "rationale": "질문의 better에 호응하는 대답. best(최상급)나 원급 good으로 바꾸는 오답 선지를 만들 수 있다.",
+      "sentence_no": 19,
+      "sentence": "G: I like the T-shirt better.",
+      "verify_dropped": [
+        {
+          "wrong": "I like the T-shirt best",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립한다."
+        }
+      ]
+    },
+    {
+      "tag_id": "78cf5a74-e4b8-4ba9-a37b-3e730a3199da",
+      "point": "VERB_SVA",
+      "span_start": 572,
+      "span_end": 580,
+      "correct": "There is",
+      "wrong": [
+        "There have"
+      ],
+      "why_ko": "뒤의 진주어가 단수 a nice picture이므로 is를 씁니다.",
+      "rationale": "There + be동사 구문은 뒤에 오는 실주어(a nice picture, 단수)에 수를 맞춘다. There are로 바꾼 수일치 오류가 가장 흔한 출제 형태.",
+      "sentence_no": 21,
+      "sentence": "G: There is a nice picture of the festival on it."
+    },
+    {
+      "tag_id": "8856bce2-b86d-44f7-86b5-ae18bc9141e0",
+      "point": "PREP_USAGE",
+      "span_start": 612,
+      "span_end": 617,
+      "correct": "on it",
+      "wrong": [
+        "at it"
+      ],
+      "why_ko": "티셔츠 표면에 붙어 있으므로 접촉을 나타내는 on을 씁니다.",
+      "rationale": "티셔츠 '표면에' 그림이 있으므로 접촉의 on. in / at 으로 바꾸거나 전치사를 삭제하는 변형이 가능.",
+      "sentence_no": 21,
+      "sentence": "G: There is a nice picture of the festival on it.",
+      "verify_dropped": [
+        {
+          "wrong": "in it",
+          "judgement": "ok",
+          "note_ko": "전치사 in도 문법적으로 가능하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "0e8ca3ba-10cb-4e71-be28-38bbf75f9be6",
+      "point": "PRON_AGREEMENT",
+      "span_start": 615,
+      "span_end": 617,
+      "correct": "it",
+      "wrong": [
+        "they"
+      ],
+      "why_ko": "앞의 the T-shirt(단수)를 받는 목적격 대명사이므로 it이 맞습니다.",
+      "rationale": "앞서 언급된 the T-shirt(단수 사물)를 받는 대명사. them / they / that 등으로 바꾼 수·격 오류 선지를 만들 수 있다.",
+      "sentence_no": 21,
+      "sentence": "G: There is a nice picture of the festival on it."
+    },
+    {
+      "tag_id": "dd6bd1ad-956b-4744-9b28-f6a06c20d92c",
+      "point": "VERB_SVA",
+      "span_start": 628,
+      "span_end": 660,
+      "correct": "There are lots of pretty flowers",
+      "wrong": [
+        "There is lots of pretty flowers",
+        "There have lots of pretty flowers"
+      ],
+      "why_ko": "진주어가 복수 flowers이므로 are를 씁니다.",
+      "rationale": "There + be 구문에서 실제 주어는 뒤의 복수명사 flowers이므로 are가 맞다. 'lots of'를 단수로 착각해 There is로 바꾸는 수일치 오류를 유도할 수 있다.",
+      "sentence_no": 23,
+      "sentence": "There are lots of pretty flowers here."
+    },
+    {
+      "tag_id": "71002de3-fd06-4391-b3a0-d036493040d2",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 646,
+      "span_end": 660,
+      "correct": "pretty flowers",
+      "wrong": [
+        "prettily flowers",
+        "pretty flower"
+      ],
+      "why_ko": "명사를 앞에서 꾸미는 자리이므로 형용사 pretty, 그리고 lots of 뒤라 복수형 flowers입니다.",
+      "rationale": "명사 flowers를 앞에서 수식하는 자리이므로 형용사 pretty가 와야 한다. prettily(부사)로 바꾸는 전형적 오류 유도 지점.",
+      "sentence_no": 23,
+      "sentence": "There are lots of pretty flowers here."
+    },
+    {
+      "tag_id": "2eccbdd7-7eb4-4fb2-85f6-be34cc15019b",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 670,
+      "span_end": 692,
+      "correct": "Which do you like more",
+      "wrong": [
+        "Which do you like much"
+      ],
+      "why_ko": "둘 중 하나를 고르는 질문이므로 비교급 more를 씁니다.",
+      "rationale": "둘 중 하나를 고르는 질문이므로 최상급 most가 아니라 비교급 more를 써야 한다. more/most 혼동을 노리는 자리.",
+      "sentence_no": 24,
+      "sentence": "B: Which do you like more, the red flowers or the yellow flowers?",
+      "verify_dropped": [
+        {
+          "wrong": "Which do you like most",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립하는 형태다."
+        }
+      ]
+    },
+    {
+      "tag_id": "88b88842-2bea-4a92-bae8-309b252f7118",
+      "point": "VERB_FINITE",
+      "span_start": 676,
+      "span_end": 687,
+      "correct": "do you like",
+      "wrong": [
+        "do you liked",
+        "are you like"
+      ],
+      "why_ko": "do로 묻는 의문문에서는 뒤에 동사원형 like가 옵니다.",
+      "rationale": "일반동사 의문문이므로 조동사 do 뒤에는 동사원형 like가 와야 한다. do you liked / are you like 같은 형태 오류 유도.",
+      "sentence_no": 24,
+      "sentence": "B: Which do you like more, the red flowers or the yellow flowers?"
+    },
+    {
+      "tag_id": "93a25595-88a2-4d55-8180-f83e49916d80",
+      "point": "CONJ_PARALLEL",
+      "span_start": 694,
+      "span_end": 731,
+      "correct": "the red flowers or the yellow flowers",
+      "wrong": [
+        "the red flowers or yellow flower"
+      ],
+      "why_ko": "A or B 선택의문문이라 or로 같은 형태의 두 명사구를 연결해야 합니다.",
+      "rationale": "선택의문문에서 or로 연결되는 두 명사구는 같은 형태(the + 색 + flowers)로 병렬을 이뤄야 한다. 한쪽을 the red one is 처럼 바꿔 병렬을 깨는 변형이 가능.",
+      "sentence_no": 24,
+      "sentence": "B: Which do you like more, the red flowers or the yellow flowers?",
+      "verify_dropped": [
+        {
+          "wrong": "the red flowers and the yellow flowers",
+          "judgement": "odd",
+          "note_ko": "선택 의문문에서는 or를 써야 뜻이 통한다."
+        }
+      ]
+    },
+    {
+      "tag_id": "66147cb8-2a3f-4203-b564-1a1192593f50",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 736,
+      "span_end": 766,
+      "correct": "I like the yellow flowers more",
+      "wrong": [
+        "I like the yellow flowers much"
+      ],
+      "why_ko": "둘을 비교한 답이므로 비교급 more를 씁니다.",
+      "rationale": "앞 질문의 비교 상황에 대한 답이므로 more(비교급 부사)가 적절하다. most/much로 바꾸는 선지 구성이 가능.",
+      "sentence_no": 25,
+      "sentence": "G: I like the yellow flowers more.",
+      "verify_dropped": [
+        {
+          "wrong": "I like the yellow flowers most",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립한다."
+        }
+      ]
+    },
+    {
+      "tag_id": "4f990d9d-7c34-4754-9952-ff67813dbf48",
+      "point": "PRON_AGREEMENT",
+      "span_start": 787,
+      "span_end": 791,
+      "correct": "them",
+      "wrong": [
+        "they"
+      ],
+      "why_ko": "the yellow flowers(복수)를 받는 목적어 자리이므로 목적격 them이 맞습니다.",
+      "rationale": "앞 문장의 the yellow flowers를 받는 복수 목적격 대명사. it / they 로 바꾸는 수·격 오류 유도 지점이며 지시 대상을 묻는 어구추론 문항으로도 쓰인다.",
+      "sentence_no": 26,
+      "sentence": "B: Why do you like them more?",
+      "verify_dropped": [
+        {
+          "wrong": "it",
+          "judgement": "ok",
+          "note_ko": "목적격으로 문법상 성립한다."
+        }
+      ]
+    },
+    {
+      "tag_id": "4546679a-8417-4e2c-8c6f-1f2a18024bf2",
+      "point": "VERB_SVA",
+      "span_start": 807,
+      "span_end": 834,
+      "correct": "yellow is my favorite color",
+      "wrong": [
+        "yellow are my favorite color",
+        "yellow be my favorite color"
+      ],
+      "why_ko": "주어 yellow가 단수이므로 is를 씁니다.",
+      "rationale": "주어가 단수 색 이름 yellow이므로 단수 동사 is. are로 바꾸는 수일치 오류 유도.",
+      "sentence_no": 27,
+      "sentence": "G: Well, yellow is my favorite color."
+    }
+  ],
+  "diagnostics": {
+    "returned": 34,
+    "kept": 34,
+    "given": 34,
+    "rejects": [
+      [
+        "There is",
+        "wrong 이 본문에 실재함: 'There are'"
+      ],
+      [
+        "it",
+        "wrong 이 본문에 실재함: 'them'"
+      ]
+    ],
+    "verify": {
+      "dropped_items": [
+        [
+          "of the festival",
+          "모든 오답이 실은 맞는 표현이라 버림: for the festival(odd), from the festival(ok)"
+        ]
+      ],
+      "dropped_wrongs": 13
+    }
+  },
+  "verified": true
+}

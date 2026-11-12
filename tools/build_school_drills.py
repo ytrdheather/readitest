@@ -233,6 +233,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--school", action="append", help="특정 학교만 (여러 번 가능)")
     ap.add_argument("--out", default=OUT)
+    ap.add_argument("--lesson", action="append",
+                    help="특정 과만 (L7 처럼, 여러 번 가능). 이미 배부한 다른 과 권을 다시 뽑지 않으려고")
     a = ap.parse_args()
     schools = a.school or SCHOOLS
 
@@ -249,6 +251,8 @@ def main():
                 allowed = LESSONS.get((school, G))
                 if allowed is not None and L not in allowed:
                     continue          # 빈 목록이면 전부 건너뛴다
+                if a.lesson and L not in a.lesson:
+                    continue
                 plan = plan_for(school, G, L, passages, vocab)
                 if not plan:
                     continue

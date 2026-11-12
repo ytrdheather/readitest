@@ -1,0 +1,724 @@
+{
+  "passage_id": "af0a961f-2f16-43f0-ab5c-33534c5015f8",
+  "body_text_sha256": "88022121620d3179b2e69ff672eacaf5c7e844b575e89005b1b5b324d3770b93",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 7,
+      "span_end": 18,
+      "surface": "looking for",
+      "sentence_no": 1,
+      "rationale": "'look for(~을 찾다)'는 동사+전치사 고정 결합. for를 삭제하거나 at/after 등으로 바꾸는 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE",
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 3,
+      "span_end": 14,
+      "surface": "I’m looking",
+      "sentence_no": 1,
+      "rationale": "지금 가게에서 찾는 중이므로 현재진행형. 'I look for' 같은 단순현재나 'I'm look'처럼 be+동사원형 오류를 심을 수 있는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 26,
+      "span_end": 44,
+      "surface": "for my grandmother",
+      "sentence_no": 1,
+      "rationale": "'~을 위한/~에게 줄'의 대상을 나타내는 전치사 for. to/with 로 바꾼 선지가 자주 나오고 빈칸으로도 잘 뚫린다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 49,
+      "span_end": 68,
+      "surface": "How about this bag?",
+      "sentence_no": 2,
+      "rationale": "제안 표현 How about 뒤에는 명사(구) 또는 동명사가 온다. 'How about to buy ~'처럼 to부정사를 넣는 오류 유도가 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 77,
+      "span_end": 84,
+      "surface": "too big",
+      "sentence_no": 3,
+      "rationale": "'너무 ~한'의 too + 형용사. enough big(어순/의미 오류)·so big 과 구별하는 선지를 만들 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 86,
+      "span_end": 108,
+      "surface": "I think it’ll be heavy",
+      "sentence_no": 4,
+      "rationale": "think 뒤 목적어절을 이끄는 접속사 that이 생략된 구조. that/what 구별 선지를 만들 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 100,
+      "span_end": 108,
+      "surface": "be heavy",
+      "sentence_no": 4,
+      "rationale": "be동사의 보어 자리이므로 형용사 heavy. heavily로 바꾸는 부사화 오류(EI_ADJ_TO_ADV)가 전형적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 131,
+      "span_end": 155,
+      "surface": "It’s big but very light.",
+      "sentence_no": 6,
+      "rationale": "but이 형용사 big과 light를 대등하게 연결. 한쪽을 부사(lightly)나 절로 바꿔 병렬을 깨는 오류를 심을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 173,
+      "span_end": 184,
+      "surface": "older women",
+      "sentence_no": 7,
+      "rationale": "old의 비교급 older가 '연세 드신'의 뜻으로 명사를 수식. more old / most old 같은 비교급 형태 오류를 유도하기 좋다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 161,
+      "span_end": 184,
+      "surface": "perfect for older women",
+      "sentence_no": 7,
+      "rationale": "be perfect for(~에게 안성맞춤인)의 for. to/with 로 교체하거나 삭제하는 선지가 나온다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 203,
+      "span_end": 215,
+      "surface": "I’ll take it",
+      "sentence_no": 9,
+      "rationale": "대명사 it이 앞의 단수명사 this bag을 받음. them/they로 바꾸면 수 불일치가 되는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 상황 제시(선물 찾기)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "제안",
+      "signal": "How about",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "부정적 반응 — 문제 제기",
+      "signal": "too",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "추가 우려",
+      "signal": "too(또한)",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "반박 — 전환",
+      "signal": "Not at all",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "근거 제시 — 반대 속성 설명",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "주제문 — 추천 이유 요약",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 8,
+      "role": "확인 질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "결론 — 구매 결정",
+      "signal": "Then",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음은 위 대화에서 가져온 문장들이다. 어법상 옳지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "be동사(will be)의 보어 자리에는 형용사가 와야 하므로 heavily가 아니라 heavy가 옳다. ①의 look for, ②의 too+형용사, ④의 but 병렬, ⑤의 비교급 older는 모두 본문 그대로의 올바른 형태다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I’m looking for a gift for my grandmother.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It’s too big.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I think it’ll be heavily, too.",
+          "is_answer": true,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It’s big but very light.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "It’s perfect for older women.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 바르게 짝지어진 것은?\nB: I’m (a)[looking / look] for a gift for my grandmother.\nB: It’s (b)[too / enough] big.\nW: It’s perfect for (c)[older / more old] women.",
+      "answer_key": "①",
+      "explanation": "(a) am 뒤에는 현재분사 looking이 와야 현재진행형이 된다(am look 불가). (b) '너무 크다'는 too big이며 enough는 형용사 뒤에 쓰고 의미도 맞지 않는다. (c) old의 비교급은 older이므로 more old는 틀리다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        4,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) looking – (b) too – (c) older",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) look – (b) too – (c) older",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) looking – (b) enough – (c) older",
+          "is_answer": false,
+          "violates_point_code": "SO_SUCH_TOO_ENOUGH",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) looking – (b) too – (c) more old",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) look – (b) enough – (c) more old",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "stem": "다음 대화에서 밑줄 친 부분 중 어법상 틀린 것은?\nB: I’m ①looking for a gift for my grandmother.\nW: How about ②this bag?\nB: It’s ③too big. I think it’ll be heavy, too.\nW: Not at all. It’s big ④but very light. It’s perfect for ⑤more old women.",
+      "answer_key": "⑤",
+      "explanation": "old는 1음절 형용사로 -er를 붙여 older로 비교급을 만든다. 따라서 more old women이 아니라 older women이 옳다. 나머지는 본문 그대로의 올바른 표현이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        0,
+        3,
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "looking for",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "this bag",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "too big",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "but very light",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "more old women",
+          "is_answer": true,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 대화에서 문맥상 낱말의 쓰임이 적절하지 않은 것은?\nB: I’m ①looking for a gift for my grandmother.\nW: How about this bag?\nB: It’s too ②big. I think it’ll be ③heavy, too.\nW: Not at all. It’s big but very ④heavy. It’s ⑤perfect for older women.",
+      "answer_key": "④",
+      "explanation": "여자는 'Not at all(전혀 그렇지 않다)'로 가방이 무거울 거라는 소년의 말을 부정했으므로, 뒤 문장은 '크지만 매우 가볍다'가 되어야 한다. 따라서 ④ heavy는 light로 바뀌어야 문맥이 통한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "looking",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "big",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "heavy",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "heavy",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "perfect",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 밑줄 친 Not at all.이 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 소년이 'I think it’ll be heavy, too.'라고 했고, 여자는 Not at all.이라고 부정한 뒤 'It’s big but very light.'라고 덧붙였다. 즉 '전혀 무겁지 않다'는 뜻이다. 여자는 가방이 크다는 것은 인정했으므로 ②는 틀리다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그 가방은 전혀 무겁지 않다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "그 가방은 전혀 크지 않다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "할머니께는 전혀 어울리지 않는다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "가격이 전혀 비싸지 않다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "천만에요, 고마워할 필요 없다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\nW: Not at all. It’s big but very light. It’s ______________.",
+      "answer_key": "①",
+      "explanation": "여자는 가방이 크지만 가볍다는 장점을 말하며 할머니 선물로 권하고 있고, 소년은 바로 사겠다고 답한다. 따라서 '연세 드신 분들께 딱 맞다'는 ①이 적절하다. ②③⑤는 앞 문장과 모순되고 ④는 대화에 가격 언급이 없다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        8,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "perfect for older women",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "too heavy to carry every day",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "not big enough for a gift",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the most expensive bag in this shop",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "made only for young students",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것은?",
+      "answer_key": "③",
+      "explanation": "소년은 처음에 'It’s too big.'이라고 하여 가방이 너무 크다고 했으므로 ③은 일치하지 않는다. 나머지는 각각 [1], [2], [6], [9]의 내용과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The boy is looking for a gift for his grandmother.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The woman shows the boy a bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The boy thinks the bag is too small at first.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The bag is light even though it is big.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy decides to buy the bag.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "소년이 할머니 선물을 찾고 점원이 크지만 가벼운 가방을 권해 결국 사기로 하는 내용이므로 ①이 주제다. 가격·반품·여행 짐 싸기는 대화에 나오지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "choosing a bag as a gift for an elderly person",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "returning a broken bag to a shop",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "comparing the prices of several bags",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "asking a grandmother about her hobby",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "packing a heavy bag for a trip",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (본문 [4]번 문장 변형)\n→ I think it’ll be heavily, too.",
+      "answer_key": "heavily → heavy",
+      "explanation": "be동사(will be) 뒤 보어 자리에는 부사가 아니라 형용사가 와야 한다. 따라서 heavily를 heavy로 고쳐 'I think it’ll be heavy, too.'가 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n나는 할머니께 드릴 선물을 찾고 있어요.\n(for / looking / a gift / I’m / my grandmother / for)",
+      "answer_key": "I’m looking for a gift for my grandmother.",
+      "explanation": "'~을 찾다'는 look for이므로 I’m looking for a gift가 되고, '할머니를 위한'은 for my grandmother로 뒤에 붙인다. for가 두 번 쓰이는 점에 주의한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n그것은 크지만 매우 가벼워요.\n<조건> 1) 접속사 but을 사용할 것  2) It으로 시작할 것  3) very를 사용할 것  4) 5단어로 쓸 것",
+      "answer_key": "It’s big but very light.",
+      "explanation": "but이 형용사 big과 light를 대등하게 연결하는 구조이며, very는 light를 수식한다. It's / big / but / very / light 로 다섯 단어가 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 9,
+    "tags_returned": 11,
+    "tags_kept": 11,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

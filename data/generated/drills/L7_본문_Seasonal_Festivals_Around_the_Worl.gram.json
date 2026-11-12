@@ -1,0 +1,511 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 본문 — Seasonal Festivals Around the World",
+  "kind": "textbook_reading",
+  "parts": [
+    "중2 L7 본문 — Seasonal Festivals Around the World"
+  ],
+  "body": "Fallas Festival in Valencia, Spain People in Valencia celebrate the coming of spring with the Fallas festival. This festival takes place from March 15 to 19. During the festival, people enjoy parades and fireworks. The stars of the festival are fallas, giant wooden statues. You can find hundreds of them all over the city. Surprisingly, the fallas are burned on the last day of the festival. Burning them symbolizes saying goodbye to old things and hello to a new start. Midsummer Festival in Sweden Winter in Sweden is long and dark, so the people there especially welcome summer. To celebrate the longest day of the year, they have a special festival. They call it the Midsummer festival. The festival starts on the Friday evening between June 19 and 25 and ends on the Sunday. During the festival, people decorate a tall pole with flowers and green leaves and enjoy traditional dances around it. Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long. Day of the Dead Festival in Mexico Many Mexicans believe that once a year dead people come back home to meet their family and friends. They call this day the Day of the Dead. To welcome dead people, Mexicans hold a festival on November 1 and 2. They believe it is important to remember dead people. So, people set up altars in their homes and have big parties in cemeteries. In some areas, people dress up like skeletons and hold big parades. Fur Rondy Festival in Alaska, USA At the end of February, people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world. During this festival, visitors can enjoy various winter sports and Alaskan traditional games. They can also enjoy many special events such as the Running of the Reindeer. People who participate in this race wear fun costumes and try to run faster than reindeer. Is it possible to do so? Not really, but it doesn’t matter. Everyone is just having fun!",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "9ac6ecac-f853-4ab0-bd3f-51140356507a",
+      "point": "PREP_USAGE",
+      "span_start": 85,
+      "span_end": 109,
+      "correct": "with the Fallas festival",
+      "wrong": [
+        "by the Fallas festival"
+      ],
+      "why_ko": "'~로써/~와 함께'라는 수단·동반의 뜻은 with로 씁니다. by나 in은 이 자리에서 어색합니다.",
+      "rationale": "'~로써/~와 함께'를 뜻하는 수단·동반의 with. by/in/for 로 바꾼 선지나 전치사 삭제(EI_PREP_DELETE)로 출제 가능",
+      "sentence_no": 1,
+      "sentence": "Fallas Festival in Valencia, Spain People in Valencia celebrate the coming of spring with the Fallas festival.",
+      "verify_dropped": [
+        {
+          "wrong": "in the Fallas festival",
+          "judgement": "odd",
+          "note_ko": "문법상 '축제 안에서'로 읽힐 수는 있으나 celebrate ~ with 자리에 쓰기엔 매우 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "3c166b29-f90b-48bd-a849-c2d457b0ae6e",
+      "point": "PREP_USAGE",
+      "span_start": 137,
+      "span_end": 156,
+      "correct": "from March 15 to 19",
+      "wrong": [
+        "from March 15 and 19"
+      ],
+      "why_ko": "기간은 from A to B 짝으로 씁니다. and나 until은 from과 짝이 맞지 않습니다.",
+      "rationale": "기간을 나타내는 from A to B 짝. to 를 until/till/at 으로 바꾸거나 전치사를 빼는 오류 유도 가능",
+      "sentence_no": 2,
+      "sentence": "This festival takes place from March 15 to 19.",
+      "verify_dropped": [
+        {
+          "wrong": "from March 15 until 19",
+          "judgement": "ok",
+          "note_ko": "from ~ until ~도 정상적인 기간 표현이다."
+        }
+      ]
+    },
+    {
+      "tag_id": "1e8f1c85-0510-4e64-9660-f03c6db52b7a",
+      "point": "CONJ_VS_PREP",
+      "span_start": 158,
+      "span_end": 177,
+      "correct": "During the festival",
+      "wrong": [
+        "While the festival"
+      ],
+      "why_ko": "뒤에 명사구만 왔으므로 전치사 During이 맞고, While은 주어+동사 절이 와야 합니다.",
+      "rationale": "during + 명사구 자리. 뒤에 절이 없으므로 While 로 바꾸면 틀림. [During / While] 선택형으로 가장 흔히 출제",
+      "sentence_no": 3,
+      "sentence": "During the festival, people enjoy parades and fireworks.",
+      "verify_dropped": [
+        {
+          "wrong": "For the festival",
+          "judgement": "ok",
+          "note_ko": "'축제를 위해'라는 뜻으로 문법적으로 성립한다. 뜻만 달라진다."
+        }
+      ]
+    },
+    {
+      "tag_id": "f8b4f921-00bb-467a-85b6-3219666531a9",
+      "point": "PRON_AGREEMENT",
+      "span_start": 288,
+      "span_end": 304,
+      "correct": "hundreds of them",
+      "wrong": [
+        "hundreds of it",
+        "hundreds of they"
+      ],
+      "why_ko": "fallas는 복수이고 of 뒤는 목적격이므로 them이 맞습니다.",
+      "rationale": "them = fallas(복수)를 받는 목적격 대명사. it/its/they 로 바꾼 수·격 오류 유도",
+      "sentence_no": 5,
+      "sentence": "You can find hundreds of them all over the city."
+    },
+    {
+      "tag_id": "3756a0b4-7f2f-4348-83c0-fe59caaa8573",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 324,
+      "span_end": 336,
+      "correct": "Surprisingly",
+      "wrong": [
+        "Surprising",
+        "Surprised"
+      ],
+      "why_ko": "문장 전체를 꾸미는 자리이므로 부사 Surprisingly를 씁니다.",
+      "rationale": "문장 전체를 수식하는 문장부사. Surprising(형용사)으로 바꾼 형용사-부사 혼동 선지 가능",
+      "sentence_no": 6,
+      "sentence": "Surprisingly, the fallas are burned on the last day of the festival."
+    },
+    {
+      "tag_id": "7e974c18-7844-4256-b5e2-9c5cdd481e68",
+      "point": "VERB_SVA",
+      "span_start": 393,
+      "span_end": 416,
+      "correct": "Burning them symbolizes",
+      "wrong": [
+        "Burning them symbolize",
+        "Burn them symbolizes"
+      ],
+      "why_ko": "동명사구 주어는 단수 취급이라 동사도 symbolizes입니다.",
+      "rationale": "동명사구 주어는 단수 취급 → symbolizes. symbolize 로 바꾼 수일치 오류 유도",
+      "sentence_no": 7,
+      "sentence": "Burning them symbolizes saying goodbye to old things and hello to a new start."
+    },
+    {
+      "tag_id": "ef813373-4981-4d4f-8f78-c6710c3c884d",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 406,
+      "span_end": 431,
+      "correct": "symbolizes saying goodbye",
+      "wrong": [
+        "symbolizes to say goodbye",
+        "symbolizes say goodbye"
+      ],
+      "why_ko": "symbolize는 동명사를 목적어로 받습니다.",
+      "rationale": "symbolize는 동명사를 목적어로 취함. to say 로 바꾼 선지와 구별",
+      "sentence_no": 7,
+      "sentence": "Burning them symbolizes saying goodbye to old things and hello to a new start."
+    },
+    {
+      "tag_id": "41c8ad1a-c859-4f4d-932b-8ac44eefa093",
+      "point": "VERB_SVA",
+      "span_start": 501,
+      "span_end": 520,
+      "correct": "Winter in Sweden is",
+      "wrong": [
+        "Winter in Sweden are",
+        "Winter in Sweden be"
+      ],
+      "why_ko": "주어는 Winter(단수)이므로 is를 씁니다. 사이에 낀 in Sweden에 끌리면 안 됩니다.",
+      "rationale": "주어 Winter + 전치사구 in Sweden 삽입. Sweden에 끌려 are 로 쓰는 수일치 오류 유도",
+      "sentence_no": 8,
+      "sentence": "Midsummer Festival in Sweden Winter in Sweden is long and dark, so the people there especially welcome summer."
+    },
+    {
+      "tag_id": "d20c7341-0139-4a61-bbdf-0c6dbae1cc52",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 583,
+      "span_end": 623,
+      "correct": "To celebrate the longest day of the year",
+      "wrong": [
+        "For celebrate the longest day of the year",
+        "To celebrating the longest day of the year"
+      ],
+      "why_ko": "'~하기 위해'는 to+동사원형으로 씁니다.",
+      "rationale": "'~하기 위해'의 부사적 용법(목적). Celebrating / For celebrate 등 형태 오류나 용법 구별 문항으로 출제",
+      "sentence_no": 9,
+      "sentence": "To celebrate the longest day of the year, they have a special festival."
+    },
+    {
+      "tag_id": "247270b3-239d-4a37-86f9-c9e14969f87a",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 596,
+      "span_end": 623,
+      "correct": "the longest day of the year",
+      "wrong": [
+        "the most long day of the year"
+      ],
+      "why_ko": "'일 년 중 가장 긴 날'은 최상급 the longest입니다. long은 -est로 최상급을 만듭니다.",
+      "rationale": "최상급 + the + of the year 범위 표현. longer / most long 으로 바꾼 오류 유도",
+      "sentence_no": 9,
+      "sentence": "To celebrate the longest day of the year, they have a special festival.",
+      "verify_dropped": [
+        {
+          "wrong": "the longer day of the year",
+          "judgement": "odd",
+          "note_ko": "형태는 가능하나 '일 년 중'이라는 범위와 비교급이 맞지 않아 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "d732bbef-6bc6-4e66-ab75-d7425b0a0f7a",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 655,
+      "span_end": 690,
+      "correct": "They call it the Midsummer festival",
+      "wrong": [
+        "They call it as the Midsummer festival",
+        "They call to it the Midsummer festival"
+      ],
+      "why_ko": "call은 '목적어+보어'를 바로 쓰는 5형식 동사라 as나 to를 넣지 않습니다.",
+      "rationale": "call + 목적어 + 목적격보어(명사) 5형식. call it as / call to it 처럼 전치사를 넣는 오류가 전형",
+      "sentence_no": 10,
+      "sentence": "They call it the Midsummer festival."
+    },
+    {
+      "tag_id": "523d6481-0c3b-4a85-b646-443b6cc26d81",
+      "point": "PREP_USAGE",
+      "span_start": 734,
+      "span_end": 756,
+      "correct": "between June 19 and 25",
+      "wrong": [
+        "between June 19 to 25",
+        "among June 19 and 25"
+      ],
+      "why_ko": "between은 and와 짝을 이루고, 둘 사이에는 among을 쓰지 않습니다.",
+      "rationale": "between A and B 짝 전치사. from/among 으로 바꾸거나 and 를 to 로 바꾼 오류 유도",
+      "sentence_no": 11,
+      "sentence": "The festival starts on the Friday evening between June 19 and 25 and ends on the Sunday."
+    },
+    {
+      "tag_id": "210b99d2-5a0f-4ff4-a7eb-ef6d968d5933",
+      "point": "CONJ_PARALLEL",
+      "span_start": 757,
+      "span_end": 779,
+      "correct": "and ends on the Sunday",
+      "wrong": [
+        "and ending on the Sunday",
+        "and to end on the Sunday"
+      ],
+      "why_ko": "starts와 and로 연결되므로 같은 형태인 ends여야 합니다.",
+      "rationale": "starts와 ends가 and로 병렬. ending / to end 로 바꾸면 병렬 파괴",
+      "sentence_no": 11,
+      "sentence": "The festival starts on the Friday evening between June 19 and 25 and ends on the Sunday."
+    },
+    {
+      "tag_id": "3d940979-37d4-4453-9a79-365e7f353f0d",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 809,
+      "span_end": 842,
+      "correct": "decorate a tall pole with flowers",
+      "wrong": [
+        "decorate a tall pole by flowers",
+        "decorate a tall pole flowers"
+      ],
+      "why_ko": "decorate A with B가 고정 짝이라 with를 바꾸거나 뺄 수 없습니다.",
+      "rationale": "decorate A with B 고정 결합. to/by/in 으로 바꾸거나 전치사를 삭제하는 선지가 전형",
+      "sentence_no": 12,
+      "sentence": "During the festival, people decorate a tall pole with flowers and green leaves and enjoy traditional dances around it."
+    },
+    {
+      "tag_id": "4cecc9b4-c150-446d-8be8-1a2896228b1d",
+      "point": "CONJ_VS_PREP",
+      "span_start": 900,
+      "span_end": 915,
+      "correct": "Because the sun",
+      "wrong": [
+        "Because of the sun"
+      ],
+      "why_ko": "뒤에 주어+동사 절이 오므로 접속사 Because를 씁니다. Because of 뒤에는 명사만 옵니다.",
+      "rationale": "뒤에 주어+동사 절이 오므로 접속사 Because. Because of(전치사구)로 바꾼 선지와 구별",
+      "sentence_no": 13,
+      "sentence": "Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long.",
+      "verify_dropped": [
+        {
+          "wrong": "Although the sun",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 양보 관계가 논리적으로 맞지 않아 뜻이 통하지 않는다."
+        }
+      ]
+    },
+    {
+      "tag_id": "d0ae8645-0cd7-493f-8b22-cc622caf4913",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 916,
+      "span_end": 922,
+      "correct": "hardly",
+      "wrong": [
+        "hard",
+        "hardly not"
+      ],
+      "why_ko": "'거의 ~않다'는 hardly입니다. hard는 '열심히/세게'라서 뜻이 달라집니다.",
+      "rationale": "'거의 ~않다'의 준부정 부사 hardly. '열심히'의 hard 와 혼동시키는 선지가 단골",
+      "sentence_no": 13,
+      "sentence": "Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long."
+    },
+    {
+      "tag_id": "c4fcc437-35b2-47ea-9a79-1d65aa3cf278",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 923,
+      "span_end": 948,
+      "correct": "sets at this time of year",
+      "wrong": [
+        "is set at this time of year",
+        "is sat at this time of year"
+      ],
+      "why_ko": "'해가 지다'의 set은 자동사라 수동태로 쓰지 않습니다.",
+      "rationale": "'해가 지다'의 set은 자동사라 수동태 불가. is set / is sat 같은 자동사 수동태 함정 선지 가능",
+      "sentence_no": 13,
+      "sentence": "Because the sun hardly sets at this time of year in Sweden, people can enjoy the festival all night long."
+    },
+    {
+      "tag_id": "80817b59-812e-425a-a949-5f84da5dcd68",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 1055,
+      "span_end": 1106,
+      "correct": "believe that once a year dead people come back home",
+      "wrong": [
+        "believe what once a year dead people come back home",
+        "believe which once a year dead people come back home"
+      ],
+      "why_ko": "뒤 문장이 완전하므로 명사절 접속사 that을 씁니다. what/which는 불완전한 절을 이끕니다.",
+      "rationale": "believe의 목적어가 되는 명사절 접속사 that. what/which 로 바꾼 선지와 구별, 생략 여부도 출제 포인트",
+      "sentence_no": 14,
+      "sentence": "Day of the Dead Festival in Mexico Many Mexicans believe that once a year dead people come back home to meet their family and friends."
+    },
+    {
+      "tag_id": "4b310057-9a6a-4c3f-adf4-d4abc8fd4891",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 1181,
+      "span_end": 1203,
+      "correct": "To welcome dead people",
+      "wrong": [
+        "To welcoming dead people",
+        "For welcome dead people"
+      ],
+      "why_ko": "목적을 나타내는 to부정사는 to+동사원형 형태입니다.",
+      "rationale": "목적을 나타내는 부사적 용법. Welcoming / To welcoming 형태 오류 및 용법 구별 문항으로 출제",
+      "sentence_no": 16,
+      "sentence": "To welcome dead people, Mexicans hold a festival on November 1 and 2."
+    },
+    {
+      "tag_id": "ff0dfeb7-151b-43cd-b395-a74483e9d25b",
+      "point": "IT_CLEFT",
+      "span_start": 1264,
+      "span_end": 1303,
+      "correct": "it is important to remember dead people",
+      "wrong": [
+        "that is important to remember dead people",
+        "it is important remember dead people"
+      ],
+      "why_ko": "가주어 it + 진주어 to부정사 구문이라 it과 to remember를 그대로 써야 합니다.",
+      "rationale": "가주어 it + 진주어 to부정사 구문. it→that 또는 to remember→remembering/remember 로 바꾼 오류 유도",
+      "sentence_no": 17,
+      "sentence": "They believe it is important to remember dead people."
+    },
+    {
+      "tag_id": "59d773b8-b05f-4ff8-ad4d-5317e3c0c1f1",
+      "point": "CONJ_PARALLEL",
+      "span_start": 1316,
+      "span_end": 1365,
+      "correct": "set up altars in their homes and have big parties",
+      "wrong": [
+        "set up altars in their homes and having big parties",
+        "set up altars in their homes and to have big parties"
+      ],
+      "why_ko": "and로 연결된 동사끼리 형태가 같아야 하므로 have가 맞습니다.",
+      "rationale": "set up과 have가 and로 병렬된 동사구. having 으로 바꾸면 병렬 파괴",
+      "sentence_no": 18,
+      "sentence": "So, people set up altars in their homes and have big parties in cemeteries."
+    },
+    {
+      "tag_id": "1de7ee24-3fa3-4608-9bda-31b7f68086ec",
+      "point": "PREP_USAGE",
+      "span_start": 1412,
+      "span_end": 1426,
+      "correct": "like skeletons",
+      "wrong": [
+        "alike skeletons"
+      ],
+      "why_ko": "'~처럼' 뒤에 명사만 올 때는 전치사 like를 씁니다.",
+      "rationale": "'~처럼'의 전치사 like + 명사. 접속사 as / alike 로 바꾸거나 전치사를 삭제하는 오류 유도",
+      "sentence_no": 19,
+      "sentence": "In some areas, people dress up like skeletons and hold big parades.",
+      "verify_dropped": [
+        {
+          "wrong": "as skeletons",
+          "judgement": "ok",
+          "note_ko": "dress up as ~도 정상적인 표현이다."
+        }
+      ]
+    },
+    {
+      "tag_id": "1587d7bf-dd5b-4a93-a162-75d2c8b0f58e",
+      "point": "PREP_USAGE",
+      "span_start": 1483,
+      "span_end": 1505,
+      "correct": "At the end of February",
+      "wrong": [
+        "In the end of February",
+        "On the end of February"
+      ],
+      "why_ko": "'~의 말에'는 굳어진 표현 at the end of로 씁니다.",
+      "rationale": "굳어진 시간 부사구 at the end of. In/On 으로 바꾼 빈칸 선지가 전형",
+      "sentence_no": 20,
+      "sentence": "Fur Rondy Festival in Alaska, USA At the end of February, people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world."
+    },
+    {
+      "tag_id": "b069745f-24db-4069-ab8b-370a2d84afc0",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 1553,
+      "span_end": 1601,
+      "correct": "one of the biggest winter festivals in the world",
+      "wrong": [
+        "one of the biggest winter festival in the world"
+      ],
+      "why_ko": "one of the + 최상급 + 복수명사 형태라서 biggest와 festivals가 맞습니다.",
+      "rationale": "one of the + 최상급 + 복수명사 구문. festival(단수)이나 bigger 로 바꾼 오류 유도, 어순 배열 문항으로도 적합",
+      "sentence_no": 20,
+      "sentence": "Fur Rondy Festival in Alaska, USA At the end of February, people in Alaska hold the Fur Rondy festival, one of the biggest winter festivals in the world.",
+      "verify_dropped": [
+        {
+          "wrong": "one of the bigger winter festivals in the world",
+          "judgement": "ok",
+          "note_ko": "'비교적 큰 축제들 중 하나'로 문법상 성립한다."
+        }
+      ]
+    },
+    {
+      "tag_id": "5930c28e-c425-4152-b330-c432b0fd0cbc",
+      "point": "PREP_USAGE",
+      "span_start": 1737,
+      "span_end": 1772,
+      "correct": "such as the Running of the Reindeer",
+      "wrong": [
+        "such that the Running of the Reindeer",
+        "as such the Running of the Reindeer"
+      ],
+      "why_ko": "예를 들 때는 such as + 명사구를 씁니다.",
+      "rationale": "예시를 드는 such as + 명사구. such that / as such 로 바꾸거나 절을 붙이는 오류 유도",
+      "sentence_no": 22,
+      "sentence": "They can also enjoy many special events such as the Running of the Reindeer."
+    },
+    {
+      "tag_id": "1114c97b-8bb0-4241-bf5b-f256c30e50e1",
+      "point": "VERB_SVA",
+      "span_start": 1774,
+      "span_end": 1814,
+      "correct": "People who participate in this race wear",
+      "wrong": [
+        "People who participate in this race wears",
+        "People who participates in this race wear"
+      ],
+      "why_ko": "주어가 People(복수)이므로 동사는 wear입니다. 가까운 race에 끌리면 안 됩니다.",
+      "rationale": "관계절이 길게 끼어든 뒤 본동사 wear. race에 끌려 wears 로 쓰는 수일치 오류 유도",
+      "sentence_no": 23,
+      "sentence": "People who participate in this race wear fun costumes and try to run faster than reindeer."
+    },
+    {
+      "tag_id": "75160e71-4311-4d75-81f2-13e35e8fc4b8",
+      "point": "REL_PRON_VS_ADV",
+      "span_start": 1781,
+      "span_end": 1809,
+      "correct": "who participate in this race",
+      "wrong": [
+        "which participate in this race",
+        "where participate in this race"
+      ],
+      "why_ko": "선행사가 사람 People이므로 주격 관계대명사 who를 씁니다.",
+      "rationale": "선행사 People(사람)에 맞는 주격 관계대명사 who. which/where 로 바꾼 선행사 불일치 선지 유도",
+      "sentence_no": 23,
+      "sentence": "People who participate in this race wear fun costumes and try to run faster than reindeer."
+    },
+    {
+      "tag_id": "771444dc-88a8-46b2-a53a-c5a12b7eae62",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 1832,
+      "span_end": 1863,
+      "correct": "try to run faster than reindeer",
+      "wrong": [
+        "try run faster than reindeer"
+      ],
+      "why_ko": "'~하려고 애쓰다'는 try to-V입니다. try -ing는 '시험 삼아 해보다'로 뜻이 달라집니다.",
+      "rationale": "try to-V(~하려고 애쓰다) vs try -ing(시험 삼아 해보다) 의미 구별. try running 선지와 대비",
+      "sentence_no": 23,
+      "sentence": "People who participate in this race wear fun costumes and try to run faster than reindeer.",
+      "verify_dropped": [
+        {
+          "wrong": "try running faster than reindeer",
+          "judgement": "ok",
+          "note_ko": "try+동명사도 정상 문장이며 의미만 달라진다."
+        }
+      ]
+    },
+    {
+      "tag_id": "e8a251af-d614-40d3-9f8e-299b6d6b1448",
+      "point": "VERB_SVA",
+      "span_start": 1925,
+      "span_end": 1952,
+      "correct": "Everyone is just having fun",
+      "wrong": [
+        "Everyone are just having fun",
+        "Everyone just have fun"
+      ],
+      "why_ko": "Everyone은 단수 취급이라 is를 씁니다.",
+      "rationale": "부정대명사 Everyone은 단수 취급 → is. are 로 바꾼 수일치 오류 유도",
+      "sentence_no": 26,
+      "sentence": "Everyone is just having fun!"
+    }
+  ],
+  "diagnostics": {
+    "returned": 30,
+    "kept": 30,
+    "given": 30,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "are burned",
+          "모든 오답이 실은 맞는 표현이라 버림: burn(ok), are burning(ok)"
+        ]
+      ],
+      "dropped_wrongs": 8
+    }
+  },
+  "verified": true
+}

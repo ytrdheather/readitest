@@ -1,0 +1,812 @@
+{
+  "passage_id": "5acea219-b6ea-4911-9419-c56ab4c91e72",
+  "body_text_sha256": "b62f14ce1f46ee3ef10fb5b354efbf442a52497044bf8badf873328a7affd9fd",
+  "tags": [
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 58,
+      "span_end": 64,
+      "surface": "to see",
+      "sentence_no": 4,
+      "rationale": "'여기 ~하러 왔니?'의 목적을 나타내는 부사적 용법 to부정사. seeing / for see 같은 형태 오류를 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 93,
+      "span_end": 143,
+      "surface": "I hear China, Italy, and the USA are participating",
+      "sentence_no": 6,
+      "rationale": "hear의 목적어절을 이끄는 접속사 that이 생략된 구조. that 삽입 가능 여부, what으로 바꿔치기하는 오답 유도가 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "CO_CONJ_SWAP"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 126,
+      "span_end": 143,
+      "surface": "are participating",
+      "sentence_no": 6,
+      "rationale": "주어가 China, Italy, and the USA 로 복수이므로 are. 가장 가까운 명사 the USA에 끌려 is participating으로 바꾸는 수일치 오류 유도가 전형적이다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 100,
+      "span_end": 125,
+      "surface": "China, Italy, and the USA",
+      "sentence_no": 6,
+      "rationale": "A, B, and C 형태의 명사 병렬. 마지막 항목 앞 and 위치·형태를 묻거나 병렬을 깨는 변형이 가능하다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 208,
+      "span_end": 227,
+      "surface": "the fireworks start",
+      "sentence_no": 9,
+      "rationale": "fireworks는 복수 명사이므로 동사원형 start. starts로 바꾸는 수일치 오류 유도 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 228,
+      "span_end": 237,
+      "surface": "at 7 p.m.",
+      "sentence_no": 9,
+      "rationale": "구체적 시각 앞에는 at. on/in 으로 바꾸는 전치사 빈칸 문제로 자주 출제된다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 263,
+      "span_end": 272,
+      "surface": "something",
+      "sentence_no": 11,
+      "rationale": "긍정 제안문에서 쓰는 부정대명사 something. anything과의 구별을 물을 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 282,
+      "span_end": 292,
+      "surface": "until then",
+      "sentence_no": 11,
+      "rationale": "동작의 '계속'이 7시까지 이어짐을 나타내는 until. 완료 시점의 by와 구별하는 전형적 전치사 문제.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 312,
+      "span_end": 344,
+      "surface": "ride bikes or go for a boat ride",
+      "sentence_no": 12,
+      "rationale": "조동사 can 뒤에 ride와 go가 or로 병렬 연결됨. goes / going 으로 바꾸어 병렬을 깨는 오류가 가장 흔하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 326,
+      "span_end": 344,
+      "surface": "go for a boat ride",
+      "sentence_no": 12,
+      "rationale": "'~하러 가다'의 go for 고정 결합. for 삭제나 to/on 교체 오류 유도가 가능하다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 346,
+      "span_end": 369,
+      "surface": "Which do you like more?",
+      "sentence_no": 13,
+      "rationale": "둘 중 선택을 묻는 비교급 more. most / much 로 바꾸는 오류 유도 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 373,
+      "span_end": 395,
+      "surface": "Going for a boat ride.",
+      "sentence_no": 14,
+      "rationale": "선택을 답하는 축약 응답으로 동명사구 사용. To go / Go 와의 구별을 물을 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 396,
+      "span_end": 421,
+      "surface": "I think it’ll be more fun",
+      "sentence_no": 15,
+      "rationale": "think의 목적어절에서 접속사 that이 생략된 구조. that/what 교체 오답 유도 가능.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 413,
+      "span_end": 421,
+      "surface": "more fun",
+      "sentence_no": 15,
+      "rationale": "fun의 비교급은 funner가 아니라 more fun. 비교급 형태 오류 유도 지점.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 인사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "감탄 반응",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답 인사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "도입질문 (상황 확인)",
+      "signal": "too",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "긍정 응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "세부정보 제공 (참가국)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "보충·정정 요구",
+      "signal": "Don’t forget",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "수용",
+      "signal": "Of course",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "세부정보 확인 (시작 시각)",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "확인 응답",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "전환 — 대화 핵심 제안",
+      "signal": "Let’s",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 12,
+      "role": "선택지 제시",
+      "signal": "or",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "선호 질문",
+      "signal": "Which",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "선호 응답",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "이유 제시",
+      "signal": "I think",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "결론문 (합의된 결정)",
+      "signal": "Then",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음은 위 대화의 일부이다. 밑줄 친 ①~⑤ 중 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "④ 조동사 can 뒤에서 ride와 or로 연결되는 동사는 원형이어야 하므로 goes가 아니라 go가 맞다(we can ride bikes or go for a boat ride). ①은 목적을 나타내는 부사적 용법 to부정사, ②는 복수 주어에 맞춘 are participating, ③은 긍정 제안문의 something과 '그때까지'의 until, ⑤는 fun의 비교급 more fun으로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        0,
+        2,
+        6,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Are you here to see the fireworks, too?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I hear China, Italy, and the USA are participating this year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Let’s do something together until then.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I guess we can ride bikes or goes for a boat ride.",
+          "is_answer": true,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I think it’ll be more fun.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "④"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 대화에 나온 문장을 옮긴 것이다. 어법상 옳지 않은 것은?",
+      "answer_key": "①",
+      "explanation": "① 목적어절의 주어가 China, Italy, and the USA 로 복수이므로 is가 아니라 are participating이어야 한다. 바로 앞의 the USA만 보고 단수로 착각하기 쉽다. ④의 fireworks도 복수형이라 start가 맞고, ②③⑤는 본문 그대로 올바른 문장이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0,
+        10,
+        4,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I hear China, Italy, and the USA is participating this year.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Are you here to see the fireworks, too?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Which do you like more?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So, the fireworks start at 7 p.m.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Then, let’s go for a boat ride.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "①"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n· Are you here (a)[see / to see] the fireworks, too?\n· I hear China, Italy, and the USA (b)[are / is] participating this year.\n· I guess we can ride bikes or (c)[go / going] for a boat ride.",
+      "answer_key": "①",
+      "explanation": "(a) '~하러'라는 목적의 부사적 용법이므로 to see. (b) 주어가 세 나라로 복수이므로 are. (c) can 뒤에서 ride와 병렬이므로 동사원형 go. ②는 수일치, ③은 to부정사 형태, ④는 병렬 구조가 각각 어긋난다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to see … (b) are … (c) go",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) to see … (b) is … (c) go",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) see … (b) are … (c) go",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to see … (b) are … (c) going",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?\nG: I hear China, Italy, and the USA are ①participating this year. / B: Don’t ②forget Korea. / G: So, the fireworks ③start at 7 p.m. Right? / B: Let’s do something ④together until then. / B: Going for a boat ride. I think it’ll be more ⑤boring.",
+      "answer_key": "⑤",
+      "explanation": "남학생은 보트 타기를 고른 뒤 그 이유를 말하고 있으므로 '더 지루할 것 같다(boring)'가 아니라 '더 재미있을 것 같다(fun)'가 되어야 문맥에 맞는다. 나머지 낱말은 모두 대화 흐름에 자연스럽다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        13,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "participating",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "forget",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "start",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "together",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "boring",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 Let’s do something together until then.에서 then이 가리키는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 'the fireworks start at 7 p.m.'이라고 확인했으므로 then은 불꽃놀이가 시작되는 오후 7시를 가리킨다. until then은 '그때까지'라는 뜻이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "불꽃놀이가 시작되는 오후 7시",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "두 사람이 처음 만난 시각",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "보트를 빌릴 수 있는 시간",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "한국 팀이 공연을 끝내는 시각",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "자전거 대여가 마감되는 시각",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
+      "answer_key": "①",
+      "explanation": "두 사람은 불꽃놀이가 시작되는 7시까지 남은 시간에 무엇을 할지(자전거 타기 vs 보트 타기) 정하고 있다. 우승국, 대여 방법, 한국의 불참, 안전 문제는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Deciding what to do before the fireworks begin",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Which country will win the fireworks contest",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "How to rent a bike at the river park",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Why Korea is not joining the festival",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "How dangerous boat rides can be",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the dialogue?",
+      "answer_key": "④",
+      "explanation": "Jihan(B)은 'Going for a boat ride.'라고 답하며 보트 타기가 더 재미있을 것 같다고 했으므로 ④는 대화 내용과 반대다. 나머지는 모두 대화에서 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        4,
+        2,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The fireworks will start at 7 p.m.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "China, Italy, and the USA are taking part this year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Korea is also taking part in the event.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Jihan likes riding bikes more than going for a boat ride.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They finally decide to go for a boat ride.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 마지막 빈칸에 들어갈 말로 가장 알맞은 것은?\nB: Going for a boat ride. I think it’ll be more fun.\nG: Then, let’s ______________.",
+      "answer_key": "①",
+      "explanation": "상대방이 보트 타기를 더 좋아한다고 밝혔으므로 그 제안을 받아들이는 '그럼 보트 타러 가자'가 결론으로 알맞다. 나머지는 앞 문장의 선택과 어긋난다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        11,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "go for a boat ride",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "ride bikes along the river",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "watch the fireworks right now",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "go home before 7 p.m.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "ask Korea to join the show",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음 우리말과 같도록 <조건>에 맞게 영작하시오.\n우리말: 우리는 자전거를 타거나 보트를 타러 갈 수 있을 것 같아.\n<조건> ① I guess로 시작할 것 ② can과 or를 사용할 것 ③ ride, go for a boat ride를 활용하고 병렬 구조를 지킬 것",
+      "answer_key": "I guess we can ride bikes or go for a boat ride.",
+      "explanation": "조동사 can 뒤에서 or로 연결되는 두 동사는 모두 원형이어야 하므로 ride ~ or go ~ 가 되어야 한다. goes나 going으로 쓰면 병렬이 깨진다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        9
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\nI hear China, Italy, and the USA is participating this year.",
+      "answer_key": "is participating → are participating",
+      "explanation": "목적어절의 주어가 China, Italy, and the USA 로 복수이므로 동사는 are participating이어야 한다. 바로 앞의 단수 명사 the USA에 끌려 is를 쓰지 않도록 주의한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n우리말: 그때까지 우리 함께 뭔가를 하자.\n[ then / something / let’s / until / together / do ]",
+      "answer_key": "Let’s do something together until then.",
+      "explanation": "'~하자'는 Let’s + 동사원형, 목적어로 긍정문에 쓰는 부정대명사 something, 그 뒤에 부사 together, 마지막에 '그때까지'를 뜻하는 until then을 쓴다. by then(그때까지는 완료)과 혼동하지 않도록 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 16,
+    "tags_returned": 14,
+    "tags_kept": 14,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "④"
+        ]
+      }
+    ]
+  }
+}
