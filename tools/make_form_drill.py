@@ -50,6 +50,8 @@ from tools.pdf_pages import save_pdf                                  # noqa: E4
 from tools.render_worksheet import logo_tag, DEFAULT_LOGO, FONT       # noqa: E402
 from tools import form_drill_l7                                       # noqa: E402
 from tools import form_drill_yd1_l7                                   # noqa: E402
+from tools import form_drill_cm1_l5                                   # noqa: E402
+from tools import form_drill_yi2_l7                                   # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -212,6 +214,18 @@ UNITS = {
         "sub": "to부정사 부사 역할(목적 · 원인 · 결과 · 형용사 수식) · 명사 / 형용사 / 부사 구별 · "
                "when 구별 · 시간의 부사절 — 영덕 학습지 범위",
         "sections": form_drill_yd1_l7.SECTIONS,
+    },
+    # 영일중2 7과 — 학습지 7~8쪽 call 5형식 수동태 · 5형식 동사 정리 (공용 중2L7 에 없는 것만) — tools/form_drill_yi2_l7.py (2026-11-12)
+    "영일중2L7": {
+        "title": "영일중2 7과 어법 보충드릴",
+        "sub": "call + 목적어 + 명사 수동태 (be called) · 5형식 동사 make · want · see/hear · call — 영일 학습지 범위",
+        "sections": form_drill_yi2_l7.SECTIONS,
+    },
+    # 청명중1 5과 — 비상 황종배. 학습지 6~11쪽 문법 — 문항은 tools/form_drill_cm1_l5.py (2026-11-12)
+    "청명중1L5": {
+        "title": "청명중1 5과 어법 보충드릴",
+        "sub": "동명사 역할 · 동명사 / to부정사 목적어 동사 · 감각동사 + 형용사 · -ly 형용사 · look 구별 — 청명 학습지 범위 (비상 황종배)",
+        "sections": form_drill_cm1_l5.SECTIONS,
     },
 }
 

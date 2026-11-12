@@ -1,0 +1,553 @@
+{
+ "unit": "영일중2L7",
+ "title": "영일중2 7과 어법 보충드릴",
+ "seed": 20260921,
+ "plan": {
+  "diag": [
+   {
+    "key": "choose",
+    "items": [
+     [
+      "Chicago ( calls / is called ) the Windy City.",
+      "is called"
+     ],
+     [
+      "We call the Earth ( a blue planet / to a blue planet ).",
+      "a blue planet"
+     ]
+    ]
+   },
+   {
+    "key": "voice",
+    "items": [
+     [
+      "The boy was called a genius by his teachers.",
+      "능동태로",
+      "His teachers called the boy a genius."
+     ],
+     [
+      "The baby will be called Lily by her parents.",
+      "능동태로",
+      "Her parents will call the baby Lily."
+     ]
+    ]
+   },
+   {
+    "key": "fix",
+    "items": [
+     [
+      "Chicago 【calls】 the Windy City.",
+      "is called"
+     ],
+     [
+      "Their daughter will 【called】 Lily.",
+      "be called"
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "items": [
+     [
+      "뉴욕은 사람들에 의해 \"The Big Apple\" 이라고 불린다.",
+      "수동태 · by people",
+      "New York is called \"The Big Apple\" by people."
+     ],
+     [
+      "그 축제는 Fur Rondy 라고 불린다.",
+      "수동태 · the festival",
+      "The festival is called Fur Rondy."
+     ]
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "choose",
+    "rounds": [
+     [
+      [
+       "Chicago ( calls / is called ) the Windy City.",
+       "is called"
+      ],
+      [
+       "Many people ( call / are called ) that actor a legend.",
+       "call"
+      ],
+      [
+       "The puppy was ( called / calling ) Max by the children.",
+       "called"
+      ],
+      [
+       "The baby will ( call / be called ) Lily.",
+       "be called"
+      ],
+      [
+       "I saw him ( dancing / to dance ) on the stage.",
+       "dancing"
+      ],
+      [
+       "They ( call / calls ) the new building \"Sky Tower\".",
+       "call"
+      ],
+      [
+       "He calls ( his dog Rex / Rex his dog ). (그는 자기 개를 Rex 라고 부른다)",
+       "his dog Rex"
+      ],
+      [
+       "I want you ( apologize / to apologize ) to me right now.",
+       "to apologize"
+      ],
+      [
+       "They heard people ( shouting / to shout ).",
+       "shouting"
+      ],
+      [
+       "This day ( calls / is called ) the Day of the Dead in Mexico.",
+       "is called"
+      ]
+     ],
+     [
+      [
+       "Seoul ( called / was called ) Hanyang in the past.",
+       "was called"
+      ],
+      [
+       "The boy was called ( a genius / as a genius ) by his teachers.",
+       "a genius"
+      ],
+      [
+       "The news made her ( sad / sadly ).",
+       "sad"
+      ],
+      [
+       "The beautiful song made everyone ( emotional / emotionally ).",
+       "emotional"
+      ],
+      [
+       "Vietnamese people call ( the hat non la / non la the hat ).",
+       "the hat non la"
+      ],
+      [
+       "My parents want me ( study / to study ) harder.",
+       "to study"
+      ],
+      [
+       "My cat ( calls / is called ) Kitty.",
+       "is called"
+      ],
+      [
+       "We call the Earth ( a blue planet / to a blue planet ).",
+       "a blue planet"
+      ],
+      [
+       "The great king ( called / is called ) Sejong by Koreans.",
+       "is called"
+      ],
+      [
+       "People ( call / are called ) Chicago the Windy City.",
+       "call"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "voice",
+    "rounds": [
+     [
+      [
+       "Many people call that actor a legend.",
+       "수동태로",
+       "That actor is called a legend by many people."
+      ],
+      [
+       "Fans call the singer the King of Pop.",
+       "수동태로",
+       "The singer is called the King of Pop by fans."
+      ],
+      [
+       "People call the festival Fur Rondy.",
+       "수동태로",
+       "The festival is called Fur Rondy (by people)."
+      ],
+      [
+       "The baby will be called Lily by her parents.",
+       "능동태로",
+       "Her parents will call the baby Lily."
+      ],
+      [
+       "People call New York \"The Big Apple\".",
+       "수동태로",
+       "New York is called \"The Big Apple\" (by people)."
+      ],
+      [
+       "The puppy was called Max by the children.",
+       "능동태로",
+       "The children called the puppy Max."
+      ],
+      [
+       "They called the statues fallas.",
+       "수동태로",
+       "The statues were called fallas (by them)."
+      ],
+      [
+       "She calls her cleaning robot Clean Master.",
+       "수동태로",
+       "Her cleaning robot is called Clean Master by her."
+      ],
+      [
+       "People in Mexico call the festival the Day of the Dead.",
+       "수동태로",
+       "The festival is called the Day of the Dead by people in Mexico."
+      ],
+      [
+       "People call the boy a genius.",
+       "수동태로",
+       "The boy is called a genius (by people)."
+      ],
+      [
+       "The dog is called Rex by him.",
+       "능동태로",
+       "He calls the dog Rex."
+      ],
+      [
+       "That actor is called a legend by many people.",
+       "능동태로",
+       "Many people call that actor a legend."
+      ],
+      [
+       "The robot was called Clean Master by her.",
+       "능동태로",
+       "She called the robot Clean Master."
+      ],
+      [
+       "Vietnamese people call the hat non la.",
+       "수동태로",
+       "The hat is called non la by Vietnamese people."
+      ],
+      [
+       "They will call their daughter Lily.",
+       "수동태로",
+       "Their daughter will be called Lily (by them)."
+      ]
+     ],
+     [
+      [
+       "The singer is called the King of Pop by fans.",
+       "능동태로",
+       "Fans call the singer the King of Pop."
+      ],
+      [
+       "I am called Bob by my friends.",
+       "능동태로",
+       "My friends call me Bob."
+      ],
+      [
+       "People call Chicago the Windy City.",
+       "수동태로",
+       "Chicago is called the Windy City (by people)."
+      ],
+      [
+       "People called Seoul Hanyang in the past.",
+       "수동태로",
+       "Seoul was called Hanyang (by people) in the past."
+      ],
+      [
+       "The children called the puppy Max.",
+       "수동태로",
+       "The puppy was called Max by the children."
+      ],
+      [
+       "The students called the teacher Mr. Smile.",
+       "수동태로",
+       "The teacher was called Mr. Smile by the students."
+      ],
+      [
+       "My friends call me Bob.",
+       "수동태로",
+       "I am called Bob by my friends."
+      ],
+      [
+       "His teammates call him Captain.",
+       "수동태로",
+       "He is called Captain by his teammates."
+      ],
+      [
+       "New York is called \"The Big Apple\" by people.",
+       "능동태로",
+       "People call New York \"The Big Apple\"."
+      ],
+      [
+       "The city was called Hanyang by people.",
+       "능동태로",
+       "People called the city Hanyang."
+      ],
+      [
+       "Tim calls his dog a family member.",
+       "수동태로",
+       "His dog is called a family member by Tim."
+      ],
+      [
+       "The boy was called a genius by his teachers.",
+       "능동태로",
+       "His teachers called the boy a genius."
+      ],
+      [
+       "I called my cat Kitty.",
+       "수동태로",
+       "My cat was called Kitty by me."
+      ],
+      [
+       "We will call the new robot Tobi.",
+       "수동태로",
+       "The new robot will be called Tobi (by us)."
+      ],
+      [
+       "We will call our team the Tigers.",
+       "수동태로",
+       "Our team will be called the Tigers (by us)."
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "fix",
+    "rounds": [
+     [
+      [
+       "The ceremony made us 【emotionally】.",
+       "emotional"
+      ],
+      [
+       "The new robot 【will be call】 Tobi.",
+       "will be called"
+      ],
+      [
+       "They heard people 【shouting】.",
+       "O"
+      ],
+      [
+       "I saw him 【to dance】 on the stage.",
+       "dancing"
+      ],
+      [
+       "He 【call】 his dog Rex.",
+       "calls"
+      ],
+      [
+       "New York 【is called to】 \"The Big Apple\".",
+       "is called"
+      ],
+      [
+       "The hat is called 【non la】 by Vietnamese people.",
+       "O"
+      ],
+      [
+       "Seoul 【was called】 Hanyang in the past.",
+       "O"
+      ],
+      [
+       "I want you 【apologize】 to me.",
+       "to apologize"
+      ],
+      [
+       "The hat 【is call】 non la.",
+       "is called"
+      ],
+      [
+       "My cat 【is calling】 Kitty by me.",
+       "is called"
+      ],
+      [
+       "They heard people 【to shout】.",
+       "shouting"
+      ],
+      [
+       "People 【call】 Chicago the Windy City.",
+       "O"
+      ],
+      [
+       "The news made him 【happily】.",
+       "happy"
+      ],
+      [
+       "I want you 【to apologize】 to me.",
+       "O"
+      ]
+     ],
+     [
+      [
+       "The boy 【called】 a genius by his teachers.",
+       "was called"
+      ],
+      [
+       "Their daughter 【will be called】 Lily.",
+       "O"
+      ],
+      [
+       "My mom wants me 【clean】 my room.",
+       "to clean"
+      ],
+      [
+       "The song made everyone 【emotional】.",
+       "O"
+      ],
+      [
+       "Chicago 【calls】 the Windy City.",
+       "is called"
+      ],
+      [
+       "Their daughter will 【called】 Lily.",
+       "be called"
+      ],
+      [
+       "My friends call 【me Bob】.",
+       "O"
+      ],
+      [
+       "She calls 【to her robot】 Clean Master.",
+       "her robot"
+      ],
+      [
+       "This day 【calls】 the Day of the Dead in Mexico.",
+       "is called"
+      ],
+      [
+       "Seoul 【is called】 Hanyang in the past.",
+       "was called"
+      ],
+      [
+       "People call 【him as】 a hero.",
+       "him a hero"
+      ],
+      [
+       "My friends call 【Bob me】.",
+       "me Bob"
+      ],
+      [
+       "The boy 【is called】 a genius.",
+       "O"
+      ],
+      [
+       "They 【are called】 their son Tom.",
+       "call"
+      ],
+      [
+       "He 【calls】 his dog Rex.",
+       "O"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "rounds": [
+     [
+      [
+       "그 소년은 선생님들에 의해 천재라고 불렸다.",
+       "수동태 · his teachers",
+       "The boy was called a genius by his teachers."
+      ],
+      [
+       "내 고양이는 Kitty 라고 불렸다.",
+       "수동태 · 과거",
+       "My cat was called Kitty."
+      ],
+      [
+       "사람들은 시카고를 Windy City 라고 부른다.",
+       "people, call, the Windy City",
+       "People call Chicago the Windy City."
+      ],
+      [
+       "멕시코 사람들은 이 날을 망자의 날이라고 부른다.",
+       "people in Mexico, the Day of the Dead",
+       "People in Mexico call this day the Day of the Dead."
+      ],
+      [
+       "그들은 사람들이 소리치는 것을 들었다.",
+       "hear, shout",
+       "They heard people shouting."
+      ],
+      [
+       "그 의식은 우리를 감동하게 만들었다.",
+       "the ceremony, make, emotional",
+       "The ceremony made us emotional."
+      ],
+      [
+       "그들의 딸은 Lily 라고 불릴 것이다.",
+       "수동태 · will",
+       "Their daughter will be called Lily."
+      ],
+      [
+       "많은 사람들은 그 배우를 전설이라고 부른다.",
+       "that actor, a legend",
+       "Many people call that actor a legend."
+      ],
+      [
+       "나는 네가 나에게 사과하기를 원한다.",
+       "want, apologize",
+       "I want you to apologize to me."
+      ],
+      [
+       "베트남 사람들은 그 모자를 non la 라고 부른다.",
+       "Vietnamese people, the hat",
+       "Vietnamese people call the hat non la."
+      ]
+     ],
+     [
+      [
+       "내 친구들은 나를 Bob 이라고 부른다.",
+       "call, Bob",
+       "My friends call me Bob."
+      ],
+      [
+       "나는 내 고양이를 Kitty 라고 불렀다.",
+       "call, my cat",
+       "I called my cat Kitty."
+      ],
+      [
+       "서울은 과거에 한양이라고 불렸다.",
+       "수동태 · in the past",
+       "Seoul was called Hanyang in the past."
+      ],
+      [
+       "그녀는 자신의 청소 로봇을 Clean Master 라고 부른다.",
+       "her cleaning robot",
+       "She calls her cleaning robot Clean Master."
+      ],
+      [
+       "그 축제는 Fur Rondy 라고 불린다.",
+       "수동태 · the festival",
+       "The festival is called Fur Rondy."
+      ],
+      [
+       "Tim 은 자신의 개를 가족의 일원이라고 부른다.",
+       "his dog, a family member",
+       "Tim calls his dog a family member."
+      ],
+      [
+       "그들은 딸을 Lily 라고 부를 것이다.",
+       "will, their daughter",
+       "They will call their daughter Lily."
+      ],
+      [
+       "우리는 새 로봇을 Tobi 라고 부를 것이다.",
+       "will, the new robot",
+       "We will call the new robot Tobi."
+      ],
+      [
+       "뉴욕은 사람들에 의해 \"The Big Apple\" 이라고 불린다.",
+       "수동태 · by people",
+       "New York is called \"The Big Apple\" by people."
+      ],
+      [
+       "그 소년은 천재라고 불린다.",
+       "수동태 · a genius",
+       "The boy is called a genius."
+      ]
+     ]
+    ]
+   }
+  ]
+ }
+}

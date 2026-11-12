@@ -78,9 +78,9 @@ EXTERNAL = {
     "Hulbert": ["영덕중"],          # DB 제목은 "Homer B. Hulbert" — 가운데 이니셜 때문에 성만 맞춘다
     "Two Different Jobs": ["영일중"],        # 중1 L7
     "Challenge Upcycle": ["영일중"],         # 중1 L6 (2026-10-25)
-    "Holmenkollen": ["태장중", "영덕중"],     # 중2 L7 (2026-11-12). 영덕 More Reading Advanced 가 같은 글 · 같은 문제
-    "Songkran": ["영덕중"],                  # 중2 L7 More Reading Easy (2026-11-12)
-    "Pingxi": ["영덕중"],                    # 중2 L7 More Reading Basic (2026-11-12)
+    "Holmenkollen": ["태장중", "영덕중", "영일중"],     # 중2 L7 (2026-11-12). 영덕 More Reading Advanced 가 같은 글 · 같은 문제
+    "Songkran": ["영덕중", "영일중"],                  # 중2 L7 More Reading Easy (2026-11-12) · 영일 학습지에도 같은 3편
+    "Pingxi": ["영덕중", "영일중"],                    # 중2 L7 More Reading Basic (2026-11-12)
     "Homer B. Hulbert (태장)": ["태장중"],    # 영덕 판과 두 문장이 다른 태장 전용 (2026-09-23)
 }
 

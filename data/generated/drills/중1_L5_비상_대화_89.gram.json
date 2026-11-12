@@ -10,22 +10,6 @@
   "tag_status": "pending",
   "items": [
     {
-      "tag_id": "f38de083-e502-4352-860c-dad77ff4107f",
-      "point": "VERB_TENSE",
-      "span_start": 5,
-      "span_end": 12,
-      "correct": "watched",
-      "wrong": [
-        "watch",
-        "am watching",
-        "have watched"
-      ],
-      "why_ko": "TV 프로그램을 본 것은 이미 끝난 과거의 일이므로 과거형 watched가 맞아요.",
-      "rationale": "TV 프로그램을 본 것은 이미 끝난 과거의 일이므로 과거시제 watched가 맞다. watch / am watching / have watched 등으로 바꿔 시제 판단을 묻는 자리.",
-      "sentence_no": 1,
-      "sentence": "W: I watched a TV program about James Sweeney."
-    },
-    {
       "tag_id": "63114aba-7344-4754-a5a9-afcc500101ba",
       "point": "VOICE_ACTIVE_PASSIVE",
       "span_start": 5,
@@ -37,22 +21,6 @@
       ],
       "why_ko": "내가 프로그램을 본 것이므로 목적어를 가진 능동태 watched a TV program이 맞아요.",
       "rationale": "목적어(a TV program)를 가진 능동태 문장이라 수동태 변형(A TV program was watched by me) 또는 was watching / was watched by 누락 형태로 오류를 심기 쉬운 자리.",
-      "sentence_no": 1,
-      "sentence": "W: I watched a TV program about James Sweeney."
-    },
-    {
-      "tag_id": "637fd4b1-281a-4819-b8d8-5e04d72e11a2",
-      "point": "PREP_USAGE",
-      "span_start": 26,
-      "span_end": 45,
-      "correct": "about James Sweeney",
-      "wrong": [
-        "for James Sweeney",
-        "of James Sweeney",
-        "with James Sweeney"
-      ],
-      "why_ko": "'~에 관한' 주제를 나타낼 때는 전치사 about을 써요.",
-      "rationale": "'~에 관한 프로그램'이라는 주제를 나타내는 전치사 about. for / of / with 등으로 바꿔 빈칸을 뚫기 가장 쉬운 자리.",
       "sentence_no": 1,
       "sentence": "W: I watched a TV program about James Sweeney."
     },
@@ -169,13 +137,19 @@
       "span_end": 322,
       "correct": "made",
       "wrong": [
-        "was made",
-        "was making"
+        "was made"
       ],
       "why_ko": "그가 로봇을 만든 것이고 뒤에 목적어가 있으므로 능동태 made가 맞아요.",
       "rationale": "목적어(the factory robot)를 갖는 능동태 과거동사. 'The factory robot was made (by him)'처럼 수동으로 뒤집으면서 by 누락(was made him)이나 형태 오류(was making)를 심기 가장 쉬운 자리",
       "sentence_no": 11,
-      "sentence": "He made the factory robot for the first time in Korea."
+      "sentence": "He made the factory robot for the first time in Korea.",
+      "verify_dropped": [
+        {
+          "wrong": "was making",
+          "judgement": "ok",
+          "note_ko": "과거진행형으로도 문장은 성립한다."
+        }
+      ]
     },
     {
       "tag_id": "60068cff-f7a7-40fd-b190-d81b698e6ec2",
@@ -243,6 +217,20 @@
     "returned": 15,
     "kept": 15,
     "given": 15,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "watched",
+          "모든 오답이 실은 맞는 표현이라 버림: watch(ok), am watching(ok), have watched(ok)"
+        ],
+        [
+          "about James Sweeney",
+          "모든 오답이 실은 맞는 표현이라 버림: for James Sweeney(ok), of James Sweeney(odd), with James Sweeney(ok)"
+        ]
+      ],
+      "dropped_wrongs": 1
+    }
+  },
+  "verified": true
 }

@@ -1,0 +1,305 @@
+{
+ "school": "영일중",
+ "grade": 2,
+ "lesson": 7,
+ "unit_title": "Let's Enjoy Festivals",
+ "source": "Z:/…/2026 2학기 학교 프린트 모음/기말/영일중2/ 의 L7 학습지 16쪽 중 1~2쪽 단어표 (가로 인쇄) · 11~12쪽 Reading No.1 · No.2 «A. Vocabulary»",
+ "source_note": "스캔 + 학생 손글씨. 1~2쪽 단어표는 번호 · 단어 · 한글 뜻 · 영영풀이 · 예문 5단 — 청명중2 New Words 19 와 낱말이 같다. 한글 뜻 · 예문 칸은 손글씨라 옮기지 않았고, 영영풀이도 군데군데 괄호 빈칸(학생이 채움)이라 청명 JSON 글자를 가져와 영일 인쇄와 다른 3개만 고쳤다 (altar · costume 은 which is / which are 가 들어 있고, take place 는 'to be ( held )'). 청명 풀이는 alt_def_en. 학생이 손으로 쓴 예문은 청명 인쇄 예문과 글자가 같아 그대로 둔다. extra_words 10개는 Reading No.1 · No.2 의 낱말 찾기 표 — 한글 뜻이 인쇄돼 있다. 원장 확인 대상.",
+ "read_at": "2026-11-12",
+ "read_by": "Claude (비전 판독, 인쇄 글자만)",
+ "why_best": "학교 지정 19낱말 전부에 학교 영영풀이가 있다 (청명과 같은 표, 풀이 3개만 다름). 본문 낱말 찾기 20칸은 한글 뜻 인쇄.",
+ "format": "번호 · 단어 · 한글 뜻(빈칸) · 영영풀이(일부 괄호 빈칸) · 예문(빈칸). Reading No.1 · No.2 는 우리말 뜻 → 영어 낱말 쓰기 10칸씩.",
+ "words": [
+  {
+   "no": 1,
+   "word": "altar",
+   "pos": "n",
+   "ko": "제단",
+   "ko_src": "자습서",
+   "def_en": "a type of table which is used in ceremonies",
+   "def_src": "학교",
+   "example_en": "The altar was beautifully decorated for the wedding.",
+   "example_ko": "결혼식을 위해 제단이 아름답게 장식되었다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)",
+   "alt_def_en": "a type of table used in ceremonies",
+   "alt_src": "청명중2 학습지"
+  },
+  {
+   "no": 2,
+   "word": "burn",
+   "pos": "v",
+   "ko": "태우다",
+   "ko_src": "자습서",
+   "def_en": "to destroy, damage, injure or kill somebody or something by fire",
+   "def_src": "학교",
+   "example_en": "Lisa burned her old letters.",
+   "example_ko": "Lisa는 그녀의 오래된 편지들을 태웠다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 3,
+   "word": "celebrate",
+   "pos": "v",
+   "ko": "축하하다, 기념하다",
+   "ko_src": "자습서",
+   "def_en": "to show that a day or an event is important by doing something special",
+   "def_src": "학교",
+   "example_en": "We will celebrate her birthday with a big party.",
+   "example_ko": "우리는 큰 파티로 그녀의 생일을 축하할 것이다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 4,
+   "word": "costume",
+   "pos": "n",
+   "ko": "의상, 복장",
+   "ko_src": "자습서",
+   "def_en": "the clothes which are worn by actors in a play or film, or worn by somebody to make them look like somebody or something else",
+   "def_src": "학교",
+   "example_en": "I will wear a prince costume for the Halloween party.",
+   "example_ko": "나는 할로윈 파티를 위해 왕자 복장을 입을 것이다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)",
+   "alt_def_en": "the clothes worn by actors in a play or film, or worn by somebody to make them look like somebody or something else",
+   "alt_src": "청명중2 학습지"
+  },
+  {
+   "no": 5,
+   "word": "decorate",
+   "pos": "v",
+   "ko": "장식하다, 꾸미다",
+   "ko_src": "자습서",
+   "def_en": "to make something look more attractive by putting things on it",
+   "def_src": "학교",
+   "example_en": "Mom decorated the living room with flowers.",
+   "example_ko": "엄마는 꽃으로 거실을 꾸몄다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 6,
+   "word": "fireworks",
+   "pos": "n",
+   "ko": "불꽃놀이",
+   "ko_src": "자습서",
+   "def_en": "the pattern of colorful explosions in the air planned as a show",
+   "def_src": "학교",
+   "example_en": "What time do the fireworks start?",
+   "example_ko": "불꽃놀이는 언제 시작하나요?",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 7,
+   "word": "giant",
+   "pos": "a",
+   "ko": "거대한",
+   "ko_src": "자습서",
+   "def_en": "very large",
+   "def_src": "학교",
+   "example_en": "The giant tree stands in the middle of the park.",
+   "example_ko": "거대한 나무가 공원 한가운데에 서 있다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 8,
+   "word": "matter",
+   "pos": "v",
+   "ko": "중요하다",
+   "ko_src": "자습서",
+   "def_en": "to be important",
+   "def_src": "학교",
+   "example_en": "The safety of the workers really matters to the company.",
+   "example_ko": "근로자의 안전이 회사에 정말 중요하다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 9,
+   "word": "parade",
+   "pos": "n",
+   "ko": "퍼레이드, 행진",
+   "ko_src": "자습서",
+   "def_en": "a line of people or vehicles moving together through a public place in order to celebrate an important day or event",
+   "def_src": "학교",
+   "example_en": "The children waved their hands when the parade went by their house.",
+   "example_ko": "아이들은 퍼레이드가 그들의 집을 지나갈 때 손을 흔들었다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 10,
+   "word": "participate",
+   "pos": "v",
+   "ko": "참가하다, 참여하다",
+   "ko_src": "자습서",
+   "def_en": "to take part in or become involved in an activity",
+   "def_src": "학교",
+   "example_en": "Did you decide to participate in the dance contest?",
+   "example_ko": "너는 댄스 대회에 참여하기로 결정했니?",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)",
+   "def_note": "영일 인쇄는 'to ( ) or become ( ) in an activity' — 빈칸 둘. 청명 풀이(take part in · involved)로 채웠다"
+  },
+  {
+   "no": 11,
+   "word": "pole",
+   "pos": "n",
+   "ko": "기둥, 막대기",
+   "ko_src": "자습서",
+   "def_en": "a long, thin stick of wood or metal that is often used to support something",
+   "def_src": "학교",
+   "example_en": "We used a pole to get the ball from the tree.",
+   "example_ko": "우리는 나무에서 공을 꺼내기 위해 막대기를 사용했다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 12,
+   "word": "possible",
+   "pos": "a",
+   "ko": "가능한",
+   "ko_src": "자습서",
+   "def_en": "able to be done or achieved",
+   "def_src": "학교",
+   "example_en": "There are some possible solutions to the problem.",
+   "example_ko": "그 문제에 대한 몇 가지 가능한 해결책이 있다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 13,
+   "word": "puzzle",
+   "pos": "n",
+   "ko": "퍼즐",
+   "ko_src": "예문 해석",
+   "def_en": "a game or problem that you have to think about carefully to solve",
+   "def_src": "학교",
+   "example_en": "I enjoy solving a puzzle in my free time.",
+   "example_ko": "나는 여가 시간에 퍼즐 푸는 것을 즐긴다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 14,
+   "word": "recipe",
+   "pos": "n",
+   "ko": "요리법, 조리법",
+   "ko_src": "자습서",
+   "def_en": "directions for cooking food",
+   "def_src": "학교",
+   "example_en": "She followed the recipe carefully to make the soup.",
+   "example_ko": "그녀는 수프를 만들기 위해 그 요리법을 신중하게 따랐다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 15,
+   "word": "reindeer",
+   "pos": "n",
+   "ko": "순록",
+   "ko_src": "자습서",
+   "def_en": "a type of deer that lives in the northern parts of Europe, Asia, and North America",
+   "def_src": "학교",
+   "example_en": "Santa's reindeer are famous for their names like Rudolph.",
+   "example_ko": "산타의 순록은 루돌프와 같은 이름으로 유명하다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 16,
+   "word": "skeleton",
+   "pos": "n",
+   "ko": "해골",
+   "ko_src": "자습서",
+   "def_en": "the structure of bones that support the body of a person or an animal",
+   "def_src": "학교",
+   "example_en": "I saw the skeleton of a dinosaur in the museum.",
+   "example_ko": "나는 박물관에서 공룡의 해골을 보았다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 17,
+   "word": "statue",
+   "pos": "n",
+   "ko": "조각상",
+   "ko_src": "자습서",
+   "def_en": "a large art object of a person or an animal that is made from a hard material like stone or metal",
+   "def_src": "학교",
+   "example_en": "Many people visit the city to see the famous statue.",
+   "example_ko": "많은 사람들이 유명한 조각상을 보기 위해 그 도시를 방문한다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 18,
+   "word": "symbolize",
+   "pos": "v",
+   "ko": "상징하다",
+   "ko_src": "자습서",
+   "def_en": "to represent something",
+   "def_src": "학교",
+   "example_en": "Red roses often symbolize love.",
+   "example_ko": "빨간 장미는 흔히 사랑을 상징한다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)"
+  },
+  {
+   "no": 19,
+   "word": "take place",
+   "pos": null,
+   "ko": "열리다, 개최되다",
+   "ko_src": "자습서",
+   "def_en": "to be held",
+   "def_src": "학교",
+   "example_en": "The concert will take place in a big stadium.",
+   "example_ko": "그 콘서트는 큰 경기장에서 열릴 것이다.",
+   "example_src": "청명 인쇄 예문과 같은 글 (영일 학습지는 예문 칸이 학생 손글씨)",
+   "alt_def_en": "to happen",
+   "alt_src": "청명중2 학습지"
+  }
+ ],
+ "extra_words": {
+  "_note": "19낱말 밖이지만 Reading No.1 · No.2 낱말 찾기 표에 나온 말. 한글 뜻은 인쇄 그대로.",
+  "items": [
+   {
+    "word": "all over the city",
+    "ko": "전 도시에 걸쳐",
+    "ko_src": "학교 (Reading No.1 인쇄)"
+   },
+   {
+    "word": "hardly",
+    "ko": "거의 ~ 않다",
+    "ko_src": "학교 (Reading No.1 인쇄)"
+   },
+   {
+    "word": "at this time of year",
+    "ko": "매해 이 시기에는",
+    "ko_src": "학교 (Reading No.1 인쇄)"
+   },
+   {
+    "word": "all night long",
+    "ko": "밤새",
+    "ko_src": "학교 (Reading No.1 인쇄)"
+   },
+   {
+    "word": "set up",
+    "ko": "차리다, 준비하다",
+    "ko_src": "학교 (Reading No.2 인쇄)"
+   },
+   {
+    "word": "cemetery",
+    "ko": "묘지",
+    "ko_src": "학교 (Reading No.2 인쇄)"
+   },
+   {
+    "word": "dress up",
+    "ko": "분장하다, 차려입다",
+    "ko_src": "학교 (Reading No.2 인쇄)"
+   },
+   {
+    "word": "at the end of",
+    "ko": "~의 끝에",
+    "ko_src": "학교 (Reading No.2 인쇄)"
+   },
+   {
+    "word": "various",
+    "ko": "여러 가지의, 다양한",
+    "ko_src": "학교 (Reading No.2 인쇄)"
+   },
+   {
+    "word": "have fun",
+    "ko": "즐기다",
+    "ko_src": "학교 (Reading No.2 인쇄)"
+   }
+  ]
+ },
+ "distribution_scope": "internal_only"
+}

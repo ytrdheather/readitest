@@ -124,14 +124,24 @@
       "span_end": 187,
       "correct": "into",
       "wrong": [
-        "onto",
-        "in to",
-        "at"
+        "in to"
       ],
       "why_ko": "'~에 푹 빠져 있다'는 be into ~로, into를 한 단어로 써야 합니다.",
       "rationale": "be into ~ (~에 푹 빠져 있다)의 전치사 into. onto / in to / at 등으로 바꾸거나 빈칸으로 뚫어 묻기 쉬운 자리.",
       "sentence_no": 6,
-      "sentence": "W: I’m into sports."
+      "sentence": "W: I’m into sports.",
+      "verify_dropped": [
+        {
+          "wrong": "onto",
+          "judgement": "odd",
+          "note_ko": "be onto는 '눈치채다' 뜻이라 여기서 의미가 통하지 않음."
+        },
+        {
+          "wrong": "at",
+          "judgement": "odd",
+          "note_ko": "I'm at sports는 '좋아한다'는 의미가 되지 않아 어색."
+        }
+      ]
     },
     {
       "tag_id": "0d38804a-dad6-476a-a329-2ddceb780677",
@@ -140,13 +150,19 @@
       "span_end": 209,
       "correct": "about you",
       "wrong": [
-        "about your",
-        "about yours"
+        "about your"
       ],
       "why_ko": "전치사 about 뒤에는 목적격 you가 와야 하고, 소유격 your는 올 수 없습니다.",
       "rationale": "전치사 about 뒤에는 목적격 you가 와야 한다. How about your? / How about yours? 처럼 소유격·소유대명사로 바꾼 오답 선지를 만들 수 있다.",
       "sentence_no": 7,
-      "sentence": "How about you?"
+      "sentence": "How about you?",
+      "verify_dropped": [
+        {
+          "wrong": "about yours",
+          "judgement": "ok",
+          "note_ko": "소유대명사로 문법적으로 성립하며 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "d49ca32e-a7ee-4412-87cd-4d9ffddbf078",
@@ -185,14 +201,20 @@
       "span_end": 301,
       "correct": "are you reading",
       "wrong": [
-        "do you read",
         "are you read",
         "do you reading"
       ],
       "why_ko": "지금 하고 있는 일을 묻는 현재진행형 의문문이므로 'be동사+주어+-ing' 형태여야 합니다.",
       "rationale": "현재 진행 중인 동작을 묻는 현재진행형 의문문(be동사+주어+-ing). 'do you read' / 'are you read' / 'do you reading' 같은 형태 오류를 유도할 수 있다.",
       "sentence_no": 10,
-      "sentence": "M: Nancy, what are you reading?"
+      "sentence": "M: Nancy, what are you reading?",
+      "verify_dropped": [
+        {
+          "wrong": "do you read",
+          "judgement": "ok",
+          "note_ko": "현재시제 의문문으로 문법적으로 성립, 뜻만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "2246f5a3-b4e3-4c61-a3de-da8568954cf2",
@@ -201,28 +223,19 @@
       "span_end": 317,
       "correct": "I’m reading",
       "wrong": [
-        "I read",
         "I am read"
       ],
       "why_ko": "진행형 질문에 맞춰 be동사+-ing로 답해야 하고, am read는 틀린 형태입니다.",
       "rationale": "질문(현재진행)에 호응하는 현재진행 대답. 'I read' / 'I am read' 로 바꾼 오답 선지를 만들기 쉬운 자리.",
       "sentence_no": 11,
-      "sentence": "W: I’m reading a book about computer programming."
-    },
-    {
-      "tag_id": "990a4028-511a-45d6-a832-529a95ba4479",
-      "point": "PREP_USAGE",
-      "span_start": 325,
-      "span_end": 351,
-      "correct": "about computer programming",
-      "wrong": [
-        "for computer programming",
-        "with computer programming"
-      ],
-      "why_ko": "'~에 관한 책'은 a book about ~으로 써야 합니다.",
-      "rationale": "'~에 관한 책'의 a book about ~. 전치사를 빈칸으로 뚫어 for/of/with 와 고르게 하는 전형적 출제 지점.",
-      "sentence_no": 11,
-      "sentence": "W: I’m reading a book about computer programming."
+      "sentence": "W: I’m reading a book about computer programming.",
+      "verify_dropped": [
+        {
+          "wrong": "I read",
+          "judgement": "ok",
+          "note_ko": "현재시제로 문법적으로 성립, 의미만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "2ea054d8-0f7a-440a-8075-f0bde0a41993",
@@ -231,14 +244,24 @@
       "span_end": 384,
       "correct": "into programming",
       "wrong": [
-        "in programming",
-        "into program",
-        "on programming"
+        "into program"
       ],
       "why_ko": "be into ~는 고정 표현이고, 전치사 뒤에는 동명사 programming이 와야 합니다.",
       "rationale": "be into ~ (~에 푹 빠져 있다)의 고정 전치사. into 대신 in/on/for 를 넣은 오답, 또는 뒤에 동명사가 아닌 to부정사를 쓰는 오류를 유도할 수 있다.",
       "sentence_no": 12,
-      "sentence": "M: Oh, are you into programming?"
+      "sentence": "M: Oh, are you into programming?",
+      "verify_dropped": [
+        {
+          "wrong": "in programming",
+          "judgement": "ok",
+          "note_ko": "be in programming도 성립하는 표현(분야 종사 등)."
+        },
+        {
+          "wrong": "on programming",
+          "judgement": "odd",
+          "note_ko": "be on programming은 뜻이 통하지 않아 어색."
+        }
+      ]
     },
     {
       "tag_id": "7d56116d-b83d-426c-b131-7ad2388295b4",
@@ -261,6 +284,16 @@
     "returned": 16,
     "kept": 16,
     "given": 16,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "about computer programming",
+          "모든 오답이 실은 맞는 표현이라 버림: for computer programming(ok), with computer programming(odd)"
+        ]
+      ],
+      "dropped_wrongs": 7
+    }
+  },
+  "verified": true
 }

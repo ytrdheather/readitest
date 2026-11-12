@@ -1,0 +1,867 @@
+{
+ "unit": "청명중1L5",
+ "title": "청명중1 5과 어법 보충드릴",
+ "seed": 20260921,
+ "plan": {
+  "diag": [
+   {
+    "key": "role",
+    "items": [
+     [
+      "He left without 【saying】 goodbye.",
+      "전치사의 목적어"
+     ],
+     [
+      "【Swimming】 in the sea is dangerous.",
+      "주어 (~하는 것은)"
+     ]
+    ]
+   },
+   {
+    "key": "verb",
+    "items": [
+     [
+      "It began ___ cats and dogs. (rain)",
+      "raining / to rain"
+     ],
+     [
+      "She finished ___ her homework. (do)",
+      "doing"
+     ]
+    ]
+   },
+   {
+    "key": "gfix",
+    "items": [
+     [
+      "Playing games 【are】 fun.",
+      "is"
+     ],
+     [
+      "It began 【raining】.",
+      "O"
+     ]
+    ]
+   },
+   {
+    "key": "sense",
+    "items": [
+     [
+      "The moon looks 【brightly】 tonight.",
+      "bright"
+     ],
+     [
+      "These shoes look 【new】.",
+      "O"
+     ]
+    ]
+   },
+   {
+    "key": "ly",
+    "items": [
+     [
+      "I'm 【really】 interested in robots.",
+      "부사 (형용사 + -ly)"
+     ],
+     [
+      "He felt 【lonely】 at the new school.",
+      "형용사 (명사 + -ly)"
+     ]
+    ]
+   },
+   {
+    "key": "look",
+    "items": [
+     [
+      "Please 【look】 closely.",
+      "일반동사 (보다)"
+     ],
+     [
+      "【Look】 at the crowd on the playground.",
+      "일반동사 (보다)"
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "items": [
+     [
+      "그 꽃은 좋은 냄새가 난다.",
+      "the flower, smell, good",
+      "The flower smells good."
+     ],
+     [
+      "나는 만화를 잘 그린다.",
+      "be good at, draw, cartoons",
+      "I'm good at drawing cartoons."
+     ]
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "key": "role",
+    "rounds": [
+     [
+      [
+       "【Reading】 books makes me happy.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "【Watching】 movies is fun.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "She kept 【talking】 about her trip.",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "He gave up 【eating】 fast food.",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "His plan is 【making】 a new game.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "How about 【going】 to the bookstore?",
+       "전치사의 목적어"
+      ],
+      [
+       "My hobby is 【taking】 pictures.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "I avoided 【answering】 the question.",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "【Riding】 a bike is exciting.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "Her favorite activity is 【dancing】.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "He left without 【saying】 goodbye.",
+       "전치사의 목적어"
+      ],
+      [
+       "The best part is 【playing】 with my friends.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "Maria finished 【cleaning】 her room.",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "She is interested in 【making】 robots.",
+       "전치사의 목적어"
+      ],
+      [
+       "【Playing】 the piano is not easy.",
+       "주어 (~하는 것은)"
+      ]
+     ],
+     [
+      [
+       "【Learning】 English is important.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "I'm not good at 【playing】 games.",
+       "전치사의 목적어"
+      ],
+      [
+       "My dream is 【traveling】 around the world.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "James enjoys 【operating】 machines.",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "Her job is 【teaching】 children.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "John's hobby is 【listening】 to music.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "【Making】 a game was hard, but we did it together.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "My goal is 【speaking】 English well.",
+       "보어 (~하는 것이다)"
+      ],
+      [
+       "Do you mind 【opening】 the window?",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "I'm good at 【drawing】 cartoons.",
+       "전치사의 목적어"
+      ],
+      [
+       "【Drawing】 cartoons is my hobby.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "Thank you for 【helping】 me.",
+       "전치사의 목적어"
+      ],
+      [
+       "【Swimming】 in the sea is dangerous.",
+       "주어 (~하는 것은)"
+      ],
+      [
+       "Most people enjoy 【playing】 games.",
+       "동사의 목적어 (~하는 것을)"
+      ],
+      [
+       "I enjoyed 【playing】 the game.",
+       "동사의 목적어 (~하는 것을)"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "verb",
+    "rounds": [
+     [
+      [
+       "I practice ___ English every day. (speak)",
+       "speaking"
+      ],
+      [
+       "I like ___ VR games. (play)",
+       "playing / to play"
+      ],
+      [
+       "Jay doesn't enjoy ___ novels. (read)",
+       "reading"
+      ],
+      [
+       "James wants ___ an engineer in the future. (be)",
+       "to be"
+      ],
+      [
+       "I expect ___ a lot of reviews. (get)",
+       "to get"
+      ],
+      [
+       "She started ___ a story. (write)",
+       "writing / to write"
+      ],
+      [
+       "They promised ___ me. (help)",
+       "to help"
+      ],
+      [
+       "We continued ___ the game. (play)",
+       "playing / to play"
+      ],
+      [
+       "I quit ___ fast food. (eat)",
+       "eating"
+      ],
+      [
+       "She denied ___ the cookies. (eat)",
+       "eating"
+      ],
+      [
+       "He avoided ___ the question. (answer)",
+       "answering"
+      ],
+      [
+       "I want ___ a game maker. (be)",
+       "to be"
+      ],
+      [
+       "I enjoy ___ soccer. (play)",
+       "playing"
+      ],
+      [
+       "It began ___ cats and dogs. (rain)",
+       "raining / to rain"
+      ],
+      [
+       "We need ___ one more stage. (add)",
+       "to add"
+      ]
+     ],
+     [
+      [
+       "He gave up ___ the piano. (learn)",
+       "learning"
+      ],
+      [
+       "Minwoo began ___ the game. (code)",
+       "coding / to code"
+      ],
+      [
+       "They kept ___ for an hour. (talk)",
+       "talking"
+      ],
+      [
+       "She hopes ___ her friends soon. (see)",
+       "to see"
+      ],
+      [
+       "She practiced ___ the guitar after school. (play)",
+       "playing"
+      ],
+      [
+       "Sumin enjoyed ___ the game. (play)",
+       "playing"
+      ],
+      [
+       "He hates ___ early. (get up)",
+       "getting up / to get up"
+      ],
+      [
+       "She refused ___ the answer. (tell)",
+       "to tell"
+      ],
+      [
+       "She finished ___ her homework. (do)",
+       "doing"
+      ],
+      [
+       "He wishes ___ a famous musician. (become)",
+       "to become"
+      ],
+      [
+       "He plans ___ to Jeju next month. (go)",
+       "to go"
+      ],
+      [
+       "They love ___ in the park. (walk)",
+       "walking / to walk"
+      ],
+      [
+       "Do you mind ___ the door? (close)",
+       "closing"
+      ],
+      [
+       "I like ___ books about robots. (read)",
+       "reading / to read"
+      ],
+      [
+       "We decided ___ a game together. (make)",
+       "to make"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "gfix",
+    "rounds": [
+     [
+      [
+       "My hobby is 【take】 pictures.",
+       "taking"
+      ],
+      [
+       "Playing games 【are】 fun.",
+       "is"
+      ],
+      [
+       "【Making】 a game was hard.",
+       "O"
+      ],
+      [
+       "She is interested in 【make】 robots.",
+       "making"
+      ],
+      [
+       "Do you mind 【open】 the window?",
+       "opening"
+      ],
+      [
+       "They hope 【winning】 the game.",
+       "to win"
+      ],
+      [
+       "【Read】 books is my hobby.",
+       "Reading"
+      ],
+      [
+       "She finished 【clean】 her room.",
+       "cleaning"
+      ],
+      [
+       "She likes 【to read】 comic books.",
+       "O"
+      ],
+      [
+       "My goal is 【to speak】 English well.",
+       "O"
+      ]
+     ],
+     [
+      [
+       "【Make】 a game was hard.",
+       "Making"
+      ],
+      [
+       "I'm good at 【draw】 cartoons.",
+       "drawing"
+      ],
+      [
+       "I want 【being】 a game maker.",
+       "to be"
+      ],
+      [
+       "We decided 【making】 a game.",
+       "to make"
+      ],
+      [
+       "Riding a bike 【is】 exciting.",
+       "O"
+      ],
+      [
+       "It began 【raining】.",
+       "O"
+      ],
+      [
+       "He avoided 【to answer】 the question.",
+       "answering"
+      ],
+      [
+       "He gave up 【to eat】 fast food.",
+       "eating"
+      ],
+      [
+       "I enjoyed 【to play】 the game.",
+       "playing"
+      ],
+      [
+       "Thank you for 【helping】 me.",
+       "O"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "sense",
+    "rounds": [
+     [
+      [
+       "This doll feels 【soft】.",
+       "O"
+      ],
+      [
+       "This chocolate 【tastes smoothly】.",
+       "tastes smooth"
+      ],
+      [
+       "It feels 【a dream】.",
+       "like a dream"
+      ],
+      [
+       "The cloud looks 【a rabbit】.",
+       "like a rabbit"
+      ],
+      [
+       "The story sounds 【strangely】.",
+       "strange"
+      ],
+      [
+       "My new teacher looks warm and 【friend】.",
+       "friendly"
+      ],
+      [
+       "The cookies 【taste】 sweet.",
+       "O"
+      ],
+      [
+       "These shoes look 【new】.",
+       "O"
+      ],
+      [
+       "You look 【like tired】.",
+       "tired"
+      ],
+      [
+       "This sweater feels 【softly】.",
+       "soft"
+      ],
+      [
+       "This stone feels 【hard】.",
+       "O"
+      ],
+      [
+       "That roller coaster looks 【dangerously】.",
+       "dangerous"
+      ],
+      [
+       "Your puppy looks 【cutely】.",
+       "cute"
+      ],
+      [
+       "The song sounds 【a lullaby】.",
+       "like a lullaby"
+      ],
+      [
+       "He 【looks like】 a doctor.",
+       "O"
+      ]
+     ],
+     [
+      [
+       "The cake tastes 【sweetly】.",
+       "sweet"
+      ],
+      [
+       "The man looks 【friendly】.",
+       "O"
+      ],
+      [
+       "She looks 【lovely】 in that dress.",
+       "O"
+      ],
+      [
+       "The flower smells 【well】.",
+       "good"
+      ],
+      [
+       "You look 【happily】.",
+       "happy"
+      ],
+      [
+       "Now our game 【looked greatly】.",
+       "looked great"
+      ],
+      [
+       "The music 【sounds loudly】.",
+       "sounds loud"
+      ],
+      [
+       "The lemon tastes 【sourly】.",
+       "sour"
+      ],
+      [
+       "Our game looked and sounded 【well】.",
+       "good"
+      ],
+      [
+       "The soup smells 【badly】.",
+       "bad"
+      ],
+      [
+       "The weather 【feels】 warm.",
+       "O"
+      ],
+      [
+       "Every character looked 【really】.",
+       "real"
+      ],
+      [
+       "That 【sounds like】 a good idea.",
+       "O"
+      ],
+      [
+       "It smelled 【terrible】.",
+       "O"
+      ],
+      [
+       "The moon looks 【brightly】 tonight.",
+       "bright"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "ly",
+    "rounds": [
+     [
+      [
+       "The boy looked at me 【sadly】.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "He ran 【quickly】 to the bus stop.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "It was a 【costly】 mistake.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "She sang 【softly】.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "The bag was very 【costly】.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "She smiled 【happily】.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "They worked 【quietly】.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "Thank you for your 【timely】 help.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "He felt 【lonely】 at the new school.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "My neighbors are very 【friendly】.",
+       "형용사 (명사 + -ly)"
+      ]
+     ],
+     [
+      [
+       "We 【finally】 published the game.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "What a 【lovely】 day!",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "The turtle walked 【slowly】.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "The old man lives a 【lonely】 life.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "Lisa is a 【friendly】 girl.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "I'm 【really】 interested in robots.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "He solved the problem 【easily】.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "Don't talk 【loudly】 in the library.",
+       "부사 (형용사 + -ly)"
+      ],
+      [
+       "She has a 【lovely】 smile.",
+       "형용사 (명사 + -ly)"
+      ],
+      [
+       "The cat looks 【lovely】.",
+       "형용사 (명사 + -ly)"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "look",
+    "rounds": [
+     [
+      [
+       "Stella 【looks】 different from others.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "Now our game 【looked】 great.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "He 【looked】 out the window.",
+       "일반동사 (보다)"
+      ],
+      [
+       "You should 【look】 over there now.",
+       "일반동사 (보다)"
+      ],
+      [
+       "【Look】. People are playing a new game over there.",
+       "일반동사 (보다)"
+      ],
+      [
+       "Every character 【looked】 real.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "【Look】 at that.",
+       "일반동사 (보다)"
+      ],
+      [
+       "I 【looked】 around the city with my family.",
+       "일반동사 (보다)"
+      ],
+      [
+       "The sky 【looks】 dark.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "My new teacher 【looks】 warm and friendly.",
+       "감각동사 (~하게 보이다)"
+      ]
+     ],
+     [
+      [
+       "The game maker's section 【looks】 interesting.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "Please 【look】 closely.",
+       "일반동사 (보다)"
+      ],
+      [
+       "We 【looked】 for my lost cat.",
+       "일반동사 (보다)"
+      ],
+      [
+       "The children 【looked】 happy at that time.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "You 【look】 tired today.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "【Look】 at the crowd on the playground.",
+       "일반동사 (보다)"
+      ],
+      [
+       "That roller coaster 【looks】 dangerous.",
+       "감각동사 (~하게 보이다)"
+      ],
+      [
+       "She 【looked】 at the stars.",
+       "일반동사 (보다)"
+      ],
+      [
+       "They 【looked】 at the map.",
+       "일반동사 (보다)"
+      ],
+      [
+       "These shoes 【look】 new.",
+       "감각동사 (~하게 보이다)"
+      ]
+     ]
+    ]
+   },
+   {
+    "key": "build",
+    "rounds": [
+     [
+      [
+       "내 취미는 사진을 찍는 것이다.",
+       "hobby, take, pictures",
+       "My hobby is taking pictures."
+      ],
+      [
+       "이 과일은 달콤한 맛이 난다.",
+       "this fruit, taste, sweet",
+       "This fruit tastes sweet."
+      ],
+      [
+       "비가 오기 시작했다. (동명사로)",
+       "begin, rain",
+       "It began raining."
+      ],
+      [
+       "그녀는 방 청소하는 것을 끝냈다.",
+       "finish, clean, her room",
+       "She finished cleaning her room."
+      ],
+      [
+       "그것은 꿈처럼 느껴진다.",
+       "it, feel, a dream",
+       "It feels like a dream."
+      ],
+      [
+       "영어를 배우는 것은 중요하다.",
+       "learn, English, important",
+       "Learning English is important."
+      ],
+      [
+       "모든 캐릭터는 진짜처럼 보였다.",
+       "every, character, look, real",
+       "Every character looked real."
+      ],
+      [
+       "그 노래는 자장가처럼 들린다.",
+       "the song, sound, a lullaby",
+       "The song sounds like a lullaby."
+      ],
+      [
+       "그 꽃은 좋은 냄새가 난다.",
+       "the flower, smell, good",
+       "The flower smells good."
+      ],
+      [
+       "나는 미래에 게임 제작자가 되고 싶다.",
+       "want, be, a game maker, in the future",
+       "I want to be a game maker in the future."
+      ]
+     ],
+     [
+      [
+       "나의 새 선생님은 따뜻하고 친절해 보이신다.",
+       "my new teacher, look, warm, friendly",
+       "My new teacher looks warm and friendly."
+      ],
+      [
+       "날씨가 따뜻하게 느껴진다.",
+       "the weather, feel, warm",
+       "The weather feels warm."
+      ],
+      [
+       "자전거를 타는 것은 신난다.",
+       "ride, a bike, exciting",
+       "Riding a bike is exciting."
+      ],
+      [
+       "그 드레스는 아름다워 보인다.",
+       "the dress, look, beautiful",
+       "The dress looks beautiful."
+      ],
+      [
+       "게임을 만드는 것은 힘들었다.",
+       "make, a game, hard",
+       "Making a game was hard."
+      ],
+      [
+       "우리 게임은 좋게 보였고 좋게 들렸다.",
+       "our game, look, sound, good",
+       "Our game looked and sounded good."
+      ],
+      [
+       "수진은 로봇을 만드는 것에 관심이 있다.",
+       "Sujin, be interested in, make",
+       "Sujin is interested in making robots."
+      ],
+      [
+       "나는 만화를 잘 그린다.",
+       "be good at, draw, cartoons",
+       "I'm good at drawing cartoons."
+      ],
+      [
+       "그 이야기는 이상하게 들린다.",
+       "the story, sound, strange",
+       "The story sounds strange."
+      ],
+      [
+       "나는 그 게임을 하는 것을 즐겼다.",
+       "enjoy, play, the game",
+       "I enjoyed playing the game."
+      ]
+     ]
+    ]
+   }
+  ]
+ }
+}

@@ -62,13 +62,19 @@
       "span_end": 125,
       "correct": "over there",
       "wrong": [
-        "on there",
-        "in there"
+        "on there"
       ],
       "why_ko": "'저쪽에'라는 뜻은 over there로 굳어진 표현입니다.",
       "rationale": "장소를 가리키는 부사구 over there. over 자리를 빈칸으로 뚫거나 on/in there 로 바꾼 오답을 만들 수 있다.",
       "sentence_no": 3,
-      "sentence": "M: Oh, there is a dancer’s section over there."
+      "sentence": "M: Oh, there is a dancer’s section over there.",
+      "verify_dropped": [
+        {
+          "wrong": "in there",
+          "judgement": "ok",
+          "note_ko": "'그 안에'라는 뜻으로 문장은 성립한다."
+        }
+      ]
     },
     {
       "tag_id": "33f43113-7752-4d7b-bc0a-7c9b1a671cee",
@@ -77,29 +83,24 @@
       "span_end": 137,
       "correct": "Look at",
       "wrong": [
-        "Look",
-        "Look to",
-        "Look for"
+        "Look"
       ],
       "why_ko": "'~을 보다'는 look at이며, 전치사를 빼거나 to/for로 바꾸면 뜻이 달라지거나 틀립니다.",
       "rationale": "'~을 보다'는 look at 으로 전치사 at 이 고정된다. 전치사를 빼고 'Look that' 으로 쓰거나 'Look to / Look for that' 처럼 전치사를 바꾸는 오류를 유도할 수 있다.",
       "sentence_no": 4,
-      "sentence": "W: Look at that."
-    },
-    {
-      "tag_id": "4de6f8ac-5e00-424c-af3f-a54cc5ee2d03",
-      "point": "THAT_USAGE",
-      "span_start": 138,
-      "span_end": 142,
-      "correct": "that",
-      "wrong": [
-        "that one section",
-        "those"
-      ],
-      "why_ko": "여기 that은 '저것'을 가리키는 지시대명사로 단독으로 쓰입니다.",
-      "rationale": "여기서 that 은 멀리 있는 대상을 가리키는 지시대명사(전치사 at 의 목적어). 6번 문장의 'that section'(지시형용사)과 쓰임을 구별시키는 '쓰임이 다른 것 고르기' 문항의 축이 된다.",
-      "sentence_no": 4,
-      "sentence": "W: Look at that."
+      "sentence": "W: Look at that.",
+      "verify_dropped": [
+        {
+          "wrong": "Look to",
+          "judgement": "odd",
+          "note_ko": "look to는 '의지하다/신경쓰다' 뜻이라 이 맥락에서 매우 어색."
+        },
+        {
+          "wrong": "Look for",
+          "judgement": "ok",
+          "note_ko": "'그것을 찾아봐'라는 뜻으로 문장 자체는 맞다."
+        }
+      ]
     },
     {
       "tag_id": "f32edfc5-8b43-42e2-8440-064c6caa6b69",
@@ -153,14 +154,24 @@
       "span_end": 205,
       "correct": "does",
       "wrong": [
-        "do",
-        "did",
-        "is"
+        "do"
       ],
       "why_ko": "앞의 일반동사 looks를 대신하는 대동사이고 주어가 3인칭 단수 현재라 does입니다.",
       "rationale": "앞 문장의 'looks interesting'을 대신하는 대동사. 주어 It(3인칭 단수·현재)에 맞춰 does 가 되어야 하며 do / did / is 로 바꾸는 오류를 유도할 수 있다.",
       "sentence_no": 6,
-      "sentence": "M: It really does."
+      "sentence": "M: It really does.",
+      "verify_dropped": [
+        {
+          "wrong": "did",
+          "judgement": "ok",
+          "note_ko": "과거형으로 문장 자체는 성립(시제 의미만 달라짐)."
+        },
+        {
+          "wrong": "is",
+          "judgement": "ok",
+          "note_ko": "It really is.도 어법상 맞는 응답이다."
+        }
+      ]
     },
     {
       "tag_id": "1a2dcc1a-8f96-4ec4-b522-a84266e1ac03",
@@ -238,21 +249,6 @@
       "sentence": "M: Yeah, it’s over there in the corner."
     },
     {
-      "tag_id": "bb5615ff-c969-4f8f-99ae-ee2c28b2d3df",
-      "point": "PREP_USAGE",
-      "span_start": 360,
-      "span_end": 373,
-      "correct": "in the corner",
-      "wrong": [
-        "at the corner",
-        "on the corner"
-      ],
-      "why_ko": "실내의 '구석에'는 in the corner를 씁니다.",
-      "rationale": "'구석에'는 in the corner. at/on the corner로 바꾸는 전치사 선택 오류를 유도할 수 있는 자리",
-      "sentence_no": 11,
-      "sentence": "M: Yeah, it’s over there in the corner."
-    },
-    {
       "tag_id": "73930a65-4fe5-45f1-9b11-7d9791c67970",
       "point": "VOICE_ACTIVE_PASSIVE",
       "span_start": 375,
@@ -317,6 +313,20 @@
     "returned": 20,
     "kept": 20,
     "given": 20,
-    "rejects": []
-  }
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "that",
+          "모든 오답이 실은 맞는 표현이라 버림: that one section(ok), those(ok)"
+        ],
+        [
+          "in the corner",
+          "모든 오답이 실은 맞는 표현이라 버림: at the corner(ok), on the corner(ok)"
+        ]
+      ],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
 }

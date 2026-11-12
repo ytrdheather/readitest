@@ -4,6 +4,41 @@
 > [`docs/리디테스트_기획서_v0.1.md`](docs/리디테스트_기획서_v0.1.md) 순으로 읽으십시오.**
 > 원본 자료 위치는 [`data/sources.md`](data/sources.md).
 
+> # ✅ 2026-11-12 청명중1 **5과 드릴** (비상 황종배) — `result/readitude/청명중1 5과 리디튜드 자체드릴.pdf` 26쪽 (정답지 31쪽)
+>
+> 원장: 「청명 5과 드릴 만들자」 + `청명1 5과.pdf`(비상 자습서 L5 본문 해설 3쪽) · Z: `기말\청명중1\청명중1 이성규 L5, 6, 7 학습지.pdf`(37쪽 스캔).
+> 10/16 에 pending 으로 멈춰 있던 비상 L5 지문 13편을 **Claude 가 확정** (`confirmed_by: Claude`, `confirmed_via` 에 근거):
+> 본문 27문장 = 자습서 PDF 와 기계 대조 일치(끊어 읽기 `/` 만 다름) · 대화 1~8 = 학습지 4·5쪽 인쇄문과 육안 일치 ·
+> **대화 9~12(EC2 C3 독백 · Talk & Play · Wrap Up 1·2)는 내신콘서트 텍스트 레이어 단일 출처** — 학습지에 안 나온다.
+> DB `textbook` 에 비상/황종배/2022개정/1 행 (`db/019_add_textbook_bisang1.py`, INSERT 1행) → 008 → pass-a 13편 (태그 106 · 논리 94, 약 $2.5) → 010 →
+> 내용 O/X 5세트 93문항(우리말·영어) · 어법 5세트 → 검수 뒤 **95문항** (문항 11 · 오답 23 버림). 어휘 `청명중1_L5` (학교 40 + 내신콘서트 36).
+> 16세트: 어휘 · 대화 ①②③④ · ⑤⑥⑦ · ⑧⑨ · ⑩⑪⑫ · 본문. 청명중2 5과 권을 안 덮으려고 `--out` 스크래치 → 1학년 두 파일만 옮김 (Z: `자체자료\1학년\` 에도).
+> 작업 중간분(pass-a · TF · 검수 전 어법 · 어휘 · 019)은 영덕중2 세션의 커밋 `a3ca1d6` 에 같이 들어갔다. 검수 뒤 어법 JSON · 이 기록 · 필터 마무리는 커밋 안 함.
+> - **교과서 필터** `build_school_drills.BOOK` · `book_of()` — 제목에 「비상」 이 있으면 비상. `LESSONS[("청명중","1")] = ["L5"]`.
+>   영덕·영일중1 5과 권에 비상이 안 들어가는 것 확인.
+> - 자습서 어휘 `vocab/중1_L5비상_vocab.json` (내신콘서트 Words·Phrases 66 + 영영풀이 15). 학교 New Words 에만 있는 10개
+>   (enjoy · exciting · factory · future · interesting · real · stair · tip · weekend · writer) 는 **우리말 뜻을 Claude 가 적었다** (`ko_by`).
+> - `make_drill_tf.gather` 고침 — `--unit "…대화-1"` 이 대화-10·11·12 까지 잡던 것.
+> - 학교 문법(학습지 6~11쪽): 동명사 주어·보어·목적어 + 동명사/to부정사 목적어 동사 구별 · 감각동사 + 형용사(-ly 형용사 friendly 등, look like + 명사).
+>   본문 태그 기반 어법 드릴은 이것을 따로 묻지 않는다 → 아래 보충드릴.
+> - **같은 날 — 어법 보충드릴** `청명중1 5과 어법 보충드릴.pdf` 15쪽 (+정답지 15쪽) · 184문항 · 모델 미사용 (원장 「형태 드릴 만들기」).
+>   ① 동명사 역할(주어 · 보어 · 동사의 목적어 · 전치사의 목적어) ② 동명사 / to부정사 / 둘 다 ③ 동명사 O · 고쳐 쓰기 ④ 감각동사 + 형용사 · like + 명사 O · 고쳐 쓰기
+>   ⑤ -ly 형용사 / 부사 ⑥ 감각동사 look / 일반동사 look ⑦ 영작. 구역마다 2회 + 진단 14. 문항 `tools/form_drill_cm1_l5.py` → `make_form_drill.py --unit 청명중1L5 --build`.
+>   학습지 9 · 10쪽 문장(The story sounds strangely · look well 구별 · The children looked happy …)을 그대로 실었다. Z: `자체자료\1학년\` 에도 넣음.
+> - 다음: 6 · 7과 (`extract_naecon.py --lesson 6`), 학습지 14~30쪽.
+
+> # ✅ 2026-11-12 영일중2 **7과 드릴** — `result/readitude/영일중2 7과 리디튜드 자체드릴.pdf` 33쪽 (정답지 39쪽)
+>
+> 원장: 「영일 7과도 드릴 시작하자」. 학습지 16쪽 판독 [`중2_영일_L7_학습지.md`](data/stage0/comparisons/중2_영일_L7_학습지.md) — **모델 호출 0원**.
+> 19세트 — 어휘 · 대화 ①②③④ · ⑤⑥⑦ · 본문 · More Reading Songkran → Pingxi → Holmenkollen (영덕과 같은 3편 → `EXTERNAL` 에 영일중 추가).
+> 어휘 `vocab/영일중2_L7_vocab_handout.json` (청명과 같은 19낱말, 풀이 3개 다름 — altar · costume · take place, + Reading 낱말 찾기 10) → `make_drill_vocab --set 영일중2_L7`.
+> 다른 과 권을 안 덮으려고 `--out` 스크래치에 뽑아 영일중2 두 파일만 옮겼다 (Z: `자체자료학년\` 에도).
+> - 학교 문법이 넓다: 의미상 주어 for/of (형태 드릴이 덮음) · **call A B 수동태** (`The boy is called a genius`) — 공용 형태 드릴에 없어
+>   **같은 날 보충드릴** `영일중2 7과 어법 보충드릴.pdf` 9쪽 (+정답지 9쪽) · 108문항 · 모델 미사용 — 괄호 고르기(5형식 make · want · see/hear · call) ·
+>   능동 ↔ 수동 바꿔 쓰기 · O / 고쳐 쓰기 · 영작, 구역마다 2회 + 진단 8. 문항 `tools/form_drill_yi2_l7.py` → `make_form_drill.py --unit 영일중2L7 --build`. Z: 에도 넣음.
+> - 스캔 13쪽은 8과 학습지가 섞여 들어온 것. 학생 손글씨에 교과서에 없는 본문 문장 — 변형 본문이 따로 있는지 원장 확인.
+> - 커밋 안 함.
+
 > # ✅ 2026-11-12 영덕중2 **7과 드릴** — `result/readitude/영덕중2 7과 리디튜드 자체드릴.pdf` 34쪽 (정답지 39쪽)
 >
 > 원장: 「영덕중2 7과 드릴 만들자」. 학습지 16쪽 판독 [`중2_영덕_L7_학습지.md`](data/stage0/comparisons/중2_영덕_L7_학습지.md).

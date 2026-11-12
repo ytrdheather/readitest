@@ -93,13 +93,19 @@
       "span_end": 139,
       "correct": "these days",
       "wrong": [
-        "this days",
-        "those days"
+        "this days"
       ],
       "why_ko": "days는 복수라서 this가 아니라 these를 쓰고, '요즘'이라는 현재 뜻이라 those days(그 시절)와 달라요.",
       "rationale": "요즘을 뜻하는 these days는 현재시제와 호응. 과거시제 'I was interested in ~ these days'로 바꾸는 시제 불일치 오답 가능",
       "sentence_no": 6,
-      "sentence": "M: I’m interested in cooking these days."
+      "sentence": "M: I’m interested in cooking these days.",
+      "verify_dropped": [
+        {
+          "wrong": "those days",
+          "judgement": "odd",
+          "note_ko": "현재시제와 과거를 가리키는 those days가 어울리지 않음."
+        }
+      ]
     },
     {
       "tag_id": "d8367d94-9b8b-4e14-9bd6-99910b94dd4b",
@@ -173,21 +179,6 @@
       ],
       "why_ko": "It is의 축약은 아포스트로피가 있는 It's예요. Its는 '그것의'라는 소유격이라 뜻이 달라져요.",
       "rationale": "It is의 축약형 It's와 소유격 its의 구별. 'Its a book about robots.'처럼 아포스트로피를 뺀 형태로 오류를 심기 쉬운 전형적 자리.",
-      "sentence_no": 11,
-      "sentence": "M: It’s a book about robots."
-    },
-    {
-      "tag_id": "d832c08f-88dd-4d7e-ae60-f37591376802",
-      "point": "PREP_USAGE",
-      "span_start": 237,
-      "span_end": 249,
-      "correct": "about robots",
-      "wrong": [
-        "of robots",
-        "for robots"
-      ],
-      "why_ko": "'~에 관한 책'은 a book about ~으로 써요.",
-      "rationale": "'~에 관한 책'은 a book about ~. of / for / with 등으로 바꿔 빈칸을 뚫기 가장 쉬운 전치사 자리.",
       "sentence_no": 11,
       "sentence": "M: It’s a book about robots."
     },
@@ -266,21 +257,6 @@
       "sentence": "People are playing a new game over there."
     },
     {
-      "tag_id": "76690093-aa36-41e9-80bd-b3813d498f9e",
-      "point": "VERB_TENSE",
-      "span_start": 333,
-      "span_end": 344,
-      "correct": "are playing",
-      "wrong": [
-        "played",
-        "will play"
-      ],
-      "why_ko": "지금 눈앞에서 하고 있는 동작이라 현재진행형이 맞아요.",
-      "rationale": "눈앞에서 진행 중인 동작이므로 현재진행형(be+-ing)이 맞다. played / play / will play 로 바꿔 시제를 묻는 함정이 가능하다.",
-      "sentence_no": 15,
-      "sentence": "People are playing a new game over there."
-    },
-    {
       "tag_id": "f062ec64-6b16-42dc-96e6-b3748ec8be7d",
       "point": "VERB_FINITE",
       "span_start": 377,
@@ -355,21 +331,6 @@
       "sentence": "M: Well, I’m not good at playing games, but I will try it."
     },
     {
-      "tag_id": "985a6245-da31-404e-ab6f-f3184db26991",
-      "point": "CONJ_PARALLEL",
-      "span_start": 461,
-      "span_end": 464,
-      "correct": "but",
-      "wrong": [
-        "so",
-        "because"
-      ],
-      "why_ko": "'잘 못하지만 해볼게'라는 대조 관계라서 but이 맞아요.",
-      "rationale": "앞뒤 두 절이 대조 관계이므로 but. and/so/because 로 바꾸면 논리가 깨진다.",
-      "sentence_no": 18,
-      "sentence": "M: Well, I’m not good at playing games, but I will try it."
-    },
-    {
       "tag_id": "645de363-e237-4e0c-be69-d4bb19019d03",
       "point": "VERB_TENSE",
       "span_start": 465,
@@ -391,13 +352,19 @@
       "span_end": 526,
       "correct": "What is your science report about",
       "wrong": [
-        "What is your science report",
         "What is your science report of"
       ],
       "why_ko": "What이 about의 목적어라 문장 끝에 about이 남아야 해요.",
       "rationale": "의문사 what이 전치사 about의 목적어라 문장 끝에 about이 남는 구조. 전치사를 삭제하거나(EI_PREP_DELETE) of/for 등으로 바꿔 묻기 쉬운 자리.",
       "sentence_no": 20,
-      "sentence": "W: What is your science report about, Toby?"
+      "sentence": "W: What is your science report about, Toby?",
+      "verify_dropped": [
+        {
+          "wrong": "What is your science report",
+          "judgement": "ok",
+          "note_ko": "about이 없어도 문장 자체는 성립."
+        }
+      ]
     },
     {
       "tag_id": "1d1a548b-6bd6-4eb7-918f-1dd8532bb469",
@@ -406,13 +373,19 @@
       "span_end": 555,
       "correct": "It is about robots",
       "wrong": [
-        "They are about robots",
         "It are about robots"
       ],
       "why_ko": "앞의 your science report는 단수 사물이라 It is로 받아요.",
       "rationale": "It이 앞 문장의 your science report(단수 사물)를 받는다. They/He 등으로 바꾼 수·격 오류 유도 가능.",
       "sentence_no": 21,
-      "sentence": "M: It is about robots."
+      "sentence": "M: It is about robots.",
+      "verify_dropped": [
+        {
+          "wrong": "They are about robots",
+          "judgement": "ok",
+          "note_ko": "문법상 맞음, 지시 대상만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "db54a59e-4343-4c2a-8fda-eb141d4e7f2d",
@@ -451,13 +424,19 @@
       "span_end": 622,
       "correct": "They are really cool",
       "wrong": [
-        "It is really cool",
         "They is really cool"
       ],
       "why_ko": "앞의 robots가 복수라 They are로 받아야 해요.",
       "rationale": "They가 앞 문장의 robots(복수)를 받는다. It/He로 바꾸면 수 불일치 오류가 된다.",
       "sentence_no": 24,
-      "sentence": "They are really cool."
+      "sentence": "They are really cool.",
+      "verify_dropped": [
+        {
+          "wrong": "It is really cool",
+          "judgement": "ok",
+          "note_ko": "문법상 맞고 지시 대상만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "62ea800e-952f-4d00-b1ab-4033b6eca3df",
@@ -511,13 +490,19 @@
       "span_end": 719,
       "correct": "I’m writing about them",
       "wrong": [
-        "I write about them",
         "I’m wrote about them"
       ],
       "why_ko": "지금 하고 있는 일이라 현재진행형 am writing을 써요. be 뒤에는 -ing가 와야 해요.",
       "rationale": "현재진행형으로 지금 하고 있는 일을 표현. I write / I wrote 로 바꾼 시제 오류나 be동사 누락 유도 가능.",
       "sentence_no": 27,
-      "sentence": "So I’m writing about them."
+      "sentence": "So I’m writing about them.",
+      "verify_dropped": [
+        {
+          "wrong": "I write about them",
+          "judgement": "ok",
+          "note_ko": "현재시제로 문법상 맞음."
+        }
+      ]
     },
     {
       "tag_id": "2a9d8d4b-7ad7-4335-a483-df9e4128842e",
@@ -526,13 +511,19 @@
       "span_end": 719,
       "correct": "about them",
       "wrong": [
-        "about they",
-        "about it"
+        "about they"
       ],
       "why_ko": "전치사 뒤에는 목적격 them을 쓰고, VR games는 복수라 it으로 받을 수 없어요.",
       "rationale": "전치사 about의 목적어이므로 목적격 them. VR games(복수)를 받으므로 it/they로 바꾸면 격·수 오류.",
       "sentence_no": 27,
-      "sentence": "So I’m writing about them."
+      "sentence": "So I’m writing about them.",
+      "verify_dropped": [
+        {
+          "wrong": "about it",
+          "judgement": "ok",
+          "note_ko": "문법상 맞고 지시 대상만 달라짐."
+        }
+      ]
     },
     {
       "tag_id": "85cb342f-cf17-4b12-8fd4-f6efe6fd22ea",
@@ -581,6 +572,24 @@
         "interesting",
         "wrong 이 본문에 실재함: 'interested'"
       ]
-    ]
-  }
+    ],
+    "verify": {
+      "dropped_items": [
+        [
+          "about robots",
+          "모든 오답이 실은 맞는 표현이라 버림: of robots(odd), for robots(ok)"
+        ],
+        [
+          "are playing",
+          "모든 오답이 실은 맞는 표현이라 버림: played(ok), will play(ok)"
+        ],
+        [
+          "but",
+          "모든 오답이 실은 맞는 표현이라 버림: so(ok), because(odd)"
+        ]
+      ],
+      "dropped_wrongs": 6
+    }
+  },
+  "verified": true
 }
