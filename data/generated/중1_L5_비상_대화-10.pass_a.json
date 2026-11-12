@@ -1,0 +1,464 @@
+{
+  "passage_id": "4a87aa58-2e0a-4cc1-8dc6-59a048b3927d",
+  "body_text_sha256": "e082e8dd407e7c52539bd008770aa767d5545e37e99d7f0eb6ffec43e1c001d9",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 16,
+      "span_end": 29,
+      "surface": "interested in",
+      "sentence_no": 1,
+      "rationale": "be interested in: 관심 대상 앞 전치사는 in으로 고정. at/on/with로 바꾸거나 in을 삭제하는 오류(특히 의문문 끝 전치사 탈락) 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 34,
+      "span_end": 59,
+      "surface": "I’m interested in sports.",
+      "sentence_no": 2,
+      "rationale": "감정동사 interest의 수동형(be + p.p.) 보어. I'm interesting in sports처럼 현재분사형으로 바꾸는 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PARTICIPLE_FLIP",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 68,
+      "span_end": 90,
+      "surface": "what do you want to be",
+      "sentence_no": 3,
+      "rationale": "want는 목적어로 to부정사만 취함. want being / want be 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 91,
+      "span_end": 104,
+      "surface": "in the future",
+      "sentence_no": 3,
+      "rationale": "미래 시점을 나타내는 굳어진 부사구의 전치사 in. on/at the future로 바꾸는 빈칸 출제가 전형적",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 116,
+      "span_end": 137,
+      "surface": "to be a soccer player",
+      "sentence_no": 4,
+      "rationale": "want의 목적어 자리에 온 to부정사의 명사적 용법. to 생략이나 being 대체 오류 구별",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답(정보 제공)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환질문",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "결론답변(대화의 요지)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n\nA: What are you (a)[interested / interesting] in?\nB: I’m interested in sports.\nA: Then what do you want (b)[to be / being] (c)[in / on] the future?\nB: I want to be a soccer player.",
+      "answer_key": "①",
+      "explanation": "(a) 사람이 '관심을 갖는' 것이므로 감정동사의 수동형 interested가 맞다(interesting은 '흥미를 주는'). (b) want는 목적어로 to부정사만 취하므로 to be. (c) '미래에'는 in the future로 고정된 표현이므로 on은 쓸 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) interested – (b) to be – (c) in",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) interested – (b) being – (c) in",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) interesting – (b) to be – (c) in",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) interested – (b) to be – (c) on",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 옮긴 것이다. 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③ want는 동명사를 목적어로 취할 수 없고 to부정사를 취하므로 want to be가 되어야 한다. ①② be interested in은 올바른 수동형+전치사 결합이고, ④도 want + to부정사로 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What are you interested in?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "I’m interested in sports.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Then what do you want being in the future?",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I want to be a soccer player.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 대화에서 문맥상 낱말의 쓰임이 적절하지 않은 것은?\n\nA: What are you ①interested in?\nB: I’m interested in ②sports.\nA: Then what do you want to be in the ③past?\nB: I want to be a ④soccer player.",
+      "answer_key": "③",
+      "explanation": "장래 희망을 묻는 질문이므로 '과거(past)'가 아니라 '미래(future)'가 와야 한다. 나머지는 관심사와 직업을 묻고 답하는 흐름에 모두 자연스럽다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "interested",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "sports",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "past",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "soccer",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "player",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the dialogue mainly about?",
+      "answer_key": "①",
+      "explanation": "A가 관심사를 묻고(B: 스포츠), 이어서 장래 희망을 묻자 B가 축구 선수가 되고 싶다고 답하는 대화이므로 ①이 적절하다. 경기 관람·훈련 방법·동아리 이야기는 나오지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "B’s interest and his future dream job",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to become a better soccer player",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A soccer game B watched last night",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The best sports club at school",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which one is TRUE about the dialogue?",
+      "answer_key": "②",
+      "explanation": "마지막 줄에서 B가 I want to be a soccer player.라고 했으므로 ②가 일치한다. B의 관심사는 음악이 아니라 스포츠이고(①④), A의 장래 희망은 언급되지 않았다(③).",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "B is interested in music.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "B wants to be a soccer player.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "A wants to be a soccer coach.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "B is not interested in sports at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 what do you want to be in the future?가 묻는 내용으로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "want to be + 직업은 '~이 되고 싶다'는 뜻으로 장래 희망(직업)을 묻는 표현이다. 실제로 B가 a soccer player라는 직업으로 답하는 것으로 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        2,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "장래에 어떤 직업을 갖고 싶은지",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "지금 어디에 있고 싶은지",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "미래에 무엇을 사고 싶은지",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "어떤 운동을 가장 잘하는지",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 위 대화의 B의 첫 번째 말을 잘못 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nI’m interest on sports.  →  __________",
+      "answer_key": "I’m interested in sports.",
+      "explanation": "감정동사 interest는 사람이 주어일 때 be + interested 형태의 수동형으로 쓰고, 관심 대상 앞에는 전치사 in을 쓴다. 따라서 interest on → interested in 으로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하시오.\n\n너는 장래에 무엇이 되고 싶니?\n(be / you / what / to / the future / do / want / in)",
+      "answer_key": "What do you want to be in the future?",
+      "explanation": "의문사 What + do + 주어 you + 동사 want 다음에 목적어로 to부정사 to be를 쓰고, 마지막에 시점 부사구 in the future를 둔다. want 뒤에는 being이나 동사원형 be를 쓸 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "위 대화의 A의 첫 번째 말을 참고하여, 다음 조건에 맞게 영작하시오.\n\n[우리말] 나는 축구에 관심이 있다.\n[조건] 1) be동사 + interested 를 쓸 것  2) 알맞은 전치사를 쓸 것  3) soccer를 쓸 것",
+      "answer_key": "I am interested in soccer. (= I’m interested in soccer.)",
+      "explanation": "'~에 관심이 있다'는 be interested in ~ 으로 쓴다. 전치사 in을 빠뜨리거나 at/on을 쓰면 안 되고, interesting은 '흥미를 주는'이라는 뜻이므로 사람 주어에는 interested를 써야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 4,
+    "tags_returned": 5,
+    "tags_kept": 5,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

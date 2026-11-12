@@ -1,0 +1,411 @@
+{
+ "lesson": 5,
+ "grade": 1,
+ "unit_title": "Give LIKEs to Our Game",
+ "textbook": {
+  "publisher": "비상",
+  "author": "황종배",
+  "curriculum_version": "2022개정",
+  "grade": 1
+ },
+ "source_file": "내콘 중1 2학기 비상황.pdf",
+ "source_detail": "내신콘서트 L5 Words·Phrases (8쪽) + 영영풀이 15 (9쪽) — 텍스트 레이어. 낱말 끝에 붙은 아이콘 글리프(appp · asz · characterr …)는 떼었다. 뜻은 다의어 중 본문 뜻(* 표시)만 남겼다.",
+ "ko_by_claude_note": "끝의 10개(ko_by=Claude)는 청명 학교 New Words 에만 있는 낱말 — 학교 뜻 칸이 손글씨 빈칸이라 Claude 가 적었다 (2026-11-12).",
+ "transcription": {
+  "status": "pending",
+  "method": "workbook_pdf_text_layer"
+ },
+ "distribution_scope": "internal_only",
+ "words": [
+  {
+   "word": "about",
+   "ko": "~에 대하여[관한]",
+   "def_en": ""
+  },
+  {
+   "word": "add",
+   "ko": "추가하다",
+   "def_en": "to put something with another thing or group of things"
+  },
+  {
+   "word": "adventure",
+   "ko": "모험",
+   "def_en": "an exciting and sometimes dangerous experience"
+  },
+  {
+   "word": "app",
+   "ko": "앱",
+   "def_en": "a piece of software that you can download to a device such as a smartphone or tablet"
+  },
+  {
+   "word": "as",
+   "ko": "~로서",
+   "def_en": ""
+  },
+  {
+   "word": "background",
+   "ko": "배경",
+   "def_en": ""
+  },
+  {
+   "word": "beginning",
+   "ko": "시작",
+   "def_en": ""
+  },
+  {
+   "word": "character",
+   "ko": "성격; 등장인물, 캐릭터",
+   "def_en": "a person or animal that appears in a story, book, play, movie, television, game, etc."
+  },
+  {
+   "word": "choose",
+   "ko": "선택하다",
+   "def_en": ""
+  },
+  {
+   "word": "code",
+   "ko": "(프로그램을) 코드화하다",
+   "def_en": "to change information into a set of letters, numbers, or symbols that can be read by a computer"
+  },
+  {
+   "word": "cool",
+   "ko": "시원한; 멋진",
+   "def_en": ""
+  },
+  {
+   "word": "corner",
+   "ko": "모서리; 구석",
+   "def_en": ""
+  },
+  {
+   "word": "draw",
+   "ko": "그리다",
+   "def_en": ""
+  },
+  {
+   "word": "end",
+   "ko": "끝나다",
+   "def_en": "to finish or stop"
+  },
+  {
+   "word": "fashion",
+   "ko": "패션",
+   "def_en": ""
+  },
+  {
+   "word": "finally",
+   "ko": "마침내",
+   "def_en": ""
+  },
+  {
+   "word": "giant",
+   "ko": "거대한; 거인",
+   "def_en": "very great in size or strength"
+  },
+  {
+   "word": "hard",
+   "ko": "힘든, 어려운",
+   "def_en": ""
+  },
+  {
+   "word": "introduce",
+   "ko": "소개하다",
+   "def_en": ""
+  },
+  {
+   "word": "island",
+   "ko": "섬",
+   "def_en": "a piece of land completely surrounded by water"
+  },
+  {
+   "word": "item",
+   "ko": "물품; (게임 등의) 아이템",
+   "def_en": ""
+  },
+  {
+   "word": "join",
+   "ko": "가입하다; 함께하다",
+   "def_en": ""
+  },
+  {
+   "word": "kind",
+   "ko": "종류, 유형",
+   "def_en": ""
+  },
+  {
+   "word": "life jacket",
+   "ko": "구명조끼",
+   "def_en": ""
+  },
+  {
+   "word": "like",
+   "ko": "~처럼; ~ 같은",
+   "def_en": ""
+  },
+  {
+   "word": "lost",
+   "ko": "잃어버린",
+   "def_en": ""
+  },
+  {
+   "word": "main",
+   "ko": "주요한",
+   "def_en": ""
+  },
+  {
+   "word": "maker",
+   "ko": "만드는 사람, 제작자",
+   "def_en": ""
+  },
+  {
+   "word": "monster",
+   "ko": "괴물",
+   "def_en": "a strange or horrible imaginary creature"
+  },
+  {
+   "word": "musician",
+   "ko": "음악가",
+   "def_en": ""
+  },
+  {
+   "word": "new",
+   "ko": "새로운",
+   "def_en": ""
+  },
+  {
+   "word": "own",
+   "ko": "자신의",
+   "def_en": ""
+  },
+  {
+   "word": "part",
+   "ko": "부분",
+   "def_en": ""
+  },
+  {
+   "word": "perfect",
+   "ko": "완벽한; 꼭 맞는",
+   "def_en": ""
+  },
+  {
+   "word": "program",
+   "ko": "프로그램",
+   "def_en": ""
+  },
+  {
+   "word": "programmer",
+   "ko": "프로그래머",
+   "def_en": ""
+  },
+  {
+   "word": "publish",
+   "ko": "출판하다; 출시하다",
+   "def_en": "to release or make a product, such as a game or software, available to the public"
+  },
+  {
+   "word": "really",
+   "ko": "정말로",
+   "def_en": ""
+  },
+  {
+   "word": "report",
+   "ko": "보고(서)",
+   "def_en": ""
+  },
+  {
+   "word": "review",
+   "ko": "평가; 후기",
+   "def_en": "an opinion about the quality of a book, movie, product, etc."
+  },
+  {
+   "word": "role model",
+   "ko": "롤 모델, 본보기상",
+   "def_en": ""
+  },
+  {
+   "word": "section",
+   "ko": "구역; 부분",
+   "def_en": "one of the parts that something is divided into"
+  },
+  {
+   "word": "share",
+   "ko": "나누다; 공유하다",
+   "def_en": "to tell other people about your ideas, experiences, and feelings"
+  },
+  {
+   "word": "someday",
+   "ko": "언젠가",
+   "def_en": ""
+  },
+  {
+   "word": "soon",
+   "ko": "곧, 빨리",
+   "def_en": ""
+  },
+  {
+   "word": "sound",
+   "ko": "소리; ~하게 들리다",
+   "def_en": ""
+  },
+  {
+   "word": "stage",
+   "ko": "무대; 단계",
+   "def_en": "a period of development or a particular time in a progress"
+  },
+  {
+   "word": "through",
+   "ko": "~을 통과하여",
+   "def_en": ""
+  },
+  {
+   "word": "time",
+   "ko": "시간; 번(횟수)",
+   "def_en": ""
+  },
+  {
+   "word": "tower",
+   "ko": "탑",
+   "def_en": ""
+  },
+  {
+   "word": "try",
+   "ko": "노력하다; 시도하다",
+   "def_en": ""
+  },
+  {
+   "word": "useful",
+   "ko": "유용한",
+   "def_en": "helping you to do or get what you want"
+  },
+  {
+   "word": "at the beginning of",
+   "ko": "~의 초반에",
+   "def_en": ""
+  },
+  {
+   "word": "be good at",
+   "ko": "~을 잘하다",
+   "def_en": ""
+  },
+  {
+   "word": "be interested in",
+   "ko": "~에 관심이 있다",
+   "def_en": ""
+  },
+  {
+   "word": "be into",
+   "ko": "~에 관심이 많다",
+   "def_en": ""
+  },
+  {
+   "word": "be perfect for",
+   "ko": "~에 꼭 알맞다",
+   "def_en": ""
+  },
+  {
+   "word": "for the first time",
+   "ko": "처음으로, 최초로",
+   "def_en": ""
+  },
+  {
+   "word": "get off",
+   "ko": "~을 벗어나다",
+   "def_en": ""
+  },
+  {
+   "word": "go through",
+   "ko": "~을 거쳐 가다[통과하다]",
+   "def_en": ""
+  },
+  {
+   "word": "in one's free time",
+   "ko": "~의 여가 시간에",
+   "def_en": ""
+  },
+  {
+   "word": "in the future",
+   "ko": "미래에",
+   "def_en": ""
+  },
+  {
+   "word": "look at",
+   "ko": "~을 보다",
+   "def_en": ""
+  },
+  {
+   "word": "put together",
+   "ko": "~을 합치다[조립하다]",
+   "def_en": ""
+  },
+  {
+   "word": "these days",
+   "ko": "요즘에는",
+   "def_en": ""
+  },
+  {
+   "word": "wake up",
+   "ko": "(잠에서) 깨다, 일어나다",
+   "def_en": ""
+  },
+  {
+   "word": "enjoy",
+   "ko": "즐기다",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "exciting",
+   "ko": "신나는, 흥미진진한",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "factory",
+   "ko": "공장",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "future",
+   "ko": "미래",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "interesting",
+   "ko": "흥미로운",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "real",
+   "ko": "진짜의, 실제의",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "stair",
+   "ko": "계단",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "tip",
+   "ko": "조언, 비결",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "weekend",
+   "ko": "주말",
+   "def_en": "",
+   "ko_by": "Claude"
+  },
+  {
+   "word": "writer",
+   "ko": "작가",
+   "def_en": "",
+   "ko_by": "Claude"
+  }
+ ]
+}

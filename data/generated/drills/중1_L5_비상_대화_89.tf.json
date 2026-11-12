@@ -1,0 +1,225 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ⑧⑨",
+  "parts": [
+    "중1 L5 비상 대화-8",
+    "중1 L5 비상 대화-9"
+  ],
+  "passage_ids": [
+    "586b60b5-43ae-41fd-90c1-c1556ff4e48d",
+    "771f73d0-8cbf-4ad5-9c26-910150f02897"
+  ],
+  "para_breaks": [
+    9,
+    12
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    9,
+    12
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "W: I watched a TV program about James Sweeney.",
+    "M: Who is he?",
+    "W: \u0003\u0007He is a famous game maker.",
+    "I want to be someone like him.",
+    "He is my role model.",
+    "M: What kind of game do you want to make?",
+    "W: I want to make adventure games.",
+    "M: Sounds cool.",
+    "I want to play your game someday.",
+    "This is my role model, Dr. Bien, Zeungnam.",
+    "He made the factory robot for the first time in Korea.",
+    "I want to be a robot scientist like him."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "여자는 James Sweeney에 관한 TV 프로그램을 보았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "여자가 James Sweeney에 대한 TV 프로그램을 봤다고 말했다.",
+      "_evidence_text": [
+        "W: I watched a TV program about James Sweeney."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman saw a TV show about James Sweeney."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자가 남자에게 James Sweeney가 누구인지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "\"Who is he?\"라고 물은 사람은 남자이다.",
+      "_evidence_text": [
+        "M: Who is he?"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman is the one who asks the man who James Sweeney is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "James Sweeney는 유명한 영화감독이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "그는 유명한 게임 제작자(game maker)라고 했다.",
+      "_evidence_text": [
+        "W: \u0003\u0007He is a famous game maker."
+      ],
+      "_repeat": false,
+      "statement_en": "James Sweeney is a well-known movie director."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 James Sweeney 같은 사람이 되고 싶어 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "여자가 그와 같은 사람이 되고 싶다고 말했다.",
+      "_evidence_text": [
+        "I want to be someone like him."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman hopes to become a person like James Sweeney."
+    },
+    {
+      "type": "content",
+      "statement_ko": "James Sweeney는 여자의 롤모델이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "여자가 그는 자신의 롤모델이라고 했다.",
+      "_evidence_text": [
+        "He is my role model."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says that James Sweeney is her role model."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 여자에게 어떤 종류의 게임을 만들고 싶은지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "남자가 만들고 싶은 게임의 종류를 물었다.",
+      "_evidence_text": [
+        "M: What kind of game do you want to make?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man asks the woman what kind of game she wants to make."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 스포츠 게임을 만들고 싶어 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "여자는 어드벤처(모험) 게임을 만들고 싶다고 했다.",
+      "_evidence_text": [
+        "W: I want to make adventure games."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says she wants to make sports games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 여자의 대답을 듣고 멋지다고 반응했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "남자가 \"Sounds cool.\"이라고 말했다.",
+      "_evidence_text": [
+        "M: Sounds cool."
+      ],
+      "_repeat": false,
+      "statement_en": "After hearing her answer, the man says it sounds cool."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 언젠가 남자가 만든 게임을 해 보고 싶다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "여자의 게임을 해 보고 싶다고 말한 사람은 남자이다.",
+      "_evidence_text": [
+        "I want to play your game someday."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says she wants to play the man's game someday."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자의 롤모델은 Dr. Bien, Zeungnam이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "남자가 자신의 롤모델이라며 그를 소개했다.",
+      "_evidence_text": [
+        "This is my role model, Dr. Bien, Zeungnam."
+      ],
+      "_repeat": false,
+      "statement_en": "Dr. Bien, Zeungnam is the man's role model."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Dr. Bien, Zeungnam은 세계 최초로 공장 로봇을 만들었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "세계 최초가 아니라 한국에서 처음으로 공장 로봇을 만들었다.",
+      "_evidence_text": [
+        "He made the factory robot for the first time in Korea."
+      ],
+      "_repeat": false,
+      "statement_en": "Dr. Bien, Zeungnam built the first factory robot in the world."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 그와 같은 로봇 과학자가 되고 싶어 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "남자가 그처럼 로봇 과학자가 되고 싶다고 말했다.",
+      "_evidence_text": [
+        "I want to be a robot scientist like him."
+      ],
+      "_repeat": false,
+      "statement_en": "The man wants to be a robot scientist like Dr. Bien, Zeungnam."
+    }
+  ],
+  "diagnostics": {
+    "returned": 12,
+    "kept": 12,
+    "by_type": {
+      "content": 12
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 7,
+      "X": 5
+    },
+    "sentences_covered": 12,
+    "sentence_count": 12,
+    "repeated": 0
+  }
+}

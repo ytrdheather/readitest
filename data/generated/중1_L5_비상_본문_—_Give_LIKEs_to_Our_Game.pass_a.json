@@ -1,0 +1,944 @@
+{
+  "passage_id": "0784b656-9216-4f20-98c1-9453e4c3cbcf",
+  "body_text_sha256": "d5c4e85b7a96ee2abfe24e506c84f73984b3f723c94df79f260c27409c83a487",
+  "tags": [
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 29,
+      "span_end": 73,
+      "surface": "my friends and I made our own adventure game",
+      "sentence_no": 3,
+      "rationale": "목적어(our own adventure game)를 가진 능동태. 'was made by my friends and I' 식 수동 전환이나 by 누락, were made 형태 오류를 심기 좋은 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 113,
+      "span_end": 122,
+      "surface": "as a team",
+      "sentence_no": 4,
+      "rationale": "자격·역할을 나타내는 전치사 as. [as / for / like] 선택형 빈칸으로 자주 출제",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 158,
+      "span_end": 174,
+      "surface": "begins like this",
+      "sentence_no": 6,
+      "rationale": "'이와 같이'의 like(전치사). [like / as / with] 구별로 빈칸 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 184,
+      "span_end": 208,
+      "surface": "you wake up on an island",
+      "sentence_no": 6,
+      "rationale": "wake up은 자동사이므로 수동태 불가. 'are woken up' 류 오답 유도 지점",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 210,
+      "span_end": 233,
+      "surface": "There are many monsters",
+      "sentence_no": 7,
+      "rationale": "There be 구문의 수일치. 뒤의 복수명사 monsters에 맞춰 are. is로 바꾼 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 264,
+      "span_end": 312,
+      "surface": "a high mountain, a long river, and a giant tower",
+      "sentence_no": 8,
+      "rationale": "and로 묶인 세 명사구의 병렬. 한 항목만 형태를 깨뜨리는 변형 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 314,
+      "span_end": 343,
+      "surface": "Choose five items and get off",
+      "sentence_no": 9,
+      "rationale": "명령문 두 개가 and로 병렬. 'getting off'로 바꾸면 병렬 붕괴",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 463,
+      "span_end": 474,
+      "surface": "looked real",
+      "sentence_no": 12,
+      "rationale": "감각동사 look + 형용사 보어. really(부사)로 바꾼 오답이 전형",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 447,
+      "span_end": 469,
+      "surface": "Every character looked",
+      "sentence_no": 12,
+      "rationale": "Every + 단수명사 + 단수동사. 복수 취급 오류 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 502,
+      "span_end": 528,
+      "surface": "put all the parts together",
+      "sentence_no": 14,
+      "rationale": "put ~ together(조립하다) 구동사. together 삭제·교체 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 530,
+      "span_end": 566,
+      "surface": "Sounds, characters, and a story were",
+      "sentence_no": 15,
+      "rationale": "등위 복수 주어 → were. was로 바꾼 수일치 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 589,
+      "span_end": 612,
+      "surface": "looked and sounded good",
+      "sentence_no": 16,
+      "rationale": "감각동사 look/sound + 형용사 good. well로 바꾼 오답 전형. 동시에 두 동사의 병렬도 성립",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 688,
+      "span_end": 703,
+      "surface": "enjoyed playing",
+      "sentence_no": 19,
+      "rationale": "enjoy는 동명사만 목적어로 취함. to play 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SO_SUCH_TOO_ENOUGH",
+      "span_start": 726,
+      "span_end": 734,
+      "surface": "too soon",
+      "sentence_no": 20,
+      "rationale": "too + 부사(너무 ~하게). so/enough와 구별, soon enough 어순 오답 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 736,
+      "span_end": 760,
+      "surface": "It needs one more stage.",
+      "sentence_no": 21,
+      "rationale": "3인칭 단수 주어 It + needs. need로 바꾼 수일치 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 769,
+      "span_end": 798,
+      "surface": "more items like a life jacket",
+      "sentence_no": 22,
+      "rationale": "예시를 나타내는 전치사 like(~와 같은). as로 바꾼 오답 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 892,
+      "span_end": 928,
+      "surface": "published the game on the app market",
+      "sentence_no": 25,
+      "rationale": "플랫폼·매체를 나타내는 on. in/at로 바꾼 전치사 오답 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_SUBJECT",
+      "span_start": 955,
+      "span_end": 977,
+      "surface": "Making a game was hard",
+      "sentence_no": 27,
+      "rationale": "동명사구 주어 + 단수동사 was. Make/To making 형태 오류, were 수일치 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_GERUND_TO_VERB",
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입인사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "화자 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "주제문 — 글 전체의 소재 제시",
+      "signal": "Last summer",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 4,
+      "role": "방식 요약 (협업)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "역할 열거 1 — 화자",
+      "signal": "First",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "세부 — 이야기 설정",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부 — 배경 묘사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "세부 — 게임 진행 경로",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "세부 — 목표 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "역할 열거 2 — 수진",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "역할 열거 3 — 진",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "결과 평가 — 그림 품질",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "역할 열거 4 — 민우",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "부연 — 통합 작업",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "부연 — 결과물 구성 요소",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 16,
+      "role": "중간 결과 요약",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 17,
+      "role": "역할 열거 5 — 수민(테스트)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 18,
+      "role": "전환 — 피드백 제시",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 19,
+      "role": "인용 — 긍정 평가",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 20,
+      "role": "인용 — 문제점 지적",
+      "signal": "But",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 21,
+      "role": "인용 — 개선 제안 1",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 22,
+      "role": "인용 — 개선 제안 2",
+      "signal": "And",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 23,
+      "role": "해결책 — 피드백 반영",
+      "signal": "So",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 24,
+      "role": "결과 요약",
+      "signal": "Now",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 25,
+      "role": "결과 — 출시",
+      "signal": "finally",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 26,
+      "role": "결과 — 반응",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 27,
+      "role": "결론문 — 협업의 의의",
+      "signal": "but",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "④"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음은 윗글의 문장을 옮긴 것이다. 밑줄 친 부분이 어법상 옳은 것은?",
+      "answer_key": "④",
+      "explanation": "④ enjoy는 동명사를 목적어로 취하므로 playing이 옳다(지문 원문 그대로). ① 감각동사 look 뒤에는 형용사 real이 와야 한다. ② look/sound 뒤에도 형용사 good이 와야 한다. ③ 뒤의 복수명사 many monsters에 맞춰 There are가 되어야 한다. ⑤ 동명사구 주어 Making a game은 단수 취급이므로 was가 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        11,
+        4,
+        12,
+        17
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Every character looked really.",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Our game looked and sounded well.",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "There is many monsters on the island.",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I enjoyed playing the game.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Making a game were hard, but we did it together as a team.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_SUBJECT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "윗글의 (a), (b), (c)에 들어갈 말로 가장 적절한 것은?\n\n· Every character looked (a)[real / really].\n· Our game (b)[looked / was looked] and sounded good.\n· (c)[Make / Making] a game was hard, but we did it together as a team.",
+      "answer_key": "①",
+      "explanation": "(a) 감각동사 look의 보어 자리이므로 형용사 real. (b) look은 '~해 보이다'라는 뜻의 자동사라 수동태가 불가능하므로 looked. (c) 문장의 주어 자리이므로 동명사 Making이 와야 하고, 동사원형 Make는 올 수 없다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        11,
+        17
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) real — (b) looked — (c) Making",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) really — (b) looked — (c) Making",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) real — (b) was looked — (c) Making",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_INTRANS_PASSIVIZED",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) real — (b) looked — (c) Make",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_SUBJECT",
+          "via_modification": "EI_GERUND_TO_VERB",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) really — (b) was looked — (c) Make",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "①"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "윗글의 밑줄 친 부분 중 어법상 틀린 것은? (지문의 해당 문장을 아래에 옮김)",
+      "answer_key": "③",
+      "explanation": "③ enjoy는 동명사만을 목적어로 취하는 동사이므로 to play가 아니라 playing이 되어야 한다. 나머지는 모두 지문 원문 그대로이며 어법상 옳다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        12,
+        6,
+        16
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Last summer, my friends and I made our own adventure game.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Choose five items and get off the island.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "She said, \"I enjoyed to play the game.\"",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "So we added an ice lake stage and more useful items.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "We finally published the game on the app market.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "윗글의 흐름상 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "③",
+      "explanation": "수민이 '한 단계가 더 필요하고 아이템을 더 넣으라'고 제안했으므로, 그에 맞춰 단계와 아이템을 '추가했다(added)'가 되어야 한다. removed(제거했다)는 앞 문장의 제안과 정반대여서 흐름에 맞지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "[18] Then she ① shared her ideas.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[20] But it ends too ② soon.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[23] So we ③ removed an ice lake stage and more useful items.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[24] Now our game looked ④ great.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[27] Making a game was ⑤ hard, but we did it together as a team.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "윗글에서 수민이 한 말 중 밑줄 친 \"But it ends too soon.\"이 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "바로 뒤에 \"It needs one more stage.\"(한 단계가 더 필요하다)가 이어지므로, 게임이 너무 빨리 끝난다 = 분량이 부족하다는 지적이다. 실제로 팀은 ice lake 단계를 추가했다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "게임의 분량이 짧아서 더 긴 내용이 필요하다는 뜻이다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "게임을 끝내기까지 시간이 너무 오래 걸린다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "게임의 배경 음악이 너무 빨리 반복된다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "게임이 너무 어려워서 금방 포기하게 된다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "게임을 출시하기에 아직 이르다는 뜻이다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the best topic of the passage?",
+      "answer_key": "①",
+      "explanation": "글쓴이는 친구들과 각자 역할을 나누어 게임을 만든 과정을 소개하고, 마지막 문장에서 '함께 팀으로 해냈다'고 마무리한다. 따라서 ①이 주제로 가장 알맞다. ③④⑤는 지문의 일부 소재일 뿐이고 ②는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "how a group of friends made a game together as a team",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "why playing adventure games is bad for students",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "how to write music for a computer game",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best ways to get many reviews on the app market",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "the history of island adventure stories",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about the passage?",
+      "answer_key": "③",
+      "explanation": "게임의 모든 부분을 합친 사람은 코딩을 맡은 Minwoo이다(He put all the parts together). Jean은 주인공과 NPC를 그렸다. 나머지는 모두 본문과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "Hyunsu wrote the story of the game.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Sujin made the background music and monster sounds.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jean put all the parts of the game together.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Sumin played the game many times and shared her ideas.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The team published the game on the app market.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "윗글의 마지막 문장 \"Making a game was hard, but we did it ________.\"의 빈칸에 들어갈 말로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "글 전체가 Hyunsu, Sujin, Jean, Minwoo, Sumin이 각자 역할을 맡아 협력한 과정을 보여 주고, 앞부분에도 'We worked together as a team.'이 나온다. 따라서 결론문의 빈칸에는 ①이 알맞다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "together as a team",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "without any help",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "for money only",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "in only one day",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "before summer began",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음은 윗글의 두 문장을 옮긴 것이다. 각 문장에서 어법상 틀린 부분을 하나씩 찾아 바르게 고쳐 쓰시오.\n(1) Every character looked really.\n(2) There is many monsters on the island.",
+      "answer_key": "(1) really → real  (2) is → are",
+      "explanation": "(1) look은 감각동사로 보어 자리에 형용사가 와야 하므로 부사 really를 형용사 real로 고친다. (2) There be 구문은 뒤에 오는 명사에 수를 맞추므로 복수 many monsters 앞에서는 are를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_SUBJECT",
+      "stem": "다음 우리말과 같도록 괄호 안의 단어를 모두 사용하여 영작하시오. (필요시 형태를 바꿀 것)\n게임을 만드는 것은 어려웠지만, 우리는 팀으로서 함께 그것을 해냈다.\n(make, a game, be, hard, but, we, do, it, together, as a team)",
+      "answer_key": "Making a game was hard, but we did it together as a team.",
+      "explanation": "'게임을 만드는 것'은 동명사구 주어 Making a game으로 쓰고, 동명사구 주어는 단수 취급하므로 be동사는 was. 뒤 절은 과거시제 did와 '팀으로서'를 뜻하는 전치사 as를 써서 as a team으로 마무리한다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        17,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같도록 주어진 단어를 바르게 배열하시오.\n나는 그 게임을 하는 것을 즐겼다.\n(the game / I / playing / enjoyed)",
+      "answer_key": "I enjoyed playing the game.",
+      "explanation": "enjoy는 동명사를 목적어로 취하는 동사이므로 enjoyed playing의 순서가 되고, 그 뒤에 playing의 목적어 the game이 온다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        12
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 27,
+    "tags_returned": 18,
+    "tags_kept": 18,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "④"
+        ]
+      },
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "①"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 본문 — Give LIKEs to Our Game",
+  "parts": [
+    "중1 L5 비상 본문 — Give LIKEs to Our Game"
+  ],
+  "passage_ids": [
+    "0784b656-9216-4f20-98c1-9453e4c3cbcf"
+  ],
+  "para_breaks": [
+    27
+  ],
+  "turn_breaks": [
+    27
+  ],
+  "kind": "textbook_reading",
+  "sentences": [
+    "Hi!",
+    "I’m Hyunsu.",
+    "Last summer, my friends and I made our own adventure game, “The Lost Island.”",
+    "We worked together as a team.",
+    "First, I wrote a story.",
+    "The story begins like this: One day you wake up on an island.",
+    "There are many monsters on the island.",
+    "You go through a high mountain, a long river, and a giant tower.",
+    "Choose five items and get off the island.",
+    "Sujin made the background music and monster sounds.",
+    "Jean drew the main character and NPCs.",
+    "Every character looked real.",
+    "Minwoo coded the game.",
+    "He put all the parts together.",
+    "Sounds, characters, and a story were in the game.",
+    "Our game looked and sounded good.",
+    "Sumin played the game many times.",
+    "Then she shared her ideas.",
+    "She said, “I enjoyed playing the game.",
+    "But it ends too soon.",
+    "It needs one more stage.",
+    "And add more items like a life jacket.”",
+    "So we added an ice lake stage and more useful items.",
+    "Now our game looked great.",
+    "We finally published the game on the app market.",
+    "We got a lot of reviews!",
+    "Making a game was hard, but we did it together as a team."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "말하는 사람의 이름은 현수이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1,
+        2
+      ],
+      "why_ko": "\"I'm Hyunsu.\"라고 자기를 소개한다.",
+      "_evidence_text": [
+        "Hi!",
+        "I’m Hyunsu."
+      ],
+      "_repeat": false,
+      "statement_en": "The person telling this story is named Hyunsu."
+    },
+    {
+      "type": "content",
+      "statement_ko": "현수와 친구들은 지난 겨울에 모험 게임을 만들었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "지난 겨울이 아니라 지난 여름(Last summer)이다.",
+      "_evidence_text": [
+        "Last summer, my friends and I made our own adventure game, “The Lost Island.”"
+      ],
+      "_repeat": false,
+      "statement_en": "Hyunsu and his friends created their adventure game last winter."
+    },
+    {
+      "type": "content",
+      "statement_ko": "현수는 게임을 혼자서 만들었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "팀으로 함께 작업했다(We worked together as a team).",
+      "_evidence_text": [
+        "We worked together as a team."
+      ],
+      "_repeat": false,
+      "statement_en": "Hyunsu made the game all by himself."
+    },
+    {
+      "type": "content",
+      "statement_ko": "현수가 맡은 일은 이야기를 쓰는 것이었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "First, I wrote a story.라고 했다.",
+      "_evidence_text": [
+        "First, I wrote a story."
+      ],
+      "_repeat": false,
+      "statement_en": "Hyunsu's job was to write the story."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이야기는 주인공이 섬에서 잠을 깨는 장면으로 시작한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "One day you wake up on an island로 시작한다.",
+      "_evidence_text": [
+        "The story begins like this: One day you wake up on an island."
+      ],
+      "_repeat": false,
+      "statement_en": "In the story, the main person opens their eyes on an island at the start."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 섬에는 몬스터가 많이 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "There are many monsters on the island.",
+      "_evidence_text": [
+        "There are many monsters on the island."
+      ],
+      "_repeat": false,
+      "statement_en": "A lot of monsters live on that island."
+    },
+    {
+      "type": "content",
+      "statement_ko": "주인공은 높은 산, 긴 강, 그리고 깊은 동굴을 지나간다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "깊은 동굴이 아니라 거대한 탑(a giant tower)이다.",
+      "_evidence_text": [
+        "You go through a high mountain, a long river, and a giant tower."
+      ],
+      "_repeat": false,
+      "statement_en": "The player passes a high mountain, a long river, and a deep cave."
+    },
+    {
+      "type": "content",
+      "statement_ko": "섬을 빠져나가려면 아이템을 세 개 골라야 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "세 개가 아니라 다섯 개(five items)를 고른다.",
+      "_evidence_text": [
+        "Choose five items and get off the island."
+      ],
+      "_repeat": false,
+      "statement_en": "To leave the island, you must pick three items."
+    },
+    {
+      "type": "content",
+      "statement_ko": "배경음악과 몬스터 소리는 민우가 만들었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "소리를 만든 사람은 민우가 아니라 수진이다.",
+      "_evidence_text": [
+        "Sujin made the background music and monster sounds."
+      ],
+      "_repeat": false,
+      "statement_en": "Minwoo created the background music and the monster sounds."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jean은 주인공과 NPC를 그렸다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "Jean drew the main character and NPCs.",
+      "_evidence_text": [
+        "Jean drew the main character and NPCs."
+      ],
+      "_repeat": false,
+      "statement_en": "Jean was the one who drew the main character and the NPCs."
+    },
+    {
+      "type": "content",
+      "statement_ko": "캐릭터들은 어색해 보였다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "모든 캐릭터가 진짜처럼 보였다(looked real)고 했다.",
+      "_evidence_text": [
+        "Every character looked real."
+      ],
+      "_repeat": false,
+      "statement_en": "The characters did not look real at all."
+    },
+    {
+      "type": "content",
+      "statement_ko": "게임 코딩을 한 사람은 민우이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "Minwoo coded the game.",
+      "_evidence_text": [
+        "Minwoo coded the game."
+      ],
+      "_repeat": false,
+      "statement_en": "Minwoo was in charge of coding the game."
+    },
+    {
+      "type": "content",
+      "statement_ko": "민우는 모든 부분을 하나로 합쳤다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "He put all the parts together.",
+      "_evidence_text": [
+        "He put all the parts together."
+      ],
+      "_repeat": false,
+      "statement_en": "Minwoo joined all the parts into one."
+    },
+    {
+      "type": "content",
+      "statement_ko": "게임 안에는 소리, 캐릭터, 이야기가 들어 있었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "Sounds, characters, and a story were in the game.",
+      "_evidence_text": [
+        "Sounds, characters, and a story were in the game."
+      ],
+      "_repeat": false,
+      "statement_en": "The game had sounds, characters, and a story inside it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그들의 게임은 보기에도 듣기에도 좋았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "Our game looked and sounded good.",
+      "_evidence_text": [
+        "Our game looked and sounded good."
+      ],
+      "_repeat": false,
+      "statement_en": "Their game was good to look at and good to listen to."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수민이는 게임을 딱 한 번만 해 보았다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "여러 번(many times) 해 보았다.",
+      "_evidence_text": [
+        "Sumin played the game many times."
+      ],
+      "_repeat": false,
+      "statement_en": "Sumin tried the game only one time."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수민이는 게임을 해 본 뒤에 자기 생각을 말해 주었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "Then she shared her ideas.",
+      "_evidence_text": [
+        "Then she shared her ideas."
+      ],
+      "_repeat": false,
+      "statement_en": "After playing, Sumin told the team what she thought."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수민이는 게임이 재미있었다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "I enjoyed playing the game.이라고 말했다.",
+      "_evidence_text": [
+        "She said, “I enjoyed playing the game."
+      ],
+      "_repeat": false,
+      "statement_en": "Sumin said that playing the game was fun."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수민이는 게임이 너무 길다고 지적했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "너무 길다가 아니라 너무 빨리 끝난다(ends too soon)고 했다.",
+      "_evidence_text": [
+        "But it ends too soon."
+      ],
+      "_repeat": false,
+      "statement_en": "Sumin said the game was too long."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수민이는 스테이지가 하나 더 필요하다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "It needs one more stage.",
+      "_evidence_text": [
+        "It needs one more stage."
+      ],
+      "_repeat": false,
+      "statement_en": "Sumin told them that the game needed one more stage."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수민이는 칼 같은 무기를 더 넣으라고 제안했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "무기가 아니라 구명조끼(a life jacket) 같은 아이템을 더 넣으라고 했다.",
+      "_evidence_text": [
+        "And add more items like a life jacket.”"
+      ],
+      "_repeat": false,
+      "statement_en": "Sumin asked them to put in more weapons, such as swords."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그들은 화산 스테이지를 새로 추가했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "화산이 아니라 얼음 호수(ice lake) 스테이지를 추가했다.",
+      "_evidence_text": [
+        "So we added an ice lake stage and more useful items."
+      ],
+      "_repeat": false,
+      "statement_en": "The team added a new volcano stage to the game."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수정한 뒤에 게임은 아주 멋져 보였다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "Now our game looked great.",
+      "_evidence_text": [
+        "Now our game looked great."
+      ],
+      "_repeat": false,
+      "statement_en": "After the changes, the game looked really great."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그들은 만든 게임을 학교 축제에서만 공개했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "앱 마켓(the app market)에 출시했다.",
+      "_evidence_text": [
+        "We finally published the game on the app market."
+      ],
+      "_repeat": false,
+      "statement_en": "They showed their game only at the school festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그들은 많은 리뷰를 받았다.",
+      "answer": "O",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "We got a lot of reviews!",
+      "_evidence_text": [
+        "We got a lot of reviews!"
+      ],
+      "_repeat": false,
+      "statement_en": "Many reviews came to them."
+    },
+    {
+      "type": "content",
+      "statement_ko": "현수는 게임을 만드는 일이 쉬웠다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "힘들었지만(hard) 팀으로 함께 해냈다고 했다.",
+      "_evidence_text": [
+        "Making a game was hard, but we did it together as a team."
+      ],
+      "_repeat": false,
+      "statement_en": "Hyunsu says that making the game was easy."
+    }
+  ],
+  "diagnostics": {
+    "returned": 26,
+    "kept": 26,
+    "by_type": {
+      "content": 26
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 14,
+      "X": 12
+    },
+    "sentences_covered": 27,
+    "sentence_count": 27,
+    "repeated": 0
+  }
+}

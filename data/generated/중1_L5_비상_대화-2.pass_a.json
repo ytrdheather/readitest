@@ -1,0 +1,604 @@
+{
+  "passage_id": "ec4501b3-ea8f-4e80-b48a-f7f87603c2a3",
+  "body_text_sha256": "f14f537070e50146392f1f3fdee18bb64d6dcfd65eedfa000761d03175fd9c99",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 23,
+      "span_end": 38,
+      "surface": "are you reading",
+      "sentence_no": 2,
+      "rationale": "지금 읽고 있는 중이므로 현재진행형 be + -ing. 'do you read' / 'are you read' / 'are you readed' 같은 오류를 유도할 수 있고, 의문사 what book 뒤 어순(조동사 도치)까지 함께 물을 수 있는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 43,
+      "span_end": 47,
+      "surface": "It’s",
+      "sentence_no": 3,
+      "rationale": "It is의 축약형 It's와 소유격 its의 구별. 'Its a book about robots.'처럼 아포스트로피를 뺀 형태로 오류를 심기 쉬운 전형적 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 55,
+      "span_end": 67,
+      "surface": "about robots",
+      "sentence_no": 3,
+      "rationale": "'~에 관한 책'은 a book about ~. of / for / with 등으로 바꿔 빈칸을 뚫기 가장 쉬운 전치사 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 80,
+      "span_end": 91,
+      "surface": "into robots",
+      "sentence_no": 4,
+      "rationale": "be into ~ = ~에 푹 빠져 있다. in / on / to 등으로 교체하거나 전치사를 삭제해 오답을 만들 수 있고, 의미 추론(어구추론) 문항의 핵심 표현이기도 하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "CO_SYNONYM"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 106,
+      "span_end": 123,
+      "surface": "really interested",
+      "sentence_no": 5,
+      "rationale": "형용사(분사형 보어) interested를 수식하는 것은 부사 really. 'real interested'처럼 형용사로 바꾸는 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 102,
+      "span_end": 123,
+      "surface": "I’m really interested",
+      "sentence_no": 5,
+      "rationale": "감정동사 interest는 사람이 주어일 때 be interested(수동). 'I'm really interesting'으로 바꾸는 현재분사/과거분사 혼동이 최빈출 오답.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 113,
+      "span_end": 133,
+      "surface": "interested in robots",
+      "sentence_no": 5,
+      "rationale": "be interested + in 고정 결합. in을 at/on/about으로 바꾸거나 삭제하는 변형이 가능하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 호칭으로 대화 시작",
+      "signal": "Hey",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문 — 대화의 화제를 여는 질문",
+      "signal": "What",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "응답 — 화제(로봇에 관한 책) 제시",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "전환질문 — 관심사 확인으로 화제 심화",
+      "signal": "Are you",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "주제문 — 남학생의 관심사를 확정하는 대화의 핵심",
+      "signal": "Yeah",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\n\nW: Hey, Jim. What book are you (a)[reading / read]?\nM: It’s a book (b)[about / of] robots.\nW: Are you into robots?\nM: Yeah, I’m really (c)[interested / interesting] in robots.",
+      "answer_key": "①",
+      "explanation": "(a) 지금 읽고 있는 중이므로 현재진행형 are you reading. 'are you read'는 불가능하다. (b) '~에 관한 책'은 a book about ~이며 a book of robots는 어색하다. (c) 사람이 주어인 감정 표현은 be interested in(수동). interesting은 사물이 흥미를 줄 때 쓴다. 따라서 ①.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) reading — (b) about — (c) interested",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) read — (b) about — (c) interested",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) reading — (b) of — (c) interested",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) reading — (b) about — (c) interesting",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) read — (b) of — (c) interesting",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 대화의 밑줄 친 부분 중 어법상 틀린 것은?\n\nW: Hey, Jim. ①What book are you reading?\nM: ②It’s a book ③about robots.\nW: ④Are you into robots?\nM: Yeah, ⑤I’m really interesting in robots.",
+      "answer_key": "⑤",
+      "explanation": "⑤ 주어가 사람(I)이므로 '관심이 있다'는 be interested in을 써야 한다. interesting은 '(남에게) 흥미를 주는'이라는 뜻이어서 I'm interesting in ~은 틀린 표현이다. ①은 현재진행 의문문 어순, ②는 It is의 축약, ③은 '~에 관한'의 about, ④는 be into(~에 빠져 있다)로 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        1,
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What book are you reading?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It’s",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "about",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Are you into robots?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I’m really interesting in robots",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "PRON_AGREEMENT",
+      "stem": "위 대화에서 가져온 다음 문장 중 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③은 'It is'의 축약형인 It’s가 되어야 한다. Its는 '그것의'라는 소유격이므로 뒤에 동사가 없는 Its a book ~은 문장이 성립하지 않는다. 나머지는 모두 본문 그대로의 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Hey, Jim.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "What book are you reading?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Its a book about robots.",
+          "is_answer": true,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Are you into robots?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Yeah, I’m really interested in robots.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 대화에서 문맥상 낱말의 쓰임이 적절하지 않은 것은?\n\nW: Hey, Jim. What book are you ①reading?\nM: It’s a ②book about ③robots.\nW: Are you ④into robots?\nM: Yeah, I’m really ⑤uninterested in robots.",
+      "answer_key": "⑤",
+      "explanation": "남학생은 Yeah라고 긍정으로 답하며 로봇에 관한 책을 읽고 있으므로 ⑤는 '관심 없는'이라는 uninterested가 아니라 interested가 되어야 문맥에 맞는다. ④ be into는 '~에 푹 빠져 있다'로 관심을 묻는 질문에 적절하다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "reading",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "book",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "robots",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "into",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "uninterested",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 Are you into robots?가 뜻하는 바로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "be into ~는 '~에 푹 빠져 있다, ~에 관심이 많다'라는 뜻의 표현이다. 바로 뒤에서 남학생이 I’m really interested in robots.라고 답하는 것으로 보아 ②가 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "너는 로봇 안으로 들어가 본 적이 있니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "너는 로봇에 관심이 많니?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "너는 로봇을 만들 수 있니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "너는 로봇을 사러 갈 거니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "너는 로봇을 무서워하니?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "②",
+      "explanation": "여학생이 어떤 책을 읽는지 묻고, 남학생이 로봇에 관한 책이라고 답한 뒤 로봇에 정말 관심이 있다고 말하므로 대화의 주제는 ② Jim의 로봇에 대한 관심이다. 로봇 제작, 도서 대출, 영화, 독후감은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a robot that Jim made at school",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Jim’s interest in robots",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "how to borrow books from the library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the girl’s favorite movie about robots",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "a book report the students must write",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "③",
+      "explanation": "Jim은 It’s a book about robots.라고 했으므로 ③이 일치한다. ① 동물이 아니라 로봇에 관한 책이고, ② Jim은 로봇에 정말 관심이 있다고 했으며, ④ 여학생이 책을 읽는다는 내용과 ⑤ 로봇을 사려 한다는 내용은 대화에 없다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Jim is reading a book about animals.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Jim is not interested in robots at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jim is reading a book about robots.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl is reading a book, too.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Jim wants to buy a robot at the store.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "다음 우리말과 같도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (대화의 두 번째 문장)\n\n우리말: 너는 무슨 책을 읽고 있니?\n단어: [ are / book / reading / what / you ]\n\n→ ______________________________?",
+      "answer_key": "What book are you reading?",
+      "explanation": "의문사구 What book을 문두에 두고, 현재진행형 의문문이므로 be동사 are를 주어 you 앞으로 보낸 뒤 reading을 쓴다. 'What book do you reading?'처럼 do를 쓰거나 'What book you are reading?'처럼 도치를 하지 않으면 틀린다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 위 대화의 마지막 문장을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 단어만 고칠 것)\n\nYeah, I’m really interesting in robots.",
+      "answer_key": "interesting → interested",
+      "explanation": "감정을 나타내는 동사 interest는 사람이 주어일 때 be interested in(관심이 있다)의 수동 형태로 쓴다. interesting은 '(남에게) 흥미를 주는'이라는 뜻이므로 사람 주어 I와 함께 쓰면 의미가 어긋난다. 전치사 in은 be interested와 고정 결합이므로 그대로 둔다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말을 <조건>에 맞게 영작하시오.\n\n우리말: 너는 로봇에 관심이 있니?\n<조건>\n1. be interested in 표현을 쓸 것\n2. 주어는 you로 하고 의문문으로 쓸 것\n3. 다섯 단어로 쓰고 물음표를 포함할 것",
+      "answer_key": "Are you interested in robots?",
+      "explanation": "be동사 의문문이므로 Are를 문두에 두고 주어 you를 쓴 뒤, be interested in(~에 관심이 있다)을 이어 쓴다. 전치사 in을 빠뜨리거나 interesting으로 쓰면 안 된다. 대화의 Are you into robots?와 같은 뜻이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

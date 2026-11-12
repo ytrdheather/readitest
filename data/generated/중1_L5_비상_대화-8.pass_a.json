@@ -1,0 +1,728 @@
+{
+  "passage_id": "586b60b5-43ae-41fd-90c1-c1556ff4e48d",
+  "body_text_sha256": "c131be22f716c3d7ab3849de66ed27afd6ad532336611e117c742c4dc37f204f",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 5,
+      "span_end": 12,
+      "surface": "watched",
+      "sentence_no": 1,
+      "rationale": "TV 프로그램을 본 것은 이미 끝난 과거의 일이므로 과거시제 watched가 맞다. watch / am watching / have watched 등으로 바꿔 시제 판단을 묻는 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 5,
+      "span_end": 25,
+      "surface": "watched a TV program",
+      "sentence_no": 1,
+      "rationale": "목적어(a TV program)를 가진 능동태 문장이라 수동태 변형(A TV program was watched by me) 또는 was watching / was watched by 누락 형태로 오류를 심기 쉬운 자리.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 26,
+      "span_end": 45,
+      "surface": "about James Sweeney",
+      "sentence_no": 1,
+      "rationale": "'~에 관한 프로그램'이라는 주제를 나타내는 전치사 about. for / of / with 등으로 바꿔 빈칸을 뚫기 가장 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 100,
+      "span_end": 105,
+      "surface": "to be",
+      "sentence_no": 4,
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 로 바꾼 오답을 만들 수 있는 핵심 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 114,
+      "span_end": 122,
+      "surface": "like him",
+      "sentence_no": 4,
+      "rationale": "전치사 like 뒤에는 목적격 him이 와야 한다. he / his 로 바꾼 격 오류를 유도할 수 있다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_FINITE",
+      "span_start": 166,
+      "span_end": 185,
+      "surface": "do you want to make",
+      "sentence_no": 6,
+      "rationale": "의문문에서 조동사 do 뒤에는 동사원형 want가 오고, 그 뒤 본동사 자리가 아닌 자리에는 준동사 to make가 온다. do you want making / are you want to make 식 오류 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 148,
+      "span_end": 165,
+      "surface": "What kind of game",
+      "sentence_no": 6,
+      "rationale": "'어떤 종류의 ~'를 뜻하는 kind of 의 of. for / in 등으로 바꿔 빈칸 출제가 가능하고 어순 배열 문제의 앞머리가 되는 자리.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_WORD_ORDER",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 197,
+      "span_end": 220,
+      "surface": "to make adventure games",
+      "sentence_no": 7,
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. making / make 로 바꾼 형태 오류 및 용법 구별(부사적 용법과의 구분) 출제 가능.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 225,
+      "span_end": 236,
+      "surface": "Sounds cool",
+      "sentence_no": 8,
+      "rationale": "감각동사 sound 뒤에는 보어로 형용사 cool이 와야 한다. coolly 처럼 부사로 바꾼 전형적 오답이 출제되는 1순위 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 245,
+      "span_end": 262,
+      "surface": "to play your game",
+      "sentence_no": 9,
+      "rationale": "want + to부정사 구조의 반복 확인 자리. want playing / want play 로 바꾼 오류 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 — 화제 제시(본 TV 프로그램)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "도입질문 — 인물 정보 요구",
+      "signal": "Who",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "정의 — 인물의 직업 설명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "주제문 — 화자의 소망(그와 같은 사람이 되고 싶다)",
+      "signal": "I want to",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 5,
+      "role": "요약문 — 그 인물이 롤모델임을 정리",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 6,
+      "role": "전환 — 구체적 질문으로 화제 좁히기",
+      "signal": "What kind of",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부 응답 — 만들고 싶은 게임 종류",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "반응 — 긍정적 평가",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "결론문 — 바람 표현으로 대화 마무리",
+      "signal": "someday",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 (a)~(c)에 들어갈 말로 가장 알맞게 짝지어진 것은?\n\n[4] I want (a)[to be / being] someone like him.\n[7] I want (c)[to make / making] adventure games.\n[8] M: Sounds (b)[cool / coolly].",
+      "answer_key": "①",
+      "explanation": "want는 목적어로 to부정사만 취하므로 (a) to be, (c) to make가 맞다. ②와 ④는 각각 want 뒤에 동명사를 써서 틀렸다. 감각동사 sound 뒤에는 형용사 보어가 오므로 (b)는 cool이며, ③의 coolly는 부사라서 보어가 될 수 없다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        6,
+        7,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to be - (b) cool - (c) to make",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) being - (b) cool - (c) to make",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to be - (b) coolly - (c) to make",
+          "is_answer": false,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to be - (b) cool - (c) making",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "②"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 옮긴 것이다. 밑줄 친 부분이 어법상 <보기> 중 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③은 want의 목적어 자리에 to being이라는 잘못된 형태를 썼다. want 뒤에는 to부정사(to be)가 와야 하므로 I want to be someone like him. 이 맞다. 나머지는 모두 본문과 같은 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        5,
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I watched a TV program about James Sweeney.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He is a famous game maker.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I want to being someone like him.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "What kind of game do you want to make?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I want to play your game someday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [
+        "②"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "위 대화를 다음과 같이 고쳐 썼을 때, 밑줄 친 부분 중 어법상 옳지 않은 것은?",
+      "answer_key": "⑤",
+      "explanation": "감각동사 sound 뒤에는 주격보어로 형용사가 와야 하므로 Sounds coolly가 아니라 Sounds cool이 맞다. ⓐ는 과거의 일을 나타내는 과거시제, ⓑ는 전치사 like 뒤의 목적격, ⓒ는 do 조동사 의문문 어순, ⓓ는 want의 목적어인 to부정사로 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        0,
+        4,
+        5,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "W: I ⓐwatched a TV program about James Sweeney.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "W: He is a famous game maker. I want to be someone ⓑlike him.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "M: What kind of game ⓒdo you want to make?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "W: I want ⓓto make adventure games.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "M: ⓔSounds coolly. I want to play your game someday.",
+          "is_answer": true,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "⑤",
+      "explanation": "친구가 모험 게임을 만들고 싶다고 하자 남자가 '멋지다'며 언젠가 그 게임을 해 보고 싶다고 말하는 흐름이므로 sell(팔다)이 아니라 play(하다)가 적절하다. 나머지 낱말은 모두 문맥에 맞다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        9
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I watched a TV program about James Sweeney.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "He is a famous game maker.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "I want to be someone like him.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "He is my role model.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I want to sell your game someday.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화에서 밑줄 친 someone like him이 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "바로 앞 문장에서 He is a famous game maker.라고 했고 뒤에 He is my role model.이라고 했으므로, someone like him은 '그처럼 유명한 게임 개발자'를 가리킨다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "James Sweeney처럼 유명한 게임 개발자",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "James Sweeney를 인터뷰하는 TV 프로그램 진행자",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "모험 게임을 즐겨 하는 사람",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "여자의 게임을 사 줄 친구",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "여자에게 게임을 가르쳐 준 선생님",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "여자는 TV에서 본 유명 게임 개발자를 롤모델로 소개하며 모험 게임을 만들고 싶다는 장래 희망을 말하고 있다. 따라서 주제는 '여자의 롤모델과 장래 희망'이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "the girl's role model and her future dream",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "how to play adventure games well",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the history of TV programs about games",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best way to buy a new game",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "why watching TV too much is bad",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하지 않는 것은?",
+      "answer_key": "④",
+      "explanation": "여자는 모험 게임을 '만들고 싶다(I want to make adventure games.)'고 했을 뿐 이미 만들었다는 언급은 없다. 나머지는 모두 대화에서 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The girl watched a TV program about James Sweeney.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "James Sweeney is a famous game maker.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The girl wants to be someone like James Sweeney.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The girl already made an adventure game on TV.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The boy wants to play the girl's game someday.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "위 대화의 빈칸에 들어갈 말로 가장 알맞은 것은?\n\nW: He is a famous game maker. I want to be someone like him. He is my ___________.",
+      "answer_key": "①",
+      "explanation": "'그와 같은 사람이 되고 싶다'는 앞 문장을 정리하는 자리이므로 '본보기가 되는 사람', 즉 role model이 들어가야 한다. 나머지는 그가 유명한 게임 개발자라는 설명과 연결되지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "role model",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "classmate",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "game player",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "TV program",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "old friend",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_FINITE",
+      "stem": "다음 우리말과 같도록 주어진 단어를 모두 배열하여 문장을 완성하시오. (대화의 [6]번 문장)\n\n우리말: 너는 어떤 종류의 게임을 만들고 싶니?\n단어: (make / what / do / game / you / kind / want / of / to)",
+      "answer_key": "What kind of game do you want to make?",
+      "explanation": "'어떤 종류의 ~'는 What kind of + 명사로 쓰고, 의문문이므로 조동사 do + 주어 you + 동사원형 want 순서로 이어진다. want의 목적어는 to부정사 to make이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음은 위 대화를 옮겨 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (2곳)\n\nM: Sounds coolly. I want playing your game someday.",
+      "answer_key": "coolly → cool / want playing → want to play",
+      "explanation": "감각동사 sound는 보어로 형용사를 취하므로 coolly가 아니라 cool로 고쳐야 한다. 또한 want는 목적어로 to부정사를 취하므로 want playing이 아니라 want to play가 되어야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        9
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 질문에 대한 여자의 대답을 <조건>에 맞게 영작하시오.\n\nM: What kind of game do you want to make?\nW: ______________________________\n\n<조건> 1) want, make, adventure games를 모두 사용할 것  2) 주어 I로 시작하는 5단어 이상의 완전한 문장으로 쓸 것",
+      "answer_key": "I want to make adventure games.",
+      "explanation": "want 뒤에는 목적어로 to부정사가 와야 하므로 want to make로 쓰고, 그 목적어로 adventure games를 붙인다. want making이나 want make는 틀린 형태이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 9,
+    "tags_returned": 10,
+    "tags_kept": 10,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "②"
+        ]
+      },
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "②"
+        ]
+      }
+    ]
+  }
+}

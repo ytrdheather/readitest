@@ -78,7 +78,9 @@ EXTERNAL = {
     "Hulbert": ["영덕중"],          # DB 제목은 "Homer B. Hulbert" — 가운데 이니셜 때문에 성만 맞춘다
     "Two Different Jobs": ["영일중"],        # 중1 L7
     "Challenge Upcycle": ["영일중"],         # 중1 L6 (2026-10-25)
-    "Holmenkollen": ["태장중"],              # 중2 L7 (2026-11-12)
+    "Holmenkollen": ["태장중", "영덕중"],     # 중2 L7 (2026-11-12). 영덕 More Reading Advanced 가 같은 글 · 같은 문제
+    "Songkran": ["영덕중"],                  # 중2 L7 More Reading Easy (2026-11-12)
+    "Pingxi": ["영덕중"],                    # 중2 L7 More Reading Basic (2026-11-12)
     "Homer B. Hulbert (태장)": ["태장중"],    # 영덕 판과 두 문장이 다른 태장 전용 (2026-09-23)
 }
 
@@ -92,7 +94,24 @@ LESSONS = {
     ("영덕중", "1"): ["L5", "L6", "L7"],   # 7과 학습지 도착 2026-11-12
     ("영일중", "1"): ["L5", "L6", "L7"],   # 원장 2026-09-21: 「영일중은 5·6·7이 시험범위」
     ("태장중", "1"): [],                   # 범위 미확인 — 2025 기말 기출 판독 뒤에 연다
-    ("청명중", "1"): [],                   # 비상 황종배. 동아 지문을 주면 안 된다. 자체 제작 안 함 (원장 2026-09-23)
+    ("청명중", "1"): ["L5"],               # 비상 황종배 — 원장 2026-11-12 「청명 5과 드릴 만들자」 (9/23 「자체 제작 안 함」 은 10/16 에 뒤집힘)
+}
+
+# 학교 × 학년 → 교과서. 없으면 동아. 학년·과만 보고 고르면 동아 중1 L5 와 비상 중1 L5 가
+# 서로의 권에 섞인다 (STATUS 10/16 경고). 비상 지문·어휘는 제목에 「비상」 이 들어 있다.
+BOOK = {
+    ("청명중", "1"): "비상",
+}
+
+
+def book_of(title):
+    return "비상" if "비상" in title else "동아"
+
+# 교과서 글인데 **학교가 다뤘다는 관측이 있는 곳에만** 싣는 지문. 지문 제목 일부 → 학교.
+# 중2 L7 Listen Up (교과서 121쪽 담화) — 청명 학습지가 받아쓰기로 냈다. 태장은 대화 학습지를
+# 못 받아 다뤘는지 모른다 (원장 2026-11-12 「청명꺼에만 넣어」). 다른 학교 학습지에서 보이면 여기에 더한다.
+ONLY_FOR = {
+    "L7 Listen Up": ["청명중"],
 }
 
 SECTION = {"textbook_dialogue": "대화문", "textbook_reading": "본문", "handout_external": "외부지문"}
@@ -146,17 +165,22 @@ def vocab_schools(d):
 def plan_for(school, G, L, passages, vocab):
     """학교 한 곳 · 학년 · 과 하나의 차례. [(구역, 지문 제목, [(렌더 종류, 파일, json, 언어, 이름)])]"""
     plan = []
+    book = BOOK.get((school, G), "동아")
 
     for name, p, d in vocab:
         t = d.get("title", "")
-        if L in t and grade_of(t) == G and school in vocab_schools(d):
+        if L in t and grade_of(t) == G and school in vocab_schools(d) and book_of(t) == book:
             plan.append(("어휘", t, [("vocab", p, d, None, "어휘")]))
 
     for sec_kind, sec in SECTION.items():
         units = [(u, v) for u, v in passages.items()
-                 if v["kind"] == sec_kind and v["lesson"] == L and v["grade"] == G]
-        units.sort(key=lambda uv: passage_rank(uv[1]["drills"]))
+                 if v["kind"] == sec_kind and v["lesson"] == L and v["grade"] == G
+                 and book_of(u) == book]
+        # Listen Up 은 교과서에서 대화(Watch and Talk) 뒤에 온다 — 파일 이름순으로는 앞에 선다
+        units.sort(key=lambda uv: (passage_rank(uv[1]["drills"]), "Listen Up" in uv[0]))
         for unit, v in units:
+            if any(k in unit and school not in who for k, who in ONLY_FOR.items()):
+                continue
             if sec_kind == "handout_external":
                 # 'Hulbert' 는 태장 제목에도 들어 있다. 가장 긴 키 하나만 쓴다.
                 hit = sorted((t for t in EXTERNAL if t in unit), key=len, reverse=True)

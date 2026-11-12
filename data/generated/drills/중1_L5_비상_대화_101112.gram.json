@@ -1,0 +1,266 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ⑩⑪⑫",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L5 비상 대화-10",
+    "중1 L5 비상 대화-11",
+    "중1 L5 비상 대화-12"
+  ],
+  "body": "A: What are you interested in?\nB: I’m interested in sports.\nA: Then what do you want to be in the future?\nB: I want to be a soccer player.\nM: Jane, what are you interested in?\nW: I’m into sports. How about you?\nM: I’m interested in fashion. I really like caps and shoes.\nM: Nancy, what are you reading?\nW: I’m reading a book about computer programming.\nM: Oh, are you into programming?\nW: Yeah, I want to be a computer programmer someday.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "98506b1b-29d3-471d-b07b-e4f9c41c0f63",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 16,
+      "span_end": 29,
+      "correct": "interested in",
+      "wrong": [
+        "interested at",
+        "interested with",
+        "interested"
+      ],
+      "why_ko": "'~에 관심이 있다'는 be interested in으로 전치사 in이 고정이라, at/with로 바꾸거나 in을 빼면 틀립니다.",
+      "rationale": "be interested in: 관심 대상 앞 전치사는 in으로 고정. at/on/with로 바꾸거나 in을 삭제하는 오류(특히 의문문 끝 전치사 탈락) 유도 가능",
+      "sentence_no": 1,
+      "sentence": "A: What are you interested in?"
+    },
+    {
+      "tag_id": "99e95173-ea79-417c-8d06-75e3dacc8608",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 34,
+      "span_end": 59,
+      "correct": "I’m interested in sports.",
+      "wrong": [
+        "I’m interesting in sports.",
+        "I interest in sports."
+      ],
+      "why_ko": "사람이 주어일 때는 감정을 '받는' 쪽이므로 be interested(수동)를 쓰고, interesting은 '흥미로운 것'을 말할 때 씁니다.",
+      "rationale": "감정동사 interest의 수동형(be + p.p.) 보어. I'm interesting in sports처럼 현재분사형으로 바꾸는 오답 유도",
+      "sentence_no": 2,
+      "sentence": "B: I’m interested in sports."
+    },
+    {
+      "tag_id": "4cdd8d25-d1d7-4792-a078-664b402f193e",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 68,
+      "span_end": 90,
+      "correct": "what do you want to be",
+      "wrong": [
+        "what do you want being",
+        "what do you want be"
+      ],
+      "why_ko": "want는 뒤에 to부정사만 목적어로 쓰므로 want to be가 맞습니다.",
+      "rationale": "want는 목적어로 to부정사만 취함. want being / want be 형태 오류 유도",
+      "sentence_no": 3,
+      "sentence": "A: Then what do you want to be in the future?"
+    },
+    {
+      "tag_id": "3c8be740-6db1-4043-ab80-e1de1d6c6824",
+      "point": "PREP_USAGE",
+      "span_start": 91,
+      "span_end": 104,
+      "correct": "in the future",
+      "wrong": [
+        "on the future",
+        "at the future"
+      ],
+      "why_ko": "'미래에'는 in the future로 굳어진 표현이라 전치사를 바꿀 수 없습니다.",
+      "rationale": "미래 시점을 나타내는 굳어진 부사구의 전치사 in. on/at the future로 바꾸는 빈칸 출제가 전형적",
+      "sentence_no": 3,
+      "sentence": "A: Then what do you want to be in the future?"
+    },
+    {
+      "tag_id": "6d6191f3-5644-4502-9519-1384ba25f4a0",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 116,
+      "span_end": 137,
+      "correct": "to be a soccer player",
+      "wrong": [
+        "be a soccer player",
+        "being a soccer player"
+      ],
+      "why_ko": "want의 목적어 자리이므로 to부정사(to be)가 와야 하고, to를 빼거나 동명사로 쓰면 틀립니다.",
+      "rationale": "want의 목적어 자리에 온 to부정사의 명사적 용법. to 생략이나 being 대체 오류 구별",
+      "sentence_no": 4,
+      "sentence": "B: I want to be a soccer player."
+    },
+    {
+      "tag_id": "4edb6932-e7c2-4b45-beda-ed46dd139a9a",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 153,
+      "span_end": 171,
+      "correct": "are you interested",
+      "wrong": [
+        "are you interesting",
+        "do you interested"
+      ],
+      "why_ko": "사람 주어에는 be interested(수동)를 쓰며, be동사 의문문이므로 do를 쓰면 안 됩니다.",
+      "rationale": "감정동사 interest는 사람이 주어일 때 be interested(수동). are you interesting 으로 바꾼 분사 혼동 선지가 중1 시험의 단골 오답이다.",
+      "sentence_no": 5,
+      "sentence": "M: Jane, what are you interested in?"
+    },
+    {
+      "tag_id": "6d59a511-87bc-436b-b7a2-12e570558f33",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 161,
+      "span_end": 174,
+      "correct": "interested in",
+      "wrong": [
+        "interested about",
+        "interested with",
+        "interested"
+      ],
+      "why_ko": "be interested in의 in은 고정이고, what이 in의 목적어라 문장 끝에 in이 꼭 남아야 합니다.",
+      "rationale": "be interested in ~ 은 전치사 in이 고정된 결합. interested at / interested about / interested with 로 바꾼 선지나 전치사를 삭제(EI_PREP_DELETE)한 선지로 출제 가능. 의문사 what이 전치사 in의 목적어라 문장 끝에 in이 남는 구조도 함께 물을 수 있다.",
+      "sentence_no": 5,
+      "sentence": "M: Jane, what are you interested in?"
+    },
+    {
+      "tag_id": "d5ad5c90-aa4a-4c69-81dd-d39204389037",
+      "point": "PREP_USAGE",
+      "span_start": 183,
+      "span_end": 187,
+      "correct": "into",
+      "wrong": [
+        "onto",
+        "in to",
+        "at"
+      ],
+      "why_ko": "'~에 푹 빠져 있다'는 be into ~로, into를 한 단어로 써야 합니다.",
+      "rationale": "be into ~ (~에 푹 빠져 있다)의 전치사 into. onto / in to / at 등으로 바꾸거나 빈칸으로 뚫어 묻기 쉬운 자리.",
+      "sentence_no": 6,
+      "sentence": "W: I’m into sports."
+    },
+    {
+      "tag_id": "0d38804a-dad6-476a-a329-2ddceb780677",
+      "point": "PRON_AGREEMENT",
+      "span_start": 200,
+      "span_end": 209,
+      "correct": "about you",
+      "wrong": [
+        "about your",
+        "about yours"
+      ],
+      "why_ko": "전치사 about 뒤에는 목적격 you가 와야 하고, 소유격 your는 올 수 없습니다.",
+      "rationale": "전치사 about 뒤에는 목적격 you가 와야 한다. How about your? / How about yours? 처럼 소유격·소유대명사로 바꾼 오답 선지를 만들 수 있다.",
+      "sentence_no": 7,
+      "sentence": "How about you?"
+    },
+    {
+      "tag_id": "d49ca32e-a7ee-4412-87cd-4d9ffddbf078",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 243,
+      "span_end": 254,
+      "correct": "really like",
+      "wrong": [
+        "real like",
+        "really likes"
+      ],
+      "why_ko": "동사 like를 꾸미므로 부사 really가 맞고, 주어가 I라서 likes도 안 됩니다.",
+      "rationale": "동사 like를 수식하므로 부사 really. real like 로 바꾼 형용사·부사 혼동 선지가 가능하며, 주어 I와의 수일치(likes) 오류도 같은 자리에 심을 수 있다.",
+      "sentence_no": 9,
+      "sentence": "I really like caps and shoes."
+    },
+    {
+      "tag_id": "e8605d6e-bebe-4b56-8069-cd7b85d797e7",
+      "point": "CONJ_PARALLEL",
+      "span_start": 255,
+      "span_end": 269,
+      "correct": "caps and shoes",
+      "wrong": [
+        "caps and shoe",
+        "cap and shoes"
+      ],
+      "why_ko": "and로 이어진 두 명사는 같은 형태(복수)로 맞춰야 자연스럽습니다.",
+      "rationale": "and로 연결된 복수명사 병렬. caps and shoe / cap and shoes 처럼 수를 어긋나게 하여 병렬을 깨는 변형이 가능.",
+      "sentence_no": 9,
+      "sentence": "I really like caps and shoes."
+    },
+    {
+      "tag_id": "9d2d1d33-4320-49c0-8b61-63df14936fa2",
+      "point": "VERB_TENSE",
+      "span_start": 286,
+      "span_end": 301,
+      "correct": "are you reading",
+      "wrong": [
+        "do you read",
+        "are you read",
+        "do you reading"
+      ],
+      "why_ko": "지금 하고 있는 일을 묻는 현재진행형 의문문이므로 'be동사+주어+-ing' 형태여야 합니다.",
+      "rationale": "현재 진행 중인 동작을 묻는 현재진행형 의문문(be동사+주어+-ing). 'do you read' / 'are you read' / 'do you reading' 같은 형태 오류를 유도할 수 있다.",
+      "sentence_no": 10,
+      "sentence": "M: Nancy, what are you reading?"
+    },
+    {
+      "tag_id": "2246f5a3-b4e3-4c61-a3de-da8568954cf2",
+      "point": "VERB_TENSE",
+      "span_start": 306,
+      "span_end": 317,
+      "correct": "I’m reading",
+      "wrong": [
+        "I read",
+        "I am read"
+      ],
+      "why_ko": "진행형 질문에 맞춰 be동사+-ing로 답해야 하고, am read는 틀린 형태입니다.",
+      "rationale": "질문(현재진행)에 호응하는 현재진행 대답. 'I read' / 'I am read' 로 바꾼 오답 선지를 만들기 쉬운 자리.",
+      "sentence_no": 11,
+      "sentence": "W: I’m reading a book about computer programming."
+    },
+    {
+      "tag_id": "990a4028-511a-45d6-a832-529a95ba4479",
+      "point": "PREP_USAGE",
+      "span_start": 325,
+      "span_end": 351,
+      "correct": "about computer programming",
+      "wrong": [
+        "for computer programming",
+        "with computer programming"
+      ],
+      "why_ko": "'~에 관한 책'은 a book about ~으로 써야 합니다.",
+      "rationale": "'~에 관한 책'의 a book about ~. 전치사를 빈칸으로 뚫어 for/of/with 와 고르게 하는 전형적 출제 지점.",
+      "sentence_no": 11,
+      "sentence": "W: I’m reading a book about computer programming."
+    },
+    {
+      "tag_id": "2ea054d8-0f7a-440a-8075-f0bde0a41993",
+      "point": "PREP_USAGE",
+      "span_start": 368,
+      "span_end": 384,
+      "correct": "into programming",
+      "wrong": [
+        "in programming",
+        "into program",
+        "on programming"
+      ],
+      "why_ko": "be into ~는 고정 표현이고, 전치사 뒤에는 동명사 programming이 와야 합니다.",
+      "rationale": "be into ~ (~에 푹 빠져 있다)의 고정 전치사. into 대신 in/on/for 를 넣은 오답, 또는 뒤에 동명사가 아닌 to부정사를 쓰는 오류를 유도할 수 있다.",
+      "sentence_no": 12,
+      "sentence": "M: Oh, are you into programming?"
+    },
+    {
+      "tag_id": "7d56116d-b83d-426c-b131-7ad2388295b4",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 397,
+      "span_end": 407,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be",
+        "want becoming"
+      ],
+      "why_ko": "want는 to부정사만 목적어로 취하므로 want to be가 맞습니다.",
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be / want becoming 같은 오답 선지가 바로 만들어지는 자리.",
+      "sentence_no": 13,
+      "sentence": "W: Yeah, I want to be a computer programmer someday."
+    }
+  ],
+  "diagnostics": {
+    "returned": 16,
+    "kept": 16,
+    "given": 16,
+    "rejects": []
+  }
+}

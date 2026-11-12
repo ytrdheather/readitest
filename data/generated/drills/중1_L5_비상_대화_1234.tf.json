@@ -1,0 +1,490 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ①②③④",
+  "parts": [
+    "중1 L5 비상 대화-1",
+    "중1 L5 비상 대화-2",
+    "중1 L5 비상 대화-3",
+    "중1 L5 비상 대화-4"
+  ],
+  "passage_ids": [
+    "4208dd49-bcbb-4b55-94d6-04c89b2b4642",
+    "ec4501b3-ea8f-4e80-b48a-f7f87603c2a3",
+    "6d0b8a24-23f8-45a7-b86e-1b5a7ab65557",
+    "41f4c279-10bb-453a-95d2-c6844aa73d6b"
+  ],
+  "para_breaks": [
+    8,
+    13,
+    19,
+    28
+  ],
+  "turn_breaks": [
+    2,
+    5,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    27,
+    28
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "M: Wow.",
+    "This bookstore is really big.",
+    "W: Yeah.",
+    "There are many sections.",
+    "What are you interested in?",
+    "M: I’m interested in cooking these days.",
+    "W: Okay.",
+    "Let’s go to that section first.",
+    "W: Hey, Jim.",
+    "What book are you reading?",
+    "M: It’s a book about robots.",
+    "W: Are you into robots?",
+    "M: Yeah, I’m really interested in robots.",
+    "M: Look.",
+    "People are playing a new game over there.",
+    "W: Let’s go play it.",
+    "I’m really interested in games.",
+    "M: Well, I’m not good at playing games, but I will try it.",
+    "W: Great!",
+    "W: What is your science report about, Toby?",
+    "M: It is about robots.",
+    "W: Oh, are you interested in robots?",
+    "M: Yes.",
+    "They are really cool.",
+    "What’s your report about, Jessica?",
+    "W: Well, I’m really into VR games.",
+    "So I’m writing about them.",
+    "M: VR games are really interesting, too."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "남자는 이 서점이 정말 크다고 감탄한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1,
+        2
+      ],
+      "why_ko": "남자가 'Wow. This bookstore is really big.'이라고 말한다.",
+      "_evidence_text": [
+        "M: Wow.",
+        "This bookstore is really big."
+      ],
+      "_repeat": false,
+      "statement_en": "The man is surprised and says the bookstore is very big."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 이 서점에 구역(section)이 별로 없다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3,
+        4
+      ],
+      "why_ko": "여자는 구역이 많다(many sections)고 말했다.",
+      "_evidence_text": [
+        "W: Yeah.",
+        "There are many sections."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says this bookstore has only a few sections."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자가 여자에게 무엇에 관심이 있는지 먼저 물어본다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "무엇에 관심 있는지 물어본 사람은 여자다.",
+      "_evidence_text": [
+        "What are you interested in?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man is the first one to ask the other person what she is interested in."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 요즘 운동에 관심이 있다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "남자는 요즘 요리(cooking)에 관심이 있다고 했다.",
+      "_evidence_text": [
+        "M: I’m interested in cooking these days."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says he is interested in sports these days."
+    },
+    {
+      "type": "content",
+      "statement_ko": "두 사람은 남자가 관심 있어 하는 분야의 구역에 먼저 가기로 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6,
+        8
+      ],
+      "why_ko": "남자가 요리에 관심 있다고 하자 여자가 그 구역에 먼저 가자고 했다.",
+      "_evidence_text": [
+        "M: I’m interested in cooking these days.",
+        "Let’s go to that section first."
+      ],
+      "_repeat": true,
+      "statement_en": "They decide to visit the section about the man's interest first."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 남자의 대답에 'Okay'라고 반응한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "여자가 'Okay.'라고 답한다.",
+      "_evidence_text": [
+        "W: Okay."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman answers the man by saying \"Okay.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 그 구역에는 나중에 가자고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "여자는 그 구역에 먼저(first) 가자고 제안했다.",
+      "_evidence_text": [
+        "Let’s go to that section first."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says they should go to that section later."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 상대방을 Jim이라고 부른다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "여자가 'Hey, Jim.'이라고 부른다.",
+      "_evidence_text": [
+        "W: Hey, Jim."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman calls the other person Jim."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 남자에게 무슨 영화를 보고 있는지 묻는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "여자는 무슨 책을 읽고 있는지 물었다.",
+      "_evidence_text": [
+        "What book are you reading?"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman asks the man which movie he is watching."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자가 읽고 있는 책은 우주에 관한 책이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "남자가 읽는 책은 로봇에 관한 책이다.",
+      "_evidence_text": [
+        "M: It’s a book about robots."
+      ],
+      "_repeat": false,
+      "statement_en": "The book the man is reading is about space."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 남자에게 로봇을 좋아하느냐고 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "여자가 'Are you into robots?'라고 묻는다.",
+      "_evidence_text": [
+        "W: Are you into robots?"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman asks the man if he likes robots."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 로봇에 정말 관심이 있다고 답한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "남자가 'I'm really interested in robots.'라고 답한다.",
+      "_evidence_text": [
+        "M: Yeah, I’m really interested in robots."
+      ],
+      "_repeat": false,
+      "statement_en": "The man answers that he is really interested in robots."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 'Look.'이라고 말하며 상대의 주의를 끈다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "남자가 'Look.'이라고 말한다.",
+      "_evidence_text": [
+        "M: Look."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says \"Look.\" to get the other person's attention."
+    },
+    {
+      "type": "content",
+      "statement_ko": "저쪽에서 사람들이 새로 나온 책을 읽고 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "사람들은 새 게임을 하고 있다.",
+      "_evidence_text": [
+        "People are playing a new game over there."
+      ],
+      "_repeat": false,
+      "statement_en": "Over there, people are reading a new book."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 가서 그 게임을 해 보자고 제안한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "여자가 'Let's go play it.'이라고 말한다.",
+      "_evidence_text": [
+        "W: Let’s go play it."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman suggests that they go and play the game."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자의 제안에 남자는 잘하지는 못해도 해 보겠다고 한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        16,
+        18
+      ],
+      "why_ko": "여자가 하자고 하자 남자가 'I will try it.'이라고 답한다.",
+      "_evidence_text": [
+        "W: Let’s go play it.",
+        "M: Well, I’m not good at playing games, but I will try it."
+      ],
+      "_repeat": true,
+      "statement_en": "The man says he is not good at the game, but he will still try it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 게임에는 별로 관심이 없다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "여자는 게임에 정말 관심이 많다고 했다.",
+      "_evidence_text": [
+        "I’m really interested in games."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says she is not very interested in games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 자신이 게임을 잘한다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        18
+      ],
+      "why_ko": "남자는 게임을 잘하지 못한다고 말했다.",
+      "_evidence_text": [
+        "M: Well, I’m not good at playing games, but I will try it."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says that he plays games well."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 남자의 대답에 'Great!'이라며 반가워한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        19
+      ],
+      "why_ko": "여자가 'Great!'이라고 반응한다.",
+      "_evidence_text": [
+        "W: Great!"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman is happy about the man's answer and says \"Great!\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 Toby에게 과학 보고서가 무엇에 관한 것인지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        20
+      ],
+      "why_ko": "여자가 'What is your science report about, Toby?'라고 묻는다.",
+      "_evidence_text": [
+        "W: What is your science report about, Toby?"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman asks Toby what the topic of his science report is."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Toby의 보고서는 VR 게임에 관한 것이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        21
+      ],
+      "why_ko": "Toby의 보고서는 로봇에 관한 것이다.",
+      "_evidence_text": [
+        "M: It is about robots."
+      ],
+      "_repeat": false,
+      "statement_en": "Toby's report is about VR games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 Toby에게 로봇에 관심이 있는지 다시 확인하듯 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        22
+      ],
+      "why_ko": "여자가 'are you interested in robots?'라고 묻는다.",
+      "_evidence_text": [
+        "W: Oh, are you interested in robots?"
+      ],
+      "_repeat": false,
+      "statement_en": "The woman asks Toby again to make sure he is interested in robots."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Toby는 로봇에 관심이 없다고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        23
+      ],
+      "why_ko": "Toby는 'Yes.'라고 답했다.",
+      "_evidence_text": [
+        "M: Yes."
+      ],
+      "_repeat": false,
+      "statement_en": "Toby answers that he is not interested in robots."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Toby는 로봇이 정말 멋지다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        24
+      ],
+      "why_ko": "Toby가 'They are really cool.'이라고 말한다.",
+      "_evidence_text": [
+        "They are really cool."
+      ],
+      "_repeat": false,
+      "statement_en": "Toby says that robots are really cool."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jessica가 먼저 Toby에게 보고서 주제가 무엇인지 묻는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        25
+      ],
+      "why_ko": "Jessica에게 보고서 주제를 물은 사람은 Toby(남자)다.",
+      "_evidence_text": [
+        "What’s your report about, Jessica?"
+      ],
+      "_repeat": false,
+      "statement_en": "Jessica is the one who asks Toby what his report is about, and then Toby asks her."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jessica는 VR 게임에 푹 빠져 있다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        26
+      ],
+      "why_ko": "Jessica가 'I'm really into VR games.'라고 말한다.",
+      "_evidence_text": [
+        "W: Well, I’m really into VR games."
+      ],
+      "_repeat": false,
+      "statement_en": "Jessica says she is really into VR games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jessica는 VR 게임에 대해 보고서를 쓰고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        27
+      ],
+      "why_ko": "Jessica가 'So I'm writing about them.'이라고 말한다.",
+      "_evidence_text": [
+        "So I’m writing about them."
+      ],
+      "_repeat": false,
+      "statement_en": "Jessica is writing her report about VR games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 VR 게임이 지루하다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        28
+      ],
+      "why_ko": "남자는 VR 게임도 정말 흥미롭다고 말했다.",
+      "_evidence_text": [
+        "M: VR games are really interesting, too."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says that VR games are boring."
+    }
+  ],
+  "diagnostics": {
+    "returned": 28,
+    "kept": 28,
+    "by_type": {
+      "content": 28
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 15,
+      "X": 13
+    },
+    "sentences_covered": 28,
+    "sentence_count": 28,
+    "repeated": 2
+  }
+}

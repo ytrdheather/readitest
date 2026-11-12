@@ -1,0 +1,325 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L7 외부지문 — Songkran",
+  "kind": "handout_external",
+  "parts": [
+    "Songkran"
+  ],
+  "body": "Hi! I'm Lucas. I'm in Thailand now. I came here with my sister for a special festival, Songkran. People in Thailand celebrate it in April. It is very hot in April, so this festival is perfect for this time of year. On the first day, people clean their homes. It means a new and fresh start. Then, they go outside with water guns and buckets. They throw water at everyone around them. It's like a big water fight on the streets! I got very wet, but I loved it. Thai people also pour water on the hands of older family members to show respect. Everyone looks happy and kind. I think Songkran is a great festival. People forget their worries and just have fun! I want to come back again next year with my whole family.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "a085ac0b-4f1a-40b3-a08d-f822a382e574",
+      "point": "PREP_USAGE",
+      "span_start": 48,
+      "span_end": 62,
+      "correct": "with my sister",
+      "wrong": [
+        "by my sister"
+      ],
+      "why_ko": "'~와 함께'라는 동반의 뜻은 with로 쓴다. by(수단), for(위하여)는 뜻이 다르다.",
+      "rationale": "동반을 나타내는 전치사 with. by / for 등으로 교체하거나 삭제하는 빈칸 출제 가능",
+      "sentence_no": 4,
+      "sentence": "I came here with my sister for a special festival, Songkran.",
+      "verify_dropped": [
+        {
+          "wrong": "for my sister",
+          "judgement": "odd",
+          "note_ko": "문법은 되지만 뒤의 for a special festival과 겹쳐 의미가 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "bd9aaf4c-ac67-4e87-870b-4d12a6bf8e4a",
+      "point": "VERB_SVA",
+      "span_start": 97,
+      "span_end": 125,
+      "correct": "People in Thailand celebrate",
+      "wrong": [
+        "People in Thailand celebrates",
+        "People in Thailand is celebrate"
+      ],
+      "why_ko": "주어는 복수 People이므로 동사도 celebrate. 중간의 in Thailand에 속아 celebrates로 쓰면 안 된다.",
+      "rationale": "주어 People 과 동사 사이에 수식어구 in Thailand 가 끼어 있어 celebrates 로 잘못 수일치시키는 오류 유도",
+      "sentence_no": 5,
+      "sentence": "People in Thailand celebrate it in April."
+    },
+    {
+      "tag_id": "966bb276-4bd7-47a1-8686-f48bde94e9c3",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 116,
+      "span_end": 137,
+      "correct": "celebrate it in April",
+      "wrong": [
+        "is celebrated it in April",
+        "are celebrated it in April"
+      ],
+      "why_ko": "목적어 it이 있으므로 능동태 celebrate가 맞다. 수동태는 뒤에 목적어를 둘 수 없다.",
+      "rationale": "목적어 it 를 가진 능동태. 'It is celebrated in April' 로 전환하거나 'is celebrating / was celebrated by' 식 형태 오류를 심을 수 있는 자리",
+      "sentence_no": 5,
+      "sentence": "People in Thailand celebrate it in April."
+    },
+    {
+      "tag_id": "25cce3fd-47db-4437-ae23-af660b872afe",
+      "point": "IT_CLEFT",
+      "span_start": 139,
+      "span_end": 162,
+      "correct": "It is very hot in April",
+      "wrong": [
+        "There is very hot in April",
+        "It is very hotly in April"
+      ],
+      "why_ko": "날씨를 말할 때는 비인칭 주어 It을 쓰고 보어로 형용사 hot을 쓴다.",
+      "rationale": "날씨를 나타내는 비인칭 주어 it. 앞 문장의 it(=Songkran)과 쓰임이 다름을 묻는 '쓰임이 다른 it' 문항 소재",
+      "sentence_no": 6,
+      "sentence": "It is very hot in April, so this festival is perfect for this time of year."
+    },
+    {
+      "tag_id": "afa82864-be5d-4077-a4eb-e817ac7c8f0c",
+      "point": "PREP_USAGE",
+      "span_start": 215,
+      "span_end": 231,
+      "correct": "On the first day",
+      "wrong": [
+        "In the first day",
+        "At the first day"
+      ],
+      "why_ko": "특정한 '날' 앞에는 전치사 on을 쓴다.",
+      "rationale": "특정한 날 앞에는 on. in / at 과 구별하는 전형적 빈칸 자리",
+      "sentence_no": 7,
+      "sentence": "On the first day, people clean their homes."
+    },
+    {
+      "tag_id": "79854565-6997-4858-b13c-453e41cd0ce8",
+      "point": "CONJ_PARALLEL",
+      "span_start": 268,
+      "span_end": 289,
+      "correct": "a new and fresh start",
+      "wrong": [
+        "a new and freshly start",
+        "a newly and fresh start"
+      ],
+      "why_ko": "and로 이어진 두 말은 같은 품사여야 하고, 명사 start를 꾸미므로 둘 다 형용사라야 한다.",
+      "rationale": "and 로 형용사 new / fresh 가 병렬. 한쪽을 부사나 명사로 바꿔 병렬을 깨는 오류 유도",
+      "sentence_no": 8,
+      "sentence": "It means a new and fresh start."
+    },
+    {
+      "tag_id": "9e163c1a-2b76-46ba-add5-9a622a54cc53",
+      "point": "PREP_USAGE",
+      "span_start": 313,
+      "span_end": 340,
+      "correct": "with water guns and buckets",
+      "wrong": [
+        "by water guns and buckets",
+        "in water guns and buckets"
+      ],
+      "why_ko": "물건을 '가지고' 나간다는 소지의 뜻은 with로 쓴다.",
+      "rationale": "소지·휴대를 나타내는 with. by / in 으로 교체하는 빈칸 출제 가능",
+      "sentence_no": 9,
+      "sentence": "Then, they go outside with water guns and buckets."
+    },
+    {
+      "tag_id": "a8828aa3-a855-417d-8e83-9656e035785b",
+      "point": "PRON_INDEFINITE",
+      "span_start": 362,
+      "span_end": 382,
+      "correct": "everyone around them",
+      "wrong": [
+        "everyone around they",
+        "every ones around them"
+      ],
+      "why_ko": "전치사 around 뒤에는 목적격 them을 쓰고, everyone은 단수 취급하는 한 단어이다.",
+      "rationale": "부정대명사 everyone 은 단수 취급이며 뒤에서 전치사구의 수식을 받음. every one / all people 과의 구별 및 수일치 오류 유도",
+      "sentence_no": 10,
+      "sentence": "They throw water at everyone around them."
+    },
+    {
+      "tag_id": "df9525c0-1980-4622-b2fa-f056ab808b96",
+      "point": "PRON_AGREEMENT",
+      "span_start": 384,
+      "span_end": 411,
+      "correct": "It's like a big water fight",
+      "wrong": [
+        "Its like a big water fight",
+        "It's likes a big water fight"
+      ],
+      "why_ko": "It's는 It is의 줄임말이고 Its는 소유격이라 동사가 없어진다.",
+      "rationale": "It's(=It is)와 소유격 Its 의 구별. Its like ~ 로 바꾸는 전형적 오류",
+      "sentence_no": 11,
+      "sentence": "It's like a big water fight on the streets!"
+    },
+    {
+      "tag_id": "652f1bea-7f9b-43e4-a964-1caae763ff37",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 430,
+      "span_end": 442,
+      "correct": "got very wet",
+      "wrong": [
+        "got very wetly",
+        "got very wetness"
+      ],
+      "why_ko": "get은 뒤에 형용사 보어를 취하므로 wet이 맞다.",
+      "rationale": "get 은 보어로 형용사를 취함. wetly 로 바꾸는 형용사↔부사 오류 유도",
+      "sentence_no": 12,
+      "sentence": "I got very wet, but I loved it."
+    },
+    {
+      "tag_id": "4581b532-3ca7-4833-a4ef-9dbe98f05646",
+      "point": "PREP_USAGE",
+      "span_start": 477,
+      "span_end": 500,
+      "correct": "pour water on the hands",
+      "wrong": [
+        "pour water in the hands",
+        "pour water at the hands"
+      ],
+      "why_ko": "표면에 붓는 접촉의 뜻이므로 on을 쓴다.",
+      "rationale": "표면 접촉을 나타내는 on. in / at 으로 교체하는 오류 유도",
+      "sentence_no": 13,
+      "sentence": "Thai people also pour water on the hands of older family members to show respect."
+    },
+    {
+      "tag_id": "ffa208c5-4ec6-4470-a70c-a553a71ba5df",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 525,
+      "span_end": 540,
+      "correct": "to show respect",
+      "wrong": [
+        "for show respect"
+      ],
+      "why_ko": "'~하기 위해'라는 목적은 to부정사로 나타낸다.",
+      "rationale": "목적을 나타내는 부사적 용법의 to부정사. showing / for show / show 로 바꾸는 오류 유도",
+      "sentence_no": 13,
+      "sentence": "Thai people also pour water on the hands of older family members to show respect.",
+      "verify_dropped": [
+        {
+          "wrong": "showing respect",
+          "judgement": "ok",
+          "note_ko": "분사구문으로 성립하는 문장."
+        }
+      ]
+    },
+    {
+      "tag_id": "370661a5-3d36-4195-9197-3cc42a012317",
+      "point": "VERB_SVA",
+      "span_start": 542,
+      "span_end": 556,
+      "correct": "Everyone looks",
+      "wrong": [
+        "Everyone look",
+        "Everyone are look"
+      ],
+      "why_ko": "Everyone은 단수 취급하므로 동사에 -s를 붙여 looks로 쓴다.",
+      "rationale": "Everyone 은 단수 취급이므로 looks. look 으로 바꾸는 수일치 오류 유도",
+      "sentence_no": 14,
+      "sentence": "Everyone looks happy and kind."
+    },
+    {
+      "tag_id": "8c61f85d-7cc4-431b-8446-6bde3a70dfaa",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 551,
+      "span_end": 571,
+      "correct": "looks happy and kind",
+      "wrong": [
+        "looks happily and kindly",
+        "looks happily and kind"
+      ],
+      "why_ko": "감각동사 look 뒤에는 형용사 보어가 와야 한다.",
+      "rationale": "감각동사 look 뒤에는 형용사 보어. happily / kindly 로 바꾸는 오류 유도",
+      "sentence_no": 14,
+      "sentence": "Everyone looks happy and kind."
+    },
+    {
+      "tag_id": "9e4eaaeb-a183-414e-b040-4b8dd9107b28",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 573,
+      "span_end": 592,
+      "correct": "I think Songkran is",
+      "wrong": [
+        "I think what Songkran is",
+        "I think that what Songkran is"
+      ],
+      "why_ko": "think의 목적어절을 이끄는 접속사는 that(생략 가능)이고, 뒤 문장이 완전하므로 what은 쓸 수 없다.",
+      "rationale": "think 의 목적어절을 이끄는 접속사 that 이 생략된 구조. what 으로 바꾸는 오류 유도",
+      "sentence_no": 15,
+      "sentence": "I think Songkran is a great festival."
+    },
+    {
+      "tag_id": "6c76cd9c-06ad-4a61-ab9c-84e87adf3049",
+      "point": "CONJ_PARALLEL",
+      "span_start": 618,
+      "span_end": 656,
+      "correct": "forget their worries and just have fun",
+      "wrong": [
+        "forget their worries and just having fun",
+        "forget their worries and just has fun"
+      ],
+      "why_ko": "and 앞뒤 동사는 같은 형태여야 하므로 forget과 짝이 되는 have가 맞다.",
+      "rationale": "and 로 동사원형 forget / have 가 병렬. having 이나 has 로 바꿔 병렬을 깨는 오류 유도",
+      "sentence_no": 16,
+      "sentence": "People forget their worries and just have fun!"
+    },
+    {
+      "tag_id": "23a5f3de-85ae-4597-992d-edb928f88a05",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 660,
+      "span_end": 677,
+      "correct": "want to come back",
+      "wrong": [
+        "want coming back",
+        "want come back"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 취한다.",
+      "rationale": "want 는 목적어로 to부정사만 취함. coming back 으로 바꾸는 오류 유도",
+      "sentence_no": 17,
+      "sentence": "I want to come back again next year with my whole family."
+    },
+    {
+      "tag_id": "93be3c99-3069-4713-b7bd-01a444f1156b",
+      "point": "PREP_USAGE",
+      "span_start": 694,
+      "span_end": 714,
+      "correct": "with my whole family",
+      "wrong": [
+        "by my whole family"
+      ],
+      "why_ko": "'~와 함께'라는 동반의 뜻이므로 with를 쓴다.",
+      "rationale": "동반의 with. 빈칸으로 뚫어 by / for 와 고르게 하는 출제 가능",
+      "sentence_no": 17,
+      "sentence": "I want to come back again next year with my whole family.",
+      "verify_dropped": [
+        {
+          "wrong": "for my whole family",
+          "judgement": "ok",
+          "note_ko": "문법적으로 성립하며 뜻만 달라짐."
+        }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "returned": 20,
+    "kept": 20,
+    "given": 20,
+    "rejects": [
+      [
+        "came",
+        "wrong 이 본문에 실재함: 'come'"
+      ]
+    ],
+    "verify": {
+      "dropped_items": [
+        [
+          "came",
+          "모든 오답이 실은 맞는 표현이라 버림: have come(ok)"
+        ],
+        [
+          "throw water at everyone",
+          "모든 오답이 실은 맞는 표현이라 버림: throw water to everyone(ok), throw water on everyone(ok)"
+        ]
+      ],
+      "dropped_wrongs": 3
+    }
+  },
+  "verified": true
+}

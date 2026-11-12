@@ -1,0 +1,298 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L7 외부지문 — Pingxi Sky Lantern Festival",
+  "kind": "handout_external",
+  "parts": [
+    "Pingxi Sky Lantern Festival"
+  ],
+  "body": "The Pingxi Sky Lantern festival is one of Taiwan's most famous celebrations. It takes place every year in February or March. This festival marks the end of the Lunar New Year. People from all over Taiwan and many visitors from other countries come to the small town of Shifen to take part in this special event. During the festival, people write their wishes, dreams, and messages of hope on colorful paper lanterns. Then, they light the lanterns and release them into the night sky. As hundreds of glowing lanterns float upward, the dark sky becomes bright and magical. People believe that this tradition brings good luck and happiness for the year ahead. Families, friends, and tourists all enjoy the peaceful and joyful moments. The Pingxi Sky Lantern Festival is not only beautiful but also full of meaning—It is time to dream and share hope with others.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "fd5bb318-a4a8-4a5a-8d41-e0c6c845ebd8",
+      "point": "MOD_COMPARATIVE",
+      "span_start": 35,
+      "span_end": 75,
+      "correct": "one of Taiwan's most famous celebrations",
+      "wrong": [
+        "one of Taiwan's most famous celebration"
+      ],
+      "why_ko": "'one of + 최상급 + 복수명사' 구문이라 celebrations(복수)여야 하고, 여럿 중 하나를 고르는 뜻이므로 비교급 more가 아니라 최상급 most를 씁니다.",
+      "rationale": "'one of + 최상급 + 복수명사' 구문. celebration(단수)로 바꾸거나 more famous로 바꾼 오답을 유도할 수 있다.",
+      "sentence_no": 1,
+      "sentence": "The Pingxi Sky Lantern festival is one of Taiwan's most famous celebrations.",
+      "verify_dropped": [
+        {
+          "wrong": "one of Taiwan's more famous celebrations",
+          "judgement": "ok",
+          "note_ko": "'one of the more famous ~' 형태는 영어로 성립. 의미만 약해짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "c7a56bc1-0bd4-4cb7-8491-31bbd8ce3339",
+      "point": "VERB_SVA",
+      "span_start": 80,
+      "span_end": 123,
+      "correct": "takes place every year in February or March",
+      "wrong": [
+        "take place every year in February or March",
+        "is taken place every year in February or March"
+      ],
+      "why_ko": "주어 It이 3인칭 단수라 takes여야 하고, take place는 목적어를 못 가지는 자동사구라 수동태로 쓸 수 없습니다.",
+      "rationale": "주어 It에 대한 3인칭 단수 현재형 takes. take로 바꾸는 수일치 오류 유도. 또한 takes place는 자동사구라 수동태(is taken place) 불가.",
+      "sentence_no": 2,
+      "sentence": "It takes place every year in February or March."
+    },
+    {
+      "tag_id": "f32ea8cb-bb6e-4001-977f-d53a58d2fbbc",
+      "point": "PREP_USAGE",
+      "span_start": 103,
+      "span_end": 123,
+      "correct": "in February or March",
+      "wrong": [
+        "on February or March",
+        "at February or March"
+      ],
+      "why_ko": "달(월) 이름 앞에는 전치사 in을 씁니다. on은 날짜·요일, at은 시각에 씁니다.",
+      "rationale": "월 앞 전치사 in. on/at으로 바꾼 선지를 빈칸으로 뚫기 쉬운 자리.",
+      "sentence_no": 2,
+      "sentence": "It takes place every year in February or March."
+    },
+    {
+      "tag_id": "f6182cdb-943e-488a-9671-1225a70b44cd",
+      "point": "VERB_SVA",
+      "span_start": 243,
+      "span_end": 275,
+      "correct": "come to the small town of Shifen",
+      "wrong": [
+        "comes to the small town of Shifen",
+        "coming to the small town of Shifen"
+      ],
+      "why_ko": "주어가 People ... and many visitors로 복수라서 come이 맞고, 이 문장의 본동사 자리라 comes나 -ing형은 쓸 수 없습니다.",
+      "rationale": "주어는 People ... and many visitors(복수)이고 수식어구(from all over Taiwan)가 길어 comes로 바꾸는 수일치 함정이 가능하다.",
+      "sentence_no": 4,
+      "sentence": "People from all over Taiwan and many visitors from other countries come to the small town of Shifen to take part in this special event."
+    },
+    {
+      "tag_id": "8ea363cf-caf4-4f3d-be9d-fde91d5f3794",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 276,
+      "span_end": 310,
+      "correct": "to take part in this special event",
+      "wrong": [
+        "take part in this special event"
+      ],
+      "why_ko": "'~하기 위해'라는 목적을 나타내는 부사적 용법의 to부정사 자리이므로 to+동사원형을 씁니다.",
+      "rationale": "목적을 나타내는 부사적 용법의 to부정사. taking/take로 바꾸는 준동사 형태 오류 유도.",
+      "sentence_no": 4,
+      "sentence": "People from all over Taiwan and many visitors from other countries come to the small town of Shifen to take part in this special event.",
+      "verify_dropped": [
+        {
+          "wrong": "taking part in this special event",
+          "judgement": "odd",
+          "note_ko": "분사구로 읽으면 문법은 되나 목적을 나타내기에 매우 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "9795b5af-0d1e-4a61-a7fd-1442e27454da",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 279,
+      "span_end": 291,
+      "correct": "take part in",
+      "wrong": [
+        "take part",
+        "take part on"
+      ],
+      "why_ko": "take part in이 '~에 참가하다'라는 고정 표현이라 in을 빼거나 다른 전치사로 바꿀 수 없습니다.",
+      "rationale": "take part in(~에 참가하다) 고정 전치사. in 삭제 또는 on/at 교체 오류 유도.",
+      "sentence_no": 4,
+      "sentence": "People from all over Taiwan and many visitors from other countries come to the small town of Shifen to take part in this special event."
+    },
+    {
+      "tag_id": "85367db4-6ec0-4c71-8af7-2bf37279de3a",
+      "point": "CONJ_VS_PREP",
+      "span_start": 312,
+      "span_end": 331,
+      "correct": "During the festival",
+      "wrong": [
+        "While the festival"
+      ],
+      "why_ko": "뒤에 명사구가 오므로 전치사 During을 씁니다. While은 '주어+동사' 절을 이끄는 접속사입니다.",
+      "rationale": "명사구 앞이므로 전치사 During. 절을 이끄는 While로 바꾸는 접속사 vs 전치사 함정 자리.",
+      "sentence_no": 5,
+      "sentence": "During the festival, people write their wishes, dreams, and messages of hope on colorful paper lanterns.",
+      "verify_dropped": [
+        {
+          "wrong": "For the festival",
+          "judgement": "ok",
+          "note_ko": "전치사+명사구로 문법상 성립하며 의미만 달라짐."
+        }
+      ]
+    },
+    {
+      "tag_id": "484e31c7-63e4-44d1-9e29-3002c8405079",
+      "point": "CONJ_PARALLEL",
+      "span_start": 346,
+      "span_end": 388,
+      "correct": "their wishes, dreams, and messages of hope",
+      "wrong": [
+        "their wishes, dreams, and to hope messages"
+      ],
+      "why_ko": "and로 연결된 세 항목은 모두 같은 형태의 명사(구)여야 병렬이 맞습니다.",
+      "rationale": "A, B, and C 병렬 명사구. 한 항목만 동사/to부정사 형태로 바꿔 병렬을 깨는 변형이 가능.",
+      "sentence_no": 5,
+      "sentence": "During the festival, people write their wishes, dreams, and messages of hope on colorful paper lanterns.",
+      "verify_dropped": [
+        {
+          "wrong": "their wishes, dream, and messages of hope",
+          "judgement": "ok",
+          "note_ko": "단수 dream도 문법적으로 가능하여 틀렸다고 볼 수 없음."
+        }
+      ]
+    },
+    {
+      "tag_id": "31ed9836-9e37-421a-8f26-65035fa05520",
+      "point": "CONJ_PARALLEL",
+      "span_start": 423,
+      "span_end": 463,
+      "correct": "they light the lanterns and release them",
+      "wrong": [
+        "they light the lanterns and releasing them",
+        "they light the lanterns and releases them"
+      ],
+      "why_ko": "and로 연결된 두 동사는 형태가 같아야 하므로 light와 짝이 되는 release가 맞습니다.",
+      "rationale": "and로 연결된 두 동사 light/release의 병렬. releasing 또는 releases로 바꾸는 병렬·수일치 오류 유도.",
+      "sentence_no": 6,
+      "sentence": "Then, they light the lanterns and release them into the night sky."
+    },
+    {
+      "tag_id": "8147387d-40aa-484f-a25a-29787b56f4dc",
+      "point": "PREP_USAGE",
+      "span_start": 451,
+      "span_end": 482,
+      "correct": "release them into the night sky",
+      "wrong": [
+        "release them in the night sky",
+        "release them on the night sky"
+      ],
+      "why_ko": "밖에서 안으로 들어가는 이동·방향을 나타내므로 into를 씁니다. in은 이미 안에 있는 상태를 뜻합니다.",
+      "rationale": "방향·이동을 나타내는 into. in/on으로 바꾼 선지 가능.",
+      "sentence_no": 6,
+      "sentence": "Then, they light the lanterns and release them into the night sky."
+    },
+    {
+      "tag_id": "bc5f4506-2dbc-4dd3-8d77-4a6c22401b33",
+      "point": "VOICE_PARTICIPLE",
+      "span_start": 484,
+      "span_end": 528,
+      "correct": "As hundreds of glowing lanterns float upward",
+      "wrong": [
+        "As hundreds of glowed lanterns float upward"
+      ],
+      "why_ko": "등이 스스로 빛나는 능동의 의미라서 현재분사 glowing을 씁니다. glowed는 '빛남을 당한'이라는 어색한 수동 의미입니다.",
+      "rationale": "lanterns가 스스로 빛나므로 현재분사 glowing. glowed로 바꾸는 분사 뒤집기 함정.",
+      "sentence_no": 7,
+      "sentence": "As hundreds of glowing lanterns float upward, the dark sky becomes bright and magical.",
+      "verify_dropped": [
+        {
+          "wrong": "As hundreds of glow lanterns float upward",
+          "judgement": "odd",
+          "note_ko": "명사+명사 결합으로 읽히나 관용적이지 않아 매우 어색함."
+        }
+      ]
+    },
+    {
+      "tag_id": "95613124-94d9-4c38-abe7-f1e75c6186bf",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 530,
+      "span_end": 569,
+      "correct": "the dark sky becomes bright and magical",
+      "wrong": [
+        "the dark sky becomes brightly and magically",
+        "the dark sky becomes brightly and magical"
+      ],
+      "why_ko": "become 뒤의 보어 자리에는 부사가 아니라 형용사가 와야 합니다.",
+      "rationale": "become 뒤 보어는 형용사. brightly/magically로 바꾸는 형용사-부사 함정.",
+      "sentence_no": 7,
+      "sentence": "As hundreds of glowing lanterns float upward, the dark sky becomes bright and magical."
+    },
+    {
+      "tag_id": "501a45f7-ad57-477b-bd9a-d68223c2eb49",
+      "point": "NOUN_CLAUSE_THAT",
+      "span_start": 578,
+      "span_end": 622,
+      "correct": "believe that this tradition brings good luck",
+      "wrong": [
+        "believe what this tradition brings good luck",
+        "believe which this tradition brings good luck"
+      ],
+      "why_ko": "뒤에 주어·동사·목적어가 다 갖춰진 완전한 문장이 오므로 접속사 that을 씁니다. what은 빠진 성분이 있는 불완전한 절을 이끕니다.",
+      "rationale": "believe의 목적어를 이끄는 명사절 접속사 that. what으로 바꾸면 불완전절이 필요하므로 오류 — what vs that 구별 유도.",
+      "sentence_no": 8,
+      "sentence": "People believe that this tradition brings good luck and happiness for the year ahead."
+    },
+    {
+      "tag_id": "9244ae38-489d-4adb-85c6-e2d341d9be8c",
+      "point": "VERB_SVA",
+      "span_start": 657,
+      "span_end": 698,
+      "correct": "Families, friends, and tourists all enjoy",
+      "wrong": [
+        "Families, friends, and tourists all enjoys",
+        "Families, friends, and tourists all enjoying"
+      ],
+      "why_ko": "and로 이어진 복수 주어이므로 동사는 enjoy입니다.",
+      "rationale": "복수 주어 세 개에 대한 동사 enjoy. enjoys로 바꾸는 수일치 함정.",
+      "sentence_no": 9,
+      "sentence": "Families, friends, and tourists all enjoy the peaceful and joyful moments."
+    },
+    {
+      "tag_id": "08273587-3b67-434f-bdbf-d9937bc4d802",
+      "point": "CONJ_PARALLEL",
+      "span_start": 767,
+      "span_end": 810,
+      "correct": "not only beautiful but also full of meaning",
+      "wrong": [
+        "not only beautiful but also has meaning",
+        "not only beauty but also full of meaning"
+      ],
+      "why_ko": "not only A but also B에서 A와 B는 같은 품사·형태여야 하므로 둘 다 형용사구로 맞춰야 합니다.",
+      "rationale": "not only A but also B에서 A·B가 모두 형용사구로 병렬. 한쪽을 명사/동사로 바꾸면 병렬이 깨진다.",
+      "sentence_no": 10,
+      "sentence": "The Pingxi Sky Lantern Festival is not only beautiful but also full of meaning—It is time to dream and share hope with others."
+    },
+    {
+      "tag_id": "754f2ac0-e623-47fa-8a47-fac64b789a87",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 822,
+      "span_end": 857,
+      "correct": "to dream and share hope with others",
+      "wrong": [
+        "to dream and sharing hope with others",
+        "to dream and to sharing hope with others"
+      ],
+      "why_ko": "to에 두 동사가 병렬로 걸리므로 share(동사원형)가 맞습니다. sharing은 형태가 어긋납니다.",
+      "rationale": "time을 수식하는 형용사적 용법 to부정사이며, dream과 share가 to에 병렬 연결. sharing으로 바꾸는 병렬 오류 유도.",
+      "sentence_no": 10,
+      "sentence": "The Pingxi Sky Lantern Festival is not only beautiful but also full of meaning—It is time to dream and share hope with others."
+    }
+  ],
+  "diagnostics": {
+    "returned": 17,
+    "kept": 17,
+    "given": 17,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "float upward",
+          "모든 오답이 실은 맞는 표현이라 버림: are floated upward(odd), float upwardly(odd)"
+        ]
+      ],
+      "dropped_wrongs": 5
+    }
+  },
+  "verified": true
+}

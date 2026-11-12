@@ -38,16 +38,21 @@ def gather(rest, units):
     대화문은 짧아서(중앙값 44단어) 한 편으로는 학습지가 안 되므로
     `--unit "L5 대화-1" --unit "L5 대화-2" …` 처럼 여러 개를 묶는다.
     """
+    def hit(t, u):
+        # 「대화-1」 이 「대화-10 · 11 · 12」 까지 잡지 않게 — 뒤가 숫자로 이어지면 다른 지문이다 (청명중1 비상 2026-11-12)
+        t, u = t.lower(), u.lower()
+        return t.startswith(u) and not t[len(u):len(u) + 1].isdigit()
+
     rows = [p for p in rest.get("/passage?select=id,title,kind,body_text,transcription_status")
             if p["transcription_status"] == "confirmed"
-            and any((p["title"] or "").lower().startswith(u.lower()) for u in units)]
+            and any(hit(p["title"] or "", u) for u in units)]
     if not rows:
         return None
 
     def order(p):
         t = p["title"] or ""
         for i, u in enumerate(units):                     # 준 순서를 지킨다
-            if t.lower().startswith(u.lower()):
+            if hit(t, u):
                 m = re.search(r"-(\d+)$", t)
                 return (i, int(m.group(1)) if m else 0)
         return (99, 0)

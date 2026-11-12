@@ -66,6 +66,11 @@ UNITS = [
     ("L7 본문 — Seasonal Festivals Around the World",
      ["중2 L7 본문 — Seasonal Festivals Around the World"]),
     ("L7 외부지문 — Holmenkollen Ski Festival", ["Holmenkollen Ski Festival"]),
+    # 영덕중2 L7 More Reading Easy · Basic (2026-11-12). Advanced 는 위 Holmenkollen 과 같은 글.
+    ("L7 외부지문 — Songkran", ["Songkran"]),
+    ("L7 외부지문 — Pingxi Sky Lantern Festival", ["Pingxi Sky Lantern Festival"]),
+    # 교과서 121쪽 담화. 청명 학습지가 받아쓰기로 냈다 — 권에는 청명만 (build_school_drills.ONLY_FOR).
+    ("L7 Listen Up — ABC World Food Festival", ["중2 L7 Listen Up"]),
     # 중1 (2026-09-18). 대화 8편이라 3·3·2. 제목 앞의 '중1' 로 중2 와 구분한다.
     ("중1 L5 대화 ①②③", ["중1 L5 대화-1", "중1 L5 대화-2", "중1 L5 대화-3"]),
     ("중1 L5 대화 ④⑤⑥", ["중1 L5 대화-4", "중1 L5 대화-5", "중1 L5 대화-6"]),
@@ -84,6 +89,13 @@ UNITS = [
     ("중1 L6 외부지문 — Challenge Upcycle", ["Challenge Upcycle"]),          # 영일 (2026-10-25)
     # 태장 L6 외부지문 — 영덕과 같은 Hulbert 지문이지만 두 문장이 다르다 (2026-09-23).
     ("L6 외부지문 — Homer B. Hulbert (태장)", ["Homer B. Hulbert (태장)"]),
+    # 청명중1 5과 — 비상 황종배 (2026-11-12). 대화 12편: EC1 A1~3·C / EC2 A1~3 / EC2 C1·C3 / Talk & Play · Wrap Up 1·2.
+    # 제목의 「비상」 이 build_school_drills.book_of() 로 동아 중1 L5 와 가른다.
+    ("중1 L5 비상 대화 ①②③④", ["중1 L5 비상 대화-1", "중1 L5 비상 대화-2", "중1 L5 비상 대화-3", "중1 L5 비상 대화-4"]),
+    ("중1 L5 비상 대화 ⑤⑥⑦", ["중1 L5 비상 대화-5", "중1 L5 비상 대화-6", "중1 L5 비상 대화-7"]),
+    ("중1 L5 비상 대화 ⑧⑨", ["중1 L5 비상 대화-8", "중1 L5 비상 대화-9"]),
+    ("중1 L5 비상 대화 ⑩⑪⑫", ["중1 L5 비상 대화-10", "중1 L5 비상 대화-11", "중1 L5 비상 대화-12"]),
+    ("중1 L5 비상 본문 — Give LIKEs to Our Game", ["중1 L5 비상 본문 — Give LIKEs to Our Game"]),
 ]
 EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부물",
             "L6 외부지문 — Yu Gwansun": "영덕중 배부물",
@@ -91,7 +103,9 @@ EXTERNAL = {"L5 외부지문 — A girl with a red balloon": "영일중 배부�
             "중1 L7 외부지문 — Two Different Jobs": "영일중 배부물",
             "중1 L6 외부지문 — Challenge Upcycle": "영일중 배부물",
             "L6 외부지문 — Homer B. Hulbert (태장)": "태장중 배부물",
-            "L7 외부지문 — Holmenkollen Ski Festival": "태장중 배부물"}
+            "L7 외부지문 — Holmenkollen Ski Festival": "태장중 · 영덕중 배부물",
+            "L7 외부지문 — Songkran": "영덕중 배부물",
+            "L7 외부지문 — Pingxi Sky Lantern Festival": "영덕중 배부물"}
 
 
 def slug(title):
@@ -132,7 +146,7 @@ def gather(rest):
         body = body.rstrip("\n")
         utags = [t for t in utags if t["span_end"] <= len(body)]
         units.append({"title": title, "kind": rows[0]["kind"],
-                      "book": EXTERNAL.get(title, "동아 윤정미"),
+                      "book": EXTERNAL.get(title, "비상 황종배" if "비상" in title else "동아 윤정미"),
                       "parts": [p["title"] for p in rows],
                       "body": body, "tags": utags})
     return units

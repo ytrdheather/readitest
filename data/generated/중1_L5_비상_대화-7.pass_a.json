@@ -1,0 +1,434 @@
+{
+  "passage_id": "84626c28-bb3a-4674-adb8-73436167731f",
+  "body_text_sha256": "e1be351b3df66c905245e7d48e9288e3f208cafdf20e87782f46cebbe66f7da3",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 3,
+      "span_end": 32,
+      "surface": "Is there a musician’s section",
+      "sentence_no": 1,
+      "rationale": "There is/are 구문에서 뒤에 오는 실제 주어(a musician's section, 단수)에 be동사를 맞춰야 함. Are there / Is there 선택 오류를 유도할 수 있음",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 48,
+      "span_end": 63,
+      "surface": "it’s over there",
+      "sentence_no": 2,
+      "rationale": "it is의 축약형 it's와 소유격 its의 구별. its over there로 바꾸면 동사가 사라져 비문이 됨",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 64,
+      "span_end": 77,
+      "surface": "in the corner",
+      "sentence_no": 2,
+      "rationale": "'구석에'는 in the corner. at/on the corner로 바꾸는 전치사 선택 오류를 유도할 수 있는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 79,
+      "span_end": 97,
+      "surface": "Are you interested",
+      "sentence_no": 3,
+      "rationale": "감정동사 interest는 사람 주어일 때 be + p.p.(interested) 형태. Are you interesting으로 바꾸는 능동·수동 혼동 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 87,
+      "span_end": 106,
+      "surface": "interested in music",
+      "sentence_no": 3,
+      "rationale": "be interested in은 전치사 in으로 고정. on/about/with로 교체하거나 전치사를 삭제하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 124,
+      "span_end": 134,
+      "surface": "want to be",
+      "sentence_no": 5,
+      "rationale": "want는 목적어로 to부정사만 취함. want being / want be 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 129,
+      "span_end": 145,
+      "surface": "to be a musician",
+      "sentence_no": 5,
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 부사적·형용사적 용법과 구별하는 쓰임 문항으로 쓸 수 있음",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_WORD_ORDER"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답(위치 정보 제공)",
+      "signal": "Yeah",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "화제 전환 질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "긍정 답변",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "주제문(자신의 희망 진술)",
+      "signal": null,
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "위 대화의 문장을 옮긴 것이다. 어법상 <보기> 중 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "be interested는 전치사 in과 짝을 이루어 'be interested in ~(~에 관심이 있다)'으로 쓴다. ③은 in이 빠져 있으므로 Are you interested in music?이 되어야 한다. ①은 there 구문에서 단수 주어 a musician's section에 Is가 맞고, ②의 it's는 it is의 축약, ⑤의 want to be도 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        0,
+        1,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "W: Is there a musician’s section here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "M: Yeah, it’s over there in the corner.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "M: Are you interested music?",
+          "is_answer": true,
+          "violates_point_code": "VERB_PREP_COLLOCATION",
+          "via_modification": "EI_PREP_DELETE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "W: Yes, I am.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "W: I want to be a musician.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화를 바탕으로 한 다음 문장 중 어법상 올바르지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "want는 목적어로 동명사가 아니라 to부정사를 취하는 동사이므로 I want to be a musician.이 맞다. 나머지는 모두 본문 그대로의 올바른 문장이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        0,
+        1,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "W: Is there a musician’s section here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "M: Yeah, it’s over there in the corner.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "M: Are you interested in music?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "W: I want being a musician.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "W: Yes, I am.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "(a), (b), (c)의 각 네모 안에서 어법에 맞는 표현으로 가장 적절한 것은?\n\nW: (a)[Is / Are] there a musician’s section here?\nM: Yeah, (b)[its / it’s] over there in the corner. Are you (c)[interesting / interested] in music?\nW: Yes, I am. I want to be a musician.",
+      "answer_key": "①",
+      "explanation": "(a) 뒤의 실제 주어 a musician's section이 단수이므로 Is there. (b) '그것은 ~에 있다'는 it is의 축약형 it's이며 소유격 its는 동사가 없어 문장이 성립하지 않는다. (c) 사람이 관심을 '느끼는' 것이므로 수동 형태의 interested를 쓴다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) Is ... (b) it’s ... (c) interested",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) Is ... (b) its ... (c) interested",
+          "is_answer": false,
+          "violates_point_code": "PRON_AGREEMENT",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) Are ... (b) it’s ... (c) interested",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) Is ... (b) it’s ... (c) interesting",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) Are ... (b) its ... (c) interesting",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "(a) Is ... (b) it’s ... (c) interest",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "여자가 musician's section이 있는지 물었으므로 ①이 맞다. 음악가가 되고 싶다고 말한 사람은 여자이므로 ②는 틀리고, 남자가 '저쪽 구석에 있다'고 했으므로 ③·⑤도 틀리다. 여자는 음악에 관심이 있다고 답했으므로 ④도 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        2,
+        5
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The woman is looking for the musician’s section.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The man wants to be a musician.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "There is no musician’s section in the place.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The woman is not interested in music at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The musician’s section is right next to the door.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오. (대화의 마지막 문장)\n\n나는 음악가가 되고 싶다.\n(a / want / musician / be / to / I)",
+      "answer_key": "I want to be a musician.",
+      "explanation": "want는 to부정사를 목적어로 취하므로 'want to be'의 순서가 되고, be의 보어로 a musician을 둔다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        5,
+        6
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nM: Are you interested on music?",
+      "answer_key": "on → in (Are you interested in music?)",
+      "explanation": "'~에 관심이 있다'는 be interested in으로 전치사 in이 고정되어 있다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "대화의 흐름에 맞게 <조건>에 따라 남자의 대답을 영작하시오.\n\nW: Is there a musician’s section here?\nM: Yeah, ________________________.\n\n<조건> 1) it, over there, corner를 모두 사용할 것  2) '그것은 저쪽 구석에 있어'라는 뜻이 되게 할 것",
+      "answer_key": "it’s over there in the corner",
+      "explanation": "'그것은 ~에 있다'이므로 it is(it's)를 쓰고, '구석에'는 전치사 in을 써서 in the corner로 표현한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 5,
+    "tags_returned": 7,
+    "tags_kept": 7,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 7,
+    "items_kept": 7,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

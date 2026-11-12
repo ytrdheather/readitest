@@ -1,0 +1,322 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ⑤⑥⑦",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L5 비상 대화-5",
+    "중1 L5 비상 대화-6",
+    "중1 L5 비상 대화-7"
+  ],
+  "body": "M: What do you want to be in the future?\nW: Well, I want to be a street dancer.\nM: Oh, there is a dancer’s section over there.\nW: Look at that. The game maker’s section looks interesting.\nM: It really does.\nW: I like games. I want to be a game maker.\nM: Oh, then that section is perfect for you.\nW: Is there a musician’s section here?\nM: Yeah, it’s over there in the corner. Are you interested in music?\nW: Yes, I am. I want to be a musician.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "8da97bd0-a98f-4d2c-9fbc-33c46be10b5e",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 15,
+      "span_end": 25,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want는 목적어로 to부정사만 쓰므로 want to be가 맞고, want being이나 want be는 틀립니다.",
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 형태 오류를 유도할 수 있는 대표 자리.",
+      "sentence_no": 1,
+      "sentence": "M: What do you want to be in the future?"
+    },
+    {
+      "tag_id": "d405cba3-e847-40f7-9e85-ba0521ca2fd2",
+      "point": "PREP_USAGE",
+      "span_start": 26,
+      "span_end": 39,
+      "correct": "in the future",
+      "wrong": [
+        "on the future",
+        "at the future"
+      ],
+      "why_ko": "'미래에'는 굳어진 표현 in the future로 씁니다.",
+      "rationale": "굳어진 시간 부사구 'in the future'. on/at the future 로 바꾼 선지나 전치사 빈칸 출제가 쉬운 자리.",
+      "sentence_no": 1,
+      "sentence": "M: What do you want to be in the future?"
+    },
+    {
+      "tag_id": "4f7fa981-230b-48be-a099-922272bc4f85",
+      "point": "VERB_SVA",
+      "span_start": 87,
+      "span_end": 114,
+      "correct": "there is a dancer’s section",
+      "wrong": [
+        "there are a dancer’s section",
+        "there be a dancer’s section"
+      ],
+      "why_ko": "뒤의 진짜 주어 a dancer's section이 단수라서 is를 씁니다.",
+      "rationale": "There is/are 구문은 뒤의 실질 주어(a dancer's section, 단수)에 수를 맞춘다. there are 로 바꾼 수일치 오류를 심기 좋은 자리.",
+      "sentence_no": 3,
+      "sentence": "M: Oh, there is a dancer’s section over there."
+    },
+    {
+      "tag_id": "56b204d1-ea1a-4a31-aa23-6409e1f1cf1b",
+      "point": "PREP_USAGE",
+      "span_start": 115,
+      "span_end": 125,
+      "correct": "over there",
+      "wrong": [
+        "on there",
+        "in there"
+      ],
+      "why_ko": "'저쪽에'라는 뜻은 over there로 굳어진 표현입니다.",
+      "rationale": "장소를 가리키는 부사구 over there. over 자리를 빈칸으로 뚫거나 on/in there 로 바꾼 오답을 만들 수 있다.",
+      "sentence_no": 3,
+      "sentence": "M: Oh, there is a dancer’s section over there."
+    },
+    {
+      "tag_id": "33f43113-7752-4d7b-bc0a-7c9b1a671cee",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 130,
+      "span_end": 137,
+      "correct": "Look at",
+      "wrong": [
+        "Look",
+        "Look to",
+        "Look for"
+      ],
+      "why_ko": "'~을 보다'는 look at이며, 전치사를 빼거나 to/for로 바꾸면 뜻이 달라지거나 틀립니다.",
+      "rationale": "'~을 보다'는 look at 으로 전치사 at 이 고정된다. 전치사를 빼고 'Look that' 으로 쓰거나 'Look to / Look for that' 처럼 전치사를 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 4,
+      "sentence": "W: Look at that."
+    },
+    {
+      "tag_id": "4de6f8ac-5e00-424c-af3f-a54cc5ee2d03",
+      "point": "THAT_USAGE",
+      "span_start": 138,
+      "span_end": 142,
+      "correct": "that",
+      "wrong": [
+        "that one section",
+        "those"
+      ],
+      "why_ko": "여기 that은 '저것'을 가리키는 지시대명사로 단독으로 쓰입니다.",
+      "rationale": "여기서 that 은 멀리 있는 대상을 가리키는 지시대명사(전치사 at 의 목적어). 6번 문장의 'that section'(지시형용사)과 쓰임을 구별시키는 '쓰임이 다른 것 고르기' 문항의 축이 된다.",
+      "sentence_no": 4,
+      "sentence": "W: Look at that."
+    },
+    {
+      "tag_id": "f32edfc5-8b43-42e2-8440-064c6caa6b69",
+      "point": "VERB_SVA",
+      "span_start": 144,
+      "span_end": 174,
+      "correct": "The game maker’s section looks",
+      "wrong": [
+        "The game maker’s section look",
+        "The game maker’s sections looks"
+      ],
+      "why_ko": "주어가 단수 section이므로 동사는 looks입니다.",
+      "rationale": "주어는 단수 'section'이고 앞의 소유격 수식어(game maker’s) 때문에 복수로 착각하기 쉽다. 'section look' 처럼 수일치를 깨는 변형이 가능하다.",
+      "sentence_no": 5,
+      "sentence": "The game maker’s section looks interesting."
+    },
+    {
+      "tag_id": "c3b6641f-fc6a-40a5-8a79-d0423477a382",
+      "point": "SENSE_VERB_ADJ",
+      "span_start": 169,
+      "span_end": 186,
+      "correct": "looks interesting",
+      "wrong": [
+        "looks interestingly",
+        "looks like interesting"
+      ],
+      "why_ko": "감각동사 look 뒤에는 형용사 보어가 오므로 interesting이 맞습니다.",
+      "rationale": "감각동사 look 뒤에는 보어로 형용사가 와야 한다. 'looks interestingly'(부사) 또는 'looks like interesting' 같은 오류를 심기 가장 쉬운 자리.",
+      "sentence_no": 5,
+      "sentence": "The game maker’s section looks interesting."
+    },
+    {
+      "tag_id": "768f479d-4aea-4797-98d4-34005f303a51",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 194,
+      "span_end": 200,
+      "correct": "really",
+      "wrong": [
+        "real",
+        "realy does"
+      ],
+      "why_ko": "동사 does를 꾸미려면 부사 really를 써야 합니다.",
+      "rationale": "동사 does 를 강조하는 부사 자리. real 로 바꾸는 형용사-부사 혼동 오류가 가능하다.",
+      "sentence_no": 6,
+      "sentence": "M: It really does."
+    },
+    {
+      "tag_id": "6f3162e7-2135-4363-bf2e-50bb8f5087e1",
+      "point": "VERB_SVA",
+      "span_start": 201,
+      "span_end": 205,
+      "correct": "does",
+      "wrong": [
+        "do",
+        "did",
+        "is"
+      ],
+      "why_ko": "앞의 일반동사 looks를 대신하는 대동사이고 주어가 3인칭 단수 현재라 does입니다.",
+      "rationale": "앞 문장의 'looks interesting'을 대신하는 대동사. 주어 It(3인칭 단수·현재)에 맞춰 does 가 되어야 하며 do / did / is 로 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 6,
+      "sentence": "M: It really does."
+    },
+    {
+      "tag_id": "1a2dcc1a-8f96-4ec4-b522-a84266e1ac03",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 226,
+      "span_end": 236,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want 뒤에는 to부정사가 와야 하므로 want to be가 맞습니다.",
+      "rationale": "want 는 목적어로 to부정사만 취한다. 'want being / want be a game maker' 로 바꾸는 전형적 오답 선지 자리.",
+      "sentence_no": 8,
+      "sentence": "I want to be a game maker."
+    },
+    {
+      "tag_id": "2db65d25-8388-45fe-9a74-f87c638aa9e4",
+      "point": "THAT_USAGE",
+      "span_start": 263,
+      "span_end": 275,
+      "correct": "that section",
+      "wrong": [
+        "that sections",
+        "those section"
+      ],
+      "why_ko": "지시형용사 that은 단수명사와 짝이므로 that section이 맞습니다.",
+      "rationale": "명사 section 을 꾸미는 지시형용사 that. 1번의 지시대명사 that, 접속사 that 과 쓰임을 구별하는 문항의 비교 대상이 된다.",
+      "sentence_no": 9,
+      "sentence": "M: Oh, then that section is perfect for you."
+    },
+    {
+      "tag_id": "0c6180d0-1509-44a3-9db4-0151a575b3f4",
+      "point": "PREP_USAGE",
+      "span_start": 279,
+      "span_end": 294,
+      "correct": "perfect for you",
+      "wrong": [
+        "perfect to you",
+        "perfect with you"
+      ],
+      "why_ko": "'~에게 딱 맞는'은 perfect for로 전치사 for를 씁니다.",
+      "rationale": "'~에게 딱 맞는'은 perfect for. to / with / at 으로 바꾸거나 전치사를 삭제하는 변형이 가능한 전치사 자리.",
+      "sentence_no": 9,
+      "sentence": "M: Oh, then that section is perfect for you."
+    },
+    {
+      "tag_id": "f14fbf00-8d21-482b-a381-e3dc22ed3ff9",
+      "point": "VERB_SVA",
+      "span_start": 299,
+      "span_end": 328,
+      "correct": "Is there a musician’s section",
+      "wrong": [
+        "Are there a musician’s section",
+        "Is there musician’s section"
+      ],
+      "why_ko": "뒤의 주어가 단수 a musician's section이므로 Is there로 묻습니다.",
+      "rationale": "There is/are 구문에서 뒤에 오는 실제 주어(a musician's section, 단수)에 be동사를 맞춰야 함. Are there / Is there 선택 오류를 유도할 수 있음",
+      "sentence_no": 10,
+      "sentence": "W: Is there a musician’s section here?"
+    },
+    {
+      "tag_id": "96a38fa5-1b56-44cd-813b-3be2556992dd",
+      "point": "PRON_AGREEMENT",
+      "span_start": 344,
+      "span_end": 359,
+      "correct": "it’s over there",
+      "wrong": [
+        "its over there",
+        "it over there"
+      ],
+      "why_ko": "it's는 it is의 줄임말이며, 소유격 its를 쓰면 동사가 없어 문장이 안 됩니다.",
+      "rationale": "it is의 축약형 it's와 소유격 its의 구별. its over there로 바꾸면 동사가 사라져 비문이 됨",
+      "sentence_no": 11,
+      "sentence": "M: Yeah, it’s over there in the corner."
+    },
+    {
+      "tag_id": "bb5615ff-c969-4f8f-99ae-ee2c28b2d3df",
+      "point": "PREP_USAGE",
+      "span_start": 360,
+      "span_end": 373,
+      "correct": "in the corner",
+      "wrong": [
+        "at the corner",
+        "on the corner"
+      ],
+      "why_ko": "실내의 '구석에'는 in the corner를 씁니다.",
+      "rationale": "'구석에'는 in the corner. at/on the corner로 바꾸는 전치사 선택 오류를 유도할 수 있는 자리",
+      "sentence_no": 11,
+      "sentence": "M: Yeah, it’s over there in the corner."
+    },
+    {
+      "tag_id": "73930a65-4fe5-45f1-9b11-7d9791c67970",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 375,
+      "span_end": 393,
+      "correct": "Are you interested",
+      "wrong": [
+        "Are you interesting",
+        "Do you interested"
+      ],
+      "why_ko": "사람이 '관심 있다'는 뜻은 be interested(수동 형태)로 씁니다.",
+      "rationale": "감정동사 interest는 사람 주어일 때 be + p.p.(interested) 형태. Are you interesting으로 바꾸는 능동·수동 혼동 유도",
+      "sentence_no": 12,
+      "sentence": "Are you interested in music?"
+    },
+    {
+      "tag_id": "40ddba64-351f-4d3b-aa0e-6732951fbcd9",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 383,
+      "span_end": 402,
+      "correct": "interested in music",
+      "wrong": [
+        "interested on music",
+        "interested about music"
+      ],
+      "why_ko": "be interested in으로 전치사 in이 고정되어 있습니다.",
+      "rationale": "be interested in은 전치사 in으로 고정. on/about/with로 교체하거나 전치사를 삭제하는 오류 유도",
+      "sentence_no": 12,
+      "sentence": "Are you interested in music?"
+    },
+    {
+      "tag_id": "69735017-16f4-4331-ad79-ce86c254c1c9",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 420,
+      "span_end": 430,
+      "correct": "want to be",
+      "wrong": [
+        "want being",
+        "want be"
+      ],
+      "why_ko": "want의 목적어는 to부정사라서 want to be가 맞습니다.",
+      "rationale": "want는 목적어로 to부정사만 취함. want being / want be 형태 오류 유도",
+      "sentence_no": 14,
+      "sentence": "I want to be a musician."
+    },
+    {
+      "tag_id": "bbc3972b-819f-4334-b106-f6e54f23c573",
+      "point": "NONFIN_TO_ROLE",
+      "span_start": 425,
+      "span_end": 441,
+      "correct": "to be a musician",
+      "wrong": [
+        "being a musician",
+        "be a musician"
+      ],
+      "why_ko": "want의 목적어로 쓰인 명사적 용법의 to부정사이므로 to be 형태여야 합니다.",
+      "rationale": "want의 목적어로 쓰인 to부정사의 명사적 용법. 부사적·형용사적 용법과 구별하는 쓰임 문항으로 쓸 수 있음",
+      "sentence_no": 14,
+      "sentence": "I want to be a musician."
+    }
+  ],
+  "diagnostics": {
+    "returned": 20,
+    "kept": 20,
+    "given": 20,
+    "rejects": []
+  }
+}

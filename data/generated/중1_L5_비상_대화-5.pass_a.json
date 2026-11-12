@@ -1,0 +1,507 @@
+{
+  "passage_id": "28c53598-ce59-435a-97ee-ae58525499eb",
+  "body_text_sha256": "6ba9eaa350b948c4ff10249c327b37d7cf54ebb1195ed3ff4d95872bd280b749",
+  "tags": [
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 15,
+      "span_end": 25,
+      "surface": "want to be",
+      "sentence_no": 1,
+      "rationale": "want는 목적어로 to부정사만 취한다. want being / want be 형태 오류를 유도할 수 있는 대표 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 26,
+      "span_end": 39,
+      "surface": "in the future",
+      "sentence_no": 1,
+      "rationale": "굳어진 시간 부사구 'in the future'. on/at the future 로 바꾼 선지나 전치사 빈칸 출제가 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 87,
+      "span_end": 114,
+      "surface": "there is a dancer’s section",
+      "sentence_no": 3,
+      "rationale": "There is/are 구문은 뒤의 실질 주어(a dancer's section, 단수)에 수를 맞춘다. there are 로 바꾼 수일치 오류를 심기 좋은 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 115,
+      "span_end": 125,
+      "surface": "over there",
+      "sentence_no": 3,
+      "rationale": "장소를 가리키는 부사구 over there. over 자리를 빈칸으로 뚫거나 on/in there 로 바꾼 오답을 만들 수 있다.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답(장래희망 제시) · 주제문",
+      "signal": "Well",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "전환(정보 제공·제안)",
+      "signal": "Oh",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 대화의 (a), (b), (c)에 들어갈 말로 가장 적절한 것끼리 짝지은 것은?\n\nM: What do you want (a)[to be / being] (b)[in / on] the future?\nW: Well, I want to be a street dancer.\nM: Oh, there (c)[is / are] a dancer's section over there.",
+      "answer_key": "①",
+      "explanation": "(a) want는 목적어로 to부정사를 취하므로 to be. (b) '미래에'는 in the future 로 고정된 표현. (c) There 구문은 뒤의 실질 주어 a dancer's section(단수)에 맞춰 is 를 쓴다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1,
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) to be … (b) in … (c) is",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) being … (b) in … (c) is",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) to be … (b) on … (c) is",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) to be … (b) in … (c) are",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) being … (b) on … (c) are",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "⑤"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 대화의 문장을 활용한 다음 중, 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③ There 구문의 실질 주어는 a dancer's section 으로 단수이므로 are 가 아니라 is 를 써야 한다. 나머지는 모두 본문 그대로이거나 어법상 바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What do you want to be in the future?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Well, I want to be a street dancer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Oh, there are a dancer's section over there.",
+          "is_answer": true,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I want to be a street dancer in the future.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "There is a dancer's section over there.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [
+        "①"
+      ],
+      "question_type_code": "T-GRAMMAR-USAGE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 밑줄 친 want to be 와 동사 뒤 목적어 형태의 쓰임이 같은 것은?",
+      "answer_key": "①",
+      "explanation": "want 는 to부정사를 목적어로 취한다(want to+동사원형). 본문의 want to be 와 같은 형태는 ① wants to join 뿐이며, 나머지는 동명사·원형·to -ing 형태로 잘못 쓰였다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "She wants to join a dance club.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "She wants joining a dance club.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_VERB_COMPLEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "She wants join a dance club.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "She wants to joining a dance club.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "She wants be a dancer.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "위 대화의 내용과 일치하는 것은?",
+      "answer_key": "①",
+      "explanation": "여자는 'I want to be a street dancer.'라고 했으므로 ①이 일치한다. 현재 직업이라는 언급(②), 남자의 장래희망(③), 구역이 없다거나 닫혔다는 언급(④⑥)은 없고, 질문한 사람은 남자이므로 ⑤도 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The woman wants to be a street dancer in the future.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The woman already works as a street dancer.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The man wants to be a dancer, too.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "There is no section for dancers.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The woman asks the man about his future job.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        },
+        {
+          "label": "⑥",
+          "body": "The man says the dancer's section is closed.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "위 대화의 주제로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "남자가 장래희망을 묻고 여자가 street dancer 가 되고 싶다고 답하는 대화이므로 ①이 주제이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "talking about what they want to be in the future",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "learning how to dance on the street",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "buying tickets for a dance concert",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "asking for directions to the subway",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "choosing a club for the new school year",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "위 대화의 밑줄 친 a dancer's section 이 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "여자가 street dancer 가 되고 싶다고 하자 남자가 '저쪽에 ~이 있다'고 알려 주는 흐름이므로, 댄서들을 위해 마련된 구역을 뜻한다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "춤추는 사람들을 위해 마련된 구역",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "댄서가 직접 운영하는 가게",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "무용 전공 학생들의 교실",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "춤 공연이 금지된 장소",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "댄서들의 이름이 적힌 명단",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같은 뜻이 되도록 조건에 맞게 영작하시오.\n\n우리말: 나는 미래에 스트리트 댄서가 되고 싶다.\n조건 1: want, be, future 를 반드시 사용할 것\n조건 2: 전체 8단어로 쓸 것 (I 포함)\n조건 3: 대화문 [2]의 표현을 활용할 것",
+      "answer_key": "I want to be a street dancer in the future.",
+      "explanation": "want 는 to부정사를 목적어로 취하므로 want to be, '미래에'는 in the future 를 쓴다. (I / want / to / be / a / street / dancer / in / the / future — 조건에 맞춰 I want to be a street dancer in the future.)",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음은 위 대화의 마지막 말을 옮긴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n\nOh, there are a dancer's section over there.",
+      "answer_key": "are → is",
+      "explanation": "There 구문에서 동사는 뒤에 오는 실질 주어에 수를 맞춘다. a dancer's section 은 단수이므로 are 를 is 로 고쳐 'there is a dancer's section over there' 가 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 바르게 배열하시오.\n\n우리말: 너는 미래에 무엇이 되고 싶니?\n단어: (be / what / to / you / want / do / the future / in)",
+      "answer_key": "What do you want to be in the future?",
+      "explanation": "의문사 What + 조동사 do + 주어 you + want to be 어순으로 쓰고, 시간 부사구 in the future 를 문장 끝에 둔다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 3,
+    "tags_returned": 4,
+    "tags_kept": 4,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 1,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "⑤"
+        ]
+      },
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-USAGE",
+        "options": [
+          "①"
+        ]
+      }
+    ]
+  }
+}

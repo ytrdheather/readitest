@@ -1,0 +1,291 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L7 외부지문 — Songkran",
+  "parts": [
+    "Songkran"
+  ],
+  "passage_ids": [
+    "ff27edba-390f-4451-ab41-edd4cd791302"
+  ],
+  "para_breaks": [
+    17
+  ],
+  "turn_breaks": [
+    17
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "Hi!",
+    "I'm Lucas.",
+    "I'm in Thailand now.",
+    "I came here with my sister for a special festival, Songkran.",
+    "People in Thailand celebrate it in April.",
+    "It is very hot in April, so this festival is perfect for this time of year.",
+    "On the first day, people clean their homes.",
+    "It means a new and fresh start.",
+    "Then, they go outside with water guns and buckets.",
+    "They throw water at everyone around them.",
+    "It's like a big water fight on the streets!",
+    "I got very wet, but I loved it.",
+    "Thai people also pour water on the hands of older family members to show respect.",
+    "Everyone looks happy and kind.",
+    "I think Songkran is a great festival.",
+    "People forget their worries and just have fun!",
+    "I want to come back again next year with my whole family."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "글은 인사말로 시작한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "첫 문장이 \"Hi!\"라는 인사이다.",
+      "_evidence_text": [
+        "Hi!"
+      ],
+      "_repeat": false,
+      "statement_en": "The writing opens with a greeting."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글을 쓴 사람의 이름은 Lucas이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "\"I'm Lucas.\"라고 자신을 소개한다.",
+      "_evidence_text": [
+        "I'm Lucas."
+      ],
+      "_repeat": false,
+      "statement_en": "The person writing this says his name is Lucas."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Lucas는 지금 인도에 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "인도가 아니라 태국(Thailand)에 있다.",
+      "_evidence_text": [
+        "I'm in Thailand now."
+      ],
+      "_repeat": false,
+      "statement_en": "Lucas is staying in India right now."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Lucas는 형과 함께 축제를 보러 왔다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "형이 아니라 여동생(누나), 즉 sister와 함께 왔다.",
+      "_evidence_text": [
+        "I came here with my sister for a special festival, Songkran."
+      ],
+      "_repeat": false,
+      "statement_en": "Lucas came to the festival together with his brother."
+    },
+    {
+      "type": "content",
+      "statement_ko": "태국 사람들은 송끄란을 12월에 기념한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "12월이 아니라 4월(April)에 기념한다.",
+      "_evidence_text": [
+        "People in Thailand celebrate it in April."
+      ],
+      "_repeat": false,
+      "statement_en": "People in Thailand hold Songkran in December."
+    },
+    {
+      "type": "content",
+      "statement_ko": "4월은 매우 더워서 이 축제가 이 시기에 아주 잘 어울린다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "4월이 덥기 때문에 축제가 이 시기에 완벽하다고 했다.",
+      "_evidence_text": [
+        "It is very hot in April, so this festival is perfect for this time of year."
+      ],
+      "_repeat": false,
+      "statement_en": "April is very hot, so this festival fits that time of year well."
+    },
+    {
+      "type": "content",
+      "statement_ko": "축제 첫날에 사람들은 집을 청소한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "첫날 사람들이 집을 청소한다고 나온다.",
+      "_evidence_text": [
+        "On the first day, people clean their homes."
+      ],
+      "_repeat": false,
+      "statement_en": "On day one of the festival, people clean their houses."
+    },
+    {
+      "type": "content",
+      "statement_ko": "집을 청소하는 것은 새롭고 산뜻한 시작을 뜻한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "새롭고 신선한 시작을 의미한다고 했다.",
+      "_evidence_text": [
+        "It means a new and fresh start."
+      ],
+      "_repeat": false,
+      "statement_en": "Cleaning the house stands for a new and fresh beginning."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 물총과 양동이를 들고 밖으로 나간다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "water guns와 buckets를 들고 나간다고 했다.",
+      "_evidence_text": [
+        "Then, they go outside with water guns and buckets."
+      ],
+      "_repeat": false,
+      "statement_en": "People go out carrying water guns and buckets."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 오직 자기 가족에게만 물을 뿌린다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "주변의 모든 사람에게(everyone around them) 물을 뿌린다.",
+      "_evidence_text": [
+        "They throw water at everyone around them."
+      ],
+      "_repeat": false,
+      "statement_en": "People throw water only at their own family members."
+    },
+    {
+      "type": "content",
+      "statement_ko": "그 모습은 거리에서 벌어지는 큰 물싸움 같다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "거리에서의 큰 물싸움 같다고 표현했다.",
+      "_evidence_text": [
+        "It's like a big water fight on the streets!"
+      ],
+      "_repeat": false,
+      "statement_en": "It looks like a huge water fight happening on the streets."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Lucas는 몸이 젖어서 축제가 싫었다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "많이 젖었지만 아주 좋았다(loved it)고 했다.",
+      "_evidence_text": [
+        "I got very wet, but I loved it."
+      ],
+      "_repeat": false,
+      "statement_en": "Lucas says he hated the festival because he got wet."
+    },
+    {
+      "type": "content",
+      "statement_ko": "태국 사람들은 존경을 표하려고 어른의 발에 물을 붓는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "발이 아니라 손(hands)에 물을 붓는다.",
+      "_evidence_text": [
+        "Thai people also pour water on the hands of older family members to show respect."
+      ],
+      "_repeat": false,
+      "statement_en": "To show respect, Thai people pour water on the feet of older family members."
+    },
+    {
+      "type": "content",
+      "statement_ko": "모두가 행복하고 친절해 보인다고 했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "Everyone looks happy and kind라고 했다.",
+      "_evidence_text": [
+        "Everyone looks happy and kind."
+      ],
+      "_repeat": false,
+      "statement_en": "He says that everyone there seems happy and kind."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Lucas는 송끄란이 멋진 축제라고 생각한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        15
+      ],
+      "why_ko": "great festival이라고 생각한다고 했다.",
+      "_evidence_text": [
+        "I think Songkran is a great festival."
+      ],
+      "_repeat": false,
+      "statement_en": "Lucas believes Songkran is a wonderful festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 축제 동안 걱정거리를 더 많이 떠올리게 된다.",
+      "answer": "X",
+      "evidence_sentences": [
+        16
+      ],
+      "why_ko": "걱정을 잊고 즐긴다(forget their worries)고 했다.",
+      "_evidence_text": [
+        "People forget their worries and just have fun!"
+      ],
+      "_repeat": false,
+      "statement_en": "During the festival, people end up thinking about their worries even more."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Lucas는 내년에 혼자 다시 오고 싶어 한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        17
+      ],
+      "why_ko": "혼자가 아니라 온 가족(whole family)과 함께 다시 오고 싶어 한다.",
+      "_evidence_text": [
+        "I want to come back again next year with my whole family."
+      ],
+      "_repeat": false,
+      "statement_en": "Lucas hopes to come back alone next year."
+    }
+  ],
+  "diagnostics": {
+    "returned": 17,
+    "kept": 17,
+    "by_type": {
+      "content": 17
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 9,
+      "X": 8
+    },
+    "sentences_covered": 17,
+    "sentence_count": 17,
+    "repeated": 0
+  }
+}

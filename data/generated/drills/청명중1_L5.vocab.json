@@ -1,0 +1,1630 @@
+{
+  "set": "청명중1_L5",
+  "title": "비상 황종배 중1 L5 어휘 — 청명",
+  "sources": {
+    "school": [
+      "청명중1_L5_vocab_handout"
+    ],
+    "jasup": "중1_L5비상_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "비상 황종배 중1 L5 어휘 — 청명",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "add",
+              "answer": "추가하다"
+            },
+            {
+              "word": "adventure",
+              "answer": "모험"
+            },
+            {
+              "word": "app",
+              "answer": "앱"
+            },
+            {
+              "word": "background",
+              "answer": "배경"
+            },
+            {
+              "word": "be interested in",
+              "answer": "~에 관심이 있다"
+            },
+            {
+              "word": "be into",
+              "answer": "~에 관심이 많다"
+            },
+            {
+              "word": "character",
+              "answer": "성격; 등장인물, 캐릭터"
+            },
+            {
+              "word": "code",
+              "answer": "(프로그램을) 코드화하다"
+            },
+            {
+              "word": "enjoy",
+              "answer": "즐기다"
+            },
+            {
+              "word": "exciting",
+              "answer": "신나는, 흥미진진한"
+            },
+            {
+              "word": "factory",
+              "answer": "공장"
+            },
+            {
+              "word": "finally",
+              "answer": "마침내"
+            },
+            {
+              "word": "future",
+              "answer": "미래"
+            },
+            {
+              "word": "giant",
+              "answer": "거대한; 거인"
+            },
+            {
+              "word": "go through",
+              "answer": "~을 거쳐 가다[통과하다]"
+            },
+            {
+              "word": "interesting",
+              "answer": "흥미로운"
+            },
+            {
+              "word": "introduce",
+              "answer": "소개하다"
+            },
+            {
+              "word": "island",
+              "answer": "섬"
+            },
+            {
+              "word": "item",
+              "answer": "물품; (게임 등의) 아이템"
+            },
+            {
+              "word": "kind",
+              "answer": "종류, 유형"
+            },
+            {
+              "word": "life jacket",
+              "answer": "구명조끼"
+            },
+            {
+              "word": "lost",
+              "answer": "잃어버린"
+            },
+            {
+              "word": "maker",
+              "answer": "만드는 사람, 제작자"
+            },
+            {
+              "word": "musician",
+              "answer": "음악가"
+            },
+            {
+              "word": "own",
+              "answer": "자신의"
+            },
+            {
+              "word": "part",
+              "answer": "부분"
+            },
+            {
+              "word": "perfect",
+              "answer": "완벽한; 꼭 맞는"
+            },
+            {
+              "word": "publish",
+              "answer": "출판하다; 출시하다"
+            },
+            {
+              "word": "real",
+              "answer": "진짜의, 실제의"
+            },
+            {
+              "word": "report",
+              "answer": "보고(서)"
+            },
+            {
+              "word": "review",
+              "answer": "평가; 후기"
+            },
+            {
+              "word": "section",
+              "answer": "구역; 부분"
+            },
+            {
+              "word": "share",
+              "answer": "나누다; 공유하다"
+            },
+            {
+              "word": "soon",
+              "answer": "곧, 빨리"
+            },
+            {
+              "word": "stage",
+              "answer": "무대; 단계"
+            },
+            {
+              "word": "stair",
+              "answer": "계단"
+            },
+            {
+              "word": "tip",
+              "answer": "조언, 비결"
+            },
+            {
+              "word": "useful",
+              "answer": "유용한"
+            },
+            {
+              "word": "weekend",
+              "answer": "주말"
+            },
+            {
+              "word": "writer",
+              "answer": "작가"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "완벽한; 꼭 맞는",
+              "answer": "perfect"
+            },
+            {
+              "ko": "부분",
+              "answer": "part"
+            },
+            {
+              "ko": "앱",
+              "answer": "app"
+            },
+            {
+              "ko": "모험",
+              "answer": "adventure"
+            },
+            {
+              "ko": "소개하다",
+              "answer": "introduce"
+            },
+            {
+              "ko": "주말",
+              "answer": "weekend"
+            },
+            {
+              "ko": "진짜의, 실제의",
+              "answer": "real"
+            },
+            {
+              "ko": "유용한",
+              "answer": "useful"
+            },
+            {
+              "ko": "즐기다",
+              "answer": "enjoy"
+            },
+            {
+              "ko": "구명조끼",
+              "answer": "life jacket"
+            },
+            {
+              "ko": "배경",
+              "answer": "background"
+            },
+            {
+              "ko": "종류, 유형",
+              "answer": "kind"
+            },
+            {
+              "ko": "만드는 사람, 제작자",
+              "answer": "maker"
+            },
+            {
+              "ko": "섬",
+              "answer": "island"
+            },
+            {
+              "ko": "조언, 비결",
+              "answer": "tip"
+            },
+            {
+              "ko": "구역; 부분",
+              "answer": "section"
+            },
+            {
+              "ko": "보고(서)",
+              "answer": "report"
+            },
+            {
+              "ko": "거대한; 거인",
+              "answer": "giant"
+            },
+            {
+              "ko": "마침내",
+              "answer": "finally"
+            },
+            {
+              "ko": "신나는, 흥미진진한",
+              "answer": "exciting"
+            },
+            {
+              "ko": "작가",
+              "answer": "writer"
+            },
+            {
+              "ko": "성격; 등장인물, 캐릭터",
+              "answer": "character"
+            },
+            {
+              "ko": "~을 거쳐 가다[통과하다]",
+              "answer": "go through"
+            },
+            {
+              "ko": "미래",
+              "answer": "future"
+            },
+            {
+              "ko": "자신의",
+              "answer": "own"
+            },
+            {
+              "ko": "흥미로운",
+              "answer": "interesting"
+            },
+            {
+              "ko": "나누다; 공유하다",
+              "answer": "share"
+            },
+            {
+              "ko": "음악가",
+              "answer": "musician"
+            },
+            {
+              "ko": "출판하다; 출시하다",
+              "answer": "publish"
+            },
+            {
+              "ko": "잃어버린",
+              "answer": "lost"
+            },
+            {
+              "ko": "계단",
+              "answer": "stair"
+            },
+            {
+              "ko": "곧, 빨리",
+              "answer": "soon"
+            },
+            {
+              "ko": "물품; (게임 등의) 아이템",
+              "answer": "item"
+            },
+            {
+              "ko": "추가하다",
+              "answer": "add"
+            },
+            {
+              "ko": "평가; 후기",
+              "answer": "review"
+            },
+            {
+              "ko": "(프로그램을) 코드화하다",
+              "answer": "code"
+            },
+            {
+              "ko": "무대; 단계",
+              "answer": "stage"
+            },
+            {
+              "ko": "공장",
+              "answer": "factory"
+            },
+            {
+              "ko": "~에 관심이 있다",
+              "answer": "be interested in"
+            },
+            {
+              "ko": "~에 관심이 많다",
+              "answer": "be into"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "to put something more with something else",
+              "ko": "추가하다",
+              "answer": "add"
+            },
+            {
+              "def_en": "an exciting or dangerous experience",
+              "ko": "모험",
+              "answer": "adventure"
+            },
+            {
+              "def_en": "a program you use on your phone or tablet",
+              "ko": "앱",
+              "answer": "app"
+            },
+            {
+              "def_en": "the things behind the main subject or what happened before",
+              "ko": "배경",
+              "answer": "background"
+            },
+            {
+              "def_en": "to like or want to learn more about something",
+              "ko": "~에 관심이 있다",
+              "answer": "be interested in"
+            },
+            {
+              "def_en": "to enjoy something a lot; to be very interested in it",
+              "ko": "~에 관심이 많다",
+              "answer": "be into"
+            },
+            {
+              "def_en": "a person in a story, movie, or game",
+              "ko": "성격; 등장인물, 캐릭터",
+              "answer": "character"
+            },
+            {
+              "def_en": "a set of instructions for a computer",
+              "ko": "(프로그램을) 코드화하다",
+              "answer": "code"
+            },
+            {
+              "def_en": "to feel happy when doing something",
+              "ko": "즐기다",
+              "answer": "enjoy"
+            },
+            {
+              "def_en": "very fun or full of action",
+              "ko": "신나는, 흥미진진한",
+              "answer": "exciting"
+            },
+            {
+              "def_en": "a place where things are made, often by machines",
+              "ko": "공장",
+              "answer": "factory"
+            },
+            {
+              "def_en": "after a long time or after many things happen",
+              "ko": "마침내",
+              "answer": "finally"
+            },
+            {
+              "def_en": "the time that will come after now",
+              "ko": "미래",
+              "answer": "future"
+            },
+            {
+              "def_en": "very, very big",
+              "ko": "거대한; 거인",
+              "answer": "giant"
+            },
+            {
+              "def_en": "to experience something or move from start to end",
+              "ko": "~을 거쳐 가다[통과하다]",
+              "answer": "go through"
+            },
+            {
+              "def_en": "something that catches your attention or makes you curious",
+              "ko": "흥미로운",
+              "answer": "interesting"
+            },
+            {
+              "def_en": "to show or tell something for the first time",
+              "ko": "소개하다",
+              "answer": "introduce"
+            },
+            {
+              "def_en": "land with water all around it",
+              "ko": "섬",
+              "answer": "island"
+            },
+            {
+              "def_en": "one thing in a group or list",
+              "ko": "물품; (게임 등의) 아이템",
+              "answer": "item"
+            },
+            {
+              "def_en": "a type or category of something",
+              "ko": "종류, 유형",
+              "answer": "kind"
+            },
+            {
+              "def_en": "a vest that helps you float in water",
+              "ko": "구명조끼",
+              "answer": "life jacket"
+            },
+            {
+              "def_en": "not knowing where you are; unable to be found",
+              "ko": "잃어버린",
+              "answer": "lost"
+            },
+            {
+              "def_en": "a person who creates or builds things",
+              "ko": "만드는 사람, 제작자",
+              "answer": "maker"
+            },
+            {
+              "def_en": "a person who makes or plays music",
+              "ko": "음악가",
+              "answer": "musician"
+            },
+            {
+              "def_en": "to have something; to belong to you",
+              "ko": "자신의",
+              "answer": "own"
+            },
+            {
+              "def_en": "a piece or section of something whole",
+              "ko": "부분",
+              "answer": "part"
+            },
+            {
+              "def_en": "without any problems or mistakes",
+              "ko": "완벽한; 꼭 맞는",
+              "answer": "perfect"
+            },
+            {
+              "def_en": "to make something (like a book or app) available to others",
+              "ko": "출판하다; 출시하다",
+              "answer": "publish"
+            },
+            {
+              "def_en": "not fake; something that truly exists",
+              "ko": "진짜의, 실제의",
+              "answer": "real"
+            },
+            {
+              "def_en": "information about something that happened",
+              "ko": "보고(서)",
+              "answer": "report"
+            },
+            {
+              "def_en": "an opinion about a book, movie, app, etc.",
+              "ko": "평가; 후기",
+              "answer": "review"
+            },
+            {
+              "def_en": "a smaller part of something larger",
+              "ko": "구역; 부분",
+              "answer": "section"
+            },
+            {
+              "def_en": "to give something to others or let them use it",
+              "ko": "나누다; 공유하다",
+              "answer": "share"
+            },
+            {
+              "def_en": "in a short time from now",
+              "ko": "곧, 빨리",
+              "answer": "soon"
+            },
+            {
+              "def_en": "a step or level in a process or performance",
+              "ko": "무대; 단계",
+              "answer": "stage"
+            },
+            {
+              "def_en": "a step in a set used for going up or down",
+              "ko": "계단",
+              "answer": "stair"
+            },
+            {
+              "def_en": "a small piece of helpful advice",
+              "ko": "조언, 비결",
+              "answer": "tip"
+            },
+            {
+              "def_en": "helpful; something that makes a task easier",
+              "ko": "유용한",
+              "answer": "useful"
+            },
+            {
+              "def_en": "Saturday and Sunday; the end of the week",
+              "ko": "주말",
+              "answer": "weekend"
+            },
+            {
+              "def_en": "a person who writes stories, articles, or books",
+              "ko": "작가",
+              "answer": "writer"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "soon",
+                  "ko": "곧, 빨리",
+                  "def_en": "in a short time from now",
+                  "example_en": "She will arrive soon.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "character",
+                  "ko": "성격; 등장인물, 캐릭터",
+                  "def_en": "a person in a story, movie, or game",
+                  "example_en": "She likes all the characters in this movie.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "item",
+                  "ko": "물품; (게임 등의) 아이템",
+                  "def_en": "one thing in a group or list",
+                  "example_en": "She bought a new item.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "section",
+                  "ko": "구역; 부분",
+                  "def_en": "a smaller part of something larger",
+                  "example_en": "This is the last section of the city.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "character",
+                "item",
+                "section",
+                "soon"
+              ],
+              "kos": [
+                "물품; (게임 등의) 아이템",
+                "구역; 부분",
+                "성격; 등장인물, 캐릭터",
+                "곧, 빨리"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "stage",
+                  "ko": "무대; 단계",
+                  "def_en": "a step or level in a process or performance",
+                  "example_en": "The project is in the beginning stage.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "go through",
+                  "ko": "~을 거쳐 가다[통과하다]",
+                  "def_en": "to experience something or move from start to end",
+                  "example_en": "I go through the park every day.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "code",
+                  "ko": "(프로그램을) 코드화하다",
+                  "def_en": "a set of instructions for a computer",
+                  "example_en": "She coded her first computer program.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "stair",
+                  "ko": "계단",
+                  "def_en": "a step in a set used for going up or down",
+                  "example_en": "He ran up the stairs.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "go through",
+                "stage",
+                "code",
+                "stair"
+              ],
+              "kos": [
+                "계단",
+                "무대; 단계",
+                "~을 거쳐 가다[통과하다]",
+                "(프로그램을) 코드화하다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "exciting",
+                  "ko": "신나는, 흥미진진한",
+                  "def_en": "very fun or full of action",
+                  "example_en": "She heard an exciting idea.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "future",
+                  "ko": "미래",
+                  "def_en": "the time that will come after now",
+                  "example_en": "We set up a plan for the future.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "factory",
+                  "ko": "공장",
+                  "def_en": "a place where things are made, often by machines",
+                  "example_en": "There are many factories in this city.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "musician",
+                  "ko": "음악가",
+                  "def_en": "a person who makes or plays music",
+                  "example_en": "I want to be a musician.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "musician",
+                "future",
+                "factory",
+                "exciting"
+              ],
+              "kos": [
+                "신나는, 흥미진진한",
+                "미래",
+                "공장",
+                "음악가"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "real",
+                  "ko": "진짜의, 실제의",
+                  "def_en": "not fake; something that truly exists",
+                  "example_en": "Is this story real?",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "life jacket",
+                  "ko": "구명조끼",
+                  "def_en": "a vest that helps you float in water",
+                  "example_en": "He is wearing a life jacket.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "maker",
+                  "ko": "만드는 사람, 제작자",
+                  "def_en": "a person who creates or builds things",
+                  "example_en": "I met the maker of the game.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "part",
+                  "ko": "부분",
+                  "def_en": "a piece or section of something whole",
+                  "example_en": "She read her favorite part of the book.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "maker",
+                "real",
+                "part",
+                "life jacket"
+              ],
+              "kos": [
+                "만드는 사람, 제작자",
+                "부분",
+                "진짜의, 실제의",
+                "구명조끼"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "lost",
+                  "ko": "잃어버린",
+                  "def_en": "not knowing where you are; unable to be found",
+                  "example_en": "I found a lost cat.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "weekend",
+                  "ko": "주말",
+                  "def_en": "Saturday and Sunday; the end of the week",
+                  "example_en": "This weekend was really fun.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "island",
+                  "ko": "섬",
+                  "def_en": "land with water all around it",
+                  "example_en": "We looked around the island.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "giant",
+                  "ko": "거대한; 거인",
+                  "def_en": "very, very big",
+                  "example_en": "This giant tree is 500 years old.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "island",
+                "lost",
+                "weekend",
+                "giant"
+              ],
+              "kos": [
+                "거대한; 거인",
+                "잃어버린",
+                "섬",
+                "주말"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "useful",
+                  "ko": "유용한",
+                  "def_en": "helpful; something that makes a task easier",
+                  "example_en": "He needs some useful information.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "interesting",
+                  "ko": "흥미로운",
+                  "def_en": "something that catches your attention or makes you curious",
+                  "example_en": "The class was very interesting.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "introduce",
+                  "ko": "소개하다",
+                  "def_en": "to show or tell something for the first time",
+                  "example_en": "She will introduce her friend to us.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "be interested in",
+                  "ko": "~에 관심이 있다",
+                  "def_en": "to like or want to learn more about something",
+                  "example_en": "She is interested in art.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "be interested in",
+                "introduce",
+                "interesting",
+                "useful"
+              ],
+              "kos": [
+                "~에 관심이 있다",
+                "소개하다",
+                "유용한",
+                "흥미로운"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "be into",
+                  "ko": "~에 관심이 많다",
+                  "def_en": "to enjoy something a lot; to be very interested in it",
+                  "example_en": "Mike is into robots.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "adventure",
+                  "ko": "모험",
+                  "def_en": "an exciting or dangerous experience",
+                  "example_en": "They went on an adventure.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "own",
+                  "ko": "자신의",
+                  "def_en": "to have something; to belong to you",
+                  "example_en": "She painted her own room.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "share",
+                  "ko": "나누다; 공유하다",
+                  "def_en": "to give something to others or let them use it",
+                  "example_en": "They shared their favorite songs.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "own",
+                "adventure",
+                "share",
+                "be into"
+              ],
+              "kos": [
+                "모험",
+                "자신의",
+                "~에 관심이 많다",
+                "나누다; 공유하다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "perfect",
+                  "ko": "완벽한; 꼭 맞는",
+                  "def_en": "without any problems or mistakes",
+                  "example_en": "That section is perfect for you.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "publish",
+                  "ko": "출판하다; 출시하다",
+                  "def_en": "to make something (like a book or app) available to others",
+                  "example_en": "She will publish her report.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "tip",
+                  "ko": "조언, 비결",
+                  "def_en": "a small piece of helpful advice",
+                  "example_en": "They need some study tips.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "enjoy",
+                  "ko": "즐기다",
+                  "def_en": "to feel happy when doing something",
+                  "example_en": "They enjoy playing soccer.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "perfect",
+                "enjoy",
+                "publish",
+                "tip"
+              ],
+              "kos": [
+                "조언, 비결",
+                "즐기다",
+                "출판하다; 출시하다",
+                "완벽한; 꼭 맞는"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "app",
+                  "ko": "앱",
+                  "def_en": "a program you use on your phone or tablet",
+                  "example_en": "He made an interesting app.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "add",
+                  "ko": "추가하다",
+                  "def_en": "to put something more with something else",
+                  "example_en": "They'll add more flowers to the garden.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "review",
+                  "ko": "평가; 후기",
+                  "def_en": "an opinion about a book, movie, app, etc.",
+                  "example_en": "I like his movie reviews.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "kind",
+                  "ko": "종류, 유형",
+                  "def_en": "a type or category of something",
+                  "example_en": "There are many kinds of music around the world.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "review",
+                "add",
+                "kind",
+                "app"
+              ],
+              "kos": [
+                "추가하다",
+                "종류, 유형",
+                "앱",
+                "평가; 후기"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "report",
+                  "ko": "보고(서)",
+                  "def_en": "information about something that happened",
+                  "example_en": "She finally finished her science report.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "writer",
+                  "ko": "작가",
+                  "def_en": "a person who writes stories, articles, or books",
+                  "example_en": "He wrote a letter to his favorite writer.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "finally",
+                  "ko": "마침내",
+                  "def_en": "after a long time or after many things happen",
+                  "example_en": "The writer finally published his first book.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "background",
+                  "ko": "배경",
+                  "def_en": "the things behind the main subject or what happened before",
+                  "example_en": "He painted a building in the background.",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "background",
+                "report",
+                "writer",
+                "finally"
+              ],
+              "kos": [
+                "보고(서)",
+                "배경",
+                "작가",
+                "마침내"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "Mike is __________ robots.",
+                "answer": "be into",
+                "ko": ""
+              },
+              {
+                "sentence": "We looked around the __________.",
+                "answer": "island",
+                "ko": ""
+              },
+              {
+                "sentence": "I want to be a __________.",
+                "answer": "musician",
+                "ko": ""
+              },
+              {
+                "sentence": "She read her favorite __________ of the book.",
+                "answer": "part",
+                "ko": ""
+              },
+              {
+                "sentence": "She finally finished her science __________.",
+                "answer": "report",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "I found a __________ cat.",
+                "answer": "lost",
+                "ko": ""
+              },
+              {
+                "sentence": "This is the last __________ of the city.",
+                "answer": "section",
+                "ko": ""
+              },
+              {
+                "sentence": "They __________ their favorite songs.",
+                "answer": "share",
+                "ko": ""
+              },
+              {
+                "sentence": "She is __________ art.",
+                "answer": "be interested in",
+                "ko": ""
+              },
+              {
+                "sentence": "She likes all the __________ in this movie.",
+                "answer": "character",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "She __________ her first computer program.",
+                "answer": "code",
+                "ko": ""
+              },
+              {
+                "sentence": "He needs some __________ information.",
+                "answer": "useful",
+                "ko": ""
+              },
+              {
+                "sentence": "She will __________ her friend to us.",
+                "answer": "introduce",
+                "ko": ""
+              },
+              {
+                "sentence": "That section is __________ for you.",
+                "answer": "perfect",
+                "ko": ""
+              },
+              {
+                "sentence": "They went on an __________.",
+                "answer": "adventure",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "She bought a new __________.",
+                "answer": "item",
+                "ko": ""
+              },
+              {
+                "sentence": "He is wearing a __________.",
+                "answer": "life jacket",
+                "ko": ""
+              },
+              {
+                "sentence": "This __________ was really fun.",
+                "answer": "weekend",
+                "ko": ""
+              },
+              {
+                "sentence": "The project is in the beginning __________.",
+                "answer": "stage",
+                "ko": ""
+              },
+              {
+                "sentence": "There are many __________ in this city.",
+                "answer": "factory",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "She painted her __________ room.",
+                "answer": "own",
+                "ko": ""
+              },
+              {
+                "sentence": "She will __________ her report.",
+                "answer": "publish",
+                "ko": ""
+              },
+              {
+                "sentence": "She will arrive __________.",
+                "answer": "soon",
+                "ko": ""
+              },
+              {
+                "sentence": "They need some study __________.",
+                "answer": "tip",
+                "ko": ""
+              },
+              {
+                "sentence": "The class was very __________.",
+                "answer": "interesting",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "He ran up the __________.",
+                "answer": "stair",
+                "ko": ""
+              },
+              {
+                "sentence": "I like his movie __________.",
+                "answer": "review",
+                "ko": ""
+              },
+              {
+                "sentence": "We set up a plan for the __________.",
+                "answer": "future",
+                "ko": ""
+              },
+              {
+                "sentence": "He wrote a letter to his favorite __________.",
+                "answer": "writer",
+                "ko": ""
+              },
+              {
+                "sentence": "She heard an __________ idea.",
+                "answer": "exciting",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "There are many __________ of music around the world.",
+                "answer": "kind",
+                "ko": ""
+              },
+              {
+                "sentence": "Is this story __________?",
+                "answer": "real",
+                "ko": ""
+              },
+              {
+                "sentence": "He painted a building in the __________.",
+                "answer": "background",
+                "ko": ""
+              },
+              {
+                "sentence": "They'll __________ more flowers to the garden.",
+                "answer": "add",
+                "ko": ""
+              },
+              {
+                "sentence": "I met the __________ of the game.",
+                "answer": "maker",
+                "ko": ""
+              }
+            ],
+            [
+              {
+                "sentence": "The writer __________ published his first book.",
+                "answer": "finally",
+                "ko": ""
+              },
+              {
+                "sentence": "He made an interesting __________.",
+                "answer": "app",
+                "ko": ""
+              },
+              {
+                "sentence": "This __________ tree is 500 years old.",
+                "answer": "giant",
+                "ko": ""
+              },
+              {
+                "sentence": "They __________ playing soccer.",
+                "answer": "enjoy",
+                "ko": ""
+              },
+              {
+                "sentence": "I __________ the park every day.",
+                "answer": "go through",
+                "ko": ""
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 40,
+      "counts": {
+        "both": 80,
+        "def": 40,
+        "match": 40,
+        "cloze": 40
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "비상 황종배 중1 L5 어휘 — 청명",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "about",
+              "answer": "~에 대하여[관한]"
+            },
+            {
+              "word": "as",
+              "answer": "~로서"
+            },
+            {
+              "word": "beginning",
+              "answer": "시작"
+            },
+            {
+              "word": "choose",
+              "answer": "선택하다"
+            },
+            {
+              "word": "cool",
+              "answer": "시원한; 멋진"
+            },
+            {
+              "word": "corner",
+              "answer": "모서리; 구석"
+            },
+            {
+              "word": "draw",
+              "answer": "그리다"
+            },
+            {
+              "word": "end",
+              "answer": "끝나다"
+            },
+            {
+              "word": "fashion",
+              "answer": "패션"
+            },
+            {
+              "word": "hard",
+              "answer": "힘든, 어려운"
+            },
+            {
+              "word": "join",
+              "answer": "가입하다; 함께하다"
+            },
+            {
+              "word": "like",
+              "answer": "~처럼; ~ 같은"
+            },
+            {
+              "word": "main",
+              "answer": "주요한"
+            },
+            {
+              "word": "monster",
+              "answer": "괴물"
+            },
+            {
+              "word": "new",
+              "answer": "새로운"
+            },
+            {
+              "word": "program",
+              "answer": "프로그램"
+            },
+            {
+              "word": "programmer",
+              "answer": "프로그래머"
+            },
+            {
+              "word": "really",
+              "answer": "정말로"
+            },
+            {
+              "word": "role model",
+              "answer": "롤 모델, 본보기상"
+            },
+            {
+              "word": "someday",
+              "answer": "언젠가"
+            },
+            {
+              "word": "sound",
+              "answer": "소리; ~하게 들리다"
+            },
+            {
+              "word": "through",
+              "answer": "~을 통과하여"
+            },
+            {
+              "word": "time",
+              "answer": "시간; 번(횟수)"
+            },
+            {
+              "word": "tower",
+              "answer": "탑"
+            },
+            {
+              "word": "try",
+              "answer": "노력하다; 시도하다"
+            },
+            {
+              "word": "at the beginning of",
+              "answer": "~의 초반에"
+            },
+            {
+              "word": "be good at",
+              "answer": "~을 잘하다"
+            },
+            {
+              "word": "be perfect for",
+              "answer": "~에 꼭 알맞다"
+            },
+            {
+              "word": "for the first time",
+              "answer": "처음으로, 최초로"
+            },
+            {
+              "word": "get off",
+              "answer": "~을 벗어나다"
+            },
+            {
+              "word": "in one's free time",
+              "answer": "~의 여가 시간에"
+            },
+            {
+              "word": "in the future",
+              "answer": "미래에"
+            },
+            {
+              "word": "look at",
+              "answer": "~을 보다"
+            },
+            {
+              "word": "put together",
+              "answer": "~을 합치다[조립하다]"
+            },
+            {
+              "word": "these days",
+              "answer": "요즘에는"
+            },
+            {
+              "word": "wake up",
+              "answer": "(잠에서) 깨다, 일어나다"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "(잠에서) 깨다, 일어나다",
+              "answer": "wake up"
+            },
+            {
+              "ko": "~의 초반에",
+              "answer": "at the beginning of"
+            },
+            {
+              "ko": "소리; ~하게 들리다",
+              "answer": "sound"
+            },
+            {
+              "ko": "처음으로, 최초로",
+              "answer": "for the first time"
+            },
+            {
+              "ko": "그리다",
+              "answer": "draw"
+            },
+            {
+              "ko": "괴물",
+              "answer": "monster"
+            },
+            {
+              "ko": "~에 꼭 알맞다",
+              "answer": "be perfect for"
+            },
+            {
+              "ko": "~의 여가 시간에",
+              "answer": "in one's free time"
+            },
+            {
+              "ko": "선택하다",
+              "answer": "choose"
+            },
+            {
+              "ko": "~로서",
+              "answer": "as"
+            },
+            {
+              "ko": "새로운",
+              "answer": "new"
+            },
+            {
+              "ko": "~을 보다",
+              "answer": "look at"
+            },
+            {
+              "ko": "언젠가",
+              "answer": "someday"
+            },
+            {
+              "ko": "힘든, 어려운",
+              "answer": "hard"
+            },
+            {
+              "ko": "~을 통과하여",
+              "answer": "through"
+            },
+            {
+              "ko": "프로그램",
+              "answer": "program"
+            },
+            {
+              "ko": "노력하다; 시도하다",
+              "answer": "try"
+            },
+            {
+              "ko": "요즘에는",
+              "answer": "these days"
+            },
+            {
+              "ko": "~을 벗어나다",
+              "answer": "get off"
+            },
+            {
+              "ko": "정말로",
+              "answer": "really"
+            },
+            {
+              "ko": "주요한",
+              "answer": "main"
+            },
+            {
+              "ko": "~을 합치다[조립하다]",
+              "answer": "put together"
+            },
+            {
+              "ko": "미래에",
+              "answer": "in the future"
+            },
+            {
+              "ko": "모서리; 구석",
+              "answer": "corner"
+            },
+            {
+              "ko": "시작",
+              "answer": "beginning"
+            },
+            {
+              "ko": "~에 대하여[관한]",
+              "answer": "about"
+            },
+            {
+              "ko": "~을 잘하다",
+              "answer": "be good at"
+            },
+            {
+              "ko": "패션",
+              "answer": "fashion"
+            },
+            {
+              "ko": "롤 모델, 본보기상",
+              "answer": "role model"
+            },
+            {
+              "ko": "~처럼; ~ 같은",
+              "answer": "like"
+            },
+            {
+              "ko": "시간; 번(횟수)",
+              "answer": "time"
+            },
+            {
+              "ko": "탑",
+              "answer": "tower"
+            },
+            {
+              "ko": "가입하다; 함께하다",
+              "answer": "join"
+            },
+            {
+              "ko": "시원한; 멋진",
+              "answer": "cool"
+            },
+            {
+              "ko": "프로그래머",
+              "answer": "programmer"
+            },
+            {
+              "ko": "끝나다",
+              "answer": "end"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "to finish or stop",
+              "ko": "끝나다",
+              "answer": "end"
+            },
+            {
+              "def_en": "a strange or horrible imaginary creature",
+              "ko": "괴물",
+              "answer": "monster"
+            }
+          ]
+        }
+      ],
+      "n_words": 36,
+      "counts": {
+        "both": 72,
+        "def": 2
+      }
+    }
+  ]
+}

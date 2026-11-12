@@ -1,0 +1,261 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ⑤⑥⑦",
+  "parts": [
+    "중1 L5 비상 대화-5",
+    "중1 L5 비상 대화-6",
+    "중1 L5 비상 대화-7"
+  ],
+  "passage_ids": [
+    "28c53598-ce59-435a-97ee-ae58525499eb",
+    "06501393-a314-4310-a2a2-d2b978396762",
+    "84626c28-bb3a-4674-adb8-73436167731f"
+  ],
+  "para_breaks": [
+    3,
+    9,
+    14
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    14
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "M: What do you want to be in the future?",
+    "W: Well, I want to be a street dancer.",
+    "M: Oh, there is a dancer’s section over there.",
+    "W: Look at that.",
+    "The game maker’s section looks interesting.",
+    "M: It really does.",
+    "W: I like games.",
+    "I want to be a game maker.",
+    "M: Oh, then that section is perfect for you.",
+    "W: Is there a musician’s section here?",
+    "M: Yeah, it’s over there in the corner.",
+    "Are you interested in music?",
+    "W: Yes, I am.",
+    "I want to be a musician."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "남자는 여자에게 미래에 무엇이 되고 싶은지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "남자가 'What do you want to be in the future?'라고 물었다.",
+      "_evidence_text": [
+        "M: What do you want to be in the future?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man asks the woman what job she hopes to have in the future."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 처음에 스트리트 댄서가 되고 싶다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "여자가 'I want to be a street dancer.'라고 말했다.",
+      "_evidence_text": [
+        "W: Well, I want to be a street dancer."
+      ],
+      "_repeat": false,
+      "statement_en": "At first, the woman says she would like to become a street dancer."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 이곳에 댄서 구역은 아직 없다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "남자는 댄서 구역이 저쪽에 있다고 알려 주었다.",
+      "_evidence_text": [
+        "M: Oh, there is a dancer’s section over there."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says there is no section for dancers in this place yet."
+    },
+    {
+      "type": "content",
+      "statement_ko": "'저것 좀 봐'라고 말한 사람은 남자다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "'Look at that.'이라고 말한 사람은 여자다.",
+      "_evidence_text": [
+        "W: Look at that."
+      ],
+      "_repeat": false,
+      "statement_en": "It is the man who says, \"Look at that.\""
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 게임 제작자 구역이 지루해 보인다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "여자는 그 구역이 흥미로워(interesting) 보인다고 말했다.",
+      "_evidence_text": [
+        "The game maker’s section looks interesting."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says that the game maker's section looks boring."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 여자의 말에 동의한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "남자가 'It really does.'라며 동의했다.",
+      "_evidence_text": [
+        "M: It really does."
+      ],
+      "_repeat": false,
+      "statement_en": "The man agrees with what the woman says."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 게임을 좋아한다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "여자가 'I like games.'라고 말했다.",
+      "_evidence_text": [
+        "W: I like games."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says that she likes games."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 게임 제작자가 되고 싶다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "여자가 'I want to be a game maker.'라고 말했다.",
+      "_evidence_text": [
+        "I want to be a game maker."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman says she wants to become a game maker."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 그 구역이 자기 자신에게 딱 맞는다고 말한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "남자는 그 구역이 '너(여자)'에게 완벽하다고 말했다.",
+      "_evidence_text": [
+        "M: Oh, then that section is perfect for you."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says that the section is perfect for himself."
+    },
+    {
+      "type": "content",
+      "statement_ko": "음악가 구역이 있는지 먼저 물어본 사람은 남자다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "'Is there a musician's section here?'라고 물은 사람은 여자다.",
+      "_evidence_text": [
+        "W: Is there a musician’s section here?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man is the one who first asks whether there is a musician's section."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 음악가 구역이 저쪽 모퉁이에 있다고 알려 준다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "남자가 'it's over there in the corner.'라고 답했다.",
+      "_evidence_text": [
+        "M: Yeah, it’s over there in the corner."
+      ],
+      "_repeat": false,
+      "statement_en": "The man tells her that the musician's section is over there in the corner."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 여자에게 음악에 관심이 있는지 묻는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "남자가 'Are you interested in music?'이라고 물었다.",
+      "_evidence_text": [
+        "Are you interested in music?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man asks the woman if she has an interest in music."
+    },
+    {
+      "type": "content",
+      "statement_ko": "여자는 음악에는 관심이 없다고 답한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "여자는 'Yes, I am.'이라고 관심이 있다고 답했다.",
+      "_evidence_text": [
+        "W: Yes, I am."
+      ],
+      "_repeat": false,
+      "statement_en": "The woman answers that she is not interested in music."
+    },
+    {
+      "type": "content",
+      "statement_ko": "대화의 마지막에서 여자는 음악가가 되고 싶다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        14
+      ],
+      "why_ko": "여자가 'I want to be a musician.'이라고 말하며 대화가 끝난다.",
+      "_evidence_text": [
+        "I want to be a musician."
+      ],
+      "_repeat": false,
+      "statement_en": "At the end of the talk, the woman says she wants to be a musician."
+    }
+  ],
+  "diagnostics": {
+    "returned": 14,
+    "kept": 14,
+    "by_type": {
+      "content": 14
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 8,
+      "X": 6
+    },
+    "sentences_covered": 14,
+    "sentence_count": 14,
+    "repeated": 0
+  }
+}

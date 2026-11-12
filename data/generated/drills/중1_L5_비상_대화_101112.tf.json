@@ -1,0 +1,247 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ⑩⑪⑫",
+  "parts": [
+    "중1 L5 비상 대화-10",
+    "중1 L5 비상 대화-11",
+    "중1 L5 비상 대화-12"
+  ],
+  "passage_ids": [
+    "4a87aa58-2e0a-4cc1-8dc6-59a048b3927d",
+    "7f10a186-69ed-4f3e-93fc-66e1706dea6d",
+    "f2516002-737a-43eb-9968-47df0b0be221"
+  ],
+  "para_breaks": [
+    4,
+    9,
+    13
+  ],
+  "turn_breaks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "A: What are you interested in?",
+    "B: I’m interested in sports.",
+    "A: Then what do you want to be in the future?",
+    "B: I want to be a soccer player.",
+    "M: Jane, what are you interested in?",
+    "W: I’m into sports.",
+    "How about you?",
+    "M: I’m interested in fashion.",
+    "I really like caps and shoes.",
+    "M: Nancy, what are you reading?",
+    "W: I’m reading a book about computer programming.",
+    "M: Oh, are you into programming?",
+    "W: Yeah, I want to be a computer programmer someday."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "A는 B에게 무엇에 관심이 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "A가 'What are you interested in?'이라고 물었다.",
+      "_evidence_text": [
+        "A: What are you interested in?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asks B what things B likes or has an interest in."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 스포츠에 관심이 있다고 답했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "B가 'I'm interested in sports.'라고 말했다.",
+      "_evidence_text": [
+        "B: I’m interested in sports."
+      ],
+      "_repeat": false,
+      "statement_en": "B answers that sports are what he is interested in."
+    },
+    {
+      "type": "content",
+      "statement_ko": "A는 B에게 과거에 무엇이 되고 싶었는지 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "A는 미래에(in the future) 무엇이 되고 싶은지 물었다.",
+      "_evidence_text": [
+        "A: Then what do you want to be in the future?"
+      ],
+      "_repeat": false,
+      "statement_en": "A asks B what job B wanted to have in the past."
+    },
+    {
+      "type": "content",
+      "statement_ko": "B는 야구 선수가 되고 싶다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "B는 축구 선수(soccer player)가 되고 싶다고 했다.",
+      "_evidence_text": [
+        "B: I want to be a soccer player."
+      ],
+      "_repeat": false,
+      "statement_en": "B says that his dream job is a baseball player."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 Jane에게 무엇에 관심이 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "남자가 'Jane, what are you interested in?'이라고 물었다.",
+      "_evidence_text": [
+        "M: Jane, what are you interested in?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man asks Jane about the things she is interested in."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jane은 자신이 패션에 빠져 있다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "Jane은 'I'm into sports.'라고 하여 스포츠에 빠져 있다고 했다.",
+      "_evidence_text": [
+        "W: I’m into sports."
+      ],
+      "_repeat": false,
+      "statement_en": "Jane says that she is really into fashion."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Jane은 상대방에게도 되물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "Jane이 'How about you?'라고 되물었다.",
+      "_evidence_text": [
+        "How about you?"
+      ],
+      "_repeat": false,
+      "statement_en": "Jane asks the same question back to the other person."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 음악에 관심이 있다고 말했다.",
+      "answer": "X",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "남자는 패션(fashion)에 관심이 있다고 했다.",
+      "_evidence_text": [
+        "M: I’m interested in fashion."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says that music is his interest."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 모자와 신발을 정말 좋아한다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "'I really like caps and shoes.'라고 말했다.",
+      "_evidence_text": [
+        "I really like caps and shoes."
+      ],
+      "_repeat": false,
+      "statement_en": "The man says he really likes caps and shoes."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Nancy가 남자에게 무엇을 읽고 있는지 먼저 물었다.",
+      "answer": "X",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "남자가 Nancy에게 무엇을 읽고 있는지 물었다.",
+      "_evidence_text": [
+        "M: Nancy, what are you reading?"
+      ],
+      "_repeat": false,
+      "statement_en": "Nancy is the first one to ask the man what he is reading."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Nancy는 컴퓨터 프로그래밍에 관한 책을 읽고 있다.",
+      "answer": "O",
+      "evidence_sentences": [
+        11
+      ],
+      "why_ko": "'a book about computer programming'을 읽고 있다고 했다.",
+      "_evidence_text": [
+        "W: I’m reading a book about computer programming."
+      ],
+      "_repeat": false,
+      "statement_en": "The book in Nancy's hands is about computer programming."
+    },
+    {
+      "type": "content",
+      "statement_ko": "남자는 Nancy에게 프로그래밍에 빠져 있는지 물었다.",
+      "answer": "O",
+      "evidence_sentences": [
+        12
+      ],
+      "why_ko": "'are you into programming?'이라고 물었다.",
+      "_evidence_text": [
+        "M: Oh, are you into programming?"
+      ],
+      "_repeat": false,
+      "statement_en": "The man asks Nancy if she is into programming."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Nancy는 언젠가 컴퓨터 프로그래머가 되고 싶다고 말했다.",
+      "answer": "O",
+      "evidence_sentences": [
+        13
+      ],
+      "why_ko": "'I want to be a computer programmer someday.'라고 말했다.",
+      "_evidence_text": [
+        "W: Yeah, I want to be a computer programmer someday."
+      ],
+      "_repeat": false,
+      "statement_en": "Nancy says she hopes to become a computer programmer one day."
+    }
+  ],
+  "diagnostics": {
+    "returned": 13,
+    "kept": 13,
+    "by_type": {
+      "content": 13
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 8,
+      "X": 5
+    },
+    "sentences_covered": 13,
+    "sentence_count": 13,
+    "repeated": 0
+  }
+}

@@ -1,0 +1,620 @@
+{
+  "passage_id": "41f4c279-10bb-453a-95d2-c6844aa73d6b",
+  "body_text_sha256": "a738697b8da54a521f8c9d3792720298ef80990f7317b685623dd348268582ad",
+  "tags": [
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 3,
+      "span_end": 36,
+      "surface": "What is your science report about",
+      "sentence_no": 1,
+      "rationale": "의문사 what이 전치사 about의 목적어라 문장 끝에 about이 남는 구조. 전치사를 삭제하거나(EI_PREP_DELETE) of/for 등으로 바꿔 묻기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE",
+        "BO_WORD_ORDER"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 47,
+      "span_end": 65,
+      "surface": "It is about robots",
+      "sentence_no": 2,
+      "rationale": "It이 앞 문장의 your science report(단수 사물)를 받는다. They/He 등으로 바꾼 수·격 오류 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 74,
+      "span_end": 102,
+      "surface": "are you interested in robots",
+      "sentence_no": 3,
+      "rationale": "감정동사 interest의 과거분사형 보어. 주어가 사람이므로 interested가 맞고 interesting으로 바꾼 선지가 전형적인 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 82,
+      "span_end": 95,
+      "surface": "interested in",
+      "sentence_no": 3,
+      "rationale": "be interested in의 고정 전치사. in을 at/with/on으로 바꾸거나 삭제하는 변형이 쉽게 걸리는 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 112,
+      "span_end": 132,
+      "surface": "They are really cool",
+      "sentence_no": 5,
+      "rationale": "They가 앞 문장의 robots(복수)를 받는다. It/He로 바꾸면 수 불일치 오류가 된다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 121,
+      "span_end": 132,
+      "surface": "really cool",
+      "sentence_no": 5,
+      "rationale": "부사 really가 형용사 cool을 수식. be동사 보어 자리이므로 coolly로 바꾸면 틀린다.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 134,
+      "span_end": 158,
+      "surface": "What’s your report about",
+      "sentence_no": 6,
+      "rationale": "단수 주어 your report에 What's(= What is). What are로 바꾼 수일치 오류 유도 가능.",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 178,
+      "span_end": 202,
+      "surface": "I’m really into VR games",
+      "sentence_no": 7,
+      "rationale": "be into = ~에 푹 빠져 있다. into를 in/on/at으로 바꾼 선지가 전형적이며 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 207,
+      "span_end": 229,
+      "surface": "I’m writing about them",
+      "sentence_no": 8,
+      "rationale": "현재진행형으로 지금 하고 있는 일을 표현. I write / I wrote 로 바꾼 시제 오류나 be동사 누락 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_GERUND_TO_VERB"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 219,
+      "span_end": 229,
+      "surface": "about them",
+      "sentence_no": 8,
+      "rationale": "전치사 about의 목적어이므로 목적격 them. VR games(복수)를 받으므로 it/they로 바꾸면 격·수 오류.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 234,
+      "span_end": 265,
+      "surface": "VR games are really interesting",
+      "sentence_no": 9,
+      "rationale": "복수 주어 VR games에 are. is로 바꾼 수일치 오류 유도 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 254,
+      "span_end": 265,
+      "surface": "interesting",
+      "sentence_no": 9,
+      "rationale": "사물 주어이므로 현재분사형 interesting. 사람 주어에 쓰는 interested와 구별시키는 전형적 출제 지점.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "응답(주제 제시)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "추가질문(관심 확인)",
+      "signal": "Oh",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "긍정 응답",
+      "signal": "Yes",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "이유·부연",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "전환(되묻기)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "관심 표명",
+      "signal": "Well",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 8,
+      "role": "결과(보고서 주제)",
+      "signal": "So",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 9,
+      "role": "공감·마무리",
+      "signal": "too",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 대화의 문장을 옮긴 것이다. 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "③ 주어가 사람(you)이고 '관심이 있다'는 뜻이므로 be interested in이 맞다. interesting은 사물이 '흥미롭다'는 뜻이므로 ⑤처럼 VR games 같은 사물 주어에 쓴다. 나머지는 모두 본문 그대로의 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What is your science report about, Toby?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It is about robots.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Oh, are you interesting in robots?",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "They are really cool.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "VR games are really interesting, too.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "대화의 (a), (b), (c)에 들어갈 말로 알맞은 것끼리 짝지어진 것은?\nW: Oh, are you (a)[interested / interesting] in robots?\nW: Well, I'm really (b)[into / in] VR games.\nM(W): So I'm (c)[writing / write] about them.",
+      "answer_key": "①",
+      "explanation": "(a) 사람 주어 you에는 interested. (b) be into ~ 는 '~에 푹 빠져 있다'는 뜻의 굳어진 표현으로 in을 쓸 수 없다. (c) I'm 뒤이므로 현재진행형 writing이 와야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        7,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) interested – (b) into – (c) writing",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) interested – (b) in – (c) writing",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) interesting – (b) into – (c) writing",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) interested – (b) into – (c) write",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 밑줄 친 낱말의 쓰임이 적절하지 않은 것은?\nW: What is your ①science report about, Toby?\nM: It is about ②robots. W: Oh, are you interested in robots?\nM: Yes. They are really ③cool.\nW: Well, I'm really ④into VR games. So I'm writing about them.\nM: VR games are really ⑤boring, too.",
+      "answer_key": "⑤",
+      "explanation": "Jessica가 VR 게임에 푹 빠져 있다고 말한 뒤 Toby가 공감하며 too를 덧붙이는 흐름이므로 '지루하다(boring)'가 아니라 '흥미롭다(interesting)'가 와야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7,
+        11
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "science",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "robots",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "cool",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "into",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "boring",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "밑줄 친 I'm really into VR games.의 의미로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "be into ~ 는 '~에 관심이 많다, 푹 빠져 있다'는 뜻이다. 바로 뒤에 그래서 그것에 대해 글을 쓰고 있다고 말하므로 ①이 알맞다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "나는 VR 게임에 정말 푹 빠져 있다.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "나는 VR 게임 안으로 들어가 보았다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "나는 VR 게임을 정말 잘 만든다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "나는 VR 게임을 사고 싶어 한다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "나는 VR 게임을 해 본 적이 없다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two students mainly talking about?",
+      "answer_key": "①",
+      "explanation": "두 사람은 서로의 보고서 주제(로봇, VR 게임)와 그것에 대한 관심을 이야기하고 있다. 가격, 마감일, 우열 비교는 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The topics of their reports and what they are interested in",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How to build a robot for a science class",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The price of new VR game machines",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "When their science reports are due",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Why robots are better than VR games",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is TRUE about the dialogue?",
+      "answer_key": "①",
+      "explanation": "Toby는 보고서가 로봇에 관한 것이라고 했고(It is about robots.) 로봇에 관심이 있다고 답했다. Jessica는 VR 게임에 대해 쓰고 있으며, Toby도 VR 게임이 흥미롭다고 했다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Toby's science report is about robots.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Toby is not interested in robots at all.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Jessica is writing about robots, too.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Jessica thinks VR games are boring.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Toby has never heard of VR games.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음은 위 대화의 한 문장을 바꾼 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ Oh, are you interesting at robots?",
+      "answer_key": "interesting at → interested in",
+      "explanation": "사람이 관심을 느끼는 경우에는 과거분사형 interested를 쓰고, 고정 전치사는 in이다. 따라서 interested in robots로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "다음 우리말과 같도록 조건에 맞게 영작하시오.\n우리말: 음, 나는 VR 게임에 정말 푹 빠져 있어.\n조건 1: into를 반드시 사용할 것  조건 2: Well, I'm 으로 시작할 것  조건 3: 대화에 쓰인 표현 그대로 쓸 것",
+      "answer_key": "Well, I’m really into VR games.",
+      "explanation": "'~에 푹 빠져 있다'는 be into ~ 로 쓴다. 강조하는 really를 into 앞에 두어 Well, I'm really into VR games. 가 된다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "우리말과 같도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n우리말: 너의 과학 보고서는 무엇에 관한 것이니, Toby?\n[ about / your / is / what / report / science ] , Toby?",
+      "answer_key": "What is your science report about, Toby?",
+      "explanation": "의문사 what이 전치사 about의 목적어이므로 「What + be동사 + 주어 + about?」 어순이 되고, about은 문장 끝에 남는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 9,
+    "tags_returned": 12,
+    "tags_kept": 12,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 9,
+    "items_kept": 9,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

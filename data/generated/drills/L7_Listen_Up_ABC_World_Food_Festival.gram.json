@@ -1,0 +1,144 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 Listen Up — ABC World Food Festival",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중2 L7 Listen Up"
+  ],
+  "body": "M: Welcome to the ABC World Food Festival! Every year, we invite great chefs from around the world. This year, we invited Mr. Kumar, a world-famous Indian chef. Do you like Indian food? Then, don’t miss his cooking class. You can also get his recipe book for free.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "65ed5b21-3a1c-4d1c-82a4-f5af58a1efa5",
+      "point": "PREP_USAGE",
+      "span_start": 77,
+      "span_end": 98,
+      "correct": "from around the world",
+      "wrong": [
+        "of around the world",
+        "in around the world",
+        "around the world from"
+      ],
+      "why_ko": "'세계 각지에서 온'은 from around the world로 굳어진 표현이라 from을 of/in으로 바꿀 수 없어요.",
+      "rationale": "'세계 각지에서 온'을 뜻하는 from + around 이중 전치사. from 을 of/in 으로 바꾸거나 전치사를 삭제하는 변형이 가능",
+      "sentence_no": 2,
+      "sentence": "Every year, we invite great chefs from around the world."
+    },
+    {
+      "tag_id": "0615687e-ecd8-417f-bdc2-b7101d53cf2d",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 111,
+      "span_end": 131,
+      "correct": "we invited Mr. Kumar",
+      "wrong": [
+        "we were invited Mr. Kumar",
+        "Mr. Kumar invited by us",
+        "we was inviting Mr. Kumar"
+      ],
+      "why_ko": "우리가 초대한 것이므로 목적어가 있는 능동태 invited가 맞아요. 목적어를 둔 채 수동태로 쓰면 틀립니다.",
+      "rationale": "목적어를 가진 능동태 → Mr. Kumar was invited (by us) 로 전환 가능. by 누락이나 was inviting 형태 오류를 심는 자리",
+      "sentence_no": 3,
+      "sentence": "This year, we invited Mr. Kumar, a world-famous Indian chef."
+    },
+    {
+      "tag_id": "232cae48-5286-4a1b-84b2-7f26f2938707",
+      "point": "REL_CONTINUOUS",
+      "span_start": 122,
+      "span_end": 159,
+      "correct": "Mr. Kumar, a world-famous Indian chef",
+      "wrong": [
+        "Mr. Kumar, which is a world-famous Indian chef",
+        "Mr. Kumar, who a world-famous Indian chef"
+      ],
+      "why_ko": "콤마 뒤 동격 명사구는 그대로 쓰거나 who is를 넣어야 하고, 사람 선행사에 which를 쓰면 틀려요.",
+      "rationale": "콤마 뒤 동격 명사구. who is 를 넣은 계속적 용법 관계사절로 확장 가능하며, who/which 선행사 일치(사람→who) 오답 유도",
+      "sentence_no": 3,
+      "sentence": "This year, we invited Mr. Kumar, a world-famous Indian chef."
+    },
+    {
+      "tag_id": "85d6a7a8-9d42-4800-9063-6d45c11dab0d",
+      "point": "VERB_FINITE",
+      "span_start": 192,
+      "span_end": 220,
+      "correct": "don’t miss his cooking class",
+      "wrong": [
+        "don’t misses his cooking class",
+        "doesn’t miss his cooking class",
+        "not miss his cooking class"
+      ],
+      "why_ko": "일반동사 부정 명령문은 Don't + 동사원형이라 don't miss가 맞아요.",
+      "rationale": "일반동사 명령문의 부정 → Don't + 동사원형. Don't misses / Not miss / Doesn't miss 오답 유도",
+      "sentence_no": 5,
+      "sentence": "Then, don’t miss his cooking class."
+    },
+    {
+      "tag_id": "28575ef8-edeb-448d-b4c5-ab075d4dcd2a",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 203,
+      "span_end": 220,
+      "correct": "his cooking class",
+      "wrong": [
+        "his to cook class"
+      ],
+      "why_ko": "'요리 수업'처럼 용도를 나타낼 때는 동명사 cooking이 명사를 꾸며요. to부정사나 동사원형은 쓸 수 없어요.",
+      "rationale": "용도를 나타내는 동명사 수식(요리를 위한 수업). to cook class 같은 to부정사 대체 오류 유도",
+      "sentence_no": 5,
+      "sentence": "Then, don’t miss his cooking class.",
+      "verify_dropped": [
+        {
+          "wrong": "his cook class",
+          "judgement": "odd",
+          "note_ko": "명사+명사 결합 형태이지만 관용적으로 쓰이지 않아 매우 어색하다."
+        }
+      ]
+    },
+    {
+      "tag_id": "5574bac6-93c6-4061-ace1-627db297af03",
+      "point": "VERB_MODAL_USAGE",
+      "span_start": 226,
+      "span_end": 238,
+      "correct": "can also get",
+      "wrong": [
+        "can also gets",
+        "can also to get",
+        "also can getting"
+      ],
+      "why_ko": "조동사 can 뒤에는 동사원형이 오고 also는 조동사 뒤에 놓이므로 can also get이 맞아요.",
+      "rationale": "조동사 can 뒤 동사원형. also 의 위치(조동사 뒤, 본동사 앞)도 함께 묻힐 수 있음. can gets / can to get 오답 유도",
+      "sentence_no": 6,
+      "sentence": "You can also get his recipe book for free."
+    },
+    {
+      "tag_id": "8333bdc5-dc06-41d9-9828-ba590c416c9b",
+      "point": "PREP_USAGE",
+      "span_start": 255,
+      "span_end": 263,
+      "correct": "for free",
+      "wrong": [
+        "with free",
+        "in free",
+        "for freely"
+      ],
+      "why_ko": "'무료로'는 for free로 굳어진 표현이라 전치사를 바꾸거나 부사형으로 쓰면 틀려요.",
+      "rationale": "'무료로'를 뜻하는 굳어진 전치사구. for 를 with/by/in 으로 바꾸거나 통째 삭제하는 빈칸 출제가 쉬운 자리",
+      "sentence_no": 6,
+      "sentence": "You can also get his recipe book for free."
+    }
+  ],
+  "diagnostics": {
+    "returned": 8,
+    "kept": 8,
+    "given": 8,
+    "rejects": [],
+    "verify": {
+      "dropped_items": [
+        [
+          "Every year, we invite",
+          "모든 오답이 실은 맞는 표현이라 버림: Every year, we invited(ok), Every year, we are inviting(odd)"
+        ]
+      ],
+      "dropped_wrongs": 1
+    }
+  },
+  "verified": true
+}

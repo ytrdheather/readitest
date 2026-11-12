@@ -14,14 +14,17 @@
   "body_text_sha256": "c131be22f716c3d7ab3849de66ed27afd6ad532336611e117c742c4dc37f204f",
   "word_count": 59,
   "transcription": {
-    "status": "pending",
+    "status": "confirmed",
     "method": "workbook_pdf_text_layer",
     "source_file": "내콘 중1 2학기 비상황.pdf",
     "note": "내신콘서트 「DIALOGUES_대화」 해설 쪽에서 추출. 해설 번호 ➊➋ 를 떼고 감긴 줄을 이었다. 텍스트 레이어라 오독은 없으나 빠진 대화는 기계가 모른다 — 원장 대조 필요.",
     "has_handwriting": false,
     "has_cutoff": false,
     "unreadable_spans": [],
-    "needs_review_sentences": []
+    "needs_review_sentences": [],
+    "confirmed_by": "Claude",
+    "confirmed_at": "2026-11-12T11:33:01.855401+00:00",
+    "confirmed_via": "본문: 비상 자습서 해설쪽(Downloads 청명1 5과.pdf) 27문장 기계 대조 일치 · 대화1~8: 청명중1 이성규 L5 학습지 4·5쪽 인쇄문 육안 대조 일치 · 대화9~12: 내신콘서트 텍스트 레이어 단일 출처 (원장 「청명 5과 드릴 만들자」 2026-11-12)"
   },
   "distribution_scope": "internal_only",
   "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",

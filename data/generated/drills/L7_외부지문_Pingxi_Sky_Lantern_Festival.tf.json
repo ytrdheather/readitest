@@ -1,0 +1,186 @@
+{
+  "book": "영덕중 배부물",
+  "unit": "L7 외부지문 — Pingxi Sky Lantern Festival",
+  "parts": [
+    "Pingxi Sky Lantern Festival"
+  ],
+  "passage_ids": [
+    "969533c3-ce43-471a-b0da-b0adbede3bce"
+  ],
+  "para_breaks": [
+    10
+  ],
+  "turn_breaks": [
+    10
+  ],
+  "kind": "handout_external",
+  "sentences": [
+    "The Pingxi Sky Lantern festival is one of Taiwan's most famous celebrations.",
+    "It takes place every year in February or March.",
+    "This festival marks the end of the Lunar New Year.",
+    "People from all over Taiwan and many visitors from other countries come to the small town of Shifen to take part in this special event.",
+    "During the festival, people write their wishes, dreams, and messages of hope on colorful paper lanterns.",
+    "Then, they light the lanterns and release them into the night sky.",
+    "As hundreds of glowing lanterns float upward, the dark sky becomes bright and magical.",
+    "People believe that this tradition brings good luck and happiness for the year ahead.",
+    "Families, friends, and tourists all enjoy the peaceful and joyful moments.",
+    "The Pingxi Sky Lantern Festival is not only beautiful but also full of meaning—It is time to dream and share hope with others."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "핑시 천등 축제는 대만에서 가장 유명한 축제들 중 하나이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "1번 문장에서 대만의 가장 유명한 축제 중 하나라고 했다.",
+      "_evidence_text": [
+        "The Pingxi Sky Lantern festival is one of Taiwan's most famous celebrations."
+      ],
+      "_repeat": false,
+      "statement_en": "The Pingxi Sky Lantern Festival is one of the best-known celebrations in Taiwan."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 축제는 매년 7월이나 8월에 열린다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "2번 문장에 따르면 매년 2월이나 3월에 열린다.",
+      "_evidence_text": [
+        "It takes place every year in February or March."
+      ],
+      "_repeat": false,
+      "statement_en": "The festival is held every year in July or August."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 축제는 음력 설(설 연휴)의 시작을 알리는 행사이다.",
+      "answer": "X",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "3번 문장에서 음력 새해의 '끝'을 알린다고 했다.",
+      "_evidence_text": [
+        "This festival marks the end of the Lunar New Year."
+      ],
+      "_repeat": false,
+      "statement_en": "The festival is an event that announces the beginning of the Lunar New Year."
+    },
+    {
+      "type": "content",
+      "statement_ko": "대만 전역의 사람들뿐 아니라 다른 나라에서 온 방문객들도 스펀이라는 작은 마을로 모인다.",
+      "answer": "O",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "4번 문장에 대만 전역과 외국 방문객이 작은 마을 스펀으로 온다고 나온다.",
+      "_evidence_text": [
+        "People from all over Taiwan and many visitors from other countries come to the small town of Shifen to take part in this special event."
+      ],
+      "_repeat": false,
+      "statement_en": "Not only people from every part of Taiwan but also visitors from other countries gather in the small town of Shifen."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 알록달록한 종이 등에 소원, 꿈, 희망의 메시지를 적는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "5번 문장과 일치한다.",
+      "_evidence_text": [
+        "During the festival, people write their wishes, dreams, and messages of hope on colorful paper lanterns."
+      ],
+      "_repeat": false,
+      "statement_en": "People write their wishes, dreams, and hopeful messages on paper lanterns of many colors."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 등에 불을 붙인 뒤 강물에 띄워 보낸다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "6번 문장에서는 등에 불을 붙여 밤하늘로 날려 보낸다고 했다.",
+      "_evidence_text": [
+        "Then, they light the lanterns and release them into the night sky."
+      ],
+      "_repeat": false,
+      "statement_en": "After lighting the lanterns, people set them afloat on a river."
+    },
+    {
+      "type": "content",
+      "statement_ko": "수백 개의 빛나는 등이 떠오르면 어두운 하늘이 밝고 신비롭게 변한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        7
+      ],
+      "why_ko": "7번 문장과 일치한다.",
+      "_evidence_text": [
+        "As hundreds of glowing lanterns float upward, the dark sky becomes bright and magical."
+      ],
+      "_repeat": false,
+      "statement_en": "When hundreds of shining lanterns rise up, the dark sky turns bright and magical."
+    },
+    {
+      "type": "content",
+      "statement_ko": "사람들은 이 전통이 다가올 한 해에 행운과 행복을 가져다준다고 믿는다.",
+      "answer": "O",
+      "evidence_sentences": [
+        8
+      ],
+      "why_ko": "8번 문장과 일치한다.",
+      "_evidence_text": [
+        "People believe that this tradition brings good luck and happiness for the year ahead."
+      ],
+      "_repeat": false,
+      "statement_en": "People think this custom brings good luck and happiness for the coming year."
+    },
+    {
+      "type": "content",
+      "statement_ko": "가족과 친구들만 이 축제를 즐기고 관광객들은 즐기지 못한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        9
+      ],
+      "why_ko": "9번 문장에서 가족, 친구, 관광객 모두가 그 순간을 즐긴다고 했다.",
+      "_evidence_text": [
+        "Families, friends, and tourists all enjoy the peaceful and joyful moments."
+      ],
+      "_repeat": false,
+      "statement_en": "Only families and friends enjoy the festival, and tourists cannot enjoy it."
+    },
+    {
+      "type": "content",
+      "statement_ko": "글쓴이는 이 축제가 아름다울 뿐만 아니라 의미로도 가득하다고 말한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        10
+      ],
+      "why_ko": "10번 문장에서 아름다울 뿐 아니라 의미가 가득하다고 했다.",
+      "_evidence_text": [
+        "The Pingxi Sky Lantern Festival is not only beautiful but also full of meaning—It is time to dream and share hope with others."
+      ],
+      "_repeat": false,
+      "statement_en": "The writer says the festival is beautiful and also full of meaning."
+    }
+  ],
+  "diagnostics": {
+    "returned": 10,
+    "kept": 10,
+    "by_type": {
+      "content": 10
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 6,
+      "X": 4
+    },
+    "sentences_covered": 10,
+    "sentence_count": 10,
+    "repeated": 0
+  }
+}

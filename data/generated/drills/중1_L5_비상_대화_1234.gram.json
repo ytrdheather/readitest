@@ -1,0 +1,586 @@
+{
+  "book": "비상 황종배",
+  "unit": "중1 L5 비상 대화 ①②③④",
+  "kind": "textbook_dialogue",
+  "parts": [
+    "중1 L5 비상 대화-1",
+    "중1 L5 비상 대화-2",
+    "중1 L5 비상 대화-3",
+    "중1 L5 비상 대화-4"
+  ],
+  "body": "M: Wow. This bookstore is really big.\nW: Yeah. There are many sections. What are you interested in?\nM: I’m interested in cooking these days.\nW: Okay. Let’s go to that section first.\nW: Hey, Jim. What book are you reading?\nM: It’s a book about robots.\nW: Are you into robots?\nM: Yeah, I’m really interested in robots.\nM: Look. People are playing a new game over there.\nW: Let’s go play it. I’m really interested in games.\nM: Well, I’m not good at playing games, but I will try it.\nW: Great!\nW: What is your science report about, Toby?\nM: It is about robots.\nW: Oh, are you interested in robots?\nM: Yes. They are really cool. What’s your report about, Jessica?\nW: Well, I’m really into VR games. So I’m writing about them.\nM: VR games are really interesting, too.",
+  "tag_status": "pending",
+  "items": [
+    {
+      "tag_id": "6f5cb16f-7521-4508-9e9c-1ab65b262799",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 26,
+      "span_end": 36,
+      "correct": "really big",
+      "wrong": [
+        "really bigly",
+        "real big"
+      ],
+      "why_ko": "be동사 뒤 보어는 형용사 big, 그 형용사를 꾸미는 건 부사 really예요. bigly는 없는 말이고 real은 형용사라 형용사를 꾸밀 수 없어요.",
+      "rationale": "be동사 보어 자리의 형용사 big을 부사 really가 수식. 'really bigly' 또는 보어를 부사로 바꾼 'is really bigly' 형태의 오답 유도 가능",
+      "sentence_no": 2,
+      "sentence": "This bookstore is really big."
+    },
+    {
+      "tag_id": "bdc0f3e6-10c0-4948-a353-1f440540dff3",
+      "point": "VERB_SVA",
+      "span_start": 47,
+      "span_end": 70,
+      "correct": "There are many sections",
+      "wrong": [
+        "There is many sections",
+        "There be many sections"
+      ],
+      "why_ko": "There be 구문은 뒤 명사에 수를 맞춰요. many sections는 복수라서 are가 맞아요.",
+      "rationale": "There + be동사 구문에서 뒤의 복수명사 many sections에 are가 수일치. 'There is many sections'로 바꾸는 수일치 오류가 전형적 출제 지점",
+      "sentence_no": 4,
+      "sentence": "There are many sections."
+    },
+    {
+      "tag_id": "ade92ec2-6518-4424-b9c0-aff477158e30",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 77,
+      "span_end": 98,
+      "correct": "are you interested in",
+      "wrong": [
+        "are you interested",
+        "are you interested at"
+      ],
+      "why_ko": "be interested in이 한 덩어리이고, What이 in의 목적어라 문장 끝에 in이 꼭 남아야 해요.",
+      "rationale": "be interested in 고정 결합. 의문사 What이 전치사 in의 목적어라 문미 in이 반드시 남아야 함. in 삭제(EI_PREP_DELETE)나 at/on 교체 오답 유도",
+      "sentence_no": 5,
+      "sentence": "What are you interested in?"
+    },
+    {
+      "tag_id": "14762f06-3789-47ce-a57d-a51ed1d4b348",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 103,
+      "span_end": 128,
+      "correct": "I’m interested in cooking",
+      "wrong": [
+        "I’m interesting in cooking",
+        "I interested in cooking"
+      ],
+      "why_ko": "사람이 관심 있을 때는 be interested(과거분사)를 써요. interesting은 '흥미를 주는'이라 사람 주어에 안 맞아요.",
+      "rationale": "감정동사 interest의 수동형 be interested(관심이 있다). 'I'm interesting in'처럼 현재분사로 바꾸는 오답이 단골",
+      "sentence_no": 6,
+      "sentence": "M: I’m interested in cooking these days."
+    },
+    {
+      "tag_id": "45cd85af-d8b1-45da-8482-43b4def6f683",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 118,
+      "span_end": 128,
+      "correct": "in cooking",
+      "wrong": [
+        "in cook",
+        "in to cook"
+      ],
+      "why_ko": "전치사 in 뒤에는 동사원형이나 to부정사가 못 오고 동명사(-ing)가 와야 해요.",
+      "rationale": "전치사 in 뒤에는 동명사. 'in cook' / 'in to cook'으로 바꾼 준동사 형태 오류 유도",
+      "sentence_no": 6,
+      "sentence": "M: I’m interested in cooking these days."
+    },
+    {
+      "tag_id": "2af55027-1fea-43ce-b57a-5959e986ec85",
+      "point": "VERB_TENSE",
+      "span_start": 129,
+      "span_end": 139,
+      "correct": "these days",
+      "wrong": [
+        "this days",
+        "those days"
+      ],
+      "why_ko": "days는 복수라서 this가 아니라 these를 쓰고, '요즘'이라는 현재 뜻이라 those days(그 시절)와 달라요.",
+      "rationale": "요즘을 뜻하는 these days는 현재시제와 호응. 과거시제 'I was interested in ~ these days'로 바꾸는 시제 불일치 오답 가능",
+      "sentence_no": 6,
+      "sentence": "M: I’m interested in cooking these days."
+    },
+    {
+      "tag_id": "d8367d94-9b8b-4e14-9bd6-99910b94dd4b",
+      "point": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 150,
+      "span_end": 158,
+      "correct": "Let’s go",
+      "wrong": [
+        "Let’s to go",
+        "Let’s going"
+      ],
+      "why_ko": "Let's 뒤에는 반드시 동사원형이 와요.",
+      "rationale": "Let's(= Let us) 뒤에는 동사원형. 'Let's to go' / 'Let's going'으로 바꾸는 목적격보어 형태 오류 유도",
+      "sentence_no": 8,
+      "sentence": "Let’s go to that section first."
+    },
+    {
+      "tag_id": "db36f3be-8cbf-4f57-9778-6f600e76c408",
+      "point": "PREP_USAGE",
+      "span_start": 159,
+      "span_end": 174,
+      "correct": "to that section",
+      "wrong": [
+        "that section",
+        "at that section"
+      ],
+      "why_ko": "go는 이동이라 방향을 나타내는 to가 필요해요. at은 장소에 머무는 뜻이라 안 맞아요.",
+      "rationale": "이동 방향을 나타내는 go to + 장소. 전치사 to 삭제나 at/in 교체 오답 유도",
+      "sentence_no": 8,
+      "sentence": "Let’s go to that section first."
+    },
+    {
+      "tag_id": "d155d58f-b386-442e-b5cd-58225b0f82e1",
+      "point": "THAT_USAGE",
+      "span_start": 162,
+      "span_end": 174,
+      "correct": "that section",
+      "wrong": [
+        "that sections",
+        "those section"
+      ],
+      "why_ko": "지시형용사 that은 단수명사와 짝을 이뤄요. 복수는 those sections가 되어야 해요.",
+      "rationale": "여기서 that은 명사 section을 꾸미는 지시형용사. 접속사·관계대명사 that과 쓰임을 구별시키는 문항으로 출제 가능",
+      "sentence_no": 8,
+      "sentence": "Let’s go to that section first."
+    },
+    {
+      "tag_id": "32c21e83-65bf-4ed6-88ec-890c03d3dddd",
+      "point": "VERB_TENSE",
+      "span_start": 205,
+      "span_end": 220,
+      "correct": "are you reading",
+      "wrong": [
+        "are you read",
+        "do you reading"
+      ],
+      "why_ko": "지금 읽는 중이니 현재진행형 be + -ing예요. be 뒤에 동사원형이나 do + -ing는 쓸 수 없어요.",
+      "rationale": "지금 읽고 있는 중이므로 현재진행형 be + -ing. 'do you read' / 'are you read' / 'are you readed' 같은 오류를 유도할 수 있고, 의문사 what book 뒤 어순(조동사 도치)까지 함께 물을 수 있는 자리.",
+      "sentence_no": 10,
+      "sentence": "What book are you reading?"
+    },
+    {
+      "tag_id": "7ab0dd8f-742e-4e27-a975-b0b8df693af4",
+      "point": "PRON_AGREEMENT",
+      "span_start": 225,
+      "span_end": 229,
+      "correct": "It’s",
+      "wrong": [
+        "Its",
+        "It"
+      ],
+      "why_ko": "It is의 축약은 아포스트로피가 있는 It's예요. Its는 '그것의'라는 소유격이라 뜻이 달라져요.",
+      "rationale": "It is의 축약형 It's와 소유격 its의 구별. 'Its a book about robots.'처럼 아포스트로피를 뺀 형태로 오류를 심기 쉬운 전형적 자리.",
+      "sentence_no": 11,
+      "sentence": "M: It’s a book about robots."
+    },
+    {
+      "tag_id": "d832c08f-88dd-4d7e-ae60-f37591376802",
+      "point": "PREP_USAGE",
+      "span_start": 237,
+      "span_end": 249,
+      "correct": "about robots",
+      "wrong": [
+        "of robots",
+        "for robots"
+      ],
+      "why_ko": "'~에 관한 책'은 a book about ~으로 써요.",
+      "rationale": "'~에 관한 책'은 a book about ~. of / for / with 등으로 바꿔 빈칸을 뚫기 가장 쉬운 전치사 자리.",
+      "sentence_no": 11,
+      "sentence": "M: It’s a book about robots."
+    },
+    {
+      "tag_id": "13f3b6b3-ef3b-4460-9e95-69408b6c75d2",
+      "point": "PREP_USAGE",
+      "span_start": 262,
+      "span_end": 273,
+      "correct": "into robots",
+      "wrong": [
+        "to robots"
+      ],
+      "why_ko": "be into ~는 '~에 푹 빠져 있다'는 굳어진 표현이라 into를 바꿀 수 없어요.",
+      "rationale": "be into ~ = ~에 푹 빠져 있다. in / on / to 등으로 교체하거나 전치사를 삭제해 오답을 만들 수 있고, 의미 추론(어구추론) 문항의 핵심 표현이기도 하다.",
+      "sentence_no": 12,
+      "sentence": "W: Are you into robots?"
+    },
+    {
+      "tag_id": "3bbebacc-01a8-4a1c-a797-6b409d4b4e05",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 284,
+      "span_end": 305,
+      "correct": "I’m really interested",
+      "wrong": [
+        "I’m really interesting",
+        "I really interested"
+      ],
+      "why_ko": "사람이 주어일 때는 be interested(수동)로 써요. interesting은 사물이 흥미를 줄 때 써요.",
+      "rationale": "감정동사 interest는 사람이 주어일 때 be interested(수동). 'I'm really interesting'으로 바꾸는 현재분사/과거분사 혼동이 최빈출 오답.",
+      "sentence_no": 13,
+      "sentence": "M: Yeah, I’m really interested in robots."
+    },
+    {
+      "tag_id": "b18227f0-f567-4ba0-b908-a25ca95913ba",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 288,
+      "span_end": 305,
+      "correct": "really interested",
+      "wrong": [
+        "real interested",
+        "reality interested"
+      ],
+      "why_ko": "형용사 interested를 꾸미려면 부사 really가 필요해요. real은 형용사예요.",
+      "rationale": "형용사(분사형 보어) interested를 수식하는 것은 부사 really. 'real interested'처럼 형용사로 바꾸는 오류를 유도할 수 있다.",
+      "sentence_no": 13,
+      "sentence": "M: Yeah, I’m really interested in robots."
+    },
+    {
+      "tag_id": "ec1c46a9-94ad-4996-ba7b-7780c3e249aa",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 295,
+      "span_end": 315,
+      "correct": "interested in robots",
+      "wrong": [
+        "interested at robots",
+        "interested about robots"
+      ],
+      "why_ko": "be interested는 항상 in과 짝을 이뤄요.",
+      "rationale": "be interested + in 고정 결합. in을 at/on/about으로 바꾸거나 삭제하는 변형이 가능하다.",
+      "sentence_no": 13,
+      "sentence": "M: Yeah, I’m really interested in robots."
+    },
+    {
+      "tag_id": "bab2ab6d-3a1e-40b4-9eb8-b0fe41293a6f",
+      "point": "VERB_SVA",
+      "span_start": 326,
+      "span_end": 344,
+      "correct": "People are playing",
+      "wrong": [
+        "People is playing",
+        "People am playing"
+      ],
+      "why_ko": "People은 복수 취급이라 be동사는 are를 써요.",
+      "rationale": "주어 People은 복수이므로 be동사는 are. is playing 으로 바꾸는 수일치 오류 유도가 전형적이다.",
+      "sentence_no": 15,
+      "sentence": "People are playing a new game over there."
+    },
+    {
+      "tag_id": "76690093-aa36-41e9-80bd-b3813d498f9e",
+      "point": "VERB_TENSE",
+      "span_start": 333,
+      "span_end": 344,
+      "correct": "are playing",
+      "wrong": [
+        "played",
+        "will play"
+      ],
+      "why_ko": "지금 눈앞에서 하고 있는 동작이라 현재진행형이 맞아요.",
+      "rationale": "눈앞에서 진행 중인 동작이므로 현재진행형(be+-ing)이 맞다. played / play / will play 로 바꿔 시제를 묻는 함정이 가능하다.",
+      "sentence_no": 15,
+      "sentence": "People are playing a new game over there."
+    },
+    {
+      "tag_id": "f062ec64-6b16-42dc-96e6-b3748ec8be7d",
+      "point": "VERB_FINITE",
+      "span_start": 377,
+      "span_end": 384,
+      "correct": "go play",
+      "wrong": [
+        "go playing",
+        "go played"
+      ],
+      "why_ko": "go + 동사원형(= go and play) 구조라 뒤에 원형이 와요.",
+      "rationale": "구어체 go + 동사원형(= go and play) 구조. go playing / go played / go to played 처럼 준동사 형태 오류를 심을 수 있다.",
+      "sentence_no": 16,
+      "sentence": "W: Let’s go play it."
+    },
+    {
+      "tag_id": "b81151df-0e94-400b-904b-d926421b4a0f",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 393,
+      "span_end": 410,
+      "correct": "really interested",
+      "wrong": [
+        "real interested",
+        "really interest"
+      ],
+      "why_ko": "부사 really가 형용사 interested를 꾸며요. real은 형용사라 못 꾸미고, interest는 동사·명사라 보어로 안 맞아요.",
+      "rationale": "형용사 interested를 꾸미는 자리이므로 부사 really. real interested 처럼 형용사로 바꾸는 오류 유도가 가능하다.",
+      "sentence_no": 17,
+      "sentence": "I’m really interested in games."
+    },
+    {
+      "tag_id": "5b58c139-e13a-4ae2-91dc-ecff75f422e5",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 400,
+      "span_end": 410,
+      "correct": "interested",
+      "wrong": [
+        "interest"
+      ],
+      "why_ko": "주어가 사람(I)이므로 be interested를 써요.",
+      "rationale": "감정동사 interest는 사람이 주어이면 be + p.p.(interested). interesting 으로 바꾸는 현재분사/과거분사 혼동이 최빈출 함정이다.",
+      "sentence_no": 17,
+      "sentence": "I’m really interested in games."
+    },
+    {
+      "tag_id": "e92c90e2-2da6-4fc0-84a0-53a11ab30928",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 400,
+      "span_end": 419,
+      "correct": "interested in games",
+      "wrong": [
+        "interested with games",
+        "interested games"
+      ],
+      "why_ko": "be interested in은 전치사 in이 고정이고 생략할 수 없어요.",
+      "rationale": "be interested in 은 고정 결합. in을 at/with/about 으로 바꾸거나 전치사를 삭제하는 변형이 가능하다.",
+      "sentence_no": 17,
+      "sentence": "I’m really interested in games."
+    },
+    {
+      "tag_id": "2d9eefc0-e7c0-41b9-bfb2-d4cc20a10d66",
+      "point": "NONFIN_TO_VS_GERUND",
+      "span_start": 438,
+      "span_end": 459,
+      "correct": "good at playing games",
+      "wrong": [
+        "good at play games",
+        "good at to play games"
+      ],
+      "why_ko": "전치사 at 뒤에는 동명사(-ing)가 와야 해요.",
+      "rationale": "전치사 at 뒤에는 동명사가 와야 한다. to play / play 로 바꾸는 함정이 전형적이다.",
+      "sentence_no": 18,
+      "sentence": "M: Well, I’m not good at playing games, but I will try it."
+    },
+    {
+      "tag_id": "985a6245-da31-404e-ab6f-f3184db26991",
+      "point": "CONJ_PARALLEL",
+      "span_start": 461,
+      "span_end": 464,
+      "correct": "but",
+      "wrong": [
+        "so",
+        "because"
+      ],
+      "why_ko": "'잘 못하지만 해볼게'라는 대조 관계라서 but이 맞아요.",
+      "rationale": "앞뒤 두 절이 대조 관계이므로 but. and/so/because 로 바꾸면 논리가 깨진다.",
+      "sentence_no": 18,
+      "sentence": "M: Well, I’m not good at playing games, but I will try it."
+    },
+    {
+      "tag_id": "645de363-e237-4e0c-be69-d4bb19019d03",
+      "point": "VERB_TENSE",
+      "span_start": 465,
+      "span_end": 478,
+      "correct": "I will try it",
+      "wrong": [
+        "I will trying it",
+        "I will tried it"
+      ],
+      "why_ko": "조동사 will 뒤에는 동사원형이 와요.",
+      "rationale": "앞으로의 의지를 나타내는 미래 will + 동사원형. will trying / will tried 형태 오류를 심을 수 있다.",
+      "sentence_no": 18,
+      "sentence": "M: Well, I’m not good at playing games, but I will try it."
+    },
+    {
+      "tag_id": "a57c5e5f-574e-40b4-9815-1e5906b91e95",
+      "point": "PREP_USAGE",
+      "span_start": 493,
+      "span_end": 526,
+      "correct": "What is your science report about",
+      "wrong": [
+        "What is your science report",
+        "What is your science report of"
+      ],
+      "why_ko": "What이 about의 목적어라 문장 끝에 about이 남아야 해요.",
+      "rationale": "의문사 what이 전치사 about의 목적어라 문장 끝에 about이 남는 구조. 전치사를 삭제하거나(EI_PREP_DELETE) of/for 등으로 바꿔 묻기 쉬운 자리.",
+      "sentence_no": 20,
+      "sentence": "W: What is your science report about, Toby?"
+    },
+    {
+      "tag_id": "1d1a548b-6bd6-4eb7-918f-1dd8532bb469",
+      "point": "PRON_AGREEMENT",
+      "span_start": 537,
+      "span_end": 555,
+      "correct": "It is about robots",
+      "wrong": [
+        "They are about robots",
+        "It are about robots"
+      ],
+      "why_ko": "앞의 your science report는 단수 사물이라 It is로 받아요.",
+      "rationale": "It이 앞 문장의 your science report(단수 사물)를 받는다. They/He 등으로 바꾼 수·격 오류 유도 가능.",
+      "sentence_no": 21,
+      "sentence": "M: It is about robots."
+    },
+    {
+      "tag_id": "db54a59e-4343-4c2a-8fda-eb141d4e7f2d",
+      "point": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 564,
+      "span_end": 592,
+      "correct": "are you interested in robots",
+      "wrong": [
+        "are you interesting in robots",
+        "do you interested in robots"
+      ],
+      "why_ko": "사람 주어라 interested를 쓰고, be동사 의문문이라 do를 쓰지 않아요.",
+      "rationale": "감정동사 interest의 과거분사형 보어. 주어가 사람이므로 interested가 맞고 interesting으로 바꾼 선지가 전형적인 함정.",
+      "sentence_no": 22,
+      "sentence": "W: Oh, are you interested in robots?"
+    },
+    {
+      "tag_id": "a6ce0771-86ed-4caf-9c9c-d70bd4a90d96",
+      "point": "VERB_PREP_COLLOCATION",
+      "span_start": 572,
+      "span_end": 585,
+      "correct": "interested in",
+      "wrong": [
+        "interested at",
+        "interested on"
+      ],
+      "why_ko": "be interested는 전치사 in과만 짝을 이뤄요.",
+      "rationale": "be interested in의 고정 전치사. in을 at/with/on으로 바꾸거나 삭제하는 변형이 쉽게 걸리는 자리.",
+      "sentence_no": 22,
+      "sentence": "W: Oh, are you interested in robots?"
+    },
+    {
+      "tag_id": "2969124c-7d26-4377-852f-c08692a4e17c",
+      "point": "PRON_AGREEMENT",
+      "span_start": 602,
+      "span_end": 622,
+      "correct": "They are really cool",
+      "wrong": [
+        "It is really cool",
+        "They is really cool"
+      ],
+      "why_ko": "앞의 robots가 복수라 They are로 받아야 해요.",
+      "rationale": "They가 앞 문장의 robots(복수)를 받는다. It/He로 바꾸면 수 불일치 오류가 된다.",
+      "sentence_no": 24,
+      "sentence": "They are really cool."
+    },
+    {
+      "tag_id": "62ea800e-952f-4d00-b1ab-4033b6eca3df",
+      "point": "MOD_ADJ_VS_ADV",
+      "span_start": 611,
+      "span_end": 622,
+      "correct": "really cool",
+      "wrong": [
+        "really coolly",
+        "real cool"
+      ],
+      "why_ko": "be동사 보어 자리는 형용사 cool이고, 그것을 꾸미는 건 부사 really예요.",
+      "rationale": "부사 really가 형용사 cool을 수식. be동사 보어 자리이므로 coolly로 바꾸면 틀린다.",
+      "sentence_no": 24,
+      "sentence": "They are really cool."
+    },
+    {
+      "tag_id": "1bf416d3-8828-4253-a848-6c8243009c36",
+      "point": "VERB_SVA",
+      "span_start": 624,
+      "span_end": 648,
+      "correct": "What’s your report about",
+      "wrong": [
+        "What are your report about",
+        "What’re your report about"
+      ],
+      "why_ko": "your report는 단수라 What's(What is)가 맞아요.",
+      "rationale": "단수 주어 your report에 What's(= What is). What are로 바꾼 수일치 오류 유도 가능.",
+      "sentence_no": 25,
+      "sentence": "What’s your report about, Jessica?"
+    },
+    {
+      "tag_id": "519af1ae-f002-4cce-b4b6-6e86c0c42b5a",
+      "point": "PREP_USAGE",
+      "span_start": 668,
+      "span_end": 692,
+      "correct": "I’m really into VR games",
+      "wrong": [
+        "I’m really in VR games",
+        "I’m really on VR games"
+      ],
+      "why_ko": "'푹 빠져 있다'는 be into ~라는 굳어진 표현이에요.",
+      "rationale": "be into = ~에 푹 빠져 있다. into를 in/on/at으로 바꾼 선지가 전형적이며 빈칸으로 뚫기 쉬운 자리.",
+      "sentence_no": 26,
+      "sentence": "W: Well, I’m really into VR games."
+    },
+    {
+      "tag_id": "0eb31207-82ce-4b37-9e2f-1165ed4d4e60",
+      "point": "VERB_TENSE",
+      "span_start": 697,
+      "span_end": 719,
+      "correct": "I’m writing about them",
+      "wrong": [
+        "I write about them",
+        "I’m wrote about them"
+      ],
+      "why_ko": "지금 하고 있는 일이라 현재진행형 am writing을 써요. be 뒤에는 -ing가 와야 해요.",
+      "rationale": "현재진행형으로 지금 하고 있는 일을 표현. I write / I wrote 로 바꾼 시제 오류나 be동사 누락 유도 가능.",
+      "sentence_no": 27,
+      "sentence": "So I’m writing about them."
+    },
+    {
+      "tag_id": "2a9d8d4b-7ad7-4335-a483-df9e4128842e",
+      "point": "PRON_AGREEMENT",
+      "span_start": 709,
+      "span_end": 719,
+      "correct": "about them",
+      "wrong": [
+        "about they",
+        "about it"
+      ],
+      "why_ko": "전치사 뒤에는 목적격 them을 쓰고, VR games는 복수라 it으로 받을 수 없어요.",
+      "rationale": "전치사 about의 목적어이므로 목적격 them. VR games(복수)를 받으므로 it/they로 바꾸면 격·수 오류.",
+      "sentence_no": 27,
+      "sentence": "So I’m writing about them."
+    },
+    {
+      "tag_id": "85cb342f-cf17-4b12-8fd4-f6efe6fd22ea",
+      "point": "VERB_SVA",
+      "span_start": 724,
+      "span_end": 755,
+      "correct": "VR games are really interesting",
+      "wrong": [
+        "VR games is really interesting",
+        "VR games be really interesting"
+      ],
+      "why_ko": "주어 VR games가 복수라 be동사는 are예요.",
+      "rationale": "복수 주어 VR games에 are. is로 바꾼 수일치 오류 유도 가능.",
+      "sentence_no": 28,
+      "sentence": "M: VR games are really interesting, too."
+    },
+    {
+      "tag_id": "6d091f64-691d-4b24-9288-8167dc683cd3",
+      "point": "VOICE_PARTICIPLE",
+      "span_start": 744,
+      "span_end": 755,
+      "correct": "interesting",
+      "wrong": [
+        "interest"
+      ],
+      "why_ko": "사물이 흥미를 주는 것이므로 현재분사 interesting을 써요.",
+      "rationale": "사물 주어이므로 현재분사형 interesting. 사람 주어에 쓰는 interested와 구별시키는 전형적 출제 지점.",
+      "sentence_no": 28,
+      "sentence": "M: VR games are really interesting, too."
+    }
+  ],
+  "diagnostics": {
+    "returned": 37,
+    "kept": 37,
+    "given": 37,
+    "rejects": [
+      [
+        "into robots",
+        "wrong 이 본문에 실재함: 'in robots'"
+      ],
+      [
+        "interested",
+        "wrong 이 본문에 실재함: 'interesting'"
+      ],
+      [
+        "interesting",
+        "wrong 이 본문에 실재함: 'interested'"
+      ]
+    ]
+  }
+}

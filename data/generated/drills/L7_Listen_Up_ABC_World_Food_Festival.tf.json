@@ -1,0 +1,126 @@
+{
+  "book": "동아 윤정미",
+  "unit": "L7 Listen Up — ABC World Food Festival",
+  "parts": [
+    "중2 L7 Listen Up"
+  ],
+  "passage_ids": [
+    "4a52030d-4a95-4ae4-b477-d17c7fd8dbec"
+  ],
+  "para_breaks": [
+    6
+  ],
+  "turn_breaks": [
+    6
+  ],
+  "kind": "textbook_dialogue",
+  "sentences": [
+    "M: Welcome to the ABC World Food Festival!",
+    "Every year, we invite great chefs from around the world.",
+    "This year, we invited Mr. Kumar, a world-famous Indian chef.",
+    "Do you like Indian food?",
+    "Then, don’t miss his cooking class.",
+    "You can also get his recipe book for free."
+  ],
+  "items": [
+    {
+      "type": "content",
+      "statement_ko": "이 행사의 이름은 'ABC World Food Festival'이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        1
+      ],
+      "why_ko": "첫 문장에서 ABC World Food Festival에 온 것을 환영한다고 말한다.",
+      "_evidence_text": [
+        "M: Welcome to the ABC World Food Festival!"
+      ],
+      "_repeat": false,
+      "statement_en": "This event is called the ABC World Food Festival."
+    },
+    {
+      "type": "content",
+      "statement_ko": "이 축제는 2년에 한 번 열리며, 그때마다 세계의 훌륭한 요리사들을 초대한다.",
+      "answer": "X",
+      "evidence_sentences": [
+        2
+      ],
+      "why_ko": "2년에 한 번이 아니라 '매년(Every year)' 훌륭한 요리사들을 초대한다고 했다.",
+      "_evidence_text": [
+        "Every year, we invite great chefs from around the world."
+      ],
+      "_repeat": false,
+      "statement_en": "The festival is held once every two years, and each time it invites great cooks from around the world."
+    },
+    {
+      "type": "content",
+      "statement_ko": "올해 초대된 Mr. Kumar는 세계적으로 유명한 인도 요리사이다.",
+      "answer": "O",
+      "evidence_sentences": [
+        3
+      ],
+      "why_ko": "올해는 세계적으로 유명한 인도 요리사 Mr. Kumar를 초대했다고 했다.",
+      "_evidence_text": [
+        "This year, we invited Mr. Kumar, a world-famous Indian chef."
+      ],
+      "_repeat": false,
+      "statement_en": "Mr. Kumar, this year's guest, is an Indian chef known all over the world."
+    },
+    {
+      "type": "content",
+      "statement_ko": "말하는 사람은 청중에게 중국 음식을 좋아하는지 묻는다.",
+      "answer": "X",
+      "evidence_sentences": [
+        4
+      ],
+      "why_ko": "중국 음식이 아니라 인도 음식(Indian food)을 좋아하는지 물었다.",
+      "_evidence_text": [
+        "Do you like Indian food?"
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker asks the listeners if they like Chinese food."
+    },
+    {
+      "type": "content",
+      "statement_ko": "말하는 사람은 Mr. Kumar의 요리 수업을 놓치지 말라고 권한다.",
+      "answer": "O",
+      "evidence_sentences": [
+        5
+      ],
+      "why_ko": "\"don't miss his cooking class\"라고 권하고 있다.",
+      "_evidence_text": [
+        "Then, don’t miss his cooking class."
+      ],
+      "_repeat": false,
+      "statement_en": "The speaker tells people not to miss the cooking class given by Mr. Kumar."
+    },
+    {
+      "type": "content",
+      "statement_ko": "Mr. Kumar의 요리책은 할인된 가격으로 살 수 있다.",
+      "answer": "X",
+      "evidence_sentences": [
+        6
+      ],
+      "why_ko": "할인 판매가 아니라 무료(for free)로 받을 수 있다고 했다.",
+      "_evidence_text": [
+        "You can also get his recipe book for free."
+      ],
+      "_repeat": false,
+      "statement_en": "People can buy Mr. Kumar's recipe book at a lower price."
+    }
+  ],
+  "diagnostics": {
+    "returned": 6,
+    "kept": 6,
+    "by_type": {
+      "content": 6
+    },
+    "rejects": [],
+    "answer_balance": {
+      "O": 3,
+      "X": 3
+    },
+    "sentences_covered": 6,
+    "sentence_count": 6,
+    "repeated": 0
+  }
+}

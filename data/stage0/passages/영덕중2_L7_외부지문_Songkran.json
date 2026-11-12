@@ -1,0 +1,82 @@
+{
+  "passage_id": "영덕중2_L7_외부지문_Songkran",
+  "kind": "handout_external",
+  "title": "Songkran",
+  "school": "영덕중학교",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "학교 배부물",
+  "body_text": "Hi! I'm Lucas. I'm in Thailand now. I came here with my sister for a special festival, Songkran. People in Thailand celebrate it in April. It is very hot in April, so this festival is perfect for this time of year. On the first day, people clean their homes. It means a new and fresh start. Then, they go outside with water guns and buckets. They throw water at everyone around them. It's like a big water fight on the streets! I got very wet, but I loved it. Thai people also pour water on the hands of older family members to show respect. Everyone looks happy and kind. I think Songkran is a great festival. People forget their worries and just have fun! I want to come back again next year with my whole family.",
+  "body_text_sha256": "d18538d72af1042c317ad0eed05cfaa8ea3e262fa4f3a7f797fd0752ef3531c1",
+  "word_count": 136,
+  "handout_title": "More Reading — Easy",
+  "paragraph_breaks_after_sentence": [
+    6
+  ],
+  "glossed": [
+    "respect"
+  ],
+  "blank_filled": [
+    {
+      "sentence": 6,
+      "printed": "It is very ___(A)___ in April, so this festival is perfect for this time of year.",
+      "filled": "hot",
+      "why": "학습지 2번 선지 ⓓ hot – wet. 물 축제가 이맘때 「딱 맞다」 는 뒤 절과 맞는 것은 hot 뿐 (ⓐ warm – dry 는 (B) 가 물싸움 뒤 dry 라 안 된다). 원장 확인 필요."
+    },
+    {
+      "sentence": 12,
+      "printed": "I got very ___(B)___, but I loved it.",
+      "filled": "wet",
+      "why": "같은 선지 ⓓ. 물싸움 바로 뒤 문장."
+    }
+  ],
+  "handout_questions": {
+    "1": {
+      "stem": "윗글의 내용과 일치하도록 괄호 안에서 알맞은 말을 고르시오.",
+      "items": [
+        "People in Thailand celebrate Songkran in (January / April).",
+        "On the first day of Songkran, people (clean / decorate) their homes.",
+        "Thai people pour water on the (hands / feet) of older family members."
+      ],
+      "note": "정답표 없음. 본문상 April · clean · hands."
+    },
+    "2": {
+      "stem": "윗글의 빈칸 (A)와 (B)에 들어갈 말이 순서대로 바르게 짝지어진 것은?",
+      "options": {
+        "a": "warm – dry",
+        "b": "cold – hot",
+        "c": "cool – warm",
+        "d": "hot – wet"
+      },
+      "note": "정답표 없음. 본문상 ⓓ."
+    },
+    "3": {
+      "stem": "윗글의 밑줄 친 It이 가리키는 내용을 우리말로 쓰시오.",
+      "note": "밑줄 = 8번 문장 첫 낱말 It (= 첫날 집을 청소하는 것)."
+    }
+  },
+  "transcription": {
+    "status": "confirmed",
+    "method": "vision_single_pass",
+    "source_file": "Z:/…/2026 2학기 학교 프린트 모음/기말/영덕중2/ 의 L7 학습지 (12쪽 = «More Reading» Easy)",
+    "note": "영덕중2 L7 학습지의 외부지문 (Easy). 인쇄 활자를 비전으로 읽고 확대해 한 번 더 읽었다. 빈칸 둘을 채웠다 (blank_filled). 낱말풀이 표시 * 하나(respect)는 떼고 glossed 에 적었다. 8번 문장 첫 It 에 밑줄(문제 3). 2문단.",
+    "has_handwriting": true,
+    "handwriting_note": "쪽 머리에 학생 손글씨(학년 · 반 · 번호 · 이름)가 있으나 지문 상자 안에는 없다.",
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T11:04:09.558362+00:00",
+    "confirmed_via": "전사확인지_영덕중2_L7_외부지문.html · 원장 「틀린 곳 없음, 진행」 (2026-11-12) · 빈칸 채움(hot · wet · ⓑ) 포함",
+    "reviewed_sentences": [
+      6,
+      12
+    ]
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "학교 배부 자료. 기획서 §6.6 — 학원 내부 지도용."
+}

@@ -1,0 +1,1107 @@
+{
+  "set": "영덕중2_L7",
+  "title": "동아 윤정미 L7 어휘 — 영덕",
+  "sources": {
+    "school": [
+      "영덕중2_L7_vocab_handout"
+    ],
+    "jasup": "L7_vocab"
+  },
+  "parts": [
+    {
+      "label": "학교가 직접 준 낱말",
+      "title": "동아 윤정미 L7 어휘 — 영덕",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "altar",
+              "answer": "제단"
+            },
+            {
+              "word": "burn",
+              "answer": "태우다"
+            },
+            {
+              "word": "celebrate",
+              "answer": "축하하다, 기념하다"
+            },
+            {
+              "word": "coming",
+              "answer": "시작, 도래"
+            },
+            {
+              "word": "costume",
+              "answer": "의상, 복장"
+            },
+            {
+              "word": "dead",
+              "answer": "죽은"
+            },
+            {
+              "word": "decorate",
+              "answer": "장식하다, 꾸미다"
+            },
+            {
+              "word": "during",
+              "answer": "~ 동안"
+            },
+            {
+              "word": "end",
+              "answer": "끝나다; 끝"
+            },
+            {
+              "word": "festival",
+              "answer": "축제"
+            },
+            {
+              "word": "fireworks",
+              "answer": "불꽃놀이"
+            },
+            {
+              "word": "giant",
+              "answer": "거대한"
+            },
+            {
+              "word": "hardly",
+              "answer": "거의 ~ 아니다"
+            },
+            {
+              "word": "hold",
+              "answer": "열다, 개최하다"
+            },
+            {
+              "word": "matter",
+              "answer": "중요하다"
+            },
+            {
+              "word": "parade",
+              "answer": "퍼레이드, 행진"
+            },
+            {
+              "word": "participate",
+              "answer": "참여하다"
+            },
+            {
+              "word": "pole",
+              "answer": "기둥, 막대기"
+            },
+            {
+              "word": "possible",
+              "answer": "가능한"
+            },
+            {
+              "word": "recipe",
+              "answer": "요리법"
+            },
+            {
+              "word": "reindeer",
+              "answer": "순록"
+            },
+            {
+              "word": "seasonal",
+              "answer": "계절적인"
+            },
+            {
+              "word": "skeleton",
+              "answer": "해골"
+            },
+            {
+              "word": "statue",
+              "answer": "조각상"
+            },
+            {
+              "word": "symbolize",
+              "answer": "상징하다"
+            },
+            {
+              "word": "all night long",
+              "answer": "밤새도록"
+            },
+            {
+              "word": "dress up",
+              "answer": "변장하다, 차려입다"
+            },
+            {
+              "word": "have fun",
+              "answer": "즐기다"
+            },
+            {
+              "word": "hundreds of",
+              "answer": "수백의 ~"
+            },
+            {
+              "word": "take place",
+              "answer": "개최되다"
+            },
+            {
+              "word": "puzzle",
+              "answer": "퍼즐"
+            },
+            {
+              "word": "cemetery",
+              "answer": "묘지"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "참여하다",
+              "answer": "participate"
+            },
+            {
+              "ko": "끝나다; 끝",
+              "answer": "end"
+            },
+            {
+              "ko": "즐기다",
+              "answer": "have fun"
+            },
+            {
+              "ko": "태우다",
+              "answer": "burn"
+            },
+            {
+              "ko": "열다, 개최하다",
+              "answer": "hold"
+            },
+            {
+              "ko": "조각상",
+              "answer": "statue"
+            },
+            {
+              "ko": "불꽃놀이",
+              "answer": "fireworks"
+            },
+            {
+              "ko": "순록",
+              "answer": "reindeer"
+            },
+            {
+              "ko": "해골",
+              "answer": "skeleton"
+            },
+            {
+              "ko": "변장하다, 차려입다",
+              "answer": "dress up"
+            },
+            {
+              "ko": "요리법",
+              "answer": "recipe"
+            },
+            {
+              "ko": "거대한",
+              "answer": "giant"
+            },
+            {
+              "ko": "개최되다",
+              "answer": "take place"
+            },
+            {
+              "ko": "의상, 복장",
+              "answer": "costume"
+            },
+            {
+              "ko": "퍼즐",
+              "answer": "puzzle"
+            },
+            {
+              "ko": "장식하다, 꾸미다",
+              "answer": "decorate"
+            },
+            {
+              "ko": "중요하다",
+              "answer": "matter"
+            },
+            {
+              "ko": "거의 ~ 아니다",
+              "answer": "hardly"
+            },
+            {
+              "ko": "밤새도록",
+              "answer": "all night long"
+            },
+            {
+              "ko": "가능한",
+              "answer": "possible"
+            },
+            {
+              "ko": "~ 동안",
+              "answer": "during"
+            },
+            {
+              "ko": "수백의 ~",
+              "answer": "hundreds of"
+            },
+            {
+              "ko": "계절적인",
+              "answer": "seasonal"
+            },
+            {
+              "ko": "축제",
+              "answer": "festival"
+            },
+            {
+              "ko": "제단",
+              "answer": "altar"
+            },
+            {
+              "ko": "퍼레이드, 행진",
+              "answer": "parade"
+            },
+            {
+              "ko": "시작, 도래",
+              "answer": "coming"
+            },
+            {
+              "ko": "기둥, 막대기",
+              "answer": "pole"
+            },
+            {
+              "ko": "상징하다",
+              "answer": "symbolize"
+            },
+            {
+              "ko": "묘지",
+              "answer": "cemetery"
+            },
+            {
+              "ko": "축하하다, 기념하다",
+              "answer": "celebrate"
+            },
+            {
+              "ko": "죽은",
+              "answer": "dead"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "a type of table used in ceremonies",
+              "ko": "제단",
+              "answer": "altar"
+            },
+            {
+              "def_en": "to destroy, damage, injure or kill somebody or something by fire",
+              "ko": "태우다",
+              "answer": "burn"
+            },
+            {
+              "def_en": "to show that a day or an event is important by doing something special",
+              "ko": "축하하다, 기념하다",
+              "answer": "celebrate"
+            },
+            {
+              "def_en": "the clothes worn by actors in a play or film, or worn by somebody to make them look like somebody or something else",
+              "ko": "의상, 복장",
+              "answer": "costume"
+            },
+            {
+              "def_en": "no longer alive or living",
+              "ko": "죽은",
+              "answer": "dead"
+            },
+            {
+              "def_en": "to make something look more attractive by putting things on it",
+              "ko": "장식하다, 꾸미다",
+              "answer": "decorate"
+            },
+            {
+              "def_en": "to stop or finish",
+              "ko": "끝나다; 끝",
+              "answer": "end"
+            },
+            {
+              "def_en": "the pattern of colorful explosions in the air planned as a show",
+              "ko": "불꽃놀이",
+              "answer": "fireworks"
+            },
+            {
+              "def_en": "very large",
+              "ko": "거대한",
+              "answer": "giant"
+            },
+            {
+              "def_en": "to be important",
+              "ko": "중요하다",
+              "answer": "matter"
+            },
+            {
+              "def_en": "a line of people or vehicles moving together through a public place in order to celebrate an important day or event",
+              "ko": "퍼레이드, 행진",
+              "answer": "parade"
+            },
+            {
+              "def_en": "to take part in or become involved in an activity",
+              "ko": "참여하다",
+              "answer": "participate"
+            },
+            {
+              "def_en": "a long, thin stick of wood or metal that is often used to support something",
+              "ko": "기둥, 막대기",
+              "answer": "pole"
+            },
+            {
+              "def_en": "able to be done or achieved",
+              "ko": "가능한",
+              "answer": "possible"
+            },
+            {
+              "def_en": "directions for cooking food",
+              "ko": "요리법",
+              "answer": "recipe"
+            },
+            {
+              "def_en": "a type of deer that lives in the northern parts of Europe, Asia, and North America",
+              "ko": "순록",
+              "answer": "reindeer"
+            },
+            {
+              "def_en": "the structure of bones that support the body of a person or an animal",
+              "ko": "해골",
+              "answer": "skeleton"
+            },
+            {
+              "def_en": "a large art object of a person or an animal that is made from a hard material like stone or metal",
+              "ko": "조각상",
+              "answer": "statue"
+            },
+            {
+              "def_en": "to represent something",
+              "ko": "상징하다",
+              "answer": "symbolize"
+            },
+            {
+              "def_en": "to happen",
+              "ko": "개최되다",
+              "answer": "take place"
+            },
+            {
+              "def_en": "a game or problem that you have to think about carefully to solve",
+              "ko": "퍼즐",
+              "answer": "puzzle"
+            },
+            {
+              "def_en": "a place where people are buried when they die",
+              "ko": "묘지",
+              "answer": "cemetery"
+            }
+          ]
+        },
+        {
+          "kind": "match",
+          "title": "영영풀이에 해당하는 단어와 우리말 뜻을 연결하시오.",
+          "groups": [
+            {
+              "defs": [
+                {
+                  "word": "skeleton",
+                  "ko": "해골",
+                  "def_en": "the structure of bones that support the body of a person or an animal",
+                  "example_en": "I saw the skeleton of a dinosaur in the museum.",
+                  "example_ko": "나는 박물관에서 공룡의 해골을 보았다.",
+                  "page": 126,
+                  "src": "학교"
+                },
+                {
+                  "word": "costume",
+                  "ko": "의상, 복장",
+                  "def_en": "the clothes worn by actors in a play or film, or worn by somebody to make them look like somebody or something else",
+                  "example_en": "I will wear a prince costume for the Halloween party.",
+                  "example_ko": "나는 할로윈 파티를 위해 왕자 복장을 입을 것이다.",
+                  "page": 123,
+                  "src": "학교"
+                },
+                {
+                  "word": "celebrate",
+                  "ko": "축하하다, 기념하다",
+                  "def_en": "to show that a day or an event is important by doing something special",
+                  "example_en": "We will celebrate her birthday with a big party.",
+                  "example_ko": "우리는 큰 파티로 그녀의 생일을 축하할 것이다.",
+                  "page": 124,
+                  "src": "학교"
+                },
+                {
+                  "word": "participate",
+                  "ko": "참여하다",
+                  "def_en": "to take part in or become involved in an activity",
+                  "example_en": "Did you decide to participate in the dance contest?",
+                  "example_ko": "너는 댄스 대회에 참여하기로 결정했니?",
+                  "page": 121,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "skeleton",
+                "participate",
+                "celebrate",
+                "costume"
+              ],
+              "kos": [
+                "참여하다",
+                "해골",
+                "의상, 복장",
+                "축하하다, 기념하다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "possible",
+                  "ko": "가능한",
+                  "def_en": "able to be done or achieved",
+                  "example_en": "There are some possible solutions to the problem.",
+                  "example_ko": "그 문제에 대한 몇 가지 가능한 해결책이 있다.",
+                  "page": 127,
+                  "src": "학교"
+                },
+                {
+                  "word": "take place",
+                  "ko": "개최되다",
+                  "def_en": "to happen",
+                  "example_en": "The concert will take place in a big stadium.",
+                  "example_ko": "그 콘서트는 큰 경기장에서 열릴 것이다.",
+                  "page": 124,
+                  "src": "학교"
+                },
+                {
+                  "word": "symbolize",
+                  "ko": "상징하다",
+                  "def_en": "to represent something",
+                  "example_en": "Red roses often symbolize love.",
+                  "example_ko": "빨간 장미는 흔히 사랑을 상징한다.",
+                  "page": 124,
+                  "src": "학교"
+                },
+                {
+                  "word": "pole",
+                  "ko": "기둥, 막대기",
+                  "def_en": "a long, thin stick of wood or metal that is often used to support something",
+                  "example_en": "We used a pole to get the ball from the tree.",
+                  "example_ko": "우리는 나무에서 공을 꺼내기 위해 막대기를 사용했다.",
+                  "page": 125,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "pole",
+                "possible",
+                "symbolize",
+                "take place"
+              ],
+              "kos": [
+                "상징하다",
+                "개최되다",
+                "기둥, 막대기",
+                "가능한"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "giant",
+                  "ko": "거대한",
+                  "def_en": "very large",
+                  "example_en": "The giant tree stands in the middle of the park.",
+                  "example_ko": "거대한 나무가 공원 한가운데에 서 있다.",
+                  "page": 124,
+                  "src": "학교"
+                },
+                {
+                  "word": "parade",
+                  "ko": "퍼레이드, 행진",
+                  "def_en": "a line of people or vehicles moving together through a public place in order to celebrate an important day or event",
+                  "example_en": "The children waved their hands when the parade went by their house.",
+                  "example_ko": "아이들은 퍼레이드가 그들의 집을 지나갈 때 손을 흔들었다.",
+                  "page": 124,
+                  "src": "학교"
+                },
+                {
+                  "word": "matter",
+                  "ko": "중요하다",
+                  "def_en": "to be important",
+                  "example_en": "The safety of the workers really matters to the company.",
+                  "example_ko": "근로자의 안전이 회사에 정말 중요하다.",
+                  "page": 127,
+                  "src": "학교"
+                },
+                {
+                  "word": "dead",
+                  "ko": "죽은",
+                  "def_en": "no longer alive or living",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "parade",
+                "dead",
+                "giant",
+                "matter"
+              ],
+              "kos": [
+                "퍼레이드, 행진",
+                "중요하다",
+                "죽은",
+                "거대한"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "puzzle",
+                  "ko": "퍼즐",
+                  "def_en": "a game or problem that you have to think about carefully to solve",
+                  "example_en": "I enjoy solving a puzzle in my free time.",
+                  "example_ko": "나는 여가 시간에 퍼즐 푸는 것을 즐긴다.",
+                  "page": 130,
+                  "src": "학교"
+                },
+                {
+                  "word": "altar",
+                  "ko": "제단",
+                  "def_en": "a type of table used in ceremonies",
+                  "example_en": "The altar was beautifully decorated for the wedding.",
+                  "example_ko": "결혼식을 위해 제단이 아름답게 장식되었다.",
+                  "page": 126,
+                  "src": "학교"
+                },
+                {
+                  "word": "recipe",
+                  "ko": "요리법",
+                  "def_en": "directions for cooking food",
+                  "example_en": "She followed the recipe carefully to make the soup.",
+                  "example_ko": "그녀는 수프를 만들기 위해 그 요리법을 신중하게 따랐다.",
+                  "page": 121,
+                  "src": "학교"
+                },
+                {
+                  "word": "decorate",
+                  "ko": "장식하다, 꾸미다",
+                  "def_en": "to make something look more attractive by putting things on it",
+                  "example_en": "Mom decorated the living room with flowers.",
+                  "example_ko": "엄마는 꽃으로 거실을 꾸몄다.",
+                  "page": 125,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "decorate",
+                "puzzle",
+                "altar",
+                "recipe"
+              ],
+              "kos": [
+                "제단",
+                "퍼즐",
+                "요리법",
+                "장식하다, 꾸미다"
+              ]
+            },
+            {
+              "defs": [
+                {
+                  "word": "burn",
+                  "ko": "태우다",
+                  "def_en": "to destroy, damage, injure or kill somebody or something by fire",
+                  "example_en": "Lisa burned her old letters.",
+                  "example_ko": "Lisa는 그녀의 오래된 편지들을 태웠다.",
+                  "page": 124,
+                  "src": "학교"
+                },
+                {
+                  "word": "fireworks",
+                  "ko": "불꽃놀이",
+                  "def_en": "the pattern of colorful explosions in the air planned as a show",
+                  "example_en": "What time do the fireworks start?",
+                  "example_ko": "불꽃놀이는 언제 시작하나요?",
+                  "page": 121,
+                  "src": "학교"
+                },
+                {
+                  "word": "end",
+                  "ko": "끝나다; 끝",
+                  "def_en": "to stop or finish",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                },
+                {
+                  "word": "cemetery",
+                  "ko": "묘지",
+                  "def_en": "a place where people are buried when they die",
+                  "example_en": "",
+                  "example_ko": "",
+                  "page": null,
+                  "src": "학교"
+                }
+              ],
+              "words": [
+                "cemetery",
+                "fireworks",
+                "burn",
+                "end"
+              ],
+              "kos": [
+                "태우다",
+                "끝나다; 끝",
+                "불꽃놀이",
+                "묘지"
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "cloze",
+          "title": "빈칸에 알맞은 말을 [보기]에서 찾아 쓰시오. (한 번씩만 쓸 것)",
+          "chunks": [
+            [
+              {
+                "sentence": "I enjoy solving a __________ in my free time.",
+                "answer": "puzzle",
+                "ko": "나는 여가 시간에 퍼즐 푸는 것을 즐긴다."
+              },
+              {
+                "sentence": "The __________ tree stands in the middle of the park.",
+                "answer": "giant",
+                "ko": "거대한 나무가 공원 한가운데에 서 있다."
+              },
+              {
+                "sentence": "What time do the __________ start?",
+                "answer": "fireworks",
+                "ko": "불꽃놀이는 언제 시작하나요?"
+              },
+              {
+                "sentence": "The baby cried __________. I couldn't sleep at all.",
+                "answer": "all night long",
+                "ko": ""
+              },
+              {
+                "sentence": "We used a __________ to get the ball from the tree.",
+                "answer": "pole",
+                "ko": "우리는 나무에서 공을 꺼내기 위해 막대기를 사용했다."
+              }
+            ],
+            [
+              {
+                "sentence": "The __________ was beautifully decorated for the wedding.",
+                "answer": "altar",
+                "ko": "결혼식을 위해 제단이 아름답게 장식되었다."
+              },
+              {
+                "sentence": "Santa's __________ are famous for their names like Rudolph.",
+                "answer": "reindeer",
+                "ko": "산타의 순록은 루돌프와 같은 이름으로 유명하다."
+              },
+              {
+                "sentence": "There are some __________ solutions to the problem.",
+                "answer": "possible",
+                "ko": "그 문제에 대한 몇 가지 가능한 해결책이 있다."
+              },
+              {
+                "sentence": "Did you decide to __________ in the dance contest?",
+                "answer": "participate",
+                "ko": "너는 댄스 대회에 참여하기로 결정했니?"
+              },
+              {
+                "sentence": "She followed the __________ carefully to make the soup.",
+                "answer": "recipe",
+                "ko": "그녀는 수프를 만들기 위해 그 요리법을 신중하게 따랐다."
+              }
+            ],
+            [
+              {
+                "sentence": "Many people visit the city to see the famous __________.",
+                "answer": "statue",
+                "ko": "많은 사람들이 유명한 조각상을 보기 위해 그 도시를 방문한다."
+              },
+              {
+                "sentence": "Mom __________ the living room with flowers.",
+                "answer": "decorate",
+                "ko": "엄마는 꽃으로 거실을 꾸몄다."
+              },
+              {
+                "sentence": "I will wear a prince __________ for the Halloween party.",
+                "answer": "costume",
+                "ko": "나는 할로윈 파티를 위해 왕자 복장을 입을 것이다."
+              },
+              {
+                "sentence": "I saw the __________ of a dinosaur in the museum.",
+                "answer": "skeleton",
+                "ko": "나는 박물관에서 공룡의 해골을 보았다."
+              },
+              {
+                "sentence": "The safety of the workers really __________ to the company.",
+                "answer": "matter",
+                "ko": "근로자의 안전이 회사에 정말 중요하다."
+              }
+            ],
+            [
+              {
+                "sentence": "Lisa __________ her old letters.",
+                "answer": "burn",
+                "ko": "Lisa는 그녀의 오래된 편지들을 태웠다."
+              },
+              {
+                "sentence": "We will __________ her birthday with a big party.",
+                "answer": "celebrate",
+                "ko": "우리는 큰 파티로 그녀의 생일을 축하할 것이다."
+              },
+              {
+                "sentence": "There are __________ books in the library.",
+                "answer": "hundreds of",
+                "ko": ""
+              },
+              {
+                "sentence": "Red roses often __________ love.",
+                "answer": "symbolize",
+                "ko": "빨간 장미는 흔히 사랑을 상징한다."
+              },
+              {
+                "sentence": "The concert will __________ in a big stadium.",
+                "answer": "take place",
+                "ko": "그 콘서트는 큰 경기장에서 열릴 것이다."
+              }
+            ],
+            [
+              {
+                "sentence": "The children waved their hands when the __________ went by their house.",
+                "answer": "parade",
+                "ko": "아이들은 퍼레이드가 그들의 집을 지나갈 때 손을 흔들었다."
+              }
+            ]
+          ]
+        }
+      ],
+      "n_words": 32,
+      "counts": {
+        "both": 64,
+        "def": 22,
+        "match": 20,
+        "cloze": 21
+      }
+    },
+    {
+      "label": "자습서에만 있는 낱말",
+      "title": "동아 윤정미 L7 어휘 — 영덕",
+      "sections": [
+        {
+          "kind": "both",
+          "title": "빈칸에 영어는 우리말로, 우리말은 영어로 쓰시오.",
+          "en2ko": [
+            {
+              "word": "chef",
+              "answer": "요리사, 주방장"
+            },
+            {
+              "word": "forget",
+              "answer": "잊다 (↔ remember)"
+            },
+            {
+              "word": "miss",
+              "answer": "(기회를) 놓치다"
+            },
+            {
+              "word": "order",
+              "answer": "주문하다 명 주문; 순서"
+            },
+            {
+              "word": "souvenir",
+              "answer": "기념품, 선물"
+            },
+            {
+              "word": "spicy",
+              "answer": "양념 맛이 강한, 매운"
+            },
+            {
+              "word": "surprise",
+              "answer": "뜻밖의 일, 놀라운 소식"
+            },
+            {
+              "word": "together",
+              "answer": "함께, 같이"
+            },
+            {
+              "word": "for free",
+              "answer": "무료로, 공짜로"
+            },
+            {
+              "word": "wash one’s face",
+              "answer": "세수하다"
+            },
+            {
+              "word": "area",
+              "answer": "지역"
+            },
+            {
+              "word": "February",
+              "answer": "2월"
+            },
+            {
+              "word": "fur",
+              "answer": "모피; (일부 동물의) 털"
+            },
+            {
+              "word": "Mexican",
+              "answer": "멕시코 사람 형 멕시코(인)의"
+            },
+            {
+              "word": "midsummer",
+              "answer": "한여름"
+            },
+            {
+              "word": "traditional",
+              "answer": "전통의, 전통적인"
+            },
+            {
+              "word": "wear",
+              "answer": "입고〔쓰고, 신고〕 있다"
+            },
+            {
+              "word": "welcome",
+              "answer": "환영하다"
+            },
+            {
+              "word": "at the end of",
+              "answer": "~의 말에, ~의 끝에"
+            },
+            {
+              "word": "between A and B",
+              "answer": "A와 B 사이에"
+            },
+            {
+              "word": "set up",
+              "answer": "세우다, 설치하다"
+            },
+            {
+              "word": "hard",
+              "answer": "어려운, 힘든"
+            },
+            {
+              "word": "keep a diary",
+              "answer": "일기를 쓰다"
+            },
+            {
+              "word": "cheap",
+              "answer": "싼, 값싼 (↔ expensive)"
+            },
+            {
+              "word": "holiday",
+              "answer": "휴일; 휴가"
+            },
+            {
+              "word": "light",
+              "answer": "가벼운 (↔ heavy)"
+            },
+            {
+              "word": "look for",
+              "answer": "~을 찾다"
+            },
+            {
+              "word": "director",
+              "answer": "(영화·연극의) 감독"
+            },
+            {
+              "word": "event",
+              "answer": "행사"
+            },
+            {
+              "word": "live",
+              "answer": "생방송인, 녹음이 아닌"
+            },
+            {
+              "word": "magic",
+              "answer": "마술, 마법"
+            },
+            {
+              "word": "throw",
+              "answer": "던지다"
+            },
+            {
+              "word": "take part in",
+              "answer": "~에 참여하다"
+            },
+            {
+              "word": "cute",
+              "answer": "귀여운, 예쁜"
+            },
+            {
+              "word": "playful",
+              "answer": "장난기 많은, 놀기 좋아하는"
+            }
+          ],
+          "ko2en": [
+            {
+              "ko": "싼, 값싼 (↔ expensive)",
+              "answer": "cheap"
+            },
+            {
+              "ko": "세우다, 설치하다",
+              "answer": "set up"
+            },
+            {
+              "ko": "휴일; 휴가",
+              "answer": "holiday"
+            },
+            {
+              "ko": "뜻밖의 일, 놀라운 소식",
+              "answer": "surprise"
+            },
+            {
+              "ko": "주문하다 명 주문; 순서",
+              "answer": "order"
+            },
+            {
+              "ko": "던지다",
+              "answer": "throw"
+            },
+            {
+              "ko": "가벼운 (↔ heavy)",
+              "answer": "light"
+            },
+            {
+              "ko": "잊다 (↔ remember)",
+              "answer": "forget"
+            },
+            {
+              "ko": "멕시코 사람 형 멕시코(인)의",
+              "answer": "Mexican"
+            },
+            {
+              "ko": "전통의, 전통적인",
+              "answer": "traditional"
+            },
+            {
+              "ko": "세수하다",
+              "answer": "wash one’s face"
+            },
+            {
+              "ko": "A와 B 사이에",
+              "answer": "between A and B"
+            },
+            {
+              "ko": "장난기 많은, 놀기 좋아하는",
+              "answer": "playful"
+            },
+            {
+              "ko": "귀여운, 예쁜",
+              "answer": "cute"
+            },
+            {
+              "ko": "한여름",
+              "answer": "midsummer"
+            },
+            {
+              "ko": "(영화·연극의) 감독",
+              "answer": "director"
+            },
+            {
+              "ko": "~을 찾다",
+              "answer": "look for"
+            },
+            {
+              "ko": "환영하다",
+              "answer": "welcome"
+            },
+            {
+              "ko": "모피; (일부 동물의) 털",
+              "answer": "fur"
+            },
+            {
+              "ko": "~에 참여하다",
+              "answer": "take part in"
+            },
+            {
+              "ko": "생방송인, 녹음이 아닌",
+              "answer": "live"
+            },
+            {
+              "ko": "양념 맛이 강한, 매운",
+              "answer": "spicy"
+            },
+            {
+              "ko": "(기회를) 놓치다",
+              "answer": "miss"
+            },
+            {
+              "ko": "요리사, 주방장",
+              "answer": "chef"
+            },
+            {
+              "ko": "무료로, 공짜로",
+              "answer": "for free"
+            },
+            {
+              "ko": "~의 말에, ~의 끝에",
+              "answer": "at the end of"
+            },
+            {
+              "ko": "마술, 마법",
+              "answer": "magic"
+            },
+            {
+              "ko": "일기를 쓰다",
+              "answer": "keep a diary"
+            },
+            {
+              "ko": "2월",
+              "answer": "February"
+            },
+            {
+              "ko": "어려운, 힘든",
+              "answer": "hard"
+            },
+            {
+              "ko": "행사",
+              "answer": "event"
+            },
+            {
+              "ko": "지역",
+              "answer": "area"
+            },
+            {
+              "ko": "기념품, 선물",
+              "answer": "souvenir"
+            },
+            {
+              "ko": "입고〔쓰고, 신고〕 있다",
+              "answer": "wear"
+            },
+            {
+              "ko": "함께, 같이",
+              "answer": "together"
+            }
+          ]
+        },
+        {
+          "kind": "def",
+          "title": "다음 영영풀이에 알맞은 단어를 쓰시오.",
+          "items": [
+            {
+              "def_en": "\u0007following ideas and methods that have existed in a particular culture for a long time",
+              "ko": "전통의, 전통적인",
+              "answer": "traditional"
+            },
+            {
+              "def_en": "to have clothing, shoes, etc. on your body",
+              "ko": "입고〔쓰고, 신고〕 있다",
+              "answer": "wear"
+            }
+          ]
+        }
+      ],
+      "n_words": 35,
+      "counts": {
+        "both": 70,
+        "def": 2
+      }
+    }
+  ]
+}

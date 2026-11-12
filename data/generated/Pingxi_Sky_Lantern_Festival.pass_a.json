@@ -1,0 +1,816 @@
+{
+  "passage_id": "969533c3-ce43-471a-b0da-b0adbede3bce",
+  "body_text_sha256": "6921433f5f96af8daa2b7f7afb163e0d3964e2fca38a3f69ea0313bc31df453e",
+  "tags": [
+    {
+      "grammar_point_code": "MOD_COMPARATIVE",
+      "span_start": 35,
+      "span_end": 75,
+      "surface": "one of Taiwan's most famous celebrations",
+      "sentence_no": 1,
+      "rationale": "'one of + 최상급 + 복수명사' 구문. celebration(단수)로 바꾸거나 more famous로 바꾼 오답을 유도할 수 있다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 80,
+      "span_end": 123,
+      "surface": "takes place every year in February or March",
+      "sentence_no": 2,
+      "rationale": "주어 It에 대한 3인칭 단수 현재형 takes. take로 바꾸는 수일치 오류 유도. 또한 takes place는 자동사구라 수동태(is taken place) 불가.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "EI_INTRANS_PASSIVIZED"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 103,
+      "span_end": 123,
+      "surface": "in February or March",
+      "sentence_no": 2,
+      "rationale": "월 앞 전치사 in. on/at으로 바꾼 선지를 빈칸으로 뚫기 쉬운 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 243,
+      "span_end": 275,
+      "surface": "come to the small town of Shifen",
+      "sentence_no": 4,
+      "rationale": "주어는 People ... and many visitors(복수)이고 수식어구(from all over Taiwan)가 길어 comes로 바꾸는 수일치 함정이 가능하다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 276,
+      "span_end": 310,
+      "surface": "to take part in this special event",
+      "sentence_no": 4,
+      "rationale": "목적을 나타내는 부사적 용법의 to부정사. taking/take로 바꾸는 준동사 형태 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 279,
+      "span_end": 291,
+      "surface": "take part in",
+      "sentence_no": 4,
+      "rationale": "take part in(~에 참가하다) 고정 전치사. in 삭제 또는 on/at 교체 오류 유도.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_VS_PREP",
+      "span_start": 312,
+      "span_end": 331,
+      "surface": "During the festival",
+      "sentence_no": 5,
+      "rationale": "명사구 앞이므로 전치사 During. 절을 이끄는 While로 바꾸는 접속사 vs 전치사 함정 자리.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "CO_CONJ_SWAP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 346,
+      "span_end": 388,
+      "surface": "their wishes, dreams, and messages of hope",
+      "sentence_no": 5,
+      "rationale": "A, B, and C 병렬 명사구. 한 항목만 동사/to부정사 형태로 바꿔 병렬을 깨는 변형이 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 423,
+      "span_end": 463,
+      "surface": "they light the lanterns and release them",
+      "sentence_no": 6,
+      "rationale": "and로 연결된 두 동사 light/release의 병렬. releasing 또는 releases로 바꾸는 병렬·수일치 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 451,
+      "span_end": 482,
+      "surface": "release them into the night sky",
+      "sentence_no": 6,
+      "rationale": "방향·이동을 나타내는 into. in/on으로 바꾼 선지 가능.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "span_start": 484,
+      "span_end": 528,
+      "surface": "As hundreds of glowing lanterns float upward",
+      "sentence_no": 7,
+      "rationale": "lanterns가 스스로 빛나므로 현재분사 glowing. glowed로 바꾸는 분사 뒤집기 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 516,
+      "span_end": 528,
+      "surface": "float upward",
+      "sentence_no": 7,
+      "rationale": "float는 목적어를 갖지 않는 자동사로 수동태(are floated) 불가. 자동사 수동화 함정 자리.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_INTRANS_PASSIVIZED"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 530,
+      "span_end": 569,
+      "surface": "the dark sky becomes bright and magical",
+      "sentence_no": 7,
+      "rationale": "become 뒤 보어는 형용사. brightly/magically로 바꾸는 형용사-부사 함정.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 578,
+      "span_end": 622,
+      "surface": "believe that this tradition brings good luck",
+      "sentence_no": 8,
+      "rationale": "believe의 목적어를 이끄는 명사절 접속사 that. what으로 바꾸면 불완전절이 필요하므로 오류 — what vs that 구별 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 657,
+      "span_end": 698,
+      "surface": "Families, friends, and tourists all enjoy",
+      "sentence_no": 9,
+      "rationale": "복수 주어 세 개에 대한 동사 enjoy. enjoys로 바꾸는 수일치 함정.",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 767,
+      "span_end": 810,
+      "surface": "not only beautiful but also full of meaning",
+      "sentence_no": 10,
+      "rationale": "not only A but also B에서 A·B가 모두 형용사구로 병렬. 한쪽을 명사/동사로 바꾸면 병렬이 깨진다.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 822,
+      "span_end": 857,
+      "surface": "to dream and share hope with others",
+      "sentence_no": 10,
+      "rationale": "time을 수식하는 형용사적 용법 to부정사이며, dream과 share가 to에 병렬 연결. sharing으로 바꾸는 병렬 오류 유도.",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_NONFIN_FORM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "주제문 (축제 소개)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 2,
+      "role": "세부정보 — 시기",
+      "signal": "every year",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "세부정보 — 의의",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "세부정보 — 참가자와 장소",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "절차 설명 1",
+      "signal": "During the festival",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "절차 설명 2",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "결과 묘사 (장면)",
+      "signal": "As",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "믿음·의미 설명",
+      "signal": "believe that",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 9,
+      "role": "반응 요약",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "결론문 (요약·의의)",
+      "signal": "not only ~ but also",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [
+        "①"
+      ],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "다음 중 윗글의 밑줄 친 부분이 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "become은 보어로 형용사를 취하므로 brightly가 아니라 bright가 되어야 한다(becomes bright and magical). 나머지는 본문 그대로의 올바른 문장이다. ①은 복수 주어에 맞는 come, ②는 명사구 앞의 전치사 During, ④는 believe의 목적어절을 이끄는 that, ⑤는 light과 release의 병렬이 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        12,
+        3,
+        6,
+        13,
+        8
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "People from all over Taiwan and many visitors from other countries come to the small town of Shifen.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "During the festival, people write their wishes, dreams, and messages of hope on colorful paper lanterns.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "As hundreds of glowing lanterns float upward, the dark sky becomes brightly and magical.",
+          "is_answer": true,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "People believe that this tradition brings good luck and happiness for the year ahead.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Then, they light the lanterns and release them into the night sky.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VOICE_PARTICIPLE",
+      "stem": "윗글의 흐름에 맞게 (a), (b), (c)에 들어갈 말로 가장 적절한 것끼리 짝지은 것은?\n\nPeople come to Shifen (a)[take / to take] part in this special event. As hundreds of (b)[glowing / glowed] lanterns float upward, the dark sky (c)[become / becomes] bright and magical.",
+      "answer_key": "③",
+      "explanation": "(a) '~하기 위해'라는 목적을 나타내는 부사적 용법이므로 to take. (b) 등불이 스스로 빛나는 것이므로 능동의 현재분사 glowing. (c) 주어가 the dark sky(단수)이므로 becomes. 따라서 ③이 정답이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        10,
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "take – glowing – becomes",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "to take – glowed – becomes",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "to take – glowing – becomes",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "to take – glowing – become",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "take – glowed – become",
+          "is_answer": false,
+          "violates_point_code": "VOICE_PARTICIPLE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [
+        "②"
+      ],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "윗글의 문장을 변형한 것 중, 어법상 올바른 것은?",
+      "answer_key": "②",
+      "explanation": "② not only A but also B에서 A(beautiful)와 B(full of meaning)가 모두 형용사구로 병렬이 올바르다. ① and로 연결된 light와 병렬이 되려면 release여야 한다. ③ 복수 주어이므로 enjoy. ④ to dream과 병렬이므로 share. ⑤ one of 뒤에는 복수명사 celebrations가 와야 한다.",
+      "difficulty": "hard",
+      "option_lang": "na",
+      "source_tags": [
+        8,
+        15,
+        14,
+        16,
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Then, they light the lanterns and releasing them into the night sky.",
+          "is_answer": false,
+          "violates_point_code": "CONJ_PARALLEL",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The Pingxi Sky Lantern Festival is not only beautiful but also full of meaning.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Families, friends, and tourists all enjoys the peaceful and joyful moments.",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "It is time to dream and sharing hope with others.",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_PARALLEL_BREAK",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "The Pingxi Sky Lantern festival is one of Taiwan's most famous celebration.",
+          "is_answer": false,
+          "violates_point_code": "MOD_COMPARATIVE",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "윗글의 밑줄 친 낱말 중, 문맥상 낱말의 쓰임이 적절하지 않은 것은?",
+      "answer_key": "④",
+      "explanation": "빛나는 등불 수백 개가 떠오르면 어두운 하늘이 '밝고(bright)' 환상적으로 변한다는 흐름이므로, '칙칙한'이라는 뜻의 dull은 문맥에 맞지 않는다. 나머지 낱말은 축제의 절차와 의미를 설명하는 문맥에 적절하다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        12
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "This festival marks the end of the Lunar New Year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "people write their wishes, dreams, and messages of hope on colorful paper lanterns",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Then, they light the lanterns and release them into the night sky.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "As hundreds of glowing lanterns float upward, the dark sky becomes dull and magical.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "People believe that this tradition brings good luck and happiness.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the best topic of the passage?",
+      "answer_key": "②",
+      "explanation": "글 전체는 대만 Pingxi에서 사람들이 소원을 적은 등불을 하늘로 날려 보내는 축제를 소개하고 그 의미를 설명한다. 따라서 ②가 주제로 가장 적절하다. ①③④⑤는 글에서 다루지 않았거나 지엽적이다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "how to make colorful paper lanterns at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "a Taiwanese festival where people release lanterns carrying their wishes",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "the history of the Lunar New Year in Asian countries",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "the best season to travel to the small town of Shifen",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "problems caused by sky lanterns in the night sky",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about the Pingxi Sky Lantern Festival according to the passage?",
+      "answer_key": "③",
+      "explanation": "[4]에서 대만 전역의 사람들과 다른 나라에서 온 많은 방문객들이 Shifen에 온다고 했으므로 ③은 본문과 일치하지 않는다. ①은 [2], ②는 [3], ④는 [5], ⑤는 [8]과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "It is held every year in February or March.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "It marks the end of the Lunar New Year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Only local people from the town of Shifen can join the event.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "People write their wishes and messages on colorful paper lanterns.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "People believe the tradition brings good luck for the year ahead.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "Choose the best expression for the blank in the last sentence: \"The Pingxi Sky Lantern Festival is not only beautiful but also ___—It is time to dream and share hope with others.\"",
+      "answer_key": "①",
+      "explanation": "뒤에 이어지는 '꿈꾸고 희망을 나누는 시간'이라는 설명이 빈칸의 내용을 풀어 준다. 즉 축제가 아름다울 뿐 아니라 '의미로 가득하다'는 것이 결론이므로 ①이 적절하다. 나머지는 글에서 뒷받침되지 않는다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        15
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "full of meaning",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "hard to understand",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "free of charge",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "short of visitors",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "dangerous at night",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "윗글의 밑줄 친 this tradition이 가리키는 바로 가장 적절한 것은?",
+      "answer_key": "②",
+      "explanation": "this tradition은 앞의 [5]~[7]에서 설명한, 종이 등불에 소원을 적어 불을 붙여 밤하늘로 띄워 보내는 행위를 가리킨다. 따라서 ②가 적절하다. 나머지는 본문에 언급되지 않았거나 지시 대상이 아니다.",
+      "difficulty": "medium",
+      "option_lang": "ko",
+      "source_tags": [
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "음력설에 가족들이 모여 함께 식사하는 것",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "소원을 적은 종이 등불을 밤하늘로 날려 보내는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Shifen 마을을 방문해 기념품을 사는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "축제 기간에 마을 전체에 불을 밝히는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "친구들과 밤하늘을 바라보며 사진을 찍는 것",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음 문장에서 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오. (한 군데)\n\nPeople from all over Taiwan and many visitors from other countries comes to the small town of Shifen to take part in this special event.",
+      "answer_key": "comes → come",
+      "explanation": "주어는 People ... and many visitors로 and로 연결된 복수 주어이다. from all over Taiwan, from other countries 같은 수식어구에 끌려 단수 동사를 쓰면 안 되므로 comes를 come으로 고쳐야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "CONJ_PARALLEL",
+      "stem": "다음 우리말과 같도록 <조건>에 맞게 영작하시오.\n\n우리말: 그 축제는 아름다울 뿐만 아니라 의미로도 가득하다.\n<조건> 1) not only, but also, full of meaning 을 모두 사용할 것  2) The festival is 로 시작할 것  3) 총 10단어로 쓸 것",
+      "answer_key": "The festival is not only beautiful but also full of meaning.",
+      "explanation": "not only A but also B 구문에서 A와 B는 같은 품사·형태로 병렬을 이루어야 하므로, 형용사 beautiful과 형용사구 full of meaning을 연결한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        15
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "우리말과 같도록 주어진 단어를 모두 바르게 배열하시오.\n\n우리말: 사람들은 이 특별한 행사에 참여하기 위해 Shifen이라는 작은 마을에 온다.\n(to / people / this special event / come / the small town of Shifen / take part in / to)",
+      "answer_key": "People come to the small town of Shifen to take part in this special event.",
+      "explanation": "'~하기 위해'는 목적을 나타내는 부사적 용법의 to부정사 to take part in으로 쓰고, take part in 뒤에 목적어 this special event를 둔다. 장소는 come to ~로 연결한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        5
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 10,
+    "tags_returned": 17,
+    "tags_kept": 17,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": [
+      {
+        "item": 0,
+        "type": "T-GRAMMAR-INLINE",
+        "options": [
+          "①"
+        ]
+      },
+      {
+        "item": 2,
+        "type": "T-GRAMMAR-STANDALONE",
+        "options": [
+          "②"
+        ]
+      }
+    ]
+  }
+}

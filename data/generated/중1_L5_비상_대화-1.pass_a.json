@@ -1,0 +1,691 @@
+{
+  "passage_id": "4208dd49-bcbb-4b55-94d6-04c89b2b4642",
+  "body_text_sha256": "e0290384db01370f6b3db0b99be29bc4c0d75ecae473b02391f2b82b66a075c5",
+  "tags": [
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 26,
+      "span_end": 36,
+      "surface": "really big",
+      "sentence_no": 2,
+      "rationale": "be동사 보어 자리의 형용사 big을 부사 really가 수식. 'really bigly' 또는 보어를 부사로 바꾼 'is really bigly' 형태의 오답 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ADJ_TO_ADV",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 47,
+      "span_end": 70,
+      "surface": "There are many sections",
+      "sentence_no": 4,
+      "rationale": "There + be동사 구문에서 뒤의 복수명사 many sections에 are가 수일치. 'There is many sections'로 바꾸는 수일치 오류가 전형적 출제 지점",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_AGREEMENT",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 77,
+      "span_end": 98,
+      "surface": "are you interested in",
+      "sentence_no": 5,
+      "rationale": "be interested in 고정 결합. 의문사 What이 전치사 in의 목적어라 문미 in이 반드시 남아야 함. in 삭제(EI_PREP_DELETE)나 at/on 교체 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 103,
+      "span_end": 128,
+      "surface": "I’m interested in cooking",
+      "sentence_no": 6,
+      "rationale": "감정동사 interest의 수동형 be interested(관심이 있다). 'I'm interesting in'처럼 현재분사로 바꾸는 오답이 단골",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_PARTICIPLE_FLIP",
+        "EI_PASSIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 118,
+      "span_end": 128,
+      "surface": "in cooking",
+      "sentence_no": 6,
+      "rationale": "전치사 in 뒤에는 동명사. 'in cook' / 'in to cook'으로 바꾼 준동사 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_NONFIN_FORM",
+        "EI_GERUND_TO_VERB",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 129,
+      "span_end": 139,
+      "surface": "these days",
+      "sentence_no": 6,
+      "rationale": "요즘을 뜻하는 these days는 현재시제와 호응. 과거시제 'I was interested in ~ these days'로 바꾸는 시제 불일치 오답 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "span_start": 150,
+      "span_end": 158,
+      "surface": "Let’s go",
+      "sentence_no": 8,
+      "rationale": "Let's(= Let us) 뒤에는 동사원형. 'Let's to go' / 'Let's going'으로 바꾸는 목적격보어 형태 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_CAUSATIVE_FORM",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 159,
+      "span_end": 174,
+      "surface": "to that section",
+      "sentence_no": 8,
+      "rationale": "이동 방향을 나타내는 go to + 장소. 전치사 to 삭제나 at/in 교체 오답 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PREP_DELETE",
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "THAT_USAGE",
+      "span_start": 162,
+      "span_end": 174,
+      "surface": "that section",
+      "sentence_no": 8,
+      "rationale": "여기서 that은 명사 section을 꾸미는 지시형용사. 접속사·관계대명사 that과 쓰임을 구별시키는 문항으로 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "CO_SYNONYM"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 감탄",
+      "signal": "Wow",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "상황 제시(주제문)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "동의 응답",
+      "signal": "Yeah",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "부연 설명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "도입질문",
+      "signal": "What",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "핵심 응답(주제문)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 7,
+      "role": "수용 반응",
+      "signal": "Okay",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "해결책·제안(결론문)",
+      "signal": "Let’s",
+      "is_blank_candidate": true
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "위 대화의 문장을 옮긴 것이다. 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "전치사 in 뒤에는 명사 역할을 하는 동명사가 와야 하므로 cook이 아니라 cooking이 맞다(I’m interested in cooking these days.). ①은 be동사 보어 형용사 big을 부사 really가 수식한 올바른 형태, ②는 복수명사 many sections에 are가 수일치한 올바른 문장, ③은 be interested in의 전치사 in이 문미에 남은 올바른 의문문, ⑤는 Let’s 뒤 동사원형 go가 바르게 쓰였다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        0,
+        1,
+        2,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "This bookstore is really big.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "There are many sections.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "What are you interested in?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "I’m interested in cook these days.",
+          "is_answer": true,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Let’s go to that section first.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "④"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "위 대화의 (a), (b), (c)에 들어갈 말로 알맞게 짝지어진 것은?\n· There (a)[is / are] many sections.\n· I’m interested in (b)[cook / cooking] these days.\n· Let’s (c)[go / to go] to that section first.",
+      "answer_key": "①",
+      "explanation": "(a) There 구문은 뒤의 명사 many sections가 복수이므로 are. (b) 전치사 in의 목적어 자리이므로 동명사 cooking. (c) Let’s 뒤에는 동사원형 go가 온다. ②는 수일치, ③은 전치사 뒤 형태, ④는 Let’s 뒤 형태가 각각 틀렸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) are – (b) cooking – (c) go",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) is – (b) cooking – (c) go",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) are – (b) cook – (c) go",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_VS_GERUND",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) are – (b) cooking – (c) to go",
+          "is_answer": false,
+          "violates_point_code": "SVOC_OBJ_COMPLEMENT",
+          "via_modification": "EI_CAUSATIVE_FORM",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 대화의 밑줄 친 부분 중 어법상 어색한 것은?\nThis bookstore ①is really big. There ②are many sections. What are you ③interested in? I’m ④interesting in cooking these days. ⑤Let’s go to that section first.",
+      "answer_key": "④",
+      "explanation": "사람이 '관심이 있다'고 말할 때는 감정동사의 수동형 be interested in을 쓴다. 따라서 ④는 I’m interested in cooking이 되어야 한다. interesting은 '흥미를 주는'이라는 뜻으로 사물을 설명할 때 쓴다. 나머지는 모두 원문 그대로 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        3,
+        0,
+        1,
+        2,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "is really big",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "are many sections",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "interested in",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "interesting in cooking",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PARTICIPLE_FLIP",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Let’s go",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "위 대화의 흐름상 쓰임이 어색한 낱말은?\nM: Wow. This bookstore is really ①big. W: Yeah. There are ②many sections. What are you ③interested in? M: I’m interested in ④cooking these days. W: Okay. Let’s go to that section ⑤last.",
+      "answer_key": "⑤",
+      "explanation": "남자가 요리에 관심이 있다고 하자 여자가 '그 구역에 먼저 가자'고 제안하는 흐름이므로 last가 아니라 first가 알맞다. 큰 서점(big), 여러 구역(many sections), 관심(interested), 요리(cooking)는 모두 문맥에 맞는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "big",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "many",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "interested",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "cooking",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "last",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What are the two speakers mainly talking about?",
+      "answer_key": "①",
+      "explanation": "여자가 관심사를 묻고 남자가 요리에 관심이 있다고 답하자, 그 구역으로 먼저 가자고 제안하는 대화이므로 ①이 주제다. 가격 비교, 요리법 배우기, 서점이 작다는 불평, 도서관 대출은 언급되지 않았다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Choosing a bookstore section that matches the man's interest",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Comparing the prices of cookbooks",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Learning how to cook a special meal",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Complaining that the bookstore is too small",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Borrowing books from the school library",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is true about the dialogue?",
+      "answer_key": "①",
+      "explanation": "남자가 'I’m interested in cooking these days.'라고 했으므로 ①이 일치한다. 서점은 really big이고(②③ 불일치), 여자의 관심사는 언급되지 않았으며(④), 두 사람은 요리 구역으로 먼저 가자고 했으므로 ⑤도 틀리다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        1,
+        0
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The man is interested in cooking these days.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "The bookstore is very small.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "The bookstore has only one section.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "The woman is interested in sports books.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "They decide to leave the bookstore right now.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "대화의 흐름상 빈칸에 들어갈 말로 가장 알맞은 것은?\nW: Yeah. There are many sections. ______\nM: I’m interested in cooking these days.",
+      "answer_key": "①",
+      "explanation": "빈칸 뒤에서 남자가 '요즘 요리에 관심이 있다'고 관심사를 답하므로, 관심사를 묻는 ①이 알맞다. 길·시간·좋아하는 작가·이유를 묻는 질문에는 그런 대답이 이어지지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "What are you interested in?",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "How can I get there?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "When did you come here?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Who is your favorite writer?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Why do you like this bookstore?",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": "THAT_USAGE",
+      "stem": "밑줄 친 that section이 가리키는 것으로 가장 알맞은 것은?\nW: Okay. Let’s go to that section first.",
+      "answer_key": "①",
+      "explanation": "바로 앞에서 남자가 요리에 관심이 있다고 했으므로, 지시형용사 that이 가리키는 section은 요리 책이 모여 있는 구역이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        8,
+        3
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "요리 관련 책이 있는 구역",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "서점 입구에 있는 안내 데스크",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "여자가 일하는 사무실",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "새로 나온 소설이 있는 구역",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "서점 안의 카페 공간",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음은 위 대화의 한 문장을 고쳐 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 문장 전체를 다시 쓰시오.\n→ I’m interested in cook these days.",
+      "answer_key": "I’m interested in cooking these days.",
+      "explanation": "전치사 in 뒤에는 동사원형이 올 수 없고 동명사가 와야 하므로 cook을 cooking으로 고친다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "SVOC_OBJ_COMPLEMENT",
+      "stem": "우리말과 같도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n그 구역에 먼저 가자.\n(first / go / that / to / Let’s / section)",
+      "answer_key": "Let’s go to that section first.",
+      "explanation": "Let’s 뒤에는 동사원형 go가 오고, 이동 방향은 go to + 장소로 쓴다. 빈도·순서를 나타내는 first는 문장 끝에 놓는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        6,
+        7,
+        8
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "stem": "다음 우리말을 〈조건〉에 맞게 영작하시오.\n너는 무엇에 관심이 있니?\n〈조건〉 1) be interested in을 사용할 것  2) 의문사 What으로 시작할 것  3) 5단어로 쓸 것",
+      "answer_key": "What are you interested in?",
+      "explanation": "be interested in은 고정 결합이며, What이 전치사 in의 목적어이므로 문장 끝에 in을 반드시 남겨야 한다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 8,
+    "tags_returned": 9,
+    "tags_kept": 9,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

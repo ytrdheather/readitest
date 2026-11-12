@@ -135,7 +135,13 @@ ORDER = [
     "L6_Read_More.tf", "Dr_Schofield.tf",
     "A_girl_with_a_red_balloon.tf",
     "L6_외부지문_Yu_Gwansun.tf", "L6_외부지문_Homer_B_Hulbert.tf",   # 영덕 배부물 12쪽(Basic) → 13쪽(Advanced)
+    # 영덕중2 L7 More Reading 12쪽(Easy) → 13쪽(Basic) → 14쪽(Advanced). 태장은 Holmenkollen 하나뿐이라 영향 없음
+    "L7_외부지문_Songkran.tf", "L7_외부지문_Pingxi_Sky_Lantern_Festival.tf",
+    "L7_외부지문_Holmenkollen_Ski_Festival.tf",
     "L5_대화_길_묻고_답하기.para",
+    # 청명중1 5과 (비상) — 파일명 사전순이면 ⑩⑪⑫(101112) 가 ①②③④(1234) 앞에 선다
+    "중1_L5_비상_대화_1234.tf", "중1_L5_비상_대화_567.tf", "중1_L5_비상_대화_89.tf",
+    "중1_L5_비상_대화_101112.tf",
 ]
 
 

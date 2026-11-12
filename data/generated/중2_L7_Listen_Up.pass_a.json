@@ -1,0 +1,615 @@
+{
+  "passage_id": "4a52030d-4a95-4ae4-b477-d17c7fd8dbec",
+  "body_text_sha256": "cd5abb05b44d36e8b8ecdff307275187be0aa8dc553d9c19abe0b8d3ab5add6c",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 43,
+      "span_end": 64,
+      "surface": "Every year, we invite",
+      "sentence_no": 2,
+      "rationale": "매년 반복되는 일 → 현재시제 invite. 바로 다음 문장의 'This year, we invited'(과거)와 대비되어 시제 구분 출제 지점. invited/are inviting 로 바꾼 오답 유도 가능",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 77,
+      "span_end": 98,
+      "surface": "from around the world",
+      "sentence_no": 2,
+      "rationale": "'세계 각지에서 온'을 뜻하는 from + around 이중 전치사. from 을 of/in 으로 바꾸거나 전치사를 삭제하는 변형이 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 111,
+      "span_end": 131,
+      "surface": "we invited Mr. Kumar",
+      "sentence_no": 3,
+      "rationale": "목적어를 가진 능동태 → Mr. Kumar was invited (by us) 로 전환 가능. by 누락이나 was inviting 형태 오류를 심는 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "REL_CONTINUOUS",
+      "span_start": 122,
+      "span_end": 159,
+      "surface": "Mr. Kumar, a world-famous Indian chef",
+      "sentence_no": 3,
+      "rationale": "콤마 뒤 동격 명사구. who is 를 넣은 계속적 용법 관계사절로 확장 가능하며, who/which 선행사 일치(사람→who) 오답 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_REL_ANTECEDENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_FINITE",
+      "span_start": 192,
+      "span_end": 220,
+      "surface": "don’t miss his cooking class",
+      "sentence_no": 5,
+      "rationale": "일반동사 명령문의 부정 → Don't + 동사원형. Don't misses / Not miss / Doesn't miss 오답 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 203,
+      "span_end": 220,
+      "surface": "his cooking class",
+      "sentence_no": 5,
+      "rationale": "용도를 나타내는 동명사 수식(요리를 위한 수업). to cook class 같은 to부정사 대체 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 255,
+      "span_end": 263,
+      "surface": "for free",
+      "sentence_no": 6,
+      "rationale": "'무료로'를 뜻하는 굳어진 전치사구. for 를 with/by/in 으로 바꾸거나 통째 삭제하는 빈칸 출제가 쉬운 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "span_start": 226,
+      "span_end": 238,
+      "surface": "can also get",
+      "sentence_no": 6,
+      "rationale": "조동사 can 뒤 동사원형. also 의 위치(조동사 뒤, 본동사 앞)도 함께 묻힐 수 있음. can gets / can to get 오답 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "BO_WORD_ORDER"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입 인사 (행사 소개)",
+      "signal": "Welcome to",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "행사의 일반적 성격 설명 (주제문)",
+      "signal": "Every year",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 3,
+      "role": "올해의 구체적 사실 (세부 정보)",
+      "signal": "This year",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "청자 관심 환기 질문",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "권유·당부 (행동 요청)",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "추가 혜택 안내 (보충)",
+      "signal": "also",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "다음은 위 안내 방송의 일부이다. (a), (b), (c)에 들어갈 말로 가장 적절한 것끼리 짝지어진 것은?\n\nEvery year, we (a)[invite / invited] great chefs from around the world. This year, we invited Mr. Kumar, a world-famous Indian chef. Then, (b)[don't miss / doesn't miss] his cooking class. You can also get his recipe book (c)[for / with] free.",
+      "answer_key": "①",
+      "explanation": "(a) Every year(매년 반복되는 일)는 현재시제 invite. 바로 뒤 This year ~ invited(과거)와 대비된다. (b) 일반동사 명령문의 부정은 주어와 무관하게 Don't + 동사원형이므로 don't miss. (c) '무료로'는 굳어진 표현 for free 이다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) invite — (b) don't miss — (c) for",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) invited — (b) don't miss — (c) for",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) invite — (b) doesn't miss — (c) for",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) invite — (b) don't miss — (c) with",
+          "is_answer": false,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "(a) invited — (b) doesn't miss — (c) with",
+          "is_answer": false,
+          "violates_point_code": "VERB_TENSE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?\n\nWelcome to the ABC World Food Festival! Every year, we ① invite great chefs ② from around the world. This year, Mr. Kumar, a world-famous Indian chef, ③ was inviting by us. Do you like Indian food? Then, ④ don't miss his cooking class. You can also get his recipe book ⑤ for free.",
+      "answer_key": "③",
+      "explanation": "Mr. Kumar는 초대를 '받는' 대상이므로 수동태 was invited by us 가 되어야 한다. was inviting 은 과거진행 능동형이라 의미와 형태가 모두 어긋난다. ①은 Every year와 어울리는 현재시제, ②는 '세계 각지에서'를 뜻하는 올바른 전치사구, ④는 부정 명령문, ⑤는 '무료로'라는 관용 표현으로 모두 옳다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        0,
+        1,
+        4,
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "invite",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "from around the world",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "was inviting by us",
+          "is_answer": true,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "don't miss",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "for free",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "위 지문의 문장을 바탕으로 한 다음 문장 중, 어법상 올바른 것은?",
+      "answer_key": "②",
+      "explanation": "②는 본문의 능동문 we invited Mr. Kumar 를 올바르게 수동태로 바꾼 문장이다. ① 주어 we 에는 invite. ③ 부정 명령문은 Don't + 동사원형. ④ 조동사 can 뒤에는 동사원형 get. ⑤ we 가 초대한 주체이므로 수동태 are invited 는 불가하며 invited 가 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Every year, we invites great chefs from around the world.",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "This year, Mr. Kumar was invited by us.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Then, don't misses his cooking class.",
+          "is_answer": false,
+          "violates_point_code": "VERB_FINITE",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "You can also gets his recipe book for free.",
+          "is_answer": false,
+          "violates_point_code": "VERB_MODAL_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "This year, we are invited Mr. Kumar, a world-famous Indian chef.",
+          "is_answer": false,
+          "violates_point_code": "VOICE_ACTIVE_PASSIVE",
+          "via_modification": "EI_PASSIVE_FORM",
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "다음 글의 밑줄 친 낱말 중, 문맥상 쓰임이 적절하지 않은 것은?\n\nWelcome to the ABC World Food Festival! Every year, we ① invite great chefs from around the world. This year, we invited Mr. Kumar, a world-famous Indian ② chef. Do you like Indian food? Then, don't ③ attend his cooking class. You can also get his recipe book for ④ free. It will ⑤ cost you nothing.",
+      "answer_key": "③",
+      "explanation": "행사 참여를 권하는 흐름이므로 '놓치지 마세요(don't miss)'가 되어야 한다. don't attend 는 '참석하지 마세요'가 되어 권유의 흐름과 정반대이다. 나머지는 초대·요리사·무료·비용이 들지 않음이라는 문맥에 모두 맞는다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "invite",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "chef",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "attend",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "free",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "cost",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the purpose of the announcement?",
+      "answer_key": "①",
+      "explanation": "축제를 환영하며 올해 초청한 Kumar 씨의 요리 교실을 놓치지 말라고 권하고 무료 레시피 북을 안내하는 홍보성 방송이다. ②는 조리법 자체를 가르치지 않고, ③ 책은 무료이며 판매가 아니고, ④ 청중을 요리사로 초대하지 않으며, ⑤ 인도 음식의 인기 이유는 언급되지 않는다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [],
+      "options": [
+        {
+          "label": "①",
+          "body": "To introduce a world food festival and promote a chef's cooking class",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "To teach listeners how to cook traditional Indian curry at home",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "To sell recipe books written by famous chefs at a low price",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "To invite listeners to become chefs at the festival next year",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "To explain why Indian food is popular around the world",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true according to the announcement?",
+      "answer_key": "④",
+      "explanation": "마지막 문장에서 레시피 북을 for free(무료로) 받을 수 있다고 했으므로 추가 비용을 내야 한다는 ④는 본문과 어긋난다. ①②③⑤는 각각 2·3·5번 문장에서 확인된다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        6
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "The festival invites great chefs from around the world every year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Mr. Kumar is a world-famous Indian chef.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Mr. Kumar will hold a cooking class at the festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Listeners have to pay extra money for the recipe book.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Mr. Kumar was invited to the festival this year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "밑줄 친 don't miss his cooking class 가 의미하는 바로 가장 적절한 것은?",
+      "answer_key": "①",
+      "explanation": "miss 는 '놓치다'라는 뜻이므로 don't miss 는 '놓치지 마라', 즉 '꼭 참여하라'는 강한 권유이다. 지각이나 예약, 종료 여부에 대한 언급은 없다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "그의 요리 수업을 꼭 들으세요.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "그의 요리 수업을 다른 사람에게 알리지 마세요.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "그의 요리 수업에 늦지 않게 도착하세요.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "그의 요리 수업은 이미 끝났습니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "그의 요리 수업은 예약이 필요합니다.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_MODAL_USAGE",
+      "stem": "다음은 위 안내 방송을 옮겨 적은 것이다. 어법상 틀린 부분을 찾아 밑줄을 긋고 바르게 고쳐 쓰시오. (틀린 곳 1군데)\n\nYou can also gets his recipe book for free.",
+      "answer_key": "gets → get",
+      "explanation": "조동사 can 뒤에는 반드시 동사원형이 와야 하므로 gets 를 get 으로 고친다. also 의 위치(조동사 뒤)와 for free 는 모두 올바르다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        7
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "VERB_TENSE",
+      "stem": "우리말과 같은 뜻이 되도록 주어진 단어를 모두 배열하여 문장을 완성하시오.\n\n매년, 우리는 세계 각지에서 온 훌륭한 요리사들을 초대합니다.\n(great / we / from / chefs / the world / invite / around)\n\n→ Every year, ______________________________.",
+      "answer_key": "Every year, we invite great chefs from around the world.",
+      "explanation": "Every year 는 반복되는 일을 나타내므로 현재시제 invite 를 쓴다. '세계 각지에서 온'은 from around the world 로 from 과 around 를 연이어 쓰며, 이 수식어구는 명사 great chefs 뒤에 놓는다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        0,
+        1
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "stem": "위 지문의 문장 [3] This year, we invited Mr. Kumar, a world-famous Indian chef. 를 <조건>에 맞게 다시 쓰시오.\n\n<조건>\n1. Mr. Kumar 를 주어로 하는 수동태 문장으로 쓸 것\n2. 행위자(we)를 by 와 함께 밝힐 것\n3. This year 로 문장을 시작할 것",
+      "answer_key": "This year, Mr. Kumar, a world-famous Indian chef, was invited by us.",
+      "explanation": "능동태 we invited Mr. Kumar 의 목적어를 주어로 올리고 동사를 be동사 과거 + 과거분사(was invited)로 바꾼 뒤, 행위자를 by us 로 밝힌다. 동격어구 a world-famous Indian chef 는 주어 뒤에 콤마로 그대로 둔다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        3
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 6,
+    "tags_returned": 8,
+    "tags_kept": 8,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 10,
+    "items_kept": 10,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

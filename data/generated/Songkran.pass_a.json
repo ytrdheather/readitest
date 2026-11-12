@@ -1,0 +1,893 @@
+{
+  "passage_id": "ff27edba-390f-4451-ab41-edd4cd791302",
+  "body_text_sha256": "d18538d72af1042c317ad0eed05cfaa8ea3e262fa4f3a7f797fd0752ef3531c1",
+  "tags": [
+    {
+      "grammar_point_code": "VERB_TENSE",
+      "span_start": 38,
+      "span_end": 42,
+      "surface": "came",
+      "sentence_no": 4,
+      "rationale": "앞 문장 'I'm in Thailand now'(현재)와 달리 과거에 온 사실이므로 과거시제 came. come / have come 과 혼동 유도 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 48,
+      "span_end": 62,
+      "surface": "with my sister",
+      "sentence_no": 4,
+      "rationale": "동반을 나타내는 전치사 with. by / for 등으로 교체하거나 삭제하는 빈칸 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 97,
+      "span_end": 125,
+      "surface": "People in Thailand celebrate",
+      "sentence_no": 5,
+      "rationale": "주어 People 과 동사 사이에 수식어구 in Thailand 가 끼어 있어 celebrates 로 잘못 수일치시키는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "VOICE_ACTIVE_PASSIVE",
+      "span_start": 116,
+      "span_end": 137,
+      "surface": "celebrate it in April",
+      "sentence_no": 5,
+      "rationale": "목적어 it 를 가진 능동태. 'It is celebrated in April' 로 전환하거나 'is celebrating / was celebrated by' 식 형태 오류를 심을 수 있는 자리",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_ACTIVE_TO_PASSIVE_NO_BY",
+        "EI_PASSIVE_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "IT_CLEFT",
+      "span_start": 139,
+      "span_end": 162,
+      "surface": "It is very hot in April",
+      "sentence_no": 6,
+      "rationale": "날씨를 나타내는 비인칭 주어 it. 앞 문장의 it(=Songkran)과 쓰임이 다름을 묻는 '쓰임이 다른 it' 문항 소재",
+      "confidence": "high",
+      "applicable_modifications": [
+        "RU_EXERCISE_OPTIONS"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 215,
+      "span_end": 231,
+      "surface": "On the first day",
+      "sentence_no": 7,
+      "rationale": "특정한 날 앞에는 on. in / at 과 구별하는 전형적 빈칸 자리",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 268,
+      "span_end": 289,
+      "surface": "a new and fresh start",
+      "sentence_no": 8,
+      "rationale": "and 로 형용사 new / fresh 가 병렬. 한쪽을 부사나 명사로 바꿔 병렬을 깨는 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 313,
+      "span_end": 340,
+      "surface": "with water guns and buckets",
+      "sentence_no": 9,
+      "rationale": "소지·휴대를 나타내는 with. by / in 으로 교체하는 빈칸 출제 가능",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_PREP_COLLOCATION",
+      "span_start": 347,
+      "span_end": 370,
+      "surface": "throw water at everyone",
+      "sentence_no": 10,
+      "rationale": "throw A at B(~에게 A를 끼얹다) 고정 결합. at 을 to / on 으로 바꾸거나 삭제하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_INDEFINITE",
+      "span_start": 362,
+      "span_end": 382,
+      "surface": "everyone around them",
+      "sentence_no": 10,
+      "rationale": "부정대명사 everyone 은 단수 취급이며 뒤에서 전치사구의 수식을 받음. every one / all people 과의 구별 및 수일치 오류 유도",
+      "confidence": "low",
+      "applicable_modifications": [
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PRON_AGREEMENT",
+      "span_start": 384,
+      "span_end": 411,
+      "surface": "It's like a big water fight",
+      "sentence_no": 11,
+      "rationale": "It's(=It is)와 소유격 Its 의 구별. Its like ~ 로 바꾸는 전형적 오류",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE"
+      ]
+    },
+    {
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "span_start": 430,
+      "span_end": 442,
+      "surface": "got very wet",
+      "sentence_no": 12,
+      "rationale": "get 은 보어로 형용사를 취함. wetly 로 바꾸는 형용사↔부사 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 477,
+      "span_end": 500,
+      "surface": "pour water on the hands",
+      "sentence_no": 13,
+      "rationale": "표면 접촉을 나타내는 on. in / at 으로 교체하는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "span_start": 525,
+      "span_end": 540,
+      "surface": "to show respect",
+      "sentence_no": 13,
+      "rationale": "목적을 나타내는 부사적 용법의 to부정사. showing / for show / show 로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_NONFIN_FORM"
+      ]
+    },
+    {
+      "grammar_point_code": "VERB_SVA",
+      "span_start": 542,
+      "span_end": 556,
+      "surface": "Everyone looks",
+      "sentence_no": 14,
+      "rationale": "Everyone 은 단수 취급이므로 looks. look 으로 바꾸는 수일치 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "span_start": 551,
+      "span_end": 571,
+      "surface": "looks happy and kind",
+      "sentence_no": 14,
+      "rationale": "감각동사 look 뒤에는 형용사 보어. happily / kindly 로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_ADJ_TO_ADV"
+      ]
+    },
+    {
+      "grammar_point_code": "NOUN_CLAUSE_THAT",
+      "span_start": 573,
+      "span_end": 592,
+      "surface": "I think Songkran is",
+      "sentence_no": 15,
+      "rationale": "think 의 목적어절을 이끄는 접속사 that 이 생략된 구조. what 으로 바꾸는 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_STRUCT_DELETE"
+      ]
+    },
+    {
+      "grammar_point_code": "CONJ_PARALLEL",
+      "span_start": 618,
+      "span_end": 656,
+      "surface": "forget their worries and just have fun",
+      "sentence_no": 16,
+      "rationale": "and 로 동사원형 forget / have 가 병렬. having 이나 has 로 바꿔 병렬을 깨는 오류 유도",
+      "confidence": "medium",
+      "applicable_modifications": [
+        "EI_PARALLEL_BREAK",
+        "EI_AGREEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "span_start": 660,
+      "span_end": 677,
+      "surface": "want to come back",
+      "sentence_no": 17,
+      "rationale": "want 는 목적어로 to부정사만 취함. coming back 으로 바꾸는 오류 유도",
+      "confidence": "high",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_VERB_COMPLEMENT"
+      ]
+    },
+    {
+      "grammar_point_code": "PREP_USAGE",
+      "span_start": 694,
+      "span_end": 714,
+      "surface": "with my whole family",
+      "sentence_no": 17,
+      "rationale": "동반의 with. 빈칸으로 뚫어 by / for 와 고르게 하는 출제 가능",
+      "confidence": "low",
+      "applicable_modifications": [
+        "BO_FORM_CHOICE",
+        "EI_PREP_DELETE"
+      ]
+    }
+  ],
+  "logic": [
+    {
+      "sentence_no": 1,
+      "role": "도입인사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 2,
+      "role": "화자 소개",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 3,
+      "role": "상황 제시",
+      "signal": "now",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 4,
+      "role": "방문 목적(화제 도입)",
+      "signal": "for a special festival",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 5,
+      "role": "정의·시기 설명",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 6,
+      "role": "원인(날씨)",
+      "signal": "so",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 7,
+      "role": "세부 사실(첫날 활동)",
+      "signal": "On the first day",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 8,
+      "role": "의미 해설",
+      "signal": "It means",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 9,
+      "role": "전환(다음 활동)",
+      "signal": "Then",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 10,
+      "role": "세부 사실(물 뿌리기)",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 11,
+      "role": "비유적 요약",
+      "signal": "It's like",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 12,
+      "role": "개인 경험·감상",
+      "signal": "but",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 13,
+      "role": "추가 세부(존경 표현)",
+      "signal": "also",
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 14,
+      "role": "분위기 묘사",
+      "signal": null,
+      "is_blank_candidate": false
+    },
+    {
+      "sentence_no": 15,
+      "role": "주제문(필자의 평가)",
+      "signal": "I think",
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 16,
+      "role": "근거 요약(축제의 의의)",
+      "signal": null,
+      "is_blank_candidate": true
+    },
+    {
+      "sentence_no": 17,
+      "role": "결론(소망)",
+      "signal": "again next year",
+      "is_blank_candidate": false
+    }
+  ],
+  "items": [
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-STANDALONE",
+      "grammar_point_code": "SENSE_VERB_ADJ",
+      "stem": "윗글의 문장을 옮긴 것이다. 어법상 틀린 것은?",
+      "answer_key": "③",
+      "explanation": "감각동사 look 뒤에는 형용사 보어가 와야 하므로 happily 가 아니라 happy 가 맞다(원문: Everyone looks happy and kind.). ①②④⑤는 모두 본문 그대로의 올바른 문장이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        15,
+        0,
+        2,
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "I came here with my sister for a special festival, Songkran.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "People in Thailand celebrate it in April.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "Everyone looks happily and kind.",
+          "is_answer": true,
+          "violates_point_code": "SENSE_VERB_ADJ",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Then, they go outside with water guns and buckets.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "I want to come back again next year with my whole family.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": [
+        "③"
+      ]
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-FORM-CHOICE",
+      "grammar_point_code": "MOD_ADJ_VS_ADV",
+      "stem": "윗글의 (a), (b), (c)에 들어갈 말로 바르게 짝지어진 것은?\n(a) People in Thailand [celebrate / celebrates] it in April.\n(b) I got very [wet / wetly], but I loved it.\n(c) Thai people also pour water on the hands of older family members [to show / showing] respect.",
+      "answer_key": "①",
+      "explanation": "(a) 주어는 복수 People 이고 in Thailand 는 수식어구이므로 celebrate. (b) get 은 보어로 형용사를 취하므로 wet. (c) '존경을 표하기 위해'라는 목적의 뜻이므로 부사적 용법의 to show 가 맞다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        2,
+        11,
+        13
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "(a) celebrate — (b) wet — (c) to show",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "(a) celebrates — (b) wet — (c) to show",
+          "is_answer": false,
+          "violates_point_code": "VERB_SVA",
+          "via_modification": "EI_AGREEMENT",
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "(a) celebrate — (b) wetly — (c) to show",
+          "is_answer": false,
+          "violates_point_code": "MOD_ADJ_VS_ADV",
+          "via_modification": "EI_ADJ_TO_ADV",
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "(a) celebrate — (b) wet — (c) showing",
+          "is_answer": false,
+          "violates_point_code": "NONFIN_TO_ROLE",
+          "via_modification": "EI_NONFIN_FORM",
+          "ordinal": 4
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-GRAMMAR-INLINE",
+      "grammar_point_code": "PREP_USAGE",
+      "stem": "윗글의 밑줄 친 부분 중 어법상 틀린 것은?",
+      "answer_key": "④",
+      "explanation": "손 '위에' 물을 붓는 접촉의 의미이므로 in 이 아니라 on 이 맞다(pour water on the hands). ①의 with(동반), ②의 throw A at B, ③의 It's(=It is), ⑤의 that 생략된 목적어절은 모두 올바르다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        1,
+        8,
+        10,
+        12,
+        16
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[4] I came here <u>with my sister</u> for a special festival",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[10] They <u>throw water at everyone</u> around them.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[11] <u>It's like a big water fight</u> on the streets!",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[13] Thai people also <u>pour water in the hands</u> of older family members",
+          "is_answer": true,
+          "violates_point_code": "PREP_USAGE",
+          "via_modification": "BO_FORM_CHOICE",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[15] <u>I think Songkran is</u> a great festival.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-VOCAB-CONTEXT",
+      "grammar_point_code": null,
+      "stem": "윗글의 내용으로 볼 때, 밑줄 친 낱말의 쓰임이 문맥상 적절하지 않은 것은?",
+      "answer_key": "⑤",
+      "explanation": "축제에서 사람들이 즐겁게 논다는 흐름이므로 걱정을 '기억하는' 것이 아니라 '잊는(forget)' 것이 맞다. 나머지는 모두 문맥에 맞는 낱말이다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        4,
+        17
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "[6] It is very <u>hot</u> in April, so this festival is perfect for this time of year.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "[7] On the first day, people <u>clean</u> their homes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "[13] Thai people also pour water on the hands of older family members to show <u>respect</u>.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "[14] Everyone looks <u>happy</u> and kind.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "[16] People <u>remember</u> their worries and just have fun!",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 5
+        },
+        {
+          "label": "",
+          "body": "",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 6
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-PHRASE-INFER",
+      "grammar_point_code": null,
+      "stem": "윗글의 밑줄 친 a big water fight on the streets 가 의미하는 바로 가장 알맞은 것은?",
+      "answer_key": "①",
+      "explanation": "앞 문장에서 사람들이 물총과 양동이를 들고 나와 주변 모두에게 물을 뿌린다고 했으므로, 거리에서 물을 뿌리며 노는 모습을 비유한 표현이다.",
+      "difficulty": "easy",
+      "option_lang": "ko",
+      "source_tags": [
+        8,
+        10
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "거리에서 사람들이 서로에게 물을 뿌리며 즐겁게 노는 모습",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "물이 부족해 사람들이 서로 다투는 상황",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "소방관들이 거리의 불을 끄기 위해 물을 뿌리는 일",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "물을 아껴 쓰자고 거리에서 벌이는 캠페인",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "비가 많이 내려 거리가 물에 잠긴 모습",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-TOPIC",
+      "grammar_point_code": null,
+      "stem": "What is the passage mainly about?",
+      "answer_key": "①",
+      "explanation": "글 전체가 4월에 태국에서 열리는 물 축제 Songkran 의 시기, 활동, 의미를 소개하고 있다. ②③④⑤는 지문의 일부 소재일 뿐 전체 주제가 아니다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        3,
+        4
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "a Thai festival in April that people celebrate with water",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "the hottest months of the year in Thailand",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "easy ways to clean your house before a holiday",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "how Thai children make their own water guns",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "a family travel plan for a trip to Thailand next year",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-DETAIL",
+      "grammar_point_code": null,
+      "stem": "Which is NOT true about the passage?",
+      "answer_key": "④",
+      "explanation": "본문에서는 어른의 '손(the hands)'에 물을 붓는다고 했으므로 heads 는 일치하지 않는다. 나머지는 모두 본문과 일치한다.",
+      "difficulty": "easy",
+      "option_lang": "en",
+      "source_tags": [
+        1,
+        3,
+        5,
+        12,
+        18
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "Lucas came to Thailand with his sister.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "Songkran takes place in April.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "On the first day of the festival, people clean their homes.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "Thai people pour water on the heads of older family members to show respect.",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": "CO_SYNONYM",
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "Lucas wants to visit again next year with his whole family.",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-BLANK",
+      "grammar_point_code": null,
+      "stem": "윗글의 흐름으로 보아 빈칸에 들어갈 말로 가장 알맞은 것은?\n[15] I think Songkran is a great festival. [16] People ______________ and just have fun!",
+      "answer_key": "①",
+      "explanation": "Songkran 이 훌륭한 축제라는 평가의 근거로, 모두가 행복해 보이고 그저 즐긴다는 흐름이 이어진다. 따라서 '걱정을 잊고'가 가장 알맞다. ②④⑤는 즐긴다는 내용과 어울리지 않고 ③은 글의 결론을 담지 못한다.",
+      "difficulty": "medium",
+      "option_lang": "en",
+      "source_tags": [
+        17,
+        16
+      ],
+      "options": [
+        {
+          "label": "①",
+          "body": "forget their worries",
+          "is_answer": true,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 1
+        },
+        {
+          "label": "②",
+          "body": "clean their homes again",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 2
+        },
+        {
+          "label": "③",
+          "body": "buy new water guns",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 3
+        },
+        {
+          "label": "④",
+          "body": "stay inside their houses",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 4
+        },
+        {
+          "label": "⑤",
+          "body": "work harder than before",
+          "is_answer": false,
+          "violates_point_code": null,
+          "via_modification": null,
+          "ordinal": 5
+        }
+      ],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-FIX",
+      "grammar_point_code": "VERB_SVA",
+      "stem": "다음은 윗글의 한 문장을 고쳐 쓴 것이다. 어법상 틀린 부분을 찾아 바르게 고쳐 쓰시오.\n→ Everyone look happy and kind.",
+      "answer_key": "look → looks",
+      "explanation": "부정대명사 Everyone 은 단수 취급하므로 현재시제 동사에 -s 를 붙여 looks 가 되어야 한다.",
+      "difficulty": "easy",
+      "option_lang": "na",
+      "source_tags": [
+        14
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WRITE-COND",
+      "grammar_point_code": "NONFIN_TO_VS_GERUND",
+      "stem": "다음 우리말과 같은 뜻이 되도록 <조건>에 맞게 영작하시오.\n우리말: 나는 내년에 온 가족과 함께 다시 오고 싶다.\n<조건> 1) want, come back, with 를 반드시 사용할 것  2) again, next year, my whole family 를 포함할 것  3) 총 11단어로 쓸 것",
+      "answer_key": "I want to come back again next year with my whole family.",
+      "explanation": "want 는 목적어로 to부정사를 취하므로 want to come back 으로 쓰고, 동반의 의미는 전치사 with 로 나타낸다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        18,
+        19
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    },
+    {
+      "_verbatim_problem": [],
+      "question_type_code": "T-WORD-ORDER",
+      "grammar_point_code": "NONFIN_TO_ROLE",
+      "stem": "다음 우리말과 같은 뜻이 되도록 주어진 말을 바르게 배열하시오.\n우리말: 태국 사람들은 또한 존경을 표하기 위해 나이 많은 가족 구성원들의 손에 물을 붓는다.\n(also / pour / Thai people / water / on the hands of older family members / to show / respect)",
+      "answer_key": "Thai people also pour water on the hands of older family members to show respect.",
+      "explanation": "빈도부사 also 는 일반동사 pour 앞에 오고, 접촉을 나타내는 전치사 on 구가 뒤따르며, 목적을 나타내는 부사적 용법의 to show respect 가 문장 끝에 온다.",
+      "difficulty": "medium",
+      "option_lang": "na",
+      "source_tags": [
+        12,
+        13
+      ],
+      "options": [],
+      "_answer_violates_point": []
+    }
+  ],
+  "diagnostics": {
+    "sentence_count": 17,
+    "tags_returned": 20,
+    "tags_kept": 20,
+    "span_rejects": [],
+    "logic_missing_sentences": [],
+    "items_returned": 11,
+    "items_kept": 11,
+    "item_rejects": [],
+    "verbatim_problems": []
+  }
+}

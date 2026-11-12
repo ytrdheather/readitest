@@ -1,0 +1,43 @@
+{
+  "passage_id": "중2L7_ListenUp",
+  "kind": "textbook_dialogue",
+  "title": "중2 L7 Listen Up",
+  "textbook": {
+    "publisher": "동아",
+    "author": "윤정미",
+    "curriculum_version": "2022개정",
+    "grade": 2
+  },
+  "textbook_unit": "Lesson 7",
+  "source_type": "교과서",
+  "body_text": "M: Welcome to the ABC World Food Festival! Every year, we invite great chefs from around the world. This year, we invited Mr. Kumar, a world-famous Indian chef. Do you like Indian food? Then, don’t miss his cooking class. You can also get his recipe book for free.",
+  "body_text_sha256": "cd5abb05b44d36e8b8ecdff307275187be0aa8dc553d9c19abe0b8d3ab5add6c",
+  "word_count": 47,
+  "transcription": {
+    "status": "confirmed",
+    "method": "workbook_pdf_text_layer",
+    "source_file": "2학년 7과.pdf",
+    "note": "특급기출 본책 7과 발췌 5쪽 「Listen Up 교과서 121쪽」 담화 — 해설 번호 ➊~➍ 를 떼고 감긴 줄을 이었다. extract_teukgeup.py 가 대화만 뽑아 빠져 있던 것을 청명중2 L7 학습지(6쪽 <Listen up> 받아쓰기)를 읽다 찾았다 (2026-11-12). 학습지 인쇄 글자와 같다 — 학습지가 뚫은 자리(invite · chefs · miss · get · for free)는 손글씨라 특급기출 글자를 따랐다. 원장 대조 필요.",
+    "has_handwriting": false,
+    "has_cutoff": false,
+    "unreadable_spans": [],
+    "needs_review_sentences": [],
+    "confirmed_by": "원장",
+    "confirmed_at": "2026-11-12T10:57:46.078017+00:00",
+    "confirmed_via": "대화창 6문장 대조 · 원장 「맞아, 진행」 (2026-11-12)"
+  },
+  "distribution_scope": "internal_only",
+  "_copyright": "출판사 부가자료에서 추출. 기획서 §6.6 — 학원 내부 지도용.",
+  "block": "Listen Up",
+  "textbook_page": 121,
+  "turns": [
+    {
+      "no": 1,
+      "speaker": "M",
+      "text": "Welcome to the ABC World Food Festival! Every year, we invite great chefs from around the world. This year, we invited Mr. Kumar, a world-famous Indian chef. Do you like Indian food? Then, don’t miss his cooking class. You can also get his recipe book for free."
+    }
+  ],
+  "functions": [],
+  "key_expressions": [],
+  "vocab_headwords": []
+}

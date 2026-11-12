@@ -1,0 +1,403 @@
+{
+ "school": "영덕중",
+ "grade": 2,
+ "lesson": 7,
+ "unit_title": "Let's Enjoy Festivals",
+ "source": "Z:/…/2026 2학기 학교 프린트 모음/기말/영덕중2/ 의 L7 학습지 16쪽 중 1쪽 «Vocabulary» 30낱말 · 2쪽 A·B·C · 3쪽 «Challenging» A·B · 15쪽 단어표 19낱말",
+ "source_note": "스캔 + 학생 손글씨. 인쇄된 것만 옮겼다. 1쪽은 01~30 영어 · 31~60 우리말 뜻(같은 30낱말, 순서 섞임) — ko 는 그 인쇄된 뜻을 낱말에 짝지은 것이다. 15쪽은 쪽 · 번호 · 단어 · 한글 뜻 · 영영풀이 · 예문 · 해석 표(가로 인쇄)로 청명중2 New Words 19 와 낱말 · 풀이 · 예문이 같다 — 확대해 한 번 더 읽고 청명 JSON 글자를 옮겼다. 영영풀이가 세 벌이다: def_en 은 15쪽 단어표, 2쪽 · 3쪽의 다른 풀이와 예문은 alt 에 남겼다 (드릴 도구는 def_en 만 쓴다). cemetery 는 3쪽 보기에만 나오고 뜻 칸이 비어 있다. 2쪽 B 보기의 'alter' 는 인쇄 그대로다 (altar 가 아님, 정답으로 쓰이지 않는다). 원장 확인 대상.",
+ "read_at": "2026-11-12",
+ "read_by": "Claude (비전 판독, 인쇄 글자만)",
+ "why_best": "학교 지정 30낱말에 뜻이 전부 인쇄돼 있고, 그중 18개 + puzzle 에 학교 영영풀이 · 예문 · 해석이 있다.",
+ "words": [
+  {
+   "no": 1,
+   "word": "altar",
+   "ko": "제단",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 126,
+   "def_en": "a type of table used in ceremonies",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "The altar was beautifully decorated for the wedding.",
+   "example_ko": "결혼식을 위해 제단이 아름답게 장식되었다."
+  },
+  {
+   "no": 2,
+   "word": "burn",
+   "ko": "태우다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "v",
+   "page": 124,
+   "def_en": "to destroy, damage, injure or kill somebody or something by fire",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "Lisa burned her old letters.",
+   "example_ko": "Lisa는 그녀의 오래된 편지들을 태웠다."
+  },
+  {
+   "no": 3,
+   "word": "celebrate",
+   "ko": "축하하다, 기념하다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "v",
+   "page": 124,
+   "def_en": "to show that a day or an event is important by doing something special",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "We will celebrate her birthday with a big party.",
+   "example_ko": "우리는 큰 파티로 그녀의 생일을 축하할 것이다.",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": null,
+     "example_en": "We held a party to celebrate the New Year."
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "word": "coming",
+   "ko": "시작, 도래",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 5,
+   "word": "costume",
+   "ko": "의상, 복장",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 123,
+   "def_en": "the clothes worn by actors in a play or film, or worn by somebody to make them look like somebody or something else",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "I will wear a prince costume for the Halloween party.",
+   "example_ko": "나는 할로윈 파티를 위해 왕자 복장을 입을 것이다.",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": "special clothes for a show, party, etc. to look different",
+     "example_en": "The boy wore a special costume for the Halloween party."
+    },
+    {
+     "where": "3쪽",
+     "def_en": "special clothes that people wear to look like someone or something else",
+     "example_en": null
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "word": "dead",
+   "ko": "죽은",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 7,
+   "word": "decorate",
+   "ko": "장식하다, 꾸미다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "v",
+   "page": 125,
+   "def_en": "to make something look more attractive by putting things on it",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "Mom decorated the living room with flowers.",
+   "example_ko": "엄마는 꽃으로 거실을 꾸몄다.",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": "to make something look nicer by putting things on it",
+     "example_en": "He is going to decorate the Christmas tree tonight."
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "word": "during",
+   "ko": "~ 동안",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 9,
+   "word": "end",
+   "ko": "끝나다; 끝",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 10,
+   "word": "festival",
+   "ko": "축제",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 11,
+   "word": "fireworks",
+   "ko": "불꽃놀이",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 121,
+   "def_en": "the pattern of colorful explosions in the air planned as a show",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "What time do the fireworks start?",
+   "example_ko": "불꽃놀이는 언제 시작하나요?"
+  },
+  {
+   "no": 12,
+   "word": "giant",
+   "ko": "거대한",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "a",
+   "page": 124,
+   "def_en": "very large",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "The giant tree stands in the middle of the park.",
+   "example_ko": "거대한 나무가 공원 한가운데에 서 있다.",
+   "alt": [
+    {
+     "where": "3쪽",
+     "def_en": "very big or larger than usual",
+     "example_en": "We watched a movie about a giant robot."
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "word": "hardly",
+   "ko": "거의 ~ 아니다",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 14,
+   "word": "hold",
+   "ko": "열다, 개최하다",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 15,
+   "word": "matter",
+   "ko": "중요하다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "v",
+   "page": 127,
+   "def_en": "to be important",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "The safety of the workers really matters to the company.",
+   "example_ko": "근로자의 안전이 회사에 정말 중요하다.",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": null,
+     "example_en": "For them, time doesn't matter so much."
+    }
+   ]
+  },
+  {
+   "no": 16,
+   "word": "parade",
+   "ko": "퍼레이드, 행진",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 124,
+   "def_en": "a line of people or vehicles moving together through a public place in order to celebrate an important day or event",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "The children waved their hands when the parade went by their house.",
+   "example_ko": "아이들은 퍼레이드가 그들의 집을 지나갈 때 손을 흔들었다."
+  },
+  {
+   "no": 17,
+   "word": "participate",
+   "ko": "참여하다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "v",
+   "page": 121,
+   "def_en": "to take part in or become involved in an activity",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "Did you decide to participate in the dance contest?",
+   "example_ko": "너는 댄스 대회에 참여하기로 결정했니?",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": "to take part in an activity",
+     "example_en": "I'm going to participate in the science fair with Ms. Brown."
+    },
+    {
+     "where": "3쪽",
+     "def_en": "to join in an activity or event with others",
+     "example_en": null
+    }
+   ]
+  },
+  {
+   "no": 18,
+   "word": "pole",
+   "ko": "기둥, 막대기",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 125,
+   "def_en": "a long, thin stick of wood or metal that is often used to support something",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "We used a pole to get the ball from the tree.",
+   "example_ko": "우리는 나무에서 공을 꺼내기 위해 막대기를 사용했다.",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": "a long, thin stick of wood, metal, etc.",
+     "example_en": "We used a pole to raise the flag during the ceremony."
+    }
+   ]
+  },
+  {
+   "no": 19,
+   "word": "possible",
+   "ko": "가능한",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "a",
+   "page": 127,
+   "def_en": "able to be done or achieved",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "There are some possible solutions to the problem.",
+   "example_ko": "그 문제에 대한 몇 가지 가능한 해결책이 있다.",
+   "alt": [
+    {
+     "where": "2쪽",
+     "def_en": null,
+     "example_en": "There are several possible answers to the question."
+    }
+   ]
+  },
+  {
+   "no": 20,
+   "word": "recipe",
+   "ko": "요리법",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 121,
+   "def_en": "directions for cooking food",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "She followed the recipe carefully to make the soup.",
+   "example_ko": "그녀는 수프를 만들기 위해 그 요리법을 신중하게 따랐다."
+  },
+  {
+   "no": 21,
+   "word": "reindeer",
+   "ko": "순록",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 127,
+   "def_en": "a type of deer that lives in the northern parts of Europe, Asia, and North America",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "Santa's reindeer are famous for their names like Rudolph.",
+   "example_ko": "산타의 순록은 루돌프와 같은 이름으로 유명하다."
+  },
+  {
+   "no": 22,
+   "word": "seasonal",
+   "ko": "계절적인",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 23,
+   "word": "skeleton",
+   "ko": "해골",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 126,
+   "def_en": "the structure of bones that support the body of a person or an animal",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "I saw the skeleton of a dinosaur in the museum.",
+   "example_ko": "나는 박물관에서 공룡의 해골을 보았다.",
+   "alt": [
+    {
+     "where": "3쪽",
+     "def_en": "the bones of a body, or something made to look like bones",
+     "example_en": null
+    }
+   ]
+  },
+  {
+   "no": 24,
+   "word": "statue",
+   "ko": "조각상",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "n",
+   "page": 124,
+   "def_en": "a large art object of a person or an animal that is made from a hard material like stone or metal",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "Many people visit the city to see the famous statue.",
+   "example_ko": "많은 사람들이 유명한 조각상을 보기 위해 그 도시를 방문한다."
+  },
+  {
+   "no": 25,
+   "word": "symbolize",
+   "ko": "상징하다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": "v",
+   "page": 124,
+   "def_en": "to represent something",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "Red roses often symbolize love.",
+   "example_ko": "빨간 장미는 흔히 사랑을 상징한다."
+  },
+  {
+   "no": 26,
+   "word": "all night long",
+   "ko": "밤새도록",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "example_en": "The baby cried all night long. I couldn't sleep at all.",
+   "example_src": "학교 (2쪽 C, 빈칸을 채운 것)"
+  },
+  {
+   "no": 27,
+   "word": "dress up",
+   "ko": "변장하다, 차려입다",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 28,
+   "word": "have fun",
+   "ko": "즐기다",
+   "ko_src": "학교 (1쪽 인쇄)"
+  },
+  {
+   "no": 29,
+   "word": "hundreds of",
+   "ko": "수백의 ~",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "example_en": "There are hundreds of books in the library.",
+   "example_src": "학교 (2쪽 C, 빈칸을 채운 것)"
+  },
+  {
+   "no": 30,
+   "word": "take place",
+   "ko": "개최되다",
+   "ko_src": "학교 (1쪽 인쇄)",
+   "pos": null,
+   "page": 124,
+   "def_en": "to happen",
+   "def_src": "학교 (15쪽 단어표)",
+   "example_en": "The concert will take place in a big stadium.",
+   "example_ko": "그 콘서트는 큰 경기장에서 열릴 것이다."
+  }
+ ],
+ "extra_words": {
+  "_note": "1쪽 30낱말 밖이지만 학습지에 나온 말. puzzle 은 15쪽 단어표, cemetery 는 3쪽 영영풀이 보기.",
+  "items": [
+   {
+    "word": "puzzle",
+    "pos": "n",
+    "page": 130,
+    "ko": "퍼즐",
+    "ko_src": "학교 (15쪽 인쇄)",
+    "def_en": "a game or problem that you have to think about carefully to solve",
+    "def_src": "학교 (15쪽 단어표)",
+    "example_en": "I enjoy solving a puzzle in my free time.",
+    "example_ko": "나는 여가 시간에 퍼즐 푸는 것을 즐긴다."
+   },
+   {
+    "word": "cemetery",
+    "pos": "n",
+    "ko": "묘지",
+    "ko_src": "Claude",
+    "def_en": "a place where people are buried when they die",
+    "def_src": "학교 (3쪽 Challenging A)"
+   }
+  ]
+ },
+ "distribution_scope": "internal_only"
+}
