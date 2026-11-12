@@ -195,6 +195,10 @@ def plan_for(school, G, L, passages, vocab):
                 if suffix not in v["drills"]:
                     continue
                 name, p, d = v["drills"][suffix]
+                # 드릴 JSON 의 book 은 만들 때 아는 학교를 다 적은 것 ('태장중 · 영덕중 배부물') — 권 머리말엔
+                # 그 권 학교 이름만 찍는다. 원장 2026-11-12 「영일 파일에 왜 영덕중 태장중 배부물이라고」.
+                if sec_kind == "handout_external" and d.get("book", "").endswith("배부물"):
+                    d = {**d, "book": f"{school} 배부물"}
                 if lang == "en" and not any(x.get("statement_en") for x in d["items"]):
                     continue
                 steps.append((suffix, p, d, lang, label))
@@ -210,7 +214,7 @@ class Renderer:
         self.chrome, self.tmp, self.logo, self.cache = chrome, tmp, logo, {}
 
     def pdf(self, suffix, path, d, lang, part):
-        key = (path, lang, part)
+        key = (path, lang, part, d.get("book"))     # 외부지문은 학교마다 머리말이 다르다
         if key not in self.cache:
             n = len(self.cache)
             html = os.path.join(self.tmp, f"{n:03d}.html")
