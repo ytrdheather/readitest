@@ -302,6 +302,12 @@ def build_params(school, spec, common, materials, points_hint, set_no, hard=Fals
         ess = "\n\n## 서술형 설계\n\n규칙: " + spec["essay_rule"] + "\n"
         for i, e in enumerate(spec["essay_blueprint"], 1):
             ess += f"  {i}. " + " · ".join(f"{k} {v}" for k, v in e.items()) + "\n"
+        if spec.get("essay_free"):
+            ess += (f"\n**예외 — 「답 꼴」 이 자유 서술인 {spec['essay_free']}문항**은 「칸 하나에 몇 단어」 규칙을 "
+                    "따르지 않습니다. 학생이 **한 문장(16단어 이하)을 통째로** 쓰게 하십시오: `answer_slots` 는 빈 배열, "
+                    "`answer_en` 에 모범 답을 한 줄에 하나씩(인정되는 다른 답 포함), `why_ko` 에 **채점 기준**"
+                    "(내용 · 지정 어법 · 조건 위반 각각 몇 점 감점)을 적으십시오. 조건에는 「윗글에서 연속된 3단어 "
+                    "이상을 그대로 사용하지 말 것」 을 반드시 넣고, **모범 답이 그 조건을 스스로 어기지 않는지** 확인하십시오.\n")
         ess += (f"\n서술형은 {spec['essay']}문항, 합계 {spec['essay_points']}점입니다.\n"
                 "**전치사를 묻는 자리를 하나 넣으십시오** — 원장 지시 2026-09-09: "
                 "「서술형에 문제로도 1개 정도는 출제 될 수 있어」. "
@@ -485,6 +491,10 @@ def parse(raw, spec, given, source_mats=None):
     #   · 필수 단어 `see` 를 `saw` 로 쓰는 것은 **맞는 답**이다 (문제가 과거형을 요구)
     # 그래서 확실히 틀린 것만 problems 에 넣고 나머지는 warnings 로 뺀다.
     warnings = []
+    # 자유 서술 예외 (설계도 `essay_free`, 2026-11-15) — 영일중1 2026 기말 논술이 「글 내용을 한 문장으로,
+    # 본문 연속 3단어 금지」 로 바뀌었다. 그 꼴은 한 문장을 통째로 써야 해서 7단어 검사에 걸린다.
+    # 설계도가 허락한 문항 수까지만, 답칸(answer_slots)이 없고 16단어 이하일 때 봐준다. 그 밖은 예전 그대로 막는다.
+    free_left = spec.get("essay_free", 0)
     for e in essays:
         # 채점형 검사 (2026-10-04) — 칸 하나의 답이 7단어를 넘으면 줄글이다.
         # 「(1) … (2) …」 를 한 줄에 쓴 옛 답도 칸별로 끊어 센다 (중1 논술 3·4 오탐)
@@ -493,7 +503,15 @@ def parse(raw, spec, given, source_mats=None):
                 continue
             body = re.sub(r"^\s*\(\w\)|\([^)]*(정답|또는)[^)]*\)", "", ln)
             body = body.split("→")[-1]            # 「틀린 것 → 고친 것」 은 고친 쪽만 센다
-            if len(re.findall(r"[A-Za-z][A-Za-z'’-]*", body)) > 7:
+            n_words = len(re.findall(r"[A-Za-z][A-Za-z'’-]*", body))
+            if n_words > 7:
+                if free_left > 0 and n_words <= 16 and not e.get("answer_slots"):
+                    free_left -= 1                # 이 문항은 자유 서술로 친다 — 남은 줄(다른 모범답)은 16단어만 본다
+                    over = [x for x in e.get("answer_en", "").split("\n")
+                            if len(re.findall(r"[A-Za-z][A-Za-z'’-]*", x)) > 16]
+                    if over:
+                        problems.append(f"서술형 {e.get('no')}번 자유 서술 답이 16단어를 넘음: {over[0].strip()[:40]}")
+                    break
                 problems.append(f"서술형 {e.get('no')}번 답 한 칸이 7단어를 넘음 — 채점형 아님: {ln.strip()[:40]}")
                 break
         # 칸 하나 단어 수 범위 (설계도 `essay_slot_words`) — 영덕중2 7세트 원장 2026-10-06
